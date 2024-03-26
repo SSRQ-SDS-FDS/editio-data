@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil:
+                    Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der
+                    Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title>
+                <editor>
+                    <persName>Bettina Fürderer</persName>
+                </editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability>
+                    <p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-277-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="de">Stadtarchiv Winterthur</repository>
+                        <idno xml:lang="de">STAW AF 81/2</idno>
+                    </msIdentifier>
+                    <head>Ordnung des Winterthurer Lörlibads</head>
+                    <msContents>
+                        <summary>Schultheiss und Rat von Winterthur erlassen eine Ordnung für das
+                            Lörlibad: Der Bader erhält für das Baden eines Erwachsenen pro Halbtag 5
+                            Haller, für das Baden eines Kindes unter 10 Jahren pro Halbtag 3 Haller
+                            und für das Heizen der Zuber pro Tag 1 Schilling Haller (1, 2). Das Bad
+                            soll von 5 Uhr morgens bis 19 Uhr abends beheizt werden. Es soll für
+                            ausreichend tiefes Wasser gesorgt werden (4). Männer und Frauen sollen
+                            in getrennten Wannen baden, die Badegäste sollen die Wanne nicht
+                            wechseln (3). Der Bader darf Gästen nicht erlauben, sich den Schmutz
+                            abzuwaschen. Man darf sich allenfalls in einem separaten Zuber oder nach
+                            19 Uhr waschen (5). Personen mit offenen Wunden sollen ebenfalls
+                            separate Zuber benutzen, andernfalls wird ein Bussgeld von 5 Schilling
+                            Haller verhängt (6). Es ist bei Strafe von 2 Pfund Haller verboten,
+                            Tiere, Kleidung, Schuhe, Kot oder sonstiges in das Bad zu werfen (7). Es
+                            ist bei Strafe von 5 Schilling verboten, andere im Bad zu schlagen oder
+                            mit Wasser zu spritzen (8) oder grobe Worte zu verwenden (9). Es ist bei
+                            Strafe von 10 Schilling verboten, andere als Lügner zu diffamieren (11).
+                            Blasphemische Äusserungen und sonstige Vergehen ziehen die doppelte
+                            Strafe nach sich (12). Dem Bader ist bei Strafe von 5 Schilling
+                            verboten, im Bad Waffen zu tragen (10). Der Bader soll schwören, diese
+                            Ordnung einzuhalten und Verstösse dem Schultheissen zu melden.</summary>
+                        <msItem>
+                            <textLang xml:lang="de"/>
+                            <author role="scribe"><persName ref="per014937">Gebhard Hegner</persName></author>
+                            <filiation type="current">Aufzeichnung (Einzelblatt)</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="32.0"/>
+                                        <width unit="cm" quantity="21.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1537-05-11"/></origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Edition</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000104927"
+                                    >Gantenbein 1996</ref>, Nr. 10.5, S. 316-318</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key004465">Badstube</term>
+                    <term ref="key000179">Eid</term>
+                    <term ref="key005399">Hygiene</term>
+                    <term ref="key004196">Kinder/Jugendliche</term>
+                    <term ref="key000212">Löhne</term>
+                    <term ref="key004022">Satzung</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="1" facs="STAW_AF_81_2_S.1"/>
+                        <head><lb/><add place="bottom" type="sign"><lb/>Hienach volgtt die ordnung
+                                des <placeName ref="loc013725">Loͤrlibads</placeName> von minen
+                                heren, <orgName ref="org007943">sch<lb break="no"/>ultheis und
+                                    rate</orgName>, gesetzt, wie die vom bader und allen denen,
+                                <lb/>so darin badent, soͤlle<del>r</del> gehalten werden. Actum
+                                    <origDate when="1537-05-11">frittag, den elfften <lb/>tag des
+                                    monats meyen, anno domini xv<hi rend="sup">c</hi> und xxxvij
+                                    jar</origDate></add><note>Dieser am unteren Rand nachgetragene
+                                Titel ersetzt die beiden gestrichenen Titel.</note></head>
+                        <p><delSpan spanTo="del1" rend="crossout"/><subst><del hand="later hand"
+                                    ><lb/>Hienach wirdt begriffen die ordnung <lb/>des <placeName
+                                        ref="loc013725">Loͤrlinbads</placeName>, von den geordnaten
+                                    uff <lb/>eins <orgName ref="org005587">rats</orgName>
+                                    beschliesen zehalten gesetzt</del>.<add place="left margin"
+                                    rend="other ink"><lb/>Hienach volgt die ordnung des
+                                        <lb/><placeName ref="loc013725">Loͤrlybads</placeName>, ouch
+                                    deren, so darin <lb/>baden, <del>wie die sich</del> von minen
+                                    <lb/>heren, <orgName ref="org007943">schultheis und
+                                        rate</orgName>, gesetzt, <lb/>wie die <add place="above"
+                                        >nach <unclear>volgend</unclear></add> gehalten soll werden.
+                                    <lb/>Actum</add></subst><anchor xml:id="del1"/></p>
+                        <p><seg n="1"><lb/>Erstlich haben mine heren des lons halb gesetzt und
+                                geordnett, <lb/>namlich das der <add place="above" rend="other ink"
+                                    >bader</add> von einem gwachsnen maͤnschen in den casten <add
+                                    place="right margin">zuͦ bad<damage agent="clipping"><supplied
+                                            resp="bf">en</supplied></damage></add>
+                                <lb/><date dur-iso="P1D">ein tag</date> zelon soͤlle naͤmen <measure
+                                    type="currency" unit="h" quantity="10">x haller</measure>
+                                <add place="left margin" type="sign"><lb/>und ein <date
+                                        dur-iso="P0.5D">halben <add place="above" rend="other ink"
+                                            >tag</add></date>
+                                    <measure type="currency" unit="h" quantity="5">v
+                                        haller</measure></add> und von einem kind <lb/><date
+                                    dur-iso="P1D">ein tag</date>
+                                <measure type="currency" unit="h" quantity="6">vj haller</measure>,
+                                    <add place="left margin" type="sign"><lb/>ouch <date
+                                        dur-iso="P0.5D">ɉ halben</date>
+                                    <add place="above" rend="other ink">tag</add>
+                                    <measure type="currency" unit="h" quantity="3">3
+                                    ħ</measure></add>, was under <measure type="age" unit="year"
+                                    quantity="10">zaͤchen jaren</measure> ist. Was kinden <lb/>aber
+                                uber <measure type="age" unit="year" quantity="10">zaͤchen
+                                    jar</measure> sind, soͤllend das gantz badgaͤltt gaͤben.</seg>
+                        </p>
+                        <p>
+                            <seg n="2"><lb/>Zem anderen soll einer <date dur-iso="P1D">j tag</date>
+                                von einem zuber ze heitzen gaͤben <lb/><measure type="currency"
+                                    unit="ß" quantity="1">j  haller</measure>, oͤb glich woll <num
+                                    value="2">zwey</num> zuͦ samen in ein zuber sitzen.</seg>
+                        </p>
+                        <p>
+                            <seg n="3">
+                                <lb/>Mine heren haben ouch gesetzt, das der bader darob und an
+                                soͤlle <lb/>sin, so er vill lüt ze baden hab, das er die man zuͦ
+                                samen <del hand="later hand">beso<lb break="no"/>nder</del> in ein
+                                kasten und die wiber ouch besonder in einen casten <lb/>zuͦ samen
+                                ordnen und setzen, darzuͦ <add place="above" type="sign">das</add>
+                                ein jedes in dem casten, <lb/>darin es erstlich ze baden sitzt,
+                                beliben und nit uß eim casten <lb/>in den anderen ze baden luͦffen
+                                soͤlle.</seg>
+                        </p>
+                        <p>
+                            <seg n="4"><lb/>Es soll ouch der bader daß bad ze heitzen schuldig sin
+                                in obe<lb break="no"/>stimptem bad gaͤllt, namlich an <time
+                                    period="morning">morgen</time>
+                                <time when="05:00:00">zuͦ fünffen</time> gheitzt <lb/>sin und das
+                                warm behalten bitz zuͦ <time period="byNight">nacht</time>
+                                <time when="19:00:00">umb die sibne</time>, oͤb <lb/>aber einer mer
+                                zit darüber <add place="above" rend="other ink" type="sign">baden
+                                    woͤlte</add>, das dan der mit dem bader umb <lb/>dasselbig
+                                besonder lons halb bekomen soͤlle. <add place="left margin"
+                                    type="sign"><lb/>Ouch das bad in raͤ<lb break="no"/>chter tüffy
+                                    machen und <lb/>deß durch sich saͤlbs <lb/>oder einen k<supplied
+                                        reason="omitted" resp="bf">n</supplied>aͤcht fli<lb
+                                        break="no"/>sig warten.</add></seg>
+                        </p>
+                        <p>
+                            <seg n="5"><lb/>Der bader soll ouch niemantz in das bad sych uß dem
+                                stuͦb und <lb/>katt zewaͤschen <add place="above" type="sign"
+                                    >gan</add> vergunen und biderblu̍t also u̍ber setzen, besonder
+                                <lb/>so einer, es sige joch burger oder froͤmbd, sich zuͦ waͤschen
+                                        kaͤme<subst><del rend="blackened">nd</del><add place="above"
+                                        rend="other ink" type="sign">nd</add></subst>, <lb/>das er
+                                    <add place="above" type="sign">dem oder</add> denen besonderbar
+                                zuber oder casten gaͤben soͤlle. Woll wan <lb/>das bad zit
+                                verschinen, also wan es <subst><del>zuͦ
+                                        b<unclear>a</unclear>d</del><add place="above">zuͦ <time
+                                            period="evening">abend</time></add></subst>
+                                <time when="19:00:00">sibny</time> gschlagen hatt, das er <lb/>alß
+                                dan <del>woll</del> einem in die casten sich ze erwaͤschen <add
+                                    place="above" type="sign">gan</add> woll <del>moͤge</del>
+                                <lb/>erluͦben moͤge.</seg>
+                        </p>
+                        <p>
+                            <seg n="6"><add place="below" rend="other ink"><lb/>Es ensoll ouch der
+                                    bader dhein menschen, so boͤse bein oder sunst <lb/>böß schaͤden
+                                    hetend, in die casten zesitzen <add place="above" type="sign"
+                                        >nit</add> erluͦben, besonder soll <lb/>er die in sondere
+                                    zuber setzen. Oͤb aber einer darwider thate, der <lb/>soll minen
+                                    heren zebuͦß gaͤben <measure type="currency" unit="ß"
+                                        quantity="5">v  haller</measure>, so dick das
+                                    beschichtt.</add></seg>
+                        </p>
+                        <p>
+                            <seg n="7"><add place="below" rend="other ink"><lb/>Mine heren gepietend
+                                    ouch zem hoͤchsten, das niemantz u̍tzett, <lb/>es sige joch
+                                    thier, kleider, schuͦ, katt oder anders, in das bad soͤlle
+                                    <lb/>werffen, wan wer das ubersaͤchen und nitt halltten würden,
+                                    die <lb/>saͤlben mine heren straffen umb <measure
+                                        type="currency" unit="lb" quantity="2">ij  haller</measure>
+                                    und daran nie<lb break="no"/>mand nützett nachlasen.</add></seg>
+                        </p>
+                        <pb n="2" facs="STAW_AF_81_2_S.2"/>
+                        <p>
+                            <seg n="8"><add place="verso" rend="other ink"><lb/>Wer ouch den anderen
+                                    im bad würde
+                                    tuͦffen<!-- prügeln, Idiotikon XII, Sp. 633, 637f. --> oder
+                                    unzimlich <lb/>sprützen <del>sprützen</del>, der oder die
+                                    saͤlbigen soͤllen minen heren ze buͦß <lb/>geben <measure
+                                        type="currency" unit="ß" quantity="5">v </measure>. Und es
+                                    moͤchte einer darnach faren, mine heren <lb/>würden den witer
+                                    nach sinem verdienen straffen.</add></seg>
+                        </p>
+                        <p>
+                            <seg n="9"><add place="verso" rend="other ink"><lb/>Mine heren gepietend
+                                    ouch, das niemantz, weder fruͦwe oder <lb/>man, dheine grob
+                                    reden soͤlind pruchen. Dan wer das <lb/>ubersaͤchen, wellen mine
+                                    heren straffen ein jeden umb <lb/><measure type="currency"
+                                        unit="ß" quantity="5">v </measure>. Und es moͤchte einer
+                                    also faren, mine heren würden witer <lb/>der gepür nach mit der
+                                    straff faren.</add></seg>
+                        </p>
+                        <p>
+                            <seg n="10"><add place="verso" rend="other ink"><lb/>Es ensoll ouch
+                                    dhein bader <sic>dein</sic> gwer oder waffen mit <lb/>im
+                                        <del>uber</del> zuͦ dem bad nemen. Dan wer das nit halten,
+                                    <lb/>würden mine heren straffen umb <measure type="currency"
+                                        unit="ß" quantity="5">v </measure>. </add></seg>
+                        </p>
+                        <p>
+                            <seg n="11"><add place="verso" rend="other ink"><lb/><subst><del>Wer
+                                            ouch</del><add place="above">So einer</add></subst> den
+                                    anderen in dem bad fraͤffenlich
+                                    hiese<!-- 2 Bedeutungen: auffordern und bezichtigen, Idiotikon II, Sp. 1684f. -->
+                                    lügen <lb/>oder nitt war sagen, oͤb glich woll dhein
+                                        <del>dhe</del> zerwürffnüß <lb/>daruß volgte, der
+                                        <del>od</del> soll minen heren zebuͦß zegaͤben verfa<lb
+                                        break="no"/>llen sin <measure type="currency" unit="ß"
+                                        quantity="10">x </measure>, so dick das
+                                beschicht.</add></seg>
+                        </p>
+                        <p>
+                            <seg n="12"><add place="verso" rend="other ink"><lb/>Mine heren haben
+                                    ouch ernstlich betrachtt, das gotzlesteren <lb/>abzuͦ stellen,
+                                    und deswaͤgen gesetzt, das alle die, so da <lb/>würden gotz
+                                    lesteren, es sigind jung oder altt lüt, <add place="above"
+                                        type="sign">das</add> ein jedes, <lb/>so soͤlichs uͤben,
+                                    nach lutt miner heren satzung umb zwifache <lb/>buͦß soͤlle
+                                    gestrafft werden. Deßglichen ouch aller <lb/>anderen fraͤfflen
+                                    halb, wie joch die zestraffen im bruch <lb/>sig<supplied
+                                        resp="bf">in</supplied>d, <del>min heren</del> das min heren
+                                    ein jeden, darnach er <lb/>gefraͤfflatt, umb zwifache buͦß
+                                    straffen wellen. Und es moͤchte <lb/>einer mitt dem gotzlesteren
+                                    oder anderen fraͤfflen <subst><del>oder</del><add place="above"
+                                            >ald</add></subst> unzuchten, <lb/>es sige trinkens oder
+                                    anderer dingen halb, so grob faren, mine <lb/>heren würden den
+                                    saͤlbigen witer der gepürnach an sinem <lb/>guͦtt, lib oder
+                                    leben straffen. <choice>
+                                        <abbr>Da</abbr>
+                                        <expan>Darumb</expan>
+                                    </choice> sig <add place="above">im</add> ein jeder selbs
+                                    <lb/>vor schaden.</add></seg>
+                        </p>
+                        <p>
+                            <add place="verso" rend="other ink">
+                                <lb/>Solich oberzeltt ordnung soll der bader schweren zehalten,
+                                <lb/>ouch alle, die so nach lutt der ordnung buͦß felig werden,
+                                <lb/>one verzug einem schultheisen zeleiden und grundtlich anzuͦ<lb
+                                    break="no"/>zeigen.</add>
+                        </p>
+                    </div>
+                    <div>
+                        <ab type="dorsal" place="above" hand="hand19c">Sine Dato</ab>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Das <placeName ref="loc013725">Lörlibad</placeName> oder die obere
+                            Badstube in <placeName ref="loc000849">Winterthur</placeName> wird 1349
+                            erstmals erwähnt. Einrichtung und Betrieb der Badstube war ursprünglich
+                            ein stadtherrliches Recht, bis <orgName ref="org007943">Schultheiss und
+                                Rat</orgName> 1425 die Badstube erwerben konnten und Anfang der
+                            1470er Jahre ein zweites Bad, das <placeName ref="loc013726"
+                                >Goldbad</placeName>, eröffneten, vgl. <bibl><ref
+                                    target="urn:ssrq:SSRQ-ZH-NF_I_2_1-19-1">SSRQ ZH NF I/2/1
+                                    19-1</ref></bibl>. Die Bäder waren an Bader verpachtet. Die
+                            Vergütung ihrer Dienstleistungen und die Hausordnung, an die sich die
+                            Badegäste zu halten hatten, legte die städtische Obrigkeit fest.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

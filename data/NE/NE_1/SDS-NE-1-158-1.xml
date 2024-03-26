@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-158-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN 14, p.&#160;62-63</idno>
+               </msIdentifier>
+               <head>Loi des Trois&#160;États sur l'enregistrement des sociétés de commerce</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34"/>
+                              <width unit="cm" quantity="47.3"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1772-05-05"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_371"
+                              >SDS&#160;NE&#160;1,&#160;N<hi rend="sup">o</hi>&#160;158</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000907"></term>
+               <term ref="key003025"></term>
+               <term ref="key000533"></term>
+               <term ref="key005004"></term>
+               <term ref="key004774"></term>
+               <term ref="key000817"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="62" facs="AEN_EN_14_62_63"/>
+                            <div>
+                                 <p><lb/>
+                                    Article&#160;1</p> 
+                               <p><lb/>Tous négociants<note>Note Favarger&#160;1982&#160;: Pour
+                        Neuchâtel, le premier «&#160;Registre concernant les Sociétés de
+                        Commerce&#160;» commence à la date du 22&#160;mai&#160;1773. La loi sur
+                        l'enregistrement des sociétés de commerce constate juridiquement les succès
+                        commerciaux de Jacques-Louis Pourtalès (1722-1814) le Grand Pourtalès,
+                        cf.&#160;Louis Bergeron, «&#160;Pourtalès et C<hi rend="sup">ie</hi>
+                        (1753-1801...&#160;», dans Annales E.S.C., 1970, p.&#160;498-517.</note>
+                     actuellement en societé devront dans le <lb/>mois apres la promulgation des
+                     présentes, et ceux qui dans <lb/>la suitte contracteront des sociétés de
+                     commerce, d'abord en <lb/>donnant effet à leur contract de societé, faire
+                     inscrire dans <lb/>un livre qui sera au greffe de la jurisdiction ou le
+                     commerce <pb n="63" facs="AEN_EN_14_62_63" type="original"/>
+                     <lb/>aura son siège, pour être communiqué à toute personne qui <lb/>l'exigera
+                     un extrait exact et fidèle signé par tous les interressés <lb/>à leur commerce,
+                     qui devra contenir toutes les clauses de leur <lb/>société qui peuvent
+                     interresser la confiance publique, telles <lb/>que le nom et surnom de tous les
+                     associés solidaires, la <term ref="lem025141.01">quotité</term>
+                     <lb/>de la mise de ceux qui le seront en commandite, les pouvoirs <lb/>donnés à
+                     chaque associé, la durée de la societé, les changemens <lb/>qui pouroient y
+                     être faits dans le tems d'icelle, ainsi que sa <lb/>dissolution si elle
+                     arrivoit avant le terme &amp; sous peine d'être <lb/>poursuivis criminellement
+                     et d'être en outre tenus des dommages <lb/>et intérêts de la partie civile.</p>
+                               <p><lb/>Article&#160;2.</p> 
+                        <p><lb/>Tous négociants donnant des pouvoirs de signer sous la <lb/>raison de
+                     leur commerce, à quelque agent ou commis <lb/>devront tout de suitte les faire
+                     inscrire de même manière <lb/>et sur le même livre <add place="above"
+                        >&amp;</add> on en usera ainsy à leur révocation. </p>
+                  <lb/>
+               </div>
+            </body>
+            <back>
+               <div><p>Ancienne cote aux AEN&#160;: AC&#160;14.</p></div>
+               <div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+                  <p>AEN, Registre des Trois&#160;États, X, 5&#160;mai&#160;1772 (sans
+                     pagination).</p>
+                  <p>Éd.&#160;Recueil de pièces officielles, I, p.&#160;479-482.</p>  
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.23-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 197 (1646), S. 284</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 197 (1646), p. 284</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Obertoos-Raeber, Elsi Tunney-Schueller – Anweisung</head>
+					<head xml:lang="fr">Anni Obertoos-Raeber, Elsi Tunney-Schueller – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-24">24 <foreign xml:lang="la">julii</foreign> 1646</origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangne</p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<p><lb/><persName ref="per016996a.01">Anni Räber, die Obertossina genandt</persName>, <term ref="lem011468.03">bekhendt</term>, daß
+							<lb/>sie vor <date dur-iso="P9Y">9 jahren</date> gott <term ref="lem016063.05">verlaugnet</term> unnd sich dem <term ref="lem014673.16">bößen
+								<lb/>feind</term> <term ref="lem018858.01">ergeben</term>, auch vill <term ref="lem000075.13">lüth</term> unnd <term ref="lem000310.14">viech</term> <term ref="lem016356.03">vergifftet</term>
+							<lb/>habe. Unnd gibt etliche an, die sie in der <term ref="lem017042.03">sect</term> ge<lb break="no"/>sehen. Die völlige <term ref="lem013000.01">tortur</term> mit dißer ist yngestelt, biß
+							<lb/>daß die angebnen in die gefangenschafft verschafft
+							<lb/>syend, unnd <term ref="lem011997">inquiriert</term>. Die <persName ref="per016968b.03">Elsi Tonney</persName> soll uß anlaß
+							<lb/>dißer <term ref="lem016794.09">bekhandtnus</term> noch ein mahl examiniert werden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-208.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 283 (1732), S. 7</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 283 (1732), p. 7</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Repond – Anweisung</head>
+					<head xml:lang="fr">Marguerite Repond – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1732-01-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la">januari</foreign> [1732]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Procedure criminele
+						<lb/>de <placeName ref="loc008470.07">Gruyere</placeName></p>
+						<p><lb/>Contre <persName ref="per028136a.01">Margueritte Repond</persName> de <placeName ref="loc008195.07">Villars Vollard</placeName>, balliage de <placeName ref="loc008049.04">Corbiere</placeName>.
+						<lb/>Das undergericht hatt die selbe zum ½ <term ref="lem018237.07">centner</term> <term ref="lem015158.02">verfelt</term>.
+						<lb/>Die undergerichtliche <term ref="lem005963.36">erkhandtnuß</term> ist bestättiget, mit <term ref="lem004618.02">befelch</term>
+						<lb/>an <add place="above"><choice><abbr>hoge</abbr><expan>hochgeehrten</expan></choice></add> <abbr>h</abbr> ambts <term ref="lem018597.08">burger meister</term> <persName ref="per028155a.02">Haberkorn</persName> und wohlgeehrte <choice><abbr>hh</abbr><expan>herren</expan></choice>
+						<lb/>grosweibel<note>Gemeint ist <persName ref="per028146">Karl Simon Odet</persName>.</note> und grichtschreiberen<note>Gemeint ist <persName ref="per028157">Franz Nikolaus Haberkorn</persName>.</note>, sich zu bemüehen, lauth
+						<lb/>oberkeitlicher intention die notwendige information <subst><del>bey</del><add place="overwritten">von</add></subst> wohlgeehrten
+						<lb/><abbr>h</abbr> alt landtvogten von <placeName ref="loc008049.03">Corbers</placeName><note>Gemeint ist <persName ref="per028137a">Beat Nikolaus von Montenach</persName>.</note>, so wohl auch von seine ehe<lb break="no"/>damen<note>Gemeint ist <persName ref="per028231">Marie Anne Carmintran</persName>.</note>
+							einzunehmen. Und werde daß <term ref="lem018896.02">befünden</term> <abbr>h</abbr> ambts<lb break="no"/>mann von <placeName ref="loc008470.04">Gryers</placeName><note>Gemeint ist <persName ref="per028142">Franz Anton von Montenach</persName>.</note> zu geschickt, damit sie über dise und
+						<lb/>schon emfangner von seiten <placeName ref="loc007861.02">Boll</placeName> und <placeName ref="loc008049.03">Corbers</placeName> examiniert
+						<lb/>werde.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

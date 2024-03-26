@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-99.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 13, S. 410–412</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 13, p. 410–412</idno>
+					</msIdentifier>
+					<head xml:lang="de">Christine Bovigny-Corby – Verhör</head>
+					<head xml:lang="fr">Christine Bovigny-Corby – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-07-20"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="410"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1637-07-20">20 <foreign xml:lang="la">julii</foreign></origDate>
+							<seg><lb/><foreign xml:lang="la"><choice><abbr>Jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006714a.03">Frio</persName>, <abbr>h</abbr> <choice><abbr>b</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per011533">Gottrau</persName></seg>
+							<seg><lb/><persName ref="per011519">Techterman</persName>, <persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<pb n="411"/><p><seg><lb/><persName ref="per011980a">Christine</persName> susdite enquise si elle n’avoit reproché
+							<lb/>a la <persName>Grabera</persName> pourquoy elle la blasmoit, a respondu
+							<lb/>n’avoir dict autre chose a la <persName>Grabera</persName>, sinon que son frere
+							<lb/>la blasmoit. Elle advoue que la servante de ladite
+							<lb/><persName>Grabera</persName> l’a trouvee de nuict sur l’emboucheure ou <term ref="lem016247.02">de<lb break="no"/>grez</term> de la cave, mais pas nue, ouy bien sans coeffe&#160;;
+							<lb/><add place="interlinear">qu’elle s’estoit retiree hastivement et cachee en ce lieu,</add>
+							<lb/>parce que venant de soupper d’avec la femme de <persName>Ulli
+							<lb/>de Barraux</persName>, deux jeusnes hommes courrurent
+							<lb/>apréz elle <add place="left margin" type="sign">par la ruelle</add>, et  la voullantz arrester, l’empoignerent
+							<lb/>par la coeffe, qui tomba par terre, laquelle, ce
+							<lb/>mesme soir, elle retrouva et s’en alla coucher chez la
+							<lb/><persName>Larmina</persName>, qui la loge.</seg> <seg>Sur la proposition si elle
+								<lb/>n’avoit <term ref="lem015635.10">baillé</term> le mal a la femme de <persName>Ulli de Praro<lb break="no"/>man</persName>, qui pour ceste cause l’avoit blasmé <term ref="lem019389.02">sorciere</term>,
+							<lb/>a dict qu’estant chez la <persName>Larmina</persName>, la <persName>Praroman<lb break="no"/>da</persName> l’alla querir, disant que son pere <add place="above" type="sign">luy</add> voulloit parler.
+							<lb/>Surquoy elle alla quant et quant la <persName>Praromanda</persName>, et<del><gap reason="illegible" quantity="1" unit="cm"/></del>
+							<lb/>trouva <persName>Praroman</persName> au lict, qu’allors la <persName>Praromande</persName>
+							<lb/>luy dict qu’elle luy debvoit oster son mal et la
+								<lb/>battist, l’appellant <term ref="lem019389.02">sorciere</term>, et elle repartist&#160;:
+								<lb/><q>&#160;Celuy qui m’appelle <term ref="lem019389.02">sorciere</term>, l’est plus que moy&#160;!&#160;</q>&#160;; et
+							<lb/>demanda a la <persName>Praromande</persName>, de quelle personne elle
+								<lb/>avoit entendu qu’elle estoit <term ref="lem019389.02">sorciere</term>, et la <persName>Praromande</persName>
+							<lb/>respondit du <term ref="lem018791.01">bourreau</term>, ce qu’occasionna la pri<pb n="412"/><lb break="no"/>sonniere de s’adresser a <persName>Jogli</persName> et luy reprocher tel
+							<lb/>blasme, duquel il fust desniant. Elle nie
+							<lb/>d’avoir dict que la <persName>Praromande</persName> avoit les <term ref="lem017521.02">diables</term>
+								<lb/>au corpz, et que la <persName>Praromande</persName> avoit esté a la de<lb break="no"/>vineresse de <placeName ref="loc007599.04">Pontaux</placeName>, par ce qu’elle
+								sçavoit du con<lb break="no"/>traire.</seg> <seg>Elle <term ref="lem015549.13">confesse</term> d’avoir eheue de la <term ref="lem018382.01">grais<lb break="no"/>se</term> noirre dans une coque d’<term ref="lem019398.01">oeuf</term> et de la verde dans
+							<lb/>une <term ref="lem014919.02">boette</term>, qu’elle avoit mises dans une lanterne,
+							<lb/>lesquelles <persName>Clauda des Dames</persName> luy <term ref="lem015635.11">bailla</term> pour
+							<lb/>penser sa teste.</seg> <seg>Elle advoue aussy d’avoir prié
+							<lb/><persName>Margareth Kummer</persName> de luy prester <measure type="currency" quantity="1" unit="bz">un batz</measure> et
+							<lb/>qu’il pourroit estre qu’elle l’auroit toucher, mais
+							<lb/>pas a mauvaise intention. Item qu’elle a demandé
+							<lb/>l’<term ref="lem019353.05">heberge</term> a la <persName>Wyssina</persName> <del rend="underline">mais pas a mauvaise inten<lb break="no"/>tion</del> mais qu’en estant esconduicte, elle se retira
+							<lb/>sans s’offencer et <term ref="lem016166">enaigrir</term>.</seg> <seg>Dict que tous ceux qui
+							<lb/>disent qu’elle les a outragez luy font tort.
+							<lb/>Nie d’avoir dict qu’elle sçavoit faire les gens
+								<lb/>borgnes et sourdz, sans portant estre <term ref="lem019389.02">sorciere</term>.
+							<lb/>Nie aussy les autres articles de l’examen.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

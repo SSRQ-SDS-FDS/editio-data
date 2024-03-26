@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-58-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;190v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales relative aux recourants qui négligent de comparaître
+                  en temps utile</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1532-04-12"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_155">SDS NE 1, N<hi rend="sup">o</hi>&#160;58</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184"></term>
+               <term ref="key005189"></term>
+               <term ref="key005057"></term>
+                                         </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="190v" facs="AEN_3PAST_2_190v_191r"/>
+                              <div>
+                                 <add place="left margin"><lb/>Decret touchant ceux qui <lb/>ne presentent leurs <lb/>griefs après lecture des <lb/>remaises.</add> 
+                                    <p><lb/>Messieurs ont reconfirmé l’ordonnance faite par les precedentes
+                     <lb/>audiances<note>Note Favarger&#160;1982&#160;: Ce texte ne nous est pas
+                        parvenu.</note> qu'est que tout ceux qui ne comparoistront pour presenter
+                     <lb/>leurs griefs après que leurs <term ref="lem017803.03">remaises</term>
+                     seront leuës, seront esmandables de <lb/>soixante solz. Et s'il ne vient
+                     pendant que l'audiance se tiendra du lieu <lb/>d'ou il sera, l'on doibt donner
+                     passement a celuy qui sera comparissant selon <lb/>que par raison apartiendra.</p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;190v.<note>Aujourd'hui AEN 3PAST-2</note></p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;267.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;4v.</p>
+               <p>AEN, Registre des Trois-États, I, fol.&#160;5v. Copie de&#160;1579, AEN,
+                     T&#160;12, N<hi rend="sup">o</hi>&#160;2, p.&#160;14.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;2.</p>
+               </div>
+            <div>
+               <p>Remarque&#160;:</p>
+               <p>Dans un procès opposant le sire de Montfaucon au sire de La Roche au sujet du fief
+                     de Châtillon et de la moitié de Belvoir (département du Doubs) que le dit sire
+                     de La Roche devait tenir en fief rendable et lige («&#160;legie et
+                     reddibiliter&#160;»), le sire de Montfaucon prouve son droit, «&#160;legitime
+                     probavit per plures testes idoneos, nobiles milites et fide dignos
+                     juratos&#160;» contre le sire de La Roche qui «&#160;predictam autem
+                     probationem sive passamentum... approbavit et acceptatit&#160;» (AEN, S&#160;3,
+                        N<hi rend="sup">o</hi>&#160;6<hi rend="sup">a</hi>, de 1245). Une mention
+                     marginale de 1481 (n.st.) indique&#160;: «&#160;... et doit le baron parcequ'il
+                     n'a comparu des audiances&#160;» (AEN, «&#160;Audiences générales&#160;»,
+                     vol.&#160;I, p.&#160;30)&#160;; le 19&#160;mars&#160;1481 (n.st.) les trois
+                     états avaient déjà fait une déclaration («&#160;a esté déclaré&#160;») à la
+                     suite d'une «&#160;congnoissance faite par les trois estas des deffaulx aux
+                     audiances [générales] et des non comparissans...&#160;» (<hi rend="italic"
+                        >ibidem</hi>, fol.&#160;99v). C'est la «&#160;connaissance&#160;» qui est
+                     déclarée par les trois états composant les Audiences générales.</p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-140-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+                  <idno xml:lang="fr">AVN GA-A8.3</idno>
+               </msIdentifier>
+               <head>Mandement d'Henri&#160;II de Longueville accordant au Conseil des Vingt-Quatre la faculté de choisir ses juges parmi le Conseil des Quarante</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="28.8"/>
+                              <width unit="cm" quantity="43.8"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="damaged" ns0:attachment="applied"></seal>
+                     <seal n="2" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="damaged" ns0:attachment="applied"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1658-02-28"/>
+                     <origPlace ref="loc016231">Rouen</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_324">SDS NE 1, N<hi rend="sup">o</hi>&#160;140</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000103"></term>
+               <term ref="key005189"></term>
+               </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AVN_A_8_3_r"/>    
+               <div>
+                 <p><lb/>Henry par la grace de Dieu, prince souverain de Neuchastel et Valengin en
+                     Suisse, <lb/>duc de Longueville et d’Estouteville, pair de France, comte de
+                     Dunois, St&#160;Poi, Chaumont, Gournay, Tancarville et gouverneur et lieutenant
+                     general pour le <lb/>roy et connestable hereditaire de la province de
+                     Normandie, a tous ceux qui ces presentes lettres verront, salut. Nos chers et
+                     bien amez les quatre ministraux, conseil <lb/>et communauté de nostre ville de
+                     Neuchastel nous ont humblement representé qu’il arrive souvent que les vingt
+                     quatre conseillers de ladicte ville qui sont les <lb/>juges ordinaires ne
+                     peuvent pas connoistre des causes, pour estre parens de l’une ou de l’autre des
+                     parties, qui en ce cas sont obligées de faire venir des juges <lb/>de dehors de
+                     ladicte ville pour vuider et terminer leurs procès, ce qui leur cause de
+                     grandes incommoditez et de grands frais, en sorte que les pauvres sont
+                     contraintz <lb/>bien souvent d’abandonner leur droit, n’ayant pas moyen de
+                     soustenir la despense qu’il convient faire a le poursuivre&#160;; humblement
+                     nous supplians qu’il nous plust <lb/>leur accorder cette grace que les quarante
+                     hommes de la dicte ville puissent juger des causes et remplir le nombre qui
+                     manquera auxdictz vingt quatre en la <lb/>place de ceux d’entre eux qui n’en
+                     pourront pas connoistre, soit a cause de la parentele, recusation ou autrement,
+                     et ce tant en premiere instance, dans la justice <lb/>inferieure que dans
+                     l’assemblée des estatz ou s’exerce nostre justice souveraine, sans qu’a
+                     l’advenir on soit obligé de faire venir des juges de dehors de nostre dicte
+                     ville. <lb/>Sçavoir faisons que nous desirans sur toutes choses que la justice
+                     soit equitablement rendue a nos sujectz et avecque le moins de coutz et de
+                     despence qu’il se pourra <lb/>et voulans favorablement traicter lesdictz quatre
+                     ministraux, conseil et communauté de nostre dicte ville, avons accordé de grâce
+                     speciale et a condition de la pouvoir <lb/>revocquer toute fois et quantes
+                     qu’il nous plaira, que lorsque les vingt quatre conseillers de nostre dicte
+                     ville de Neuchastel ne pourront pas juger d’une cause en <lb/>premiere
+                     instance, le gouverneur et nostre lieutenant general representant nostre
+                     personne ou le maire de la dicte ville, par son ordre puisse substituer pour
+                     juges <lb/>en leur place, les personnes qu’il trouvera a propos, du nombre des
+                     quarente de la mesme ville, sans estre obligé d’appeller des juges d’une autre
+                     justice. Et de <lb/>mesme lorsque lesdictz vingt quatre conseillers ne pourront
+                     pas juger d’une cause audictz estatz et dans nostre justice souveraine, on
+                     remplira leurs places de <lb/>personnes du mesme conseil des quarente pour en
+                     connoistre. Si donnons en mandement a nostre amé et féal gouverneur et nostre
+                     lieutenant general en nos <lb/>comtez souverains de Neuchastel et Valengin, le
+                     sieur de Mollondin, gens de nostre conseil d’estat et tous autres qu’il
+                     apartiendra, que de ceste nostre presente <lb/>grâce et favorable concession,
+                     ilz laissent, fassent et souffrent librement et franchement jouir lesditz
+                     quatre ministraux, conseil et communauté de nostredicte ville <lb/>de
+                     Neuchastel, tant qu’il nous plaira. Voulans et entendans que les jugemens qui
+                     seront ainsy renduz par ceux du conseil des quarente, mis et substituez en
+                     <lb/>la place de ceux du conseil des vingt quatre en la maniere ci dessus
+                     exprimée soient bons et valables comme s’ilz estoient renduz par ceuz dudict
+                     conseil des <lb/>vingt quatre seulement. Et afin que ce soit choses valable,
+                     ferme et stable, nous avons a ces dictes presentes signées de nostre main et
+                     contresignées par nostre conseiller <lb/>et secretaire ordinaire de nos
+                    commandemens faict mettre et apposer le seel de nos armes. À Rouen <date when="1658-02-28">le
+                        28&#160;jour de febvrier, l’an de grâce&#160;1658</date>. </p>
+                  <signed><lb/>Henry</signed>
+                  <signed><lb/>par Son Altesse&#160;: <lb/>Boulanger
+                  </signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin avec deux sceaux plaqués, <hi rend="italic">AVN</hi>,
+                     A&#160;8-3.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, IV, p.&#160;95.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-90-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2 fol.&#160;198v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur les délais de recours en cas de renvoi en basse
+                  justice</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1547-06-11"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_203">SDS NE 1, N<hi rend="sup">o</hi>&#160;90</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000287"></term>
+               <term ref="key005189"></term>
+               <term ref="key005128"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="198v" facs="AEN_3PAST_2_198v_199r"/>
+               <div>
+                  <head><add place="left margin">Decret que sur les <lb/>renvoys qui se font par
+                        <lb/>messeigneurs des audiances <lb/>sy sur la cognoissance <lb/>inférieure
+                        qui s’en ensuit <lb/>partie intéressée faict <lb/>proteste, il ne peut avoir
+                        <lb/>que 24&#160;heures pour en appeller</add></head>
+                  <p><origDate when="1547-06-11">Le onziesme jour du mois de juin mille cinq centz
+                        quarante et sept</origDate>
+                     <lb/>a esté demandé par mon honoré seigneur, monsieur le gouverneur general
+                     <lb/>du comté de Neufchastel, une cognoissance assavoir sy les renvoys qui se
+                     font en basse <lb/>justice par l’audiance generalle et il se fait proteste en
+                     ladite basse <lb/>justice, s’il y doibt avoir dix jours pour faire ladite
+                     appellation comme <lb/>pour les autres causes desdites basses justices. Sur
+                     quoy a esté <lb/>cogneu par lesditz seigneurs de l’audiance que de tous ses
+                     renvoys que s’il <lb/>s’en fait proteste, ne doibt avoir dix jours <add
+                        place="above">pour faire ladite appellation comme pour les autres
+                        causes,</add> mais seulement dedans <lb/>vingt quatre heures doibvent
+                     appeller a celle fin que s’il y a appellation, <lb/>qu’elle se doibge vuider
+                     pendant que l’on tiendra ladite audiance <lb/>generalle. </p>
+                </div>
+            </body>
+            <back><div>
+               <p>Note originale  de Favarger&#160;1982&#160;:</p>
+                  <p>Il ne s'agit pas de décrétale au sens strict du terme mais de déclaration des
+                     audiences à l'occasion d'un cas précis. Nous l'avons retenu parce que la
+                     tradition manuscrite neuchâteloise l'a toujours fait et parce que sa portée
+                     générale et sa valeur pour l'avenir en font une source très proche des
+                     décrétales proprement dites et des ordonnances. Cf.&#160;aussi la remarque du
+                        N<hi rend="sup">o</hi>&#160;58, p.&#160;155.</p><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;198v.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;277v.</p>
+               <p>AEN, Registre «&#160;Audiences
+                  générales&#160;», fol.&#160;12.</p>
+               <p>Registre des Trois-États, I, fol.&#160;15v-16r.</p>
+               <p>AEN, T&#160;12, N<hi rend="sup">o</hi>&#160;2, p.&#160;44.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;478.</p>            
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

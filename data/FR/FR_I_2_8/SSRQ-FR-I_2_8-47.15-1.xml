@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-47.15-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 171 (1620), S. 127</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 171 (1620), p. 127</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean François Bourgognon, Jeanne Perrin-Joly – Anweisung</head>
+					<head xml:lang="fr">Jean François Bourgognon, Jeanne Perrin-Joly – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1620-03-10">10 <foreign xml:lang="la">martii</foreign> 1620</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gfangne</p>
+						<p><seg><lb/><persName ref="per009313a">Jean François Bourgognon</persName> confirme ce qu’il a <term ref="lem015549.07">confessé</term> a <placeName ref="loc007931.02">Cugie</placeName>,
+							<lb/>que le <term ref="lem017521">diable</term> en forme d’homme noir se nommant <persName ref="per029425a.01">Grabiel</persName> s’est
+						<lb/>par deux fois apparu a luy prez de <placeName ref="loc007610">Payerne</placeName>, lequel a la seconde
+							<lb/>a recognu pour son <term ref="lem019555.05">maistre</term>, <term ref="lem019541.14">reniant</term> Dieu, lequel l’a <term ref="lem018895.02">marqué</term> au premier
+						<lb/>doigt de la main gauche, a esté 7 ou <sic>sept</sic> <subst><del>6</del><add place="overwritten">8</add></subst> a la <term ref="lem017043.01">secte</term>, y a veu
+						<lb/> la femme <persName ref="per009415">Guigo Perrin</persName> <persName ref="per009416">Jeanna Joli</persName>, et d’aultres.</seg> <seg><persName ref="per009416">Jeanna Joly</persName>:
+							<lb/>soll man hiehar füren unndt <term ref="lem018944.01">confrontieren</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

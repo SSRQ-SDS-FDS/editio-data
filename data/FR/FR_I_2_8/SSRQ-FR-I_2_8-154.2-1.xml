@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-154.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 132r–132v</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 132r–132v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Agathe Wirz-Corboz – Anweisung</head>
+					<head xml:lang="fr">Agathe Wirz-Corboz – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-06-20">20<hi rend="sup">ten</hi> <foreign xml:lang="la">junii</foreign> 1651</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key003399"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="132r"/><p><lb/>Gefangene</p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<pb n="132v"/><p><lb/><persName ref="per020304b.02">Agatha Wirtz</persName>, meister <persName ref="per020305a.01">Niclausen Wirtzlins</persName>, des <term ref="lem018722.02">jübsers</term>, haus<lb break="no"/>frauw, gefangen uff <placeName ref="loc007890.02">Jaquemard</placeName>, wylen sie <persName>Laurence Dey</persName> unndt
+							<lb/>dero <term ref="lem016889.06">haußgenossen</term> an ehren griffen ohne einigen anlaß. Der man
+							<lb/>hatt um ihr <term ref="lem018723.01">lediglassung</term> pittlich angehalten. Sie hatt ein böß,
+						<lb/>zweyschnidende zungen, die woll meritiert, gestutzt zu werden.
+							<lb/>In massen sie zwar <term ref="lem016800.02">ledig syn</term>, bevor aber den hierumb <term ref="lem018473.02">uffgang<lb break="no"/>nen</term> unkosten nach rechtmässiger schatzung <choice><abbr>hrn</abbr><expan>herrn</expan></choice> <term ref="lem003460.09">grichtschrybers</term><note>Gemeint ist <persName ref="per018190a">Franz Daguet</persName>.</note>
+							<lb/>entrichten soll. In disem ferneren <term ref="lem004618.05">bevelch</term>, das sie wegen ihres
+							<lb/>verwegens <time dur-iso="PT24H">24 stundt</time> im <placeName>Loch</placeName><note>Die Lokalisierung dieses Kellerverlieses ist unklar. Möglicherweise ist ein Verlies im <placeName ref="loc007890.01">Jacquemart</placeName> gemeint, doch solche Kellerverliese gab es in Freiburg an verschiedenen Orten.</note> ynligen, nachmahls in bywesen <choice><abbr>hrn</abbr><expan>herrn</expan></choice>
+							<lb/><term ref="lem018597.02">burgermeisters</term>, <choice><abbr>hrn</abbr><expan>herrn</expan></choice> großweybels unnd <choice><abbr>hrn</abbr><expan>herrn</expan></choice> grichtschybers
+							<lb/><term ref="lem011468">bekennen</term>, das sie bemelter<del>en</del> frau <persName>Laurence</persName>, ihren <term ref="lem000130.35">khinderen</term> unndt
+						<lb/>haußgenossen gwalt unnd unrecht unnd von ihnnen nichts alß
+						<lb/>ehr, liebs unnd gutts wüsse. Mit abtrag alles kostens unnd
+							<lb/><term ref="lem017029.02">betröuwung</term>, sich dergestalt mehrers nit zu <term ref="lem015245.02">vergryffen</term> by hocher
+							<lb/>straff. Wurde <term ref="lem006484.06">nachwerths</term> genante frau <persName>Laurence</persName>  unnd die ihrigen
+							<lb/>diser <term ref="lem008446">entschlagung</term> ein <term ref="lem002485.02">schyn</term> haben. Soll ihme derselb zugestelt werden
+							<lb/>in diser <persName ref="per020304b">Wirtzlina</persName> unkosten.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

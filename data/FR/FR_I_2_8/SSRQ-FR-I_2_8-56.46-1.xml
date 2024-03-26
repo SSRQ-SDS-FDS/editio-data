@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-56.46-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 294–295</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 294–295</idno>
+					</msIdentifier>
+					<head xml:lang="de">Antoine Feudy, Germain Martin Grisonney, Pierre Thoma, François Feudy – Verhör</head>
+					<head xml:lang="fr">Antoine Feudy, Germain Martin Grisonney, Pierre Thoma, François Feudy – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-04-07"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="294"/><p><lb/><origDate when="1623-04-07">7 <foreign xml:lang="la">aprilis</foreign> <hi rend="underline">1623</hi></origDate><note>Die nachfolgenden Verhöre, deren Richter separat notiert sind,  fanden im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note>,  <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009460">Gottrow</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil <choice><abbr>ßt</abbr><expan>solvit</expan></choice></foreign>.</add></seg>
+							<seg><persName ref="per009533a.02">Anteyno Rimbo</persName> ist alzyt <term ref="lem015342.03">haltzstärig</term>.</seg></p>
+						<p><lb/><foreign xml:lang="la"><choice><abbr>J</abbr><expan>Judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009451a.01"><choice><abbr>C</abbr> <expan>Christoph</expan></choice> von Ligertz</persName></seg>
+							<seg><lb/><persName ref="per009460">Gottrow</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil <choice><abbr>ßt</abbr><expan>solvit</expan></choice></foreign>.</add></seg>
+							<seg><persName ref="per009575a.03">Lois German Martin Grisonney</persName>, obschon er
+								<lb/>scharpff mit dem grosen <term ref="lem018287">stein</term> <term ref="lem019482">gemar<lb break="no"/>tert</term> worden, hat doch nüzit <term ref="lem011468">bekennen</term> wöl<lb break="no"/>len.</seg></p>
+						<p><gap reason="irrelevant"/><note>Dieser Abschnitt betrifft den Prozess gegen <persName ref="per009577">Jean Sermoud</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-57.2-1">SSRQ FR I/2/8 57.2-1</ref>.</note></p>
+						<pb n="295"/><p><lb/><foreign xml:lang="la"><choice><abbr>J</abbr><expan>Judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note>
+							<seg><lb/><foreign xml:lang="la">bis </foreign><abbr>h</abbr> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr> <expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil <choice><abbr>ßt</abbr><expan>solvit</expan></choice></foreign>.</add></seg>
+							<seg><persName ref="per009511a.04">Pierre Tomaz</persName> hat den <persName ref="per009571a">Gro Jaques</persName>, <persName ref="per009533a.06">Anteyno</persName>
+							<lb/>und <persName ref="per009535a.05">Francey <add place="above">Feudi</add> Rimbo</persName> wegen des <term ref="lem005701">mords</term>, so
+							<lb/>zwüschen <placeName ref="loc000738.10">Sollenthurn</placeName> und <placeName ref="loc000740.01">Biel</placeName> geschehen,
+							<lb/><term ref="lem006220">entschlagen</term>. Er sye ouch nit darby gsyn,
+						<lb/>das ubrig sye alles warhafftig.</seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil <choice><abbr>ßt</abbr><expan>solvit</expan></choice></foreign>.</add></seg>
+							<seg><persName ref="per009535a.05">Francey Feudi <choice><abbr>als</abbr><expan>alias</expan></choice> Rimbo</persName> ist standthafftig in
+						<lb/>allen begangnen fählern. Man wölle ime
+						<lb/>doch gnad bewysen.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

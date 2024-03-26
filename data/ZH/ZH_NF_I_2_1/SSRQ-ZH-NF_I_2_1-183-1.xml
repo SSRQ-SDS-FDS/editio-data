@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-183-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/2, fol. 59r (Eintrag 4)</idno></msIdentifier><head>Eid der Spitalpfleger der Stadt Winterthur</head><msContents><summary>Die Spitalpfleger der Stadt Winterthur sollen schwören, gewissenhaft Aufsicht zu führen, den Nutzen des Spitals zu fördern und Schaden abzuwenden.</summary><msItem><textLang xml:lang="de"/><author role="scribe"><persName ref="per027307">Konrad Landenberg</persName></author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key003559">Spital</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb type="original" n="59r" facs="STAW_B_2_2_59_r"/>
+                        <head><lb/><orgName ref="org007934">Spitals</orgName> pflēger<app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 5r">eid</rdg></app></head>
+                        <p>
+                            <lb/>Item <app><lem>des <orgName ref="org007934">spitals</orgName> pflēgere</lem><rdg wit="STAW B 3a/10, S. 12">die spittalpflegere</rdg></app> soͤllend schwēren, uff den <orgName ref="org007934">spital</orgName>
+                            <app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 5r">ein</rdg></app>
+                            <lb/>getru̍w uff saͤhen zu haben und des <orgName ref="org007934">spitals</orgName> nutz ze fu̍rdern
+                            <lb/>und schaden ze wenden nach irem vermu̍gen und besten verstentnuß.
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Mit der Verwaltung des <orgName ref="org007934">Spitals der Stadt <placeName ref="loc000849">Winterthur</placeName></orgName> waren zwei Mitglieder des <orgName ref="org005587">Kleinen Rats</orgName> beauftragt, die sogenannten Pfleger. Sie schlichteten Konflikte, stellten das Personal ein und führten die jährliche Abrechnung durch, wie aus den Aufzeichnungen des <persName ref="per026892">Hans Ernst</persName> von 1692 hervorgeht (<bibl>winbib Ms. Fol. 264, S. 146</bibl>). Dieses städtische Amt ist erstmals 1317 belegt, vgl. <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135491">UBZH</ref>, Bd. 9, Nr. 3482</bibl>. Spätestens seit den 1380er Jahren gab es eine Abteilung für mittellose Pflegebedürftige (<orgName ref="org007937">Unteres Spital</orgName>) unter der Leitung eines eigenen Pflegers, vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-124-1">SSRQ ZH NF I/2/1 124-1</ref></bibl>; <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-187-1">SSRQ ZH NF I/2/1 187-1</ref></bibl> (Eidformel). Zur Spitalverwaltung in <placeName ref="loc000849">Winterthur</placeName> vgl. den Kommentar zu <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-32-1">SSRQ ZH NF I/2/1 32-1</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

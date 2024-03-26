@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-150.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 179–180</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 179–180</idno>
+					</msIdentifier>
+					<head xml:lang="de">Françoise Clerc-Ayer – Verhör</head>
+					<head xml:lang="fr">Françoise Clerc-Ayer – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1650-11-21"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="179"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1650-11-21">21<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1650</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018141a.02">Burkhi</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<p><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note>, eadem die, presentibus supradictis</foreign></p>
+						<p><seg><lb/><persName ref="per020256a.01">Françoise Ahier<!--on lit à hier!!--></persName> estant applicquée à la <term ref="lem015642">serviette</term>
+							<lb/>l’espace de <time dur-iso="PT3H">trois heures</time>, ne voloit d’abort entrer en
+							<lb/>aulcune <term ref="lem019465.01">confession</term>, mais finalement elle ast <term ref="lem015549.07">confessé</term>
+							<lb/>qu’il ast <date dur-iso="P2Y">2 ans</date> que rencontrant le <term ref="lem015433.10">maling</term>, nommé <persName ref="per029425a.02">Grabié</persName>,
+							<lb/><add place="left margin">habilié de vert</add>, <add place="above" type="sign">avec chappeaux noier</add>, devant sa maison de nuict, le quel luy prommettant
+							<lb/>de l’enrichir, elle se rendit à luy, après avoier <term ref="lem019541.15">renié</term>
+							<lb/>Dieu, la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge et toute la cour celleste, <add place="left margin" type="sign">l’ayant au doz <lb/><term ref="lem018895.06">marquéz</term></add>. <subst><del>l d</del><add place="overwritten">O</add></subst>uquel
+							<lb/>elle reçut deux fois de la <term ref="lem018382.02">graise</term> <add place="above" type="sign">verte</add>, pour lors la premiere
+							<lb/>fois et la seconde fois en mesme endroit devant sa
+							<lb/>maison, luy ayant doné dite <term ref="lem018382.02">graise</term> verte dans une
+							<lb/><term ref="lem015060.03">grulle</term> verte, par quelle <term ref="lem018382.02">graise</term> il ast <date dur-iso="P2Y">deux ans</date> qu’elle
+							<lb/><term ref="lem018313.06">inficiat</term> une siene <term ref="lem018922.01">jument</term>, qui en mourut.</seg> <seg>Est <term ref="lem015549.04">confessante</term>
+								<lb/>davantage d’avoier <term ref="lem019525.02">souflé</term> dans un potz d’estain, hors du quel
+						<pb n="180"/><lb/>elle donnat a boire a <persName>Piere Martin</persName>, luy donant
+							<lb/>par la les <term ref="lem015433.07">mallingz espritz</term>, aussi par desoubz les onglez.
+								<lb/><term ref="lem015549.13">Confesse</term> avoier donné lé <term ref="lem015433.14">malingz</term> à la fille de
+							<lb/><persName>Pieru Cler</persName>&#160;; à <persName>Lorentz Rey</persName> d’avoier donné une
+								<lb/><term ref="lem018393.02">crutte</term> de <term ref="lem014943.04">beure</term> fraiz, pour luy nuire seulement,
+								<lb/>et non pour le faire mourir. <term ref="lem015549.13">Confesse</term> aussi
+								<lb/>avoier esté conduite par son <term ref="lem019555.05">maistre</term> <persName ref="per029425a.02">Grabié</persName>
+								<lb/>vers la fontaine des <placeName ref="loc011701.04">Assilietes</placeName> à la <term ref="lem017043">secte</term>, ou
+							<lb/>elle trouvat force monde de persones masquéez
+							<lb/>et <term ref="lem017521.02">diables</term> dansanz, sans en avoier recogneu aul<lb break="no"/>cuns,
+								ou le <term ref="lem019529.01">feu</term> qui les esclarait n’estoit tel
+							<lb/>que le notre. Ayant <term ref="lem015549.07">confessé</term> finalement d’avoier
+								<lb/>dancé avec le <term ref="lem018943.02">demon</term> <persName ref="per029425a.02">Grabié</persName> au soun du violon,
+							<lb/>qu<subst><del>e</del><add place="overwritten">’</add></subst>un <sic>domon</sic> <!--revoir la correction sur le e de jouet-->jouet&#160;; demandant la desus à Dieu
+							<lb/>et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-28-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-W5.3</idno>
+               </msIdentifier>
+               <head>Confirmation de lettres de franchises et affranchissement de la mainmorte
+                  accordée par Guillaume d'Aarberg, seigneur de Valangin, à quinze homme censiers du
+                  Val-de-Ruz, moyennant la somme de soixante écu d'or, pour le rachat des terres
+                  mises en gages par le dit Guillaume d'Aarberg</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Vidimus</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.7"/>
+                              <width unit="cm" quantity="54.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1412-05-31"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_84">SDS
+                           NE 1, N<hi rend="sup">o</hi>&#160;28</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000815"></term>
+               <term ref="key005822"></term>
+               <term ref="key005096"></term>
+                                        </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_W5_3_r"/>  
+               <div>
+                  <p>
+                     <gap reason="missing"/><note>Favarger&#160;1982 n'a pas fourni de transcription. Nous fournissons
+                        cependant le fac-similé correspondant.</note>
+                     <pb n="1v" facs="AEN_AS_W5_3_v"/>  
+                  </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Copie vidimée sur parchemin, AEN, W&#160;5, N<hi rend="sup">o</hi>&#160;3.</p>
+               <p>Mention&#160;: Roulet, <hi rend="italic">Mairie</hi>..., p.&#160;21.</p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

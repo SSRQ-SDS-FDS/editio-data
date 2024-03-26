@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-37.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 10, S. 310</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 10, p. 310</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Besson – Verhör</head>
+					<head xml:lang="fr">Jean Besson – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1611-11-22"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im  <placeName ref="loc007683.03">bosen thurn</placeName>, <origDate when="1611-11-22">22 <foreign xml:lang="la">novembris</foreign> 1611</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009100">Rudolf Weck</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentibus</foreign> <abbr>h</abbr> <persName ref="per009101">Keller</persName>, <persName ref="per009102">Amman</persName></seg>
+							<seg><lb/><persName ref="per009103">Zum Holtz</persName></seg>
+							<seg><lb/><persName ref="per009106">Tumbe</persName>, <persName ref="per009105">Pavillard</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						<p><seg><lb/><add place="left margin">Hat nüt zalt.</add></seg> <seg><persName ref="per009098a.01">Jehan Besson</persName> de <placeName ref="loc007610">Payerne</placeName> a dit ne sçavoir la cause de
+							<lb/>son apprisonement, sinon que quand il fust allé a <placeName ref="loc007892.05">Tor<lb break="no"/>nier</placeName> pour parler a quelques uns de ses gens pour metre
+							<lb/>ordre a ses affaires, et parler a eux, comme il pourroit
+							<lb/>obtenir <term ref="lem019504.02">grace</term> de ses souverains seigneurs et superieurs
+							<lb/>de ce qu’avant environ <date dur-iso="P2Y">deux ans</date>, qu’il sauroit renduz
+						<lb/>fugitif de peur et mal advisé, soy repentant de cela.
+							<lb/>Estant donques audit <placeName ref="loc007892.05">Tornier</placeName>, on le fist prisonnier,
+						<lb/>soy sentant toutesfois innocent de toutes les accu<lb break="no"/>sations, que faulsement et a grand tort on auroit
+						<lb/>inventé contre luy, car il a dit que quand <persName>Anthoine
+							<lb/>La Couseneyre</persName>, <persName>Gervaise</persName>, celle de <placeName ref="loc008011.03">Ruz</placeName> et aultres
+						<lb/>qui furent lors pour leurs malfaits executees audit
+						<lb/><placeName ref="loc007610">Payerne</placeName>, il aye jugé sur leur proces.</seg> <seg>Par aprés,
+						<lb/>s’estant renduz fugitif de peur, comme dit est, ledit pri<lb break="no"/>sonnier a <term ref="lem015549.07">confessé</term> s’avoir transporté de dela le lac
+						<lb/>a cause d’un heritage depart sa femme. La on luy fust
+							<lb/>conseillé de soy <term ref="lem019535.01">catholiser</term>, ce qu’il a fait, <subst><del>estant</del>
+							<lb/><add place="left margin">ayant</add></subst> la dessus fait un voyage a <placeName ref="loc000076.11">Rome</placeName>. Et cependant
+							<lb/>que les susdites femmes executees audit <placeName ref="loc007610">Payerne</placeName>, sont
+						<lb/>esté prisonnieres et <term ref="lem019427.07">torturees</term>, il sçait bien qu’elles
+						<lb/>n’ont dit aucun mot de luy, ny l’avoir aucunement
+						<lb/><term ref="lem015356.05">acculpé</term>, mais si on le leur auroit fait dire, cela
+						<lb/>est a grand tort de luy.</seg> <seg>Quant aux articles a luy
+							<lb/>proposés, que d’avoir fait <term ref="lem018915.01">hommage</term> a <persName ref="per011219a">Satan</persName>, avoir
+						<lb/>esté a la <term ref="lem017043.01">secte</term>, estre <term ref="lem018895.02">marqué</term> de luy, ou d’avoir pourté
+							<lb/>du vin en la <term ref="lem017043.01">secte</term>, item que le <term ref="lem018943.02">demon</term> s’apparut a luy,
+							<lb/>ou qu’il soit <term ref="lem019308.01">sorcier</term>, tous cesdits articles, il les a
+						<lb/>entierement niés, disant estre du tout innocent, et
+							<lb/>n’avoir fait tort a creatures que ce soit. <term ref="lem019442.02">Denegue</term>
+						<lb/>aussy avoir fait faulx serement, et qu’a <placeName ref="loc007655.06">Montagnie</placeName>
+						<lb/>on luy aye crié de tenir bon, demandant pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

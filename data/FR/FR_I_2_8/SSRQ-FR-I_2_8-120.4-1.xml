@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-120.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 149–151</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 149–151</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Hayoz-Fruyo – Verhör</head>
+					<head xml:lang="fr">Margreth Hayoz-Fruyo – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1645-07-06"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000865"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="149"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1645-07-06">6<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1645</origDate>, <abbr>hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>hr</abbr> <term ref="lem006250">venner</term> <persName ref="per012381a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013664a.02">P<subst><del>fe</del><add place="overwritten">hi</add></subst>llipunat</persName>, <persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <choice><abbr>haupt</abbr><expan>hauptmann</expan></choice> <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per011548a.02">Reyff</persName></seg>
+							<seg><lb/><choice><abbr>Wey</abbr><expan>Weybel</expan></choice></seg></p>
+						<p><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>S</abbr><expan>Solvit</expan></choice></foreign></add>.
+							<seg><lb/><persName ref="per016946b.01">Margreth Hayo, die Bürgina</persName> genandt, hatt ungefragt vor der
+								<lb/><term ref="lem013000.01">tortur</term> <term ref="lem011468.03">bekhendt</term>, mit einem, der ihren die ehe versprochen unnd
+								<lb/>aber nit gehalten, fleischlich <term ref="lem012998">gesündiget</term> zu haben. Darumb sie ihm
+								<lb/>vor dem <term ref="lem016880">chorgricht</term>, da er <term ref="lem005094">ledig</term> gesprochen worden, hatt <term ref="lem014598">bieten</term> lassen.</seg>
+							<seg><lb/><term ref="lem006484.02">Nachwertz</term> frywilligklich <term ref="lem011468.03">bekhendt</term>, sie habe von einem andern vor
+								<lb/>der ehe ein <term ref="lem002393">uneheliches</term> <term ref="lem000130.11">khindt</term> gehabt. Von dannen aber sich ver<lb break="no"/>ehelichet unnd wol verhalten. <add place="above">Und</add> alß sie von andern <term ref="lem000075.45">lüthen</term> zu ar<lb break="no"/>beiten bestelt, habe sie <term ref="lem017464.02">mit hin</term> ein stuckh broths unnd sonsten wenig
+								<lb/><del rend="underline">brot</del><term ref="lem003604.01">obs</term>, so sie yngesackhet, genommen. Habe sich mit <term ref="lem018211.02">herdt<lb break="no"/>börin</term> unnd <term ref="lem018212.02">heyttinen</term> gwünnen, die sie in der statt verkoufft,
+								<pb n="150"/><lb/>unnd sonsten mit anderer ehrlicher handtarbeit <term ref="lem018213.02">ußgebracht</term>.</seg>
+							<seg><lb/>Wüsse unnd habe sie niehmahlen den <term ref="lem001076.04">khüen</term> die <term ref="lem002272">milch</term> zu endt<lb break="no"/>züchen künsten gelehrnt. Wan sie schon <term ref="lem017464.02">mit hin</term> <add place="above"><term ref="lem002272">milch</term></add> verkoufft, habe sie
+								<lb/>dieselb an ihr selbs erspart unnd mit <term ref="lem015886">ringeren</term> <term ref="lem000187.13">spyßen</term> sich
+							<lb/>vernügt. Wüsse nit, daß sie jhemahlen alß im ersten jhar, da
+								<lb/>sie zu <placeName ref="loc008469.03">Mentzishuß</placeName> gewohnt, <term ref="lem015844">käset</term> habe. Alßdan habe sie khein
+								<lb/><term ref="lem002272">milch</term> verkoufft. Wüsse unnd habe nit uß wenig <term ref="lem018214.02">nydlen</term>, so sie
+								<lb/><del>sol</del> durch ihr magt by den <term ref="lem005243.09">nachpuren</term> <add place="above">sol</add> <term ref="lem006873.05">bschickht</term> haben, <subst><del>khein</del><add place="inline"><term ref="lem000603.03">anckhen</term></add></subst>
+							<lb/>geschlagen. Vil weniger, das ihren jemandt künsten der
+								<lb/><term ref="lem014672.03">hexery</term>, in deren sie <hi rend="underline">gantz</hi> unschuldig syn wil, gelehrnt habe.
+								<lb/>Sye zwar ein sünderin, aber khein <term ref="lem006693.02">hex</term>, unnd wiewohl sie
+								<lb/>offt uß kummer unnd zorn geredt, der <term ref="lem007321.02">tüffel</term> solle sie hin<lb break="no"/>tragen, habe sie es rühwlich <term ref="lem000645.03">gebychtet</term> unnd <choice><sic><term ref="lem011624">gebürtzt</term></sic><corr>gebüsst</corr></choice>.</seg> <seg>Alß
+								<lb/>sie letstlich zu <term ref="lem005939">unser lieben frauwen</term> ehre gehn <placeName ref="loc009988">Berlens</placeName>
+									<lb/>gangen, habe <subst><del>sie</del><add place="inline">zwar</add></subst> ein <term ref="lem017161.05">beseßne</term> person, in deren gmach
+								<lb/>sie auch beherbergt, über sie getoben unnd <term ref="lem007268">letz</term>gethan,
+							<lb/>sye aber daran unschuldig. Unnd sye <add place="above">nit</add> in der nacht zur selben
+							<lb/><term ref="lem002402.02">beth</term>, ihren unnd andern etwas bößes anzuthun, gangen.
+							<lb/>Habe daran nieh gesinnet, vil minder<del>s</del> das sie daselbsten
+									<lb/><add place="right margin">unnd anderstwo</add> jemandt beleidiget oder <term ref="lem018557.02">maleficiert</term> habe. Man solle der be<lb break="no"/>seßnen kein glauben geben. Der <term ref="lem007321.02">tüffel</term> sye ein lugner, er habe
+							<lb/>offt, wie <add place="above">sie</add> es von etlichen gehört, <add place="above">über</add> maniche ehrliche personen
+								<lb/>mittlest der <term ref="lem017161">beseßnen</term> gewütten, unnd, mit respecten, gelogen,
+								<lb/>alß hettendt sie ihnen das <term ref="lem018216">maleficium</term> angethan. Sye ihren
+								<lb/>auch der <term ref="lem016055">gestalt</term> widerfahren, man solle darumb ihme khein
+								<lb/>glauben geben.</seg> <seg>Unnd alß sie damahlen <term ref="lem003350.01">communiciert</term>, habe zu
+									<lb/>vor, zu <term ref="lem018217.02">empfachung</term> ihrs schöpffers, den mundt mit
+							<lb/>wasser geschwenckht, aber khein<del>s</del> hin under gebracht. Sye
+									<lb/>auch khein <term ref="lem018219.02">glyßnerin</term>; vermeint, habe niemandts beleydiget,
+							<lb/>doch solle man sich ihrs verhaltens halben erkhundigen. Was
+							<lb/>aber die jenige (so ihrer schmach unnd gefangenschafft ursachen
+							<lb/>sindt) anbelangt, werde sie gott, dem almächtigen
+							<lb/>(den sie umb hilff unnd trost angerufft), ein bessere
+							<lb/>rechnung, alß sie niehmahlen thun werdendt, geben, dan
+							<lb/>es gescheche ihren unrecht.</seg> <seg>Wüsse nit, das sie jehmahlen von
+							<lb/><persName><space quantity="2" unit="cm"/>Jeckelman</persName> <term ref="lem002272">milch</term> habe gehabt. Habe synem <term ref="lem000310.12">veech</term>
+							<pb n="151"/><lb/>auch nieh geschadt<del>ten</del>. Unnd alß sie dem <term ref="lem014673.14">bösen feindt</term>, mit
+							<lb/>welchem sie nichts wil gehandlet noch geschafft haben, abge<lb break="no"/>sagt unnd lehr <term ref="lem016150.02">uffgezogen</term> worden, hatt angezeigt, wölle
+							<lb/>unnd könne ihr selbsten nit unrecht thun. Habe <add place="above">von</add> gemelten
+							<lb/><persName><space quantity="2" unit="cm"/> Jeckelman</persName> khein <term ref="lem002272">milch</term> empfangen. Sye von ihme
+								<lb/>noch von andern by ihrem wüssen nieh ein <term ref="lem006693.02">hex</term> gescholten worden,
+								<lb/>sonsten hette sie die jenige gebürlich <term ref="lem006520.05">rechfertigen</term> wöllen. Sie sye
+								<lb/>in derglychen, der <term ref="lem014672.03">hexery</term> mitlauffenden sachen gantz unschuldig.</seg>
+							<seg><lb/>Wüsse nit, ob sie <persName>Elsy Theürliß</persName> gekräncktes <term ref="lem000130.11">khindt</term>, dem
+								<lb/>sie nicht bößes wil angethan haben, uff der <term ref="lem018220.02">schoß</term> gehabt habe.
+							<lb/>Sie sye zwar by der <persName>Theürlena</persName> huß gsyn, sye ihren <add place="above">aber</add> nieh zu
+								<lb/>sinn komen, ihren unnd gemeltem <term ref="lem000130.05">kindt</term> was bößes an<lb break="no"/>zuthun noch jemandt zu beleidigen. Unnd wan sie deßwegen
+							<lb/>anklagt wäre, gescheche es ihren faltschlich unrecht. Unnd
+								<lb/>wan sie mittlest der ihren angethaner <term ref="lem004666.03">marther</term> etwas der<lb break="no"/>glychen <term ref="lem011468.04">bekhennen</term> wurde, thäthe sie ihren selbs unrecht.</seg>
+							<seg><lb/>Unnd alß sie abermahlen <term ref="lem006574.01">gefoltert</term>, hatt beständig ver<lb break="no"/>neinet, daß sie gemelts <term ref="lem000130.11">khindt</term> weder <term ref="lem017537">angeblasen</term> noch
+								<lb/>beschädiget habe. Noch das ihren der <term ref="lem014673.14">böse feindt</term> jehmahlen sye
+							<lb/>erschinnen unnd derglychen <add place="above" type="sign">gedanckhen</add> ihren yngefallen syendt. Wan
+								<lb/>sie schon zu gemeldter <persName>Theürlena</persName> huß gangen, habe sie dan<lb break="no"/>noch mit ihren nit <term ref="lem004682">gezanckhet</term>. Unnd wie sie mit ein andern
+								<lb/>vor ohngefahrlich <date dur-iso="P6Y">6 jahren</date> gehn <placeName ref="loc008041">St. Ursen</placeName> in die <term ref="lem001039.40">külbe</term> giengen,
+							<lb/>ihren nichts böses angethan. Ihren auch ein wenig zytt
+								<lb/>hernach khein <term ref="lem011432.06">sälbe</term>, die <term ref="lem015098.03">übelmögendt</term> glider damitt zu
+							<lb/>schmieren, noch einiche hillff geben. Unnd obwohlen genante
+							<lb/><persName>Theürlena</persName> zu ihr kommen, habe sie <add place="above" type="sign">ihren</add> in ihr beklagteren
+							<lb/>kranckheit dannoch nieh geholffen noch helffen können. Habe
+								<lb/>ihren auch, <add place="left margin" type="sign"><foreign xml:lang="la">reverenter</foreign></add>, den <term ref="lem013828.05">strumpff</term> abzuziechen, das <term ref="lem015098.03">übelmögendt</term>
+							<lb/>bein zu besichtigen, nit bevohlen, wüsse darvon nichts. Könne
+								<lb/>nit <term ref="lem011468.04">bekhennen</term>, was sie nit verbracht. Sye deß unnd anderen
+								<lb/>sachen wegen faltschlich anklagt, mit <term ref="lem016814">vermelden</term>, der <term ref="lem007321.06">tüffell</term>
+								<lb/>habe ihr unnd sie ihme nichts <term ref="lem006645">verheissen</term>. Gott werde ihren
+								<lb/>diser <term ref="lem004666.01">marter</term> halben den lohn geben. Bittet gott unnd <choice><abbr>m
+								<lb/>g</abbr><expan>mine gnädige</expan></choice> herren umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

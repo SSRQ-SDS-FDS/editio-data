@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.22-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 297–299</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 297–299</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Obertoos-Raeber – Verhör</head>
+					<head xml:lang="fr">Anni Obertoos-Raeber – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-23"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="297"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-07-23">23<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per006528a.03">Possardt</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016996a.01">Anni Räber</persName> hatt anfangs alles, waß sie hievor <term ref="lem011468.03">bekhendt</term>,
+							<lb/><term ref="lem001931.09">läugnen</term> unndt <term ref="lem006212">verschlagen</term> wöllen. Zu letst aber, da man
+							<lb/>sie mit dem <term ref="lem018237.02">zendtner</term> ein mahl allein <term ref="lem006574.08">gefolteret</term>, <term ref="lem001236.13">ver<lb break="no"/>jähen</term> unnd <term ref="lem011468.03">bekhent</term>, sy habe schon vor <date dur-iso="P9Y">9 jahren</date> <subst><del>sich</del><add place="inline">im</add></subst>
+							<lb/><placeName>Khiemy<term ref="lem000028.03">holtz</term></placeName> sich dem <term ref="lem014673.13">bößen feindt</term>, <persName ref="per029442a.01">Krätzly</persName> genandt, er<lb break="no"/>geben unndt alda gott, den almächtigen, <term ref="lem016063.05">verlaugnet</term>. Alß<lb break="no"/>dan habe er sie <add place="left margin" type="sign">unnd sie ihne <foreign xml:lang="la">reve<lb break="no"/>renter</foreign> dahinden</add> gekhußt unndt (mit ihr gnaden gebührenden
+						<lb/>respect zu melden) mit synen langen ungestalten nägell, die
+						<lb/><subst><del><gap reason="illegible" unit="character" quantity="3"/></del><add place="overwritten">sehr</add></subst> kalt warend, an ihr hindere<term ref="lem015717.03">schaam</term> <term ref="lem016598">gezeichnet</term> unndt
+						<lb/>ihren grauw <term ref="lem011439">pulver</term> gegeben, darmit sie dem <choice><abbr>hrn</abbr><expan>herren</expan></choice> <persName>Apothel</persName>
+						<lb/>selig, wylen er sie von <placeName ref="loc008855.02">Wyttenbach</placeName> verstossen, das klein
+							<lb/><term ref="lem005796.03">gutt</term> unndt zwey <term ref="lem001069.04">roß</term> hatt machen zu <term ref="lem005335">verderben</term>. Sie habe
+						<lb/>das <term ref="lem011439">pulver</term> in der weydt daselbsten außgeworffen,
+						<lb/>damit desselben herren <term ref="lem000310.12">veech</term> darab <term ref="lem005335">verderben</term> wurde.</seg>
+						<seg><lb/>Item hab sie ihme herren <persName>Apothell</persName>, do er gehn <placeName ref="loc008855.02">Wyttenbach</placeName>
+						<lb/>gueng, by <placeName ref="loc008332.02">Ballißwyll</placeName> von wyttem endtgegen geblaßen,
+						<lb/>darab er kranckh worden unndt hernach gestorben. Mehr
+						<lb/>habe sie <persName>Margrethen</persName>, gemelts herren <persName>Apothels</persName> tochter <term ref="lem017537">an<lb break="no"/>geblaßen</term>, der meinung, sie dardurch zu <term ref="lem017927.03">erlämen</term> unndt
+						<lb/>sterben zu machen. Darab sie zwar nit gestorben unnd
+						<lb/>aber ein zytt lang sich übell empfunden. Mehr habe sy der
+						<lb/><persName>Denysa</persName> unndt <persName>Anna Apothell</persName> gesagt, sy werdendt dessen
+						<lb/>nit <term ref="lem017498.03">genießen</term>, das ihr <abbr>hr</abbr> vatter <add place="above">sie</add> verstossen unndt nicht
+						<lb/>mehr in ihr hütten gedulden wölle. Sy sye also sampt ihrem
+							<pb n="298"/><lb/><term ref="lem017929">meister</term> <persName ref="per029442a.01">Krätzly</persName> in gestalt zweyer <term ref="lem018294.02">rappen</term> dahär geflogen
+						<lb/>unndt dißen beeden töchteren, <subst><del>zuge</del><add place="inline">so uff</add></subst> dem fryen
+						<lb/>feldt warend, endtgegen geschossen des willens, ihnen die
+						<lb/>augen ußzustechen; hernach aber darvon geflogen unndt
+						<lb/>verschwunden.</seg> <seg>Ihr <term ref="lem017929">meister</term> habe sie mitten in der <time period="byNight">nacht</time> 5 mahl
+						<lb/>abgeholt unndt <add place="above">in</add> die <term ref="lem017042.04">seckht</term> by der <placeName ref="loc007746.04">Saanen</placeName> undenthalb
+						<lb/><placeName ref="loc008855.02">Wyttenbach</placeName> geführt. Alda vihl statt- unndt landtlüthen wol
+						<lb/>geschmuckht unndt aber gantz verkleidt unndt <term ref="lem018296">verbutzt</term>
+							<lb/>erschinnen. Der <persName ref="per029442a.01">Krätzly</persName> sye schön blauw mit <term ref="lem002230">stier</term>füß
+						<lb/>geweßen. Der selb habe sie unndt die anderen gekußt, <del>undt</del>
+						<lb/><add place="inline">gedanttzet</add> unndt mit ihnnen <term ref="lem000668">unzucht</term> getriben, sie aber
+						<lb/>habe es nit gethan. Alda sye ein blauwes <term ref="lem003365.10">füwr</term>, darumben
+						<lb/>sie gesprungen, geessen unndt trunckhen <subst><del>haben</del><add place="inline">geweßen</add></subst>. Die
+						<lb/><term ref="lem000187.13">spyßen</term> syendt ohne <term ref="lem015725">gust</term> wie laub gsyn. Die anderen
+						<lb/>haben in ihren <term ref="lem015804.03">fürtücher</term> <term ref="lem000187.13">spyßen</term> getragen.</seg> <seg>Sy habe nieh<lb break="no"/>mandt als die <persName ref="per017006b">Mußmaria</persName>
+							unndt die <add place="above">alte</add> <persName ref="per017000a">Jeckhelman<lb break="no"/>nin</persName> von <placeName ref="loc010226.03">Ütschenwyll</placeName> (so zwar in statt kleideren <term ref="lem018296">ver<lb break="no"/>butzt</term> war, unndt aber <add place="above">sie</add> an ihren krummen <term ref="lem017590">hinkhenden</term>
+						<lb/>fuß woll erkhendt) daselbsten in der <term ref="lem017042.05">seckt</term> gesehen.
+						<lb/>Die <persName ref="per016968b.01">Elsy Tunney</persName> von <placeName ref="loc007982.06">St. Wollffgang</placeName> sye auch alda
+						<lb/>mit vertechtem gesicht erschinnen, die sie am gang erkhendt
+						<lb/>hab. Die angedütne <persName ref="per017000a">Jeckhelmannin</persName> sye die königin
+						<lb/>unndt fürnembste geweßen, unndt habe mit einem <term ref="lem007321.06">tüffell</term>
+							<lb/>gedantzet. Sy syendt <time dur-iso="PT1H">ein stundt</time> <time dur-iso="PT2H">zwo</time><note>Ici l’expression «&#160;ein stund zwo&#160;» signifie «&#160;eine bis zwei Stunden&#160;»,
+								tout comme en français l'expression «&#160;une deux heures&#160;» signifie «&#160;entre une et deux heures&#160;».</note> daselbsten lustig
+						<lb/>unndt frölich gsyn, hernach sye einer dort hinauß, der
+						<lb/>ander aber hieauß gangen.</seg> <seg>Do ihr <term ref="lem017929">meister</term> sy abge<lb break="no"/>holt, hab er neben ihren man ein <term ref="lem018295.02">strauwhalm</term> oder ein
+						<lb/><term ref="lem005618.02">sichlen</term> im <term ref="lem002402.02">beth</term> gethan, damit er nit wissen noch ge<lb break="no"/>spürren möchte, das sy abweßend sye. Sy habe ihre
+							<lb/><term ref="lem000130.19">khind</term>, deren fünff sindt, nieh dem <term ref="lem014673.13">bößen feindt</term> über<lb break="no"/>geben noch in die <term ref="lem017042.05">seckt</term> geführt. Wüsse nit, das die
+						<lb/><persName ref="per016968b.01">Elsy Tunney</persName> ihr töchterlyn<note>Gemeint ist <persName ref="per016972">Annili Tunney</persName>.</note> dahin geführt habe.
+							<lb/>Habe aber woll gesehen, das ettliche <term ref="lem018296">verbutzte</term> <term ref="lem000130.03">khinder</term>,
+						<lb/>so sie nit hatt erkennen mögen, aldorten erschinnen.</seg> <seg>Sagt,
+							<lb/>sy sye mit einer schwartzen huben, so ihren der <persName ref="per029442a.01">Krätzly</persName>
+							<pb n="299"/><lb/>gegeben, <term ref="lem018296">verbutzt</term> gsyn. Er habe ihren zwar gesagt unndt
+							<lb/><term ref="lem009591.05">angemuthet</term>, sy solle mit einem wyßen <term ref="lem000805.16">rüttlyn</term> das wasser
+						<lb/>im brunnen uffschlagen unndt den <term ref="lem007347.02">hagell</term> machen. So sie
+						<lb/>nieh hatt thun wöllen, wylen sie nit das hertz gehabt, die
+							<lb/>früchten zu <term ref="lem005333">verderben</term>. Wytters hatt sie <term ref="lem011468.03">bekhendt</term>, sie hab
+							<lb/>dem stattweybell <persName ref="per013730a.01">Wulling</persName>, der er sie verschinnen tagen ge<lb break="no"/>fangen, die handt getroffen unndt dardurch ihme den
+						<lb/>schmertzen, so er gespürt unnd erlitten, angethan. Hab aber
+						<lb/>ihne nit erlämen wöllen, umb welche <term ref="lem009471.05">mißhandlung</term> sy
+						<lb/>gott unndt mine herren umb <term ref="lem004684.08">verzüchung</term> gebetten. Unndt
+							<lb/><term ref="lem016814">vermeldt</term>, der <persName ref="per029442a.01">Krätzly</persName> sye ihren, da sie sich ihme <term ref="lem018858.01">ergeben</term>
+						<lb/>in grüenen kleidern erschinnen.</seg> </p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

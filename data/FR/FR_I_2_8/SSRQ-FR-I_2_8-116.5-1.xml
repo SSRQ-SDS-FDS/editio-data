@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-116.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 105–106</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 105–106</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claudine Grandgirard – Verhör</head>
+					<head xml:lang="fr">Claudine Grandgirard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-09-07"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="105"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-09-07">7 <foreign xml:lang="la"><choice><abbr>septemb</abbr><expan>septembris</expan></choice></foreign> 1644</origDate>, <persName ref="per012378a.01">Heydt</persName>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013479a.01">Reynold</persName></seg>
+							<seg><lb/><persName ref="per012381a.01">Python</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.02">Degranges</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per016494">Marguerite Cordey-Bovet</persName> et <persName ref="per016503">Susanne Michod-Ginivy</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-115.10-1">SSRQ FR I/2/8 115.10-1</ref>.</note></p>
+						<p><lb/><persName ref="per016907a.03">Claudine Grandgerard</persName> dict, si bien elle a esté bastue
+							<lb/>des <term ref="lem019503.08">possedees</term>, qu’on ne peut pourtant dire qu’elle soit
+							<lb/><term ref="lem019389.02">sorciere</term>, que les <term ref="lem017521.02">diables</term> ont aussi bien battu <choice><abbr>s</abbr><expan>saint</expan></choice> <persName ref="per000795a">Antoine</persName>,
+							<lb/>qu’elle est femme de bien et d’honneur, qu’on luy
+							<lb/>faict grand tort, et si bien touttes les <term ref="lem019503.08">possedees</term> du
+							<lb/>monde la battroient, qu’elles luy fairoient touttes
+							<lb/>tort de dire qu’elle soit <term ref="lem019389.02">sorciere</term>. Et <subst><del>celle</del><add place="inline">la</add></subst> <term ref="lem019503.07">posse<lb break="no"/>dee</term> <persName>Jeanne</persName>
+							que l’a appellee <term ref="lem019389.02">sorciere</term>, qu’elle l’a recherché
+							<lb/>en justice, mais que <choice><abbr>M<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le ballif les a pas laissé suivre,
+							<lb/>qu’elle n’a jamais esté en la <term ref="lem017043">secte</term> et n’a pas dict
+						<pb n="106"/><lb/>qu’il fallait mettre les <term ref="lem017091.07">ennemys</term> dans des fleurs
+							<lb/>et prié dieu, qu’il la soustienne ainsi qu’elle
+							<lb/>est femme de bien, et pas aultrement, qu’elle
+							<lb/>n’est pas telle femme, comme on l’accuse. Ce
+							<lb/>qu’elle a soustenu a la simple <term ref="lem019428.01">torture</term> et a <term ref="lem019498">crié
+							<lb/>mercy</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

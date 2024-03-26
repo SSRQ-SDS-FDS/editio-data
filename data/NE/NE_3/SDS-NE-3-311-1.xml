@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-311-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.009, fol. 152v</idno>
+     </msIdentifier>
+     <head>Décision de continuer le coutumier</head>
+     <msContents>
+      <summary>Les points de coutume ultérieurs seront couchés par écrit à la suite du coutumier
+       ou dans un nouveau volume si nécessaire.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33.2"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1687-02-26" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004993"></term>
+     <term ref="key000468"></term>
+     <term ref="key005123"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="152v" facs="AVN_B_101.01.01.009_0152v"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1687-02-26" calendar="Julian">26 febvrier 1687</origDate>.
+       <lb/>En <orgName ref="org003085">Conseil estroict</orgName>, president monsieur le <choice><abbr>mr<hi rend="sup">e</hi></abbr><expan>maitre</expan></choice> <choice><abbr>bourge</abbr><expan>bourgeois</expan></choice>
+       <persName ref="per009031">Jean Francey</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <div>
+      <lb/><add place="left margin">Poincts de coustume<lb/> a enregistrer</add>   
+<add place="left margin" hand="later hand" medium="pencil">Déliberations</add>
+      <p>
+       <lb/>Il a esté arrecté qu’on portera tous les points de coustum<del rend="overwritten">i</del>e
+       <lb/>qu’on aura accordé ses quelques temps a la suitte du
+       <lb/>coustumier ou s’il n’y a place sur un autre livre que l’on
+       <lb/>fera &amp; sur lequel on enregistrera aussi ceux que l’on
+       <lb/>donnera par cy apres.
+      </p>
+     </div>
+    </body>
+    <back>
+     <div><p>Il ne s’agit pas d’un point de coutume, mais de la décision de continuer le coutumier de la ville.</p></div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

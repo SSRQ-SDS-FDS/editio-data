@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-162.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 314–315</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 314–315</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Millioud – Verhör</head>
+					<head xml:lang="fr">Pierre Millioud – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1652-05-27"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="314"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1652-05-27">27<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1652</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018662a.01">Landerset</persName> pro <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018134a.02">von Affri</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009264a.03">Aman</persName></seg></p>
+						<p><seg><lb/><persName ref="per020608a.01">Pieru Millu</persName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examiné, <term ref="lem019144.06">inficié</term>
+							<lb/>d’abord toute sa precedente <term ref="lem019465.01">confession</term>, ne vollant
+							<lb/>estre <term ref="lem019308.01">sorcier</term>, ni avoier veu le <term ref="lem015433.03">maling esprit</term>,
+							<lb/>disant n’avoier en luy aulcune <term ref="lem019508.02">mechanseté</term>.</seg> <seg>Mais
+							<lb/>estant par après applicqué à la <term ref="lem018792.01">question</term> de
+							<lb/>la simple <term ref="lem018231">corde</term>, <term ref="lem015549.13">confesse</term> veritablement avoier
+							<lb/>veu le <term ref="lem015433.03">maling esprit</term> lors qu’il estoit destitué
+							<lb/>proche de <placeName ref="loc008091.06">Planasiva</placeName> d’ayde, luy estant apparu
+							<lb/>lors habilé noier ci luy semble, ou il luy
+						<pb n="315"/><lb/>disait et prometoit de l’enrechier s’il se vouloit rendre
+							<lb/>à luy.</seg> <seg>Mais comme sur la demande qu’il <add place="above">luy</add> fist sçavoier
+							<lb/>qu’il estoit, et la responce d’estre <persName ref="per011219a">Satan</persName> et se nommer
+								<lb/><persName ref="per029445a">Adam</persName>, ayant faict le signe de la <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>sainte</expan></choice> croyx, il dis<lb break="no"/>parut.
+								Dempuis quel temps ne l’avoier oncques re<lb break="no"/>veu, de faict qu’il ne veut avoier <term ref="lem019541.15">renié</term> jamais
+							<lb/>Dieu, ni avoier aussi par luy esté <term ref="lem018895.02">marqué</term>, ce
+							<lb/>non obstant dit qu’il prend la mort en gré.</seg> <seg>Variant
+								<lb/>quelque fois, dit ne l’avoier veu <persName ref="per011219a">Satan</persName>&#160;; finalement
+							<lb/>a persisté comme ci devant il avoit dit, l’avoier veu
+							<lb/>mais chassé, sans de lors plus avoier veu&#160;; deman<lb break="no"/>dant la desus à Dieu et à Leur Exellences
+							<lb/>humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

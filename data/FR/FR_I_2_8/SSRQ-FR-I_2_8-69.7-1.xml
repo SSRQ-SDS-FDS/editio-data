@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-69.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 12, S. 9</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 12, p. 9</idno>
+					</msIdentifier>
+					<head xml:lang="de">Georges Berat – Verhör und Urteil</head>
+					<head xml:lang="fr">Georges Berat – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1625-09-02" to="1625-09-03"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Ibidem<note>Im <orig><placeName ref="loc007683.02">bösen thurn</placeName></orig>.</note>
+							<seg><lb/><origDate when="1625-09-02">2 <foreign xml:lang="la"><choice><abbr>7bris</abbr> <expan>septembris</expan></choice></foreign> 1625</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice> <abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per006580">Niklaus Meyer</persName>.</note></seg>
+							<seg><lb/><abbr>h</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per006506">Brynißholtz</persName></seg>
+							<seg><lb/><persName ref="per006519">Progin</persName>, <persName ref="per006531">Ligritz</persName>, <persName ref="per006509">Rämi</persName></seg>
+							<seg><lb/><persName ref="per006511"><choice><abbr>C</abbr><expan>Claudo</expan></choice> Haberkorn</persName></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Non solvit.</foreign></add></seg> <seg>Idem <persName ref="per006530a.02">Bera</persName> ward mit einer <term ref="lem007784.05">struben</term> oder
+							<lb/>klemysen am <term ref="lem017166.03">schinbein</term> <term ref="lem014641">torturiert</term>, und abermalen
+							<lb/>nüt <term ref="lem011468.04">bekhennen</term> wöllen.</seg>
+							<seg><lb/><add place="below">Ward ußgelaßen mit <term ref="lem011486.02">condition</term>, das er sich ußert
+								<lb/>syner <term ref="lem014773.03">parochian</term> nit solle finden laßen<note>Das Urteil wurde nachträglich eingetragen.</note>.</add></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

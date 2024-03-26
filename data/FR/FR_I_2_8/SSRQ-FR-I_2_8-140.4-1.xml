@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-140.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 11–12</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 11–12</idno>
+					</msIdentifier>
+					<head xml:lang="de">Nicolas Menoud – Verhör und Urteil</head>
+					<head xml:lang="fr">Nicolas Menoud – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1648-11-10" to="1648-11-16"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="11"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, <term ref="lem013382.03">zünstag</term>, den <origDate when="1648-11-10">10<hi rend="sup">ten</hi> <foreign xml:lang="la">novembris</foreign> 1648</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per013479a.08">Johan Renold</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013437a.02">Niclauß von Dießbach</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.03">Caspar von Montenach</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013626a.03">Niclauß Reyff</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.04">Frantz Heinrich Reyff</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013469a.07">Frantz Petter Cattella</persName></seg></p>
+						<p><seg><lb/><persName ref="per019178a.05"><hi rend="outdent"><subst><del>Le dicte</del><add place="overwritten">Nicl</add></subst>auß</hi> Mennu</persName> von <placeName ref="loc007616">Chandon</placeName>, ein <term ref="lem019147.01">leinweber</term>, so zum
+							<lb/>dritten mahl mit dem höltzin <term ref="lem017655.02">scheinbein</term> <sic>tortuririert</sic>
+							<lb/>und <term ref="lem018111">angestrengt</term> worden, hat angezeigt, uff <subst><del>der</del><add place="overwritten">die</add></subst>
+							<lb/><subst><del>vor</del><add place="overwritten">dur</add></subst>ch meinen herren des grichts gethane<del>r</del> <term ref="lem005044">examination</term>,
+							<lb/>wie das sein vatter nach ußgestandner, in ihr <choice><abbr>g</abbr><expan>gnaden</expan></choice> statt
+							<lb/>gefangenschafft des landts <term ref="lem016975.02">verwisen</term> unnd zu <placeName ref="loc008068">Cudrefin</placeName>
+							<lb/>gestorben. Sein mutter uff ihr <term ref="lem016794.11">bekhantnuß</term>, das sie
+							<lb/>ein <term ref="lem007356">unholdin</term> were, sein verdienten lohn von einer
+							<lb/><choice><abbr>g</abbr><expan>gnädigen</expan></choice> oberkeit empfangen.</seg> <seg>Sein bruder <persName>Clodo Mennu</persName><note>Gemeint ist möglicherweise <persName ref="per005916">Claude Meino</persName>.</note>
+								<lb/>und auch sein frauw<note>Gemeint ist möglicherweise <persName ref="per006715">Annili Meino</persName>.</note> (so sich soll zu <placeName ref="loc005824">Murten</placeName> mit gedachtem
+								<lb/><persName ref="per019178a.04">Niclauß Minnu</persName> befunden haben, alwo <subst><del>das</del><add place="overwritten">die</add></subst> weibs person
+							<lb/>ist <term ref="lem018557.04">malleficiert</term> worden) nach gethaner, in <subst><del>g</del><add place="overwritten">i</add></subst>hr <choice><abbr>g</abbr><expan>gnaden</expan></choice>
+							<lb/><term ref="lem004405">banden</term> <term ref="lem016794.11">bekhantnuß</term> <add place="above">beede</add> executiert worden. So ihn sehr
+							<lb/><term ref="lem018112.02">geschmirtzt</term>, daran er sich gestossen unnd jederzeit
+							<lb/>beflissen, from und ehrlich zu verhalten, wie er dan
+							<lb/>vermeint, gethan zu haben.</seg> <seg><term ref="lem016814">Vermeldet</term> fehrners, das er
+							<lb/><term ref="lem012597.02">seidert</term> ostern nitt gebeichtet habe, auch die <term ref="lem008809.03">zehen
+							<lb/>gebott</term> gottes nit sagen wiße, das <term ref="lem003411">Vater Unser</term>, <term ref="lem003412">Ave
+							<lb/>Maria</term> und <term ref="lem016774">Credo</term> aber woll betten khönne, wie ers
+							<lb/>dan auch gethan.</seg> <seg>Unnd als weytters von <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des
+							<lb/>gricht erforschet <del rend="underline">worden</del> unnd ihme angezeigt worden,
+							<lb/>er solle den verlauff mit der zu <placeName ref="loc005824">Murten</placeName> <term ref="lem018557.02">maleficierte</term>
+							<lb/>unnd gestorbnen frauwen <term ref="lem011468.04">bekhennen</term>, hat er stetts <term ref="lem019148.01">perseve<lb break="no"/>riert</term>, er habe ihr nichts übels angethan. Möchte villeicht
+							<lb/><add place="left margin">durch</add> sein hingerichte <term ref="lem016560">gegenschwester</term><note>Gemeint ist möglicherweise <persName ref="per006715">Annili Meino</persName>.</note>, so auch daselbst gewäßen,
+							<lb/>gethan worden. Wise aber nichts darumb, und ein <add place="bottom" type="catchword">mahl habe</add>
+						<pb n="12"/><lb/><choice><sic>ein mahl habe</sic><corr></corr></choice> er ihr nichts geben, dardurch sie solte
+							<lb/><term ref="lem018557.02">maleficiert</term> werden. Wariber er befragt, waß dan
+							<lb/>er ihr geben habe, uff welchem er endlich <term ref="lem011468.03">bekhendt</term>,
+							<lb/>ihr zwahr <term ref="lem001127.09">öpfell</term> dargereicht zu haben, als er ihr
+							<lb/>gewißes gewebtes tuch zu huß getragen. Seye
+							<lb/>aber do mahlen schon zu <term ref="lem002402.02">beth</term> <term ref="lem002432.03">kranck</term> gelegen. <subst><del>I</del><add place="overwritten">D</add></subst>urch
+							<lb/>welchen <term ref="lem001127.10">öpfflen</term> er keines wegs waß böses ihr zu
+							<lb/>geschafft. <subst><del>Sey</del><add place="overwritten">Das</add></subst> selbige <add place="above">aber</add> kranck worden unnd gestorben,
+								<lb/>trage er des selben khein schuldt.</seg> <seg>Unnd das belang<lb break="no"/>endt, das zu <subst><del>d</del><add place="overwritten">t</add></subst>odt <term ref="lem016245.02">gehling</term> gefahlne <term ref="lem000579.05">pferdt</term> von <placeName ref="loc008149.07">Fouz</placeName>,
+									<lb/><term ref="lem016814">vermeldet</term>, das das selbig mitt anderen <term ref="lem000579.12">pferdten</term> durch
+							<lb/>gwißen knaben oder <term ref="lem000130.09">künder</term> stark zum lauffen
+							<lb/>angetriben worden. Unnd sey das selbige <term ref="lem000579.05">pferdt</term>, als er
+							<lb/>noch fehrn von selbigen ware, bey dem <persName>Bruno
+							<lb/>Wipprecht</persName> von <placeName ref="loc008026.08">Escher</placeName>, so sein <term ref="lem003268.07">seggesen</term> zu ristete, tod
+							<lb/>nider gefallen. Unnd sey er domahlen umb etwaß weitt
+							<lb/>darvon gewäßen, das er also desen nit khönne beschul<lb break="no"/>diget werden.</seg> <seg>Betreffent, daß er <subst><del rend="underline">einem</del><add place="above">gewißen</add></subst> wegen
+							<lb/><add place="left margin">ihme</add> außgedorten <term ref="lem001138.11">eüchen</term> <term ref="lem017028.04">betreüwt</term> haben solle, sie nichts
+							<lb/>geschehen dergleichen. Khönne wol sein, das er ihme gesagt
+							<lb/>haben möge, er wolle denselben d<subst><del>as</del><add place="overwritten">eß</add></subst> orts verklagen.
+							<lb/>Bittet hiemit gott unnd ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkheit umb <term ref="lem004684.01">verzeichung</term>.</seg></p>
+						<p><lb/><add place="left margin">Den <origDate when="1648-11-16">16<hi rend="sup">ten</hi>  <foreign xml:lang="la"><choice><abbr>9<hi rend="sup">bris</hi></abbr><expan>novembris</expan></choice></foreign> 1648</origDate>
+							<lb/>mit abtrag costens
+							<lb/><term ref="lem007301">ledig</term> erkhent worden.</add><note>Dieser Abschnitt befindet sich am linken Rand und zu Beginn des Protokolls, S. 11.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

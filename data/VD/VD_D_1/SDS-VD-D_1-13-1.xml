@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2020"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/>
+                </respStmt>
+                <idno>SDS-VD-D_1-13-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno xml:lang="fr">ACV, Ac 29, p.&#160;252–253</idno>
+                    </msIdentifier>
+                    <head>Plainte de Léopard de Bosco, chanoine de Lausanne</head>
+                    <msContents>
+                        <summary>
+                            <p>À une date inconnue entre 1458 et 1471, Léopard de Bosco, chanoine de Lausanne et recteur de l’église paroissiale de Villette, comparait devant la cour de l’official de Lausanne pour dénoncer un prêtre, dont le nom n’est pas mentionné, qui aurait depuis un mois exercé les fonctions de curé, sans son autorisation, dans l’église de Cully, appartenant à sa paroisse. Malgré les interpellations antérieures, ledit prêtre aurait persévéré dans son attitude tout en recevant les émoluments de l’église, raison pour laquelle Léopard de Bosco demande à l’official de le condamner à un dédommagement de 100 livres.</p>
+                        </summary>
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1458-01-01" to="1471-12-31"/>                                                    </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref>, p.&#160;31–32</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/> 
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="252" facs="ACV_AC-29_251_252"/>
+                        <p><seg><lb/>Coram vobis venerabili et circunspecto viro domino
+                            <lb/>officiali curie <orgName ref="org001749.04">Lausannensi</orgName>, in jure et judicio proponit
+                            <lb/>per modum simplicis et summarie peticionis venerabilis
+                            <lb/>vir dominus <persName ref="per010874a.01">Leopardus de Bosco</persName>, <term ref="lem006983.01">canonicus</term> <orgName ref="org004033.02">Lausannensis</orgName>
+                            <lb/>ac rector et rectorio nomine parrochialis ecclesie de
+                            <lb/><placeName ref="loc011994.02">Villeta</placeName> <placeName ref="loc005781.04">Lausannensis diocesis</placeName>, actor ex una, contra
+                            <lb/>et adversus quedam dompnum <space quantity="4" unit="word"/>,
+                            <lb/>assertum presbiterum, reus partibus ex alia, seu
+                            <lb/>quemcumque alium pro eo et eius nomine in judicio
+                            <lb/>legitime intervenientem&#160;; et dicit quod licet de
+                            <lb/>jure ipsi reo non licuerit neque liceat in
+                            <lb/>parrochia <placeName ref="loc011994.02">Villete</placeName> missam celebrare absque
+                            <lb/>licencia et voluntate rectoris dicte ecclesie,
+                            <lb/>pueros baptizare, sacramenta ecclesiastica parrochianis
+                            <lb/>eisdem ministrare aut se in aliquo de
+                            <lb/>exercicio et regimine ad dictum rectorem pertinentem
+                            <lb/>intromittere. Nichilominus tamen dictus <del rend="strikethrough">dictus</del>
+                            <lb/>reus, auctoritate propria, que pocius temeraria dici
+                            <lb/>potest, <subst><del rend="strikethrough">ab primo preterita</del><add type="sign" place="left margin"><date dur-iso="P1M">ab uno mense citra proxime preterito</date></add></subst> missas in
+                            <lb/>loco de <placeName ref="loc008477.05">Culie</placeName><note>Il s’agit de l’église ou chapelle de Cully (<orig>&#160;ecclesia sive capella de Culliez membrum dicte parrochialis ecclesie Villete&#160;</orig>). Voir <bibl><ref target="http://permalink.snl.ch/bib/chbsg000111514">Wildermann 1993</ref>, p.&#160;443–447</bibl>.</note> dicte parrochie celebravit sepe
+                            <lb/>et pluries, confessiones audivit, pueros
+                            <lb/>baptizavit, corpus viaticum diversis personis
+                            <lb/>dedit et administravit, exerciciumque officii dicti
+                            <lb/>actoris rectoris exercuit ac emolumenta
+                            <lb/>exinde proveniencia sepe et pluries ad se
+                            <lb/>recepit et ad usus quos voluit aplicavit,
+                            <lb/>dictum actorem ac ecclesiam predictam jure suis precando
+                            <lb/>et spoliando, ac injurias et dampna inferendo
+                            <lb/>varias et varia. Et licet idem reus, parte
+                            <lb/>dicti actoris, sepe et pluries interpellatus
+                            <lb/>et requisitus extiterit, prout requeritur
+                            <lb/>adhuc de presenti, quatenus a talibus sibi a jure
+                            <lb/>prohibitis desistere soluque actori de injuriis,
+                            <lb/>spoliis, dampnisque et interesse occasione predicta
+                            <lb/>sustentis et passis <add place="above">satisfacere vellet</add>, que quam et quas
+                            <lb/>dictus actor extimat ad <measure type="currency" unit="lb" quantity="100" origin="Lausanne">centum librarum
+                            <lb/>bonorum lausannensium</measure>, nolens talia sustinuisse
+                            <lb/>aut sustinere debere pro centum librarum similibus,
+                            <lb/>quinymo maluisset et mallet tantumdem
+                            <lb/>de proprio perdidisse et perdere debere quam talia
+                            <pb n="253" facs="ACV_AC-29_253_254"/><lb/>sustinuisse aut sustinere debere. Hoc tamen idem
+                            <lb/>reus minime facere curavit, prout nec curat de presenti,
+                            <lb/>quinymo de die in diem perseverat in eisdem.
+                            <lb/>Unde merito agit dictus actor contra
+                            <lb/>dictum reum et petit per vos dictum officialem
+                            <lb/>prefatum vestramque diffinitivam sentenciam seu ordinacionem
+                            <lb/>summariam dici, decerni, pronunciari, diffiniri et
+                            <lb/>sentenciari premissa eidem reo facere minime
+                            <lb/>licuisse neque licere eundemque reum ad solvendum,
+                            <lb/>tradendum et expediendum eidem actori occasione
+                            <lb/>predicta <measure type="currency" unit="lb" quantity="100" origin="Lausanne">centum librarum bonorum lausannensium</measure>, vestro judiciali
+                            <lb/>moderamine salvo ac in expensis in presenti causa
+                            <lb/>factis de fiendis protestando condempnandum
+                            <lb/>fore et condempnari condempnatisque juris remediis
+                            <lb/>ad premissa cogi per vos et compelli, deducens ipse actor
+                            <lb/>in presenti libello ac deducere intendens omne
+                            <lb/>jus et omnem actionem sibi actore competentes
+                            <lb/>et competentem, et insuper in et super premissis omnibus
+                            <lb/>et singulis per vos justiciam sibi ministrari,
+                            <lb/>vestrum benignum officium, quantum venit de jure
+                            <lb/>implorandum, humiliter implorando.
+                        </seg></p>
+                    </div>
+                </body> 
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>La plainte présentée par Léonard de Bosco occupe les pages 252 à 253 du registre ACV, Ac 29. Elle a été consignée dans un cahier qui compte six folios, dont seulement le premier a été utilisé des deux côtés. Ce cahier aux nombreuses pages restées vierges aurait été réutilisé en 1477 pour consigner la première partie du procès contre Jaquet de Panissère, soit les protocoles des trois premières séances, le texte de la sentence interlocutoire et le résumé de la première séance de torture (<bibl><ref target="urn:ssrq:SDS-VD-D_1-14-1">SDS VD D 1 14-1</ref>&#160;: ACV, Ac 29, p.&#160;254–263</bibl>), raison pour laquelle le document, sans aucun rapport apparent avec la sorcellerie, fait partie du registre Ac 29 comme page de garde du <orig>&#160;dossier Panissère l&#160;</orig>. Néanmoins, il faut aussi noter que Léopard de Bosco avait lui-même procédé contre les hérétiques en tant que procureur de l’évêque de Lausanne puis vicaire épiscopal pendant les années 1440–1449, à côté des inquisiteurs Ulric de Torrenté, Pierre d’Aulnay et Henri Chouvet.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

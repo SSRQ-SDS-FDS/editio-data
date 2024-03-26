@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-162-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN 15, p.&#160;307-308</idno>
+                  <altIdentifier>
+                     <idno>AEN AC&#160;15, p.&#160;307-308</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <head>Loi des Trois États concernant les visites de dommages</head>
+               <msContents>
+                  <summary>Les Trois États décident de modifier la loi&#160;: à l'avenir
+                     quelqu'un qui cause un dommage à autrui sera tenu de payer le dommage et les
+                     frais occasionnés.</summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36"/>
+                              <width unit="cm" quantity="47"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1796-05-31"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_373"
+                              >SDS&#160;NE&#160;1, N<hi rend="sup">o</hi>&#160;162</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005189"></term>
+               <term ref="key000270"></term>
+               <term ref="key001052"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="307" facs="AEN_EN_15_306_307" type="original"/>
+               <div>
+                  <head><lb/>Teneur des loix<lb/> concernant les visites de domages</head><lb/><add place="right margin">Loix <lb/><choice>
+                     <abbr>p<hi rend="sup">r</hi></abbr>
+                     <expan>pour</expan>
+                  </choice> les domages</add>
+                  <p><lb/>1.<hi rend="sup">o</hi> On abroge l’usage d’après lequel une personne qui a
+                     essuyé quelque domage <pb n="308" facs="AEN_EN_15_308_309"/>
+                     <lb/>est exclue de toute action en indemnité &amp; condamnée aux fraix de la
+                     visite <lb/>qui a été faite du dit domage, si par la visite il est reconnu
+                     qu’il n’<term ref="lem025140.02">ascende</term> pas <lb/>à la quotité des fraix.</p>
+                  <p><lb/>2.<hi rend="sup">o</hi> Il est statué pour l’avenir que quiconque causera un domage à autrui, soit 
+                     <lb/>volontairement, soit par une faute dont par sa nature il pourait être
+                     responsable, sera 
+                     <lb/>condamné à payer le dit domage &amp; tous les fraix de visite
+                     &amp; autres qu’il 
+                     <lb/>aura occasionnés.</p>
+               </div>
+            </body>
+            <back>
+               <div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+                  <p>AEN, Registre des Trois États, XI, p.&#160;307-308.</p>
+                  <p>Éd.&#160;Recueil de pièces officielles, I, p.&#160;145-146.</p>
+                  <p>Cité&#160;: Matile, Plaits, p.&#160;120.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

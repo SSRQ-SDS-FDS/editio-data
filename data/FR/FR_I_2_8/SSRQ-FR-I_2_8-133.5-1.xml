@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-133.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 465–466</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 465–466</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Jolion – Verhör</head>
+					<head xml:lang="fr">Jean Jolion – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-08-30"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-08-30">30<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>burgerm</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.02"><choice><abbr>Cas</abbr><expan>Caspar</expan></choice> Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017939">Jacques Débieux</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-134.6-1">SSRQ FR I/2/8 134.6-1</ref>.</note></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017913a.02">Jean Jollion</persName>, le <term ref="lem015025.04">meusnier</term> de <placeName ref="loc007935.10">Farvagnye</placeName>, derechef examiné et
+							<lb/><term ref="lem019427.03">torturé</term> deux fois avec la petite <term ref="lem018285">pierre</term>, dit et soustient n’estre
+							<lb/>aucunement <term ref="lem019308.01">sorcier</term>, n’avoir oncques <term ref="lem018556.03">maleficié</term> ny gens, ny bestail,
+							<lb/>que luy mesme a perdu une <term ref="lem018922.01">jument</term> vaillant <measure type="currency" quantity="16" unit="Pistole">16 pistoles</measure>, et
+							<lb/>d’autre bestail jusques a la concurrence de <measure type="currency" quantity="100" unit="k">100 </measure>. Si bien il au<lb break="no"/>roit par fois demandé que les <term ref="lem018921.07">chevaulx</term> de <persName>Claude Brodard</persName> et
+							<lb/>d’autres, qui estoient malades, faisoient, n’y avoir pensé a mal,
+							<lb/>ains <add place="above" type="sign">dit</add> par compassion estre <term ref="lem015161.04">marry</term> d’entendre la perte d’autruy et
+							<lb/>principalement de ses voisins.</seg> <seg>Que si ledit <persName>Brodard</persName>, <persName>Jean
+							<lb/>Piccand</persName> et d’autres (lesquels il ne pretend jamais avoir offensé,
+							<lb/>ny occasioné de mesdire de luy) ont dit quelque chose au desad<lb break="no"/>vantage de son honneur, prie messeigneurs les luy <add place="above" type="sign">vouloir</add> sur les frais
+							<lb/>du tort ayant faire venir par devant, afin de pouvoir, avec
+							<lb/>vives parroles, desmesler son bon droit avec eux, mais comme
+							<lb/>n’ayant subject de l’accuser, ny soubçonner en rien que ce soit,
+							<lb/>ne croit qu’iceux, ny <persName>Taglener</persName> et d’autres, luy soustiendront tels
+								<pb n="466"/><lb/>propos devant, sçachants bien dans leurs <term ref="lem018939.04">ames</term> qu’ils luy fairoient
+							<lb/>tort, de mesme aussy <persName>Claude Corboz</persName>, qui l’ayant desja avant
+								<lb/><date dur-iso="P17Y">17 ans</date> dans un debat nommé<note>Au-dessus de «&#160;nommé&#160;» figure le chiffre «&#160;2&#160;».</note> et injurié <term ref="lem019308.01">sorcier</term>, s’en fallut
+							<lb/>repentir et accorder avec luy pour l’avoir diffamé mal a propos.
+							<lb/>Demande pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

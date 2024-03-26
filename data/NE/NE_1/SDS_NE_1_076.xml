@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-76-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 17JL-316, fol.&#160;19r-20v</idno>
+               </msIdentifier>
+               <head>Ordonnances matrimoniales de René de Challant pour la seigneurie de Valangin</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1539-07-16"/>
+                     <origPlace ref="loc005950">Valangin</origPlace>                     
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_179">SDS NE 1, N<hi rend="sup">o</hi>&#160;76</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005098"></term>
+               <term ref="key000078"></term>
+               <term ref="key005141"></term>
+               <term ref="key000863"></term>
+               <term ref="key000997"></term>
+               <term ref="key000410"></term>
+               <term ref="key000925"></term>
+               <term ref="key003288"></term>
+               <term ref="key005111"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="19r" facs="AEN_17JL_316_19r"/>
+               <div>
+                  <head type="title"><lb/>Articles et constitutions <lb/>concernans le mariaige</head> 
+                  <p><lb/>Pour le premyer une generalle constitution <lb/>a esté faicte que nully en noz
+                     terres et soigneuries de <lb/><placeName ref="loc005950.05">Vallangin</placeName> ne doibt faire
+                     mariaige sans la presence a <lb/>tout le moings de deux hommes de bien,
+                     honnestes et bien <lb/>famez non suspectz. </p>
+                  <head type="subtitle">Déclaration de ceste constitution</head> 
+                     <p><lb/>Il est ascavoir que nully ne doibve fiancer ou contracter <lb/>mariaiges des
+                     enfans sans le lodz, sceu, voulloir et <lb/>consantement des peres, meres,
+                     advoyers tuteurs ou <lb/>de ceulx a qui appartiendra. Et si aulcung
+                     <lb/>transgressoit ou faisoit le contraire, icelluy ou iceulx <lb/>debvront
+                     estre punys selon l’exigence de la cause et ledict mariaige nul.</p>
+                  <p><lb/>Mais affin que le mariaige ne soit faict <pb n="19v"
+                     facs="AEN_17JL_316_19v_20r"/> <lb/>moings usable et convenable que par cy devant,
+                     nul <lb/>mariaige ne doit avoir lieu que ung enfant estant soubz <lb/>la
+                     subjection de sesdicts pere, mere tuteur et gouverneurs <lb/>comme iceulx sont
+                     nommez avoir faict avant ce qu’il soit <lb/>pleinement eagez de XIX a
+                     XX&#160;ans. Et si cela ce <lb/>faisoit devant ces ans susdicts, pere, mere
+                     tuteurs ou gouverneurs <lb/>le pourront empescher et anéantir.</p>
+                  <p><lb/>Et si iceulx pere et mere, tuteurs, advoyers ou gouverneurs <lb/>estoient
+                     nonchallans et ne pourveoient leurs enfans dedans <lb/>les dicts dix neuf ou
+                     vingt ans, adoncques lesdicts enfans <lb/>eulx mesmes par après se pourront
+                     avec l’aide de Dieu <lb/>marier sans empeschement quelconque, reservez
+                     <lb/>touteffoys que le doctz de mariaige d’iceulx debvra estre a <lb/>la
+                     congnoissance des juges de la justice desdicts mariaiges, <lb/>en reservant aux
+                     parties appellations comme dessus, si cella <lb/>estoit contre la volunté du
+                     pere et de la mere.</p>
+                  <p><lb/>Aussi pere, mere, gouverneurs ne aulcungs ne doyvent contraindre <lb/>ou
+                     mollester leurs enfans a nul mariaige contre leur <lb/>volunté en nul temps. Et
+                     s’il se faisoit, et que en justice <lb/>plaintif en fusse faict et qui se
+                     prouveroit deuement, ledict <lb/>mariaige ne debvra rien valloir et les
+                     dellinquans <lb/>punys comme dessus.</p>
+                  <p><lb/>Et si les peres et meres faisoient offres honnestes de <lb/>plusieurs partys
+                     resonnables pour leursdicts enfans de leurs biens <lb/>et que iceulx enfans ne
+                     voulussent croire, ains accepter <lb/>le pire en main, tant du cousté de
+                     l’homme comme du cousté <lb/>de la femme, les dicts pere et mere ne leur seront
+                     tenus bailler <lb/>aulcungs doctz de mariaige durant leur vie.</p>
+                  <p><lb/>Il est dit et prohibé que nully ne prenne en mariaige de sa <lb/>consanguinité
+                     que pour le moings ne soit passé le tiers <lb/>degrey de sadicte consanguinité,
+                     et ce pour obvier a plusieurs <lb/>scandalles qui pourroient survenir tant a
+                     nous que a <lb/>noz voisins. Et si aulcung le passent, le mariaige <lb/>sera
+                     nul et les dellinquans punys par la discretion <pb n="20r"
+                        facs="AEN_17JL_316_19v_20r"/><lb/>desdicts juges. Et au regard de la computation
+                     desdicts <lb/>degrez, cela sera a la discretion desdicts juges.</p>
+                  <p><lb/>Et en oultre si deux personnes se prenoient l’ung l'aultre <lb/>et estoient
+                     francz et libres et qui ne fussent en tutelle de <lb/>nully ou que personne ne
+                     s’empeschast d’eulx et estoient <lb/>recongnoissans l’ung a l'aultre ledict
+                     mariaige, iceulx se <lb/>doyvent avoir l’ung l'aultre, touteffoys la fille
+                     devra <lb/>estre eagée oultre XIIII ans<note>Favarger&#160;1982&#160;: n'avait pas
+                        transcrit les mots «&#160;oultre&#160;» et «&#160;ans&#160;».</note> et le fils non moings de seize
+                     <lb/>ans.</p>
+                  <p><lb/>Mais si n’estoient recongnoissans l’ung l'aultre <lb/>et n’avoient nulz
+                     tesmoings que dessus, ledict <sic>mariaige nul</sic>
+                     <lb/>selon le contenu de la premiere constitution, affin que ung <lb/>chascun
+                     se puisse conduire et garder de honte et de dommaige.</p>
+                  <p><lb/>Et si ung personnaige avoit defflorez et depucellez une <lb/>fille pucelle ou
+                     vierge et qui ne fust marié, icelluy <lb/>doyt bailler a ladicte fille ung
+                     douaire et l’avoir a femme. <lb/>Mais si les peres, meres, tuteur ou
+                     gouverneurs de ladicte <lb/>fille ne la luy voulloient bailler en mariage,
+                     l’acteur <lb/>debvra constituer a ladicte fille ung doctz de mariaige
+                     <lb/>selon la congnoissance desdicts juges. Et si ne pouvoit <lb/>satisfaire,
+                     il debvra estre puny au corps selon la congnoissance <lb/>desdicts juges, si de
+                     leurs mesures ne se pouvoient accorder. </p>
+                  <p><lb/>Et si aulcung voulloit detester ou diffamer par envie pour <lb/>luy porter
+                     deshonneur et que cela se prouvast suffisamment, <lb/>il doyt aussi estre puny
+                     et chastié selon la congnoissance <lb/>desdicts juges.</p>
+                  <p><lb/>Item pour eviter suspicion, blasme et deception, ung <lb/>chascun mariaige qui
+                     sera directement accordé, lesdicts mariez <lb/>debvront faire incontinent et
+                     publicquement troys bands <lb/>a l’esglise&#160;; et les pere, mere, tuteurs et
+                     advoyers ne permettront <lb/>que la consommation dudict mariaige se face avant
+                     que <lb/>soient espousez en ladicte eglise, affin qu’on sachent quels sont
+                     <lb/>ceulx qui par ensemble demeurent en l’estat de sainct mariaige <lb/>ou
+                     non. Et que du mariaige ne soit faict un estat <lb/>de fornication, car nous
+                     sumes aucunement <pb n="20v" facs="AEN_17JL_316_20v"/><lb/>tenus et obligez de cela
+                     faire et plus grande chouse <lb/>pour l’amour de nostre prouchain.</p>
+                  <p><lb/>Aussi ung chascung curé ou recteur doit registrer <lb/>toutes telles et
+                     semblables personnes qui seront mariez.</p>
+                  <p><lb/>Et en oultre n’espouseront les ministres des eglises de cestedicte
+                     <lb/>seigneurie les parrochiens l'ung de l'aultre fors que du <lb/>consantement
+                     l’ung de l'aultre et les dellinquans punys <lb/>comme dessus.</p>
+                  <p><lb/>Nous René, conte de Challant et de Vallangin, etc, <lb/>avoir veu et entendu
+                     les articles et constitutions cy devant escriptes et <lb/>la teneur d’icelles,
+                     bien considéré pour certains bons respectz a <lb/>ce nous mouvans, voulions et
+                     entendons icelles estre <lb/>observées en toutes noz terres, mayories et
+                     seigneurie de Vallangin. <lb/>Mandant et commandant a nostre lieutenant, a tous
+                     noz predicans, <lb/>officiers et subjectz icelles faire observer durant nostre
+                     bon plaisir <lb/>et jusques aultrement soit ordonné&#160;; car nous entendons
+                     et <lb/>reservons icelles rabiller, corriger, adjoindre ou diminuer <lb/>ainsi
+                     que sera necessaire par bon advis et conseil, nonobstant <lb/>toutes exceptions
+                     et allégations contraires. Donné a <lb/>nostre <origPlace ref="loc013628">chasteau de
+                        Vallangin</origPlace>, <origDate when="1539-07-16">le XVI jour de juillet en
+                        l’an <lb/>quinze cens trante et neuf.</origDate></p>
+                           </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p> 
+               <p>AEN, Registre du consistoire seigneurial de Valangin, N<hi rend="sup"
+                     >o</hi>&#160;1, fol.&#160;19-20v.</p>
+               <p>AEN, Copie (1819) du registre du consistoire seigneurial de Valangin,
+                     p.&#160;21-23.</p> 
+               <p>Éd.&#160;Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;401-405.</p>
+               <p>Pétremand, «&#160;Origines&#160;», <hi rend="italic">MN</hi>, 1925, p.&#160;212-215.</p> 
+               <p>Cité&#160;: Farel, p.&#160;426. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

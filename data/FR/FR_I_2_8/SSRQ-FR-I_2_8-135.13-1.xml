@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-135.13-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 470–471</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 470–471</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Fruyo-Magnin – Verhör und Urteil</head>
+					<head xml:lang="fr">Catherine Fruyo-Magnin – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1647-09-10" to="1647-09-11"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="470"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-09-10">10 <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> 1647</origDate>
+						<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+						<seg><lb/><persName ref="per013433a.02"><choice><abbr>C</abbr><expan>Caspar</expan></choice> Techterman</persName></seg>
+						<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><seg><lb/><persName ref="per017940a.02">Catherine Magnyn</persName> est demeuree constante dans sa negative,
+							<lb/>sans rien varier, disant luy estre arrivé grand tort par ceux qui
+							<lb/>l’ont accusé sur cas de <term ref="lem018521.01">sorcellerie</term> et autres <term ref="lem019494.02">crimes</term>, au moien
+							<lb/>de quoy elle est reduicte aux prisons, deshonoree toutte sa vie
+							<lb/>et <term ref="lem019427.02">torturee</term> a tort, mais le tout au nom de Dieu, auquel elle
+							<lb/>offrit tous les <term ref="lem019473.06">torments</term> qu’on luy faict. <subst><del>Nye</del><add place="above">Dit</add></subst> entierement que
+							<lb/>la cicatrice qu’elle a au col n’est point une <term ref="lem018894.06">marque du maling</term>,
+							<lb/>ains d’un mal de sainct, ayant touttes les fois qu’on luy a planté
+							<lb/>l’esguille dedans, ehu grande doulleur et senty les poincts dedite
+							<lb/>esguille.</seg> <seg>Estant en oultre examinee sur tous les articles de
+							<lb/>la nouvelle <term ref="lem018363">inquisition</term>, a dit qu’ayant estee malade l’espace de
+							<lb/><date dur-iso="P14D">14 jours</date> de ce que sa soeur luy apparut aprés de son deces a
+							<lb/>cause de certains habits qu’elle luy avoit retenuz, comme est
+							<lb/>dit cy devant, et estant visitee par <persName>Franceysaz Auberson</persName>, elle
+							<lb/>la detenue luy racompta tout ce que s’estoit passé touchant
+							<lb/>sa dite soeur, sans mal penser. Lors qu’on conduisoit certaine
+							<lb/>fille espousé pour accomplir le mariage, <term ref="lem015549.13">confesse</term> avoir dit (pour
+							<lb/>luy avoir icelle retenu ses peines et sallaires de certain menu
+							<lb/>linge qu’elle luy avoit cousu) qu’on menoit la <term ref="lem018314.04">chiene</term> au <term ref="lem018314">chien</term>,
+								<lb/>de quelle mesdisance et parroles temerairement proferues s’en re<lb break="no"/>pentit tout <term ref="lem015622">incontinent</term> et s’en <term ref="lem019463.03">confessa</term> dheuement, sans jamais
+								<lb/>avoir songé a aucuns <term ref="lem019519.02">charmes</term>, des quels elle ne s’est onques
+							<lb/>servie.</seg> <seg>Nie d’avoir demandé a personne si ceux qui se don<lb break="no"/>noient au <term ref="lem015433.10">maling</term> estoient damnez, que jamais cela se constera, le
+							<lb/>sçachant bien sans le demander. Que <persName>Jean Berset</persName> ne luy a
+								<lb/>jamais dit <term ref="lem019389.02">sorciere</term>, ny dit qu’elle luy avoit faict <term ref="lem018017.03">mecheoir</term>
+								<lb/>un <term ref="lem018921.01">cheval</term>, autrement s’en fust dheuement purgee par voie
+							<lb/>accoustumee de droit. Vray est que ses enfants et ceux
+							<lb/>dudit <persName>Berset</persName> soy battoient souvent et disoient mutuelles
+							<lb/>injures, desquelles n’est aucunement culpable. Et lors que
+							<lb/>sadite soeur luy apparut, ses enfants, sçavoir <persName>Antheyno</persName> et
+							<lb/><persName>Françoise</persName>, qui dormoient avec elle, l’avoir aussy bien veue
+								<pb n="471"/><lb/>qu’elle. Ce qu’elle soustient au <term ref="lem021656.01">pressoir</term> de la jambe environ <date dur-iso="PT15M">¼ d’heure</date>
+							<lb/>plus ou moings, demandant humblement pardon.<note>Le passage qui suit concerne les procès menés contre
+								<persName ref="per017944">Isabelle Grosset-Fornerod</persName> et <persName ref="per017908">Madeleine Gillet-Richod</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-136.3-1">SSRQ FR I/2/8 136.3-1</ref>, <ref target="urn:ssrq:SSRQ-FR-I_2_8-132.11-1">SSRQ FR I/2/8 132.11-1</ref>.</note></seg></p>
+						<p><add place="left margin"><lb/>In ihrem huß <term ref="lem015151.02">confi<lb break="no"/>niert</term>.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p>Berchtold n’a pas édité ce passage, qui provient pourtant du Thurnrodel.</p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

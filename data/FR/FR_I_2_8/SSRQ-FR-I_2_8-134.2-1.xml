@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-134.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 459–463</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 459–463</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Débieux – Verhör</head>
+					<head xml:lang="fr">Jacques Débieux – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-08-28"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="459"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-08-28">28<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.02"><choice><abbr>Cas</abbr><expan>Caspar</expan></choice> Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne les procès menés contre <persName ref="per017908">Madeleine Gillet-Richod</persName> et <persName ref="per017940">Catherine Fruyo-Magnin</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-132.3-1">SSRQ FR I/2/8 132.3-1</ref>, <ref target="urn:ssrq:SSRQ-FR-I_2_8-135.2-1">SSRQ FR I/2/8 135.2-1</ref>.</note></p>
+				<pb n="462"/><p><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Torny</persName></p>
+					<p><seg><lb/><persName ref="per017939a.02">Jaques Debieux</persName> de <placeName ref="loc008333.03">Chavannes sous Orsonnens</placeName>, qui est sourd et
+						<lb/>dit avoir trois enfants muets et sourds sans se pouvoir au<lb break="no"/>cunement conduire, de son estat un <term ref="lem018047.01">charron</term>, examiné et <term ref="lem019427.03">torturé</term>
+					<lb/>comme les devant nommeez, n’a rien voullu <term ref="lem015549.01">confesser</term>, disant
+					<lb/>estre innocent du <term ref="lem018524.02">sortilege</term> duquel il est quelquement soub<lb break="no"/>çonné&#160;; ne sçavoir autre secret pour prendre les escrevisses que
+					<lb/>les autres qui les prennent avec grenouilles escorchees, attachees
+					<lb/>a un baston fendu, mais ce qu’il bat de pied sur le gazon,
+					<lb/>n’est autre sinon pour les faire sortir hors leurs tannieres.
+					<lb/>N’estre vray que jamais il ait usé aucun moien illicite pour les
+					<lb/>prendre, ny veu qu’une escrevisse noire ait chassé les autres
+					<lb/>dans le filet, que ce ne sont que des envieux, qui, n’ayant
+					<lb/>la chanse comme luy, inventent mille mensonges contre luy,
+					<lb/>et lors qu’ils sçavent qu’il en a pris et mis dans son
+					<lb/>reservoir pour les porter a <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le ballif, ils les luy vien<lb break="no"/>nent prendre, ce qu’il luy est arrivé plusieurs fois.</seg> <seg>Lors
+					<lb/>que venant de <placeName ref="loc007647.03">Romond</placeName>, un jour de foire, avec plus de 30 paisants,
+					<lb/>et l’ayant <subst><del>su</del><add place="inline">les</add></subst> <persName>Pourvians</persName> <term ref="lem015009.08">cerché</term> a debat sur les
+					<lb/>chemins a cause de certaines graines, mesmement l’un d’iceux
+					<lb/>luy estant sauté sus pour le battre, nye d’avoir demandé
+					<lb/>le <term ref="lem015433.10">maling</term> en ayde, ny dit a <persName>Caspar Pourvian</persName>, qui gardoit
+					<lb/>leurs legumes a cause du sanglier avec un autre paisan,
+					<lb/>qu’il deut aller a la <term ref="lem017043">secte</term> avec luy, n’y ayant, Dieu
+					<lb/>mercy, jamais esté, ne sçachant que <term ref="lem017043">secte</term> n’at a dire.</seg>
+					<lb/><seg>Quand la cure de <placeName ref="loc009988">Berlens</placeName> fut bruslee, n’avoir dit qu’il
+						<lb/>avoit crainte que sa mere fut <term ref="lem019389.02">sorciere</term>, estant icelle morte
+					<lb/>femme d’honneur, ny qu’il pouvoit avec un sien garçon cueillir
+					<lb/>trois sacs de glands avant <add place="above">le</add> disné. Nye aussy d’avoir malmené
+					<lb/>ou battu sa soeur, mais bien dit q’elle devoit aller vers ceux
+					<lb/>de <placeName ref="loc008333.04">Chavanes</placeName> qui avoient son bien, sçavoir <measure type="currency" quantity="300" unit="lb">300 </measure>, ne la voullant
+					<lb/>plus entretenir pour rien, et comme elle estoit ordinairement
+					<pb n="463"/><lb/>valletudinaire, aprés estre <term ref="lem019463.04">confessee</term> et dhuement administree, mourut sans
+					<lb/>que luy ny personne luy ait occasioné la mort.</seg> <seg>Pour guarir les
+						<lb/><term ref="lem018049.02">estranguillons</term> aux <term ref="lem018921.06">chevaux</term>, n’avoir usé d’autre remede que avec un
+					<lb/>sachet d’orge cuit, qu’il leur appliquoit tout chaud a la guele et
+					<lb/>narines, et jamais faict aucun mal a personne. <term ref="lem019498">Crie mercy</term>.<note>Le passage qui suit concerne le procès mené contre <persName ref="per017913">Jean Jolion</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-133.3-1">SSRQ FR I/2/8 133.3-1</ref>.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

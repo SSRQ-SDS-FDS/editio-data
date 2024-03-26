@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-08-19"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.25-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 82–86</idno>
+     </msIdentifier>
+     <head>Succession et hérédité ab intestat</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000815"></term>
+     <term ref="key004995"></term>
+     <term ref="key000803"></term>
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key005083"></term>
+     <term ref="key000803"></term>
+     <term ref="key000232"></term>
+     <term ref="key005074"></term>
+     <term ref="key001043"></term>
+     <term ref="key005198"></term>
+     <term ref="key005111"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="82" facs="AEN_MJ_17_082_083"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chapp.</abbr>
+        <expan>Chappitre</expan>
+       </choice> XXV. <lb/>De la succession <lb/>et heredité <lb/>ab intestat.</head>
+      <p>
+       <lb/>Celuy qui decede sans <choice>
+        <abbr>ord<hi rend="sup">ce</hi></abbr>
+        <expan>ordonnance</expan>
+       </choice>
+       <lb/> de derniere volonté, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 32">ou</rdg>
+       </app> sans avoir puissance <lb/>de tester, laisse ab intestat ses biens <lb/>a ceux qui ont
+       droit de luy succeder, <lb/>selon la coustume de ceste souveraineté,<note>Nouveau paragraphe
+        dans AVN Q41.</note>
+       <lb/>les dessendants en ligne droitte <app>
+        <lem>de parenté <lb/>ligitime et naturelle</lem>
+        <rdg wit="AVN Q41, p. 32"/>
+       </app> sont admis en <lb/>premier <app>
+        <lem>rang</lem>
+        <rdg wit="AVN Q41, p. 32">lieu</rdg>
+       </app> a ladite succession, comme <lb/>sont les enfans nez de deux personnes, <lb/>en loyal
+       mariage. <lb/><add place="below" type="catchword">Parquoy</add>
+      </p>
+      <pb n="83" facs="AEN_MJ_17_082_083"/>
+      <p>
+       <lb/>Par quoy selon ladite coustume les <lb/>enfans succedent indifferemment par <lb/>teste
+       aux biens de pere et de mere.</p>
+      <p>
+       <lb/>Et s’il y a enfans de divers mariages, <lb/>ceux qui sont du pere, ont tous egale
+       <lb/>portion a ses biens, &amp; <app>
+        <lem>aussy</lem>
+        <rdg wit="AVN Q41, p. 32">ainsi en est</rdg>
+       </app> de ceux <lb/>de la femme.</p>
+      <p>
+       <lb/>Et sy les enfans de l’ab intestat <lb/>estoyent desja decedez, leurs petit <lb/>fils et
+       petites filles viennent a la <lb/>succession, et a deffaut de ceux <app>
+        <lem>cy</lem>
+        <rdg wit="AVN Q41, p. 33">la</rdg>
+       </app>
+       <lb/>les arriere fils et arriere filles, <lb/>par representation &amp; non par teste.</p>
+      <p>
+       <lb/>Sy le decedé ab intestat n’a laissé <lb/>aucuns dessendants, la succession <lb/>remonte
+       aux assendants plus <lb/>proches que sont le pere et <lb/>la mere, grand pere et grand
+       <lb/>mere, retirant un chescun ce qui <lb/><add place="below" type="catchword">meut</add>
+       <pb n="84" facs="AEN_MJ_17_084_085"/>
+       <lb/><term ref="lem018369.02">meut</term> de luy, c’est a dire, le pere ayeul <lb/>le
+       paternel, la mere ou ayeule le <lb/>maternel.</p>
+      <p>
+       <lb/>Mais s’il n’y avoit pere <app>
+        <lem>ny</lem>
+        <rdg wit="AVN Q41, p. 33">ne</rdg>
+       </app> mere <lb/>ny autres assendants, les freres &amp; soeurs <lb/>ou leurs fils et filles,
+       et enfans qui <lb/>ne seroyent encor <term ref="lem014992.12">destroncquez</term> &amp; <app>
+        <lem>admis</lem>
+        <rdg wit="AVN Q41, p. 33">divis</rdg>
+       </app>, <lb/>luy succedent egalement par souches <lb/>sans preference, excluants les autres
+       <lb/>qui sont <term ref="lem014992.12">destroncquez</term> &amp; divis, &amp; tous
+       <lb/>autres prochains parents.</p>
+      <p>
+       <lb/>Et sy tous les freres &amp; soeurs qui sont <lb/>vivants au temps du decez de leurs
+       <lb/>freres et soeurs <app>
+        <lem/>
+        <rdg>ab</rdg>
+       </app> intestat sont tous <lb/>indivis, et y a enfans d’un de leur frere <lb/>mort
+       auparavant, lesdits <choice>
+        <abbr>enfas</abbr>
+        <expan>enfans</expan>
+       </choice> peuvent <lb/><choice>
+        <abbr>repnter</abbr>
+        <expan>representer</expan>
+       </choice> leurdit pere et partager <lb/>la succession par souches sans <lb/>preference avec
+       leurs oncles &amp; <lb/>tantes vivants. Mais a leur <lb/>deffaut leurs oncles viennent a
+       <lb/>ladite succession, et n’en <choice>
+        <abbr>existats</abbr>
+        <expan>existants</expan>
+       </choice> aucun <lb/><add place="below" type="catchword">les</add>
+       <pb n="85" facs="AEN_MJ_17_084_085"/>
+       <lb/>les cousins germains y sont appellez, <lb/>et ainsy successivement, que ce qui
+        <lb/><term ref="lem018369.02">meut</term> du pere, retourne au paternel <lb/>et ainsy <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 33">aussi</rdg>
+       </app> du maternel.</p>
+      <p>
+       <lb/>Les nepveux succedent a leurs <lb/>oncles et tantes, et a faute de <lb/>nepveux les
+       arriere nepveux <app>
+        <lem>&amp;</lem>
+        <rdg wit="AVN Q41, p. 33">ou</rdg>
+       </app>
+       <lb/>cousins germains, qui sont en mesme <lb/>degré, et ce par testes et non par <lb/>tronc
+       &amp; souches.</p>
+      <p>
+       <lb/>A la succession des dessendants <lb/>en ligne droitte, le fils vivant <lb/>n’exclud
+       point <app>
+        <lem>ses</lem>
+        <rdg wit="AVN Q41, p. 33">les</rdg>
+       </app> nepveux et <lb/>niepces indivis, et le partage <lb/>se fait par souches, plusieurs
+       <lb/>nepveux ne representent <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> leur <lb/>pere <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 33">ou mere</rdg>
+       </app> a la succession du bien de <lb/>leur grand pere<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 33"> ou grand mere</rdg>
+       </app>, avec leur<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 33"> oncle et tante</rdg>
+       </app>.</p>
+      <p><lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 33">Il s’ensuit en la page suivante la table pour trouver <lb/>le
+         degré de parentage, tant de consanguinité que d’af<lb break="no"/>finité, soit pour faict
+         de succession hereditaire, <lb/>que aussi de jugement, ou tesmoignage, ou en faict de
+          <lb/>mariage.<note>Ce paragraphe entier n’est présent que dans AVN Q41.</note></rdg>
+       </app></p>
+      <pb n="86" facs="AEN_MJ_17_086_087"/>
+      <head type="title">
+       <lb/>Table pour trouver <app>
+        <lem>le</lem>
+        <rdg wit="AVN Q41, p. 34">les degrez du</rdg>
+       </app> paren<lb break="no"/>tage tant de consanguinité que <lb/>d’affinité, soit en faict de <lb/>tesmoignages<app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 34">ou de</rdg>
+       </app> jugements<app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 34"> ou de</rdg>
+       </app>
+       <lb/>successions <app>
+        <lem>&amp;</lem>
+        <rdg wit="AVN Q41, p. 34">heredi<lb break="no"/>taire, ou en faict <lb/>de</rdg>
+       </app> mariages.<note>La table est représentée sous forme de schéma sur l’ensemble de la
+        page.</note></head>
+      <p><figure type="illustration">
+       <graphic type="familytree" mimeType="image/svg" url="SDS-NE-4-1.25-1-fig-1.svg" />
+      </figure>
+      </p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

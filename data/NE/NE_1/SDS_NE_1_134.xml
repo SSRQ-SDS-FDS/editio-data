@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-134-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 12 RC 15</idno>
+               </msIdentifier>
+               <head>Franchises accordées par Henri&#160;II de Longueville aux habitants de la Chaux
+                  des Taillières comportant entre autres l'érection de leur nouvelle communauté en
+                  paroisse et en mairie, l'octroi de deux foires annuelles, l'exemption de la
+                  mainmorte et diverses concessions</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation>
+                        <origDate when="1624-10-11"/>
+                        <origPlace ref="loc007897">La Brévine</origPlace>
+                     </filiation>
+                     <filiation type="original">Copie authentique</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="42"/>
+                              <width unit="cm" quantity="57.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1624-10-11"/>
+                     <origPlace ref="loc010601" >Paris</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_310"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;134</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000204"></term>
+               <term ref="key005533"></term>
+               <term ref="key005822"></term>
+               <term ref="key000815"></term>
+               <term ref="key000502"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_12RC_15_1r"/>
+               <pb n="1v" facs="AEN_12RC_15_1v_2r"/>
+               <pb n="2r" facs="AEN_12RC_15_1v_2r"/>
+               <div><p><gap reason="missing"/></p></div>
+               <pb n="2v" facs="AEN_12RC_15_2v_3r"/>
+               <div>
+                  <p><seg>
+                      <lb/>Henry par la grâce de <lb/>Dieu, prince et comte souverain de
+                     Neufchastel <lb/>et Vallengin en Suisse, duc de Longueville et <lb/>de toute
+                        ville<note>Pour Estouteville. Il s’agit de la pratique habituelle à
+                        Neuchâtel</note>, comte de Dunois, Chaumont, <lb/>Tancarville et Gournay,
+                     sçavoir faisons <lb/>que plusieurs de nos sujectz des mayories du <lb/>Locle, la
+                     Sagne et des Brenets, en nostre comté <lb/>de Valengin, se trouvant trop à
+                     l’estroit es dits <lb/>lieux, pour ce que le peuple s’y multiplie et <lb/>croist
+                     de jour à autres, aurroyent choisis <lb/>pour estre plus au large et mieux
+                     accommodez <lb/>les lieux a présent dit la Chaux des <sic>Itallières</sic>,
+                     la <lb/>Ronde-Chaux, du Cachot, la Remossa et la Brevine <lb/>rière nostre comté
+                     de Neufchastel, en la chastellenie <lb/>du Vauxtravers sur les montagnes du
+                     costé <lb/>de septentrion, joignant les rais du comté <lb/>de Bourgogne, après
+                     avoir recognu que <lb/>les dits lieux estant <choice>
+                        <sic>deffoichez</sic>
+                        <corr>deffrichez</corr>
+                     </choice> et essertez des <lb/>grands bois et forets <choice>
+                        <sic/>
+                        <corr>qui les</corr>
+                     </choice> couvroyent entièrement <lb/>seroyent propres à faire de bons prez
+                     et <lb/>autres champs et pastures.</seg> <seg>À quoi ayans <lb/>travaillez depuis environ
+                     deux cents ans <lb/>en sçà par la permission de nos prédécesseurs <lb/>auroyent
+                     jusques icy a peu prés rendu tous <lb/>ces quartiers fertilles et de raportz, sy
+                     que <lb/>nous y percevons aujourd’huy de grandes <lb/>dixmes de graines, lods,
+                     censes et rentes <lb/>et plusieurs frais et esmoluments
+                     de <lb/>jurisdiction&#160;; et nosdits sujectz toutes <lb/>sortes de commoditez
+                     pour s’y nourrir et <lb/>entretenir. Et comme ils ont vescus jusques <lb/>a
+                     présent aux dits lieux sans avoir autrement <lb/>aucune certaine forme de loix
+                        <pb n="3r" facs="AEN_12RC_15_2v_3r"/>
+                      <lb/>et de coustumes, les uns voulans, tant au <lb/>spirituel qu’au temporel
+                     despendre de <lb/>Valengin, et avoir leurs communes d’où <lb/>ils sont sortis
+                     originaillement, les autres <lb/>de la chastelanie du Vauxtravers et en
+                     leurs <lb/>causes et actions meppartissoyent nostre <lb/>jusrisdiction, faisant
+                     aller les reels seulement <lb/>au Vauxtravers et les personnels à
+                     Valengin, <lb/>au Locle, la Sagne et es Brenets que aportoyent <lb/>telle
+                     confusion et desordre qu’il en naissoit <lb/>tous les jours des differens entre
+                     nos officiers, <lb/>mesme de l’un a l’autre comté, pendant quels <lb/>débats
+                     plusieurs de nos droicts se perdoyent <lb/>et plusieurs crimes et delicts
+                     demeuroyent <lb/>impunis. Pour à quoy penser <lb/>remedier, nostre lieutenant
+                     general et gouverneur <lb/>en nosdicts comtez avec nostre conseil d’Estat <lb/>y
+                     establi, auroyent ordonné que les dicts habitans <lb/>et bonnes gens de la Chaux
+                     d’Itallieres, la <lb/>Remossa et la Brevena despendoyent à l’advenir <lb/>et en
+                     spiritualité et temporalité entièrement <lb/>du Vauxtravers puisque ce quartier
+                     est <lb/>entièrement dans le clima et encloz du <lb/>comté de Neufchastel et du
+                     ressort mesme <lb/>dudit Vauxtravers, de quoy seroit arrivez <lb/>de plus grandes
+                     difficultez pour l’interet <lb/>que prestendoyent nosdits sujets
+                     habitans <lb/>desdites Chaux, auxquelles pour obvier et <lb/>mettre en repos
+                     nosdits sujets, et les voulans <lb/>favorablement traicter pour avoir
+                     leurs <lb/>prédécesseurs et aux <choice>
+                        <sic>deffoichez</sic>
+                        <corr>deffrichez</corr>
+                     </choice> les dits lieux <lb/>et iceux abonnez à nostre utilité et
+                     proffit <lb/>et de celle du publicq, et leur donner moyen <pb n="3v"
+                        facs="AEN_12RC_15_3v_4r"/>
+                      <lb/>de s’y mieux accommoder et entretenir à <lb/>l’advenir et de vivre sous
+                     loix certaines sans <lb/>estre plus inquiétez et molestez à se
+                     rendre <lb/>paroissiens en diverses églises, ny à subir <lb/>justice et
+                     jurisdiction à divers ressorts, veu <lb/>mesme que celle du Vauxtravers est
+                     assez grand <lb/>sans y comprendre lesdites Chaux, riere et <lb/>dans lesquelles
+                     il y peut avoir a présent jusques <lb/>à milles âmes, et que le lieu se peuple
+                     de <lb/>jour à autre&#160;; et à cest effect les rejoindre et <lb/>rassembler
+                     tous en un corps de communauté, <lb/>ressort et paroisse. C’est pourquoy <lb/>de
+                     nostre authorité et puissance souveraine <lb/>et de grâce specialle, nous avons
+                     accordez, <lb/>ottroyé et concédé et par ces présentes accordons, <lb/>ottroyons
+                     et concédons, pour nous, nos hoirs <lb/>et successeurs quelconques auxdits
+                     habitans <lb/>et bonnes gens nos sujets de la Chaux <lb/>d’Itallieres, la Ronde
+                     Chaux, la Remossa, <lb/>le Cachot et la Brevena, que à présent y sont <lb/>et
+                     seront à l’advenir, les privilèges, libertez, <lb/>immunitez et coustumes
+                     suivantes en <lb/>conformitez de leurs anciennes franchises.</seg> <seg><lb/>Premièrement,
+                     nous leurs <lb/>concédons que le temple et eglise nouvellement <lb/>basti leur
+                     soit aujourd’huy leur paroisse, <lb/>avec mesmes privilèges que les
+                     autres <lb/>paroisses de nosdits comtez et les exemptons <lb/>de tout droit
+                     paroissial partout ailleurs. <lb/>Et pour estre tant plus ladite paroisse
+                     et <lb/>eglise authorisée et honnorée, nous en demeurons <lb/>et nos successeurs
+                     comtes souverain de Neuchâtel, <lb/>collateurs et patrons, en reconfirmant par 
+                        <pb n="4r" facs="AEN_12RC_15_3v_4r"/>
+                      <lb/>cestes la pension que nous avons assigné <lb/>sur nostre revenu du prioré
+                     du Vauxtravers <lb/>au moderne ministre de la Chaux et futurs <lb/>successeurs,
+                     moyennant que nosdits sujectz <lb/>se chargeront a perpettuyté de
+                     l’entretien, <lb/>bastiment et réparation dudit temple et de <lb/>la maison de
+                     leur ministre et simitiere. <lb/>Nous leur avons aussi accordez <lb/>en ladite
+                     Chaux droit de consistoire comme il <lb/>est establi en nostre mayorie de la
+                     Coste et <lb/>autres ressorts de semblables rangs, en <lb/>justice moyenne et
+                     basse.</seg> <seg>Et pour <lb/>et affin que nosdits sujets, habitans desdites <lb/>Chaux,
+                     tant ceux qui y sont à présent que <lb/>ceux qui y seront à l’advenir ne fassent
+                     qu’un <lb/>corps, nous voulons et leurs concédons <lb/>qu’ils vivent à droit de
+                     communauté à l’advenir <lb/>à la mode et façon de leurs anciennes
+                     communautés <lb/>dans l’enclos des limites qui seront plantées <lb/>et designées
+                     par nos officiers desdits comtez <lb/>à ce commis par nostre conseil d’Estat,
+                     auxquelz <lb/>donnons commission et pouvoir par cest <lb/>d’en faire et d’en
+                     attacher l’acte et exploix aux <lb/>présentes. Et que dans ledit encloz, et
+                     non <lb/>ailleurs, ils jouissent et usent des immunitez, <lb/>coustumes et
+                     privilèges cy dessus et cy après <lb/>escrits.</seg> <seg>Nous avons aussy <lb/>concédé à
+                     nosdits sujets que toutes causes <lb/>personnelles et reelles dans ledit enclos
+                     et <lb/>limites seront déterminées et vuidées en <lb/>ladite Chaux en premiere
+                     instance et en <lb/>seconde devant nous et nos Trois Estatz de <lb/>nostre comté
+                     de Neufchastel. Et à cest effect <pb n="4v" facs="AEN_12RC_15_4v_5r"/>
+                      <lb/>avons errigez et errigons par cesdites présentes, <lb/>la dite Chaux à
+                     tiltre de mayorie à tel droit que <lb/>celle de la Coste et autres de nostredit
+                     comté, <lb/>exerçans et ayans moyenne et basse jurisdiction, <lb/>sauf les
+                     droicts de nostre wassal le seigneur <lb/>de Travers en ce qui se trouvera de
+                     son fief <lb/>dans le susdit encloz&#160;; et les fais et exploix <lb/>de haute
+                     jurisdiction que seront remis et <lb/>renvoyez au Vauxtravers.</seg> <seg>Nous <lb/>avons
+                     ottroyé à nosdits sujets de pouvoir <lb/>tenir par chacune année deux
+                     foyres <lb/>à ladite Chaux, au lieu le plus commode <lb/>et d’y bastir et
+                     construire des hasles pour <lb/>loger les marchands et leur
+                     marchandise, <lb/>sauf et réservé toujours nos droicts.</seg> <seg>Nous <lb/>tenons quittes
+                     nosdits sujects de la <lb/>Chaux, tant de leurs personnes que de
+                     leurs <lb/>terres dans ledit encloz, de toutes servitudes <lb/>et mainmorte,
+                     excepté les taillables et les <lb/>estrangers que s’y pourroyent
+                     habitiier <lb/>au temps advenir, lesquels toutesfois n’y <lb/>pourronts estre
+                     receus ny habergez que <lb/>par nostre permission et congé.</seg> <seg>Nous <lb/>leur avons
+                     accordé en biens communs <lb/>les sagnes et marets qui se trouveront <lb/>dans
+                     ladite Chaux et susdit encloz qui ne sont <lb/>accensez a personne, jusques à la
+                     quantité <lb/>de trente poses sy tant y en a, en non plus <lb/>et ainsi qu’elles
+                     leur seront boynées et limitées <lb/>par ceux qui seront à ce députez par
+                     nostre <lb/>conseil d’estat&#160;; desquelles sagnes et marets <lb/>nous leur
+                     permettons faire à leur bon <lb/>plaisir, et que des deniers qu’ils en <pb
+                        n="5r" facs="AEN_12RC_15_4v_5r"/>
+                      <lb/>retireront, comme aussi de ceux qui voudront <lb/>financer de leurs propres
+                     et de ceux <lb/>qu’ils percevrons des nouveaux receus <lb/>en leurdite commune,
+                     ils en puissent <lb/>faire un fond pour aplicquer à tel usage <lb/>qu’ils verront
+                     estre à faire pour le proffit <lb/>et utilité de leurdite commune,
+                     laquelle <lb/>en recognoissance de ce, nous payera <lb/>annuellement et
+                     perpétuellement vingt <lb/>cinq sols foibles au jour que nos autres <lb/>rentes
+                     se payent.</seg> <seg>Nos dictz subjetz <lb/>et communiers en ladite Chaux ne
+                     pourront <lb/>estres constituez prisonniers sans <lb/>jugement et cognoissance de
+                        justice, ce <lb/>fors pour crime.</seg> <seg>Nosditz subjectz <lb/>en ladite Chaux ne nous
+                     debvront les <lb/>bans, amendes, lods et ventes que <lb/>comme noz autres sujetz
+                     du Vauxtravers&#160;; <lb/>et les avons affranchis de toutes dedites <lb/>et
+                     tenues, comme aussi du rude baston, <lb/>pouvans vendre et faire de leur
+                     bestail <lb/>ce que bon leur semblera pour leur <lb/>proffit.</seg> <seg>Nous les tenons
+                     aussy <lb/>quittes de la garde des ayres des oyseaux <lb/>gentils&#160;; et sont
+                     nosdits sujets aussy <lb/>francs de péages et ventes en et riere <lb/>nosdits
+                     comtez de Neufchastel et Valengin <lb/>de ce qu’ils achepteront pour leur
+                     entretien <lb/>et de leurs fermiers, et non de qu’ilz <lb/>achepteront pour
+                     revendre, sy ce n’estoit <lb/>bestail rouge à cornes qu’ils auront <lb/>gardé sur
+                     leur pasturage six sepmaines <lb/>entières&#160;; lors les pourront revendre <pb
+                        n="5v" facs="AEN_12RC_15_5v_6r"/>
+                      <lb/>sans payer peage.</seg> <seg>Nous permettons <lb/>auxdits subjects qu’ils puissent
+                     chasser <lb/>a chiens et oyseau à toutes chasses en nous <lb/>payant et à nos
+                     successeurs les droicts <lb/>seigneuriaux, sauf à la caille,
+                     perdrix, <lb/>gelinottes et feesans et à la beste rousse <lb/>au mois d’aoust. Et
+                     avant la vendre, <lb/>en doibvent faire la représentation à nous <lb/>et à nos
+                     officiers qui la pourront avoir <lb/>avant tous autres a prix
+                     raisonnable.</seg> <seg><lb/>Nous doibvent nosdits subjectz <lb/>en ladite Chaux, tant les
+                     bourgeois que <lb/>francs habergeans, chacun feu tenant, <lb/>vingt cinq sols
+                     foibles d’usages et prestation <lb/>personnelle en recognoissance du
+                     présent <lb/>benefice et franchise.</seg> <seg>Nosdits subjectz <lb/>nous doibvent les
+                     contributions et aides <lb/>generalles et autres subjections que <lb/>doibvent
+                     tous autres francs subjectz <lb/>de notredit comté de Neufchastel, <lb/>ainsi que
+                     d’ancienneté ils ont accoustumé. <lb/>Et la recognoissance de leurs
+                     personnes, <lb/>terres et héritages de toutes jurisdictions <lb/>et souveraineté,
+                     quand sommez et requis <lb/>en seront. Et nous doibvent suivre, et <lb/>nosdits
+                     successeurs, pour nostre propre <lb/>guerre et de noz alliez à leurs
+                     despends <lb/>suivant la franchise du Locle et de la Sagne, <lb/>jadis concédée
+                     par Jean, comte d’Arbert <lb/>et de Valengin, le douzième may <lb/>mille trois
+                     cents septante et deux, <lb/>confirmée par feu madame Marie <lb/>de Bourbon
+                     nostre ayeulle en l’an mille/ <pb n="6r" facs="AEN_12RC_15_5v_6r"/>
+                      <lb/>cinq centz quattre vingtz cinq, et <lb/>vingttiesme jour du mois
+                     d’aoust <lb/>nous avons abonné et moderé à <lb/>nosdits sujects en ladite Chaux,
+                     et dans <lb/>les susdites limites le dixme de leurs  <lb/>terres pour et moyennant deux emines <lb/>qu’ils nous payeront pour chacune
+                     pause <lb/>de telle graine qu’elle croistra sur les <lb/>champs, bonne et
+                     recevable, non gastée <lb/>ny gellée et hors de tout orvalle et
+                     tempeste.</seg> <seg><lb/>Les modernes francs habergeans <lb/>et tous estrangers et habituez
+                     en ladite <lb/>Chaux et qui s’y habitiieront à l’advenir, <lb/>s’ils n’en ont
+                     grâce de nous ou de nos <lb/>prédécesseurs ou successeurs, nous
+                     debvront, <lb/>outre les usages sus spécifiez, un agneau <lb/>quand ils garderont
+                     brebis, qui se recevra <lb/>entre Pasques et l’Assention.</seg> <seg>Item une <lb/>poule et
+                     le quart d’une esmine d’aveyne <lb/>pour le fournage&#160;; et debvront
+                     ramener <lb/>nos graines de nostre revenuz de ladite <lb/>Chaux au Vautravers, ou
+                     pour le <lb/>charrois et voiture non faite ny commandée, <lb/>payeront par feu
+                     dix groz foible monnoye.</seg> <seg><lb/>Nous permettons et ottroyons <lb/>tant pour le
+                     présent que pour l’advenir <lb/>à nosdits sujectz, bourgeois et
+                     francs <lb/>habergeans desdites Chaux, de pouvoir <lb/>retourner en leur
+                     communauté du Locle, <lb/>la Sagne et Brenetz quand ils voudront <lb/>et y avoir
+                     tel droict et condition comme <lb/>ils avoyent avant en estre sortis et
+                     sans <lb/>que leur demeure et habitation esdites <pb n="6v"
+                        facs="AEN_12RC_15_6v_7r"/>
+                      <lb/>Chaux pour quelques espaces et laps de <lb/>temps que ce soit leur puisse
+                     préjudicier <lb/>à leur droit de commune et privilège et <lb/>que jouissent à
+                     présent et jouiront à <lb/>l’advenir les habitans de nosdites communes <lb/>du
+                     Locle, la Sagne et des Brenets et qui <lb/>estans retournez faire leur
+                     residance <lb/>actuelle et personnelle, ils soyent exemps <lb/>des prestations
+                     personnelles et autres <lb/>subjections qu’ils nous doibvent à présent <lb/>à
+                     cause de nostre chasteau et chastelanie <lb/>du Vauxtravers, pourveu qu’ils
+                     nous <lb/>rendent leur debvoir de subjection comme <lb/>les autres desdites
+                     communes, un chacun <lb/>selon sa condition quand ils seront retournez.</seg> <seg><lb/>Ne
+                     pourront nosdits subjects <lb/>bastir dans le susdit enclos ny faire
+                     aucun <lb/>four, moullins ou autres rouages sans <lb/>nostre permission, pour
+                     laquelle il nous <lb/>payeront une redevance raisonnable comme <lb/>les autres
+                     qui y ont desja semblable permission.</seg>  <seg><lb/>Et pour tesmoigner d’avantage <lb/>à
+                     nosdits sujects nostre bien veuillance <lb/>et le soing que avons de les
+                     soulager, <lb/>nous voulons que la recepte des dixmes <lb/>que nous percevrons à
+                     présent dans ledit <lb/>encloz et que pourront y percepvoir à <lb/>l’advenir, se
+                     fasse au lieu mesme de la Chaux <lb/>et que les habitans soyent assistez
+                     avant <lb/>tous autres des graines qui en proviendront  <lb/>pour recemer leurs
+                     terres, lesquelles <lb/>graines seront logées dans les greniers <lb/>qui se
+                     construiront audit lieu de la Chaux <pb n="7r" facs="AEN_12RC_15_6v_7r"/>
+                      <lb/>aux frais et despens de nosdits subjects <lb/>auxquels nous permettons
+                     d’adjoindre <lb/>auxdits greniers, geolles et prisons pour <lb/>chastier les mal
+                     vivans qui ne seront <lb/>du tout criminels.</seg> <seg>Lesquelles <lb/>franchises,
+                     coustumes et libertez, nous <lb/>ledit prince et comte souverain que
+                     dessus, <lb/>pour nous, nos hoirs et successeurs <lb/>quelconques, avons promis
+                     et promettons <lb/>par nostre bonne foy et serment, à nosdits <lb/>sujects, à un
+                     chacun selon sa condition, <lb/>leurs hoirs légitimés et successeurs
+                     quelconques, <lb/>tenir et maintenir perpétuellement sans <lb/>jamais en
+                     résilier, dire, faire, venir ne <lb/>consentir estre fait ou dit
+                     aucunement <lb/>au temps advenir au contraire. Et pour <lb/>plus forte
+                     coroboration et tesmoignage de <lb/>tout ce que dessus, ont estéz faites
+                     deux <lb/>doubles, l’un pour estre mis au tresort <lb/>de nos Chartres de nosdits
+                     comtez et <lb/>l’autre pour nosdits subjects, signez de <lb/>nostre main et
+                     contresignez par l’un <lb/>de nos secrétaires ordinaires et seellé de <lb/>nostre
+                        grand sceau.</seg> <seg>Donné à <placeName ref="loc010601" >Paris</placeName><note>Le document original est fait à Paris, mais le
+                           texte édité est une copie authentique réalisée par un notaire à La Brévine.</note>,  <lb/><date when="1624-10-11">le onziesme jour du
+                        mois d’octobre mille <lb/>six cents vingt quattre</date>.</seg> <gap
+                        reason="missing"/></p>
+                   <lb/>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original perdu.</p>
+               <p>Copie authentique dans, AEN, «&#160;Reconnaissances des Montagnes du Val-de-Travers&#160;», par Viret, vol.&#160;8 (Chaux d’Etallières), fol.&#160;2v-7r.</p>
+               <p>Éd.&#160;Boyves, Annales, III, p.&#160;502-504. Recueil historique... des franchises, p.&#160;184-190&#160;; Etrennes neuchâteloises, 1863, p.&#160;151-160.</p>
+               <p>Cité&#160;: L.&#160;Montandon, «&#160;L’érection de la Mairie de la
+                     Chaux-des-Taillères&#160;», dans MN, 1917, p.&#160;193-207. Roulet, Mairie...,
+                     p.&#160;94-95.</p>
+               <p>Remarques&#160;:</p>
+               <p>Deux textes de 1544 et 1545 tirés du notaire Antoine Baillod le jeune et
+                     instrumentés au Val-de-Travers montrent bien que la mainmorte privilégie les
+                     intronqs. dans le premier texte (fol.&#160;1v-3r), une fille mariée <hi
+                        rend="italic">per mariage nombrer</hi> e peut revenir à partager au décès de
+                     son père qui était <hi rend="italic">desmeurer entroncher en communion</hi>
+                     avec ses deux oncles qui recueillent l’héritage, en prétendant qu’<hi
+                        rend="italic">elle estoit de avec sondit pere desparee, por quoy a cause de
+                        leurs condicions taillable et mainmortable</hi> [l’heritage devait] <hi
+                        rend="italic">mieulx apartenir le cas advenant a nostre... prince</hi>, la
+                     loyale échute étant cependat réservée. Le second texte (fol.&#160;22v-23)
+                     affirme hautement le privilège des intronqués, la fille détronquée pouvant
+                     cependant revenir à partage, car elle a plusieurs petits enfants. Dans le
+                     Val-de-Morteau (AEN, Q&#160;3, n<hi rend="sup">o</hi>&#160;6, fol.&#160;28v et
+                     97r), où les résidents sont taillant la part qu’elles avaient reçue en
+                     détronquant. Ces retours à partage sont possibles grâce à des accords (<hi
+                        rend="italic">convent</hi>) conclus avec leurs frères intronqués. Ces deux
+                     textes remontent à 1329-1330. Le même registre affirme pourtant que... <hi
+                        rend="italic">l’un des personniers mort, cilz qui est estey partis ne puet ne
+                        doit revenir jamais en partaige avec ses personniers</hi> (fol.&#160;77v et
+                     aussi 72). Dans l’exemple précédent (fol.&#160;97), la fille détronquée revient
+                     à partage <hi rend="italic">per droit</hi>&#160;; le droit s’opposant sans aucun
+                     doute à la coutume du Val, telle qu’elle a été concédée en&#160;1188.
+                     En&#160;1583, la mainmorte est <hi rend="italic">ung droict regal</hi> (Audiences
+                     générales, VI, fol.&#160;80).</p>
+   </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

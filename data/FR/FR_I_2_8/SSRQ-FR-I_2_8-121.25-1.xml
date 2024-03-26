@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.25-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 197 (1646), S. 286</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 197 (1646), p. 286</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Tunney-Schueller, Tichtli Jeckelmann-Gauch, Maria Roggo-Conte – Anweisung</head>
+					<head xml:lang="fr">Elsi Tunney-Schueller, Tichtli Jeckelmann-Gauch, Maria Roggo-Conte – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-26">26 <foreign xml:lang="la">julii</foreign> [1646]</origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangne</p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<p><lb/><persName ref="per016968b">Elsi Tunney</persName> will andres nichts <term ref="lem011468.04">bekhennen</term>, alß die
+							<lb/>verlaugnung gottes unnd huldigung dem <term ref="lem014673.16">bößen feind</term>.
+							<lb/>Soll luth vorigen rathschlags vor gericht gestelt werden.</p>
+						<p><lb/>Die alte <persName ref="per017000a">Jek<subst><del>seh</del><add place="inline">el</add></subst>mannin</persName> von <placeName ref="loc010226.04">Ütschenwyll</placeName>, die von der
+							<lb/><persName ref="per016996b">Obertossina</persName> angeben worden, soll im <placeName ref="loc008105">Keller</placeName> unnd nit
+							<lb/>by dem <term ref="lem018540.04">aman</term><note>Die Rede ist vom Stadthausamman, der im Rathaus wohnte. Folglich ist gemeint, dass die Angeklagte nicht im Rathaus eingesperrt werden sollte.</note> yngehalten unnd examiniert, unnd ihr <term ref="lem016794.09">be<lb break="no"/>khandtnus</term> <term ref="lem019161.01">referiert</term> werden.</p>
+						<p><lb/><persName ref="per017006b">Mußmeria</persName> ist auch angeben worden, unnd ist das <term ref="lem003708">examen</term>
+							<lb/><term ref="lem018380">wichtig</term>. Soll deßwegen examiniert werden.<note>Le passage qui suit concerne le procès mené contre <persName ref="per017023">Margreth Boschung-Dedelley</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-122.2-1">SSRQ FR I/2/8 122.2-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

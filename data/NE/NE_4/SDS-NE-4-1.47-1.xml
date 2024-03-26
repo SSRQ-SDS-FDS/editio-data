@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.47-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 203–208</idno>
+     </msIdentifier>
+     <head>Payements et consignations</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000459"/>
+     <term ref="key004969"></term>
+     <term ref="key000058"></term>
+     <term ref="key003331"></term>
+     <term ref="key004056"></term>
+     <term ref="key000075"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>   <pb n="203" facs="AEN_MJ_17_202_203"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chap.</abbr><expan>Chapitre</expan></choice> XLVII.
+       <lb/>Des payements et
+       <lb/>consignations.</head>
+      <p>
+       <lb/>Toute obligation est <lb/>esteinte par la satisfaction <lb/>de ce qu’on debvoit, et
+       n’importe par <lb/>qui se passe le payement, <choice>
+        <abbr>coe</abbr>
+        <expan>comme</expan>
+       </choice> aussi <lb/>quand le debt est remis et quitté <lb/>gratuitement.  <lb/><add
+        place="below" type="catchword"><choice>
+         <abbr>L’oblig</abbr>
+         <expan>L’obligation</expan>
+        </choice></add>
+      </p>
+     <pb n="204" facs="AEN_MJ_17_204_205"/>
+    <p>
+       <lb/>L’obligation est aussy <term ref="lem018054.02">tollue</term> par <lb/>la <app>
+        <lem>renonciation</lem>
+        <rdg wit="AVN Q41, p. 72">renovation</rdg>
+       </app>, car par le <choice>
+        <abbr>changem<hi rend="sup">t</hi></abbr>
+        <expan>changement</expan>
+       </choice>
+       <lb/>de la personne ou des conditions, est <lb/>produicte nouvelle obligation, et la
+       <lb/>premiere <term ref="lem018054.02">tollue</term> est transferée a la <lb/>seconde.</p>
+      <p>
+       <lb/>Le payement d’une debte se doibt
+       <lb/>faire en especes et monnoye selon
+       <lb/>le cours qu’elle a en ce pays du temps
+       <lb/>du payement, s’il n’est autrement
+       <lb/>convenu.
+      </p>
+      <p>
+       <lb/>Et sy aucun est obligé a payer en <lb/>escuz d’or au soleil, il se peut acquiter <lb/>en
+       payant en autre monnoye d’or ayant <lb/>cours au pays, et pour la valeur <lb/>d’une chescune
+       espece, &amp; non en monnoye <lb/>d’argent, sy le crediteur ne s’y <lb/>accorde.  <lb/><add
+        place="below" type="catchword">Item</add>
+      </p>
+     <pb n="205" facs="AEN_MJ_17_204_205"/>
+      <p>
+       <lb/><app>
+        <lem>Idem</lem>
+        <rdg wit="AVN Q41, p. 72"><term ref="lem017828">Item</term></rdg>
+       </app> celuy qui est obligé en <lb/>plusieurs lettres et pour plusieurs <lb/>causes <app>
+        <lem>a</lem>
+        <rdg wit="AVN Q41, p. 72">en</rdg>
+       </app> un mesme crediteur, et <lb/>il luy <app>
+        <lem>declare</lem>
+        <rdg wit="AVN Q41, p. 72">delivre</rdg>
+       </app> &amp; paye quelques <lb/><term ref="lem016291.02">deniers</term>, sans estre arresté
+       entr’eux <lb/>pour quel debt, il demeure au choix <lb/>du debteur d’approprier lesdits <term
+        ref="lem016291.02">deniers</term>
+       <lb/>en acquis de telles <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 72">desdites</rdg>
+       </app> obligations <lb/>qu’il luy plaira.</p>
+      <p>
+       <lb/>Tout terme de payement porte <lb/><date dur-iso="P8D">huict jours</date> devant <app>
+        <lem>le</lem>
+        <rdg wit="AVN Q41, p. 73">ledit</rdg>
+       </app> terme et <lb/><date dur-iso="P8D">huict jours</date>
+       appres, et pendant <lb/>lesdites <date dur-iso="P8D">huictaines</date>, le crediteur <lb/>vueille
+       et non, doit demander &amp; <lb/>faire sommer <app>
+        <lem>son</lem>
+        <rdg wit="AVN Q41, p. 73">sondit</rdg>
+       </app> debteur, luy <lb/>faire le payement de ce qu’il luy <lb/>doibt, avant que l’en faire
+       executer, <lb/>gager ny mettre en fraits.</p>
+      <p>
+       <lb/>Le bien sauve le corps &amp; partant  <lb/><add place="below" type="catchword">qui</add>
+       <pb n="206" facs="AEN_MJ_17_206_207"/>
+       <lb/>qui n’a <term ref="lem016291.02">deniers</term> contents, offrant et <lb/>monstrant a
+       ses crediteurs ses <lb/>heritages ou autres biens pour le <lb/>payement en suffisance, est a
+       ce <lb/>admis, et ne le sçauroit on en <lb/>autre chose contraindre.</p>
+      <p>
+       <lb/>Le crediteur faisant refus de <lb/>recepvoir son payement, le debteur <lb/>peut
+       presenter et consigner son <lb/>payement entre les mains du chef <lb/>de la justice, et des
+       telle <choice>
+        <abbr>consignaon</abbr>
+        <expan>consignation</expan>
+       </choice>
+       <lb/>n’est plus entenu a interest <lb/><app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 73">ny</rdg>
+       </app>
+       <term ref="lem017065.02">missions</term>.</p>
+      <p>
+       <lb/>Plusieurs debteurs obligez <lb/>par ensemble d’une mesme somme, <lb/>l’un se voulant
+       acquiter de sa part <lb/>et portion, encor que les autres <lb/>n’ayent <app>
+        <lem>le</lem>
+        <rdg wit="AVN Q41, p. 73">la</rdg>
+       </app> leur <app><lem>de mesme</lem>
+        <rdg wit="AVN Q41, p. 73"/>
+       </app> prest a <lb/><add place="below" type="catchword">payer</add>
+       <pb n="207" facs="AEN_MJ_17_206_207"/>
+       <lb/>payer et delivrer pour estre deschargé <lb/>des <term ref="lem014979.02"
+        >arrerages</term>, interests et <term ref="lem017065.02">missions</term>
+       <lb/>a l’advenir, peut consigner sadite <lb/>part entre les mains de l’officier.</p>
+      <p>
+       <lb/>Toutes consignations se peuvent <lb/>faire en or ou en argent, monnoyé <lb/>ou non
+       monnoyé, et ne se <lb/>doibvent faire de meubles, heritages, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 73">possessions,</rdg>
+       </app> <lb/>utencilles et autres semblables, <lb/>sy la partie ne l’accepte.</p>
+      <p>
+       <lb/>Il ne suffit <app>
+        <lem>a celuy</lem>
+        <rdg wit="AVN Q41, p. 73"/>
+       </app> qui doibt ou <lb/>veut <app>
+        <lem>achepter</lem>
+        <rdg wit="AVN Q41, p. 73">rachepter</rdg>
+       </app>, d’offrir <term ref="lem018055.02">pecune</term>
+       <app>
+        <lem>&amp;</lem>
+        <rdg wit="AVN Q41, p. 73">argent ou</rdg>
+       </app> bourse, <lb/>mais convient qu’il fasse l’offre reel <lb/>des <term ref="lem016291.02"
+        >deniers</term> qu’il veut payer ou faire <lb/>reachept, et iceux monstrer &amp; conter
+       <lb/>en la monnoye qu’il les offre, &amp; <lb/>doit venir le debteur &amp; retrahant<app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 73"> et racheptant</rdg>
+       </app>
+       <lb/>au crediteur ou a celuy dont il <lb/>veut faire la <term ref="lem015637.03"
+        >rehemption</term> et <app>
+        <lem>achept</lem>
+        <rdg wit="AVN Q41, p. 73">reachept</rdg>
+       </app>
+       <lb/><add place="below" type="catchword">en</add>
+       <pb n="208" facs="AEN_MJ_17_208_209"/>
+       <lb/>en sa maison ou domicille, et <term ref="lem019329.02">illec</term>
+       <app>
+        <lem>leur</lem>
+        <rdg wit="AVN Q41, p. 73">luy</rdg>
+       </app>
+       <lb/>faire offre reel en presence de deux <lb/>bons tesmoings, et s’ils le refusent,
+        <lb/><term ref="lem016325">adonc</term> doit aller a l’officier du lieu, le <lb/>deposer
+       &amp; consigner, et des lors le debteur <lb/>ou celuy qui veut <app>
+        <lem>achepter</lem>
+        <rdg wit="AVN Q41, p. 73">reachepter</rdg>
+       </app>
+       <app>
+        <lem>se tient</lem>
+        <rdg wit="AVN Q41, p. 73">sera tenu</rdg>
+       </app> quitte <lb/>et absout de l’<choice>
+        <abbr>obligaon</abbr>
+        <expan>obligation</expan>
+       </choice>, et icelle <app>
+        <lem>dite</lem>
+        <rdg wit="AVN Q41, p. 73">debte</rdg>
+       </app> nulle, <lb/>ou luy sera remis par authorité de <lb/>souveraineté ce qu’il entend de
+       retirer ou <lb/><app>
+        <lem>r’achepter</lem>
+        <rdg wit="AVN Q41, p. 73">reachepter</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Pour retirer la mayson ou vigne vendue <lb/>a grace de reachept ou <term
+        ref="lem016009.03">engagere</term>, les <lb/><term ref="lem016291.02">deniers</term> se
+       doibvent presenter, delivrer, <lb/>&amp; fournir a la datte de l’acte, le <lb/>premier
+       dimanche de mars, et sy <lb/>c’est prez ou champs le jour <lb/>de la <choice>
+        <abbr>s<hi rend="sup">t</hi></abbr>
+        <expan>saint</expan>
+       </choice> George, autrement le <lb/>detenteur peut encores faire les <lb/>fruicts siens
+       ladite année, sy <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>
+       <lb/>n’<app>
+        <lem>y</lem>
+        <rdg wit="AVN Q41, p. 73">en</rdg>
+       </app> est convenu.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

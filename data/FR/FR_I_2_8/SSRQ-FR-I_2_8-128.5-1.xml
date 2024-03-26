@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-128.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 432–434</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 432–434</idno>
+					</msIdentifier>
+					<head xml:lang="de">Isabelle Grivet – Verhör</head>
+					<head xml:lang="fr">Isabelle Grivet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-05-25"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="432"/><p><lb/>Im <placeName ref="loc007690.06">Spittall</placeName>, <origDate when="1647-05-25">25 meyens 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Tornier</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006528a.03">Possardt</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013439a.01">von Montenach</persName></seg></p>
+						<p><seg><lb/><persName ref="per017161a.01">Isabel Grivet</persName>, aprés avoir estee examinee sur beaucoup de points
+							<lb/>qu’elle doit avoir raconté a <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> l’<term ref="lem018956.01">hospitalier</term>, ast pre<lb break="no"/>mierement confirmé sa precedente <term ref="lem019465.01">confession</term>, et dit en outre
+						<lb/>que l’ayant sa mere, peu de jours avant son execution, menee
+						<lb/>avec soy en un champ ou <term ref="lem015035.01">pasquier</term> pres de <placeName ref="loc007605">Surpierre</placeName>, et y trouvé
+					<pb n="433"/><lb/>un petit <term ref="lem015442.06">poullain</term> couché a terre, icelle luy <term ref="lem014913.06">oingt</term> la main de certaine
+						<lb/><term ref="lem018382">graisse</term> noire et la luy mit dans les oreilles, mais ne sçachant pour<lb break="no"/>quoy sa mere faisoit cela&#160;; elle en voullant sçavoir la raison, la mere luy
+						<lb/>respondit qu’ c’estoit pour faire mourir le <term ref="lem015442.06">poullain</term>, qui en effect mourut
+						<lb/>quelque temps aprés, icelluy avoir esté a son oncle <persName>Peter</persName>, ce qu’enten<lb break="no"/>dant, repartist a sa mere qu’il ne falloit ainsy faire, et qu’elle le di<lb break="no"/>roit a son pere, mais la mere, grandement fachee de ceste reprimende,
+						<lb/>la menaça avec un cousteau, disant si elle la deceleroit, qu’elle le luy
+						<lb/>planteroit au gosier, ce que l’empecha de n’en rien dire a son pere
+						<lb/>que aprés la mort de sa mere. N’ast veu dudespuis qu’elle ayt voullu
+						<lb/>faire semblable mal. Et ce qu’elle luy frotta la main et mit en aprés
+						<lb/>dans les oreilles dudit <term ref="lem015442.06">poullain</term>, dit n’avoir sceu son intention, ny
+						<lb/>l’issue de sa mallice, n’y ayant jamais consenty.</seg> <seg>Plus a dit que
+						<lb/>dés la mort de sa mere, la <subst><del><unclear>c</unclear></del><add place="overwritten">b</add></subst>este, sçavoir le <term ref="lem015433.10">maling</term> (comme elle croit),
+							<lb/>luy apparut trois fois. La premiere en forme d’un <term ref="lem019402.01">bouc</term>, comme est
+							<lb/>dit cy devant, en ce qu’elle cherchoit des <term ref="lem019400.05">chevres</term> dans un bois,
+						<lb/>entre jour et nuict, qui luy dit&#160;: <q>&#160;Que fais tu, ne toy veus tu pas
+							<lb/>rendre a moy et je t’ayderay a <term ref="lem015009.05">cercher</term> tes <term ref="lem019400.05">chevres</term>&#160;?&#160;</q> Mais elle,
+						<lb/>comme estant toutte espouvantee, ne luy respondit rien&#160;; ains se re<lb break="no"/>tirant et allant a la maison, icelluy la frappa d’un baston par
+						<lb/>les reins, sans touttefois sentir guere de douleur. La seconde fois,
+							<lb/>lors que voullant aller vers ceux qui tenoient leur <term ref="lem018999.01">charrue</term>, elle
+						<lb/>rencontra le <term ref="lem015433.10">maling</term> en figure d’homme noir, qui, la menacant de
+						<lb/>ce qu’elle ne luy voulloit obeir, luy voullut <term ref="lem015635">bailler</term> un petit
+						<lb/><term ref="lem018561.01">bosset</term> de <term ref="lem016908.06">chesne</term>, qu’elle ne voullut aucunement recevoir,
+						<lb/>et aussy tost que sa petite <add place="above">soeur</add>, qui la suivoit, y survient, tout fust
+						<lb/>evanoit et disparu. La troisiesme fois, estant aupres de
+						<lb/>une charbonniere, elle le vist en forme d’une femme, et, s’ap<lb break="no"/>prochant d’elle, luy dit beaucoup de mal, la menaçant de ce
+							<lb/>qu’elle ne se voulloit donner a luy et <term ref="lem019541.01">renier</term> Dieu, luy disant
+						<lb/>que ce n’estoit rien de croire en Dieu et la Vierge <persName ref="per000169a">Marie</persName>, que
+							<lb/>elle n’estoit autre qu’une <unclear>&amp;c</unclear>, mais elle nonobstant ceste recer<lb break="no"/>che, ne luy voullut aucunement obeyr, ny <term ref="lem019541.01">renier</term> Dieu. Et
+						<lb/>comme il la voulloit induire a ce faire, son frere y sur<lb break="no"/>vient, et le <term ref="lem015433.10">maling</term> disparut comme les autres fois, sans que
+						<lb/>son frere et soeur l’ayent veu, ny entendu parler. Iceluy
+						<lb/>ne luy estre apparu dudespuis, et touttes les fois qu’elle l’avoit
+						<lb/>veu, l’avoir dit et raconté a son pere, qui s’en estonnoit fort
+						<lb/>et l’exhortoit a prier Dieu.</seg> <seg>Enquise lors qu’elle le voyoit,
+						<lb/>pourquoy elle ne faisoit le signe de la croix et invoquoit les
+						<lb/>noms de Dieu et la Vierge, comme elle avoit faict lors
+					<pb n="434"/><lb/>que sa mere la voullut passer la haye et mener a la <term ref="lem017043">secte</term>, dit avoir
+						<lb/>estee <subst><del>tellte</del><add place="above">tellement</add></subst> espouvantee, qu’elle ne songoit et pensoit en rien. Ne
+						<lb/>sçait que le <term ref="lem015433.10">maling</term> l’ayt touchee, sinon lors qu’il la battit avec
+							<lb/>le baston, ny qu’icelluy l’ayt <term ref="lem019481.03">baisé</term>, ny <term ref="lem018895.02">marqué</term> en aucun endroit,
+							<lb/>soustenant sans variation de n’avoir voullu condescendre a ses com<lb break="no"/>mandement, ny se donner a luy, moings <term ref="lem019541.01">renier</term> Dieu, ny faire mal
+						<lb/>que ce soit.</seg> <seg>Et sur la demande faicte si elle vouldroit volon<lb break="no"/>tairement retourner a <placeName ref="loc007605">Surpierre</placeName>, a dit qu’elle aymoit mieux
+						<lb/>estre icy, <subst><del>priant</del><add place="inline">a cause</add></subst> que les enfants la hayssoient et luy
+							<lb/>disoient <term ref="lem019389.02">sorciere</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2018-12-12"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 3, fol. 28r–29r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 3, fol. 28r–29r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Bolengé – Verhör</head>
+					<head xml:lang="fr">Pierre Bolengé – Interrogatoire</head>
+					<msContents>
+						<summary><p xml:lang="de">Pierre Bolengé aus dem Weiler Piamont wird der Hexerei angeklagt.</p>
+							<p xml:lang="fr">Pierre Bolengé, du hameau de Piamont, est accusé de sorcellerie.</p></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1505-08-12" to="1505-09-01"></origDate>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref target="http://permalink.snl.ch/bib/chbsg000077109">Gyger 1998</ref>, Nr. 148, S. 356–357</bibl>
+						</listBibl>
+						<listBibl>
+							<head>Literatur</head>
+							<bibl><ref>Modestin et al. 2011</ref>, S. 285–288</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key005818"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="28r"/><p><lb/><origDate when="1505-08-12">Sur mardi xii<hi rend="sup">e</hi> <foreign xml:lang="la">augusti anno <abbr>etc</abbr> quinto</foreign></origDate>, en <choice><abbr>pnce</abbr> <expan>presence</expan></choice> de saiges
+							<lb/>prudans et <term ref="lem017499.02">pourveables</term> <persName ref="per010056a">Wilhelm Reyff</persName>, <persName ref="per010060a">Frantz Arsent</persName>, <persName ref="per004108a.02">Hanns
+							<lb/>Stoss</persName>, <persName ref="per010058a.01">Niclaus Lumbart</persName>, <persName ref="per010063a">Peter <unclear>Adam</unclear></persName>, conseillieurs, et <persName ref="per010039a.01">Jehan
+								<lb/>Favre</persName>, <subst><del>conseillieurs</del> <add place="inline"><term ref="lem014993.03">grossoutier</term></add></subst> de <placeName ref="loc001060.04">Frybourg</placeName><note>Le Besatzungsbuch pour l’année 1505–1506 indique pourtant que, cette année, c’est <persName ref="per010076">Hans Schmidt</persName> qui est <term ref="lem014993">grand sautier</term>. Peut-être <persName>Jean Favre</persName> n’est-il que son lieutenant&#160;?</note>, az recognehuz
+							<lb/><persName ref="per009711a">Pierre Bolengé</persName> de <placeName ref="loc013962.02">Pyamont</placeName><note>Il existe aussi un lieu-dit nommé <placeName ref="loc008102">Piamont</placeName> (à <placeName ref="loc007983">Noréaz</placeName>),
+								mais selon les autres mentions de lieux faites dans le procès, il faut privilégier la provenance gruérienne. Il semble en tout cas opportun d’écarter une identification avec la région
+								du <placeName ref="loc007659.05">Piémont</placeName>.</note>, premierement&#160;:</p>
+						<p><lb/>Que, quant ilz avoit esté <date dur-iso="P1M">ung moys</date> ou environ avecque sa
+							<lb/>femme, elle luy dist&#160;: <q>&#160;<persName ref="per009711a">Pierre</persName>, se tu me veulx croyre, je
+							<lb/>feray, et toy enseignieray, que nous serons de peuz de temps
+							<lb/>riche.&#160;</q> Adoncques ilz respondist que se la chouse estoit bonne
+							<lb/>et de droitte raison, que ilz le vouldroit fayre&#160;; sur ce elle
+							<lb/>luy dist et desmanda tant de ceulx de <placeName ref="loc007660">La Roche</placeName>, que jamaix
+							<lb/>ne le voulsit fayre. Touteffois, sa femme luy dist qu’ilz
+							<lb/>dehusse aller sur une roche, laquelle elle luy monstra,
+							<lb/>la out ilz avoit ung nisz de <term ref="lem019350.04">corbeaux</term> dedant lequel ilz
+							<lb/>trouveroit deux pierres<note>Dans le folklore germanique, les œufs de corbeaux – figurés ici par deux pierres placées dans un nid – auraient la faculté de rendre invisible ou d’octroyer des richesses (<bibl><ref>Modestin et al. 2011</ref>, p. 286</bibl>).</note>, lesquelles ilz devroit manger,
+							<lb/>et aprés ce qu’ils les auroit mangé, ilz auroit prouz toute
+							<lb/>sa vie et pourroit attout icelles aller boyre et manger,
+							<lb/>et fayre bonne chiere en toutes places qu’ilz luy plairoit,
+							<lb/>que l’on <subst><del>co</del><add place="inline">ne</add></subst> le cognoistroit point&#160;; maix icelles jamaix
+							<lb/>ne voulsit manger.</p>
+						<p><lb/><origDate when="1505-08-28">Mescredi aprés la Saint <persName ref="per000861a.17">Bartholomye</persName> <foreign xml:lang="la">anno</foreign> que dessus</origDate>, en
+							<lb/><choice><abbr>pnce</abbr> <expan>presence</expan></choice> de saiges, prudans et <term ref="lem017499.02">pourveables</term>, <persName ref="per010056a">Wilhelm Reyff</persName>,
+							<lb/><persName ref="per010060a">Frantz Arsent</persName>, <persName ref="per004108a.02">Hanns Stoss</persName>, <persName ref="per010064a.01">Hanns Krummenstoln</persName>, <persName ref="per010065a">Peter Welliard</persName>,
+							<lb/>conseillieurs, et <persName ref="per010039a.01">Jehan Favre</persName>, <subst><del>conse</del> <add place="inline"><term ref="lem014993.03">grossoutier</term></add></subst> dudit <placeName ref="loc001060.04">Frybourg</placeName>,
+							<lb/>az plus recognehuz <persName ref="per009711a.01">Pierro Bolengé</persName> susdit&#160;:</p>
+						<p><lb/>Qu’ilz soit passé <date dur-iso="P1Y">ung an</date> qu’ilz <term ref="lem019541.06">reneya</term> Dieu son Createur, et ce
+							<lb/>a cause que <persName>Richar Clavin</persName> et sa femme luy avoent prins le sien.
+							<pb n="28v"/><lb/>Adoncques ilz leur dist&#160;: <q>&#160;Vous moy ferés <term ref="lem019541.03">renyer</term> Dieu.&#160;</q> Et
+							<lb/>sur ce, par <term ref="lem014877.02">desperance</term>, ilz le <term ref="lem019541.06">reneya</term>&#160;; maix depuis ilz l’a <term ref="lem019463.06">confessé</term>
+							<lb/>et luy en desplait bien, et luy en <term ref="lem019498">crie marci</term>.</p>
+						<p><lb/>Item mais que uneffois, quant son compaignion <persName><choice><abbr>Guille</abbr><expan>Guillelme</expan></choice> <choice><abbr>Carcasso</abbr><expan>Carcasson</expan></choice></persName>
+							<lb/>et luy estoent a <placeName ref="loc007661">Vuippens</placeName>, ledit son compagnion luy appourta
+							<lb/>de la cher a manger&#160;; en la mangeant ilz luy sembla qu’elle
+							<lb/>feust bien doulce et luy dist&#160;: <q>&#160;Qu’est ce&#160;?&#160;</q> Sur ce, ledit son compaignion
+							<lb/>luy dist et respondist que c’estoit de la cher de l’enfant de
+							<lb/><persName>Jehan Codorey</persName> de <placeName ref="loc007663">Sorens</placeName>&#160;; et mangearent ladite cher de beaux
+							<lb/>jour avecque du pain en <term>rossé</term> au <term><unclear>f</unclear>eudey</term>.<note>Le sens de ce passage demeure incertain. Le terme «&#160;rossé&#160;» (ou «&#160;enrossé&#160;») pourrait venir de <term ref="lem015856">roussir</term>&#160;: le «&#160;pain rousset&#160;» désigne plus
+							spécifiquement le pain bis (<bibl>FEW X, 589a</bibl>)&#160;; il pourrait s’agir aussi d’une tartine, une tranche de pain rôtie (<bibl>FEW XVI, 683</bibl>).
+							Le patronyme du prévenu laisse entendre qu’il pourrait avoir un lien avec la profession de boulanger. Le terme «&#160;feudey(?)&#160;» pourrait alors désigner une <term ref="lem015860">faude</term>.</note></p>
+						<p><lb/>Item mais que, quant luy et ledit son compagnion s’accompaigniarent,
+							<lb/>ledit son compaignion luy dist&#160;: <q>&#160;<persName ref="per009711">Pierre</persName>, ilz toy fault <term ref="lem019541.03">renyer</term> Dieu ton
+							<lb/>Createur.&#160;</q> Et sur ce, luy admena une beste <del>une beste</del>, qui sembloit
+							<lb/>ung <term ref="lem018315">chat</term>, et le fist <term ref="lem014878">cleyné</term>, et l’a <term ref="lem019481.03">baisé</term> sur l’<term ref="lem014879.02">ance</term> decousté la <term ref="lem014880.02">cuez</term>,
+							<lb/>et celle beste estoit son <term ref="lem019555.05">maistre</term>, lequel s’appelloit <persName ref="per029414a">Disot</persName>, ledit
+							<lb/>son <term ref="lem019555.05">maistre</term> luy dist&#160;: <q>&#160;Ilz fault que tu me fasse <term ref="lem018915.06">homaiges</term>.&#160;</q>
+							<lb/>Lequel Pierro luy desmanda&#160;: <q>&#160;Quelz <term ref="lem018915.02">homaige</term> veult tu que je toy
+							<lb/>fasse&#160;?&#160;</q> Lequel luy respondist&#160;: <q>&#160;Tu me donneras d’ici a <date dur-iso="P2Y">deux
+							<lb/>ans</date> <measure type="currency" quantity="1" unit="d">ung <subst><del>d</del><add place="inline">denyer</add></subst></measure> ou ce que tu vouldras.&#160;</q></p>
+						<p><lb/>En aprés luy et ledit son compaignion soy trouvasrent a <placeName ref="loc007664">Morlon</placeName>,
+							<lb/>lequel luy dist&#160;: <q>&#160;Pierre, ilz est force que nous allons en ung
+							<lb/>tieul lieu.&#160;</q> Et luy nommast <placeName ref="loc005708.03">Gruyere</placeName>. Sur ce, ilz allarent. Leur
+							<lb/>estre la, ilz se <term ref="lem014881.02"><unclear>demnoit</unclear></term> sa et la&#160;; et bien toust ledit son com<lb break="no"/>paignion avoit pourvehuz de bonne cher <term ref="lem019170.09">rustiez</term> a manger&#160;;
+							<lb/>et luy sembloit que ladite cher feust d’une espole de
+							<lb/>femme.</p>
+						<pb n="29r"/><p><lb/>Item <origDate when="1505-09-01">sur le lundi le premier jour de septembre <foreign xml:lang="la">anno</foreign>
+							<lb/>que dessus</origDate>, en <choice><abbr>pnce</abbr> <expan>presence</expan></choice> dez devantdits <persName ref="per010056a">Wilhelm Reyff</persName>, <persName ref="per004108a.02">Hanns
+								<lb/>Stoss</persName>, <persName ref="per010066a.01">Heintz Lari</persName>, conseillieurs, et <persName ref="per010067a.01">Willi Pyeller</persName>, lieuftenant
+							<lb/>du <term ref="lem014993.08">groz soutier</term> de <placeName ref="loc001060.04">Frybourg</placeName>, az de noveaux <term ref="lem014868.03">regicqui</term>
+							<lb/>ledit <persName ref="per009711a">Pierre Bolengé</persName>&#160;:</p>
+						<p><lb/>Disant que quant ilz recehust ledit <term ref="lem019555.05">maistre</term> <persName ref="per029414a">Disot</persName> pour son
+							<lb/><term ref="lem019555.05">maistre</term>, icelluy luy dist&#160;: <q>&#160;Devant toutes chouses, ilz fault
+								<lb/>que tu <term ref="lem019541.07">reneyaye</term> Dieu ton Createur&#160;; la Rossa, par laquelle
+								<lb/>ilz entendoit la Vierge <persName ref="per000169a.05">Marie</persName>&#160;; le saint <term ref="lem019542.04">baptesme</term>&#160;; et
+							<lb/>la court celestialle de paradis.&#160;</q> Laquelle chouse ilz fist
+							<lb/>et cracha contre terre, faisant&#160;: <q>&#160;Fiz&#160;! Fiz&#160;! Fiz&#160;!&#160;</q> Sur ce, ilz re<lb break="no"/>tourna en sa maison et trouva qu’ilz avoit proux.<note>Le procès-verbal s’interrompt ainsi et semble incomplet. Il semble néanmoins raisonnable de penser que Pierre fut condamné au bûcher.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p><lb/>La totalité des paragraphes qui constituent ce procès (sur trois pages) est cancellée par des traits verticaux.
+					Une importante tache d’encre (ca. 10x10 cm) se trouve par ailleurs au bas du fol. 28r, mais elle n’est pas gênante pour la lecture.
+				<lb/>Comme il n’y pas de sentence, l’issue de son procès demeure inconnue. Il n’y a aucune trace de lui dans les Manuaux du Conseil.</p></div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-143.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 68–70</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 68–70</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Droz – Verhör</head>
+					<head xml:lang="fr">Elisabeth Droz – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-10-12"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="68"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-10-12">12<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8<hi rend="sup">bris</hi></abbr><expan>octobris</expan></choice></foreign> 1649</origDate>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per009264a.01">Amman</persName></seg>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013469a.05">Catilla</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Die ersten beiden Verhöre betreffen <persName ref="per019247">Elsi Fontana-Zosso</persName> und <persName ref="per018326">Catherine Bapst-Käser</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-142.11-1">SSRQ FR I/2/8 142.11-1</ref>.</note></p>
+					<pb n="69"/><p><lb/><placeName ref="loc008105.02">Käller</placeName>, <foreign xml:lang="la">presentibus supradictis</foreign></p>
+						<p><lb/><persName ref="per019694a.01">Ellisabeth Drau</persName> de <placeName ref="loc007787">Couvet</placeName>, du <placeName ref="loc008520.07">Vauldtravert</placeName>,
+						<lb/>estant examinee par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict <subst><del>d</del><add place="overwritten">p</add></subst>our
+					<pb n="70"/><lb/> quel subject elle estoit incarceree, dit que
+						<lb/>cest pour mensonges q’un luy impute, <term ref="lem015161.05">marye</term>
+						<lb/>et desplaisante qu’elle seroit d’estre de telle
+							<lb/>condition, qu’un la<del>n</del> soubsone. <seg><term ref="lem015549.13">Confesse</term> avoier
+						<lb/>esté detenue dans les prisons de <placeName ref="loc000157.07">Berne</placeName> <date dur-iso="P8D">8 jour</date>,
+							<lb/>ou estant esté aplicquee a la <term ref="lem018792.01">question</term> et <term ref="lem019427.02">torturee</term>
+						<lb/>avec la petite <term ref="lem018285.03">piere</term> sur certaines soubsons
+							<lb/>d’avoier <term ref="lem018556.03">maleficié</term> un enfant de <persName>Lutenburger</persName>
+						<lb/>et une feme au <placeName ref="loc010679.02">Kreitzgassen</placeName>, se que ne s’estant
+						<lb/>trové, feut liberé, et que si bien le <term ref="lem014993.09">grandsaultier</term>
+							<lb/>de <placeName ref="loc000157.07">Berne</placeName> luy dit aprés la <term ref="lem018792.01">question</term> de s’absenter
+						<lb/>du <placeName ref="loc005582.11">pays de Berne</placeName>. Si partant n’ast elle heu
+						<lb/>le serement, dit avoier demouré a <placeName ref="loc000157.07">Berne</placeName>
+						<lb/><date dur-iso="P4Y">4</date> ou <date dur-iso="P5Y">5 ans</date>, et ici environ <date dur-iso="P2Y">deux ans</date>, s’estant
+						<lb/>retiré sur <placeName ref="loc007883.06">Lé Places</placeName>, vers la <placeName ref="loc010680.03">porte des Estans</placeName>,
+							<lb/>chez la <persName>Tizina</persName>. <term ref="lem019442.03">Denege</term> tous aultres pointz et
+						<lb/>demande a Dieux et Leurs Exellences bien
+						<lb/>humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

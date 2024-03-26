@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-178-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/2, fol. 58v (Eintrag 2)</idno></msIdentifier><head>Eid der Torbeschliesser der Stadt Winterthur</head><msContents><summary>Die Torbeschliesser der Stadt Winterthur sollen schwören, die Schlüssel zu den Toren sorgfältig zu verwahren, die Tore abends zu schliessen und morgens zu öffnen sowie ohne Wissen eines Schultheissen nachts niemanden aus der Stadt zu lassen und keinen Auswärtigen die Tore zu öffnen.</summary><msItem><textLang xml:lang="de"/><author role="scribe"><persName ref="per027307">Konrad Landenberg</persName></author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key005440">Stadttore</term><term ref="key000580">Wachdienst</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb type="original" n="58v" facs="STAW_B_2_2_58_v"/>
+                        <head><lb/>Tharbeschliesser eid</head>
+                        <p>
+                            <lb/>Item die tharbeschliesser<!-- Idiotikon XI, Sp. 719: Torwächter, Pförtner --> soͤllen schwēren, die schlu̍ssel
+                            <lb/>zuͦ den thāren tru̍wlich zuͦ versaͤhen und ire ehalten<!-- Idiotikon II, Sp. 1224: Bedienstete -->
+                            <lb/>die thar weder uff noch zuͦ tuͦn laussen, sonder <app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 3r; STAW B 3a/10, S. 7">ouch</rdg></app>
+                            <lb/>die selbs zuͦ rechter, ordenlicher zit <time period="evening">abends</time> nach der
+                            <lb/>betgloggen ungevarlich zuͦ beschliessen und morndis
+                            <lb/>nach der betgloggen <app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 3r; STAW B 3a/10, S. 7">wann die tagwechter verhanden</rdg></app> uff ze tuͦn, ouch <time period="byNight">nachtz</time> niemands
+                            <lb/>us der statt ze laussen dann mit wu̍ssen eins schulthaiß,
+                            <lb/>desglichen niemands froͤmbden <time period="byNight">nachtz</time> die thar uff
+                            <lb/>ze tuͦn dann mit <app><lem/><rdg wit="winbib Ms. Fol. 241, fol. 3v; STAW B 3a/10, S. 7"> eines</rdg></app> schulthaiß wu̍ssen.<note>Die Eidformel wurde später modifiziert, vgl. <bibl>STAW B 3a/10, S. 7 (Nachtrag)</bibl>.</note>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Das erste überlieferte Ämterverzeichnis der Stadt <placeName ref="loc000849">Winterthur</placeName> aus dem Jahr 1405 führt sechs Torbeschliesser auf, die für das <placeName ref="loc013449">Schmidtor</placeName>, das <placeName ref="loc013468">Nägelitürli</placeName>, das <placeName ref="loc013451">Obertor</placeName>, das <placeName ref="loc013450">Holdertor</placeName>, das <placeName ref="loc013452">Steigtor</placeName> und das <placeName ref="loc013467">Untertor</placeName> zuständig waren (<bibl>STAW B 2/1, fol. 5v</bibl>). Nach dem abendlichen bis zum morgendlichen Läuten der Betglocke mussten die Turmwächter auf ihrem Posten sein (<bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-223-1">SSRQ ZH NF I/2/1 223-1</ref></bibl>; <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-268-1">SSRQ ZH NF I/2/1 268-1</ref></bibl>). Wurde ein Brand gemeldet, hatten sich die Torbeschliesser gemäss der Feuerordnung um 1550 umgehend zu ihrem Tor zu begeben (<bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-300-1">SSRQ ZH NF I/2/1 300-1</ref></bibl>). Zu den Abläufen der Stadtbewachung in <placeName ref="loc000849">Winterthur</placeName> nach Einbruch der Dunkelheit vgl. <bibl><ref target="http://permalink.snl.ch/bib/chbsg000129788">Leonhard 2014</ref>, S. 248-250</bibl>.
+                        </p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

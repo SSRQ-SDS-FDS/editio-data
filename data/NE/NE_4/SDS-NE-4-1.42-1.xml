@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.42-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 161–163</idno>
+     </msIdentifier>
+     <head>Garantie et maintenance</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005070"/>
+     <term ref="key000231"></term>
+     <term ref="key000863"></term>
+     <term ref="key000237"></term>
+     <term ref="key005096"></term>
+     <term ref="key000815"></term>
+     <term ref="key000920"></term>
+     <term ref="key004428"></term>
+     <term ref="key000817"></term>
+     <term ref="key004428"></term>
+     <term ref="key005032"></term>
+     <term ref="key003037"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="161" facs="AEN_MJ_17_160_161"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> XLII. <lb/>De <term ref="lem018687.03">guerentie</term> et <lb/>maintenance.</head>
+      <p>
+       <lb/>Quand la maison ou fond,<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 59"> possession, et heritage</rdg>
+       </app>
+       <lb/>est donné par eschange, <term ref="lem015546">vendition</term> ou <lb/>mariage, pour
+       franche, que <app>
+        <lem>sa</lem>
+        <rdg wit="AVN Q41, p. 59">la</rdg>
+       </app>
+       <term ref="lem015877">cense</term>
+       <lb/>fonciere, et il se trouve par apres <lb/>qu’elle est affectée et obligée d’<choice>
+        <abbr>hypotheqß</abbr>
+        <expan>hypotheque</expan>
+       </choice>
+       <lb/><add place="below" type="catchword">a</add>
+       <pb n="162" facs="AEN_MJ_17_162_163"/>
+       <lb/><app>
+        <lem>a d’autre</lem>
+        <rdg wit="AVN Q41, p. 59">et autres</rdg>
+       </app> plus grande charge, <term ref="lem015877">cense</term>
+       <lb/>et servitude qu’il n’a esté declayré <lb/>par lesdits contracts, ou bien que la
+       <lb/>piece se trouve de droit appartenir <lb/>a un autre, le nouveau possesseur a <lb/>droit
+       d’agir contre celuy qui luy a <lb/>ainsy remis la mayson ou fond<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 59">, possession, <lb/>et heritage</rdg>
+       </app>, pour <lb/>luy en faire maintenance, &amp; se <lb/>mettre en sa place pour rendre
+       <lb/>la chose par luy remise &amp; vendue <lb/>acquite de toutes charges que celles <lb/>qui
+       ont esté reservées par le contract.</p>
+      <p>
+       <lb/>Et doit le <term ref="lem018689.02">guerent</term>, soit le premier, <lb/>second <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 59">ou</rdg>
+       </app> ulterieur comparoir dans <lb/>la <date dur-iso="P24D">tierce huictaine</date> sans autre
+       dilay, <lb/>et prendre la cause de deffence en <lb/>main pour celuy auquel il doibt <lb/>la
+       maintenance et eviction de la chose <lb/>par luy remise, sinon <choice>
+        <abbr>venat</abbr>
+        <expan>venant</expan>
+       </choice> le deffenseur <lb/>a succomber de la cause, il aura son <lb/>recours contre <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice>
+       <term ref="lem018689.02">guerent</term> de tous fraitz<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 59">, dommages</rdg>
+       </app>
+       <lb/>&amp; interests. <lb/><add place="below" type="catchword">Sy</add>
+      </p>
+     <pb n="163" facs="AEN_MJ_17_162_163"/>
+      <p>
+       <lb/>Sy quelcun a sciemment achepté <lb/>une chose, qu’il sçavoit bien n’apartenir <lb/>a
+       celuy qui la vendoit, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 59">il</rdg>
+       </app> n’en doit avoir <lb/>aucune maintenance ne <term ref="lem018687.03">guerentie</term>.</p>
+      <p>
+       <lb/>L’eviction <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 59">de maintenance,</rdg>
+       </app> et <term ref="lem018687.03">guerentie</term> n’est aussy <lb/>dehue a celuy qui ne fait
+       deuëment <lb/><term ref="lem017868.02">adjourner</term> son <term ref="lem018689.02"
+        >guerent</term> pour respondre <lb/>de la cause.</p>
+      <p>
+       <lb/><app>
+        <lem>Ny</lem>
+        <rdg wit="AVN Q41, p. 59">Elle n’est non plus deüe</rdg>
+       </app> a celuy qui par deffaut de <lb/>justes deffences et appellations <lb/>necessaires, ou
+       que la chose luy <lb/>a esté ostée a tort &amp; par injure, <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 59">et violence,</rdg>
+       </app> ou <app>
+        <lem>pour</lem>
+        <rdg wit="AVN Q41, p. 59">par</rdg>
+       </app> son faict <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 59">et</rdg>
+       </app> coulpe, ou quand <lb/>il y a prescription.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

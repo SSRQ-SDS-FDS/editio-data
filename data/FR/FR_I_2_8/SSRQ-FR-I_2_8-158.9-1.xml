@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-158.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 196v</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 196v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Bernard  – Anweisung</head>
+					<head xml:lang="fr">Claude Bernard  – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-10-02">2 <foreign xml:lang="la"><choice><abbr>octob</abbr><expan>octobris</expan></choice></foreign> 1651</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangne</p>
+						<p><lb/><persName ref="per020582a">Claude Bernard</persName>, ein <term ref="lem017195.04">frantzos</term>, <measure type="age" quantity="12" unit="year">zwölff järiger</measure>, ein <term ref="lem017025.01">hexenmeister</term>,
+						<lb/>darumb die frag ist, ob er solle vor mehreren gwalt<note>Gemeint ist der Grosse Rat.</note>
+							<lb/>gestelt werden oder ob der <term ref="lem019372.04">täglich rath</term> ihne zum
+						<lb/>todt <term ref="lem005962.03">erkhennen</term> wölle. Man findt syner <term ref="lem003419">jugend</term> wegen
+						<lb/>nit <term ref="lem016748.02">thunlich</term>, ihne vor mehreren gwalt zu stellen.<note>Normalerweise wurde das Todesurteil eines Angeklagten dem Freiburger Grossen
+							Rat vorgelesen und musste von diesem abgesegnet werden. Dabei war der Angeklagte anwesend, d.h. er wurde vor den Rat gestellt. Anschliessend wurde das Todesurteil
+							öffentlich vollstreckt. In <persName ref="per020582a">Claude Bernards</persName> Fall wollte man  einen Teil dieses juristischen Prozederes überspringen:
+							Aufgrund seines jugendlichen Alters sollte er direkt verurteilt und unter Ausschluss der Öffentlichkeit hingerichtet werden.</note> Darumb
+						<lb/>ist ihme das leben alhie abgesprochen worden, daß er
+						<lb/>solle mit dem <term ref="lem007052">schwert</term>, unnd wan er nit halten will,
+						<lb/>mit dem <term ref="lem004668.02">strangen</term> gericht werden im <placeName ref="loc010836.05">Beluar</placeName>.
+						<lb/>Alßdan lange die gnad vor mehreren gwalt ohne
+						<lb/>stellung syner person. Doch damit nit <term ref="lem011188.04">verfält</term> werde
+						<lb/>unnd der mehrer gwalt sich nit zu beschwären habe,
+						<lb/>soll man nachfrag halten, wie man hievor in glychem
+							<lb/>fahl procediert.<note>Le passage qui suit concerne le procès mené contre <persName ref="per020299">Mathia Palliard-Cosandey</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-154.35-1">SSRQ FR I/2/8 154.35-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

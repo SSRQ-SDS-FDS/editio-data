@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.43-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 164–177</idno>
+     </msIdentifier>
+     <head>Faillite et partage des bien du failli</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004367"/>
+     <term ref="key003521"></term>
+     <term ref="key004001"></term>
+     <term ref="key004996"></term>
+     <term ref="key003867"></term>
+     <term ref="key004980"></term>
+     <term ref="key005229"></term>
+     <term ref="key005117"></term>
+     <term ref="key001112"></term>
+     <term ref="key004428"></term>
+     <term ref="key005661"></term>
+     <term ref="key005095"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="164" facs="AEN_MJ_17_164_165"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> LXIII. <lb/>De decret et <term ref="lem016396.04">esgalation</term>
+       <lb/>cession de biens.</head>
+      <p>
+       <lb/>L’<term ref="lem016396.05">esgallation</term> se permet par <lb/>la seigneurie a ceux
+       qu’elle cognoist <lb/>debvoir estre assistez &amp; gratiffiez par <lb/>ce benefice, &amp; qui
+       n’ont malicieusement  <lb/><add place="below" type="catchword">despendu</add>
+       <pb n="165" facs="AEN_MJ_17_164_165"/>
+       <lb/>despendu leur bien a la <term ref="lem018029.02">defraudation</term>
+       <lb/>de leurs crediteurs, comme sont <lb/>notamment pauvres femmes vefves <lb/>&amp; enfans
+       orphelins.</p>
+      <p>
+       <lb/>L’<term ref="lem016396.05">esgallation</term> a esté introduicte <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 60"> pour deux <lb/>considérations</rdg>
+       </app>
+       <lb/>par la coustume de ceste souveraineté <lb/><app>
+        <lem>pour deux considerations principalles,</lem>
+        <rdg wit="AVN Q41, p. 60"/>
+       </app>
+       <lb/>la premiere afin que le debteur <lb/>ne soit tourmenté par rigueur &amp; <lb/>prison
+       avec infamie, car ne pouvant <lb/>obtenir ce benefice son bien se mange <lb/>par les
+       poursuittes de ses crediteurs, <lb/>et charges que leur sont dehuës, <lb/>et en fin ne luy
+       reste bien suffisant <lb/>envers ses crediteurs <app>
+        <lem>qui</lem>
+        <rdg wit="AVN Q41, p. 60">pour leurs satisfaires, et s’acquitter de ce qu’il leurs
+         <lb/>doit, lesquels</rdg>
+       </app> sont <lb/>contraints pour deffaut de biens <lb/>de le faire mettre &amp; nourrir en
+       <lb/>prison jusques a payement. Et <lb/>l’autre <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 60">conside<lb break="no"/>ration est</rdg>
+       </app> afin <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> par ce <choice>
+        <abbr>moy</abbr>
+        <expan>moyen</expan>
+       </choice> tous les <lb/><choice>
+        <abbr>credit<hi rend="sup">rs</hi></abbr>
+        <expan>crediteurs</expan>
+       </choice> puissent estre payez <choice>
+        <abbr>avat</abbr>
+        <expan>avant</expan>
+       </choice>
+       <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> le <lb/>bien de leur debteur soit trop chargé, &amp; <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>les premiers <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 60">en datte</rdg>
+       </app> n’emportent tout par leurs <lb/>droits &amp; poursuittes. <lb/><add place="below"
+        type="catchword">Celuy</add>
+      </p>
+     <pb n="166" facs="AEN_MJ_17_166_167"/>
+      <p>
+       <lb/><app>
+        <lem>Celuy auquel</lem>
+        <rdg wit="AVN Q41, p. 60">Ceux ausquels</rdg>
+       </app>
+       <term ref="lem016396.05">esgallation</term> est accordée <lb/><app>
+        <lem>est tenu</lem>
+        <rdg wit="AVN Q41, p. 60">sont tenus</rdg>
+       </app> declarer par foy &amp; serment <lb/>toutes <app>
+        <lem>ses</lem>
+        <rdg wit="AVN Q41, p. 60">leurs</rdg>
+       </app> debtes, et les lieux ou elles <lb/>sont deuës et <app>
+        <lem>ses</lem>
+        <rdg wit="AVN Q41, p. 60">leurs</rdg>
+       </app> biens en quoy <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 60">qu</rdg>
+       </app>ils <lb/>puissent consister, &amp; les monstrer <lb/>et delivrer sans en rien retenir.</p>
+      <p>
+       <lb/>Et sy le mary n’a suffisamment <app>
+        <lem>de</lem>
+        <rdg wit="AVN Q41, p. 60">du</rdg>
+       </app>
+       <lb/>bien pour payer &amp; contenter ses <lb/>crediteurs, celuy de <app>
+        <lem>sa</lem>
+        <rdg wit="AVN Q41, p. 60">la</rdg>
+       </app> femme y <lb/>courra pour payer les debtes crées <lb/>constant leur mariage, mais le
+       <lb/>bien du mary s’y distribuera le <lb/>premier entierement.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term>
+       <app>
+        <lem/>
+        <rdg>celuy auquel <term ref="lem016396.04">esgalation</term> est accordée</rdg>
+       </app> doibt jurer de payer les <lb/>relicats, sy son bien ne peut <lb/>satisfaire a ses
+       debtes, s’il vient <lb/>par appres a acquerir quelques <lb/>moyens &amp; <term
+        ref="lem014869">chevance</term>.  <lb/><add place="below" type="catchword">Et</add>
+      </p>
+     <pb n="167" facs="AEN_MJ_17_166_167"/>
+      <p>
+       <lb/>Et ce fait les commis a l’<choice>
+        <abbr>egallaon</abbr>
+        <expan>egallation</expan>
+       </choice>
+       <lb/>se doibvent saisir de tous les biens <lb/>meubles &amp; immeubles de l’<term
+        ref="lem017865.02">impetrant</term>, <lb/>&amp; mettre le tout en inventaire, <lb/>et sy
+       apres l’<term ref="lem016396.07">egallation</term> par fournie <lb/>il en restoit quelques uns, ne les
+       <lb/>doibvent rendre que tous les <choice>
+        <abbr>credit<hi rend="sup">rs</hi></abbr>
+        <expan>crediteurs</expan>
+       </choice>
+       <lb/>ne soyent bien appaisez &amp; contentez.</p>
+      <p>
+       <lb/>Et dans <date dur-iso="P6W">six sepmaines</date> apres l’<choice>
+        <abbr>egalaon</abbr>
+        <expan>egalation</expan>
+       </choice>
+       <lb/>parfournie, personne ne s’est <choice>
+        <abbr>pnté</abbr>
+        <expan>presenté</expan>
+       </choice> a <lb/>la seigneurie pour veriffier le <lb/>mescontentement <app>
+        <lem>que</lem>
+        <rdg wit="AVN Q41, p. 61">qui</rdg>
+       </app> luy auroit <lb/>esté fait a l’<term ref="lem016396.07">egallation</term> de son
+       <lb/>debteur, afin que ses biens restants <lb/>elle luy en fit droit et rayson, <lb/>ledit
+       relicat sera a l’<term ref="lem017865.02">impetrant</term><lb/>et le pretendant deffaut par
+       apres <lb/>descheu de ses droits et actions, <lb/><app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 61">mais</rdg>
+       </app> l’estranger y aura <date dur-iso="P1Y6W"><term ref="lem014776">an &amp;
+        <lb/>jour</term></date>.  <lb/><add place="below" type="catchword">Toute</add>
+      </p>
+     <pb n="168" facs="AEN_MJ_17_168_169"/>
+      <p>
+       <lb/>Toute <term ref="lem016396.07">egallation</term> se doibt deuement <lb/>notifier et
+       publier es lieux que <lb/>l’<term ref="lem017865.02">impetrant</term> a trafficqué <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 61">et</rdg>
+       </app> emprunté, <lb/>sy faire se peut et <app>
+        <lem>es</lem>
+        <rdg wit="AVN Q41, p. 61">aussi aux</rdg>
+       </app> lieux <term ref="lem017831.02">circonvoisins</term>, <lb/>afin que tous les crediteurs
+       ou les <lb/>cautions <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 61">et fiancés</rdg>
+       </app> en soyent adverties &amp; <term ref="lem016350.03">certiorées</term>.</p>
+      <p>
+       <lb/>L’officier &amp; justiciers commis aux <lb/><term ref="lem016396.08">egallations</term> sont tenuz d’y
+       proceder <lb/>au plustost et avec briefve expedition, <lb/>sans cercher aucunes longueurs.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> de taxer et esvaluer tant les <lb/>meubles
+       qu’immeubles de l’<term ref="lem017865.02">impetrant</term>
+       <lb/>justement et <term ref="lem018030">rondement</term> sans faveur <lb/>ny support du
+       debteur ny des crediteurs, <lb/>comme sy c’estoit pour en faire <lb/><term ref="lem016291.02"
+        >deniers</term> contents, &amp; de cecy <lb/>doibvent faire serment exact <lb/>entre les
+       mains de l’officier.  <lb/><add place="below" type="catchword">L’estimation</add>
+      </p>
+     <pb n="169" facs="AEN_MJ_17_168_169"/>
+      <p>
+       <lb/>L’estimation &amp; taux estre fait <lb/>de chasque meuble &amp; piece de terre
+       <lb/>appart doibt estre publiée es lieux <lb/>et ressorts <term ref="lem017831.02"
+        >circonvoisins</term>, &amp; sera <lb/>permis tant aux crediteurs entr’eux, <lb/>comme a
+       toutes autres personnes de <lb/><term ref="lem019325">monter</term> et encherir ce qui <app>
+        <lem>luy</lem>
+        <rdg wit="AVN Q41, p. 61">leurs</rdg>
+       </app> plus <lb/>agreera des biens de l’<term ref="lem017865.02">impetrant</term>.</p>
+      <p>
+       <lb/>Sy le dernier encherissant n’est <lb/>l’un des crediteurs <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 61">il</rdg>
+       </app> sera tenu payer <lb/>la piece de terre ou meuble <term ref="lem019325.03">monté</term>
+       <lb/>en argent content, ou bien convenir <lb/>avec les crediteurs qu’ils se puissent
+       <lb/>tenir a luy, sinon luy sera donné terme <lb/>competant en donnant bonnes <choice>
+        <abbr>asseuraces</abbr>
+        <expan>asseurances</expan>
+       </choice>
+       <lb/>et respondants <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 61">et fiancés, et ce</rdg>
+       </app> a la discretion du <lb/>president et <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 61">des</rdg>
+       </app> commis a <app>
+        <lem>l’</lem>
+        <rdg wit="AVN Q41, p. 61">ladite</rdg>
+       </app><term ref="lem016396.05">esgallation</term>, <lb/>toutesfois a terme de <date dur-iso="P6W"
+        >six sepmaines</date>, <lb/>&amp; celuy qui aura esté <term ref="lem015879.08"
+        >collocqué</term>
+       <lb/><app>
+        <lem>sur l’argent</lem>
+        <rdg wit="AVN Q41, p. 62"/>
+       </app> reprendra ladite piece  <lb/><add place="below" type="catchword">un</add>
+       <pb n="170" facs="AEN_MJ_17_170_171"/>
+       <lb/>un quart moings, &amp; pourra se <lb/>contourner sur ses biens pour le <lb/>surplus, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 62">et</rdg>
+       </app> en outre payé un <term ref="lem018031">ban</term> de <lb/><measure origin="NE"
+        type="currency" unit="S" quantity="60">soixante sols</measure>.</p>
+      <p>
+       <lb/>Et sy c’est un des crediteurs qui soit <lb/>le dernier encherissant, il en sera <lb/>usé
+       envers luy comme cy dessus en <lb/>l’article precedent, sinon entend <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>la chose a luy escheue luy peust <lb/>desja d’ailleurs parvenir a cause de <lb/>son rang
+       &amp; datte sans fraud &amp; prejudice <lb/>d’autres crediteurs anterieurs et mieux
+       <lb/>fondez ou de leurs consentements, <lb/>lors la pourra retirer pour <choice>
+        <abbr>payem<hi rend="sup">t</hi></abbr>
+        <expan>payement</expan>
+       </choice>
+       <lb/>du <term ref="lem015071.02">toutage</term> ou partie de son debt, <lb/>et sy elle vaut plus que son debt,
+       <lb/>il en sera aussy usé comme <app>
+        <lem>a</lem>
+        <rdg wit="AVN Q41, p. 62">en</rdg>
+       </app> l’article <lb/>precedent.</p>
+      <p>
+       <lb/>Lesdites <term ref="lem015541.02">montes</term> demeureront en suspendz  <lb/><add
+        place="below" type="catchword">par</add>
+       <pb n="171" facs="AEN_MJ_17_170_171"/>
+       <lb/>par le temps &amp; terme de <date dur-iso="P15D">quinzaine</date>
+       <lb/>des la publication, &amp; lors <term ref="lem016349.05">escherront</term>
+       <lb/>au dernier encherisseur, moyenant ce <lb/>que dessus.</p>
+      <p>
+       <lb/>Et celuy qui voudra <term ref="lem019325">monter</term>
+       <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 62">et</rdg>
+       </app> encherir <lb/>quelque piece de terre ou meuble, le <lb/>pourra faire pendant ledit
+       terme, <lb/>en le signifiant au grephier, &amp; <lb/>faisant inscripre sur le livre de
+        <lb/>l’<term ref="lem016396.05">esgallation</term> le prix qu’il offre, <lb/>que le grephier
+       sera tenu <choice>
+        <abbr>fidellem<hi rend="sup">t</hi></abbr>
+        <expan>fidellement</expan>
+       </choice>
+       <lb/>enregistrer pour le tout representer <lb/>au <app>
+        <lem>bout</lem>
+        <rdg wit="AVN Q41, p. 62">but</rdg>
+       </app> du terme par foy &amp; serment.</p>
+      <p>
+       <lb/>Au <app>
+        <lem>bout</lem>
+        <rdg wit="AVN Q41, p. 62">but</rdg>
+       </app> de ladite <date dur-iso="P15D">quinzaine</date> toutes <lb/>les <term ref="lem015541.02"
+        >montes</term> et encheres seront veues &amp; <lb/>produictes, et ce jour la jusques <lb/>au
+       soleil couchant qui donnera le <lb/>plus de la chose qu’il aura <term ref="lem019325.02"
+        >montée</term>
+       <lb/>et encherie luy <term ref="lem016349.11">escherra</term> &amp; demeurera,  <lb/><add
+        place="below" type="catchword">&amp;</add>
+       <pb n="172" facs="AEN_MJ_17_172_173"/>
+       <lb/>et ainsy tous les crediteurs &amp; <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 62">les</rdg>
+       </app> <term ref="lem019326.02">monteurs</term>
+       <lb/>et encherisseurs seront evocquez au <lb/>lieu ou l’<term ref="lem016396.05"
+        >esgallation</term> se distribuera, <lb/>les derniers encherisseurs pour estre <lb/>investuz
+       et mis en possession de <lb/>la chose <term ref="lem019325.02">montée</term>. Et les
+       crediteurs <lb/>&amp; pretendants droit a l’<term ref="lem016396.05">esgallation</term>
+       <lb/>pour <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 62">leurs</rdg>
+       </app> estre distribué <app>
+        <lem>a eux</lem>
+        <rdg wit="AVN Q41, p. 62">aux uns</rdg>
+       </app> les <lb/><term ref="lem016291.02">deniers</term> qui seront competants tant
+       <lb/>qu’ils se pourront extendre. Et <lb/>aux autres pour estre <term ref="lem015879.09"
+        >collocquez</term>
+       <lb/>sur le bien non <term ref="lem019325.03">monté</term> et qui est <lb/><app>
+        <lem>demeure<del>r</del></lem>
+        <rdg wit="AVN Q41, p. 62">demeuré</rdg>
+       </app> en son esvaluation <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 62">ou pour estre colloqués</rdg>
+       </app> sur <lb/>les nouvelles obligations qui seront <lb/>crées des <term ref="lem015541.02"
+        >montes</term>.</p>  
+      <p>
+       <lb/>Les lettres obligatoires deuement <lb/>scellées &amp; signées par main de <lb/>notaire
+       du pays qui porteront <lb/>hypotheque speciale &amp; plaine, <lb/>tousjour les plus vielles
+       en datte <lb/>seront preferez a toutes <choice>
+        <abbr>aues</abbr>
+        <expan>autres</expan>
+       </choice> debtes, <lb/><add place="below" type="catchword">les</add>
+       <pb n="173" facs="AEN_MJ_17_172_173"/>
+       <lb/>les estrangers qui <app>
+        <lem>seront</lem>
+        <rdg wit="AVN Q41, p. 62">sont</rdg>
+       </app> des <lb/>lieux <term ref="lem017831.02">circonvoisins</term> ou ils ont de
+       <lb/>coustume de <term ref="lem018032">postposer</term> les crediteurs <lb/>estrangers a ceux
+       de leur lieu &amp; <lb/>pays, en sera usé de mesme contr’eux, <lb/>et seront <term
+        ref="lem018032.02">postposez</term> a tous les <lb/>crediteurs de ceste souveraineté.</p>
+      <p>
+       <lb/>Le choix aussi de prendre <choice>
+        <abbr>payem<hi rend="sup">t</hi></abbr>
+        <expan>payement</expan>
+       </choice>
+       <lb/>a l’<term ref="lem016396.05">esgallation</term> les premiers <choice>
+        <abbr>demeuret</abbr>
+        <expan>demeurent</expan>
+       </choice>
+       <lb/>a ceux qui seront fondez en bonnes<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63"> et <lb/>valides</rdg>
+       </app>
+       <lb/>obligations, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">deüement scellées et receües et signées <lb/>par des notayres du
+         pays,</rdg>
+       </app> comme cy dessus est <lb/>monstré l’un apres l’autre<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63"> selon la datte</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Mais en premier lieu se payent <lb/>tous <term ref="lem016291.02">deniers</term>
+       privilegez, comme <lb/>sont <term ref="lem015877.02">censes</term> et redebvances, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63"><term ref="lem014983">lods</term>,</rdg>
+       </app> et <lb/>autres <term ref="lem016291.02">deniers</term> dehuz <app>
+        <lem>au prince</lem>
+        <rdg wit="AVN Q41, p. 63">à son altesse</rdg>
+       </app>, <lb/>puis apres <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">se <lb/>payeront</rdg>
+       </app> les fraits, despends &amp; <lb/>journées des <choice>
+        <abbr>comis</abbr>
+        <expan>commis</expan>
+       </choice> a l’<term ref="lem016396.06"><choice>
+         <abbr>esgalaon</abbr>
+         <expan>esgalation</expan>
+        </choice></term><app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 63">. Item aussi</rdg>
+       </app> le loyer<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63"> et salayre</rdg>
+       </app>
+       <lb/>des serviteurs &amp; <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">des</rdg>
+       </app> servantes, des medecins<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">, apoticaires,</rdg>
+       </app>
+       <lb/>&amp; chirurgiens.  <lb/><add place="below" type="catchword">Ceux</add>
+      </p>
+     <pb n="174" facs="AEN_MJ_17_174_175"/>
+      <p>
+       <lb/>Ceux auxquels est <term ref="lem015879.08">collocqué</term> chose <lb/>portant <term
+        ref="lem014983.02">lod</term>, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">à la Seigneurie,</rdg>
+       </app> leur <app>
+        <lem>est</lem>
+        <rdg wit="AVN Q41, p. 63">sera</rdg>
+       </app> aussi colloqué <lb/>pour ledit <term ref="lem014983.02">lod</term>, comme aussy <choice>
+        <abbr>po<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice>
+       <lb/>les fraits raysonnables &amp; <term ref="lem015877.02">censes</term>.</p>
+      <p>
+       <lb/>Et sy en faisant la distribution <lb/>et <term ref="lem014977">collocation</term> il
+       survient difficulté, <lb/>comme il arrive souvent entre les <lb/>crediteurs pour leurs droits
+       et <lb/>pretentions, dont sont chargez <lb/>lesdits commis <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">a l’<term ref="lem016396.04">esgalation</term></rdg>
+       </app> faire declaration, <lb/>qui est absolue,<note>Nouveau paragraphe dans AVN Q41.</note>
+       il pourroit arriver <lb/>que pour faute d’avoir esté le fait <lb/>bien entendu par lesdits
+       commis, <lb/>a cause du petit nombre qu’ils sont <lb/>ordinairement, le droit de partie
+       <lb/>ou <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">d’</rdg>
+       </app>autre pouroit estre lezé, ce <lb/>que l’on doit eviter tant qu’il sera <lb/>possible.
+       Parquoy d’ores en avant <lb/>il sera loisible <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">et permis</rdg>
+       </app> a ceux qui se <lb/>trouveront interressez de la <lb/><add place="below"
+        type="catchword">sentence</add>
+       <pb n="175" facs="AEN_MJ_17_174_175"/>
+       <lb/>sentence <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 63">et</rdg>
+       </app> declaration desdits <lb/>commis de demander adjoints a la <lb/>seigneurie, dont s’en
+       poursuivra <lb/>la provision dedans <date dur-iso="P3D">trois jours</date><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63"> sans autre plus long dilay,</rdg>
+       </app>
+       <lb/>a peyne d’estre nulle, s’il ne luy <lb/>est accordé plus longue <choice>
+        <abbr>prolongaon</abbr>
+        <expan>prolongation</expan>
+       </choice>
+       <lb/>de la sentence<app>
+        <lem><choice>
+          <sic>, &amp; la sentance</sic>
+          <corr/>
+         </choice></lem>
+        <rdg wit="AVN Q41, p. 63"/>
+       </app> &amp; <lb/>declaration desdits commis mise en <lb/>execution.</p>
+      <p>
+       <lb/>Sy les crediteurs par leurs <lb/>difficultez prolongent <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63">tirent en longueurs</rdg>
+       </app> et <choice>
+        <abbr>entretienet</abbr>
+        <expan>entretienent</expan>
+       </choice><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63"> long temps</rdg>
+       </app>
+       <lb/>l’<term ref="lem016396.05">esgallation</term> et font par ce moyen<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 63"> opiniastrement</rdg>
+       </app>
+       <lb/>assembler <app>
+        <lem>par</lem>
+        <rdg wit="AVN Q41, p. 63"/>
+       </app> plusieurs fois les<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64"> commis et</rdg>
+       </app>
+       <lb/><term ref="lem015515.03">egalleurs</term>, sans qu’il y aye de la <lb/>faute de l’<term
+        ref="lem017865.02">impetrant</term>, les parties <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">qui les auront assemblés extra<lb break="no"/>ordinairement</rdg>
+       </app> <lb/>seront tenues payer les <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">fraits et</rdg>
+       </app> despends <lb/>et <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">aussi les</rdg>
+       </app> journées desdits <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">commis et</rdg>
+       </app> <term ref="lem015515.03">egalleurs</term>, &amp; non <lb/>l’<term ref="lem017865.02"
+        >impetrant</term>.  <lb/><add place="below" type="catchword">Le</add>
+      </p>
+     <pb n="176" facs="AEN_MJ_17_176_177"/>
+      <p>
+       <lb/>Le fond ou mayson vendue ou taxée, <lb/>dont <date dur-iso="P1Y6W"><term ref="lem014776">an
+         &amp; jour</term></date>
+       <app>
+        <lem>n’est</lem>
+        <rdg wit="AVN Q41, p. 64">ne sont</rdg>
+       </app> encor expiré <lb/>lorsque l’<term ref="lem016396.05">esgallation</term> est accordée,
+       <lb/>reviennent en <term ref="lem014975.02">decret</term>, comme aussi <lb/>l’eschange s’il a
+       esté fait pour <lb/>frauder les crediteurs.</p>
+      <p>
+       <lb/>Celuy auquel sera <term ref="lem016349.12">escheu</term> ou <lb/><term
+        ref="lem015879.08">collocqué</term> quelque fond ou maison <lb/>d’une <term
+        ref="lem016396.05">esgallation</term> sera certain &amp; <lb/>asseuré que nul n’aura <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">loy,</rdg>
+       </app> droit ny <lb/><app>
+        <lem>loy</lem>
+        <rdg wit="AVN Q41, p. 64">aucun pouvoir</rdg>
+       </app> de demander sur telle maison <lb/>ou fond aucune proximité ny <lb/>retraicte,
+       hypotheque, revenus, <lb/><term ref="lem015877.02">censes</term>, servitudes ny charges
+       <lb/>quelconques, que la <term ref="lem015877">cense</term> fonciere <lb/>qui sera deue <app>
+        <lem>au prince</lem>
+        <rdg wit="AVN Q41, p. 64">a son <lb/>altesse</rdg>
+       </app>, &amp; ce <lb/>qui sera declaré par la lettre <lb/>d’<term ref="lem016396.07"
+        >egallation</term>. <lb/><add place="below" type="catchword">Car</add>
+      </p>
+     <pb n="177" facs="AEN_MJ_17_176_177"/>
+      <p>
+       <lb/>Car qui pretend quelque droit <lb/><app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 64">et</rdg>
+       </app> interest a <app>
+        <lem>d’</lem>
+        <rdg wit="AVN Q41, p. 64">quelque pièce maison, ou possession</rdg>
+       </app>une <term ref="lem016396.05">esgallation</term> se <lb/>doit approcher <app>
+        <lem>pendant</lem>
+        <rdg wit="AVN Q41, p. 64">cependant</rdg>
+       </app> qu’elle est <lb/>en terme, lequel sera <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">du terme</rdg>
+       </app> de <date dur-iso="P6W">six sepmaines</date>
+       <lb/>au plus, des la publication, pour <lb/>veriffier son pretendu, sinon vient <lb/>a tard,
+       et ne luy sera donné <lb/><app>
+        <lem>aucune</lem>
+        <rdg wit="AVN Q41, p. 64">autre</rdg>
+       </app> action pour tout son droit <lb/>que contre l’<term ref="lem017865.02"
+       >impetrant</term>, &amp; non <lb/>contre ceux qui possederont ses <lb/>hypotheques et <term
+        ref="lem014999.03">assignaux</term>
+       <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">ausquels ils auront <lb/>esté <term ref="lem015879.12">colloqués</term></rdg>
+       </app> par <lb/>ladite <term ref="lem016396.05">esgallation</term>.</p>
+      <p>
+       <lb/>Le debteur qui n’a assez <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> payer <lb/>par son <term ref="lem016396.05">esgallation</term>, le crediteur
+       <lb/>auquel il demeure relicateur <lb/>le peut faire mettre en prison, <lb/>&amp; luy faire
+       tenir sy <choice>
+        <abbr>longuem<hi rend="sup">t</hi></abbr>
+        <expan>longuement</expan>
+       </choice>
+       <lb/>qu’il le voudra nourrir<app>
+        <lem>, &amp; </lem>
+        <rdg wit="AVN Q41, p. 64">en ladite prison ou</rdg>
+       </app>
+       <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> quelcun <lb/>aye payé pour luy. Et encor que <lb/><add place="below"
+        type="catchword">les</add>
+       <pb n="178" facs="AEN_MJ_17_178_179"/>
+       <lb/>les crediteurs ne poursuivent a ce <lb/><app>
+        <lem>est neantmoings mis en prison en <lb/>pain &amp; eau l’espace de <date dur-iso="P15D"
+          >quinze jours</date>, <lb/>et au sortir banny du pays, suivant <lb/>l’ancien <term
+          ref="lem014975.02">decret</term>.</lem>
+        <rdg wit="AVN Q41, p. 64">celuy <lb/>qui n’aura point ou assez pour payer son <term
+          ref="lem016396.04">esgalation</term>, ce neant<lb break="no"/>moins la seigneurie le fera
+         mettre en <add place="above">pain</add> et eau quinze jours <lb/>en prison, et au sortir
+         sera banny hors de ceste souve<lb break="no"/>raineté suivant l’ancien decret.</rdg>
+       </app></p>
+      <p>
+       <lb/>Et afin que les presidents<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">, et les commis</rdg>
+       </app> aux <lb/><term ref="lem016396.03">esgallation</term> sçachent <app>
+        <lem><choice>
+          <abbr>qß</abbr>
+          <expan>que</expan>
+         </choice></lem>
+        <rdg wit="AVN Q41, p. 64">le droit loyer, et salayre qui</rdg>
+       </app>
+       <lb/>leur est accordé, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">pour leurs peines et vacquation</rdg>
+       </app> dores en avant <lb/>pour leurs despends, journées &amp; <lb/>vaccations, ne pouront
+       prendre <lb/><app>
+        <lem>ny exiger,</lem>
+        <rdg wit="AVN Q41, p. 64"/>
+       </app> assavoir le president <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 64">que</rdg>
+       </app> <lb/><measure origin="NE" type="currency" unit="bz" quantity="20">vingt batz</measure>,
+       &amp; les <app>
+        <lem/>
+        <rdg>commis <lb/>et</rdg>
+       </app> justiciers <measure origin="NE" type="currency" unit="bz" quantity="15">quinze<app>
+         <lem/>
+         <rdg wit="AVN Q41, p. 64">batz</rdg>
+        </app></measure>, <lb/>un chescun par jour, tant pour <lb/>journée que <app>
+        <lem/>
+         <rdg wit="AVN Q41, p. 64">pour</rdg>
+       </app> despendz.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

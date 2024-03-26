@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.0-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<head>Catherine Gauthier-Monde, Marti Margueron, Jenon Bodin-Monde, Barbli Paccot-Tunney, Anni Götschmann-Schorderet,
+						Tichtli Uldry-Tunney, Tichtli Berger-Graber – Anweisung, Verhör und Urteil / Instruction, interrogatoire et jugement</head>
+					<msContents>
+						<summary><p xml:lang="de">Catherine Gauthier-Monde, früher in Châtonnaye und nun in der Stadt Freiburg wohnhaft, wird der Hexerei verdächtigt, mehrfach verhört und gefoltert, ohne zu gestehen.
+							Um sie zu einem Geständnis zu bringen, wird vergeblich ein neues Folterinstrument angefertigt.
+							Sie sitzt über 1½ Jahre in Haft und wird im Zeitraum von 1643–1645 durch verschiedene Personen, darunter durch ihren Sohn Marti Margueron sowie durch Barbli Paccot-Tunney
+							und Anni Götschmann-Schorderet, der Hexerei bezichtigt. Obwohl sie bis zum Schluss kein Geständnis ablegt, wird sie zum Tod auf dem Scheiterhaufen verurteilt. Ihr Urteil wird gemildert:
+							Sie wird enthauptet oder stranguliert und anschliessend verbrannt.</p>
+						<p xml:lang="de">Catherines Sohn, Marti Margueron, wird der Hexerei verdächtigt. Er streitet zuerst alles ab und gesteht später freiwillig, dass seine Mutter eine Hexe sei und ihn an Hexenversammlungen mitgenommen habe.
+							Nach langer Gefangenschaft wird Marti Margueron noch vor seiner Mutter zum Tod verurteilt. Er wird enthauptet und sein Körper verbrannt.</p>
+							<p xml:lang="de">Auch Catherines Schwester, die Witwe Jenon Bodin-Monde, wird im Zuge einer grossen Hexenverfolgung in Cugy der Hexerei angeklagt und dort verhört und gefoltert, ohne zu gestehen. Sie wird nach
+								Freiburg gebracht, wo man sie erneut verhört und foltert. Da sie im Gefängnis sehr krank wird, schickt man einen Priester zu ihr.</p>
+						<p xml:lang="de">Die Witwe Barbli Paccot-Tunney aus St. Wolfgang bei Düdingen wird der Hexerei verdächtigt und mehrfach verhört. Sie bestreitet zuerst sämtliche Anklagepunkte, legt dann aber unter Folter ein Geständnis ab.
+							Zudem bezichtigt sie Catherine Gauthier-Monde, eine Hexe zu sein. Barbli Paccot-Tunney wird zum Tod auf dem Scheiterhaufen verurteilt.</p>
+						<p xml:lang="de">Die Witwe Anni Götschmann-Schorderet aus St. Wolfgang wird ebenfalls der Hexerei verdächtigt und mehrfach verhört. Unter Folter legt sie ein Geständnis ab und denunziert weitere Personen,
+								darunter Catherine Gauthier-Monde, deren Sohn Marti sowie Jenon Bodin-Monde. Weiter Tichtli Uldry-Tunney und Tichtli Berger-Graber, die nach einem Verhör wieder freigelassen werden.
+								Anni Götschmann-Schorderet wird zum Tod auf dem Scheiterhaufen verurteilt. Tichtli Berger-Graber wird 1652 erneut der Hexerei verdächtigt (voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-165.0-1">SSRQ FR I/2/8 165.0-1</ref>).</p>
+							<p xml:lang="fr">Catherine Gauthier-Monde, résidant autrefois à Châtonnaye et maintenant à Fribourg, est suspectée de sorcellerie, interrogée et torturée à plusieurs reprises, mais n’avoue rien.
+								Un nouvel instrument de torture, nommé la «&#160;beurrière&#160;», est fabriqué pour obtenir un aveu, mais sans succès. Elle demeure plus d’un an et demi en prison et, au cours de la période 1643–1645,
+								est accusée de sorcellerie par plusieurs personnes, dont son fils Marti Margueron, Barbli Paccot-Tunney et Anni Götschmann-Schorderet. Bien qu’elle ne concède le moindre aveu,
+								Catherine est condamnée au bûcher, mais bénéficie d’une mitigation de peine&#160;: elle est décapitée ou étranglée avant d’être brûlée.</p>
+							<p xml:lang="fr">Marti Margueron, fils de Catherine, est aussi suspecté de sorcellerie. Il nie d’abord tout, puis affirme que sa mère est sorcière et qu’elle l’a emmené dans des assemblées de sorciers.
+								Après une longue période d’emprisonnement, Marti est condamné, devant sa mère, au bûcher, mais bénéficie d’une mitigation de peine&#160;: il est décapité avant d’être brûlé.</p>
+							<p xml:lang="fr">Jenon Bodin-Monde, soeur de Catherine, est accusée de sorcellerie dans le cadre d’une grande chasse aux sorciers menée à Cugy, où elle est interrogée et torturée, mais n’avoue rien. Elle
+								est conduite à Fribourg, où elle est à nouveau interrogée et torturée. Elle tombe gravement malade durant sa détention et un prêtre lui est alors envoyé.</p>
+							<p xml:lang="fr">La veuve Barbli Paccot-Tunney, de Saint-Wolfgang, est suspectée de sorcellerie, interrogée et torturée à plusieurs reprises. Durant son procès, elle accuse Catherine
+								Gauthier-Monde d’être sorcière. Barbli est condamnée au bûcher.</p>
+							<p xml:lang="fr">La veuve Anni Götschmann-Schorderet, de Saint-Wolfgang, est aussi suspectée de sorcellerie, interrogée et torturée à plusieurs reprises. Durant son procès, elle dénonce plusieurs personnes,
+								dont Catherine Gauthier-Monde, son fils Marti, Jenon Bodin-Monde&#160;; puis Tichtli Uldry-Tunney et Tichtli Berger-Graber, qui toutefois, après avoir été interrogées, sont libérées. Anni est condamnée au bûcher.
+								Tichtli Berger-Graber sera à nouveau inquiétée pour sorcellerie en 1652 (voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-165.0-1">SSRQ FR I/2/8 165.0-1</ref>).
+							</p>
+						</summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1643-07-23" to="1645-09-05"></origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000604"/>
+					<term ref="key005812"/>
+					<term ref="key000803"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div type="collection">
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.1-1">SSRQ FR I/2/8 109.1-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.2-1">SSRQ FR I/2/8 109.2-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.3-1">SSRQ FR I/2/8 109.3-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.4-1">SSRQ FR I/2/8 109.4-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.5-1">SSRQ FR I/2/8 109.5-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.6-1">SSRQ FR I/2/8 109.6-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.7-1">SSRQ FR I/2/8 109.7-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.8-1">SSRQ FR I/2/8 109.8-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.9-1">SSRQ FR I/2/8 109.9-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.10-1">SSRQ FR I/2/8 109.10-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.11-1">SSRQ FR I/2/8 109.11-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.12-1">SSRQ FR I/2/8 109.12-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.13-1">SSRQ FR I/2/8 109.13-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.14-1">SSRQ FR I/2/8 109.14-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.15-1">SSRQ FR I/2/8 109.15-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.16-1">SSRQ FR I/2/8 109.16-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.17-1">SSRQ FR I/2/8 109.17-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.18-1">SSRQ FR I/2/8 109.18-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.19-1">SSRQ FR I/2/8 109.19-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.20-1">SSRQ FR I/2/8 109.20-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.21-1">SSRQ FR I/2/8 109.21-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.22-1">SSRQ FR I/2/8 109.22-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.23-1">SSRQ FR I/2/8 109.23-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.24-1">SSRQ FR I/2/8 109.24-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.25-1">SSRQ FR I/2/8 109.25-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.26-1">SSRQ FR I/2/8 109.26-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.27-1">SSRQ FR I/2/8 109.27-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.28-1">SSRQ FR I/2/8 109.28-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.29-1">SSRQ FR I/2/8 109.29-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.30-1">SSRQ FR I/2/8 109.30-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.31-1">SSRQ FR I/2/8 109.31-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.32-1">SSRQ FR I/2/8 109.32-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.33-1">SSRQ FR I/2/8 109.33-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.34-1">SSRQ FR I/2/8 109.34-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.35-1">SSRQ FR I/2/8 109.35-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.36-1">SSRQ FR I/2/8 109.36-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.37-1">SSRQ FR I/2/8 109.37-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.38-1">SSRQ FR I/2/8 109.38-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.39-1">SSRQ FR I/2/8 109.39-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.40-1">SSRQ FR I/2/8 109.40-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.41-1">SSRQ FR I/2/8 109.41-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.42-1">SSRQ FR I/2/8 109.42-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.43-1">SSRQ FR I/2/8 109.43-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.44-1">SSRQ FR I/2/8 109.44-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.45-1">SSRQ FR I/2/8 109.45-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.46-1">SSRQ FR I/2/8 109.46-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.47-1">SSRQ FR I/2/8 109.47-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.48-1">SSRQ FR I/2/8 109.48-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.49-1">SSRQ FR I/2/8 109.49-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.50-1">SSRQ FR I/2/8 109.50-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.51-1">SSRQ FR I/2/8 109.51-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.52-1">SSRQ FR I/2/8 109.52-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.53-1">SSRQ FR I/2/8 109.53-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.54-1">SSRQ FR I/2/8 109.54-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.55-1">SSRQ FR I/2/8 109.55-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.56-1">SSRQ FR I/2/8 109.56-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.57-1">SSRQ FR I/2/8 109.57-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.58-1">SSRQ FR I/2/8 109.58-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.59-1">SSRQ FR I/2/8 109.59-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.60-1">SSRQ FR I/2/8 109.60-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.61-1">SSRQ FR I/2/8 109.61-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.62-1">SSRQ FR I/2/8 109.62-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.63-1">SSRQ FR I/2/8 109.63-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.64-1">SSRQ FR I/2/8 109.64-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.65-1">SSRQ FR I/2/8 109.65-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.66-1">SSRQ FR I/2/8 109.66-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.67-1">SSRQ FR I/2/8 109.67-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.68-1">SSRQ FR I/2/8 109.68-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.69-1">SSRQ FR I/2/8 109.69-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.70-1">SSRQ FR I/2/8 109.70-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.71-1">SSRQ FR I/2/8 109.71-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.72-1">SSRQ FR I/2/8 109.72-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.73-1">SSRQ FR I/2/8 109.73-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.74-1">SSRQ FR I/2/8 109.74-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.75-1">SSRQ FR I/2/8 109.75-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.76-1">SSRQ FR I/2/8 109.76-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.77-1">SSRQ FR I/2/8 109.77-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.78-1">SSRQ FR I/2/8 109.78-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.79-1">SSRQ FR I/2/8 109.79-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.80-1">SSRQ FR I/2/8 109.80-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.81-1">SSRQ FR I/2/8 109.81-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-109.82-1">SSRQ FR I/2/8 109.82-1</ref></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-08-19"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.A.1-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. I–XXVI</idno>
+     </msIdentifier>
+     <head>Table des matières</head>
+     <msContents>
+      <summary></summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term/>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <div>
+      <pb n="cover"/>
+      <p>
+       <lb/><del>50</del><note>Ancienne cote.</note>
+       <lb/>17<note>Cote actuelle.</note></p>
+      <pb n="I" facs="AEN_MJ_17_I"/><p><note>La pagination au crayon de papier en chiffres romains
+        au début du manuscrit n’est pas d’origine.</note></p>
+      <p>
+       <lb/><add place="inline" hand="later hand"><persName ref="per028367a.01"><choice>
+          <abbr>Ch<hi rend="sup">s</hi></abbr>
+          <expan>Charles</expan>
+         </choice> Marval</persName></add><note>Marque de propriété.</note>
+       <add place="inline" hand="later hand"><lb/>Provient du fonds <lb/><persName
+         ref="per028368a.01">Daniel Dardel</persName> – <lb/>Président de la cours d’appel
+         <lb/><date from="1808-01-01" to="1871-12-31">1808–1871</date></add>
+      </p>
+      <pb n="XV" facs="AEN_MJ_17_XV"/>
+      <head type="title">
+       <lb/>Coustumes et usances d’icelles <lb/>tant anciennes que nouvelles usitées <lb/>riere les
+       comtez souverains de <placeName ref="loc007785.13">Neufchastel</placeName> &amp; de
+        <lb/><placeName ref="loc005950">Valangin</placeName> en <placeName ref="loc001012.13"
+        >Suisse</placeName>, nouvellement recueillies &amp; mises <lb/>par escript en cahiers et
+       livre pour en avoir la <lb/>cognoissance plus particulierement, distinguez <lb/>en cinquante
+       huict chappitres, avec l’indice de <lb/> chescun d’iceux. </head>
+      <p>
+       <lb/>Reveuës, corrigées, amendées, &amp; augmentées <lb/>souverainement par Messeigneurs des
+        <orgName ref="org009676.02">audiances <lb/>generalles</orgName> tenues &amp; assemblées au
+        <placeName ref="loc010850.07">chasteau de <lb/>Neufchastel</placeName> en l’<date
+        when="1618" calendar="Julian">année prins a la Nativité <lb/>de Nostre Seigneur JESUS
+        CHRIST, mille <lb/>six cents dix huict</date>, par l’ordonnance de <lb/>tres illustre, tres
+       haut &amp; tres magnanime <lb/>prince et seigneur <persName ref="per010445a.01">HENRY
+        D’ORLEANS</persName>
+       <lb/>par la grace de Dieu prince &amp; comte <lb/>souverain desdits comtez de <placeName
+        ref="loc007785.04">Neuf<lb break="no"/>chastel</placeName> &amp; de <placeName
+        ref="loc005950.05">Vallangin</placeName>, lequel <lb/>seigneur et prince estant <lb/>pour
+       lors personnellement <lb/>en sesdits comtez et <lb/>siens pays au grand <lb/>contentement et
+       <lb/>soulagement <lb/>de tous ses <lb/>subjects. <lb/>– <lb/><unclear><signed><persName
+          ref="per028369a.01">P. Meuron</persName></signed></unclear>.</p>
+      <pb n="XVI"/>
+      <p><note>Page vierge.</note></p>
+      <pb n="XVII" facs="AEN_MJ_17_XVII"/>
+      <head type="title">
+       <lb/>Teneur du mandement de la <lb/>part de <persName ref="per010517">Monseigneur le
+        gouverneur</persName>, <lb/>consernant le coustumier des statuts, <choice>
+        <abbr>ord<hi rend="sup">ces</hi></abbr>
+        <expan>ordonnances</expan>
+       </choice>
+       <lb/>&amp; decrets cy apres specifiez &amp; mentionnez, <lb/>distinguez par chapitres, et
+       toutesfois par <lb/>les conditions &amp; reserves contenues audit <lb/>mandement, lequel
+       contient de mot a mot <lb/>ainsy que s’ensuit. </head>
+      <p>
+       <lb/>A tous chastelains, mayres, &amp; autres <lb/>officiers de <persName ref="per010445">Son
+        Altesse</persName>, salut.</p>
+      <p>
+       <lb/>Tous Estats qui se sont voulu conserver en bonne <lb/>police, paix et repos ont trouvé
+       necessaire, non <choice>
+        <abbr>seulem<hi rend="sup">t</hi></abbr>
+        <expan>seulement</expan>
+       </choice>
+       <lb/>de s’aider &amp; servir de coustumes &amp; de loix, mais surtout <lb/>de les
+       soigneusement rediger &amp; conserver par escript, <lb/>afin qu’elles ne fussent facilement
+       changées par le <lb/>passionné appetit de cestuy &amp; de l’autre, puisque <lb/>la fragilité,
+       inconstance et varieté est naturelle <lb/>en tous hommes, et que le changement en tel faict
+       <lb/>est la cause d’injustice et desordre, outre ceste <lb/>consideration <orgName
+        ref="org003167">les sieurs des Trois Estats de <lb/>ceste Souveraineté</orgName> et autres
+       officiers de <persName ref="per010445"><choice>
+         <abbr>S. A.</abbr>
+         <expan>Son Altesse</expan>
+        </choice></persName>
+       <lb/>nous auroyent representé les inconveniants &amp; <lb/><term ref="lem018355.02"
+        >involutions</term> des procez qui surviennent <lb/>journellement entre les subjets de
+        <persName ref="per010445">Sadite <choice>
+         <abbr>A.</abbr>
+         <expan>Altesse</expan>
+        </choice></persName>
+       <lb/>a la ruyne et desolation de plusieurs familles, <lb/>faute de ce que les coustumes de
+       cest Estat ne se <lb/>trouvoyent par escript, car advenant quelque difficulté, <pb n="XVIII" facs="AEN_MJ_17_XVIII"/>
+       <lb/>question ou controuverse entr’eux, Ils poursuivoyent <lb/>et intentoyent incontinent a
+       la volée &amp; obstinement <lb/>un procez fondé sur une coustume que leur estoit
+       <lb/>imaginée et asseurée par leurs conseils et <lb/>assistants, que cependant les juges
+       declaroyent <lb/>et trouvoyent tout autrement, sans toutesfois <lb/>en faire non plus de
+       preuve que les parties, sy que <lb/>de la sorte la coustume deppendoit de celuy qui la
+       <lb/>sçavoit le mieux persuader, deppeindre &amp; representer <lb/>soubs quelque belle
+       couleur a son but &amp; advantage <lb/>soit qu’il fust partie ou juge, tellement qu’il se
+       <lb/>voyoit souvent rendre diversité de jugements sur <lb/>un mesme cas, qui ne se peut faire
+       sans injustice, <lb/>ce qu’ayants remonstré a <persName ref="per010445"><choice>
+         <abbr>S. A.</abbr>
+         <expan>Son Altesse</expan>
+        </choice></persName> qui n’a rien tant <lb/>en recommendation que le bien et repos de ses
+       bons <lb/>subjects et que bonne police &amp; justice soit conservée <lb/>et administrée
+       entr’eux, Nous auroit commandé <lb/>par reyterées fois de faire rediger par escript les
+       <lb/>coustumes les plus usitées, propres &amp; necessaires <lb/>a cest Estat, suivant mesme
+       l’intention &amp; resolution <lb/>reyterée es trois et quatre dernieres assemblées <lb/>des
+       sieurs des <orgName ref="org009676.02">audiances generalles</orgName>, &amp; a la
+       <lb/>solicitation et request desdits sieurs des <orgName ref="org003167.03">trois
+        <lb/>Estats</orgName>, veu aussy que tout Estat tant petit soit il, <lb/>&amp; notamment
+       riere le voisinage de <orgName ref="org003492.33">Messieurs des <lb/>Ligues</orgName>, avec
+       lesquels nous avons le plus a nous <lb/>conformer, tant en coustumes, qu’en façons de vivre,
+       <lb/>Ils ont toutes leurs coustumes soigneusement <lb/>redigées par escript, et fait dresser
+       des coustumiers <lb/>pour l’usage et soulagement d’eux et des leurs, <pb n="XIX"
+        facs="AEN_MJ_17_XIX"/>
+       <lb/>ce pour a quoy satisfaire et imiter le recueil &amp; <lb/>project de coustumier que vous
+       envoyons a esté <lb/>expressement dressé et mis par escript, et surtout <lb/>pour prevenir
+       aux griefs et torts que souvent <lb/>estoit fait a ceux qui hantoyent peu souvent <lb/>les
+       lieux de justice, et se plaisoyent le moings a <lb/><term ref="lem015614.02">plaids</term>
+       &amp; procez, parce qu’ils estoyent facilement <lb/>deceuz et circonvenuz par les plus rusez
+       qui les <lb/><term ref="lem018357.02">menassoyent</term> tantost d’une coustume tantost d’une
+       <lb/>autre, qui toutesfois n’estoit pas, car par ledit <lb/>coustumier ils pourront eux
+       mesmes voir le <lb/>contraire et se garder de telles ruses, veu qu’estant <lb/>une fois la
+       coustume escripte elle sera establie <lb/>pour tous egalement sans estre subjecte a
+       <lb/>changer par le dire de cestuy ny de l’autre ny par <lb/>le support et affection des
+       justiciers, qu’est le <lb/>vray moyen pour trencher tant de procez qui <lb/>se sussistent
+       tous les jours mal a propos, &amp; eviter <lb/>le tort qui arrivoit souvent a tant de femmes
+       vefves <lb/>et enfans orphelins, Mais comme a toutes choses <lb/>l’ordre ne se peut tout a
+       coup establir&#160;; C’est pourquoy <lb/>ledit coustumier estant mis en usage <term
+        ref="lem017830.02">riere</term> cest Estat <lb/>pour vous et tous autres officiers de
+       justices, <lb/>en iceluy a mesurer que la pratique vous monstrera <lb/>sur les causes qui se
+       presenteront devant vous qu’il <lb/>y aye quelque chose a augmenter ou diminuer Il <lb/>vous
+       est enjoint &amp; ordonné &amp; aux justiciers &amp; <lb/>grephiers, notamment de le noter,
+       afin <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> le tout <lb/>estant representé aux premieres audiances generalles <lb/>Il puisse
+       estre mis en perfection, N’estant l’intention <lb/>de <persName ref="per010445"><choice>
+         <abbr>S. A.</abbr>
+         <expan>Son Altesse</expan>
+        </choice></persName> de rien establir par iceluy qui puisse ou doive <lb/>nuyre &amp;
+       prejudicier a ses bons subjects, <term ref="lem015643">ains</term> servir <pb n="XX"
+        facs="AEN_MJ_17_XX"/>
+       <lb/>pour la conservation a un chescun de ce que justement <lb/>luy appartient, Estant permis
+       a tous ceux qui preten<lb break="no"/>dront quelque interest de le nous remonstrer <choice>
+        <abbr>amiablem<hi rend="sup">t</hi></abbr>
+        <expan>amiablement</expan>
+       </choice>
+       <lb/>afin qu’il y soit pourveu, &amp; comme l’eclaircissement <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>l’affaire requerra, et partant vous enjoingnons &amp; <choice>
+        <abbr>ordonons</abbr>
+        <expan>ordonnons</expan>
+       </choice>
+       <lb/>qu’au premier jour de <term ref="lem015614">plaid</term> vous ayez a faire assembler
+       <lb/>tous les justiciers de vos ressorts pour iceluy project <lb/>de coustumier faire lire et
+       publier en leur presence, <lb/>pour des lors le mettre en usage et pratique en ce qui <lb/>se
+       presentera a juger, ordonner &amp; determiner des difficultez, <lb/>causes et insidents qui
+       se pourront mettre a l’advenir <lb/><term ref="lem017830.02">riere</term> vos charges,
+       attendant la perfection &amp; reformation <lb/>qui sen pourroit faire auxdites audiances
+       generalles, <lb/>A quoy ne ferez point de faute, Du <placeName ref="loc010850.07">chasteau de
+        Neufchastel</placeName>
+       <lb/>ce S ./. <add place="bottom" type="sign" hand="hand20c" rend="pencil">[vint cinquième
+        avril mil six cent et dix, signé par Monseigneur... (blanc) Jacob Wallier, dit un autre
+        exemplaire].</add>
+      </p>
+      <pb n="XXI" facs="AEN_MJ_17_XXI"/><!-- facs="AEN_MJ_17_XXI" funktioniert nicht, keine Ahnung warum… -->
+      <head type="title">
+       <lb/>Indice d’intitulation <lb/>de la matiere que chasque <lb/>chapitre traitte. </head>
+      <table>
+       <row>
+        <cell/>
+        <cell role="label">Chap.</cell>
+        <cell role="label">Folio</cell>
+       </row>
+       <row>
+        <cell>De l’ordre &amp; distribution des justices des <lb/>comtez de <placeName
+          ref="loc007785.04">Neufchastel</placeName> &amp; <placeName ref="loc005950"
+          >Valangin</placeName></cell>
+        <cell role="Chap.">1.</cell>
+        <cell role="Folio">1.</cell>
+       </row>
+       <row>
+        <cell>De l’office des chastelains &amp; mayres</cell>
+        <cell role="Chap.">2.</cell>
+        <cell role="Folio">4.</cell>
+       </row>
+       <row>
+        <cell>De l’office des justiciers</cell>
+        <cell role="Chap.">3.</cell>
+        <cell role="Folio">11.</cell>
+       </row>
+       <row>
+        <cell>Du salaire desdits jurez aux jours ordinaires</cell>
+        <cell role="Chap.">4.</cell>
+        <cell role="Folio">17.</cell>
+       </row>
+       <row>
+        <cell>Du sallaire au jour extraordinaire</cell>
+        <cell role="Chap.">5.</cell>
+        <cell role="Folio">20.</cell>
+       </row>
+       <row>
+        <cell>Des grephiers &amp; notayres</cell>
+        <cell role="Chap.">6.</cell>
+        <cell role="Folio">24.</cell>
+       </row>
+       <row>
+        <cell>Des sergents &amp; <term ref="lem014994.08">soubthiers</term></cell>
+        <cell role="Chap.">7.</cell>
+        <cell role="Folio">29.</cell>
+       </row>
+       <row>
+        <cell>Du sallaire des <term ref="lem014994.08">soubthiers</term></cell>
+        <cell role="Chap.">8.</cell>
+        <cell role="Folio">32.</cell>
+       </row>
+       <row>
+        <cell>Des citations &amp; <term ref="lem017869.03">adjournements</term></cell>
+        <cell role="Chap.">9.</cell>
+        <cell role="Folio">34.</cell>
+       </row>
+       <row>
+        <cell>Des <term ref="lem017879.04">dilais</term> &amp; <term ref="lem019562.02"
+          >fuittes</term></cell>
+        <cell role="Chap.">10.</cell>
+        <cell role="Folio">37.</cell>
+       </row>
+       <row>
+        <cell>Des deffauts &amp; <term ref="lem015976.05">constumaces</term></cell>
+        <cell role="Chap.">11.</cell>
+        <cell role="Folio">41.</cell>
+       </row>
+       <pb n="XXII" facs="AEN_MJ_17_XXII"/>
+       <row>
+        <cell>Contre le <term ref="lem015651.02">rée</term>
+         <term ref="lem017868.04">adjourné</term></cell>
+        <cell role="Chap.">12.</cell>
+        <cell role="Folio">43.</cell>
+       </row>
+       <row>
+        <cell>Des personnes qui peuvent estre en <choice>
+          <abbr>jugem<hi rend="sup">t</hi></abbr>
+          <expan>jugement</expan>
+         </choice></cell>
+        <cell role="Chap.">13.</cell>
+        <cell role="Folio">47.</cell>
+       </row>
+       <row>
+        <cell>Des tuteurs &amp; curateurs</cell>
+        <cell role="Chap.">14.</cell>
+        <cell role="Folio">52.</cell>
+       </row>
+       <row>
+        <cell>Des manieres par lesquelles l’on entre <lb/>en justice</cell>
+        <cell role="Chap.">15.</cell>
+        <cell role="Folio">61.</cell>
+       </row>
+       <row>
+        <cell>Des arrests</cell>
+        <cell role="Chap.">16.</cell>
+        <cell role="Folio">62.</cell>
+       </row>
+       <row>
+        <cell>Des <term ref="lem014996.03">barres</term></cell>
+        <cell role="Chap.">17.</cell>
+        <cell role="Folio">64.</cell>
+       </row>
+       <row>
+        <cell>De recreance</cell>
+        <cell role="Chap.">18.</cell>
+        <cell role="Folio">67.</cell>
+       </row>
+       <row>
+        <cell>De <term ref="lem015005">clame</term></cell>
+        <cell role="Chap.">19.</cell>
+        <cell role="Folio">69.</cell>
+       </row>
+       <row>
+        <cell>De pleintif</cell>
+        <cell role="Chap.">20.</cell>
+        <cell role="Folio">70.</cell>
+       </row>
+       <row>
+        <cell>De deffence</cell>
+        <cell role="Chap.">21.</cell>
+        <cell role="Folio">72.</cell>
+       </row>
+       <row>
+        <cell>De demandes</cell>
+        <cell role="Chap.">22.</cell>
+        <cell role="Folio">74.</cell>
+       </row>
+       <row>
+        <cell>De responces &amp; deffences</cell>
+        <cell role="Chap.">23.</cell>
+        <cell role="Folio">77.</cell>
+       </row>
+       <pb n="XXIII" facs="AEN_MJ_17_XXIII"/>
+       <row>
+        <cell>De la maniere d’estre en possession de <lb/>bonne foy</cell>
+        <cell role="Chap.">24.</cell>
+        <cell role="Folio">79.</cell>
+       </row>
+       <row>
+        <cell>De la succession et heredité ab intestat, adjoint <lb/>puis apres une
+         table <choice>
+          <abbr>p<hi rend="sup">r</hi></abbr>
+          <expan>pour</expan>
+         </choice> trouver le parentage</cell>
+        <cell role="Chap.">25.</cell>
+        <cell role="Folio">82.</cell>
+       </row>
+       <row>
+        <cell>Bref esclaircissement de ladite table</cell>
+        <cell role="Chap.">26.</cell>
+        <cell role="Folio">87.</cell>
+       </row>
+       <row>
+        <cell>Ou il faut demander la succession &amp; heredité</cell>
+        <cell role="Chap.">27.</cell>
+        <cell role="Folio">91.</cell>
+       </row>
+       <row>
+        <cell>De parentage<note>Il s’agit d’une erreur du copiste dans l’index. Le titre du chapitre est « De partage ».</note></cell>
+        <cell role="Chap.">28.</cell>
+        <cell role="Folio">95.</cell>
+       </row>
+       <row>
+        <cell>De la <term ref="lem015074.02">legitime</term> des enfans</cell>
+        <cell role="Chap.">29.</cell>
+        <cell role="Folio">102.</cell>
+       </row>
+       <row>
+        <cell>Des successions par testament</cell>
+        <cell role="Chap.">30.</cell>
+        <cell role="Folio">104.</cell>
+       </row>
+       <row>
+        <cell>Des <term ref="lem015623.02">legats</term></cell>
+        <cell role="Chap.">31.</cell>
+        <cell role="Folio">113.</cell>
+       </row>
+       <row>
+        <cell>Des donnations</cell>
+        <cell role="Chap.">32.</cell>
+        <cell role="Folio">115.</cell>
+       </row>
+       <row>
+        <cell>Des promesses de mariage</cell>
+        <cell role="Chap.">33.</cell>
+        <cell role="Folio">117.</cell>
+       </row>
+       <row>
+        <cell>Des mariages</cell>
+        <cell role="Chap.">34.</cell>
+        <cell role="Folio">122.</cell>
+       </row>
+       <row>
+        <cell>Des <term ref="lem018358.02">inlegitimes</term></cell>
+        <cell role="Chap.">35.</cell>
+        <cell role="Folio">126.</cell>
+       </row>
+       <pb n="XXIV" facs="AEN_MJ_17_XXIV"/>
+       <row>
+        <cell>Du dot &amp; <term ref="lem018011">douaire</term></cell>
+        <cell role="Chap.">36.</cell>
+        <cell role="Folio">128.</cell>
+       </row>
+       <row>
+        <cell>D’usufruict</cell>
+        <cell role="Chap.">37.</cell>
+        <cell role="Folio">136.</cell>
+       </row>
+       <row>
+        <cell>De vente &amp; achept</cell>
+        <cell role="Chap.">38.</cell>
+        <cell role="Folio">140.</cell>
+       </row>
+       <row>
+        <cell>De retraict conventionnel</cell>
+        <cell role="Chap.">39.</cell>
+        <cell role="Folio">148.</cell>
+       </row>
+       <row>
+        <cell>De <term ref="lem018509.02">retraict lignagier</term> ou proximité</cell>
+        <cell role="Chap.">40.</cell>
+        <cell role="Folio">151.</cell>
+       </row>
+       <row>
+        <cell>De l’eschange et permutation</cell>
+        <cell role="Chap.">41.</cell>
+        <cell role="Folio">159.</cell>
+       </row>
+       <row>
+        <cell>De garanti<unclear>e</unclear> ou maintenance</cell>
+        <cell role="Chap.">42.</cell>
+        <cell role="Folio">161.</cell>
+       </row>
+       <row>
+        <cell>Des decrets ou <term ref="lem016396.02">esgalations</term>, ou cession
+         <lb/>de biens</cell>
+        <cell role="Chap.">43.</cell>
+        <cell role="Folio">164.</cell>
+       </row>
+       <row>
+        <cell>Des usages &amp; <term ref="lem015546.02">venditions</term> par
+         gagements</cell>
+        <cell role="Chap.">44.</cell>
+        <cell role="Folio">179.</cell>
+       </row>
+       <row>
+        <cell>Des <choice>
+          <abbr>obligaons</abbr>
+          <expan>obligations</expan>
+         </choice> &amp; hipotheques</cell>
+        <cell role="Chap.">45.</cell>
+        <cell role="Folio">188.</cell>
+       </row>
+       <row>
+        <cell>Des interets, usures &amp; meliorements</cell>
+        <cell role="Chap.">46.</cell>
+        <cell role="Folio">200.</cell>
+       </row>
+       <pb n="XXV" facs="AEN_MJ_17_XXV"/>
+       <row>
+        <cell>Des payements &amp; consignations</cell>
+        <cell role="Chap.">47.</cell>
+        <cell role="Folio">203.</cell>
+       </row>
+       <row>
+        <cell>Des <term ref="lem018056.02">pleiges</term> et cautions</cell>
+        <cell role="Chap.">48.</cell>
+        <cell role="Folio">209.</cell>
+       </row>
+       <row>
+        <cell>De servitude et <term ref="lem017835">mainmorte</term></cell>
+        <cell role="Chap.">49.</cell>
+        <cell role="Folio">214.</cell>
+       </row>
+       <row>
+        <cell>Des preuves et tesmoignages</cell>
+        <cell role="Chap.">50.</cell>
+        <cell role="Folio">224.</cell>
+       </row>
+       <row>
+        <cell>Des injures</cell>
+        <cell role="Chap.">51.</cell>
+        <cell role="Folio">238.</cell>
+       </row>
+       <row>
+        <cell>D’arbitrages et compromis</cell>
+        <cell role="Chap.">52.</cell>
+        <cell role="Folio">247.</cell>
+       </row>
+       <row>
+        <cell>De reliefs &amp; restitution en son entier</cell>
+        <cell role="Chap.">53.</cell>
+        <cell role="Folio">256.</cell>
+       </row>
+       <row>
+        <cell>Des appellations, et de la justice <lb/>souverayne</cell>
+        <cell role="Chap.">54.</cell>
+        <cell role="Folio">261.</cell>
+       </row>
+       <row>
+        <cell>Reiglement pour la despence des <lb/>Estats</cell>
+        <cell role="Chap.">55.</cell>
+        <cell role="Folio">275.</cell>
+       </row>
+       <row>
+        <cell><add place="interlinear" hand="hand17c">Quinze articles <choice>
+           <abbr>p</abbr>
+           <expan>par</expan>
+          </choice>
+          <choice>
+           <abbr>lesqls</abbr>
+           <expan>lesquels</expan>
+          </choice> un pere peut desheriter son enfant</add></cell>
+        <cell role="Chap."><add place="interlinear" hand="hand17c">55.</add></cell>
+        <cell role="Folio"><add place="interlinear" hand="hand17c">278.</add></cell>
+       </row>
+       <row>
+        <cell>Des prescriptions</cell>
+        <cell role="Chap.">56.</cell>
+        <cell role="Folio">281.</cell>
+       </row>
+       <pb n="XXVI" facs="AEN_MJ_17_XXVI"/>
+       <row>
+        <cell>De l’execution des sentences</cell>
+        <cell role="Chap.">57.</cell>
+        <cell role="Folio">287.</cell>
+       </row>
+       <row>
+        <cell>De la <term ref="lem014995.02">taxe</term> et <term ref="lem015967.02"
+          >moderation</term> des <lb/>despends</cell>
+        <cell role="Chap.">58.</cell>
+        <cell role="Folio">291.</cell>
+       </row>
+      </table>
+     </div>
+    </body>
+   </text>
+  </group>
+  <back>
+   <div>
+    <p>
+    Le manuscrit commence par 14 pages vierges.
+    </p>
+   </div>
+  </back>
+ </text>
+</TEI>

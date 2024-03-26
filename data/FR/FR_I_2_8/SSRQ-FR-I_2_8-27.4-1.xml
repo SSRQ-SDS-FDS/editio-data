@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-27.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 10, S. 83–85</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 10, p. 83–85</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Combaz – Verhör und Urteil</head>
+					<head xml:lang="fr">Clauda Combaz – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1608-05-28" to="1608-06-06"></origDate>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="83"/><p><lb/>Im <placeName ref="loc007594">Rosey</placeName>, <origDate when="1608-05-28">28 <foreign xml:lang="la">maii</foreign> 1608</origDate></p>
+						<p><seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009113">Franz Schröter</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentibus</foreign> <abbr>h</abbr> <persName ref="per009114a.03">Reyff</persName>, <persName ref="per009125a.02"><choice><abbr>Mont</abbr><expan>Montenach</expan></choice></persName> </seg>
+							<seg><lb/><persName ref="per009108">Alt</persName>, <persName ref="per009117">Pithung</persName>, <persName ref="per009123a.02">Werly</persName></seg>
+							<seg><lb/><persName ref="per009207a.01">Perroman</persName>, <persName ref="per009122">Mäß</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Die ersten Abschnitte betreffen andere Personen, darunter den Prozess gegen <persName ref="per009109">François Blanchet</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-28.1-1">SSRQ FR I/2/8 28.1-1</ref>.</note></p>
+						<pb n="85"/><p><lb/><foreign xml:lang="la">Ibidem</foreign><note>Das Verhör fand im <placeName ref="loc007594">Rosey</placeName> statt.</note></p>
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg>
+							<seg><persName ref="per009165a.03">Clauda Comba</persName> nonobstant qu’elle ait esté examinee
+						<lb/>sur les articles contenuz en un examen contre elle dressé,
+								<lb/>icelle n’a vouluz <term ref="lem015549.01">confesser</term> chose que ce soit, sinon qu’elle
+						<lb/>soit accusee d’une de <placeName ref="loc008547.02">Rocheneyre</placeName> a grand tort,
+						<lb/>a laquelle elle n’auroit fait jamais, ny a persone,
+						<lb/>aucun mal ny deplaisir.</seg></p>
+						<p><lb/><add place="left margin">Ladite <persName ref="per009165a.04">Cloda Combaz</persName>
+						<lb/>a esté par messieurs
+						<lb/>en conseil <term ref="lem019512.03">bannie</term> de
+						<lb/>leurs terres et pais
+						<lb/>a perpetuité. <foreign xml:lang="la">Actum</foreign>
+						<lb/><origDate when="1608-06-06">6 <foreign xml:lang="la">junii</foreign> 1608</origDate>.</add></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-185.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 203–204</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 203–204</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jeanne Menoud-Germann – Verhör</head>
+					<head xml:lang="fr">Jeanne Menoud-Germann – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-03-17"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="203"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1665-03-17">17<hi rend="sup">ten</hi> <foreign xml:lang="la">martii</foreign> 1665</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per018693a">Tobias Gottrau</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><persName ref="per026304a.02">Zurthannen</persName>, <persName ref="per018131a.01">Werli</persName>, <persName ref="per026128a.02">Kemmerling</persName>, <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><lb/><persName ref="per026835a.01">Jeanne German</persName>, examinée sur les choses dont elle
+							<lb/>est accusée, persiste dans tous les poincts de sa preceden<lb break="no"/>te <term ref="lem019465.01">confession</term> et soustient d’avoir engagé les <term ref="lem019001.03">corroz</term>
+						<lb/>à <placeName ref="loc007603.04">Avenche</placeName> au nom de la servante de <persName>Daniel Baula</persName>,
+						<lb/>ne sachant d’ou elle les avoit. Dit qu’elle les at esté
+						<lb/>querir audit <placeName ref="loc007603.04">Avenche</placeName> et qu’elle les a monstré à <subst><del>hon</del>
+						<lb/><add place="inline"><persName>Hanseman Perrotet</persName></add></subst>, juré de <placeName ref="loc007616">Chandon</placeName>, lequel luy at dit
+							<lb/>que c’estoient d’autres <term ref="lem019001.03">corroz</term> qu’on avoit <term ref="lem015015.09">derobé</term>
+						<lb/>à l’esglise, c’et pourquoy elle les at retourné
+						<pb n="204"/><lb/>chez <persName>Antoine Maura</persName>, ou ce que elle les avoit engagé
+						<lb/>pour <measure type="currency" unit="bz" quantity="9">neuf baz</measure>. Soustient de s’estre toujours comportée
+						<lb/>en femme d’honneur et se recommande à vos Excellen<lb break="no"/>ces.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.13-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 233–235</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 233–235</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Vater / le père – Verhör</head>
+					<head xml:lang="fr">Pierre Ducli der Vater / le père – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-25"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="233"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-07-25">25<hi rend="sup">ten</hi> july 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.03">Frantz Niclauß Wildt</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018141a.01">Burgki</persName></seg></p>
+						<p><seg><lb/><persName ref="per020477a.04">Pierre du Cli</persName> par messieurs du droict (estant <term ref="lem019427.03">torturé</term>
+							<lb/>trois fois par la simple <term ref="lem018231">corde</term>) examiné, dit
+							<lb/>avoier porté tesmogniage par serement contre <persName>Fridli
+							<lb/>Ribboti</persName>, de ce qu’il avoit entendu et oui, et non aultrement.</seg>
+							<seg><lb/>Estant par après interrogué ou le <term ref="lem015433.03">maling esprit</term> luy
+							<lb/>apparut, assere luy estre apparu proche du village
+							<lb/>de <placeName ref="loc008073.01">Matran</placeName>, <add place="above">par une voix</add> sur <placeName ref="loc008500.03">Montcour</placeName> <add place="above">en homme noier</add> et sur la <choice><sic>montage</sic><corr>montagne</corr></choice> en
+								<lb/>figure de <term ref="lem015172">pasteur</term>. Luy estant demandé l’endroit
+							<lb/>que le <term ref="lem015433.10">maling</term> l’avoit <term ref="lem018895.02">marqué</term>, dit que veritablement
+							<lb/>il avoit de jeunesse heu bien mahl au yeux, ains ne
+							<lb/>sçavoier en quel endroit il estoit <term ref="lem018895.02">marqué</term>, mais puis
+							<lb/>que sa quisse luy fessoit bien mahl, que ce sçauroit
+							<lb/>peut estre en la quisse ou jambe qu’il l’auroit <term ref="lem018895.02">marqué</term>.
+							<lb/>La desus estant par le <term ref="lem018789.02">maistre</term> vissité, il ne se trovat
+							<lb/>aulcune marque en ditz lieux, ains la <term ref="lem018894.06">marque du
+							<lb/>maling</term> s’est trové au millieux du dos.</seg> <seg>Surquoy estant
+							<lb/>ulterieurement examiné, dit qu’il s’estoit rendu au
+							<lb/><term ref="lem015433.10">maling</term> en son jardin proche de sa maison pendant que
+								<lb/>plusieurs persones estoint au logis, ou ayant <term ref="lem019541.15">renié</term>
+								<lb/>Dieu, il le <term ref="lem018895.07">marquat</term> à la quisse, variant
+							<lb/>par après, dit qu’il ne sçavoit bonnement s’il
+						<pb n="234"/><lb/>s’estoit rendu à luy sur <placeName ref="loc008500.06">Montcours</placeName>, ou l’ayant chassé
+							<lb/>d’abord avec le signe de la croix, il luy r’apparut <!--j’hésite à reprendre parfois l’apostrophe, si on suit la logique de coller davantage aux textes dès 1650, il faudrait-->
+							<lb/>sifflant, ou ci c’est vers la <placeName>Chappelle S<hi rend="sup">t</hi> Anthoine</placeName><note>Il s’agit probablement de la <placeName ref="loc011699">Chapelle Saint-Antoine</placeName> à <placeName ref="loc008137">Villars-sur-Glâne</placeName>, qui n’existe plus aujourd’hui.</note>
+							<lb/>sortant rempli de vin de la ville. Luy ayant
+							<lb/>la desus demandé comme le <term ref="lem015433.10">maling</term> se nommat, il
+								<lb/>dit <persName ref="per029452a">Martin Luther</persName>. La desus ayant esté mis
+							<lb/>à la <term ref="lem018792.01">question</term> et par après relaché la derniere fois,
+							<lb/>asserat que le <term ref="lem015433.03">maling esprit</term> luy aparut la
+							<lb/>premiere fois en l’endroict de la <placeName>Chappelle S<hi rend="sup">t</hi>
+							<lb/>Anthoine</placeName>, sortant sur le tard de la ville, avec
+							<lb/>des griffes et pieds de <term ref="lem018923.01">boeuf</term>, l’ayant pour lors
+								<lb/>faict <term ref="lem019541.01">renier</term> Dieu et luy prester <term ref="lem018915.01">hommage</term>, ains
+								<lb/>qu’il fist <term ref="lem019481.13">baissant</term> ses griffes, l’ayant <term ref="lem018895.02">marqué</term> sur
+							<lb/>l’espaule, le quel luy donnat de la <term ref="lem018382">graisse</term>
+								<lb/>jaulne et du <term ref="lem014886.02">pusset</term> avec commandement de
+							<lb/>faire mourir hommes et bestail.</seg> <seg>Ayant
+							<lb/>la desus, dempuis <date dur-iso="P10Y">dix ans</date> qu’il dit cella estre
+							<lb/>arrivé, faict mourier à <placeName ref="loc008073.05">Matrans</placeName> et alieurs
+							<lb/>diverses persones et entre aultres à <persName>Catherine
+							<lb/>Helbling</persName> à <placeName ref="loc008123.05">Neiru</placeName>, il ast <date dur-iso="P1Y">un an</date> ou <date dur-iso="P2Y">deux</date>, dit
+								<lb/>avoier faict mourir en <term ref="lem019525.03">souflant</term> une <subst><del>f</del><add place="overwritten">j</add></subst>eusne
+							<lb/>fille s’estant en la dedicace du lieux rencontré
+							<lb/>au <del>dit</del> logis de la dite <persName>Catherine</persName>, ainsi aussi
+								<lb/>avoier mortellement <term ref="lem018313.02">inficié</term> un enfant de
+							<lb/><persName>Girard Metro</persName> du dit lieux, de faict avoier
+								<lb/><term ref="lem018556.03">maleficié</term> certain tallieur demourant au
+							<lb/>mesme village de <placeName ref="loc008123.03">Neyru</placeName>. Plus avoier
+								<pb n="235"/><lb/>à la solicitation du <term ref="lem015433.10">maling</term> faict mourir une <term ref="lem018922.01">jument</term>
+								<lb/><add place="left margin">il ast <date dur-iso="P1Y">un an</date></add> à <persName>Claude Gee</persName>, disant l’avoier <term ref="lem018313.02">inficié</term> avec de la <term ref="lem018382.02">graise</term>
+								<lb/>qu’estoit attachée à son hault de <term ref="lem015400.05">chossez</term>, l’ayant touché
+							<lb/>avec icelle. Avoier davantage faict mourir avec
+								<lb/>de la <term ref="lem018383.02">poussiere</term> <persName>Petter Bulliard</persName> et sa femme,
+							<lb/>et aussi d’aultres persones à <placeName ref="loc007649.05">Dompdidier</placeName>, ainsi le
+							<lb/>curé d’illec, si estant trouvé en dez nopces&#160;; demandant
+							<lb/>la desus à Dieu et à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humplement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

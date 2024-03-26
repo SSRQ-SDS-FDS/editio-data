@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.44-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 179–186</idno>
+     </msIdentifier>
+     <head>Saisie des biens d'un débiteur</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005038"/>
+     <term ref="key000231"></term>
+     <term ref="key000441"></term>
+     <term ref="key005095"></term>
+     <term ref="key005052"></term>
+     <term ref="key003025"></term>
+     <term ref="key000274"></term>
+     <term ref="key004367"></term>
+     <term ref="key003521"></term>
+     <term ref="key001112"></term>
+     <term ref="key004428"></term>
+     <term ref="key000058"></term>
+     <term ref="key005130"></term>
+     <term ref="key005189"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="179" facs="AEN_MJ_17_178_179"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice>
+       <app>
+        <lem>XLIIII</lem>
+        <rdg wit="AVN Q41, p. 65">XVIV</rdg>
+       </app>. <lb/>Des usages &amp; <term ref="lem015546.02">ven<lb break="no"/>ditions</term> par
+        <term ref="lem017864.02">gage<lb break="no"/>ments</term><app>
+        <lem>, taxe, <choice>
+          <abbr>&amp;c</abbr>
+          <expan>etcétéra</expan>
+         </choice>.</lem>
+        <rdg wit="AVN Q41, p. 65">et taxe.</rdg>
+       </app></head>
+      <p>
+       <lb/><app>
+        <lem>Qu’a</lem>
+        <rdg wit="AVN Q41, p. 65">Qui a</rdg>
+       </app> bonne <choice>
+        <abbr>obligaon</abbr>
+        <expan>obligation</expan>
+       </choice> &amp; <lb/><term ref="lem014985.05">cedulle</term>, ou debte bien confessée <lb/>et
+       recognue, n’en pouvant estre <lb/>payé par son debteur en <term ref="lem016291.02"
+        >deniers</term>
+       <lb/>contents peut aprehender son bien  <lb/><add place="below" type="catchword">par</add>
+       <pb n="180" facs="AEN_MJ_17_180_181"/>
+       <lb/>par trois usages <app>
+        <lem>et <term ref="lem016019.02">exploits</term></lem>
+        <rdg wit="AVN Q41, p. 65"/>
+       </app> de <lb/>justice, le premier s’appelle <lb/><term ref="lem015545">lévation</term> de
+       gage, le second <term ref="lem015546">vendition</term>
+       <lb/>dudit gage, <app>
+        <lem>et au</lem>
+        <rdg wit="AVN Q41, p. 65">le</rdg>
+       </app> tier <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 65">la taxe dudit gage, car alors</rdg>
+       </app> l’on fait <term ref="lem014995.06">taxer</term>
+       <lb/>ledit gage, soit meuble, immeuble <lb/>pour la somme principale, <term ref="lem014983"
+        >lods</term>, <lb/>interests, façon de lettre, fraits <lb/>raysonnables, &amp; partant le
+        <term ref="lem015540">tier <lb/>denier</term> aboly.</p>
+      <p>
+       <lb/>Mais il est requis que lesdits <lb/><term ref="lem016019.02">exploits</term> soyent
+       notifiez au debteur, <lb/>&amp; specifié pourquoy ils se font, <lb/>et qu’entre chasque <term
+        ref="lem016019">exploit</term> il y <lb/>ayt une <date dur-iso="P8D">huictaine</date>, car a
+       chescung <lb/>desdits <term ref="lem016019.02">exploits</term> le debteur est <lb/>admis a
+        <term ref="lem015005">clame</term> et opposition, sinon<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 65"> les laissant <lb/>passer</rdg>
+       </app>
+       <lb/>n’y peut plus estre admis.</p>
+      <p>
+       <lb/>Quand il plaist au crediteur <lb/>lesdits <app>
+        <lem>trois</lem>
+        <rdg wit="AVN Q41, p. 65">termes et</rdg>
+       </app>
+       <term ref="lem016019.02">exploits</term> estre passez  <lb/><add place="below"
+        type="catchword">&amp;</add>
+       <pb n="181" facs="AEN_MJ_17_180_181"/>
+       <lb/>et expirez il demande a la justice <lb/>sy c’est meuble que la <term ref="lem014995.02"
+        >taxe</term> luy soit <lb/>delivrée, ce qu’advenant luy sont <lb/>entierement acquis. Et sy
+       c’est <lb/>immeuble que lettres luy soyent <lb/>expediées, qui luy est accordé, &amp; des
+       <lb/>lors le poursuivant peut jouyr de <lb/>la chose <term ref="lem014995.09">taxée</term>
+       ceste année <app>
+        <lem>la,</lem>
+        <rdg wit="AVN Q41, p. 65"/>
+       </app> sans <lb/>contredit de personne. Et sy le debteur <lb/>ou quelqu’autre personne pour
+       luy <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 65">veult</rdg>
+       </app> <lb/>retire et <term ref="lem015032.07">rimbe</term> dans l’<date dur-iso="P1Y6W"><term
+         ref="lem014776">an &amp; jour</term></date>
+       <lb/>a conter des la datte de la lettre <lb/>de <term ref="lem017866">subhastation</term>, en
+       payant &amp; <choice>
+        <abbr>restituat</abbr>
+        <expan>restituant</expan>
+       </choice>
+       <lb/>la somme qu’il est obligé ou <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>
+       <lb/>redebvable, avec le demy <term ref="lem014983.02">lod</term>, les <lb/><term
+        ref="lem015877.02">censes</term> et <term ref="lem014979.02">arrerages</term> s’il y en a,
+       &amp; tous <lb/>fraits et missions raysonnables, son bien <lb/>luy est rendu et restitué,
+       mais <choice>
+        <abbr>laissat</abbr>
+        <expan>laissant</expan>
+       </choice>
+       <lb/>expirer ledit terme, la <term ref="lem014995.02">taxe</term> a son lieu <lb/>et effect,
+       en payant toutesfois par <lb/>l’acquerant le <term ref="lem014983.02">lod</term> entier de
+       toute la <lb/><term ref="lem014995.02">taxe</term>
+       <app>
+        <lem>qui</lem>
+        <rdg wit="AVN Q41, p. 66">laquelle</rdg>
+       </app> luy a esté delivrée &amp; adjugee.  <lb/><add place="below" type="catchword">Le</add>
+      </p>
+     <pb n="182" facs="AEN_MJ_17_182_183"/>
+      <p>
+       <lb/>Le crediteur qui fait <term ref="lem014995.06">taxer</term> a son <lb/>debteur pour plus
+       qu’il ne luy <lb/>doibt, est condamné pour le <term ref="lem018031">ban</term> de <lb/>la
+        <term ref="lem015005">clame</term> &amp; <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 66">pour</rdg>
+       </app> tous fraits &amp; missions.</p>
+      <p>
+       <lb/>Et sy le poursuivant entre l’une <lb/>des susdites instances et usage de <lb/>justice,
+       laisse escouler le temps &amp; <lb/>terme de <date dur-iso="P6W">six sepmaynes</date>, toutes les
+       <lb/>instances sont nulles, sy le debteur <lb/>ne s’y accorde, et faut qu’il <choice>
+        <abbr>recomence</abbr>
+        <expan>recommence</expan>
+       </choice>
+       <lb/>ses usages s’il pretend se payer <lb/>par <term ref="lem014995.02">taxe</term> de son
+       debteur.</p>
+      <p>
+       <lb/>L’on peut demander reveue de <term ref="lem014995.02">taxe</term>
+       <lb/>dedant la <date dur-iso="P8W">huictaine</date>, &amp; pour ce <lb/>faire l’officier est tenu <app>
+        <lem>de</lem>
+        <rdg wit="AVN Q41, p. 66"/>
+       </app> deputer <lb/>quatre justiciers, et <app>
+        <lem>sy par</lem>
+        <rdg wit="AVN Q41, p. 66"/>
+       </app> les <lb/>quatre derniers, assavoir deux autres <lb/>avec les deux <app>
+        <lem>autres</lem>
+        <rdg wit="AVN Q41, p. 66">prece<lb break="no"/>dents</rdg>
+       </app> qu’ils pourront <lb/>appeller un ou deux des plus anciens  <lb/><add place="below"
+        type="catchword"><choice>
+         <abbr>prudhes</abbr>
+         <expan>prudhommes</expan>
+        </choice></add>
+       <pb n="183" facs="AEN_MJ_17_182_183"/>
+       <lb/>prudhommes du lieu qui puissent <lb/>scavoir la valeur des pieces, dont <lb/>sera
+       question, auxquels deux <app>
+        <lem>sera donné</lem>
+        <rdg wit="AVN Q41, p. 66">seront tenus donner</rdg>
+       </app>
+       <lb/>deux pots de vin, &amp; seront tenuz <lb/>faire la <term ref="lem014995.02">taxe</term>
+       au plus pres de <lb/>leurs consciences, ainsy que leur <lb/>serment les oblige, et en sera
+       ainsy <lb/>usé a la tierce reveuë, sy partie <lb/>la demande.</p>
+      <p>
+       <lb/>Le crediteur qui s’est ainsy faict <lb/>adjuger par <app>
+        <lem><term ref="lem017866.04">subhastations</term></lem>
+        <rdg wit="AVN Q41, p. 66"><term ref="lem017866.03">sebasta<lb break="no"/>tion</term></rdg>
+       </app> &amp; <term ref="lem014995.02">taxe</term>
+       <lb/>de justice du bien immeuble de son <lb/>debteur, lequel on doit guerentir, <lb/>et qu’il
+       y aye autres crediteurs, <lb/>auxquels lesdits immeubles fussent <lb/>hypothequez et
+       assignez, ayant veu <lb/>et sçeu les usages que dessus, il <lb/>ne s’y est opposé dans
+        l’<date dur-iso="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> <lb/>revolu prins a la
+       datte de la lettre <lb/>dressée pour la <term ref="lem014995.02">taxe</term>, il y a
+       <lb/>prescription contre luy<app>
+        <lem>, &amp; entre  <lb/><add place="below" type="catchword">les</add>
+         <pb n="184" facs="AEN_MJ_17_184_185"/>
+         <lb/>les absents il y a <date dur-iso="P10Y">dix ans</date> de prescription,</lem>
+        <rdg wit="AVN Q41, p. 66"/>
+       </app>
+       <lb/>et des lors le poursuivant est fait <lb/>paisible possesseur de sa <term
+        ref="lem014995.02">taxe</term>.</p>
+      <p>
+       <lb/>Et sy le crediteur fait ses poursuittes <lb/>sur biens meubles, morts <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 66">et</rdg>
+       </app> vifs, les <lb/>usages et la <term ref="lem014995.02">taxe</term> s’en fait comme des
+       <lb/>immeubles. Mais les fraits, <term ref="lem015877.02">censes</term> &amp; <lb/>missions
+       raysonnables sont adjointes <lb/>et comprinses avec le capital.</p>
+      <p>
+       <lb/>La <term ref="lem014995.02">taxe</term> faite, il y a <date dur-iso="P8D">huict jours</date>
+       <lb/>pour la retirer &amp; <term ref="lem015032.06">reimbre</term>, ou pour <lb/>agir dessus
+       qui y a droit, <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>
+       <lb/>iceux passez n’ont plus de suitte.</p>
+      <p>
+       <lb/>Et n’est besoin en fait de <term ref="lem014995.02">taxe</term> et cries <lb/>de <app>
+        <lem><term ref="lem017866.04">subhastations</term></lem>
+        <rdg wit="AVN Q41, p. 66"><term ref="lem017866.05">sebastations</term></rdg>
+       </app>, appeller la partie <lb/>pour estre present, suffit de l’avoir <lb/>fait advertir et
+       deuement notifier. <lb/><add place="below" type="catchword">Sy</add>
+      </p>
+     <pb n="185" facs="AEN_MJ_17_184_185"/>
+      <p>
+       <lb/>Sy le crediteur ne scait le bien <lb/>de son debteur, il luy doit estre <lb/>fait
+       commandement <app>
+        <lem>s’</lem>
+        <rdg wit="AVN Q41, p. 67">d’</rdg>
+       </app>en monstrer, soit <lb/>meubles ou immeubles pour la <lb/>premiere fois <app>
+        <lem>a</lem>
+        <rdg wit="AVN Q41, p. 67">soubs</rdg>
+       </app> peyne d’un <term ref="lem018031">ban</term> de <lb/><measure origin="NE"
+        type="currency" unit="S" quantity="60">soixante sols</measure>, pour la seconde du
+       <lb/>double, &amp; pour la tierce sera chastié <lb/>par justice selon l’exigence du <app>
+        <lem>fait</lem>
+        <rdg wit="AVN Q41, p. 67">cas, et que le <lb/>faict le meritera</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Qui menace ou empesche les <term ref="lem017871.02">taxeurs</term>
+       <lb/>et executeurs de <term ref="lem014995.02">taxe</term> ou <term ref="lem017866"
+        >subhastation</term>
+       <lb/>directement ou indirectement est <lb/>puny par justice et est pour les <lb/>fraits<app>
+        <lem>.</lem>
+        <rdg wit="AVN Q41, p. 67">de ceux qui avoyent esté ordonnez a cela.</rdg>
+       </app> </p>
+      <p>
+       <lb/>Qui trouble son crediteur mis en <lb/>possession par taxe ou <app>
+        <lem><term ref="lem017866">subhastation</term></lem>
+        <rdg wit="AVN Q41, p. 67"><term ref="lem017866.03">sebastation</term></rdg>
+       </app>, <lb/>fait force &amp; spoliation, doit estre de <lb/>mesme chastié comme dessus.
+        <lb/><add place="below" type="catchword">Le</add>
+      </p>
+     <pb n="186" facs="AEN_MJ_17_186_187"/>
+      <p>
+       <lb/>Le prince pour se faire payer de ses <lb/>droits et revenuz est privilegé a
+       <lb/>l’execution qu’il fait pour ce regard, <lb/>soit par bestes mises en hostage, <lb/>ou
+       saisies <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 67">et apprehension</rdg>
+       </app> des pieces par faute de <lb/><term ref="lem015877.02">censes</term>, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 67">ou par faute de payer <lb/>les</rdg>
+       </app> <term ref="lem014983">lods</term>, <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 67">ou</rdg>
+       </app> autres droits <app>
+        <lem>non payez</lem>
+        <rdg wit="AVN Q41, p. 67">deue à son altesse</rdg>
+       </app>. <lb/>Et sy les pieces se perdent, la <lb/>seigneurie aura choix de les retenir
+       <lb/>ou non.</p>
+      <p>
+       <lb/>Execution de <term ref="lem014995.02">taxe</term> ou <app>
+        <lem><term ref="lem017866">subhastation</term></lem>
+        <rdg wit="AVN Q41, p. 67"><term ref="lem017866.03">sebastation</term></rdg>
+       </app>
+       <lb/>ne se permet par le prince, sur <lb/>le fond et heritage de ses subjects <lb/>de <term
+        ref="lem017835">mainmorte</term> pour gens francs qui <lb/>leur ont fait prest sans <term
+        ref="lem017832.02">lisence</term>
+       <lb/>de seigneurie.</p>
+      <p>
+       <lb/>Qui a reçeu et tient quelque <lb/>meuble en gage pour <term ref="lem016291.02"
+        >deniers</term> prestez, <lb/>a deffaut de restitution peut faire  <lb/><add place="below"
+        type="catchword">crier</add>
+       <pb n="187" facs="AEN_MJ_17_186_187"/>
+       <lb/>crier et mettre au plus offrant &amp; <lb/>dernier encherissant ledit gage
+       <lb/>publicquement au lieu du marché <lb/>ou sur tels autres lieux que sont <lb/>accoustumez,
+       &amp; ne <del>se</del> peut le <lb/>crediteur en aucune <app>
+        <lem>autre</lem>
+        <rdg wit="AVN Q41, p. 67"/>
+       </app> facon le <lb/>se retenir. Et s’il luy <term ref="lem016349.04">eschet</term> ou <lb/>a
+       quelqu’autre, le surplus apres <lb/>les fraits et interests raysonnables <lb/>est rendu au
+       debteur s’il vaut mieux <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 67">que son <lb/>debt</rdg>
+       </app> <lb/>et a le debteur <date dur-iso="P8D">huict jours</date> pour <lb/>le retirer.</p>
+      <p>
+       <lb/>L’on ne peut <app>
+        <lem>entregager</lem>
+        <rdg wit="AVN Q41, p. 67">contregager</rdg>
+       </app> en ceste <lb/>souveraineté, <term ref="lem015643">ains</term> le premier <lb/>qui fait convenir son
+       debteur, doibt <lb/>estre premier payé, encor qu’il soit <lb/>debteur de son debteur, auquel
+       par <lb/>appres est permis de poursuivre son <lb/>debt.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

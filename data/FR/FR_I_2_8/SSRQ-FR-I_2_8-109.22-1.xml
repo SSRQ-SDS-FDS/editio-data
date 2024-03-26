@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.22-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 23–25</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 23–25</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Gauthier-Monde, Marti Margueron – Verhör</head>
+					<head xml:lang="fr">Catherine Gauthier-Monde, Marti Margueron – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1643-12-07"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="23"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1643-12-07">7<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>decemb</abbr><expan>decembris</expan></choice></foreign> 1643</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName>Python</persName><note>Gemeint ist entweder <persName ref="per012381a">Hans Ulrich Python</persName> oder <persName ref="per012380a">Jost Python</persName>, die beide im Stadtgericht sassen.</note></seg>
+							<seg><lb/><persName ref="per013434a.05">Desgranges</persName>, <persName ref="per013439a.01">Montenach</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per015663a.01">Catheline Monde</persName> a <term ref="lem019498">crié mercy</term> a nosseigneurs a cause
+						<lb/>du mensonge qu’elle a dict dernierement aux seigneurs
+						<lb/>du <term ref="lem018305.05">droit</term>, en ce qu’elle avoit <term ref="lem015549.07">confessé</term> que le <term ref="lem015433.10">maling</term>
+						<lb/>y estoit apparu par deux fois, <subst><del>d’ault</del><add place="inline">qu’elle</add></subst> l’a
+						<lb/>dict de grand malheur, que le prestre y a faict en
+						<lb/>la conjurant et luy disant qu’elle avoit faict a
+						<lb/>mourir tant de personnes et leurs donné les <term ref="lem017091.08">mauvais
+						<lb/>ennemys</term>. Cela estre la cause qu’elle y a dict
+						<lb/>qu’elle avoit parlé par deux fois au <term ref="lem015433.10">maling</term>, mais
+						<lb/>qu’elle ne l’a jamais veu ny aperceu, ny s’e rendue
+						<lb/>a luy, qu’il n’est pas tant homme de bien, de l’avoir
+						<lb/>voullu <term ref="lem018895.01">marquer</term>.</seg> <seg>Interroguee ce qu’elle
+						<lb/>a vue dans la prison de nuict, a respondu n’avoir
+						<lb/>jamais <add place="above">crié</add>, et pas seulement dict une seulle parolle
+						<lb/>et n’avoir aussy pas demandé a <persName>Jaque le Patifu</persName>,
+						<lb/>que c’estoient pour des bourdons que bordonnoient
+						<lb/>aupres d’elle, et ne sçavoir aussi rien des ces bour<lb break="no"/>dons, lesquels doivent estre venu de trois costéz
+						<lb/>a l’entour d’elle, lors qu’on la conjuroit. Ce
+						<lb/>qu’a pourtant esté attesté par ceux qui ont
+						<lb/>esté present a la conjuration, et lors qu’on l’a
+						<lb/>baignee, lors qu’on vist des bourdons, que venoient
+						<lb/>a l’entour d’elle, si bien <subst><del>il</del><add place="inline">eté</add></subst> estoit desja
+						<lb/>passé et faisoit froid.</seg> <seg>Nie aussy d’avoir dict
+						<lb/>a <persName>Jaque le Patifu</persName> aujourd’hui, qu’elle sçavoit bien
+						<lb/>que les seigneurs du <term ref="lem018305.05">droit</term> viendroient aupres d’elle.
+						<lb/>Ce que <persName>Jaque</persName> y a pourtant soustenu en sa pre<lb break="no"/>sence, <subst><del>g</del><add place="overwritten">c</add></subst>e nonobstant elle l’a tousjours nié, et dict
+						<lb/>n’avoir aperceu aulcune chose dans la prison, ou ce
+					<pb n="24"/><lb/>qu’elle n’a faict aultre que prier Dieu, lequel
+						<lb/>elle n’a jamais <term ref="lem019541.15">renié</term>, qu’elle l’a tousjours trop
+						<lb/>aimé.</seg> <seg>Et pour la femme de <choice><abbr>m</abbr><expan>monsieur</expan></choice> <persName>Gummer</persName>, qu’elle
+						<lb/>ne l’a pas faict a mourir, qu’elle l’eusse plustost
+						<lb/>rascheptee de son propre sang et n’y avoir donné
+						<lb/>aulcun mal dans les raisins qu’elle y a aporté, ains
+						<lb/>que madame <persName>Boccard</persName> les y avoit donné. N’avoir
+						<lb/>aussy jamais parlé a la femme de <persName>Dominicus le
+						<lb/>Maçon</persName> a son sçaschant, et si elle dict quelque
+						<lb/>chose de son mary contre elle, qu’elle y faict
+						<lb/>tort et ne l’oseroit soustenir devant elle.</seg>
+						<seg><lb/>Qu’elle ne sçait rien de tous ces affaires et
+						<lb/>n’a jamais faict aultre que servir Dieu, qu’elle
+						<lb/>est femme de bien et s’il y a <term ref="lem018939.02">ame</term> au monde,
+						<lb/>sçait que la sienne est la plus heureuse, et
+						<lb/>n’avoir faict aulcun mal, si ce n’est qu’elle
+						<lb/>a quelque fois pris quelque peu de bois et
+						<lb/>de <term ref="lem016204.04">fruictage</term>, qu’on ne verra jamais le jour
+							<lb/>qu’elle soit <term ref="lem019389.02">sorciere</term>, qu’elle aime trop Nostre
+							<lb/>Seigneur pour l’avoir <term ref="lem019541.15">renié</term> et qu’elle ne sçauroit
+							<lb/>pleurer, si bien on la <term ref="lem019460.03">tueroit</term> qu’elle a le <term ref="lem014871.01">coeur</term>
+							<lb/>trop <term ref="lem019446.03">meurtry</term>. Ce qu’elle a soustenu dans la
+							<lb/><term ref="lem018283.05">buriere</term> et a <term ref="lem019498">crié mercy</term>.</seg></p>
+						<p><lb/><placeName ref="loc007690.02">Spittal</placeName>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012380a">Jost Python</persName></seg>
+						<seg><lb/><persName ref="per011548a.01">Reiff</persName></seg></p>
+					<p><seg><lb/><persName ref="per015678a">Marti Margueron</persName> a derechef <term ref="lem015549.07">confessé</term> que sa
+						<lb/>mere l’a rendu au <term ref="lem015433.03">maling esprit</term>, tellement qu’il
+						<lb/>a <term ref="lem019541.15">renié</term> Dieu, mais qu’il s’en est repanty dans
+						<lb/><time dur-iso="PT450S">un demy quart d’heure</time>. Et qu’elle l’a mené par
+						<lb/>deux fois a la <term ref="lem017043">secte</term> <placeName ref="loc010283.03">en Eiglen</placeName>, ou ce qu’il n’a
+						<pb n="25"/><lb/>mangé aultre chose que des <term ref="lem015139.06">bugniets</term> que sa
+						<lb/>mere y avoit aporté, les ayant faict auparavant
+						<lb/>a la maison.</seg> <seg>Que <persName ref="per029441a">Pauzun</persName> <add place="above" type="sign">mist</add> une coronne d’espine
+						<lb/>sus la teste de sa mere, en la dançant, et y
+						<lb/>disoit&#160;: <q>&#160;Ma belle, ma lieutenande.&#160;</q> Mais qu’il
+							<lb/>ne l’a jamais <term ref="lem019481.10">baisee</term> ny renversee par terre,
+						<lb/>qu’il ayt veu, et n’avoit <add place="above" type="sign">veu</add> personne a la <term ref="lem017043">secte</term>
+							<lb/>que ceux qu’il a dict auparavant, dont con<lb break="no"/>firme touttes ses <term ref="lem019465.02">confessions</term> precedentes, disant
+						<lb/>que tout ce qu’il a <term ref="lem015549.07">confessé</term> est veritable
+						<lb/>et qu’il en desistera pas, se soubmettant
+							<lb/>a tout ce que Dieu et nosseigneurs dispo<lb break="no"/>seront sus luy, auxquels il <term ref="lem019498">crie humblement
+						<lb/>mercy</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

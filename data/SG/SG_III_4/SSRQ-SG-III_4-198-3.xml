@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"
+     xml:lang="de">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XIV. Abteilung: Die Rechtsquellen des Kantons St. Gallen, Dritter Teil: Die Landschaften und Landstädte, Band 4: Die Rechtsquellen der
+     Region Werdenberg: Grafschaft Werdenberg und Herrschaft Wartau, Freiherrschaft Sax-Forstegg und Herrschaft Hohensax-Gams</title><editor>
+    <persName>Sibylle Malamud</persName>
+</editor>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Sibylle Malamud</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         <respStmt>
+    <persName>Pascale Sutter</persName>
+    <resp key="qualitycheck"/>
+</respStmt></titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2019-08-15"/>
+            <date type="print" when="2020-11-20"/>
+         <availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Sammlung Schweizerischer Rechtsquellen</title>
+            <respStmt>
+               <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+               <resp>Herausgeberschaft</resp>
+            </respStmt>
+            <idno>SSRQ-SG-III_4-198-3</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+				  <repository xml:lang="de">Ortsgemeindearchiv Sennwald</repository>
+				  <idno xml:lang="de">OGA Sennwald Mappe Alpen und Auen, 10.08.1675-3</idno>
+               </msIdentifier>
+               <head>Abschrift des Schiedsspruch des Landvogts zwischen der Gemeinde Sennwald und Landschreiber Andreas Roduners Erben wegen Holzhaus in den Alpen Rohr und Eidenen</head>
+               <msContents>
+                  <summary>
+                     <p>Die Gemeinde Sennwald liegt mit Landschreiber Andreas Roduners Erben im Streit wegen</p>
+                     <p>			Holzhaus in den Alp Rohr. Landvogt Johann Heinrich Scheuchzer kommt auf Bitten der</p>
+                     <p>			Gemeinde nach Sennwald an die Gemeindeversammeung und einigt beide Parteien</p>
+                     <p>			folgendermassen: Das Urteil von Landvogt Hans Rudolf Lavater bleibt in Kraft. Die</p>
+                     <p>			Staffelgenossen müssen die Alp Rohr unterhalten und junge Bäume in der Kuhweide roden.</p>
+                     <p>			Die Alpen Rohr und Eidenen haben das Recht, das Holz zu nutzen, auch wenn die Gemeinde</p>
+                     <p>			dieses in Bann legt. Hebt die Gemeinde den Bann auf, haben die Gemeindegenossen</p>
+                     <p>			ebenfalls das Recht, in den Wäldern der beiden Alpen Holz zu hauen. </p>
+                  </summary>
+                  <msItem>
+                     <textLang xml:lang="de"/>
+                     <author role="scribe"><persName>S. U. Inhelder</persName></author>
+                     <filiation type="original">
+                        <origDate when="1675-08-10"/>
+                        <idno>OGA Sennwald Mappe Alpen und Auen, 10.08.1675-1</idno>
+                     </filiation>
+                     <filiation type="current">Abschrift (Doppelblatt)</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="20.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1851-10-04"/>                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl default="false">
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000006">Alp</term>
+               <term ref="key003818"/>
+               <term ref="key000249">Wald</term>
+               <term ref="key000561">Gemeindeversammlung</term>
+               <term ref="key001117">Schiedsspruch</term>
+               <term ref="key004284">Bann</term>
+               <term ref="key000667">Abstimmung</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body/>
+         </text>
+      </group>
+      <back>
+         <div/>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-168.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 235–236</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 235–236</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Favre-Piccand – Verhör</head>
+					<head xml:lang="fr">Marguerite Favre-Piccand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-12-12"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="235"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1665-12-12">12<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> 1665</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018540.03">amman</term><note>Gemeint ist <persName ref="per018126a">Jost Perret</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per018693a">Tobias Gottrau</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <persName ref="per018085a.01">Adam</persName>, <persName ref="per026039a.01">Moßer</persName></seg></p>
+						<p><seg><lb/><persName ref="per020614a.02">Marguerithe Piccand</persName>, resortissante du <placeName ref="loc008489.04">Petit Farvag<lb break="no"/>nier</placeName>,
+							femme de <persName ref="per020615a.01">Jean Fabvre</persName> de <placeName ref="loc008660.07">Villarzel le Gybloux</placeName>,
+						<lb/>soubçonnée de <term ref="lem018521.01">sorcellerie</term> et pour telle cause reduite
+						<lb/>aux prisons, a declairé dans l’examination judici<lb break="no"/>ale, que les malveillants, et singulierement <persName>Castelina
+						<lb/>Gobet</persName>, sont la cause de son emprisonement, avec
+						<lb/>laquelle elle dit avoir eu des querelles continuelles
+							<lb/>depuis <date dur-iso="P12Y">douze ans</date> en ça.</seg> <seg><term ref="lem015549.13">Confesse</term> d’avoir esté
+						<lb/>prisonniere en ceste ville desja par deux foys <add place="above" type="sign">sans torture</add>, mais
+						<lb/>à tort et par fause accusation de <persName>Jaque Michel</persName>,
+						<lb/>lequel l’avoit soubçonnée d’avoir donné le mal à
+						<lb/>sa fillette, car la verité at esté du dempuis decouverte
+							<lb/>par la <term ref="lem019465.01">confession</term> et execution de <persName>Jean Chablet</persName>,
+						<lb/>lequel pour lors avoit demeuré ché luy. Nie d’avoir
+						<lb/>sceu qu’on la voulloit faire prisoniere.</seg> <seg>Soustient
+						<lb/>d’avoir esté à <placeName ref="loc000085.18">Notre Dame des Heremites</placeName> par une
+						<lb/>inspiration de son bon ange, ce qu’elle <unclear>descovrit</unclear>
+						<lb/>à son marry. Dit y avoir prié le bon Dieu et
+						<lb/>Notre Dame de remettre en bon estat ses malveillants
+						<lb/>et de luy donner force et patience contre ses enne<lb break="no"/>mis. Elle ne veult point avoir veu d’ange, de<lb break="no"/>clairant que
+							son bon ange est dans son <term ref="lem014871.03">cour</term>.</seg>
+						<seg><lb/>Nie d’avoir parlé qu’elle sçaist ou ayt sceu ce
+						<lb/>qu’on a parlé d’elle, hormis par rapport. Elle
+							<lb/>ne veult pas sçavoir, moings estre <term ref="lem015549.04">confessante</term>, d’avoir
+						<lb/>donné l’instruction pour faire du <term ref="lem014943.05">beure</term>, soustenant
+						<lb/>ne sçavoir aulcune semblable science. Elle ne
+						<lb/>se veult pas souvenir d’avoir donné à manger
+						<pb n="236"/><lb/>de la chair de <term ref="lem014874.11">genille</term> à aulcune personne,
+							<lb/>ny que des <term ref="lem019234.02">couchons</term> soient <term ref="lem018017.09">mecheuts</term>, hormis quelq’uns
+						<lb/>des siens, du mal appellé le veu, moings que la
+							<lb/>mere de quelques <term ref="lem019234.02">couchons</term> ayt perdu le <term ref="lem015011.01">lait</term>.</seg>
+						<seg><lb/>Nie d’avoir entendu d’<persName>Elsi</persName>, fille de <persName>Pierre du
+							<lb/>Moullin</persName>, qui est <term ref="lem019502.03">possedée</term>, qu’elle estoit <term ref="lem019389.02">sorciere</term>,
+						<lb/>si ce n’est par rapport d’un petit garçon par
+							<lb/>commandement dedite <persName>Castelina Gobet</persName> sa malveil<lb break="no"/>lante, laquelle la fait dire à ladite <term ref="lem019503.05">possedée</term>.
+						<lb/>Elle ne veult pas estre souvenante d’avoir
+						<lb/>accomodé la <term ref="lem018950.02">tiale</term> ou <term ref="lem016464.03">droblie</term> à aulcune per<lb break="no"/>sonne, ny que personne luy ayt fait defence
+						<lb/>de l’aprocher.</seg> <seg>Nie d’avoir esté aux estables
+							<lb/>pour <subst><del>sa</del><add place="overwritten">ch</add></subst>ercher des <term ref="lem019398.02">oeufs</term>, moings pour y faire
+						<lb/>du mal. Dit n’estre pas coulpable si quelques
+							<lb/><term ref="lem018921.05">chevaux</term> ou autres bestes sont <term ref="lem018017.12">mecheutes</term>.</seg> <seg>Nie
+						<lb/>d’estre sortie de nuit hors de sa maison pour conduire
+						<lb/>l’eau dans lé prez, ny pour autre chose, car elle
+						<lb/>at tousjours <subst><del>eu peur dans la nuit</del><add place="inline">esté peureuse</add></subst>.</seg>
+						<seg><lb/>Elle ne se veult pas souvenir d’avoir fait venir
+						<lb/>chez elle une fille pour luy donner de la viande,
+						<lb/>ny d’avoir esté sur le <term ref="lem018951.02">teict</term> de la maison, moings
+							<lb/>d’estre comparue en <subst><del>boud</del><add place="inline"><term ref="lem019401.01">loup</term></add></subst>, soustenant de
+						<lb/>n’estre pas de ces gens la. Elle en laisse la
+						<lb/>vengence au bon Dieu du tord qu’on luy fait,
+						<lb/>le priant de luy donner force et patience,
+						<lb/>et se recommandant aux <term ref="lem019504.03">graces</term> de vos Excellences.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

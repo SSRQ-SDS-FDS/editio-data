@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.34-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 20, fol. 522v–524v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 20, fol. 522v–524v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Bouquet – Verhör</head>
+					<head xml:lang="fr">Jacques Bouquet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1731-08-31" to="1731-09-01"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="522v"/>
+						<p><lb/>Raths <term ref="lem001289.07">urthel</term></p>
+						<p><lb/>Es gesinnendt meine gnädige <choice><abbr>hh</abbr><expan>herren</expan></choice>
+							<lb/>undt oberen des <term ref="lem019378.03">ihnneren raths</term> befelch<lb break="no"/>lichen an die hoch- undt wohlgeehrten <choice><abbr>hh</abbr><expan>herren</expan></choice>
+							<lb/>des statt grichts den einligenden <persName ref="per028151a.03">Jaques
+							<lb/>Bouquet</persName> zu volg <term ref="lem001289.07">urthel</term> des <origDate when="1731-08-28">28<hi rend="sup">ten</hi> <foreign xml:lang="la">huius</foreign></origDate>
+							<lb/>zu examinieren, <foreign xml:lang="la">ad referendum. Actum</foreign>
+							<lb/>den <origDate when="1731-08-31">31<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1731</origDate>.</p>
+							<p><lb/>Rathschryber zu
+							<lb/><placeName ref="loc001060.06">Freyburg</placeName>.</p>
+						<pb n="523r"/> <p><lb/><placeName ref="loc007890.07">Jacquemars</placeName> ce <origDate when="1731-09-01">1<hi rend="sup">er</hi> <choice><abbr>7<hi rend="sup">bre</hi> </abbr><expan>septembre</expan></choice> 1731</origDate></p>
+						<p><lb/><hi rend="outdent">Juge</hi>, Monsieur le <term ref="lem014993.01">grand sautier</term> <persName ref="per028146a.01">Odet</persName>
+							<seg><lb/>Du Conseil, mon très <choice><abbr>honré</abbr><expan>honoré</expan></choice> <choice><abbr>seig<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> ancien
+								<lb/><term ref="lem019323.02">bourguemaitre</term> <persName ref="per027761a.01">Gottrauw</persName></seg>
+							<seg><lb/>Des LX, <choice><abbr>Mons<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> l’ancien secretaire <persName ref="per028149a.02">Amman</persName></seg>
+							<seg><lb/>Des bourgeois, <choice><abbr>Mons<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> <persName>Amman</persName><note>Es handelt sich wahrscheinlich um <persName ref="per028182a">Nikolaus Amman</persName>, der damals nicht im Stadt-, sondern im Appellationsgericht Einsitz hatte.</note> ancien kilchmeyer,
+								<lb/><choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> l’ancien secretaire <persName ref="per028161a.01">Lentzburger</persName></seg>
+							<seg><lb/><persName ref="per028163a.01">Gritz</persName>, <persName ref="per028164a.01">Bapst</persName>, officiers</seg></p>
+						<p><seg><lb/>A teneur de la cy devant tenorisée sentence
+							<lb/>souveraine du <origDate when="1731-08-31">31<hi rend="sup">e</hi> d’aoust</origDate>, le detenu <persName ref="per028151a.05">Jaque
+							<lb/>Bouquet</persName> fut derechef examiné et très serieuse<lb break="no"/>ment exhorté à rendre la gloire à Dieu et
+							<lb/>la verité à son souverain et de ne rien cacher,
+							<lb/>ayant eu assez de tems par la longueur des
+							<lb/>prisons d’entrer en luy même, et par ce moyen
+							<lb/>il pourra esperer des <term ref="lem019504.03">graces</term> de Leurs <choice><abbr>Ex<hi rend="sup">ces</hi></abbr><expan>Excellences</expan></choice>.</seg>
+							<seg><lb/><choice><abbr>I</abbr><expan>Interrogé</expan></choice> combien de tems il y a, qui n’a êté chez
+							<lb/>les <persName ref="per028134a">Catillions</persName>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> il y a environ <date dur-iso="P10Y">10 ans</date> qu’il
+							<lb/>n’a pas hanté dite maison, soit depuis la
+							<lb/>prefecture de <choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> le ballif <persName ref="per028184a.01">d’Alt</persName>, n’y avoir
+							<lb/>jamais mis le pied, et quelque fois, quand
+							<lb/>il alloit d’un costé d’autre, il estoit d’obli<lb break="no"/>gation de passer à costé dedite maison, même
+							<lb/>quand il falloit passer la <placeName ref="loc007746.02">Sarine</placeName>, toutefois
+							<lb/>sans y entrer.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> ce qu’il faisoit quand il alloit
+							<lb/>endite maison. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’elles luy presentoyent
+							<lb/>la soupe, et qu’ils y bevoyent et mangeoyent
+							<lb/>par ensemble, et s’il estoit tard il y couchoit.</seg>
+							<seg><lb/><choice><abbr>I</abbr><expan>Interrogé</expan></choice> comme il fit connoissance avec elle.
+							<pb n="523v"/> <lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> une fois qu’il bevoit au <placeName>More</placeName><!-- Ort --> à <placeName ref="loc005708.04">Gruyères</placeName>
+							<lb/>y trouva <persName ref="per028134a">Catillion</persName>, qui luy demanda
+							<lb/>emprunter de l’argent, êtant un peu <term ref="lem019342.01">timbré</term>
+							<lb/>soit yvre, luy preta <measure type="currency" quantity="2" unit="écu blanc">2  blancs</measure>, et de là
+							<lb/>s’en alla coucher auprès du lieutenant
+							<lb/>dudit <placeName ref="loc005708.04">Gruyères</placeName>, et en dormant 2 à 3 piecettes
+							<lb/>luy tomberent hors de sa poche, <subst><del>q</del><add place="inline">lesquelles</add></subst> il
+							<lb/>ramassa lorsqu’il fut eveillé, regardant d’un
+							<lb/>costé à autre où son argent êtoit devenu,
+							<lb/>et que <date dur-iso="P2Y">2 années</date> après, ayant rencontré
+							<lb/><persName ref="per028134a">Catillion</persName> en allant à <placeName ref="loc007886.03">Vauruz</placeName>, elle luy fit
+							<lb/>ses escuses d’avoir tardé si longtems à luy
+							<lb/>rendre les <measure type="currency" quantity="2" unit="écu blanc">2  blancs</measure> qu’il luy avoit pretté,
+							<lb/>avec promesse de les luy rendre aux premiers
+							<lb/>jours, et qu’il devoit passer chez elle, qui les
+							<lb/>luy donneroit, et que depuis qu’il les luy
+							<lb/>avoit pretté, il ne l’avoit vüe jusqu’alors,
+							<lb/>et mêmement ayant toujours êté dans
+							<lb/>la croyance que cet argent luy avoit
+							<lb/>êté <term ref="lem019456.02">volé</term>, jusqu’audit rencontre de <persName ref="per028134a">Catillion</persName>
+							<lb/>qui luy dit de luy devoir cet argent et de
+							<lb/>l’avoir receu de luy.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il n’avoit pas
+							<lb/>fait de faux argent dans la maison
+							<lb/>dedite <persName ref="per028134a">Catillion</persName>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> n’avoir jamais fait
+							<lb/>de l’argent endite maison, ni aillieurs
+							<lb/>nulle part, et reitéré par plusieurs fois.</seg>
+							<seg><lb/><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il n’avoit pas fait des <term ref="lem003138.22">critzer</term> chez elle.
+							<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> n’y avoir jamais fait <term ref="lem003138.22">critzer</term>, ni de sa
+							<lb/>vie avoir fait aucune fausse monnoye en
+							<lb/>quelle espèce que ce put estre, qu’on luy
+							<lb/>faisoit grand tort sur cela.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> comme
+							<lb/>l’affaire s’estoit passé chez la <persName>Curiardaz </persName>
+							<pb n="524r"/> <lb/>de <placeName ref="loc007928">Treyvaux</placeName>, touchant la faulx qui a êté
+								<lb/>egarée. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’un <origDate when="--06-29">jour de <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per000438a">Pierre</persName></origDate>, s’y êtant
+							<lb/>trouvé, et que <persName>Hans Paris</persName> de <placeName ref="loc007631.06">Ponneville</placeName> achepta
+							<lb/>une faulx d’un <term ref="lem019341.01">magnin</term> nommé <persName>Joseph Delagis</persName>,
+							<lb/>qui avoit des mustaches, laquelle il mis sur
+							<lb/>le fournaux, et s’etant ensuitte mis à boire
+							<lb/>par ensemble, ledit <persName>Paris</persName>, quelque tems après,
+							<lb/>demanda où estoit devenüe sa faulx, en criant
+							<lb/>qu’il vouloit le sçavoir, et un moment après,
+							<lb/>il trouva sa faulx sur le banc dernier luy,
+							<lb/>sans sçavoir qui la ly avoit mise.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il
+							<lb/>n’avoit pas dit audit <persName>Paris</persName>&#160;: <q>&#160;Paye un pot de
+							<lb/>vin, je te feray retrouver ta faulx.&#160;</q> <choice><abbr>R</abbr><expan>Répondu</expan></choice>
+							<lb/>qu’il ne s’en souvenoit pas, qu’il pourroit <add place="above">être</add>
+							<lb/>car il estoit un peu <term ref="lem019342.01">timbré</term>.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il n’avoit
+							<lb/>pas êté au cabaret de <placeName ref="loc007947">Vuadens</placeName> pour y boire
+							<lb/>à credit. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’ouy.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il n’avoit pas voullu
+							<lb/>payer son <term ref="lem015017.03">ecot</term> avec <measure type="currency" quantity="1" unit="k">un ecus blanc</measure> faux. <choice><abbr>R</abbr><expan>Répondu</expan></choice>
+							<lb/><add place="left margin">aussi</add> qu’ouy, avoir dit au cabartier&#160;: <q>&#160;J’ay <measure type="currency" quantity="1" unit="écu blanc">un ecus
+							<lb/>blanc</measure> icy, que je crois estre faux.&#160;</q></seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> si le
+							<lb/>cabartier s’est voullu contenter de cela. <choice><abbr>R</abbr><expan>Répondu</expan></choice>
+							<lb/>que s’il estoit faux ne le vouloit pas.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il
+							<lb/>n’estoit pas allé auprès d’une barrière, où
+							<lb/>il doit avoir fouillé dans sa poche et
+							<lb/>qu’il avoit trouvé d’argent pour payer son
+							<lb/><term ref="lem015017.03">ecot</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> cela n’estre entièrement pas, et dit
+							<lb/>en outre qu’il avoit eu le predit <measure type="currency" quantity="1" unit="écu blanc">ecus blanc</measure>
+							<lb/>d’une vefve, fille de <persName>Petter Terraullaz</persName> de <placeName ref="loc007660">La
+							<lb/>Roche</placeName>, à <placeName ref="loc013784.02">La Rentzera</placeName>, qui le luy avoit
+							<lb/>donné pour voir s’il estoit bon ou faux,
+							<lb/>lequel il a gardé pendant l’espace de <date dur-iso="P6M">demy
+							<lb/>an</date> et l’avoir rendu, et qu’il n’a jamais
+							<pb n="524v"/> <lb/>eû aucune autre fausse pièce que celle
+							<lb/>là.</seg> <seg>Ainsi finit presente examination
+							<lb/>et fut ordonné de reconduire le predit
+							<lb/>detenu dans sa première detention,
+							<lb/>lequel y est retourné en haussant les
+							<lb/>epaules avec les larmes aux yeux.</seg></p>
+							<p><lb/><persName ref="per028157a.02">Habercorn</persName> secretaire
+							<lb/>civil <figure type="notarial sign"/>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

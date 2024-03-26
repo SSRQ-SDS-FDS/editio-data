@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.58-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 344–346</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 344–346</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Roggo-Conte – Verhör</head>
+					<head xml:lang="fr">Maria Roggo-Conte – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="la"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-11-22"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="344"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-11-22">22<hi rend="sup">ten</hi> <foreign xml:lang="la">novembris</foreign> 1646</origDate>
+							<seg><lb/><term ref="lem018540.03">Amman</term> <persName ref="per012378a.01">Heydt</persName></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Tornier</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017122">Jenon Joye-Débieux</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-125.15-1">SSRQ FR I/2/8 125.15-1</ref>.</note></p>
+					<pb n="345"/><p><lb/><foreign xml:lang="la">Eadem die, presentibus dominis ut supra et domino consule
+						<lb/><persName ref="per012379a.01">Progin</persName> et domino <persName ref="per013439"><choice><abbr>F</abbr><expan>Francesco</expan></choice> a Montenach</persName></foreign></p>
+						<p><seg><lb/><persName ref="per017006b.02">Maria Compte, genandt die Mußmaria</persName>, nachdem sie an das
+							<lb/><term ref="lem014793.04">folterseyll</term> geschlagen unndt dry mahl lehr <term ref="lem016150.02">uffgezogen</term> worden,
+							<lb/>hatt angefangen bitterlich zu weinen. Anzeigend, das die jenigen,
+							<lb/>so sie der <term ref="lem014672.03">hexery</term> unndt derglychen unthaten verklagen, ihren
+							<lb/>grob unrecht thüendt. Dan sie sich diß orths halben gantz
+							<lb/>unschuldig befinde. <term ref="lem016058">Verhofft</term> aber, gott, der almächtig, unnd
+							<lb/>die heillige jungfrauw <persName ref="per000169a">Maria</persName>, an deren allmacht unndt gnad sie
+							<lb/>ihr zuversicht hatt, werden sie nimmer verlassen, ihren in diser
+							<pb n="346"/><lb/>noth unndt unschuldt gnädig bystehn, unndt sie umb dise uß<lb break="no"/>stehende <term ref="lem004666.05">mahrter</term>, die sie ihnnen auß grundt ihres hertzens will
+							<lb/>uffgeopfferet haben, nach dißem ellenden leben belohnen, <subst><del>unndt
+							<lb/>glycher</del><add place="inline">hingegen</add></subst> aber die <term ref="lem018317.02">fuhle</term>, faltsche ankläger nach verdienst
+							<lb/>abstraffen.</seg> <seg>Unnd obwohlen sie uff diser zergänglicher welt
+							<lb/>mit faltscher anklag unndt <term ref="lem007803.05">pynlicher</term> frag <term ref="lem017015.02">verschreyt</term>, verschmächt
+							<lb/>unndt undertruckht wirdt, will sie es doch mit dargebung ihres
+							<lb/><term ref="lem018376">versiechten</term> <term ref="lem000271.04">lybs</term> umb <persName ref="per000353a">Jesus Christi</persName>, unnsers heylandts unndt
+							<lb/>seligmachers, willen gern ußstahn, der unzwyffenlicher
+							<lb/>hoffnung, er ihr tröster unnd belohner in der anderen
+							<lb/>welt sein werde.</seg> <seg>Ist also in solchen unnd der glychen <term ref="lem018377.02">anrüff</term>,
+								<lb/>ohngeacht ußgestandner <term ref="lem017526.01">folterung</term>, darab sie sehr grossen
+							<lb/>schmertzen empfunden, ohne einige <term ref="lem016794.05">bekhandtnuß</term> bständig verbliben.
+							<lb/>Gott unndt myn <choice><abbr>g hhr</abbr><expan>gnädige herren</expan></choice> umb <term ref="lem004684.08">verzüchung</term> pittendt.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-178.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 170–172</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 170–172</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Freffer-Corpataux – Verhör</head>
+					<head xml:lang="fr">Margreth Freffer-Corpataux – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1664-05-15"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="170"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1664-05-15">15<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1664</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018540.03">amman</term><note>Gemeint ist <persName ref="per006840a">Andres Fleischmann</persName>, der an Stelle des Grossweibels den Vorsitz übernahm.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per026102a.01">Python</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per018693a">Tobias Gottrau</persName>.</note></seg>
+							<seg><lb/><persName ref="per026120a.02">Rämi</persName>, <persName ref="per026039a.01">Moßer</persName>, <persName ref="per026329a.01">Schrötter</persName>, <persName ref="per018085a.01">Adam</persName></seg>
+							<seg><lb/><persName ref="per026328a.01">Fywa</persName>, <persName ref="per026091a.02">Vögelin</persName></seg></p>
+						<p><seg><lb/><persName ref="per022472a.07">Margereth Corpastaux, sonsten Kolerin genandt</persName>, wegen
+							<lb/>übertrettnen eydts <term ref="lem002658.12">gefäncklich yngezogen</term> und der <term ref="lem007355.04">unhol<lb break="no"/>dery</term> halber,
+							darumb sie schon hievor yngelegen und verban<lb break="no"/>nisiert worden, wyttläuffig examiniert. Hat
+							<lb/>die <term ref="lem018947.09">übertrettung des eydts</term>, in demme sie sich <add place="above" type="sign">in</add> allh<subst><del>ar</del><add place="overwritten">ie</add></subst>sige
+							<lb/><term ref="lem011913.05">bottmässigkheit</term> <term ref="lem017924">retiriert</term>, <term ref="lem011468.03">bekhendt</term> und ihren fähler
+							<lb/>endtschuldigen wöllen, daß sie von <placeName ref="loc001265.04">Louppen</placeName> <term ref="lem018848.02">vereydet</term>
+						<lb/>und uff disen boden geleitet worden.</seg> <seg>Sagt, sie sye
+						<lb/>zu <placeName ref="loc008671.02">Roßhüßeren</placeName> der <term ref="lem000394.16">kilchöri</term>
+							<placeName ref="loc001300.04">Müllenberg</placeName>, <placeName ref="loc000464">Berner</placeName>
+						<pb n="171"/><lb/>gebieths, von ihrer allhießigen gefänkliche <term ref="lem017324">ledigung</term> ein
+							<lb/>zeit lang geweßen, von dannen sye sie nacher <placeName ref="loc000085.04"><unclear>Einsidlen</unclear></placeName>
+						<lb/>mit ihrem sohn gangen. Volgendts habe sie sich <date dur-iso="P10W">10 wuchen</date> lang
+							<lb/>zu <placeName>Ney</placeName><note>Der Ort ist nicht identifizierbar.</note> by der <placeName ref="loc009226.02">Ahren</placeName> nit weitt von <unclear><placeName ref="loc008889.02">Arberg</placeName></unclear> by
+						<lb/><persName>Adam Jean</persName> uffgehalten, <add place="above" type="sign">sye</add> <term ref="lem006484.06">nachwerths</term> <term ref="lem015959.03">gehn</term> <placeName ref="loc008672.02">Friesiwyl</placeName>
+							<lb/>und endtlich zu <placeName ref="loc001265.04">Louppen</placeName> khommen.</seg> <seg><term ref="lem011468.03">Bekhent</term>, habe
+								<lb/>sich daselbsten bym <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem000266.12">landtvogt</term> frywillig angemelt
+						<lb/>uß ursachen, daß <add place="above" type="sign">man</add> sie hin und wider der <term ref="lem007355.04">unholdery</term> halber
+						<lb/><term ref="lem017015.02">verschrytt</term> und <term ref="lem005728">angezogen</term> <del>worden</del>, ob wäre sie von dem
+								<lb/><term ref="lem007098.02">schinter</term> zu <placeName ref="loc001265.04">Louppen</placeName><note>Gemeint ist <persName ref="per026787">David Lässer</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-179.0-1">SSRQ FR I/2/8 179.0-1</ref>.</note> für ein <term ref="lem007356">unholdin</term> angeben worden,
+						<lb/>derentwegen wylen <abbr>h<hi rend="sup">r</hi></abbr> landtvogt solte ordnung gegeben
+						<lb/>haben, sie einzuzüchen. So habe sie zur anzeigung ihrer
+						<lb/>unschuldt sich unerschrockhen presentieren und ihme <abbr>h<hi rend="sup">r</hi></abbr>
+						<lb/>landtvogt <term ref="lem016814">vermelden</term> wöllen, sie thuye sich gott undt
+							<lb/>der gnädigen oberkheitt ihrer unschuldt halber <term ref="lem008237">befehlen</term>.</seg>
+							<seg><lb/><term ref="lem011468.03">Bekhendt</term>, daß sie des <persName>Ammans</persName> von <placeName ref="loc007933.05">Libistorff</placeName> tochter
+								<lb/>by einem bach angetroffen, welche selbigen tags <term ref="lem007212">gotten</term>
+						<lb/>geweßen. Habe ihro <subst><del>glücks</del><add place="inline">deßwegen glückh</add></subst> gewünscht,
+						<lb/>will mit ihren nit geschimpfft noch sie berürht haben.
+								<lb/>Sagt, solche tochter sye gesundt und jetz <term ref="lem003963">schwanger</term>, dardurch
+								<lb/>ihr kranckheit <term ref="lem019162.01">antaget</term> worden. Eben diße tochter
+						<lb/>sye ein ursach, daß sie hinder <placeName ref="loc001265.04">Louppen</placeName> in böße reputa<lb break="no"/>tion gerathen, dan sie <term ref="lem017357">ersucht</term> worden, dißer sydts sich zu
+						<lb/><term ref="lem019040.01">verfügen</term> und zu ihr zu khommen, mit vilfältigen versprechungen
+								<lb/>alles guts. Habe aber ihren <term ref="lem018947.08">eydt nit übertretten</term>
+						<lb/>wollen. Lobe gott, daß solches nit geschechen, sonsten
+						<lb/>hette sie den verdacht ußstehn müessen, solche tochter
+						<lb/><term ref="lem004327.01">inficiert</term> und das <term ref="lem018892.01">übel</term> von ihren weggenommen zu haben.</seg>
+							<seg><lb/>Thut ihr unschuldt dem lieben gott <term ref="lem007114.06">heimbsetzen</term>, ihr
+						<pb n="172"/><lb/>mutter selig habe ihro wohl <term ref="lem016814">vermeldt</term>, daß sie in
+						<lb/>bößen pflanzen gebohren worden, sie solle sich
+						<lb/>wohl vorsehen und gott vor augen haben.</seg>
+						<seg><lb/>Will in den ihro vorgehaltenen orthen alß zu <placeName ref="loc008053.03">Heütten<lb break="no"/>riedt</placeName>, <placeName ref="loc001395.05">Schwartzenburg</placeName>, im <placeName ref="loc008670">Galm</placeName>
+							und anderen der<lb break="no"/>glychen <term ref="lem000251.18">wälden</term> und sonderlich mit denen ihro genamb<lb break="no"/>seten persohnen niemahlen gewesen sein. Sagt, habe
+							<lb/><subst><del>niemahlen</del><add place="inline">mit dem</add></subst> <term ref="lem007098.02">schinter</term> von <placeName ref="loc001265.04">Louppen</placeName><note>Gemeint ist <persName ref="per026787">David Lässer</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-179.0-1">SSRQ FR I/2/8 179.0-1</ref>.</note> nieh geessen
+						<lb/>noch getrunckhen, eins mahls habe er zu <placeName ref="loc007894">Gurmels</placeName>
+							<lb/>von ihro umb <measure type="currency" quantity="1" unit="bz">ein batzen</measure> <term ref="lem000118.03">eyer</term> khauffen wollen, <del>habe</del>
+								<lb/><add place="inline">sye</add> aber damahlen darmit nit <term ref="lem008467.01">versehen</term> geweßen.
+						<lb/>Pittet gott und ein gnädige oberkheit, wölle
+						<lb/>sich ihrer erbarmen.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

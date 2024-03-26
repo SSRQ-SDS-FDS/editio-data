@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2020"/>
+                <date type="print" when="1989"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/>
+                </respStmt>
+                <idno>SDS-VD-D_1-26-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;443–454</idno>
+                    </msIdentifier>
+                    <head>Publication de la sentence du procès de sorcellerie intenté contre Claude Rolier, de Villars-Tiercelin</head>
+                    <msContents>
+                        <summary>
+                            <p>Claude Rolier, de Villars-Tiercelin, est jugé pour crime de sorcellerie au cours d’un procès qui se déroule au mois de septembre de 1524, devant la cour laïque d’Echallens présidée par le bourgeois de Berne Jacques Tribollet, bailli d’Orbe et châtelain d’Echallens, député par les seigneurs de Berne et Fribourg. Le 1<hi rend="sup">er</hi> octobre 1524, l’accusé comparait devant la cour, qui ordonne au notaire L. Assacti de lire à haute voix les articles de sa confession, obtenue sans torture. Le bailli et le châtelain Jacques Tribollet communique ensuite sa décision de condamner l’accusé au bûcher et de lui confisquer ses biens&#160;; il demande la connaissance (<orig>&#160;cognitio&#160;</orig>) des jurés de la cour et des bourgeois de la ville d’Echallens. Le syndic et gouverneur d’Echallens, Pierre Perro, au nom des susdits jurés et bourgeois, accède à la demande de crémation et à la confiscation des biens.</p>
+                        </summary>
+                        <msItem>
+                            <textLang xml:lang="fr"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1524-10-01"/>
+                            <origPlace ref="loc012349.01">Château d’Echallens</origPlace>                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;19–24</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;25–54</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000055619">Ostorero 2010</ref>, p.&#160;19, 21</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001208849503977">Pittet  2010</ref>, p.&#160;214–215, 217</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000129905">Modestin/Utz Tremp 2012</ref>, p.&#160;209</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000122355">Ostorero et al. 2011</ref>, p.&#160;45, 74, 75</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000139095">Modestin 2015a</ref>, p.&#160;245</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001250947803977">Ammann Doubliez 2020</ref>, p.&#160;225 n.</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/> 
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="454" facs="ACV_AC-29_454_455"/>
+                        <head type="title"><note>Ce procès a été rédigé en français et non en latin. Pour Pierre Han Choffat, cette caractéristique s’explique par l’exécution du procès par une juridiction exclusivement laïque, mais aussi, semble-t-il, par l’usage du français par l’administration bernoise depuis la conquête du bailliage d’Orbe-Eschallens en 1476 (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;25</bibl>).</note><lb/>Le double du processez et
+                                        <lb/>confession de <persName ref="per016436a.01">Glaude Roliez</persName>
+                                        <lb/>de <placeName ref="loc010907.05">Villard Tiercellin</placeName> exequuté
+                                        <lb/>a <placeName ref="loc008040.09">Eschallens</placeName> estant <term ref="lem018912.02">ballifz</term>
+                                        <lb/>proveable home <persName ref="per016442a.01">Jacob Tribollet</persName>
+                                        <lb/><term ref="lem018913.02">borgois</term> de <orgName ref="org001159.02">Berne</orgName><note>Cet intitulé figure à la page 454 du registre, les pages 451–452 étant restées blanches. Avant la reliure, la page 454 était la dernière du cahier contenant la procédure&#160;; l’intitulé, une fois le cahier plié, permettait de connaître rapidement le contenu d’une pièce.</note></head>
+                        <pb n="443" facs="ACV_AC-29_442_443"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1524-10-01">1524 oct. 1</date></ab></div>
+                        <head type="subtitle" resp="GO">1<hi rend="sup">er</hi> octobre 1524</head>
+                        <p><seg><lb/>S’ensuit le processez et confession de <persName ref="per016436a.01">Glaude Roliez</persName> 
+                                        <lb/>de <placeName ref="loc010907.05">Villard Tiercellin</placeName> pris et detenu a <origPlace ref="loc012349.02">Eschallens</origPlace><note>Claude Rolier vient de Villars-Tiercelin, qui dépend de la châtellenie de Dommartin. Il n’a donc aucun lien direct avec le baillage d’Orbe et d’Eschallens dans lequel il est jugé. Il a toutefois été arrêté à Eschallens&#160;; le lieux d’arrestation semble alors déterminent pour désigner la juridiction appelée à enquêter (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;25–26</bibl>).</note> 
+                                        <lb/>eis prissons et maison de mes tres redoubtéz magnifiques 
+                                        <lb/>et puissant seignieurs messirs des deux villes <placeName ref="loc000157.07">Berne</placeName> 
+                                        <lb/>et <placeName ref="loc001060.03">Fribourg</placeName> part proveable et discret home <persName ref="per016442a.02">Jacob Tribellet</persName>, 
+                                        <lb/>borgois de <orgName ref="org001159.02">Berne</orgName>, <term ref="lem018912.03">ballisfz</term> d’<orgName ref="org009297.01">Orbe</orgName> et <term ref="lem018914.02">chastellain</term> dudit
+                                        <lb/><orgName ref="org005685.02">Eschallens</orgName> part mesditz tres redoubtéz seigneurs speciallement
+                                        <lb/>deputé. Lequel <persName ref="per016436a.01">Glaude</persName> a di et confessé spontanéement
+                                        <lb/>sans torture, en la presence de honestez personne&#160;: <persName ref="per013011a.02">Jehan
+                                        <lb/>Panschaulx</persName>, <persName ref="per016535a.01">Jaques Agassiz</persName>, <term ref="lem018914.02">chastellain</term> d’<orgName ref="org005686.01">Orbe</orgName>, <persName ref="per016446a.01">Jehan 
+                                        <lb/>Carra</persName>, <persName ref="per016449a.01">Anthenoz Pilligard</persName>, <persName ref="per016452a.01">Nycollet Duthey</persName>, <persName ref="per016454a.01">Glaude 
+                                        <lb/>Clavel</persName>, <persName ref="per016456a.01">Germain Crostaz</persName>, <persName ref="per016457a.01">Jehan de Buron</persName>, <persName ref="per016458a.01">Glaude Maccaud</persName>, 
+                                        <lb/><persName ref="per016460a.01">Jaquet Millioz</persName>, <persName ref="per017130a.01">Pierre Perro</persName>, <persName ref="per016462a.01">Jeham Perrisso</persName> et <persName ref="per016466a.01">Glaude Perrin</persName>,
+                                        <lb/>jurés de <placeName ref="loc008040.09">Eschallens</placeName>, ce qui s’ensuit.<abbr><unclear>*</unclear></abbr><note>L’(*) signale le paraphe que le notaire appose à la fin de chaque paragraphe ou aveu.</note></seg></p>
+                        <p><seg><lb/>Premierement a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu
+                                        <lb/>qui <date when="1512" dur-iso="P12Y">li az douze an</date> qui se trovaz a <placeName ref="loc010902.04">Sugniens</placeName> en la maison
+                                        <lb/>de <persName ref="per017071a.01">Humbert Caschin, aultrement Avuy</persName>, dudit lieu de
+                                        <lb/><placeName ref="loc010902.04">Sugniens</placeName>, lequel <persName ref="per017071a.01">Humbert</persName> li dit&#160;: <q>&#160;Tu scay le bien venu,
+                                        <lb/><persName ref="per016436a.01">Glaude</persName>, comme te porte-tu&#160;?&#160;</q>. Et alors respondi ledit <persName ref="per016436a.01">Glaude</persName>&#160;:
+                                        <lb/><q>&#160;Bien, mais je n’ay point d’argent&#160;</q>. Et d’où ledit <persName ref="per017071a.01">Humbert</persName>
+                                        <lb/>li dit&#160;: <q>&#160;Se tu me veulx croire, nous feron bone chiere et
+                                        <lb/>auron de l’argent&#160;</q>. A laqueulle chose s’acordi ledit <persName ref="per016436a.01">Glaude</persName>.
+<lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Et s’en alire eys <placeName>Vaulx de la Coustaz</placeName><note>Peut-être <placeName ref="loc013100.01">La Couta</placeName> au sud de <placeName ref="loc011728.01">Sottens</placeName>.</note> vers <placeName ref="loc013099.02">la Mentuyt</placeName>,
+                                        <lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>la ou ilz trovire le <term ref="lem017521.01">Diable</term> qui parly a ly et ly di&#160;: <q>&#160;Ilz
+                                        <lb/>fault que tu renunscaz Dieu tont createur et la trinité
+                                        <lb/>et je toy doneray force d’argent&#160;</q>. A laqueulle chose se
+                                        <lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>accordy, et renunsaz Dieu son creatour et ly fy <term ref="lem018915.02">homaige</term>.
+                                        <lb/>Et se nomme <persName ref="per011699a.07">Belzeboug</persName>, lequel <persName ref="per011699a.07">Belzebourg</persName>, pour enscigniez,
+                                        <lb/>mordi ledit <persName ref="per016436a.01">Glaude</persName> aut doit après le pousez en la
+                                        <lb/>main droicte, a la grosse joincte. Et ly dona de l’argent, 
+                                        <lb/>qui se trovi des fuilliez d’arbres, de quoy cogneu bien
+                                        <lb/>ledit <persName ref="per016436a.01">Glaude</persName> qui estoy trompé. Sed nonobstant ne laisi 
+                                        <lb/>pas de pursuivre après pour faire mal.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <pb n="444" facs="ACV_AC-29_444_445"/>
+                        <p><seg><lb/>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu
+                                        <lb/>que ly, <persName ref="per017132a.01">Francoy Jaccod</persName>, <persName ref="per017071a.01">Humbert Caschin</persName>, <persName ref="per017072a.01">le Piccard</persName>,
+                                        <lb/><persName ref="per016473a.01">Pierre Uldri</persName>, une feste de <term ref="lem019013.01">Chautemps</term> tanto aprest,
+                                        <lb/>qui fu du serement<note><orig>&#160;Fu du serement de&#160;</orig> (être du serment de)&#160;: cette expression pourrait désigner le sabbat et signaler le pacte conclu entre le diable et les sorciers. Elle se rapproche du pacte ou serment conclu entre des brigands, comme on les rencontre dans des procès criminels lausannois contemporains, à l’exemple du procès de Claude Rolier (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000139275">Dorthe 2015</ref>, p.&#160;294–305</bibl>). Il est également fait mention d’un <orig>&#160;serement&#160;</orig> dans le procès de <persName ref="per016599a">Jean Massot</persName> (<bibl><ref target="urn:ssrq:SDS-VD-D_1-28-1">SDS VD D 1 28-1</ref>&#160;: ACV, Ac 29, p.&#160;463</bibl>).</note> dessoub <placeName ref="loc010909.04">Na</placeName>, entreprire de faire de
+                                        <lb/>la <term ref="lem018102.08">grelle</term>, mais ilz ne seure pas venyr a bout,
+                                        <lb/>pour quoy laissire tout.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu que,
+                                        <lb/>au depart de la ou ilz voloent faire la grelle,
+                                        <lb/>entreprire d’aler a <placeName ref="loc011728.03">Sottem</placeName> pour faire tout plain
+                                        <lb/>de mal, mais ilz n’y allire pas.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu que
+                                        <lb/>la <term ref="lem018254.02">pouldre</term> que leur maistre leur baillioit, de
+                                        <lb/>laqueulle ilz ousoent, estoy noire comme pouldre
+                                        <lb/>de <term ref="lem018920.02">collouvrine</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mai a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu que
+                                        <lb/>incontinant qui fu du serement, fi <term ref="lem019128.02">mori</term> a <persName ref="per016474a.01">Glaude Pillet</persName>
+                                        <lb/>de <placeName ref="loc007671.04">Possent</placeName> une beste, et ne scay si l’estoy <term ref="lem018921.01">cheval</term> aut
+                                        <lb/><choice><sic>aut</sic><corr/></choice> <term ref="lem018922.01">jument</term>, mais scay bien qui l’estoy de poil <term ref="lem018916.02">bayet</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu qui <date when="1528" dur-iso="P6Y">li az
+                                        <lb/>environ six</date> <date when="1527" dur-iso="P7Y">an aut sept</date> qui fi mori a <persName ref="per017074a.01">Glaude de
+                                        <lb/>Montobion</persName> une beste, et ne scay si l’estoy cheval aut 
+                                        <lb/><choice><sic>aut</sic><corr/></choice> jument, et estoy de poil bayet.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu qui
+                                         <lb/><date notBefore="1518" notAfter="1519" dur-iso="P6Y">ly az sint aut six an</date> qui fy estrangler chez les
+                                        <lb/><orgName ref="org005197.06">Jaccaud</orgName> de <placeName ref="loc011120.07">Chardoney</placeName> ung cheval a la <term ref="lem019109.04">rische</term> qui
+                                        <lb/>estoy de poil <term ref="lem018918.01">bousanaz</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu qui <date when="1516" dur-iso="P8Y">li az
+                                        <lb/>environ vuyt an</date> qui fire mori a <persName ref="per016476a.01">Jeham Tappy</persName> de
+                                        <lb/><placeName ref="loc011896.02">Pigney</placeName>, vers le <term ref="lem017723.02">ruz</term> dessoub la vuaz, ung <term ref="lem018923.02">beufz</term> de
+                                        <lb/>poil <term ref="lem018917.02">fomassiez</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu qui
+                                        <lb/><date when="1519" dur-iso="P5Y">li az environ sint an</date> qui fire mori a <persName ref="per016478a.01">Uldri Gillieron</persName>,
+                                        <lb/><term ref="lem017410.06">mestraulx</term> de <placeName ref="loc011897.02">Corselles</placeName>, deux beufsz, lun de poil
+                                        <lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add> blam et l’aultre de poil <term ref="lem018919.01">fromentena</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <pb n="445" facs="ACV_AC-29_444_445"/>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu qui <date when="1521" dur-iso="P3Y">li az
+                                        <lb/>environ troys an</date>, a ceste <date when="1521-08-01" type="holiday">Sainct <persName ref="per000438a.04">Pierre</persName></date><note>Il s’agie de la Saint-Pierre-aux-liens, qui se déroule le <date when="--08-01">1<hi rend="sup">er</hi> août</date>.</note> entrant en <choice><sic>oug</sic><corr>aoust</corr></choice>, fire
+                                        <lb/>mori a <persName ref="per016571a.01">Jehan Meyjoz</persName> de <placeName ref="loc010907.05">Villard Tiercellin</placeName> ung beufz de
+                                        <lb/>poil rogez et la cuaz <term ref="lem018924.02">gaconayez</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu qui <date notBefore="1521" notAfter="1522" dur-iso="P3Y">li az
+                                        <lb/>environ deux aut troys an</date> fire mori a <persName ref="per016481a.01">Anthennoz Barraulx</persName>
+                            <lb/>unaz <term ref="lem015407.04">pudraz</term> de poil <term ref="lem019110.01">fichiez</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé qui <date when="1522" dur-iso="P2Y">li az environ deux an</date>
+                                        <lb/>qui fire mori a <persName ref="per016482a.01">Jaquymot Massot</persName> una jument de
+                                        <lb/>poil noir.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a dit<note>Pour la première fois, le notaire écrit dit avec <orig>&#160;t&#160;</orig>. Cela ne se reproduira qu’une fois à la ligne 115.</note> et confessé ledit <persName ref="per016436a.01">Glaude</persName> detenu qui <date when="1522" dur-iso="P2Y">li az
+                                        <lb/>environ deux an</date> qui fire mori a <persName ref="per012975a.02">Glaude Martin</persName> de
+                            <lb/><placeName ref="loc010907.05">Villard Tiercellin</placeName>, <term ref="lem019107.01">tornarre</term>, unaz jument de poil entre
+                                        <lb/>roge et noir.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1522" dur-iso="P2Y">li az environ
+                                        <lb/>deux an</date> ensa fire mori a <persName ref="per016483a.01">Glaude Carra</persName> de <placeName ref="loc010906.05">Polliez
+                                         <lb/>Pictet</placeName> une <term ref="lem017507.03">vaschez</term> de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1522" dur-iso="P2Y">li az environ
+                                        <lb/>deux an</date> fire mori eys <persName ref="per017076a.01">Gronuz</persName> de <placeName ref="loc010906.05">Polliez Pictet</placeName> deux
+                                        <lb/>vaschez de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1522" dur-iso="P2Y">li az environ
+                                        <lb/>deux an</date> fire mori esdit <persName ref="per017076a.01">Gronuz</persName> ung beufz de poil
+                                        <lb/>blanchinéz, et enten que les <persName ref="per016571a.01">Meijoz</persName> de <placeName ref="loc010907.06">Villard</placeName> le
+                                        <lb/>leur esse vendu.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que <date when="1523-12-25" dur-iso="P1Y">despuis
+                                        <lb/><term ref="lem015435.03">Noel</term> ensa</date>, avoy donné du pusset a <persName ref="per016485a.01">Johannete</persName>, filliez de
+                                        <lb/><persName ref="per016487a.01">Jaquet Sovajaz</persName>, en passam et le ly bota aut sainct, de quoy
+                                        <lb/>elle mori&#160;; touteffoys, ne moru pas a <placeName ref="loc010907.06">Villard</placeName>, mais alli
+                                        <lb/>mori a <placeName ref="loc010914.04">Sainct Sierge</placeName>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que incontinant
+                                        <lb/>aprest, donaz du <term ref="lem014886.02">pusset</term> a <persName ref="per016488a.01">Pierre</persName>, filz dudit <persName ref="per016487a.01">Sovajaz</persName>, et
+                                        <lb/>le ly botaz aut sainct, de quoy il mori&#160;; et le ly balliaz
+                                        <lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>pour se qui ly rompoy tousjours une <term ref="lem019108.02">rayez</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <pb n="446" facs="ACV_AC-29_446_447"/>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui avoy faict
+                                        <lb/>mori a tout le pusset <persName ref="per016489a.01">Guilliaumaz</persName>, seur de <persName ref="per016482a.01">Jaquymot
+                                        <lb/>Massot</persName>, et ly donaz ledit pusset cheu <persName ref="per016487a.01">Sovajaz</persName> et
+                                        <lb/>fassoy semblam de les aller visiter en leur maladie
+                                        <lb/>pour se que on ne s’en aperseu.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1512" dur-iso="P12Y">li az environ
+                                        <lb/>douze an</date> fire mori eys <persName>Jaccaud</persName><note>Deux <orig>&#160;Jaccaud&#160;</orig> de <placeName ref="loc011120.01">Montaubion-Chardonney</placeName> ont été victime dans les procès de <date when="1498">1498</date>&#160;: <persName ref="per012968a">Jean Jacaud</persName>, victime de <persName ref="per012756a">François Marguet</persName> et <persName ref="per011509a">Isabelle Perat</persName>, et <persName ref="per016994a">François Jacaud</persName> lésé par <persName ref="per012767a">Pierre Menetrey</persName> qui tue un de ses bœuf parce qu’il refusait de le lui vendre. Il est par ailleurs attesté comme voisin de <persName ref="per012966a">Jean Rolier</persName>, le père de <persName ref="per016436a">Claude</persName> (<bibl>ACV, Ff 38, f.&#160;2r, 32r–35r</bibl>, voir aussi <bibl><ref target="http://permalink.snl.ch/bib/chbsg000076753">Pfister 1997</ref>, p.&#160;294</bibl>). Il pourrait aussi s’agir de <persName ref="per016530a">Nicod Jacaud</persName>, évoqué plus bas par <persName ref="per016436a">Claude Rolier</persName>. Il serait impliqué dans une corruption pour ouster <persName ref="per017072a">Le Piccard</persName> d’un procès.</note>,  de <placeName ref="loc011120.07">Chardoney</placeName> deux beufz
+                                        <lb/>de poil rogez et leur donire le pusset aut pré derrié
+                                        <lb/>la maison quan ung va a <placeName ref="loc011120.07">Chardoney</placeName>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit detenu qui <date when="1518" dur-iso="P6Y">li az environ
+                                        <lb/>six an</date> fyre mori a <persName>Jaquymoz</persName><note>Peut-être <persName ref="per016482a.01">Jaquymot Massot</persName>, évoqué plus haut et dont la soeur a été tuée par <persName ref="per016436a">Claude Rolier</persName>, ou <persName ref="per016501a.01">Jaquymoz Ro</persName>, mentionné plus bas.</note>  de <placeName ref="loc011896.02">Pigney</placeName> deux beufz
+                                        <lb/>de poil rogez et une vasche de poil gaconayez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit detenu que <del rend="strikethrough">li az environ</del><note>Le notaire, qui produit un double à partir de son original, a sans doute ici cédé à la routine des articles répétitifs.</note>
+                                        <lb/><persName ref="per016490a.01">La Vincenchiz</persName> de <placeName ref="loc007669.05">Domp Martin</placeName> et tieulle que ly.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a dit et confessé ledit detenu qui <date when="1523" dur-iso="P1Y">ly aura
+                                        <lb/>tanto ung an</date> qui fire mori a <persName ref="per012745a.02">Jeham Sovajaz</persName> deux <term ref="lem018925.02">veaulx</term>,
+                                        <lb/>don an de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1521" dur-iso="P3Y">li az environ
+                                        <lb/>troys an</date> fire mori en la grangiz des <persName ref="per017172a.01">Fonjallez</persName> de
+                                        <lb/><placeName ref="loc011125.01">Montheron</placeName> deux <term ref="lem017507.04">vasches</term> de poil rogez, et ne scay si
+                                        <lb/>elle estion aut <term ref="lem018926.01">prieur</term> aut a <persName ref="per016498a.01">Pierre Clerc</persName>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit detenu qui <date when="1522" dur-iso="P2Y">li az environ
+                                        <lb/>deux ans</date> fire mori a <persName ref="per016493a.01">Pierre Faulconet</persName> de <placeName ref="loc010902.04">Sugniens</placeName> ung
+                                        <lb/>beufz de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que <persName ref="per017132a.01">Francoy Jaccod</persName>
+                                        <lb/>fy mori ung de ses cheval de poil noir, et <persName ref="per017071a.01">Humbert
+                                        <lb/>Caschin</persName> ung cheval des <sic>sien</sic> de poil bayet, et fassent
+                                        <lb/>cela pour se que ung ne se doubtaz de leur.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit detenu qui li az environ <date when="1522" dur-iso="P2Y">deux</date>
+                                        <lb/><date when="1521" dur-iso="P3Y">aut troys an</date> fire mori eys <sic>enfam</sic> a <persName ref="per016490a.01">La Vincenchiz</persName> de <placeName ref="loc007669.05">Domp Martin</placeName>
+                                        <lb/>ung beufz de poil <term ref="lem018927.01">foma</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add>Item mais a di et confessé ledit detenu que <persName ref="per016495a.01">Jaquet de
+                                        <lb/>La Magdelennaz</persName> et tieulx que ly et l’a veu a la <term ref="lem017043.01">secte</term> aveyt
+                                        <lb/>ly, mais ne ly vy jamais faire mal.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <pb n="447" facs="ACV_AC-29_446_447"/>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1518" dur-iso="P6Y">li az environ
+                                        <lb/>six an</date> fire mori a <persName ref="per016496a.01">Girard Jaquyer</persName> une beste, et ne scay si
+                                        <lb/>estoy cheval aut jument, mais scay bien qui l’estoy de
+                                        <lb/>poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1520" dur-iso="P4Y">li az environ
+                                        <lb/>quattre an</date> qui fire mori a <persName ref="per016497a.01">Tisserens de Peirez</persName> ung beufz
+                                        <lb/>de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que l’avoy faict
+                                        <lb/>mori de ses bestes pour se que ses voysins ne eusse
+                                        <lb/>maulveise sulption sur ly.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1522" dur-iso="P2Y">li az environ
+                                        <lb/>deux an</date> fire mori a l’<persName ref="per025926a.01">Autaz Agno</persName> de <placeName ref="loc010909.04">Na</placeName> una vaschez de poil
+                                        <lb/>rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1519" dur-iso="P5Y">li az environ
+                                        <lb/>sint an</date> fire mori a ceulx du fourt de <placeName ref="loc007669.05">Domp Martin</placeName> deux
+                                        <lb/>beufz, l’un de poil rogez, l’aultre <term ref="lem018928.02">burnassiez</term>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1521" dur-iso="P3Y">li az environ
+                                        <lb/>troys an</date> fire mori ouz Grangie a <placeName ref="loc013702.02">La Paschiz</placeName> de <placeName ref="loc011896.02">Pigney</placeName>
+                                        <lb/>unaz <term ref="lem015014.09">mogez</term> de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1521" dur-iso="P3Y">li az trois an</date> qui
+                                        <lb/>fire mori a <persName ref="per016501a.01">Jaquymoz Ro</persName> de <placeName ref="loc011896.02">Pigney</placeName> <subst><del rend="strikethrough">ung jument</del><add place="inline">ung beufz</add></subst>
+                                         <lb/>de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1521" dur-iso="P3Y">li az troys an</date>
+                                        <lb/>qui fire mori a <persName ref="per017081a.01">Henri Jacou</persName> de <placeName ref="loc011896.02">Pigney</placeName> una jument
+                                        <lb/>de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1521" dur-iso="P3Y">li az environ
+                                        <lb/>troys an</date> qui fire mori a <persName ref="per017083a.01">Coschet</persName> de <placeName ref="loc011897.02">Corselles</placeName> ung <term ref="lem018931.01">macloz</term>
+                                        <lb/>de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1520" dur-iso="P4Y">li az quattre an</date>
+                                        <lb/>fire mori a <persName ref="per016525a.01">Jaques Tryon</persName> de <placeName ref="loc011727.02">Freydeville</placeName> ung beufz
+                                        <lb/>de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1520" dur-iso="P4Y">li az quattre
+                                        <lb/>an</date> fire mori eys <persName>Gindroz eys Rossiez</persName><note>Cette personne n’a pas pu être identifiée.</note> de <placeName ref="loc011727.03">Freideville</placeName> ung
+                                        <lb/>beufz de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1520" dur-iso="P4Y">li az quattre
+                                        <lb/>an</date> fire mori a <persName ref="per017084a.01">Boudet</persName> de <placeName ref="loc011727.02">Freydeville</placeName> ung beufz de
+                                        <lb/>poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <pb n="448" facs="ACV_AC-29_448_449"/>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui <date when="1521" dur-iso="P3Y">li az troys
+                                        <lb/>an</date> qui fire mori a <persName ref="per016528a.01">Pierre Marguet</persName> de <placeName ref="loc007669.05">Domp Martin</placeName> ung
+                                        <lb/>beufz de poil rogez.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu qui tenoent deux
+                                        <lb/><term ref="lem017043.06">sectez</term>, l’une dessoub <placeName ref="loc010909.04">Na</placeName> et l’aultre eys vaulx de
+                                        <lb/><placeName ref="loc007669.06">Don Martin</placeName>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que quan
+                                        <lb/>ilz departoent de la sectez, ilz entreprenoent d’aller
+                                        <lb/>l’un dessu l’aultre de la pour faire le mal qui
+                                        <lb/>porroent.<abbr><unclear>*</unclear></abbr> 
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que une foys,
+                                        <lb/>une feste de <placeName ref="loc009065.04">Saincte Croix</placeName> entre <placeName ref="loc011120.07">Chardoney</placeName> et
+                                        <lb/><add place="left margin" hand="hand20c" medium="pencil" >X</add><placeName ref="loc011728.02">Sotten</placeName>, trovy <persName ref="per016529a.01">Clement Gilliard</persName> qui parly a ly et
+                                        <lb/>ly di ledit <persName ref="per016529a.01">Clement</persName>&#160;: <q>&#160;<persName ref="per016436a.01">Glaude</persName>, tu es bien <term ref="lem018419.01">entenu</term> a
+                                        <lb/>monsieur le jugez et a moy&#160;; ilz faul que tu li fasse une
+                                        <lb/>bone chause et que tu me recompensay de quelque
+                                        <lb/>chose&#160;; <persName ref="per017132a.01">Francoy Jaccod</persName> t’a aculpa, mais ilz t’a deculpa&#160;</q>.
+                                        <lb/>Nonobstant, ne leur a encour riem donné, sinon
+                                        <lb/>quelquefoys envoy audit jugez, du beure fraict. Et
+                                        <lb/>bien et vray que ledit <persName ref="per016529a.01">Clement</persName> ly demandaz a
+                                        <lb/>empronté <measure type="currency" unit="écu" quantity="2">deux escus</measure>, mais ne les ousoit pas
+                                        <lb/>demander sinon pour <choice><sic>empro</sic><corr>empront</corr></choice> et ly disoy qui voloit
+                                        <lb/>achetter ne scay quoi.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que il se
+                                        <lb/>trova une foys a <placeName ref="loc010902.04">Sugniens</placeName> et que <persName ref="per017072a.01">le Piccard</persName> ly di&#160;:
+                                        <lb/><q>&#160;Comment <persName ref="per016436a.01">Glaude</persName>, ung ne t’a point ransoné comme moy&#160;?
+                                        <lb/>Ilz m’ont faict payé <measure type="currency" unit="écu" quantity="6">six escus</measure>.&#160;</q><abbr><unclear>*</unclear></abbr> 
+                        </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que le lieutenant
+                                        <lb/>de <placeName ref="loc007669.05">Domp Martin</placeName> et <persName ref="per016530a.01">Nyco Jaccaud</persName> se trovire emsemble a
+                                        <lb/><placeName ref="loc011120.07">Chardoney</placeName> et beure <measure type="currency" unit="S" quantity="30">trente solz</measure> ouz <measure type="currency" unit="écu" quantity="1">ung escus</measure> pour
+                                        <lb/>ouster <persName ref="per017072a.01">le Piccard</persName> du processez&#160;; et que ly en avoy beu&#160;;
+                                        <lb/>et avoy rencontré le garson de <placeName ref="loc011120.07">Chardoney</placeName> qui portoy
+                                        <lb/><measure type="currency" unit="écu" quantity="1">ung escus</measure>&#160;; et ly dit qui l’estoy de l’argent du <persName ref="per017072a.01">Piccard</persName>.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <pb n="449" facs="ACV_AC-29_448_449"/>
+                        <p><seg><lb/>Item mais a di et confessé ledit detenu que, entre
+                                        <lb/><placeName ref="loc010907.05">Villard Tiercellin</placeName> et <placeName ref="loc007669.05">Domp Martin</placeName>, <persName ref="per017071a.01">Humbert Caschin</persName>
+                                        <lb/>le fy juré ensemble <persName ref="per017132a.01">Francoy Jaccod</persName>, <persName ref="per017072a.01">le Piccard</persName> et
+                                        <lb/><persName ref="per016473a.01">Pierre Uldri</persName> sus du papier, et entens qui fussent
+                                        <lb/>des evangilles, cart il estoy officiel de chappitre
+                                        <lb/>en celluy temps, et les fy juré que jamays ne s’aculperent
+                                        <lb/>l’un l’aultre.<abbr><unclear>*</unclear></abbr>
+                        </seg></p>
+                        <p><seg><lb/><hi rend="right"><signed><persName ref="per017085a.01"><choice><abbr>L. Assac</abbr><expan>L. Assacti</expan></choice></persName> <figure type="notarial sign"/></signed></hi></seg></p>
+                        <p><seg><lb/><origDate when="1524-10-01">Le samedi, premier jour de octobre l’am de grace
+                                        <lb/>corant mille sint cent et vint et quattre</origDate>, part devant
+                                        <lb/>ledit honorable <persName ref="per016442a.02">Jacob Tribellet</persName>, ballifz d’<orgName ref="org009297.01">Orbe</orgName> et
+                                        <lb/>chastellain dudit <orgName ref="org005685.02">Eschallens</orgName>, assis en jugement
+                                        <lb/>aut lyeu dudit <origPlace ref="loc012349.02">Eschallens</origPlace>, estre lieu et publier
+                                        <lb/>a aulte voys le processez et articles dessus escriptz
+                                        <lb/>part le scribe dessoub signé, et part ledit <persName ref="per016436a.01">Glaude
+                                        <lb/>Roliez</persName> detenu confessé publiquement, articles aprés articles&#160;;
+                                        <lb/>a demandé ledit monsieur le ballifz et chastellain y celluy
+                                        <lb/><persName ref="per016436a.01">Glaude</persName> estre confisqué et adjugé a mesditz seignieurs&#160;;
+                                        <lb/>s’est ascavoyr estre mené aut lyeu acoustumé
+                                        <lb/>a mesdit tres redoubtéz seignieurs on acustume de faire
+                                        <lb/>justice&#160;: son corps estre mis en cendre asfin qui
+                                        <lb/>soyt mémoire de justice, et les biens eys seignieurs
+                                        <lb/>riere lesqueulx ilz se consisteront. Desqueulles choses
+                                        <lb/>dessus dites, a demandé ledit monsieur le ballifz ly en fayre
+                                        <lb/>cognoissance.
+                        </seg></p>
+                        <p><seg><lb/>Laqueulle cognoissance a esté faicte et rapportee part
+                                        <lb/>honeste home <persName ref="per017130a.01">Pierre Perro</persName>, <term ref="lem018929.02">sindique</term> et <term ref="lem018930.02">governeur</term> du
+                                        <lb/>bourg de <placeName ref="loc008040.09">Eschallens</placeName>, aut nom de tout les jurés de
+                                        <lb/>la court de <placeName ref="loc008040.09">Eschallens</placeName> et des borgois dudit lieu
+                       <pb n="450" facs="ACV_AC-29_450_451"/><lb/>de <placeName ref="loc008040.09">Eschallens</placeName> present en ladite cognoissance&#160;: noble
+                                        <lb/>et puissant home <persName ref="per016531a.01">Begnoy Champion</persName>, seignieurs de
+                                        <lb/><placeName ref="loc012350.03">Cessaulx</placeName>, noble <persName ref="per016546a.02">Jeham Constabloz</persName>, juge de chappitre<note>Le Chapitre de <orgName ref="org004871.01">Lausanne</orgName>&#160;; Jean Costable étant châtelain de <orgName ref="org005241.01">Dommartin</orgName>, qui dépend de l’évêque de <orgName ref="org001749.01">Lausanne</orgName>.</note>,
+                                        <lb/>noble <persName ref="per016532a.01">Jeham de Villard</persName>&#160;; et proveables personnes&#160;: <persName ref="per016535a.01">Jaques
+                                        <lb/>Agassiz</persName>, chastellain d’<orgName ref="org005686.01">Orbe</orgName>, <persName ref="per013011a.04">Jeham Panschaulx</persName>, <persName ref="per016446a.02">Jeham
+                                        <lb/>Carra</persName>, <persName ref="per016533a.01">Pierre Barbey</persName>, <persName ref="per016454a.01">Glaude Clavel</persName>, <persName ref="per016466a.01">Glaude Perrin</persName>,
+                                        <lb/><persName ref="per016457a.02">Jeham de Buron</persName>, <persName ref="per016456a.01">Germain Crostaz</persName>, <persName ref="per016458a.01">Glaude Maccaud</persName>,
+                                        <lb/><persName ref="per016460a.01">Jaquet Millioz</persName>, <persName ref="per016452a.01">Nycollet Duthey</persName>, <persName ref="per016534a.01">Jeham Carrel</persName>,
+                                        <lb/><persName ref="per016449a.01">Anthenoz Pilligard</persName> et <persName ref="per016462a.01">Jeham Perrisso</persName>. S’est assavoyr
+                                        <lb/>ly estre mené aut lieu ouz mesditz tres redoubtéz
+                                        <lb/>seignieurs on acoustume de faire justice&#160;: son corps
+                                        <lb/>estre bruler et mis en cendre asfin qui soy
+                                        <lb/>memoyre de justice, et les biens eys seignieurs riere
+                                        <lb/>lesqueulx se consteron movoyr. Present lesdits tegmoent
+                                        <lb/>a ce requis. <origDate when="1524-10-01">Donné le jour et an que dessus</origDate>.
+                        </seg></p>
+                        <p><seg><lb/><hi rend="right">Donné pour copie de
+                                        <lb/>son propre original
+                                        <lb/>extraict.</hi>
+                        </seg></p>
+                        <p><seg><lb/><hi rend="left"><signed><persName ref="per017085a.01"><choice><abbr>L. Assac</abbr><expan>L. Assacti</expan></choice></persName> <figure type="notarial sign"/></signed></hi></seg></p>
+                        <pb n="451" facs="ACV_AC-29_450_451"/><p/>
+                        <pb n="452" facs="ACV_AC-29_452_453"/><p/>
+                        <pb n="453" facs="ACV_AC-29_452_453"/><p/>
+                    </div>
+                </body> 
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Les procès de Claude Rolier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-26-1">SDS VD D 1 26-1</ref>&#160;: ACV, Ac 29, p.&#160;443–454</bibl>), Margot Rolier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-31-1">SDS VD D 1 31-1</ref>&#160;: ACV, Ac 29, p.&#160;469–484</bibl>), Françoise Gilliéron (<bibl><ref target="urn:ssrq:SDS-VD-D_1-30-1">SDS VD D 1 30-1</ref>&#160;: ACV, Ac 29, p.&#160;485–492</bibl>) et Jeannette Vincent (<bibl><ref target="urn:ssrq:SDS-VD-D_2-39-1">SDS VD D_2 39-1</ref><!--controler le numéro à la fin-->&#160;: ACV, Bh 10/3</bibl>) font partie d’une nouvelle chasse aux sorciers menée à Dommartin, dans les terres du Chapitre cathédral de Lausanne, durant les années 1520.</p>
+                <p>Le procès de Claude Rolier de Villars-Tiercelin s’est pourtant déroulé devant la cour laïque présidée par le châtelain d’Echallens, ce qui indiquerait que l’accusé aurait été arrêté dans les terres du baillage mixte d’Orbe-Echallens, aux mains des villes de Berne et de Fribourg depuis 1476. Le châtelain de Dommartin et juge temporel du Chapitre, Jean Costable, fait toutefois partie des jurés qui condamnent l’accusé au bûcher.</p>
+                <p>L’acte d’exécution de la sentence de Claude Rolier occupe les pages 443 à 454 du registre ACV, Ac 29&#160;; les pages 451 à 453 ont été laissées en blanc. Le dos du cahier (p.&#160;454) contient l’intitulé de la pièce, signalant qu’il s’agit d’un double réalisé par le notaire L. Assacti à partir de l’original, tel qu’il est aussi indiqué à la fin de la pièce&#160;: <orig>&#160;Donné pour copie de son propre original extraict&#160;</orig>. Le même notaire authentifie le document et valide aussi la copie des articles de la confession à l’aide de son signet. L’acte est rédigé en langue vulgaire, suivant la coutume de la justice bernoise.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!---->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI" xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Zweiter Teil:
+                    Rechte der Landschaft, Band 11: Die Obervogteien um die Stadt Zürich</title>
+                <editor>
+                    <persName>Ariane Huber Hernández</persName>
+                </editor>
+                <editor>
+                    <persName>Michael Nadig</persName>
+                </editor>
+                <respStmt>
+                    <persName>Ariane Huber Hernández</persName>
+                    <persName>Michael Nadig</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Ariane Huber Hernández</persName>
+                    <persName>Michael Nadig</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability>
+                    <p xml:id="facs">Ariane Huber Hernández/Michael Nadig</p>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_II_11-168-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="de">Stadtarchiv Zürich</repository>
+                        <idno source="https://amsquery.stadt-zuerich.ch/detail.aspx?ID=25711"
+                            xml:lang="de">StArZH VI.WP.A.9.:86</idno>
+                    </msIdentifier>
+                    <head>Ausstand bei Gemeindebeschlüssen</head>
+                    <msContents>
+                        <summary>Obervogt Johann Jakob Füssli ratifiziert einen Gemeindebeschluss
+                            betreffend Ausstand bei Wahlen. Nur Brüder und Schwäger müssen in den
+                            Ausstand treten.</summary>
+                        <msItem>
+                            <textLang xml:lang="de"/>
+                            <author role="scribe"><persName ref="per026457">Johann Jakob Scheuchzer</persName>, Landschreiber</author>
+                            <filiation type="current">Original</filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><material>Papier</material></support>
+                                <extent><dimensions type="leaves">
+                                        <height unit="cm" quantity="36.0"/>
+                                        <width unit="cm" quantity="22.5"/>
+                                    </dimensions></extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <sealDesc>
+                            <seal xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" n="1"
+                                nontei:material="papered seal" nontei:shape="round"
+                                nontei:attachment="applied" nontei:condition="well-preserved">
+                                <persName role="sigillant">Johann Jakob Füssli</persName>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate when="1766-04-09"/></origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term ref="key003412">Ausstand</term>
+                    <term ref="key004966">Gemeinde</term>
+                    <term ref="key000036">Vogtei</term>
+                    <term ref="key000555">Wahlen</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="1" facs="StArZH_VI_WP_A_9_86_01"/>
+                        <p>
+                            <seg><lb/>Zuwüssen und kund seye in krafft dieseres <lb/>instruments,
+                                daß ein ehrsamme <orgName ref="org007945">gemeind <placeName
+                                        ref="loc010875">Wipkingen</placeName></orgName>
+                                <lb/>bey letst gehaltener gemeind und darbey vorgefallener ge<lb
+                                    break="no"/>schwohrnen wahl des ausstands halber sich dahin
+                                verglichen, <lb/>daß so wohl für den gegenwärthigen als alle
+                                zukönfftigen fähl <lb/>bey allen gemeinds anlääßen und den darbey
+                                    vorkommen<lb break="no"/>den wahlen der ausstand sich nicht
+                                weither als auf brüe<lb break="no"/>deren und schwägeren erstreken
+                                solle, welche verkomm<lb break="no"/>nuß sich auch an gebührendem
+                                orth geziemender maaßen <lb/>hinterbracht, und darbey gebätten, daß
+                                solche zu hinkönfftigem <lb/>verhalt cantzleyisch zu pappier
+                                gebracht, <choice>
+                                    <abbr>oberkeit</abbr>
+                                    <expan>oberkeitlich</expan>
+                                </choice> gutge<lb break="no"/>heißen und besiglet werden möchte,
+                                worinn mann zuwilli<lb break="no"/>gen kein bedenken getragen.</seg>
+                            <seg>Deßen zu gezeügnuß <lb/>ist dieseres instrument mit des
+                                hochgeachten, wohl<lb break="no"/>edelgebohrnen, wohledlen,
+                                gestrengen, vesten, frommen, <lb/>fürnehmen, vorsichtigen und weisen
+                                herren, herren <lb/><persName ref="per026455">Johann Jacob
+                                    Füssli</persName>, stadthalter, zunfftmeister und des
+                                <lb/>inneren raths hoch <choice>
+                                    <abbr>lob<hi rend="sup">n</hi></abbr>
+                                    <expan>loblichen</expan>
+                                </choice> stands <placeName ref="loc000065">Zürich</placeName> und
+                                der zeith wohl<lb break="no"/>regierenden herren amts obervogt der
+                                    <placeName ref="loc010140">IV Wachten</placeName> und zu
+                                    <lb/><placeName ref="loc010875">Wipkingen</placeName>,
+                                wohlanerbohrnem ehren einsigel (jedoch <lb/><abbr>ungnhhrn</abbr> an
+                                dero dieser gegend beherrschenden ober<lb break="no"
+                                />vogtey-herrlichkeit ohnvergriffen, deßgleichen hochehren<lb
+                                    break="no"/>gedachtem herren besigler und deßelben erben ohne
+                                    <pb n="2" facs="StArZH_VI_WP_A_9_86_02"/>
+                                <lb/>schaaden) bekräfftiget und geben auf den <origDate
+                                    when="1766-04-09">9<hi rend="sup">ten</hi> aprilen, <lb/>als
+                                    mann von der gnaden reichen gebuhrt unsers erlösers
+                                    <lb/>gezehlet ein tausend sieben hundert sechszig <choice>
+                                        <abbr>u</abbr>
+                                        <expan>und</expan>
+                                    </choice>
+                                    <lb/>sechs jahr</origDate>.</seg></p>
+                        <p>Landschreiber <persName ref="per026457">Scheuchzer</persName>
+                        </p>
+                    </div>
+                    <pb n="3"/>
+                    <pb n="4" facs="StArZH_VI_WP_A_9_86_04"/>
+                    <div>
+                        <ab type="dorsal" place="verso">
+                            <lb/>Verkommnuß <lb/>einer ehrsammen <orgName ref="org007945">ge<lb
+                                    break="no"/>meind <lb/><placeName ref="loc010875"
+                                    >Wipkingen</placeName></orgName>
+                            <lb/>wegen <lb/>dem ausstand. <lb/>Datiert, den <origDate
+                                when="1766-04-09">9<hi rend="sup">ten</hi> aprilis <lb/>anno
+                                1766</origDate>. </ab>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

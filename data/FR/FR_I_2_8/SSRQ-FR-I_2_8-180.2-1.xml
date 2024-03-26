@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-180.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 155–156</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 155–156</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsbeth Müller – Verhör</head>
+					<head xml:lang="fr">Elsbeth Müller – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1663-10-22"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="155"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1663-10-22">22 <foreign xml:lang="la"><choice><abbr>8bris</abbr><expan>octobris</expan></choice></foreign> 1663</origDate></p>
+						<p><seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><persName ref="per026329a.01">Schrötter</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per026328a.01">Fywa</persName></seg></p>
+						<p><seg><lb/><persName ref="per026789a">Elsbeth Müller</persName> zu <placeName ref="loc001276.05">Lotswyl</placeName>, ein <time dur-iso="PT30M">halbe stundt</time> ob <placeName ref="loc001262">Langen<lb/>thal</placeName>
+							gebürthig, so vo<subst><del>n</del><add place="overwritten">m</add></subst> <subst><del>dem</del><add place="inline">jüngst</add></subst> hingerichten <persName>Davidt
+								<lb/>Lazar Schmidt</persName><note>Der Schreiber irrte sich beim Nachnamen: Er meinte wohl <persName ref="per026787">David (Lazarus) Lässer</persName>.</note> alß ein <term ref="lem007356">unholdin</term> angeben und in <term ref="lem004405">banden</term>
+						<lb/>deßwegen gezogen. Auch darüber grichtlich examiniert
+							<lb/>worden, hat ihren <term ref="lem010216.03">zunammen</term> anfänglich nit wüssen
+							<lb/>wollen und <term ref="lem011468.03">bekhendt</term>, daß ihr vatter <persName ref="per026790">Moritz</persName> <add place="above" type="sign">und ihr mutter <persName ref="per026791a">Styni</persName></add> geheißen
+							<lb/>haben. <add place="above">Er</add> seye ein <term ref="lem007232.04">weltscher</term> <term ref="lem001410.17">krämmer</term> geweßen, wüsse
+						<lb/>ihre zunammen nit eigentlich anzugeben.</seg> <seg>Wytters
+							<lb/>hat sie <term ref="lem015124">erhalten</term>, sich in allhießiges <term ref="lem003769.12">gebüeth</term> vor
+							<lb/><date dur-iso="P8Y">8</date>, <date dur-iso="P9Y">9</date> oder <date dur-iso="P10Y">10 jahren</date> <term ref="lem017924">retiriert</term> unnd hin und wider
+						<lb/>sich uffgehalten zu haben. An jetzo seye sie hinder
+						<lb/><placeName ref="loc007595.02">Plaffeyen</placeName> <subst><del>by der <placeName ref="loc008832.02">Sagen</placeName></del><add place="above" type="sign"><placeName ref="loc008833.02">uff
+							der Furren</placeName> in des oberen <term ref="lem001743.01">müllers</term> huß</add></subst> säßhafft gewesen, allwo
+							<lb/>sie <subst><del>sich</del><add place="inline">mit</add></subst> <term ref="lem019368.02">läbkuochen</term> gewerkt und mit ihrer arbeit
+							<lb/>sich bestmöglich <term ref="lem018213.02">ußge<subst><del>zogen</del><add place="above">bracht</add></subst></term>.</seg> <seg>Sagt, sye durch die
+								<lb/><choice><abbr>hh</abbr><expan>herren</expan></choice> <term ref="lem016504.04">jesuiteren</term> <term ref="lem019537.02">catholisiert</term> worden, will aber deren
+						<lb/>nammen in particulari nit wüssen. Item hat <term ref="lem016814">vermeldt</term>,
+								<pb n="156"/><lb/>habe zu <placeName ref="loc008037.04">Wuniwyl</placeName> vor <date dur-iso="P2Y">zwey jahren</date> uff <term ref="lem000155.05">osteren</term>
+							<lb/>und letstlich vor <date dur-iso="P3W">3 wuchen</date> zu <term ref="lem016504.04">jesuiteren</term> gebeichtet.
+						<lb/>Volgendts habe sie empfangen, waß andere empfangen
+						<lb/>und yngenommen haben. Hat also den mangel ihrer
+						<lb/>fürgebner catholisation<!-- Freiburger Wortschöpfung, habe ich nicht getagt -->, wylen sie nit andtwortten
+								<lb/>khünnen, waß sie in der <term ref="lem011881.02">communion</term> empfangen
+						<lb/>wie zuglych, daß sie den <term ref="lem004908.01">Englischen gruß</term> nur
+						<lb/>halb betten khan, <subst><del>ang</del><add place="inline">an tag</add></subst> geben.</seg> <seg>Endtlichen
+							<lb/>hat sie <term ref="lem011468.03">bekhent</term>, sie sye vor ungefährlich <date dur-iso="P14Y">vierzehen
+						<lb/>jahren</date> in diße <term ref="lem011913.05">bottmässigkheit</term> khommen, habe
+						<lb/>zu <placeName ref="loc001276.06">Lotzwyl</placeName>, von dannen sie gebürtig ist, den <persName>Hannß
+							<lb/>Müller</persName>, ihren vetteren und <term ref="lem007205.08">grichtsässen</term> daselbsten,
+						<lb/>gekhent, will aber nochmahlen den zunammen
+							<lb/>ihres vatters und mutter, wylen sie <add place="above" type="sign">noch ein</add>, <measure type="age" unit="year" quantity="2">zwey jährig</measure>
+						<lb/>geweßen, da ihr vatter gestorben, nit wüssen.
+						<lb/>Thut sich <choice><abbr>ü g</abbr><expan>üwer gnaden</expan></choice> empfehlen.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

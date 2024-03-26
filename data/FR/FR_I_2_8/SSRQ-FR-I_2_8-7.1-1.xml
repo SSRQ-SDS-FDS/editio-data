@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2018-12-12"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-7.1-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 4, S. 52–54</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 4, p. 52–54</idno>
+					</msIdentifier>
+					<head xml:lang="de">Glauda Perrottet – Verhör und Urteil</head>
+					<head xml:lang="fr">Glauda Perrottet – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1521-02-25" to="1521-02-28"></origDate>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="52"/><p><lb/><origDate when="1521-02-25">Sur le xxv<hi rend="sup">e</hi> jour de feuvrier <foreign xml:lang="la">anno <abbr>etc</abbr> xxi<hi rend="sup">o</hi></foreign></origDate>, en
+							<lb/><choice><abbr>pnce</abbr> <expan>presence</expan></choice> de <term ref="lem017499.02">pourveables</term>, saiges et discretz <persName ref="per010088a">Fridli
+							<lb/>Marti</persName>, <persName ref="per010089a.01">Wilhelm Schwytzer</persName>, <persName ref="per010090a.01">Hanns Guglemberg</persName>,
+							<lb/>conseillieur, <persName ref="per010093a.02">Cunrad Mertz</persName> et <persName ref="per010085a.01">Jheronimus Mertz</persName>,
+							<lb/>bourgeois, et <persName ref="per010091a.01">Jacob Werli</persName>, <term ref="lem014993.04">grossouttier</term> de la
+							<lb/>ville de <placeName ref="loc001060.04">Frybourg</placeName><note>Le Besatzungsbuch pour l’année 1520–1521 indique pourtant que, cette année, c’est <persName ref="per010092a.01">Caspar Seyler</persName> qui est <term ref="lem014993">grand sautier</term>. Peut-être Jacob Werli n’est-il que son lieutenant&#160;? En revanche, c’est bien Jacob Seiler qui est
+							mentionné comme <term ref="lem014993">grand sautier</term> dans le Besatzungsbuch de 1521–1522, le nom de famille Seiler devant être compris comme un alias de Werli.</note>, a <term ref="lem014868.04">regicqui</term> <subst><del>Glauda</del>
+								<lb/><add place="below"><persName><sic>Glaudo</sic></persName></add></subst><note>La correction faite par le greffier est curieuse. Il s’agit bien de
+							<persName>Glauda Perrottet</persName>.</note> femme du <persName ref="per009723a.01">Grand Nicco Perrottet</persName>&#160;:</p>
+						<p><lb/>Que y ly az environ <date dur-iso="P2Y">deux ans</date> qu’elle az ehuz
+							<lb/>affayre touschant le <term ref="lem019539.07">pechyé</term> de luxure avecque
+							<lb/>le <persName ref="per009725">Petit Nicco Perrottet</persName>, frere de sondit mari, lequelz
+							<lb/>a esté en la <term ref="lem017043.04">secta</term> avecque elle.
+							<seg><lb/>Item <hi rend="framed"><persName>Glaudo Morelz</persName></hi> son complice luy <term ref="lem015635.07">baillia</term>
+							<lb/>une <term ref="lem014919.02">bueytti</term> d’<term ref="lem014920.02">ognyement</term>, et ilz luy <term ref="lem014913.03">oinsist</term>
+							<lb/>une <term ref="lem014921.02">sosle</term> a troys jambes qu’elle avoit, et quant
+							<lb/>ilz ehust <term ref="lem014913.05">oint</term> les jambes de ladite <term ref="lem014921.02">sosle</term>, la <term ref="lem014921.03">sosla</term>
+							<lb/>la porta en la <term ref="lem017043.04">secta</term>, ver la fontanna dez
+								<lb/><placeName ref="loc011701.01">Assilliettes</placeName>, et quant elle ly fust, elle ly trouva
+							<lb/>ses complices <persName>Girard Pappoux</persName>, <persName><choice><abbr>Vullie</abbr> <expan>Vullieme</expan></choice>
+							<lb/>Gobet</persName>, <persName>Pierro Ruppon</persName>, <persName>Nicco Rolz</persName> et d’aultres
+							<lb/>qu’elle ne cognoissoit pas.</seg>
+							<seg>Et son <term ref="lem019555.05">maistre</term> <del>ung</del>
+									<lb/>nommé <persName ref="per029418a">Rollet</persName>, qui estoit vestu de noyr, luy <term ref="lem015635.07">baillia</term>
+									<lb/>de l’argent, et quant elle regarda ledit argent, ilz <subst><del>net</del><add place="inline">ne fust</add></subst> que <term ref="lem018302.05">follies</term> de <term ref="lem016908.02">chasne</term>.<note>Le début de ce passage est signalé par un trait, destiné à le détacher de l’aveu précédent, s’agissant vraisemblablement de marquer un retour à la ligne omis.</note></seg></p>
+						<p><lb/><origDate when="1521-02-26">Sur le mardi xxvi jour de feuvrier <foreign xml:lang="la">anno <abbr>etc</abbr> xxi<hi rend="sup">o</hi></foreign></origDate>,
+							<lb/>en <choice><abbr>pnce</abbr> <expan>presence</expan></choice> de <term ref="lem017499.02">pourveables</term>, saiges et discretz <persName ref="per010094">Wilhelm
+							<lb/>Arsent</persName>, <persName ref="per010088a">Fridli Marti</persName>, <persName ref="per010087a.01">Jacob Techterman</persName>, <persName ref="per010089a.01">Wilhelm Schwytzer</persName>,
+							<lb/><persName ref="per010084a.01">Marti Ramuz</persName>, <del><persName>Hanns Lanther</persName></del> <persName ref="per010093a.02">Cunrad Mertz</persName> et
+							<lb/><persName ref="per010085a.01">Jheronimus Mertz</persName>, a <term ref="lem014868.04">regicqui</term>
+							<lb/>ladite <persName ref="per009724a">Glauda</persName>&#160;:</p>
+						<p><lb/>Que le commencement quant elle venist
+							<lb/><term ref="lem014908.02">voudeysa</term> fust par ung inconvenient qui luy
+						<pb n="53"/><lb/>advenist&#160;: son mari estoit allé au boix et
+							<lb/>luy avoit ditz que quant elle seroit <term ref="lem014922">deujounee</term>,
+							<lb/>elle ly devoit aller et ainsin qu’elle fust
+							<lb/><subst><del>dej</del><add place="inline"><term ref="lem014922">deujounee</term></add></subst>, elle <term ref="lem014923">appleya</term> son <term ref="lem015610.05">cher</term> et ly
+							<lb/>alla par les chemin. La <term ref="lem014924.02">rua</term> de son <term ref="lem015610.05">cher</term>
+							<lb/><term ref="lem014930">sallit</term> fur <subst><del>et avoit a fere a la remectre, et
+								<lb/>quant elle fust plus oultre, le <term ref="lem018923.06">beuffz</term> de son <term ref="lem015610.05">cher</term>
+							<lb/>butta la corna en la terre a grand peyne
+							<lb/>et ne le pouvoit pas tirir fur. La venist ung
+							<lb/>homme vestu de noyr qui ly dist que se elle le
+								<lb/>voulloit croyra, qu’ilz lay luy ay </del><add place="above">du <term ref="lem015610.05">cher</term></add></subst>. Et aprés le
+							<lb/><term ref="lem018923.06">beuffz</term> fitza une corne en la terre que <subst><del>elle</del><add place="inline">ilz</add></subst> ne
+							<lb/>pouvoit pas <term ref="lem014926">trere</term> fur. La venist ung homme
+							<lb/>vestu de noyr qui luy va disre que quant
+							<lb/>elle le vouldroit croyre et se donner a luy,
+							<lb/>qu’ilz luy ayderoit. Et elle luy respondist qu’elle
+							<lb/>avoit ung aultre <term ref="lem019555.02">mestre</term>. Et ilz luy dist&#160;: <q>&#160;Tu
+							<lb/>t’en repentras&#160;!&#160;</q> Et ledit homme alla son chemin
+							<lb/>devant. Et quant elle fust plus oultre atout
+							<lb/>son <term ref="lem015610.05">cher</term>, la va <term ref="lem014925">chesir</term> sondit <term ref="lem018923.06">beuffz</term> sur le
+							<lb/>joux devant en traver, que ilz ne soy pouvoit
+							<lb/>pas lever, et ledit homme de noyr vestu, <del>luy crye</del>
+							<lb/><add place="inline">qui estoit</add> au devant, luy crye que se elle vouloit
+							<lb/>fere ce qu’ilz luy diroit, ilz luy ayderoit a lever
+							<lb/>ledit <term ref="lem018923.06">beuffz</term>&#160;; et elle ly consentit. Et luy fist a <term ref="lem019541.05">renoyer</term>
+							<lb/>Dieu, et luy promist de luy ayder et de luy <term ref="lem015635.22">bally</term>
+							<lb/>de l’argent, et luy dist qu’ilz estoit l’<term ref="lem017091.03">ennemy de
+							<lb/>nature</term>, et luy fist a promectre que quant ilz la
+							<lb/>desmanderoit, qu’elle fusse ce qu’ilz luy disroit,
+							<lb/>maix aprés ledit <term ref="lem018923.07">beuff</term> fust mort.</p>
+						<p><lb/>Item son <term ref="lem019555.05">maistre</term> luy <term ref="lem015635.07">baillia</term> du <term ref="lem014886.02">pusset</term> et auxi a ses
+							<lb/>complices et le <term ref="lem014917.02">segnasrent</term> ver la fontanna des <placeName ref="loc011701.01">Assilliettes</placeName>
+							<lb/>en ung <term ref="lem015035.03">pasquyer</term>, maix y pleut celle nuyt et ne porta
+							<lb/>riens de domaige.
+						<seg><lb/>Item elle et ses complices ont faitz la <term ref="lem018102.02">gresle</term> ver la
+							<lb/>fontanna dez <placeName ref="loc011701.01">Assilliettes</placeName> et feroent l’eau atout ung
+							<lb/>batonnet blanc.</seg>
+						<seg><lb/>Item quant ilz allavant en la <term ref="lem017043.04">secta</term>, ilz ne pouvoent
+							<lb/>pas passer la croysa du chemin.</seg>
+							<seg><lb/>Item leur <term ref="lem019555.05">maistre</term> les fesoit en la <term ref="lem017043.04">secta</term> a dansiz
+							<lb/>et a souttar.</seg>
+							<seg><lb/>Item quant ilz s’en devoent en alla, ilz <term ref="lem016299.02">cuydivant</term>
+							<lb/>estre en ung plan, et ilz soy trouvavant en ung
+							<lb/>bosson plain d’espines, a grand peynne qu’ilz pouvoent
+							<lb/><term ref="lem014930">sally</term> hors.</seg>
+						<pb n="54"/><seg><lb/>Item ainsin que percidevant l’on l’avoit prins et elle
+							<lb/>eschappa, son <term ref="lem019555.05">maistre</term> la venist trouvar dessus
+							<lb/><placeName ref="loc008495.02">Villaranom</placeName> et luy dist comant elle soy portare,
+							<lb/>et qu’elle avoit preu faitz qu’elle estoit eschappé.</seg>
+						<seg><lb/>Sont ses complices <persName>Pierre Cagnyard</persName>, <persName>Glaudo</persName>
+							<lb/>et <persName>Pierro Rospra</persName>, freres de <placeName ref="loc007663">Sorens</placeName>. Item la seur
+							<lb/>de <persName>Glaudo Rospra</persName>, <persName>Pierro Morelz</persName>, <persName>Pernetta Rolz</persName>,
+							<lb/>femme de <persName>Vullieme Rolz</persName> de <placeName ref="loc007663">Sorens</placeName> et <persName>Jacquetta</persName>,
+							<lb/>femme d’<persName>Antheno Gruyery</persName>.</seg></p>
+						<p><lb/><sic>Uff donstag</sic><note>Ces mots sont alignés sur la gauche, sous les items du haut, mais le greffier a souhaité rédiger la sentence à part et a reformulé ces mots, sans les biffer ici, un peu plus bas, avec la suite de la sentence, et en les alignant sur la droite.</note></p>
+						<p><lb/><origDate when="1521-02-28">Uff donstag <foreign xml:lang="la">xxviii<hi rend="sup">a</hi> februarii</foreign> 1521</origDate>
+							<lb/>ist die obgemeldt <persName ref="per009724a">Glauda</persName>
+							<lb/>zů <term ref="lem011474.01">verbrennen</term> verurteyllt worden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

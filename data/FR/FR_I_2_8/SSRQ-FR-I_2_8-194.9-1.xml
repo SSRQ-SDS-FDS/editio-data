@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-194.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 223 (1672), S. 514</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 223 (1672), p. 514</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Gindroz-Verdon – Anweisung</head>
+					<head xml:lang="fr">Catherine Gindroz-Verdon – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1672-11-28">28 <foreign xml:lang="la">novembris</foreign> [1672]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangne</p>
+						<p><lb/><persName ref="per026989a">Catherine Verdons</persName>, wider dießelbe erschynen die <term ref="lem004002.09">uß<lb break="no"/>geschoßne</term>
+							von <placeName ref="loc007648">Dompierre</placeName>, bitten im vahl sie in khein <term ref="lem016794.03">be<lb break="no"/>kandtnus</term>
+							tretten unnd <term ref="lem009657">gelediget</term> werde solte, selbige
+							<lb/>von ihnen zu entfernen. <abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026537">Hans Jakob Python</persName>.</note> verhöre
+						<lb/>des <abbr>h</abbr> <persName>Ammans</persName> magd über daß, so die gefangne ihren
+						<lb/>gesagt haben soll. Namblich, daß wan sie zur <term ref="lem016794.09">bekhandtnus</term>
+						<lb/>genötiget werde, sie wohl andere angeben werde. Be<lb break="no"/>findt sich dis also, <subst><del>v</del><add place="overwritten">f</add></subst>ahre <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term>
+							mit dem ½ <term ref="lem018237.01">zent<lb break="no"/>ner</term> führ unndt werde sie <term ref="lem016507">geschoren</term> unnd ihrn ein anders
+						<lb/><term ref="lem003602.02">benediciertes</term> khleid angezogen. Im widrigen referat.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

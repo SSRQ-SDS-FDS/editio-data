@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-38-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.14.001, fol. 373v</idno>
+     </msIdentifier>
+     <head>Couples mariés et investissements dans un bien-fonds</head>
+     <msContents>
+      <summary>Lorsqu’un couple marié a procédé à des rénovations ou améliorations d’un bien-fonds
+       appartenant à l’un ou l’autre conjoint en propre, lui ou ses héritiers n’en doivent pas
+       dédommager les autres parties, par exemple lors d’une succession.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1600-02-28" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term></term>
+     <term ref="key005098"></term>
+     <term ref="key000376"></term>
+     <term ref="key005000"></term>
+     <term ref="key004770"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key005032"></term>
+     <term ref="key004428"></term>
+     <term ref="key004428"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="373v" facs="AVN_B_101.14.001_0373v"/> 
+     <div>
+      <head>
+       <add place="left margin"><lb/>Touchant les refactions
+        <lb/>et reparations que deux
+        <lb/>mariez font par ensemble
+        <lb/>en maison et possession.</add>
+      </head>
+       <p>
+        <lb/>Par declaration du <lb/><origDate when="1600-02-28" calendar="Julian">dernier de febvrier <hi
+         rend="underline">1600</hi></origDate>, rendue à <lb/>l’instance d’<choice>
+        <abbr>honn</abbr>
+        <expan>honnorable</expan>
+       </choice>
+        <persName ref="per010429">Niclaus Bonjour</persName>, <lb/>bourgeois &amp; du <orgName ref="org003785">Conseil du
+        Landeron</orgName> demande <lb/>declaration d’un poinct de coustume touchant <lb/>deux
+       personnes conjoinctes par mariage qui <lb/>font à faire quelque muraille,
+        <term ref="lem016363.02">meillorance</term>, <lb/>refaction et augmentement en une vigne ou <lb/>autre
+       possession ou quelque bastiment et <lb/>refaction en une maison appartenant à l’un <lb/>ou à
+       l’autre des deux mariez. Assavoir <lb/>si celuy à qui appartient le fond ou les
+       <lb/>heritiers sont tenus de faire payement ou <lb/>recompences à l’autre partie ou à ses
+       <lb/>heritiers de la moitié ou autre portion de <lb/>la valleur. </p>
+      <p>
+       <lb/>A esté declaré et rapporté que la coustume <lb/>usitée par le passé au faict que dessus
+       a esté et <lb/>est encore telle <term ref="lem017830.02">riere</term> ceste Ville &amp; Comté que de tels <lb/>bastiments
+        <term ref="lem016363.03">meillorances</term> &amp; refactions que personnes <lb/>conjoinctes
+       en mariage, font à faire par ensemble, soit <lb/>en maison, vigne, champ, prel ou autre
+       possession dont <lb/>le font appartient particulierement à l’un des deux, <lb/>celuy à qui le
+       fond appartient et demeure ou ses heritiers <lb/>ne sont tenus d’en faire aucune recompence
+       ny <lb/><choice>
+        <abbr>payem<hi rend="sup">t</hi></abbr>
+        <expan>payement</expan>
+       </choice> à l’autre partie ny à ses heritiers.<note>Sans signature.</note>
+      </p>
+      </div>
+    </body>
+    <back>
+     <div>
+      <p>Ce point de coutume est cité dans les points <ref target="urn:ssrq:SDS-NE-3-91-1">SDS NE 3 91-1</ref> et <ref target="urn:ssrq:SDS-NE-3-337-1">SDS NE 3 337-1</ref>.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-197.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 419–422</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 419–422</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Andrey-Centlivres – Verhör</head>
+					<head xml:lang="fr">Clauda Andrey-Centlivres – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1676-07-01"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="419"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, le <origDate when="1676-07-01">1<hi rend="sup">er</hi> juillet <hi rend="underline">1676</hi></origDate></p>
+						<p><seg><lb/>Herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> hauptman <persName ref="per026365a.05">Hanns Peter Vonderweidt</persName>, <abbr>h</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.02">Frantz Prosper Python</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per026120a.03">Johan Rämy</persName>, <abbr>h</abbr> <persName ref="per026549a.02">Schröter</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026541a.02">Kesler</persName>, <abbr>h</abbr> <persName ref="per026560a.01">Buman</persName>, <abbr>h</abbr> <persName ref="per026532a.02">Werli</persName> stathalter</seg></p>
+						<p><lb/><persName ref="per019871b.04">Claudaz Centlivres</persName>, en suitte de la sentence souveraine
+							<lb/>d’aujourd’huy questionnée et <term ref="lem019548.06">eslevée</term> trois fois à la
+						<lb/><term ref="lem018231">corde</term> avec le demy <term ref="lem018232">quintal</term> aux pieds, a faict
+						<lb/>ses declarations assés confusement, et au commencement
+							<lb/>beaucoup varié dans ses <term ref="lem019465.02">confessions</term> et negatives,
+						<lb/>mais ayant le tout recueilli et mis en ordre
+						<lb/>le mieux à moy possible, sont telles que suivent.</p>
+						<p><lb/>Premierement ne voulloit <term ref="lem015549.01">confesser</term> d’estre <term ref="lem019389.02">sorciere</term> que depuis
+						<lb/><date dur-iso="P1Y">un an</date>, mais enfin ayant esté convaincue par de ses
+							<lb/>autres <term ref="lem019465.02">confessions</term>, qu’elle l’estoit de plus loing.</p>
+						<p><lb/>A <term ref="lem015549.07">confessé</term> qu’il y a <date dur-iso="P14Y">quatorze ans</date> qu’elle a esté solli<lb break="no"/>citée par le <term ref="lem017521">diable</term>, en forme de jeune homme,
+						<lb/>auprès de <placeName ref="loc008113.02">Chesopeloz</placeName> lieu dict <placeName>La Courta</placeName><!-- Ort --> (se
+						<pb n="420"/><lb/>lamentant et desolant de sa pauvreté et des mauvais
+						<lb/>traictements et despenses de son mari), de se donner
+						<lb/>à luy. Auquel ayant demandé qui il estoit, luy
+						<lb/>respondit qu’il estoit le <term ref="lem017521">diable</term>, surquoy, ayant faict
+						<lb/>le signe de la croix, se retira. Et quelque peu après
+						<lb/>se rapprochant à elle jusques à la troisiesme fois,
+						<lb/>luy promettant de luy donner assés d’argent,
+						<lb/>pourveu qu’elle <term ref="lem019541.13">reniat</term> le bon Dieu et le prit pour
+							<lb/>son <term ref="lem019555.05">maistre</term>. A quoy, après diverses sollicitations, elle
+						<lb/>consentit, et à l’instant le <term ref="lem017521">diable</term> la toucha de
+						<lb/>la main droicte d’une main froide, et elle sentit
+						<lb/><add place="left margin">par</add> une picqueure qu’il la <term ref="lem018895.08">marqua</term> soubs l’ongle <add place="above" type="sign">du poulce</add>. Dict
+							<lb/>n’avoir jamais <term ref="lem019541.15">renié</term> la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge, ny les saincts, ny
+						<lb/>sa part de paradis.</p>
+						<p><lb/>Après ceste abnegation, dict
+						<lb/>le <term ref="lem017521">diable</term> luy avoir donné de la <term ref="lem018383.02">poussiere</term> dans
+						<lb/>du papier, pour d’icelle <term ref="lem019478.01">infecter</term> et faire mourir
+						<lb/>du bestail par trois differentes fois. La premiere
+						<lb/>fois la jetta dans l’eau, la seconde au <term ref="lem019529.01">feu</term>, ou elle
+						<lb/>fist un esclat, la 3<hi rend="sup">me</hi> la garda et en mitt sur un
+						<lb/>jeune <term ref="lem019234.03">couchon</term>, ne sçachant s’il mourut. A <term ref="lem015549.07">confessé</term>
+						<lb/>d’avoir esté quatre ou cinq fois seulement à la <term ref="lem017043.01">secte</term>
+						<lb/>et n’y avoir cogneu personne, puisqu’ils estoyent
+						<lb/>tous masqués, et n’y en avoit qu’environ dix, n’y
+						<lb/>ayant jamais rien porté, ny mangé, ny dansé,
+						<lb/>ains simplement regardé les autres qui dansoyent
+						<lb/>au son du violon, que leur menoit le <term ref="lem017521">diable</term>
+							<lb/>en forme de grand <term ref="lem019402.01">bouc</term> noir. Dict le <term ref="lem017521">diable</term>
+						<lb/>ne l’avoir jamais battue, ny donné autre nom
+							<lb/>particulier à son <term ref="lem019555.05">maistre</term> que le sien.</p>
+						<p><lb/>En outre a declaré avoir esté quitte <date dur-iso="P7Y">sept</date> ou <date dur-iso="P8Y">huict ans</date>
+						<lb/>des sollicitations et poursuittes diabolicques, après avoir
+							<lb/>eu <term ref="lem019463.06">confessé</term> son <term ref="lem019494.01">crime</term> à feu domp <persName>Jacques de Bifoz</persName>
+						<lb/>en des grands pardons et indulgences, mais qu’il y
+						<lb/>aurat bientost <date dur-iso="P1Y">un an</date>, que cueillant et couppant
+							<lb/>des <term ref="lem018831.02">biolles</term> auprès du moullin <unclear>affaucaz</unclear><!--ou à Ffaucaz ou Ffaucon???-->, le <term ref="lem018943.02">demon</term>
+						<lb/>luy rapparut, à cause qu’elle se desoloit et mal<lb break="no"/>menoit, de ce que, que l’on avoit marié sa fillie
+						<pb n="421"/><lb/>à son insceu, et qu’en ses nopces il luy avoyent tout
+						<lb/>dissipé ce qu’elle avoit ramassé des charités des gens
+						<lb/>de bien, et luy prometteroit assistance et de luy donner
+						<lb/>d’argent à son besoing, ce que jamais n’a faict&#160;; vray
+						<lb/>est qu’il luy <add place="above" type="sign">en</add> at donné quelquesfois, mais qu’il ne
+						<lb/>se trouvoit que des <term ref="lem018302.03">fueilles</term>.</p>
+						<p><lb/>Nie d’avoir donné les <term ref="lem017091.06">ennemis</term> aux enfants du tuillier,
+						<lb/>sinon à <persName>Marguerite</persName> par le moyen du pain qu’elle
+							<lb/>luy donna une fois <term ref="lem019478.02">infecté</term> <add place="left margin" type="sign">en inten<lb break="no"/>tion de luy <lb/>donner les <lb/><term ref="lem015433.17">malins esprits</term></add>, ne sçachant si elle
+						<lb/>en a donné à ses frere et soeur, et que c’est par
+						<lb/>vengeance de ce que son pere et sa mere avoyent
+						<lb/>contribué au mariage de sa fillie.</p>
+						<p><lb/>Mais quant aux enfants de <persName>Brodard</persName>, nie entierement
+						<lb/>de les avoir <term ref="lem018556.05">maleficiés</term>.</p>
+						<p><lb/>A <term ref="lem015549.07">confessé</term> que lors qu’elle estoit <term ref="lem018832.02">pastausa</term> à <placeName ref="loc007881.04">Cormin<lb break="no"/>beuf</placeName>, elle a frotté sa verge de <term ref="lem018382">graisse</term> que le
+						<lb/><term ref="lem017521">diable</term> luy avoit donné pour faire mourir du
+						<lb/>bestail.</p>
+						<p><lb/>Plus d’avoir battu d’une verge de <term ref="lem015341.02">caudra</term>, frottée
+							<lb/>dedite <term ref="lem018382">graisse</term>, un <term ref="lem018921.02">cheval</term> de <persName>Bendicht Otti</persName>, qui mourut.
+						<lb/>Davantage <term ref="lem015549.13">confesse</term> d’avoir menacé <persName>Peter Angeloz</persName>,
+						<lb/>lors qu’il charrioit du bois que son mari avoir vendu.
+						<lb/>Et qu’en suitte <subst><del>il</del><add place="overwritten">elle</add></subst> frotta son <term ref="lem018833.01">escourgeé</term> ou fuet
+							<lb/>dedite <term ref="lem018382">graisse</term>, et qu’un sien <term ref="lem018921.02">cheval</term> mourut.</p>
+						<p><lb/>Item d’avoir mis la main sur un jeune <term ref="lem015442.06">poullain</term> dudit
+							<lb/><persName>Angeloz</persName> et <term ref="lem019525.04">soufflé</term> contre, lequel est peu après
+						<lb/>mort.</p>
+						<p><lb/>Nioit tousjours d’avoir <term ref="lem019478.02">infecté</term> la <term ref="lem017507.01">vache</term> de <persName>Jacques
+							<lb/>Dupui</persName>, mais à la fin, a <term ref="lem015549.07">confessé</term> luy avoir <term ref="lem019525.04">soufflé</term>
+						<lb/>contre, parce qu’<subst><del>en</del><add place="overwritten">il</add></subst> ne luy donnoit assés de
+						<lb/><term ref="lem015011.04">laict</term>&#160;; et qu’elle est morte.</p>
+						<p><lb/>N’a voullu nommer ny sçavoir aucuns complices.
+						<lb/>Au commencement, touchant les <term ref="lem018555.03">malefices</term> des enfants
+						<lb/>de <persName>Brodard</persName>, insinuoit qu’on se debvoit informer
+						<lb/>de la <persName>Motteta</persName>, qui demeure au <placeName>Criblet</placeName><note>L’identification du lieu est incertaine. Il existe de nombreux toponymes de ce type dans le canton de Fribourg, mais selon les autres mentions
+								de lieux faites dans le procès, il pourrait s’agir du <placeName ref="loc012853.01">Criblet</placeName>.</note>, mais à
+					<pb n="422"/><lb/>la fin, a dict ne sçavoir aucun mal d’elle, et soustenu
+							<lb/>tant ses <term ref="lem019465.02">confessions</term> que negatives en la troisiesme
+							<lb/><term ref="lem019550.02">eslevation</term> à la <term ref="lem018231">corde</term>, demandant pardon à
+						<lb/>Dieu et à <choice><abbr>L E</abbr><expan>Leurs Excellences</expan></choice>, les priant de luy estre
+						<lb/>pytoyables.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

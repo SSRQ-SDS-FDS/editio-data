@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-106-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;214v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur le renvoi en basse justice et sa
+                  forclusion</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1553-09-01"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_228">SDS NE 1, N<hi rend="sup">o</hi>&#160;106</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005229"></term>
+               <term ref="key005189"></term>
+               <term ref="key005226"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="214v" facs="AEN_3PAST_2_214v_215r"/>
+               <div><p>  <origDate when="1553-09-01">Le premier de septembre 53.</origDate></p>
+                  <p><add place="left margin"><lb/>La partie qui demande <lb/>et obtient un relief et
+                        renvoy <lb/>en basse justice pour produire <lb/>certaines informations et
+                        <lb/>obmissions le doibt <lb/>poursuivre ou il en est <lb/>forclos et sa
+                        contrepartie <lb/>faict joyssant de son passement.</add></p>
+                  <p><lb/>Monseigneur le gouverneur ayant demandé l’advis des seigneurs des audiances
+                     generales sur la <lb/>poursuite que Collet Varnod, bourgeois de Neufchastel,
+                     luy a faicte de le faire jouyr <lb/>pleinement et paisiblement de son <term
+                        ref="lem015646">passement</term> d’audiance receu par noble Claude Bailliod
+                     daté <lb/>du <date when="1547-03-26">XXVI mars 1547</date>, obtenu contre
+                     Lienhard Darchet de Très Roz, pour ce qu’iceluy Darchet <lb/>n’a mis en
+                     execution le renvoy en basse justice que lesdicts seigneurs des audiances luy
+                     accorderent <lb/>en vertu de son grief, contenant iceluy relief que pour ce
+                     qu’il avoit dempuis trouvé tiltre <lb/>servans audicte affaire riere les
+                     seigneurs de Frybourg, ils le relevoyent et mettoyent ainsy en <lb/>ladicte
+                     inferieure justice pour ouyr icelles informations et en après de nouveau en
+                     pouvoir <lb/>cognoistre. Ils ont baillé et baillent par advis diffinitif a
+                     mondict seigneur le gouverneur qu’il <lb/>peut et doibt faire pleinement et
+                     paisiblement jouyr ledict Varnod et les siens de leurdict <term ref="lem015646">passement</term>
+                     <lb/>d’audiance sans contredict quelconque puisque ledict Darchet n’a satisfait
+                     et accompli ledict renvoy <lb/>et relief. </p></div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;214v.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;304v.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;30.</p>
+               <p>Registre des Trois-États, I, fol.&#160;40.</p>
+               <p>Éd.&#160;Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;39.</p>
+               <p>Renvoi au document N<hi rend="sup">o</hi>&#160;103.</p>            
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

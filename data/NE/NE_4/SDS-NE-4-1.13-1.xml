@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.13-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 47–51</idno>
+     </msIdentifier>
+     <head>Personnes qui peuvent être en jugement</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000304"/>
+     <term ref="key000683"></term>
+     <term ref="key004436"></term>
+     <term ref="key004437"></term>
+     <term ref="key000874"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="47" facs="AEN_MJ_17_046_047"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chapp.</abbr><expan>Chappitre</expan></choice> XIII.
+       <lb/>Des personnes qui
+       <lb/>peuvent estre en
+       <lb/>jugement.</head>
+      <p>
+       <lb/><app>
+        <lem>L’on</lem>
+        <rdg wit="AVN Q41, p. 21">On</rdg>
+       </app> se presente en justice ou <lb/>en propre personne ou par autre qui <lb/>agist <app>
+        <lem>&amp;</lem>
+        <rdg wit="AVN Q41, p. 21">ou</rdg>
+       </app> deffend a nostre nom.<note>Pas de nouveau de paragraphe dans AVN Q41.</note>
+      </p>
+      <p>
+       <lb/>Ceux qui ne peuvent estre en <choice>
+        <abbr>jugem<hi rend="sup">t</hi></abbr>
+        <expan>jugement</expan>
+       </choice>
+       <lb/>en propre personne, sont, le pupil, le <lb/>mineur d’ans, le fils qui est encores
+       <lb/>soubs la puissance de son pere, le furieux  <lb/><add place="below" type="catchword"
+        >et</add>
+       <pb n="48" facs="AEN_MJ_17_048_049"/>
+       <lb/>et celuy auquel a esté donné un <term ref="lem014768">avoyer</term>
+       <lb/>pour son mauvaix mesnage &amp; prodigalité, <lb/>la vefve, la femme mariée, sinon
+       qu’estants <lb/>assistez de leurs tuteurs, <term ref="lem014768.04">advoyers</term>, pere
+       <lb/>et mary.</p>
+      <p>
+       <lb/>L’<term ref="lem014768.01">advoyer</term> en ceste souveraineté est prins <lb/>en trois sortes, la premiere
+       pour celuy <lb/>qui a la curatelle de quelques mineurs <lb/>et orphelins, la seconde pour
+       celuy qui <lb/>a procuration de quelqu’autre, et la <lb/>tierce pour celuy qui est
+       administrateur <lb/>des negoces d’autruy.</p>
+      <p>
+       <lb/>La personne du pays qui se presente <lb/>en justice pour un autre aussy du lieu <lb/>en
+       qualité d’<term ref="lem014768.01">advoyer</term>, s’il est recognu pour <lb/>tel n’a faute
+       de procuration ou charge <lb/>par escript. Mais sy le procureur <lb/>est estranger ou la
+       partie actrice, <lb/>ou bien le <term ref="lem015651.02">rée</term> il doit estre fourny
+       <lb/>de procuration suffisante par <lb/>escript, s’il n’a reçeu le serment <lb/>d’<term
+        ref="lem014768.01">advoyer</term> en<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 22"> la</rdg>
+       </app> justice.  <lb/><add place="below" type="catchword">Il</add>
+      </p>
+     <pb n="49" facs="AEN_MJ_17_048_049"/>
+      <p>
+       <lb/>Il n’importe sy un <term ref="lem014768.01">advoyer</term> ou procureur <lb/>s’est
+       constitué des le commencement ou <lb/>avant que la cause soit contestée, ou bien <lb/>appres.</p>
+      <p>
+       <lb/>Un procureur<app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 22"> ou</rdg>
+       </app>
+       <term ref="lem014768.01">advoyer</term>, ou procureur <lb/>constitué ne peut faire pact ou
+        conven<lb break="no"/>tion avec la partie qui la prins pour <lb/><term ref="lem014768.01"
+        >advoyer</term>, d’aucune participation des biens <lb/>que pourroyent provenir de la cause
+       de <lb/>son constituant.</p>
+      <p>
+       <lb/>L’on ne peut contraindre personne <choice>
+        <abbr>cotre</abbr>
+        <expan>contre</expan>
+       </choice>
+       <lb/>sa volonté, soy occuper ou exercer l’office <lb/>et charge d’<term ref="lem014768.01"
+        >advoyer</term> ou procureur, pour <lb/>quelque partie que ce soit, sinon qu’il <lb/>eust
+        <term ref="lem017700">ja</term> accepté telle charge pour d’autres, <lb/>et sy tant n’estoit
+       qu’auparavant la <lb/>contrainte, il n’eust desja fait acte de <lb/>procureur en la
+       poursuitte de la cause <lb/>en laquelle on le veut employer, car <lb/>en cas il seroit tenu
+       de perseverer <app><lem/><rdg wit="AVN Q41, p. 22">et parachever</rdg></app> ce <lb/>qu’il auroit desja entreprins &amp; commencé, <lb/>jusques a diffinitive de
+       toute la cause.  <lb/><add place="below" type="catchword">Celuy</add>
+      </p>
+     <pb n="50" facs="AEN_MJ_17_050_051"/>
+      <p>
+       <lb/>Celuy qui respond en justice pour<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 22"> la</rdg>
+       </app>
+       <lb/>cause d’autruy et il ne fait louer &amp; <lb/>ratifier la partie que <app>
+        <lem>la</lem>
+        <rdg wit="AVN Q41, p. 22">le</rdg>
+       </app> fait atouche, <lb/>il est tenu et doibt respondre de <lb/>l’evenement de la cause,
+       comme s’il <lb/>estoit la partie principalle.</p>
+      <p>
+       <lb/>Le deffaut et <app>
+        <lem>constumacial</lem>
+        <rdg wit="AVN Q41, p. 22"><term ref="lem015976">contumace</term></rdg>
+       </app> du procureur <lb/>advoyer nuit au maistre qui l’a constitué <lb/>et ne peut venir au
+       contraire des que cela <lb/>luy est venu a notice que par revocation <lb/>&amp; <term
+        ref="lem017543.05">reliefs</term> a forme que dessus, &amp; <lb/>l’obtenant c’est aux
+       fraits de son procureur <lb/>qui aura ainsy faict deffaut ou <lb/><term ref="lem015976.04"
+        >constumace</term> par sa negligence.</p>
+      <p>
+       <lb/>Le procureur <term ref="lem014768.01">advoyer</term>, hors <choice>
+        <abbr>jugem<hi rend="sup">t</hi></abbr>
+        <expan>jugement</expan>
+       </choice>
+       <lb/>et sans procuration &amp; charge speciale <lb/>par escript ne peut obliger son maistre
+       <lb/>sans rattiffication, ce que peut <lb/>bien faire un <term ref="lem014768.01"
+        >advoyer</term> administrateur,  <lb/><add place="below" type="catchword">d’autant</add>
+       <pb n="51" facs="AEN_MJ_17_050_051"/>
+       <lb/>d’autant qu’il a charge de recepvoir <lb/>argent pour son maistre, passer <lb/>quitance
+       a son nom, administrer les <lb/>negoces et causes de sondit maistre <lb/>comme les siennes
+       propres, &amp; les <lb/>traicter et manier plus generallement <lb/>que ne fait un procureur.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

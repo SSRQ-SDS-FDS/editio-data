@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-50.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 123</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 123</idno>
+					</msIdentifier>
+					<head xml:lang="de">Tichtli Bächler-Lehmann – Verhör</head>
+					<head xml:lang="fr">Tichtli Bächler-Lehmann – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1620-06-10"><foreign xml:lang="la"><num value="10">x</num> junii</foreign> <hi rend="underline">1620</hi></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc008105">Keller</placeName><note>Die anwesenden Gerichtsherren sind ersichtlich unter <ref target="urn:ssrq:SSRQ-FR-I_2_8-50.3-1">SSRQ FR I/2/8 50.3-1</ref>.</note></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg>
+						<seg><persName ref="per009258a.01">Tichtli Leman</persName> von <placeName ref="loc007930.02">Tüzenberg</placeName>, genants
+						<lb/><persName ref="per009257a">Nicods</persName> mutter, wüsse nüt ubels, vil weniger
+						<lb/><term ref="lem001018.15">ehelüt</term>, die eins oder uneins synd, wide<lb break="no"/>umb in einigkheit oder in unneykheit ze<lb break="no"/>bringen. Wol hab sy von <persName>Guglers</persName> huß<lb break="no"/>frouwen verstanden, man sölle, ein ehe
+						<lb/>widerumb in einigkheit zebringen, ein meß
+						<lb/>uf <placeName ref="loc007920.02">Bürglen</placeName> sprechen lassen und das beth
+						<lb/>mit <term ref="lem006396.05">wiewasser</term> <term ref="lem015294.02">bschitten</term>. Könne sunst das
+							<lb/><unclear><term ref="lem016141.02">kelt wee</term></unclear> mit <term ref="lem013822.03">essich</term>, <term ref="lem000748.05">brantenwyn</term> und roß<lb break="no"/>wasser, darmit sy ein trank macht, <term ref="lem015510.02">näsen</term>.
+						<lb/>Wüsse nit, wie ir sohn <persName ref="per009256a.02">Diedtrich</persName> hab syn
+						<lb/>hußfrouw <term ref="lem015295.02">zwegen bracht</term>. Wölliches iren <add place="above" type="sign">erst</add> nach
+						<lb/>der verkündung zewüssen word.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

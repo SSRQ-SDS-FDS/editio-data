@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-150.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 176–177</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 176–177</idno>
+					</msIdentifier>
+					<head xml:lang="de">Françoise Clerc-Ayer – Verhör</head>
+					<head xml:lang="fr">Françoise Clerc-Ayer – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1650-11-15"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="176"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1650-11-15">15<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1650</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.06">Caspar von Monthenach</persName></seg>
+							<seg><lb/><abbr>J<hi rend="sup">r</hi></abbr> <persName ref="per018176a.01">Hanß Rudolff Gottrauw</persName></seg></p>
+						<p><lb/><persName ref="per020256a.01">Françoise Ahier</persName> <term ref="lem014767.02"><subst><del><unclear>feme</unclear></del><add place="overwritten">re</add></subst>lite</term> de <persName ref="per020257a.01">Jacob Cler</persName>, filie de
+							<lb/><persName ref="per020258a.01">Tuien Ahier</persName> de <placeName ref="loc007663.01">Sorens</placeName>, par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict,
+							<pb n="177"/><lb/>après avoier esté par trois <add place="above">fois</add> aplicquée à la simple <term ref="lem018231">corde</term>,
+							<lb/>examinée, ne veut sçavoier le soubject de son emprisonement,
+							<lb/>et dit n’avoier esté uncques accussée d’aulcun mesfaict. <term ref="lem015549.13">Confesse</term>
+							<lb/>bien avoier heu un enfant d’un garson qui luy avoit promis
+							<lb/>le mariage, ne l’ayant qu’une fois <term ref="lem019486">cogneu charnellement</term>, et
+							<lb/>que veritablement certaines femmes luy avoient dit q’un la voloit
+							<lb/>saissir, estant sortie d’une maladie, mais que partant, ne se
+							<lb/>trovant culpable d’aulcun mesfaict, elle ne se volut, si bien
+							<lb/>elle le pouvoit faire escarter. Assere aussi avoier dit,
+							<lb/>touchant son emprisonement à ceux qui la conduissoint,
+							<lb/>que si bien elle estoit saissie à tord, qu’il en avoit heu
+							<lb/>plusieurs d’aultres aussi, ainsi qu’elle ne sçauroit ni la
+							<lb/>premiere, ni la derniere prisonniere faicte à tord. Au
+							<lb/>reste nie tous aultres pointz propossé. Demande à Dieux,
+							<lb/>à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

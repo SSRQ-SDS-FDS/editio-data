@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-187.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 227–229</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 227–229</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madelaine Gobet-Gauderon – Verhör</head>
+					<head xml:lang="fr">Madelaine Gobet-Gauderon – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-09-01"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="227"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1665-09-01">1<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> 1665</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr><term ref="lem018540.03">amman</term><note>Gemeint ist <persName ref="per018126a">Jost Perret</persName>, der an Stelle des Grossweibels den Vorsitz übernahm.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018632a.01">Rämi</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per026329a.01">Schrötter</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem006250">venner</term> <persName ref="per026335a.01">Buman</persName>, <abbr>Hr</abbr> <term ref="lem006250">venner</term> <persName ref="per026120a.01">Rämi</persName>, <persName ref="per026077a.01">Küenli</persName>, <persName ref="per018085a.01">Adam</persName></seg>
+							<seg><lb/><persName ref="per026091a.03">Vögelli</persName>, <persName ref="per026058a.01">Progin</persName></seg></p>
+						<pb n="228"/><p><lb/><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+						<p><seg><lb/><persName ref="per026858a.02">Magdeleine Gaudron</persName>, examinée sur tous les poincts
+						<lb/>de la deposition faite contre elle et menacée d’estre
+							<lb/><term ref="lem019427.06">torturée</term> avec le demie <term ref="lem018232">quintal</term> applicqué à ses pieds,
+							<lb/>persiste dans sa <term ref="lem019465.01">confession</term> et negatifve precedente,
+						<pb n="229"/><lb/>soustenant n’estre prisonniere qu’<subst><del>e</del><add place="overwritten">à</add></subst> cause des malveillants,
+						<lb/>dit que la belle soeur de <persName>Fragnieri</persName> luy a falu faire repa<lb break="no"/>ration d’honneur pour les parolles et soubçon dont on
+						<lb/>l’accuse, que le <term ref="lem017410.02">mestral</term><del>ulx</del> <persName>Bossin</persName>
+							en donnera attesta<lb break="no"/>tion, lequel doibt avoir l’escript et acte de repara<lb break="no"/>tion entre mains, et que
+							mesmement le curé de <placeName ref="loc008141.05">Vuister<lb break="no"/>nens</placeName>, domp <persName>Jaque Romaning</persName>, l’a escript luy mesme.</seg>
+							<seg><lb/>Declaire que les <term ref="lem019234.02">couchons</term>, dont on la soubçonne, ont
+						<lb/>eu le mal appellé la <term ref="lem019241.02">clavaleiri</term>. Touchant les menaces
+						<lb/>du <term ref="lem014953.01">feu</term>, soustient que <persName>Clauda Perracqua</persName>, laquelle
+						<lb/>l’avoit accusée, luy a aussi fallu faire reparation,
+						<lb/>dans un accord fait en justice par <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le lieutenant
+						<lb/><persName>Macheret</persName> et d’autres, ou elle fust confondue et <subst><del>co</del><add place="inline">entie<lb break="no"/>rement</add></subst> condampnée. Concernant la fille qu’elle doibt
+						<lb/>avoir jettée hors de son jardin, dit que le contraire
+						<lb/>s’est trouvé dans les poursuittes ensuivies, estant ladite
+						<lb/>fille et ses accusateurs confondus dans la prononciation
+						<lb/>faite en la maison de <persName>Noé Marmoud</persName> par <persName>Antoine Bossin</persName>,
+						<lb/><persName>Jaque Dey</persName> et autres. Soustient, <subst><del>que</del><add place="inline">si</add></subst> quelcq’une
+								<lb/>l’eust appellée <term ref="lem019389.02">sorciere</term>, qu’elle l’eusse recherché
+						<lb/>par justice, protestant devant Dieu et le monde pour
+						<lb/>le tord qu’on luy fait.</seg> <seg>Dit estre toutte resolue de
+						<lb/>souffrir ce qu’il plaira au bon Dieu et à vos Ex<lb break="no"/>cellences, aux quelles elle se recommande avec ses
+						<lb/>enfants tres humblement.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

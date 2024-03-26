@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.10-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 37–39</idno>
+     </msIdentifier>
+     <head>Délais et fuites</head>
+     <msContents>
+      <summary></summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000958"/>
+     <term ref="key005117"></term>
+     <term ref="key000683"></term>
+     <term ref="key005021"></term>
+     <term ref="key004437"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="37" facs="AEN_MJ_17_036_037"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chapp.</abbr>
+        <expan>Chappitre</expan>
+       </choice> X. <lb/>Des <term ref="lem017878.02">dilations</term> &amp; <term ref="lem019562.02">fuittes</term>. </head>
+      <p>
+       <lb/><app>
+        <lem>L</lem>
+        <rdg wit="AVN Q41, p. 17">Incontinant que le<lb/> jour et l’heure de l’adjournement est
+         venu, l</rdg>
+       </app>’acteur doibt venir en <choice>
+        <abbr>jugem<hi rend="sup">t</hi></abbr>
+        <expan>jugement</expan>
+       </choice>
+       <lb/>tout instruit de sa cause et affaires qu’il <lb/>a intention de poursuivre, et partant
+       <lb/>ne doit avoir <term ref="lem017879.02">dilay</term> et <term ref="lem019562.02"
+        >fuittes</term> que pour <lb/>apparente cause et grande occasion, et <lb/>qu’en payant les
+       despends au <term ref="lem015651.02">rée</term> du jour <lb/>qu’il <term ref="lem017880.03"
+        >impetre</term> le <term ref="lem017879.02">dilay</term>, sy ce n’est pour <lb/>avoir <term
+        ref="lem016409.04">traitte</term>, et produire preuve ou <term ref="lem018689.02"
+        >guerent</term>, <lb/>ou degré de parenté.</p>
+      <p>
+       <lb/>Le <term ref="lem015651.02">rée</term> doibt avoir <term ref="lem019562.02">fuittes</term> et <term
+        ref="lem017879.02">dilay</term> jusques <lb/>au tier <term ref="lem017869.02"
+        >adjournement</term>, pour tandis deliberer <lb/>et se resouldre sur la demande de l’acteur,
+       <lb/>et le jour qu’elle se fait est compté pour <lb/>un desdits <term ref="lem017879.04"
+        >dilais</term>. <lb/><add place="below" type="catchword">Le</add>
+      </p>
+      <pb n="38" facs="AEN_MJ_17_038_039"/>
+      <p>
+       <lb/>Le deffenseur pourra comparoir en justice <lb/>durant le premier et second <term
+        ref="lem017879.02">dilay</term> pour <term ref="lem017626.06">ouyr</term>
+       <lb/>et entendre la demande de l’acteur, ou en requerir <lb/>coppie par escript, qui ne luy
+       peut estre deniée, <lb/><term ref="lem015643">ains</term> luy sera tost expediée par escript,
+       afin <lb/>qu’il se puisse resouldre sur telle demande sans <lb/>excuse au tier <term
+        ref="lem017869.02">adjournement</term><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 18">, et jour d’assignation,</rdg>
+       </app> pour y respondre, <lb/><app>
+        <lem>mais</lem>
+        <rdg wit="AVN Q41, p. 18">et touteffois</rdg>
+       </app> appres le second <term ref="lem017869.02">adjournement</term> &amp; jour
+       <lb/>d’assignation ne sera plus accordé <choice>
+        <abbr>particulierem<hi rend="sup">t</hi></abbr>
+        <expan>particulierement</expan>
+       </choice>
+       <lb/>par escript.</p>
+      <p>
+       <lb/>Et ne peut l’acteur ny le <term ref="lem015651.02">rée</term> avoir autre <lb/><term
+        ref="lem017879.02">dilay</term> des qu’ils sont entrez en cause sur la <lb/>matiere de <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 18"><choice>
+          <abbr>quelq</abbr>
+          <expan>quelque</expan>
+         </choice> chose <lb/>qui est en</rdg>
+       </app> question entr’eux, sans <choice>
+        <abbr>cognoiss<hi rend="sup">ce</hi></abbr>
+        <expan>cognoissance</expan>
+       </choice>
+       <lb/>de justice, congé du president en icelle, <lb/>ou excuse du prince, ou du gré <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 18">de</rdg>
+       </app> l’un de l’autre. <lb/>Et comme cy devant l’excuse s’obtenoit de <lb/>la souveraineté
+       appres le deffaut, il est <lb/>ordonné d’ores en avant qu’elle s’obtiendra <lb/>avant <app>
+        <lem>ledit</lem>
+        <rdg wit="AVN Q41, p. 18">le</rdg>
+       </app> deffaut, afin d’eviter fraicts &amp; <lb/>longueurs, car sy en requerant l’excuse
+       <lb/>pour s’abstenir <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 18">et absenter</rdg>
+       </app> du jour de l’assignation <choice>
+        <abbr>Monseig<hi rend="sup">r</hi></abbr>
+        <expan>Monseigneur</expan>
+       </choice>
+       <lb/>le gouverneur ou ses lieutenants ordinaires <lb/>a <placeName ref="loc007785.04"
+        >Neufchastel</placeName> et a <placeName ref="loc005950.05">Vallangin</placeName>,
+       recognoissant <lb/>que telle requeste ne soit fondée sur <lb/>juste et ligitime subject, ne
+       l’accorderont. <lb/><add place="below" type="catchword">Et</add>
+      </p>
+      <pb n="39" facs="AEN_MJ_17_038_039"/>
+      <p>
+       <lb/>Et faut noter que l’officier president <lb/>ne peut accorder qu’un congé, et <app>
+        <lem>estre</lem>
+        <rdg wit="AVN Q41, p. 18">ce</rdg>
+       </app> avec <lb/>rayson apparente, ny aussy le seigneur qu’une <lb/>excuse.</p>
+      <p>
+       <lb/><term ref="lem017879.04">Dilais</term> ne se <term ref="lem015635.04">baillent</term>
+       point pour l’absence <lb/>de cestuy ou de l’autre des jurez, ores <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>partie ou autre, <app>
+        <lem>allegants</lem>
+        <rdg wit="AVN Q41, p. 18">alleguent</rdg>
+       </app> que son <term ref="lem016298">parlier</term>
+       <lb/>n’y est present, qui est informé <app>
+        <lem>de son</lem>
+        <rdg wit="AVN Q41, p. 18">du</rdg>
+       </app> fait.</p>
+      <p>
+       <lb/>Tirer journée par devant le <orgName ref="org003098">Conseil d’Estat</orgName>,
+       <lb/>soit les parties <term ref="lem019561.03">de leur eschef</term>, ou <app>
+        <lem>pour</lem>
+        <rdg wit="AVN Q41, p. 18">par le</rdg>
+       </app> renvoy <lb/>des <term ref="lem015079.02">justiciers</term>, est non seulement pour
+       tenir <lb/>en longueur sa partie et cercher subterfuge. <lb/>Mais surtout, c’est vouloir
+       evocquer les <lb/>causes devant son prince sans authorité qui <lb/>n’appartient qu’a luy seul
+       et qui le représente, <lb/>par quoy dores en avant qui voudra avoir journée <lb/>devant le
+        <orgName ref="org003098">Conseil d’Estat</orgName>, le debvra <term ref="lem017880.02"
+        >impetrer</term>
+       <lb/>d’un <choice>
+        <abbr>seig<hi rend="sup">r</hi></abbr>
+        <expan>seigneur</expan>
+       </choice> gouverneur ou du <orgName ref="org003098">Conseil d’Estat</orgName><lb/>avant
+       attendre que le jour d’assignation auquel <lb/>il debvra comparoir en justice, tombe, car
+       <lb/>qui n’aura <term ref="lem015553"><choice>
+         <abbr>mandem<hi rend="sup">t</hi></abbr>
+         <expan>mandement</expan>
+        </choice></term> de la <choice>
+        <abbr>seig<hi rend="sup">rie</hi></abbr>
+        <expan>seigneurie</expan>
+       </choice>
+       <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> telle journée <lb/>ne la pourra ny debvra aucunement prendre <lb/>&amp; tirer des
+       la justice, ny aussy elle ne doibt <lb/>estre cognue, et s’il ne fait paroir <term
+        ref="lem015553">mandement</term>
+       <lb/>et ne respond au jour d’assignation sera procedé <lb/>contre luy par deffaut ou
+       constumax, et qui <lb/><add place="below" type="catchword">aura</add>
+       <pb n="40" facs="AEN_MJ_17_040_041"/>
+       <lb/>aura obtenu journée, &amp; ne la fait vuider dans <lb/><date dur-iso="P15D"
+       >quinzaine</date>, icelle sera nulle et revocquée s’il <lb/>n’obtient de la <choice>
+        <abbr>seig<hi rend="sup">rie</hi></abbr>
+        <expan>seigneurie</expan>
+       </choice> plus long <term ref="lem017879.02">dilay</term>, toutes<lb break="no"/>fois s’il
+       survenoit en plaidant faits nouveaux <lb/>et a l’improviste d’importance, et <choice>
+        <abbr>qß</abbr>
+        <expan>qui</expan>
+       </choice> meritassent <lb/>d’estre traitez &amp; entenduz au <orgName ref="org003098">Conseil
+        d’Estat</orgName>, <lb/>afin que tort n’en fust fait en partie ou autre. <lb/>Et pour les
+       tant mieux esclaircir, celle <app>
+        <lem>qui</lem>
+        <rdg wit="AVN Q41, p. 19">que</rdg>
+       </app>
+       <lb/>cela regardera pourra requerir le president <lb/>en justice, de permettre que la cause
+       cesse <lb/>jusques au premier <term ref="lem015614">plaid</term> suivant, <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> tandis <lb/>tascher d’obtenir journée devant le <orgName ref="org003098">Conseil
+        <lb/>d’Estat</orgName>, ce <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> l’officier ne permettra sy ce n’est <lb/>chose d’importance &amp; de merite, <choice>
+        <abbr>coe</abbr>
+        <expan>comme</expan>
+       </choice> a esté dit <lb/>cy dessus, et ne luy apparoissant au premier <lb/><term
+        ref="lem015614">plaid</term> ensuivant de <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> journée obtenue, <lb/>fera poursuivre a la cause. Et d’icy en la <lb/>ne se donnera
+       mandement par mondit <choice>
+        <abbr>seig<hi rend="sup">r</hi></abbr>
+        <expan>seigneur</expan>
+       </choice>
+       <lb/>le gouverneur ny son lieutenant qu’en <choice>
+        <abbr>pnce</abbr>
+        <expan>presence</expan>
+       </choice>
+       <lb/><app>
+        <lem>de</lem>
+        <rdg>des</rdg>
+       </app> parties, s’il n’y a cas extraordinayres.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-130.21-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 450–451</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 450–451</idno>
+					</msIdentifier>
+					<head xml:lang="de">Nicolas Cugniet, Louis Andrey – Verhör</head>
+					<head xml:lang="fr">Nicolas Cugniet, Louis Andrey – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-07-09"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="450"/><p><seg><lb/><abbr>Hr</abbr> <subst><del><choice><abbr>groß</abbr><expan>großweibel</expan></choice></del><add place="overwritten"><term ref="lem018540.03">amman</term></add></subst><note>Gemeint ist <persName ref="per012378">Jakob Heid</persName>.</note></seg>
+							<seg><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-07-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 47</origDate></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006528a.03">Possardt</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg></p>
+						<p><seg><lb/><persName ref="per017754a">Nicolas Cugniet</persName>, originel de <placeName ref="loc010286.02">Corsallez</placeName>, ballifvage de <placeName ref="loc007816">Grand<lb break="no"/>son</placeName>, qui s’e faict <term ref="lem019535.01">catholiser</term> en ceste ville par les peres <term ref="lem018787.03">jesuuistes</term>,
+							<lb/>desja avant <date dur-iso="P27Y">27</date> ou <date dur-iso="P28Y">28 ans</date>, et dudespuis demeuré a <placeName ref="loc008141.04">Vuister<lb break="no"/>nens devant Pont</placeName> jusques a present, sans faire tort a personne,
+							<lb/>dit que <persName ref="per017746a">Clauda Fabvre</persName>, avec laquelle il fust confronté, l’a
+							<lb/>faulsement accusé, et si elle est morte sur ceste faulse accusation,
+						<pb n="451"/><lb/>estre impossible qu’elle soit sauvee, sçachant bien que jamais il ast
+							<lb/>commis acte dont il est detenu es prisons, ny jamais songé de s’adon<lb break="no"/>ner a la <term ref="lem018521.01">sorcellerie</term>.</seg> <seg>Nye entierement lors qu’il perdist une hasche
+							<lb/><add place="left margin">et autre chose</add>, d’avoir employé aucun moyen illicite, ny demandé a sa femme et son
+							<lb/>fils, qu’iceux luy deussent <term ref="lem015635">bailler</term> <measure type="currency" quantity="1" unit="xr">un crützer</measure> pour ce faict, mais
+							<lb/>bien pour quelques fois boire demy pot avec bonne compagnie. Quant
+							<lb/>a ce qu’il doit avoir dit que le <term ref="lem017521">diable</term> luy deust apporter sa hache,
+							<lb/>et surce qu’elle soit, faisant grand bruit, cheutté sur le toict de
+							<lb/>sa maison, dit en estre ignorant&#160;; bien ast il entendu qu’il estoit bon,
+							<lb/>lors qu’on avoit perdu quelque chose, d’offrir <measure type="currency" quantity="1" unit="xr">un crützer</measure> a l’eglyse,
+							<lb/><del>mais</del> mais n’ast jamais dit, ny sceu, qu’il falloit faire autre chose.</seg>
+							<seg><lb/>Ne veut aussy estre souvenant d’avoir parlé a <placeName ref="loc007846.08">Ryat</placeName>, estant juré,
+								<lb/>qu’il estoit <term ref="lem019308.01">sorcier</term> et homme de neant, que s’il eust ainsin parlé,
+							<lb/>n’avoir esté pour lors a son bon entendement, ains chargé de vin.
+							<lb/>Nye aussy qu’il se soit venté de sçavoir faire la <subst><del><term ref="lem018102.02">gresle</term></del><add place="inline"><term ref="lem018257.02">pouldre</term></add></subst> a
+							<lb/>cannon, qui l’allumant ne fasse point de bruit&#160;; vray est qu’il en<lb break="no"/>tendit d’un <term ref="lem017893.02">Piedmontois</term>, qui se louoit, de la sçavoir faire,
+							<lb/>mais ne sçait pourtant la science, ny de quelle façon on la prepare.</seg>
+							<seg><lb/>Soustient enfin a la simple <term ref="lem018231">corde</term> qu’il n’a jamais rien <term ref="lem015015.13">desrobé</term>,
+							<lb/>ny commis acte de <term ref="lem018521.01">sorcellerie</term>, ains s’estre tousjours comporté
+							<lb/>en homme d’honneur. Enquis ou ce qu’il avoit esté cy devant prison<lb break="no"/>nier, a librement <term ref="lem015549.07">confessé</term> estre environ <date dur-iso="P27Y">27</date> ou <date dur-iso="P28Y">28 ans</date>, au
+							<lb/>printemps, qu’on l’emprisonna l’espace de <date dur-iso="P3D">trois jours</date> en ceste
+							<lb/>ville, et c’est lors qu’on executa et roua un certain nommé <persName>Pierre</persName>,
+							<lb/>qui luy promettant or et argent, et de l’enrichir, et le voul<lb break="no"/>lant desboucher, n’y voullut condescendre, ains l’accusa et
+							<lb/>fust faict prisonnier, mesmement executé comme est dit cy dessus,
+							<lb/>et luy fust liberé sans subir aucun<del>es</del> chastiement. Demande
+							<lb/>pardon.</seg></p>
+						<p><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><lb/><persName ref="per017761a.01">Louys Andrey</persName> a soustenu deux fois la <term ref="lem019428.01">torture</term> du <term ref="lem018232">quintal</term> sans
+						<lb/>rien <term ref="lem015549.01">confesser</term>, disant estre innocent, et s’il estoit un tel
+								<lb/>comme on l’accuse, mais a tort, le diroit sans se laisser <subst><del>ess</del><add place="inline">estro<lb break="no"/>pier</add></subst> et <term ref="lem019474.08">tormenter</term>. <term ref="lem019498">Crie mercy</term>.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

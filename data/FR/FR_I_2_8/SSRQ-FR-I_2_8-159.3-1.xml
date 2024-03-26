@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-159.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 264–265</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 264–265</idno>
+					</msIdentifier>
+					<head xml:lang="de">Barbli Heiter-Martin – Verhör und Urteil</head>
+					<head xml:lang="fr">Barbli Heiter-Martin – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1651-10-02" to="1651-10-14"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="264"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-10-02">2<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8bris</abbr><expan>octobris</expan></choice></foreign> 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018134a.01">von Affry</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018126a.01">Perret</persName></seg></p>
+						<p><lb/><persName ref="per020589a">Barbli Martin</persName> de <placeName ref="loc007613.07">Cormero</placeName>, sur l’accusation <subst><del>de</del><add place="overwritten">ou</add></subst> <add place="inline">sou<lb break="no"/>bson de</add> <term ref="lem018524.02">sortilege</term> reduite au prisons, et la desus par
+							<pb n="265"/><lb/><choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examiné sur le contenu de l’<term ref="lem018363">inquisition</term>,
+							<lb/>ayant esté <term ref="lem019393.02">questionée</term> par la simple <term ref="lem018231">corde</term>, nie
+							<lb/><add place="left margin">d’abord</add>, sçavoier le soubject de son enprisonement, disant n’estre
+							<lb/><term ref="lem019389.02">sorciere</term>, ni d’avoier heu la companie du <term ref="lem015433.03">maling es<lb break="no"/>prit</term>. <term ref="lem015549.13">Confesse</term> avoier doné à boire à <persName>Petter Audriset</persName>
+							<lb/>lors que sa fillie tenit un enfant en <term ref="lem019542.04">baptesme</term> avec
+							<lb/>le dit <persName>Audriset</persName>, sans partant l’avoier aulcunement
+							<lb/><term ref="lem018556.03">maleficié</term>, ni mis quelque chose dans le dit verre,
+							<lb/><term ref="lem019144.05">inficiant</term> d’avoier esté appellé pour aller voir le
+							<lb/>dit <persName>Audriset</persName> malade, à l’ensevelisement du quel elle
+							<lb/>assistat. Dit avoier un jour en plain <time when="12:00:00">midi</time>, present
+							<lb/>un dixaisne persones, veu l’esprit du frere de son mari,
+							<lb/>encore presentement vivant. Aultre chosse ne veut
+							<lb/><term ref="lem015549.01">confesser</term>, ains nie tous aultres poincts propossez,
+							<lb/>demandant la desus à Dieux et à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> pardon.</p>
+						<p><lb/><add place="left margin">Ist <subst><del>mit</del><add place="overwritten">i</add></subst>hr die
+							<lb/><term ref="lem000999">gnad</term> bewißsen worden,
+							<lb/>das nach <term ref="lem019182.01">strangu<lb break="no"/>lation</term> sie erst als dan
+							<lb/>solle <term ref="lem011474">verbrendt</term> werden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 264.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

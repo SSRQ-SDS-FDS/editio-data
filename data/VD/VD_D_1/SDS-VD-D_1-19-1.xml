@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2019"/>
+                <date type="print" when="1996"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS-VD-D_1-19-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;313–332</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre Antoine de Vernex, de Chesalles-sur-Oron</head>
+                    <msContents>
+                        <summary>
+                            <p>Antoine de Vernex, de Chesalles-sur-Oron, comparait le 17 avril 1482 devant le vice-inquisiteur [et représentant de l’évêque de Lausanne] Jean Blanchet, au château d’Oron. Au cours de cette première audience, il admet connaître deux hérétiques. Le 19 avril, après la troisième monition, il avoue et dénonce un troisième homme. Le lendemain, et suite à la quatrième monition, Antoine se rétracte devant la cour. Ce même jour, le procureur de la foi, Étienne Ginod, demande la sentence interlocutoire afin de soumettre l’inculpé à la question, laquelle sentence sera rendue par la cour et exécutée immédiatement par les officiers du châtelain d’Oron. Antoine poursuit alors ses aveux et dénonce quatre autres personnes (2 hommes et 2 femmes). Après un bref délai, l’instruction reprend le 22 avril avec la rétractation de l’inculpé, suivie d’une deuxième séance de torture, après laquelle il poursuit ses aveux et dénonce quatre autres personnes (2 hommes et 2 femmes). Le 24 avril, l’inculpé ratifie ses aveux et dénonce six autres personnes (4 hommes et 2 femmes). Au total, 17 personnes (11 hommes et 6 femmes) sont dénoncées par Antoine de Vernex. La sentence est rendue par la cour [ce même jour]. L’accusé est condamné à la confiscation de ses biens et à la remise au bras séculier pour être puni avec modération, sans effusion de sang ou mutilation des membres.</p>
+                        </summary> 
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1482-04-17" to="1482-04-24"/>
+                            <origPlace ref="loc011111.01">Château d’Oron</origPlace>                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;257–285</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001201449603977">Reymond 1908</ref>, p.&#160;4, 11</bibl>
+                            <bibl><ref>Kieckhefer 1976</ref>, p.&#160;140</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;87–102, 110–112</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000006859">Ostorero 1999</ref>, p.&#160;45</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000041386">Dubuis/Ostorero 2002</ref>, p.&#160;560 n.</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000146953">Ostorero 2005</ref>, p.&#160;366–367</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647203977">Utz Tremp 2005c</ref>, p.&#160;359</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref><!--, p.&#160;21, 25, 28, 215, 374–375, 391, 408, 466, 470, 507–508--></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000055619">Ostorero 2010</ref>, p.&#160;21–22, 28</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001208849503977">Pittet  2010</ref>, p.&#160;204–205, 217–218</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000122355">Ostorero et al. 2011</ref>, p.&#160;74</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000055619">Ostorero 2013a</ref>, p.&#160;314, 327</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="313" facs="ACV_AC-29_312_313"/>
+                        <div><ab type="archiving reference" place="left margin">1482</ab></div>
+                        <head type="title"><p>Processus inquisitionalis ex mero inquisitionis
+                                            <lb/>officio instante <term ref="lem017131.01">procuratore fidei</term>, formatus</p>
+                            <p><hi rend="center">contra</hi></p>
+                            <p><persName ref="per016030a.01">Antonium de Vernex</persName> de <placeName ref="loc011107.03">Chesalles</placeName> supra <placeName ref="loc008074.05">Horons</placeName>
+                                            <lb/><placeName ref="loc005781.05">Lausannensis</placeName> diocesis.</p></head>
+                        <head type="subtitle" resp="GO">17 avril 1482</head>
+                            <p><seg><lb/><origDate when="1482-04-17" period="P4WD">Anno Domini millesimo IIII<hi rend="sup">C</hi> LXXX secundo, die vero mercurii
+                                            <lb/>decima septima mensis aprilis</origDate>, coram venerabili fratre <persName ref="per015160a.01">Johanne
+                                            <lb/>Blancheti</persName> <orgName ref="org004150.03">ordinis Predicatorum</orgName>, in dyocesi <placeName ref="loc005781.05">Lausannensi</placeName>
+                                            <lb/><term ref="lem018123.01">viceinquisitore</term> auctoritate apostolica specialiter deputato, constitutus
+                                            <lb/>in <origPlace ref="loc011111.02">castro de Horons</origPlace><note>Le château d’<placeName ref="loc008074.01">Oron</placeName> se trouve à <placeName ref="loc011112.01">Oron-le-Châtel</placeName>.</note> supranominatus <persName ref="per016030a.01">Antonius de Vernex</persName>
+                                            <lb/>de <term ref="lem017269.01">heresis crimine</term> accusatus et <term ref="lem018156.01">diffamatus</term>. Quiquidem <persName ref="per016030a.01">Antonius</persName>
+                                            <lb/>ad mandatum prefati domini viceinquisitoris juravit super
+                                            <lb/>sanctis Dei euvangeliis dicere, recognoscere et respondere
+                                            <lb/> puram et meram veritatem de et super interrogatoriis
+                                            <lb/> sibi fiendis et fidem catholicam ac crimen heresis <choice><sic>concernen</sic><corr>concernentibus</corr></choice>, <abbr>etc</abbr>.</seg>
+                                  <seg><lb/>Deinde idem dominus viceinquisitor prefatum <persName ref="per016030a.02">Antonium Vernex</persName>
+                                            <lb/>presentem et audientem monuit canonice in forma
+                                            <lb/>juris et eundem advisavit de salute anime sue et quod
+                                            <lb/>Ecclesia est misericors nec claudit gremium reddeunti.</seg>
+                                  <seg><lb/>Post modo eundem <persName ref="per016030a.02">Antonium Vernex</persName> interrogavit de causa
+                                            <lb/>sue detentionis&#160;; qui respondit et dixit quod ipse intellexit
+                                            <lb/>ab illis qui eundem ceperunt, quod ipsi capiebant eum
+                                            <lb/>pro fide et ad causam <term ref="lem017109.01">heresis</term>.
+                           </seg></p>
+                             <p><seg><lb/>Interrogatus si sit hereticus et sciat opera que faciunt heretici,
+                                                <lb/>dixit quod non.
+                                    </seg></p>
+                           <p><seg><lb/>Interrogatus si sciat et credat aliquos esse hereticos, qui eius
+                                            <lb/>mediante juramento respondit quod nescit si sint vel non sint
+                                            <lb/>heretici.
+                           </seg></p>
+                                    <p><seg><lb/>Interrogatus si sciat tam per <choice><sic>ipsum</sic><corr>se</corr></choice> quam per alium se fuisse et esse accusatus
+                                            <lb/>in aliquibus hereticorum processibus, qui respondit quod non.
+                                    </seg></p>
+                        <pb n="314" facs="ACV_AC-29_314_315"/>
+                            <p><seg><lb/>Interrogatus si unquam fuit sibi improperatum crimen heresis et
+                                            <lb/>ad causam illius diffamatus <del rend="strikethrough">d[ixit]</del>, qui dixit quod sic, per plures
+                                            <lb/>personas.
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus de tempore <del rend="strikethrough">de</del> huiusmodi diffamationis dixit quod
+                                            <lb/>sunt <date when="1474" dur-iso="P8Y">circa octo anni</date>&#160;; et quia talis diffamatio contra
+                                            <lb/>eum laborabat, fuit –&#160;jam diu est&#160;– captus et carceribus
+                                            <lb/><placeName ref="loc011113.02">castri de Pallesieux</placeName> mancipatus. Sed quia nichil fuit
+                                            <lb/>in eo compertum de huiusmodi crimine heresis, fuit liberatus.
+                            </seg></p>
+                             <p><seg><lb/>Interrogatus si habeat malivolos aliquos, qui dixit quod sic,
+                                            <lb/>videlicet <del rend="strikethrough">dict[us]</del> <abbr>Job</abbr> et dictum <term ref="lem018124.01">maior</term> de <placeName ref="loc008074.05">Horons</placeName>, nec credit
+                                            <lb/>alios habere nec habuisse.
+                                </seg></p>
+                            <p><seg><lb/>Interrogatus si unquam conversatus fuit cum aliquibus
+                                            <lb/>hereticis sive qui fuerint convicti de heresi, qui respondit quod
+                                            <lb/>sic, videlicet cum <persName ref="per016032a.01">Johanne Thomasset</persName> et <persName ref="per013044a.01">Thoma de Mediavilla</persName>,
+                                            <lb/>non tamen sciebat ipsos esse hereticos.
+                            </seg></p>
+                                <p><seg><lb/>Interrogatus de locis in quibus cum eisdem conversatus fuit,
+                                            <lb/>dixit quod diversis in locis, eundo ad foros tam <placeName ref="loc008099.07">Viviaci</placeName>
+                                            <lb/>quam alibi. Et ulterius non fuit interrogatus, sed ad
+                                            <lb/>carceres redductus, <abbr>etc.</abbr>, presentibus in premissis nobili <supplied reason="omitted">viro</supplied> <persName ref="per016056a.01">Petro
+                                            <lb/>Gervasii</persName>, <persName ref="per016057a.01">Johanne Joliveti</persName> et <persName ref="per016058a.01">Richardo Chassot</persName>.
+                                    </seg></p>
+                        <head type="subtitle" resp="GO">18 avril 1482</head>
+<p><seg><lb/><label type="keyword" place="left margin">Secunda monitio</label> <origDate when="1482-04-18" period="P5WD">Die jovis post Dominicam de <term ref="lem006418.02">Quasimodo</term> XVIII mensis predicti
+                                            <lb/>aprilis</origDate>, coram prefato domino viceinquisitore in <term ref="lem018672.01">stupha</term>
+                                            <lb/><origPlace ref="loc011111.02">castri de Horons</origPlace> constitutus supra nominatus <persName ref="per016030a.01">Antonius</persName> <del rend="strikethrough">fuit</del>,
+                                            <lb/>qui per eundem dominum viceinquisitorem fuit monitus secundo
+                                            <lb/>et pro secunda monitione, eidem presentando misericordiam
+                                            <lb/>Ecclesie, si et <choice><sic>quatinus</sic><corr>quatenus</corr></choice> vellet absque <term ref="lem018098.01">tortura</term> confiteri crimen
+                                            <lb/>heresis per eum, ut asseritur, commissum. Quiquidem <persName ref="per016030a.01">Antonius</persName>
+                                            <lb/>dixit et respondit se non esse hereticum nec velle
+                                            <lb/>illud crimen, quod numquam commisit, confiteri. Et tunc
+                                            <lb/>prefatus dominus viceinquisitor eundem <persName ref="per016030a.01">Antonium</persName> redduci
+                                            <lb/>fecit ad carceres et eidem assignavit <date when="1482-04-19">ad diem
+                                            <lb/>crastinam</date>, ad <subst><del rend="strikethrough">audiendu</del><add place="inline">se advisandum</add></subst> et recipiendum
+                                            <lb/>tertiam monitionem, <abbr>etc</abbr>., presentibus quibus supra.
+                                    </seg></p>
+                        <pb n="315" facs="ACV_AC-29_314_315"/>
+                            <head type="subtitle" resp="GO">19 avril 1482</head>
+                            <head type="subtitle"><hi rend="center">Alia repetitio cum tertia monitione</hi></head>
+                            <p><seg><lb/><origDate when="1482-04-19" period="P6WD">Anno quo supra die vero veneris decima nona
+                                            <lb/>mensis aprilis</origDate> in quadam camera <origPlace ref="loc011111.02">castri de Horons</origPlace> coram
+                                            <lb/>prefato domino viceinquisitore constitutus prenominatus
+                                            <lb/><persName ref="per016030a.02">Antonius Vernex</persName>, quem ipse dominus viceinquisitor monuit
+                                            <lb/>tercio et pro tercia monitione canonica, offerendo sibi
+                                            <lb/>misericordiam Ecclesie, rogando eundem ut vellet sine
+                                            <lb/>tortura recognoscere reatum suum. Quiquidem <persName ref="per016030a.02">Antonius</persName>
+                                            <lb/>dixit et respondit se velle realiter et veraciter confiteri de
+                                            <lb/>huiusmodi heresis crimine, requirendo prout et requisivit graciam
+                                            <lb/>et misericordiam Ecclesie.</seg>
+                                <seg>Deinde eius mediante juramento
+<lb/><label type="keyword" place="left margin">Tempus quo intravit <term ref="lem018331.01">sectam</term></label> dixit et confessus fuit quod <date when="1472" dur-iso="P12Y">sunt circa decem anni</date>, ipse
+                                            <lb/><persName ref="per016030a.02">Antonius Vernex</persName> causantibus certis differenciis inter eum
+                                            <lb/>et dictum mayor de <placeName ref="loc008074.05">Horons</placeName> existentibus, ipse erat valde
+                                            <lb/><term ref="lem018332.02">melencolicus</term> et tristis. Et dum semel ipse iret apud
+                                            <lb/><subst><del rend="strikethrough"><placeName ref="loc008099.07">Viviacum</placeName></del><add place="inline"><placeName ref="loc008181.02">Blonay</placeName></add></subst> pro certis suis negociis unacum <persName ref="per016032a.01">Johanne
+                                            <lb/>Thomasset</persName> cum quo habebat amicitiam, ipse <persName ref="per016030a.02">Antonius</persName>
+                                            <lb/>eandam suam tristiciam et melencoliam ipsi <persName ref="per016032a.01">Johanni
+                                             <lb/>Thomasset</persName> narravit, asserendo quod si aliquo modo
+                                             <lb/>posset se de eodem maior vindicare, ipse se vindicaret.
+                                             <lb/>Et tunc ipse <persName ref="per016032a.01">Johannes Thomasset</persName> eidem <persName ref="per016030a.02">Antonio</persName> dixit
+                                             <lb/>quod si vellet sibi credere, ipse vindicaretur ab eodem.
+                                             <lb/>Et nichil ulterius de eadem materia fuit inter eos tunc
+                                             <lb/>loc<subst><del>n</del><add place="overwritten">u</add></subst>tum.</seg>    
+                                <seg>Successive quadam alia die, de qua non
+                                            <lb/>recordatur, ipse <persName ref="per016030a.02">Antonius</persName>, <persName ref="per016032a.01">Johannes Thomasset</persName> et
+                                            <lb/><persName ref="per016059a.01">Petrus Pratoz</persName> se simul reperierunt in certo loco <subst><del rend="strikethrough">de quo 
+                                           <lb/>tamen non recordatur</del><add place="above">domus dicti <persName ref="per016030a.02">Antonii</persName></add></subst>. Quiquidem <persName ref="per016032a.01">Thomasset</persName> et <persName ref="per016059a.02">Prato</persName>
+                                            <lb/>dixerunt eidem quod si ipse <persName ref="per016030a.02">Antonius</persName> non vellet eos accusare
+                                            <lb/>et vellet eis credere et facere sicut ipsi faciebant, quod
+                                            <lb/>ipse <persName ref="per016030a.02">Antonius</persName> haberet multa bona et de inimicis suis
+                                            <lb/>vindicaretur, et maxime de dicto maior. Et tunc
+                                            <lb/>ipse <persName ref="per016030a.02">Antonius</persName> eisdem promisit fidem necnon et dare
+                                            <lb/>ipsis <measure type="volume" unit="Kopf" quantity="3" commodity="wheat">tres cuppas frumenti</measure> ad finem ut eum vindicarent
+                                            <lb/>de dicto maior. Quas <measure type="volume" unit="Kopf" quantity="3" commodity="wheat">tres cuppas frumenti</measure> ipse <persName ref="per016030a.02">Antonius</persName>
+                                            <lb/>eisdem <persName ref="per016032a.01">Thomasset</persName> et <persName ref="per016059a.02">Prato</persName> solvit, ipsique dixerunt quod
+                                            <lb/>dicto maior dederunt unum malum morsum,
+                                            <lb/>adeo quod de tribus annis futuris non faceret <del rend="strikethrough">bonum</del>
+                                            <lb/>malum eidem <persName ref="per016030a.02">Antonio</persName>, <add type="sign" place="bottom">dicentes eidem <persName ref="per016030a.02">Antonio</persName> quod postquam ipse biberat cum eis, moriretur. <lb/>Et hoc fuit in domo dicti maior.</add> Et tunc ipsi declaraverunt
+                        <pb n="316" facs="ACV_AC-29_316_317"/>
+                                            <lb/>eorum crimen et heresim ipsi <persName ref="per016030a.02">Antonio</persName>, ac certam diem
+                                            <lb/>captaverunt inter se ad eundum simul ad sectam.</seg>
+                                <seg><lb/>Interrogatus si postea dicti <persName ref="per016032a.01">Thomasset</persName> et <persName ref="per016059a.02">Prato</persName> dederunt <del rend="strikethrough">de</del>
+                                            <lb/>ipsi maior malum morsum quod promiserunt, dixit
+                                            <lb/>quod sic.</seg>
+                                <seg>Et tandem dictus <persName ref="per016032a.01">Johannes Thomasset</persName> ipsum
+                                            <lb/><persName ref="per016030a.02">Antonium Vernex</persName> quadam <date when="1474" period="P5WD" dur-iso="P8Y">die jovis, sunt ultra
+                                            <lb/>octo anni</date>, duxit ad sectam, ad locum quemdam,
+<lb/><label type="keyword" place="left margin">Locus secte</label> qui vocatur La <subst><del rend="strikethrough"><placeName ref="loc011117.02">Costaz</placeName></del><add place="above"><placeName ref="loc009099.05">Chevaliere</placeName></add></subst> subtus montem de <placeName ref="loc008181.02">Blonay</placeName>.
+                                            <lb/>Et ibidem invenerunt certas personas necnon et
+                                            <lb/>apparuit ibidem <term ref="lem017097.02">dyabolus</term> in forma unius <term ref="lem018448.02">cati</term> grisi,
+                                            <lb/>habentis cornua. Et tunc <persName ref="per016032a.01">Johannes Thomasset</persName>
+<lb/><label type="keyword" place="left margin">homagium</label> dixit ipsi <persName ref="per016030a.02">Antonio</persName>&#160;: <q>&#160;Iste est magister meus, cui opportet
+                                            <lb/>quod tu facias <term ref="lem018116.01">homagium</term>, et tu habebis multa bona,
+                                            <lb/>uti pecunias et animalia in habundantia, ac habebis de
+                                            <lb/>quibuscumque tuis inimicis vindictam&#160;</q>. Quiquidem
+                                            <lb/><persName ref="per016030a.02">Antonius Vernex</persName> <del rend="strikethrough">de eidem cato fecit homagium et</del>
+                                            <lb/>eidem cato fecit homagium eundem deobsculando in
+                                            <lb/>fine caude.</seg>
+                                <seg>Deinde negavit Deum, virginem
+<lb/><label type="keyword" place="left margin">Negatio Dei</label> <persName ref="per000169a.02">Mariam</persName> et totam Trinitatem, ipseque <persName ref="per016032a.01">Johannes Thomasset</persName>
+                                            <lb/>dixit eidem <persName ref="per016030a.02">Antonio</persName> quod erat neccesse ut daret eidem
+                                            <lb/>dyabolo unum ex suis membris. Qui <persName ref="per016030a.02">Antonius</persName> dedit
+<lb/><label type="keyword" place="left margin">Tributum</label> unam <del rend="strikethrough">unia</del> onciam sui <del rend="strikethrough">s</del> digiti parvi manus sue
+                                            <lb/>dextre. Quam onciam dyabolus tetigit cum pata sua
+                                            <lb/>et sibi fecit malum. Et adhuc videtur cicatrix <del rend="strikethrough">quam</del>
+                                            <lb/>in eodem digito.
+                                </seg></p>
+                            <p><seg><lb/>Interrogatus si tunc dyabolus se mutaverit in aliam
+                                             <lb/>speciem quam cati, dixit quod non pro illa vice.
+                            </seg></p>
+                            <p><seg><lb/>Item confitetur quod <term ref="lem017140.01">demon</term> dedit eidem pro introitu
+<lb/><label type="keyword" place="left margin">Salarium</label> suo <measure type="currency" unit="fl" quantity="4" origin="Rheintaler">quatuor <subst><del rend="strikethrough">Renenses</del><add place="inline">florenos renenses</add></subst> in auro</measure>, quos
+                                            <lb/>ipse <persName ref="per016030a.02">Antonius</persName> et <persName ref="per016032a.02"><choice><abbr>Jo</abbr><expan>Johannes</expan></choice> Thomasset</persName> exposuerunt et biberunt
+                                            <lb/>in tabernis.
+                            </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Tributum</label> Item confitetur quod quadam alia vice tradidit <persName ref="per016032a.01">Johanni
+                                            <lb/>Thomasset</persName> unum vitulum ad portandum ad sectam,
+                                            <lb/>quia illu<subst><del rend="strikethrough">d</del><add place="overwritten">m</add></subst> dedit <term ref="lem017097.01">diabolo</term>&#160;; quiquidem <persName ref="per016032a.01">Thomasset</persName>
+                                            <lb/>illum vitulum portavit.
+                            </seg></p>
+                            <p><seg><lb/>Item et quadam alia vice unam vacham quam etiam dedit
+                                            <lb/><term ref="lem017097.02">dyabolo</term> in signum tributi. Et ulterius non fuit
+                                            <lb/>interrogatus sed fuit redductus ad carceres&#160;; presentibus
+                                            <lb/>quibus supra.
+                                </seg></p>
+                        <pb n="317" facs="ACV_AC-29_316_317"/>
+                        <head type="subtitle" resp="GO">20 avril 1482</head>
+                            <head type="subtitle">Alia repetitio cum quarta monitione et
+                                            <lb/><term ref="lem017305.01">sententia interlocutoria</term></head>
+                            <p><seg><lb/><origDate when="1482-04-20" period="P7WD">Anno quo supra die vero sabbati vicesima predicti
+                                            <lb/>mensis aprilis</origDate> coram prefato domino viceinquisitore
+                                            <lb/>in loco supradicto constitutus prefatus <persName ref="per016030a.02">Antonius
+                                            <lb/>Vernex</persName>&#160;; qui per eundem dominum viceinquisitorem interrogatus
+                                            <lb/>si premissa confessio per eum facta esset vera, qui eius
+                                            <lb/>mediante juramento dixit et respondit quod per eum
+                                            <lb/>confessata non sunt nec fuerunt vera et quod ipse
+                                            <lb/>tamquam male advisatus illa confessus fuerat
+                                            <lb/>et quod ipse numquam fuit nec est hereticus.
+                            </seg></p>
+                                <p><seg><lb/>Qua variatione et confessionis negatione per venerabilem fratrem
+                                            <lb/><persName ref="per016060a.01">Stephanum Ginodi</persName> orthodoxe fidei procuratorem audita,
+                                            <lb/>comparuit ipse dominus procurator fidei et per eundem
+                                            <lb/>dominum viceinquisitorem, visa huiusmodi variatione et
+                                            <lb/>negatione super huiusmodi processu, <supplied reason="omitted">petit</supplied> interloqui ac ipsum
+                                            <lb/><persName ref="per016030a.02">Antonium</persName> ad torturam condempnari, donec et
+                                            <lb/>quousque veritas ab eius ore habeatur.
+                                </seg></p>
+                            <p><seg><lb/>Quibus comparitione et petitione sic factis, visa et
+                                            <lb/>attenta huiusmodi negatione, prefatus dominus viceinquisitor
+                                            <lb/>suam sententiam interlocutoriam contra eundem <persName ref="per016030a.02">Antonium</persName> tullit
+                                            <lb/>et promulgavit in hunc qui sequitur modum&#160;:
+                            </seg></p>
+                        <p><seg><lb/><persName ref="per000353a.17">Christi</persName> nomine invocato, per hanc nostram sententiam interlocutoriam
+                                            <lb/>quam de juris peritorum consilio ferimus in hiis scriptis,
+                                            <lb/>dicimus, promulgamus et declaramus&#160;: visis et attentis
+                                            <lb/>diffamationibus, accusationibus, variationibus ac
+                                            <lb/>perjuriis contra te, <persName ref="per016030a.01">Antonium de Vernex</persName> laborantibus,
+                                            <lb/>te fore et esse torquendum et torture subici debere,
+                                            <lb/>donec et quousque veritas a tuo ore habeatur,
+                                            <lb/>citra tamen mortis periculum, sanguinis effusionem
+                                            <lb/>et membrorum mutillationem, de quibus expresse
+                                            <lb/>protestamur, executionem huiusmodi nostre sententie interlocutorie
+                                            <lb/>nobili <persName ref="per016056a.01">Petro Gervasii</persName> <term ref="lem017142.01">castellano</term> de <orgName ref="org005513.03">Orons</orgName> committentes,
+                                            <lb/>presentibus supra nominatis
+                        <pb n="318" facs="ACV_AC-29_318_319"/><lb/>Quasiquidem sententia interlocutoria sic, ut permittitur, lata et
+                                            <lb/>promulgata, prefatus fidei procurator petiit predictum
+                                            <lb/>castellanum illam exequi et <choice><sic>executiom</sic><corr>executionem</corr></choice> demandari.
+                                            <lb/>Quiquidem <persName ref="per016030a.02">Antonius</persName> fuit ad locum torture ductus,
+                                            <lb/>conligatus et in altum tractus. Rogavit ut
+                                            <lb/>deponeretur, asserens se velle dicere et recognoscere puram
+                                            <lb/>et meram veritatem. Qui depositus et ad cameram
+                                            <lb/>redductus confessus fuit, ratifficando et approbando
+                                            <lb/>jam premissa per eum confessata, quod sunt <date from="1470-01-01" to="1472-12-31" dur-iso="P12Y">circa
+                                            <lb/>decem vel duodecim anni</date> quibus intravit sectam
+                                            <lb/>hereticorum et fecit homagium dyabolo modo, forma
+                                            <lb/>et loco premissis, ibidemque negavit Deum, virginem <persName ref="per000169a.02">Mariam</persName>
+                                            <lb/>et totam Trinitatem.
+                             </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin"><term ref="lem018167.01">Maleficium</term></label> Interrogatus que maleficia ipse <persName ref="per016030a.01">Antonius</persName> a tempore
+                                            <lb/>quo ipse intravit sectam commisit et fecit, <del rend="strikethrough">d[ixit]</del> qui
+                                            <lb/>dixit et confessus fuit quod quadam vice, certa die
+                                            <lb/>de qua non bene recordatur, <add type="sign" place="above">sunt <date when="1478">circa quatuor anni</date></add>, ipse et <persName ref="per016059a.02">Petrus
+                                            <lb/>Prato</persName> iverunt ad domum <persName ref="per016061a.01">Cuaneti de Sauboz</persName>,
+                                            <lb/><time period="byNight">de nocte</time>, ad finem <term ref="lem018465.01">interficiendi</term> unam parvam filiam
+                                            <lb/>quam habebat in cunalibus, et <subst><del rend="strikethrough">quam interfecerunt 
+                                            <lb/>et morti tradiderunt</del><add place="inline">ipsam tamen non interfecerunt</add></subst>.
+                                            <lb/><delSpan spanTo="del1"/>Interrogatus per quem locum intraverunt dictam 
+                                            <lb/>domum sive cameram in qua erat ipsa filia, 
+                                            <lb/>dixit quod per fenestram, ipseque <persName ref="per016059a.02">Petrus Prato</persName> 
+                                            <lb/>intravit primus et ipse <persName ref="per016030a.02">Antonius</persName> secundus. 
+                                            <lb/>Et quedam mulier, vocata <persName ref="per016174a.02">La Perryere</persName>, que erat 
+                                            <lb/>cum eis, intravit etiam dictam cameram&#160;; 
+                                            <lb/>ipsamque filiam cum manibus suis tangendo super 
+                                            <lb/>renes interfecerunt. Que filia solum fecit unum <foreign xml:lang="fr">cry</foreign>. 
+                                            <lb/>Interrogatus ad quem finem ipsam filiam interfecerunt, 
+                                            <lb/>dixit et respondit quod ad finem illam portandi 
+                                            <lb/>ad sectam.<anchor xml:id="del1"/> Non tamen illam portaverunt,
+                                            <lb/>quia mater filie se excitavit et tussivit, et
+                                            <lb/>quia audiverunt quod ipsa non dormiebat
+                                            <lb/>recesserunt absque <subst><del rend="strikethrough">portando</del><add place="above">faciendo mori</add></subst> ipsam filiam. <del rend="strikethrough">sic 
+                                            <lb/>mortuam</del>
+                        </seg></p>
+                        <pb n="319" facs="ACV_AC-29_318_319"/>
+<p><seg><lb/><label type="keyword" place="left margin">Maleficium</label> Item confitetur quod sunt <date when="1477">circa quinque anni</date>, ipse et
+                                            <lb/><persName ref="per016059a.02">Petrus Prato</persName> interfecerunt unam filiam que erat
+                                            <lb/><persName ref="per016062a.01">Glaudio Tabusset</persName>.
+                               </seg></p>
+                             <p><seg><lb/>Interrogatus de modo per quem, dixit quod dictus
+                                            <lb/><persName ref="per016059a.02">Prato</persName> <del rend="strikethrough">tradi</del> misit et posuit in os ipsius filie
+                                            <lb/>modicum de suo unguento, et immediate post fuit
+                                            <lb/>mortua.
+                                 </seg></p>
+                               <p><seg><lb/>Interrogatus si hoc fecerint de die sive de nocte, dixit
+                                             <lb/>quod <time period="byDay">de die</time>.
+                                </seg></p>
+                        <p><seg><lb/>Interrogatus de loco, dixit quod in domo <add place="right margin"><persName ref="per016169a.01">Petri Franceys</persName> de <placeName ref="loc008074.05">Horons</placeName></add>.</seg></p>
+                        <p><seg><lb/>Interrogatus si illam filiam portaverunt ad sectam, dixit
+                                             <lb/>quod non. Sed illam dumtaxat interfecerunt ex eo quia
+                                            <lb/>dictus <persName ref="per016062a.01">Glaudius Tabusset</persName> faciebat eis plurima
+                                             <lb/>mala.
+                               </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Maleficium</label> Item confitetur quod ipse <persName ref="per016030a.02">Antonius</persName> et <persName ref="per016059a.02">Petrus Prato</persName>
+                                            <lb/>destruxerunt unam vacham que erat <persName ref="per016170a.01">Petri Reybat</persName>.
+                                            <lb/>Et hoc fecerunt, sunt <date when="1478" dur-iso="P4Y">circa quatuor anni</date>, tangendo
+                                            <lb/>eam cum eorum <term ref="lem017132.01">baculo</term> uncto <term ref="lem017273.01">unguento</term> quod
+                                            <lb/>dyabolus tradiderat eis, ex eo quia volebant
+                                            <lb/>eidem <persName ref="per016170a.01">Petro</persName> malum. De loco dixit quod in pascuis
+                                            <lb/><add place="inline" hand="other hand">de <foreign xml:lang="fr"><placeName ref="loc011119.01">la Frontere</placeName></foreign> sive <placeName ref="loc011119.02">Clauses</placeName></add>.<!-- ajouter plus tard-->
+                                   </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Donatio</label> Item ulterius confitetur quod tradidit <measure type="volume" unit="Kopf" quantity="3" commodity="wheat">tres cuppas</measure>
+                                            <lb/>frumenti <persName ref="per016032a.01">Johanni Thomasset</persName> et <persName ref="per016059a.02">Petro Prato</persName> ad
+                                            <lb/>finem ut darent mortem dicto maior de <placeName ref="loc008074.05">Horons</placeName>
+                                            <lb/>prout et fecerunt <del rend="strikethrough">videlicet</del> eo modo, videlicet quod ipsi duo
+                                            <lb/><sic>yverant</sic> ad bibendum ad domum dicti maior et
+                                            <lb/>bibendo sibi presentaverunt cupam vini ad bibendum,
+                                            <lb/>in qua posuerant venenum. Qui maior bibit et
+                                            <lb/>inde fuit mortuus.
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus de loco in quo tenent sectam, dixit
+                                            <lb/>quod <foreign xml:lang="fr"><placeName ref="loc011117.03">En la Costaz</placeName></foreign> ultra <foreign xml:lang="fr"><placeName ref="loc011115.03">Myonnaz</placeName></foreign><note><placeName ref="loc011115.02">La Mionna</placeName> ou <placeName ref="loc011115.01">Mionnaz</placeName> est un ruisseau qui descend des hauteurs de <placeName ref="loc008177.01">Saint-Martin</placeName> et qui se jette dans la <placeName ref="loc008383.01">Broye</placeName>.</note>.
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus a quo tempore non fuit in secta, dixit
+                                            <lb/>quod a <date when="--11-11">festo Sancti <persName ref="per000141a.11">Martini</persName></date> yemalis citra quo tempore
+                                            <lb/>fuit ad dictam sectam. Et in eadem vidit et
+                        <pb n="320" facs="ACV_AC-29_320_321"/><lb/><label type="keyword" place="left margin">Complices</label> cognovit <persName ref="per016059a.02">Petrum Prato</persName>, <persName ref="per016171a.01">Henricum Grant</persName> de <placeName ref="loc011116.02">Pont</placeName>
+                                            <lb/>parrochie <placeName ref="loc008177.07">Sancti Martini Vaudi</placeName>, <foreign xml:lang="fr"><persName ref="per016174a.01">La Perriere</persName></foreign>, <persName ref="per016173a.01">Johannetam Astery</persName> et
+                                            <lb/><persName ref="per015737a.03">Jaquetum Songue</persName>, et plures alios quos non
+                                            <lb/>cognovit.
+                            </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Baculus cum <term ref="lem018773.01">piscide</term></label> Interrogatus de modo per quem ipse ibat ad sectam,
+                                             <lb/>dixit quod dyabolus dederat sibi unum baculum
+                                             <lb/>et certum unguentum cum quo illum ungebat.
+                                             <lb/>Deinde ascendebat supra, dicendo hec verba&#160;: 
+                                             <lb/><q>&#160;<foreign xml:lang="fr">Vaz, de part le dyable, vaz</foreign>&#160;</q>. Et immediate ipse erat
+                                            <lb/>in loco secte. Quem baculum et unguentum <persName ref="per016059a.02">Petrus
+                                            <lb/>Prato</persName> habet et custodit.
+                 </seg></p>
+                            <p><seg><lb/>Item confitetur quod eius magister vocabatur <persName ref="per016176a.01">Grabier</persName><note>A rapprocher de <persName ref="per016176a.02">Grabrier</persName>, nom du démon mentionné dans le procès de <persName ref="per016293a">Jean Gallot</persName> en <date when="1484">1484</date> (<bibl><ref>ACV, Ac 29</ref>, p.&#160;337, 338</bibl>).</note>.</seg></p>
+                            <p><seg><lb/>Item confitetur quod dum ipsi sunt in secta, ipsi
+                                            <lb/>commedunt carnes que non sunt bone et
+                                            <lb/>prout sibi videtur, sunt <term ref="lem018082.01">carnes humane</term> vel
+                                            <lb/>silvestres.
+                            </seg></p>
+                            <p><seg><lb/>Item confitetur quod in secta est ignis <term ref="lem018185.04">perseus</term> et turpis.</seg></p>
+                            <p><seg><lb/>Interrogatus de quo fit ille ignis, dixit cum
+                                             <lb/>lignis. Sed non est talis coloris qualis est ignis
+                                             <lb/>naturalis. Et alia pro tunc noluit confiteri,
+                                             <lb/>petens sibi dare terminum ad se melius
+                                             <lb/>advisandum. Et sic fuit redductus ad carceres,
+                                             <lb/>presentibus quibus supra.
+                            </seg></p>
+                        <head type="subtitle" resp="GO">22 avril 1482</head>
+                            <head type="subtitle"><hi rend="center">Alia repetitio</hi></head>
+                            <p><seg><lb/><origDate when="1482-04-22" period="P2WD">Die lune post Dominicam de Misericordia XXII mensis
+                                            <lb/>aprilis</origDate>, constitutus coram prefato domino viceinquisitore
+                                            <lb/>in loco premisso prefatus <persName ref="per016030a.01">Antonius</persName> qui per prefatum
+                                             <lb/>dominum viceinquisitorem interrogatus si alia vellet
+                                            <lb/>dicere et confiteri quam ultra per eum confessata, qui <persName ref="per016030a.01">Antonius</persName>
+                                            <lb/>dixit et respondit <del rend="strikethrough">quod</del> sub periculo et <term ref="lem018472.01">damnatione</term> anime
+                                             <lb/>sue quod per eum confessata non erant <subst><del rend="strikethrough">et</del><add place="inline">nec</add></subst>
+                                             <lb/>umquam fuerunt vera, negans se esse hereticum.
+                                             <lb/>Qua negatione sic facta, procurator fidei ibidem presens
+                        <pb n="321" facs="ACV_AC-29_320_321"/>
+                                            <lb/>petit, attentis eius variationibus, eum torqueri et
+                                            <lb/>torturam continuari.</seg>
+                                <seg>Quiquidem <persName ref="per016030a.01">Antonius</persName> ad torturam
+                                            <lb/>ductus ligatusque et ad altitudinem quatuor aut quinque
+                                            <lb/>pedum tractus et aliquantulum ibidem dimissus,
+                                            <lb/>rogavit ut deponeretur et quod ipse diceret puram
+                                            <lb/>et meram veritatem. Qui redductus ad cameram
+                                            <lb/>et per eundem dominum viceinquisitorem interrogatus,
+                                            <lb/>quare negaverat premissa per eum confessata,
+<lb/><label type="keyword" place="left margin">Apparitio dyaboli</label> dixit quod die veneris novissime lapsa, <time period="byNight">de nocte</time>
+                                            <lb/>intra carceres apparuit sibi dyabolus eius magister,
+                                            <lb/>qui sibi precepit ut negaret omnia que confessus
+                                            <lb/>fuerat et quod nisi faceret malum sibi eveniret.
+                                            <lb/>Et tunc ipse <persName ref="per016030a.01">Antonius</persName> eundem suum magistrum
+                                            <lb/>rogavit ut eum liberaret a carceribus. Qui diabolus
+                                            <lb/>respondit quod non poterat <del rend="strikethrough">sed</del>, et quod ipse <persName ref="per016030a.01">Antonius</persName>
+                                            <lb/>staret firmus in negando confessata, deinde liberaretur&#160;;
+                                            <lb/>ipseque dyabolus prohibuit sibi ne accusaret aliquos,
+                                            <lb/>quia accusando ipse perdebat eos.
+                                </seg></p>
+                            <p><seg><lb/>Item interrogatus per eundem dominum viceinquisitorem
+                                            <lb/>si premissa per eum confessata sunt vera <add place="above">qui</add> dixit quod
+                                            <lb/>sic et <add type="sign" place="left margin">illa tamquam male advisatus et ad instigationem dyaboli negavit</add>. Et ulterius confessus fuit se fuisse ad <subst><del rend="strikethrough">tres</del><add place="above">duas</add></subst> sectas,
+                                            <lb/>videlicet sectam de <placeName ref="loc009099.06">La Chevaliere</placeName>, sectam de <foreign xml:lang="fr"><placeName ref="loc011117.02">La Costaz</placeName></foreign>
+                                            <lb/>subtus <placeName ref="loc008175.03">Prongin</placeName> <del rend="strikethrough">et sectam de <placeName>Monseron</placeName><note>Ce lieu n’a pas pu être identifié.</note> prope <lb/><placeName ref="loc012541.02">Cursillie</placeName></del>.
+                            </seg></p>
+                            <p><seg><lb/>Item confessus fuit quod a tempore quo ipse fuit hereticus,
+<lb/><label type="keyword" place="left margin">Salarium <measure type="currency" unit="ß" quantity="5">V solidorum</measure></label> quolibet mense et aliquando de <date dur-iso="R/P15D">XV diebus in XV</date>
+                                            <lb/>ibat ad sectam. Et duabus vicibus quando fuit ad
+                                            <lb/>sectam de <foreign xml:lang="fr">La Costaz</foreign>, recepit a magistro suo <measure type="currency" unit="ß" quantity="5">quinque
+                                             <lb/>solidos</measure> qualibet vice ultra <measure type="currency" unit="fl" quantity="4" origin="Rheintaler">quatuor <supplied reason="omitted">florenos</supplied> <choice><abbr>renen</abbr><expan>renenses</expan></choice></measure> jam
+                                            <lb/>per eum receptos prima vice qua fuit ad sectam,
+                                            <lb/>ut predixit. In quaquidem secta de <foreign xml:lang="fr"><placeName ref="loc011117.02">La Costaz</placeName></foreign> vidit
+                                            <lb/>et cognovit supra nominatos.
+                                </seg></p>
+                            <p><seg><lb/>Item in secta de <placeName ref="loc009099.06">La Chevaliere</placeName> cognovit et vidit
+                                            <lb/><persName ref="per016175a.01">Petrum Symon</persName> de <placeName ref="loc008533.02">Cojonay</placeName> supra <placeName ref="loc008181.02">Blonay</placeName> et quendam
+                                            <lb/>vocatum <persName ref="per016206a.01">Petit Jan Guygnyet</persName> <foreign xml:lang="fr">des <placeName ref="loc011114.02">Tyeullieres</placeName></foreign>.
+                                            <lb/>Et ulterius non fuit interrogatus, sed remissus post prandium
+                                            <lb/>ad se melius advisandum, <abbr>etc</abbr>.
+                            </seg></p>
+                        <pb n="322" facs="ACV_AC-29_322_323"/>
+                        <head type="subtitle" resp="GO">22 avril 1482, plus tard</head>
+                            <head type="subtitle">Alia repetitio</head>
+                                <p><seg><lb/><origDate when="1482-04-22" period="P2WD">Eadem die lune post prandium</origDate> constitutus coram eodem
+                                            <lb/>domino viceinquisitore supra nominatus <persName ref="per016030a.02">Antonius Vernex</persName>
+                                            <lb/>in camera castri supra mentionata, qui per dominum
+                                            <lb/>viceinquisitorem interrogatus si premissa per eum
+                                            <lb/>confessata essent vera, dixit et respondit quod ita&#160;;
+                                            <lb/>asserens se illa vele manutenere coram omni populo. 
+                                </seg></p>
+                        <p><seg><lb/>Et ulterius idem dominus viceinquisitor eundem <del rend="strikethrough">e[undem]</del> <persName ref="per016030a.02">Antonium</persName>
+                                            <lb/>interrogavit si ipsi heretici equaliter ab eorum magistro
+                                            <lb/><choice><sic>diligitur</sic><corr>diliguntur</corr></choice> in secta, dixit quod non, quia unus
+                                            <lb/>ratione maioris obedientie prediligitur altero.
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus si ipsi habeant locum proprium ad invocandum
+                                            <lb/>demonem, qui dixit quod sic.
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus per que verba ipsi invocant eundem demonem
+                                            <lb/>dum volunt loqui cum ipso, dixit quod ille qui
+                                            <lb/>habet potestatem invocandi et loquendi secum, invocat
+                                            <lb/>eum dicendo&#160;: <q>&#160;brucoz&#160;</q>.
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus si ipse unquam invocaverit eundem demonem
+                                            <lb/>magistrum suum, dixit quod non, quia non venisset
+<lb/><label type="keyword" place="left margin">Invocatio demonis <lb/>ad habendum consilium <lb/>pro negotiis</label> pro eo, attenta quod ipse non erat de majoribus nec
+                                            <lb/>de illis qui habent potestatem invocandi et faciendi
+                                            <lb/>venire. Sed dum ipse volebat loqui cum magistro
+                                            <lb/>suo, <persName ref="per016059a.02">Petrus Prato</persName>, qui erat magister suus et certorum
+                                            <lb/>aliorum hereticorum in secta, <subst><del rend="strikethrough">ac</del><add place="above">qui</add></subst> per eum se regebant,
+                                            <lb/>invocabat ipsum demonem, quia non omnes heretici
+                                            <lb/>habent potestatem invocandi&#160;; ipseque <persName ref="per016059a.02">Petrus Prato</persName>,
+                                            <lb/>ad requestam ipsius <persName ref="per016030a.02">Antonii</persName> semel invocavit
+                                            <lb/>demonem. Quo invocato et ipso comparenti, idem <persName ref="per016030a.02">Antonius</persName>
+                                            <lb/>petiit eidem si lucraretur quandam vineam jacentem
+                                            <lb/>in vinoblio <placeName ref="loc008099.07">Viviaci</placeName>&#160;; de qua erat differentia inter ipsum
+                                            <lb/><persName ref="per016030a.02">Antonium</persName> et quendam <persName ref="per016177a.01">Henricum Mylly</persName> de <placeName ref="loc008475.05">Turre de Peyl</placeName>.
+                                            <lb/>Quiquidem dyabolus sibi dixit et promisit quod ipse
+                                            <lb/>lucraretur ipsam vineam prout et <subst><del rend="strikethrough">fecit</del><add place="inline">lucratus fuit</add></subst>.
+                            </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Promissio</label> Item confitetur quod dyabolus <sic>promitit</sic> eis dare
+                                            <lb/>pecunias in certis terminis, secundum opera et servicia
+                                            <lb/>que ipsi faciunt. Et ipsemet <persName ref="per016030a.02">Antonius</persName> recepit
+                                            <lb/>aliquando de <date dur-iso="R/P15D">quindecim diebus</date> vel de <date dur-iso="R/P8D">octo diebus</date>
+                                            <lb/><measure type="currency" unit="ß" quantity="5">quinque solidos</measure>.
+                            </seg></p>
+                        <pb n="323" facs="ACV_AC-29_322_323"/>
+<p><seg><lb/><label type="keyword" place="left margin">Complices</label> Item confitetur se vidisse in secta de <foreign xml:lang="fr"><placeName ref="loc011117.02">La Costaz</placeName></foreign>
+                                            <lb/><persName ref="per016178a.01">Johannetam</persName> relictam <persName ref="per016179a.01">Johannis Mabivelle</persName>
+                                            <lb/>parrochie <placeName ref="loc008177.07">Sancti Martini Vaudi</placeName>.
+                            </seg></p>
+                            <p><seg><lb/>Item confitetur quod dum ipsi heretici sunt in secta,
+                                            <lb/>ipsi habitant cum mulieribus more brutorum et ordine
+                                            <lb/>retrogrado. Et ipsemet habitavit cum quadam <persName ref="per016180a.01">Glaudia</persName>
+                                            <lb/>uxore <persName ref="per016181a.01">Johannis Riddam</persName> parrochie <placeName ref="loc008177.07">Sancti Martini
+                                            <lb/>Vaudi</placeName>, que erat eius amasia. Quam <persName ref="per016180a.01">Glaudiam</persName>
+                                            <lb/>ipse vidit et cognovit pluries in secta <foreign xml:lang="fr"><placeName ref="loc011117.02">La
+                                            <lb/>Costaz</placeName></foreign>.
+                            </seg></p>
+                            <p><seg><lb/>Item confitetur quod qui majora mala faciunt, magis
+<lb/><label type="keyword" place="left margin">Honores</label> honorantur in secta a dyabolo, et sunt magistri aliorum&#160;;
+                                            <lb/>quia dum ipsi sunt in secta, quilibet narrat malum
+                                            <lb/>quod fecit. Quiquidem <persName ref="per016030a.02">Antonius</persName> asserens se nil
+                                            <lb/>aliud scire, fuit redductus ad carceres ad se
+                                            <lb/>magis advisandum, presentibus in premissis quibus supra testibus.
+                            </seg></p>
+                        <head type="subtitle" resp="GO">24 avril 1482</head>
+                            <head type="subtitle">Alia repetitio</head>
+                        <p><seg><lb/><origDate when="1482-04-24" period="P4WD" type="holiday">Die mercurii post festum Sancti <persName ref="per000270a.12">Georgii</persName></origDate> in camera
+                                            <lb/>antedicta coram prefato domino viceinquisitore
+                                            <lb/>constitutus prenominatus <persName ref="per016030a.01">Antonius de Vernex</persName>, qui per
+                                            <lb/>eundem dommum viceinquisitorem iterum interrogatus
+                                            <lb/>si per eum confessata essent vera, illa esse et fuisse
+                                            <lb/>vera dixit et eius mediante juramento affirmavit&#160;;
+                                            <lb/>dicens ulterius ad sui memoriam reduxisse,
+<lb/><label type="keyword" place="left margin">Complices</label> quod in secta de <placeName ref="loc009099.06">La Chevaliere</placeName> vidit <persName ref="per016182a.01">Johannem
+                                            <lb/>Cuanet</persName> filium <persName ref="per016183a.01">Petri Cuanet</persName> de <placeName ref="loc009099.06">La Chevaliere</placeName>,
+                                            <lb/>quem vidit bis in ipsa secta necnon et <persName ref="per016059a.02">Petrum
+                                            <lb/>Prato</persName>, <persName ref="per016032a.01">Johannem Thomasset</persName> et <persName ref="per016209a.01">Johannem Escuyer</persName>
+                                            <lb/>de <placeName ref="loc011108.02">Tartraux</placeName>, et alios quos non cognovit.
+                            </seg></p>
+                            <p><seg><lb/>Item in secta de <foreign xml:lang="fr"><placeName ref="loc011117.02">La Costaz</placeName></foreign> vidit et cognovit
+<lb/><label type="keyword" place="left margin">Complices</label> quandam mulierem dictam <persName ref="per016186a.01">Malliarde</persName>, et <persName ref="per016184a.01">Johannem
+                                            <lb/>Cardinal</persName> filium <persName ref="per016185a.01">Guillelmi Cardinal</persName> parrochie <placeName ref="loc008177.04">Sancti
+                                            <lb/>Martini Vuaudi</placeName>. Quem <persName ref="per016184a.02">Johannem Cardinaux</persName> ipsa
+                                            <lb/><persName ref="per016186a.02">Malliardez</persName> posuit ad sectam, ipseque <persName ref="per016030a.02">Antonius</persName> fuit
+                                            <lb/>presens quando ipse <persName ref="per016184a.02">Johannes</persName> fecit homagium diabolo.
+                                            <lb/>Et erat eius amasia ipsa <persName ref="per016186a.01">Malliarde</persName> <del rend="strikethrough">illa</del>.
+                                </seg></p>
+                        <pb n="324" facs="ACV_AC-29_324_325"/>
+                            <p><seg><lb/>Item confitetur quod dicta <persName ref="per016186a.01">Malliarde</persName> semel retullit
+                                            <lb/>in secta de <foreign xml:lang="fr"><placeName ref="loc011117.02">La Costaz</placeName></foreign> quod ipsa cum adjutorio sui
+                                            <lb/>magistri interfecerat unum bovem qui erat <persName ref="per016187a.02"><choice><abbr>Vuilli</abbr><expan>Vuillelmi</expan></choice>
+                                            <lb/>de Vernex</persName>.
+                            </seg></p>
+                            <p><seg><lb/>Item confitetur quod dyabolus dat eisdem hereticis certam
+                                            <lb/>rem nigram ad similitudinem crinium ad ponendum
+                                            <lb/>intra comam equorum vel aliarum bestiarum, ad finem
+                                            <lb/>ut lupus non <add place="above">eis</add> noceat neque commedat eos. Et ille
+                                            <lb/>equus sive illud animal qui portat hoc, est custos
+                                            <lb/>aliorum animalium, adeo quod lupus non audet
+                                            <lb/>eos <sic>apropinquare</sic>. Et ipse semel hoc vidit facere
+                                            <lb/><persName ref="per016059a.02">Petro Prato</persName>, ipse tamen <persName ref="per016030a.02">Antonius</persName> numquam fecit.
+                            </seg></p>
+                            <p><seg><lb/><label type="keyword" place="left margin">Quomodo dyabolus <lb/>juvat eos</label> Item confitetur quod aliquotiens quando currus
+                                            <lb/>suus ducendo vinum vel aliquid aliud erat
+                                            <lb/>arremblatus, ipse solum dicebat&#160;: <q>&#160;<foreign xml:lang="fr">Hay, de par le
+                                            <lb/>dyable, hay</foreign>&#160;</q>, et immediate equi trahebant
+                                            <lb/>ita velociter ac si nichil duxisset, dicens
+                                            <lb/>quod magister  suus  se  ponebat ad rotas et
+                                            <lb/>faciebat ambulare currum.
+                            </seg></p>
+                                <p><seg><lb/>Item confitetur quod in secta de <foreign xml:lang="fr"><placeName ref="loc011117.02">La Costaz</placeName></foreign> vidit et cognovit
+<lb/><label type="keyword" place="left margin">Complices</label> <persName ref="per016188a.01">Perrissonam</persName> uxorem <persName ref="per016189a.01">Johannis Prato</persName> parrochie <placeName ref="loc008177.03">Sancti Martini
+                                           <lb/>Vaudi</placeName>, et <persName ref="per016190a.01">Johannem Flaschat</persName> de <placeName ref="loc011109.02">Mons</placeName> parrochie
+                                            <lb/>de <placeName ref="loc011110.02">Mollens</placeName>.
+                            </seg></p>
+                            <p><seg><lb/>Item confitetur quod dum ipsi sunt in secta, magister eorum sepe
+                                            <lb/>mutatur in <sic>speciem</sic> lupi et cati, et non se demonstrat
+                                            <lb/>in forma hominis nisi <del rend="strikethrough">in specie</del> magistris secte.
+                            </seg></p>
+                            <p><seg><lb/>Item confitetur quod <time period="morning">dum gallus cantat</time>, quando ipsi sunt
+                                            <lb/>in secta, dyabolus dicit eis ut recedant in
+                                            <lb/>nomine dyaboli. Et ipsemet dyabolus amplius
+                                            <lb/>non comparet.
+                            </seg></p>
+                                <p><seg><lb/>Interrogatus si veniendo a secta ipsi possunt iterum
+                                            <lb/>revenire supra baculum, sicut et yverant et ita cito,
+                                            <lb/>qui dixit quod non aliquando, videlicet <time period="morning">post gallicantum</time> ipsi
+                                            <lb/>veniunt pedes, sed si veniant ante gallicantum, ipsi possunt
+                                            <lb/>venire supra baculum.
+                                </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Concultatio</label> Item confitetur quod <date>fuit annus in <term ref="lem018615.03">Pasca</term></date> ipse retinuit <term ref="lem017061.01">corpus
+                                            <lb/>Christi</term> in ore suo et postquam fuit extra cimiterium, spuit illud
+                                            <lb/>in terram et ibi dimisit.<note>L’interrogatoire s’arrête ici.</note>
+                </seg></p>
+                        <p><seg><lb/><signed><persName ref="per016191a.01">Georgius Bruneti</persName></signed><figure type="notarial sign"/></seg></p>
+                        <pb n="325" facs="ACV_AC-29_324_325"/><p/>
+                        <pb n="326" facs="ACV_AC-29_326_327"/>
+                                <head type="subtitle" resp="GO">24 avril 1482, plus tard</head>
+                                <head type="subtitle" ><hi rend="center"><term ref="lem018088.02">Sententia diffinitiva</term> contra <persName ref="per016030a.01">Antonium de
+                                            <lb/>Vernex</persName> de <placeName ref="loc011107.03">Chesalles</placeName></hi></head>
+                                <p><seg><lb/>In nomine sancte et individue Trinitatis, Patris et
+                                            <lb/>Filii et Spiritus Sancti, amen. Nos frater <persName ref="per015160a.01">Johannes Blancheti</persName>
+                                            <lb/><orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName>, heretice pravitatis in diocesi
+                                            <lb/><placeName ref="loc005781.05">Lausannensi</placeName> viceinquisitor per reverendum patrem fratrem <persName ref="per012708a.03">Thoma
+                                            <lb/>Gogati</persName>, eiusdem ordinis, in <placeName ref="loc005781.05">Lausannensi</placeName>, <placeName ref="loc008750.05">Gebennensi</placeName> et <placeName ref="loc008973.04">Sedunensi</placeName>
+                                            <lb/>dyocesibus generalem <term ref="lem017062.01">inquisitorem</term> specialiter deputatus
+                                            <lb/>et judex in hac parte, per tenorem informationum et
+                                            <lb/>processuum contra te <persName ref="per016030a.01">Antonium de Vernex</persName> de <placeName ref="loc011107.03">Chesalles</placeName>
+                                            <lb/>parrochie <placeName ref="loc008177.08">Sancti Martini Vuaudi</placeName> <placeName ref="loc005781.05">Lausannensis</placeName> diocesis inquisitum,
+                                            <lb/>necnon per tuam confessionem propriam per te judicaliter
+                                            <lb/>coram nobis factam et pluries repetitam et per
+                                            <lb/>notarium publicum subscriptum in scriptis fideliter
+                                            <lb/>reddactam, luculenter comperimus te supradictum
+                                            <lb/><persName ref="per016030a.01">Antonium</persName> ex tua malicia et perverso proposito detestabile
+                                            <lb/>crimen heresis dampnabiliter commisisse, videlicet Deum
+                                            <lb/>omnipotentem, beatam virginem <persName ref="per000169a.02">Mariam</persName> et totam Trinitatem
+                                            <lb/>infideliter abnegasse et ab eis penitus recessisse, propterea
+                                            <lb/>dyabolo, humani generis inveterato inimico, tibi in
+                                            <lb/>forma unius cati grisi apparenti homagium et
+                                            <lb/>reverenciam fecisse et exhibuisse, ipsum in posteriori
+                                            <lb/>sui conficti corporis parte deoscullasse, et eidem
+                                            <lb/>demoni in eius obsequium unciam tui parvi digiti
+                                            <lb/>manus tue dextre <del rend="strikethrough">dedi[sse]</del> et certa animalia dedisse,
+                                            <lb/>et eundem demonem in tuum dominum et magistrum recepisse,
+                                            <lb/>pluraque alia et auditu abhorrenda crimina, que, ne
+                                            <lb/>pias aures offendat, subticentur, commisisse et perpetrasse,
+                                            <lb/>ac in synagogis demonum et hereticorum per multa annorum
+                                            <lb/>curricula in eisdem criminibus detestabiliter insurduisse&#160;;
+                                            <lb/>nolentes igitur hanc culpam remanere impugnitam,
+                                            <lb/>ne is, qui nequam est nequior fiat propter intollerabilitatem
+                                            <lb/>scelerum, participatoque consilio cum libris et peritis in
+                                            <lb/>jure canonico et civili ac scripturis sacris&#160;;
+                        <pb n="327" facs="ACV_AC-29_326_327"/><lb/><persName ref="per000353a.17">Christi</persName> nomine invocato, a quo omne rectum procedit judicium,
+                                            <lb/>solum Deum pre occulis habentes, non declinantes plus a dextris
+                                            <lb/>quam a sinistris, sed equo liberamine librantes nosque pro tribunali
+                                            <lb/>sedentes more majorum nostrorum, per hanc nostram diffinitivam
+                                            <lb/>sententiam quam ferimus in hiis scriptis, dicimus, pronunciamus, declaramus,
+                                            <lb/>sententiamus, <choice><sic>et et</sic><corr>et</corr></choice> diffinimus <del rend="strikethrough">te</del> et condepnamus te <persName ref="per016030a.01">Antonium
+                                             <lb/>de Vernex</persName> presentem fuisse et esse <term ref="lem017125.01">hereticum</term>, <term ref="lem018775.02">ydolatram</term>, <term ref="lem018087.01">appostatam</term>
+                                            <lb/>et membrum <subst><del rend="strikethrough">pud[ridum]</del><add place="inline">putridum</add></subst>, impenitentem et pertinacem,
+                                            <lb/>te propterea <term ref="lem017309.01">brachio seculari</term> et eius potestati relinquendum
+                                            <lb/>esse, duximus et relinquimus per presentes, rogantes
+                                            <lb/>propterea eandem secularem potestatem affectione majori qua
+                                            <lb/>possumus, ut citra mortem sanguinis effusionem et
+                                            <lb/>membrorum mutillationem sua circa te moderetur sententia. </seg>
+                                    <seg><lb/>Et ulterius eadem nostra diffinitiva sententia dicimus, pronunciamus
+                                            <lb/>et declaramus omnia bona que habes et habere potuistis
+                                            <lb/>a tempore commissi criminis usque nunc fore et esse confiscata,
+                                            <lb/>et, que confiscata pronunciamus et declaramus prout jura volunt
+                                            <lb/>dividenda. In nomine Patris, <abbr>etc</abbr>.
+                            </seg></p> 
+                        <pb n="328" facs="ACV_AC-29_328_329"/><p/>
+                        <pb n="329" facs="ACV_AC-29_328_329"/><p/>
+                        <pb n="330" facs="ACV_AC-29_330_331"/><p/>
+                        <pb n="331" facs="ACV_AC-29_330_331"/><p/>
+                        <pb n="332" facs="ACV_AC-29_332_333"/><p/>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Les procès de Jaquet de Panissère (<bibl><ref target="urn:ssrq:SDS-VD-D_1-14-1">SDS VD D 1 14-1</ref>&#160;: ACV, Ac 29, p.&#160;228–258</bibl>), Jordana de Baulmes (<bibl><ref target="urn:ssrq:SDS-VD-D_1-15-1">SDS VD D 1 15-1</ref>&#160;: ACV, Ac 29, p.&#160;208–227</bibl>), Claude Bochet (<bibl><ref target="urn:ssrq:SDS-VD-D_1-16-1">SDS VD D 1 16-1</ref>&#160;: ACV, Ac 29, p. &#160;264–275</bibl>), Jean Poesiouz (<bibl><ref target="urn:ssrq:SDS-VD-D_1-17-1">SDS VD D 1 17-1</ref>&#160;: ACV, Ac 29, p.&#160;301–312</bibl>), Jeannette Barattier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-18-1">SDS VD D 1 18-1</ref>&#160;: ACV, Ac 29, p.&#160;276–300</bibl>), Antoine de Vernex (<bibl><ref target="urn:ssrq:SDS-VD-D_1-19-1">SDS VD D 1 19-1</ref>&#160;: ACV, Ac 29, p.&#160;313–327</bibl>) et Jean Gallot (<bibl><ref target="urn:ssrq:SDS-VD-D_1-20-1">SDS VD D 1 20-1</ref>&#160;: ACV, Ac 29, p.&#160;333–348</bibl>) ont tous été intentés entre 1477 et 1484. Ils sont les témoins d’une nouvelle chasse aux sorciers menée sur la Riviera lémanique, après la première vague des années 1448–1449.</p>
+                <p>Le procès contre Antoine de Vernex se trouve aux pages 313 à 327 du registre ACV, Ac 29. La page 325 ainsi que les cinq dernières pages de l’ancien dossier (p.&#160;328–332) ont été laissées en blanc. Le procès-verbal à proprement parler commence à la page 313 et se termine à la page 324&#160;; la copie de la sentence finale occupe les pages 326 et 327. </p>
+                <p>La page de garde de l’ancien dossier correspond à la première page du procès-verbal. Ce n’est qu’au dos de la dernière page de l’ancien dossier que nous trouvons une note faisant allusion aux noms de personnes dénoncées, qui doit être attribuée à la même main anonyme que les deux notes dorsales de l’ancien <orig>&#160;dossier Poesiouz&#160;</orig>. </p>
+                <p>Hormis la copie de la sentence finale, qui n’est pas signée et qui provient elle aussi d’une main inconnue, les actes du procès sont tous rédigés par le notaire Georges Brunet. Il est également l’auteur d’une note illisible qui se trouve en bas de la page 315, à droite, perpendiculairement aux deux dernières lignes du texte.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

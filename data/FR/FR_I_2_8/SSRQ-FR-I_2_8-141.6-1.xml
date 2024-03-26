@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-141.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 49–52</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 49–52</idno>
+					</msIdentifier>
+					<head xml:lang="de">Rose Bise – Verhör</head>
+					<head xml:lang="fr">Rose Bise – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-09-28"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="49"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-09-28">28<hi rend="sup">ten</hi> <foreign xml:lang="la">septembris</foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.03">Caspar von Montenach</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079">Ludwig Zurmatten</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013469a.06">Cattella</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+						<pb n="51"/><p><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note>, presentibus iisdem,
+						<lb/>eadem die.</foreign></p>
+						<p><seg><lb/><persName ref="per012301b.02">Rouscha</persName> de <persName ref="per019222a.02">Peret Gentil</persName> estant aplicquee
+							<lb/>a la <term ref="lem018792.01">question</term> et <term ref="lem019428.02">tourture</term> <subst><del>par</del><add place="overwritten">de</add></subst> la petite
+							<lb/><term ref="lem018285.03">piere</term>, <term ref="lem015549.03">confessant</term>, confirme a <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict
+							<lb/>sa derniere <term ref="lem019465.01">confession</term> qu’elle fist hier, augmentant
+						<lb/>des articles, assavoier d’avoier esté <subst><del>4</del><add place="overwritten">3</add></subst> fois a
+						<lb/>la <term ref="lem017043">secte</term> <subst><del><gap reason="illegible" quantity="2" unit="cm"/></del><add place="overwritten">aux</add></subst> <add place="left margin" type="sign">desus de</add> <placeName ref="loc001395.08">Schwartzenbourg</placeName>, tout jour
+						<lb/>en la maison de certain nommé <persName>Pauli</persName>, au village
+							<lb/>ou lieux qui s’appelle <placeName ref="loc013404.02">zu Halten</placeName>, n’i ayant que trois
+						<lb/>maisons&#160;; n’ayant recogneu en dite <term ref="lem017043">secte</term> persone
+					<lb/>de ces pays, ainsi qu’ils estiont de <placeName ref="loc001395.05">Schwartzen<lb break="no"/>burg</placeName> et lieux voisins tres touts. Lé noms de
+						<lb/>celles qu’elle cognoisait estoient <persName>Madalene
+						<lb/>Judica</persName>, <persName>Tichtli Zanna</persName>, les quelles estiont du
+							<lb/>territoire du dit <placeName ref="loc001395.05">Schwartzenburg</placeName>.</seg> <seg><term ref="lem015549.13">Confesse</term>
+							<lb/>qu’il ast <date dur-iso="P12Y">12 ans</date> qu’elle se rendit <term ref="lem019389.02">sorciere</term>,
+						<lb/><add place="interlinear">le <term ref="lem018943.02">demon</term> luy ayant promis la faire riche</add>,
+						<lb/>et que le <term ref="lem015433.06">malin</term> l’avoit <term ref="lem019486">cogneu charnellement</term>
+						<lb/>par trois fois&#160;: la premiere en un bois
+						<lb/>de deça de <placeName ref="loc008168.03">Prez</placeName>, et l<subst><del rend="rubbing">es</del><add place="inline">’</add></subst> aultre<del>s</del> <subst><del>deux</del><add place="inline">fois</add></subst>
+						<lb/>à <placeName ref="loc001395.05">Schwartzenburg</placeName> dans une grange, il ast
+						<lb/>quesque temps, <del rend="underline">et</del> la 3<hi rend="sup">e</hi> desus de <placeName ref="loc001395.05">Schwartzenburg</placeName>,
+						<lb/>il ast
+						<pb n="52"/><lb/><date dur-iso="P4Y">4 ans</date>.</seg> <seg>Avoier aussi faict a l’instiga<lb break="no"/>tion du <term ref="lem018943.02">demon</term> <subst><del>faict</del><add place="overwritten">par</add></subst> 4 fois la <term ref="lem018102.06">graille</term>,
+						<lb/>dont les deux fois a <placeName ref="loc001395.05">Schwartzenburg</placeName>,
+						<lb/>la 3<hi rend="sup">me</hi> au <placeName ref="loc008597.04">Guggisperg</placeName>, la 4<hi rend="sup">e</hi> a <placeName ref="loc008168.03">Prez</placeName>,
+						<lb/>ayant par l’assistance de ce <term ref="lem015433.10">maling</term> battu
+						<lb/>avec une baguete dans des fontaines, la
+						<lb/><term ref="lem018102.08">grelle</term> en estant <time dur-iso="PT2H">deux heures</time> aprés ensuivie,
+						<lb/>sans partant aporter grand dommage
+						<lb/>ou elle touchat. Dit aussy que ne volant
+							<lb/>obeir aux commandement de son <term ref="lem019555.05">maistre</term> <persName ref="per029445a">Adam</persName>,
+						<lb/>il la battoit, ainsi qu’il fist encor il ast en<lb break="no"/>viron <date dur-iso="P14D">14 jour</date>, <subst><del>eu</del><add place="overwritten">lo</add></subst>rs qu’il luy apparut la
+						<lb/>derniere fois, habillé de vert.</seg> <seg>Finalement
+							<lb/>est <term ref="lem015549.04">confessante</term> d’avoier l’esté passé, a
+							<lb/><placeName ref="loc007630.06">Tavi</placeName>, <del>a</del> l’image de <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <persName ref="per000208a.05">Jasque</persName> peinte a
+						<lb/>la chappelle<note>Il s’agit de la <placeName ref="loc011696.02">Chapelle Saint-Jacques</placeName> à Tavel.</note> sur le cemmittiere, frotté
+						<lb/>de sa <term ref="lem018383.03">pussiere</term>, qu’elle sortit de sa pouchete,
+						<lb/>lé pieds du dit <persName ref="per000208a.05">Sainct Jasque</persName>, voulant
+						<lb/>par la <term ref="lem018313">inficier</term> et faire mourir ceux
+						<lb/>qui viendront les baisser&#160;; desquels mesfaict
+						<lb/>elle en ast grande respentasse et demande
+						<lb/>a Dieux et a Leur Exellence bien humble<lb break="no"/>ment pardon.</seg></p>
+						</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

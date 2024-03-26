@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-17-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-U5.5b</idno>
+               </msIdentifier>
+               <head>Franchises accordées par Jean d'Aarberg, seigneur de Valangin, à diverses personnes qui
+                  s'étaient établies sur ses terres sans son assentiment</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">
+                        <origDate when="1372-03-08"/>
+                     </filiation>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="22.7"/>
+                              <width unit="cm" quantity="35.4"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="absent" ns0:attachment="sealed on a parchment tag"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate from="1401-01-01" to="1425-12-31">du début du XV<hi rend="sup">e</hi>&#160;siècle</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_63">SDS NE 1, N<hi rend="sup">o</hi>&#160;17</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+                                       </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_U5_5b_r"/>      
+               <div>
+                  <p>
+                     <lb/>Nous <persName>Jehan <orgName ref="org001287.03">d’Arberg</orgName></persName>, sire de
+                     Vaulengin, faisons savoir a tous ceulx quil verront et orront ces presentes
+                     lectres que ceulx cy de<lb break="no"/>soud nommer se estoien abitel en nostre
+                     signoury san nostre lysence, c’est a savoir ou lieu appalés es brunete joux,
+                     laquelle chouse <lb/>nous n’y avons pais souffry, mais les avons fait agaigier
+                     de lour bien pour le mesfait qui nous avoient fait, par quoit ou sont
+                     <lb/>venuz par devers nous, c’est a savoir personnalement Choulpart le
+                     banneriés et Jacoup Descostes et Perrin Guegnant, le merchant, et Cartier
+                     <lb/>Caullé ensemble plesur aultres abitans, en nous requerant et humblement
+                     supliant que a ceulx pour lour et pour lour hoirs voullisien par<lb break="no"
+                     />donner et donner lectre de franchise et de abitacion&#160;; et nous Jehan
+                     d’Arberg, sire desus nommer, pour estre consonant a toute raisons, a ceulx
+                     <lb/>pour lour et pour lour hoirs present et advenir et pour nous et pour noul
+                     hoirs quecunque, avons donner et donnons et otroiont par la tenur de ces
+                     <lb/>presentes lectres les franchises et graices et lybertel cy desub
+                     escriptes, c’est a savoir que pour le mars cy desoub limitelz par le folz du
+                     dit <lb/>passant par Mortaul devers jourant et jouste le filz du rut de Gudebat
+                     devers vent et jouste la conbe Parreguel devers obierre tendans ou mon
+                     <lb/>Chevalliés et a lal conbe de Valadrais devers bise, que pour ce dit mars
+                     desus limutelz noul dit habitans desus nommer nous ont donner cinquante
+                     <lb/>escuc de rois de bon ort et de juste poix que nous avons heu et receus de
+                     noul dit habitans pour une fois pour l’entraige et pour six car<lb break="no"
+                     />tier de fromaige, trente deulx livre pour le cartier de bonne et liaule
+                     cense, rente annuele devoir a paiés par les dit habitans dessus et par
+                     <lb/>lour hoirs ung chascun ans le joux de feste de sant Martin en diver a nous
+                     et a noul hoirs a nostre chastel de Vaulengin et ausys que de toutes les a<lb
+                        break="no"/>cressances que on feront ou tans present et advenir en nostre
+                     signoury durans le filz du duc enconstre bise en tanque es limites de Nostre
+                     Dame <lb/>de Balle, noul dit habitans desus nommés le devent tenir et reprendre
+                     de nous et de noul hoirs es propres coutumes du Locle et de La Saigne et
+                     <lb/>auchamps de lour franchises et nous devent le diesme de la poix pryse en
+                     noul joux douze livre une rendre poisés en nostre ville dou <lb/>Locle. Et nous
+                     devent diesme de toute vaugne es propres coutumes du Lode et de la Sagnie. Et
+                     nous Choupart et Jacoux et Perrin et Car<lb break="no"/>tier habitan dessus
+                     nommer, pour nous et pour noul hoirs et pour tous les aultres habitant demorant
+                     et a habitan ou temp present et a <lb/>l’oenir ou dit lieu desus limitei,
+                     promestons a nostre tres chier et honnorez signour mont signour Jehan d’Arberg,
+                     sire de Vaulengin de<lb break="no"/>sus nommer de non jamais faire aultre
+                     signour que de luy ou de ses hoirs demourant sus ledict lieu desus limitei par
+                     nous, avoir repris sus <lb/>oubligacion de tous noul biens meuble et heritaige
+                     present et advenir. Et nous Jehan d’Arberg, sire dessus nommer, lour promestons
+                     par nostre bonne foy <lb/>donnés en lieu de serement pour nous et pour noul
+                     hoirs et pour lour et lour hoirs de lour maintenir cest franchise et au chanp
+                     de <lb/>de ces presentes lectres garantis conctre tout et partout, en jugemon
+                     es defeur est propres mision de nous et de noul hoirs, en renunçant <lb/>a tous
+                     droit et a toute coutume que pourroient faire ou dire contre la tenur de ces
+                     presentes lectres <gap reason="missing" unit="line" quantity="4"/>
+                     <lb/>donner <origDate when="1372-03-08">le huytiesme jours du moys de mars en l'an
+                        Nostre Signour courant mille trois cent septante deulx</origDate>.</p>
+                  <lb/><signed><persName>Pernon de Sonseboz</persName> <figure type="sign"/></signed>
+                  <pb n="1v" facs="AEN_AS_U5_5b_v"/>      
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, autrefois muni d'un sceau pendant sur simple queue, AEN,
+                     U&#160;5, N<hi rend="sup">o</hi>&#160;5&#160;b, copie du début du XV<hi
+                        rend="sup">e</hi>&#160;siècle, cf.&#160;N<hi rend="sup">o</hi>&#160;5.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Monuments</hi>, III, N<hi rend="sup"
+                     >o</hi>&#160;696, p.&#160;947-948.</p>
+             </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

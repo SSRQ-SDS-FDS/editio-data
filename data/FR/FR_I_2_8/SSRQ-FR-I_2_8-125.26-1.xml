@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-125.26-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 358–359</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 358–359</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Lottaz, Françoise Lottaz-Morand – Verhör</head>
+					<head xml:lang="fr">Claude Lottaz, Françoise Lottaz-Morand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-12-07"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="358"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-12-07">7<hi rend="sup">ten</hi> <foreign xml:lang="la">decembris</foreign> 1646</origDate>
+						<seg><lb/><persName ref="per012378a.02">Jacob Heydt</persName></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+						<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><persName ref="per017123a">Claude Lotta</persName> de <placeName ref="loc010145">Corserey</placeName> detenu pour cas de <term ref="lem018521.01">sorcellerie</term>,
+							<lb/>aprés avoir esté examiné tout au long et sur tous les points con<lb break="no"/>tenuz dans l’<term ref="lem018363">inquisition</term> contre luy faicte, et principalement sur
+							<lb/>cest article, sçavoir si <persName ref="per017122a.01">Jenon Debieux</persName>, voullant aller <subst><del>all</del><add place="inline">a</add></subst>
+							<lb/>la <term ref="lem017043">secte</term>, ne luy auroit dit, passant par le pré des <persName>Morrys</persName>,
+							<lb/>qu’elle y alloit, et estant de retour, qu’elle avoit parlé avec
+							<lb/>le <term ref="lem015433.10">maling</term>. A dit et soustenu sans aucune extrav<add place="above">a</add>gation qu’elle
+							<lb/>luy faisoit grand tort, car si elle luy ehut dit telle chose,
+							<lb/>il ne s’en eusse pas peu taire, ains l’eusse tout <term ref="lem015622">incontinent</term>
+							<lb/>accusee, et mené luy mesme aux prysons. Ne sçait que dite
+							<lb/><persName ref="per017122a.01">Jenon</persName> ou d’autres l’ayent nommé <term ref="lem019308.01">sorcier</term>, car il les ehust
+							<lb/>infalliblement re<term ref="lem015009.08">cerché</term> par voye de justice, disant n’avoir
+							<lb/>jamais ehu pensee a commettre tel acte&#160;; au contraire, s’estre
+							<lb/>tous les jours, comme appertient a un vray crestien, recommandé
+							<lb/>a Dieu, la Vierge et son bon ange, et comporté envers ses
+							<lb/>voisins au mieu qu’il a peu. Quant aux <term ref="lem015761.03">blessons</term>, qu’il
+							<lb/>doit avoir lavé riere <placeName ref="loc009823.02">Lentignye</placeName>, dit estre vray qu’il en a
+							<lb/>ehu&#160;; avoir aussy entendu que le lendemain qu’il les a abbattu
+							<lb/>et cueilly, une certaine <term ref="lem017276.04">Bourguignotte</term> refugiee, qui de<lb break="no"/>meure encores a <placeName ref="loc010145">Corserey</placeName>, y doit estre allee abbatre le
+							<lb/>reste, laquelle doit estre cheuté bas de l’arbre, mais ne <add place="above" type="sign">sçait</add> qui
+							<lb/>en est la cause, disant n’avoir sceu qu’elle estoit tombee, jus<lb break="no"/>ques a temps qu’on en parloit entre <subst><del>le</del><add place="inline">ceux</add></subst> du village, moings
+							<lb/>qu’il luy ayt occasioné aucun mal, ny a personne que ce soit.</seg>
+						<seg><lb/>Nye et soustient a la simple <term ref="lem018231">corde</term> qu’il n’a jamais menacé, ny
+							<lb/>outragé personne. Crie que Dieu luy fasse remission de
+							<lb/>tous ses <term ref="lem019539.03">pechés</term>, hormis de celluy dont il est accusé, disant
+							<lb/>n’avoir jamais ehu pensee a commettre acte de <term ref="lem018521.01">sorcellerie</term>, ne
+							<lb/>se sçachant aussy <del>en</del>chargé d’autre <term ref="lem019539.02">peché</term>, si non que avant
+							<lb/><date dur-iso="P3W">3 septmaines</date>, venant de <placeName ref="loc007610">Payerne</placeName>, ou se que avec d’autres il
+							<lb/>avoit battu du blé, et en aprés, comme est de coustume, ehu
+							<lb/>un repas, duquel se trouvant chargé de vin, parlant avec
+							<lb/>respect, il vomit par le chemin, pour quelle ebrieté il en
+							<lb/><term ref="lem019498">crie mercy</term> a Dieu&#160;; mais quant au cas de <term ref="lem018524.02">sortilege</term>, dit
+							<lb/>qu’il en est innocent et prie <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> qu’ils ayent esgard
+							<lb/>a ses pauvres enfants, et de ne le point estropier par
+						<pb n="359"/><lb/>ulterieure <term ref="lem019428.01">torture</term>, car ne pouvant travailler, ils seroient privés de
+							<lb/>leur entretient, estant cependant prompt a subir ce qu’il plaira a
+							<lb/>Dieu et leurs <choice><abbr>Exells</abbr><expan>Excellences</expan></choice>. Demande pardon.</seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><persName ref="per017125a.02">Françoisa Lotta</persName>, femme dudit <persName ref="per017123a">Claude</persName>, dit estre natifve de <placeName ref="loc007922.02">Sensales</placeName>
+								<lb/>et que son pere s’appelloit <persName ref="per017124a.01">Claude Mauran</persName>, dit n’avoir jamais
+								<lb/>commis acte de <term ref="lem018521.01">sorcellerie</term>, estre en ce faict innocente&#160;; que <persName ref="per017122a.01">Jenon
+							<lb/>Debieux</persName> luy faict grand tort de dire qu’elle luy auroit <add place="above">dit</add> qu’elle
+							<lb/>alloit a la <term ref="lem017043">secte</term> et avoit parlé avec le <term ref="lem015433.10">maling</term>, car si ainsy
+							<lb/>seroit, elle l’eusse tout <term ref="lem015622">incontinent</term> accusee et ne se feusse teue
+								<lb/>de tel <term ref="lem019494.01">crime</term>, ains l’eusse dit a quelqu’un, affin qu’on l’eust
+							<lb/>dehument chastiee, et n’eusse creut qu’elle <subst><del>seroit</del><add place="overwritten">feust</add></subst> estee une
+							<lb/>telle femme.</seg> <seg>Demandee pourquoy elle auroit dit a l’officier
+							<lb/>qui la menoit aux prisons, <subst><del>qu’</del><add place="inline">si</add></subst> on en ammenoit pas des autres&#160;?
+							<lb/>A respondu qu’elle le luy avoit <add place="above" type="sign">dit</add> sur ce subjet, parce que,
+							<lb/>ayant entendu que <persName ref="per017122a.01">Jenon Debieux</persName> avoit accusé tous ceux
+							<lb/>de <placeName ref="loc010145">Corserey</placeName>, hormis les petits enfants, elle croyoit qu’on les
+							<lb/>emprisonneroit aussy bien qu’eux, l’avoir parainsy parlé sans
+							<lb/>mal penser. Ne sçait qu’elle ayt beu a <placeName ref="loc007610">Payerne</placeName> avec la
+							<lb/>servante de <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le <choice><abbr>gral</abbr><expan>general</expan></choice> <persName>Python</persName>, ce que pourtant
+							<lb/>pourroit bien estre, mais soustient ne luy avoir faict, ny occasio<lb break="no"/>né aucun mal, ny a personne que soit.</seg> <seg>Enquise si elle n’estoit
+							<lb/>soubjecte a la <term ref="lem019455.01">rapine</term> et n’avoit pris du chanvre devant
+							<lb/>le logis du prenommé <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Python</persName>&#160;? Dit et soustient qu’elle n’a
+							<lb/>jamais commis <term ref="lem019436.04">larrecins</term>, ny outragé personne. Mais quant
+							<lb/>au chanvre dont on l’accuse, <term ref="lem015549.13">confesse</term> librement que, s’en
+							<lb/>allant contre <placeName ref="loc007610">Payerne</placeName> et passant par devant dite maison,
+							<lb/>elle en prit une poignee, pour en faire des jartieres.</seg> <seg>A fina<lb break="no"/>lement soustenu a la simple <term ref="lem018231">corde</term> qu’elle n’estoit aucunement sor<lb break="no"/>ciere, ny veu le <term ref="lem015433.10">maling</term>, que Dieu l’en preserve, et nyé qu’elle
+								<lb/>ayt pris autre chose que dite poignee de chanvre. <term ref="lem019498">Crie
+							<lb/>mercy</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

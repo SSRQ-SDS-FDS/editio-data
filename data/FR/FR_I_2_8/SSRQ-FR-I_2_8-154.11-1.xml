@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-154.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 219–220</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 219–220</idno>
+					</msIdentifier>
+					<head xml:lang="de">Agathe Wirz-Corboz, Mathia Palliard-Cosandey – Verhör</head>
+					<head xml:lang="fr">Agathe Wirz-Corboz, Mathia Palliard-Cosandey – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-04"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="219"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-07-04">4<hi rend="sup">ten</hi> juli 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName> <term ref="lem018540.04">aman</term></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per009276">Franz Karl Gottrau</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per011532a.03">Brünißholtz</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.02">Zurmatten</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018126a.01">Perret</persName></seg></p>
+						<p><lb/><persName ref="per020304a.04">Agata Corbu</persName>, welche, ohngeacht sie mit dem <term ref="lem018237.02">zendtner</term>
+							<lb/><term ref="lem014641.01">torturiert</term> und durch meine <choice><abbr>h</abbr><expan>herren</expan></choice> des gerichts ernstlich
+							<lb/>examiniert worden, bleybt bey <subst><del>b</del><add place="overwritten">h</add></subst>yrvor gethaner
+							<lb/>beharlicher verneinung. Ohn geacht ihr des <term ref="lem014673.13">bößen feindts</term>
+							<lb/>angesetztes maß<term ref="lem017060">zeichen</term> fürgehalten worden, gestalten
+							<lb/>sie der <term ref="lem014672.06">hexeri</term> mit nichten sich will schuldig erkhennen.</p>
+						<p><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note>, eadem die, presentibus supra dictis</foreign></p>
+						<p><lb/><persName ref="per020299a.01">Mathia Cossandey</persName>, welche nach der <subst><del><gap reason="illegible" quantity="1" unit="cm"/></del><add place="overwritten">dr</add></subst>eymahligen <term ref="lem013000.01">tortur</term>
+							<lb/>des halben <term ref="lem018237">zentners</term> durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts
+							<pb n="220"/><lb/>embsigklich examiniert worden über den inhalt des uff<lb break="no"/>genomnen <term ref="lem003708">examens</term>. <term ref="lem011468.03">Bekhendt</term>, sie habe der <persName ref="per020318a">La Vignieta</persName>
+							<lb/><measure type="currency" quantity="2" unit="Pistole">zwo pistollen</measure> wegen bey ihr kranckheit uber sich ge<lb break="no"/>nommner arbeit <term ref="lem007253">verehrt</term>, <subst><del>die </del><add place="inline">solche</add></subst>, fals sie mit todt
+							<lb/>abgehn solte, eügentumblich zu behalten. Die sie
+							<lb/>ihr aber <subst><del>er</del><add place="overwritten">n</add></subst>ach erlangter gesundt in fahl widerumb
+							<lb/>(wie dan geschehen) <del rend="underline">widerumb</del> in hendigen solte.
+							<seg></seg><lb/><persName>Andres Brun</persName> habe die <persName>Crisuda</persName>, wie <subst><del><gap reason="illegible" quantity="0.5" unit="cm"/></del><add place="inline">solches</add></subst>
+							<lb/>durch desen hußfrauwen eügner <term ref="lem016794.05">bekhandtnuß</term>
+							<lb/>hergefloßen und ihr selbs durch sie an<term ref="lem016814">vermeldt</term> worden,
+							<lb/>seiner kranckheit halben in verdacht gehabt. Welche
+							<lb/>aber wegen abgeforderte<del>n</del> <measure type="currency" quantity="2" unit="k">zwo kronnen</measure>, darumb er
+							<lb/><add place="left margin">wegen gewißen</add> <subst><del>Saffoier</del><add place="above">Saffoier</add></subst> <term ref="lem000225.01">bürg</term> <del rend="underline">worden</del> und uff verneinung überwissen worden,
+							<lb/>ein haß wider sie gefast. Darumb derselb auß ge<lb break="no"/>faßten unwillen die ihme zugestandne kranckheit
+							<lb/><term ref="lem019168.02">atribuiert</term>. Deme sie khein<del>en</del> wein will <subst><del>h</del><add place="overwritten">g</add></subst>eben
+							<lb/>haben, noch das ihme durch sein haußfrauw <subst><del>zu</del>
+							<lb/><add place="inline">von</add></subst> ihr wein zu khommen seye. Übrige für<lb break="no"/>gehaltne puncten verneinet sie gäntzlich. Bittet
+							<lb/>beyneben gott und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice> umb <term ref="lem004684.08">verzüchung</term>. <gap reason="irrelevant"/><note>Le passage
+								qui suit concerne le procès mené contre <persName ref="per020329">Elsi Veillard</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-155.4-1">SSRQ FR I/2/8 155.4-1</ref>.</note>
+						</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

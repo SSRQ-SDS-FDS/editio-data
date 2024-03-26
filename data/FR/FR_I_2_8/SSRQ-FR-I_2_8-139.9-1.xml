@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-139.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 518–520</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 518–520</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Destra – Verhör</head>
+					<head xml:lang="fr">Catherine Destra – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1648-08-03"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="518"/><p><lb/><placeName ref="loc008105.02">Käller</placeName>, den <origDate when="1648-08-03">3<hi rend="sup">ten</hi> augsten 1648</origDate>
+						<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>Hr</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per013479a.01">Reynold</persName></seg>
+						<seg><lb/>Her <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013434a.03">Degrange</persName></seg></p>
+					<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+					<pb n="519"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <foreign xml:lang="la">eadem die</foreign></p>
+						<p><lb/><persName ref="per018091a.03">Catelina de Trey</persName> von <placeName ref="loc008345.02">Possa</placeName>, nach
+						dem sie durch <subst><del>des</del><add place="overwritten"><choice><abbr>m h</abbr><expan>mine herren</expan></choice></add></subst> deß grichts
+							<lb/>frindlich examiniert, hat sie meinem hochehrenden herrn <choice><sic>burgen<lb break="no"/>mister</sic><corr><term ref="lem018597.02">burgermeister</term></corr></choice> angezeigt, das wan<del>s</del> sie <term ref="lem011468.04">bekhenne</term>, werde man sie
+						<lb/>verbrennen, <add place="left margin" type="sign"><lb/>und werde <del>sie</del> <lb/>nit mehr <lb/>nach haß <lb/>zu den seinigen <lb/>khommen <lb/>khönnen</add>. Wariber, <subst><del rend="underline">sie</del><add place="inline">nach dem sie</add></subst> mit
+						<add place="above">dem kleinen</add> <term ref="lem018287">stein</term> <term ref="lem016150.02">uffgezogen</term> worden,
+							<lb/>hat <subst><del rend="underline">sie</del><add place="inline"><term ref="lem011468.03">bekhendt</term></add></subst>, das <term ref="lem003365.06">feüwr</term> zu <placeName ref="loc008127.03"><subst><del><gap reason="illegible" unit="character" quantity="1"/></del><add place="overwritten">M</add></subst>anedens</placeName> angestekt zu haben
+						<lb/>mit einen büschel <term ref="lem006371.04">strauw</term> an daß camin, so uff den abendt angangen,
+							<lb/>durch <term ref="lem018512.02">instinction</term> und anlaß zweyer weiber, genandt <persName>la Cantineta</persName><note>Gemeint ist möglicherweise <persName>Vincenza Cantin-Cudré</persName>, deren Mann aus <placeName>Magnedens</placeName> stammte und die im Jahr 1652 selber unter Verdacht der Hexerei stehen wird. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-164.0-1">SSRQ FR I/2/8 164.0-1</ref>. Da es in Magnedens vermutlich mehrere Familien mit Namen Cantin gab, bleibt die Zuordnung vage.</note>
+						<lb/>die einte, die andere <persName>la Tissota</persName>. <term ref="lem018516.02">Die weillen</term> der <persName>Dougu</persName>
+						<lb/>sie anklagt, ob solten selbige ihme in käller gebrochen sein und
+							<lb/>etliche kleine <term ref="lem000054.27">käsen</term> <foreign xml:lang="fr"> des <term ref="lem018227.03">mottetes</term></foreign> <term ref="lem000312.01">entfrembt</term> haben. Dennen sie
+						<lb/>zwahr geantwortet, wo sie das selbig <term ref="lem006556.01">understiende</term>, wurde sie
+							<lb/><term ref="lem011474.02">verbrendt</term> werden, <add place="bottom" type="sign">es habe gemelter <persName>Dugo</persName> ihr nie nicht leydts zu gefüegt</add>. Wariber <subst><del rend="underline">sie repliciert</del><add place="above">ihr</add></subst> gemelte<del>n</del> weiber<del>n</del>
+						<lb/><term ref="lem013269.02">repliciert</term>, sie wollen die schuldt und sündt an ihren nemmen,
+						<pb n="520"/><lb/>und wollen <term ref="lem018513.02">beyneben</term> ihr ein neüwes kleydt machen, wan
+						<lb/>sie solches thete.</p>
+						<p><lb/>Zu <placeName ref="loc009824.03">Zeinens</placeName> habe ihr <persName ref="per018192a.01">Gisolans</persName> frauw gesagt, ob sie sich
+							<lb/>der <persName>Carnoda</persName> nicht <choice><sic>beförhte</sic><corr>beförchte</corr></choice>, das sie ihr<del>e</del> die <term ref="lem007321.05">teüffel</term>
+						<lb/>ingeben hete. Sie solle <subst><del>sich</del><add place="inline">der</add></subst> halben sich fleißig dem
+							<lb/>gebet ergeben, dan sie <subst><del>seye</del><add place="inline">der</add></subst> <term ref="lem014672.07">hexerey</term> verdacht were.
+						<lb/>Des orts auch mit einer gewißen von <placeName ref="loc010145">Corserey</placeName> söllen
+							<lb/>gefencklich <term ref="lem009330.01">eingezogen</term> werden, dariber sie <add place="above">aber</add> <term ref="lem002091">gewichen</term>.
+						<lb/>Sie möchten wünschen, sie weren anderstwo. Als
+							<lb/>solche reden <term ref="lem018514">fürgangen</term>, solle ihr die <persName ref="per018191a.01">Gisolanna</persName> bevohlen
+							<lb/>haben, sie solte ihr etwaß übels auß unwillen zu<lb break="no"/>fiegen und das <term ref="lem003365.10">füwr</term> in ihr hauß steken. Dariber
+							<lb/>habe sie <subst><del><unclear>khein</unclear></del><add place="overwritten">ein</add></subst> gliende<del>r</del> <term ref="lem000490.04">kol<subst><del>e</del><add place="overwritten">l</add></subst></term> <subst><del>i</del><add place="overwritten">g</add></subst>enommen, den selben
+							<lb/>in <term ref="lem006371.04">strauw</term> uff dem vorderntheil deß hauses gestelt
+							<lb/>und gestekt, <time dur-iso="PT1H">ein stundt</time> hernach seye das <term ref="lem003365.06">feüwr</term> und
+							<lb/>die brunst angangen.</p>
+						<p><lb/>Zu <placeName ref="loc009823.04">Lentenach</placeName> habe sie auch das <term ref="lem003365.06">feüwr</term> angestekt
+							<lb/>durch anlaß und geheiß gewiser frauwen von
+							<lb/><placeName ref="loc010145">Corserey</placeName>, die einen unwillen wider die von <placeName ref="loc009823.04">Lentenach</placeName>
+							<lb/><add place="left margin">gefast</add> hate, wonhafft <subst><del>den</del><add place="overwritten">zu</add></subst> <placeName ref="loc010145">Corserey</placeName> in einem hauß under
+							<lb/>die <term ref="lem000366.05">cappell</term>, und habe das <term ref="lem003365.06">feüwr</term> von <placeName ref="loc009797.05">Grandsheva</placeName>
+							<lb/>in <term ref="lem018515.02">schwum</term> dahin getragen. <subst><del><gap reason="illegible" unit="character" quantity="1"/></del><add place="overwritten">A</add></subst>ls sie zum ander
+							<lb/>und dritenmahl <term ref="lem016150.02">uffgezogen</term> worden mit dem kleinen
+							<lb/><term ref="lem018287">stein</term>, hat sie alle obberierte <choice><sic>pucten</sic><corr>puncten</corr></choice> <term ref="lem000540.01">confirmiert</term> und
+							<lb/>endlich <term ref="lem016814">vermeldt</term>, das wo <subst><del rend="underline">man</del><add place="inline">dennen</add></subst> <subst><del>au</del><add place="overwritten">d</add></subst>urch sie angebnen
+							<lb/>weibern nit so vill angethan werde, wie ihr mit
+							<lb/>der <term ref="lem013000.01">tortur</term> geschehen, geschehe ihr unrecht. Bittet gott
+							<lb/><add place="left margin">und</add> einer <choice><abbr>g</abbr><expan>gnädigen</expan></choice> oberkheit umb <term ref="lem004684.01">verzeichung</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

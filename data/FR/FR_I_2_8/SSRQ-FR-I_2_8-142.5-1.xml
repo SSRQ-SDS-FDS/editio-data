@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-142.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 59–61</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 59–61</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Bapst-Käser, Elsi Fontana-Zosso – Verhör</head>
+					<head xml:lang="fr">Catherine Bapst-Käser, Elsi Fontana-Zosso – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-10-07"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="59"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <foreign xml:lang="la">dito</foreign><note>Das Verhör fand am <origDate when="1649-10-07">7. Oktober 1649</origDate> statt.</note>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice><note>Gemeint ist <persName ref="per009276">Franz Karl Gottrau</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.01">Wild</persName>, <abbr>hr</abbr> <persName ref="per009264a.03">Aman</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013469a.04">Cattilla</persName></seg></p>
+						<p><seg><lb/><persName ref="per018326a.06">Cathrina Babst</persName> von <placeName ref="loc007627.01">Tentlingen</placeName>, welche der <term ref="lem014672.06">hexeri</term>
+							<lb/>verdacht, durch meine herren des gericht exami<lb break="no"/>niert und <add place="above">3 mahl</add> am lehren <term ref="lem006591">seil</term> <term ref="lem016150.07">uff gezogen</term>. <term ref="lem011468.03">Bekhendt</term>
+						<lb/>zwar, gewißen horn oder <num value="1">i</num> große schnecken, so
+						<lb/>von <placeName ref="loc009136.07">S<hi rend="sup">t</hi> Jacob</placeName> herkommen und hergebracht worden
+						<lb/>vor <date dur-iso="P50Y">50 jaren</date> durch einen <term ref="lem008736.04">bilger</term>, so 17 mahl zu
+						<lb/><placeName ref="loc009136.06">Sant Jacob</placeName> geweßen, <add place="left margin" type="sign">gehabt zu haben</add>, welcher die selbige seinen
+						<lb/>elteren <term ref="lem007253">verehrt</term>. Und habe der selbig ihnen ange<lb break="no"/>zeigt, daß zu <placeName ref="loc009136.08">Compostel</placeName> und der orten die selbige
+						<lb/>wider das ungewitter gebraucht werden. Hate
+						<lb/>zwar sich als übel hörendt gestelt, und aber hernach
+						<lb/>woll gehört.</seg> <seg>Sagt, sie seye zwar vor <date dur-iso="P4Y">4 jaren allein</date>
+						<lb/>des horns wegen schon gefängklich <term ref="lem009330.01">eingezogen</term>, <del rend="underline">worden</del>
+						<lb/>und aber des halben auch nach gethaner <term ref="lem005044">examination</term>
+						<lb/>widerumb <term ref="lem000729">ledig</term> gelaßen worden<note>Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-119.0-1">SSRQ FR I/2/8 119.0-1</ref>.</note>. Verneinet alle
+						<lb/>andere ihr fürgehaltne artickel. Hiemit bittet
+						<lb/>gott und ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkheit umb <term ref="lem004684.18">verzeiung</term>.</seg> </p>
+						<pb n="60"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <foreign xml:lang="la"> dito, presentibus supradictis</foreign> </p>
+						<p><seg><lb/><persName ref="per019247a.01">Elsi Zosso</persName> ist <subst><del>3</del><add place="overwritten">drey</add></subst> mahl mit dem kleinen <term ref="lem018287">stein</term>
+						<lb/><term ref="lem016150.02">uffgezogen</term> und durch meine herren des gerichts
+						<lb/>examiniert. In dem sie gesagt, sie habe des
+						<lb/><term ref="lem001743.01">müllers</term> <persName>Stutzes</persName> <term ref="lem000130.09">künder</term> niemahlen gesehen, vari<lb break="no"/>ert die selbige, dan sie gleich hernach angezeigt,
+						<lb/>es seye lange zeytt, das sy sie gesehen hab, <subst><del><gap reason="illegible" unit="cm" quantity="1"/></del><add place="overwritten">do</add></subst>
+							<lb/>die mutter der <term ref="lem000130.09">kündern</term> in <placeName>Reyssus Mülli</placeName><note>Dieser Ort ist nicht zu identifizieren. Er wird ein weiteres Mal erwähnt, vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-142.3-1">SSRQ FR I/2/8 142.3-1</ref>.</note>
+						<lb/><add place="left margin"><term ref="lem000130.27">kündts</term></add> gelegen<note>Gemeint ist, dass die Frau im <term ref="lem006336">Kindbett</term> lag.</note>. Verneinet, den <term ref="lem000130.09">kündern</term> nachgefragt zu
+						<lb/>haben.</seg> <seg>Stelt sich <term ref="lem018876.02">gehörloß</term>, und als sie durch
+						<lb/><choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts erfragt, wie lang es sein möchte,
+						<lb/>dass sie sich vom <term ref="lem014673.13">bößen feindt</term> habe verfiehren
+						<lb/>laßen, hat geantwortet, sie wisse die zeytt
+						<lb/>nit. Und da sie dariber ernstigklich erfragt
+						<lb/>worden, sagt, habe vermeint, man erfrage sie
+						<lb/>d<subst><del>ie</del><add place="overwritten">er</add></subst> zeytt, so <persName>Hanß Folman</persName> mit todt seye
+						<lb/>abgangen. Hat alzeytt uff die fürgehaltne
+						<lb/>puncten <term ref="lem018617.01">extravagiert</term> und niemahlen mit
+						<lb/><persName ref="per011219a">Satan</persName> antwort begegnen wollen. Sonders jeder<lb break="no"/>willen sich gestelt, ob sie es nit hörte. Oder
+						<lb/>als hete sie die proponierte artikel nit recht
+						<lb/>verstanden.</seg> <seg>Dariber der <choice><abbr>m</abbr><expan><term ref="lem014678">meister</term></expan></choice> <term ref="lem004390.03">scharpffrichter</term>,
+						<lb/>welcher ihr das <term ref="lem017060">zeichen</term> uff dem <term ref="lem005081.02">haubt</term> gefunden hat,
+						<lb/>mit einer nadlen tieff in das <term ref="lem017060">zeichen</term> gestochen,
+						<lb/>ohne das sie einiges zeichen der empfindligkheit
+						<pb n="61"/><lb/>von sich geben hete. Volgendt ein gutte <term ref="lem008740.03">weil</term> die selbige
+						<lb/>darein stekendt gelaßen, alles in beyweßen <choice><abbr>m h</abbr><expan>meine herren</expan></choice>
+						<lb/>des gericht. Daryber sie ernstlich examiniert worden.
+						<lb/>Will aber keines wegs <term ref="lem011468.04">bekhennen</term>, das sie ein
+						<lb/><term ref="lem007356">unholdin</term> seye. Bittet gott und ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkeit
+						<lb/>umb <term ref="lem004684">verzeihung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

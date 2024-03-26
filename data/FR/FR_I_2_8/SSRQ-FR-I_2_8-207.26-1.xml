@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.26-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 20, fol. 520v–521r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 20, fol. 520v–521r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond – Verhör</head>
+					<head xml:lang="fr">Catherine Repond – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-08-08"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="520v"/>
+						<p><lb/><placeName ref="loc007683.05">Mauvaise Tour</placeName>, ce <origDate when="1731-08-08">8<hi rend="sup">e</hi> d’aoust 1731</origDate></p>
+						<p><lb/>Juge, Monsieur le <term ref="lem014993.01">grand sautier</term> <persName ref="per028146a.01">Odet</persName>
+							<seg><lb/>Mon très <choice><abbr>honré</abbr><expan>honoré</expan></choice> <choice><abbr>seig<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <term ref="lem019323.02">bourguemaitre</term> <persName ref="per028155a.02">Haberkorn</persName></seg>
+							<seg><lb/><persName ref="per028163a.01">Gritz</persName>, <persName ref="per028170a.01">Quentz</persName>, officiers</seg></p>
+						<p><seg><lb/>Du <origDate when="1731-08-06"><subst><del>s</del><add place="overwritten">6</add></subst><hi rend="sup">e</hi> du courant</origDate> par ordre souverain, <choice><abbr>Mr</abbr><expan>Monsieur</expan></choice>
+							<lb/>le <term ref="lem014993.01">grand sautier</term><note>Gemeint ist <persName ref="per028146a">Karl Simon Odet</persName>.</note> et le soussigné<note>Gemeint ist <persName ref="per028157a">Franz Nikolaus Haberkorn</persName>.</note>, avec
+							<lb/>l’officier <persName ref="per028170a.01">Quentz</persName>, s’etants transportés <placeName ref="loc013058.02">ès
+							<lb/>Gottes</placeName> près de <placeName ref="loc008351.02">La Riederaz</placeName> pour y prendre
+							<lb/>information dans la maison de <persName>Petter Kolly</persName>
+							<lb/>au sujet d’une <term ref="lem018922.01">jument</term>, qui devoit jetter, son
+							<lb/><term ref="lem015442.04">poulin</term> êtant crevée, à teneur de l’information.
+							<lb/>La detenüe fut questionnée par mon
+							<lb/>très <choice><abbr>honré</abbr><expan>honoré</expan></choice> <choice><abbr>seig<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <term ref="lem019323.02">bourguemaitre</term> <persName ref="per028155a.02">Haberkorn</persName>,
+							<lb/>si elle ne se seroit trouvée chez ledit <persName>Kolly</persName>
+							<lb/>pour avoir demandé du <term ref="lem015011.04">laict</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’ouy,
+							<lb/>et même s’est arrettée souvente fois devant
+							<lb/>ladite maison, voulant aller tantost à
+							<lb/><placeName ref="loc001060.03">Fribourg</placeName> et dans d’autres endroits, où ses
+							<lb/>braves gens les <persName>Kolly</persName>, comme riches, ne luy ont
+							<lb/>fait refus de luy donner du <term ref="lem015011.04">laict</term>.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice>
+							<lb/>si ce <term ref="lem015011.04">laict</term> êtoit chaud ou froid. <choice><abbr>R</abbr><expan>Répondu</expan></choice> <choice><sic>dans</sic><corr>d’en</corr></choice>
+							<lb/>avoir usité, comme il luy fut presenté,
+							<lb/>mais qu’une fois il estoit si froid qu’elle ne
+							<pb n="521r"/> <lb/>le peut prendre pour nourriture, crainte de
+							<lb/>tomber en maladie.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> où elle fit rencontre de
+							<lb/><persName>Hanß Kolly</persName> dedite maison, et si elle ne luy auroit
+							<lb/>dit&#160;: <q>&#160;Adieu&#160;!&#160;</q>, en disant qu’elle ne <add place="above">se</add> rencontreroit et
+							<lb/>arretteroit plus chez eux. <choice><abbr>R</abbr><expan>Répondu</expan></choice> que non, d’autant
+							<lb/>qu’elle auroit êté encor une fois devant dite
+							<lb/>maison.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> si elle n’auroit pas passé l’ecurie
+								<lb/>des <term ref="lem018921.05">chevaux</term> pour s’estre trouvée mal contente
+							<lb/>dudit <term ref="lem015011.04">laict</term> froid. <choice><abbr>R</abbr><expan>Répondu</expan></choice> que non, en disant n’y avoir
+							<lb/>jamais êté, mais bien dans l’ecurie des <term ref="lem017507.02">vaches</term>
+							<lb/>pour y avoir couché avec une pauvre fille,
+							<lb/>sans pou<subst><del>voir</del><add place="overwritten">rtant</add></subst> avoir eu connoissance avec elle,
+							<lb/>en persistant de n’avoir fait aucun tort et
+							<lb/>mal ni à personne <subst><del>et</del><add place="above">ni</add></subst> bestes, <add place="left margin" type="sign">et qu’elle fait
+								<lb/>tort à la <persName>Freche</persName>, <lb/>qu’elle est ino<lb break="no"/>cente.</add></seg>
+							<seg><lb/>Etant donc questionnée au sujet des <term ref="lem019398.02">oeufs</term>
+							<lb/>qu’elle auroit achepté en la maison de <persName>Jaque
+							<lb/>Veilliard</persName>, proche de l’eglise de <placeName ref="loc007928">Treyvaux</placeName>.
+							<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’ouy, en avoir achepté pour <measure type="currency" quantity="5" unit="bz">5 bz</measure>, et
+							<lb/>ensuitte les avoir porté vendables à la
+							<lb/><placeName ref="loc008353.02">Maigroge</placeName> et <placeName ref="loc008355">Montorge</placeName>.</seg>
+							<seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> pour ce qui
+							<lb/>concerne la <term ref="lem019335.02">nillié<subst><del>z</del><add place="overwritten">e</add></subst></term>, si elle n’a pas donné le
+							<lb/>mal à la mère soit <term ref="lem019301.02">poulle</term> dedite <term ref="lem019335.02">nillié<subst><del>z</del><add place="overwritten">e</add></subst></term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice>
+							<lb/>que non, et en avoir aucune connoissance.</seg>
+						<seg><lb/>Au reste, êtante interrogée par manière des
+							<lb/>predites examinations, elle les confirma
+							<lb/>en disant avoir toujours êté desesperée,
+							<lb/>ne niant point la <term ref="lem018894.01">marque</term> de la cuisse
+							<lb/>droite.</seg> <seg>Ainsi s’est finie presente
+							<lb/>examination, et fut conduite en son
+							<lb/>endroit accoustumé.</seg></p>
+						<p><lb/><persName ref="per028157a.01">Haberkorn</persName> secretaire
+							<lb/>civil <figure type="notarial sign"/>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

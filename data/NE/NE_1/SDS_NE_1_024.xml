@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+                  sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-24-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives du Landeron</repository>
+                  <idno xml:lang="fr">Archives du Landeron, C 23</idno> 
+               </msIdentifier>
+               <head>Sentence du plaid de saint Maurice qui délimite les droits respectifs de l'évêque de Bâle et du comte de Neuchâtel sur Lignières ainsi que les diverses obligations des sujets de ce lieu</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="la"/>
+                     <filiation type="original">
+                        <origDate when="1403-09-22"/>
+                        <origPlace ref="loc007792">Le Landeron</origPlace>
+                     </filiation>
+                     <filiation type="current">Copie authentique</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="67"/>
+                              <width unit="cm" quantity="61"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1489-09-22"></origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_75">SDS NE 1, N<hi rend="sup">o</hi>&#160;24</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004056"></term>
+               <term ref="key000127"></term>
+               <term ref="key000351"></term>
+               <term ref="key000622"></term>
+               <term ref="key003498"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="LANDERON_C_23_1r"/> 
+               <div>
+                  <p><seg><lb/>Je <persName>Jehan Clavenier</persName>, lieutenant du Landeron <gap
+                           reason="missing"/>
+                        <lb/>fais scavoir a tous ceulx quilz verront et orront ces presentes lettres
+                        tant au present comme au temps advenir que moy seant comme juge en ceste
+                        partie pour et en nom de mondit très redoubté <lb/>et souverain seigneur, le
+                        jour feste saint Moris<note>Note Favarger&#160;1982&#160;: En 1330-1340 le
+                           plaid saint Maurice doit certainement correspondre au <hi rend="italic"
+                              >placitum generale</hi> (AEN, Reconnaissance du Landeron, B&#160;9,
+                              N<hi rend="sup">o</hi>&#160;2)&#160;; en 1474, on apprend que le <hi
+                              rend="italic">plait de saint Morix</hi> se tient le jour de la <hi
+                              rend="italic">feste dudict saint Morix</hi> (AEN, Audiences générales,
+                           vol.&#160;I, fol.&#160;236v), il est formé de bourgeois et jurés <hi
+                              rend="italic">dudict plait de saint Moris</hi> (<hi rend="italic"
+                              >ibidem</hi>, fol.&#160;229). Le plaid saint Maurice était donc
+                           composé de jurés de la cour ordinaire du Landeron siégeant le jour de la
+                           saint Maurice. Il était appelé <hi rend="italic">grant plait</hi> (<hi
+                              rend="italic">ibidem</hi>, fol.&#160;235), et il est même précisé, en
+                           1480, que <hi rend="italic">de chose mouvant du plait de saint Morix l'on
+                              ne peult ne doit rappeler</hi> (<hi rend="italic">ibidem</hi>,
+                           fol.&#160;235).</note> en tenant le plait dudit saint Moris a heure
+                        accoustumee de plaidoyer au grant poille du Landeron en la presence du
+                        notaire publicque cy desoubz escript et des <lb/>tesmoingz cy desoubz nomez,
+                        personnellement establis et present estans les prodommes jurez dudit plait
+                        de saint Moris, c’est asscavoir Jehan Brechalle, Jehan-Perrin Poschon,
+                        Perrod Bonjour de Lignieres, homme de <lb/>monseigneur de Basle, Michiel
+                        Marmet, Perroud Vienier, Jehan Breuget, de Lignieres, homme de monseigneur
+                        de Neufchastel, Jehan Faisieux et Jehan Mabillon, bourgeois du Landeron, a
+                        la requeste desquelx <lb/>prodhommes et jurez dudit plait saint Morys,
+                        discrete personne Jehan Doyens, clerc, notaire publicque, furent leictes de
+                        mot a motz les drois, franchises et libellez que ledit mon très redoubté et
+                        souverain seigneur entre les <lb/>aultres choses ait et doit avoir
+                        d'ancienneté en ladite ville de Lignieres, aux appendises et appartenances
+                        dudit lieu, comme cy après est devisez et s'ensuit.</seg>
+                     <seg>Premierement mondit très redoubté seigneur <lb/>monseigneur de Neufchastel
+                        ait a Lignieres tous gros banc de soixante solz, de dix livres et toute
+                        seigneurie aulte, moyenne et basse et pugnicion de corps tant comme la
+                        diesmerie se estant deis <lb/>le petit chasne de Noz en tendant deis la
+                        Combe Saint Ymier.</seg>
+                     <seg>Item le messaigé de Neufchastel en nom et pour mondit seigneur de
+                        Neufchastel et celluy monseigneur de Basle se doibvent seoir l’ung a costé
+                        <lb/>l’aultre en justice en la ville de Lignieres, et enquil ne doit nul
+                        juger ne congnoistre sens les gens de monseigneur de Neufchastel et de
+                        monseigneur de Basle se il n’estoit requis et appelés par lesdites parties
+                        et especial<lb break="no"/>ment de la ville de Lignieres.</seg><seg>Item
+                        toutes offences, clames, barres et toutes aultres choses que se font deis le
+                        Armont se doibvent droicturier en la ville de Lignieres.</seg>
+                     <seg>Item monseigneur de Neufchastel ait telles <lb/>franchises en la ville de
+                        Lignieres qu’ilz ne doibvent avoir ne mesuré a nulle mesure maisque a la
+                        mesure de Neufchastel ne vin ne blefz ne avene ne nulle aultres choses ne au
+                        mollin de Lignieres maisque au coupet de Neufchastel.</seg>
+                     <seg><lb/>Item tous les advenant quilz viennent a Lignieres demouré sont a
+                        monseigneur de Neufchastel, excepter ceulx de l’esvechiez.</seg>
+                     <seg>Item monseigneur de Basle doit avoir les courvees sur toutes gens de
+                        Lignieres <lb/>et des deffault doit l’on gaigier par le messaigé monseigneur
+                        de Neufchastel et ly messaiger pour sa poinne doit avoir laquelle esmende
+                        qu’il veult et chascune charrue doit avoir en karesme pour sont despens, une
+                        emine de froment, et en semoural, une raise, et en octhon une emine froment. </seg>
+                     <seg>Item monseigneur de Basle ne peult aussi et ne doit traire lesdites
+                        courvees des gens monseigneur de Neufchastel feurs <lb/>de la diesmery de
+                        Lignieres pour faire lesdictes corvees maisque audit lieu de
+                        Lignieres.</seg>
+                     <seg>Item les terraiges de Lignieres se doibvent partir parmy et parmy entre
+                        les deux seigneurs se penes <lb/>en y a.</seg>
+                     <seg>Item monseigneur de Neufchastel peult touteffoys que a luy plaira viez et
+                        faire viessons en la ville de Lignieres et il doit demander le messaiger de
+                        monseigneur de Basle et doit l’on faire <lb/>le mangier es jurez et a ceulx
+                        quilz sont des drois des gens de l’esvechiez sur les emmendes de trois solz
+                        et se rien demeure desdictes emmendes de trois solz, il se doit partir entre
+                        les deux seigneurs <lb/>et les aultres esmendes de trois solz en amont sont
+                        a monseigneur de Neufchastel. </seg>
+                     <seg>Item monseigneur de Neufchastel peult faire a Lignieres fours et mollins
+                        touteffoys qu’il luy plait en ladite seigneurie <lb/>tant comme elle
+                        s’estant.</seg>
+                     <seg>Item monseigneur de Neufchastel ait sur tous les favres tenans ouvreurs en
+                        la ville de Lignieres, trois ferrures chascun an.</seg>
+                     <seg>Item tous ceulx quilz vendent vin <lb/>en menuz en la ville de Lignieres
+                        doibvent a monseigneur de Neufchastel pour le foraige un carteron de vin de
+                        chascune bosse soit petite ou grosse.</seg>
+                     <seg>Item quelxconques personne estant de la paroche <lb/>de saint Moris quant
+                        il se marie et fait ses nopces en icelle paroche, il doit a monseigneur de
+                        Neufchastel un sexteret de vin.</seg>
+                     <seg>Item toutes les jourx dessus Lignieres pourtant aigue dever Lignieres sont
+                        <lb/>toutes aux deux seigneurs et a leurs gens.</seg>
+                     <seg>Item la virye oult bestes du Landeron doibvent allez a la fin de Lignieres
+                        trois jours avant celles de Lignieres quant ilz ont moissonnez leurs
+                        biefs.</seg>
+                     <seg>Item se monseigneur de Basle lieve la chasse sur luy il la peult suygre
+                        jusques l’Areuse et se monseigneur de Neufchastel la lieve sur luy, il la
+                        peult suygre jusques a la Suze de Frinvillier. Et ou la nuyt <lb/>prent
+                        ladite chasse, ilz peuvent prandre des vivres ne tout prandre ne tout paié. </seg>
+                     <seg>Item se l’ung des hommes monseigneur de Basle ait couroucer ledit
+                        monseigneur de Basle, monseigneur de Neufchastel <lb/>luy doit aidé faire sa
+                        pais&#160;; et s’il ne peult faire sa pais, monseigneur de Neufchastel le
+                        doit conduyre un jour et une nuyt se y en n’est requis et se tant estoit
+                        qu’il heust chaussez l’ung de ses esperons, il ne doit pas actendre de
+                        chausser l’aultre pour luy aidé faire sa pais de ceulx quilz sont riere le
+                        plait.</seg>
+                     <seg>Item monseigneur de Neufchastel ait sur chascun courvoisier quil tiegnent
+                        <lb/>ouvreux tant a Lignieres comme en la paroche de saint Moris chascun an
+                        trois paires de soulliers.</seg>
+                     <seg>Item quant vient sur le feue temps, les bestes de Lignieres se besoing
+                        estoit doibvent venir <lb/>avaul aux pasquiers du Landeron, c’est assavoir
+                        par le sentier de la vigne d’Espaignier tout droit contre vaul la couste de
+                        Guillembert et enquil pasturez monseigneur de Neufchastel prent sur ung
+                        <lb/>porc que l’on vend en menuz en la chastellannie du Landeron, deux
+                        livres baloys, sur un chattron et sur la faye, ung denier baloys, sur la
+                        chievre et sur le bouc, sur chascun une maille baloys, et sur toutes
+                        <lb/>les choses gesant devers vent du ruz de Vaulx l’on doit prandre droit
+                        au Landeron.</seg>
+                     <seg>Item le messaigié de monseigneur de Basle et le messaigié monseigneur de
+                        Neufchastel doibvent seoir le jour de saint Moris l’ung de cousté l’aultre
+                        <lb/>en justice au Landeron. Et le messaiger de monseigneur de Neufchastel
+                        doit faire le mengier au messaigé monseigneur de Basle, luy tier et a tous
+                        les jurez du plait de saint Moris. Et estre fait le mangiez doit estre
+                        partiryz parmy <lb/>entre lesditz deux seigneurs tout ce que ce pourra
+                        trouver de bon, de ban et clames, pour icelluy jour la premiere clame doit
+                        estre au clerc monseigneur de Neufchastel et la seconde aux jurez dudit
+                        plait.</seg>
+                     <seg>Item <lb/>les brevard du Landeron doibvent a monseigneur de Neufchastel
+                        celluy jour trois benestes de raisins desquelles se doit faire une sur
+                        monseigneur l’abbé de l’Isle, l’aultre sur monseigneur l’abbé de
+                        Frenisberg, et la terce sur la communaulté, des<lb break="no"/>quelles trois
+                        benestes de raisins monseigneur de Neufchastel ait les deux et les prodommes
+                        doibvent avoir la terce sur la table.</seg>
+                     <seg>Item ceulx quilz doibvent la rente du plait de saint Moris, tant blefz
+                        come argent, <lb/>doibvent paié celluy jour et quil ne le paie est pour
+                        trois solz.</seg>
+                     <seg>Item les brevardz du Landeron doibvent a monseigneur de Neufchastel pour
+                        relier ses bosses trois fayx d’avans, lesquels se doibvent faire ung
+                        <lb/>sur monseigneur l’abbé de l’Isle, l’aultre sur monseigneur l’abbé de
+                        Frenisberg et la tierce sur la communaulté et doit donner monseigneur
+                        auxdits brevardz quant ilz apportent lesdits avans a manger.</seg>
+                     <seg><lb/>Item toutes les mesures se doibvent mesurer deis jour et aussi
+                        seignier de la seigne de mondit seigneur de Neufchastel.</seg>
+                     <seg>Item tous ceulx quil tiegnent fiez de Neufchastel, se ainsi est que l’ong
+                        de hommes de <lb/>mondit seigneur le requeroit luy conseiller quelque part
+                        que ce soit, il le doit conseiller et se il ne le veult conseiller et il
+                        pert la cause par son deffault, il luy doit emmender ses missions et sa
+                        perde, especialment <lb/>de ceulx quilz suygvent le plait dessus dit.</seg>
+                     <seg>Item tous ceulx cuil l’on doit diesme le doibvent recouvrez en <term
+                           ref="lem024786.02">vendanges</term> et se tant estoit qu’il ne le prist
+                        en vendanges, celluy qui le doit <lb/>le doit mectre en une aise et se le
+                        vin se pert il est perduz pour celluy cuil l’on le doit et emmender l’aise a
+                        celluy cuil elle est se ainsi est qu’il soit amalchastier.</seg>
+                     <seg>Item tous ceulx de l’esveschiez <lb/>demourant des le ruz de Vaulx en
+                        amont jusques au ruz de Villy doibvent a monseigneur de Neufchastel, chacun
+                        an la rente, c’est asscavoir ung chascun une emine de froment et deux emines
+                        avene et <lb/>deux emine noix.</seg>
+                     <seg>Item les dessus nomez doibvent la talle a monseigneur de Neufchastel et a
+                        monseigneur de Basle, et se doit partir parmy pour les deux seigneurs
+                        chascun an, laquelle se doit quicter en temps <lb/>que l’on quiete les
+                        aultres tailles.</seg>
+                     <seg>Item se ainsi estoit que monseigneur de Neufchastel et monseigneur de
+                        Basle vouloient avoir guerre a aultres que a luy, le premier desdicts
+                        seigneurs qu’il requiert <lb/>ces demourans illé doibvent suigre une nuyt et
+                        ung jour a leurs missions et dois ce en avant ou les doit livrez et paié par
+                        tel que se le messaigé monseigneur de Basle <lb/>estoit premier pour les
+                        commander et le messaigé monseigneur de Neufchastel vint après, le premier
+                        les doit avoir.</seg>
+                     <seg>Item se monseigneur de Neufchastel et monseigneur de Basle voulloient
+                        avoir guerre ensemble <lb/>les dessus nomez demourant ne debvront faire ne
+                        pour <supplied resp="DF">l’ung</supplied> ne pour l’aultre, mais se doibvent tenir en
+                        pais et mondit seigneur de Neufchastel leur doibt faire scavoir trois jours
+                        devant pour resfuyr leurs biens.</seg>
+                     <seg><lb/>Item de toutes choses qu’est dès le ruz de Vault en amont et dès les
+                        Laples en avault se doit faire droit et raison ou Landeron.</seg>
+                     <seg>Item toutes gens errant se on se clame de leur devant le ban, ilz
+                        <lb/>doibvent faire droit deant ledit ban.</seg>
+                     <seg>Item de toutes gens dont on se clame le jour du plait de saint Moris, ilz
+                        doibvent faire droit ledit jour ou la dymanche jour des crances suigant. </seg>
+                     <seg>Item le plait de <lb/>saint Moris ait telle franchise que ce ung homme a
+                        fait chose de quoy il doige perdre le corps et il se retrait ou sentier
+                        appeliez es Trayes il doit enquil estre sigurs.</seg>
+                     <seg>Item ledit monseigneur <lb/>de Neufchastel peult et doit mectre son ban
+                        pour les vendanges au regard des prodommes en ladite chastellannie et
+                        quilconques brise le ban sans licence il doit soixante solz d’amende.</seg>
+                     <seg>Item se un prodommes ait <lb/>une vigne qui soit meure et que se perde
+                        deant le ban, il doit aller vers le chastellain pour prandre congier dou
+                        vendangier icelle vigne et se le chastellain ne luy veult donner congier, il
+                        doit aller vers les prodomme et les <lb/>menez sur la vigne et s’ilz voyent
+                        qu’elle soit en perdition, il la peult vendangier sans nul prejudice de
+                        seigneurie.</seg>
+                     <seg>Item le mongnier doit tenir les mollins et baptioux en bon estat et meudre
+                        quatre terriers <lb/>pour une emine dès la Chandelouse jusques a la saint
+                        Jehan Baptiste et deis la saint Jehan Baptiste ung muyz pour une emine
+                        jusques a la Chandelouse.</seg>
+                     <seg>Item le fournier doit fournoyer deux <lb/>emines pour un denier baloys et
+                        doit faire ce qu’il fournoye une danree de paste et ly fournier doit prandre
+                        le denier ou la danree de paste, lequel que mieulx ly plait.</seg>
+                     <seg>Item ly abbé <lb/>de Frenisberg doit mectre un brevard<note>Note
+                           Favarger&#160;1982&#160;: Le préposé à la garde des vignes et des fruits
+                           en automne (voir Pierrehumbert en références).</note> auquel il doit
+                        donner treize solz ilz doibvent donner au chastellain trois solz pour qu’il
+                        ait puissance de <lb/>gaigier pour leurs drois.</seg>
+                     <seg>Item l’abbé de l’Isle Saint Jehan doit mectre un brevard auquelil doit
+                        donner quatorze solz baloys, aussi doit un menger ausdits brevardz, lesdits
+                        brevardz luy doibvent <lb/>pourtez une beneste de raisins quant ilz veultent
+                        avoir leur mangier. </seg>
+                     <seg>Item tous les favres tenans ouvreurs en la chastellanie du Landeron
+                        doibvent chascun an a monseigneur de Neufchastel trois ferrures. </seg>
+                     <seg>Item <lb/>tous les escoffiers demourant en la chastellanie du Landeron
+                        doibvent audit monseigneur de Neufchastel chascun an qu’ilz tiegnent leurs
+                        ouvreurs trois paires de soulliers. </seg>
+                     <seg>Item tous les maselliers qu’ilz <lb/>tuent grosses bestes pour vendre en
+                        menuz en la chastellannie du Landeron doibvent à monseigneur de Neufchastel
+                        toutes les langues desdites grosses bestes.</seg>
+                     <seg>Item se ung gentil home, un presbre <lb/>ou ung bourgeois dudit lieu vient
+                        sur la senne pour acheté du poisson et il treuvent le cosson, ledit cosson
+                        se doit ostez d’enquil jusques atant qu’ilz ayent acheté, et se ilz sont sur
+                        la <lb/>rive et ilz appellent le cosson, ilz les doit venir quérir et se il
+                        ne le faict, il est pour trois solz, se ilz se clament de luy. </seg>
+                     <seg>Item se ung homme estrangier quel qu’il soit ait du marin ou <lb/>aultre
+                        boys sur la rive du lac ou en la paroiche de saint Moris et ung homme des
+                        gens monseigneur de Neufchastel le besongne, il le peult prandre sans
+                        prejudice pourtant comme l’aultre l’auvroit <lb/>achetez et luy paié.</seg>
+                     <seg>Item monseigneur de Neufchastel doit avoir sur tous ceulx qui vendent vin
+                        a menuz en la chastellannie du Landeron sur chacune bosses, un carteron
+                        vin.</seg>
+                     <seg>Item ung <lb/>prodomme peult et doit vendre de son vin et cruz, sans
+                        préjudice une nuyt et ung jour.</seg>
+                     <seg>Item quant le vin est crier a la coustume et ly oste ne veult traire du
+                        vin, il peult <supplied resp="DF">y mectre son</supplied> <lb/>gaige sur la bosse et
+                        traire du vin mais que le gaige vaille le tiers mieulx. </seg>
+                     <seg>Item se ung chevalier ou gentil home ou femme grosse errant deant le ban
+                        viengnent par le chemin, ilz <lb/>doibvent demander des raisins au brevardz
+                        et se il ne leur veult donner, il doit entrer en la vigne et prandre plain
+                        son chappel, pour luy et son varlet, et la femme grosse <lb/>doit prandre
+                        tant comme elle peult soubstenir sur sa main devant son pix pour elle et son
+                        enffant, et aussi ung home errant, sans prejudice.</seg>
+                     <seg>Et lesquelles libertez, drois et franchises <lb/>comme dessus sont
+                        escriptes, estre leictes de mot en motz comme par avant est dit, je, Jehan
+                        Clavenier lieutenant et juge comme dessus, demandits aux prodommes jurez du
+                        plaist dudit saint Moris <lb/>par avant nomees, se icelles libertez, drois
+                        et franchises estoient notoires et manifestes, lesquelx prodommes jurez
+                        dudit plait saint Moris d’ung mesme accord, sans discors, rappourtirent et
+                        <lb/>dirent que ainsi estoit et que d’ancienneté l’on en avoit usez sans
+                        difficulté ou empeschement quelxconques et ainsi bien le rappourtoit chascun
+                        an audit plait de saint Moris <gap reason="missing"/> et icelluy
+                        <lb/>instrument j’ay seellez de mon seel propre avec le signet manuel dudit
+                        notaire publicque icy mis en signe de vérité. Ces choses furent faictes en
+                           <date when="1489-09-22">l’an mil quatre cens quatre vingtz et neufz,
+                           <lb/>le jour de saint Moris</date><note>Il s'agit de saint Maurice
+                           d'Agaune</note> comme dessus est dit et desclairer. <gap reason="missing"
+                        /></seg>
+                  </p>
+                  <p><lb/>Coppie et extrait du vray original collationné <lb/>de mot a motz et de
+                     soubstance en soubstance <lb/>par moy </p>
+                  <signed> Hugo Quarteri  </signed>
+               </div>
+               <pb n="v" facs="LANDERON_C_23_1v"/>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original perdu.</p>
+               <p>Copie authentique sur parchemin de 1489, <hi rend="italic">Archives du Landeron</hi>,
+                        C&#160;N<hi rend="sup">o</hi>&#160;23.</p>
+                  <p><hi rend="italic">Éd.&#160;</hi>Boyve, <hi rend="italic">Annales</hi>, I, p. 407-411 (texte remanié).</p><p><hi rend="italic">Cité</hi>&#160;: Herold, <hi rend="italic">Rechtsverhältnisse im
+                        schweizerischen Weinbau</hi>, p.&#160;34, note N<hi rend="sup"
+                     >o</hi>&#160;17.</p>
+                  <p>Remarque&#160;: Il faut relever à propos de cet acte, le rôle joué par les
+                     «&#160;prodomes&#160;» dans la conservation de la coutume. Ce rôle a été
+                     parfaitement perçu par W.&#160;Pierrehumbert dans l’article cité supra au
+                     numéro&#160;22 <ref>SDS_NE_1_022</ref> (1398), p.&#160;175-181, paragraphe
+                     intitulé&#160;: «&#160;La Béroche fut-elle «&#160;cologère&#160;»&#160;»&#160;?
+                     En&#160;1328-1330 (<hi rend="italic">AEN</hi>, Q&#160;3, N<hi rend="sup"
+                     >o</hi>&#160;6), les «&#160;prodomes&#160;» de la cour du prieur de Morteau
+                     rapportent le droit (fol.&#160;59r) «&#160;per point de chartre&#160;» (celle
+                     de&#160;1188).</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

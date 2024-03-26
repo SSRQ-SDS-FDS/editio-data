@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.16-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 43r–43v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 43r–43v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel, Clauda Cossonay-Morand – Verhör</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel, Clauda Cossonay-Morand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-01-25"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="43r"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <origDate when="1683-01-25">25<hi rend="sup">ten</hi> <foreign xml:lang="la">januarii</foreign> 1683</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026314a.01">Carle von Montenach</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per026328a.05">Rudolff Fyva</persName></seg>
+							<seg><lb/>LX <persName ref="per013469a.01">Castella</persName>, <persName ref="per027532a.01">Amman</persName>, <persName ref="per026289a.01">Amman</persName>, <persName ref="per026070a.01">Rämi</persName></seg>
+							<seg><lb/>Burgeren <persName ref="per027535a.02">Fegeli</persName>,  <persName ref="per027538a.02">Gottrauw</persName>, <persName ref="per027531a.01">Odet</persName></seg></p>
+						<p><lb/><persName ref="per027452a">Maria Fridlin</persName> susdite derechef tenue en <term ref="lem018792.01">question</term>, at
+						<lb/><term ref="lem015549.07">confessé</term> que lʼancienne <persName ref="per017167a">Magnigna</persName> de <placeName ref="loc007983.02">Norea</placeName> luy avoit
+						<lb/>donné de la <term ref="lem018382.02">graise</term> et luy avoit dit quʼelle estoit bonne
+						<lb/>pour faire mourrir des bestes et des gens. De plus
+						<lb/>la mesme at <term ref="lem015549.07">confessé</term> quʼil y at environ <date dur-iso="P7Y">7</date> à <date dur-iso="P8Y">8 ans</date>
+						<lb/>quʼelle a esté à la <term ref="lem017043">secte</term> avec ladite anciaine <persName ref="per017167a">Magnina</persName>,
+						<lb/>laquelle se transformoit quelques fois en <term ref="lem019286.03">lievre</term> et
+							<lb/>quelque fois en <term ref="lem019283.01">cagne</term>. De plus elle at encore <term ref="lem015549.07">con<lb break="no"/>fessé</term> quʼil y at environ <date dur-iso="P6Y">6 ans</date> quʼelle fut à la <term ref="lem017043">secte</term>
+						<lb/>avec la fillie<note>Gemeint ist <persName ref="per026681">Clauda Cossonay-Morand</persName>.</note> de ladite ancienne <persName ref="per017167a">Magnina</persName>, et ladite
+						<lb/>fillie se transformoit en <term ref="lem019286.03">lievre</term>. Et elle y allerent
+						<lb/>à <time when="01:00:00">un heure dans la nuict</time>, et tennoint la <term ref="lem017043">secte</term>
+						<lb/>au bas du bois de <placeName ref="loc007655.06">Montagnie</placeName>, proche dʼun <term ref="lem017723.03">rulz</term> de
+							<lb/>lʼ<placeName ref="loc009822">Arbogne</placeName>, et que le <term ref="lem019555.05">maistre</term> de ladite <persName ref="per017167a">Magnina</persName> et
+							<lb/>le sien nʼestoit que un <term ref="lem017521">diable</term> nommé <persName ref="per029425a.10">Gabrié</persName>,
+							<lb/>lequel estoit tout noir et se transformoit quel<lb break="no"/>que fois en <term ref="lem019303.02">cerfs</term>, et nʼy mangeoint en dite <term ref="lem017043">secte</term>
+						<lb/>que des <term ref="lem016925.03">croye</term> <term ref="lem019279.02">routes</term> <term ref="lem019272.03">zavonayes</term>.</p>
+						<p><lb/>De plus elle at <term ref="lem015549.07">confessé</term> quʼelle nʼat jamais esté
+						<lb/>à la <term ref="lem017043">secte</term> en sa vie que seulement deux fois, lʼune
+						<lb/>des fois avec lʼancienne <persName ref="per017167a">Magnina</persName> et la seconde fois
+						<lb/>avec sa fillie<note>Gemeint ist <persName ref="per026681">Clauda Cossonay-Morand</persName>.</note> de
+							ladite <persName ref="per017167a">Magnina</persName>. Et y alloint à ladite
+						<lb/><term ref="lem017043">secte</term> par le jeudy.</p>
+						<p><lb/>De plus ladite <persName ref="per027452a">Maria Fridlin</persName> at <term ref="lem015549.07">confessé</term> que la jeune
+							<lb/><persName ref="per026681a">Magnina</persName> lʼavoit invité pour aller à la <term ref="lem017043">secte</term> au
+						<lb/>prez de <placeName ref="loc008103">Seedorf</placeName> sur le <time when="12:00:00">mydi</time>, ou elle mangeoit des
+						<lb/><term ref="lem015764.03">griettes</term>, en luy disant quʼelle debvoit aller avec
+						<lb/>elle, quʼelle nʼaurroit besoing de riens et nʼauroit
+						<lb/>aulcun defaut et aurroit assez à <term ref="lem019284.02">marinda</term> soit
+						<lb/>à soupper. Et elle seroit allée ensemble chez
+						<lb/>ladite <persName ref="per017167a">Magnina</persName>, ou estant pervenues, elle se
+						<lb/>sont assises sur una <term ref="lem019280.02">schola</term> que la <persName ref="per017167a">Magnina</persName> <add place="bottom" type="catchword">avoit</add>
+							<pb n="43v"/> <lb/><choice><sic>avoit</sic><corr></corr></choice> fourni <term ref="lem014913.09">ointe</term> et frottaye de sa <term ref="lem018382">graisse</term>,
+						<lb/>et seroint estée eslevée en haut par la cheminée,
+						<lb/>et seroint venue au bois de <placeName ref="loc007655.01">Montagny</placeName>, proche
+						<lb/>de lʼ<placeName ref="loc009822.01">Arbogne</placeName>, comme et desja dit cy dessus.</p>
+						<p><lb/>Interrogée comme ladite fillie de la <persName ref="per017167a">Magnina</persName> sʼappel<lb break="no"/>le, elle at responds quʼelle sʼappelle <persName>Theyne</persName>.</p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">In confrontatione</foreign>
+						<lb/>avec <persName ref="per026681a">Clauda Morand
+						<lb/>dit la Magnina</persName> de
+							<lb/><placeName ref="loc007983.02">Norea</placeName></add></seg> <seg>Lesquelles <term ref="lem019465.02">confessions</term> susdites, ladite susdite <persName ref="per027452a">Maria
+						<lb/>Fridlin</persName> at soustenus estre veritable devant et
+						<lb/>en presence de la susdite <persName>Theyne Magnina</persName>, lesquelles
+						<lb/>deux detenues sʼestant lʼespace de quelques temps
+						<lb/>contrariées, lʼune en negative et lʼaultre par affir<lb break="no"/>matives, à la fin ladite <persName ref="per026681a">Magnina</persName> at
+							dit à la <persName ref="per027452a">Fridlina</persName>
+						<lb/>quʼelle ne sʼappelloit pas <persName>Theyne</persName>, ains quʼelle sʼap<lb break="no"/>pelloit <persName>Barbillie</persName>,
+							feme de <persName>Pierre Coussené</persName>, et que
+						<lb/>sʼil se trouvoit vray ce que ladite <persName ref="per027452a">Fridlina</persName> dit, quʼon
+						<lb/>la devoit fricasser dans lʼhuile, et que on la de<lb break="no"/>voit escorcher toutte vive. Ladite <persName ref="per027452a">Fridlina</persName> at
+							per<lb break="no"/><choice><sic>sité</sic><corr>sisté</corr></choice> constamment en affirmative de tout ce quʼest cy
+						<lb/>dessus, et dʼailleurs que si lʼancienne <persName ref="per017167a">Magnina</persName> nʼavoit
+						<lb/>esté, elle ne seroit jamais esté à la <term ref="lem017043">secte</term>. Et at
+						<lb/>encor dit à la susdite jeune <persName ref="per026681a">Magnina</persName>&#160;: <q>&#160;Pourquoy fuyoit
+						<lb/>tu quand on portoit <term ref="lem019543.03">babtiser</term> cet enfant à <placeName ref="loc007983.02">Norea</placeName>&#160;?&#160;</q></seg>
+						<lb/><seg>Sur la fin persistant ladite <persName ref="per026681a">Magnina</persName> en negative,
+						<lb/>et du contraire la <persName ref="per027452a">Fridlina</persName> luy affirmant cons<lb break="no"/>tament ce quʼest dessus, et dʼavoir esté à la <term ref="lem017043">secte</term>
+						<lb/>avec elle, ce que luy soustiendroit devant <hi rend="font change">Dieu</hi>,
+						<lb/>devant Leurs Excellences et devant tout le monde.</seg></p>
+						<p><lb/>Die abgeschribne <term ref="lem016794.19">bekhandnußen</term> <add place="above" type="sign">und confrontation</add> seindt von meinen
+						<lb/>hochgeehrten herren deß grichts <foreign xml:lang="la">ad referendum</foreign> bezogen
+							<lb/>vor ihr gnaden deß <term ref="lem019378.02">inneren raths</term>. <foreign xml:lang="la">Actum ut supra</foreign>.</p>
+						<p><lb/><foreign xml:lang="la">Idem notarius</foreign> <figure type="notarial sign"/><note>Il sʼagit de <persName ref="per026058">Jost Ignaz Progin</persName>.</note></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

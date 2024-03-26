@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-18-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives du Landeron</repository>
+                  <idno xml:lang="fr">Archives du Landeron, A 14</idno>
+               </msIdentifier>
+               <head>Confirmation et augmentation des franchises du Landeron par <persName ref="per036885a">Vérène de Neuchâtel</persName>, femme
+                  d'Egon de Fribourg et dame du Landeron</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="42.5"/>
+                              <width unit="cm" quantity="58"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/><!-- Mass fehlt, ist auch auf dem Faksimile nicht ersichtlich, da abgedeckt -->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round"/>
+                     <seal n="2" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round"/>
+                     <seal n="3" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round"/>
+                     <seal n="4" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax"  ns0:shape="oval"/>
+                     <seal n="5" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="oval"/>
+                     <seal n="6" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round"/>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1373-06-17"/>
+                     <origPlace ref="loc007792">Le Landeron</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_64">SDS NE 1, N<hi rend="sup">o</hi>&#160;18</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000510"></term>
+               <term ref="key000129"></term>
+               <term ref="key000502"></term>
+               <term ref="key000023"></term>
+               <term ref="key000086"></term>
+               <term ref="key000479"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="LANDERON_A_14_r"/>
+               <div>
+                  <p><seg><lb/>Je <persName ref="per036885a.03">Vrena</persName> filie de baron de nouble memoire monseignour <persName ref="per036715a.03">Loy</persName>, conte et sire
+                     de Nuefchastel en la dyocise de Lausenne, feme de nouble damoisel <persName ref="per036887a.01">Egen</persName> conte de
+                     Fribourg en Briscowe, dame dou Landeron, fais savoir a touz que orront et
+                     verront ces presantz lettres que come <lb/>après le decess de mondit chier
+                     seignour et pere, monseignour <persName ref="per036715a.03">Loy</persName>, cui Dieux pardoint, soit devenus par
+                     succession a mon partaige fait entre dame <persName ref="per036884a.01">Ysabel</persName>, contesse et dame de
+                     Nuefchastel, ma suer et moy, la ville dou Landeron avec toutes ses pertinences
+                     et appendises et en preniant <lb/>et recevent por moy la possession de ladite
+                     ville et de la terre a ycelle ville apartenant, je aie promis et jurez es
+                     bourgeois et habitanz de la dite ville dou Landeron, pour lours, lours hoirs,
+                     cohoirs et successomi, tenir, garder et mantenir toutes les franchises,
+                     libertez et <lb/>custumes par mes predecessours a lours données, outroiés et
+                     balliés quelque elles soient san jamais ne venir ou contraire en aucune
+                     maniere. Et celles lours franchises, libertez et custumes, toutes williant je
+                     ladite Verena ainces augmenteir que decrostre <lb/>pour le temps avenir,
+                     regardant et considerant l’onour et profit de moy et de mes hoirs et celli de
+                     la dite ville dou Landeron, des bourgeois et habitantz d’ycelle et de la terre
+                     et de lours hoirs, que je la dite <persName ref="per036885a.03">Vrena</persName>, dame dou Landeron, saige et bien
+                     avisée, non decehue, <lb/>non contrainte, non baratee, mas de ma bonne, pure et
+                     franche volente, de grace especiaul pour mieulx touz jours reediffier, bastir
+                     et enforcier ladite ville dou Landeron, ay donney, bailliez et outroiez, donne,
+                     baillie et outroie pour moy et pour mes <lb/>hoirs et successours et les haiant
+                     cause de moy eis ditz bourgeois et habitantz pour lours, lours hoirs, cohers et
+                     successours a touz jours mais et sen jamais rapeller, dou loud, consentement,
+                     mandement et espresse volentei dou dit <persName ref="per036887a.01">Egen</persName> mon mary et <lb/>de la dite dame
+                     <persName ref="per036884a.01">Ysabel</persName>, contesse, ma bien amee suer come dame dou fiez dou Landeron et de la
+                     terre, les chouses et droitz cy après escript et devisez en acressement et
+                     emendement de lours anciennes franchises, libertez et custumes,</seg> <seg n="1">c’est
+                     assavoir premierement <lb/>que liditz bourgeois et habitantz de la ville dou
+                     Landeron, de la terre et chastellenie dou dit leuf, haient, puissent metre et
+                     metons dois ore avant, lour, lours hoirs, cohers et successours, messages ung
+                     ou plusours tel quant il lour plaira pour mesureir <lb/>tout vin qui se vendra
+                     ou achetera en la ville et chastellenie dou Landeron par cui que ce soit, ne a
+                     cui que ce soit.</seg> <seg n="2">Et que li profit, juance et emolument de ladite mesure et
+                        qui venir en porront ou temps avenir en quelque maniere que ce soit, liquel
+                        <lb/>profit et emolument venoent au dit mon chier seignour et pere, cui Dieu
+                        pardoint, laquel chouse il lours avoit alleney et acustumey de novel que
+                        cils profit, juances et emolumentz vienent soient mis emploiez et convertiz
+                        par les ditz bourgeois et habitantz <lb/>de la dite ville, lours hoirs,
+                        cohers et successours au profit de la dite ville pour ycelle reediffier,
+                        bastir et efforcier par la melour maniere que bon leur samblera&#160;; et
+                        que lour dit messagé pour le dit vin mesureir et le profit et emolument
+                        recovreir <lb/>et recevoir de la dite mesure ils puissent metre et osteir
+                        toutes fois et quantes fois il lours plaira sen ce que je ne li miens lour
+                        en puissiens de rien alleir ou contraire ne que nous en haiens ne degiens
+                        havoir sur lours correction aucune <lb/>ou temps avenir ne jamais d’y cy
+                        avant n’y hauray ni devray havoir ne li miens messagé pour mesureir ving
+                        four que li dit bourgeois et habitantz. Et se devra leveir et levera li
+                        profit et emolumentz de ladite mesure par la forme et maniere devant
+                        <lb/>acustumee. </seg>
+                     <seg n="3">Item que li dit bourgeois et habitantz de la dite ville dou Landeron lours
+                        hoirs, cohers et successours puissent faire leveir et percevoir ung ungaite
+                        et celli osteir et remetre dois cy avant toutes fois et quantes fois il
+                        lours plaire, sen <lb/>licence de moy, mes hoirs, cohers ou successours,
+                        four que de lours pure volontei, auctorité et franchise sur touz vins et de
+                        touz vins qui a menuz se vendront dedant la ville dou Landeron et deffour en
+                        la chastellenie dou dit leuf et wil et outroie que lidit <lb/>bourgez et
+                        habitant haient ploinne puissance de descretre la mesure, c’est assavoir le
+                        picot et le quarteron si come il lour plaire et bon lour semblera toutes
+                        fois et quantes fois ils vourront et il lour plaire, en emploient touz jours
+                        le profit dou dit <lb/>ungaite en la fermetei de la dite ville dou Landeron,
+                        por les bourgeois et habitantz d’ycelle.</seg> <seg n="4">Item que lidit bourgeois et
+                        habitantz, lours hoirs, cohers et successours facent et puissent faire dois
+                        ore avant statu metre et osteir, grand ou petit, tel quant <lb/>il lours
+                        plaire sur touz ceulx de ladite ville dou Landeron et sur touz les autres
+                        bourgeois et habitantz en la chastellenie et terre doudit leuf et demorantz.</seg>
+                        <seg n="5">Et wil que cil statuz qu’ils faront et metront soit tenuz et lour
+                        promet pour moy, les <lb/>miens que dessur dou faire atenir par lesditz
+                        bourgeois et habitantz tant de ladite ville dou Landeron quant de la terre
+                        doudit leuf.</seg> <seg n="6">Et wil que lidit bourgeois et habitant dedant la dite
+                        ville dou Landeron haient puissance de leveir et recovreir le dit statuz, et
+                        <lb/>le profit et emolumant doudit statuz, touz jours se devront emploier en
+                        la fermetei de ladite ville et por les ditz bourgeois et habitantz&#160;; et
+                        celli profit et emolumentz porront et devront leveir et recovreir adès dois
+                        cy avant de celli qui sera ou qui <lb/>seront rebelles de tenir, faire et
+                        acomplir lour dit statuz, tant par lours quant par lour messagé a ce
+                        deputey, lequel messagé pour comandeir, leveir et recovreir le dit statuz,
+                        liditz bourgeois et habitantz hauront puissance de metre et <lb/>de celli
+                        osteir, toutes fois et quantes fois il lours plaire de lour propre
+                        auctoritey sen offense de moy ou de mes hoirs, cohers ou successours.</seg>
+                        <seg n="7">Et se il avenoit que en recovrant le dit statuz par lours ou lour dit
+                        messagé, ban se faczoit <lb/>un ou plusours de recousse, de gaiges ou
+                        autrement, cels banz ou emendes qui avendroient, je ritient a moy et es
+                        miens, tels come adjugiez me seront par les ditz bourgeois et habitantz,
+                        selont la custume dou leuf.</seg> <seg n="8">Item ay donné et donne <lb/>je ladite
+                           <persName ref="per036885a.03">Vrena</persName>, dame dou Landeron, pour moy et pour mes hoirs et les haiant cause de
+                        moy et dou loud que dessur eis ditz bourgeois et habitantz, pour lour, lour
+                        hoirs, cohers et successours a touz jours mais comme a bien deserviz et sen
+                        jamais <lb/>rapeller, un mien prey appellei le prey de la tour avec ses
+                        droit, juances, pertinences et appendises universaulx, liquel prey siet près
+                        deis paquiers dou Landeron entre la grant Tela et la petita Tela dessur le
+                        marest.</seg> <seg n="9">Item <lb/>lour ay donné et donne a touz jours mais pour moy et
+                        les miens et pour lours, lours hoirs, cohers et successours que ils joent et
+                        esploitoent, joir et esploitier puissent et doigent a lour profit et par la
+                        meliour maniere que ils voudront <lb/>et pourront joir ne esploitier dois cy
+                        avant de touz et un chascum les pasquiers et marest estantz entre et dedant
+                        les limites et confins cy après desclairiez et devisez, c’est assavoir
+                        premierement en tant <choice>
+                           <sic>come come</sic>
+                           <corr>come</corr>
+                        </choice> lidit pasquiers et marest <lb/>se extendent dou long et dou large
+                        dois le ruz de Vaul tanque a la grant Tela près de Ville de Saint Jehan et
+                        dois enqui en montent jusque ou bey saint Pierre en tendant dois la Tela
+                        vers la fontanne de males pierres <lb/>et dois la dite fontanne tirant vers
+                        Duraise dessur chiez le Ros dessur Cornaul et dois enqui tirant ou creux
+                        d’Enge et dois ledit creux tendant en laut de Sarroul et dois enqui en vaul
+                        Villieret et dois enqui en <lb/>descendant par la combe de Norvaul jusque au
+                           ruz de Vaul et dois enqui au layt, retenant a moy ladite <persName ref="per036885a.03">Vrena</persName> et es miens
+                        toutes les censes dehues de et sur toutes les chouses estantz dedant
+                        lesdites limites et confins <lb/>adcensees par mon devant dit chier seignour
+                        et pere a quelques personnes que ce soit.</seg> <seg n="10">Item ay ancor donnei et
+                           outroiez je ladite <persName ref="per036885a.03">Vrena</persName>, dame dou Landeron, de l’auctoritey et commandement
+                        que dessur, pour moy et les miens que dessur a touz jours <lb/>mais, es ditz
+                        bourgeis et habitantz de la dite ville dou Landeron, pour lours, lours
+                        hoirs, cohers et successours et a touz lours autres bourgeois demorantz et
+                        residantz four de la dite ville dou Landeron ou que ce soit que dois ore
+                        avant ils ne nous facent <lb/>ne soient tenuz faire corvees ne ruetes aucuns
+                        mas, des ditz corvees, ruetes les avons quictez et quictons par ces lettres
+                        a touz jours et que jamais nous ne lours tarons faire ne demanderons ne
+                        tarons demander qu’ils <lb/>nous facent corvees ne ruetes, ne lours ne lours
+                           bestes.</seg> <seg n="11">Et en toutes les donations que je ladite <persName ref="per036885a.03">Vrena</persName> ay fait eis
+                        ditz bourgeois et habitant dou Landeron come dessur, j’ay retenuz et retient
+                        pour les bourgeois et habitantz dedant <lb/>la dite ville residantz que li
+                        autres lours bourgeois et residant four de la dite ville dou Landeron ou que
+                        ce soit, facent et soient tenuz faire adès dois ore avant touz ruetes et
+                        corvees, tant par lours quant par lours bestes <lb/>ou commandement et
+                        ordenance des ditz bourgeois residant dedant ladite ville dou Landeron pour
+                        le bastimant et fermetey de la dite ville&#160;; et ce toutes fois et
+                        quantes fois ils en seront requis par lesditz bourgeois demorant et residant
+                        dedant <lb/>la dite ville. Et en toutes les donacions dessus dites que je
+                        fait es ditz bourgeois et habitant, je retient et excepte touz droit et
+                        privilèges de clercs, de prestre et de gentils hommes et wil qui soient
+                        tenuz et mantenus <lb/>es franchises, custumes et usances que ils hont
+                           acustumey d’estre le temps passey. Devestissant moy la dite <persName ref="per036885a.03">Vrena</persName> <gap
+                           reason="missing"/>
+                        <supplied>donnees</supplied>
+                        <gap reason="missing"/>
+                        <date when="1373-06-17">le dix septieme jour dou mois de juing, l'an de
+                           grâce courrant mil trois centz septante et trois</date>. </seg></p>
+               </div>
+               <pb n="v" facs="LANDERON_A_14_v"/>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin avec six sceaux pendants sur double queue, <hi
+                        rend="italic">Archives du Landeron</hi>, A&#160;N<hi rend="sup"
+                     >o</hi>&#160;14.</p><p><hi rend="italic">Éd.</hi>&#160;: Matile, <hi rend="italic">Monuments</hi>, III, N<hi rend="sup"
+                        >o</hi>&#160;708, p.&#160;980-984. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

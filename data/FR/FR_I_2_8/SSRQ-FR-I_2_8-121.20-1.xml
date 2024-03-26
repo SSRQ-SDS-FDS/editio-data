@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.20-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 294–297</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 294–297</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Ruschwil-Clossner – Verhör und Urteil</head>
+					<head xml:lang="fr">Maria Ruschwil-Clossner – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="la"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-21"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="294"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1646-07-21">21<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						<pb n="296"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <foreign xml:lang="la">eadem die et praesentibus
+						<lb/>dominis inquisitoribus rerum criminalium,
+							<lb/>excepto domino <persName ref="per012380a.01">Python</persName></foreign></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><persName ref="per016984b.01">Maria Cloßner</persName> hatt der <term ref="lem014672.10">häxery</term> halben nichts <term ref="lem011468.04">bekhennen</term>
+								<lb/>wöllen.</seg> <seg>Do sy <del>aber</del> aber erfragt worden, ob sy zu
+								<lb/><placeName ref="loc000157">Bern</placeName> nit gefangen unndt am pranger gestanden sye, hatt
+								<lb/>gesagt, sy sye <add place="above" type="sign">zwar</add> gefänckhlich yngezogen unndt am <term ref="lem003423.08">halßyßen</term>
+								<lb/><term ref="lem005962.05">erkhendt</term> worden, sy sye aber nit dar<subst><del>an</del><add place="overwritten">innen</add></subst> gewesen, sonders
+								<lb/>allein <term ref="lem018848">vereydet</term> worden. Darumb, daß sie mit ihrem meister
+									<lb/><persName>Hannßen Brieborg</persName> ein <term ref="lem002393">unehlich</term> <term ref="lem000130.11">khindt</term> gehabt. Zu letst
+								<lb/>aber hatt sy <term ref="lem011468.03">bekhendt</term>, sy habe mit genantem ihrem meister,
+								<lb/>mit <persName>Hannßen Hechler</persName> von <placeName ref="loc001395.05">Schwartzenburg</placeName> unndt vom
+									<lb/><persName>Anthy Gybach</persName> mit jedem ein unehlich <term ref="lem000130.11">khindt</term> gehabt.
+								<lb/>Deßwegen sy daselbsten zu <placeName ref="loc000157">Bern</placeName> am pranger gestanden
+								<lb/>unndt <term ref="lem018848.02">vereydet</term> worden sye. <term ref="lem012597.04">Sydtert</term> sye sie nieh im selbigen
+								<lb/>landt geweßen.</seg> <seg>Erfragt, ob sy nit wisse, das ihrendtwegen
+								<lb/>ein <term ref="lem012298.04">mordtthatt</term> hinder <placeName ref="loc001421">Thun</placeName> geschechen sye? Sagt, sy wisse
+								<lb/>darvon nichts. Zwar habe sie zu <placeName>Fryenhoffen</placeName><!-- in Thun gibt es eine Freienhofgasse,
+									aber Ort habe ich nicht gefunden, auch nicht im Ortsnamenbuch des Kt. Bern --> hinder
+								<lb/><placeName ref="loc001421">Thun</placeName> einem <term ref="lem000842"><subst><del><gap reason="illegible" unit="character" quantity="2"/></del><add place="overwritten">w</add></subst>ürthen</term> daselbsten vor <date dur-iso="P20Y">20</date> oder <date dur-iso="P25Y">25 jahren</date>
+								<lb/>gedient, alda sich under 4 landtlüthen, so mit <term ref="lem000053.03">wyn</term> sehr
+								<lb/>beladen warend, ein <term ref="lem018291.02">struß</term> unndt <term ref="lem005658.03">zeppell </term> erhebt unndt
+								<lb/>an ein ander dermassen gerathen, das einer uff den platz
+								<lb/><subst><del>ihrenwegen</del><add place="inline">todt</add></subst> verbliben. Sy sye aber darumb nit
+								<lb/>ein ursächerin geweßen noch der sach einicher wyß anlaß ge<lb break="no"/>geben.</seg> <seg>Sagt, wan sy begert hätte, widerumb nacher
+							<pb n="297"/><lb/>huß unndt heim zu ziehen, so hettendt ihre fründt (die sie
+								<lb/>deßwegen mehrmahlen angelangt haben) ihren friden unndt
+								<lb/>yntritt woll erlangt. Habe aber disen alleinseligmachenden
+								<lb/>glauben, in welchem sie begert, zu leben unndt zu sterben,
+								<lb/>nit verlassen wöllen. Bittet umb gnad.</seg></p>
+							<p><add place="left margin"><lb/>Ist den <origDate when="1646-07-20">20<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign>
+								<lb/>1646</origDate><note>Der Schreiber bezieht sich auf das am Vortag gefällte Urteil, falls die Angeklagte kein weiteres Geständnis machen sollte. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-121.17-1">SSRQ FR I/2/8 121.17-1</ref>.</note> sampt ihrem
+							<lb/>eheman in ewigkheit
+								<lb/>vereydet worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 296.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

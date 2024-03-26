@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.51-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 115–116</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 115–116</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jenon Bodin-Monde, Catherine Gauthier-Monde, Marti Margueron – Verhör</head>
+					<head xml:lang="fr">Jenon Bodin-Monde, Catherine Gauthier-Monde, Marti Margueron – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-11-07"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="115"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-11-07">7 <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per012381a.01">Python</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.02">Degranges</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><persName ref="per013436a.01">Vonderweydt</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><lb/><persName ref="per015753a.01">Genon Monde</persName> derechef <term ref="lem019427.02">torturee</term> dans le <term ref="lem018562.01">bosset</term>, a rien
+							<lb/>voullu <term ref="lem015549.01">confesser</term>, <term ref="lem019498">criant mercy</term>.</p>
+						<p><lb/><persName ref="per015663a.01">Catheline Monde</persName>, femme de <persName ref="per015664a.02">Pierre Gotyé l’aisné</persName>, estant
+						<lb/>examinee sus les poincts compris dans la seconde infor<lb break="no"/>mation prise contre elle et mise de nouveau a la
+						<lb/>simple <term ref="lem018231">corde</term>, a tousjours esté constante dans son
+						<lb/><term ref="lem019492.03">opiniastreté</term>, disant n’avoir jamais veu, ny aperceu
+						<lb/>le <term ref="lem015433.03">maling esprit</term>. Et ce qu’elle a <term ref="lem015549.07">confessé</term> l’annee passee,
+						<lb/>que le <term ref="lem017521">diable</term> luy soit apparu par deux diverses fois,
+						<lb/>l’avoir dict pour cause du grand malheur que le
+						<lb/>prestre et maistre <persName>Jaque le Patifu</persName> luy faisoient&#160;;
+						<pb n="116"/><lb/>qu’elle n’a rien receu du <term ref="lem017521">diable</term>, ny <term ref="lem018382">graisse</term>, ny aultre
+							<lb/>chose, et n’est point <term ref="lem018895.04">marquee</term> de luy. Que <persName>Bendicht
+						<lb/>Perrin</persName>, sa femme <persName>Barbli</persName>, sa belle fille et sa belle soeur
+						<lb/><persName>Johanne</persName> n’ont rien receu de mal d’elle&#160;; n’avoir
+						<lb/>aussi rien donné a <persName>Tichtli Bauchy</persName>, ny a <persName>Isabeth
+						<lb/>Werro</persName>, ny a point d’aultres personnes, que per<lb break="no"/>sonne le doia par verité&#160;; n’avoir aussi point
+						<lb/>faict de mal a la <persName>Rappelinna</persName>, ny la servante
+							<lb/>de <persName>Tichtli Bauch<subst><del>e</del><add place="overwritten">y</add></subst></persName>. Qu’elle sçait rien de <persName ref="per029441a.01">Pozun</persName>,
+						<lb/>ny de sa <term ref="lem017043">secte</term>, ny d’aulcuns semblables affaires&#160;;
+						<lb/>quand elle seroit une telle femme et eusse faict
+						<lb/>des semblables offences, qu’elle l’eusse desja
+							<lb/><term ref="lem015549.07">confessé</term> devant <date dur-iso="P1Y">un an</date>. Qu’elle ne se soucie
+							<lb/>bien de sa vie&#160;; qu’elle n’a rien <term ref="lem019525.04">soufflé</term> contre
+						<lb/>sa servante, ny contre d’aultres&#160;; et ne sçait
+							<lb/>rien, ny du lieuvre, ny des <term ref="lem018315.02">chats</term>, ny des tam<lb break="no"/>bours qu’on doibt avoir veu et aperceu a l’hos<lb break="no"/>pital, qu’elle en est tout a faict innocente. <term ref="lem019498">Crie
+						<lb/>mercy</term>.</p>
+						<p><lb/><placeName ref="loc007690.02">Spittal</placeName></p>
+						<p><lb/><persName ref="per015678a">Marti Margueron</persName> dict que tout ce qu’il a <term ref="lem015549.07">con<lb break="no"/>fessé</term> cy devant est veritable, qu’il ne s’est point
+						<lb/>faict tort et qu’il s’en <term ref="lem018985.05">desdira</term> pas&#160;; qu’il est
+						<lb/>asseuré que sa mere fist venir le <term ref="lem016981.01">mauvais esprit</term>
+							<lb/>en l’entree de la maison, l’appellant <persName ref="per029441a">Pauzun</persName>,
+							<lb/>duquel il fust lors <term ref="lem018895.02">marqué</term> dessoubz la langue.
+						<lb/>Et tout ce qu’il a dict de la <term ref="lem017043">secte</term> et d’aultre
+						<lb/>chose est veritable, qu’il s’en veut point
+						<lb/><term ref="lem018985.04">desdire</term> et s’il plait a messeigneurs qu’il
+						<lb/>veut bien mourir, qu’il fera ce qu’il plaira
+						<lb/>a messeigneurs. <term ref="lem019498">Crie mercy</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-144.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 89–90</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 89–90</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Schueller, die Grosse, Anni Schueller, die Kleine – Verhör</head>
+					<head xml:lang="fr">Anni Schueller, die Grosse, Anni Schueller, die Kleine – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-11-15"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="89"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-11-15">15<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/>Herr <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.04">Caspar Montenach</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013626a.03">Niclauß Reyff</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013469a.06">Cattella</persName></seg></p>
+						<p><seg><lb/><persName ref="per011903a.01">Anni Schuller, die eltere</persName>, drey mahl mit dem kleinen
+						<lb/><term ref="lem018287">stein</term> <term ref="lem016150.02">uffgezogen</term> und durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts
+						<lb/>examiniert, sagt zum driten mahl, das sie von
+						<lb/><date dur-iso="P5Y">5</date> oder <date dur-iso="P6Y">sechs jaren</date> hero ein <term ref="lem007356">unholdin</term> seye. Habe
+						<lb/>aber nicht bößes gethan, und habe den <term ref="lem014673.13">bößen
+							<lb/>feindt</term> im <placeName ref="loc012659.06"><add place="above">Buch</add>holtz</placeName><!--als Variante bei Buchwald loc012659 tagen  --> beim <term ref="lem002112.02">türli</term> angetroffen, der selb habe
+							<pb n="90"/><lb/>sie im maul <term ref="lem018641.02">krauwt</term> oder <term ref="lem016598">gezeichnet</term>, <add place="above">bey</add> werender
+						<lb/><term ref="lem016794.05">bekhandtnuß</term> aber zu zeytten in etwaß variert.</seg>
+						<seg><lb/>Ist endlich auch <term ref="lem011898.02">bekandtlich</term> worden, mit <term ref="lem011439.04">pulffer</term>, so
+						<lb/>sie vom <term ref="lem014673.13">bößen feindt</term> empfangen, des <persName>Jasqui Marti</persName>
+						<lb/><term ref="lem007340.08">embt</term> <term ref="lem004327.01">inficiert</term> zu haben, da sie zu vor allein
+						<lb/><term ref="lem018639.02">broßmenn</term> auß ihr <term ref="lem018640.01"><subst><del><unclear>gerber</unclear></del><add place="above">schieb</add></subst>sack</term> wolte genommen
+						<lb/>und gestreüwt haben. Ist diß mahl bey ihr
+							<lb/>kein <term ref="lem008326">sonderbare</term> <term ref="lem018642.02">simplicitet</term> erspirt worden.
+							<lb/>Bittet gott und ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkeit umb <term ref="lem004684.01">verzeichung</term>.</seg></p>
+						<p><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note>, eadem die</foreign></p>
+						<p><lb/><persName ref="per017041a.02">Anni Schuoller, die jüngere</persName>, lehr drey
+							<lb/>mahl <term ref="lem016150.07">uff gezogen</term> und dariber durch <choice><abbr>m</abbr><expan>meine</expan></choice>
+						<lb/>herren de<subst><del>ro</del><add place="overwritten">s</add></subst> gerichts examiniert über under<lb break="no"/>schidliche punckten, <add place="left margin" type="sign">der <term ref="lem014672.06">hexeri</term> wegen</add>, deren sie kein<del>e</del>s will <term ref="lem011898.04">bekhand<lb break="no"/>lich</term> noch <term ref="lem008202.04">anredt sein</term>. <term ref="lem008237.04">Befülcht</term> sich gott und
+						<lb/>einer <choice><abbr>g</abbr><expan>gnädigen</expan></choice> oberkheit, <subst><del><unclear>deme</unclear></del><add place="overwritten">die</add></subst> sie gantz demüttig
+							<lb/>umb <term ref="lem004684.08">verzüchung</term> thut bitten.<note>Le passage qui suit concerne les procès menés contre <persName ref="per020125">Anni Dumont</persName> et <persName ref="per020095">Clauda Jacquat</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-146.2-1">SSRQ FR I/2/8 146.2-1</ref> et <ref target="urn:ssrq:SSRQ-FR-I_2_8-145.3-1">SSRQ FR I/2/8 145.3-1</ref>.</note></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

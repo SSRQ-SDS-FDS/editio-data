@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-17-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.004, p. 34</idno>
+     </msIdentifier>
+     <head>Actions par procuration</head>
+     <msContents>
+      <summary>Demande sur la manière d’agir en justice par procuration ou par l’entremise d’un
+       avoyer.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1593-02-07" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004993"></term>
+     <term ref="key005189"></term>   
+     <term ref="key000304"></term>       
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="33"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1593-02-07" calendar="Julian">VII de febvrier <hi
+        rend="underline">1593</hi></origDate>
+</head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="34" facs="AVN_B_101.01.01.004_0034"/> 
+     <div>
+      <p>
+      <add place="left margin" hand="later hand"><lb/>Point de coûtume
+      <lb/>demandé</add><lb/><persName ref="per012177">Louys Colin</persName> de <placeName ref="loc008388.04"
+        >Corcelles</placeName> suplie avoir ung <unclear cert="high">point</unclear>
+       <lb/>de coustume par escript comme en ceste justice <lb/>et comté, partie ne peult agir et
+       pourquoy un <lb/>contre l’aultre par procureur advis par <term ref="lem014768.01"
+        >advoyer</term>.</p> 
+      <p>
+       <lb/>Advis duquel <unclear cert="low">apert</unclear> la demande et traicte <lb/>affin de
+       voir pourquoi c'est.</p>
+      </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-137.1-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 474–475</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 474–475</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Schafer-Poffet – Verhör</head>
+					<head xml:lang="fr">Elsi Schafer-Poffet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-09-16"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="474"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1647-09-16">16<hi rend="sup">ten</hi> <foreign xml:lang="la">septembris</foreign> 47</origDate>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012378a.01">Heydt</persName>, <term ref="lem018540.03">amman</term></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Tornier</persName>, <abbr>hr</abbr> <term ref="lem006250">venner</term> <persName ref="per006528a.03">Possardt</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per006839a.03">Lary</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013626a.01">Reyff</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per018066b.01">Elßy Booffet</persName>, <persName ref="per018068a.01">Hanßen Schaffers</persName> hußfrouw von <placeName ref="loc011620.02">Mischleren</placeName>, <term ref="lem000394.35">kilchöry</term>
+							<lb/><placeName ref="loc008058.04">Überstorff</placeName>, die ettlicher wider <persName ref="per018054a">Anni Wäberin</persName> ußgestoßner
+							<lb/>unnd erdichter <term ref="lem018979.02">scheltreden</term> halben, derentwegen sie in <add place="above" type="sign">ein</add> grichtlichen
+							<lb/><foreign xml:lang="la">processum</foreign> wider ein ander erwachßen, gefäncklich yngezogen
+							<lb/>unnd von wollgedachten <choice><abbr>hhren</abbr><expan>herren</expan></choice> eines ehrsammen gerichts exami<lb break="no"/>niert <subst><del>worden</del><add place="inline">unnd erfragt worden</add></subst>, uß wellicher ursach sie den
+							<lb/>knaben angedütner <persName ref="per018054a">Wäberin</persName> underwißen, <term ref="lem011040">abgerichtet</term> unnd
+							<lb/>ihme bevohlen, das er sagen solle, syn mutter hab in eineren
+							<lb/>pfannen grüne <term ref="lem011432.02">salb</term> gemacht unnd geredt, sie wölle darmit
+							<lb/>sie, die gefangne, <term ref="lem015957.03">verhäxen</term>. Unnd so er es <term ref="lem018500.02">vorwährts</term> anderer
+							<lb/>dorffgenossen reden wölle, so werde sie ihm <measure type="currency" unit="bz" quantity="1">einen batzen</measure> geben?</seg>
+						<seg><lb/>Andtwortet, es werde sich in ewigkheit nit <term ref="lem008354">erfinden</term>, das sie
+							<lb/>disen knaben oberzelter oder anderer gestalt <add place="above" type="sign">jehmahlen</add> <term ref="lem012176.02">instruirt</term> <subst><del>habe</del><add place="inline">noch</add></subst>
+							<lb/>zu derglychen reden veranlasset, vihl minders zu ihrem huß be<lb break="no"/>rufft habe. Derselb aber uß <term ref="lem004618.05">bevelch</term> syner mutter zum huß,
+							<lb/>sogar in die stuben kommen unnd etwas gelts, als namblichen
+							<lb/><measure type="currency" unit="k" quantity="2">zwo kronen</measure>, <add place="above">so</add> die gefangne ihren schuldig ist, abgevorderet unndt
+							<lb/>ihren <term ref="lem018500.03">vorwarths</term> anderer anweßenden hußgenossen erzelt, wie
+							<lb/><subst><del>ihr</del><add place="inline">syn</add></subst> mutter in der <term ref="lem000278.04">kuche</term> grüne <term ref="lem011432.02">salb</term> zugerichtet unnd gesagt,
+							<lb/>sie wölle die gefangne darmit <term ref="lem015957.03">verhäxen</term>. Deßwegen er sie warnen
+							<lb/>wöllen, uff das sie sich ihrer bemüssigen unndt <term ref="lem012106.03">verhütten</term> möge.</seg> <seg>Nach
+							<lb/>verhör sollicher unnd derglychen worten, (deren sie sich höchlich verwundert,
+							<lb/>auch darab sehr erschrockhen), sie ihme gesagt, ob er angeregte wort
+							<lb/>dem geistlichen <choice><abbr>hrn</abbr><expan>herrn</expan></choice> daselbsten zu <placeName ref="loc008058.04">Überstorff</placeName> anzeigen und vorreden
+							<lb/>dörffte, unndt er mit <q>Ja</q> geandtworttet. Ist sie sampt dem
+							<lb/>knaben zum <choice><abbr>ehrw hrn</abbr><expan>ehrwürdigen herrn</expan></choice> gangen, demme er <add place="above" type="sign">der knab</add> unnd sie <term ref="lem018288">sammentlich</term>
+							<lb/>diß oberzelt weßen angezeigt, ohne das sie ihemahlen ihne un<lb break="no"/>derwißen noch <term ref="lem012176.02">instruirt</term> habe.</seg> <seg>Der knab habs anderen mehr
+							<lb/>erzelt. Auch gesagt, do es ein klein wenig gehaglet, er wüsse woll,
+								<lb/>von wannen daß wätter endtsteht. Es syend <term ref="lem000075.13">lüth</term>, die in der
+							<lb/><placeName ref="loc011622.02">Kürse</placeName> solches <term ref="lem007376.05">ungwitter</term> verursachend.</seg> <seg>Läugnet, das sie ihrem <term ref="lem018502.02">söhns<lb break="no"/>wyb</term> <add place="left margin" type="sign">und dem <persName>Sommerrauw</persName></add> gesagt und <term ref="lem009591.05">angemuthet</term> habe, das sie wegen ihrer habenden
+						<pb n="475"/><lb/>kranckheiten wider gerürte <persName ref="per018054a">Wäberin</persName> einen zwyffell fassen sollend.
+							<lb/>Ihr <term ref="lem018502.03">sönhswyb</term>, welches zwar wegen eines verlohrnen <term ref="lem003751.03">haupttüchlyns</term>
+								<lb/>wider sie zornig worden, habe es niehmahlen geredt. Wirdt sich auch nieh<lb break="no"/>mahlen warhafft <term ref="lem008354">erfinden</term>,
+								das sie <subst><del>d</del><add place="inline">mit</add></subst> derglychen wortten ußge<lb break="no"/>fahren unnd <subst><del>werden</del><add place="overwritten">disen</add></subst> knaben alßo <term ref="lem011040">abgerichtet</term> habe. Dan derselb ihren
+							<lb/>den <term ref="lem002465.03">handell</term> ungefragt obangeregter gestalt erzelt unnd angezeigt.
+							<lb/>Ob dem aber also, ist ihren unbewußt.</seg> <seg>Erfragt, ob sie wegen ihres
+							<lb/>ehemans unnd diser <persName ref="per018054a">Wäberin</persName>, als wan sie einander lieb hättend, nit
+							<lb/>ein zwyffell gehabt? Sagt <q>jha</q>, möge aber nit wüssen, ob dem also,
+							<lb/>wie sie gezwyfflet. Bittet umb gnad.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

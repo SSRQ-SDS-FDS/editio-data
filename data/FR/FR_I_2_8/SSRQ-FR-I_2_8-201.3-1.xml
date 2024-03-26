@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-201.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 454–456</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 454–456</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Verdon-Guinnard – Verhör</head>
+					<head xml:lang="fr">Marguerite Verdon-Guinnard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1677-08-07"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="454"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, sambstag, den <origDate when="1677-08-07">7<hi rend="sup">ten</hi> augsten <hi rend="underline">1677</hi></origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr <term ref="lem018540.03">amman</term><note>Gemeint ist <persName ref="per026624a">Hans Jakob Landerset</persName>.</note></seg>
+							<seg><lb/>Herr <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a"><choice><abbr>F P</abbr><expan>Franz Prosper</expan></choice> Python</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per018190a.05">Frantz Daget</persName>, <abbr>h</abbr> <persName ref="per026531a.02">Fillistorff</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026625a.01">Haberkhorn</persName>, <abbr>h</abbr> <persName ref="per026532a.02">Werli</persName></seg></p>
+						<p><lb/><persName ref="per027117b">Marguerite Guinnard</persName> natifve de <placeName ref="loc007976.03">Port Alban</placeName>, veufve
+							<lb/>de <persName ref="per027119">Pierre Verdun</persName><note>Der Schreiber hat sich vermutlich geirrt. Ihr Ehemann wird in den Quellen meist <persName ref="per027119">Paul Verdon</persName> genannt.</note>
+							de <placeName ref="loc007648">Dompierre</placeName>, eagée (ainsy qu’elle
+						<lb/>dict) d’environ <measure unit="year" quantity="80" type="age">huictante ans</measure>, interrogée sur le
+						<lb/>subject de sa detention, respond que c’est à cause
+						<lb/>des meschantes langues, estant par icelles accusée
+						<lb/>à tort d’estre <term ref="lem014908.07">vaudeisa</term>&#160;; principalement pour avoir
+						<lb/>esté sans subject soupçonnée d’avoir donné du mal
+						<lb/>à l’enfant de <persName>Claude Monney</persName>, en luy donnant
+						<pb n="455"/><lb/>une particule de <term ref="lem015349.06">bressy</term>, duquel six autres ont
+						<lb/>aussy mangé sans avoir eu aucun mal&#160;; niant
+						<lb/>l’enfant luy avoir voullu rendre quelque chose
+						<lb/>puisqu’il n’avoit l’entendement pour cela.</p>
+						<p><lb/>Demandée si elle cognoissoit <persName ref="per027160b.02">Pernette Poity</persName> de <placeName ref="loc007893">Middes</placeName>,
+						<lb/>dict avoir esté confrontée avec elle, et qu’elle
+						<lb/>luy avoit representé d’avoir esté à la <term ref="lem017043.01">secte</term> avec
+						<lb/>elle en un lieu dict la <placeName ref="loc013575.01">Perausa</placeName>, ce qu’elle luy a abso<lb break="no"/>lument nié, et nie encor. </p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir dict une priere pour le mal des yeux
+						<lb/>à <persName>Tecle Musy</persName>, laquelle en estoit affligée, mesme
+						<lb/>luy avoir conseillé d’offrir des yeux de cire
+						<lb/>à Nostre Dame pour sa guerison&#160;; ne sçachant
+						<lb/>si elle a perdu <subst><del>l’</del><add place="overwritten">un</add></subst> oeil, mais sçait bien qu’elle
+						<lb/>n’en void pas beaucoup.</p>
+						<p><lb/>Estant sollicitée de dire ladite priere, de laquelle s’estoit
+						<lb/>servie pour le mal des yeux, la dicte comme suit&#160;:</p>
+						<p><seg><lb/><add place="left margin">Priere pour
+						<lb/>les yeux</add></seg> <seg><q>&#160;N’entre dans ces yeux ny coup, ny tache, ny siondre,
+						<lb/>ny herbe, ny chose qui luy porte perte. Et
+						<lb/>ne porte plus de dommage que la rosaz
+						<lb/>ne porte à la <date when="--06-24"><choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per000049a">Jean</persName></date> au praz. Au nom du
+						<lb/>Pere, du Fils et du <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> Esprit.&#160;</q>&#160;;
+						<lb/>disant avoir appris ceste priere de sa maraine.</seg></p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> d’avoir donné un verre de vin blanc à <persName>Catheri<lb break="no"/>ne Brun</persName>, faisant  la lissive prez de l’<placeName>Erbogne</placeName><note>L’identification du lieu est incertaine.
+							Il pourrait s’agir de l’<placeName ref="loc009822">Arbogne</placeName>.</note>.</p>
+						<p><lb/>Nie que personne l’aye appellée <term ref="lem019389.02">sorciere</term>, sauf le
+						<lb/><choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <persName>Rossier</persName> de <placeName ref="loc007951">Grolley</placeName>, qui la fist sortir de <placeName ref="loc007951">Grolley</placeName>,
+						<lb/>luy disant qu’elle avoit faict mourir l’enfant
+						<lb/>de <persName>Claude Monney</persName>&#160;; mais qu’elle ne sçavoit que
+						<lb/>luy faire, n’ayant les moyens de le suivre par droit.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> bien d’avoir dict à <persName>Person Motta</persName>&#160;: <q>&#160;A Dieu
+						<lb/>ne plaise, j’ay aussy bien une <term ref="lem018939.02">ame</term> à garder
+						<pb n="456"/><lb/>comme les autres&#160;!&#160;</q>&#160;; mais ne veut advouer que ce
+						<lb/>soit sur ce que ladite <persName>Person</persName> luy aye dict qu’elle
+						<lb/>sçavoit faire les <term ref="lem015226.03">niolles</term>, ny aucune autre occasion,
+						<lb/>sinon par ce que ladite <persName>Musy</persName> parloit de ce que
+						<lb/>la <term ref="lem019503.05">possedée</term> avoit dict d’elle.</p>
+						<p><lb/>Et tout le reste de l’examen l’a nié obstinement
+						<lb/>ou ignoré, et dict n’en rien sçavoir ou ne s’en
+						<lb/>souvenir, demandant au surplus pardon
+						<lb/>à Dieu et à Leurs <choice><abbr>Exelles</abbr><expan>Excellences</expan></choice>.<note>Le passage qui suit concerne
+							le procès mené contre <persName ref="per017167">Elisabeth Morand-Favre</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-174.15-1">SSRQ FR I/2/8 174.15-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

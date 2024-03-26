@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-110.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 194 (1643), S. 421</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 194 (1643), p. 421</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Delestra, Isabelle Delestra, Eve Roget – Urteil</head>
+					<head xml:lang="fr">Jean Delestra, Isabelle Delestra, Eve Roget – Jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1643-10-01"><foreign xml:lang="la">i<hi rend="sup">a</hi><choice><abbr>oct</abbr><expan>octobris</expan></choice></foreign> [1643]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Process <placeName ref="loc008661.02">Murthen</placeName></p>
+						<p><lb/><persName ref="per015996a.01">Jehan de l’Estra</persName> de <placeName ref="loc011052.02">Guevaux</placeName> soubçonné <term ref="lem019308.01">sorcier</term> n’ast rien
+							<lb/>voulluz <term ref="lem015549.01">confesser</term>. Est adjugé au droit et <term ref="lem019515.01">bannissement</term> soubz
+							<lb/><term ref="lem019504.02">grace</term>. Uff gnad <term ref="lem018848.02">vereydet</term> ohne <term ref="lem016690.02">ußschwingen</term>.</p>
+						<p><lb/><persName ref="per015998a.01">Isabel</persName> femme du susdit <persName ref="per015996a.03">de l’Estrax</persName> soubçonnee et adjugee
+							<lb/>comme dessus. Geschehe ihren wie dem mann.</p>
+						<p><persName ref="per016012a">Eve</persName> vef de feuz <persName ref="per016011a">Pierre Roget</persName>, auch <term ref="lem018848.02">vereydet</term> so wol
+							<lb/>uß diser als deren von <placeName ref="loc005824">Murten</placeName> <term ref="lem011913.05">bottmässigkheit</term>. Die obere
+							<lb/>auch diser <term ref="lem016055.03">gstalt</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

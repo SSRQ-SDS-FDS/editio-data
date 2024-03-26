@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.44-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 51r–51v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 51r–51v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Verhör und Urteil</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1683-04-29" to="1683-05-06"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="51r"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <origDate when="1683-04-29">29<hi rend="sup">ten</hi> <foreign xml:lang="la">aprilis</foreign> 1683</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026314a.01">Carle von Montenach</persName> <term ref="lem018597.02"><choice><abbr>burgerm<hi rend="sup">r</hi></abbr><expan>burgermeister</expan></choice></term>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per026328a.05"> Rudolff Fyva</persName></seg>
+							<seg><lb/>LX <persName ref="per027532a.01">Amman</persName>,  <persName ref="per026289a.01">Amman</persName></seg>
+							<seg><lb/>Burgern <persName ref="per027538a.02">Gottrauw</persName></seg></p>
+						<p><lb/><persName ref="per027452a">Maria Ribotel</persName> susdite fut <term ref="lem019509.02">visité</term> par lʼ<term ref="lem018790.07">executeur de la
+						<lb/>haulte justice</term> en presence des susdits seigneurs, pour sça<lb break="no"/>voir si elle avoit certainement la <term ref="lem018894.02">marque diabolique</term>,
+						<lb/>mais ayant ledit <term ref="lem018790.02">executeur</term> picqué dedans avec lʼesguillie,
+						<lb/>elle lʼat ressentis si bien que le lieux ou ladite piccurre
+						<lb/>a esté faicte, comme et à presumer, nʼest pas touttalle<lb break="no"/>ment amorti, et nʼat point saigné. Aux lieux quʼil at
+						<lb/>piqué il sʼy trouve bien un certain affaire, tirrant et
+						<lb/>resemblant à une escaillie de lepre tout blanc, pas
+						<lb/>plus grand que une lentillie, non creux, ains tout
+						<lb/>remplis, en manniere quʼil et à doutter si cella et
+						<lb/>une veritable <term ref="lem018894.02">marque diabolique</term>, puisque par cette
+						<lb/><term ref="lem019510.01">visite</term>, on nʼen peut tirrer aulcune certitude.</p>
+						<p><lb/>Dʼaillieurs, ayant picqué aultrepart, elle at fort peuz
+							<lb/>saignée. Après laquelle <term ref="lem019510.01">visite</term> elle fut assise sur
+							<lb/>la <term>banquette</term><note>Zu den Freiburger <term ref="key005164">Folterwerkzeugen</term> gehört neben der <term ref="lem015176">Streckbank</term> auch eine dreieckige
+							Bank, auf dem die Angeklagten knien mussten. Es ist unklar, welches Folterinstrument hier gemeint ist. La définition, en français, du terme <term ref="lem019305">banquette</term> irait plutôt dans le sens de la
+						seconde proposition.</note>, le <term ref="lem018789.02">maistre</term> luy ayant attaché tout
+						<lb/>ce quʼestoit necessaire avec le demy <term ref="lem018232">quintal</term> aux pieds.
+						<lb/>Et avant que dʼestre tirée, elle fut fort serieuse<lb break="no"/>ment examinée sur les plus notables articles de ses
+							<lb/>precedentes <term ref="lem019465.02">confessions</term>, et exhortée à dire la ve<lb break="no"/>rité, sur lesquelles questions elle at <term ref="lem015549.07">confessé</term>
+						<lb/>quʼelle avoit esté par deux fois à la <term ref="lem017043.01">secte</term> avec
+						<lb/>les deux <persName>Magnines</persName><note>Gemeint sind <persName ref="per017167">Elisabeth Morand-Favre</persName> und ihre Tochter
+							<persName ref="per026681">Clauda Cossonay-Morand</persName>.</note> de <placeName ref="loc007983.02">Norea</placeName>, le tout
+							presque con<lb break="no"/>forme à ce quʼat esté leuz dernierement en <term ref="lem019380.01">deux
+						<lb/>cents</term><note>Il sʼagit du Conseil des Deux-Cents.</note>&#160;; asçavoir dʼavoir esté assise sur la <term ref="lem019280.02">schola</term>
+						<lb/>frottée de <term ref="lem018382.02">graise</term> et dʼavoir esté enlevée par la
+						<lb/>cheminée, et seroit parvenue à la <term ref="lem017043.01">secte</term>. Touttes<lb break="no"/>fois elle at dit quʼelle ne sçait pas par qui
+						<lb/>elle seroit esté enlevée, ny qui lʼavoit portée
+						<lb/>à ladite <term ref="lem017043.01">secte</term>. Et mesmement ny aurroit veuz
+						<lb/>personne à ladite <term ref="lem017043.01">secte</term>, hormis quʼelle at bien en<lb break="no"/>tendus le bruit et cris de ceux qui dansoint,
+						<lb/>et les laydes fassons dʼiceux. Et sʼestant icelle
+						<lb/>munie du signe de la s<hi rend="sup">te</hi> croix, elle seroit restée
+						<lb/>toutte seulle audit lieux. Et de plus at dit quʼen
+						<lb/>allant à ladite <term ref="lem017043.01">secte</term> avec la jeune <persName ref="per026681a">Magnina</persName>, depuis
+						<lb/>quʼelle fut enlevée de dessus la <term ref="lem019280.02">schola</term>, elle
+						<lb/>nʼaurroit point veuz ladite <persName ref="per026681a">Magnina</persName> jusques <add place="bottom" type="catchword">quʼelle</add>
+						<pb n="51v"/> <lb/><choice><sic>quʼelle</sic><corr></corr></choice> fut audit lieux. Et estant interrogée si
+						<lb/>elle sçavoit bien quʼon la mennoit à la <term ref="lem017043.01">secte</term>, elle
+						<lb/>at respondus que non, ains que lesdites <persName>Magnines</persName> luy
+						<lb/>disoint quʼelle la mennoint à la <term ref="lem015241.03">benesson</term>.</p>
+						<p><lb/>De plus elle at <term ref="lem015549.07">confessé</term> dʼavoir dancé par deux
+						<lb/>fois avec le <term ref="lem015433.03">maling esprit</term>, à conformité de
+							<lb/>ses precedentes <term ref="lem019465.02">confessions</term>, mais que le <term ref="lem015433.10">maling</term>
+						<lb/>ne lʼaurroit jamais touchée.</p>
+						<p><lb/>Item at <term ref="lem015549.07">confessé</term> quʼelle sʼestoit bien donnée au
+						<lb/><term ref="lem015433.10">maling</term> sur les promesses quʼil luy faisoit, mais
+						<lb/>que se nʼestoit que de bouche et jamais de <term ref="lem014871.01">coeur</term>,
+						<lb/>voullant seullement tenter et voire sʼil luy
+						<lb/>tiendroit ce quʼil luy avoit promis.</p>
+						<p><lb/>Et elle nʼat parreilliement jamais <term ref="lem019541.17">renyé</term>
+						<lb/><hi rend="font change">Dieu</hi> que de bouche seullement et jamais de
+						<lb/><term ref="lem014871.01">coeur</term>.</p>
+						<p><lb/>Et finalement at soustenus dans les trois ele<lb break="no"/>vations du demy <term ref="lem018232">quintal</term> de nʼestre <term ref="lem019389.02">sorciere</term>
+						<lb/>et de nʼestre <term ref="lem018895.03">marquée</term> du <term ref="lem017521">diable</term>, priant ainsi
+						<lb/>Leurs Excellences la voulloir delivrer des ses
+						<lb/><term ref="lem019473.01">tourment</term>.</p>
+						<p><add place="below"><lb/><persName ref="per027452a.03">Maria Ribotell</persName> susdite estant en suitte de la sentence souveraine
+						<lb/>datée du <origDate when="1683-05-06">6<hi rend="sup">me</hi> may  1683</origDate><note>Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-204.45-1">SSRQ FR I/2/8 204.45-1</ref>.</note>
+							relaxée des prisons de <placeName ref="loc001060.04">Frybourg</placeName> et
+							<term ref="lem019512.05">ban<lb break="no"/>nye</term> perpetuellement hors des terres et domination de nos souverains
+						<lb/>seigneurs, <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice>
+							le <term ref="lem014993.10">grand saultier</term><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note> luy ayant faict entendre les intensions
+						<lb/>de <choice><abbr>L Ex</abbr><expan>Leurs Excellences</expan></choice> et intimé lʼ<term ref="lem001262.26">urphedt</term> de ne se venger contre personne et
+						<lb/>de sʼabsenter desdites terres de <choice><abbr>L</abbr><expan>Leurs</expan></choice> Excellences sur peyne de perdre
+						<lb/>la vie, le tout au contenus de la sentence, sur lesquelles conditions
+						<lb/>ladite <persName ref="per027452a.04">Ribotell</persName> at presté le serement formel. <foreign xml:lang="la">Actum</foreign> ce <origDate when="1683-05-06">6<hi rend="sup">me</hi> may  1683</origDate>.</add></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

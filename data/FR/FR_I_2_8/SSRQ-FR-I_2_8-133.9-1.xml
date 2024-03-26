@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-133.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 467–468</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 467–468</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Jolion – Verhör</head>
+					<head xml:lang="fr">Jean Jolion – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-09-04"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="467"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-09-04">4<hi rend="sup">ten</hi> <foreign xml:lang="la">septembris</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Torny</persName></seg>
+							<seg><lb/><persName ref="per013433a.03"><choice><abbr>Caß</abbr><expan>Caßpar</expan></choice> Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><lb/><persName ref="per017913a.02">Jean Jollion</persName> a enduré deux fois la <term ref="lem015441.02">gehenne</term> du <term ref="lem018232">quintal</term> sans
+								<lb/>aucune <term ref="lem019465.01">confession</term>, disant estre tout a faict innocent en faict
+								<lb/>de <term ref="lem018524.02">sortilege</term>, et puis que aucuns envieux et malveuilants l’ac<lb break="no"/>cusent des <term ref="lem019494.02">crimes</term> que jamais se trouveront estre veritables,
+								<lb/>vouldroit <add place="above" type="sign">mieux</add> que jamais il n’eut faict son sejour a <placeName ref="loc007935.05">Farvagnie</placeName>, y
+								<lb/>ayant tousjours esté <term ref="lem018062.02">malvoluz</term>, a cause des gouvernances et
+								<lb/>proces intentés pour la defence des femmes vefves et orphe<lb break="no"/>lins, ses pupils, et principalement de ce que des <date dur-iso="P18Y">18 ans</date> en ça
+								<lb/>il auroit tousjours ehu le diexme de messeigneurs, pour le<lb break="no"/>quel il ne s’auroit onques voullu accorder avec d’autres, ce
+								<lb/>que peut <add place="above">estre</add> ehut <term ref="lem018061.02">redondé</term> a la perte et desadvantage de
+								<lb/>Leursdites <choice><abbr>Exlls</abbr><expan>Excellences</expan></choice>.</seg> <seg>Ce qu’il dit au <term ref="lem018790.04">maistre executeur</term> a la <term ref="lem019510.01">visite</term> de
+									<lb/>son corps, si la chose soy portoit bien, n’y avoir pensé en mal,
+						<pb n="468"/><lb/>estant bien asseuré qu’il ne trouveroit aucune <term ref="lem018894.02">marque diabolique</term>,
+								<lb/>pour n’avoir, Dieu loué, faict et donné le subject, ny onques veu
+									<lb/>le <term ref="lem015433.03">maling esprit</term>.</seg> <seg>Lors que, luy ayant le <term ref="lem019401.01">loup</term> <term ref="lem019460.02">tué</term> et partie
+								<lb/>devoré une sienne <term ref="lem017507.01">vache</term> desja avant quelque temps, et l’ayant
+								<lb/><term ref="lem019509.04">visitee</term> presents beaucoup des mannans du lieu, et de <placeName ref="loc007936.03">Girnilles</placeName>,
+								<lb/>s’estonna grandement et tous les autres que les <term ref="lem018314.03">chiens</term> ne vol<lb break="no"/>lurent oncques manger le reste dedite <term ref="lem017507.01">vache</term>, ne sçachant d’ou
+								<lb/>cela provenoit. Prie messeigneurs le voulloir envoyer
+										<lb/><del rend="underline">envoyer</del> ou il <add place="above">leur</add> plaira et mesmement <term ref="lem019512.01">bannir</term> si l’a merité, avant
+										<lb/>que de le plus <term ref="lem019474.08">tormenter</term>. <term ref="lem019498">Crie Mercy</term>.<note>Le passage qui suit concerne le procès mené contre <persName ref="per017940">Catherine Fruyo-Magnin</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-135.8-1">SSRQ FR I/2/8 135.8-1</ref>.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

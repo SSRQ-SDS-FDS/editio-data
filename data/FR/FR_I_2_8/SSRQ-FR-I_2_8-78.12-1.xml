@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-78.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 12, S. 239–241</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 12, p. 239–241</idno>
+					</msIdentifier>
+					<head xml:lang="de">Colleta Rod-de Ballavaux – Verhör</head>
+					<head xml:lang="fr">Colleta Rod-de Ballavaux – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1628-08-11"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="239"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+							<seg><lb/><origDate when="1628-08-11">11 <foreign xml:lang="la">augusti</foreign> 1628</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per006506">Brünißholz</persName></seg>
+							<seg><lb/><persName ref="per006509">Rämi</persName>, <persName ref="per009264">Amman</persName></seg>
+							<seg><lb/><persName ref="per009265a.02">Gydolla</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<pb n="240"/><p><lb/><persName ref="per009376a">Colletta de Ballavaux</persName> interroguee si elle n’avoit
+						<lb/>usé de <term ref="lem015618.04">maudissons</term>, a dict qu’ouy, qu’estant irritee
+						<lb/>a courroux et a son advis offencee, elle disoit&#160;: <q>&#160;Je prie
+						<lb/>Dieu que celluy d’entre nous qui aura tort en reçoive
+						<lb/>punition de Dieu.&#160;</q> Enquise come l’esprit qui luy
+						<lb/>apparut, estant en couche, estoit, a respondu blanc.
+						<lb/>Enquise si elle voyoit la figure dudit docteur, a dict
+						<lb/>que non, mais simplement un esprit blanc. Interroguee
+						<lb/>quel esprit cela estoit, a respondu qu’elle avoit opinion que
+							<lb/>c’estoit ledit docteur <persName ref="per009380">Stadler</persName>&#160;; qu’elle avoit appris
+						<lb/>d’un livre de messe allemand, qu’estant une personne
+						<lb/>morte, le corpz s’en alloit en terre et pourriture,
+						<lb/>l’esprit rodoit <subst><del><gap/></del><add place="overwritten">sur</add></subst> terre jusque a ce que l’ame
+						<lb/>fust en repos, et ainsy qu’il avoit troys separations
+							<lb/>de la vie&#160;: l’une du corpz, l’autre de l’esprit,
+						<pb n="241"/><lb/>la troysiesme de l’ame. Lequel livre elle avoit
+						<lb/>ehu de <persName>Mutter Freni</persName>, mere de Herman, s’il plaist a mes<lb break="no"/>sieurs qu’elle en fera exhibition. <term ref="lem019498">Crie mercy</term> et soustient
+						<lb/>qu’on luy faict tort.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

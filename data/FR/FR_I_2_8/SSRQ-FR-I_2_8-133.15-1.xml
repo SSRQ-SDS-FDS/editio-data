@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-133.15-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 198 (1647), S. 386</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 198 (1647), p. 386</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Jolion – Urteil</head>
+					<head xml:lang="fr">Jean Jolion – Jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-09-10">10 <foreign xml:lang="la"><choice><abbr>sept</abbr><expan>septembris</expan></choice></foreign> [1647]</origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<p><lb/>Gefangne</p>
+						<p><lb/><persName ref="per017913a">Jean Jolion</persName> mit der <term ref="lem015170.02">zwechelen</term> <term ref="lem016150.02">uffgezogen</term>, hatt nichts wöllen <term ref="lem011468.04">be<lb break="no"/>khennen</term>, auch nichts variert in allen <term ref="lem013000.07">torturen</term>. <term ref="lem016800">Ledig</term> mit abtrag kostens
+							<lb/>unnd in die <term ref="lem014773.05">perochian</term> <term ref="lem015151.02">confiniert</term>. Soll zu den <choice><abbr>hh</abbr><expan>herren</expan></choice> <term ref="lem016504.06">jesuitern</term> gwißen
+							<lb/>werden zu <term ref="lem000645.03">bychten</term>. <gap reason="irrelevant"/><note>Le passage qui suit concerne les procès menés contre <persName ref="per017942">Antoine Fruyo</persName>, <persName ref="per017940">Catherine Fruyo-Magnin</persName>, <persName ref="per017939">Jacques Débieux</persName> et <persName ref="per017908">Madeleine Gillet-Richod</persName>.
+								Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-135.12-1">SSRQ FR I/2/8 135.12-1</ref>, <ref target="urn:ssrq:SSRQ-FR-I_2_8-134.10-1">SSRQ FR I/2/8 134.10-1</ref>, <ref target="urn:ssrq:SSRQ-FR-I_2_8-132.10-1">SSRQ FR I/2/8 132.10-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

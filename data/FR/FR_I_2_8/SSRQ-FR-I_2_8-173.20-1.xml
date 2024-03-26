@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-173.20-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 56–58</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 56–58</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Brassa-Schmidt – Verhör</head>
+					<head xml:lang="fr">Margreth Brassa-Schmidt – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1661-05-16"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="56"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1661-05-16"><sic>26</sic><hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1661</origDate><note>Der Schreiber hat sich verschrieben. Laut Anweisung des Rats fand das Verhör am 16. Mai statt.</note></p>
+						<p><lb/>Herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026098a">Franz Josef Wild</persName>.</note>
+						<seg><lb/>Herr <persName ref="per026152a.01">Müller</persName></seg>
+						<seg><lb/><persName ref="per006528a.05">Possard</persName>, <persName ref="per026294a.01">Lentzburger</persName>, <persName ref="per026304a.01">Zurthan</persName>, <persName ref="per013464a.02">Wildt</persName></seg>
+						<seg><lb/><persName ref="per026281a.01">Gadi</persName></seg></p>
+						<p><seg><lb/><persName ref="per026661a.01">Margereth Schmidt</persName> mit dem halben <term ref="lem018237.02">zendtner</term>
+							<lb/><term ref="lem014641.01">torturiert</term> und darüber gerichtlich er<lb break="no"/>fragt uber den inhalt der ingenommenen
+						<lb/>information, <term ref="lem011468.03">bekhendt</term>, so sie verneinte zuvor,
+						<lb/>des <persName>Pettern Käpffers</persName> frauw angetroffen
+						<lb/>zu haben, da sie ihr <term ref="lem001076.04">khüe</term> zum brunnen
+						<lb/>fierte, will ihr aber khein <term ref="lem002264.19">almßen</term>
+						<pb n="57"/><lb/>abgefordert haben. Wie dan auch nicht will,
+						<lb/>das <subst><del>ihr</del><add place="above">sie</add></subst> den gemelten <persName>Käpffer</persName> <subst><del>gesag</del><add place="inline">noch</add></subst> <subst><del>sein</del><add place="above">desen</add></subst>
+						<lb/>tochter solle gefragt haben, ob die <persName ref="per026640b">Schuollera</persName>
+						<lb/>sie angeben habe. Und aber habe gedachten
+						<lb/><persName>Käpffer</persName>, nach dem er sie zu hauß durch sein tochter
+						<lb/>beruffen, als sie dahin khommen, seinen da<lb break="no"/>mahls <add place="left margin" type="sign">alda</add> befündenden bruder <term ref="lem016960">abgeschafft</term>, und
+						<lb/><subst><del>si</del><add place="overwritten">ihr</add></subst> in geheim <term ref="lem016814">vermeldt</term>, wie er sie nit wolle
+						<lb/>offendtlich diffamieren. Und aber so hetten
+							<lb/>die <term ref="lem000130.21">khünder</term> sie bey dem <unclear><term ref="lem000310.14">viech</term></unclear> gesehen, darüber
+						<lb/>ein <term ref="lem001076.03">khue</term> die <term ref="lem002272">milch</term> verlohren. Darumb, als
+						<lb/>sie desen khein <term ref="lem003508.09">wissenschafft</term> <subst><del>hab</del><add place="inline">zu haben</add></subst>
+						<lb/>ihme <term ref="lem016814">vermeldt</term>, habe er ihr speiß anerbotten.
+						<lb/>So will sie auch nit gestehn, das er <persName>Kapffer</persName>
+						<lb/><term ref="lem016814">vermeldt</term> habe, warumb sie sich ein <term ref="lem006693.02">hex</term>
+						<lb/>schelten laße.</seg> <seg>Den <persName>Hanßen Heimu</persName> habe sie
+						<lb/>schertzwyß gekutzlet, als er bey ihrem sohn
+						<lb/><unclear>saßse</unclear>, darvon er sehr <term ref="lem016961.02">erklipfft</term>. Der
+						<lb/>ihr dan bey angehnder <term ref="lem001162">vesper</term> in der <term ref="lem000240.29">kürchen</term>
+						<lb/>ein <term ref="lem003737">streich</term> uff den <term ref="lem002080.06">ruggen</term> geben, <add place="above">und</add> sagt,
+						<lb/>es möchte woll sein, das sie ihm gesagt hette,
+						<lb/>sie wolle es ihme woll vergelten. Der sie
+						<lb/>dan auch ein <term ref="lem006693.02">hex</term> gescholten. Den sie aber
+						<lb/>wegen abgehnden gelts mitlen nit habe
+						<lb/><term ref="lem006520">rechtfertigen</term> khönnen.</seg> <seg>Bey dem <term ref="lem002097.02">schnider</term>
+						<lb/>sye sie zwar etliche mahl zu <term ref="lem012375">stubeten</term> gangen,
+						<lb/>deßselben <term ref="lem000130.25">khündt</term> will sie <add place="above" type="sign">aber</add>  nichts angethan
+						<lb/>haben, <subst><del>und</del><add place="overwritten">s</add></subst>onder <add place="above">hette</add> <subst><del>sye</del><add place="inline">sein</add></subst> zustandt von <add place="bottom">mutterleib</add>
+						<pb n="58"/><lb/>hergebracht. Will bey desen frauwen umb
+						<lb/>die arbeit nit gewessen sein <add place="above">noch mit ihr geredt haben</add>, sonders
+						<lb/>darumb <subst><del>sonders</del><add place="inline">mit</add></subst> dem selben uff
+						<lb/>der gassen geredt haben.</seg> <seg>Verneinet,
+						<lb/>das <persName>Cotters</persName> schwester ihr abgewichen sye
+						<lb/>uff ihr ankhunfft, sonders sye bey <unclear><persName>Anschernug</persName></unclear>
+						<lb/>hauß geschehen, das ihr gewisses armes, da<lb break="no"/>selbst dienendes magdtli abgewichen und
+							<lb/>die thür verspert habe.</seg> <seg><term ref="lem019243.02">Inficiert</term> auch, das
+						<lb/>sie gedachts <persName>Cotters</persName> schwester gesagt, die
+						<lb/><persName ref="per026640b">Schulleri</persName> habe sie angeben, und das sie wisse,
+						<lb/>das selbige von <date dur-iso="P26Y">26 jahren</date> her ein <term ref="lem007356">unholdin</term>
+						<lb/>sye. Und das sie vom lest hievor ergangnen
+						<lb/><foreign xml:lang="la">jubileo</foreign> des <term ref="lem014673.13">bößen feindts</term> <subst><del>sich</del><add place="inline">nit</add></subst> mehr
+						<lb/>ansichtig worden sye.</seg> <seg><persName>Anni Perrets</persName> tochter
+						<lb/>will sie nitt angeriehrt haben, sonders
+						<lb/>were <subst><del>sy</del><add place="above">sie</add></subst> des arm entfahlen.</seg> <seg>Im übrigen
+						<lb/>verneinet alles mit vielfeltiges <term ref="lem000335.04">schweren</term>
+						<lb/>ohn geacht abmanhnes, und sagt, das wan
+						<lb/>sie was <term ref="lem011468.03">bekhant</term><del>er</del>, wurde sie ihr selbs
+						<lb/>unrecht thun. Und aber wolle lieber mit
+						<lb/>unschuldt sterben als ihrselbsten unrecht
+						<lb/>thun. Im ubrigen bittet gott und <choice><abbr>m
+						<lb/>gn</abbr><expan>meine gnädige</expan></choice> herren umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

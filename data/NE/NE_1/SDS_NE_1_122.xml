@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-122-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN Bourgeoisie de Valangin, Parchemin 22/157</idno>
+               </msIdentifier>
+               <head>Serment des sujets de Valangin à Marie de Bourbon, comtesse de Neuchâtel</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="49"/>
+                              <width unit="cm" quantity="50.8"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="damaged" ns0:attachment="sealed on a parchment tag" ns0:material="wax"></seal>
+                     <seal n="2" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved"  ns0:attachment="sealed on a parchment tag" ns0:material="wax in a box" ns0:shape="oval"></seal>
+                     <seal n="3" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="well-preserved"  ns0:attachment="sealed on a parchment tag" ns0:material="wax in a box" ns0:shape="round" ></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1584-12-07"/>
+                     <origPlace ref="loc005950">Valangin</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_261">SDS NE 1, N<hi rend="sup">o</hi>&#160;122</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000086"></term>
+               <term ref="key000157"></term>
+               <term ref="key000658"></term>
+               <term ref="key005297"></term>
+               <term ref="key000468"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="AEN_BV_157_P22_r"/>     
+               <div>
+                  <p>
+                     <lb/>Nous <persName>Jehan Grangier</persName>, seigneur de Lyverdis,
+                     conseillier et maistre d’hostel ordinaire du Roy, <lb/>ambassadeur pour Sa
+                     Majesté aux Ligues Grises, <persName>Franceois d’Amours</persName>, seigneur de
+                     la Galleysiere, conseillier et gentilhomme ordinaire de très illustre, haulte
+                     et exelente dame et princesse <persName ref="per010524">Marie de
+                        Bourbon</persName>, <lb/>duchesse de Longuevile et de Toutevile, contesse
+                     souveraine de Neufchastel et Valangin, <gap reason="missing"/> tous deux
+                     ambassadeurs de Son Excellence audict comté de Neufchastel et seigneurie de
+                     Valangin, comme mere, tutrice <lb/>et curatrice des corps et biens de
+                     Messeigneurs ses très illustres enfans, ducs, princes et contes souverains
+                     desdictz lieux, a tous ceux qui ces presentes verront, salut. Sçavoir faysons
+                     que suyvant le <lb/>pouvoir a nous donné par Son Excellence pour receveoir le
+                     serement des subjectz de la seigneurie de Valangin, ses appendances et
+                     dependances a icelle appartenant en proprietté en vertu de l’acte de remise a
+                     Son <lb/>Excellence faicte d’icelle seigneurie par les magnificques et puissans
+                     seigneurs de la ville et canthon de Berne, le troisième de mars mil cinq cens
+                     septante neuf<note>Note Favarger&#160;1982&#160;: AEN&#160;O&#160;16, N<hi
+                           rend="sup">o</hi>&#160;2 et Matile, <hi rend="italic">Seigneurie de
+                           Valangin</hi>, p.&#160;318.</note>&#160;; et affin que dorres en avant
+                     icelle se puisse <lb/>asseurrer de la fidelité desdictz subjectz en general, de
+                     quelle qualité et condition qu’ilz soyent, et pour ensuivre le contenu en la
+                     prononciation rendue a <placeName ref="loc000020.14">Badden</placeName> par Messieurs les ambassadeurs des neuf cantons
+                     <lb/>des Ligues de Suysse, assavoir Zürich, Ury, Schwictz, Underwalden, Zügg,
+                     Glaris, Basle, Schaffhouzen et Appenzel, entre Son Exellence d’une part et
+                     genereuse et puissante dame, Madame <persName>Ysabel <lb/>de
+                     Chalant</persName>, contesse dudict lieu et d’Avys d’aultre part, concernant
+                     tant le faict de la souveraineté de Valangin<note>Note
+                        Favarger&#160;1982&#160;: Cf.&#160;Matile, <hi rend="italic"
+                           >op.&#160;cit</hi>., p.&#160;318, qui date cette prononciation du
+                        24&#160;novembre&#160;1584 et non du 28&#160;novembre&#160;1584 comme
+                        l'indique l'original, AEN, D, N<hi rend="sup">o</hi>&#160;13. La
+                        prononciation ne se trouve pas mentionnée dans les <hi rend="italic"
+                           >Eidgenössische Abschiede</hi>, vol.&#160;IV/2, N<hi rend="sup"
+                        >o</hi>&#160;695, p.&#160;846-850.</note> tant que la prestation dudict
+                     serement le vingt huictieme jour de novembre dernier passé <gap
+                        reason="missing"/>
+                     <lb/>nous ont en qualité que dessus <lb/>promis et juré a Dieu leur Createur et
+                     par la part qu’ilz pretendent a son sainct paradis, les mains levées contre le
+                     ciel, d’estre bons, loyaux et obeyssans bourgeois et subjectz de madicte dame
+                     et de mesdictz <lb/>seigneurs, ses enfans, de maintenir, advancer et procurer
+                     de tout leur pouvoir les biens, proffictz, droictz et aucthoritez de Leurs
+                     Excellences en et hors ceste seigneurie de Valangin, evitant leur domage,
+                     <lb/>deshonneur et diminution de leursdictes aucthoritez, tant souveraines que
+                     propriettaires, sans respect de qui que ce soit, et de leur reveler ou a leurs
+                     officiers tout ce qui ce pourroit entreprendre ou machiner <lb/>contre eux et
+                     leurs dictes authoritez, incontinent qu’en auront congnoissance, les defendant
+                     envers et contre tous, tant de leurs personnes que biens, de tout leur pouvoir,
+                     comme bons et loyaux bourgeois <lb/>et subjectz sont tenuz de faire, et de bien
+                     et fidelement payer toutes <term ref="lem015877.02">censes</term>, rentes,
+                        <term ref="lem015149.10">dismes</term>, redevances et aultres esmolumens
+                     qu’ilz sont tenuz de toute ancienneté et selon la forme des recongnoissances
+                     <lb/>et renthiers de ung chascung d’eux, le tout tant et sy longuement que
+                     Leurs Exellences et les leurs auront et tiendront la proprietté de ladicte
+                     seigneurie de Valangin, ses appartenances et dependances <lb/>que le present
+                     serement aura lieu. Mais estant Leurs Exelences sattisfaitz et contentez soit
+                     de Monsieur le conte d’Avys ou Monsieur <persName>le conte de Torniel
+                     </persName>de celuy a qui par cy apprès ceste seigneurie <lb/>sera adjugée par
+                     voye amyable, arbitraire ou de droict ou de tous les deux ensembles, ainsy
+                     qu’il est porté par ladicte remise, le present serement cessera pour Leurs
+                     Exellences, pour dès lors le faire auquel <lb/>desdictz seigneurs contes d’Avys
+                     ou de Torniel il appartiendra par justice et rayson et le tout sans le
+                     prejudice des droictz souverains que Leurs Exelences ont et auront a perpetuyté
+                     sur ladicte seigneurie <lb/>de Valangin, le tout jouxte la forme et teneur de
+                     l’abscheidt et prononciation amyable rendue audict lieu de <placeName ref="loc000020.14">Badden</placeName> par messieurs
+                     les ambassadeurs des neuf cantons des Ligues entre l’Exelence de madicte
+                     <lb/>dame la duchesse de Longuevile et madicte dame <persName>la contesse de
+                        Chalant</persName> et d’Avys agrée par ambes parties&#160;; ce qu’ilz ont
+                     promis et juré ainsy que Dieu leur soit en ayde. Apprès lequel serement a nous,
+                     <lb/>au nom de nostredicte dame et mesdictz seigneurs, ses enfans, faict et
+                     presté par lesdictz subjectz et bourgeois, iceux et et ung chascung d’eux nous
+                     ont très humblement supplié et requis de les vouloir maintenir <lb/>et
+                     entretenir en leurs libertez et franchises, usances et bonnes coustumes
+                     escriptes et non escriptes, desquelles ilz auroyent jouy jusques a present
+                     ensemble de la religion evangelieque et refformation <lb/>d’icelle par eux
+                     prinse et acceptée et de laquelle ilz tenoyent pour le present l’exercisse
+                     libre et entier. Ce que par nous entendu, considerans le bon vouloir que
+                     lesdictz bourgeois et subjectz ont <lb/>presentement demonstré a rendre devoir
+                     et obeyssance a leurs dictes Exelences et a nous, en leur nom, et en esperance
+                     que nous avons qu’ilz continueront de bien en mieux par cy apprès, inclinans
+                     mesmement <lb/>de bonne volonté a leur requeste, de nostre grâce, pure, franche
+                     et liberale volonté, pour et au nom de nostredicte dame et de mesdictz
+                     seigneurs ses très illustres enfans, leur avons promis et juré en <lb/>parole
+                     de verité et en bonne foy de les maintenir et garder en toutes leurs libertez,
+                     franchises et bonnes coustumes escriptes et non escriptes, desquelles ilz ont
+                     usé et jouy jusques a present sans <lb/>diminution ou infraction d’icelles,
+                     aussy de les laisser vivre en la religion evangelieque et refformation d’icelle
+                     comme ilz ont faict jusques a present sans y rien alterer ny par consequent a
+                     la <lb/>combourgeoysie qu’ilz ont prinse avec les magnificques et puissans
+                     seigneurs de la ville de Berne, le tout tant et sy longuement que l’Exelence de
+                     madicte dame et de mesdictz seigneurs ses enfans, <lb/>tiendront et jouyront
+                     la proprietté de ladicte seigneurie de Valangin a forme des abscheidt, actes et
+                     remise et prononciation sur ce faictz et dressez autenticquement et de faire
+                     ratifier le contenu es <lb/>presentes par madicte dame entre cy et Pasques
+                     prochaines et ainsy le prometons et jurons <gap reason="missing"/>. Que furent
+                     ainsy faictes et passées audict vergier près dudict chasteau et bourg de
+                        <placeName ref="loc005950">Valangin</placeName>, le <date when="1584-12-07"
+                        >septième jour du mois de decembre, l’an de salut <lb/>mil cinq cens octante
+                        quatre</date>
+                     <gap reason="missing"/>.</p>
+                  <lb/>
+                  <signed><persName><abbr>J</abbr> Grangier</persName></signed> <signed><persName><abbr>F D</abbr> Amours</persName></signed> <signed><persName><abbr>D</abbr> Hory</persName></signed>
+               </div>
+               <pb n="v" facs="AEN_BV_157_P22_v"/>     
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, trois sceaux pendants sur double queue, AEN, Archives de
+                     la bourgeoisie de Valangin, N<hi rend="sup">o</hi>&#160;22.</p>       
+               <p>Cité&#160;: Matile, <hi rend="italic">Seigneurie de Valangin</hi>, p.&#160;318. </p></div>
+               <div><p>Remarque&#160;:</p>
+                  <p>En 1428 (AEN, S&#160;5, N<hi rend="sup">o</hi>&#160;4) ce sont tous noz hommes
+                     et subgiez de nostre dicte terre de Valengin... en tant que trouvez s'en
+                     pouhoit d'aage competant au dessus de treise a quatorze ans qui prêtent
+                     serment&#160;; en 1550 (AEN, U&#160;5, N<hi rend="sup">o</hi>&#160;9), il est
+                     fait mention du serment de tous et ung chascun noz confidence. Sur tout ceci,
+                     cf.&#160;Matile, Seigneurie de Valangin, p.&#160;128-129 et p.&#160;265.</p></div>
+            </back>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-142.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 65–68</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 65–68</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Fontana-Zosso – Verhör</head>
+					<head xml:lang="fr">Elsi Fontana-Zosso – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-10-11"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="65"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <origDate when="1649-10-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la">octobriß</foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018540.04">aman</term> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per009264a.04">Jost Amman</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013469a.04">Cattilla</persName></seg></p>
+						<p><seg><lb/><persName ref="per019247a.01">Elsi Zosso</persName>, welche <time dur-iso="PT3H">3 stundt</time> an der <term ref="lem015170.13">zweheln</term> gehangen
+						<lb/>und durch meine herren des gericht examiniert,
+							<lb/>hat, eher sie an der <term ref="lem013000.01">tortur</term> geschlagen, freüwillig <term ref="lem011468.03">be<lb break="no"/>khendt</term>, so sie zwar anfangs verneinen wollen, den
+							<lb/>abgestorbnen <persName>Hanßen Folman</persName> mit <term ref="lem017537.02">anblaßen</term> <term ref="lem004327.01">infici<lb break="no"/>ert</term> zu haben, welcher in <date dur-iso="P8D">acht tagen</date> hernach gestorben.
+						<lb/>Welche unthat sie sehr <term ref="lem018622.02">berüwet</term>, inwillen sie nit ver<del>meint</del><lb break="no"/>meint, das er des wegen solte mit <subst><del>d</del><add place="overwritten">t</add></subst>odt abgehn,
+						<lb/>sonders allein <term ref="lem011099.03">erkräncken</term>.</seg> <seg><term ref="lem011468.03">Bekhent</term> auch nochmahlen,
+							<lb/>wie sie sich dem <term ref="lem014673.13">bößen feindt</term> <term ref="lem018858.01">ergeben</term> vor <date dur-iso="P14Y">14 jaren</date>,
+							<lb/><add place="interlinear">und gott <term ref="lem016063.05">verlaugnet</term> zu haben</add>, als er ihr uff einer <term ref="lem009964.03">zelg</term> obenthalb <placeName ref="loc007626.03">Gyffers</placeName> in men<lb break="no"/>schlicher
+							gestalt, <term ref="lem018359.03">grien</term> bekleidt, ohne <term ref="lem002462.02">huot</term>, mit kurtzen
+						<lb/>und ungestaltnen füeßen erschünen. Den sie geküst und
+							<lb/>volgendts ihme <term ref="lem000374.01">gehuldiget</term>. <subst><del>Un</del><add place="overwritten">D</add></subst>er dan sie <term ref="lem016598">gezeichnet</term>
+						<lb/>uff dem <term ref="lem005081.02">haubt</term> und mit ihr do mahl die <term ref="lem000668">unzucht</term>
+						<lb/><subst><del>ge</del><add place="overwritten">ver</add></subst>bracht, den sie gar kalt empfunden. Der selb
+						<lb/>habe ihr gelt zu geben versprochen, wie dan er
+						<lb/>ihr domahl und auch andere mahlen <add place="above">geben</add>, welches sie
+						<lb/>aber hernach nur <term ref="lem004667">laub</term> befunden.</seg> <seg><subst><del>Ha</del><add place="overwritten">Ist</add></subst> des
+							<lb/><persName>Hanßen Folmanß</persName> durch ihr <term ref="lem017537.02">anblaßen</term> zugeschaff<lb break="no"/>nen und verursachten todts zum driten mahl <term ref="lem008202.04">an<lb break="no"/>redt</term> <subst><del>we</del><add place="overwritten">un</add></subst>d
+							<term ref="lem011898.03">bekhandtlich</term> geweßen.</seg>
+						<pb n="66"/><seg><lb/>Mitt einem stäckli, so ihr der <term ref="lem014673.13">böße feindt</term>
+						<lb/>geben, <term ref="lem011468.03">bekhendt</term> sie, 3 mahl den <term ref="lem007347.01">hagel</term> gemacht
+						<lb/>zu haben vor ohngefahr <date dur-iso="P6Y">6 jaren</date>. Das erstmahl
+						<lb/><subst><del>oben</del><add place="left margin">innerseits</add></subst> <placeName ref="loc007626.03">Gyffers</placeName>, da sie aber hernach alle 3 mahl
+						<lb/>sagt, bey einem bächli uff der <term ref="lem000512.46">almendt</term> nechst
+						<lb/>bey <placeName ref="loc009238.03">Willer</placeName> <subst><del rend="underline">verursachet</del><add place="above">gemacht</add></subst> zu haben. Daselbst sich der
+						<lb/><term ref="lem011429.05">böß geist</term> befunden, als sie den <term ref="lem007347.01">hagel</term> zu machen
+						<lb/><add place="left margin">2 mahl</add> in das wasser mit der <term ref="lem000805.18">ruotten</term> geschlagen,
+						<lb/>welcher dan auch gleich hernach verschwunden,
+						<lb/>und aber der <term ref="lem007347.01">hagel</term> <add place="left margin" type="sign"><time dur-iso="PT30M">½ stundt</time> hernach</add> enstanden, welcher an
+						<lb/>jenigen ohrten, wo sie den selbigen haben wollen,
+							<lb/>geschlagen; zu gleich ihr <term ref="lem002792.02">hanff</term>, alß sie ihn
+						<lb/>uff <placeName ref="loc007626.03">Gyffers</placeName>, <placeName ref="loc007627.01">Tentlingen</placeName> gerichtet, zerschlagen.</seg>
+						<seg><lb/>Ferners hat sie gesagt, alß sie sich <subst><del>in</del><add place="overwritten">dem</add></subst> <term ref="lem011429.13">bößen
+							<lb/>geist</term> <term ref="lem018858.01">ergeben</term>, habe er ihr <term ref="lem011439.04">pulffer</term> in einem
+						<lb/>papier geben, <add place="left margin" type="sign">dem <term ref="lem000310.14">viech</term> zu <term ref="lem014665">vergeben</term></add>. Welches sie anfangs wolte
+						<lb/>hingeworffen haben. Und aber hat sie
+						<lb/><term ref="lem011468.03">bekhendt</term>, auß antrib des <term ref="lem014673.13">bößen feindt</term>
+						<lb/>mit selbigen <term ref="lem011439.04">pulffer</term> (als sie zu <placeName ref="loc007627.01">Tentlingen</placeName>
+						<lb/>deß selbigen <add place="above">etlichen</add> <term ref="lem001814.01">hennen</term> fürgeworffen) 2 seiner
+						<lb/>eignen <term ref="lem001814.01">hennen</term> und seinen <term ref="lem005243.08">nachpauren</term> ein<del>e</del>
+						<lb/><term ref="lem005335">verderbt</term> und hingericht zu haben. Und dan
+						<lb/>auch 2 <term ref="lem001810.04"><subst><del>h</del><add place="overwritten">g</add></subst>ensen</term>, so uff der <term ref="lem000512.46">almendt</term>
+						<pb n="67"/><lb/>werendt, <term ref="lem004327.01">inficiert</term>, darvon sie <term ref="lem005335">verdorben</term>. Uff der gas<lb break="no"/>sen habe sie zu <placeName ref="loc007627.01">Tentlingen</placeName> dem klein <term ref="lem005796.05">guott</term>
+						<lb/>des <term ref="lem017889">staubs</term> vorgesprengt und gestreüwt,
+						<lb/>darvon dan 2 stuck <term ref="lem013955.02">verfahlen</term>. In gleüchem
+							<lb/>habe sie ein <term ref="lem002088.17">kälbli</term> uff der <term ref="lem000512.46">almendt</term> daselbsten
+						<lb/>mit dem <term ref="lem011439.04">pulffer</term> hingericht. Den <term ref="lem007347.01">hagel</term>
+						<lb/>sagt, <del rend="underline">sie</del> habe <subst><del>die</del><add place="overwritten">sie</add></subst> uff <placeName ref="loc007626.03">Gyffers</placeName> und <placeName ref="loc007627.01">Tentlingen</placeName>
+						<lb/>und daselbst herumb verschickt.</seg> <seg>Mehrers <term ref="lem011468.03">bekhendt</term>
+						<lb/>sie, 3 mahl bey obgemelten bächli, so die <term ref="lem000512.46">almendt</term>
+						<lb/>bey <placeName ref="loc009238.04">Wyller</placeName> durchfliest, <time period="byDay">tags</time> in der <term ref="lem017042.05">seckt</term>
+							<lb/>geweßen zu sein, daselbst ihr <term ref="lem017929">meister</term> der <persName ref="per029442a.02">Kretzli</persName>
+						<lb/>mit einer <term ref="lem012780.04">gigen</term> <term ref="lem018656.02">uffgemacht</term>, und <add place="above">die</add> anwesenden
+						<lb/>(die <term ref="lem018859.04">gespenster</term> geweßen) domahlen gedantzet.
+						<lb/>Wie dan sie auch <term ref="lem011898.04">bekhandlich</term>, mit einem <term ref="lem001041">gedantzt</term>
+						<lb/>zu haben, der ihres erachtens <term ref="lem018359.03">grien</term> bekleidt
+						<lb/>geweßen, mit kurtze <del rend="underline">fieß</del> und gestümlete füeß.
+						<lb/>Bey welchem dantzen in der <term ref="lem017042.05">seckt</term> sie gesehen und
+						<lb/>erkhendt hat, die <persName ref="per019639a">Clauda</persName> <placeName ref="loc011755.04">bim den Fahl</placeName>, welche auch
+						<lb/>ein wittwen und eines zimlichen alters sey, die ein
+						<lb/>einitzig tochter habe. <add place="above">Mehr</add> die <persName ref="per019265a.02">Franscheischa Zossona</persName> <placeName ref="loc008693.03">uff dem
+						<lb/>Berg</placeName>, auch wittwen, deren eheman <persName ref="per019626a.01">Petter Zosso</persName>
+						<lb/>schon vor lengst <subst><del>d</del><add place="overwritten">t</add></subst>odts verblichen. Und endlichen
+						<pb n="68"/><lb/>noch ein andere namens <persName ref="per019631a.01">Franscheyscha Hugina</persName>
+						<lb/>bey der <placeName ref="loc011754.02"><subst><del>V</del><add place="overwritten">F</add></subst>este</placeName>, eines mitelmessigen alters,
+						<lb/>deren eheman <persName ref="per019633a">Hugi</persName> genandt ware und
+						<lb/>aber auch mit todt abgangen.</seg> <seg>Welche 3
+						<lb/>weiber, sagt sie, haben sich in der <term ref="lem017042.05">seckt</term>
+						<lb/>bey gemeltem bach uff der <term ref="lem000512.46">almendt</term> zu ander
+						<lb/>mahl befunden, welche zwar nit gedantzet,
+						<lb/>sonders allein zu gesehen. Sagt, wie sie
+						<lb/><add place="left margin">fehrners</add> in der <term ref="lem017042.03">sect</term> spißen, brott, fleisch und wein
+						<lb/>gehabt, welche ihr sehr ungeschmackt und
+						<lb/><subst><del><gap unit="character" quantity="2" reason="illegible"/></del><add place="overwritten">p</add></subst>itter ge<subst><del>wesen</del><add place="overwritten">dunkt</add></subst>. Endlichen hat sie
+						<lb/>auch <term ref="lem011468.03">bekhendt</term>, wie die <persName ref="per018326a.05">Cathrin Babst</persName> und obge<lb break="no"/>melte <persName ref="per019639a">Clauda</persName> <placeName ref="loc011755.03">bey dem Fahl</placeName> und sie bey
+						<lb/>mehr <subst><del>d</del><add place="overwritten">g</add></subst>edachtem bach zusamen khommen.
+						<lb/>Daselbst sie dan <term ref="lem018623.02">samenhafft </term>diß jar den
+						<lb/><term ref="lem007347.01">hagel</term> gemacht, so in der <term ref="lem008650.04">gegne</term> dortrumb
+						<lb/>geschlagen. Bitt gott ihr <term ref="lem009471.08">müßhandlungen</term>
+						<lb/>halben und auch ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkheit gantzen
+						<lb/>instendigklich umb <term ref="lem004684.01">verzeichung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

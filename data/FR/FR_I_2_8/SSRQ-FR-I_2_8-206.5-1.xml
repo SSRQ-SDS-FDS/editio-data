@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-206.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 274 (1723), S. 854</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 274 (1723), p. 854</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anna Maria Schorderet-Vernin – Anweisung</head>
+					<head xml:lang="fr">Anna Maria Schorderet-Vernin – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1723-12-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> [1723]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Einligende
+						<lb/><persName ref="per027765b">Anna Maria Schorderet, gebohrne
+						<lb/>Vernin</persName></p>
+						<p><lb/>Die dahärig auff genohmmne <term ref="lem016288">inquisition</term>
+						<lb/>wegen bewusten <term ref="lem007038">argwohns</term> der geschehenen
+						<lb/><term ref="lem019383.02">bezauberungen</term> ist der lenge nach
+						<lb/>verlesen worden. Werde nochmahlen
+						<lb/>durch <choice><abbr>hh</abbr><expan>herren</expan></choice> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per027761a">Franz Nikolaus Gottrau</persName>.</note>, grosweibel<note>Gemeint ist <persName ref="per027726a">Heinrich von Montenach</persName>.</note>
+						<lb/>undt gerichtschreiber<note>Gemeint ist <persName ref="per027754a">Josef Nikolaus Chrysogonus Gottrau</persName>.</note> darauff examiniert <add type="sign" place="below">am nechst khündtigen <lb/>montag</add>, <!-- Dieser Einschub liegt zwei Zeilen unterhalb. -->
+						<lb/>in sonderheit wegen des <term ref="lem019384.01">gesottenen</term> wassers,
+						<lb/>schwartzen <term ref="lem000554.03">hundts</term> undt ubrigen puncten,
+						<lb/>so in der schrifftlichen <term ref="lem016288">inquisition</term> enthalten,
+						<lb/><foreign xml:lang="la">ad referendum</foreign>.
+						<lb/>Ubrigens hat ermelter <abbr>h<hi rend="sup">r</hi></abbr>
+						<lb/><term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per027761a">Franz Nikolaus Gottrau</persName>.</note> gewaldt, die <term ref="lem002082.38">gefäng<lb break="no"/>nuß</term> durch geistliche, so er gueth finden
+						<lb/>wirdt, <term ref="lem018890.02">benedicieren</term> zu lassen.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

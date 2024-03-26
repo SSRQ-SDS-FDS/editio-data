@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-35-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.14.001, fol. 373r</idno>
+     </msIdentifier>
+     <head>Capacité de contracter de l’épouse</head>
+     <msContents>
+      <summary>Si une épouse passe des contrats ou pactes à l’insu de son mari et sans son
+       autorisation, celui-ci est libre de les révoquer, désavouer ou au contraire de les
+       respecter.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1598-11-14" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term></term>
+     <term ref="key005055"></term>
+     <term ref="key005042"></term>
+     <term ref="key000817"></term>
+     <term ref="key005115"></term>
+     <term ref="key005098"></term>
+     <term ref="key000558"></term>
+     <term ref="key000138"></term>
+     <term ref="key000297"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="373r" facs="AVN_B_101.14.001_0373r"/> 
+     <div>
+      <head>
+       <lb/>En la declaration rendue le <lb/><origDate when="1598-11-14" calendar="Julian">xiiii<hi rend="sup">e</hi>
+        novembre <hi rend="underline">1598</hi></origDate> à l’instance de <lb/>honorable
+       <persName ref="per010521a.01">Daniel Rossellet</persName> sur la question <lb/>sy la femme peut faire
+       <term ref="lem015000.02">pasches</term> et contracts <lb/>à l’absence et sans l’authorité de son mary. </head>
+      <p><add place="left margin" hand="later hand"><lb/>Le femme ne <lb/>peut contracter <lb/>sans le mary.</add>
+       <lb/><orgName ref="org003085">Les <choice>
+         <abbr>s<hi rend="sup">rs</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> conseillers</orgName> ont dit et declaré <choice>
+        <abbr>unaniment</abbr>
+        <expan>unanimement</expan>
+       </choice>
+       <lb/>que la coustume usitée de toute ancienneté et jusques <lb/>à present en ceste Ville
+       &amp; Conté de <placeName ref="loc007785">Neufchastel</placeName> au <lb/>faict que dessus
+       est telle, que quand une femme <lb/>faict aucunes <term ref="lem015000.02">pasches</term>
+       marchez et contracts en derriere <lb/>de son mary sans l’aucthorité expresse d’icelluy
+       <lb/>il est en la puissance du mary de les revocquer et <lb/>desadvouer s’il veult, ou bien
+       de les tenir et <lb/>accepter.<note>Sans signature.</note>
+      </p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

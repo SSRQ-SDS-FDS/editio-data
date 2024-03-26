@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-37-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.004, p. 511</idno>
+     </msIdentifier>
+     <head>Mise en taxe et cession de droits</head>
+     <msContents>
+      <summary>Demande sur la possibilité de céder une «&#160;retraite&#160;» sur un bien-fonds mis
+       en taxe, par donation ou autre, sans vendition.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1599-04-04" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005095"></term>
+     <term ref="key005189"></term>
+     <term ref="key005117"></term>
+     <term ref="key000376"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="33"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1599-04-04" calendar="Julian">mercredi IIII d'apvril <lb/><hi
+        rend="underline">1599</hi></origDate>
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="511" facs="AVN_B_101.01.01.004_0511"/> 
+     <div>
+      <lb/><add place="left margin" hand="later hand">Point de<lb/> coutume.
+       <lb/>non répondu.</add>
+      <add place="left margin" hand="later hand" rend="pencil"><choice>
+        <abbr>Délibérat</abbr>
+        <expan>Délibérations</expan>
+       </choice></add>
+      <p>
+       <lb/>Le <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <del rend="strikethrough"><gap reason="illegible" unit="character" quantity="12"/></del>
+       <persName ref="per012198a.01">Baillioudz</persName>, demande ung <lb/>point de decret sur ung
+       point <choice>
+        <sic>comand</sic>
+        <corr>comment</corr>
+       </choice>
+       <lb/>l’on aura faict <term ref="lem014995.06">taxer</term>, une piece de terre<lb/> ou aultre,
+       sy avoir l’<date dur-iso="P1Y6W"><term ref="lem014776">an et jour</term></date> passe <lb/>il
+       peult ceder sa retraicte<note>Le sens de ce terme reste incertain.</note> a ung <lb/>aultre, par don on aultrement, sans <lb/>en <del
+        rend="strikethrough"><gap reason="illegible" unit="character" quantity="4"/></del> faire
+        <term ref="lem015546">vendition</term>, affin que faire <lb/>droit des preusves ne soit
+       perduz. <lb/>Priant de ce en avoir <choice>
+        <abbr>declarat</abbr>
+        <expan>déclaration</expan>
+       </choice>.</p>
+      <p>
+       <lb/>Advis.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

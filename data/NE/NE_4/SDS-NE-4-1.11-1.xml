@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.11-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 41–42</idno>
+     </msIdentifier>
+     <head>Jugement par contumace</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000683"/>
+     <term ref="key005057"></term>
+     <term ref="key005189"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="41" facs="AEN_MJ_17_040_041"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chapp.</abbr>
+        <expan>Chappitre</expan>
+       </choice> XI. <lb/>Des deffauts ou <lb/><app>
+        <lem><term ref="lem015976.03">constumax</term></lem>
+        <rdg wit="AVN Q41, p. 19">contumaces</rdg>
+       </app>.</head>
+      <p>
+       <lb/>Personne ne doit mespriser <lb/>justice, et principalement celuy <lb/>qui fait citer, ne
+       comparoissant est <lb/>grandement coulpable.</p>
+      <p>
+       <lb/><app>
+        <lem>Par quoy</lem>
+        <rdg wit="AVN Q41, p. 19">Parquoy</rdg>
+       </app> l’acteur apres sa demande <lb/>formée deffailant, ayant mesprisé <lb/>de demander
+        <term ref="lem017879.02">dilay</term> par cognoissance de <lb/>justice, qui ne luy doibt
+       estre facilement <lb/>accordé, et qui ne fera apparoir au jour  <lb/><add place="below"
+        type="catchword">de</add>
+       <pb n="42" facs="AEN_MJ_17_042_043"/>
+       <lb/><app>
+        <lem>de</lem>
+        <rdg wit="AVN Q41, p. 19">du</rdg>
+       </app>
+       <term ref="lem015614">plaid</term> prochain suivant par luy ou <lb/>quelqu’autre en son nom
+       excuse juste et <lb/>ligitime, de griefve maladie, peril, danger, <lb/>et autres semblables
+       doit estre <term ref="lem017687.04">constumacé</term>
+       <lb/>une fois pour toutes. Et sy <app>
+        <lem>appres les</lem>
+        <rdg wit="AVN Q41, p. 19">de</rdg>
+       </app>
+       <lb/>premiers estats apres la <term ref="lem015976.04">constumace</term> il <lb/>n’est
+       relevé, ny faisant apparoistre de <lb/>l’equité de sa demande en presence de partie <lb/>qui
+       sera appellée, sera non seulement <lb/>descheu de son instance, mais aussy du <lb/>subject et
+       poinct principal de sadite <lb/>demande, avec tous fraits &amp; despends, <lb/>sans pouvoir
+       revenir a nouvelle action <lb/>pour le mesme faict.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-206.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 19, S. 481–483</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 19, p. 481–483</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anna Maria Schorderet-Vernin – Anweisung, Verhör und Urteil</head>
+					<head xml:lang="fr">Anna Maria Schorderet-Vernin – Instruction, interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1723-12-11" to="1723-12-14"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="481"/><p><lb/>Extract
+						<lb/>aus dem raths-<term ref="lem003806">manual</term> des <origDate when="1723-12-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>x<hi rend="sup">bris</hi></abbr><expan>decembris</expan></choice></foreign> 1723</origDate><note>Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-206.5-1">SSRQ FR I/2/8 206.5-1</ref>.</note></p>
+						<p><lb/>Einligende</p>
+						<p><lb/><persName ref="per027765b">Anna Maria Schorderet, gebohrne Vernin</persName>, die dahörig
+						<lb/>auffgenohmene <term ref="lem016288">inquisition</term> wegen bewusten <term ref="lem007038">argwohns</term>
+						<lb/>der geschehenen <term ref="lem019383.02">bezauberungen</term> ist der länge nach ver<lb break="no"/>lesen worden. Werde nochmahlen durch den hochgeehrten <choice><abbr>hh</abbr><expan>herren</expan></choice> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per027761a">Franz Nikolaus Gottrau</persName>.</note>,
+						<lb/><abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027726a">Heinrich von Montenach</persName>.</note> undt grichtschreybern<note>Gemeint ist <persName ref="per027754a">Josef Nikolaus Chrysogonus Gottrau</persName>.</note> darauff am nechst
+						<lb/>khünfftigen montag examiniert. Insonderheit wegen des
+						<lb/><term ref="lem019384.01">gesottenen</term> wassers, schwarzen <term ref="lem000554.03">hundts</term> undt übrigen puncten,
+						<lb/>so in der schrifftlichen <term ref="lem016288">inquisition</term> endthalten. <foreign xml:lang="la">Ad referendum</foreign>.
+						<lb/>Übrigens bemelter <abbr>h</abbr> <term ref="lem018597.02"><choice><abbr>burgmstr</abbr><expan>burgermeister</expan></choice></term><note>Gemeint ist <persName ref="per027761a">Franz Nikolaus Gottrau</persName>.</note> hat gwald, die
+						<lb/><term ref="lem002082.39">gefängnussen</term> durch geistliche, so er gutt finden wird,
+						<lb/><term ref="lem018890.02"><choice><sic>beneficieren</sic><corr>benedicieren</corr></choice></term> zu lassen. <foreign xml:lang="la">Actum ut supra.</foreign></p>
+						<p><lb/>Cantzley <placeName ref="loc001060.06">Freyburg</placeName>.</p>
+						<p><lb/><placeName ref="loc007890.19">Zaquemar</placeName>, den <origDate when="1723-12-13">13<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>x<hi rend="sup">bris</hi></abbr><expan>decembris</expan></choice></foreign> 1723</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027726a">Heinrich von Montenach</persName>.</note></seg>
+							<seg><lb/>Hochgeehrter <abbr>h</abbr> ambts-<term ref="lem018597.02">burgermeister</term> <persName ref="per027761a.02">Gottraw</persName></seg>
+							<seg><lb/><persName ref="per027701a.01">Bärtschy</persName></seg></p>
+						<p><seg><lb/><persName ref="per027765b">Anna Maria Schorderet</persName> widerumb ernsthaffter
+						<lb/>massen <term ref="lem017897">exhortiert</term> undt befragt, ob sie den kleinen
+						<lb/><persName>Haut</persName> an dem tag, da diser götte gewesen, nicht gesehen
+						<lb/>undt angerüehrt. <choice><abbr>Andtw</abbr><expan>Andtwortet</expan></choice>, von nein<note>La formulation paraît curieuse.
+							Il convient de la comprendre littéralement comme&#160;: «Sie antwortet mit nein».</note>.</seg> <seg>Wo sie am selbigen
+						<lb/>tag ohngefehr umb <time when="16:30:00">halbe 5 uhren abendts</time> gewesen?
+						<lb/><choice><abbr>Andtw</abbr><expan>Andtwortet</expan></choice>, köne nicht wüssen, ob sie bey der <persName>Brinera</persName> oder
+						<lb/>nicht, seye aber selbigem abend mit angezündeten
+						<lb/>liecht in <placeName ref="loc010284">Stalden</placeName> hinabgangen undt sie sich ins haus begeben.</seg>
+						<seg><lb/>Ob sie die <term ref="lem011458.03">capuciner</term> nicht im <placeName ref="loc010284">Stalden</placeName> gesehen und ihne nach<lb break="no"/>gangen?
+							<choice><abbr>Andtw</abbr><expan>Andtwortet</expan></choice>, habe zwar die <choice><abbr>p</abbr><expan>pater</expan></choice> <term ref="lem011458.03">capucinern</term> hinder die
+						<lb/><placeName ref="loc012644.05">Augustinern</placeName> angetroffen, ihnen allda auch nachgangen.</seg>
+							<pb n="482"/><seg><lb/><choice><abbr>I</abbr><expan>Interrogée</expan></choice>, ob sie von gwüsser <term ref="lem019385.02">katzgeschrey</term> nichts gehört? <choice><abbr>A</abbr><expan>Andtwortet</expan></choice>,
+							<lb/>von nein<note>La formulation paraît curieuse. Il convient de la comprendre littéralement comme&#160;: «Sie antwortet mit nein».</note>.</seg> <seg>Ob sie mit <term ref="lem017586.04">zaubereyen</term> umbzugehen nicht wüsse?
+						<lb/><choice><abbr>Andtw</abbr><expan>Andtwortet</expan></choice>, nein, so wahr als gott sie erschaffen hat.</seg>
+							<seg><lb/>Was der Tochter <persName>Belschingera</persName> geschehen? <choice><abbr>R</abbr><expan>Répondu</expan></choice>, weis
+						<lb/>nicht.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice>, da die mutter ihro auff der gassen verwisen,
+						<lb/>daß seine tochter kranck lage? Sagt, habe zu ihr
+						<lb/><term ref="lem016814">vermeldt</term>, sie könne kein <term ref="lem018892.01">übel</term> nicht geben noch selbes
+						<lb/><term ref="lem018891.01">benehmen</term>.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice>, wie kombt, daß das eingieste
+						<lb/>wasser in der <term ref="lem018889">kachel</term> <term ref="lem019384">gesotten</term> undt das dreymahlen,
+						<lb/>zu dem sie, eingezogne, sich im beth damahls so übel
+						<lb/>befunden? <choice><abbr>R</abbr><expan>Répondu</expan></choice>, habe solches nit gehört noch gesehen.
+						<lb/>Sie wäre schon <term ref="lem004202.01">schlaffen</term> gewesen, da der <persName>Joseph</persName><note>Il sʼagit de <persName>Joseph Gillierd</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-206.4-1">SSRQ FR I/2/8 206.4-1</ref>.</note> ihr
+						<lb/>ein viertel wein gebracht.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice>, ob sie die frewly
+						<lb/><persName>Garmiswill</persName> <date dur-iso="P14D">14 täg</date> nach <origDate when="1723-11-01">allerheyligen</origDate> beym arm
+						<lb/>nicht angerüehrt undt alsbald ihro den arm geschwollen?
+							<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice>, könne nicht wüssen, obwohlen sie bey ihro öffters hingangen.</seg>
+						<seg><lb/><choice><abbr>I</abbr><expan>Interrogée</expan></choice>, warumb sie das <term ref="lem000130.25">khündt</term> des jungen <persName>Stuts</persName> verlangte
+							<lb/>zu sehen? <choice><abbr>R</abbr><expan>Répondu</expan></choice>, weist nichts von dem.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> wie es mit dem
+								<lb/><term ref="lem000554">hund</term> zugangen seye? <choice><abbr>R</abbr><expan>Répondu</expan></choice>, sie seye forchtsam, also habe
+						<lb/>sie einbildung undt blendery gehabt. Nechsten morgen
+						<lb/>seye nichts gewesen, noch hat einen <term ref="lem000554">hund</term> gesehen, wie sie
+						<lb/>es schon einem <choice><abbr>p</abbr><expan>pater</expan></choice> <term ref="lem011458.08">capuciner</term> angeben.</seg> <seg>Interrogée, ob sie nicht
+						<lb/>under die <term>bogen</term><note>Es ist unklar, ob ein Brücken- oder Gewölbebogen gemeint ist.</note> ein zeit lang geschlaffen? <choice><abbr>R</abbr><expan>Répondu</expan></choice>, von ja<note>La formulation paraît curieuse.
+								Il convient de la comprendre littéralement comme&#160;: «&#160;elle a donné la réponse de oui&#160;».</note>,
+						<lb/>weilen sie damahls kein haus hatte.</seg> <seg>Ob sie nicht
+						<lb/>ein <term ref="lem000116.18">huen</term> gehabt? Sie hätte ein <term ref="lem000116.19">hienly</term>, dises wäre
+						<lb/>ihr endtronen, habe aber jenes beym <abbr>h</abbr> <persName>Ballon</persName>
+						<lb/>huß widerumb erwüscht undt zu haus getragen. <term ref="lem006484.06">Nachwerths</term>
+						<lb/>ist dises <term ref="lem000116.19">hienly</term>, als sie zu <placeName ref="loc008034.02">Mertenlach</placeName> hingangen, daheim
+						<lb/>verlohren worden. Im übrigen weist sie nichts.</seg>
+						<seg><lb/>Endtlichen undt zum beschluß ist die einligende widerholter
+						<lb/>undt gewohnter massen angestrengt, die wahrheit
+						<lb/>zu gestehen. Sagt, habe solche angeben undt wüsse von keinen
+						<lb/>zauberungen nichts.</seg> <seg>In dessen beherziget sehr, daß sie also unschul<lb break="no"/>diger weiß <subst><del>ei</del><add place="overwritten">in</add></subst>nligen müsse. Seye aber bereith,
+						<lb/>alles auszustehen <gap reason="illegible" unit="cm" quantity="3"/> beschirmen.<!-- Schluss kaum lesbar.. etwas wie unschuldige/enschladthe? ih... correction avec un trou puunschuldige(n) qui corrige qqch???--></seg></p>
+						<p><lb/><persName ref="per027754a.01">Gottraw</persName> <figure type="notarial sign"/></p>
+						<pb n="483"/><p><lb/>Extract
+							<lb/>auß dem raths-<term ref="lem003806">manual</term> des <origDate when="1723-12-14">14<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>x<hi rend="sup">bris</hi></abbr><expan>decembris</expan></choice></foreign> 1723</origDate><note>Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-206.8-1">SSRQ FR I/2/8 206.8-1</ref>.</note></p>
+						<p><lb/>Einligende</p>
+						<p><lb/><persName ref="per027765b">Anna Maria Schorderet</persName>, weillen sie bewusten <term ref="lem019383.02">be<lb break="no"/>zauberungen</term> widerholter massen in <term ref="lem005133">abred</term> undt die
+						<lb/>geschehene <term ref="lem016288">inquisition</term> sie derselben nicht <term ref="lem006758">argwöhnig</term>
+						<lb/>machet, soll mit starcker ermahnung, sich wohl
+						<lb/>zu verhalten, los gelassen werden. Widrigen fahls wird
+						<lb/>mann wider sie in aller strenge <term ref="lem010306">fürfahren</term>. Uber
+						<lb/>das wird sie sich zum ihrem mann begeben undt mit ihme
+						<lb/>besser leben, als vor disem geschehen. <foreign xml:lang="la">Actum ut ante.</foreign></p>
+						<p><lb/>Cantzly <placeName ref="loc001060.02">Fryburg</placeName></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

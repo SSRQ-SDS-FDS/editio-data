@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-202.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 473–475</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 473–475</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madeleine Gobet-Tannaz – Verhör</head>
+					<head xml:lang="fr">Madeleine Gobet-Tannaz – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1677-10-09"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="473"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, sambstag, den <origDate when="1677-10-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8bris</abbr><expan>octobris</expan></choice></foreign> 1677</origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> <abbr>h</abbr> <term ref="lem018540.03">amman</term><note>Gemeint ist <persName ref="per026624a">Hans Jakob Landerset</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026529a">Franz Prosper Python</persName>.</note>, <abbr>h</abbr> <persName ref="per026616a.01"><choice><abbr>F P</abbr><expan>Frantz Peter</expan></choice> Gottraw</persName></seg>
+							<seg><lb/> LX <abbr>h</abbr> <persName ref="per026120a.01">Johan Rämi</persName>, <abbr>h</abbr> <persName ref="per026549a.03">Pancratz Schröter</persName>, <abbr>h</abbr> <persName ref="per026531a.03">Jacob Fillistorff</persName></seg>
+							<seg><lb/><persName ref="per026617a.01">Moillet</persName></seg></p>
+						<p><lb/><persName ref="per027166a.02">Magdelaine Tanna dicte la <subst><del>Jacquere</del><add place="above">Cagnarda</add></subst></persName>, derechef
+						<lb/>interrogée sur tous les poincts de l’examen
+						<lb/>sur l’accusation de <persName>Lusa Crotta</persName> et sur
+						<lb/>le soupçon qu’elle avoit causé d’avoir faict mourir
+						<lb/><choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Petolat</persName> par les discours qu’elle en avoit
+						<lb/>tenus en la precedente examination, elle
+						<lb/>le tout obstinement nie, et soustenu ses
+							<pb n="474"/><lb/><add place="left margin">negatives</add> en trois <term ref="lem019550.03">elevations</term>, ayant la <term ref="lem018285">pierre</term> du <term ref="lem018232">quintal</term>
+						<lb/>pendue aux pieds.</p>
+						<p><lb/>Et luy ayant esté proposé pourquoy elle estoit tant
+						<lb/>obstinée, puisque tous ceux de <placeName ref="loc010145">Corserey</placeName> la tenoyent
+							<lb/>pour <term ref="lem019389.02">sorciere</term>, et que jamais elle ne debvoit
+						<lb/>esperer d’y retourner, a respondu qu’elle ne
+						<lb/>croyoit pas qu’elle fust dans ce <term ref="lem018991.02">predicament</term> auprès
+						<lb/>de tous ceux de <placeName ref="loc010145">Corserey</placeName>, ains seulement auprès de
+						<lb/>quelques malvueillants. Et sur ce qu’elle ne
+						<lb/>retourneroit jamais à <placeName ref="loc010145">Corserey</placeName>, a dict ou on
+						<lb/>la voudroit donc envoyer&#160;; qu’elle avoit quitté
+						<lb/>la foy <term ref="lem019536.02">huguenotte</term> pour embrasser la <term ref="lem019533.01">catholique</term>,
+						<lb/>qu’on ne la voudroit pas renvoyer dans sa pre<lb break="no"/>cedente religion.</p>
+						<p><lb/>Après la seconde elevation sans aucuns subject à elle
+						<lb/>donné, a dict que lors elle estoit en la <subst><del>r</del><add place="overwritten">p</add></subst>rison
+						<lb/>de la cave soubs la maison de ville<note>Il s’agit du <placeName ref="loc008105">Keller</placeName>, où elle se trouvait lors de la séance du
+							<date when="1677-09-25">25 septembre</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-202.3-1">SSRQ FR I/2/8 202.3-1</ref>.</note>, elle a veu
+						<lb/>venir un ange tout habillié de blanc avec
+						<lb/>des aisles aussy blanches, accompagné d’un
+						<lb/>grand nombre de <term ref="lem018992.02">chandelettes</term>, qui le precedoyent
+						<lb/>depuis la <placeName ref="loc007746.02">Sarine</placeName> jusques à ladite prison, et
+						<lb/>que ledit ange se <term ref="lem018993.02">brancha</term> et demeura sur
+						<lb/>une <term ref="lem018994.01">matasauge</term> qu’il y a dernier la prison.
+						<lb/>Et les <term ref="lem018992.02">chandelettes</term> entrerent et <term ref="lem018995.02">sautelloyent</term>
+						<lb/>à l’entour d’elle. Et qu’elle les pensoit prendre,
+						<lb/>mais qu’elle ne peut  point attraper, et que
+						<lb/>la couleur de la flamme estoit bleue. Et
+						<lb/>que pendant ceste vision elle prioit tousjours
+						<lb/>et faisoit la croix, asserant que c’estoit un
+						<lb/>ange et environ les <time when="21:00:00">neuf</time> à <time when="22:00:00">dix heures de soir</time>,
+						<lb/>mais n’a sceu dire comme estoit sa face, ny ses
+						<lb/>mains, ny ses pieds, mais bien qu’il s’estoit bientost
+						<lb/>disparu et esvanouy, et que les <term ref="lem018992.02">chandelettes</term>
+						<lb/>le suivirent aussy.</p>
+						<pb n="475"/><p><lb/>Interrogée si elle n’avoit point veu semblables visions
+						<lb/>en ceste prison, a dict que non, pas de l’ange, mais
+						<lb/>bien de trois ou quatre <term ref="lem018992.02">chandelettes</term>, qui ont aussy
+						<lb/>une fois <term ref="lem018995.03">sautellé</term> dans la prison, après qu’elle
+						<lb/>a esté tirée à la simple <term ref="lem018231">corde</term>.</p>
+						<p><lb/>Estant tout ce qu’on a peu tirer d’elle dans sa <term ref="lem015441.02">gehenne</term>
+						<lb/>du <term ref="lem018232">quintal</term>.</p>
+						<p><lb/>Ce que <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict on dict debvoir estre rapporté
+						<lb/>à <choice><abbr>L E</abbr><expan>Leurs Excellences</expan></choice> pour la dessus attendre leur jugement.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

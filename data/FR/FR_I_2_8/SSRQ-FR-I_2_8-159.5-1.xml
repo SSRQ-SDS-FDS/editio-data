@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-159.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 265–266</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 265–266</idno>
+					</msIdentifier>
+					<head xml:lang="de">Barbli Heiter-Martin – Verhör</head>
+					<head xml:lang="fr">Barbli Heiter-Martin – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-10-05"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="265"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-10-05">5<hi rend="sup">ten</hi> <foreign xml:lang="la">octobris</foreign> 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/>Herr <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018134a.01">von Affry</persName></seg></p>
+						<p><seg><lb/><persName ref="per020589a.01">Barbli Marthin</persName> mit dem kleinen <term ref="lem018287">stein</term> zum dritten mahl
+							<lb/><term ref="lem014641.01">torturiert</term> und durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts examiniert,
+							<lb/>will durch uß (ohngeacht ihr das teüfflich <term ref="lem017060.02">zeüchen</term> durch
+							<lb/>des <term ref="lem004390.09">scharrffrichters</term> am lingen arm <subst><del>durch ein</del><add place="inline">tieff</add></subst>
+							<lb/>eingesteckten, ohne <add place="above">gegebnen</add> zeichen einicher empfündtligkeit nadel <del>)</del>
+							<lb/><term ref="lem008354">erfunden</term>) nichts <term ref="lem011898.03">bekhandtlich</term> sein. Und sagt, <subst><del>w</del><add place="overwritten">d</add></subst>aß
+							<lb/><subst><del>si</del><add place="overwritten">ihr</add></subst> zwahr in die <term ref="lem005960.09">eilff</term> <term ref="lem000579.10">pferdt</term> hin gefahlen seyendt,
+							<lb/>da sie aber der selbigen <term ref="lem005336">verderben</term> niemandt zu meßen
+							<lb/>khönnen.</seg> <pb n="266"/> <seg><lb/>Von <persName>Cristu Udriset</persName> <term ref="lem011468.03">bekhendt</term> sie ein <term ref="lem002393">uneheliches</term> <add place="inline"><term ref="lem000130.27">kündt</term></add>
+							<lb/>bey <subst><del>ihr</del><add place="inline">wehrendem</add></subst> ihr ehestandt gezeiglet haben,
+							<lb/>der ihr auch seiters mehrmahlen, ohne das sie dem
+							<lb/>selbigen fehrners einwilligen wollen, zugesetzt.
+							<lb/>Im übrigen will durchauß kein <term ref="lem007356">unholdin</term> nicht
+							<lb/>sein. Bittet dariber gott und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice>
+								<lb/>umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

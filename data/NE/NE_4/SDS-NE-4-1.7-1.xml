@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.7-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 29–31</idno>
+     </msIdentifier>
+     <head>Sergents et sautiers</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000547"/>
+     <term ref="key005808"></term>
+     <term ref="key003025"></term>
+     <term ref="key003389"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="29" facs="AEN_MJ_17_028_029"/>
+     <div>
+      <head type="title">
+        <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> VII. <lb/>Des sergents et <lb/><term ref="lem014994.08">soubthiers</term></head>
+      <p>
+        <lb/>En chasque ressort ou justice <lb/><app>
+        <lem>il</lem><rdg wit="AVN Q41, p. 14"/></app> y a aussy <app>
+        <lem>estably un <term ref="lem014994.06">soubthier</term></lem>
+        <rdg wit="AVN Q41, p. 14">un <term ref="lem014994.06">soubthier</term> estably,</rdg>
+       </app> lequel <lb/>par serment est tenu faire tous gagements <lb/>et <app>
+        <lem><term ref="lem016019.05">explois</term></lem>
+        <rdg wit="AVN Q41, p. 14">expeditions</rdg>
+       </app> de justice qui luy sont <choice>
+        <abbr>comandez</abbr>
+        <expan>commandez</expan>
+       </choice> <lb/>par le president, mayre ou chastelain, &amp; <lb/>de luy servir et obeyr en
+       toutes occasions <lb/>pour fait de justice et de seigneurie, comme <lb/>aussy <app>
+        <lem>de faire</lem>
+        <rdg wit="AVN Q41, p. 14">faire</rdg>
+       </app> au dedans de son ressort <lb/>tous adjournements qu’il est requis par
+       les <lb/>particuliers &amp; privées personnes, sans <lb/><term ref="lem017863"
+        >intimation</term> ou <term ref="lem017832.02">lisence</term> du juge.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> doibvent fidellement et en rondeur <lb/>de consience
+       rendre <choice>
+        <abbr>attestaon</abbr>
+        <expan>attestation</expan>
+       </choice> des <choice>
+        <abbr>adjournem<hi rend="sup">ts</hi></abbr>
+        <expan>adjournements</expan>
+       </choice>
+       <lb/><add place="below" type="catchword">et</add>
+       <pb n="30" facs="AEN_MJ_17_030_031"/>
+       <lb/>et <term ref="lem016019.02">exploits</term> qu’ils auront fait, quand <choice>
+        <abbr>somez</abbr>
+        <expan>sommez</expan>
+       </choice>
+       <lb/>en <app>
+        <lem>seront</lem>
+        <rdg wit="AVN Q41, p. 14">sont</rdg>
+       </app>, et sans faire aucune difficulté <lb/>ny refus.</p>
+      <p>
+        <lb/>Lesdits <term ref="lem014994.08">soubthiers</term> ne doibvent faire <lb/>aucuns <term
+        ref="lem017864.02">gagements</term>, adjournements, ny <lb/>executions es autres ressorts
+       &amp; juris<lb break="no"/>dictions sans <app>
+        <lem><choice>
+          <abbr>req<hi rend="sup">r</hi></abbr>
+          <expan>requerir</expan>
+         </choice></lem>
+        <rdg wit="AVN Q41, p. 14">requeter</rdg>
+       </app> l’officier principal du <lb/>lieu ou son lieutenant qui ne luy peut <lb/>refuser.</p>
+      <p>
+        <lb/>Ils ne doibvent prendre de gage, les licts <lb/>des femmes gisantes, utencilles
+       d’ouvriers, <lb/>bestes et instruments d’agriculture, &amp; <lb/>armes qui sont necessaires,
+       sinon au deffaut <lb/>de tous autres biens meubles et immeubles, <lb/>et <app><lem>que</lem>
+        <rdg wit="AVN Q41, p. 14"/>
+       </app> pour ce que sera justement dehu a <lb/>l’<term ref="lem017865.02">impetrant</term> de
+       telle execution, a peyne <lb/>d’estre <term ref="lem017829.03">chastiez</term> par
+       justice.</p>
+      <p>
+       <lb/>Lesdits sergents ny leurs lieutenants, <lb/>ne peuvent ny ne doibvent substituer <lb/>un
+        <term ref="lem014994.06">soubthier</term> a leur place, sans le <lb/>consentement<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 14"> permission,</rdg>
+        </app> et <term ref="lem017832.02">lisence</term> de l’officier &amp; <lb/>president de justice. <lb/><add
+        place="below" type="catchword">Les</add>
+      </p>
+     <pb n="31" facs="AEN_MJ_17_030_031"/>
+      <p>
+        <lb/>Les prisonniers qu’ils apprehenderont <lb/>les meneront et garderont seurement <lb/>es
+       prisons qui leur sera enjoint, a peyne <lb/>d’en respondre de leur propre personne.</p>
+      <p>
+       <lb/>Le <term ref="lem014994.06">soubthier</term> deffaillant <app>
+        <lem>et oubliant</lem>
+        <rdg wit="AVN Q41, p. 15"/>
+       </app> de <lb/>faire l’adjournement, dont il est chargé <lb/>de faire pour quelcun, est
+       amendable d’un <lb/><app>
+        <lem><term ref="lem018031.05">bamp</term></lem>
+        <rdg wit="AVN Q41, p. 6"><term ref="lem018031">ban</term></rdg>
+       </app> de <measure origin="NE" type="currency" unit="S" quantity="60">soixante sols</measure>
+       a la seigneurie, <lb/>et payer les fraits du jour du deffaut <lb/>a la partie. Et faisant
+       rapport <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 15">et</rdg>
+       </app>
+       <lb/>declaration indue ou faulse, sera <term ref="lem017829.04">chastié</term>
+       <lb/>criminellement.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

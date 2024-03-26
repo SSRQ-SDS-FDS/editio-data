@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-29-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.004, p. 333</idno>
+     </msIdentifier>
+     <head>Délai de réclamation de censes fenieles</head>
+     <msContents>
+      <summary>Demande sur le délai pour réclamer certaines redevances probablement en rapport avec les foins.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1597-04-06" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000410"></term>
+     <term ref="key005117"></term>
+     <term ref="key000739"></term>
+     <term ref="key005189"></term>
+         </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="332"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1597-04-06" calendar="Julian">VI d'apvril <hi
+        rend="underline">1597</hi></origDate>
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="333" facs="AVN_B_101.01.01.004_0333"/> 
+     <div>
+      <lb/>
+      <add place="left margin" hand="later hand">Point de <lb/>coutume</add>
+      <add place="left margin" rend="pencil" hand="later hand"><choice>
+        <abbr>Delier</abbr>
+        <expan>Délibération</expan>
+       </choice></add>
+      <p>
+       <lb/><choice>
+        <abbr>Monsr</abbr>
+        <expan>Monsieur</expan>
+       </choice> le <choice>
+        <abbr>ma<hi rend="sup">e</hi></abbr>
+        <expan>maire</expan>
+       </choice>
+       <persName ref="per010508a.02">Hunguenaud</persName> faict entendre <lb/>que comme <choice>
+        <sic>teuteur</sic>
+        <corr>tuteur</corr>
+       </choice> des <choice>
+        <abbr>enffs</abbr>
+        <expan>enfants</expan>
+       </choice> feu le <choice>
+        <abbr>sr</abbr>
+        <expan>sieur</expan>
+       </choice>
+       <lb/><choice>
+        <abbr>ma<hi rend="sup">e</hi></abbr>
+        <expan>maire</expan>
+       </choice>
+       <persName ref="per010580a.03">Trybollet</persName> luy a esté donné <unclear cert="high"
+        >tirant</unclear>
+       <lb/>a <placeName ref="loc005950.05">Vallangin</placeName>
+       <choice>
+        <abbr>rmonstrance</abbr>
+        <expan>remonstrance</expan>
+       </choice> comme part <lb/>retenues de <term ref="lem015877.02">censes</term>
+       <unclear cert="medium"><term ref="lem018885.02">fenieles</term></unclear> l’on ne <lb/>peult repetter lesdites
+        <term ref="lem015877.02">censes</term> moins<lb/> de troye mois avant la demande <lb/>de
+       repetition. Priant avoir de <lb/>ce point <choice>
+        <abbr>declairat</abbr>
+        <expan>déclaration</expan>
+       </choice> comme c’est la <lb/>coustume usitée pour son service.</p>
+      <p>
+       <lb/>Passez et <unclear cert="medium">licenchier</unclear> comme la coustume <lb/>et
+        <unclear cert="medium">scientement</unclear> pour tel faict ont <lb/>esté cy devant randus affin de
+       <lb/>plus et <gap reason="illegible" quantity="1" unit="word"/> donner et declarer <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice>
+       <lb/>point.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-140.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 8–10</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 8–10</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Menoud, Antoine Menoud, Nicolas Menoud, Anni Menoud – Verhör und Urteil</head>
+					<head xml:lang="fr">Jacques Menoud, Antoine Menoud, Nicolas Menoud, Anni Menoud – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1648-11-09" to="1648-11-16"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="8"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1648-11-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>9<hi rend="sup">bris</hi></abbr><expan>novembris</expan></choice></foreign> 1648</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per013479a.06">Reinold</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013437a.02">Niclauß von Dießbach</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.03">Caspar von Montenach</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013626a.05">Niclauß Reiff</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.04">Frantz Heinrich Reyff</persName>, <abbr>hr</abbr> <persName ref="per013469a.07">Frantz Petter Cattella</persName></seg></p>
+						<p><lb/><persName ref="per019173a.02">Jasque Menu</persName> von <placeName ref="loc007600.16">Rupertsweil</placeName> <term ref="lem016814">vermeldet</term>,
+						<lb/>vohr das er lehr <term ref="lem016150.02">uffgezogen</term> wurde, er habe niemahlen einiges üb<lb break="no"/>el gethan noch einige<del>m</del> <term ref="lem000310.36">väh<del>en</del></term> <term ref="lem014665">vergeben</term>. So nochmahlen 3 mahl
+						<lb/>mit dem lähren <term ref="lem006591">seil</term> <term ref="lem016150.02">uffgezogen</term> worden. Da er aldan
+						<lb/>angezeygt, das belangent den rauch, so <subst><del>wy</del><add place="overwritten">uß</add></subst> seinem hauß
+						<lb/>außgehndt seye gesehen worden, wise er nichts darumb,
+							<lb/>als was er von anderen <term ref="lem000075.44">leyten</term> gehört habe. Weillen
+						<lb/>er eben do mahlen nit <term ref="lem009094.06">anheimisch</term>, sonders sich zu <placeName ref="loc005824">Murten</placeName>
+						<lb/>an wuchen märkt befande. Seye zwar mit seiner
+						<lb/><subst><del>he</del><add place="overwritten">der</add></subst> <term ref="lem014672.03">hexery</term> verdachten hußfrauwen auß ehlicher lieb
+						<lb/>und pflicht weggezogen ein weill, welche sich wegen
+							<lb/>der <term ref="lem000075.44">leyten</term> bösen nachreden und <term ref="lem007038">argwohn</term> <term ref="lem006637.05">landtflichtig</term>
+						<lb/>gemacht. Damahlen er <add place="above">dan</add> zu <placeName ref="loc007603.03">Wifflispurg</placeName> in die <unclear>keühen</unclear><!-- Es handelt sich entweder um einen Ort oder um ein Folterinstrument.. bisher nichts gefunden --> gesetzt
+							<lb/>unnd <term ref="lem014641.01">torturiert</term> worden. Im übrigen werde niemandt
+						<lb/>mit der warheyt von ihme waß übels reden khönnen.
+						<lb/>Bittet hiemit gott unnd ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkheit umb
+						<lb/><term ref="lem004684">verzeihung</term>.</p>
+						<p><lb/><add place="left margin"><term ref="lem000729">Ledig gelaßen</term>
+						<lb/>mit abtrag
+						<lb/>costens.</add><note>Dieser Abschnitt befindet sich am linken Rand und zu Beginn des Protokolls, S. 8.</note></p>
+						<p><lb/><foreign xml:lang="la">Ibidem</foreign><note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></p>
+						<p><lb/><persName ref="per019185a.02">Anthoine Menu</persName> de <placeName ref="loc007601">Plan</placeName>, <add place="above" type="sign">lehr 3 mahl <term ref="lem016150.02">uffgezogen</term></add>, zeigt an, das als er das <measure type="age" quantity="13" unit="year">13<hi rend="sup">ig</hi>
+						<lb/>jar</measure> seines alters erreicht hate, habe er sich im dienste
+						<lb/>begeben unnd biß in das <measure type="age" quantity="24" unit="year">24 jars</measure> seines alters continuiert,
+							<lb/>do dan sein vatter der <term ref="lem014672.03">hexery</term> halben <term ref="lem009330.02">ingezogen</term>
+						<lb/>worden, unnd uff seiner <term ref="lem016794.18">bekhandtnußen</term> hingericht word<subst><del>t</del><add place="overwritten">en</add></subst>.
+						<lb/>Er sey zwahr von seinem meister do mahlen beurlaubet
+						<lb/>worden,
+					<pb n="9"/><lb/>nach hauß zu ziehn, ihrem haußgeschäfften abzuwahrten
+							<lb/>in wehrender seines vatters gefangenschafft. <term ref="lem011468.03">Bekhent</term>,
+						<lb/>das er do mahlen <measure type="age" quantity="24" unit="year">24 jährig</measure> ein <term ref="lem004325.03">katz</term>, so ime sein brott
+						<lb/>unnd käß weggenomen, mit einer schnur uffgebunden
+							<lb/>unnd sie also <term ref="lem017965.01">gepeiniget</term>. Wariber, <add place="above">als</add> er befragt worden
+						<lb/>durch gewise<del>s</del> weibs person, waß er dan alda thun
+						<lb/>wolte oder thete, <space quantity="1" unit="cm"/> er geantwortet habe, wölle
+							<lb/>dardurch erfahren, ob die <term ref="lem013000.01">tortur</term> seinem vatter
+						<lb/>sehr wehe thete. Übrige erforschete puncten hat er
+						<lb/>verneinet unnd darmit gott und ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkheit
+						<lb/>umb <term ref="lem004684.01">verzeichung</term> gebetten.</p>
+					<p><lb/><add place="left margin">Ist mit abtrag
+						<lb/>kostens <term ref="lem007301">ledig</term>
+						<lb/>erkhent den
+						<lb/><origDate when="1648-11-16">16<hi rend="sup">ten</hi>  <foreign xml:lang="la"><choice><abbr>9<hi rend="sup">bris</hi></abbr><expan>novembris</expan></choice></foreign>
+						<lb/>1648</origDate>.</add><note>Dieser Abschnitt befindet sich am linken Rand und zu Beginn des Protokolls, S. 8.</note></p>
+					<p><lb/><placeName ref="loc007690.02">Spittal</placeName>, <foreign xml:lang="la">eadem die</foreign></p>
+						<p><lb/><persName ref="per019178a.02">Niclo Mennu</persName> de <placeName ref="loc007616">Chandon</placeName>, so <subst><del rend="underline">drey mahl mit dem
+						<lb/>lehren <term ref="lem006591.02">seill</term> <term ref="lem016150.02">uffgezogen</term> worden</del><add place="above">durch meine herren des <lb/>gricht examiniert worden</add></subst>, <term ref="lem016814">vermeldet</term>, das
+						<lb/>er zwahr sich zu <placeName ref="loc005824">Murten</placeName>, alwo auch sein <term ref="lem016560">gegenschwester</term>
+						<lb/>wahre, in gewißem hauß befunden habe, <del rend="underline">unnd</del> daselbst
+						<lb/>er mit den haußleytt getrunken, do dan <term ref="lem006484.07">nachwerts</term>
+						<lb/>sich gewisse frauw oder tochter übel befunden, unnd
+						<lb/>folgendts mit <term ref="lem000233.04">dott</term> abgangen. <subst><del>Z</del><add place="overwritten">S</add></subst>ey nit durch ihn sonders
+						<lb/>durch sein <term ref="lem016560">gegenschwester</term> <term ref="lem018557.02">maleficiert</term> worden, so ein <term ref="lem007356">unholdin</term>
+						<lb/>gwäßen. Verwundert sich, das ime solches noch fürgezogen werde,
+						<lb/>weill schon in die <measure type="age" quantity="20" unit="year">20 jar</measure> <term ref="lem012597.02">seidert</term> her verflosen. Das er sich
+						<lb/>zwahr wider  <num value="1">i</num> <term ref="lem005062.11">dorffgnoßen</term> beklagt habe, das er ime gewißen
+						<lb/><term ref="lem001138.11">eüchen</term> mit auß <subst><del>s</del><add place="overwritten">u</add></subst>nnd umbschnidung der rinden verdorrt
+						<lb/><add place="left margin">habe</add>, sie er nit <term ref="lem005649.03">abredt</term>; aber keines wegs <term ref="lem017028.04">betreüwt</term>, weniger <add place="bottom" type="catchword">etwaß</add>
+					<pb n="10"/><lb/><choice><sic>etwaß</sic><corr></corr></choice> übels zu gefüegt haben. Sey ihme gleüch woll
+						<lb/><term ref="lem008937.03">etwan</term> einen unfahl zu gestanden, trage der selbigen
+						<lb/>khein ursach. Bitt gott unnd einer <choice><abbr>g oberkh</abbr><expan>gnädigen oberkheit</expan></choice>
+						<lb/>umb <term ref="lem004684.14">verzeyung</term>.</p>
+					<p><lb/><foreign xml:lang="la">Ibidem</foreign><note>Gemeint ist das <placeName ref="loc007690">Freiburger Spital</placeName>.</note></p>
+						<p><seg><lb/><persName ref="per019186a">Anni</persName>, des <persName ref="per019190a.02">Audirset Menus</persName> frauw, <add place="above" type="sign">durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gricht exami<lb break="no"/>niert</add>, <add place="above" type="sign">zeigt an, das</add> desen vatter gewißen
+						<lb/><persName>Geordan</persName>, <placeName ref="loc000464">Berner</placeName> gebiets, daselbst sie sich mit ihrem
+						<lb/>man verheiratet, als sie beede hinder <placeName ref="loc001310.05">Niweneg</placeName> dienten.
+							<lb/>Hernacher aber sich beyde <term ref="lem015165.06">alharo</term> in hiesigem gebiet,
+						<lb/>alwo ihr man daheim, nidergelasen. Sie aber <term ref="lem006484.07">nachwerts</term>
+							<lb/>sich durch die ehrwirdigen <choice><abbr>p</abbr><expan>pater</expan></choice> <term ref="lem016504.08">jesuuitern</term> instruction
+							<lb/><term ref="lem019537.02">catholisiert</term>, auch <term ref="lem012597.05">seyde<add place="above">r</add>t</term> alzeytt beflisen, woll zu verhal<lb break="no"/>ten.</seg> <seg><term ref="lem011468.03">Bekhent</term>, sich vor lange zeytt an gewisen gesellen
+						<lb/>sich angehenkt zu haben, von welchem sie hernaher
+						<lb/>nach gelaßen unnd <term ref="lem012597.05">seydert</term> in aller gebür verhalten.</seg>
+						<seg><lb/>Einer burgundischen tochterlin <term ref="lem016814">vermeldet</term>, ihr ein
+						<lb/>hembt zwahr gemacht und heim gestelt zu haben,
+						<lb/>aber mit nichten waß <term ref="lem018558.03">maleficischs</term> angethan zu haben.
+						<lb/>Welches fehr von ihr sey, zu dem verneinet gentzlich,
+							<lb/>das ihr die <term ref="lem017161.05">beseßne</term> <term ref="lem000075.39">leytt</term> nach geschruen, wie
+						<lb/>dan auch alle andere ihr fürgehaltne, durch
+						<lb/><choice><abbr>m</abbr><expan>meine</expan></choice> herren des gricht puncten. Daruff sie gott
+						<lb/>unnd einer <choice><abbr>g</abbr><expan>gnädigen</expan></choice> oberkheit umb <term ref="lem004684">verzeihung</term> gebetten.</seg></p>
+					<p><lb/><add place="left margin">Den <origDate when="1648-11-16">16<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>9<hi rend="sup">bris</hi></abbr><expan>novembris</expan></choice></foreign>
+						<lb/>1648</origDate> <term ref="lem016800">ledig</term>
+						<lb/>worden mit abtrag
+						<lb/>costens.</add><note>Dieser Abschnitt befindet sich am linken Rand und zu Beginn des Protokolls, S. 10.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-45.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 64–66</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 64–66</idno>
+					</msIdentifier>
+					<head xml:lang="de">Estienne Bredelin – Verhör</head>
+					<head xml:lang="fr">Estienne Bredelin – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1619-05-22">22<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> <hi rend="underline">1619</hi></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="64"/><p><lb/>Im <placeName ref="loc008105.04">Keller</placeName>
+							<seg><lb/><origDate when="1619-05-22">22<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> <hi rend="underline">1619</hi></origDate>, <foreign xml:lang="la"><choice><abbr>j</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Wilhelm Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName></seg>
+							<seg><lb/><persName ref="per009251">Känel</persName></seg>
+							<seg><lb/><persName ref="per009259">Ligertz</persName></seg>
+						<seg><lb/>Weybel</seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+						<pb n="65"/><p><lb/>Im <placeName ref="loc007594">Rosey</placeName>
+							<lb/><foreign xml:lang="la">Idem</foreign></p>
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.</add></seg>
+							<seg><persName ref="per009417a.02">Estievena</persName>, <term ref="lem014767.01">relicte</term> avec 5 enfants de <persName ref="per009323a.01"><sic>Ni<lb break="no"/>clod</sic> Bredelin</persName> de <placeName ref="loc007935.05">Farvagnie</placeName>, a dit estre
+						<lb/>reduite prisonniere a cause qu’on dit qu’elle
+								<lb/>est <term ref="lem019389.02">sorciere</term>, ce que n’est vray, dont <persName>Clau<lb break="no"/>de Mulet</persName> et <persName>Petterman Clerc</persName> en sont
+						<lb/>cause, affin qu’ilz puissent boire.</seg> <seg>Et qu’elle
+						<lb/>sait quelques guerisons apprinses de la femme
+							<lb/>dudit <persName>Mulet</persName>, <choice><abbr>ass</abbr><expan>assavoir</expan></choice> quand un <term ref="lem018921.01">cheval</term> a mal
+						<lb/>au pied, qu’on doibt prendre du <term ref="lem017911.03">pain de
+						<lb/><choice><abbr>s</abbr><expan>sainte</expan></choice> <persName ref="per000324a.07">Agethe</persName></term>, de l’eau benite et du pin, et
+						<lb/>ains tout ce le mettre sus le pied, disant
+						<lb/><addSpan place="left margin" spanTo="add1"/>ces <subst><del>sa</del><add place="inline">paroles&#160;:</add></subst><anchor xml:id="add1"/> <q>&#160;Que Dieu oste ce que luy empeche et le
+						<lb/>guerise&#160;</q>, faisant la croix&#160;; ce qu’elle mesme
+							<lb/>auroit trouvé bon a une sienne <term ref="lem018922.01">jument</term>.</seg>
+						<seg><lb/>Item elle a dit d’avoir ouy dire pour guerir les
+							<lb/><term ref="lem017507.02">vaches</term>, quand elles tremblent, qu’on doibt pren<lb break="no"/><pb n="66"/>dre du bois benit et <term ref="lem018992.01">chandelle</term> benite, et avec
+						<lb/>ce <term ref="lem016125.03">proflamer</term> la beste, en brulant de
+						<lb/>son poil. Dadvantage avoir ouy dire pour
+							<lb/>guerir un <term ref="lem018921.01">cheval</term> que ne pourroit manger,
+						<lb/>qu’on doit prendre du meil et de l’herbe,
+						<lb/>que ne sait nommer&#160;; et aux <term ref="lem017507.02">vaches</term> des li<lb break="no"/>maces noires avec d’icelle herbe. Lesquelles
+						<lb/>medicines n’avoir jamais usé, mais bien les
+						<lb/>avoir ouy dire. Et a dit qu’elle auroit perdu
+							<lb/>beaucoup de bestes, comme une <term ref="lem018922.01">jument</term> et
+							<lb/><term ref="lem019396.01">brebis</term> <abbr>etc</abbr>.</seg> <seg>Estre chose veritable <subst><del>qu’on</del><add place="inline">que</add></subst>
+						<lb/>un sien filz, <persName ref="per009419">Hanseman</persName>, et <persName ref="per009418">Anne</persName>, sa fille,
+								<lb/>se battent souventefois&#160;; et ladite fille ap<lb break="no"/>pelle son frere <term ref="lem017932.01">larron</term>, <term ref="lem019444.01">meurtrier</term> et <term ref="lem018522.02">bugre</term>,
+						<lb/>dont ilz la battent dadvantage a cause de
+						<lb/>ses paroles. Dont les gens oyant ce train,
+							<lb/>qu’ilz <subst><del>s</del><add place="inline">disent</add></subst> qu’ilz tiennent la <term ref="lem017043.01">secte</term>, ce
+						<lb/>que n’est aulcunement vray, et que en tel
+						<lb/>endroit on luy fait tort, <term ref="lem019499">demandant
+						<lb/>mercy</term> a genoux.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

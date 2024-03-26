@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-208.23-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 292 (1741), S. 494</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 292 (1741), p. 494</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Repond – Anweisung</head>
+					<head xml:lang="fr">Marguerite Repond – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1741-12-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>x<hi rend="sup">bris</hi></abbr><expan>decembris</expan></choice></foreign> [1741]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key003462"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><persName ref="per028136a.05">Marguerithe Repond</persName></p>
+						<p><lb/>So anheith solte vor gricht gestelt worden seyn, nunmehro
+						<lb/>aber die vordrige <time period="byNight">nacht</time> umb ohngefehrt <time when="01:30:00">halber zween uhr morgens</time>
+						<lb/>in gegenwarth der <choice><abbr>vv</abbr><expan>väter</expan></choice> <term ref="lem011458.09">capucineren</term> und weiblen <term ref="lem016245">gähling</term>
+							<lb/>gestorben, woruffhin sie durch den <choice><abbr>h<hi rend="sup">n</hi></abbr><expan>herren</expan></choice> <term ref="lem019391.01">stattphysicis</term> <term ref="lem001277">visitiert</term>,
+						<lb/>auch von denen spythal chirugis <term ref="lem019321.01">eröffnet</term>, undt an ihr noch
+						<lb/>aus- noch einwendig einiges zeichen eines gwaltätigen todts,
+							<lb/>wohl aber <subst><del>natür</del><add place="inline">innerlich</add></subst> natürliche ursachen eines unver<lb break="no"/>hofften todts gefunden. Dessen cörper soll nach <term ref="lem003058.01">christcatholischem</term>
+						<lb/>gebrauch zur erden gestattet werden, darzu die <placeName ref="loc010835.06">elende capellen</placeName>
+						<lb/>gewidmet und bestimbt. Alwo selber under begleidt eines capellan
+						<lb/>oder anderen priester durch<!-- hier hat es eine Korrektur darunter --> die <term ref="lem017197.02">bettelvögt</term> getragen und <term ref="lem001869">begraben</term>
+						<lb/>werden soll, welches <choice><abbr>wohlg h</abbr><expan>wohlgeehrter herr</expan></choice> großweibel<note>Gemeint ist <persName ref="per028232a">Franz Josef Moritz Raemy</persName>.</note> zu verangstalten
+						<lb/>wissen wird.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

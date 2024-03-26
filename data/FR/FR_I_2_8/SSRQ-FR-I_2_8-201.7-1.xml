@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-201.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 465</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 465</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Verdon-Guinnard – Verhör</head>
+					<head xml:lang="fr">Marguerite Verdon-Guinnard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1677-08-13"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1677-08-13">13<hi rend="sup">ten</hi> augsten 1677</origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> <abbr>h</abbr> <term ref="lem018540.03">amman</term> <persName ref="per026624a.01">Landerset</persName></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026529a">Franz Prosper Python</persName>.</note>, <abbr>h</abbr> <persName ref="per026616a.01"><choice><abbr>F P</abbr><expan>Frantz Peter</expan></choice> Gottraw</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> hauptman <persName ref="per026629a.01">von Forel</persName>, <abbr>h</abbr> <persName ref="per026120a.06">Johan Ramy</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026532a.02">Werli</persName>, <abbr>h</abbr> <persName ref="per026625a.01">Haberkhorn</persName></seg></p>
+						<p><lb/><persName ref="per027117a">Marguerite Guinnard</persName>, derechef examinée et
+							<lb/><term ref="lem019548.06">eslevée</term> trois fois avec le demy <term ref="lem018232">quintal</term> aux
+						<lb/>pieds, persiste dans toutes ses precedentes
+						<lb/>negatives, soustenant que <persName ref="per027160b">Pernette Peity</persName>
+						<lb/>de <placeName ref="loc007893">Middes</placeName> luy a faict tort, niant aussy d’avoir
+							<lb/>esté battue et mal traictée par aucun <term ref="lem019032.03">male<lb break="no"/>ficié</term> ou <term ref="lem019503.02">possedé</term>, ny <term ref="lem019503.05">possedée</term>, ni qu’ils
+						<lb/>luy ayent dict qu’elle estoit leur maistres<lb break="no"/>se, demandant au surplus pardon à Dieu
+							<lb/>et à Leurs <choice><abbr>Exelles</abbr><expan>Excellences</expan></choice> de ses autres <term ref="lem019539.03">pechés</term>. <gap reason="irrelevant"/><note>Le passage qui suit concerne les procès menés contre
+							<persName ref="per022637">Laurent Ducret</persName> et <persName ref="per017167">Elisabeth Morand-Favre</persName>.
+							Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-200.7-1">SSRQ FR I/2/8 200.7-1</ref> et <ref target="urn:ssrq:SSRQ-FR-I_2_8-174.19-1">SSRQ FR I/2/8 174.19-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

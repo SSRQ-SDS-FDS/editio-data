@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.46-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 200–202</idno>
+     </msIdentifier>
+     <head>Intérêts, usures et améliorations</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005049"/>
+     <term ref="key001071"></term>
+     <term ref="key005101"></term>
+     <term ref="key000058"></term>
+     <term ref="key000336"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="200" facs="AEN_MJ_17_200_201"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> XLVI. <lb/>Des interests, usures <lb/>et <term ref="lem018045.02">mesliorements</term>
+      </head>
+      <p>
+       <lb/><app>
+        <lem>L’</lem>
+        <rdg wit="AVN Q41, p. 71">Riere ceste souveraineté l’</rdg>
+       </app><term ref="lem014979.03">arrerage</term> et interest de <lb/>l’argent presté, ne peut
+       courrir <lb/><app>
+        <lem><term ref="lem017830.02">riere</term> ceste souveraineté</lem>
+        <rdg wit="AVN Q41, p. 71"/>
+       </app> a plus <lb/>grande usure que du cinq pour cent <lb/>et ou le contraire se <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 71">trouvera, et</rdg>
+       </app> veriffiera y a <lb/>commise.  <lb/><add place="below" type="catchword">Simple</add>
+      </p>
+     <pb n="201" facs="AEN_MJ_17_200_201"/>
+      <p>
+       <lb/>Simple debt ne portant <term ref="lem015877">cense</term>
+       <lb/>estant repeté par demande en <lb/>justice, porte des lors interest, <lb/>et s’il n’est
+       repeté dans <date dur-iso="P10Y">dix ans</date>
+       <lb/>est prescript.</p>
+      <p>
+       <lb/>Semblablement le possesseur des <lb/>que la chose luy a esté deffendue <lb/>et demandée
+       par justice, doibt <lb/>rendre les fraits qu’il a dempuis <lb/>perçeu, s’il deschet de la
+       cause avec <lb/>tous interests.</p>
+      <p>
+       <lb/>Le possesseur <app>
+        <lem>seul</lem>
+        <rdg wit="AVN Q41, p. 71"/>
+       </app> de bonne foy <lb/>peut faire les fruicts siens de la <lb/>chose qu’il a acquis la
+       proprieté <lb/>avec bons tiltres.</p>
+      <p>
+       <lb/>Les <term ref="lem018045.02">mesliorements</term> sont de trois <lb/>especes, assavoir
+       les necessaires, <lb/><add place="below" type="catchword">les</add><note>La réclame indique à
+        tort «&#160;les&#160;».</note>
+       <pb n="202" facs="AEN_MJ_17_202_203"/>
+       <lb/>utiles et voluptueux, tous trois <lb/>sont renduz et restituez au possesseur <lb/>de
+       bonne foy avec tiltre <app>
+        <lem>en</lem>
+        <rdg wit="AVN Q41, p. 71">et</rdg>
+       </app> faict <lb/>d’eviction et maintenance, &amp; <lb/>specialement dans passé <date dur-iso="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>.</p>
+      <p>
+       <lb/>A celuy qui tient par <term ref="lem016009.03">engagere</term>
+       <lb/>l’on ne luy rend les <term ref="lem018045.02">mesliorements</term>
+       <lb/>utiles ny les necessaires, et moins <lb/>les voluptueux, sy autrement n’y est
+       <lb/>convenu par l’engagement.</p>
+      <p>
+       <lb/>Au possesseur par <term ref="lem014995.02">taxe</term> de chose <lb/>qui se peut retirer
+       dans <date dur-iso="P1Y6W"><term ref="lem014776">an &amp; jour</term></date> <lb/>l’on ne luy rend
+       aucun <term ref="lem018045.04"><choice>
+         <abbr>mesliorem<hi rend="sup">t</hi></abbr>
+         <expan>mesliorement</expan>
+        </choice></term>.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

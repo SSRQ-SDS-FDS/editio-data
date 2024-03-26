@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 37r–38r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 37r–38r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Verhör</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-01-07"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="37r"/><p><lb/>Im <placeName ref="loc008105">Keller</placeName> under dem <placeName ref="loc009227.04">Rathhauß</placeName> den <origDate when="1683-01-07">7<hi rend="sup">ten</hi>
+							<lb/><foreign xml:lang="la">januarii</foreign> 1683</origDate>
+							<seg><lb/><foreign xml:lang="la">Præside</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026314a.01">Carle von Montenach</persName> <term ref="lem018597.02"><choice><abbr>burgerm<hi rend="sup">r</hi></abbr><expan>burgermeister</expan></choice></term>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per026328a.05">Rudolff Fyva</persName></seg>
+							<seg><lb/>Von LX <abbr>h</abbr> <persName ref="per013469a"><choice><abbr>Fr Pet</abbr><expan>Franz Peter</expan></choice> Castella</persName>, <abbr>h</abbr> <persName ref="per027532a.02">Frantz Peter Amman</persName>, <abbr>h</abbr> <persName ref="per026289a.03">Niclauß Amman</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per027535a.01"><choice><abbr>Fr Pet Em</abbr><expan>Franz Peter Emanuel</expan></choice> Fegeli</persName></seg></p>
+						<p><seg><lb/><persName ref="per027452a">Maria Fridli</persName> derechef questionée par les susdits magnifiques
+						<lb/>seigneurs, at <term ref="lem015549.07">confessé</term> dʼavoir esté à <placeName ref="loc007647">Romont</placeName> et dʼavoir
+							<lb/>demandé <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> lʼhospitallier et sa femme au <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <term ref="lem019542.08">babteme</term>
+						<lb/>son enfant, quʼest un aultre enfant que celluy de sa
+						<lb/>premiere <term ref="lem019465.01">confession</term>, lesquels luy ayant refusé, elle
+							<lb/>prit le sieur <persName>Denervoz</persName> pour tenir ledit enfant au <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice>
+							<lb/><term ref="lem019546.01">sacrement</term> du <term ref="lem019542.04">baptesme</term>, ayant ladite <persName ref="per027452a">Maria</persName> asseuré que
+							<lb/>ledit enfant nʼat jamais esté <term ref="lem019543.08">baptisé</term> auparavant
+						<lb/>que cette fois. Et faisant difficulté de <term ref="lem015549.01">confesser</term>
+						<lb/>si elle ne lʼavoit faict <term ref="lem019543.03">babtiser</term> du dempuis aultrepart, <add place="bottom" type="catchword">finalement</add>
+							<pb n="37v"/> <lb/><choice><sic>finalement</sic><corr></corr></choice> at <term ref="lem015549.07">confessé</term> quʼelle le fit <term ref="lem019543.03">babtiser</term> pour
+						<lb/>la seconde fois à <placeName ref="loc008334">Orsonnens</placeName> et que son parrain estoit
+						<lb/><persName>Jean François</persName>, le fils du <term ref="lem016294">banneret</term> <persName>Chassot</persName> dudit lieux.
+							<lb/>De plus at <term ref="lem015549.07">confessé</term> que elle lʼavoit faict <term ref="lem019543.03">babtiser</term>
+						<lb/>pour la troisiesme fois à <placeName ref="loc007631.10">Ponnavilla</placeName>, et que
+						<lb/><persName>Pierre Tengilli</persName> et <persName>Anna Tengilli</persName> furent parrain
+							<lb/>et maraine dudit enfant, lequel enfant et de<lb break="no"/>cedé lʼ<date dur-iso="P1Y">an passé</date> de cette vie à lʼaultre. Elle at
+						<lb/><term ref="lem015549.07">confessé</term> quʼelle avoit heuz trois filz avec son dernier
+						<lb/>marry.</seg> <seg>Item elle at reiteré que elle croyoit estre
+						<lb/><term ref="lem019502.03">possedée</term>, et mesmement luy venoient des mauvais advis
+						<lb/>quʼil luy sembloit que elle se debvoit <term ref="lem019460.01">tuer</term> soy mes<lb break="no"/>me, ce quʼil luy arrivat seulement encore hier au
+						<lb/>soir, et mesme aurroit aperceuz grand bruit à
+						<lb/>lʼentour dʼelle, comme si on jettoit des affaires à terre.</seg>
+						<seg><lb/>Item elle dit que elle at veu encor hier au soir
+						<lb/>Nostre Dame, que elle estoit comme une petite feme
+						<lb/>toutte blanche et que elle avoit un <term ref="lem016464.04">drobliet</term> tout
+						<lb/>blanc.</seg> <seg>Item elle at <term ref="lem015549.07">confessé</term> que elle at esté à
+							<lb/><placeName ref="loc007894.06">Cormonde</placeName> et que elle y at <term ref="lem015015.09">derobé</term> un linceul chez
+						<lb/>le <term ref="lem015166.01">favre</term> dudit lieux, lequel lʼavoit puis après
+						<lb/>bien battue. Toutes fois ledit <term ref="lem015166.01">favre</term> aurroit receuz
+						<lb/>derechef son <term ref="lem015429">linceul</term>.</seg> <seg>Item elle at <term ref="lem015549.07">confessé</term>
+							<lb/>dʼavoir esté à <placeName ref="loc007616">Chandon</placeName>, ou elle avoit <term ref="lem015015.09">derobé</term> un mor<lb break="no"/>ceaux de chair.</seg> <seg>Item elle a <term ref="lem015549.07">confessé</term> dʼavoir <term ref="lem015015.09">derobé</term>
+						<lb/>un affaire de soye dans lʼeglise dʼ<placeName ref="loc007902.03">Escuvilliens</placeName>, lequel
+						<lb/>elle at puis après restitué.</seg> <seg>Item elle at <term ref="lem015549.07">confessé</term>
+							<lb/>dʼavoir <term ref="lem015015.09">derobé</term> un chappellet de verre sur lʼautel
+						<lb/>de Nostre Dame à <placeName ref="loc008073">Matran</placeName>, lequel elle at aussy
+						<lb/>derechef rendus.</seg> <seg>De plus elle at dit que elle at
+						<lb/>veuz proche dʼune haye à <placeName ref="loc008332.03">Balleswyl</placeName> une jolie
+						<lb/>petite <term ref="lem018939.02">ame</term> toutte blanche, et croit que soit lʼ<term ref="lem018939.02">ame</term>
+						<lb/>de son enfant, ce que fut après la mort de sondit
+						<lb/>enfant, et mesmement lʼaurroit dit a lʼ<term ref="lem015141.07">armaylier</term>
+							<lb/>de <placeName ref="loc008332.03">Balleswyl</placeName>.</seg> <seg>Interrogée si elle nʼavoit <term ref="lem019460.02">tué</term>
+						<lb/>sondit enfant audit <placeName ref="loc008332.03">Balleswyl</placeName>, elle at dit que non,
+						<lb/>que ledit enfant estoit au berceaux lors quʼil et
+						<lb/>mort, et mesmement elle lʼavoit testé soit allaicté
+						<lb/>trois fois à celle nuict, et que ledit enfant morrut
+							<lb/>environ la <time when="00:00:00">minuict</time> au premier chant du <term ref="lem019395.01">coq</term>, <add place="bottom" type="catchword">et</add>
+						<pb n="38r"/> <lb/><choice><sic>et</sic><corr></corr></choice> que ledit enfant avoit esté malade <date dur-iso="P2D">deux</date> ou <date dur-iso="P3D">trois
+						<lb/>jours</date> auparavant. Et cʼettoit pas un garçon ains
+						<lb/>une fillie.</seg> <seg>De plus elle at dit au commencement
+						<lb/>que un esprit blanc luy donnoit des <term ref="lem019270.03">advisons</term>, et luy
+						<lb/>avoit dit que elle se devoit jetter en bas et se sauver
+						<lb/>par la chenaux. De plus luy aurroit dit que elle devoit
+						<lb/>lever les <term ref="lem019271.02">lars</term> de la prison et se sauver par desoub,
+						<lb/>ce qui luy et arrivé seulement hier au soir. <foreign xml:lang="la">Nota bene</foreign>&#160;:
+						<lb/>que ladite detenue at icy varié, disant que elle avoit
+						<lb/>veuz aussy un esprit noir, lequel montoit et rapis<lb break="no"/>soit par amont la muraillie, et sʼestoit cet es<lb break="no"/>prit qui luy mettoit en teste quʼelle se devoit mettre
+						<lb/>bas par la chenaux et lever les <term ref="lem019271.02">lars</term> soit planchés.
+						<lb/>Elle at dit quʼelle les avoit entendus parler le pa<lb break="no"/>tois soit langue romande par ensemble, et quʼil
+						<lb/>y avoit deux esprit noir et un esprit blanc,
+						<lb/>et mesmement les deux esprits, en parlant, luy
+						<lb/>promirent de la sauver.</seg> <seg>Interrogée dʼou pouvoit
+						<lb/>parvenir quʼelle soit <term ref="lem018556.07">maleficiée</term>, elle respondit que
+							<lb/>elle croyoit que des <term ref="lem019389.02">sorciere</term> de <placeName ref="loc007983.02">Norea</placeName> lʼayent
+						<lb/><term ref="lem018556.07">maleficiée</term>, par ce que elle les avoit frequentée.
+						<lb/>Interrogée lesquelles, elle respondit les <persName>Magnines</persName><note>Gemeint sind <persName ref="per017167">Elisabeth Morand-Favre</persName> und ihre Tochter <persName ref="per026681">Clauda Cossonay-Morand</persName>.</note>
+						<lb/>de <placeName ref="loc007983.02">Norea</placeName>, la mere et la fillie, et que la mere
+						<lb/>estoit <term ref="lem019272.02">zavonaye</term> proche de <placeName ref="loc005824.03">Morat</placeName>, et que elle
+						<lb/>at logée auprès dʼelles audit <placeName ref="loc007983.02">Norea</placeName> deux nuicts.
+						<lb/>Aultre nʼat voulus <term ref="lem015549.01">confesser</term>. <foreign xml:lang="la">Actum ut supra</foreign>.</seg></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

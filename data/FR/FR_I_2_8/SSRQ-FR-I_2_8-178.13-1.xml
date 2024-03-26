@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-178.13-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 172–173</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 172–173</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Freffer-Corpataux – Verhör</head>
+					<head xml:lang="fr">Margreth Freffer-Corpataux – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1664-05-17"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="172"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1664-05-17">17<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1664</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per018693a">Tobias Gottrau</persName>.</note></seg>
+							<seg><lb/><persName ref="per026304a.02">Zurthannen</persName>, <persName ref="per026329a.01">Schrötter</persName>, <persName ref="per018085a.01">Adam</persName></seg>
+							<seg><lb/><persName ref="per026289a.01">Amman</persName>, <persName ref="per026328a.01">Fywa</persName></seg></p>
+						<p><seg><lb/><persName ref="per022472a.08">Margereth Corpastaulx</persName> mit dem lähren <term ref="lem006591">seil</term> 3 mahl
+							<lb/><term ref="lem016150.02">uffgezogen</term>, hat von ihrer obigen <term ref="lem016794.05">bekhandtnuß</term> nichts
+							<lb/>änderen wollen, sunderen beharrlich <term ref="lem016063.09">verläugnet</term>, sie habe
+						<lb/>des <persName>Amman</persName> zu <placeName ref="loc007933.05">Libistorff</placeName> tochter bym bach nit berührt,
+							<lb/>den hingerichten <persName>David</persName><note>Gemeint ist <persName ref="per026787a">David Lässer</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-179.0-1">SSRQ FR I/2/8 179.0-1</ref>.</note> niehmahlen frequentiert, mit ihme
+						<lb/>geessen noch getrunckhen. Wohl ime einsmahls zu
+							<lb/><placeName ref="loc007894">Gurmels</placeName>, da er umb <measure type="currency" quantity="1" unit="bz">ein batzen</measure> <term ref="lem000118.03">eyer</term> kauffen wolte,
+						<lb/>selbige uß mangel abgeschlagen, und zu ihme <term ref="lem016814">vermeldt</term>,
+							<lb/>ob er <persName ref="per026787a">der böß Davidt</persName> sye, von welchem sie in der
+						<lb/>letsten predig vil reden gehört hatte. Sie förchte
+							<lb/>ihn nit noch synen <term ref="lem017929">meister</term>, dan er in der gegne zimb<pb  n="173"/><lb break="no"/>lich <term ref="lem017015.02">verschreyt</term> were.</seg>
+							<seg><term ref="lem011468.03">Bekhent</term>, hievor zu <placeName ref="loc008317">Rohr</placeName>
+							<lb/>übernacht geweßen zu syn, by <unclear>einem</unclear> <term ref="lem000325.05">puren</term>, der einen
+								<lb/><term ref="lem019041.01">falben</term> barth hat, sein <unclear><choice><abbr>frl</abbr><expan>frau</expan></choice></unclear> heisse <persName>Margereth</persName>, ihres mans
+						<lb/>nammen seye ihro unbewußt. Gemelte <persName>Margereth</persName>
+								<lb/>ware nit wohl uff, habe ihro viel klägden von ihrer
+						<lb/><term ref="lem014634">übelmögenheit</term> abgelegt, so sie vermeinte, ihre von bößen
+								<lb/><term ref="lem000075.45">lüthen</term> här zu khommen. <term ref="lem016063.05">Verlaugnet</term> nit, daselbsten
+							<lb/><term ref="lem002518.02">krießen</term> geleßen und geessen zu haben. Wil sich aber nit
+								<lb/>erinneren, anderen <term ref="lem000075.45">lüthen</term> zu essen gegeben, <subst><del>zu</del><add place="inline">vil</add></subst> weniger
+								<lb/>etwas böß gestifft zu haben.</seg> <seg><term ref="lem011468.03">Bekhent</term>, habe vor ihrer
+									<lb/><add place="left margin">letsten</add> vereydung uß dißer <term ref="lem011913.05">bottmässigkheit</term> uffm <term ref="lem001170.01">kirchhoff</term> zu
+									<lb/><placeName ref="loc007630.03">Taffers</placeName> <measure type="currency" unit="bz" quantity="3">3 bz</measure> gefunden, das crütz sye oben gestanden.
+									<lb/>Habe im <term ref="lem017022.02">vortreißen</term> eine wyße <term ref="lem017206">taube</term> bym <term ref="lem002112.02">türlin</term> des
+						<lb/>kirchhoffs gesehen. Und etwas wytters uff der kornzelg
+						<lb/>einen einsidler, wie die <term ref="lem011458.03">capuciner</term> gekleidt, angetroffen,
+						<lb/>demme sie ihr lyden angezeigt und vom crütz der gefundenen
+						<lb/><measure unit="bz" quantity="3" type="currency">dry batzen</measure> <term ref="lem017023.02">discurs</term> gehalten. Solcher habe sie getröß mit
+						<lb/><term ref="lem016814">vermelden</term>, sie werde viel crütz und lyden haben müessen.
+									<lb/>Derselbig sye, wie sie <term ref="lem012597.04">sydtert</term> erfahren, der <term ref="lem019360.02">einsidler</term>
+						<lb/>by <placeName ref="loc008673.02">S<hi rend="sup">t</hi>. Mariæ Magdalena</placeName> geweßen.</seg>
+							<seg>Will zu <placeName ref="loc008053.03">Heütten<lb break="no"/>riedt</placeName>, hinder <placeName ref="loc001395.05">Schwartzenburg</placeName>,
+							im <placeName ref="loc008670">Galm</placeName> und anderen
+						<lb/>vorgehaltenen orthen niehmahlen gewesen sein
+						<lb/>und thut sich <choice><abbr>ü g</abbr><expan>üwer gnaden</expan></choice> flehentlich empfehlen.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

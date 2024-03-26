@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-192.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 315–317</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 315–317</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margret Thürler-Pfyffer – Verhör und Urteil</head>
+					<head xml:lang="fr">Margret Thürler-Pfyffer – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1669-05-16" to="1669-05-17"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="315"/><p><lb/><hi rend="outdent"><placeName ref="loc009227.02">Rathhuß</placeName></hi>, den <origDate when="1669-05-16">16<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1669</origDate></p>
+						<p><seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026314a">Karl von Montenach</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per026065a.01">Reyff</persName>, <abbr>hr</abbr> <persName ref="per026329a.01">Schrötter</persName></seg>
+							<seg><lb/><persName ref="per026365a.01">Hanns <choice><abbr>P</abbr><expan>Peter</expan></choice> Vonderweid</persName>, <persName ref="per026039a.01">Moßer</persName></seg>
+							<seg><lb/><persName ref="per026377a"><choice><abbr> H Ul</abbr><expan>Hans Ulrich</expan></choice> Wild</persName></seg>
+						<seg><lb/>Weibel</seg></p>
+						<p><seg><lb/><persName ref="per026972b.01">Margreth</persName>, <persName ref="per026970a.01">Jacoben Türlers</persName> <add place="above">frauw</add> <placeName ref="loc007660.09">zur Flüe</placeName> in der <placeName>Botteiry</placeName><note>L’identification du lieu est incertaine.
+							Il pourrait s’agir de <placeName ref="loc013695">Les Botteys</placeName>.</note>
+							<lb/>wohnhafft, <persName ref="per026971a.01">Andreßen Pfyffers</persName> von <placeName ref="loc007859">Jaun</placeName> dochter,
+							<lb/>über die vom ambtsman von <placeName ref="loc007861.08">Boll</placeName> eingelangte <term ref="lem016288">in<lb break="no"/>quisition</term> examiniert, hat <term ref="lem016814">vermeldet</term>, sie seye <measure type="age" quantity="59" unit="year">59 jahr</measure>
+							<lb/>alt unnd seye in der ehe <date dur-iso="P27Y">27 jahr</date> lang, in deren sie mit
+							<lb/>ihrem man vier <term ref="lem000130.03">khinder</term> erzogen, under welchen sich ein
+							<lb/>tochter verehlichet.</seg> <seg>Waß ihre <term ref="lem015982">enthaltung</term> anbelangt,
+							<lb/>wüsse deren die uhrsach nit, vorbehalten daß sie ver<lb break="no"/>nommen habe, daß ihren <persName>Michel Bouquet</persName> in ihrer ab<lb break="no"/>wäßenheit <term ref="lem004933.05">getreüwt</term> habe mit <term ref="lem016814">vermelden</term>, daß er
+							<lb/>sie wölle <term ref="lem009330">einziehen</term> lassen, dessen sie doch die uhrsach nit
+						<lb/>wisse. Er habe ein grollen wider sie gefaßt, da doch
+						<lb/>sie mit ihme khein <term ref="lem005658.03">zeppell</term> noch hader niemahlen gehabt.
+						<lb/>Vermeint, er halte sie suspect unnd verdacht, weillen
+							<lb/>er seine <term ref="lem000130.03">khinder</term> kranckh hat, <add place="left margin"><foreign xml:lang="la"><choice><abbr>p d</abbr><expan>per doctrem</expan></choice></foreign> <persName>Schaller</persName></add>, dessen sie sich nit ver<lb break="no"/>wundere, weillen dessen sohn <persName>Hannß Bouquet</persName> ein <term ref="lem015197.04">üp<lb break="no"/>pigs</term> leben führe unnd tag unndt nacht im <term ref="lem018677.02">luoder</term>
+						<lb/>stecke.</seg></p>
+						<p><seg><lb/>Gesteht, daß <persName>Christou Ryß</persName> <term ref="lem001483.06">dickh</term> zu ihnen ins huß
+						<lb/>khommen, seye aber schon ehe unndt zuvor <add place="above" type="sign">er</add> ihr huß
+							<pb n="316"/><lb/><term ref="lem017461">hantiert</term> kranckh geweßen, unndt wahre schon <term ref="lem017463">schier</term>
+							<lb/>starckh <term ref="lem016557">blind</term>; unnd zeigt an, daß sie gehört habe,
+							<lb/>daß diße kranckheit ihme von der lungen oder <term ref="lem018019.03">syten<lb break="no"/>wehe</term> herrühre. Wüsse nit, daß dem <persName>Jacoben
+								<lb/>Babst</persName> in der <placeName>Underfayaula</placeName><note>Es handelt sich um den unteren Teil des Fleckens <placeName ref="loc008387.02">La Fayaula</placeName>.</note> ein döchterlin ge<lb break="no"/>storben seye.</seg></p>
+						<p><seg><lb/><term ref="lem011468.03">Bekhent</term>, daß sie in <persName>Hannßen Byfrares</persName> huß an dry
+							<lb/><term ref="lem007219.04">khindtstäufferen</term> geweßen seye, unndt habe sie er<lb break="no"/>melter <persName>Byfrare</persName> ein mahl gescholten, sagend, er habe
+							<lb/>solches alßo im <term ref="lem001670.06">bruch</term>, die <term ref="lem000075.05">leüth</term> zu <term ref="lem003585">schelten</term>. Die
+							<lb/>wortt, welche er gebrucht, seyend geweßen <q>du <term ref="lem006693.02">hex</term></q>.
+						<lb/>Daruff sie geantworttet habe, daß wan sie eine
+						<lb/>solche währe, man mit ihren nach ihrem verdienst
+						<lb/>verfahren solte. Zu dem habe sie den <persName>Michell
+						<lb/>Bergman</persName> zu ermeltem <persName>Byfrare</persName> ins huß geschickt,
+							<lb/>mit dem <term ref="lem004618.05">bevelch</term>, ihme zu <term ref="lem016814">vermelden</term> oder zu erfahren,
+						<lb/>ob er der wortten noch geständig sein wölle. Welcher
+							<lb/>ihren widerbringen lassen, <term ref="lem008937.03">etwan</term> er etwas der<lb break="no"/>gleichen geredt habe, solches in dem zorn geschehen
+						<lb/>seye.</seg> <seg>Zeigt an, daß gedachter <persName>Byfrare</persName>
+							<lb/><term ref="lem017464">mithin</term> <term ref="lem001069.04">roß</term> verloren; seyend alte, allein schlechte <term ref="lem001069.04">roß</term>
+							<lb/>gewäßen, die zu <term ref="lem001166.06">artzten</term> gekaufft unnd ihm aber
+							<lb/>druff guengen. Weiters hat sie <term ref="lem016814">vermeldt</term>, daß
+							<lb/><date when="1650">anno 1650</date> im <foreign xml:lang="la">jubileo</foreign> mehrgedachter <persName>Byfrare</persName> umb
+							<lb/>die ußgegossene obige scheltwortt umb <term ref="lem004684.10">verzü<lb break="no"/>hung</term> gebetten habe.</seg></p>
+						<p><seg><lb/>Item hat gesagt, daß sie gehört habe, <persName>Christou Pa<lb break="no"/>radys</persName>, den sie zwar nit kenne, <subst><del>nit</del><add place="inline">gnugsamb</add></subst> <term ref="lem009615.05">krutt</term>
+							<lb/>habe, grosse <term ref="lem000054.26">käßen</term> zu machen. Unnd daß er solle
+						<lb/>gesagt haben, er seye verzauberet; <add place="above" type="sign">sie</add> häbe auch wohl
+						<lb/>uhrsach gehabt, solches zu sagen, weilen eine ihrer
+							<lb/><term ref="lem001076.49">khüen</term>, welche den gantzen sommer <measure type="volume" unit="Mass" quantity="3" commodity="milk">3 maß</measure> pro mahl
+							<pb n="317"/><lb/>geben, <term ref="lem006484.07">nachwerts</term> aber nun <measure type="volume" unit="Mass" quantity="1" commodity="milk">ein maß</measure> geben hat,
+							<lb/>biß die <choice><abbr>hh</abbr><expan>herren</expan></choice> vätter <term ref="lem011458.03" >capuciner</term> von ihren umb hilff
+							<lb/>angelangt worden.</seg></p>
+						<p><seg><lb/>Anfangs hat sie verneinet, uff dem berg ge<lb break="no"/>weßen zu sein. Wie sich aber besunnen, hat sie <term ref="lem011468.03">be<lb break="no"/>khent</term>, daß sie verschinnen jahres uff einem sontag
+							<lb/>mit etliche <term ref="lem000643.25">meitlinen</term><note>Es ist unklar, ob hier kleine oder leichte Mädchen gemeint sind.</note> daselbsten geweßt seye, aber
+							<lb/>seye in khein anderen <term ref="lem001604.08">staffell</term> khommen noch eingangen
+						<lb/>alß in den ihrigen. Habe weder <persName>Elsi Paradis</persName>, <persName>Hanßen
+						<lb/>Turlers</persName> frauw, noch einiges weibsbild, vorbehalten
+							<lb/>die <term ref="lem000643.25">meitlinen</term>, uff dem berg gesehen.</seg></p>
+						<p><seg><lb/><persName>Christini Gugler</persName> will ihren gäntzlich unbekandt
+						<lb/>syn. Ein gwüsse <persName>Marie</persName>, so by <persName>Bendicht Babst</persName>
+						<lb/>ein zeit lang gedient, seye ihren gar wohl bekant.
+						<lb/>Wisse aber nit, daß ihren ein töchterlin gestorben,
+							<lb/>noch daß sie dieselbe jemahlen zu <placeName ref="loc007595.02">Plaffeyen</placeName> ge<lb break="no"/>sehen habe. Seye ein einziges mahl daselbsten ge<lb break="no"/>weßen, da sie noch ein kleins <term ref="lem000643.06">meidli</term> geweßen.
+						<lb/>Pittet gott und ein gnädige oberkeit umb gnad.</seg></p>
+						<p><seg><add place="left margin"><lb/>Ist den <date when="1669-05-17">17. huius</date> <lb/>mit abtrag kostens <lb/>und schwörung des <lb/><term ref="lem001262.24">uhrpfeds</term> <term ref="lem007301.03">ledig <lb/>erkhent</term> worden.</add><note>Dieser Abschnitt befindet sich am linken Rand und zu Beginn des Protokolls, S. 315.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-154.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 216–218</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 216–218</idno>
+					</msIdentifier>
+					<head xml:lang="de">Mathia Palliard-Cosandey – Verhör</head>
+					<head xml:lang="fr">Mathia Palliard-Cosandey – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-06-30"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="216"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-06-30">30<hi rend="sup">ten</hi> juni 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per011527a.01">Beath Jacob von Montenach</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.02">Montenach</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009264a.01">Amman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><seg><lb/><persName ref="per020299a.01">Mathia Cossandey</persName> estant sur faict de <term ref="lem018521.02">sorcelerie</term> reduite<del>s</del>
+							<lb/>au prisons, la desus aplicquée à la <term ref="lem018792.01">question</term>
+						<pb n="217"/><lb/>de la simple <term ref="lem018231">corde</term> et par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examinée,
+							<lb/>dit que venant de la boucherie, <del>et</del> ayant esté appellée par
+							<lb/><persName ref="per020304a.04">Agata Corbu</persName> dempuis la galerie de <placeName ref="loc007890.15">Jasquimar</placeName>, elle monta
+							<lb/>en hault, à sa resqueste, pour la vissiter, ou elle la priat
+							<lb/>d’avoier patience pour certains argent qu’elle luy debvoit,
+							<lb/>ne se pouvoier sovenir de luy avoier dit <q>&#160;Tien bon&#160;!&#160;</q>, et
+							<lb/>que si elle l’auroit proferu cest discour<del>s</del>, que c’estoit au
+							<lb/>subject du terraux, puis que son mary luy avoit dit
+							<lb/>en prenant du vin, qu’il avoit trové certains tesmoingz
+							<lb/>pour la verification de son procedé.</seg> <seg>Sçavoier aussi
+							<lb/>jamais aulcunes chossez presen<del>t</del> que prealablement elle
+							<lb/>n’en fust advertie, par quesques aultres, ains n’avoier
+							<lb/>jamais sceu d’aulcun verre rompu <del>ni serré</del>, ou qu’elle
+								<lb/>n’en aye esté par d’aultres advissée.</seg> <seg>Le <term ref="lem018315">chat</term> qui doibt
+							<lb/>avoier dechiqueté son mary au visage, dit que c’estoit
+							<lb/>un jeusne <term ref="lem018315">chat</term>, que son mary et elle remportarant
+							<lb/>du chemin, venant par ensemble de <placeName ref="loc008480.03">Nonnan</placeName>, le quel
+							<lb/>allant dormir en son lict, ou estoit son mary desja
+									<lb/>couché<del>e</del>, elle trova le dit pettit <term ref="lem018315">chat</term>, le quel <subst><del>ject</del><add place="inline"><lb/>elle</add></subst> creu jecter <term ref="lem022085.02">emi</term> le <term ref="lem015742.03">poille</term>, mais c’estant arresté
+							<lb/>au rideau du lict, il tombat sur le visage de son
+							<lb/>mary, <subst><del>qui</del><add place="inline">le</add></subst> deschiquetant au visage tant ci peu,
+							<lb/>asserant que son mary n’en dira pas aultrement.</seg>
+							<seg><lb/>Prie que foy ne soit adjutté à <persName ref="per020318a.01">Jenun de la Vignie</persName>,
+							<lb/>la quelle luy porte rancune au soubject qu’elle
+							<lb/>l’ast menacé d’advertier son beaux pere de ses desporte<lb break="no"/>ment et ivrognieries, et ne veut aulcunement
+							<lb/>avoier en <del rend="underline">aulcune</del> façon que ce soit, <term ref="lem019517.05">ensorcelé</term>
+							<lb/>les enfans de la predite <persName ref="per020318a">La Vigniete</persName>. N’est
+							<lb/>pas <term ref="lem019442.14">desnegante</term> qu’estant enseinte, d’avoier, à l’arrivée
+							<lb/>de son mary ivvre, qui avec son espée nue, menacet
+							<lb/>de luy trancher la teste, l’ayant adverti prendre
+						<pb n="218"/><lb/>garde au fruict qu’elle portoit. Sur la repartie qu’il
+							<lb/>luy fist pour lors qu’il croiat qu’elle estoit plaine
+							<lb/>des <term ref="lem017521.02">diables</term>, dit qu’elle estoit contente qu’il feut
+							<lb/>au <term ref="lem017521">diable</term>, mais citout le repentir la saissit,
+							<lb/>que l’obligat dés le landemin s’aller <term ref="lem019463.01">confesser</term> et
+							<lb/>en faire la penitence <add place="above">enjoincte</add>, ce qu’elle effectua.</seg> <seg>Et pour
+							<lb/>surplus fit encor avec son mary voiage à <placeName ref="loc000085.14"><choice><abbr>nre</abbr><expan>Notre</expan></choice>
+							<lb/>Dame des Hermites</placeName>, au retour du quel voiage, elle
+							<lb/>s’accucha proche de <placeName ref="loc000088.14">Lucerne</placeName>, son enfant <subst><del>feu</del><add place="overwritten">es</add></subst>tant
+								<lb/><add place="left margin">lors</add> <term ref="lem019543.08">baptisé</term> à <placeName ref="loc000088.14">Lucerne</placeName>, dont le <abbr>s<hi rend="sup">r</hi></abbr> <persName>Claudi de <abbr>S<hi rend="sup">t</hi></abbr> Bernard</persName>,
+							<lb/>qui se rencontrat de mesme voiage en <subst><del>feu</del><add place="inline">fust</add></subst> le
+							<lb/>parrin. De tous aultres poinct propossé ne veut
+							<lb/>estre aulcunement coulpable, demandant à Dieu
+								<lb/>et à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> bien humblement pardon, se recoman<lb break="no"/>dant à leur <term ref="lem019504.02">grace</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

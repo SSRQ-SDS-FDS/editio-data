@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-79-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-R1.27, fol.&#160;1r-2v</idno>
+               </msIdentifier>
+               <head> Ordonnance pénale (dite assurance) rendue par Jehanne de Hochberg</head>
+               <msContents>
+                                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.7"/>
+                              <width unit="cm" quantity="42.7"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1542-01-15"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_184">SDS NE 1, N<hi rend="sup">o</hi>&#160;79</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184"></term>   
+               <term ref="key000590"></term>   
+               <term ref="key003389"></term>   
+               <term ref="key000586"></term>   
+               <term ref="key004605"></term>
+               <term ref="key005274"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_R1_27_1r"/>
+               <div>
+                  <p><lb/>Nous Jeanne de Hochberg, duchesse de <lb/>Longueville, marquise de Röthelin,
+                     comtesse de Neufchastel etc., <lb/>a tous ceux qui ces presentes lettres
+                     verront, liront et orront lire, <lb/>salut. Et pour ce que sommes estée
+                     advertie que du temps <lb/>que les seigneurs des douze quantons des ligues des
+                     hautes <lb/>Allemagnes ont tenu nostre dict comté de Neufchastel, ilz avoyent
+                     <lb/>mis et dressé une seurté et assurance en icelluy nostredict comté
+                     <lb/>comme ilz ont en leurs pays, terres et seigneuries affin que les <lb/>gens
+                     paysibles puissent estre preservez des noyseux&#160;; touteffois <lb/>qu’allors
+                     noz biens amez bourgeois de nostredicte ville de Neufchastel <lb/>y mirent
+                     oppositions par ce qu’elle estoit faicte a leur inceu, <lb/>craignantz
+                     l’infraction de leurs libertez et franchises et qu’elle <lb/>estoit aussi trop
+                     grande et excessive tant en chastoys, bannissements, <lb/>esmendes que
+                     punitions corporelles dont jusques a present elle n’avoit <lb/>esté entretenue
+                     ny observée en icelle nostredicte ville au moyen de quoy <lb/>nos voysins
+                     desdictes ligues en sont aulcunement esbahis et scandalisez, <lb/>cognoissant
+                     qu’il s’en succitent journellement plusieurs debatz et grosses
+                     <lb/>partiallitez, tant en nostredicte ville de <placeName ref="loc007785.04"
+                        >Neufchastel</placeName> qu’en nos autres <lb/>villes, terres et seigneuries
+                     de ce dit comté que pourroyent causer <lb/>meurtres, homicides et effusion de
+                     sang, revenant a faute d’icelle <lb/>assurance non dressée a nostre deshonneur
+                     et prejudice de nosdictz <lb/>bourgeois et subjectz de tous estatz. Lesquelles
+                     choses considérées, comme <lb/>dame souveraine d’icelluy nostredict comté, pour
+                     le bien et augmentation <lb/>du bien publicq et a ce que tant plus amyablement
+                     et chrestiennement <lb/>iceux nosdictz bourgeois et subjectz puissent vivre,
+                     avons decretté, <lb/>ordonné et estably cesdictes presentes, decrettons,
+                     ordonnons et <lb/>establissons les articles cy-apprès escriptz.</p>   
+                  <pb n="1v" facs="AEN_AS_R1_27_1v_2r"/>
+                     <p><lb/>1. Premierement que ceux ou celluy qui auront noyses et debatz par
+                        <lb/>ensemble et il leur est presenté, cryé ou commandé l’assurance <lb/>par
+                        nos officiers, justiciers, bourgeois et subjectz ou par autres <lb/>gens
+                        estrangers et a faute d’hommes par les femmes et ils ne <lb/>se veullent
+                        arrester, mais icelle assurance (ainsy cryée), mesprisée, <lb/>transgresser
+                        et non l’observer (par parrolles), iceux ou icelluy nous <lb/>seront
+                        esmendables de trois livres de nostre monnoye courrant en <lb/>nostredict
+                        comté et emprisonné en nos prisons ung jour et une nuict <lb/>en pain et
+                        eau.</p>
+                     <p><lb/>2. Et sy aulcung en general ou particullier rompt icelle assurance <lb/>de
+                        sorte qu’il frappe ou desgaine son glaive sur l’autre, iceux ou <lb/>icelluy
+                        nous seront esmendables de quinze livres de nostredicte monnoye <lb/>et
+                        detenu trois jours et trois nuictz en prison en pain et eau.</p>
+                     <p><lb/>3. Celluy ou ceux qu’apprès icelle assurance mise ou baillée blessera <lb/>ou
+                        fera effusion de sang a ung autre nous sera esmendable de <lb/>cinquante
+                        livres de nostredicte monnoye et en outre privé de tout <lb/>honneur comme
+                        perjure sans jamais estre a croire ny mis en <lb/>office quelconque. Et si
+                        par fortune ledict delinquant et infracteur <lb/>d’assurance n’avoit de quoy
+                        payer lesdictes cinquante livres d’esmende, <lb/>il la doibt gaigner en
+                        prison, tousjours pour ung chascung jour <lb/>et nuict une livre jusques en
+                        fin de payement, en pain et eau, et <lb/>puis apprès estre banny cinquante
+                        années hors cestuy nostredict comté.</p>
+                     <p><lb/>4. Celluy ou ceux qui par serment a eux vié auroyent juré ladicte
+                        <lb/>assurance de faict et de parrolle, et il la rompoit tant seulement <pb
+                           n="2r" facs="AEN_AS_R1_27_1v_2r"/>
+                        <lb/>de parrolles ou qu'il courrut furieusement sus l'autre pour
+                        lequel<lb/>icelle assurance luy seroit esté baillée, ou qu'il desgaynast son
+                        glaive <lb/>sans le blesser ou faire effusion de sang, icelluy sera
+                        amendable <lb/>de trente livres dicte nostre monnoye et detenu trois jours
+                        et trois <lb/>nuictz en prison comme dessus et a jamais estre infamme et
+                        <lb/>perjure sans estre employé en honneur quelconque. </p>
+                     <p><lb/>5. Mais celluy qu’apprès avoir juré ladicte assurance par serment blessera
+                        <lb/>et espendra le sang de l’autre qu’il aura assuré, il doibt <lb/>avoir
+                        le chef couppé avec une espée.</p>
+                     <p><lb/>6. Et sy par fortune icelluy qui auroit juré ladite assurance <lb/>tuoit
+                        l’autre ou qu’il le mit a mort, il doibt estre sans <lb/>misericorde brisé
+                        avec une roue et eslevé sus icelles comme ung <lb/>murtrier.</p>
+                     <p><lb/>7. Et sy aulcung se venoit plaindre ou accuser ung autre a cause de <lb/>ladite
+                        assurance rompue par devant son juge ou en conseil en <lb/>tenant justice
+                        des choses et articles ci-dessus escriptz, il sera tenu <lb/>de veriffier
+                        deuement et suffisamment son plainctif selon droit <lb/>et coustume du pays.
+                        Et sy ainsy il ne le peut faire qu’il <lb/>doibt demeurer au lieu de l’autre
+                        ainsy qu’il aura faict sadicte <lb/>plaincte et tousjours nos droictz y
+                        sauvez.</p>
+                     <p><lb/>8. Et sy secrettement ladite assurance est oit rompue et que cella <lb/>vint a
+                        la nottice de nosdictz officiers ou de nous, combien que <lb/>plainctif n’en
+                        fut faict, iceux nosdictz officiers au nom de nous <lb/>en peuvent faire
+                        enqueste et selon qu’ils pourront veriffier <pb n="2v"
+                           facs="AEN_AS_R1_27_2v_3r"/>
+                        <lb/>et faire apparroistre, punition en sera faicte selon l’exigence du <del
+                           rend="blackened">fait</del>
+                        <lb/>cas comme par rayson il appartiendra.</p>
+                     <p><lb/>9. Pour ce aussy que plusieurs partiallitez se dressent en nostredicte ville
+                        <lb/>et comté, mesmement pour les debatz qui surviennent tant par <lb/>les
+                        parentz affins que leurs amys et bienveuillantz de sorte qu’ils <lb/>se
+                        bendent les ungs contre les autres par trouppeaux que pourroit <lb/>causer
+                        murtres et grande effusion de sang, avons decretté que <lb/>tous ceux qui se
+                        monstreront parties a ung debat, fors que ceux <lb/>qui aurront faict ledict
+                        debat doibvent estre pour <measure>soixante sols
+                        </measure><lb/>d’amende&#160;; et s’ils veullent plus outre proceder, ils
+                        seront toujours <lb/>esmendables, comme contenu est aux articles ainsy qu’il
+                        est cy <lb/>dessus escript a cause de ladicte assurance. </p>
+                     <p><lb/>10. Nous avons aussy decretté et ordonné que nully ne doibt porter <lb/>allant
+                        en justice ou a l’eglyse ny aux villes, foires ny marchez, <lb/>arquebouzes,
+                        hasches ny semblables glaives comme viouges et corbetz <lb/>sy tant n’est
+                        qu’ils veullent aller aux champs, chasser ou tirer <lb/>au prix de ladicte
+                        arquebouze et lesdictes hasches et corbetz <lb/>pour faire leurs labeurs
+                        domesticques, et ce pour obvier a <lb/>plusieurs maux qu’en peuvent
+                        survenir. </p>
+                  <p><lb/>Laquelle assurance voulions et commandons tous les ans une fois <lb/>estre leue
+                     publicquement en toutes nos paroisses, justices et <lb/>mandementz, affin que
+                     nully ne se puisse excuser d’inadvertissement. <lb/>Faict, passé et conclud au
+                     poille du conseil de la ville dudict <lb/><origPlace ref="loc007785.04"
+                        >Neufchastel</origPlace>, le dimanche <origDate when="1542-01-15">quinziesme jeur du mois de
+                        janvier <lb/>l’an mille cinq centz quarante deux</origDate>.</p>
+                  <pb   n="3r" facs="AEN_AS_R1_27_2v_3r"/>
+                  <pb   n="3v" facs="AEN_AS_R1_27_3v"/>
+                       </div>
+            </body>
+            <back><div>
+               <p>Références originales de l'édition Favarger&#160;1982&#160;:</p>    
+               <p>Copie du XVII<hi rend="sup">e</hi> siècle sur papier, AEN, R N<hi rend="sup">o</hi>&#160;27.</p>
+            <p>Éd. Matile, <hi rend="italic">Plaits</hi>, p.&#160;322-325.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

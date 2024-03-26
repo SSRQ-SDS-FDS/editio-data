@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:lang="fr">
+  <teiHeader>
+   <fileDesc>
+     <titleStmt>
+       <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+       <editor>
+         <persName>Dominique Favarger</persName>
+       </editor><editor><persName>Maurice de Tribolet</persName>
+       </editor>
+       <respStmt>
+         <persName>Dominique Favarger</persName>
+         <resp key="transcript"/>
+       </respStmt>
+       <respStmt>
+         <persName>Maurice de Tribolet</persName>
+         <resp key="transcript"/>
+       </respStmt>
+       <respStmt>
+         <persName>Arnaud Besson</persName>
+         <resp key="qualitycheck"/>
+       </respStmt>
+       <respStmt>
+         <persName>Adrien Wyssbrod</persName>
+         <resp key="tagging"/>
+       </respStmt>
+     </titleStmt>
+     <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+      <date type="electronic" when="2022"/>  <date type="print" when="1982"/>
+      <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+  </publicationStmt>
+     <seriesStmt xml:id="ssrq-sds-fds">
+      <title>Les sources du droit suisse</title>
+      <respStmt>
+        <orgName>Fondation des
+   sources du droit de la Société suisse des juristes</orgName>
+        <resp/>
+      </respStmt>
+       <idno>SDS-NE-1-157-1</idno>
+     </seriesStmt>
+     <sourceDesc>
+      <msDesc>
+          <msIdentifier>
+            <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+            <idno xml:lang="fr">AEN 1CE-113, p.&#160;107–116</idno>
+          </msIdentifier>
+          <head>Édit du roi de Prusse concernant entre autres les recettes, les officiers, les
+            compétences du Conseil d'État, la chasse, la nécessité d'un code de lois civiles et la
+            désignation des justiciers (connu sous le nom d'articles de pacification)</head>
+          <msContents>
+            <summary></summary>
+            <msItem>
+              <textLang xml:lang="fr"/>
+              <filiation type="original">Manuel du Conseil d'État</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material>Papier</material>
+                </support>
+                <extent>
+                  <dimensions type="leaves">
+                    <height unit="cm" quantity="36.5"/>
+                    <width unit="cm" quantity="56.5"/>
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate when="1769-02-20"/>
+              <origPlace ref="loc007786">Neuchâtel</origPlace>
+            </origin>
+          </history>
+          <additional>
+            <listBibl>
+              <head>Édition</head>
+              <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_365"
+                    >SDS&#160;NE&#160;1, N<hi rend="sup">o</hi>&#160;157</ref></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+     </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+     <editorialDecl>
+      <p>
+        <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+      </p>
+     </editorialDecl>
+   </encodingDesc>
+   <profileDesc>
+     <textClass default="false">
+      <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+        <term ref="key005189"></term>
+        <term ref="key000351"></term>
+        <term ref="key000157"></term>
+        <term ref="key000065"></term>
+      </keywords>
+     </textClass>
+   </profileDesc>
+  </teiHeader>
+  <text>
+   <group>
+     <text>
+      <body>
+        <pb n="107" facs="AEN_1CE_113_106_107"/>
+              <div>
+                <p><gap reason="missing"/></p>
+                <head><lb/>Article&#160;1<hi rend="sup">o</hi></head> 
+                <p><lb/>Pour guerrir et bannir à jamais les craintes et inquié<lb break="no"/>tudes mal fondées
+              que les peuples avoient prises des <lb/>derniers baux des recettes, comme si sous le
+              nom de fermes <lb/>que mal à propos leur a été donné, ils dévoient dégénérer <lb/>en
+              nouvelles exactions ou en redevances plus fortes <lb/>que celles portées dans les
+                <term ref="lem025142.02">quernets</term>, <term ref="lem016005.03">avoeux</term>,
+                reconnois<lb break="no"/>sances et anciens usages, pour édifier le peuple là
+              <lb/>dessus et pour instruire au vrai ceux qui n’ont pas su <lb/>ou voulu comprendre
+              de quoi il s’agissait, moi <persName ref="per035369">gouver<lb break="no"/>neur et
+                lieutenant général en cette souveraineté</persName>
+              <lb/>déclare de la part du <persName>Roi</persName>, que les bourgeois de Neuf<lb
+                break="no"/>châtel, les bourgeois de Valangin et tous autres qui <lb/>ont des abris
+              ou abonnemens particuliers seront toujours <lb/>scrupuleusement maintenus et conservés
+              au benefice <lb/>de ces abris et abonnemens comme d’ancienneté à <lb/>forme de leurs
+              concessions&#160;; qu’à teneur de la franchise <lb/>il ne sera jamais établi d’impôts
+              sous quel titre que <lb/>ce soit sur les sujets de cet État et que jamais ferme
+                  <lb/>générale n’aura lieu dans ce pais, Sa Majesté
+<pb n="108"
+                facs="AEN_1CE_113_108_109" type="original"/><lb/>voulant, entendant pour Elle et ses
+              successeurs à perpétuité <lb/>que ses sujets jouissent de tous les avantages que leurs
+              <lb/>constitutions, libertés et franchises leur asseurent et <lb/>qu’il n’y soit
+              jamais donné d’atteinte&#160;; cependant comme <lb/>Sa Majesté ne peut ni ne doit se
+              laisser préscrire des loix <lb/>ou des formalités sur la façon de percevoir ses
+              revenus <lb/>lorsqu’elle n’est point à charge aux peuples et que les <lb/>recettes
+              mises sous des baux particuliers, n’ont d’autre <lb/>objet que de faire paier les
+              redevances annuelles sur le <lb/>même pied qu’il s’est pratiqué ci-devant, Elle
+              confirme <lb/>ces baux, mais Elle ordonne en même tems au conseil <lb/>d’État de
+              proceder dans la suitte et chaque année à la <lb/>vente des vins et à l’abris des
+              grains en la forme et <lb/>maniere usitée du tems de la regie pure et simple aux
+              <lb/>fins de produire le même effet, et de maniere que les <lb/>receveurs qui doivent
+              être regnicoles et sujets du pais <lb/>et les peuples n’aient pas lieu de se plaindre.
+              Elle deffend <lb/>de plus aux membres qui composent son conseil d’État <lb/>de prendre
+              ni pour le présent ni pour l’avenir quelle <lb/>part que ce puisse être aux recettes,
+              soit par association <lb/>ou autrement, et pour prévenir tous abus, Sa Majesté
+              <lb/>ordonne une fois pour toûjours que le gouvernement <lb/>tienne la main à ce que
+              les receveurs ne fassent des <lb/>vexations à qui que ce soit, et tout particulier qui
+              <lb/>croira avoir des plaintes fondées contre un receveur <lb/>pourra s’adresser soit
+              au gouvernement, ou aux tribu<lb break="no"/>naux, et justice lui sera rendüe. Et
+              c’est après cette <lb/>déclaration que les brevets des receveurs seront
+              <lb/>enterrinés et que le reglement des recettes sera <lb/>publié et distribué, dans
+                  lequel on ajoutera l’article <pb n="109" facs="AEN_1CE_113_108_109" type="original"/><lb/>de la graine à fournir aux pauvres nécéssiteux pour <lb/>ensemencer leurs terres,
+              l’article des dixmes en orgée <lb/>qui proviennent de la dixme à la pose et l’article
+              des <lb/>censes foncières non apréciées, comme on le vera spéci<lb break="no"/>fié
+              dans le réglement, afin que chacun puisse s’en <lb/>prévaloir et que tout soit mis en
+              règle a cet égard.</p>
+                <head><lb/>Article&#160;2</head> 
+                <p><lb/>L’article V des Généraux<note>Note Favarger&#160;1982&#160;: Voir acte N<hi rend="sup">o</hi>&#160;143, p.&#160;333. Articles généraux de 1707-1709.</note> a pour toujours aboli les desti<lb break="no"/>tutions immédiates et arbitraires, et les a soumises de 
+           <lb/>droit à une certaine judicature. En voici quelque détail&#160;:</p> 
+                <p><lb/>Lorsqu’un officier de justice ou de l’État, ainsi que les
+            <lb/>notaires sont accusés de ne s’être pas bien comportés ou
+            <lb/>d’avoir usé de malversation, ils ne pouront être suspendus
+            <lb/>que dès le moment où on commencera à instruire la
+            <lb/>procédure contr’eux. La première connaissance de cette
+            <lb/>affaire apartient au conseil d’État, non seulement parce
+            <lb/>que tous les officiers de l’État lui sont subordonnés en
+            <lb/>l’exercice de leurs offices, mais aussi et principalement
+            <lb/>pour raison de sa position, de ses fonctions et de son auto<lb break="no"/>rité. En sorte que si ledit conseil vient à determiner
+            <lb/>après un mur examen, et l’accusé entendu en ses raisons,
+            <lb/>que cet officier s’est en effet mal comporté, il en doit donner
+            <lb/>la déclaration au Prince, à qui seul il apartient en
+            <lb/>ce cas de prononcer une déstitution. Mais si contre 
+            <lb/>toute attente, un officier de justice et de l’État commet
+            <lb/>un crime public ou pèche personnellement contre le 
+            <lb/>Prince, le conseil ne trouvant pas alors le cas suffisam<lb break="no"/>ment puni par une simple destitution, le déférera au 
+            <lb/>juge criminel en la maniere qu’il sera dit cy-après. 
+ <pb n="110" facs="AEN_1CE_113_110_111" type="original"/> 
+            <lb/>Et quant à la forme de proceder en conseil d’État à la
+            <lb/>recherche des fautes dans lesquelles seroient accusés d’être
+            <lb/>tombés un conseiller d’État, un chef de justice, un officier
+            <lb/>de l’État et tous autres chargés d’emplois par le Prince, 
+            <lb/>au bénéfice de l’article V des Généraux&#160;; voicy ce qui est
+            <lb/>déterminé&#160;:</p> 
+                <p><lb/>Le seigneur gouverneur auquel parviendra la connois<lb break="no"/>sance d’un cas tel que dessus en fera la dénonciation
+            <lb/>au conseil d’État pour qu’il informe du fait, qu’il apelle 
+            <lb/>l’accusé, qu’il lui dise ses charges, qu’il l’écoute en sa justifi<lb break="no"/>cation (et le conseil d’État instruira la procédure de la
+              <lb/>même manière que devant les tribunaux ordinaires) et
+              <lb/>qu’il juge ensuitte s’il est en faute ou non pour le remettre
+              <lb/>à la justice criminelle s’il a commis un crime, ou bien le 
+              <lb/>remettre au bon vouloir du prince relativement à une 
+              <lb/>déstitution s’il est coupable de faute dans son office.</p> 
+         <p>
+           <lb/>S’il s’agit d’un conseiller d’État, ses collègues non parens au
+           <lb/>degré indiqué par la loy en prendront seuls connoissance&#160;;
+           <lb/>mais il faut qu’ils soient au nombre de douze. Et cas avenant
+           <lb/>qu’il ne se trouvât pas douze conseillers d’état non parens,
+           <lb/>ce nombre sera complété par un renfort d’officiers de justice
+           <lb/>en observant scrupuleusement la matricule.</p>
+         <p>
+           <lb/>Et même si quelque officier non conseiller d’État étoit
+           <lb/>ainsi dénoncé, et qu’il n’y eut pas dans le conseil d’État
+           <lb/>assés de membres non parens pour former le nombre 
+           <lb/>de douze, ce nombre sera toûjours complété comme dessus, 
+           <lb/>et lors que l’accusé le requerra son procès sera fait à 
+           <pb n="111" facs="AEN_1CE_113_110_111" type="original"/> 
+          <lb/>huis ouverts avec le bénéfice de l’expedition de la 
+           <lb/>procedure sans d’autres fraix que ceux de <choice><abbr>lad</abbr><expan>ladite</expan></choice> expedition.</p> 
+         <p>
+           <lb/>Quant aux officiers de milices, l’examen de leur cas 
+           <lb/>apartient au conseil d’État, les parens toûjours exclus.
+           <lb/>Mais ledit conseil dans cet objet s’adjoindra, s’il s’agit
+           <lb/>d’un lieutenant colonel, deux lieutenants colonels, 
+           <lb/>deux majors et les trois plus anciens capitaines pris
+           <lb/>dans les trois departements dont n’est pas l’officier de
+           <lb/>la conduite duquel il s’agit. Si c’est un major, le conseil
+           <lb/>s’adjoindra un lieutenant colonel, deux majors et trois 
+           <lb/>capitaines. S’il s’agit d’un capitaine ou d’un capitaine-
+           <lb/>lieutenant, lieutenant ou enseigne, le conseil s’adjoindra
+           <lb/>un major et trois capitaines, toûjours des trois depar<lb break="no"/>tements dont l’officier accusé n’est pas.</p> 
+         <p>
+           <lb/>On met dans la classe des officiers de l’Etat, le procureur
+           <lb/>general, le commissaire general, le procureur de Valangin, 
+           <lb/>le chancelier, le trésorier general et le secretaire d’État.</p>
+         <p>
+           <lb/>Pour ce qui est des offices d’avocat général, interprête
+           <lb/>du Roi, intendant des bâtimens, médecin, on en
+           <lb/>fait une distinction, et on observe qu’en cas d’incapacité
+           <lb/>dans leurs charges et reconnus tels, le Souverain sans
+           <lb/>autre forme poura leur ôter cet office, pour le conférer à
+           <lb/>une autre personne qui aura pour l’exercer les qualités
+           <lb/>essentiellement requises. Et ces charges seront toûjours
+           <lb/>exercées par préférence par des régnicoles nés sujets de l’État.</p> 
+         <p>
+           <lb/>Au reste, Sa Majesté, s’étant aperçüe que lorsqu’Elle,
+           <pb n="112" facs="AEN_1CE_112_113" type="original"/> 
+           <lb/>soit ses illustres prédécesseurs, ont donné des pensions 
+           <lb/>ou accordé des bienfaits particuliers à des personnes de 
+           <lb/>mérite, d’autres qui succédoient à leurs charges les y
+           <lb/>prétendoient attachées ou regardoient ces pensions 
+           <lb/>comme des obligations par lui contractées&#160;: Déclaré 
+           <lb/>que ces bienfaits ou pensions sont de purs effets de sa
+           <lb/>bénéficence, et qu’il se réserve à toûjours de les distribuer
+           <lb/>et faire durer à sa volonté.</p>
+                <head><lb/>Article&#160;3</head>
+         <p>
+           <lb/>Lorsque les chefs des quatre bourgeoisies auront éstimé
+           <lb/>nécessaire de convoquer les corps et communautés de l’État
+           <lb/>à une conférence générale, pour des objets relatifs à leur
+           <lb/>association, savoir le maintien de la juste domination
+           <lb/>actuelle dans l’auguste maison de Brandebourg, de même
+           <lb/>que la conservation des constitutions de l’État, droits, 
+           <lb/>franchises et libertés des peuples, ils pouront le faire
+           <lb/>en s’adressant au gouvernement selon la forme ordinaire
+           <lb/>pour lui indiquer le sujet de cette conférence et les matières
+           <lb/>qu’on doit y traitter. Et le gouvernement nommera quatre
+           <lb/>membres du conseil d’État pour se rendre de sa part à cette
+           <lb/>assemblée et y assister pendant sa tenüe sans y voter. 
+           <lb/>Lesquels membres du conseil d’État ne pouront arrêter
+           <lb/>que les délibérations qui auront pour objet des matières
+           <lb/>non indiquées, et veilleront à ce qu’il ne s’y passe rien de
+           <lb/>contraire au respect et à la fidelité qui sont dûs au souverain.</p> 
+                <head><lb/>Article&#160;4</head>
+                <p><lb/>La chasse sera mise en règle et les abus qui s’y cometoient
+           <lb/>corrigés. Et pour ce qui est des sujets naturels de cet État 
+           <pb n="113" facs="AEN_1CE_112_113" type="original"/> 
+           <lb/>qui n’avoient pas le droit de chasser, Sa Majesté
+           <lb/>veut bien aujourd’hui leur en accorder la gracieuse
+           <lb/>permission et les mettre par là en même faveur et liberté
+           <lb/>que les membres des bourgeoisies et communautés 
+           <lb/>qui ont des concessions ; toutesfois sous toutes conditions
+           <lb/>et clauses pénales insérées dans le mandement qui sera
+           <lb/>publié&#160;; en réservant les droits et privilèges que peuvent
+           <lb/>avoir aquis tant les bourgeois de Valangin que d’autres 
+           <lb/>corps et communautés de l’État.</p> 
+         <p>
+           <lb/>Ce mandement, aussi bien que tous ceux que Son 
+           <lb/>Excellence a jugé à propos de dresser pour le maintien
+           <lb/>de l’ordre et de la bonne police, seront communiqués
+           <lb/>suivant l’ancien usage aux sieurs Quatre Ministraux, 
+           <lb/>en leur en donnant copie, et on en fera part à la chance<lb break="no"/>lerie aux sieurs maitre bourgeois de Valangin et l’on
+           <lb/>aura soin d’y insérer les observations dont on est convenû.</p> 
+                <head><lb/>Article&#160;5</head>
+                <p><lb/>Sa Majesté et ses ministres ont été souvent attediés
+           <lb/>des communautés pour des affaires simples, particulières 
+           <lb/>et pour des bagatelles, même avant que les communautés
+           <lb/>aient porté leurs plaintes au gouvernement. C’est pour
+           <lb/>de pareilles minuties que Sa Majesté ne veut pas être 
+           <lb/>attediées et que les communautés et particuliers doivent
+           <lb/>présenter leur placet ou requette au gouvernement, et si
+           <lb/>le gouvernement ne leur rend pas justice, c’est alors que 
+           <lb/>non seulement aux communautés mais a chaque 
+           <lb/>particulier, Sa Majesté ne refuse ni ne refusera 
+           <lb/>jamais qu’on porte ses plaintes devant Elle.</p> 
+           <pb n="114" facs="AEN_1CE_114_115" type="original"/> 
+                <head><lb/>Article&#160;6</head> 
+                <p><lb/>Quant aux règles concernant les saisies, elles seront 
+           <lb/>prises en considération dans le code civil privé, sans 
+           <lb/>qu’il soit donné atteinte à la constitution.</p>
+                <head><lb/>Article&#160;7</head> 
+                <p><lb/>En cas d’emeute populaire<note>Note Favarger&#160;1982&#160;: C’est une allusion très claire aux émeutes des 24 et 25 avril 1768, qui coûtèrent la vie à l’avocat général Gaudot. On consultera à ce sujet Borel, La ferme des impôts du pays de Neuchâtel, et spécialement les pages&#160;113-150.</note>, de sedition ouverte ou autres
+           <lb/>pareilles qui pouroient s’élever dans la ville de Neufchâtel,
+           <lb/>et qui ne peuvent être dissipées ou arrêtées par les moiens
+           <lb/>que le magistrat met en usage, même autant que son
+           <lb/>pouvoir le luy permet&#160;; c’est alors au gouvernement non
+           <lb/>seulement à le séconder en ses éfforts mais encore à faire 
+           <lb/>venir dans la ville même des milices de l’État pour y rétablir
+           <lb/>l’ordre et la sûreté, contenir et reprimer les mutins&#160;; et si
+           <lb/>quelqu’un d’eux vient à être saisi, il sera tenû sous garde 
+           <lb/>et remis au juge, qui procedera contre luy suivant la loy,
+           <lb/>et ce qui est dit icy de la ville est aplicable aussi à quelque
+           <lb/>quartier de ce pais que ce soit.</p> 
+                <head><lb/>Article&#160;8</head>
+                <p><lb/>Ce pais est le seul de la Suisse et peut être de toute l’Europe <lb/>qui manque d’un
+              corps de loix civiles, et qui vive encore <lb/>sous les règles obscures, incertaines
+              et très imparfaites des <lb/>coutumes non écrittes&#160;: les inconveniens et les
+              deffaut <lb/>d’une pareille législation sont si frappans et en si grand <lb/>nombre,
+              qu’il y a longtems que l’on a pensé dans ce pais à <lb/>y remedier. Déjà en <date from="1532-01-01" to="1532-12-31">1532</date>, l’on
+              sentoit la nécessité de rédiger <lb/>ces coûtumes par écrit, et d’en former un corps
+              de loix civiles. <lb/>L’on trouve une ordonnance à ce sujet dans les régistres
+              <lb/>des audiences de cette année là<note>Note Favarger&#160;1982&#160;: Matile,
+                Plaits, p. 1-2.</note>. Ce projet n’aiant pas été <lb/>éxécuté, l’on voit dans les
+                  mêmes registres aux années <lb/><date from="1547-01-01" to="1547-12-31">1547</date>, <date from="1566-01-01" to="1566-12-31">1566</date>, <date from="1570-01-01" to="1570-12-31">1570</date> et par le recueil fait d’ordre du
+                    prince en <date from="1618-01-01" to="1618-12-31">1618</date> <pb n="115" facs="AEN_1CE_114_115" type="original"/>
+              <lb/>que les corps de l’État et le souverain n’ont jamais <lb/>perdu de vüe cet
+              ouvrage important et necessaire. Enfin <lb/>en&#160;1707, les peuples auxquels cet
+              objet tenoit au coeur, <lb/>jugerent nécéssaire de le faire entrer dans les articles
+              <lb/>generaux et voicy comment cet article fut couché dans <lb/>le §.&#160;2. du IV.
+              desdits articles&#160;: «&#160;Que le souverain fasse <lb/>en sorte que la coutume du
+              païs puisse être incéssamment <lb/>revüe, éclaircie, corrigée, augmentée même ou il
+              sera besoin, <lb/>afin qu’on puisse la rédiger par écrit en un corps clair,
+              <lb/>abrégé et facile, sauf et réservé toutefois les franchises <lb/>et libertés de
+                  tous les corps de l’État<choice><sic></sic><corr resp="AW">&#160;»</corr></choice><note>Note Favarger&#160;1982&#160;: Voir acte N<hi
+                  rend="sup">o</hi>&#160;143,
+              p.&#160;333</note>.
+              C’est aussi pour répondre <lb/>aux voeux de ses peuples sur cet article intéressant et
+              <lb/>consommer enfin un ouvrage si salutaire et même <lb/>indispensable que
+              Sa&#160;Majesté invite les corps de l’État <lb/>qui y ont vocation particulière à
+              nommer des personnes <lb/>de confiance, recommandables par leur sagesse et leurs
+              <lb/>lumières et munies de pouvoirs necessaires pour conférer <lb/>avec Monsieur
+              Clavel de&#160;Brenle que Sa&#160;Majesté a chargé <lb/>de ses ordres à cet égard et
+              convenir tant sur l’objet que <lb/>sur les moiens les plus convenables d’amener cet
+              ouvrage <lb/>à une heureuse conclusion.</p>
+                <head><lb/>Article&#160;9</head> 
+                <p>
+                  <lb/>Les communautés pouront dans la suite s’assembler
+           <lb/>et délibérer de la même maniere qu’elles ont accoutumé
+                 <lb/>de le faire d’ancienneté. Bien entendu que si elles s’assem<lb break="no"/>blent pour des affaires d’importance concernant les droits
+                 <lb/>et autorités du prince, ou bien leurs droits et franchises, c’est 
+                 <lb/>alors que les officiers de justice doivent assister aux assem<lb break="no"/>blées ou de nommer un justicier pour les représenter.</p>
+                <pb n="116" facs="AEN_1CE_116_117" type="original"/> 
+                <head><lb/>Article&#160;10</head>
+                <p><lb/>Lors qu’il sera question des remplacements d’un justicier, <lb/>le chef de la
+              jurisdiction presentera au gouvernement <lb/>les sujets que selon la pratique, la
+              justice du lieu aura élû <lb/>pour ledit remplacement. Et pour ce qui est des autres
+              <lb/>charges de justice, qui sont celles de lieutenant, greffier et <lb/>sautier, sont
+              à la nommination du gouverneur ou du <lb/>gouvernement, c’est aux châtelains et maires
+              ou aux <lb/>autres officiers de judicature en leur absence de <choice>
+                <sic>donneur</sic>
+                <corr resp="DF">donner</corr>
+              </choice>
+              <lb/>leur rapport la-dessus et de présenter les sujets qu’ils éstimer<lb break="no"
+              />ont les plus capables.</p> 
+                <p><lb/>Tous les articles ci-dessus aiant été proposés par Son <lb/>Excellence
+              Monseigneur le général, baron de Lentulus <lb/>aux corps et communautés de la
+              principauté de <lb/>Neufchâtel et Valangin, ils ont tous été acceptés avec
+              <lb/>reconnoissance par lesdits corps et communautés, et il <lb/>a été convenu qu’il
+              en seroit dressé cinq doubles dont l’un <lb/>signé par les députés desdits corps et
+              communautés <lb/>conformément à leurs pleins pouvoirs, sera remis à Son
+              <lb/>Excellence sous la réserve de l’aprobation et ratification <lb/>de Sa Majesté le
+                  roy de Prusse ainsy que prince souverain <lb/>de Neufchâtel et Valangin. À <placeName>Neufchâtel</placeName>,
+                  ce <origDate when="1768-11-19">19&#160;novembre&#160;1768</origDate>. <lb/>Au nom des corps et
+              communautés. </p>
+        </div>
+      </body>
+      <back><div><p> </p>
+        <p>Note de l'édition papier Favarger&#160;1982&#160;: La date du 20&#160;février&#160;1769
+              est celle de l'enregistrement par le Conseil d'État.</p>
+        <p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+        <p>AEN, Manuel du Conseil d'État, CXIII, p.&#160;107-116.</p>
+        <p>Éd.&#160;<hi rend="italic">Recueil de pièces officielles</hi>, I, p.&#160;111-123.</p>
+      </div></back>
+     </text>
+   </group>
+  </text>
+</TEI>

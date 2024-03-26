@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:lang="fr">
+  <teiHeader>
+   <fileDesc>
+     <titleStmt>
+      <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+       <editor>
+         <persName>Dominique Favarger</persName>
+       </editor><editor>
+         <persName>Maurice de Tribolet</persName>
+       </editor>
+       <respStmt>
+         <persName>Dominique Favarger</persName>
+         <resp key="transcript"/>
+       </respStmt>
+       <respStmt>
+         <persName>Maurice de Tribolet</persName>
+         <resp key="transcript"/>
+       </respStmt>
+       <respStmt>
+         <persName>Arnaud Besson</persName>
+         <resp key="qualitycheck"/>
+       </respStmt>
+       <respStmt>
+         <persName>Adrien Wyssbrod</persName>
+         <resp key="tagging"/>
+       </respStmt>
+     </titleStmt>
+     <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+      <date type="electronic" when="2022"/>  <date type="print" when="1982"/>
+      <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+  </publicationStmt>
+     <seriesStmt xml:id="ssrq-sds-fds">
+      <title>Les sources du droit suisse</title>
+      <respStmt>
+        <orgName>Fondation des
+   sources du droit de la Société suisse des juristes</orgName>
+        <resp/>
+      </respStmt>
+      <idno>SDS-NE-1-11-1</idno>
+     </seriesStmt>
+     <sourceDesc>
+      <msDesc>
+        <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+          <idno xml:lang="fr">AEN AS-W5.15</idno> 
+        </msIdentifier>
+        <head>Concessions octroyées par Jean d'Aarberg à divers bourgeois de Valangin et confirmation
+         des anciennes franchises du bourg.</head>
+        <msContents>
+         <summary></summary>
+         <msItem>
+           <textLang xml:lang="fr"/>
+           <filiation type="original">
+           <origDate when="1362-12-26"/>
+           </filiation>
+           <filiation type="current">Copie</filiation>
+         </msItem>
+        </msContents>
+        <physDesc>
+         <objectDesc>
+           <supportDesc>
+            <support>
+              <material>Papier</material>
+            </support>
+            <extent>
+              <dimensions type="leaves">
+               <height unit="cm" quantity="30.4"/>
+               <width unit="cm" quantity="44.5"/>
+              </dimensions>
+            </extent>
+           </supportDesc>
+         </objectDesc>
+        </physDesc>
+        <history>
+         <origin> 
+           <origDate from="1401-01-01" to="1500-12-31"/>
+         </origin>
+        </history>
+        <additional>
+         <listBibl>
+           <head>Édition</head>
+           <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_55">SDS NE 1, N<hi rend="sup">o</hi>&#160;11</ref></bibl>
+         </listBibl>
+        </additional>
+      </msDesc>
+     </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+     <editorialDecl>
+      <p>
+        <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+      </p>
+     </editorialDecl>
+   </encodingDesc>
+   <profileDesc>
+     <textClass default="false">
+      <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+        <term ref="key000129"></term>
+        <term ref="key000468"></term>
+        <term ref="key000086"></term>
+        <term ref="key000479"></term>
+        <term ref="key000266"></term>
+        <term ref="key000815"></term>
+        <term ref="key000863"></term>
+      </keywords>
+     </textClass>
+   </profileDesc>
+  </teiHeader>
+  <text>
+   <group>
+     <text>
+      <body>
+        <pb n="1r" facs="AEN_AS_W5_15_1r"/>
+        <div>
+         <p>
+              <seg><lb/>Nous <persName>Johan d’Arberg</persName>, sire de Valengin, chevallier, filz
+              <lb/>cza en arriez <persName>Girar d’Arberg</persName>, sire de Valengin, façons
+              scavoir <lb/>a tous que nous, pour nous et pour nous hoirs et pour nous
+              <lb/>successours, volons de nostre certaine science a nous bourgoys cy <lb/>dedens
+              nommeis faire grace exspiciaul, c’est assavoir <gap reason="missing" quantity="13"
+                unit="line"/>&#160;; <lb/>nous considerent maint et <lb/>agreables services avont
+              largier et de grace expeciale <lb/>avons balliez et ballions, consentons et confermons
+              par la tenour <lb/>de cest presentes, avons outroiez a noz devant dit bourgois,
+              <lb/>pour leur et pour leur hoirs, a toujouir mais comme bien <lb/>desserviz teiles
+              libertés et franchisses, lesquelx, nous ouz <lb/>nous hors ou nous prédécesseurs
+              conjoentement et devisement <lb/>avons balliez az noz devant dit bourgoys habitant ou
+              <lb/>lesquelx appertiront hibiter en nostre dit bourg de Valengin <lb/>et ouquelx les
+              dit bourgois habitant en nostre dit bourg <lb/>usent et useront par quelque maniere
+              que ce puisse <lb/>estre et que les devant dit nostre bourgois ou leurs hoirs ne
+              <lb/>son tenuz par mentenent ne de cy en avant en nostre dit <lb/>bourg de Valangin
+              faire nulle residence ne <lb/>demorance, ce n’est de leur volentez, et se par aventure
+              <lb/>il convenoit ou temps avenir les devant dit nostre bourgoys ou leur <lb/>hors ou
+              l’ung de leur en nostre dit bourg par aucons temps estre <lb/>contraint et residence
+              par ceste maniere, non obstant residence, <lb/>li devant bourgois ou l’ung de leur ou
+              leur hors ou l’ung de leur <lb/>en nostre dit bourg toutefois et quantes fois que leur
+              plairoit <lb/>desfoir de nostre dit bourg en nostre terre quelque part que <lb/>leur
+              plairoit faire mansion et residence, en quelque part <lb/>que feroient et feront leurs
+              mansion en nostre dicte terre, <pb n="1v" facs="AEN_AS_W5_15_1v_2r"/>
+              <lb/>il doivent joir et user des libertés et franchises ainsy <lb/>comme ly aultre
+              bourgoys resident en nostre dit bourg, sans <lb/>aucones contradicion, non obstant
+              sault et excestés es choses <lb/>permises et aucones de icelles condicion cy dedans
+              escripte&#160;:</seg> 
+           <seg n="1"><lb/>Premièrement c’est assavoir que li devant dit nostre bourgoys <lb/>ne
+                leur hors ne l’ung de leur ne pohent ne doivent vendre <lb/>leur maisons que il on
+                en nostre dit bourg de Valengin <lb/>ce n’est de nostre licence et de nostre loz
+                exprest de nous <lb/>ou de nous sucessurs. Et au cas que aucons de leurs <lb/>de nos
+                dit bourgoys ou leurs hors, li ung ou plussors <lb/>vendroient sa meison estant en
+                nostre dit bourg, cil qu’il <lb/>la acheteraz a teille libertez et franchise comme
+                estoit cil <lb/>qui l’avroit venduz devant ce qu’ilz le eust venduz&#160;; et
+                <lb/>cil qui l’avroit venduz demoure et soit de telle condicion, <lb/>estat comment
+                sont mes bourgoys qui ne ont point de <lb/>meison en nostre dit bourg. </seg> 
+              <seg n="2">Item se avenoit que au<lb break="no"/>cons de noz devant dit bourgoys ou
+                leurs hoirs, l’on<lb/>ou plusseurs de leurs ne heust hoirs de son corps maile
+                <lb/>qui le sorvesquist ung ou pleuseurs et il eust fille legitime <lb/>une ou
+                plusseurs qui le sorvesquit, celle dites filles, li <lb/>une ou plusseurs, se
+                polvent marier a quii que leur plaira, <lb/>se les mary de celles filles, l’ung ou
+                plussours, venoient <lb/>sur les héritages de noz devant dit bourgoys, pere des
+                <lb/>dictes filles, l’ung ou plusseurs, et en qui il fisent personaille
+                <lb/>residence ly mary, l’ung ou plusseurs, tant comme il seroit et <lb/>demoreroit
+                sur ledit héritage, il doit user et joir eis <lb/>devant dictes libertés et
+                franchisses, ainsy comme noz <lb/>devant bourgoys eis quelx ceste presente grace est
+                <lb/>donnée et outroié, excepté cil qui seront de noz <lb/>hommes tallibles, le
+                quelx demorent talliables ne <lb/>des devant dites libertés et franchises ne povent
+                <lb/>ne devent user ne joir.</seg> 
+              <seg n="3">Item que li devant dit <lb/>mes bourgoys ou leur hoirs sont tenuz az nous
+                faire <lb/>une foys l’an a tourjour mais, cil qui aura beste a la <lb/>charue, la
+                corvee a amener et charreyer nostre vin <lb/>de la coste de Neufchastel dedens
+                nostre dit chastel <lb/>de Vaulengin.</seg> 
+              <seg n="4">Item quantefois il nous appertiendra <lb/>a nous et a nous hoirs ou a
+                nous successeurs singu<lb break="no"/>lerement ou conjuentement a faire per toute
+                nostre terre <lb/>ouz Vault de Ruit aucons subside ou subvencion, ly <lb/>devant dit
+                nostre bourgoys ouz hoirs sont tenuz a nous <pb n="2r" facs="AEN_AS_W5_15_1v_2r"/>
+                <lb/>faire ledit subside, doivent gittier et assigner entre <lb/>leur, saint aultre,
+                a chascon selom sa facultez et ausy <lb/>au grez de aultrez hommes et de nos aultre
+                bourgoys, samt <lb/>fraud et sant barat.</seg> 
+              <seg n="5">Item que toutes fois que nous, noz <lb/>hoirs ou noz successeurs
+                contineura avoir guerre uverte, <lb/>les devant nostre dit bourgoys, necesserement
+                le chief de <lb/>l’osteil ou ung aultre en luef de luy soffisant, sont et
+                <lb/>devent venir demoreir et faire residence en nostre dit <lb/>bourg de Valengin
+                durent nostre dite guerre, sam fraud et <lb/>sam barat, exceptez que nous leurs
+                devons faire <lb/>assavoir et requirit dehuement huit jours devant&#160;; et
+                <lb/>aprest la denunciacion, il doivent et <supplied>sont</supplied> tenuz venir en
+                <lb/>nostre dit bourg et enqui faire residence personnelle par la <lb/>maniere
+                qu’est cy devant.</seg> 
+              <seg n="6">Item toute fois et quante fois <lb/>qu’il appertenra a faire bastir
+                terrault ou aultre edifice <lb/>en nostre dit bourg pour l’emender, ly devant nostre
+                dits borgois <lb/>ou leur hors sont tenuz aidier ainsy comme nostre dit bourgois
+                <lb/>resident en nostre dit bourg.</seg> <seg>Et ces choses devant dites, <lb/>libertés
+                et franchisses a noz devant dit bourgoys, pour leurs <lb/>et pour leurs hoirs sus la
+                condicion devant dite, <del rend="strikethrough">auvons</del><lb/>auvons concessey
+                et outroier et agreez par se presentes lettres <lb/>de grace expicial, ainsy comment
+                devant dit est, c’est assavoir <lb/>pour dix huit livres de blanche monnoye
+                corsaible, primant <lb/>en pain et vin en la ville de Neufchastel, a menu censaul
+                <lb/>chescun am en la feste saint Gault, scellon le bons us et <lb/>custumes dudit
+                Vault et pour cinquante florins de bom <lb/>or et de bom poix, le quelx pour la dite
+                cause, concession, <lb/>libertés et franchisses devant dites de noz dit bourgoys,
+                <lb/>confessons avoir eust entièrement. Promettant pour <lb/>ce nous le devant
+                  <persName>Johan d’Arberg</persName>, pour nous et <lb/>pour nous hoirs et pour noz
+                successeurs, par nostre bonne fois <lb/>donnee leaument az noz devant dit bourgois
+                et leurs hoirs <lb/>le chosse devant dites tenir et garder fermement et que
+                <lb/>ycelles ne nous ferons venir taisiblement ne en appart <lb/>ne consenterons que
+                aultre ne veigniet par quelque maniere que <lb/>se soit.</seg> <seg>En tesmoigniage de laquelle
+                chose, nous <persName>Johan <lb/>d’Arberg</persName> dessudit, sire de Valengin pour
+                estre le chosse <lb/>plus fermes et vraies avons mis nostre seel pendent <lb/>en
+                cest presentes lectres que furent faictes et donnés le <date when="1362-12-26">XXVI
+                  <lb/>jour dou mois de decembre l’an de Nostre Seigneur corant mil ccc<lb
+                    break="no"/>lx deulx.</date>
+              </seg>
+            </p>
+          <pb n="2v" facs="AEN_AS_W5_15_2v"/>
+        </div>
+      </body>
+       <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+         <p>Copie non vidimée sur papier de la fin du XV<hi rend="sup">e</hi> siècle, AEN, W 5, N<hi
+                rend="sup">o</hi>&#160;15.</p>
+         <p>Éd.&#160;Matile, <hi rend="italic">Monuments</hi>, II, N<hi rend="sup">o</hi>&#160;630,
+              p.&#160;846-848.</p>
+         <p>Remarque&#160;: Ces franchises sont concédées à 27 personnes nommément désignées dans
+              l'acte&#160;; en 1351 (AEN, P 8, N<hi rend="sup">o</hi>&#160;6), Jean d'Aarberg <hi
+                rend="italic">fais a toutz jours mais</hi> un de ses taillables et ses hoirs, <hi
+                rend="italic">mes bourgeois de Vaulangin par la maniere et par la condition que mes
+                autres bourgeois dou bourg de Vaulangin</hi>. </p></div></back>
+     </text>
+   </group>
+  </text>
+</TEI>

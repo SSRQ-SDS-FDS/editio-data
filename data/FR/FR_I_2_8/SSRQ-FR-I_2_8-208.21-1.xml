@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-208.21-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 21, fol. 160r–162v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 21, fol. 160r–162v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Repond – Verhör, Anweisung und Information</head>
+					<head xml:lang="fr">Marguerite Repond – Interrogatoire, instruction et information</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1741-12-01" to="1741-12-09"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key003462"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="160r"/> <p><lb/><placeName ref="loc007683.05">Mauvaise Tour</placeName> du <origDate when="1741-12-01">premier de decembre 1741</origDate>.</p>
+						<p><lb/>Monsieur le <term ref="lem014993.11">grand-sauttier</term> <persName ref="per028232a.01">Rämi</persName>
+							<seg><lb/>Mon très honoré <choice><abbr>sgr</abbr><expan>seigneur</expan></choice>  l’ancien thresaurier <persName ref="per028330a.01">Kienli</persName></seg>
+							<seg><lb/>Messieurs <persName ref="per028335a.02">Prothasius Vonderweid</persName>,</seg> <seg>et <persName ref="per028348a.01">Simon
+								<lb/>de Boccard</persName></seg>
+							<seg><lb/>L’officier <persName ref="per028168a.02">Joseph Giroud</persName></seg></p>
+						<p><seg><lb/><persName ref="per028136a">Marguerite Repond</persName> fut d’abord interrogée si
+						<lb/>elle a tenu sa promesse, qu’elle avoit dit qu’elle
+							<lb/>vouloit prier Dieu de lui faire la <term ref="lem019504.02">grace</term> de
+						<lb/>tout avouer et ne plus mentir, car <subst><del>s</del><add place="inline">ces</add></subst>
+						<lb/>mensonges avoient entierement irritté leurs
+						<lb/>souveraines Exellences.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle <term ref="lem015549.13">confesse</term>
+						<lb/>encore d’avoir été chés <persName>Zollet</persName> de <placeName ref="loc008321.06">Crusu</placeName> ei <placeName ref="loc013070.02">Saudi</placeName>
+						<lb/>il y a <date dur-iso="P4Y">quattr’ans</date>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si par dessous
+						<lb/>les <term ref="lem019352.03">azelles</term>, comme elle a avoué, ou par quel endroit
+						<lb/>elle y étoit entrée&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’il falloit passer par
+						<lb/>dessous l’avantoit si on vouloit entrer dans
+						<lb/>une maison, qu’elle avoit passé par le <term ref="lem015326.04">puerzu</term>,
+						<lb/>soit l’entrée, de là avoir été à la cuisine
+							<lb/>s’échauffer près du <term ref="lem019529.01">feu</term>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle n’étoit
+						<lb/>pas malade&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle a demandé de l’<lb break="no"/>eau pour boire&#160;?
+							<choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui, que <subst><del><unclear>c</unclear></del><add place="overwritten">l</add></subst>a servante la lui donnat.</seg>
+						<pb n="160v"/> <seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si ce n’est pas un homme que la lui donnat&#160;?
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> que non, que c’étoit la servante, qu’elle n’<lb break="no"/>avoit poin vu d’homme là, ce qu’elle a reppetté
+						<lb/>par plusieurs fois.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> s’il y avoit pas du
+							<lb/><term ref="lem015011.04">laict</term> sur le <term ref="lem019529.01">feu</term>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> n’en avoir poin vû, ni beû.</seg>
+						<seg><lb/>On lui dit qu’elle étoit une fiefée menteuse et
+						<lb/>on la fit attacher à la <term ref="lem018231">corde</term>, comme aussi le
+						<lb/>demi <term ref="lem018232">quintal</term> au pied, toutte fois sans la faire
+							<lb/><term ref="lem019548.01">élever</term>. Après une forte <term ref="lem019354.02">comination</term>, elle fut int<lb break="no"/>errogée s’il y avoit du <term ref="lem015011.04">laict</term> sur le <term ref="lem019529.01">feu</term>&#160;?
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle a mis quelque chose
+						<lb/>dans le <term ref="lem015011.04">laict</term>&#160;? Elle le nie, qu’elle ne vouloit
+						<lb/>pas mettre quelque chose dans le bien de Dieu,
+						<lb/>qu’elle n’avoit jammais fait mal ni à gens ni
+						<lb/>à bête.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle n’avoit pas vû là <persName>Christe
+						<lb/>de l’ané</persName>&#160;? Elle le nie totalement, et ne le
+						<lb/>conoitre pas.</seg> <seg>Après une longue exhortation
+							<lb/>on fit semblant de l’<term ref="lem019548.05">élever</term>. Allors elle
+						<lb/>dit qu’elle est contrainte de dire la verité, et
+						<lb/>dit qu’il y avoit là <sic>une</sic> homme.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si ce
+						<lb/>n’est pas cette homme qui lui donnat de l’eau&#160;?
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> que c’étoit la servante.</seg> <seg>Après qu’elle fut
+						<lb/>derechef exhortée cominatoirement<note>C’est-à-dire de façon <term ref="lem019351.01">comminatoire</term>.</note>, elle fut in<lb break="no"/>terrogée si elle y avoit mis quelque chose dans
+						<lb/>ce <term ref="lem015011.04">laict</term>&#160;? Après plusieurs negatives, elle dit qu’elle
+						<lb/>y avoit mis du sel.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> pour quoi elle avoit
+						<lb/>peure de le dire, qu’il n’y avoit poin de mal
+						<lb/>de mettre du sel dans du <term ref="lem015011.04">laict</term>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> n’avoir
+						<lb/>poin peure.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> qui le lui avoit comandé
+						<lb/>de mettre ce sel&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’on sale à l’ordinaire
+						<lb/>le <term ref="lem015011.04">laict</term>, et que c’étoit du sel qu’elle a prise
+						<lb/>à la salliere, lorsque la servante étoit à la cuisine.</seg>
+						<pb n="161r"/> <seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle en avoit bu de ce <term ref="lem015011.04">laict</term>, puisque ap<lb break="no"/>paremment elle ne le trouvat pas assés salé&#160;?
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’on lui en avoit pas <term>chemont</term><note>Le sens de ce mot demeure incertain&#160;; un rapprochement
+						avec <term ref="lem019359.02">semoner</term> peut être envisagé.</note> soit offert.</seg>
+						<seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si on ne l’a pas menée à la grange depuis
+							<lb/>le <term ref="lem019529.01">feu</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui, et y avoir resté toutte la nuit,
+						<lb/>jusques au <time period="morning">mattin</time>, et après avoir eû mangé
+						<lb/>la souppe, elle s’en retourna chés elle.</seg> <seg>On lui
+						<lb/>dit qu’on est allé à la grange à <time when="00:00:00">minuit</time> pour
+						<lb/>voire si elle étoit malade, et qu’on ne la trouvat
+						<lb/>plus. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’elle sortoit jammais d’une maison lorsqu’elle
+						<lb/>y entroit, que de jour.</seg> <seg>Puis après qu’on l’<sic>û</sic> fortement
+						<lb/>exhortée à dire la verité, elle avouat d’etre
+						<lb/>sortie de nuit, et etre allée chés eux à <placeName ref="loc008195">Villar<lb break="no"/>volard</placeName>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> avec qui&#160;? Seule, que personne la
+						<lb/>conduit que Dieu, la Sainte Vierge et son bon
+						<lb/>ange.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> s’il n’y avoit pas d’autre anges
+						<lb/>devant, que Dieu étoit jammais sans les anges,
+						<lb/>et qu’elle se couppoit en tout, qu’elle avoit dit
+						<lb/>auparavant etre sortie le lendemain, qu’elle
+						<lb/>avoit nié des affaires qu’elle a avoué, et qu’elle
+						<lb/><subst><del>si elle vouloit</del><add place="above">doit</add></subst> avouer sincerement la verité, <subst><del>elle</del><add place="overwritten">et</add></subst>
+						<lb/>ne devoit plus se servir des menterie&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> que
+						<lb/>des gens l’avoit <subst><del>ad</del><add place="overwritten">a</add></subst>vertie de toujour repondre&#160;:
+						<lb/><q>&#160;Je me tiens à ma premiere declaration.&#160;</q></seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice>
+						<lb/>qui l’en avoit <subst><del>ad</del><add place="overwritten">a</add></subst>vertie&#160;? Elle ce tût à cela.</seg>
+						<seg><lb/>Les exhorations reitterées ne manquerent pas,
+						<lb/>après les quelles on lui demandat ce qu’elle
+						<lb/>avoit mis encore dans ce <term ref="lem015011.04">laict</term>&#160;? Elle avoua
+						<lb/>y avoir encore mis des cendres.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> pour quelle
+						<lb/>raison elle <del>elle</del> les y a mises&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> par raillerie,
+						<lb/>par <term ref="lem019508.03">metschentà</term>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> ce qu’elle entent par ce
+						<lb/>mot de <term ref="lem019508.04">metchentà</term>&#160;? Et si ce n’est pas pour leurs
+						<pb n="161v"/> <lb/>causer du mal&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> que c’étoit des braves gens.</seg>
+						<seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle ne s’est pas en allée de nuit
+						<lb/>de peure&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui.</seg> <seg>On fit derechef semblant
+							<lb/>de donner ordre à l’<term ref="lem019548.05">élever</term>, et on lui dit
+						<lb/>si elle n’a pas mis d’autre chose dans ce
+						<lb/><term ref="lem015011.04">laict</term>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice>&#160;: <q>&#160;Me detacherés vous si je le reconois&#160;?&#160;</q>
+						<lb/>On lui repondit que si elle <subst><del>avouet</del><add place="above">avouoit</add></subst> la verité
+						<lb/>de son propre mouvement, qu’elle c’épargnerat
+						<lb/><subst><del>de</del><add place="inline">tout</add></subst> les <term ref="lem019473.01">tourment</term> qui la menassent.
+						<lb/>Et elle avoua y avoir encor mis de la racine
+						<lb/>pillée, que <persName ref="per028151a.02">Bouquet</persName> de <placeName ref="loc007660">La Roche</placeName> lui donnat&#160;;
+							<lb/>qu’elle prioit qu’on la <term ref="lem019428.01">torture</term> plus, ayant
+						<lb/>tout avoué.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> pour quoi elle y avoit
+						<lb/>mis de cette racine&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’on en metoit
+						<lb/>dans le <term ref="lem015011.04">laict</term>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> et très fortement <term ref="lem019345.02">cominée</term>
+						<lb/>à dire la verité pour quoi elle avoit mis
+						<lb/>le sel, les cendres, la rassine pillée&#160;?
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> pour avoir mal, pour etre malade.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice>
+						<lb/>ce qu’elle vouloit dire par là&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> pour leurs
+						<lb/>faire mal, et cela avec reppettition.</seg>
+						<seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> s’ils son venu malades&#160;? Et si elle
+						<lb/>ne s’est pas evadée pour cela&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui.</seg>
+						<seg><lb/>Enfin devant, pendant et après qu’on fit
+							<lb/>semblant de l’<term ref="lem019548.01">élever</term>, elle a <term ref="lem015549.07">confessé</term> d’<subst><del>e</del><add place="overwritten">a</add></subst><lb break="no"/>voir été à <placeName ref="loc008321.08">Crussu</placeName> chés <persName>Joseph Zollet</persName> du <placeName ref="loc013070.02">Saudi</placeName>,
+						<lb/>y avoir mis le sel, les cendres et la racine pillée
+						<lb/>pour les <term ref="lem019476.02">empoisoner</term>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> pour quelle raison
+						<lb/>elle a fait cela&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> que c’étoit des braves gens.</seg>
+						<pb n="162r"/> <seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle a connu <persName>Joseph Zollet</persName> du <placeName ref="loc013070.02">Saudi</placeName>&#160;?
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> que non.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> ou elle a entendu parler la
+						<lb/>derniere fois de lui&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> ne le sçavoir.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si
+						<lb/>c’étoit du <term ref="lem019477.01">poison</term> ce qu’elle a mis dans le <term ref="lem015011.04">laict</term>&#160;?
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> que non.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> quel effet ces droges fesoient <add place="left margin" type="sign">et si <lb/>cela vitte</add>&#160;?
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> leurs causoient le <term ref="lem019358.01">maclet</term>, comme la mattrisse
+						<lb/>au femme&#160;; et on en meurs pas tous, c’est
+						<lb/>suivant qu’on le prend.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle a fait
+						<lb/>cela allieurs&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> que non, que <persName ref="per028151a.02">Bouquet</persName> lui a
+						<lb/>appris cela, et elle <term ref="lem015549.13">confesse</term> derechef d’avoir
+						<lb/>mis cela dans le <term ref="lem015011.04">laict</term> dans l’intention de
+						<lb/>les <term ref="lem019476.02">empoisoner</term>, et qu’elle s’est sauvée de peur
+						<lb/>à <placeName ref="loc008195.12">Villarvolar</placeName>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle a appris que <persName>Zollet</persName>
+						<lb/>étoit mort&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> combien de tems
+						<lb/>elle est restée à <placeName ref="loc008195.08">Villarvolaz</placeName> du depuis&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> <date dur-iso="P2D">2
+						<lb/>jour</date>, puis s’etre en allée du cotté de <placeName ref="loc007886.05">Vauru</placeName>.</seg>
+						<seg><lb/>Après avoir reiterés ce que dessus, on la renvoyat
+						<lb/>dans son cachot. Passé le <origDate when="1741-12-01"><foreign xml:lang="la">i<hi rend="sup">r</hi></foreign> de <choice><abbr>10bre</abbr><expan>decembre</expan></choice> 1741</origDate>.</seg></p><!--le 10 corrige 9, mais cela ne marche pas, on a un carton rouge-->
+						<p><lb/><persName ref="per028241a.01">Gottrau</persName> <figure type="notarial sign"/> secretaire civil.</p>
+						<p><lb/>Extract
+							<lb/>auß dem raths <term ref="lem003806">manual</term> den <origDate when="1741-12-04">4 <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> 1741</origDate><note>Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-208.22-1">SSRQ FR I/2/8 208.22-1</ref>.</note></p>
+						<p><lb/>Die daselbst ligende <persName ref="per028136a">Marguerite Repond</persName>,
+							<lb/>so in die <term ref="lem016794.13">beckandtnuß</term> getretten, den
+							<lb/>zu <placeName ref="loc008321.07">Crusuz</placeName> <term ref="lem016245">gähling</term> gestorbenen <persName>Zollet</persName> du
+							<lb/><placeName ref="loc013070.02">Saudi</placeName> vor einigen jahren mit letst ein<lb break="no"/>werffung gwissen <term ref="lem011439.04">pulffers</term> in die damahls
+							<pb n="162v"/> <lb/>auff dem feür geweste <term ref="lem002272">milch</term> <term ref="lem016356.03">vergifftet</term>
+							<lb/>zu haben, ist auff künfttigen sambstag
+							<lb/>vor gricht gestelt. <foreign xml:lang="la">Actum ut supra</foreign>.</p>
+						<p><lb/>Cantzley <placeName ref="loc001060.06">Freyburg</placeName>.</p>
+						<p><lb/>Nachdemme man aber ihr den todt an<lb break="no"/>gekündet hatte, fandt man sie den andern
+						<lb/>tag in aller frühe, namblich den <origDate when="1741-12-08">8<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>10bris</abbr><expan>decembris</expan></choice></foreign></origDate>,
+							<lb/>doch nach demme sie mit der heiligen <term ref="lem000644.01">beicht</term>
+						<lb/>besonderist ware versechen worden, todt
+						<lb/>eingeschlaffen. Den selbigen tag hatt man
+							<lb/>sie <term ref="lem019321.01">eröffnet</term>, alwo die <abbr>h</abbr> <choice><sic>stattphici</sic><corr><term ref="lem019391.03">stattphisici</term></corr></choice>
+							<lb/>undt 2 spittal<term ref="lem000094.03">schärer</term> <subst><del>welche</del> <add place="inline">einhällig</add></subst>
+						<lb/>declariert <add place="above">haben</add>, <unclear>diseres</unclear> mentsch seye durch
+						<lb/>keinen gwältthathigen, sonderen durch
+						<lb/>das alter, einwendige kranckheithen undt
+						<lb/>todts forcht verursachten todt hingeschiden.
+						<lb/>Der barmherzige gott wolle seiner
+						<lb/>armen seele erbarmen.</p>
+						<p><lb/><persName ref="per028241a.01">Gottrau</persName> <figure type="notarial sign"/> gerichtschreyber.<note>Le passage ajouté et signé par le greffier
+							a vraisemblablement été réalisé le <date when="1741-12-09">9 décembre 1741</date>, en même temps que l’entrée dans le Manual du Conseil. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-208.23-1">SSRQ FR I/2/8 208.23-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

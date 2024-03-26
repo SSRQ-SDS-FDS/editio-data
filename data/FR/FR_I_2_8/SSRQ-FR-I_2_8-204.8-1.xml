@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 39r–40r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 39r–40r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Verhör</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-01-14"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="39r"/><p><lb/><hi rend="outdent"><origDate when="1683-01-14">14<hi rend="sup">ten</hi> <foreign xml:lang="la">januarii</foreign> 1683</origDate></hi>,
+								<lb/>im <placeName ref="loc008105.02">Käller</placeName> by dem <placeName ref="loc009227.05">Rathauß</placeName><note>Bien quʼil sʼagisse du même greffier, la présentation du titre
+								varie quelque peu avec cet interrogatoire.</note>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026314a.01">Carle von Montenach</persName> <term ref="lem018597.02"><choice><abbr>burgerm<hi rend="sup">r</hi></abbr><expan>burgermeister</expan></choice></term>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per026328a.05">Rudolff Fyva</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per027532a.02">Frantz Peter Amman</persName>, <abbr>h</abbr> <persName ref="per026289a.03">Niclauß Amman</persName></seg>
+							<seg><lb/>Burgern <abbr>h</abbr> <persName ref="per027538a.01">Frantz Peter Gottrauw</persName></seg></p>
+						<p><seg><lb/>Après que lʼ<term ref="lem018790.07">executeur de la haulte justice</term>, par comen<lb break="no"/>demant souverain, en presence de lʼofficier <persName ref="per026562a.02">Lary</persName>, at
+							<lb/><term ref="lem019509.02">visité</term> <persName ref="per027452a">Maria Fridlin</persName> de <placeName ref="loc008073">Matran</placeName> pour recognoistre si elle
+						<lb/>avoit quelques <term ref="lem018894.11">marques diabolique</term> sur son corps, et si
+							<lb/>elle pourroit supporter la <term ref="lem019428.01">torture</term> de la simple <term ref="lem018231">corde</term>,
+						<lb/>et ayant ledit <term ref="lem018790.02">executeur</term> faict la relation que ouy, elle
+							<lb/>estoit <term ref="lem018895.03">marquée</term> desoub le bras droict, sur le <term ref="lem015018.09">dernier</term>,
+						<lb/>et que elle pouvoit bien soustenir ladite torture.</seg>
+						<seg><lb/>Les susnommés magnifiques <choice><abbr>seig<hi rend="sup">rs</hi></abbr><expan>seigneurs</expan></choice> de la justice ayant
+						<lb/>derechef questioné et examiné la devant nomée <persName ref="per027452a">Maria
+						<lb/>Fridlin</persName>, si depuis la derniere examination elle nʼavoit
+						<lb/>reveus les esprits noir quʼelle avoit veuz par cy devant,
+							<lb/>à teneur de ses precedantes <term ref="lem019465.02">confessions</term>, sur quoy elle
+						<lb/>at respondus que elle nʼavoit veuz dʼaultres esprits que ceux
+						<lb/>quʼestoint dans elle, dʼaultant que elle est <term ref="lem018556.07">maleficiée</term>.
+						<lb/>Puis elle at repeté quʼelle avoit veu Nostre Dame, laquelle
+						<lb/>luy at dit que elle se devoit recomander au bon <hi rend="font change">Dieu</hi> et à
+						<lb/>la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge.</seg> <seg>Interrogée si elle nʼavoit depuis la
+						<lb/>derniere examination veu les deux esprits noir,
+						<lb/>elle at respondus quʼouy, quʼyceux lʼinduisoint quʼelle
+							<lb/>se debvoit <term ref="lem019460.01">tuer</term>, et à cette consideration elle seroit
+						<lb/>esté obligée de se defaire des attaches et cordellettes
+						<lb/>quʼelle avoit sur elle, et mesmement de ses croches
+						<lb/>soit potences.</seg> <seg>Interrogée si elle ne lʼavoit veu
+						<lb/>par cy devant, et ou, et en quelle figure, elle at res<lb break="no"/>pondu que elle nʼavoit jamais veuz ledits esprits noir que une
+						<lb/>fois à <placeName ref="loc007902.03">Escuvilliens</placeName>, lors que elle servoit chez
+							<persName>Pierre Be<lb break="no"/>zera</persName> de <placeName ref="loc009100.03">Posu</placeName><note>Lʼidentification du lieu est incertaine.
+								Il pourrait sʼagir de <placeName ref="loc008345">Posat</placeName> ou de <placeName ref="loc009100">Posieux</placeName>.</note>, et allors il luy seroit apparu devant
+							<lb/>jour, lors quʼelle alloit chercher les <term ref="lem018921.05">chevaux</term> et bestail
+						<lb/>de son maistre, lesquelles elle ne sceu trouver, et pour
+						<lb/>ce sujet elle se malmenoit dʼelle mesme. Sur ce ledit
+						<lb/>esprit luy aurroit dit que si elle se donnoit à luy,
+						<lb/>il luy trouveroit ses bestes et luy donneroit tant
+						<lb/>dʼargent quʼelle voudroit, et tout ce quʼelle demande<lb break="no"/>roit.</seg> <seg>Interrogée comme il estoit habillié, elle <add place="bottom" type="catchword">respondit</add>
+						<pb n="39v"/> <lb/><choice><sic>respondit</sic><corr></corr></choice> comme un grand <choice><abbr>seig<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> habillié de noir.</seg> <seg>Interrogée
+						<lb/>combien de temps il y at de cella, elle at respondus quʼil
+						<lb/>avoit bien <date dur-iso="P20Y">vingt ans</date>. De plus elle at <term ref="lem015549.07">confessé</term> quʼaprès
+						<lb/>lesdites promesses, que ledit esprits luy avoit faict, elle luy
+						<lb/>avoit demandé son nom, lequel luy at respondus quʼil estoit
+						<lb/>le <term ref="lem017521">diable</term>, sur quoy elle sʼest signée de la croix et sʼest
+						<lb/>recomandée au bon <hi rend="font change">Dieu</hi>&#160;; par moyen de quoy ledit esprit
+						<lb/>sʼest retiré.</seg> <seg>Interrogée si elle ne lʼavoit <add place="above" type="sign">veu</add> en
+						<lb/>dʼaultres endroicts et lieux, icelle, après avoir faict diffi<lb break="no"/>culté de respondre aux <term ref="lem017003.03">interrogats</term> predits, et serieusement
+						<lb/>exhortée, elle at respondus que elle lʼavoit veu dans
+							<lb/>une <term ref="lem017721.02">charriere</term> vis a vis dʼun prez nommé à <placeName>la Comba</placeName><note>Lʼidentification du lieu est incertaine.
+								Il pourrait sʼagir de <placeName ref="loc013724">La Comba</placeName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-204.23-1">SSRQ FR I/2/8 204.23-1</ref>.</note>,
+						<lb/>lequel prez appartenoit à son maistre.</seg> <seg>Interrogée
+						<lb/>ce que ledit esprit luy avoit dit, elle respondit qu<subst><del><unclear>ʼel</unclear></del><add place="overwritten">e il</add></subst>
+						<lb/>voulloit quʼelle se donnat à luy.</seg> <seg>Interrogée sʼil ne
+						<lb/>lʼavoit <term ref="lem018895.03">marquée</term>, elle respondit fort constament que
+						<lb/>non.</seg> <seg>Interrogée si elle nʼavoit jamais dansé avec
+						<lb/>ledit esprit, faisant icelle difficulté de le <term ref="lem015549.01">confesser</term>,
+						<lb/>sur la fin elle at dit quʼouy, elle avoit dansé à <placeName ref="loc007902.04">Escu<lb break="no"/>villien</placeName> dans un prez quʼappartenoit au <persName>Pages</persName> dʼ<placeName ref="loc009068">Onnens</placeName>.</seg>
+						<seg><lb/>Interrogée comme il estoit habillié (<foreign xml:lang="la"><choice><abbr>Nbene</abbr><expan>Nota bene</expan></choice> hic variavit</foreign>)&#160;:
+						<lb/>elle at dit premierement quʼil estoit habillié de gris,
+						<lb/>puis après elle at dit quʼ<sic>elle</sic> estoit habilliée de noir et
+						<lb/>avoit un bonnet, comme ceux du <placeName ref="loc008597.05">Guggißperg</placeName> soit <placeName ref="loc008146.07">Mont
+						<lb/>Couzin</placeName> portent.</seg> <seg>Interrogée sʼil nʼavoit encore des
+						<lb/>aultres danseurs avec luy, elle at respondus que ouy,
+						<lb/>ils y estoint au nombre de sept, touts habilliés de gris&#160;;
+							<lb/>et il appelloint <term ref="lem019555.05">maistre</term> celluy qui dansoit avec <add place="above" type="sign">elle</add> ladite
+							<lb/><term ref="lem019462.01">confessante</term>, et quʼil avoint un <term ref="lem015047.02">menestrier</term> quʼestoit
+						<lb/>de <placeName ref="loc007928">Treyvaux</placeName>.</seg> <seg>Elle at aussy <term ref="lem015549.07">confessé</term> dʼavoir saulté et
+						<lb/>dansé au cercle soit <term ref="lem015231.03">corraule</term> avec ledit <term ref="lem017521">diable</term> à
+						<lb/><placeName ref="loc007902.03">Escuvilliens</placeName> (<foreign xml:lang="la"><choice><abbr>Nbene</abbr><expan>Nota bene</expan></choice> hic iterum variavit</foreign>)&#160;: premierement
+						<lb/>elle at dit avoir dansé aux cercle au temps des vespres,
+						<lb/>sur la fin elle at dit que sʼestoit entre jours et nuict.</seg>
+						<seg><lb/>Interrogée si ledit esprit ne tenoit de lʼaultre main aussy
+						<lb/>une fillie, elle respondit quʼouy, que sʼestoit une certaine
+						<lb/>nommée <persName>Marguerithe</persName>, mariée à un certain nommé <persName>Jean</persName>,
+						<lb/>lequel at esté granger aux moises, laquelle <persName>Mar<lb break="no"/>guerithe</persName> se tient presentement <placeName ref="loc010271">Au Port</placeName>
+							vers le <placeName ref="loc008036.03">Petit
+						<lb/>Marly</placeName>.</seg> <seg>Serieusement exhortée à dire la verité
+						<lb/>si elle ne sʼestoit donné audit esprit, nʼavoit receus
+						<lb/>dʼargent de luy, et si ne lʼavoit <term ref="lem018895.03">marquée</term>, laquelle
+						<lb/>après avoir faict longtemps difficulté dʼen dire la verité,
+							<lb/>à la fin elle <term ref="lem015549.05">confessat</term> que ouy, elle sʼestoit donnée
+						<lb/>à luy. Touttes fois à cette condition quʼil luy tienne <add place="bottom" type="catchword">sa</add>
+						<pb n="40r"/> <lb/><choice><sic>sa</sic><corr></corr></choice> promesse, asçavoir de luy donner tout ce quʼelle voudroit,
+						<lb/>mais comme il ne luy aurroit tenus la posche, seroit esté
+						<lb/>nulle et seroit par ainsi venue quitte de luy. De plus
+						<lb/>elle at nyé dʼavoir recues quelque chose de luy, ny dʼestre
+						<lb/><term ref="lem018895.03">marquée</term> par luy.</seg> <seg>Item elle at dit que les <term ref="lem015433.02">malings esprits</term>
+							<lb/>quʼestoint dans elle, estoint tant pailliards, <term ref="lem017932.02">larrons</term>,
+						<lb/>gourmands, menteurs et meschants, quʼelle ne sçavoit
+						<lb/>plus que commencer en sa vie, et quʼil la battoint et
+							<lb/>luy faisoint touttes sortes de <term ref="lem019473.02">tourments</term>.</seg> <seg>De plus at
+						<lb/><term ref="lem015549.07">confessé</term> que le <term ref="lem017521">diable</term> lʼavoit induitte à <placeName ref="loc007597.02">Dirlaret</placeName> de
+						<lb/><term ref="lem019543.03">babtiser</term> son enfant, et sur cella elle le fit <term ref="lem019543.03">babtiser</term>.
+						<lb/>Et lʼaultre fois lʼaurroit induite à <placeName ref="loc007860.04">Mensiswyl</placeName> de faire
+						<lb/><term ref="lem019543.03">babtiser</term> son enfant. Et allors il estoit habillié de
+						<lb/>gris.</seg> <seg>De plus elle at dit que lors quʼelle le vit à <placeName>la
+						<lb/>Comba</placeName><note>Lʼidentification du lieu est incertaine. Il pourrait sʼagir de <placeName ref="loc013724">La Comba</placeName>.
+							Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-204.23-1">SSRQ FR I/2/8 204.23-1</ref>.</note>, quʼil avoit des fort meschant vieux <term ref="lem014866.05">soulliers</term>
+						<lb/>touts deschirés, et quʼil estoit habillié de gris, et avoit
+						<lb/>les pieds tout ronds, mais quand elle le vit à <placeName ref="loc007902.03">Escuvil<lb break="no"/>liens</placeName> il avoit des <term ref="lem019273.02">estenaux</term>. De plus elle at dit
+						<lb/>que à la premiere apparition, le <term ref="lem017521">diable</term> desirat dʼelle
+						<lb/>quʼelle devoit <term ref="lem019541.03">renyer</term> <hi rend="font change">Dieu</hi> et ne le devoit plus servir.</seg>
+						<seg><lb/>Item sur les aultres interogations elle at bien <term ref="lem015549.07">confessé</term>
+						<lb/>dʼavoir esté à <placeName>Gorgon</placeName><!-- Name oder Ort? habe nachfolgend alle mit Ort getagt, jedoch keinen solchen Ort gefunden -->, mais a nyé dʼavoir touché la
+						<lb/><term ref="lem017507">vache</term>, ny dʼavoir commendé au <term ref="lem017521">diable</term> de la faire
+						<lb/>mourrir.</seg> <seg>Item elle at recité trois ou quatres bene<lb break="no"/>ditions superstitieuses&#160;: la premiere pour guerir
+							lé fie<lb break="no"/>vres, la seconde pour le <term ref="lem015301.03">decret</term>, la troisiesme pour
+						<lb/>estaindre les ardeurs soit challeurs des playes, et la
+						<lb/>quatriesme pour estancher le flux de sang&#160;; alleguant
+						<lb/>que <persName>Barthelemy Clerc</persName>, son beaupere de <placeName ref="loc008128">Corpataux</placeName>,
+						<lb/>le luy aurroit enseignée, et mesmement elle en
+						<lb/>aurroit faict des preuves avec fort heureux succes.</seg>
+							<seg><lb/>Item elle at <term ref="lem015549.07">confessé</term> dʼavoir <term ref="lem015015.13">desrobé</term> un mantil
+						<lb/>blanc sur lʼautel de lʼéglise de <placeName ref="loc008345">Posat</placeName>.</seg> <seg>Item elle
+							<lb/>at <term ref="lem015549.07">confessé</term> dʼavoir <term ref="lem015015.13">desrobé</term>, au village de <placeName ref="loc008168.04">Préz</placeName>, des
+						<lb/><term ref="lem019274.02">gallons</term> soit passement de velour au marchand sayoyar
+							<lb/>nomé <persName>de la Mare</persName>.</seg> <seg>Item at <term ref="lem015549.07">confessé</term> dʼavoir <term ref="lem015015.13">desro<lb break="no"/>bé</term> un <term ref="lem015429.01">linceul</term>
+							à <placeName ref="loc010298">Hauterive</placeName>, lequel luy seroit dere<lb break="no"/>chef esté pris
+							par ceux dedit <placeName ref="loc010298.09">Haulterive</placeName>.</seg>
+							<seg><lb/>Item elle at <term ref="lem015549.07">confessé</term> dʼavoir <term ref="lem015015.09">derobé</term> un chapeaux
+						<lb/>à <persName>François Baumgarti</persName> et à la servante de <persName>Pierre
+						<lb/>Boo</persName> un <term ref="lem019275.02">cottillion</term>. Elle nyet dʼavoir pris un <term ref="lem015036.04">faudart</term>
+						<lb/>remplis de pois à <persName>Claude Perler</persName>.</seg> <seg>Item elle at <term ref="lem015549.07">con<lb break="no"/>fessé</term> dʼavoir <term ref="lem015015.09">derobé</term> chez <persName>Pierre Retorna</persName> trois
+						<lb/>quenouillie dʼ<term ref="lem015023.04">auvra</term>, et un aultre fois au mesme
+						<lb/>la moitié dʼun <term ref="lem018643.01">fromage</term>. Finalement elle at
+						<lb/>dit que le <term ref="lem015433.03">maling esprit</term> luy avoit dit quʼelle estoit
+						<lb/>bien <term ref="lem019277.02">luré</term> de prier <hi rend="font change">Dieu</hi> pour ces <choice><abbr>seig<hi rend="sup">rs</hi></abbr><expan>seigneurs</expan></choice> examinateurs
+						<lb/>veu quʼiceux la vouloint faire mourrir. <foreign xml:lang="la">Actum ut supra</foreign>.</seg></p>
+						<p><lb/><foreign xml:lang="la">Idem notarius</foreign> <figure type="notarial sign"/><note>Il sʼagit de <persName ref="per026058">Jost Ignaz Progin</persName>.</note></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

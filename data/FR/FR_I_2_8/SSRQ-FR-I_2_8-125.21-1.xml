@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-125.21-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 351–356</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 351–356</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jenon Joye-Débieux, Françoise Lottaz-Morand, Claude Lottaz, Louise Monod-Blanc – Verhör und Urteil</head>
+					<head xml:lang="fr">Jenon Joye-Débieux, Françoise Lottaz-Morand, Claude Lottaz, Louise Monod-Blanc – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1646-12-01" to="1646-12-15"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref>Berchtold 1850</ref>, S. 509–510</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="351"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-12-01"><foreign xml:lang="la">i<hi rend="sup">a</hi> decembris</foreign> 1646</origDate>
+						<seg><lb/>Praeside <term ref="lem018540.03">amman</term> <persName ref="per012378a.01">Heydt</persName></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+						<seg><lb/><persName ref="per006528a.03">Possardt</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per013439a.01">Von Montenach</persName>, <persName ref="per013434a.01">Des Granges</persName></seg></p>
+						<p><seg><lb/><persName ref="per017122a.01">Jenon Debieux</persName> examinee par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droit, sçavoir si elle,
+						<lb/>voullant aller a la <term ref="lem017043">secte</term> et passant par le pré des <persName>Morrys</persName>,
+						<lb/>n’y avoit pas trouvé <persName ref="per017123a">Claude</persName> et <persName ref="per017125a.01">Franceysa Lotta</persName>, comme elle
+						<lb/>a dit cy devant, et si elle, a leur demande, ne leur avoit respondu
+						<lb/>qu’elle alloit a la <term ref="lem017043">secte</term> et dit, estant de retour, qu’elle avoit parlé
+						<lb/>avec le <term ref="lem015433.10">maling</term>, surquoy ils la reprindrent, luy disant qu’elle faisoit
+						<lb/>fort mal, et l’advertyssant qu’elle se devoit convertir a Dieu,
+						<lb/>et sur la promesse qu’elle se changeroit, iceux luy promisrent de n’en
+						<lb/>rien dire a personne&#160;? A respondu qu’ouy, que le tout estoit ainsy
+						<lb/>passé et qu’elle le leur disoit devant, mais dit et soustient
+						<lb/>qu’elle ne sçait rien de mal d’eux, les tenant pour gens de
+						<lb/>bien.</seg> <seg>Enquise si elle ne s’estoit plainte contre ledit <persName ref="per017123a">Claude Lotta</persName>
+							<lb/>de ce qu’il la doit une fois avoir touchee sur l’espaule&#160;? Dit
+						<lb/>qu’ouy, qu’elle l’a raconté a <persName>Cathelinna</persName>, femme de <persName>Caspar Jungen</persName>,
+						<lb/>et dit la chose estre ainsy passee. Que se trouvant environ <date dur-iso="P11Y">unze</date> ou
+						<lb/><date dur-iso="P12Y">douze anns</date> au grand pré de <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Amman</persName>, ou ce que ledit <persName>Lotta</persName>
+						<lb/>faisoit une haye, et elle demeurant pour lors chez les allemands,
+						<lb/>luy pourtant le gousté et tenant avec luy certain discours,
+						<lb/>icelluy <persName>Lotta</persName> luy dit, la touchant <subst><del>sur</del><add place="inline">avec</add></subst> la main sur les es<lb break="no"/>paules, qu’elle le devoit croire, que ainsy estoit. Aprés quel
+						<lb/>touchement, elle se sentit tout <term ref="lem015622">incontinent</term> mal, ayant ehu du<lb break="no"/>despuis des marques et taches aux bras, mais aprés qu’<add place="above" type="sign">elle</add> ehut promis
+						<lb/>et faict un voyage au <placeName ref="loc010325.02">benoist crucifix de Belfolz</placeName>, le mal
+						<lb/>et les douleurs luy passarent <term ref="lem015622">incontinent</term> aprés&#160;; et si bien il
+						<lb/>auroit ainsin touchee, ne sçait pourtant qu’il luy ayt occasioné
+						<lb/>ce mal.</seg></p>
+						<p><lb/>Im <placeName ref="loc009653.03">Murthentohr</placeName>, <foreign xml:lang="la">praesentibus et domino</foreign> <persName ref="per012380a.01">Python</persName></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017125a.01">Franceysa</persName>, femme de <persName ref="per017123a">Claude Lotta</persName> de <placeName ref="loc010145">Corserey</placeName>, enquise si elle
+						<lb/>ne s’estoit pas trouvee avec son marry au pré des <persName>Morrys</persName>, ou
+						<lb/>ce que <persName ref="per017122a.01">Jenon Debieux</persName>, passant par la, leur dit qu’elle alloit
+						<lb/>a la <term ref="lem017043">secte</term> et, estant de retour, qu’elle avoit parlé avec le
+						<lb/><term ref="lem015433.10">maling</term>, les priant de n’en rien dire a personne&#160;? A dit et
+						<pb n="352"/><lb/>soustenu n’en sçavoir rien, ladite <persName ref="per017122a.01">Jenon</persName> ne luy avoir jamais <add place="above" type="sign">dit</add> ces propos,
+						<lb/>ne s’estre jamais trouvee avec elle audit pré, ny sceu qu’elle
+						<lb/>feust une telle femme, ne pouvant croire que <persName ref="per017122a.01">Jenon</persName> ayt <add place="above">dit</add> semblables
+						<lb/>choses, car elle <subst><del>les</del><add place="inline">se</add></subst> damneroit et leur fairoit grand tort. Il
+						<lb/>pourroit bien estre que ceste femme seroit fachee contre elle a
+						<lb/>cause qu’elle ne luy a donné de ses raisins comme <add place="above">aux</add> au<subst><del>p</del><add place="overwritten">t</add></subst>res du
+						<lb/>village, ce que peut estre l’aura ehmeu d’inventer ces affaires jamais
+						<lb/>advenues, et si elles seroient veritables, le <term ref="lem015549.08">confesseroit</term> promptement.
+						<lb/>Soustient qu’elle n’a jamais beu ny mangé avec elle, hormis une
+							<lb/>fois <subst><del>au</del><add place="inline">a</add></subst> un <term ref="lem019542.04">baptesme</term> d’enfant, desla ne l’avoir onques fre<lb break="no"/>quentté, ny mangé pottage avec elle.</seg> <seg>Demandee touchant
+						<lb/>son premier <add place="above" type="sign">enfant</add> qu’elle a ehu quelque temps aprés la nopce&#160;? A dit
+						<lb/>qu’elle avoit <add place="above" type="sign">estee</add> espousé l’espace de <date dur-iso="P9W">neufs sepmaines</date> et qu’elle se
+						<lb/>estoit oubliee avec un jeusne vallet, qui est absent en guerre, a
+						<lb/>la premiere sepmaine aprés les fiançailles faictes, et <date dur-iso="P7.5M">7½ <add place="above" type="sign">mois</add></date> aprés
+						<lb/>les nopces s’estre accouchee d’un fils qu’est gros et grand, qu’elle
+						<lb/>donna a son marry, ne sçachant qu’elle soyt esté engrossié d’autre
+						<lb/>que de luy. Et lors que deux hommes luy demandarent (sans toutte<lb break="no"/>fois aucune intimation de serement) a qui l’enfant estoit,
+						<lb/>icelle leur dit si <persName ref="per017123a">Claude</persName> son marry faisoit difficulté de
+						<lb/>le recognoistre&#160;? A quoy le marry repartist que si elle le luy
+						<lb/>donnoit, qu’il le prendroit sans aucun contredit, <subst><del>mais</del><add place="above">et</add></subst> elle
+						<lb/>luy dit qu’elle ne le pouvoit donner a d’autres qu’a luy, ne
+						<lb/>sçachant (non obstant compagnie ehue avec ledit vallet) qu’elle
+						<lb/>soit estee enceinte de luy, ains de son marry seulement. Quant
+							<lb/>a ceste faulte commise avant la nopce, dit que son <term ref="lem019467.01">confesseur</term>
+						<lb/>luy commanda pour penitence d’aller veoir le <placeName ref="loc010328.02">S<hi rend="sup">t</hi> Suaire a
+							<lb/>Besançon</placeName> et jeusner le <term ref="lem019439.03">Quaresme</term> entierement, ce qu’elle fist
+							<lb/>avec dehue repentance de son <term ref="lem019539.02">peché</term>. <term ref="lem019498">Crie mercy</term>.</seg></p>
+						<p><lb/><placeName ref="loc008105">Keller</placeName>, <foreign xml:lang="la">eadem die, presentibus dominis ut supra et domino
+							<lb/><persName ref="per013433a.01">Techterman</persName></foreign></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017123a">Claude Lotta</persName> de <placeName ref="loc010145">Corserey</placeName> examiné de mesme que sa femme, dit
+							<lb/>que <persName ref="per017122a.01">Jenon</persName> la detenue luy faict grand tort de dire qu’elle
+						<lb/>luy ayt dit qu’elle alloit a la <term ref="lem017043">secte</term>, disant n’avoir onques
+						<lb/>entendu telle chose d’elle, et ne s’estre jamais trouvé en au<lb break="no"/>cun lieu qu’elle, ny autres luy ayent <subst><del>tenu</del><add place="above">dit</add></subst> semblables <subst><del>discours</del><add place="above">choses</add></subst>,
+						<lb/>que Dieu l’en veuille preserver plus outre. Mais si elle
+						<lb/>le luy auroit dit, il le <term ref="lem015549.08">confesseroit</term> librement sans le
+						<lb/>voulloir celer a ses superieurs, mais cependant ne peut
+						<lb/>dire ce que jamais il ouyt, ny entendist. Et veut
+					<pb n="353"/><lb/>soustenir par verité devant Dieu et son souverain qu’il est ig<lb break="no"/>norant de ces affaires.</seg> <seg>Enquis s’il n’avoit une fois touché
+						<lb/>dite <persName ref="per017122a.01">Jenon</persName> sur l’espaule, <subst><del>qu’</del><add place="above">dont</add></subst> elle en devient soudainement malade
+						<lb/>lors qu’elle luy porta le gousté au grand pré de <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Amman</persName>, ou ce
+						<lb/>qu’il faisoit et raccommodoit la haye&#160;? A respondu qu’il estoit
+						<lb/>fort estonné de telle demande, disant que si elle le vouldroit dire,
+						<lb/>qu’elle luy fairoit grand tort et, damnant son <term ref="lem018939.02">ame</term>, l’accuseroit
+						<lb/>faulsement.</seg> <seg>Demandé s’il n’avoit pas admodié des <term ref="lem017988.03">blessoneys</term>
+						<lb/>riere le village de <placeName ref="loc009823.02">Lentignye</placeName> et cogneu une fille refugiee du nom
+						<lb/><persName>Louysa</persName>, qui doit estre devenue malade se trouvant <subst><del>ledit</del><add place="above">soubz</add></subst> l’un desdits
+							<lb/><term ref="lem017988.03">blessoneys</term>, sus lequel il y avoit un <term ref="lem019350.01">corbeau</term> qui crioit&#160;? Dit qu’il
+						<lb/>ne sçait pas, que jamais il ayt admodié des <term ref="lem017988.03">blessoneys</term> riere
+						<lb/>ledit village, ny cogneu aucune refugiee nommee <persName>Louysa</persName>, moings
+							<lb/>qu’il ayt veu aucun <term ref="lem019350.01">corbeau</term> dont il est interrogué, ny faict
+						<lb/>mal a personne, estre en ce faict tout a faict ignorant, comme aussy
+						<lb/>de tout ce qu’on luy propose, estant prompt de subir et patir ce
+						<lb/>qu’il plaira a Dieu et <choice><abbr>messg<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> comme l’un de leurs obeyssants
+						<lb/>subjects, mais ne peut dire une chose de laquelle il n’en sçait
+						<lb/>rien. <term ref="lem019498">Crie mercy</term>.</seg></p>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <foreign xml:lang="la">eadem die</foreign></p>
+						<p><seg><lb/><persName ref="per017122a.01">Jenon Debieux</persName> derechef examinee sur les points que devant
+							<lb/>et confrontee avec ledit <persName ref="per017123a">Claude Lotta</persName>, auquel elle dit que
+						<lb/>voullant une fois aller a la <term ref="lem017043">secte</term> et le trouvant au pré des
+							<lb/><persName>Morry</persName> avec sa femme <persName ref="per017125a.01">Franceysa</persName>, icelle leur dit qu’elle alloit
+						<lb/>a la <term ref="lem017043">secte</term>, et peu aprés estant de retour, et les trouvant en<lb break="no"/>cor au hault du mesme pré, leur dit qu’elle venoit de parler
+						<lb/>avec le <term ref="lem015433.10">maling</term>, dont ils la reprindrent, luy commandant que
+						<lb/>elle n’y debvoit plus aller, ains se convertir a Dieu par
+							<lb/>prieres et dehue <term ref="lem019465.01">confession</term>.</seg> <seg>A quoy ledit <persName ref="per017123a">Claude</persName> repartist
+						<lb/>qu’il n’eusse jamais creu qu’elle fust estee une telle femme et
+						<lb/>qu’elle luy faisoit grand tort et l’accusoit faulsement, car
+						<lb/>il est bien asseuré qu’elle ne luy <add place="above">a</add> jamais dit telle chose, l’ex<lb break="no"/>hortant d’avoir esgard a sa conscience de ne se point faire
+						<lb/>tort, ny inventer semblables mensonges sur son prochain, mais
+						<lb/>elle ne voullant point desmordre de son dire, dit constament
+						<lb/>estre ainsy passé comme est dit cy dessus, ne sçachant toutte<lb break="no"/>fois aucun mal, ny deshonneur de luy, ny de sa femme.</seg> <seg>En
+						<lb/>oultre, la detenue luy soustient aussy devant, que lors
+						<lb/>qu’elle luy porta un jour le gousté au grand pré de <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Amman</persName>,
+					<pb n="354"/><lb/>ou ce qu’il faisoit la haye, et tenant certain discours par ensemble,
+						<lb/>icelluy luy dit qu’elle le debvoit croire, qu’ainsy estoit, et surce
+						<lb/>il <sic>a</sic> toucha sur les espaules, dont elle devient malade <term ref="lem015622">incontinent</term>
+						<lb/>aprés, ne sçait pourtant autrement si luy en estoit la cause.</seg> <seg>Quoy
+						<lb/>entendant, ledit <persName>Claude</persName> bien esbahi luy dit que cela estoit faulx
+						<lb/>et qu’elle, a son souvenir, ne luy avoit jamais porté a manger
+						<lb/>en tel endroit, ny ailleurs, et qu’elle luy faict tort de dire
+						<lb/>qu’il ait ainsy touchee, dont elle en dehut estre attainte de
+						<lb/>incommodité&#160;; n’estre un tel homme, que Dieu l’en defende. Ce
+						<lb/>non obstant elle opiniastroit tousjours qu’ouy et disoit qu’il
+						<lb/>avoit touchee, ne sçachant pourtant s’il luy avoit occasioné
+						<lb/>le mal, ne pouvant dire que tout bien de luy. Mais ledit
+							<lb/><persName ref="per017123a">Lotta</persName> a nyé et soustenu fermement ne sçavoir rien de ces af<lb break="no"/>faires, disant qu’elle luy faisoit tort.</seg> <seg>Estant par
+						<lb/>aprés confrontee avec <persName ref="per017125a.01">Franceysa Lotta</persName>, la prisonniere
+								<lb/>luy soustient les articles susmentionnés, de mesme qu’a <persName ref="per017123a">Claude</persName>,
+						<lb/>luy disant que, venant un dimanche de l’eglyse de <placeName ref="loc008168.02">Prez</placeName>, elle
+						<lb/>la pria de ne dire a personne ce qu’elle luy avoit dit avant
+						<lb/><date dur-iso="P3D">3</date> ou <date dur-iso="P4D">4 jours</date>, sçavoir qu’elle estoit allee a la <term ref="lem017043">secte</term>. Ce que
+						<lb/>dite <persName ref="per017125a.01">Franceysa</persName> a soustenu estre faulx, car si elle eusse entendu
+						<lb/>telles choses, dit qu’elle ne <subst><del>se</del><add place="inline">s’</add></subst>eust peu tenir de le bien
+						<lb/>justement dire a son marry, ou a quelqu’un, car semblables
+						<lb/>affaires ne se laissent taire. Non obstant ceste negative,
+							<lb/><persName ref="per017122a.01">Jenon</persName> affirmoit tousjours qu’ainsin estoit&#160;; ne sçait pour<lb break="no"/>tant aucun mal, ny deshonneur d’elle, ny de son marry.</seg>
+						<seg><lb/>Est a sçavoir que aprés que <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> de la justice estoient sorty
+						<lb/>de la tour ou on questionne les pauvres detenuz, et voullant
+							<lb/><choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName ref="per006528a.04">Michelle Possardt</persName> et le grichtschryber qui estoient demeu<lb break="no"/>rés les derniers, aussy sortir, ladite <persName ref="per017122a.01">Jenon</persName> leur dit qu’il
+						<lb/>luy sembloit bien, mais ne pouvoit bien affirmer si elle avoit
+							<lb/>dit a <persName ref="per017123a">Claude Lotta</persName> et <persName ref="per017125a.01">Franceysa</persName> sa femme, qu’elle alloit
+						<lb/>et voulloit aller a la <term ref="lem017043">secte</term>&#160;; ce qu’estant tout <term ref="lem015622">incontinent</term>
+							<lb/>aprés rapporté a <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le <term ref="lem018597.02">burgermeister</term> et aux autres
+						<lb/><choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice>, fust faict commandement que le tout feusse in<lb break="no"/>seré ceans.</seg></p>
+					<p><add place="left margin"><lb/>Ist den <origDate when="1646-12-15">15<hi rend="sup">ten</hi> <choice><abbr>xbris</abbr><expan>decembris</expan></choice>
+						<lb/>1646</origDate> uff der stoß<lb break="no"/>leytteren <term ref="lem017539">strangu<lb break="no"/>liert</term> unnd <term ref="lem006484.06">nachwerths</term>
+						<lb/>ins <term ref="lem012936.08">fühwr</term> gestürtzt
+					<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+						<p><lb/><foreign xml:lang="la">Ibidem et eadem die post meridiem</foreign>
+							<seg><term ref="lem018540.03">Amman</term> <persName ref="per012378a.01">Heydt</persName></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013439a.01">Von Montenach</persName>, <persName ref="per013434a.01">Des Granges</persName></seg></p>
+						<pb n="355"/><p><seg><lb/><persName ref="per017126a.01">Louysa Blanc</persName> de <placeName ref="loc009823.02">Lentignye</placeName>, aprés avoir longtemps varié, a
+						<lb/>entierement nyé ce qu’elle avoit <term ref="lem015549.07">confessé</term> cy devant, disant ne
+						<lb/>avoir jamais veu le <term ref="lem015433.10">maling</term>, ny delaissé Dieu son Createur, ny com<lb break="no"/>mis acte de <subst><del>c</del><add place="overwritten">s</add></subst>orcellerie&#160;; et si elle auroit dit quelque chose de sem<lb break="no"/>blable, dit qu’elle se seroit mescomptee et faicte tort.</seg> <seg>Enquise
+							<lb/>pourquoy elle s’estoit laisser dire <term ref="lem019389.02">sorciere</term> par <persName>Jenon Morry</persName> et
+						<lb/>beaucoup d’autres de <placeName ref="loc009823.02">Lentignye</placeName>&#160;? Dit qu’elle n’en sçait rien, car
+						<lb/>si ladite <persName>Jenon Morry</persName> ou quelqu’un le luy e<add place="above">u</add>ssent dit, qu’elle eust infal<lb break="no"/>liblement levé ses tesmoings et dehuement re<term ref="lem015009.08">cerché</term> tels injuriants.
+						<lb/>Et si bien elle auroit ehu quelquement peur soubz le <term ref="lem017988.02">blessoney</term> du
+						<lb/>champ de <placeName ref="loc012050.02">La Vuad</placeName>, y ayant veu un umbre, ou ne sçait quoy, ne
+						<lb/>s’estre pourtant aucunement oubliee envers son Dieu, ny commis
+						<lb/>aulcun mal.</seg> <seg>Mais estant exhortee a dire la verité et
+						<lb/>mise a la <term ref="lem015441.02">gehenne</term> du demy <term ref="lem018232">quintal</term>, elle dit que se trouvant
+						<lb/>environ <date dur-iso="P1Y">un an</date> au <date when="1645-04-15">Samedy sainct</date> dans des <term ref="lem017990.02">ceintres</term> tout proche du village,
+						<lb/>ou ce que toutt’attristee a cause du nom qu’on luy donnoit, elle
+						<lb/><term ref="lem017991.02">esbuchettoit</term> et nettoyoit le pré, le <term ref="lem015433.03">maling esprit</term> luy ap<lb break="no"/>paru comme un umbre noir, qui luy dit, si elle se voulloit rendre
+						<lb/>a luy. Elle, faisant le signe de la croix, luy respondit que non,
+							<lb/>mais ce neantmoings le <term ref="lem015433.10">maling</term> la suivit et la <term ref="lem018895.08">marqua</term> a la cuisse
+						<lb/>en passant une haye&#160;; ne peut bonnement sçavoir si son attouchement
+							<lb/>estoit froid ou chaud, mais dit bien qu’elle sentit peu de dou<lb break="no"/>leur, mais nonobstant qu’elle soit <term ref="lem018895.04">marquee</term>, dit qu’elle ne se
+							<lb/>rendit point a luy et <term ref="lem019541.20">renya</term> pas Dieu, ains s’en alla droit
+						<lb/>a l’eglyse prier Dieu qu’il la veuille preserver.</seg> <seg>A aussy
+						<lb/>dit que veritablement elle frappa une de leurs <term ref="lem017507">vache</term> avec
+						<lb/>un baston sur les reins, du<add place="above">quel</add> coup elle cheut, l’ayant fallu
+						<lb/>seigner pour la tirer a proffit, mais ne la battit a l’inten<lb break="no"/>tion de la faire mourir. Plus a <term ref="lem015549.07">confessé</term> que se trouvant
+						<lb/>un jour au four de <placeName ref="loc009823.02">Lentignye</placeName>, elle mit des pois a bouylir
+						<lb/>dans du pain frais, dont la mere de <persName>François Bouvygny</persName>,
+						<lb/>sa soeur et <persName>Anna Turlinger</persName> feusrent <term ref="lem018556.10">maleficiees</term> et
+						<lb/><term ref="lem019502.07">possedees</term> des <term ref="lem015433.13">malings</term>. <add place="above" type="sign">Dit que</add> peu de temps aprés, <del>dit que</del> le
+						<lb/><term ref="lem015433.03">maling esprit</term> luy apparut derechef auxdits <term ref="lem017990.02">ceintres</term> en forme
+							<lb/>d’umbre noir, ou ce que proche de certains <term ref="lem016908.13">chesnes</term>, elle
+						<lb/><term ref="lem019541.20">renya</term> Dieu et se rendit a luy&#160;; le <term ref="lem015433.10">maling</term> l’avoir contrainte
+							<lb/>a commettre ce <term ref="lem019539.02">peché</term> et de se laisser <term ref="lem018895.01">marquer</term> a la cuisse,
+							<lb/>ou la <term ref="lem018894.01">marque</term> parroist evidement. Tout <term ref="lem015622">incontinent</term> aprés,
+						<lb/>elle se repentist grandement de ce qu’elle s’estoit
+					<pb n="356"/><lb/>ainsin oubliee.</seg> <seg>Examinee si elle n’avoit pas estee a la <term ref="lem017043">secte</term>
+						<lb/>et qui estoient ses complices&#160;? A respondu avec quelque variation
+						<lb/><add place="left margin">qu’elle ne sçavoit pas</add>, mais a la fin <term ref="lem015549.07">confessé</term> qu’elle y avoit estee une fois au bas de
+						<lb/><placeName ref="loc010145">Corserey</placeName> desja avant <date dur-iso="P4Y">4</date> ou <date dur-iso="P5Y">5 ans</date>, ou ce qu’elle vist <persName ref="per017122a.01">Jenon De<lb break="no"/>bieux</persName> la detenue et <persName>Jenon</persName><note>Il s’agit de <persName>Jenon Morry</persName>.</note>,
+						femme d’<persName>Anthoyne Morry</persName> de <placeName ref="loc009823.02">Len<lb break="no"/>tignye</placeName>. Estant la dessus advertye qu’elle ne devoit faire tort
+						<lb/>a personne, elle dit si elle avoit estee a la <term ref="lem017043">secte</term>, icelles
+						<lb/>y avoir aussy estees, mais a <subst><del>f</del><add place="overwritten">l</add></subst>a fin soustient qu’ouy, que
+						<lb/>elle y estoit comparue avec lesdites <persName ref="per017122a.01">Jenon Debieux</persName> et
+						<lb/><persName>Jenon Morry</persName>, disant n’avoir cogneu les autres. <term ref="lem019498">Crie
+						<lb/>mercy</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p>Berchtold n’a édité que les passages qui concernent Jenon Joye-Débieux.</p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

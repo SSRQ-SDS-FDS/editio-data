@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-146.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 100–101</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 100–101</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Overney-Bifrare, Anni Dumont – Verhör und Urteil</head>
+					<head xml:lang="fr">Elsi Overney-Bifrare, Anni Dumont – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1649-11-23" to="1649-11-27"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="100"/><p><lb/><hi rend="outdent">Im <placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-11-23">2<subst><del>2</del><add place="overwritten">3</add></subst><hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1649</origDate>
+							<seg><lb/>Hern <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note> judex</seg>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>burgermeist</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.04">Frantz Carli Gottrauw</persName><note>Die folgende Anordnung der Gerichtsherren entspricht nicht dem Original. Normalerweise gruppierte der Gerichtsschreiber die Vertreter des Kleinen Rats, des Sechzigers und des Rats der Zweihundert in Kolonnen, doch bei diesem Verhör ordnete er sie anders an. Die Gerichtsherren wurden für die Edition wieder gemäss ihrem Ratsstatus zusammengefügt.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006523a.03">Caspar von Montenach</persName>, <abbr>h</abbr> <persName ref="per013978a.05">Niclauß Kämmerling</persName>, <abbr>h</abbr> <choice><abbr>hauptm</abbr><expan>hauptmann</expan></choice> <persName ref="per013626a.03">Niclauß Reyff</persName></seg>
+							<seg><lb/>Herr <persName ref="per013469a.11">Frantz Peter Castella</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013668a.04">Frantz Heinrich Reyff</persName></seg>
+							<seg><lb/>Der weibel <persName ref="per013748a.03">Mathyß Albert</persName></seg></p>
+						<p><lb/><persName ref="per020136a.01">Elsi Byfrare</persName>, hievor genant, ist an der <term ref="lem013000.01">tortur</term> des halben <term ref="lem018237.02">zendtners</term>,
+						<lb/>daran sie zum drittenmal geschlagen worden, über die
+							<lb/>ihren vorgehaltnen puncten gäntzlich <term ref="lem005649.03">abredt</term> unnd <term ref="lem005649.03">ungichtig</term>
+						<lb/>gewesen.</p>
+						<p><lb/><foreign xml:lang="la">Iidem <choice><abbr>dni</abbr><expan>domini</expan></choice> et eadem die et anno</foreign></p>
+						<p><seg><lb/><persName ref="per020125a.03">Anni von Mundt</persName> ohne <term ref="lem013000.01">tortur</term> hatt ihr vorige <term ref="lem016794.05">bekhandt<lb break="no"/>nuß</term> völligklich bestättiget unnd confirmiert, sie habe
+							<lb/>der <persName>Tichtli Käp<subst><del>e</del><add place="overwritten">f</add></subst>fer</persName> das <term ref="lem014889.03">wehe</term> angethan, doch nitt der
+							<lb/>meinung, sie mitt dem todt hinzurichten, sunders allein zu<lb break="no"/><term ref="lem006011.04">bekränckhen</term>.</seg> <seg>Wytters sie habe dem <persName>Willi <subst><del><unclear>Sch</unclear></del><add place="overwritten">Pfyffer</add></subst></persName> von
+								<lb/><placeName ref="loc008091.01">Plasselb</placeName> ein <term ref="lem003441">gitzi</term> mitt dem <term ref="lem017537">anblasen</term>, <foreign xml:lang="la">reverenter</foreign>, am hinder<lb break="no"/>theil zu <term ref="lem005335">verderben</term> machen.</seg><seg> Dem <persName>Nicaud Aibi</persName> sye durch die
+								<lb/><persName ref="per020136a">Caminoda</persName> das <term ref="lem014889.03">wehe</term> unnd kranckheit gegeben worden, wie
+							<pb n="101"/><lb/>gesagter <persName>Aibi</persName> soll geredt haben, auch daruff gestorben.</seg><seg> <subst><del>auch</del><add place="above">Sie, die</add></subst>
+							<lb/><add place="left margin"><persName>Anni von Mont</persName></add>, zum ander mal im <placeName ref="loc011049.05">Fälbach</placeName> den <term ref="lem007347.01">hagel</term> gemacht. Der <term ref="lem014673.02">böse fyndt</term>
+								<lb/>habe sie <term ref="lem018661.02">angeschmertzt</term>, darumb das sie nitt gnuog böses
+							<lb/>unnd leidts thue mitt der <term ref="lem011432.06">sälbe</term>, so er ihren gegeben. Hatt
+								<lb/><term ref="lem006484.07">nachwerts</term> alles in der <term ref="lem012962.02">pyn</term> der <term ref="lem015170.08">zwecheln</term> <term ref="lem011468.03">bekhendt</term> unnd
+							<lb/>bestättiget.</seg></p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1649-11-27">27<hi rend="sup">ten</hi> <foreign xml:lang="la">novembris</foreign>
+						<lb/>1649</origDate> i<subst><del>h</del><add place="overwritten">s</add></subst>t ihr
+						<lb/>das leben abgesprochen
+						<lb/>worden und mit der
+						<lb/><term ref="lem004668">strang</term><del>en</del> hingericht,
+						<lb/>uff den <term ref="lem016524.08">blochleiter</term>,
+						<lb/>dariber durch das
+						<lb/><term ref="lem012936.07">feüwr</term> verzehrt
+						<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 100.</note></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

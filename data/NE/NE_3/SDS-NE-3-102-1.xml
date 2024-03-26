@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-102-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.006, p. 529</idno>
+     </msIdentifier>
+     <head>Demande par écrit de points de coutume</head>
+     <msContents>
+      <summary>Le capitaine Vallier demande dix points de coutume par écrit. Il est décidé que cinq
+       ou six membres des Vingt-Quatre parmi les plus anciens forment une commission pour préparer
+       la déclaration.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1631-02-06" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004993"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="528"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1631-02-06" calendar="Julian">VI febvrier 1631</origDate> en <orgName ref="org003092">Conseil
+        <lb/><choice><abbr>gnal</abbr><expan>général</expan></choice></orgName>, presidant <choice><abbr>led</abbr><expan>ledit</expan></choice> <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>sieur</expan></choice> <persName ref="per010451">Boyve</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="529" facs="AVN_B_101.01.01.006_0529"/> 
+     <div>
+      <lb/><add place="left margin">Point de coutume<lb/> renvoyé à l’examen</add>
+      <add place="left margin" hand="later hand" rend="pencil"><choice>
+        <abbr>Délibérat</abbr>
+        <expan>Délibérations</expan>
+       </choice></add>
+      <div><head><lb/>Dudit <choice><abbr>jo<hi rend="sup">r</hi></abbr><expan>jour</expan></choice> en <orgName ref="org003085">Conseil estroict</orgName>.</head></div>
+      <p>
+       <lb/><persName ref="per011714">David Cornu</persName>
+       <choice>
+        <abbr>not<hi rend="sup">e</hi></abbr>
+        <expan>notaire</expan>
+       </choice> de <placeName ref="loc008388.03">Corcelles</placeName>, au nom du <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per011715">Vallier</persName>
+       <choice>
+        <abbr>capp<hi rend="sup">ne</hi></abbr>
+        <expan>capitaine</expan>
+       </choice>
+       <lb/>du <placeName ref="loc007794.03">Vauxtravers</placeName>, a demandé declaration de dix
+       poincts de coustume <lb/>qu’il a produit par escript. </p>
+      <p>
+       <lb/>Arresté que l’on fera choix de cinq ou six des <orgName ref="org003085"><choice>
+         <abbr>S<hi rend="sup">res</hi></abbr>
+         <expan>sieurs</expan>
+        </choice> vingt quatre</orgName> des <lb/>plus anciens, pour recognoistre a quoy <choice>
+        <abbr>lesd.</abbr>
+        <expan>lesdits</expan>
+       </choice> poincts consistent <lb/>afin qu’y ayants advisé <choice>
+        <abbr>laff<hi rend="sup">e</hi></abbr>
+        <expan>l’affaire</expan>
+       </choice> soit derechef remis en <orgName ref="org003085">Conseil</orgName>
+       <lb/>pour en faire <choice>
+        <abbr>declaraon</abbr>
+        <expan>déclaration</expan>
+       </choice> absolue. </p>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>La suite de cette affaire se trouve dans <ref target="urn:ssrq:SDS-NE-3-104-1">SDS NE 3 104-1</ref> et <ref target="urn:ssrq:SDS-NE-3-105-1">SDS NE 3 105-1</ref>.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

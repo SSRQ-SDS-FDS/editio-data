@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.34-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 122–125</idno>
+     </msIdentifier>
+     <head>Mariage</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000863"/>
+     <term ref="key005111"></term>
+     <term ref="key005198"></term>
+     <term ref="key005811"></term>
+     <term ref="key000023"></term>
+     <term ref="key003478"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>  
+     <pb n="122" facs="AEN_MJ_17_122_123"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chap.</abbr><expan>Chapitre</expan></choice> XXXIIII.
+       <lb/>Du mariage.</head>
+      <p>
+       <lb/>Le mariage est la
+       <lb/>conjonction du mary &amp; de la
+       <lb/>femme, selon l’ordonnance de
+       <lb/>dieu.
+      </p>
+      <p>
+       <lb/>Avant la celebration du mariage <lb/><add place="below" type="catchword">les</add>
+       <pb n="123" facs="AEN_MJ_17_122_123"/>
+       <lb/>les proclamations ou bans s’en <lb/>doibvent faire en l’eglise <choice>
+        <abbr>publicquem<hi rend="sup">t</hi></abbr>
+        <expan>publicquement</expan>
+       </choice>
+       <lb/>par trois diverses foix, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 47">un jour de dimanche <date dur-iso="R/P8D">de huictaine en
+          <lb/>huictaine</date>,</rdg>
+       </app> afin que <lb/><app>
+        <lem>ceux qui y sçauront quelque <lb/>empeschement legitime le <lb/>declarent.</lem>
+        <rdg wit="AVN Q41, p. 47">s’il y avoit quelque empeschement legitime, <lb/>ceux qui le
+         scavent le puisent declarer.</rdg>
+       </app>
+      </p>
+      <p>
+       <lb/>Et sont les causes d’empeschements <lb/>ligitimes, quand l’un des <sic>party</sic>
+       <lb/>est desja lié par mariage a un <lb/>autre, ou que les deux <sic>party</sic> sont <lb/>en
+       degré de consanguinité <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 47">ou</rdg>
+       </app> affinité <lb/>deffendu, comme les assendants et en <lb/>ligne droitte ne se peuvent <choice>
+        <abbr>aucunem<hi rend="sup">t</hi></abbr>
+        <expan>aucunement</expan>
+       </choice>
+       <lb/>prendre en mariage, encor qu’ils <lb/>fussent entr’eux en degrez bien <lb/>esloignez.</p>
+      <p>
+       <lb/>Et quant aux colatteraux, comme <lb/>a esté dit cy desssus, ne se peuvent <lb/>marier
+       ensemble, qu’ils n’ayent passé <lb/>le tier degré de tous costez.  <lb/><add place="below"
+        type="catchword">Et</add>
+      </p>
+     <pb n="124" facs="AEN_MJ_17_124_125"/>
+      <p>
+       <lb/>Et selon que se comptent le degrez <lb/>pour cause de mariage par les <lb/>theologiens,
+       les freres et soeurs sont <lb/>au premier<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 47"> degrès</rdg>
+       </app>, au second les fils &amp; <lb/>filles de deux freres ou soeurs, qu’on <lb/>appelle
+       cousins, ou cousines germaynes.</p>
+      <p>
+       <lb/>Au troisiesme degré sont ceux ou <lb/>celles qui sont nez des personnes <lb/><app>
+        <lem>susdites.</lem>
+        <rdg wit="AVN Q41, p. 47">des cousins et cousines germains, qu’on appelle arriere cousins, <lb/>et arriere
+         cousines.</rdg>
+       </app>
+      </p>
+      <p>
+       <lb/>Il y a aussy empeschement de mariage <lb/>pour raison de l’affinité, &amp; ce
+       <lb/>jusques a tant de degrez qu’en <lb/>consanguinité, de sorte que par <lb/>le moyen du
+       mariage les parents <lb/>de la femme <app>
+        <lem>deviennent</lem>
+        <rdg wit="AVN Q41, p. 48">viennent</rdg>
+       </app>
+       <term ref="lem019314.02">affins</term> au mary <lb/>et ceux du mary <app>
+        <lem>qui ne se sont rien <lb/>l’un a l’autre.</lem>
+        <rdg wit="AVN Q41, p. 48">à la femme <lb/>et non les parens du mary aux parents de la femme,
+         ny ceux <lb/>de la femme a ceux du mary, qui ne se sont rien l’un à l’autre.</rdg>
+       </app> Car le pere &amp; son filz <lb/>peuvent espouser l’un la mere, l’autre <lb/>la fille,
+       semblablement deux <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 48">freres peuvent espouser les deux soeurs. Aussi les deux</rdg>
+       </app> cousins <lb/>du marry peuvent prendre <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 48">en mariage</rdg>
+       </app> les <lb/>deux cousines de sa femme, et faut  <lb/><add place="below" type="catchword"
+        >noter</add>
+       <pb n="125" facs="AEN_MJ_17_124_125"/>
+       <lb/>noter que l’affinité ne se perd par <lb/>la mort de la personne, par le moyen <lb/>de
+       laquelle elle a esté acquise<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 48"> en telle <lb/>sorte que le mary estant vefve, ny luy ny ses
+         enfans ne <lb/>peuvent point prendre en mariage le <term ref="lem019314.02">affins</term>
+         et parene de sa <lb/>femme defuncte</rdg>
+       </app>.</p>
+      <p>
+       <lb/>La femme mariée soit qu’elle ayt <lb/>pere ou ayeul, apres la <choice>
+        <abbr>consomation</abbr>
+        <expan>consommation</expan>
+       </choice>
+       <lb/>du mariage demeure en la puissance <lb/>de son mary, tellement qu’elle ne <lb/>peut
+       faire contracts entre les vifs, <lb/>ny estre en jugement sans la <lb/><term
+        ref="lem017832.02">lisence</term> et authorité de son mary, <lb/>mais elle peut bien tester
+       &amp; disposer <lb/>par <app>
+        <lem>la</lem>
+        <rdg wit="AVN Q41, p. 48"/>
+       </app> donnation a cause de mort, <lb/>sans l’authorité de sesdits <app>
+        <lem>ayeuls, <lb/>pere et mary.</lem>
+        <rdg wit="AVN Q41, p. 48">pere, ayeul, <lb/>et mary.</rdg>
+       </app></p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

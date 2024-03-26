@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-84-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2 fol.&#160;198r-198v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur les indemnités dues aux juges des basses justices
+                  pour leurs déplacements et sur divers objets de droit privé, notamment la possession et les
+                  testaments</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1547-05-28"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_197">SDS NE 1, N<hi rend="sup">o</hi>&#160;84</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000270"></term>
+               <term ref="key000103"></term>
+               <term ref="key003040"></term>
+               <term ref="key000863"></term>
+               <term ref="key000635"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="198r" facs="AEN_3PAST_2_197v_198r"/>
+               <div>
+                  <head><lb/><add place="left margin">Taxation pour les journées <lb/>des juges des villes
+                     qui <lb/>vont juger aux assises <lb/>des seigneurs subalternes <lb/>ou aux renforts <lb/>de
+                        justice</add></head>
+                  <p><seg n="7"><note>Note Favarger&#160;1982 : «&#160;Le chiffre [7]
+                        est celui que Boyve donne pour cette décrétale qui fait suite à celle du
+                        27&#160;mai.&#160;» Précisons simplement que Boyve, <hi rend="italic"
+                           >Annales</hi>, II, p.&#160;475 donne en fait bien la date du
+                        28&#160;mai.</note>
+                     <lb/>Il a derechef esté faict un decret a cause des juges des basses justices qui
+                     vont <lb/>pour tenir les audiances des seigneurs subalternes comme
+                     s’ensuict&#160;: </seg></p>
+                  <p><lb/>Pour ce que troubles sont de nouveau survenus pour les assistans deputez
+                     <lb/>pour tenir les audiances des seigneurs subalternes pour leurs salaires et
+                     <lb/>despends dont autresfois desja en avoit esté faite une ordonnance,
+                     messeigneurs <lb/>des estatz derechef ont ordonné et décrété que doresenavant
+                     un chacun <lb/>desditz juges, assavoir de la ville de <placeName
+                        ref="loc007786.02">Neufchastel</placeName>, de la ville du
+                        <placeName>Landeron </placeName><lb/>et de la ville de
+                        <placeName>Boudry</placeName> seront nourris, eux et leurs bestes, comme il
+                     leur <lb/>apartiendra et auront un chacun par jour pour leurs salayres
+                        <measure>vingt solz <lb/>foibles</measure>, et ceux des autres justices
+                     seront aussy nourris et auront par <lb/>jour <measure>dix solz </measure>dite
+                     monnoye sans plus oultre pouvoir rien en quereller ny demander. <pb n="198v"
+                        facs="AEN_3PAST_2_198v_199r"/> <lb/>En oultre ont lesditz seigneurs dict et
+                     declairé que les juges dudict <placeName ref="loc007786.02"
+                        >Neufchastel</placeName>, <lb/>du Landeron et de Boudry pourront mener avec
+                     eux une chacune justice, <lb/>un serviteur pour penser leurs bestes, lesquelz
+                     seront nourris et auront <lb/>pour leurs salayres un chacun desditz serviteurs
+                     dix solz par jour, faict <lb/>le <date when="1547-05-28">XXVIII de may
+                        1547</date>. </p>
+                  <p><supplied resp="Favarger"><seg><lb/><note>À partir d'ici, Favarger&#160;1982 présente du texte extrait de l'édition de Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;476.</note>
+                     8.&#160;Les Audiences prononcèrent que le traité de mariage casse le testament si ce
+                     dernier y contrevient. </seg>
+                     <seg><lb/>9.&#160;Que la possession immémoriale transfère la propriété. </seg>
+                     <seg><lb/>10.&#160;Que des reconnaissances faites sans la partie ne peuvent être
+                     préjudiciables comme aussi s’il y a erreur ou limites mal données. </seg>
+                     <seg><lb/>11.&#160;Les prétendants à l’hoirie d’un défunt doivent comparaître le jour des six
+                     semaines, à compter du jour de l’ensevelissement munis de leurs titres, raisons
+                     et actions en la justice du lieu du domicile du défunt, pour appréhender la
+                     mise en possession et investiture des biens du défunt, passé lequel temps ils
+                     en sont exclus. Mais celui qui est étranger ou hors du pays, il est au pouvoir
+                     de messieurs des Trois Etats de le remettre en son droit s’il leur conste de
+                     lésion.</seg></supplied></p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;198-198v.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;277.</p>
+               <p>AEN, Registre «&#160;Audiences
+                  générales&#160;», fol.&#160;11v.</p>
+               <p>Registre des Trois-États, I, fol.&#160;15r-v.</p>
+               <p>AEN, T&#160;12, N<hi rend="sup">o</hi>&#160;2, p.&#160;42-43.</p>
+               <p>Éd.&#160;: Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;476. Matile, <hi
+                        rend="italic">Plaits</hi>, p.&#160;8-9.</p>            
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

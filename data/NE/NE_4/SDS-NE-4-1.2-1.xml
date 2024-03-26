@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.2-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 4–10</idno>
+     </msIdentifier>
+     <head>Office des châtelains et des maires</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005189"></term>
+     <term ref="key000002"/>
+     <term ref="key005267"></term>
+     <term ref="key000366"></term>
+     <term ref="key000468"></term>
+     <term ref="key000602"></term>
+     <term ref="key004995"></term>
+     <term ref="key000815"></term>
+     <term ref="key000446"></term>
+     <term ref="key000433"></term>
+     <term ref="key005110"></term>
+     <term ref="key000103"></term>
+     <term ref="key005808"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="4" facs="AEN_MJ_17_004_005"/>
+     <div>
+      <head type="title">
+        <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> II. <lb/>De l’office des chastelains <lb/>et mayres</head>
+      <p>
+       <lb/>Les chastelains et mayres pre<lb break="no"/>sident sur lesdites justices aux jours
+       <lb/>ordinayres &amp; extraordinayres qu’ils s’assemblent, <lb/>&amp; ne jugent avec eux,
+        <term ref="lem015643">ains</term> recueillent le <lb/>jugement desdits justiciers, le leur
+       demandant <lb/>sur les contestes, productions &amp; allegations <lb/>des parties, soit par
+       declaration, cognoissance <lb/>ou <term ref="lem015646">passement</term>, qu’ils sont tenuz
+       rapporter <lb/>fidellement auxdits officiers, selon que <lb/><app>
+        <lem>leur</lem>
+        <rdg wit="AVN Q41, p. 2">le</rdg>
+       </app> plus la porté entr’eux.</p>
+      <p>
+       <lb/>Lesdits officiers ou presidents ordonnent <lb/>des <term ref="lem016019.02"
+        >exploits</term> de justice, et tiennent main <lb/>qu’elle soit bien et <choice>
+        <abbr>briefvem<hi rend="sup">t</hi></abbr>
+        <expan>briefvement</expan>
+       </choice> faicte &amp; administrée,  <lb/><add place="below" type="catchword">font</add>
+       <pb n="5" facs="AEN_MJ_17_004_005"/>
+       <lb/>font prester serment aux tesmoings &amp; les <lb/>examinent, et sont tenuz seuls avec <app>
+        <lem>le <lb/>grephier</lem>
+        <rdg wit="AVN Q41, p. 3">les greffiers</rdg>
+       </app> expedier de plein et promptement, <lb/>et prendre sommaire cognoissance de toutes
+       <lb/>matieres n’exedant <measure origin="NE" type="currency" unit="livre faible"
+        quantity="20">vingt livres foibles</measure> en <lb/>principal &amp; valleur. <term
+        ref="lem017828">Item</term> les difficultez <lb/>entre maistre &amp; maistresse avec leurs
+       serviteurs <lb/>&amp; servantes pour leurs sallayres, et le loyer <lb/>de manouvriers, comme
+       aussy donner provision <lb/>d’aliments en cas necessaires en estant requis, <lb/>ce
+       neantmoings sy quelques unes des parties <lb/>demandent justice, elle luy sera fidellement
+       <lb/>administrée, comme de coustume sans autre <lb/>formalité et cognoissance de justice ou
+       longueurs, <lb/>et ainsy des autres semblables cas.</p>
+      <p>
+       <lb/>Lesdits chastelains &amp; mayres et en leur <lb/>absence leurs lieutenants, doibvent
+       aussy <choice>
+        <abbr>fidellem<hi rend="sup">t</hi></abbr>
+        <expan>fidellement</expan>
+       </choice>
+       <lb/>maintenir et deffendre la dignité, droits et <lb/>proffits du prince, comme aussy
+       empescher le <lb/>dommage et interest du public et privé, en <lb/>poursuivant un chescun
+        <term ref="lem017830.02">riere</term> sa jurisdiction, <lb/>tous delicts, forfaicts,
+       extorsion, et autres <lb/>excez &amp; meschancetez qui s’y peuvent <lb/>commettre par
+       enquestes &amp; demandes, selon <lb/>que le requerra l’exigence du faict a ce que <lb/>les
+       delinquants soyent punis &amp; <lb/><term ref="lem017829.03">chastiez</term>, selon leur
+       merite, &amp; les bons <lb/>maintenuz. <lb/><add place="below" type="catchword">Iceux</add>
+      </p>
+     <pb n="6" facs="AEN_MJ_17_006_007"/>
+      <p>
+       <lb/>Iceux officiers sont tenuz donner assistance <lb/>aux estrangers ou autres personnes
+       ignorants <lb/>les coustumes du pays, et d’ailleurs mal assistez <lb/>a ce qu’ils ne soyent
+       circonvenuz &amp; foulez.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> que les presentes coustumes, <app>
+        <lem>ordonnances <lb/>&amp; decrets, dressez et a dresser par l’advis des <lb/>audiances
+         generales</lem>
+        <rdg wit="AVN Q41, p. 3">dressées, et a dresser <lb/>et toutes ordonnances, et decrets qui
+         seront faits et establis <lb/>par l’advis des Audiances</rdg>
+       </app>
+       <choice>
+        <abbr>po<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> ceste souverayneté <lb/>soyent bien observées et ensuivies.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> doibvent lesdits officiers, justiciers, &amp;
+       <lb/>grephiers se prendre soigneusement garde <term ref="lem017830.02">riere</term>
+       <lb/>leurs charges et ressorts des desordres &amp; abuz, <lb/><choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> s’y glissent, et autres choses qu’ils y cognoistront <lb/>estre necessaire a
+       reformer, statuer et ordonner <lb/>pour en donner advis a Son Altesse ou a son
+       <lb/>lieutenant general, afin d’y pourvoir de temps a <lb/>autre par l’advis desdites
+       audiences, ainsy que <lb/>rayson<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 3"> sera</rdg>
+       </app>.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> que les espanes, c’est a dire, choses trouvées,
+       <lb/>apres avoir esté publiées aux prosnes des eglises <lb/>ou es lieux ou la justice se
+       tient et sied par <lb/>quatre divers dimanches ou quatre divers jours <lb/>de <term
+        ref="lem015614">plaid</term> de huictaine en huictayne, au ressort <lb/>soit, chastelanie ou
+       mayorie, ou elle sera trouvée, <lb/>afin <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> sy c’est chose de petite valeur ou importance <lb/><add place="below"
+        type="catchword">et</add>
+       <pb n="7" facs="AEN_MJ_17_006_007"/>
+       <lb/>et personne au bout dudit terme de le repette <lb/>avec bonnes
+       <term ref="lem015434.02">entreseignes</term>, elles soyent retirées <lb/>et mises au proffit du prince, Mais sy
+       c’est <lb/>chose de grande valeur et importance, celuy <lb/>auquel elle appartiendra, sera
+       attendu <date dur-iso="P1Y6W"><term ref="lem014776.02">an &amp; <lb/>jour</term></date>.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> de retirer le bien des bastards decedans <lb/>sans
+        <term ref="lem015995.02">hoirs</term>, comme aussy les confiscations des <lb/>criminels,
+       executez tant <term ref="lem017830.02">riere</term> leur ressort, <lb/>qu’ailleurs, ou que ce
+       soit en &amp; hors ceste souve<lb break="no"/>rayneté, qui ont quelque bien au dedans de
+       <lb/>leur ressort &amp; jurisdiction.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> la succession de ceux qui meurent <lb/>ab intestat,
+       sans laisser aucuns parents, &amp; <lb/>s’il y a <term ref="lem015995.02">hoirs</term> ou
+       parents <app>
+        <lem>estants</lem>
+        <rdg wit="AVN Q41, p. 4"/>
+       </app> absents, eux <lb/>seront attenduz <date dur-iso="P1Y6W"><term ref="lem014776.04">an et
+         jour</term></date>, que s’ils ne <choice>
+        <abbr>vienet</abbr>
+        <expan>vienent</expan>
+       </choice>
+       <lb/>dans ledit terme, ayants sçeu le decez de leur <lb/>parent, les heritages et meubles
+       seront escheuz <lb/>au prince, et que sy iceux sont en terre loing<lb break="no"/>taine,
+       n’ayans peu estre advertis dudit decez <lb/>viendront tousjour assez d’heure <choice>
+        <abbr>po<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> aprehender <lb/>la succession de leur parent.</p>
+      <p>
+       <lb/>Tous <term ref="lem019251.02">chesaux</term> qui seront laissez sans estre <lb/>rebastis
+       dans les villes l’espace de <date dur-iso="P3Y">trois ans</date>,  <lb/><add place="below"
+        type="catchword">seront</add>
+       <pb n="8" facs="AEN_MJ_17_008_009"/>
+       <lb/>seront aussy retirez par lesdits officiers <lb/>au proffit du prince, comme aussy de
+       mesmes <lb/>les vignes sans cultiver dans ledit terme.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> les aubaines des estrangers, habituez <lb/><term
+        ref="lem017830.02">riere</term> ceste souverayneté et pays, qui y sont <lb/>decedéz sans
+       avoir esté <term ref="lem019252.02">abergez</term> et naturalisez, <lb/>et sy lesdits
+       estrangers ou autres tirent <app>
+        <lem>ou <lb/>meinent</lem>
+        <rdg wit="AVN Q41, p. 4">et emmennent</rdg>
+       </app> leur bien hors de ce lieu et pays, <lb/>lesdits officiers un chescun <term
+        ref="lem017830.02">riere</term> son ressort <lb/>ou le cas advient doit retirer et lever le
+       droit <lb/>de distraction que nos <term ref="lem017831.02">circonvoisins</term> appellent
+        <lb/><foreign xml:lang="de"><term ref="lem001009.07">Abzúg</term></foreign>, des biens que
+       lesdits estrangers ont <term ref="lem017830.02">riere</term>
+       <lb/>ceste souveraineté, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 4">et</rdg>
+       </app>en sera usé envers les voisins <lb/>pour ledit <foreign xml:lang="de"><term
+         ref="lem001009.07">Abzúg</term></foreign>, <choice>
+        <abbr>come</abbr>
+        <expan>comme</expan>
+       </choice> ils en usent envers nous.</p>
+      <p>
+       <lb/>Et ne peuvent les estrangers estre reçeuz habitants <lb/>ny <term ref="lem014812.02"
+        >communiers</term> d’aucune ville ny communauté <lb/>sans la <term ref="lem017832"
+        >licence</term> et permission premiere du prince <lb/>et ses lettres de naturalité &amp;
+        <term ref="lem017833.03">abergements</term>, &amp; <lb/>encor que clandestinement ils
+       fussent reçeuz <lb/>desdites <app>
+        <lem>communes</lem>
+        <rdg wit="AVN Q41, p. 5">communaultés</rdg>
+       </app> ne pourront pourtant jouyr <lb/>ny pretendre avoir acquis droit de naturalité
+       <lb/>&amp; <term ref="lem017833.02">abergements</term>, <term ref="lem015643">ains</term>
+       seront subjects a l’<term ref="lem017834.02">aubeyne</term>.</p>
+     <pb n="9" facs="AEN_MJ_17_008_009"/>
+      <p>
+       <lb/><term ref="lem017828">Item</term> les <term ref="lem016349.02">escheuttes</term> des
+       subjects de <lb/><term ref="lem017835">mainmorte</term>, s’il en advient par leur decez,
+       <lb/>sans <term ref="lem015995.02">hoirs</term> legitimes de leurs corps.</p>
+      <p>
+       <lb/>Et doibvent lesdits chastelains &amp; mayres <lb/>retirer et faire adjuger au prince
+       tous <choice>
+        <abbr>aues</abbr>
+        <expan>autres</expan>
+       </choice>
+       <lb/><term ref="lem016291.02">deniers</term> casuels, <term ref="lem018031.07">bamps</term>
+       et amendes qui <lb/>adviennent et <term ref="lem016349.03">escheent</term> en leurs ressorts
+        <lb/><term ref="lem017830.02">riere</term> leurs charges et jurisdictions, pour <lb/>les
+       mettre entre les mains de ceux qui <lb/>en doibvent estre comptables a son Altesse <lb/>a
+       forme de leur serment.</p>
+      <p>
+       <lb/>Iceux officiers ne se doibvent joindre <lb/>aux <app>
+        <lem>personnes</lem>
+        <rdg wit="AVN Q41, p. 5">parties</rdg>
+       </app> privées en procez, ny <app>
+        <lem>mesme</lem>
+        <rdg wit="AVN Q41, p. 5"/>
+       </app>
+       <lb/>entreprendre cause d’importance pour le <lb/>prince sans l’advis d’un seigneur
+       gouverneur <lb/>ou <orgName ref="org003098">Conseil d’Estat</orgName>, pour estre au
+       prealable <lb/>cognu et deliberé du subject de la matiere, <lb/>sy le prince y a droit ou
+       interest.</p>
+      <p>
+       <lb/>Lesdits <app>
+        <lem>chastelains et mayres</lem>
+        <rdg wit="AVN Q41, p. 5">officiers</rdg>
+       </app>, <lb/>ny aussy leurs lieutenants ne doibvent  <lb/><add place="below" type="catchword"
+        >vendre</add>
+       <pb n="10" facs="AEN_MJ_17_010_011"/>
+       <lb/>vendre vin pour tenir taverne ou cabaret, <lb/><term ref="lem015643">ains</term> se
+       doibvent abstenir de faire tel <lb/>trafficq d’<term ref="lem017836">hostelage</term> et de
+       taverne.</p>
+    </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

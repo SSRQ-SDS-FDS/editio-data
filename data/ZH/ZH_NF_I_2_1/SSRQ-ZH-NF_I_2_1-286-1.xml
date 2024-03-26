@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-286-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW AB 16/12 (r)</idno></msIdentifier><head>Bescheinigung über die Befreiung aus der Leibeigenschaft als Bedingung für die Aufnahme in das Bürgerrecht der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur erklären: Die Brüder Christoph und Ulrich Müller von Bischofszell haben im Namen ihrer Geschwister vorgebracht, dass man von ihnen den Fall für ihren verstorbenen Vater Christoph gefordert habe, als ob er leibeigen gewesen sei. Vor seinem Wegzug nach Bischofszell habe er als Bürger in Winterthur gelebt und sich als Vorbedingung für die Aufnahme ins Bürgerrecht aus der Leibeigenschaft freikaufen müssen. Auf Bitten der Brüder bestätigen Schultheiss und Rat, dass nach städtischer Rechtspraxis nur Personen als Bürger aufgenommen werden, die sich zuvor aus der Leibeigenschaft befreit haben.</summary><msItem><textLang xml:lang="de"/><author role="scribe"><persName ref="per027406">Christoph Hegner</persName></author><filiation type="current">Entwurf (Einzelblatt), mit Federproben</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="32.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1540-04-12"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000134">Bürgerrecht</term><term ref="key000183">Fall</term><term ref="key000084">Leibeigenschaft</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="1" facs="STAW_AB_16_12_S.1"/>
+                        <p><seg>
+                            <lb/>Wir, <orgName role="issuer" ref="org007943">schultheis unnd raͧt zuͦ <placeName ref="loc000849">Winterthur</placeName></orgName>, thuͦnd kund allermengklichem
+                            <lb/>mit disem brieff, das in offenn, versamlatem <orgName ref="org005587">raͧte</orgName> vor unns erschinen sind
+                            <lb/>die ersamen <persName ref="per027543">Cristoffell</persName> und <persName ref="per027553">Uͦlrich Müller</persName>, gebruͦdare, inamen ir selbs und ander
+                            <lb/>irer geschwüstergit, von <placeName ref="loc006402">Bischoffzaͤll</placeName>, unnd eroͤffneten, als dan uns wüsend, wie
+                            <lb/><persName ref="per027542">Cristoffell Müller</persName>, ir lieber vater saͤlig, ein lange zit <subst><del>hinder</del>
+                                <add place="above">by</add></subst> uns als ein <add place="above">ingesaͤsner</add> burger <subst><del>gesaͤsen</del>
+                                    <add place="left margin">gewont</add></subst>,
+                            <lb/>volgentz <add place="above" type="sign">von uns</add> hinuff gan <placeName ref="loc006402">Bischoffzaͤll</placeName> zogen, sich <add place="above" type="sign">alda</add> bitz uff sin absterbenn enthalten. Nun sig<lb break="no"/>ind sy kurtzer tagen umb den fall, als oͤb sy von ime libeigen soͤlten sin, angezogen,
+                            <lb/>das sy groͤslich beschwaͤrdt, dan ir vater saͤlig, als er unser burger worden, sich der
+                            <lb/>libeigentschafft frig abkuͦfft, dwill wir soͤlichs im bruch, oͤb einer angenomen werd,
+                            <lb/>soͤlichs thuͦn muͤsse, sonst nit angenomen wu̍rden. Deßhalb sy nit mer begaͤr<lb break="no"/>ind, inen unser graͤchtikeit, wie wir soͤlichs, so wir einen burger annemenn, halten,
+                            <lb/>glouplich urkund darvͦn geruͦchen weltind.</seg>
+                            <seg>Also uff solich ir zimlich begaͤren
+                                <lb/>wir inen solichs nit koͤnen versagen, bezuͤgenn deßhalb hiemit, wie uns dan
+                                <lb/>solichs gepuͤrt, das ye und alwaͤg unser stat bruch und raͤcht gsin und noch ist,
+                                <lb/>so einer unser burger hat wellenn sin und oͤthwann an orten und enden mit
+                                <lb/>der libeigentschafft halb behafft gwaͤsen, das der selbig zevor, oͤb er anngenomenn
+                                <lb/>und bestaͤt ist worden, sich der selbigenn frig hat müssen abkuͦffen und ledig ma<lb break="no"/>chenn <abbr>etc</abbr>.<note>In einem Formularbuch des Stadtschreibers von <placeName ref="loc000849">Winterthur</placeName> findet sich die Beurkundung einer solchen Manumission (<bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-247-1">SSRQ ZH NF I/2/1 247-1</ref></bibl>).</note></seg>
+                            <seg>Zuͦ urkund habenn wir unser stat secret insigel lasen
+                                <lb/>trucken in disen brieffe unnd den obernemptenn <persName ref="per027543">Cristoffel</persName> und <persName ref="per027553">Uͦlrich
+                                    <lb/>Müller</persName> uff ir begaͤr gegeben, <origDate when="1540-04-12">mentags nach sontag miserycordia, nach
+                                        <lb/>Christy gepurt gezalt fünffzechenhundert und vierzig jar</origDate>.</seg>
+                        </p>
+                        <p>
+                            <lb/><add hand="later hand" place="below">Funffzehennhundert</add>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Zur Leibeigenschaft vgl. den Kommentar zu <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-55-1">SSRQ ZH NF I/2/1 55-1</ref></bibl>.</p>
+                        <p>Dieses Schreiben wurde offenbar nicht ausgefertigt, darauf deuten Federproben hin. Wachsspuren sind zwar vorhanden, doch scheint das Wachs nicht geprägt oder das Siegel vor dem Festwerden wieder entfernt worden zu sein. Auf der Rückseite findet sich der Entwurf einer Urkunde des <orgName ref="org007943">Schultheissen und Rats von <placeName ref="loc000849">Winterthur</placeName></orgName> vom 3. Mai 1540.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

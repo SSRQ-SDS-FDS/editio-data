@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+     <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+     <?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+     <TEI xmlns="http://www.tei-c.org/ns/1.0"  
+      xml:lang="fr">
+      <teiHeader>
+       <fileDesc>
+        <titleStmt>
+         <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+         <respStmt>
+          <persName>Adrien Wyssbrod</persName>
+          <resp key="transcript"/>
+         </respStmt>
+         <respStmt>
+          <persName>Arnaud Besson</persName>
+          <resp key="headerinfo"/>
+         </respStmt>
+         <respStmt>
+          <persName>Adrien Wyssbrod</persName>
+          <resp key="tagging"/>
+         </respStmt>
+         <respStmt>
+          <persName>Arnaud Besson</persName>
+          <resp key="qualitycheck"/>
+         </respStmt>
+        </titleStmt>
+        <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+         <date type="electronic" when="2020-08-17"/>    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+        <seriesStmt xml:id="ssrq-sds-fds">
+         <title>Les sources du droit suisse</title>
+         <respStmt>
+          <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+          <resp/>
+         </respStmt>
+         <idno>SDS-NE-3-219-1</idno>
+        </seriesStmt>
+        <sourceDesc>
+         <msDesc>
+          <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+           <idno xml:lang="fr">AVN B 101.14.001, fol. 475v</idno>
+          </msIdentifier>
+          <head>Ordre de succession des arrière-neveux</head>
+          <msContents>
+           <summary>À défaut de neveux et nièces, les arrière-neveux ou arrière-nièces héritent des biens de leur oncle ou tante, à l’exclusion des cousins germains ou cousines germaines.</summary>
+           <msItem>
+            <textLang xml:lang="fr"/>
+            <filiation type="current"/>
+           </msItem>
+          </msContents>
+          <physDesc>
+           <objectDesc>
+            <supportDesc>
+             <support>
+              <material>Papier</material>
+             </support>
+             <extent>
+              <dimensions type="leaves">
+               <height unit="cm" quantity="33"/>
+               <width unit="cm" quantity="23.5"/>
+              </dimensions>
+             </extent>
+            </supportDesc>
+           </objectDesc>
+          </physDesc>
+          <history>
+           <origin>
+            <origDate when="1669-12-01" calendar="Julian"/>
+            <origPlace ref="loc007786">Neuchâtel</origPlace>           </origin>
+          </history>
+          <additional>
+           <listBibl>
+            <head/>
+            <bibl/>
+           </listBibl>
+          </additional>
+         </msDesc>
+        </sourceDesc>
+       </fileDesc>
+       <encodingDesc>
+        <editorialDecl>
+         <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+        </editorialDecl>
+       </encodingDesc>
+       <profileDesc>
+        <textClass default="false">
+         <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term ref="key000815"></term>
+          <term ref="key000920"></term>
+          <term ref="key000232"></term>
+          <term ref="key005074"></term>
+          <term ref="key000178"></term>
+          <term ref="key005151"></term>
+         </keywords>
+        </textClass>
+       </profileDesc>
+      </teiHeader>
+      <text>
+       <group>
+        <text>
+         <body>
+          <pb n="475v" facs="AVN_B_101.14.001_0475v"/> 
+     <div>
+      <head>
+       <lb/>Touchant la succession d’un <term ref="lem017830.02">riere</term>
+       <lb/>nepveu ou d’une niepce à l’exclusion d’un cousin
+       <lb/>ou d’une cousine.
+      </head>
+      <p>
+       <lb/>Sur la requeste presentée de <lb/>la part de noble &amp; prudent <choice>
+        <abbr>s<hi rend="sup">r</hi>.</abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per010140a.01">Louys Barillier</persName>
+       <lb/>mayre de <placeName ref="loc007803.02">Lignieres</placeName> par devant <choice>
+        <abbr>monsr.</abbr>
+        <expan>monsieur</expan>
+       </choice> le maistre <lb/>bourgeois &amp; <orgName ref="org003085">Conseil Estroit de la Ville de
+        <placeName ref="loc007786">Neufchâtel</placeName></orgName>, <lb/>tendante aux fins d’avoir le point de
+       coustume <lb/>suivant. </p>
+      <p>
+       <lb/>Sçavoir si des <term ref="lem017830.02">riere</term> nepveux &amp; <term ref="lem017830.02">riere</term> niepces
+       <lb/>ne sont pas preferables à la successions des biens d’un
+       <lb/>oncle à un cousin ou à une cousine.       
+      </p>
+      <p>
+       <lb/><orgName ref="org003085"><choice>
+         <abbr>Mesd</abbr>
+         <expan>Mesdits</expan>
+        </choice><choice>
+         <abbr>s<hi rend="sup">rs</hi>.</abbr>
+         <expan>sieurs</expan>
+        </choice> du Conseil</orgName> ayant eu advis &amp; meure <lb/>premeditation par ensemble
+       <term ref="lem015635.04">baillent</term> par déclaration <lb/>que suivant la coustume usitée en la souveraineté <lb/><choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <placeName ref="loc007785">Neufchâtel</placeName> de père à fils &amp; de tout temps <lb/>immemorial jusqu’à
+       présent la Coustume estre telle. </p>
+      <p>
+       <lb/>Assavoir que manque de nepveux &amp; de niepces
+       <lb/>les <term ref="lem017830.02">riere</term> nepveux &amp; <term ref="lem017830.02">riere</term> niepces peuvent heriter les
+       <lb/>biens d’un oncle ou d’une tante à l’exclusion d’un
+       <lb/>cousin germain ou d’une cousine germaine.
+      </p>
+      <p>
+       <lb/>Ce qu’a esté ainsi passé, conclud &amp; arresté <del rend="blackened">les</del>
+       <lb/><choice>
+        <abbr>aud</abbr>
+        <expan>audit</expan>
+       </choice>
+       <orgName ref="org003085">Conseil</orgName> le <origDate when="1669-12-01" calendar="Julian">premier jour de décembre 1669</origDate>, et <lb/>ordonné à
+       moy secrétaire de Ville l’expédier en cette <lb/>forme sous le seel de la mayorie &amp;
+       justice dudit <lb/><origPlace ref="loc007786">Neufchâtel</origPlace>, &amp; signature de ma main. </p>
+      <p>
+       <lb/>Levé pour copie comme devant
+      </p>
+     </div>
+          <div>
+           <signed><persName ref="per008992"><choice><abbr>N</abbr><expan>Nicolas</expan></choice> Huguenaud</persName> <figure type="notarial sign"/></signed>
+          </div>
+    </body>
+         <back>
+          <div>
+           <p>Ce point de coutume est cité dans le point <ref target="urn:ssrq:SDS-NE-3-290-1">SDS NE 3 290-1</ref>.</p>
+          </div>
+         </back>
+   </text>
+  </group>
+ </text>
+</TEI>

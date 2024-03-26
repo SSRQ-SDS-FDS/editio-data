@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-136.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 470–472</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 470–472</idno>
+					</msIdentifier>
+					<head xml:lang="de">Isabelle Grosset-Fornerod – Verhör</head>
+					<head xml:lang="fr">Isabelle Grosset-Fornerod – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-09-10"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="470"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-09-10">10 <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> 1647</origDate>
+						<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+						<seg><lb/><persName ref="per013433a.01"><choice><abbr>C</abbr><expan>Caspar</expan></choice> Techterman</persName></seg>
+						<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017940">Catherine Fruyo-Magnin</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-135.13-1">SSRQ FR I/2/8 135.13-1</ref>.</note></p>
+						<pb n="471"/><p><lb/><persName ref="per017944b.01">Isabell</persName>, fille de feu <persName ref="per017960a.01">Bernard Fourneroud</persName> en son vivant de <placeName ref="loc007649.05">Domp<lb break="no"/>didier</placeName>,
+							<term ref="lem014767.01">relicte</term> de feu <persName ref="per017962a.01">Antheyno Grosset</persName> de <placeName ref="loc008334">Orsonnens</placeName> qui est
+						<lb/>mort de l’enfleure desja avant <date dur-iso="P10Y">10</date> ou <date dur-iso="P11Y">11 ans</date>, detenue pour cas de
+							<lb/><term ref="lem018521.02">sorcelerie</term> et examinee tout au long de l’<term ref="lem018363">inquisition</term> de son deporte<lb break="no"/>ment, a en premier resoluement <add place="above">dit</add> qu’elle n’estoit point <term ref="lem019389.02">sorciere</term> et
+						<lb/>n’avoit onques <add place="above">veu</add> le <term ref="lem015433.10">maling</term>, ny aucun mauvais umbre. Le subject pour<lb break="no"/>quoy sondit marry defunct la battit, est que a cause du grand tra<lb break="no"/>vail et <term ref="lem014893.03">tenements</term> qu’ils labouroient, en qualité des grangiers,
+						<lb/><term ref="lem015635.11">bailla</term> a allaicter son enfant a un’autre nourrice pour tant
+						<lb/>mieux vaquer et faire leur mesnage&#160;; et aussy que aucuns la
+						<lb/>avoient rendue suspecte aupres de son marry, comme si elle ne <add place="above">luy</add> por<lb break="no"/>toit fidelité conjugale, ce que par aprés se trouva estre faux&#160;;
+						<lb/>et ceux qui luy avoient suslevee ceste mesdisance et detraction,
+						<lb/>luy en avoir dheuement demandé pardon et retracté ces injures.
+						<seg><lb/>Estre vray que voullant avant quelque temps aller a <placeName ref="loc008140.05">Villargyroud</placeName>
+							<lb/>et y demander l’<term ref="lem021653.11">auxmosne</term>, et passant son chemin, rencontra
+						<lb/>beaucoup des paisants (qui a ce qu’ils luy disirent) avoient
+							<lb/>perduz une <term ref="lem019400.02">chevre</term>, que le <term ref="lem019401.01">loup</term> leur avoit prinse<note>Cette chasse au loup est aussi évoquée par <persName ref="per017913">Jean Jolion</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-133.7-1">SSRQ FR I/2/8 133.7-1</ref>.</note>, sans que
+						<lb/>jamais elle en ait sceu nouvelle, ny que oncques elle soit estee
+							<lb/>transformee en <term ref="lem019401.01">loup</term>, ny faict <term ref="lem018017.04">mechoir</term> le <term ref="lem015442.06">poullain</term> <add place="above" type="sign">de <persName>Claude Chouvay</persName></add> ou autre
+						<lb/>bestail, que Dieu l’en preserve.</seg> <seg>Lors qu’estant venue d’une
+						<lb/>dedicace, ou <add place="above">ce</add> qu’on luy avoit <term ref="lem015635.10">baillé</term> du pain et autres sortes de
+						<lb/>viandes, qu’elle tiroit hors de son sac ou <term ref="lem018064">devantier</term>, un certain
+						<lb/>jeusne garçon nommé <persName>Pierre Berset</persName> s’approcha d’elle, <subst><del>et</del>
+						<lb/><add place="inline">luy</add></subst> demanda du pain et prit un petit morceau de tourteau,
+							<lb/>autrement dit de la <term ref="lem018065">flianzi</term> faicte avec des <term ref="lem019398.02">oeufs</term>, et, l’ayant
+						<lb/>mangé, devient peu de temps aprés malade et (a ce qu’on luy a
+						<lb/>dit) vomissoit, et ne pouvoit retenir la viande en soy, tant qu’on
+						<lb/>la soubçonna de luy avoir causé cet mal, mais qu’il luy en
+						<lb/>arrivoit grand tort, ne sçachant d’ou son mal provenoit, que
+						<lb/>la mere dudit <persName>Berset</persName> vient mesmement a elle et, pour avoir
+						<lb/>ehu soubçon sur elle, luy <term ref="lem019498">cria mercy</term>, la priant de la pardonner.</seg>
+						<seg><lb/>Ne sçait si elle fut le jour <date when="--11-30"><choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per000303a.09">Andrey</persName></date> chez <persName>Pierre Thie<lb break="no"/>mard</persName>, et encor qu’elle y seroit estee, n’y avoir pourtant causé ny
+						<lb/>faict aucun mal, ny a personne que ce soit. Veut que Dieu luy
+							<pb n="472"/><lb/>pardonne tous ses <term ref="lem019539.03">pechés</term>, que ceux de <term ref="lem018521.01">sorcellerie</term> et <term ref="lem019470.01">lubricité</term>,
+						<lb/>sçachant bien (Dieu mercy) n’en estre aucunement attainte, que
+						<lb/>ceux qui l’en accusent luy font mechament tort, ce qu’elle
+							<lb/>soustient a la simple <term ref="lem018231">corde</term> et <term ref="lem019498">crie mercy</term>.<note>Le passage qui suit concerne le procès mené contre <persName ref="per017908">Madeleine Gillet-Richod</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-132.11-1">SSRQ FR I/2/8 132.11-1</ref>.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

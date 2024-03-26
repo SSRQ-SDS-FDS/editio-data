@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.36-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 128–135</idno>
+     </msIdentifier>
+     <head>Dot et douaire</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key003398"/>
+     <term ref="key005816"></term>
+     <term ref="key000863"></term>
+     <term ref="key000865"></term>
+     <term ref="key000558"></term>
+     <term ref="key000138"></term>
+     <term ref="key003521"></term>
+     <term ref="key000815"></term>
+     <term ref="key000023"></term>
+     <term ref="key005223"></term>
+     <term ref="key005137"></term>
+     <term ref="key005006"></term>
+     <term ref="key005001"></term>
+     <term ref="key005489"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="128" facs="AEN_MJ_17_128_129"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chapp.</abbr>
+        <expan>Chappitre</expan>
+       </choice>
+       <app>
+        <lem>XXXVI</lem>
+        <rdg wit="AVN Q41, p. 48">XXXV</rdg>
+       </app>. <lb/>Du dot et <term ref="lem018011">douaire</term></head>
+      <p>
+       <lb/><app>
+        <lem>Le</lem>
+        <rdg wit="AVN Q41, p. 48"><term ref="lem018011.02">Douayre</term> ou</rdg>
+       </app> dot <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 48">de <lb/>mariage</rdg>
+       </app> est une chose donnée a <lb/>cause de mariage pour en <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 48">plus facille<lb break="no"/>ment pouvoir</rdg>
+       </app> soustenir <lb/>et porter les charges.</p>
+      <p>
+       <lb/>Et peut estre constitué en <lb/><term ref="lem016291.02">deniers</term>, meubles,
+       immeubles, heritages, <lb/>et autres biens, et est le mary tenu <lb/>bien asseurer le dot <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 48">et <term ref="lem018011.02">douayre</term></rdg>
+       </app> de sa femme. <lb/><add place="below" type="catchword">Le</add>
+      </p>
+     <pb n="129" facs="AEN_MJ_17_128_129"/>
+      <p>
+       <lb/>Le mary durant le mariage est <lb/>seigneur util du dot de sa femme, et <lb/>des fruicts
+       et revenuz en provenants <lb/>en peut user et disposer a sa volonté <lb/>pour le proffit
+       commun.</p>
+      <p>
+       <lb/>Mais il ne peut alliener ny mettre <lb/>hors de ses mains, les obligations, <lb/>rentes
+       constituées, terres et heritages <lb/>mouvants du dot de sa femme, sans <lb/>le consentement
+       &amp; ratiffication <lb/>d’icelle.</p>
+      <p>
+       <lb/>S’il n’est autrement convenu en <lb/>faisant les fiançailles, comme il est <lb/>libre a
+       un chescun, selon la coustume <lb/>de ceste souveraineté,<note>Nouveau paragraphe dans
+        AVN Q41.</note> les <app>
+        <lem>acquis</lem>
+        <rdg wit="AVN Q41, p. 49">acquets</rdg>
+       </app> qui <lb/>se font durant le mariage, appartiennent <lb/>la moitie a la femme, s’il n’y
+       a <lb/>enfans de leur mariage, attendu que <lb/>selon ladite coustume mary &amp; <lb/>femme
+       sont en communion de biens,<note>Nouveau paragraphe dans AVN Q41.</note>
+       <lb/>toutesfois <app>
+        <lem>que</lem>
+        <rdg wit="AVN Q41, p. 49"/>
+       </app> la femme n’est entenue <lb/><add place="below" type="catchword">sur</add>
+       <pb n="130" facs="AEN_MJ_17_130_131"/>
+       <lb/>sur son dot et bien <app>
+        <lem><term ref="lem014957.02">par affrenaux</term></lem>
+        <rdg wit="AVN Q41, p. 49"><choice>
+          <sic>paraffrenaux</sic>
+          <corr><term ref="lem014957.03">paraffernaux</term></corr>
+         </choice></rdg>
+       </app>, c’est <lb/>a dire <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 49">sur</rdg>
+       </app> ses biens particuliers payer ny <lb/>respondre aucune chose des fiancements,
+       <lb/>desbauches, pour yvrogneries et autres <lb/>fraits <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 49">et despences</rdg>
+       </app> que son marry pourroit faire <lb/>mal a propos.</p>
+      <p>
+       <lb/>Ne sont reputez acquets ce qui revient <lb/>et <term ref="lem016349.04">eschet</term>
+       par succession colatteralle, <lb/>soit au marry ou a la femme, ny les <lb/>donnations et
+       presents qui leur sont <lb/>faits durant leur mariage, <choice>
+        <abbr>come</abbr>
+        <expan>comme</expan>
+       </choice> aussi <lb/>les acquisitions faites par le mary <lb/>ne sont censez acquets, sy
+       pendant <lb/>le mariage il a alliené de son propre, <lb/>jusques a ce que ledit propre soit
+       <lb/>remplacé.</p>
+      <p>
+       <lb/>Le dot se doit rendre a celuy <lb/>qui l’a constitué, sy la femme <lb/>meurt dedans <app>
+        <lem>un</lem>
+        <rdg wit="AVN Q41, p. 49"/>
+       </app> <app>
+        <lem><date dur-iso="P1Y6W">an &amp; six sepmaynes</date></lem>
+        <rdg wit="AVN Q41, p. 49"><term ref="lem014776">an et jours</term></rdg>
+       </app>, <lb/>sans laisser lignée a compter du jour <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>le mariage prend sa perfection <app>
+        <lem>a</lem>
+        <rdg wit="AVN Q41, p. 49">en</rdg>
+       </app>
+       <lb/>l’eglise, sans que le mary y puisse <lb/><add place="below" type="catchword"
+        >prendre</add>
+       <pb n="131" facs="AEN_MJ_17_130_131"/>
+       <lb/>prendre aucun usufruict, en luy estant <lb/>restituées les bagues, habits &amp; joyaux
+       <lb/>qu’il luy avoit <term ref="lem015635.20">baillez</term>, et <choice>
+        <abbr>semblablem<hi rend="sup">t</hi></abbr>
+        <expan>semblablement</expan>
+       </choice>
+       <lb/>payé<app>
+        <lem>. Le dot</lem>
+        <rdg wit="AVN Q41, p. 49">le don</rdg>
+       </app> qui <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 49">luy</rdg>
+       </app> auroit esté promis <lb/>en contractant ledit mariage. Et <lb/>sy le mary vient a mourir
+       dedans <lb/><date dur-iso="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 49">c’est a dire devant qu’il y ait un an entier et <lb/>six sepmaines
+         accomplis,</rdg>
+       </app> elle n’a <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 49">aussi</rdg>
+       </app> aucun usufruict, <lb/>mais ce <app>
+        <lem>que</lem>
+        <rdg wit="AVN Q41, p. 49">qui</rdg>
+       </app> luy a esté donné en <lb/>habits, bagues et joyaux luy <lb/>demeurent.</p>
+      <p>
+       <lb/>Et nonobstant que les mariez <lb/>soyent plus longtemps, sans toutes<lb break="no"/>fois
+       avoir enfans par ensemble, le dot <lb/>se rend tousjour, mais le mary le <lb/>peut jouyr par
+       usufruict sa vie <lb/>durant avec les acquets &amp; reste <lb/>des biens revenuz a sadite
+       femme <lb/>durant leur mariage tout <lb/>entierement.</p>
+      <p>
+       <lb/>La femme ne peut avec son dot <lb/>repeter autre <term ref="lem018011">douaire</term>
+       sur les biens  <lb/><add place="below" type="catchword">de</add>
+       <pb n="132" facs="AEN_MJ_17_132_133"/>
+       <lb/>de son mary deffunct que le quart <lb/>des meubles &amp; acquets s’il y a <lb/>enfans
+       vivants de leur mariage, <lb/>mais s’il n’y en a <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 49">point</rdg>
+       </app> la juste moitie <lb/>de tous meubles et acquets, en se <lb/>chargeant toutesfois a
+        l’<term ref="lem017986.02">equipolent</term>
+       <lb/>des debtes qu’ils auroyent faites <lb/>par ensemble.</p>
+      <p>
+       <lb/>Tandis que la femme demeure en <lb/><term ref="lem015063">viduité</term>, elle peut
+       jouyr par usufruict <lb/>de tous les biens de son mary, en <lb/>nourrissant, vestant et
+       mariant <lb/>tous les enfans de sondit mary. Et <lb/>sy elle vient a se <app>
+        <lem>remarier</lem>
+        <rdg wit="AVN Q41, p. 50">marier</rdg>
+       </app> ne peut <lb/>jouyr que du tier des acquets faits <lb/>constant leur mariage, sy
+       d’iceluy <lb/>il y a enfans vivans, et s’il n’y <lb/>a point d’acquets du quart des biens
+       <lb/>de son mary deffunct, mais s’il <lb/>n’y a point d’enfans elle peut jouyr <lb/>par
+       usufruict du tier de tous les biens de <choice>
+        <abbr>sond</abbr>
+        <expan>sondit</expan>
+       </choice>
+       <lb/>mary, en se chargeant a portion des debtes.  <lb/><add place="below" type="catchword"
+        >Sy</add>
+      </p>
+     <pb n="133" facs="AEN_MJ_17_132_133"/>
+      <p>
+       <lb/>Sy un homme a enfans de deux <lb/>ou plusieurs licts, la derniere <lb/>femme survivant
+       iceluy son mary <lb/>demeure douée &amp; usufructuaire a la <lb/>forme que <app>
+        <lem>sy</lem>
+        <rdg wit="AVN Q41, p. 50"/>
+       </app> dessus, sur la portion <lb/>d’heritage de sondit mary, appartenante <lb/>aux enfans
+       qu’elle a heu de luy <lb/>seulement, &amp; non sur la portion <lb/>des enfans des <app>
+        <lem>deux</lem>
+        <rdg wit="AVN Q41, p. 50"/>
+       </app> autres licts<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 50"> qui ne sont point sortis ny nés d’elle</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Les <term ref="lem014766.03">trossels</term>, habits &amp; joyaux <lb/><app>
+        <lem>que</lem>
+        <rdg wit="AVN Q41, p. 50">qui</rdg>
+       </app> sont en estre, sont renduz <lb/>a la femme, le mary la survivant <lb/>en est heritier,
+       sy elle n’a aucuns enfans, <lb/>mais s’il y en a, le mary n’a la <lb/>jouyssance que de la
+       moitie sa vie <lb/>durant, assavoir le quart <choice>
+        <abbr>po<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> luy, <lb/>les siens, et l’autre quart <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice>
+       <lb/>l’usufruict.</p>
+      <p>
+       <lb/>Le mary constant le mariage  <lb/><add place="below" type="catchword">peut</add>
+       <pb n="134" facs="AEN_MJ_17_134_135"/>
+       <lb/>peut disposer et ordonner selon sa <lb/>volonté des meubles estants <choice>
+        <abbr>comuns</abbr>
+        <expan>communs</expan>
+       </choice>
+       <lb/>et des acquisitions faits, pendant <lb/>ledit mariage, et s’il survit <lb/>a la femme il
+       demeure heritier <lb/>et seigneur des meubles.</p>
+      <p>
+       <lb/><term ref="lem016291.02">Deniers</term> de mariage assignez ou <lb/>promis d’assigner,
+       ou payer dans <lb/>certain terme reservé en contractant <lb/>le mariage, &amp; qui payez ne
+       <lb/>seront porte <term ref="lem014979.03">arrerage</term> a cinq pour <lb/>cent depuis le
+       jour que le <choice>
+        <abbr>payem<hi rend="sup">t</hi></abbr>
+        <expan>payement</expan>
+       </choice>
+       <lb/>se debvoit faire, et sy le terme <lb/>n’y avoit esté reservé, depuis l’année
+       <lb/>revolue de la consommation du <lb/>mariage.</p>
+      <p>
+       <lb/>Contract ou traicté de mariage <lb/>ne se peut rompre <app>
+        <lem>ne</lem>
+        <rdg wit="AVN Q41, p. 50">ny</rdg>
+       </app> vicier, &amp; <lb/>doibvent les conditions y contenues <lb/>estre observées<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 50"> fidellement</rdg>
+       </app>. <lb/><add place="below" type="catchword">Le</add>
+      </p>
+     <pb n="135" facs="AEN_MJ_17_134_135"/>
+      <p>
+       <lb/>Le mary apres le decez de sa <lb/>femme, est usufructuaire de <lb/>tous les biens
+       qu’elle a delaissé, <lb/>en laissant la <term ref="lem015074.03">ligitime</term> a <lb/>ses
+       enfans, sy elle en ha, et <lb/>s’il n’estoit autrement convenu <lb/>par le traicté de
+       mariage, <lb/>mais <app>
+        <lem>se remariant</lem>
+        <rdg wit="AVN Q41, p. 50">s’il se remarie</rdg>
+       </app>, &amp; il y a <lb/>enfans, ils jouyront la <lb/>moitie.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+  <back>
+   <div>
+    <p>L'ordre des chapitres est différent dans le manuscrit AVN Q41, sans que leur contenu n'en ait été modifié. Ce chapitre 36 y est présenté comme chapitre 35, le chapitre 35 comme 37 et le 37 comme 36.</p>
+   </div>
+  </back>
+ </text>
+</TEI>

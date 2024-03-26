@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-136-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 1CE-8, fol.&#160;116v-117r</idno>
+               </msIdentifier>
+               <head> Ordre donné, par Henri II de Longueville, à deux commissaires d'évaluer les biens des taillables du comté afin de déterminer le prix de leur affranchissement</head>
+               <msContents>
+                            <msItem>
+                     <textLang xml:lang="fr"/>
+                               <filiation type="original">Manuel du Conseil d’État</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34"/>
+                              <width unit="cm" quantity="21"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1627-04-27"/>
+                     <origPlace ref="loc010601">Paris</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_315">SDS NE 1, N<hi rend="sup">o</hi>&#160;136</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000157"></term>
+               <term ref="key005297"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="117r" facs="AEN_1CE_8_116v_117r"/>
+               <div>
+                  <p><seg><lb/>Henry, par la grace de Dieu prince &amp; comte <lb/>souverain de
+                     Neufchastel et de Vallangin en Suisse, duc de Longueville <lb/>et de Touteville,
+                     pair de France, aussi comte de Dunois, de Chaulmon <lb/>et de Tancarville,
+                     gouverneur et lieutenant general pour le roy <lb/>en la province de Normandie et
+                     connestable heredital d’icelle, <lb/>à nostre amé et feal le sieur de Saint
+                     Romain, gentilhomme <choice>
+                        <abbr>ord<hi rend="sup">re</hi></abbr>
+                        <expan>ordinaire</expan>
+                     </choice> <lb/>de la chambre du roy, conseillier en nostre conseil d’estat et <choice>
+                        <abbr>nre</abbr>
+                        <expan>nostre</expan>
+                     </choice> <lb/>ambassadeur en Suisse resident en <choice>
+                        <abbr>nredict</abbr>
+                        <expan>nostredict</expan>
+                     </choice> comté de Neufchastel, <lb/>salut.</seg> <seg>Ayant dès lors que nous estions en
+                     nostredict comté, à <lb/>la très humble requeste et supplication qui faicte nous
+                     a esté par <lb/>aulcungs de nos subjectz en iceluy, de condiction serville,
+                     taillable et <lb/>main mortable, de les voulloir de grace affranchir. Et
+                     pour <lb/>les taxes a telles sommes et redebvances que bon nous <lb/>sembleroit,
+                     l’affaire mise en deliberation de nostre conseil, de <lb/>l’advis d’iceluy, nous
+                     avons accordé a <choice>
+                        <abbr>nosdtz</abbr>
+                        <expan>nosdictz</expan>
+                     </choice> subjectz de ceste <lb/>qualité de les affranchir, pour leur donner
+                     d’autant encor <lb/>par ceste grattification plus d’occasion de redoubler
+                     par <lb/>l’affection leurs fidellitez a nostre service, et a ceste fin <lb/>faict
+                     expedier nos lettres pattentes en forme de Comission <lb/>adressée au sieur
+                     Wallier, gouverneur et nostre lieutenant general <lb/>en <choice>
+                        <abbr>nosdtz</abbr>
+                        <expan>nosdictz</expan>
+                     </choice> comtez de Neufchastel et Vallangin, pour suivant la <lb/>taxe
+                     qu’auroit esté par nous en nostredict conseil faicte, <lb/>et apprès esvaluation
+                     faicte des biens d’ung chascung <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> <lb/>taillables, proceder à l’execution <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> affranchissements; ce que <lb/>ledit <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>sieurs</expan>
+                     </choice> Vallier auroit encomencé et non parrachevé à cause <lb/>de son decedz
+                     survenu, et ne voullantz que <choice>
+                        <abbr>nosdtz</abbr>
+                        <expan>nosdictz</expan>
+                     </choice> subjectz <pb n="117v" facs="AEN_1CE_8_117v_118r"/>
+                      <lb/>demeurent par ce moyen frustrez de l’effect de nostre bonne volonté <lb/>et
+                     intention, nous vous avons comis, ordonné et depputé, <lb/>commettons, ordonnons
+                     et depputons par ces <choice>
+                        <abbr>prtes</abbr>
+                        <expan>présentes</expan>
+                     </choice>, pour avec <lb/>les <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>sieurs</expan>
+                     </choice> d’Affry et Mareschal, <choice>
+                        <abbr>nre</abbr>
+                        <expan>nostre</expan>
+                     </choice> secretaire, s’ils sont l’ung ou <lb/>l’autre sur les lieux, pour
+                     proceder et vacquer ensemblement <lb/>et d’ung consentement à ce qui reste à
+                     faire <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> affranchissementz <lb/>en la forme par nous lors prescripte en
+                     nostredict conseil <lb/>et de tout en dresser ung estat contenant les noms des
+                     personnes <lb/> affranchies, l’évaluation , bien de chascung d’eux et ce a quoy
+                     ils <lb/>seront taxez, tant pour denier d’entrée que de redebvances
+                     annuelles, <lb/>signé de vous, eux et des personnes affranchies pour
+                     demeurer <lb/>dans le trésor de nos tiltres <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> Neufchastel et le duplicata <lb/>duquel aussy signé nous sera par vous
+                     icy envoyé, pour <lb/>cognoistre l’esvaluation des biens d’ung chascung d’eux et
+                     ce <lb/>a quoy ils seront taxez tant de deniers d’entrée que de
+                     redebvances <lb/>pour <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictz</expan>
+                     </choice> affranchissementz. De ce faire vous donnons <lb/>pouvoir, commission
+                     et <choice>
+                        <abbr>commandem<hi rend="sup">t</hi></abbr>
+                        <expan>commandement</expan>
+                     </choice>. En tesmoing de quoy <lb/>nous avons signé les <choice>
+                        <abbr>prets</abbr>
+                        <expan>présentes</expan>
+                     </choice> de nostre main et a icelles faict <lb/>apposer nostre sceel et
+                        contresigner par l’ung de nos <lb/>secrettaire ordinaire.</seg> <seg>Donné a <origPlace ref="loc010601">Paris</origPlace> <origDate when="1627-04-27">le XXVII
+                           jour <lb/>d’apvril mille six centz vingt sept</origDate>. Ainsy signé <lb/>Henry. Et plus
+                     bas&#160;: par Son Altesse, Raoul. <lb/>Scelé du grand sceau de Son Altesse en
+                     cire rouge.</seg> </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p><p>
+               AEN, Manuel du Conseil d’État, VIII, fol.&#160;117r-v (enregistrement).</p>
+               <p>Cf.&#160;Courvoisier, «&#160;Essai&#160;», dans <hi rend="italic">MN</hi>, 1968, p.&#160;37-38 (affranchissement des taillables du Val-de-Travers, le 22&#160;janviers&#160;1628). Le 23&#160;juillet&#160;1611, le Conseil d’État (MCE, vol.&#160;5, fol.&#160;540) ordonne l’envoi aux officiers de «&#160;mandements ... de proposer aux subjectz de toutes sortes de conditions, affranchissements d’icelles pour entendre leur volonté et ce qu’ilz veulent donner d’entrage et en dresser rolle non par non et chasque condition.&#160;» La taille «&#160;reduicte en cense par l’affranchissement ... est prestation personnelle et non reelle ...&#160;» (<hi rend="italic">ibidem</hi>, fol.&#160;456v&#160;; 23&#160;février&#160;1610).</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

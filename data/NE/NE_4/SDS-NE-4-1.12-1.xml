@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.12-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 43–45</idno>
+     </msIdentifier>
+     <head>Assignation à comparaître</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005021"/>
+     <term ref="key000683"></term>
+     <term ref="key005189"></term>
+     <term ref="key004437"></term>
+     <term ref="key005057"></term>
+     <term ref="key005117"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="43" facs="AEN_MJ_17_042_043"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chapp.</abbr>
+        <expan>Chappitre</expan>
+       </choice> XII. <lb/>Contre le <term ref="lem015651.02">rée</term>
+       <lb/><term ref="lem017868.04">adjourné</term><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 20"> deuement</rdg>
+       </app>.</head>
+      <p>
+       <lb/><app>
+        <lem>Le <term ref="lem015651.02">rée</term> n’est tenu pour deffaut <lb/>ny cognu ou mis en
+          <term ref="lem015976.04">constumace</term> s’il n’<term ref="lem016407.02">appert</term>
+         <lb/>dehuement que l’<term ref="lem017869.02">adjournement</term> luy aye <lb/>esté
+         fait</lem>
+        <rdg wit="AVN Q41, p. 20">S’il n’<term ref="lem016407.02">appert</term> que l’adjournement
+         aye esté <lb/>fait au <term ref="lem015651.02">rée</term> deuement, ledit <term
+          ref="lem015651.02">rée</term> n’est point <lb/>cognu pour deffaut, ny mis en
+         contumace</rdg>
+       </app>. Mais aussy s’il <term ref="lem016407.02">appert</term>
+       <lb/>qu’il aye esté dehuement <term ref="lem017868.04">adjourné</term>, &amp; <lb/>Il ne
+       comparoit au tier <term ref="lem017869.02">adjournement</term>
+       <lb/>pour respondre et faire ses <app><lem>responces</lem><rdg wit="AVN Q41, p. 20"/> </app>
+       <lb/>deffences, replicques et exeptions, et il <lb/>n’a heu congé du president, <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> luy peut <lb/>estre accordé pour ceste premiere fois, il <lb/>est mis en <term
+        ref="lem015976.04">constumace</term> et donné <term ref="lem015646">passement</term>
+       <lb/>a l’acteur.  <lb/><add place="below" type="catchword">Et</add>
+      </p>
+     <pb n="44" facs="AEN_MJ_17_044_045"/>
+      <p>
+       <lb/>Et sy tel <term ref="lem015646">passement</term> n’est revocqué dans <lb/><date dur-iso="P8D">huictaine</date> par un seigneur gouverneur, ou <choice>
+        <abbr>s<hi rend="sup">eur</hi></abbr>
+        <expan>seigneur</expan>
+       </choice>
+       <lb/>du <orgName ref="org003098">Conseil d’Estat</orgName>, qui le pourront accorder <lb/>sy
+       le fait le merite, ou que le deffaillant <lb/>monstre bonnes et ligitimes excuses de son
+       <lb/>absence par deues attestations ou <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>
+       <lb/>sinon tel <term ref="lem015646">passement</term> sera effectué et mis en <lb/>execution.
+      </p>
+      <p>
+       <lb/>Et si le <term ref="lem015651.02">rée</term> appres telle revoccation <lb/>retombe en
+       deffaut, l’acteur est fait jouyssant <lb/>de sa demande.</p>
+      <p>
+       <lb/>Et faut entendre que l’acteur pour <lb/>obtenir sentence <term ref="lem019563.02">constumacialle</term>,
+       &amp; <lb/>qu’il en puisse estre fait jouyssant <lb/>il est requis qu’il fasse sommairement
+       <lb/>veriffication du droit et equité de sa <lb/>demande, afin qu’a son simple dire il
+       <lb/>ne soit adjugé, ce qui ne luy est dehu, <lb/>ny appartient.</p>
+      <p>
+       <lb/> Il est toutesfois reservé au <term ref="lem015651.02">rée</term>
+       <lb/>de pouvoir demander au premier et plus <lb/><add place="below" type="catchword"
+        >prochain</add>
+       <pb n="45" facs="AEN_MJ_17_044_045"/>
+       <lb/>prochain estat <term ref="lem017543.04">relief</term> de tel <term ref="lem015646"
+        >passement</term>
+       <lb/>car apres le premier estat passé il <lb/>n’y a plus de <term ref="lem017543.05"
+        >reliefs</term>.</p>
+      <p>
+       <lb/>Et tel <term ref="lem017543.04">relief</term> peut estre accordé par lesdits <lb/>estats
+       apres qu’ils auront veu la procedure <lb/>et sentence <term ref="lem019563.02"
+        >constumacialle</term> &amp; entendu la <lb/>partie, l’impetrant sera entenu neant<lb
+        break="no"/>moings d’agir de restitution contre celuy <lb/>qui jouyt par vertu de son
+       passement <term ref="lem019563.03">constu<lb break="no"/>macial</term>. </p>
+      <p>
+       <lb/>Se doit aussy noter, que se presenter <lb/>et entrer dans l’auditoire au lieu que
+       <lb/>se tient la justice, et en ressortir <lb/>incontinent ne peut estre appellé
+       <lb/>comparition.</p>
+      <p>
+       <lb/>Et pour ce que cy devant plusieurs <lb/>pour abuser de la justice et cercher
+       <lb/>longueurs ne comparoissent au jour de <lb/>l’assignation que sur la fin du <term
+        ref="lem015614">plaid</term>, <lb/>apres que<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 21"> le</rdg>
+       </app>
+       <term ref="lem015646">passement</term> avoit esté donné <lb/>contr’eux, Et en disants qu’ils
+       estoyent  <lb/><add place="below" type="catchword">la</add>
+       <pb n="46" facs="AEN_MJ_17_046_047"/>
+       <lb/>la venuz pour revocquer ledit <term ref="lem015646">passement</term>, <lb/>leur estoit
+       permis et tolleré sans autre <lb/>esgard, ny contester ledit jour plus avant <lb/>en cause, <app>
+        <lem>d’ores en avant</lem>
+        <rdg wit="AVN Q41, p. 21">doresenavant</rdg>
+       </app> tels <term ref="lem015646.02">passements</term>
+       <lb/>ne se pourront revocquer qu’a la forme <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>dessus, et sur bonnes <app>
+        <lem>excuses</lem>
+        <rdg wit="AVN Q41, p. 21"/>
+       </app> et legitimes <lb/>occasions, car un chescun doibt attendre <lb/>au jour de
+       l’assignation sur la justice <lb/>&amp; non la justice sur luy. Aussy tels <lb/><term
+        ref="lem015646.02">passements</term> se doibvent donner sur la fin <lb/>du <term
+        ref="lem015614">plaid</term> tant seullement.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

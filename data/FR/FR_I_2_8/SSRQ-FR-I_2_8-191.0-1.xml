@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-191.0-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<head xml:lang="de">Antoinie Jaquenoud – Anweisung, Verhör und Urteil</head>
+					<head xml:lang="fr">Antoinie Jaquenoud – Instruction, interrogatoire et jugement</head>
+					<msContents>
+						<summary><p xml:lang="de">Antoinie Jaquenoud aus Gillarens wird der Hexerei verdächtigt. Das 10-jährige Mädchen gibt an, ihr Vater Jacques habe sie dem Teufel übergeben, daher lässt man sie
+						von Rue ins Freiburger Spital überführen und dort verhören. Sie wird den Kapuzinern zur religiösen Erziehung übergeben und nach Rue zurückgeschickt, wo sie durch den Kastlan und die Nachbarn
+						überwacht werden soll. Ihr Vater, der in Rue in Haft blieb, wird mit einer starken Mahnung freigelassen.</p>
+							<p xml:lang="fr">Antoinie Jaquenoud, de Gillarens, est suspectée de sorcellerie. La jeune fille de dix ans prétend que son père Jacques l’a donnée au diable, et elle
+								est conduite de Rue à l’hôpital de Fribourg, où elle est interrogée. Elle est confiée à l’instruction des pères capucins, puis doit retourner à Rue, où le châtelain et les voisins doivent
+								la surveiller de près. Le père, resté aux arrêts à Rue, est libéré, mais avec un sérieux avertissement.</p></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1668-08-27" to="1668-08-31"></origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000803"/>
+					<term ref="key005812"/>
+					<term ref="key005817"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div type="collection">
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-191.1-1">SSRQ FR I/2/8 191.1-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-191.2-1">SSRQ FR I/2/8 191.2-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-191.3-1">SSRQ FR I/2/8 191.3-1</ref></p>
+						<p><ref target="urn:ssrq:SSRQ-FR-I_2_8-191.4-1">SSRQ FR I/2/8 191.4-1</ref></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

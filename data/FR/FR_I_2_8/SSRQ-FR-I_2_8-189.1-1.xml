@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-189.1-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 253</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 253</idno>
+					</msIdentifier>
+					<head xml:lang="de">Susanne Chaumigniez-Meylan – Verhör</head>
+					<head xml:lang="fr">Susanne Chaumigniez-Meylan – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1666-05-31"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007890.08">Jaquemars</placeName></hi>, den <origDate when="1666-05-31">letsten <foreign xml:lang="la">maii</foreign> 1666</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per018693a">Tobias Gottrau</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><persName ref="per026070a.01">Rämi</persName></seg></p>
+						<p><lb/><persName ref="per026967a.01">Susanna Meyan</persName>, vefve de <persName ref="per026966a">Daniel Chaumigniez</persName>,
+							<lb/>demeurant à <placeName>Trablion</placeName><note>Dieser Ort ist nicht lokalisierbar.</note> riere <placeName ref="loc007610">Payerne</placeName>, reduite
+						<lb/>aux arrests pour soubçon de <term ref="lem018521.01">sorcellerie</term>, estant
+						<lb/>examinée par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droit, a <term ref="lem015549.07">confessé</term> d’avoir
+						<lb/>esté plusieurs foys dans cette ville et d’y estre venue
+						<lb/>vendredy passé avec des poissoniers d’<placeName ref="loc007693.08">Estavayé</placeName>. Dit
+							<lb/>avoir logé dans la <placeName ref="loc008378.05">Grande Rue</placeName> et <term ref="lem015549.13">confesse</term> d’avoir
+							<lb/>demandé l’<term ref="lem021653.06">ausmone</term> en plusieurs lieux. Nie de sçavoir
+						<lb/>ou <placeName ref="loc010269.04">Cournellins</placeName> est, moings d’y estre passée, si ce n’est
+						<lb/>qu’allant dernierement à <placeName ref="loc005824.03">Morat</placeName> avec une femme
+						<lb/>de cette ville, habillée de verd, elle peult estre y
+						<lb/>pourroit avoir esté conduite. Dit avoir esté logée
+						<lb/>à la <placeName ref="loc008696.01">Croix Blanche</placeName> audit <placeName ref="loc005824.03">Morat</placeName>. Nie d’avoir donné
+						<lb/>du pain à aulcune personne, ny d’avoir commis aulcune
+						<lb/>action <subst><del>d<gap reason="illegible" unit="cm" quantity="2"/></del><add place="inline">digne</add></subst> d’emprisonnement. Elle prie que
+						<lb/>l’un prenne information de sa vie auprès monsieur <persName>Fiant</persName>
+						<lb/>et autres personnes de son lieu et de sa cognoissance,
+						<lb/>et se recommande tres humblement aux <term ref="lem019504.03">graces</term> de
+						<lb/>vos Excellences.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

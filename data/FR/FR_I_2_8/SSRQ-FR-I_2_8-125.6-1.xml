@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-125.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 337–338</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 337–338</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jenon Joye-Débieux – Verhör</head>
+					<head xml:lang="fr">Jenon Joye-Débieux – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-11-14"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref>Berchtold 1850</ref>, S. 504–506</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="337"/><p><lb/><placeName ref="loc007683.02">Im bösen thurn</placeName>, <origDate when="1646-11-14">14<hi rend="sup">ten</hi> <foreign xml:lang="la">novembris</foreign> 1646</origDate>
+						<seg><lb/><term ref="lem018540.03">Amman</term> <persName ref="per012378a.01">Heydt</persName></seg>
+						<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Tornier</persName></seg>
+						<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per017122a.01">Jenon Debieux</persName>, aprés avoir longtemps varié, a finalement
+							<lb/>soustenu et <term ref="lem015549.07">confessé</term> a la <term ref="lem015441.02">gehenne</term> du demy <term ref="lem018232">quintal</term>, que le
+							<lb/><term ref="lem015433.03">maling esprit</term> nommé <persName ref="per029447a">Antichrist</persName> (si elle ne se trompe) luy est
+							<lb/>apparu vers sa <term ref="lem015740.02">cheneviere</term> desja avant <date dur-iso="P4Y">4</date> ou <date dur-iso="P5Y">5 annees</date>, estant
+							<lb/>commun umbre tout verd en forme fort laide et defiguree,
+							<lb/>ayant des longues cornes sur sa teste, lequel luy dit qu’elle
+							<lb/>se devoit attrister, et si elle se voulloit rendre a luy, il
+							<lb/>luy donneroit d’argent assez. Icelle donques, a l’instance du
+							<lb/><term ref="lem015433.10">maling</term>, aprés avoir <term ref="lem019541.17">renyé</term> son Dieu, se rendit a luy, le
+							<lb/><term ref="lem019481.05">baisant</term> proche du genoux, lequel la <term ref="lem018895.08">marqua</term> au coing d<subst><del>e</del><add place="overwritten">u</add></subst>
+							<lb/>front avec la main qu’il luy semble avoir estee chaude.</seg> <seg>En aprés,
+								<lb/>il luy donna de la <term ref="lem018382">graisse</term> verde, qu’estoit dans une <term ref="lem014919.01">boite</term>
+							<lb/>ronde, avec commandement de faire mourir le bestail en
+								<lb/>le touchant avec ceste <term ref="lem018382">graisse</term>. Icelle donques pour <add place="above">l’</add>esprouver,
+							<lb/>print une verge de saulge faicte en façon de lien, la frottant
+								<lb/>et tirant par sa main engraissee dedite <term ref="lem018382">graisse</term>, avec laquelle
+								<lb/>elle frappra les deux <subst><del><term ref="lem017507.02">vaches</term></del><add place="above"><term ref="lem018923.11">boeufs</term></add></subst> qu’estoient de son marryt, a la
+							<lb/>intention de les faire mourir, ce qu’<subst><del>elles</del><add place="above">ils</add></subst> fisrent, et m’escheu<lb break="no"/>rent seulement <date dur-iso="P3M">trois mois</date> aprés. Mais tout <term ref="lem015622">incontinent</term> aprés
+							<lb/><subst><del><unclear>avo</unclear></del><add place="overwritten">s’estre</add></subst> ainsin oubliee, fist le signe de la croix par moyen
+							<lb/>duquel le <term ref="lem015433.10">maling</term> disparu, disant qu’elle s’<add place="above">en</add> alla <term ref="lem019463.01">confesser</term>
+								<lb/>au curé de <placeName ref="loc007891">Torny</placeName>, qui l’exhorta de n’y plus tomber. Mais
+							<lb/><date dur-iso="P7D">sept</date> ou <date dur-iso="P8D">huict jours</date> aprés, estant fort attristee a cause que
+							<lb/>les enfants ne voulloient demeurer avec elle au logis, et lavant
+							<lb/>le menu lenge de l’enfant de <persName>Jean Zallaud</persName>, le <term ref="lem015433.10">maling</term> vient a
+							<lb/>elle vers la fontaine, luy <term ref="lem015635.13">baillant</term> derechef de la mesme
+								<lb/><term ref="lem018382">graisse</term> dans une <term ref="lem014919.06">boiste</term>, avec commandement qu’elle debvoit
+							<lb/>frotter cest linge, ce qu’elle ne voullut faire, disant que luy
+							<lb/>le devoit frotter, ce qu’il fist, mais elle le permit et con<lb break="no"/>sentit que par ceste unction ledit enfant en deut mourir,
+							<lb/>lequel mourut bien tost aprés. La raison pourquoy elle y a
+							<lb/>consenty, est que la mere dudit enfant disoit tousjours que
+						<pb n="338"/><lb/>elle vouldroit qu’il feusse en paradys, parce qu’il estoit
+							<lb/>tousjours valetudinaire.</seg> <seg>Plus a <term ref="lem015549.07">confessé</term> qu’elle a
+								<lb/>frappé deux <term ref="lem017507.02">vaches</term> avec dite verge qu’elle gardoit au logis,
+							<lb/>qu’estoit a <persName>Franceois Gapan</persName> de <placeName ref="loc010145">Corserey</placeName>, lesquelles moururent
+							<lb/>quelque temps aprés. Plus qu’elle a faict mourir une
+								<lb/><term ref="lem019400.06">cheuvre</term> a <persName>Jean Vuarno</persName> en luy maniant les tetins ou le
+							<lb/><term ref="lem017930.02">liuvrou</term>, pour quels mesfaicts elle <term ref="lem019498">crie mercy</term> a Dieu
+							<lb/>et nos seigneurs, promettant de l’amender.</seg> <seg>Dit en outre que
+							<lb/>sa voisinne <persName>Beneite Zanno</persName>, luy demandant une fois si elle
+								<lb/>ne cognoissoit point les <term ref="lem019308.02">sorciers</term> et <term ref="lem019389.04">sorcieres</term>&#160;? Elle luy res<lb break="no"/>pondit qu’elle avoit entendu dire que ceste sorte de gens se
+							<lb/>cognoissoit le jour des <term ref="lem017933.02">Rammeaus</term> ou <term ref="lem017934.02">Pasques fleury</term>, iceux
+							<lb/>estant ordinairement sur tel jour grattignés au visage, mais
+								<lb/>elle ne l’a poinct estee, a cause qu’elle s’est bien tost <term ref="lem017935.02">des<lb break="no"/>brigee</term> du <term ref="lem015433.10">maling</term>, et par dehue <term ref="lem019465.01">confession</term> rompa le <term ref="lem019375.02">pact</term>
+							<lb/>faict avec luy&#160;; et encor qu’il luy auroit presenté de
+							<lb/>l’argent, ne l’avoir pourtant voullu recevoir, sçachant
+							<lb/>bien qu’il la tromperoit avec des <term ref="lem018302.03">fueilles</term> de <term ref="lem016908.07">cheine</term>, com<lb break="no"/>me est sa coustume.</seg> <seg>Nye d’avoir estee a la <term ref="lem017043">secte</term>.
+								<lb/>Lors que le <term ref="lem018789.02">maistre</term>, par commandement de <choice><abbr>messrs</abbr><expan>messeigneurs</expan></choice> de la
+							<lb/>justice, luy planta l’esguille dans la <term ref="lem018894.01">marque</term> qui ne
+							<lb/>paroist presque rien, le sang en coulloit, sans qu’elle ayt
+							<lb/>faict semblant de sentir, ce que denote estre la vraye
+								<lb/><term ref="lem018894.01">marque</term>, comme elle a <term ref="lem015549.07">confessé</term> cy devant. <term ref="lem019498">Crie mercy</term>.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

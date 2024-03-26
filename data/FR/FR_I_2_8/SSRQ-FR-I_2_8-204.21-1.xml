@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.21-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 43v–44v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 43v–44v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel, Clauda Cossonay-Morand – Verhör</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel, Clauda Cossonay-Morand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-02-01"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="43v"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <origDate when="1683-02-01"><num value="1">i</num><hi rend="sup">ten</hi> <foreign xml:lang="la">februarii</foreign> 1683</origDate>
+							<seg><lb/> <abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026314a.01">Carle von Montenach</persName> <term ref="lem018597.02"><choice><abbr>burgerm<hi rend="sup">r</hi></abbr><expan>burgermeister</expan></choice></term>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per026328a.06">Rudolff Fyvat</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per013469a.01">Castella</persName>,  <persName ref="per027532a.01">Amman</persName>, <persName ref="per026289a.02">Aman</persName>, <persName ref="per026070a.01">Rämi</persName></seg>
+							<seg><lb/>Burgern <persName ref="per027531a.01">Odet</persName></seg></p>
+						<p><choice><sic><add place="bottom"><persName>Maria</persName></add></sic><corr></corr></choice>
+						<pb n="44r"/><seg><lb/><persName ref="per027452a">Maria</persName>, filie de <persName ref="per027448a.01">Fridlin Ribotel</persName> de <placeName ref="loc008073.04">Mattran</placeName>, susdite derechef
+							<lb/>tenue en <term ref="lem018792.01">question</term>, at dit que tout ce quʼelle at <term ref="lem015549.07">confessé</term> der<lb break="no"/>nierement soit tout veritable. De plus dit que non obstant que
+							<lb/>la <persName ref="per026681a">Magnina</persName> dernierement confrontée avec elle ne voul<lb break="no"/>loit <term ref="lem015549.01">confesser</term> quʼelle soit <term ref="lem019389.02">sorciere</term>, que tout de mesme
+							<lb/>la debvoit on <term ref="lem019496.13">brusler</term>, dʼaultant quʼelle estoit tant <term ref="lem014908.16">vau<lb break="no"/>deysa</term> quʼelle nʼen pouvoit plus.</seg> <seg>Interrogée si elle at
+						<lb/>heu quelques inimitié avec elle, et si elle luy voulloit
+						<lb/>du mal, elle at dit que ouy, dʼaultant que sans elle
+						<lb/>elle ne seroit jamais esté à la <term ref="lem017043.04">secta</term>, ou ladite <persName ref="per026681a">Magnina</persName>
+						<lb/>lʼavoit tant battue quʼelle lʼavoit toutte <term ref="lem019285.02">depuerayé</term>,
+						<lb/>et elle en seroit devenue malaysée depuis cet temps
+						<lb/>la. Et seroit ainsy traictée, par ce quʼelle ne
+						<lb/>voulloit manger des <term ref="lem016925.04">crouye</term> <term ref="lem019279.02">routes</term> et ne voulloit faire
+						<lb/>comme les aultres à ladite <term ref="lem017043.04">secta</term>.</seg> <seg>Item elle at dit que
+						<lb/><persName>Clauda Girard</persName> de <placeName ref="loc010275.02">Thorny Pittet</placeName> avoit esté avec elle
+						<lb/>et la <persName ref="per026681a">Magnina</persName> à la <term ref="lem017043.01">secte</term>, et que ladite <persName ref="per026681a">Magnina</persName> ne lʼavoit
+						<lb/>occupée à aultre chose à ladite <term ref="lem017043.01">secte</term> que de luy faire
+							<lb/>tourner la broche pour <term ref="lem019170.04">rottir</term> un <term ref="lem018315.01">chat</term> proche du <term ref="lem019529.01">feuz</term>.
+						<lb/>Et que la <persName ref="per026681a">Magnina</persName> luy avoit dit à la <term ref="lem017043.04">secta</term> que le <term ref="lem017521.01">dia<lb break="no"/>ble</term>
+							lʼauroit <term ref="lem018895.03">marquée</term> en un lieuz quʼon en trouveroit
+						<lb/>jamais la <term ref="lem018894.01">marque</term>.</seg> <seg>Item elle at dit que le prestre
+							<lb/>de <placeName ref="loc007655">Montagny</placeName> et ses deux seurs estoint devenus <term ref="lem019502.05">possedés</term>
+							<lb/>par la <persName ref="per026681a">Magnina</persName>, après laquelle touts les <term ref="lem019503.03">possedés</term>
+							<lb/>courroint pour la <term ref="lem019460.01">tuer</term>.</seg> <seg>Item elle a dit concernant
+								<lb/>la <term ref="lem017507">vache</term> de <placeName>Gorgon</placeName><!-- Ort oder Name? -->, quʼelle nʼavoit pas <term ref="lem019525.04">soufflé</term> contre
+						<lb/>ladite <term ref="lem017507">vache</term>, ains que cʼestoit la <persName ref="per026681a">Magnina</persName> quʼestoit avec
+								<lb/>elle au chemin desoub, et aurroit <term ref="lem019525.04">soufflé</term> à lʼencontre
+						<lb/>de ladite <term ref="lem017507">vache</term> et lʼaurroit faict mourrir.</seg> <seg>Interrogée
+							<lb/>si la <persName ref="per027501a">grossa</persName> et <persName>petite Meige</persName> nʼavoit esté à la <term ref="lem017043.01">secte</term>
+						<lb/>avec elle, sur cella elle at respondus que non, mais
+							<lb/>quʼon les cryoit et seroint en reputation dʼestre <term ref="lem019389.04">sor<lb break="no"/>cieres</term>.</seg> <seg>Interrogée si elle ne sçavoit que son enfant
+						<lb/>fut <term ref="lem018895.02">marqué</term> par le <term ref="lem017521.01">diable</term>, et si elle ne lʼat jamais donné
+						<lb/>au <term ref="lem015433">malin esprit</term>, ce quʼelle at fort constament nyé.</seg>
+						<seg><lb/>Interrogée sur la <persName>Person Durret</persName> quʼavoit dansé avec
+							<lb/>elle à la <term ref="lem017043.01">secte</term> conformement les precedentes <term ref="lem019465.02">confessions</term>,
+						<lb/>elle ne lʼat sceu nommer en cette presente question,
+						<lb/>ains lʼat appellé <persName>Person Girar</persName> et confundoit lédites <add place="bottom" type="catchword">deux</add>
+						<pb n="44v"/><lb/><choice><sic>deux</sic><corr></corr></choice> noms de Girar et Durret, nʼen ayant peu faire
+						<lb/>dheuue distinction.</seg> <seg>Item elle a beaucoup varié sur des
+							<lb/>poincts de ses precedentes <term ref="lem019465.02">confessions</term>, comme pour avoir
+							<lb/> nyé de sʼestre donnée à <persName ref="per029425a.10">Gabrié</persName>, duquel et parlé cy de<lb break="no"/>vant, ny quʼelle lʼayet jamais heu affaires avec luy,
+						<lb/>non obstant quʼelle lʼayet <term ref="lem015549.07">confessé</term> par ses precedentes
+							<lb/><term ref="lem019465.02">confessions</term>.</seg></p>
+						<p><lb/><hi rend="outdent">Im <placeName ref="loc007683.20">thurn</placeName></hi>, <foreign xml:lang="la">eodem die et anno et presentibus ut supra</foreign></p>
+						<p><seg><lb/><persName ref="per026681a">Clauda Morand</persName>, femme de <persName ref="per026680a.02">Pierre Coussonné</persName>, dicte la
+						<lb/><persName ref="per026681a">Magnina</persName> de <placeName ref="loc007983.02">Norea</placeName>, dit estre agée de <measure type="age" quantity="60" unit="year">trois vingts ans</measure>.</seg>
+						<seg><lb/>Interrogée pourquoy elle avoit dit quʼelle sʼappelloit
+						<lb/><persName>Barbillie</persName> à la precedente confrontation, elle respon<lb break="no"/>dit que sa marraine sʼappelloit <persName>Barbillie</persName>, mais icelle
+						<lb/>marraine avoit pris une lieutenande pour la tenir
+							<lb/>au <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <term ref="lem019542.04">baptesme</term> qui sʼappelloit <persName>Clauda</persName>, de la quelle
+						<lb/>elle en aurroit retenus le nom.</seg> <seg>Interrogée si elle
+						<lb/>nʼavoit trouvé au prez de <placeName ref="loc008103">Seedorf</placeName> <persName ref="per027452a">Maria</persName>, fillie de
+						<lb/><persName ref="per027448a.02">Fridlin Ribottel</persName>, laquelle y mangeoit des <term ref="lem015764.03">griettes</term>,
+						<lb/>et dela seroint allée chez ladite <persName ref="per026681a">Magnina</persName>, et depuis
+						<lb/>ladite maison à la <term ref="lem017043.01">secte</term>, ce quʼelle at tres constamment
+						<lb/>nyé, comme aussy touts les aultres articles desquels
+						<lb/>ladite <persName ref="per027452a.01">Maria Fridlin Ribottel</persName> lʼaccuse par ses preceden<lb break="no"/>tes accusations, persistant
+							durant ladite question re<lb break="no"/>souluement en negatives.</seg> <seg>Interrogée pour quel
+						<lb/>sujet il avoit tant de personnes que perdoint du
+						<lb/>bestail et se plaignoint de la perte quʼil en recevoint,
+						<lb/>elle at respondus que pleust à <hi rend="font change">Dieu</hi> quʼelle ne sont
+						<lb/>touttes <term ref="lem019272.03">zavonayes</term>&#160;: <q>&#160;Jʼen ay aussy beaucoup perdus&#160;!&#160;</q></seg>
+						<seg><lb/>Enfin ladite <persName ref="per026681a">Magnina</persName> estant questionée sur touts les
+						<lb/>poincts et articles des informations et <term ref="lem018363.02">inquisitions</term>
+						<lb/>prises par ordre de <choice><abbr>L</abbr><expan>Leurs</expan></choice> Excellences contre elle, nʼen
+						<lb/>at poin voulus <term ref="lem015549.01">confesser</term>, ains at fort resouluement
+						<lb/>persisté en negative, non obstant quʼelle soit pendant
+							<lb/>lʼexamination esté <term ref="lem019548.06">eslevée</term> par trois diverses
+							<lb/><term ref="lem019550.03">elevations</term> à la simple <term ref="lem018231">corde</term> de la <term ref="lem019428.01">torture</term>,
+						<lb/>pendant lesquelles elle at fortement cryé et
+						<lb/>demandé pardon à <hi rend="font change">Dieu</hi> et à Leurs Excellences mes
+						<lb/>souverains seigneurs et superieurs, comme aussy
+						<lb/>à tout le monde. Touttefois on nʼat p<subst><del>a</del><add place="overwritten">e</add></subst>u re<lb break="no"/>marquer
+							quʼelle aye jetté des larmes. <foreign xml:lang="la">Actum ut supra</foreign>.</seg></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

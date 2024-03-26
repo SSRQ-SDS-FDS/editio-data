@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-164.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 350</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 350</idno>
+					</msIdentifier>
+					<head xml:lang="de">Vincenza Cantin-Cudré – Verhör</head>
+					<head xml:lang="fr">Vincenza Cantin-Cudré – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1652-09-06"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1652-09-06">6<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>septemb</abbr><expan>septembris</expan></choice></foreign> 1652</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per018672a">Johannes Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per011563">Simon Peter Meyer</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013978a.03">Kämmerling</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013470a.01">Mandli</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018655a.01">Jost von Dießbach</persName></seg></p>
+						<p><seg><lb/><persName ref="per020617a.01">Vincenta Cudre</persName>, originaile d’<placeName ref="loc007598.07">Ottigni</placeName>, reduite aux
+							<lb/>prisons sur soubson de <term ref="lem018524.02">sortilege</term> et la desus
+							<lb/>par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examinée après avoier
+							<lb/>esté <term ref="lem019393.05">questioné</term> par la simple <term ref="lem018231">corde</term>, <subst><del>a</del><add place="overwritten">d</add></subst>it
+							<lb/>avoier veritablement une seule fois croisé la
+							<lb/>rue, pour petrir du <term ref="lem014943.05">beure</term>, <subst><del>pouv</del><add place="above">affin de</add></subst> faire du
+							<lb/>poctage à dez pauvres enfans, sur l’advis que
+							<lb/>certain vieillard vacheron luy donnat, la voiant,
+							<lb/>qu’elle ne pouvoit tiré <term ref="lem014943">beurre</term> de sa craime.</seg>
+							<seg><lb/><subst><del>al</del><add place="overwritten">L</add></subst>ors que certaine <persName ref="per020625a.01">Catherine Capuis</persName> la tansat
+							<lb/><subst><del rend="underline">soit</del><add place="inline">sorciere</add></subst>, n’avoieur heu persone present
+							<lb/>pour se pouvoier servir en tesmogniage, affin
+							<lb/>de l’en faire respentir, ce que arriva le mes<lb break="no"/>me avec le tonnelier de <placeName ref="loc008127.05">Manedin</placeName>, le quel
+							<lb/>luy porte de quelque tempz une maulpvaise
+							<lb/>volonté au soubject d’un sien petit préz affrontant
+							<lb/>le sien, qu’elle ne luy a volu rendre.</seg> <seg>Con<lb break="no"/>cernant la <term ref="lem017507">vache</term> que doibt un <term ref="lem018314.02">chain</term> avoier mordu,
+							<lb/>n’avoier esté pour lors dans ce lieu la, ains
+							<lb/>estoit allors ici dans la ville. La cognaissance
+							<lb/>qu’elle a de quelques bonnes herbes, <add place="above">dit</add> l’avoier du
+								<lb/><choice><abbr>r</abbr><expan>reverend</expan></choice> pere <persName>Kossenberger</persName>, gardien des <choice><abbr>pp</abbr><expan>peres</expan></choice> <term ref="lem019430.02">cordeliers</term>,
+							<lb/>et de <choice><abbr>mad<hi rend="sup">e</hi></abbr><expan>madame</expan></choice> <persName>Erhart</persName>. Au reste ne
+								<lb/>veut estre d’aulcune aultre chosse <term ref="lem015549.04">confessante</term>,
+							<lb/>demandant à Dieu et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> la desus
+							<lb/>humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

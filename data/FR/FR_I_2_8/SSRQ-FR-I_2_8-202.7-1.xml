@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-202.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 472–473</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 472–473</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madeleine Gobet-Tannaz – Verhör</head>
+					<head xml:lang="fr">Madeleine Gobet-Tannaz – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1677-09-30"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="472"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, dunstag, den <origDate when="1677-09-30">30<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> <hi rend="underline">1677</hi></origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/>Herr <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.01">Python</persName>, <abbr>h</abbr> <persName ref="per026616a.01">Frantz Peter Gottraw</persName></seg>
+							<seg><lb/> LX <abbr>h</abbr> <persName ref="per026549a.03">Pancratz Schröter</persName></seg></p>
+						<p><lb/><persName ref="per027166a.02">Magdelaine Tanna</persName>, veufve de <persName ref="per027165a">Jacques Gobet</persName>,
+						<lb/>en suitte de la sentence du <origDate when="1677-09-28">28<hi rend="sup">me</hi> du present</origDate>, revestue
+						<lb/>d’un habit neuf, lequel a esté beni par <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice>
+							<lb/>le curé, et <term ref="lem019509.03">visitée</term> par l’<term ref="lem018790.05">executeur de
+						<lb/>la justice</term> sur la <term ref="lem018894.03">marque diabolicque</term>, iceluy
+						<lb/>a declaré n’en avoir point trouvé  en elle.</p>
+						<p><lb/>Interrogée sur les poincts contenus dans l’examen,
+						<lb/>les a derechef tous niés.</p>
+						<p><lb/>De plus si elle n’avoit cogneu <persName>Lusa Crotta</persName> de <placeName ref="loc007893">Middes</placeName>,
+						<lb/>a dict que non, et soustenu ne l’avoir jamais
+						<lb/>frequentée ny parlé à elle. Et luy ayant
+						<lb/>esté proposé qu’elle l’accusoit d’avoir esté
+						<lb/>à la <term ref="lem017043.01">secte</term> avec elle, en un lieu dict au
+						<lb/><placeName ref="loc013217.02">Bugnion</placeName>, entre <placeName ref="loc007892.03">Torny</placeName> et <placeName ref="loc007893">Middes</placeName>, dict qu’elle
+						<lb/>luy faict tort. Et luy ayant esté repre<lb break="no"/>senté que c’estoit depuis l’execution de
+							<lb/><persName ref="per027155a.01">Pierre Peitier</persName><note><persName ref="per027155">Pierre Peity</persName>, Ehemann der <persName ref="per027160b">Pernette Peity-Sugnaux</persName>, wurde im Juli 1677 in Middes als Hexer verurteilt und auf dem Scheiterhaufen verbrannt. Zu seinem Urteil vgl. <bibl><ref target="http://www2.fr.ch/aef_query/detail.aspx?ID=71657">StAFR, Ratsmanual 228</ref> (1677), S. 214</bibl>.</note>, elle a respondu que ladite
+						<lb/><persName>Crotta</persName> avoit <subst><del>seulem</del><add place="inline">esté</add></subst> prise d’abord après
+							<lb/>le supplice dudit <persName ref="per027155a.02">Peitier</persName>.</p>
+						<p><lb/>Interrogée si elle n’avoit donné des <term ref="lem015764.03">griettes</term>
+						<lb/>à <persName>Marguerite Horner</persName> lors servante de
+						<lb/><choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Python</persName>, desquelles estoit devenue
+						<lb/>malade, nioit au commencement de l’avoir
+						<lb/>cogneue, mais en après l’a confessé, mais
+						<lb/>nié de luy avoir jamais donné des <term ref="lem015764.03">griettes</term>.</p>
+						<p><lb/>Interrogée si elle n’avoit pas cogneu et frequenté
+						<lb/><persName>Jacques Bugnion</persName>, <persName>Franceisaz</persName> sa femme, <persName>George
+							<lb/>Bugnion</persName> et <persName>David Levanchy</persName><note>Georges Bugnion und David Lavanchy wurden beide von <persName ref="per027155">Pierre Peity</persName> denunziert jedoch später wieder freigelassen, vgl. <bibl><ref target="http://www2.fr.ch/aef_query/detail.aspx?ID=71657">StAFR, Ratsmanual 228</ref> (1677), S. 224</bibl>.</note>, le confesse,
+						<lb/>mais seulement en chemin faisant, et ne
+						<pb n="473"/><lb/>les avoir jamais frequenté, ny esté à la <term ref="lem017043.01">secte</term>
+						<lb/>avec eux.</p>
+						<p><lb/>Interrogée de quelles maladies estoyent morts ses
+						<lb/>maris, dict qu’ils sont morts de leur mort natu<lb break="no"/>relle, ayant esté malades en tout leur corps.
+						<lb/>Et luy ayant esté representé que leur mort
+						<lb/>avoit esté un peu precipitée, dict en avoir
+						<lb/>esté bien <term ref="lem015161.02">marrie</term>, mais qu’il en mouroit bien d’au<lb break="no"/>tres,
+							nommant feu <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Petolat</persName>. Surquoy ayant
+						<lb/>esté dict qu’elle l’avoit peut estre faict mourir,
+						<lb/>l’a nié. Et luy ayant esté proposé pourquoy
+						<lb/>elle citoit la mort dudit <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <persName>Petolat</persName> et d’ou
+						<lb/>elle le cognoissoit, a dict qu’elle le cognoissoit
+						<lb/>pour luy avoir souvent vendu des <term ref="lem019301.04">poulles</term>,
+							<lb/>des <term ref="lem019398.02">oeufs</term> et autres choses pour sa taverne,
+						<lb/>l’ayant regretté parcequ’il la payoit bien.</p>
+						<p><lb/>Touttes quelles declarations et negatives, elle
+							<lb/>a soustenu en trois <term ref="lem019550.03">elevations</term> au demy <term ref="lem018232.01">quin<lb break="no"/>tal</term>, suivant quoy le tout debvra estre
+						<lb/>representé à <choice><abbr>L E</abbr><expan>Leurs Excellences</expan></choice> pour attendre la dessus
+						<lb/>leur volonté ulterieure.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

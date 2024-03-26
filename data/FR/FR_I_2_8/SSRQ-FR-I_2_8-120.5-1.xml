@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-120.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 152–153</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 152–153</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Hayoz-Fruyo – Verhör</head>
+					<head xml:lang="fr">Margreth Hayoz-Fruyo – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1645-07-08"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="152"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1645-07-08">8<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> <hi rend="underline">1645</hi></origDate>, <persName ref="per012378a.02">Jacob Heydt</persName>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per011519a.01">Techterman</persName>, <abbr>Hr</abbr> <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><choice><abbr>Msr</abbr><expan>Monsieur</expan></choice> <persName ref="per013434a.01">Des Granges</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><lb/><persName ref="per016946a">Margreth</persName>, <persName ref="per016945a.01">Claude Fryoudts</persName> tochter, hinder <placeName ref="loc007935.06">Fawernachen</placeName> gebürtig,
+							<lb/>alß sie abermahlen die wahrheit vermag der wider <add place="above">sie</add> ergangnen
+							<lb/><term ref="lem000679.19">zügnussen</term> anzuzeigen gemahnt worden, hatt sich gott, dem almächtigen,
+								<lb/>unnd der heilligen mutter <persName ref="per000169a.08">Mariae</persName> <term ref="lem018858.01">ergeben</term> unnd gebetten, sie sollendt
+							<lb/>ihren in diser noth bystahn. Mit <term ref="lem016814">vermelden</term>, sie sye der <term ref="lem014672.03">hexery</term> gantz
+							<lb/>unschuldig.</seg> <seg>Unnd wiewohlen sie sich etlicher massen luth voriger
+							<lb/><term ref="lem016794.03">bekandtnuß</term> in der <term ref="lem000668">unzucht</term> <term ref="lem015245">vergriffen</term>, es syendt andere mehr,
+							<lb/>die sich der <term ref="lem016055">gestalt</term> versündige<subst><del>n</del><add place="overwritten">t</add></subst>. Vermeint, habe darumb buß
+							<lb/>gethan unnd sagt wytters, daß etliche, ihren zwar unbe<lb break="no"/>wußte ehrabschnyder ein böß <term ref="lem001980.01">geschrey</term> über sie haben ergahn
+							<lb/>lassen, alß wäre <add place="above">sie</add> von der hingerichtnen <term ref="lem007356">unholdin</term>, so in der
+								<lb/><placeName ref="loc010255.06">Felgenschüwr</placeName> gewohnt hatt, angeben worden<note>Gemeint ist vermutlich <persName ref="per011982">Barbli Billet-Bodmer</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-100.0-1">SSRQ FR I/2/8 100.0-1</ref>.</note>. Unnd so baldt sie es
+							<lb/>vernommen, sye sie mit ihrem abgestorbnen man zum herrn
+							<lb/>großweyblen unnd schrybern gangen, zu erfahren, ob es dem
+							<lb/>also. Welches sich bim wenigsten nit erfunden. Vermeint, sie
+								<lb/>habe von dannen ein bößen namen, sonderlichen von den übel<lb break="no"/>nachredenden <term ref="lem000075.45">lüthen</term> gehabt.</seg> <seg>Blybt gäntzlich by ihrem vorigen
+							<lb/>verneinen, anzeigendt, sie habe niehmahlen den <term ref="lem007321.06">tüffelln</term>
+							<lb/>weder gesechen, gespürt noch etwas derglychen gehört. Gott
+							<lb/>wölle sie darvon behüten. Vihlweniger das sie hievorgenanter
+							<lb/><persName>Theürlena</persName> einiche kranckheit angethan, noch ihren dieselbe
+							<lb/>mit angedütner <term ref="lem011432.02">salb</term> widerumb benommen habe. Zwar
+							<lb/>möchte es syn (wüsse <subst><del>es</del><add place="inline">aber</add></subst> nit eigentlich), daß sie mit
+							<lb/>ihren gehn <placeName ref="loc008041">St. Ursen</placeName> in die <term ref="lem001039.40">külbe</term> gangen. Habe aber ihren
+							<lb/>nichts übels <subst><del>angethan</del><add place="inline">verursachet</add></subst>.</seg> <seg>Nachdem sie <add place="above">aber</add> mit dem
+							<lb/>halben <term ref="lem018237.06">zendner</term> zum drittenmahl <term ref="lem016150.02">uffgezogen</term> worden, hatt
+								<lb/>dannoch zu letst nach langem zwyfflen <term ref="lem011468.03">bekhendt</term>, das gemelte
+							<lb/><persName>Theürlena</persName> zu ihr der gefangnen huß kommen, die ihren ihr
+							<lb/>noth geklagt unnd zu <term ref="lem018142.03">nayen</term> begert. Wüsse aber nit, das
+							<lb/>sie ihren zu <term ref="lem005807.01">hintrib</term> ihrer kranckheit einiche <term ref="lem011432.02">salb</term> geben habe.
+							<lb/>Zwar habe sie an einem märckht zu <placeName ref="loc001395.05">Schwartzenburg</placeName> ein gwüsse
+								<lb/>vihlfärbige <term ref="lem011432.02">salb</term> von einem <term ref="lem018221.02">schryer</term> kaufft, so sie <add place="above">in</add> ein <term ref="lem018222">krutze</term> ge<lb break="no"/>habt unnd zu <term ref="lem008937.03">etwan</term> schäden bruchen zu mögen, uffbehalten. Könne
+						<pb n="153"/>unnd möge sich aber nit errinnern (wan es ihren schon das leben
+							<lb/>kosten solt), daß sie ihren von derselben geben habe. Es möchte
+							<lb/>aber wol syn, unnd wan es schon dem also wäre, hätte sie es gutter
+							<lb/>meinung gethan.</seg><seg>Wil endtlich von erfragten <term ref="lem014672.03">hexery</term> sachen nichts
+								<lb/><term ref="lem011468.04">bekhennen</term>. Bittet umb gnad unnd sagt, es gescheche ihren
+								<lb/>unrecht.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-53-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/1, fol. 61v (Eintrag 1)</idno></msIdentifier><head>Verordnung über die Einsetzung des Rats von Winterthur und der städtischen Rechner</head><msContents><summary>Der Rat von Winterthur soll auf folgende Weise erneuert werden: Von den sieben Mitgliedern des neuen Rats bleiben zwei erhalten, die übrigen fünf stellen jeweils einen Kandidaten und bilden künftig den alten Rat. Die Vierzig entscheiden, ob sie diesen Vorschlag annehmen oder ändern wollen. Schultheiss, der Kleine und der Grosse Rat beschliessen, dass der Schultheiss, drei Mitglieder des Rats und zwei Mitglieder der Vierzig vierteljährlich die Abrechnung durchführen sollen. Der Schultheiss soll ihnen jeweils am Sonntag vor Fronfasten den Termin nennen.</summary><msItem><textLang xml:lang="de"/><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1419-10-15"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005361">Amtsübergabe</term><term ref="key004536">Finanzen</term><term ref="key000364">Rat</term><term ref="key000574">Rechnungswesen</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="61v" facs="STAW_B_2_1_fol_061_v"/>
+                        <head><lb/>Die ordnung, einen <orgName ref="org005587">raͧt</orgName> ze setzen</head>
+                        <p>
+                            <lb/>Ist also, daz <num value="2">zwein</num> nu̍w raͤt beliben sont von den <num value="7">sibnen</num>,
+                            <lb/>so vor nu̍w raͤt gewesen sint. Und gendt denn die <num value="5">fu̍nff</num>,
+                            <lb/>so vor nu̍w raͤt gewesen sint, jeklicher einen an sin statt,
+                            <lb/>da mit aber <num value="7">siben</num> werdint. Und daz bringt man denn an die
+                            <lb/><orgName ref="org009293">viertzig</orgName>, die mugen denn daz <del>nu</del> beliben laͤssen oder endren.
+                            <lb/>Und belibent denn die andren <num value="5">fu̍nff</num> fu̍r alt raͤt. <add place="inline" rend="other ink">Und sont
+                                <lb/>denn die <num value="5">v</num> alten raͤt fu̍r alt beliben und by einem schultheissen
+                                <lb/>sitzen, so man raͤt setzt</add>.
+                        </p>
+                        <p>
+                            <lb/><seg>Item ein <orgName ref="org007943">schultheis, kleiner</orgName> und <orgName ref="org009293">grosser raͧt</orgName> sint u̍ber<lb break="no"/>komen hin fu̍r ewenklich ze halten, daz ein schultheis und
+                                <lb/><num value="3">dru̍</num> des <orgName ref="org005587">raͧtz</orgName> und <del>ij</del>
+                                <num value="2">zwein</num> von den <orgName ref="org009293">viertzigen</orgName> alle <date type="floating holiday">fronvasten</date>
+                                <lb/>rechnung nemen sont von allen den, so mit der statt ze
+                                <lb/>rechnent haͧnt.<note>Zu dem Gremium der Rechner vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-41-1">SSRQ ZH NF I/2/1 41-1</ref></bibl>.</note> Und sol ein schultheis allweg uff den <date type="floating holiday">sunntag
+                                    <lb/>vor der fronvasten</date> denen verku̍nden, so ze rechnent haͧnt, uff
+                                <lb/>welhen tag sy sitzen wellint.</seg>
+                            <seg>Beschechen uff <origDate when="1419-10-15">sant <persName ref="per000455">Gallen</persName> aͧbent,
+                                <lb/>anno xviiij<hi rend="sup">o</hi></origDate>.</seg>
+                            <seg>Und haͧnt daz hin fu̍r gesworn ze halten.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die erste im Original überlieferte Urkunde, welche die <orig>consules</orig>, Mitglieder des <orgName ref="org005587">Rats</orgName>, neben dem Schultheissen und der Bürgerschaft von <placeName ref="loc000849">Winterthur</placeName> ausstellten, datiert von 1263 (<bibl>STAW URK 4</bibl>; Edition: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135491">UBZH</ref>, Bd. 3, Nr. 1213</bibl>). Erstmals erwähnt wird der <orgName ref="org005587">Rat</orgName> in einer späten Abschrift einer nicht erhaltenen Urkunde aus dem Jahr 1254 (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000135491">UBZH</ref>, Bd. 2, Nr. 901</bibl>). Anfangs schwankte die Zahl seiner Mitglieder zwischen acht (1297: <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-8-1">SSRQ ZH NF I/2/1 8-1</ref></bibl>) und sechs Personen (1305: <bibl>STAW URK 26</bibl>; Edition: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135491">UBZH</ref>, Bd. 8, Nr. 2783</bibl>), doch bald etablierten sich sieben Ratssitze. Über den Turnus der periodischen Neubesetzung dieses Gremiums lassen die Quellen zunächst keine Aussagen zu, wobei die abtretenden Ratsherren, der <orig><orgName ref="org005587">alt rat</orgName></orig>, weiterhin gewisse Funktionen ausübten (vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-11-1">SSRQ ZH NF I/2/1 11-1</ref></bibl>). Neben dem <orgName ref="org005587">neuen</orgName> und dem <orgName ref="org005587">alten Rat</orgName> begegnet bald nach 1400 der <orgName ref="org009293">Grosse Rat, die Vierzig</orgName>. Wie der Chronist <persName ref="per027172">Laurenz Bosshart</persName> berichtet, wurde 1436 eine neue Ordnung eingeführt, statt des <orgName ref="org005587">alten Rats</orgName> und des <orgName ref="org005587">neuen Rats</orgName> amtierte von nun an ein zwölfköpfiger <orgName ref="org005587">(Kleiner) Rat</orgName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000135639">Bosshart, Chronik</ref>, S. 26</bibl>).</p>
+                        <p>Anhand der Ratsnennungen in den Urkunden, die seit Mitte des 14. Jahrhunderts dichter überliefert sind, lässt sich schon früher beobachten, dass ein oder zwei Ratsherren ihren Sitz beibehielten, während die anderen wechselten. Das in der vorliegenden Aufzeichnung beschriebene Kooptationsverfahren, nach welchem Mitglieder des Rats ihre Nachfolger selbst bestimmten, war allgemein verbreitet, vgl. <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135571">Isenmann 2012</ref>, S. 352-356</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000030960">HLS</ref>, <ref target="https://hls-dhs-dss.ch/de/articles/010379/2008-10-30/">Kooptation</ref></bibl>. Die Ratserneuerungen fanden zu Beginn des 15. Jahrhunderts noch unter Aufsicht eines Repräsentanten der Stadtherrschaft statt (vgl. <bibl>STAW B 2/1, fol. 23r, 28r, 32r, 36r, 54v, 56v</bibl>). Ein fester Termin für den Beginn des Amtsjahrs mit der Wahl des Schultheissen am Albanstag, dem 21. Juni, und der Erneuerung des <orgName ref="org005587">Kleinen</orgName> und des <orgName ref="org009293">Grossen Rats</orgName> etablierte sich erst im 16. Jahrhundert, vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-278-1">SSRQ ZH NF I/2/1 278-1</ref></bibl>.</p>
+                        <p>Zur Entwicklung des <orgName ref="org005587"><placeName ref="loc000849">Winterthurer</placeName> Rats</orgName> seit dem 13. Jahrhundert vgl. <bibl><ref target="http://permalink.snl.ch/bib/chbsg000129786">Windler 2014</ref>, S. 63-64</bibl>; <bibl><ref target="http://permalink.snl.ch/bib/chbsg000129787">Niederhäuser 2014</ref>, S. 124-128</bibl>.</p>
+                        <p>Bei diesem Schreiber lassen sich die Buchstaben <q>o</q> und <q>e</q> mitunter kaum voneinander unterscheiden. Zur besseren Lesbarkeit des Textes wurde in Zweifelsfällen gemäss Standarddeutsch normalisiert.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

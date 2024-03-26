@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.15-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 237–239</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 237–239</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Vater / le père – Verhör</head>
+					<head xml:lang="fr">Pierre Ducli der Vater / le père – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-26"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="237"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-07-26">26<hi rend="sup">ten</hi> july 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018141a.01">Burgki</persName></seg></p>
+						<p><seg><lb/><persName ref="per020477a.04">Pierre du Cli</persName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examiné, dit que le
+							<lb/><term ref="lem015433.03">maling esprit</term> luy apparut il ast <date dur-iso="P10Y">dix ans</date>, habilé tout
+							<lb/> de noier vers la <placeName>Chappelle S<hi rend="sup">t</hi> Anthoine</placeName><note>Il s’agit probablement de la <placeName ref="loc011699">Chapelle Saint-Antoine</placeName> à <placeName ref="loc008137">Villars-sur-Glâne</placeName>, qui n’existe plus aujourd’hui.</note>, avec dé pied
+							<lb/>pelleux laide comme de <term ref="lem018923.04">beuf</term>, luy ayant dit qu’il estoit
+							<lb/>espouzé et qu’il estoit sien, et que lors il ne se volut
+							<lb/>rendre à luy, ains s’estant recommandé à Dieu et à la Sain<lb break="no"/>te Vierge, il disparut&#160;; luy poursuivit son chemin.
+							<lb/>Et que lors qu’il se rendit au <term ref="lem015433.10">maling</term>, que se fust
+							<lb/>vers la haulte ou belle croix de <placeName ref="loc008500.04">Moncour</placeName>, ou
+							<lb/>le <term ref="lem017521">diable</term> luy demandant s’il se vouloit rendre à
+							<lb/>luy, ce qu’<subst><del>e</del><add place="overwritten">i</add></subst>l ne luy volut pour lors accorder.
+							<lb/>Ains un aultre foy se rencontrant en mesme endroit,
+							<lb/>il se rendit à luy, ayant <term ref="lem019541.15">renié</term> Dieu, <choice><abbr>nre</abbr><expan>notre</expan></choice> Dame,
+							<lb/>tous les saincts de parradis et le <term ref="lem019542.04">baptesme</term>.
+							<lb/>Le quel ensuitte le <term ref="lem018895.07">marquat</term> au dos et luy prestat
+							<lb/><term ref="lem018915.03">homage</term>, l’ayant <term ref="lem019481.14">baissé</term> à la main ou griffes noires
+							<lb/>froides, luy commandant la desus de faire force mahl
+							<lb/>avec de la <term ref="lem018382.02">graise</term> jaulne et du <term ref="lem014886.02">pusset</term> qu’il luy donat.</seg>
+						<pb n="238"/><seg><lb/>Estant la desus demandé les quels il avoit faict
+							<lb/>mourir, dit qu’il ne le sçavoit, par après dit
+							<lb/>et confirme sa precedente <term ref="lem019465.01">confession</term> d’avoier <term ref="lem018556.03">male<lb break="no"/>ficié</term> l’enfant de la <persName>Helblina</persName> et de <persName>Metro</persName>,
+							<lb/>et comme l’on s’inquerit du nom du <term ref="lem015433.03">maling esprit</term>, il
+							<lb/>dit n’avoier sceu aultre nom que le <term ref="lem017521">diable</term>,
+							<lb/>et estant serieussement sur ce soubject exa<lb break="no"/>miné, il dit <persName ref="per029452a">Martin Luther</persName> derechef.</seg>
+							<seg><lb/>Davantage assere avoier esté six fois à la <term ref="lem017043">secte</term>,
+							<lb/>ou il avoit un certain homme laide noir qui jouet
+							<lb/>du violon et un aultre de mesme, fason <subst><del>d</del><add place="overwritten">j</add></subst>oueur
+							<lb/>de fleute, ou il en avoit dé persones habilées
+								<lb/>de diverses fassons. <subst><del>Ou</del><add place="inline">Il i</add></subst> conduit son fils <persName ref="per020483a.01">Piere</persName>,
+							<lb/>le <subst><del><unclear><gap reason="illegible" quantity="1" unit="cm"/></unclear></del><add place="overwritten">quel</add></subst> s’i rencontra toutez les fois, ou <subst><add place="inline">il</add><del>ayant</del></subst>
+							<lb/>recogneu<add place="inline">t</add> la femme de <persName>Niclo</persName>, demourant à <placeName ref="loc008034.06">Marli</placeName>,
+							<lb/>avec un chappeaux <term ref="lem015228">rebrassé</term>, qui dansoit. Item
+								<lb/>une aultre nommée <persName ref="per020304a.02">Ageta</persName>, demourant en la <placeName ref="loc011693.02">Rue
+							<lb/>des Oyes</placeName>, accompagniée d’une aultre demourant
+								<lb/>sur <placeName ref="loc007883.06">Lé Places</placeName>, s’appellant <persName ref="per020299a.04">Mathie</persName>, et deux
+							<lb/>fillies de certain <persName>Mullet</persName>, ou en dite <term ref="lem017043">secte</term> il
+							<lb/><choice><sic>dasoint</sic><corr>dansoint</corr></choice> tous et fessoint bonne chere, s<subst><del>i</del><add place="inline">’i</add></subst> estant
+								<lb/>lé predites et son fils <persName ref="per020483a.02">Pieru</persName> toutjour rencontré&#160;;
+							<lb/>dont la premiere fois qu’il se trovat à la
+							<lb/><term ref="lem017043">secte</term>, ce fust sur <placeName ref="loc008500.03">Montcour</placeName>, la 2<hi rend="sup">de</hi> vers
+							<lb/>le pont de <placeName>Marze</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir d’un pont se trouvant en <placeName ref="loc011690">Les Marches</placeName>, à l’est de Matran.
+								Il existe aussi un lieu-dit <placeName ref="loc011692">Bois du Pont</placeName>, situé au sud, juste au-dessous du village de Matran. Enfin, un peu plus éloigné de Matran, au sud-ouest, il existe encore un lieu-dit
+								<placeName ref="loc011691">Pont Neuf</placeName>, juste en dessous du <placeName ref="loc011689">Marchet</placeName>.</note>
+								proche de <placeName ref="loc008073.01">Matran</placeName>,
+								<lb/>tiersement vers le <placeName>Creu de Ratt</placeName><note>L’identification du lieu est incertaine. Dans son interrogatoire du <date when="1651-07-31">31 juillet</date>, <persName ref="per020477">Pierre Ducli</persName>, le père, évoque le <placeName ref="loc011458.02">Creu Dornant</placeName> comme lieu de sabbat.</note>, la 4<hi rend="sup">me</hi> fois
+							<lb/>s’estre rencontré en la <term ref="lem017043">secte</term> vers la <placeName ref="loc008560.04">Glaina</placeName>.
+							<lb/>Ce que rencontant, il dit qu’il avoit peur de <add place="above">se</add> faire
+								<lb/>tordt.</seg> <seg>En dite <term ref="lem017043">secte</term>,
+						<pb n="239"/><lb/><add place="left margin">a dit qu’ils</add> estoint esclairé par une lumiere bleue et
+							<lb/><subst><del>dit</del><add place="inline">que</add></subst> lé viandes qu’ils i mangoint n’avoint aulcun
+							<lb/>goust, ains grandement salés. Confirme en aultre
+								<lb/>si luy semble avoier <term ref="lem018556.03">maleficié</term> le curé de <placeName ref="loc007648.09">Dompieru</placeName>
+							<lb/>et deux aultres audit lieux de <placeName ref="loc007648.10">Domp Pieru</placeName>&#160;;
+							<lb/><term ref="lem019498">Criant la desus merci</term> de la paine qu’il donnoit à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice>
+							<lb/>du droict et demandant pardon à Dieu
+							<lb/>et à Leur <choice><abbr>Exell</abbr><expan>Exellences</expan></choice>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

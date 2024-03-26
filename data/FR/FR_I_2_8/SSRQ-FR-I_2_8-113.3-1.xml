@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-113.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 41–42</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 41–42</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anne Pillet – Verhör</head>
+					<head xml:lang="fr">Anne Pillet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-01-19"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="41"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-01-19">19<hi rend="sup">ten</hi> <foreign xml:lang="la">januarii</foreign> 1644</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per009378a.01">Lari</persName></seg>
+							<seg><lb/><persName>Python</persName><note>Gemeint ist entweder <persName ref="per012381a">Hans Ulrich Python</persName> oder <persName ref="per012380a">Jost Python</persName>, die beide im Stadtgericht sassen.</note>, <persName ref="per013720a.01">Zumholtz</persName></seg>
+							<seg><lb/><persName ref="per013434a.05">Desgranges</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016035a.01">Anna Pilet</persName> de <placeName ref="loc007983.03">Noreaz</placeName> dict l’occasion qu’on
+							<lb/>la soubçonne d’estre <term ref="lem019389.02">sorciere</term>, est qu’on a faict
+							<lb/>a mourir sa mere icy a <placeName ref="loc001060.04">Frybourg</placeName>, mais qu’elle
+							<lb/>n’a veu ny apprins aulcun mal d’elle, car avoir
+							<lb/>servy beaucoup d’annees a <placeName ref="loc001060.04">Frybourg</placeName> et depuis
+							<lb/>estre allee aupres d’une de ses tantes.</seg> <seg>Estre
+							<lb/><date dur-iso="P36Y">36 ans</date> qu’elle est sortie de la maison de
+							<lb/>son pere, tellement pour n’avoir esté ou de<lb break="no"/>meuré avec sa mere, qu’elle n’a rien aprins
+							<lb/>d’elle et qu’elle n’a jamais heu aulcun mauvais
+							<lb/>rencontre, et n’a faict mal a personne du
+							<lb/>monde.</seg> <seg>Et le plus grand mal qu’elle a faict, est
+								<lb/>d’avoir faict des imprecations a ceux qu’y a<lb break="no"/>voient <term ref="lem015015.03">derobbé</term> les choux hors de son jardin,
+							<lb/>auquel elle souhaitta la mort, disant qu’ils
+							<lb/>y mangeassent la mort.</seg> <seg>Plus estre <date dur-iso="P6Y">six ans</date>
+								<lb/>qu’une fille commune la surparla a la de<lb break="no"/>dicasse de <placeName ref="loc007599.05">Ponthoux</placeName> d’aller avec elle a
+								<lb/><placeName ref="loc007648">Dompierre</placeName> pour y monstrer le chemin, et estant
+								<lb/>venue a <placeName ref="loc007648">Dompierre</placeName> ne dormit qu’un peu devant
+								<lb/>une maison, et s’en revient contre <placeName ref="loc007983.03">Noreaz</placeName> sans
+							<lb/>avoir faict aulcun mal, et nie qu’on l’aye trouvee
+							<lb/>hors des chemins.</seg> <seg>Et pour les <measure type="currency" quantity="18" unit="bz">18 bz</measure> qu’on dict
+							<lb/>qu’elle aye esté condamnee rendre a <persName>Duret</persName>
+							<lb/>pour une cause heue avec ledit <persName>Duret</persName> pour un
+							<lb/>chaisne, a dict l’ignorer entierement et qu’il
+							<lb/>y en arrive tort, n’ayant donné mal a per<lb break="no"/>sonne du monde.</seg> <seg>Et n’avoir aussi donné a manger
+							<lb/>aulcune chair pour mal faire a ses ouvriers, ny
+						<pb n="42"/><lb/>a <persName>François Cossonez</persName> <del><persName>Margueritte Curty</persName></del>, ny
+							<lb/>a aulcuns aultres <del>qu’</del> qu’il ne soit au nom de Dieu,
+							<lb/>estant innocente de leur mort, comme aussi
+							<lb/>de ce qu’on y impute de <persName>Margueritte Curty</persName>,
+							<lb/>niant d’y avoir donné un coup sus l’espaule,
+							<lb/>et dict qu’elle debvoit rien craindre du
+							<lb/><term ref="lem018777.02">sabrey</term>, qu’elle y doibt avoir heu donné a
+							<lb/>manger&#160;; que si on luy tiroit tous ses mem<lb break="no"/>bres hors de son corps, qu’on <subst><del>l</del><add place="overwritten">n</add></subst>e la fairoit
+							<lb/>ou pourroit faire a dire aultrement, qu’elle
+							<lb/>n’a jamais surpassé les commandements de
+								<lb/>Dieu.</seg> <seg>Et si bien elle <subst><del>a</del><add place="above">auroit</add></subst> donné des <term ref="lem021653.03">aulmosnes</term>
+							<lb/>aux <date when="1644-01-06">Rois passéz</date>, que ce ne seroit qu’au
+							<lb/>nom de Dieu&#160;; qu’elle est femme craignant
+							<lb/>Dieu et n’a jamais esté a la <term ref="lem017043">secte</term>&#160;; que point
+							<lb/>de cordonnier est devenu malade aupres
+								<lb/>d’elle&#160;; qu’elle n’est pas <term ref="lem019389.02">sorciere</term> et jamais
+							<lb/>le sera&#160;; qu’elle n’a jamais veu ny entendu
+							<lb/>le <term ref="lem015433.10">maling</term>&#160;; qu’on y fait tort comme les juifs
+							<lb/>a nostre Seigneur&#160;; <add place="above">et</add> ne sçait rien d’avoir
+							<lb/>poussé une fille&#160;; que si elle est <term ref="lem019502.06">possedee</term>,
+							<lb/>qu’elle l’est pour ses <term ref="lem019539.08">peschez</term>&#160;; qu’elle n’est
+							<lb/>jamais sortie des commandements de Dieu
+							<lb/>et n’a faict mal a personne du monde, ce
+							<lb/>qu’elle a soustenu a la simple <term ref="lem018231">corde</term>&#160;; et a
+							<lb/>encour dict qu’elle croit d’estre enceinte.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

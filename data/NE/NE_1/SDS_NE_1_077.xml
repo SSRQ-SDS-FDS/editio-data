@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-77-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de Boudry</repository>
+                  <idno xml:lang="fr">Archives de Boudry, G&#160;1&#160; No&#160;45</idno>
+               </msIdentifier>
+               <head>Concessions faites par le gouverneur Georges de Rive, au nom de la comtesse de
+                  Neuchâtel, de divers droits municipaux aux bourgeois de Boudry</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36"/>
+                              <width unit="cm" quantity="43"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1540-01-05"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_181">SDS NE 1, N<hi rend="sup">o</hi>&#160;77</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000086"></term>
+               <term ref="key003389"></term>
+               <term ref="key000308"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="BOUDRY_G1_45_r"/>
+               <div>
+                  <p><seg>
+                      <lb/>Nous <persName ref="per031747a.01">George de Rive</persName>, seigneur de
+                     Prangin, Grancourt <lb/>et Genoullier, lieutenant et gouverneur general du conté
+                     de Neufchastel <gap reason="missing"/> <abbr>etc</abbr>  scavoir faisons ad tous ceulx qui
+                     verront et orront la teneur des presentes que  <lb/>comme il soit que les
+                     bourgeois et subjectz de la ville de <placeName ref="loc007904.02"
+                        >Bouldry</placeName> soyent venus par devers nous en nous presentant pour et
+                     en nom de nostre  <lb/>souveraine dame humble supplicacion, et en icelle
+                     plussieurs articles contenus, dont le premier est que il nous pleust au nom que
+                     dessus <lb/>leurs accordé et ouctroyé privilege de construyre et faire au
+                        <placeName>Chaffault</placeName><note>Note Favarger&#160;1982&#160;: nom
+                        d'une tour de Boudry.</note> de ladicte ville une caige appelé javiolle,
+                     pour en icelle mener les  <lb/>delinquans a nous status et ordonnances,
+                     accordante a ceulx de ladicte ville et iceulx pugnis et chastier au contenu
+                     desdicts status et ordonnances <lb/>faict par lesdicts seigneurs et lesdicts
+                     bourgeois selon leurs demerittes et non poinct pour cas criminel. Semblablement
+                     de leurs donner et permectre <lb/>par privilege de pouvoir eslire ung maistre
+                     bourgeois ou deux, l’ung du conseil et l’autre de la communaultey, celluy du
+                     conseil se appellera  <lb/>maistre bourgeois et celluy de la communaultey
+                     gouverneur. </seg> <seg>Idem qu’il nous playse leur licencez et permectre de debvoir
+                     mectre une  <lb/>cloche audict <placeName>Chaffault</placeName> ou ailleurs pour
+                     icelle en usé en fait de communaulté, pour sonner, appellé les justiciers et
+                     conseil des <lb/>douze, le tout sans prejudicier aux droictz seigneuriaux.</seg>
+                     <seg>Idem de leur donner privilege de eslire un sergent ou subthier pour
+                     lesdicts  <lb/>du conseil et justiciers assemblez, et de faire tous autres actes
+                     esquieulx le seigneur et lesdicts bourgeois conseilliers serons conformés
+                      <lb/>et d’accord. Pareillement que il nous pleust leurs bailler licence et
+                     permectre de user des semayres par eulx faictes et des  <lb/>armes de
+                     messaigiers comme ont acoustumé de faire les bourgeois de Neufchastel et
+                     autres. Et après avoir ouye leur  <lb/>suppplicacion estre consonante a raison,
+                     semblablement avoir entendu le bon vouloir de madicte dame et de messeigneurs
+                     ses enffans, ayans en  <lb/>memoyre le bon vouloir et amytié que noz
+                     predicesseurs contes et contesses leurs ont par ycy devant pourter et pour la
+                     grande <lb/>obeyssance et subjections enquoy il ce sont tousjours trouvez envers
+                     iceulx, et que dès a present il ont acoustumer pour et en nom de madicte
+                      <lb/>dame en me rendant toute obeyssance et debvoirs de bons loyaulx bourgeois
+                     et subjectz. Aussi estans informé au vray de leurs  <lb/>aultres libertés et
+                     franchises, lesquelles leurs ont faictz les feuz contes et contesses noz
+                     predicesseurs et tousjours par iceulx <lb/>corroborer tous et ung chascuns les
+                     articles en leur supplications contenus, assavoir le premier de la caige et
+                     javiolle, des maistre <lb/>bourgeois et gouverneur, du subthier, semayres, armes
+                     et cloche, par Pad vis d’aulcungs du conseil de madicte dame, a iceulx articles
+                     susnommez <lb/>a nous, ausdicts bourgeois et communaulté, a leurs et leurs
+                     posterirrité et après venans, pour et en nom de madicte dame, donné, ceddé et
+                      <lb/>ouctroyé et par ces presentes donnons, ceddons et ouctroyons lesdicts
+                     privileges dessus nommez qu’ilz en doibgent eulx et les leurs après venans
+                      <lb/>usez comme font les autres telz et semblables privileges ayans, le tout
+                     sans préjudicier aux droictures de madicte dame. Et  <lb/>a celle fin que ces
+                     presentes ayent force, vigueur et valleur a l’advenir, nous ledict seigneur
+                     gouverneur que dessus avons <lb/>icelles sellée de nostre propre seel armoyer de
+                     noz armes en cyre rouge et fait signé par <persName>Jehan
+                        Barreillier</persName>, clerc et commissaire de madicte <lb/>dame en son
+                     conté de Neufchastel. Que furent faictes et données a Neufchastel en la maison
+                     de madicte dame, <date when="1540-01-05">le cinquiesme jour du  <lb/>moys de
+                        janvier mil cinq cens et quarante</date>. </seg></p> 
+                  <p> <lb/>Avoir vehu le registre estre consonnant a ces presentes  <lb/>pour ce que
+                     n’a estée signée par ledict <persName>Jehan Barreillier </persName>mon
+                      <lb/>pere a cause de son deceps et trespas en vertu de la  <lb/>commission a moy
+                     donnée de ses registres et protocolles  <lb/>ay signé la presente de mon seing
+                        manuel<date when="1544-10-03"> le troisiesme  <lb/>jour du moys d’octobre
+                        l’an mil cinq centz cinquante  <lb/>et quattre</date>.</p>
+                   <lb/>
+                  <signed>
+                   Barreillier <figure type="notarial sign"></figure>
+                  </signed>
+               </div>
+               <pb n="v" facs="BOUDRY_G1_45_v"/>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin avec sceau pendant sur double queue, <hi rend="italic">Archives de
+                        Boudry</hi>, G&#160;1, N<hi rend="sup">o</hi>&#160;45.</p>
+               <p>Copie du XVII<hi rend="sup">e</hi>&#160;siècle, AEN, Y&#160;2, N<hi rend="sup"
+                  >o</hi>&#160;26.</p><p><hi rend="italic">Cité</hi>&#160;: Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;407, Matile,
+                        <hi rend="italic">Institutions judiciaires</hi>, p.&#160;39.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

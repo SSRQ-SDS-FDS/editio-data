@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-195.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 383</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 383</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marie Blanc-Edouard – Verhör</head>
+					<head xml:lang="fr">Marie Blanc-Edouard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1673-08-21"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1673-08-21">21<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> <hi rend="underline">1673</hi></origDate></p>
+						<p><seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026535a">Hans Peter Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026537a">Hans Jakob Python</persName>.</note>, <abbr>h</abbr> <choice><abbr>haubt</abbr><expan>haubtmann</expan></choice> <persName ref="per026365a.03">Vonderweydt</persName></seg>
+							<seg><lb/><persName ref="per026536a.02">Des Granges</persName>, <persName ref="per026539a.01">Dageth</persName>, <persName>Vonderweidt</persName><note>Es ist unklar, wer gemeint ist. Laut dem Freiburger Besatzungsbuch sass damals keine weitere Person des Namens <orgName ref="org002526.01">Vonderweid</orgName> als Vertreter des Rats der Sechzig im Stadtgericht, vgl. <bibl><ref>StAFR, Besatzungsbuch 13, S. 332</ref></bibl>.</note></seg>
+							<seg><lb/><persName ref="per026540a.01">Werro</persName>, <persName ref="per026543a.01">Rossier</persName></seg></p>
+						<p><lb/>La devant nommée <persName ref="per021194a">Marie</persName>, femme de <persName ref="per021196a">Claude Blanc</persName>, de <placeName ref="loc007747">Russy</placeName>,
+						<lb/>estant par messieurs du droict serieusement exhortée à dire
+						<lb/>la verité sur touts les poincts de l’<term ref="lem018363">inquisition</term>, sur les<lb break="no"/>quels elle ast esté punctuelement examinée, et par trois
+						<lb/>fois elevée avec la simple <term ref="lem018231">corde</term>, n’ast rien ajousté ny
+							<lb/>diminué de sa precedente <term ref="lem019465.01">confession</term>, soustenant d’estre
+						<lb/>entierement innocente du faict dont on l’accuse, n’ayant
+						<lb/>commis de tout le temps de sa vie aulcune action digne
+						<lb/>de reproche. Et que tout ceux qui ont deposé contre
+						<lb/>elle luy fesoient fausement tort, qu’elle ne s’est jamais
+						<lb/>donnée à la <term ref="lem018980.03">pute beste</term>, ny par parolle ny par volonté,
+							<lb/>ayant vecqu depuis <date dur-iso="P38Y">38 ans</date> en ça dans la s<hi rend="sup">te</hi> foy <term ref="lem019533.01">catholique</term>
+						<lb/>sans faire aulcun tort ny mal à personne que se soit.
+						<lb/>Que si elle auroit comis quelques faulte, que ce seroit esté
+						<lb/>par ignorance, dont elle en demande pardon a ce bon
+						<lb/>Dieu et à toutte l’honnorable justice, estant preste
+							<lb/>de soustenir tout les <term ref="lem019473.06">torments</term> que l’on voudra avant
+						<lb/>que de <term ref="lem015549.01">confesser</term> d’estre telle comme on l’accuse,
+						<lb/>priant vos Excellences vouloir considerer sa vieliesse
+						<lb/>et son ignorance, à quoy tres humblement se recomande.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

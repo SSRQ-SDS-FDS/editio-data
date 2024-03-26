@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-139.16-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 533–534</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 533–534</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Destra – Verhör und Urteil</head>
+					<head xml:lang="fr">Catherine Destra – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1648-08-07" to="1648-08-11"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="533"/><p><lb/>Den <origDate when="1648-08-07">7<hi rend="sup">ten</hi> augsten 1648</origDate>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per013479a.01">Reynold</persName></seg>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/>Herr <persName ref="per013434a.03">Degrange</persName>, <abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013469a.03">Castilla</persName></seg></p>
+						<p><lb/>Ayant <persName ref="per018091a.06">Cateline de Trey</persName> dereche<subst><del><gap unit="character" quantity="1" reason="illegible"/></del><add place="overwritten">f</add></subst> serieusement par
+						<lb/><choice><abbr>mes<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> du droit esté examinee et exhortee a dire la
+						<lb/>verité et de ne faire tort ni a soy mesme, ni a <subst><del>da</del><add place="overwritten">a</add></subst>ultrez,
+						<lb/><term ref="lem015549.02">confessa</term> en fin qu’elle avoit faict veritablement tort
+						<lb/>a toutes ceuxz qu’elle avoit <term ref="lem015356.13">accoulpé</term> et qu’elle ne sçavoit
+						<lb/>rien d’eux, que aprés d’aultres qu’elle avoit en entendu parler,
+						<lb/>ainsi que aprés oir dire, leur <term ref="lem019498">crie mercy</term> et leur demande
+						<lb/>pardon, disant ne sçavoier que bien et honneur d’eux,
+						<lb/>car ce qu’elle avoit faict le fesoit en partie par haine,
+						<lb/><add place="left margin">et vengance</add>, en partie parce qu’elle croit par ce moien se delivrer de
+						<lb/>la prison, et que son pere ne sçavoit, ni avoit aulcune
+						<lb/>cognaissance, ni de la <term ref="lem018521.02">sorcelerie</term>, ni des <term ref="lem019530.02">embrassement</term><supplied>s</supplied> faictz.
+						<lb/><add place="left margin">Aussi</add> dit qu’il est veray que environ <date dur-iso="P3Y">3 ans</date>, estant vers le <persName>Roumu</persName>
+						<lb/>proche du moulin de <placeName ref="loc008123.05">Neiru</placeName> et <placeName ref="loc007902.05">Escuvilin</placeName><note>Ce moulin a aujourd’hui laissé son nom à un lieu-dit <placeName ref="loc012554">Le Moulin</placeName>.</note>, ou le <term ref="lem017521">diable</term> s’aparut
+						<lb/>a elle, habilié tout noir sans chappeaux avec longes dents,
+						<lb/><add place="left margin">elle se rendit</add> a luy, <add place="above">et</add> qu’<subst><del>e</del><add place="overwritten">i</add></subst>l ne luy permist poinct de pouvoir faire le signe
+							<lb/>de la <choice><abbr>s<hi rend="sup">te</hi></abbr><expan>sainte</expan></choice> croix. Ains qu’elle s’estant rendue a luy,
+							<lb/>il la <term ref="lem018895.07">marquat</term> sur la teste, ayant <term ref="lem019541.15">renié</term> Dieux et les
+						<lb/>saincts, le quel luy donnat par diverses fois des
+							<lb/><term ref="lem018384.06">ungants</term> pour faire mourir hommes et baistail,
+						<lb/>les quels ossitout jettat <term ref="lem019135.02">envoye</term>, et ne s’en servit
+						<lb/>aulcunement.
+						<pb n="534"/><seg><lb/>Elle <term ref="lem015549.13">confesse</term> aussi avoier esté une fois a la <term ref="lem017043">secte</term>,
+						<lb/>ou il i avoit beaucoup de monde, mais qu’elle ne
+						<lb/>peut recognaistres aulcuns de ceux qui estoient.
+						<lb/>Item qu’elle avoit mis le <term ref="lem014953.01">feu</term> a <placeName ref="loc009824.04">Chennens</placeName>
+						<lb/>par l’<term ref="lem018520.01">instinction</term> du <term ref="lem018943.02">demon</term> et sa maulvaise
+							<lb/>volonté, paraillement a <placeName ref="loc009823.05">Lentini</placeName>, elle <term ref="lem019531.08">enbrassa</term>
+						<lb/>quesque maison, et que aussi sur certaine queraile
+						<lb/>heue avec <persName>Dugu</persName>, il encendra de despit son logis.
+						<lb/>Pour quels mesfaict, elle demande humblement
+							<lb/>a Dieux et a la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge pardon, et <add place="above">se</add> remet
+						<lb/>a la volonté <add place="above">de</add> Dieux et de messieurs, se remetant
+						<lb/>totalement a leur volonté et a ce qu’il disposeront
+							<lb/>d’elle.</seg> <seg>Surquoy estant <term ref="lem019427.02">torturee</term> avec le <term ref="lem018232">quintal</term>
+						<lb/>par deux fois, confirma touts lé points susdits
+								<lb/>et encor d’avoier <term ref="lem015015.14">desrosbé</term> un pain a <placeName ref="loc007610">Payerne</placeName>
+						<lb/>et de la viande a <placeName ref="loc007609.11">Estavayé le Gyblaux</placeName> hors d’un
+						<lb/>pots. Demande humblement la desus pardon.</seg></p>
+						<p><lb/><add place="left margin">Ist den <date when="1648-08-11">11<hi rend="sup">ten</hi> augsten
+							<lb/>1648</date> zum <term ref="lem012936.07">feüwr</term>
+							<lb/>lebendig veruhrt<lb break="no"/>theillet worden und
+							<lb/>mit der <term ref="lem016899.03">schleipffen</term>
+							<lb/>sollen außgefürt
+							<lb/>werden. Auß bedenken
+							<lb/>aber der <term ref="lem016899.03">schleipffen</term>
+							<lb/>erlaßen, und sonsten
+							<lb/>angeführt und leben<lb break="no"/>dig ins <term ref="lem012936.07">feüwr</term> gestürzt worden.
+							<lb/>Bevohr aber hat sie
+							<lb/>erstlich die verklagte
+							<lb/>von ihr weiber ernstlich
+							<lb/>umb <term ref="lem004684.19">verzeychung</term>
+							<lb/>gebeten, weillen
+							<lb/>sie ihnen unrecht gethan.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 533.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-27-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-Q1.52</idno>
+               </msIdentifier>
+               <head>Confirmation de franchises accordées par Guillaume d'Aarberg, seigneur de
+                  Valangin, à ses francs-habergeants dits «&#160;Geneveis&#160;», et ce moyennant la
+                  somme de deux cent septante deux écus d'or</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="35"/>
+                              <width unit="cm" quantity="46"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1412-05-09"/>
+                     <origPlace ref="loc005950">Valangin</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_82">SDS
+                           NE 1, N<hi rend="sup">o</hi>&#160;27</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key005822"></term>
+               <term ref="key000479"></term>
+               <term ref="key000815"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_Q1_52_r"/>
+               <div>
+                  <p>
+                     <lb/><foreign xml:lang="la"><hi rend="center">Datum per copiam de verbo ad verbum nychil addito nychil remoto est
+                        tenor talis&#160;:</hi></foreign></p>
+                     <p>
+                    <seg><lb/>Nous Guillaume, conte d’Arberg, seignour de Vaulongin, faczons savoir a
+                     tous ceuls que verront et orront ces presentes lettres que nous <gap
+                        reason="missing"/>.
+                     <lb/>Et come nous gens que s’appellent les abergeant austremont lez Geneveis
+                     hayens aucune lettres de franchisse de nous seignours et predecessours
+                     <lb/>seignours de Vaulangin, nous ycelles lettres scellees des seelx de nous
+                     dit seignour et predecessours, ensamble les nostres lettres, nous lour havons
+                     conferrnés et confermons par ces presentes lettres pour nous, nous hers, cohers
+                     et <lb/>successours et ycelles luhons, approvons et <choice>
+                        <sic>confemons</sic>
+                        <corr>confermons</corr>
+                     </choice> pour lour et pour lours hers, cohers et successours et que ycelles
+                     soyent de present et demouroyent touzjour pour le temps avenir en lour force et
+                     valour. En oultre <lb/>nous, pour nous, nous hers que dessus lour havons
+                     confermez et confermons pour lour et lours hers que dessus le contenu de
+                     nostres extentes villes et novelles, come plus a plan contenus est en ycelles
+                     ensi come il s’an<lb break="no"/> suet&#160;: </seg> <seg>Et premièrement lez dittes
+                     nostres gens abergeant austremont Geneveis, lour et ung chascun de lour, hont
+                     confessé estre nostre homes abergeant, jurié par lour sermont et conffessont et
+                     hont confessé de tenir <lb/>lour possessions et heretaige de nous et de nous
+                     hers pour les censes dehuez pour lez dit heretaige et avoec ce les usages que
+                     s’an seugant&#160;: </seg> <seg>1. Premièrement lour et ung chascun de lour doivent a
+                        nous et a nous hers que dessus perpetualmont <lb/>ung chascun ans por une
+                        fois le charrois pour amenés nostre vin de la Coste de Nuefchastel jusques
+                        ad Vaulangin.</seg>
+                     <seg>2. Et doivent ung chascun ans perpetualmont por une foys une journée de
+                        soyés nostre prat, c’est <lb/>assavoir le bruelie de Fontaine.</seg>
+                     <seg>3. Et doivent a nous et a nostres hers la chavachié, c’est assavoir sugre
+                        la baniere quant il en seront requis par nous, nous hers ou nostres
+                        messager.</seg>
+                     <seg>4. Et les bans, clanmes et deffaut quant <lb/>ilz le commettent ensi et
+                        paroillemont corne ces chouses sont escriptes et contenues en nostres dittes
+                        extentes, villes et novelles.</seg>
+                     <seg>5. Item en oultre, nous Guillame, seignour surdit confessons havoir donné,
+                        baillier et <lb/>délivrez de presant de grâce espiciaul pour lour, lours
+                        hers, cohers et successours es dites nostres gens Geneveis surdits la
+                        mortemains laquelle nous seignours et predecessours seignours de Vaulangin
+                        <lb/>a nous dou temps passé havons acustumé de prandre et lever sur yceulx
+                        jusques au jour de la date de ces presentes lettres.</seg>
+                     <seg>6. Et que yceulx Geneveis que orandroit y sont pour le temps avenir <lb/>y
+                        saront et lour hers que dessus puissant et doigent succedi et herité li ung
+                        l’austre de lour condicion, tant come ligne se doit et puest cognostre,
+                        demourant et residant rié et desoub nous <lb/>et nous hers en Vaul de Ruit
+                        en nostre seignory de Vaulangin et non austremont et ensi lours et lour hers
+                        sont et doivent estre quitte de la dicte morteman sans jamais riens demandé
+                        <lb/>par [telle] condicion que ou caus que ung ou plussours des dites
+                        nostres g<damage agent="faded ink"><supplied>ens   es</supplied></damage> se partirint four de desoub nous ou nous hers ou
+                        temps avenir san nostre licence et volonté que en celux <lb/>caux nous et
+                        nous hers que dessus devons havoir et panre lez biens <damage
+                           agent="faded ink"/> mobles de celux ou de cellours que se partirint, come
+                        dit est, four de desoub nous et nous hers, c’est assavoir lez <lb/>bien
+                        surdits que il haroit le jour et hore que se partiroit four de desoub nous
+                           <damage agent="faded ink"/>.</seg>
+                     <seg>7. Item nous Guillame, seignour surdit, havons donné, baillier et délivré
+                        es dite nous gens Geneveis pour <lb/>lour et lours hers que dessus a ces que
+                        a present y sont et pour <note>Favarger&#160;1982&#160;: Deux mots
+                           illisibles d'une autre main plus moderne en adj. lin. entre pour et
+                           temps.</note> le temps avenir <damage agent="faded ink"
+                              ><supplied>y</supplied></damage> puissant et doigent achisté et vendre
+                        et engaigier l’ong ad l’austre de lour condicion dè cy en avant <lb/>san
+                        contredit.</seg>
+                     <seg>8. Et ansi que ilz puissant et doigent achisté et prandre en <damage
+                           agent="faded ink"/> ertaige de noustres franc bourgeois dou bourg de
+                        Vaulangin par telle condicion que in doivent paier <lb/>a nous et a nous
+                        hers que dessus lez loud des dites gaigieres et vendicion <damage
+                           agent="faded ink"/>, assavoir pour les vendicion surdite pour chascun
+                        florin ung gros et pour les dites gaigieres pour <lb/>chascun florin dimy
+                        gros.</seg>
+                     <seg>9. Et des dites vendicion, acquêt et gaigieres se doivent faire lettres
+                        desoub nostre seel ou cellux de nous hers pour payant lez lod surdit.</seg>
+                     <seg>Or est ensi que nous desirans <lb/>et assentans l’acressance et augmentacion de
+                     nostre terre et de nous gens, nous lour havons donné, baillier, délivré et
+                     outroyés ces chousses dessur escriptes pour lour et lour hers que dessus de
+                     grace espicaul come dit <lb/>est. Et pour rambre, rachisté nostre terre et
+                     certain fromont que estoit en gaige dou temps passé et pour dus cent et sexante
+                     et doucze bon escus d’ours dou coing dou roix de France, les quelx nous
+                     Guillame <lb/>seignour surdit, havons hehuz et recephuz des dites nostres gens
+                        lez Geneveis surdit <gap reason="missing"/> faites et données <origDate when="1412-05-09">le nuef
+                        jour dou mois de may, l'am de grace Nostre Seignour corrant mille quatre
+                        cent et douze</origDate>. </seg>
+                  </p>
+                  <pb n="1v" facs="AEN_AS_Q1_52_v1 AEN_AS_Q1_52_v2"/>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Copie du début du XV<hi rend="sup">e</hi>&#160;siècle sur parchemin, AEN,
+                     Q&#160;1, N<hi rend="sup">o</hi>&#160;52.</p>
+               <p>Cité&#160;: Boyve, Annales, I, p.&#160;451. Matile, Seigneurie de Valangin, p.&#160;92-92.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

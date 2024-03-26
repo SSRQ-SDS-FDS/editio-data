@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.32-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 48v–49r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 48v–49r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Verhör</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-04-01"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="48v"/><p><lb/><placeName ref="loc009653.02">Murtenthor</placeName>, den <origDate when="1683-04-01"><num value="1">i</num><hi rend="sup">ten</hi> <foreign xml:lang="la">aprilis</foreign> 1683</origDate>
+							<seg><lb/> <abbr>H</abbr> <term ref="lem018540.03">amman</term><note>Gemeint ist der Rathausammann <persName ref="per026624">Hans Jakob Landerset</persName>, der den Grossweibel vertrat.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02"><choice><abbr>burgerm<hi rend="sup">r</hi></abbr><expan>burgermeister</expan></choice></term> <persName ref="per026314a.02">von Montenach</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per026328a.04">Fyva</persName></seg>
+							<seg><lb/>LX <persName ref="per026315a.01">Techterman</persName>,  <persName ref="per026538a.01">Thumbé</persName>, <persName ref="per026070a.03">Rämy</persName></seg>
+							<seg><lb/>Burgern <persName ref="per027535a.02">Fegeli</persName>, <persName ref="per027531a.01">Odet</persName></seg></p>
+						<p><seg><lb/><persName ref="per027452a">Maria Ribotel</persName> susdite interrogée pourquoy elle avoit dit
+						<lb/>quʼelle estoit enceinte, elle at respondu par ce que
+						<lb/> elle le croyoit.</seg> <seg>Item elle at reconfirmé ce quʼelle at
+							<lb/><choice><sic>at</sic><corr></corr></choice> <term ref="lem015549.07">confessé</term> par cy devant en ses precedentes <term ref="lem019465.02">confessions</term>
+							<lb/>concernant les <term ref="lem019542.05">baptesmes</term> reiterés de ses enfants&#160;;
+							<lb/>comme aussy de ses <term ref="lem019436.02">larcins</term> cy dessus desja par elle <term ref="lem015549.14">confessés</term>&#160;;
+						<lb/>comme aussy dʼavoir esté deux fois à la <term ref="lem017043.01">secte</term>. La premiere
+						<lb/>fois avec lʼancienne <persName ref="per017167a">Magnina</persName> de <placeName ref="loc007983.02">Norea</placeName>, avec laquelle
+						<lb/>estant parvenue au lieux ou ce que dite <term ref="lem017043.01">secte</term> se tenoit,
+						<lb/>quʼestoit en un bois et de nuict, elle fit le signe de la
+						<lb/>s<hi rend="sup">te</hi> croix, et à lʼ<sic>istant</sic> et tout <term ref="lem015622">incontinent</term> touts ceux de la
+						<lb/><term ref="lem017043.01">secte</term> disparurent, se perdirent et sʼenfuyerent, et comme
+						<lb/>sʼestoit de nuict, elle fut contraincte dʼy rester toutte
+						<lb/>la nuict. La 2<hi rend="sup">de</hi> fois quʼelle fut à la <term ref="lem017043.01">secte</term>, at
+						<lb/>esté avec la jeune <persName ref="per026681a">Magnina</persName>, fillie de la susdite ancienne,
+						<lb/>et ne voulant saulter, danser et faire de bruit avec
+						<lb/>les aultres après que ladite <persName ref="per026681a">Magnina</persName> lʼavoit exhortée,
+						<lb/>et mesmement presenté de leurs viandes, sçavoir des
+						<lb/><term ref="lem016925.04">crouye</term> <term ref="lem019279.02">routes</term>, lʼayant faict tourner la broche ou ils
+						<lb/><term ref="lem019170.03">routtissoint</term> un <term ref="lem018315.01">chat</term>, ladite <persName ref="per026681a">Magnina</persName> lʼauroit battue
+						<lb/>tout son sous.</seg> <seg>De plus elle at reconfirmé que le <term ref="lem017521">diable</term>
+						<lb/>luy seroit apparus par deux fois. La premiere fois, <add place="bottom" type="catchword">icelluy</add>
+						<pb n="49r"/> <lb/><choice><sic>icelluy</sic><corr></corr></choice> estant habillié de gris, luy est apparus à <placeName>la Com<lb break="no"/>ba</placeName> de <placeName>Posuz</placeName><note>Lʼidentification du lieu est incertaine.
+							Il pourrait sʼagir de <placeName ref="loc008345">Posat</placeName> ou de <placeName ref="loc009100">Posieux</placeName>. Etant donné
+							qu'il se trouve un lieu-dit <placeName ref="loc013724">La Comba</placeName> à <placeName ref="loc008345">Posat</placeName>, un tel rapprochement est envisageable. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-204.23-1">SSRQ FR I/2/8 204.23-1</ref>.</note>, lequel luy aurroit promis beaucoup dʼargent et ne
+						<lb/>luy aurroit rien tenus, ains luy aurroit donné que des <term ref="lem018302.10">feulies</term>
+						<lb/>de <term ref="lem016908.06">chesne</term>. Et la seconde fois, luy seroit apparus au bois
+						<lb/>proche dʼ<placeName ref="loc007902.04">Escuvillien</placeName>, non guere eslogné des <term ref="lem019302.02">moyses</term>, estant
+						<lb/>ledit <term ref="lem017521">diable</term> habillié de noir, et lʼaurroit sollicité à <term ref="lem019541.03">renyer</term>
+						<lb/><hi rend="font change">Dieu</hi>, ce quʼelle aurroit faict comme elle at desja <term ref="lem015549.07">confessé</term>
+						<lb/>par cy devant.</seg> <seg>Item derechef interrogée si le <term ref="lem015433.10">maling</term>
+						<lb/>ne lʼavoit <term ref="lem018895.03">marquée</term> en la dansant à <placeName ref="loc007902.04">Escuvillien</placeName> comme elle
+						<lb/>at desja <term ref="lem015549.07">confessé</term> par cy devant, ce que elle nʼat voullus re<lb break="no"/>confirmer quʼavec une grande repugnance, sur la fin
+						<lb/>elle at <term ref="lem015549.07">confessé</term> que ouy, quʼelle at esté <term ref="lem018895.03">marquée</term> comme
+							<lb/>et dit cy dessus. Touttes fois elle sʼen seroit <term ref="lem019463.06">confessé</term> à
+						<lb/><placeName ref="loc006232.07">Erconsier</placeName>, et croit presentement que tout ce quʼelle at
+						<lb/>faict par cy devant nʼest plus rien, mesmement nʼestre plus
+						<lb/><term ref="lem018895.03">marquée</term>.</seg> <seg>Finalement quand à la <term ref="lem017507">vache</term> de <placeName>Gorgon</placeName>,<!-- Ort oder Name? -->
+							<lb/>elle reconfirme bien que la <persName ref="per026681a">Magnina</persName> luy at <term ref="lem019525.04">soufflé</term> en<lb break="no"/>contre, mais elle ne peut sçavoir si ladite <term ref="lem017507">vache</term> et
+							<term ref="lem018017.10">mes<lb break="no"/>cheute</term> ou non. Au reste elle at reconfirmé ses preceden<lb break="no"/>tes <term ref="lem019465.02">confessions</term> pour touts, lesquels mesfaict en at de<lb break="no"/>mandé pardon
+							à <hi rend="font change">Dieu</hi> et à Leurs Excellences. <foreign xml:lang="la">Actum ut supra</foreign>.
+							<lb/>Le tout doibt estre rapporté à <choice><abbr>L Ex</abbr><expan>Leurs Excellences</expan></choice> du Conseil privé<note>Il s’agit du Petit Conseil.</note>.</seg></p>
+						<p><lb/><foreign xml:lang="la">Idem</foreign> <persName ref="per026058a.01">Progin</persName> <figure type="notarial sign"/></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

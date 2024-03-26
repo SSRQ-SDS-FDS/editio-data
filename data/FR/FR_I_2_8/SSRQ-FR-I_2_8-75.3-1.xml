@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-75.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 12, S. 89</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 12, p. 89</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Jaquier – Verhör</head>
+					<head xml:lang="fr">Jacques Jaquier – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1627-02-17"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000958"/>
+					<term ref="key004082"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007683.04">bößen thurn</placeName>
+							<seg><lb/><origDate when="1627-02-17">17 <foreign xml:lang="la">februarii</foreign> 1627</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice> <abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per006580">Niklaus Meyer</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>d</abbr> <expan>doctor</expan></choice> <persName ref="per009286">Gottrouw</persName>, <abbr>h</abbr> <persName ref="per006506">Brynißholtz</persName></seg>
+							<seg><lb/><persName ref="per006532">Buwman</persName>, <persName ref="per006509a.01">Rämi</persName>, <persName ref="per006581">Vonderweid</persName></seg>
+							<seg><lb/><persName ref="per006523">Montenach</persName></seg>
+							<seg><lb/>Weibel</seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Solvit <measure type="currency" unit="lb" quantity="3">3 </measure></foreign>.</add></seg>
+							<seg><persName ref="per005913a.03">Jaque Jouquier</persName>, von <placeName ref="loc007605.02">Überstein</placeName>, zeigt an die
+								<lb/>ursach, warumb er sich vor <date dur-iso="P13Y">13 jahren</date> uß der
+							<lb/>gefangenschafft daselbst zu <placeName ref="loc007605.02">Überstein</placeName> <term ref="lem014649">salviert</term> und
+							<lb/>ußgebrochen. Sye, das man ime nit hat wöllen
+							<lb/>gricht und recht<del>en</del> halten, habe sich also mit einem
+							<lb/>seyll ußert dem oberen fenster hinabgelaßen,
+							<lb/>und sythar dem <term ref="lem000264.11">houptman</term> <persName>Redig</persName> in <placeName ref="loc000281.06">Frankrych</placeName>
+							<lb/>trüwlich gediend, ohne das man sich ab ime klagen
+							<lb/>werde. Könne wohl erachten, das er gefeld und
+							<lb/>das er syn unschuld mit derselben flucht und uß<lb break="no"/>ryßen nit hat bewahren sollen. Bittet deßwegen
+								<lb/>umb gnad und <term ref="lem004684.08">verzüchung</term>.</seg>
+							<seg><lb/>Im übrigen ist er
+								<lb/>aller artiklen des <term ref="lem003708">examens</term> ganz <term ref="lem005649.04">abred</term>. <term ref="lem011468.03">Bekhend</term>
+								<lb/>zwar woll, das ine vor langem ein <add place="left margin" type="sign"><term ref="lem017161.02">beseßne</term></add> frauw ge<lb break="no"/>scholten und einen <term ref="lem017025.01">hexenmeister</term> genambßet, die er
+							<lb/>ouch darumb <term ref="lem014775.02">actionieren</term> wöllen. Es habe ime aber
+							<lb/>solches <abbr>h</abbr> landt<subst><del>w</del><add place="cover">v</add></subst>ogt <persName>Gottrouw</persName><!-- verschiedene Möglichkeiten --> ußgred mit
+							<lb/>meldung, wie dem <term ref="lem011429.08">bößen geist</term>, der uß der frauwen
+							<lb/>gered, nit solle glauben geben werden.</seg></p>
+						<p><lb/>Und obschon er 3 mall mit dem lähren <term ref="lem006591.02">seill</term>
+							<lb/><term ref="lem016150">uffzogen</term> und stark <term ref="lem014641">torturieret</term> worden, hat er
+							<lb/>doch nüt <term ref="lem011468.04">bekhennen</term> wöllen.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

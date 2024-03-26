@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-211-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/7, S. 66 (Eintrag 2)</idno></msIdentifier><head>Zuteilung von Schindeltannen und Zuschüsse für Ziegeldächer in Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur beschliessen, künftig keine Schindeltannen aus dem Wald mehr zuzuteilen, Ausnahmen gelten für Besitzer von Schindeldächern, die bisher keine Tanne erhalten haben. Wer sein Dach mit Ziegeln decken möchte, erhält Zuschüsse.</summary><msItem><textLang xml:lang="de"/><author role="scribe"><persName ref="per027315">Josua Landenberg</persName></author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1512-09-27"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key005368">Brandschutz</term><term ref="key000524">Holz</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="66" facs="STAW_B_2_7_S_066"/>
+                        <p>
+                            <lb/>Actum <origDate when="1512-09-27">mentag ante <persName ref="per000390">Michaelis</persName>, anno xij<hi rend="sup">o</hi></origDate>
+                        </p>
+                        <p>
+                            <lb/><seg>Item uff den obeschimbten tag habent sich mine herren <lb/>entschlossen, das sy
+                                niemand mer furohin kein schindel <lb/>tannen mer uß dem wald geben wollen, anders dann
+                                <lb/><del>denen, so in kurtzer zit worden ist</del>
+                                <del>und</del> denen, so schindel taͤcher <lb/>haben und inen keine worden ist. Den selben wil man jeg<lb break="no"/>klichem nochmals eine geben und danenthin u̍berall
+                                keine <lb/>mer.</seg>
+                            <seg>Desglichen habent sy sich entschlossen, wer der were, der <lb/>sin tach mit zieglen
+                                tecken welte, das mine herren dem oder <lb/>den selben mit ettwas stu̍r der vierndeils des
+                                tachs oder des <lb/>halbteils des tachs, und ye nach gelegenheit der sach, zuͦ <lb/>hilff
+                                komen soͤllen.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Die Förderung von Ziegeldächern war eine Brandschutzmassnahme der städtischen Obrigkeit. So war der Pächter der Ziegelhütte verpflichtet, seine Produkte zu festgelegten Preisen an die Bürger abzugeben, vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-174-1">SSRQ ZH NF I/2/1 174-1</ref></bibl>. Bereits die Verordnung über die Nutzung des städtischen Walds aus den 1460er Jahren schränkte den Bezug von Schindeln ein (<bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-94-1">SSRQ ZH NF I/2/1 94-1</ref></bibl>) und von 1568 an gab der <orgName ref="org005587"><placeName ref="loc000849">Winterthurer</placeName> Rat</orgName> zur Schonung der Ressourcen keine ganzen Tannen zu diesem Zweck mehr ab, sondern liess selbst Schindeln herstellen und den Bürgern verkaufen, wie <persName ref="per027306">Ulrich Meyer</persName> in seiner Chronik vermerkt (<bibl>winbib Ms. Quart 102, fol. 194r</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

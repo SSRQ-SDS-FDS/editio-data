@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-49-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+                  <idno xml:lang="fr">AVN GA-A13.1</idno>
+               </msIdentifier>
+               <head>Accensement à perpétuité des grèves du lac à la ville de Neuchâtel, par le bailli Louis de Diesbach</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="24"/>
+                              <width unit="cm" quantity="35.4"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:attachment="sealed on a parchment tag" ns0:condition="well-preserved" ns0:material="wax" ns0:shape="round"><persName role="sigillant">Louis de Diesbach</persName></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1514-02-16" calendar="Gregorian"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_137">SDS NE 1, N<hi rend="sup">o</hi>&#160;49</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004056"></term>
+               <term ref="key006365"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb facs="AVN_GA_A13_1_r"/>
+               <div>
+                  <p>
+                     <lb/>Je Loys de Diesbach, chevallier, seigneur dudit lieux et gouverneur
+                     general au contey de Neufchastel <lb/>dappart magnifiques et très redoubtés
+                     seigneurs messeigneurs des quatre villes, Berne, Luetzerne, Fribourg et
+                     Salleurre, fais <lb/>scavoir a tous presens et advenir que je, pour et en nom
+                     de mesdits seigneurs et de leurs successeurs, ait mis, donnez, laissez et
+                     <lb/>accensey et par ces presentes met, donne, laisse et accense perpetuelment,
+                     confesse par la teneur des presentes aux honorables <lb/>et saige les quatre
+                     ministraulx de la ville de Neufchastel, pour et en nom de toute la ville et
+                     communaltey d’icelle <lb/>et a leurs successeurs quelxconques, tous les
+                     graviers que ne sceront mis et accensey sur le rivaige du lac depuys <lb/>la
+                     vigne Symonet d’Engolon, bourgeois dudit Neufchastel, jusques au pourt de
+                     Lorieta touchant le lac tout au long <lb/>devers ouberre, la dite ville, les
+                     port d’icelle, plussieurs cloz, curtil, vignes et granges devers joram et
+                     ladite vigne <lb/>dudit Symonet devers bise, ensamble de leurs appartenances
+                     universaulx&#160;; et est ce pour la cense annuelle et perpetuelle <lb/>de
+                     douze gros, monnoye courrant au contey dudit Neufchastel, a payer a mesdit
+                     seigneurs et a leurs successeurs par lesdits quatre <lb/>ministraulx ou nom
+                     d’icelle dite ville et leurs successeurs, ung chascun an au jour de feste saint
+                     Martin d’yvers en leurs hostel <lb/>dudit Neufchastel <gap reason="missing" quantity="9" unit="line"/>
+                     faictes et données le <lb/><date when="1514-02-16" calendar="Julian">seizième
+                        jours du mois de febvrier, l’an mil cinq cens et treze</date>, scellond le
+                     stille de Lausanne.</p>
+                  <p><lb/><add place="inline" hand="other hand">Par commission de mesdits seigneurs, a l’ordonnance dudit baillif.</add></p>
+                  <lb/>
+                  <signed>
+                   Claude duz Boys <figure type="notarial sign"></figure>
+                  </signed>
+               </div>
+            </body>
+            <back><div><p> Références originales de l'édition Favarger&#160;1982&#160;:</p>
+                  <p>Original sur parchemin avec sceau rouge de Louis de Diesbach pendant sur double
+                     queue, AVN, A&#160;XIII&#160;1.</p>
+               <p>Éd.&#160;Berger-Locher, <hi rend="italic">Neuchâtel sous l'occupation des Douze
+                        cantons</hi>, p.&#160;256-257, pièce justificative N<hi rend="sup"
+                     >o</hi>&#160;9.</p>
+                  <p>Cité&#160;: Berger-Locher, <hi rend="italic">op.&#160;cit.</hi>,
+                     p.&#160;120.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

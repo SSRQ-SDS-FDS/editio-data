@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-15.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 146 (1595), S. 370–371</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 146 (1595), p. 370–371</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Péclat, Antoine Péclat, Jenon Besson, Antheni Marset, Clauda Rieffli – Anweisung</head>
+					<head xml:lang="fr">Claude Péclat, Antoine Péclat, Jenon Besson, Antheni Marset, Clauda Rieffli – instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+				</physDesc>
+					<history>
+						<origin>
+							<origDate when="1595-08-28">28<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>aug</abbr><expan>augusti</expan></choice></foreign> [1595]</origDate>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="370"/><p><lb/>Gefangne</p>
+						<p><lb/><persName ref="per009776a.01">Claudo Peclat</persName>, der wider <term ref="lem005649.03"
+								>abredt</term>, man soll informationen by denen, <lb/>so er
+							geschädiget, uffnemmen und ine mitt dem grossen <term ref="lem018287">stein</term> dry mal
+							<lb/><term ref="lem016150.06">uffzichen</term>.</p>
+						<pb n="371"/><p><lb/><persName ref="per009777a.01">Antheno</persName>, der sun, und <persName ref="per009778">Franceysa</persName>,
+							das tochterlin, sollend <lb/>noch allso blyben.</p>
+						<p><lb/>Die <persName ref="per009754a">Drutzi</persName> auch biß morn inblyben und erfragt werden,
+							<lb/>ob sie den <term ref="lem018947.06">eidt ubertretten</term>.</p>
+						<p><lb/>Die andere zwo us <placeName ref="loc008130.04">Lechieles</placeName><note>Il s’agit vraisemblablement de <persName ref="per010005">Antheni Marset</persName> et de <persName ref="per010009">Clauda Rieffli</persName>.</note> haben das gricht gwalt sie zerlassen.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

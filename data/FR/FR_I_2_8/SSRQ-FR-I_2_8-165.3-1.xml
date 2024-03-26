@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-165.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 352–353</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 352–353</idno>
+					</msIdentifier>
+					<head xml:lang="de">Tichtli Berger-Graber – Verhör</head>
+					<head xml:lang="fr">Tichtli Berger-Graber – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1652-09-26" to="1652-09-27"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="352"/><p><lb/><hi rend="outdent"><placeName ref="loc008105.02">Käller</placeName></hi>, den <origDate from="1652-09-26" to="1652-09-27"><space quantity="1" unit="cm"/><hi rend="sup">ten</hi> <foreign xml:lang="la">septembris</foreign> 1652</origDate><note>Der Schreiber vergass, das Datum zu notieren.
+							Tichtli Berger-Graber wurde im Keller verhört, was darauf hindeutet, dass sie nicht gefoltert wurde. Erst die Anweisung vom 27. September 1652 zieht die Anwendung der Folter in Betracht. Das vorliegende Verhör fand somit zwischen der Anweisung vom 26. September 1652 (vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-165.2-1">SSRQ FR I/2/8 165.2-1</ref>) und der vom 27. September 1652 (vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-165.4-1">SSRQ FR I/2/8 165.4-1</ref>)  statt.</note>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per009276a.03">Frantz Carle Gottrauw</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013978a.03">Kämmerling</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018131a.02">Hanß Jacob Werliß</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018134a.03">von Affrys</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018693a.01">Gottrauw</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><seg><lb/>Alls <persName ref="per015988a.01">Tichtli Bergo</persName> von <placeName ref="loc007857.01">Düdingen</placeName> durch zu endt<lb break="no"/>gemelte, myne wollgeehrte herren eines ehrsamen
+							<lb/>und wollwyßen stattgerichts über etliche, in dem
+							<lb/>wider sie uffgenommen <term ref="lem017826.01">examine</term> begriffne punc<subst><del>k</del><add place="overwritten">t</add></subst>en
+							<lb/>ohne <term ref="lem013000.01">tortur</term>, doch ernst, flyßig befragt und exami<lb break="no"/>niert worden, hat sie nach etwas erzeigten weigerns
+							<lb/>erkhendt und <term ref="lem011468.03">bekhendt</term>: wahr sye, do ein gewüsser
+							<lb/><persName ref="per020632a.01">Gutschman</persName> von <placeName ref="loc008058.04">Überstorff</placeName> (dessen <term ref="lem010215.03">tauffnamen</term>
+							<lb/>sie nit <term ref="lem010402.04">gmeldt</term> und den <term ref="lem010216.01">zunamen</term> lang nit <term ref="lem018766.02">anziechen</term>
+							<lb/>wöllen), vor ihro behußung etliche <term ref="lem003924.20">trincklen</term> oder
+							<lb/>wasserröhren yngesetzt. Das sie alls dan neben ihne
+							<lb/>gangen und, in dem er sich umb etwas gebiegt,
+							<lb/>hinden angerürt undt ein klein <term ref="lem003737.06">streichlin</term>, doch
+						<pb n="353"/><lb/>ohne zorn gegeben.</seg> <seg>Fehrners anzeigende, sie wolte
+							<lb/>woll uff daß hin sterben, das sie domahlen in keinem
+							<lb/>bösen, wie <foreign xml:lang="la">formaliter</foreign> geredt worden, nit gedenckht,
+							<lb/>noch ihme, <persName ref="per020632a.01">Gutschman</persName>, so schon <date dur-iso="P1Y">ein jahr</date> darvor kranckh
+							<lb/>gewessen, das geklagte geschwülst und <term ref="lem015180.06">wehthumbt</term> an<lb break="no"/>geben. Will einicher unthatten mehr <term ref="lem011898.03">bekhandtlich</term>
+							<lb/>sein undt bittet dariber gott und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice>
+							<lb/>umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

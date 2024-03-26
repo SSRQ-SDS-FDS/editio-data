@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-194.10-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 366–367</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 366–367</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Gindroz-Verdon – Verhör</head>
+					<head xml:lang="fr">Catherine Gindroz-Verdon – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1672-11-28"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="366"/><p><lb/> Den <origDate when="1672-11-28">28 <foreign xml:lang="la">novembris</foreign> <hi rend="underline">1672</hi></origDate></p>
+						<p><seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026535a">Hans Peter Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026542a.01">Buwman</persName>, <abbr>h</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026537">Hans Jakob Python</persName>.</note></seg>
+							<seg><lb/><persName ref="per026536a.02">Des Granges</persName>, <persName ref="per026538a.01">Thumbé</persName>, <persName ref="per026539a.01">Dageth</persName></seg>
+							<seg><lb/><persName ref="per026540a.01">Werro</persName>, <persName ref="per026543a.01">Rossier</persName></seg></p>
+						<p><lb/><persName ref="per026989a">Catherine Verdon</persName> après qu’elle fust <term ref="lem019509.03">visitée</term> sans avoir trouvé aulcune
+							<lb/><term ref="lem018894.10">marque de sorciere</term> et <term ref="lem019547.04">levée</term> par trois fois avec le demy <term ref="lem018232">quintal</term>,
+						<lb/><term ref="lem015549.13">confesse</term> que la fillie de <persName>Claudi Monney</persName> mangea de la souppe
+						<lb/>aux pois avec elle, que le mesme soir elle <subst><del>en</del><add place="inline">devient</add></subst> malade,
+						<lb/>mais qu’elle la detenue luy ast donné aulcun mal&#160;; que ladite
+						<lb/>fillie ast esté saisie du <term ref="lem019556.01">mal de <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <persName ref="per000438a.04">Pierre</persName></term><note>Cette maladie
+							est aussi évoquée dans le procès mené contre <persName ref="per026794">Barbli Mauron-Schueller</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-181.5-1">SSRQ FR I/2/8 181.5-1</ref>.</note>, comme plusieurs
+							<lb/>aultres qui en sont ausy mort du mesme <term ref="lem019556.01">mal de <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <persName ref="per000438a.04">Pierre</persName></term>
+						<lb/>dans le village de <placeName ref="loc007648.06">Dompiere</placeName>.</p>
+						<p><lb/>Nie avoir faict du mal aux enfants avec des espingles&#160;; que si
+						<lb/>bien elle en demandoit, ce n’estoit que pour fermer le lingue
+						<lb/>aux enfants sur la poitrine.</p>
+						<p><lb/>Interrogée pourquoy elle dict que si l’affaire venoit à la fin
+						<lb/>elle en <term ref="lem015356.20">accoulperoit</term> bien d’aultres, la detenue respondit
+						<lb/>la dessus s’estre obliée et qu’elle ne sçavoit ce qu’elle
+						<lb/>disoit à cause du froid. Et dict avoir repartis&#160;: <q>&#160;Que sçay je
+						<lb/>hasard, à la fin je nommeray ceux qui m’ont blasmé et
+						<lb/>faict du mal.&#160;</q>&#160;; et si elle seroit delinquante, qu’elle en
+						<lb/>accuseroit bien des aultres mechantes. Interrogée pourquoy
+						<lb/>elle disoit semblables paroles, elle dict que c’estoit pour
+						<lb/>leur faire depis à ceux qui la soubçonoi<subst><del>t</del><add place="overwritten">e</add></subst>nt et faisoient
+						<lb/>du mal, come certaines femmes ou hommes, lesquels partout
+							<lb/>ne sont ny <term ref="lem019308.01">sorcier</term> ny <term ref="lem019389.03">sorcières</term>, demandant pardon d’avoir
+						<lb/>proferu samblables paroles, qu’elle estoit un’innocente
+						<lb/>disant plusieur fois des paroles sans y songer plus oultre.</p>
+						<p><lb/>Elle nie d’avoir dict pourquoy on l’avoit prise et non pas
+						<lb/>des aultres, soustenant tousjour n’avoir jamais usé de <term ref="lem018521.01">sor<lb break="no"/>cellerie</term>.</p>
+						<p><lb/>En oultre la detenue dict que si bien elle auroit proferé
+							<lb/>ces paroles, quand il viendroit à la fin elle en <term ref="lem015356.20">accoul<lb break="no"/>peroit</term> des aultre, si elle estoit <term ref="lem019389.02">sorciere</term>&#160;; que c’est à
+							<lb/>cause qu’elle ast entendu dire que par <term ref="lem019508.05">meschanceté</term>
+						<lb/>l’on <term ref="lem015356.21">accoulpoit</term> quelques uns, et en après l’un s’en
+						<lb/><term ref="lem018985.02">dedisoit</term>.</p>
+						<pb n="367"/><p><lb/><term ref="lem015549.13">Confesse</term> que par colere elle ast plusieurs fois maldict, ses enfants
+						<lb/>leur disant&#160;: <q>&#160;Le <term ref="lem017521">diable</term> vous emporte&#160;!&#160;</q>&#160;; dont elle en demande
+						<lb/>pardon. Et que portant elle prioit tousjour le bon Dieu
+						<lb/>pour eux.</p>
+						<p><lb/>Interrogée comme elle pouvoit sçavoir que la <term ref="lem019231.02">cavalle</term> pour laquelle
+						<lb/>elle avertit le maistre estoit mal couchée et <term ref="lem018017.11">mescheutte</term>, respon<lb break="no"/>dit que c’estoit par advertisement de <persName>Jean Pilliod</persName> qui luy
+						<lb/>dict cela.</p>
+						<p><lb/>Elle nie avoir parue en <subst><del><unclear>ret</unclear></del><add place="overwritten"><term ref="lem019344.01">renard</term></add></subst> ou aultre beste, que si bien
+							<lb/>l’anné passée les <term ref="lem019233.02">menues bestes</term> estoient come enraggées,
+						<lb/>qu’<subst><del>ils</del><add place="overwritten">elles</add></subst> montoient les hayes et les rompoit, c’estoit à cause
+						<lb/>d’un <term ref="lem018314">chien</term> enragé qui les mordit, et que elle en ast aussy
+						<lb/>perdus quattre. Et d’aultres, come chez les veufves <persName>Rosset</persName>
+						<lb/>et les <persName>Sanreides</persName>, se perdirent ausy, s’estant cassé la teste
+						<lb/>dans les escuries, d’allieurs ledit <term ref="lem018314">chien</term> mordit ausy des
+						<lb/>enfants par le village.</p>
+						<p><lb/>Finalement elle dict qu’il en avoit quelques une qu’elle <term ref="lem015356.20">accoul<lb break="no"/>peroit</term> qui sont de <placeName ref="loc007648.06">Dompiere</placeName>
+							et aussy de <placeName ref="loc007747">Russy</placeName>, mais ne sçavoir
+						<lb/>ancor quelles, disant en après qu’elle n’en savoit aulcunes
+						<lb/>et n’en vouloir rien accuser, n’estre pas de requis de les
+						<lb/>nommés, et qu’elle les nommera pas si facilement, crainte
+						<lb/>de leur deplaire. Partant elle nomma celle de <placeName ref="loc007747">Russy</placeName>,
+							<lb/>appellé la <persName>Blanche</persName><note>Vermutlich ist <persName ref="per021194">Marie Blanc-Edouard</persName> gemeint. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-195.0-1">SSRQ FR I/2/8 195.0-1</ref>.</note>, femme au <persName ref="per021196a.03">Blanc</persName> dudit <placeName ref="loc007747">Russy</placeName>&#160;; l’aultre
+						<lb/>de <placeName ref="loc007648.06">Dompiere</placeName>, elle dict ne la vouloir nommer, et que
+						<lb/>jamais elle le dira. Priant tres humblement pardon
+						<lb/>à Dieu et à vos Excellences, et qui leur plaise avoir com<lb break="no"/>passion d’une pauvre vielle.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

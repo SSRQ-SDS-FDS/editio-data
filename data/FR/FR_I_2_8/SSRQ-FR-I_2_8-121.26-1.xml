@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.26-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 301–303</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 301–303</idno>
+					</msIdentifier>
+					<head xml:lang="de">Tichtli Jeckelmann-Gauch, Maria Roggo-Conte – Verhör</head>
+					<head xml:lang="fr">Tichtli Jeckelmann-Gauch, Maria Roggo-Conte – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-26"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="301"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1646-07-26">26<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per013432a.01">Stutz</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><persName ref="per017000b">Tichtli Gauch</persName>, <persName ref="per017001a.01">Nicoud Jeckhellmans</persName> seligen verlaßne von
+								<lb/><placeName ref="loc010226.04">Ütschenwyll</placeName>, <term ref="lem014773.04">perrochian</term> <placeName ref="loc007857.06">Didingen</placeName>, der <term ref="lem014672.10">häxery</term> verdacht, zeigt
+								<lb/>an, sie habe sich den <term ref="lem014673.13">bößen feindt</term> niehmahlen <term ref="lem018858.02">ergäben</term>. Sie habe
+								<lb/>mit ihme nichts zu thun gehabt, ihrentwegen sye niehmandt
+								<lb/>einiches übell widerfahren.</seg> <seg>Werde sich auch nit befinden, das
+								<lb/>sie jehmahlen in der <term ref="lem017042.05">seckt</term> gsyn unndt in den <term ref="lem002179.02">studen</term>, wie
+								<lb/>man ihren fürgehalten, sich befunden habe. D<subst><del>er</del><add place="overwritten">ie</add></subst> ursach, warumb
+								<lb/>sie am angesicht verkrätzt, sye, das sie leyder wegen ihres
+									<lb/><term ref="lem016551">blöden </term> gesichts an d<subst><del>en</del><add place="overwritten">ie</add></subst> <term ref="lem003219.13">hägen</term> unndt im huß herumb allendt<lb break="no"/>halben anstoße.</seg> <seg>Bittet, man <subst><del>s</del><add place="overwritten">w</add></subst>olle sie nit für ein <term ref="lem006693.08">häx</term> an<lb break="no"/>schouwen. Dan sie daruff sterben wölle, das sie in der
+								<lb/>glychen <term ref="lem009471.04">mißhandlungen</term> <add place="left margin" type="sign">sich niehmahlen</add> <term ref="lem015245">vergriffen</term>, noch einicher <term ref="lem016055">gestalt</term>
+							<pb n="302"/><lb/>versündiget habe. Man thuye ihren dißes fahls halben
+								<lb/>grob unrecht, glych wie die juden gott, dem almächtigen,
+								<lb/>gethan habend.</seg> <seg>Hatt endtlich nach langer <term ref="lem005044">examination</term>
+								<lb/>der <term ref="lem014672.10">häxery</term> allerdingen wöllen unschuldig syn unndt
+									<lb/><term ref="lem016814">vermeldt</term>, sie khönne nit <term ref="lem011468.04">bekhennen</term>, was sie niehmahl im
+								<lb/>sinn gehabt noch verbracht habe. Sagt, sie sye mit ihren
+								<lb/>vorgenanten, schon vor <date dur-iso="P18Y">18 jahren</date> abgestorbnen eheman
+								<lb/><date dur-iso="P40Y">40 jahr</date> in der ehe gsyn unndt jederwylen wie ein ehe<lb break="no"/>liche frauw gelebt unndt verhalten. Bittet umb
+								<lb/><term ref="lem004684.08">verzüchung</term>.</seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus, dont le procès mené contre <persName ref="per017023">Margreth Boschung-Dedelley</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-122.3-1">SSRQ FR I/2/8 122.3-1</ref>.</note></p>
+						<pb n="303"/>
+						<p><lb/><placeName ref="loc007690.06">Spittall</placeName></p>
+						<p><seg><lb/><persName ref="per017006b">Maria Conte</persName>, <persName ref="per017003a.02">Wollffliß Rockhs</persName> <term ref="lem000394.56">kilchory</term> <placeName ref="loc007857.06">Didingen</placeName>
+							<lb/>ehefrauw, die anzusehen zimlich kranckh unndt schwach ist,
+							<lb/>sagt, sie sye <measure type="age" quantity="20" unit="year">20 jährig</measure> gsyn, da sie sich verehelichet hab. Unndt
+							<lb/>sye mit ihrem eheman <date dur-iso="P30Y">30 jahr</date> in der ehe geweßen, ohne das sie
+							<lb/>jehmandt beleidiget habe.</seg> <seg>Sagt, sie sye der <term ref="lem014672.10">häxery</term>
+							<lb/>unschuldig. Werde <subst><del>sich</del><add place="inline">auch sich</add></subst> nieh mit der wahrheit be<lb break="no"/>finden, daß sie ein <term ref="lem007356">unholdin</term> sye. Bittet umb
+							<lb/><term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-60.20-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 325–326</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 325–326</idno>
+					</msIdentifier>
+					<head xml:lang="de">Louise Cordey-Jaquet – Verhör</head>
+					<head xml:lang="fr">Louise Cordey-Jaquet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-07-12"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="325"/><p><lb/>Im <placeName ref="loc007594">Rosey</placeName>
+							<seg><origDate when="1623-07-12"><num value="12">xii</num> <foreign xml:lang="la">julii</foreign></origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009450">Peter de Gady</persName>.</note></seg>
+							<seg><lb/><choice><abbr>J</abbr> <expan>Junker</expan></choice> <persName ref="per006751">Erhard</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009134">Dießbach</persName>, <persName ref="per009451a.01"><choice><abbr>C</abbr><expan>Christoph</expan></choice> Ligriz</persName></seg>
+							<seg><lb/><persName ref="per009271">Wild</persName>, <persName ref="per009455">Meister</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft den Prozess gegen <persName ref="per009488">François Colung</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-64.3-1">SSRQ FR I/2/8 64.3-1</ref>.</note></p>
+						<p><lb/>Im <placeName ref="loc007683.04">bößen thurn</placeName>
+						<seg><lb/><foreign xml:lang="la">Die quo supra, judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009450">Peter de Gady</persName>.</note></seg>
+						<seg><lb/><choice><abbr>J</abbr><expan>Junker</expan></choice> <persName ref="per006751">Erhart</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+						<seg><lb/><choice><abbr>J</abbr><expan>Junker</expan></choice> <persName ref="per009134">v<hi rend="sup">o</hi> Dießbach</persName>, <persName ref="per009451a.01"><choice><abbr>C</abbr><expan>Christoph</expan></choice> Ligriz</persName></seg>
+						<seg><lb/><persName ref="per009455">Meister</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg>
+						<seg><persName ref="per009490b.01">Loysa</persName>, <term ref="lem014767.01">relicte</term> de <persName ref="per009489a.02">Jehan Cordey</persName> de <placeName ref="loc007934.09">Migniere</placeName> desja executé,
+							<lb/>estant <term ref="lem019548.07">eslevee</term> avec la simple <term ref="lem018231">corde</term>,
+						<lb/>a premierement confessé, <persName ref="per011219a">Satan</persName> s’estre apparu a elle au pré
+						<lb/>de <placeName ref="loc007932.05">Voisin</placeName>, il y a environ <date dur-iso="P3Y">trois ans</date>, a forme d’une beste noire,
+						<lb/>lequel luy dit qu’elle se donnat a luy, ce que toutefois elle
+						<lb/>n’a vollu faire. Mais se trouvant dans <date dur-iso="P3D">3</date> ou <date dur-iso="P4D">4 jours</date>
+						<lb/>en mesme lieu, <persName ref="per011219a">Satan</persName> s’est derechef comparu, et la sollicitant
+							<lb/>comme dessus, <term ref="lem019541.20">renya</term> Dieu, et se donnat a luy, lequel <term ref="lem015433.06">malin</term>
+							<lb/>luy a donné <measure type="currency" unit="Gros" quantity="3">3</measure> ou <measure type="currency" unit="Gros" quantity="4">4 gros</measure>.</seg> <seg><term ref="lem015549.03">Confessant</term> avoir esté
+								<lb/>deux foys a la <term ref="lem017043.01">secte</term>. En aprés a <term ref="lem015549.07">confessé</term> que son <term ref="lem019555.05">maistre</term>
+								<lb/>s’appelloit <persName ref="per029425a.02">Grabié</persName>, auquel elle a fait <term ref="lem018915.01">hommage</term>, le <term ref="lem019481.05">baisant</term>
+							<lb/>au visage. Dit aussi que <persName ref="per011219a">Satan</persName> l’a <term ref="lem018895.02">marqué</term> au col, a la part droite.</seg></p>
+						<pb n="326"/><p><lb/>Item a <term ref="lem015549.07">confessé</term> <persName ref="per011219a">Satan</persName> luy avoir donné de la <term ref="lem018382">graisse</term>,
+						<lb/>commandant de faire mourir des bestes.</p>
+						<p><lb/>Avec ladite <term ref="lem018382">graisse</term> a fait mourir a <persName>Pronma</persName> de
+							<lb/><placeName ref="loc007932.05">Voisin</placeName> deux <term ref="lem019236.03">porc</term>, il y a <date dur-iso="P3Y">trois ans</date>, pource que
+							<lb/>ledit <persName>Pronma</persName> luy volut pas donner un <term ref="lem021653.02">aulmosne</term>.</p>
+						<p><lb/>Item a fait mourir a <persName>Franzilion</persName> de <placeName ref="loc007932.05">Voisin</placeName>
+							<lb/>trois <term ref="lem019236.03">porc</term> avec ladite <term ref="lem018382">graisse</term>, il y a aussi <date dur-iso="P3Y">3 ans</date>
+						<lb/><date when="--05">au mois de may</date> passé.</p>
+						<p><lb/>Item a <term ref="lem015356.09">accolpé</term> <persName>Jaque Fally</persName> aultrement <persName>Ballin</persName>,
+						<lb/>comme aussi la femme dudit <persName>Ballin</persName> nommé <persName>Saby</persName>, et
+						<lb/>la <term ref="lem014767.01">relicte</term> de <persName>Marque</persName> de <placeName ref="loc007934.04">Mignieres</placeName> nommé <persName>Jeangna</persName>,
+							<lb/>lesquels sont esté avec elle a la <term ref="lem017043.01">secte</term>.</p>					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-130.23-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 451–452</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 451–452</idno>
+					</msIdentifier>
+					<head xml:lang="de">Louis Andrey – Verhör und Urteil</head>
+					<head xml:lang="fr">Louis Andrey – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1647-07-10" to="1647-07-11"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="451"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-07-10">10<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 47</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017761a.01">Louys Andrey</persName>, <term ref="lem019427.03">torturé</term> la troisiesme fois avec le <term ref="lem018232">quintal</term>, n’a
+							<lb/>rien voullu <term ref="lem015549.01">confesser</term>, disant avec une ferme constance qu’il luy
+							<pb n="452"/><lb/>arrive grand tort, et que ceux qui l’accusent pour faict de <term ref="lem018521.01">sorcel<lb break="no"/>lerie</term> parlent, avec respect, comme des mechantes gens et <term ref="lem017932.02">larrons</term>
+							<lb/>d’honneur, qui outre la vergogne, sont encor cause du malheur et
+							<lb/><term ref="lem019473.06">torments</term> que luy font endurer par fausses accusations, mais au
+							<lb/>nom de Dieu, auquel il a son entiere esperance, comme aussy a la
+							<lb/>Vierge <persName ref="per000169">Marie</persName> et son bon ange, les priants <add place="above">de</add> le voulloir assister
+							<lb/>et liuvrer hors de tant des peines, et preserver un chacun de
+							<lb/>fausses langues, par lesquelles il est reduict aux prisons&#160;; que
+							<lb/><persName ref="per017746a">Clauda Fabvre</persName> dernierement suppliciee, si elle n’a retracté
+							<lb/>l’accusation faicte contre luy, est morte et perie miserablement,
+							<lb/>n’estant, aydant Dieu, jamais esté attaint de ce <term ref="lem019539.02">peché</term>, ny autres
+							<lb/>grand <term ref="lem019494.02">crimes</term>&#160;; veut esperer que messeigneurs le maintiendront
+							<lb/>a son bon droit et ne croiront des personnes qui sans doubte par
+							<lb/>envie l’auront accusé faussement. <term ref="lem019498">Crie mercy</term>.</seg></p>
+						<p><lb/><add place="left margin"><term ref="lem018848">Vereydet</term> uff gnad
+							<lb/>hin.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 451.</note></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

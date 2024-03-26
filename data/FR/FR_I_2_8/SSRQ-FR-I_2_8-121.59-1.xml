@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.59-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 348–349</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 348–349</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Roggo-Conte – Verhör und Urteil</head>
+					<head xml:lang="fr">Maria Roggo-Conte – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="la"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1646-11-24" to="1646-11-26"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="348"/><p><lb/>Im <placeName ref="loc007690.08">Spitthall</placeName>, <origDate when="1646-11-24">24<hi rend="sup">ten</hi> wintermonats 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>burg</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013432a.01">Stutz</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+					<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<pb n="349"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <foreign xml:lang="la">eadem die, presentibus dominis ut supra
+							<lb/>et domino <persName ref="per013668a.02">Reyff</persName> et <persName ref="per012379a.01">Progin</persName>, excepto <unclear><choice><abbr>tn</abbr><expan>tamen</expan></choice></unclear> domino <persName ref="per013434a.01">Des <lb break="no"/>Granges</persName></foreign></p>
+						<p><seg><lb/><persName ref="per017006b.02">Maria Compte, alias Muß Maria</persName>, die anzusehen zimlich schwach
+							<lb/>unndt <term ref="lem016551">blöd</term> ist. Als sie über die fürnembste puncten des
+							<lb/>wider sie uffgenomnen <foreign xml:lang="la"><term ref="lem017826">examinis</term></foreign> erfragt unnd mit den halben
+							<lb/><term ref="lem018237.02">zendtner</term> dry mahl <term ref="lem006574.08">gefolteret</term> ward, hatt weinend ange<lb break="no"/>zeigt unndt hoch <term ref="lem017472.03">bedühret</term>, sy sye khein <term ref="lem006693.08">häx</term>, sy habe niehmahlen
+							<lb/>den <term ref="lem011429.13">bößen geist</term> gesehen. Wölle aber dise ußstehende schmach
+							<lb/>unnd <term ref="lem004666.03">marther</term> umb gottes unndt der allerreinigsten jung<lb break="no"/>frauwen <persName ref="per000169a.08">Mariae</persName> willen, mit dargebung ihres <term ref="lem015098">übelmögenden</term>
+							<lb/><term ref="lem004417.10">cörpels</term> gern lyden unnd außstehn. Der hoffnung, gott
+							<lb/>werde in jhenner welt ihr tröster unnd belohner sein.
+							<lb/>Hingegen aber die jenigen, so sie hierumb verklagend unndt
+							<lb/>ihren unrecht thuend, nach verdienst abstraffen.</seg> <seg>Unndt
+							<lb/>wan die hingerichte <persName ref="per016996a">Obertoosinna</persName> by der faltschen anklag
+							<lb/><term ref="lem015342.02">halßstarrig</term> verbliben unndt daruff hin gestorben, so weißt
+							<lb/>gott, der almächtig, der ein richter über alle richter ist,
+							<lb/>wie sie von hinnen gescheiden unndt dahin gefahren. Dan sie
+							<lb/>ihren unnd ihr seell selbsten grob unrecht gethan hab. Begere
+							<lb/>nit in denselben himmell zu gehen, <subst><del>wo</del><add place="inline">in</add></subst> welchen sie gefahren
+							<lb/>unnd khommen ist.</seg><seg>Hatt also ohne einige <term ref="lem016794.05">bekhandtnuß</term>
+								<lb/>die <term ref="lem017526.01">folterung</term> des halben <term ref="lem018237.08">cendtners</term> außgestanden unndt gott
+							<lb/>und ein gnädige obrigkeit umb <term ref="lem004684.08">verzüchung</term> gebetten.</seg></p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1646-11-26">26<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>9bris</abbr><expan>novembris</expan></choice></foreign> 1646</origDate>
+							<lb/>in ewigkheit <term ref="lem018848">vereydet</term>
+							<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

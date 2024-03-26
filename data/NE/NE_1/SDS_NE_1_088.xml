@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-88-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;199r-200v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur diverses mesures économiques et de procédure
+                  ainsi que sur la nécessité de rédiger un coutumier</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1547-06-07"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_199">SDS NE 1, N<hi rend="sup">o</hi>&#160;88</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004993"></term>
+               <term ref="key000468"></term>
+               <term ref="key000184"></term>
+               <term ref="key000058"></term>
+               <term ref="key004001"></term>
+               <term ref="key003331"></term>
+               <term ref="key000291"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="199r" facs="AEN_3PAST_2_198v_199r"/>   
+               <div>
+                  <head type="title"><lb/>Ordonnances faictes de par illustres et excellent prince <lb/>Monseigneur
+                     le duc de Longueville, comte de Dunois et de <placeName ref="loc007786.02"
+                        >Neufchastel</placeName>, <abbr>etc</abbr> <lb/>comme souverain seigneur en sondict
+                     comté. Et ce par l’advis de ses <lb/>gens des Trois Estatz icy après nommez en
+                     tenant les audiances <lb/>generalles en sa maison de <placeName
+                        ref="loc007786.02">Neufchastel</placeName>
+                     <origDate when="1547-06-07">le VII<hi rend="sup">e</hi> jour de juin 1547</origDate>. </head>
+                  <head type="subtitle"><add place="left margin"><lb/><date when="1547-07-01">Le 1 juin 1547</date> <lb/>Decret faict pour la <lb/>reduction
+                        des censes acquises <lb/>exigées oultre le cinq <lb/>parcent, tant en
+                        froment, <lb/>orge, avoyne que autres <lb/>especes</add></head>
+                  <p><lb/>Pour ce que par cy devant a esté usé en cedi et comté de plusieurs grandes
+                     <lb/>et merveilleuses <term ref="lem019495.02">usures</term> et revenages sur
+                     le pauvre peuple en achetant censes <lb/>voyageres a vil pris, tant de froment,
+                     orge, avoyne, vin, heure, fromage que <lb/>autres censes de quelque nom ou
+                     espece qu’elles puissent estre, dont permission <lb/>en avoit esté faicte tant
+                     par les sieurs des ligues que autrement, et que plusieurs <lb/>clameurs et
+                     doleances en ont esté desclairées en ces presentes audiences <lb/>generalles
+                     par les pauvres subjectz et habitans de cedict comté, dont il nous <lb/>est
+                     apparu en justice dudict mesus, considerans que par les commandemens de
+                     <lb/>Dieu telz excès et mesus sont clairement defendus, regardans au salut des
+                     <lb/>ames des delinquans qui de semblables usures ont usé, par sentence
+                     <lb/>diffinitive a esté sentencé, decrété et ordonné que toutes censes qui du
+                     <lb/>passé ont esté acquises et de present sont et a l’advenir l’on voudroit
+                     faire et <lb/>acquerir autrement que de censes de deniers au prix de cinq pour
+                     cent, <lb/>icelles dès maintenant abolissons, aneantissons et effaceons, et ce
+                     pour <lb/>le passé, pour le présent et pour l’advenir, en remettant toutes
+                     icelles censes <lb/>a l’equipollent du principal toujours de vingt un, revenant
+                     audit prix de <lb/>cinq pour cent, sans prendre autre cense que de deniers, a
+                     peyne de <lb/>confiscation du principal, lequel se reduira soubz la main de
+                     nostre dict <lb/>seigneur et prince, pour le mettre en tel usage que icy après
+                     sera advisé&#160;; <lb/>et pour ce que ne vouldrions que les creanciers
+                     perdissent leurditz principal <lb/>ny a l’advenir la rente, les debteurs seront
+                     tenus a leurs despens faire et <lb/>redresser lettres nouvelles et recognoistre
+                     des assignaulx que pour les <lb/>autres censes ilz avoyent ypothequez, et s’il
+                     se trouve que les ditz debteurs ayent <lb/>transportez et venduz lesditz
+                     assignaulx, celuy a qui la cense sera dehue, <lb/>pourra compellir ledict
+                     debteur au principal et a la cense selon la rate du <lb/>temps et non
+                     autrement. Mais seront entenuz d’icy en avant prendre ladite <lb/>cense de
+                     denier a l’equipolent du principal, toujours au prix de cinq pour <lb/>cent et
+                     non aultrement, a peyne que dessus, sans pouvoir compellir <pb n="199v"
+                        facs="AEN_3PAST_2_199v_200r"/>
+                     <lb/>ledict debteur a luy rendre son principal en maniere quelconque.
+                     <lb/>Toutesfois s’il y en avoit aucungs qui en eussent presté des deniers audit
+                     prix <lb/>de cinq pour cent et réservé que dedans aucunes années qu’il peut
+                     <lb/>compellir ledict debteur a luy rendre son principal. A esté dict et
+                     sentencé <lb/>que ce qui sera esté faict du passé, l’on laisse les lettres a
+                     leur force et <lb/>valeur; et pour l’advenir pour ce dict cas, en deffendant et
+                     interdisant a <lb/>peyne que dessus de non en plus user, ains franchement ce
+                     que l’on <lb/>prestera sera a reachept perpetuel pour le debteur, et ne le
+                     pourra <lb/>contraindre ledict crediteur au principal, sinon a faute de cense
+                     non <lb/>payée ou qu’il engageast et ypothequast les assignaulx, ou par mort
+                     <lb/>des plaiges, alors ledict crediteur pourra retirer leurs biens <lb/>comme
+                     par raison apartiendra sans dificulté quelconque. </p>
+                  <head type="subtitle"><add place="left margin">Decret pour les chedaux <lb/>des bestes et contre
+                        <lb/>ceux qui prenoyent moisson <lb/>debled, argent, beure et
+                        <lb/>fromage</add>
+                  </head>
+                  <p><lb/>Pour ce aussy que plusieurs marchandz, donnent a retenir ausditz <lb/>pauvres
+                     gens du bestail comme chevaux, boeufz, vaches, brebis et aultres<note>Note
+                        Favarger&#160;1982&#160;: Il s'agit des baux à cheptel. Cf. à ce sujet Loew
+                        «&#160;Cheptel et bétail au XV<hi rend="sup">e</hi>&#160;siècle&#160;» dans
+                           <hi rend="italic">MN</hi>, 1967, p.&#160;122-128.</note>
+                     <lb/>et prennent moisson de bled, d’argent et de fromage avec plusieurs
+                     <lb/>conditions incogneues et desraisonables, revenant au grand detriment
+                     <lb/>du pauvre peuple, a esté dict et decrété que toutes lesdites moissons
+                     <lb/>de bled, d’argent, de beure et de fromage pour l’advenir sont deffendues
+                     <lb/>a peyne que dessus, et ne se mettront bestes que en honneste chedaulx
+                     <lb/>en partissant fidellement la bienvenue par moitié, deffendant a <lb/>tous
+                     notayres presens et a venir de non recepvoir actes ni obligez <lb/>autrement
+                     que icy dessus est declairé, a peyne d’estre privé de son <lb/>office et estre
+                     chastié selon l’exigence du cas. </p>
+                  <head type="subtitle"><add place="left margin">Les audiances generales se <lb/>doibvent tenir de deux
+                        <lb/>ans en deux ans</add>
+                  </head>
+                  <p><lb/>Pour ce aussy que a cause de la longueur des audiances, plusieurs gens <lb/>ont
+                     estez frustrez de leurs biens, dont grande clameur en a esté a ceste
+                     <lb/>presente audiance generalle, du consentement du seigneur gouverneur a esté
+                     <lb/>advisé que doresenavant lesdites audiances generalles se tiendront de
+                     <lb/>deux ans en deux ans, pour obvyer a plusieurs procez qui se dressoyent
+                     <lb/>pour fuyr justice.</p>
+                  <head type="subtitle"><add place="left margin">Pour dresser un livre <lb/>coustumier</add></head>
+                  <p><lb/>Il a esté aussy de nouveau advisé qu’il se dressera ung livre coustumier
+                     <lb/>pour tout le comté dudict Neufchastel afin de soulager le pauvre peuple
+                     qu’est <lb/>grandement chargé des justices ordinayres et extraordinayres <pb
+                        n="200r" facs="AEN_3PAST_2_199v_200r"/>
+                     <lb/>afin <add place="above">aussy</add> que doresenavant les sentences se
+                     puissent donner sans mutation ny changement. <lb/>Et pour ce faire du
+                     consentement dudit seigneur gouverneur ont estez establiz et esleuz <lb/>les
+                     nobles et sages Pierre Vallier, chastelain du Landeron, Jehan Merveilleux,
+                     <lb/>chastelain de Thielle, Claude Baillods, chastelain du Vaultravers et
+                     <lb/>Guillaume Hory, conseillier et bourcier de la ville de Neufchastel, <add
+                        place="left margin">Les noms des quatre personnages <lb/>esleus pour dresser
+                        ledict <lb/>coustumier</add> lesquelz <lb/>rendront ledict livre es mains
+                     dudict seigneur gouverneur tel qu’ilz le pourront <lb/>avoir comprins sus
+                     aultres livres coustumiers de nos voisins deans l’an neuf <lb/>prochainement
+                     venant&#160;: lors seront appeliez les seigneurs banderetz et autres gens
+                     desditz <lb/>estatz et comté pour le revisiter et passer ce qui sera
+                     raisonnable, afin de le <lb/>faire authoriser par nostre très redoubté et
+                     souverain seigneur et prince. <lb/>Et pour ce faire, ledict seigneur gouverneur
+                     fera fournir par les officiers les despendz <lb/>et puis après advisera d’en
+                     getter a un chacun ce qu’il apartiendra. </p>
+                     <head type="subtitle"><add place="left margin">Lesdits esleus avoyent charge <lb/>de dresser deans
+                        ledi et livre <lb/>une asseurance generale</add>
+                  </head>
+                  <p><lb/>L’on a aussy ordonné ausditz quatre esleuz de coucher une asseurance
+                     <lb/>generale dedans ledi et livre coustumier afin que generalement, elle se
+                     <lb/>passe et que a l’advenir l’on ne se puisse excuser de inadvertence,
+                     autrement <lb/>en serions blasmez de nos circonvoysins attendu qu’il plait a
+                     mondict seigneur nostre <lb/>prince que ainsy il se face. </p>
+                  <head type="subtitle"><add place="left margin">Item d’adviser a la punition <lb/>et chastoy que
+                        meritoyent <lb/>les enfans et larrons desrobans <lb/>fruicts</add></head>
+                  <p><lb/>Semblablement des enfans et larons qui desrobent les vignes et les <lb/>fruictz
+                     aux arbres et jardins de laquelle punition et chastoy ilz doivent <lb/>estre
+                     puniz et chastiez pour extirper et abolir les maulvais qui sont en <lb/>cedict
+                     comté. </p>
+                  <head type="subtitle"><add place="left margin">Et de dresser articles <lb/>pour le consistoire</add></head>
+                  <p><lb/>Tant que touche le faict du consistoyre, l’on a remis le faict aux quatre
+                     <lb/>esleuz pour faire ledict livre coustumier, qu’ilz advisent ce qui sera
+                     necessaire <lb/>de faire et le coucher par escript, afin de le passer avec
+                     autres articles <lb/>pour corroboration dudict consistoyre. </p>
+                  <head type="subtitle"><add place="left margin">Item d’adviser aux salaires <lb/>et esmolumens des
+                        secretaires <lb/>de justice <lb/>et a la despense des justiciers <lb/>et tesmoins a
+                        l’extraordinaire</add></head>
+                  <p><lb/>Pour ce aussy que les elerez des justices tant des villes que des villages
+                     <lb/>ont faict plainte qu’ilz ne peuvent servir pour le salayre a eux estably
+                     et <lb/>ordonné, demandantz augmentation de leursditz salaires, considerant les
+                     <lb/>grandes remaises et inserations des tiltres et tesmognages qu’il faut
+                     escripre, <lb/>lesditz sei­gneurs de l’audiance ont cela remis ausditz quatres
+                     esleuz pour y <lb/>adviser et coucher audict livre coustumier que dessus. <pb
+                        n="200v" facs="AEN_3PAST_2_200v_201r"/>
+                     <lb/>Semblablement pour la despence des jurez des justices et des
+                     <lb/>tesmognages qui demandent excessivement pour les extraordinayres,
+                     <lb/>lesdicts quatre en coucheront articles pour les passer comme dessus. </p>
+                  <p><lb/>Par copie prinse sur <lb/>le manual desdictes
+                        decretales,</p>
+                  <lb/><signed><persName>Bailliods</persName>, <abbr>not</abbr></signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;199-200v.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;278-280.</p>
+               <p>AEN, Registre «&#160;Audiences
+                  générales&#160;», fol.&#160;12v-14.</p>
+               <p>Registre des Trois-États, I, fol.&#160;16v-19.</p>
+               <p>AEN, T&#160;12, N<hi rend="sup">o</hi>&#160;2, p.&#160;46-51.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;476-478. Matile,
+                        <hi rend="italic">Plaits</hi>, p.&#160;9-13. Calame, <hi rend="italic">Droit
+                        privé</hi>, p.&#160;250-252.</p>            
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

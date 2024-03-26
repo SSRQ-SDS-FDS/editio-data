@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.18-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 282 (1731), S. 413</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 282 (1731), p. 413</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond, Jacques Bouquet – Anweisung</head>
+					<head xml:lang="fr">Catherine Repond, Jacques Bouquet – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-07-24">24<hi rend="sup">ten</hi> <foreign xml:lang="la">jullii</foreign> [1731]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent">Libraire</hi> <persName>Repond</persName> prie en toutte sousmission <choice><abbr>m s s &amp; s</abbr><expan>mes souverains seigneurs &amp; seigneurs</expan></choice> du Conseil privé<note>Il s’agit du Petit Conseil.</note>
+						<lb/>de corroberer comme il ne se trouve pas parent de la detenüe <persName ref="per028134a">Catherine
+						<lb/>Repond</persName>, en suitte de la recherche faitte dans les reconnoissances du
+						<lb/>chateau de <placeName ref="loc013791.02">Corbieres</placeName> comme en fait foy la relation du <choice><abbr>seig<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> ballif<note>Gemeint ist <persName ref="per028147a">Karl von Montenach</persName>.</note>
+						<lb/>en datte du <origDate when="1731-07-14">14<hi rend="sup">e</hi> juillet 1731</origDate>, signé <persName>Joseph Chassot</persName>. Leursdits <choice><abbr>EE<hi rend="sup">ces</hi></abbr><expan>Excellences</expan></choice>
+						<lb/>ont confirmés ladite rellation avec ordres à la chancellerie de luy
+						<lb/>en expedier acte <subst><del>avec</del><add place="above">munis</add></subst> d’un sceau ordinaire.</p>
+						<p><gap reason="irrelevant"/><note>Ce passage ne concerne pas le procès mené contre <persName ref="per028134">Catherine Repond</persName>.</note></p>
+						<p><lb/>Der einligende <persName ref="per028151a.01">Bouquet</persName> und <persName ref="per028134a">Catherine Repond</persName></p>
+						<p><lb/>sollendt an heütt <term ref="lem018944.01">confrontierdt</term> werden <add place="left margin" type="sign">nach außaag der
+							<lb/>einligende <persName ref="per028134a.02">Cathry
+								<lb/>Repond</persName></add>. <subst><del>Übr</del><add place="inline">Übriegens</add></subst>
+						<lb/>werdend die hochgeehrten und wohlgeehrten <choice><abbr>hhr</abbr><expan>herren</expan></choice> des statts gericht für ferneren
+						<lb/><term ref="lem005044">examination</term> sich auff den künfftigen montag ein zu fünden wüssen.</p>
+						<p><gap reason="irrelevant"/><note>Ce passage ne concerne pas le procès mené contre <persName ref="per028134">Catherine Repond</persName>.</note></p>
+						<p><lb/>Mandat</p>
+						<p><lb/>An <abbr>h</abbr> ambtsmann von <placeName ref="loc007861.02">Boll</placeName><note>Gemeint ist <persName ref="per028150a">Franz Philippe Vonderweid</persName>.</note>,
+							sich des handels und <term ref="lem005097">wandels</term>
+						<lb/>des einligenden <persName ref="per028151a.03">Jaques Bouquet</persName> ein zu nehmen, sonders
+						<lb/>aber wegen den emfrembteten <term ref="lem000615.03">manthel</term> des <persName>Duripoz</persName> <choice><abbr>sel</abbr><expan>selig</expan></choice>
+							<lb/>wie auch, ob er dennen jungen töchteren in die <term ref="lem000229.53">wührtshäusern</term>
+						<lb/>nit <term ref="lem014672.08">hexereyen</term> gelehrt habe, wie er deßen ist angegeben
+						<lb/>worden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

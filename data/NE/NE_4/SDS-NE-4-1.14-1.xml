@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.14-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 52–60</idno>
+     </msIdentifier>
+     <head>Tuteurs et curateurs</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000410"></term>
+     <term ref="key004982"/>
+     <term ref="key000311"></term>
+     <term ref="key000304"></term>
+     <term ref="key000874"></term>
+     <term ref="key003521"></term>
+     <term ref="key000815"></term>
+     <term ref="key003288"></term>
+     <term ref="key000817"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="52" facs="AEN_MJ_17_052_053"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chapp.</abbr><expan>Chappitre</expan></choice> XIIII.
+       <lb/>Des tuteurs et
+       <lb/>curateurs</head>
+      <p>
+       <lb/>Ceux doibvent estre les <lb/>tuteurs d’enfans orphelins, &amp; sont <lb/>ligitimes les
+       parents plus proches <lb/>du costé paternel, &amp; au deffaut <app>
+        <lem>de ce</lem>
+        <rdg wit="AVN Q41, p. 23">d’iceux</rdg>
+       </app>
+       <lb/>les maternels.</p>
+      <p>
+       <lb/>Les tuteurs qui sont ordonnez <lb/>par le testament et disposition de <lb/>derniere
+       volonté d’un deffunct sont <lb/>preferez aux susdits.  <lb/><add place="below"
+        type="catchword">Et</add>
+      </p>
+     <pb n="53" facs="AEN_MJ_17_052_053"/>
+      <p>
+       <lb/>Et quand les uns et les autres sont <lb/>incapables d’exercer telle charge, ou que
+       <lb/>pour quelque occasion ligitime ils ne <lb/>peuvent entendre<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 23"> a cela</rdg>
+       </app>, ou bien s’ils sont suspects <lb/>pour quelque occasion &amp; pretention contre
+       <lb/>le pupil, doibvent tenir main avec les <lb/>parents qu’il en soit donné un au pupil
+       <lb/>par le magistrat.</p>
+      <p>
+       <lb/>Et sy par tous il estoit negligé, c’est <lb/>la charge et debvoir du president &amp; des
+       <lb/>justiciers d’en advertir la souveraineté <lb/>pour y pourvoir et donner au pupil tel
+       <lb/>tuteur qu’il conviendra, et <app>
+        <lem>a <placeName ref="loc007785.04">Neufchastel</placeName>
+         <lb/>comme du passé</lem>
+        <rdg wit="AVN Q41, p. 23">que par droict est requis</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Il advient quelques fois que les <lb/>parents pretendants quelque part <lb/>a la
+       succession du deffunct, negligents <lb/>volontairement de pourvoir de tuteur <lb/>les pupils,
+       afin que tant plus <lb/>facilement ils viennent au but <lb/>de leurs pretentions. Ceux
+       <lb/>qui ce feront a l’advenir &amp; n’<choice>
+        <abbr>aurot</abbr>
+        <expan>auront</expan>
+       </choice>
+       <lb/><add place="below" type="catchword">fait</add>
+       <pb n="54" facs="AEN_MJ_17_054_055"/>
+       <lb/>fait pourvoir <app>
+        <lem>les</lem>
+        <rdg wit="AVN Q41, p. 23">lesdits</rdg>
+       </app> pupils de tuteurs <lb/>ou curateurs avant poursuivre <lb/>leurs pretentions en
+       justice, en <choice>
+        <abbr>doibvet</abbr>
+        <expan>doibvent</expan>
+       </choice>
+       <lb/>estre descheuz &amp; privez entierement.</p>
+      <p>
+       <lb/>Et ne sera au choix des parents, ayants <lb/><app>
+        <lem>action</lem>
+        <rdg wit="AVN Q41, p. 23">actes</rdg>
+       </app> d’importance contre les pupils, <lb/>de leur establir tuteur ou curateur,
+       <lb/><term ref="lem015643">ains</term> aux autres parents qui seront <lb/>plus esloignez.</p>
+      <p>
+       <lb/>Tous tuteurs doibvent estre donnez <lb/>et establis par authorité de souveraineté
+       <lb/>et confirmez par le magistrat. Et <lb/>en justice faire le serment, en tel <lb/><app>
+        <lem>fait</lem>
+        <rdg wit="AVN Q41, p. 23">cas</rdg>
+       </app> requis. <app>
+        <lem>Et a <placeName ref="loc007785.04">Neufchastel</placeName>
+         <lb/>comme du passé.</lem>
+        <rdg wit="AVN Q41, p. 23"/>
+       </app></p>
+      <p>
+       <lb/>Tutelle est non seulement d’avoir <lb/>la garde, administration <app>
+        <lem>&amp; con<lb break="no"/>servation, soin</lem>
+        <rdg wit="AVN Q41, p. 24">, soing, <lb/>conservation,</rdg>
+       </app> et charge du bien &amp; <lb/>moyen d’un pupil, mais aussy de  <lb/><add place="below"
+        type="catchword">sa</add>
+       <pb n="55" facs="AEN_MJ_17_054_055"/>
+       <lb/>sa personne et de ses moeurs, comme <lb/>aussy d’eviter son dommage &amp; de procurer
+       <lb/>en tout et par tout son proffit &amp; honneur, <lb/>et faire en leur endroit acte de
+       pere.</p>
+      <p>
+       <lb/>Et leur puissance est telle, que leurs <lb/>pupils ne peuvent faire aucunes
+       <term ref="lem015000.02">pasches</term>
+       <lb/>ny stipulation vaillable que ce ne soit <lb/>par le consentement de leurs tuteurs.</p>
+      <p>
+       <lb/>Icelle dure, encor que le pupil y contredit, <lb/>jusques au <measure type="age" unit="year" quantity="15">quinziesme an de
+        son aage</measure> apres <lb/>le decez du pere, combien que la mere <lb/>vescut encores,
+       d’autant qu’elle ne peut <lb/>estre tutrice, sy par testament elle <lb/>ne l’a esté ordonnée.</p>
+      <p>
+       <lb/>Du gage, sy leur en est dehu de droit,
+       <lb/>non toutesfois leurs peynes, selon leur
+       <lb/>merite, &amp; aussy selon le moyen de
+       <lb/>leur pupils, sont recompensez
+       <lb/>honnestement.
+      </p>
+      <p>
+       <lb/>Curateur est <choice>
+        <abbr>nomé</abbr>
+        <expan>nommé</expan>
+       </choice> en ce pays <term ref="lem014768.01">advoyer</term>,  <lb/><add place="below"
+        type="catchword">comme</add>
+       <pb n="56" facs="AEN_MJ_17_056_057"/>
+       <lb/>comme cy dessus a esté dit, lequel est <lb/>adjoint au tuteur, mais continué jusques
+       <lb/>au <measure type="age" unit="year" quantity="20">vingtiesme an</measure> du mineur ou
+       puberé, s’il <lb/>n’est marié auparavant, et sa charge est <lb/>de gouverner et poursuivre
+       les affaires <lb/>du mineur, et tels <term ref="lem014768.04">advoyers</term> curateurs
+       <lb/>ne sont donnez au mineur contre leur <lb/>gré, sinon en cas qu’il leur faudroit playder,
+       <lb/>qu’en cas ils sont tenuz en prendre, pour <lb/>ne rendre le jugement du <term
+        ref="lem015614">plaid</term> illusoire <lb/>&amp; de nul effect.</p>
+      <p>
+       <lb/>Encores que les mineurs n’ayent atteint <lb/>l’aage de <measure type="age" unit="year"
+        quantity="20">vingt ans</measure>, ne doibvent playder <lb/>sans <term ref="lem014768.01"
+        >advoyer</term>, toutesfois s’ils l’ont fait, <lb/>et la cause a esté jugée a leur proffit,
+       <lb/>le jugement donné pour eux sera vaillable, <lb/>car la minorité leur doit servir pour <lb/><app>
+        <lem>leur estre</lem>
+        <rdg wit="AVN Q41, p. 24"/>
+       </app> reparé le <choice>
+        <abbr>domage</abbr>
+        <expan>dommage</expan>
+       </choice> a eux fait, <lb/>et non pour leur nuyre en choses faites <lb/>et passées a leur
+       proffit.</p>
+      <p>
+       <lb/>Celuy que l’on choisit pour l’<term ref="lem014768.01">advoyer</term>
+       <lb/>curateur, ne le peut refuser, sinon <lb/>en tant qu’il fust chargé de 3. ou 4. autres
+        <lb/><add place="below" type="catchword">curatelles</add>
+       <pb n="57" facs="AEN_MJ_17_056_057"/>
+       <lb/>curatelles, et son sallaire est selon la <lb/>coustume de <measure origin="NE"
+        type="currency" unit="livre faible" quantity="10">dix livres foibles</measure> par <date dur-iso="P1Y">an</date>, <lb/>avec les despends necessaires qu’ils <app>
+        <lem>auront</lem>
+        <rdg wit="AVN Q41, p. 24">auroit</rdg>
+       </app>
+       <lb/>mis en poursuivant les affaires du <lb/>mineur.</p>
+      <p>
+       <lb/>Tuteurs et curateurs ne peuvent <lb/>vendre, n’alliener les biens immeubles <lb/>de
+       leurs <app>
+        <lem>mineurs &amp; pupils</lem>
+        <rdg wit="AVN Q41, p. 24">pupils, et mineurs</rdg>
+       </app> que par <lb/>cognoissance de justice, par laquelle <lb/><app>
+        <lem>se jugera</lem>
+        <rdg wit="AVN Q41, p. 24">il sera jugé</rdg>
+       </app> sy telle allienation, que peut <lb/>requerir le tuteur ou <term ref="lem014768.01"
+        >advoyer</term> curateur <lb/>est a propos, et pour le proffit <lb/>d’iceux <app>
+        <lem>mineurs &amp; pupils</lem>
+        <rdg wit="AVN Q41, p. 24">pupils, et mineurs</rdg>
+       </app>, comme pour <lb/>les acquiter de debtes, et les descharger <lb/>d’autres faicts
+       onereux, &amp; ce de choses <lb/>moings dommageables &amp; proffitables<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 24">, selon que la justice cognoistra</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Quant aux meubles desdits pupils <lb/>et mineurs qui seront trouvez par <lb/>l’advis des
+       parents, <app>
+        <lem>le</lem>
+        <rdg wit="AVN Q41, p. 25"/>
+       </app> moings <choice>
+        <abbr>importat</abbr>
+        <expan>important</expan>
+       </choice>
+       <lb/>&amp; necessaire &amp; subject a facilement <lb/>s’user et deffaire, lesdits tuteurs
+       &amp; <lb/>curateurs les doibvent faire vendre <lb/>publicquement au plus offrant &amp;
+        <lb/><add place="below" type="catchword">dernier</add>
+       <pb n="58" facs="AEN_MJ_17_058_059"/>
+       <lb/>dernier encherissant, selon qu’il est de <lb/>coustume en chasque ressort des qu’ils
+       <lb/>sont <app>
+        <lem>rentrez</lem>
+        <rdg wit="AVN Q41, p. 25">entrés</rdg>
+       </app> en telles charges, et <lb/>sont tenuz employer les <term ref="lem016291.02"
+        >deniers</term> en <lb/>provenants a l’achept des rentes ou bons <lb/>heritages, ou les
+       affecter a telle autre <lb/>part que la necessité urgente des <lb/>affaires desdits pupils, <app>
+        <lem>le</lem>
+        <rdg wit="AVN Q41, p. 25">et mineurs</rdg>
+       </app> requerra.</p>
+      <p>
+       <lb/>Les tuteurs et curateurs qui <lb/>auroyent autrement alliené et <lb/>transporté les
+       biens meubles &amp; <lb/>immeubles desdits pupils, qu’a la forme <lb/>cy dessus, sont tenus
+       en restituer tous <lb/>dommages a leurs pupils &amp; mineurs <lb/>toutesfois et quantes
+       qu’ils en <app>
+        <lem>voudroyent</lem>
+        <rdg wit="AVN Q41, p. 25">voudront</rdg>
+       </app>
+       <lb/>faire poursuitte durant la vie de <lb/>leursdits tuteurs &amp; curateurs.</p>
+      <p>
+       <lb/>Et afin que lesdits pupils et mineurs <lb/>se puissent sur ce <app>
+        <lem>prevoir</lem>
+        <rdg wit="AVN Q41, p. 25">pourvoir</rdg>
+       </app>, et sçavoir <lb/>en quoy consiste leur bien, pour en faire <lb/>rendre bon et fidel
+       compte a leur <lb/>tuteur et <term ref="lem014768.01">advoyer</term> curateur, il se dressera
+        <lb/><add place="below" type="catchword">inventaire</add>
+       <pb n="59" facs="AEN_MJ_17_058_059"/>
+       <lb/><app><lem/>
+        <rdg wit="AVN Q41, p. 25">un</rdg>
+       </app>inventaire de tous leurs biens a leur <lb/>entrée de charge, en presence de l’officier
+       <lb/>du lieu de la residence du pupil ou mineur, <lb/>de deux justiciers, et de toutes
+       parties, qui <lb/>sera mis en bonne forme<app><lem>, signée</lem>
+        <rdg wit="AVN Q41, p. 25"/>
+       </app> par ledit <lb/>officier et le grephier <app>
+        <lem>de la justice, reservé <lb/>a la ville de <placeName ref="loc007786.02"
+          >Neufchastel</placeName>, comme du passé</lem>
+        <rdg wit="AVN Q41, p. 25">dudit lieu,<lb/> qui servent en justice</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Lesdits tuteurs et <term ref="lem014768.04">advoyers</term> ne <lb/>peuvent quitter
+       telle charge, ou s’en <lb/>demettre sans apparente rayson et <lb/><app>
+        <lem/><rdg wit="AVN Q41, p. 25">notable</rdg>
+       </app>consideration, que sera a la cognoissance <lb/>de la justice, &amp; qu’ils n’en ayent
+       <lb/>auparavant pourveu d’autres a leur <lb/>place, a peyne de porter tous <choice>
+        <abbr>domages</abbr>
+        <expan>dommages</expan>
+       </choice><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 25">, et interrests,</rdg>
+       </app>
+       <lb/>qu’en pourroyent autrement advenir. <lb/>Et par consequent avant ce faire, <lb/>ou bien <app>
+        <lem/><rdg wit="AVN Q41, p. 25">quand</rdg>
+       </app> leur charge est finie, ou quand <lb/>ils en sont sommez et requis, ils <lb/>doibvent
+       rendre bon &amp; fidel compte de <lb/>leur administration &amp; charge en <choice>
+        <abbr>pnce</abbr>
+        <expan>presence</expan>
+       </choice> de <lb/>l’officier et ceux de la justice qu’il choisira <lb/>avec luy. Et chasque
+       tuteur &amp; <lb/><term ref="lem014768.01">advoyer</term> doibt poursuivre &amp; <term
+        ref="lem015381">inster</term>
+       <lb/>que leurs comptes soyent <term ref="lem017626.07">ouys</term> et  <lb/><add
+        place="below" type="catchword">examinez</add>
+       <pb n="60" facs="AEN_MJ_17_060_061"/>
+       <lb/>examinez tous les ans, sinon <lb/>leurs heritiers seront responsables <lb/>des actions
+       des mineurs <app>
+        <lem>entr’eux</lem>
+        <rdg wit="AVN Q41, p. 25">contr’eux</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Les tuteurs et curateurs <choice>
+        <abbr>q</abbr>
+        <expan>qui</expan>
+       </choice> obligent <lb/>les biens de leurs pupils et mineurs <lb/>pourveu que l’emprunt soit
+       tourné <lb/>au proffit desdits <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 25">pupils, et </rdg>
+       </app>mineurs, ou la chose <lb/>de tout autre contract qui <app>
+        <lem>aura</lem>
+        <rdg wit="AVN Q41, p. 25">auront</rdg>
+       </app> esté <lb/>dressé durant leur charge, n’en seront <lb/>responsables, <term
+        ref="lem015643">ains</term> lesdits pupils &amp; <lb/>mineurs.</p>
+      <p>
+       <lb/><app>
+        <lem>La</lem>
+        <rdg wit="AVN Q41, p. 25">Le</rdg>
+       </app> mesme est observée <app>
+        <lem>de</lem>
+        <rdg wit="AVN Q41, p. 25">des</rdg>
+       </app> negotiations <lb/>des <term ref="lem014768.04">advoyers</term> administrateurs.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

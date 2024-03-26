@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-170.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 126–127</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 126–127</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pernon Porchet-Ducet – Verhör</head>
+					<head xml:lang="fr">Pernon Porchet-Ducet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1663-03-15"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="126"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.14">Jasquemard</placeName></hi>, den <origDate when="1663-03-25"><sic>25</sic><hi rend="sup">ten</hi> <foreign xml:lang="la">martii</foreign> 1663</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice> statthalter<note>Als Stellvertreter des Grossweibels agierte entweder der Rathausammann oder ein langjähriger Stadtweibel. Falls der damalige Rathausammann gemeint ist, handelt es sich um <persName ref="per006840">Andres Fleischmann</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per026102a.01">Python</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013470a.02">Mänlin</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per026120a.01"><subst><del><unclear>F</unclear></del><add place="overwritten">J</add></subst>ohan Rämi</persName>, <persName ref="per026128a.01"><subst><del><unclear>L</unclear></del><add place="overwritten">K</add></subst>ämmerling</persName></seg></p>
+						<p><seg><lb/><persName ref="per026094a.02">Pernun du Cet</persName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict, sur
+						<lb/>le contenu de l’<term ref="lem018363">inquisition</term> prise, examinée,
+						<lb/>dit que <add place="above">estant</add> depourveue dez vestemenz et (par
+						<lb/>respect) aussi dez souliers que luy estoient esté
+						<lb/>bruleez à <placeName ref="loc013267.02">Brenle</placeName>, ou elle s’estoit retirée, estre
+						<lb/>venue au pays prez de son mary pour se
+						<lb/>revestir et fournir de cez <choice><sic>nessitez</sic><corr>necessitéz</corr></choice>, puis que
+						<lb/>en lieux estrangers persone ne luy <term ref="lem019035.02">supedi<lb break="no"/>toit</term> aulcune chose, et n’estre venue aulcune<lb break="no"/>ment pour ce vanger contre persone que ce
+							<lb/>soit.</seg> <seg><term ref="lem015549.13">Confesse</term> veritablement avoir faict faulte,
+						<lb/>que sçachant que l’intimation du serement de
+						<lb/><term ref="lem019515.03">bannisement</term> luy fut faict, d’estre retournée
+						<lb/>dans le pays sans license, d’ou elle ce
+						<lb/>tient <add place="above">fort</add> coulpable de ce faict&#160;; au quel soubject
+						<lb/><term ref="lem015549.13">confesse</term> avoir dit que pour ce <subst><del>soubject</del>
+						<lb/><add place="inline">elle prioit</add></subst> Leurs Exellencez que un luy
+						<lb/><term ref="lem019523">trancha<del>n</del>t la teste</term> prez la <placeName ref="loc010835.04">Chapelle de
+						<lb/>Misericorde</placeName>.</seg> <seg>Asserant que dempuis son
+							<lb/><term ref="lem019515.01">bannissement</term> avoir esté en <placeName ref="loc005628.08">Bourgonie</placeName> <add place="above">et</add> aux
+						<lb/><placeName ref="loc007812.06">Vaultraver</placeName> et par la&#160;; de la estre venue
+						<lb/>de <placeName ref="loc007610">Payerne</placeName> et <placeName ref="loc007919.10">Corsale<subst><del>t</del><add place="overwritten">z</add></subst></placeName>&#160;;
+							d’ou, ayant <term ref="lem019036.02">coustoié</term> le
+						<lb/>lac, estre venue à <placeName ref="loc007977.01">Belfaux</placeName>.</seg> <seg>Au reste,
+						<lb/><term ref="lem015549.13">confesse</term> que, venant la bergerie <add place="above">ci devant</add> pour condui<lb break="no"/>re le bestail au champz, l’avoir trouvé
+						<pb n="127"/><lb/>qu’elle tenoit un <term ref="lem019037.01">vas</term> a tetter, dans le quel
+						<lb/>elle avoit de coustume tenir l’eaux benitte,
+						<lb/>avec la quelle eaux beniste elle arrousoit
+							<lb/>et lavoit les tetons <add place="above">ou <term>li<gap reason="illegible" quantity="1" unit="cm"/></term></add><note>La lecture demeure incertaine.
+								Le GPSR propose de lire <term ref="lem017930">liv[ro]</term>, sous l’entrée «&#160;déchicoter&#160;». GPSR, V, 117.</note> de sa <term ref="lem017507">vache</term> qu’estoit
+						<lb/>tout <term ref="lem019038.02">dechiccoté</term>, mais ne veut avoir heu
+						<lb/>aulcune <term ref="lem018992.01">chandelle</term> de cire, ni s’estre
+						<lb/>servi<del>e</del> de la <term ref="lem018382.02">graise</term> qu’estoit restée dez vigilléez
+						<lb/><subst><del>derniéez</del><add place="above">emploiéez</add></subst> au mort. Au reste ne veut estre
+						<lb/>culpable d’aultre chose, demandant la desus
+						<lb/>à Dieu et à messeigneurs humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p>Le procès-verbal est daté du <origDate when="1663-03-25">25 mars 1663</origDate>, mais il doit s’agir d’une erreur.
+					L’entrée qui suit directement, dans le Thurnrodel 16, est datée du <origDate when="1663-03-17">17 mars</origDate> (p. 127). Selon la date du jugement rendu dans
+					le Manual du Conseil, c’est-à-dire le <origDate when="1663-03-16">16 mars</origDate> (<ref target="urn:ssrq:SSRQ-FR-I_2_8-170.7-1">SSRQ FR I/2/8 170.7-1</ref>),
+					il convient sans doute de dater le présent procès-verbal au <origDate when="1663-03-15">15 mars 1663</origDate>.</p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

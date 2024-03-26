@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-127.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 409–410</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 409–410</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Terreaux, Jean Bondalla – Verhör</head>
+					<head xml:lang="fr">Jacques Terreaux, Jean Bondalla – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-02-06"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="408"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1647-02-06">6<hi rend="sup">ten</hi> <foreign xml:lang="la">februarii</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Tornier</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013439a.01">von Montenach</persName></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017137a.03">Jaques du Terraux</persName> <term ref="lem019509.02">visité</term> par le <term ref="lem018789.02">maistre</term>, en presence de <abbr>mess<hi rend="sup">rs</hi></abbr>
+							<lb/>de la justice, ne s’est aucunement trouvé <term ref="lem018895.02">marqué</term>, ny sur
+							<lb/>l’espaule droite, ny ailleurs. Icelluy disant n’avoir on<lb break="no"/>ques commis acte de <term ref="lem018524.02">sortilege</term> pour estre <term ref="lem018895.02">marqué</term>, offrant
+							<lb/>neantmoings le tout a Dieu.</seg> <seg>Enquis pourquoy la <term ref="lem014767.01">relicte</term>
+							<lb/>de feu <persName><space quantity="1" unit="cm"/> Terny</persName>, qu’est <term ref="lem019502.06">possedee</term>, n’auroit estee <term ref="lem018253.02">colloquee</term> pour
+							<lb/>ses pretentions a l’edict de feu <add place="above">son</add> marry, et si les despends de la
+							<lb/>discussion ne seroient estés excessifs&#160;? Dit que les <term ref="lem014977.02">colloca<lb break="no"/>tions</term> et semblables affaires ne dependent de luy, ains imme<lb break="no"/>diatement de la justice de <placeName ref="loc009126.03">Prevondavaux</placeName>, ou ce que les
+							<lb/>distributions sont estees faictes, mais dit la chose estre
+							<lb/>ainsy passee, que si bien leur costumier porte que les femmes
+							<lb/>doivent avoir l’augmentement sur les biens de leurs marrys.
+							<lb/>Si est ce que l’assignat de ceste femme estoit de plus
+							<lb/>grande somme que le marry n’avoit receu, elle fust esconduitte
+							<lb/>de l’augmentement, mais que cela ne depend d’autres que dedite
+							<lb/>justice. Quant aux despends, ne croit qu’ils soyent estéz
+						<pb n="410"/><lb/>excessifs, les justiciers n’ayant a la poursuitte de cest edict
+							<lb/>despensé que <measure type="currency" quantity="30" unit="lb">30 </measure> pour le plus, et si ceste femme ne se
+							<lb/>contente de sa <term ref="lem014977">collocation</term>, elle pourra agir en lieu requis sur
+							<lb/>le restat des biens de feu son marry, au<del>x</del>quel<del>s</del> <subst><del>il</del><add place="inline">aprés</add></subst> les
+							<lb/>distributions (comme il croit), il demeura encor quelque petit
+							<lb/>reste. Demande pardon.</seg></p>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <foreign xml:lang="la">eadem die et presentibus dominis ut supra</foreign></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017140a">Jean Bondalla</persName> <add place="inline">a</add> dit estre resould a dire la verité et de
+							<lb/>ne point faire tort, et soustenu <subst><del>sim</del><add place="inline">a la simple</add></subst> <term ref="lem018231">corde</term>
+							<lb/>qu’il n’estoit aucunement attainct du <term ref="lem019539.02">peché</term> de <term ref="lem018521.01">sorcellerie</term>,
+							<lb/>ny <term ref="lem018895.02">marqué</term> en aucun lieu que ce soit&#160;; qu’il ne se constera pas
+							<lb/>qu’il ayt jamais faict serement que lors qu’il fust ordon<lb break="no"/>né justicier&#160;; que ceux qui vouldroient dire autrement luy
+							<lb/>font, avec respect, grand tort&#160;; mais patience, esperant que
+							<lb/>Dieu le maintiendra en son bon droit et innocence, et le
+							<lb/>recompensera des <term ref="lem019473.06">torments</term> qu’il luy faut endurer pour fausses
+							<lb/>accusations, la vengeance desquelles appartient directe<lb break="no"/>ment a Dieu.</seg> <seg>Demandé <subst><del>s’il ne croioit</del><add place="inline">lors qu’il</add></subst> exami<lb break="no"/>noit des prisonniers soubçonnéz <term ref="lem019308.02">sorciers</term>, et voyoit qu’ils ne
+								<lb/>sentoient les poingts qu’on leur donnoit dans la marque, s’il
+							<lb/>ne croyoit luy mesme que c’estoit une <term ref="lem018894.02">marque diabolique</term>&#160;?
+							<lb/>A respondu qu’ouy, mais si luy en a une semblable sur son
+								<lb/>corps, s’estre grandement failly contre ceux qu’il a ainsin trou<lb break="no"/>vé <del>des</del> <term ref="lem018895.05">marqués</term>, car si bien il <subst><del>est</del><add place="inline">debvroit</add></subst> <add place="above">ainsy</add> estre <term ref="lem018895.02">marqué</term>, ne
+							<lb/>estre portant point de <term ref="lem017867">stigme</term>, ny <term ref="lem018894.06">marque du maling</term>, et croit
+							<lb/>fermement que Dieu luy envoyt ce grand chastiement, parce
+							<lb/>qu’il procedoit en toutte rigeur contre les pauvres detenuz.</seg>
+							<seg><lb/>Enquis lesquels <subst><del>sont</del><add place="inline">de sa lignee</add></subst> sont estés suppliciés&#160;? Dit
+							<lb/>ne sçavoir personne autre qu’une femme, comme il croit,
+								<lb/>nommee <persName>Anna Bondalla</persName><note>Cette femme a été jugée pour sorcellerie fin <date when="1621-04">avril 1621</date> et condamnée au bûcher à <placeName ref="loc007605">Surpierre</placeName>. Ce procès n’est pas documenté dans les Thurnrodel. Voir <bibl><ref target="http://www2.fr.ch/aef_query/detail.aspx?ID=71601">StAFR, Ratsmanual 172</ref> (1621), S. 173, 193</bibl>.</note>, laquelle fust executee a <placeName ref="loc007605">Surpierre</placeName>
+							<lb/>pour acte de <term ref="lem018524.02">sortilege</term> desja avant <date dur-iso="P35Y">35</date> ou <date dur-iso="P35Y">36 ans</date>, pendant
+							<lb/>qu’il estoit petit garçon et alloit a l’escole aupres du
+							<lb/>curé de <placeName ref="loc007934.06">Mignyre</placeName>&#160;; ne le sçavoir que aprés ouyr dire. Et
+							<lb/>si bien cela est, espere que ce ne luy peut aucunement
+								<lb/>nuire, disant estre toutafait innocent en ce <term ref="lem019539.02">peché</term>, que
+								<lb/>touts ceux, soit son frere, ou autres mesdisants, qui le tien<lb break="no"/>nent pour <term ref="lem019308.01">sorcier</term>, luy font grand tort, schachant bien
+							<lb/>qu’il est homme <subst><del>de bien et</del><add place="inline">d’honneur</add></subst>. <term ref="lem019498">Crie mercy</term>.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

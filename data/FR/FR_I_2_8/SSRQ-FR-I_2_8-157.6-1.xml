@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-157.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 260–261</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 260–261</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Waeber-Schueller – Verhör</head>
+					<head xml:lang="fr">Anni Waeber-Schueller – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-09-01"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="260"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-09-01">1<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>septemb</abbr><expan>septembris</expan></choice></foreign> 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009264a.03">Aman</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018134a.02">von Affri</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018141a.01">Burgki</persName></seg></p>
+						<p><seg><lb/><persName ref="per018054b.03">Anna Schuoller oder Wäber</persName>, nach dem sie
+							<pb n="261"/><lb/>dreymahl mit dem kleinen <term ref="lem018287">stein</term> <term ref="lem006574.01">gefoltert</term> gerichtlich
+							<lb/>erforschet, sagt anfangs, wie es zwar sein möchte,
+							<lb/>das sie sich bey einem baum befunden habe, doch ohne
+							<lb/>das sie bey selbigem <term ref="lem001041">gedantzt</term> oder ihn <term ref="lem003418">gekußt</term> habe.
+							<lb/>Da sie aber mit nichten waß bößes dardurch will
+							<lb/>verbracht noch begangen haben. Gleich dariber will
+							<lb/>sie sich bey kheinem baum, in waß gestalt es je sein
+							<lb/>khan, sich befunden zhaben. Und were sie gleich woll
+							<lb/>bey einem baum ersehen worden (desen sie sich <add place="above">doch</add> nit
+							<lb/>zu errinneren wiße), so were sie doch daselbst in
+							<lb/>keiner bößer meinung geweßen. W<subst><del>olt</del><add place="overwritten">ill</add></subst> auch endtlich
+							<lb/>von allem nichts wissen.</seg> <seg> Will auch kheines fahls
+							<lb/>des <persName>Hanßen Schwitzers</persName> frauw selig <term ref="lem018557.02">maleficiert</term>
+							<lb/>haben, und sagt, wo sie ihr waß hete angethan, were
+								<lb/>sie mit der <term ref="lem003439.06">leicht</term> <subst><del>zu</del><add place="overwritten">in</add></subst> bestattung <add place="above">der selben</add> nicht mit gangen.</seg>
+							<seg><lb/>Endlichen hat sie <term ref="lem011468.09">bekehndt</term>, wie sie zwar umb <subst><del>d</del><add place="overwritten">e</add></subst>inen
+							<lb/>baum seye gegangen, denselbigen auch volgendts gekhußt,
+							<lb/>solches aber zu keinem bößen <term ref="lem018750.01">intent</term> gethan, sonders
+							<lb/>den baum gott zu ehren gekußt habe, und also solcher
+							<lb/>baum kuß in aller gutte liebe geschehen sey.
+								<lb/>Bittet gott und <choice><abbr>m g</abbr><expan>meine gnaden</expan></choice> umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

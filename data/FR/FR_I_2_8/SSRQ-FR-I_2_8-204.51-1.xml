@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.51-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 139v–140r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 139v–140r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Cossonay-Morand – Verhör und Urteil</head>
+					<head xml:lang="fr">Clauda Cossonay-Morand – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1688-04-02" to="1688-04-03"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="139v"/><p><lb/><placeName ref="loc008105">Keller</placeName>, den <origDate when="1688-04-02">2 <foreign xml:lang="la">apprilis</foreign> 1688</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027605a">Karl Nikolaus Ammann</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026534a.04">Montenach</persName></seg>
+						<seg><lb/><abbr>H</abbr> <persName ref="per027606a">Prez dʼauges</persName><note><persName ref="per027606a">Franz Nikolaus de Boccard</persName> wird im Freiburger Turmrodel teilweise als Hr. Boccard Prez dʼauges (vgl. <bibl><ref>StAFR, Thurnrodel 17, fol. 129v</ref></bibl>) oder wie in diesem Beispiel nur als  Hr. Prez dʼauges bezeichnet.</note></seg>
+							<seg><lb/>Weybel <persName ref="per027589a.01">Wullieret</persName></seg></p>
+						<p><lb/><persName ref="per026681a.04">Clauda Morandt</persName>, femme de <persName ref="per026680a.02">Pierre Coussonné</persName>,
+						<lb/>dicte la <persName ref="per026681a">Magnina</persName> de <placeName ref="loc007983.04">Noreya</placeName>, interrogée
+						<lb/>pourquoy elle estoit revennue dans ce pays,
+						<lb/>si elle ne ce sauvenoit pas que elle est
+							<lb/><term ref="lem019512.05">bannye</term> en perpetuité, at respondu que elle
+						<lb/>se sovenoit bien de avoir esté deux foys en
+						<lb/>prison, et avoir la derniere foy soustenu le
+						<lb/><term ref="lem018305.03">droict imperial</term> et mesme la <term ref="lem015642">serviette</term> pendant
+							<lb/><time dur-iso="PT3H">trois heures</time> <add place="above" type="sign">de temps</add>, et en suitte <term ref="lem019512.03">bannie</term> et menée hor des
+						<lb/>terres de <choice><abbr>L E</abbr><expan>Leurs Excellences</expan></choice>
+						<pb n="140r"/> <lb/>jusque au pont de la <placeName ref="loc008473.02">Singine</placeName>, hors desquelles elle
+						<lb/>est resté jusque à present, estre simplement revennue
+						<lb/>pour demander quelques batz à son mari pour sʼen
+						<lb/>aller aux hermites et demander pardon à Leurs
+						<lb/>Exellences, à cause que deux hommes, dont elle nʼen
+						<lb/>set leur nom, avet, desous la <term ref="lem019291.02">garneta</term> des hermites,
+						<lb/>à elle dit&#160;: <q>&#160;Ajoy <persName>Clauda</persName>, celle que vous at acoulpée
+						<lb/>vous at decoulpée. Allé demander pardon à Leurs
+						<lb/>Exellences&#160;!&#160;</q>&#160;; aux quels elle demande pardon à genaux.
+						<lb/>At encores dit sans estre <term ref="lem019393.02">questionée</term>, de avoir rencontré
+						<lb/>devant quelque temp son mari à <placeName ref="loc000157.08">Berne</placeName>, avec
+							<lb/>un homme de la <placeName ref="loc009221.04">Grandt Fontanna</placeName>, lequell <sic>fossoit</sic>
+						<lb/>un voyage aux hermites pour un homme quʼat
+						<lb/>esté <date dur-iso="P3D">trois jours</date> morts, avec lequel elle et
+						<lb/><choice><sic>et</sic><corr></corr></choice> son mari seroent ausi allée aux hermites,
+						<lb/>ainsi at fins, demandant pardon à Dieu et
+						<lb/>Leurs Exellences.</p>
+						<add place="below"><p><lb/>Leurs Excellences du Conseil estroit<note>Il s’agit du Petit Conseil.</note> de la ville et
+						<lb/>canton de <placeName ref="loc000284">Fribourg</placeName>, entendu le contenu cy
+							<lb/>dessus, lʼont derechef <term ref="lem019512.03">bannie</term> à <term ref="lem019504.02">grace</term>.
+						<lb/><foreign xml:lang="la">Actum</foreign> le <origDate when="1688-04-03">3<hi rend="sup">me</hi> avril 1688</origDate>.</p>
+						<p><lb/>Secretaire du Conseil de <orgName ref="org002637">Fribourg</orgName>.</p></add>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

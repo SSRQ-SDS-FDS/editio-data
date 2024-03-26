@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-184.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 215 (1664), S. 389–390</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 215 (1664), p. 389–390</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jeanne Grandgirard – Anweisung</head>
+					<head xml:lang="fr">Jeanne Grandgirard – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1664-09-26">26<hi rend="sup">ten</hi> <foreign xml:lang="la">septembris</foreign> [1664]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="389"/><p><lb/>Proces <placeName ref="loc007970">Montet</placeName></p>
+						<p><lb/><persName ref="per026816a.01">Jeanne Grand Girard</persName> hatt über daß <term ref="lem003708">examen</term> nicht <term ref="lem011468">bekennen</term> wöllen.
+							<lb/>Daß gricht findt, daß sie nit <term ref="lem019338.03">verrukt</term> ist, hatt sie also zum lären
+							<lb/><term ref="lem006591">seil</term> <term ref="lem015158.02">verfelt</term>. Ihr schwager <persName ref="per026819">Jean Chaney</persName> bittet, sie ihme zu
+						<lb/><term ref="lem017322.02">liffern</term>, wölle sie woll instruieren, daß sie mit den beklagten worten
+							<lb/><term ref="lem010916.04">ynhalten</term> wurdt, unnd zeigt an ursachen, wie sie nit woll by sinnen
+						<lb/>syn möge. Die undergrichts <term ref="lem001289.07">urthel</term> ist bstättiget krafft dessen <term ref="lem004879">attestation</term>,
+						<pb n="390"/><lb/>daß sie boßhafft sye, doch mit bschidenheit, faalß sie doch <term ref="lem008937.03">etwan</term>
+						<lb/>ein verrukung uffüren wurden, <add place="above" type="sign">brichten</add>. Trittet sie in <term ref="lem016794.05">bekhandtnuß</term> et<lb break="no"/>waß
+							realiteten unnd <term ref="lem018380">wichtiges</term>, <term ref="lem010306">fahren für</term> mit dem <term ref="lem002679.11">kay<lb break="no"/>serlichen rechten</term>, im widrigen
+							brichten <choice><abbr>m h</abbr><expan>meinen herren</expan></choice>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

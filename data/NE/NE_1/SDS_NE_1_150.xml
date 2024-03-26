@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-150-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN 12, fol. 412v-416r</idno> 
+               </msIdentifier>
+               <head>Loi des Trois-États sur différents points relatifs aux créances, aux dettes, à
+                  la procédure et à l'exécution forcée</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Registre des Trois-États</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.7"/>
+                              <width unit="cm" quantity="23"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1733-05-07"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_350">SDS NE 1, N<hi rend="sup">o</hi>&#160;150</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003040"></term>
+               <term ref="key003331"></term>
+               <term ref="key000212"></term>
+               <term ref="key000786"></term>
+               <term ref="key000907"></term>
+               <term ref="key003907"></term>
+               <term ref="key000976"></term>
+               <term ref="key004957"></term>
+               <term ref="key000078"></term>
+               <term ref="key005138"></term>
+               <term ref="key000298"></term>
+               <term ref="key005096"></term>
+               <term ref="key000366"></term>
+               <term ref="key005229"></term>
+               <term ref="key004980"></term>
+               <term ref="key003037"></term>
+               <term ref="key005189"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="412v" facs="AEN_EN_12_412v_413r"/>  
+              <div> <p><gap reason="missing"/></p>
+               <pb n="413r" facs="AEN_EN_12_412v_413r"/>    
+                 <head><lb/>Article&#160;1<hi rend="sup">er.</hi></head>
+                     <p><lb/>Les avocats, médecins,
+                     chirurgiens, apoticaires, <lb/>procureurs, marchands, hôtes, bouchers,
+                     artisans, <lb/>gens de métiers, vignerons, laboureurs, où autres <lb/>gens à
+                     compte &amp; parties, de même que les serviteurs <lb/>&amp; servantes, où autres
+                     domestiques, seront obligés <lb/>de faire régler leurs comptes &amp; parties, où
+                     salaires <lb/>dans le terme de quatre années, depuis le premier article <lb/>pour
+                     les personnes a compte &amp; parties, &amp; pour les <lb/>domestiques, depuis le
+                     jour de leur sortie de chés leur <lb/>maître, mais ne faisans les uns &amp; les
+                     autres aucune <lb/>diligence juridique dans ledit terme de quatre
+                     années, <lb/>leurs prétentions &amp; dettes seront prescriptes à moins <lb/>que
+                     l’une des parties n’eut été absente du pays. <lb/>Cet article ne regardant que
+                     les comptes &amp; parties <pb n="413v" facs="AEN_EN_12_413v_414r"/>
+                      <lb/>comme sus est dit, ne devra pas être observé, ni admis <lb/>à l’égard des
+                     dettes parées &amp; confessées contre lesquelles on <lb/>ne pourra pas se servir
+                     de la prescription de dix ans entre <lb/>vivans. Bien entendu aussi que cet
+                     article ne concerne <lb/>pas les marchands du pays, qui pourroyent avoir
+                     des <lb/>comptes respectifs avec des marchands étrangers, ou <lb/>ceux-cy contre
+                     ceux-là, ce que l’on laisse subsister come du passé.</p>
+                  <head><lb/>II.</head> <p><lb/>Une personne qui aura été agredie de fait, &amp; mal à
+                     propos <lb/>laquelle viendrait à être condamnée, à un bamp ou amande <lb/>envers
+                     la seigneurie, sur le rapport d’un seul témoin, <lb/>ainsy qu’il est de
+                     pratique, ce même témoin seul devra <lb/>être suffisant pour luy faire obtenir
+                     son secours pour <lb/>le rambourcement de ladite amande &amp; ledit
+                     témoin <lb/>pourra être entendu la dessus sur le champ, en faisant <lb/>sa
+                     déposition, ou dans la huitaine, si l’aggrédit le <lb/>requiert, sans qu’il soit
+                     obligé de former demande à <lb/>son aggresseur comme du passé.</p>
+                 <head><lb/>III.</head> <p><lb/>En evitation de fraix aux débiteurs, ou pourra faire <lb/>lever
+                     des gages, jusques et pour la somme de trente livres <lb/>foiblesc moyennant que
+                     la dette soit reconnue &amp; avouée <lb/>par le débiteur, mais au cas de
+                     conteste sur le juste deu, <lb/>l’officier, avec deux justiciers, pourront juger
+                     et décider <lb/>le different, deffinitivement &amp; sans appel.</p>
+                  <pb n="414r" facs="AEN_EN_12_413v_414r"/>
+                 <head><lb/>IV.</head> <p><lb/>Lors qu’un créancier se présentera dans une discu<lb break="no"
+                     />tion, il sera en droit de se colloquer, ou de ne pas <lb/>se colloquer, &amp;
+                     se contenter seulement de la simple <lb/>inscription, &amp; retirer son titre,
+                     auquel cas il perdra <lb/>ses hypotèques, mises en biens gisantes dans
+                     le <lb/>décret, et quant à la date, il la perdra par rapport <lb/>aux créanciers
+                     qui se présenteront &amp; se colloqueront <lb/>audit décret, ou si le créancier
+                     ne paroit pas, ou <lb/>gens pour luy, sur le jour indiqué par la
+                     publication <lb/>faite dans le lieu de son domicile ordinaire, il <lb/><choice>
+                        <sic/><corr>perdra</corr>
+                     </choice><note>Correction de Favarger avec pour source&#160;: Pièce officielles, I,
+                        p.&#160;56.</note> de même ses hipothèques &amp; la date deson titre, come <lb/>sus
+                     est dit. Mais si ledit créancier étant averti <lb/>outre les publications
+                     ordinaires, par signification <lb/>juridique, de laissée par écrit, ensorte
+                     qu’il n’ait <lb/>pû ignorer le jour de la discution, dequoy le <lb/>discutable
+                     faisant conster alors, si ledit  <lb/>créancier ne paroit pas, ou gens pour luy,
+                     il <lb/>perdra entièrement sa créance; bien entendu <lb/>aussi qu’en ce cas,
+                     ledit créancier paroissant <lb/>au décret pourra se borner à la simple ins<lb
+                        break="no"/>cription sans être obligé de se colloquer s’il <lb/>ne le veut
+                     comme sus est dit.</p>
+                 <head><lb/>V.</head> <p><lb/>On continuera à colloquer dans les decrets <lb/>&amp; discutions,
+                     les créanciers qui ne seront
+                     pa des <lb/>sujets, ou
+                     régnicoles de l’État, suivant le <lb/>rang &amp; date de leur créance comme du
+                     passé, <lb/>pourvu qu’ils fassent duement conster que l’on <pb n="414v" facs="AEN_EN_12_414v_415r"/>
+                      <lb/>en use de même chés eux envers les sujets de <lb/>cet État&#160;; mais ne
+                     pouvant le faire, ils seront <lb/>colloqués après les créanciers de l’État et
+                     après <lb/>ceux qui devront être traittés comme les sujets de <lb/>ce pais.</p>
+                 <head><lb/>VI.</head> <p><lb/>Lors qu’un sujet de cet État aura échangé ou <lb/>vendu du bétail à
+                     un étranger, cet étranger <lb/>sera traitté, pour la garantie dudit bétail, de
+                     la <lb/>même manière que le sujet de cet état seroit traitté <lb/>dans le pays
+                     dudit étranger.</p>
+                 <head><lb/>VII.</head> <p><lb/> Lors qu’une personne de l’État sera poursuivie <lb/>pour dettes,
+                     par un étranger, elle pourra se <lb/>servir de la prescription de dix ans, même
+                     entre <lb/>vivans, au cas que cela se pratique dans le <lb/>pays du
+                     créancier.</p>
+                 <head><lb/>VIII.</head> <p><lb/>Quant un étranger, non domicilié dans l’État <lb/>actionnera un
+                     sujet ou habitant de ce <lb/>pais, on pourra luy demander à l’entrée <lb/>du
+                     procès, combien il prétend exiger de fraix <lb/>par instance &amp; par voyage,
+                     au cas <lb/>qu’il obtienne gain de cause, afin <lb/>que le sujet ou l’habitant de
+                     l’État <lb/>puisse en demander autant si l’étranger <lb/>vient à succomber &amp;
+                     perdre son procès <lb/>&amp; en cas de constestation &amp; de difficulté <pb
+                        n="415r" facs="AEN_EN_12_414v_415r"/>    <lb/>la justice decidera de la
+                     quotité, absolument &amp; <lb/>sans apel.</p>
+                 <head><lb/>IX.</head> <p><lb/>Une personne qui ne sera pas de l’État, ne pourra <lb/>pas
+                     rechercher les enfans pour dettes de père &amp; <lb/>mère, à moins que le
+                     créancier ne fasse conster <lb/>que la loy du lieu d’où il est oblige les
+                     enfans <lb/>à payer les dettes de leurs pères &amp; mères, ce <lb/>que ne pouvant
+                     faire conster, les enfans n’en <lb/>pourront être recherchés. Et en cas de
+                     cession <lb/>que l’on pourroit faire de pareilles créances <lb/>en faveur des
+                     gens du pays, le cessionnaire <lb/>n’acquerrera pas plus de droit que le
+                     cédant <lb/>n’en avoit luy même.</p>
+                 <p><gap reason="missing"/></p>
+                 <pb
+                    n="415v" facs="AEN_EN_12_415v_416r"/> 
+                 <pb
+                    n="416r" facs="AEN_EN_12_415v_416r"/> 
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>AEN, Registre des Trois-États, VIII, 7&#160;mai&#160;1733 (sans pagination).</p>
+               <p>Éd.&#160;<hi rend="italic">Recueil de pièces officielles</hi>, I,
+                     p.&#160;54-58.</p>
+               <p>Cité&#160;: Matile, <hi rend="italic">Plaits</hi>, p.&#160;97. Calame, <hi
+                        rend="italic">Droit privé</hi>, p.&#160;297 (donne le texte de
+                     l’article&#160;VI d’après <hi rend="italic">Recueil</hi>, I.)</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

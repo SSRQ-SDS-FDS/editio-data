@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-179.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 148</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 148</idno>
+					</msIdentifier>
+					<head xml:lang="de">David Lässer – Verhör</head>
+					<head xml:lang="fr">David Lässer – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1663-10-10"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1663-10-10">10<hi rend="sup">ten</hi> <foreign xml:lang="la">octobris</foreign> 1663</origDate></p>
+						<p><seg><lb/><persName ref="per018126a.01">Perret</persName><note>An Stelle des Grossweibels übernahm der Rathausammann <persName ref="per018126">Jost Perret</persName> den Vorsitz.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026102a.01">Python</persName>, <abbr>h</abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><persName ref="per026329a.01">Schrötter</persName>, <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><lb/><persName ref="per026787a.01">Davidt Läßer</persName> von <placeName ref="loc001402.06">Signauw</placeName>, <placeName ref="loc000464">Berner gebieths</placeName>, undt
+							<lb/><term ref="lem004506.10">waßenmeister</term> hinder <placeName ref="loc001265.04">Louppen</placeName> gesessen, dessen vatter,
+							<lb/>wie er <term ref="lem017883">fürgeben</term>, <persName ref="per026788a.01">Hannß Wyß</persName> soll geheißen haben.
+							<lb/>Wegen vilfältiger <term ref="lem017027.02">tröwungen</term>, die er hin und wider
+							<lb/>in abforderung syner nahrung<del>e</del> gethan, <term ref="lem002658.12">gefäncklich
+							<lb/>yngezogen</term> und über die <term ref="lem016288">inquisition</term> grichtlich exami<lb break="no"/>niert. So darüber yngenommen worden, hat der
+							<lb/><term ref="lem016288">inquistions</term> puncten nit wollen <term ref="lem016680.02">khandtlich</term> syn <subst><del>und</del><add place="above">alß</add></subst>
+							<lb/><subst><del>aber</del><add place="overwritten">allein</add></subst>, daß er mit synem mäßer uß unbedachter
+							<lb/>gewohnheit aller <term ref="lem004506.10">waßenmeisteren</term> zu stechen derglychen
+							<lb/>gethan und <term ref="lem017028.07">betröwt</term> hat. Will aber kheinen bösen willen
+							<lb/>vil weniger etwas tättlich <term ref="lem006556.01">understanden</term> haben.
+							<lb/>Pittet <add place="above" type="sign">darumb</add> ein gnädige oberkheit umb <term ref="lem004684.08">verzüchung</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

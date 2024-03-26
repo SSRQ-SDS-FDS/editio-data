@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-115-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2 fol.&#160;201r-202r</idno>
+               </msIdentifier>
+               <head>Ordonnance du gouverneur de Bonstetten approuvée par les Audiences générales et
+                  concernant notamment les aubergistes, la légitime des enfants, et leur capacité de
+                  s'engager</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1565-04-28"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_238">SDS NE 1, N<hi rend="sup">o</hi>&#160;115</ref></bibl>
+                     </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000129"></term>
+               <term ref="key000758"></term>
+               <term ref="key000997"></term>
+               <term ref="key000803"></term>
+               <term ref="key000815"></term> 
+                         </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="201r" facs="AEN_3PAST_2_200v_201r"/>
+               <div>
+                  <head>
+                     <lb/>Decretz passez es audiances generales <lb/>de l’an 1565
+                  </head> 
+                  <p><add place="left margin"><lb/>1565 28 apvril <lb/><choice>
+                           <abbr>aud</abbr>
+                           <expan>audit</expan>
+                        </choice> an</add> <lb/>Nous Jehan-Jacques de Bonstetten, escuyer, seigneur
+                     d’Urtinen, <lb/>lieutenant et gouverneur general au comté de Neufchastel, au nom
+                     et de la <lb/>part de très illustre et excellent prince et souverain seigneur,
+                     Monseigneur <lb/>Leonor d’Orléans, duc de Longueville et de Touteville, marquis
+                     de Rothelin, comte <lb/>souverain dudict Neufchastel <gap reason="missing"/>,
+                     se sont presentez plusieurs fois devant nous <lb/>et les gens de son conseil
+                     privé en cestuy son comté, les honnorables, prudens et sages <lb/>les quatre
+                     ministraulx de la ville de Neufchastel, tant au nom d’eux que du <lb/>conseil et
+                     communaulté de ladite ville, ensemble d’autres gens de bien
+                        et <lb/>d’honneur <add place="above">soict venus</add><note>Note Favarger
+                        1982&#160;: soict venus est ajouté dans le manuscrit. Les autres manuscrits
+                        l’omettent.</note> en plainte et doleance nous exposans et
+                     faisans <lb/>entendre <subst><del rend="strikethrough">comme en</del><add place="above"
+                        >que</add></subst> <lb/>plusieurs hosteleries et cabaretz, tant dedans ladite ville
+                     qu’en ce comté, se <lb/>commettent plusieurs dissolutions et desbauchemens des
+                     jeunes enfans, <lb/>tant en blasphemes, jeux, yvrogneries et gourmandises, en
+                     quoy nostre bon Dieu <lb/>est grandement offencé et nos circonvoisins
+                     scandalisez et sy nous ont donné <lb/>quatre articles lesquelz sont cy après
+                     mentionnez pour sur iceux vouloir adviser. <lb/>Ce que nous et les gens du
+                     conseil privé avons fait au plus près de ce que Dieu <lb/>nous a inspiré et sur
+                     iceux ordonné comme chose raisonnable et entretenement de <lb/>bon ordre, afin
+                     que Dieu ne soit ainsy offencé et le pays ruyné.</p>
+                  <p><add place="left margin"><lb/>Quatre poincts de decretz <lb/>passez es audiances. <lb/>1565&#160;20&#160;apvril <lb/><choice>
+                           <abbr>aud</abbr>
+                           <expan>audit</expan>
+                        </choice> an.</add> <add place="left margin"><lb/>Le premier que les hostes <lb/>ne
+                        vendront vin quand on <lb/>est au presche ny hors d’heure, etc.</add></p>
+                  <p><lb/>C’est assavoir que nous ordonnons par ce present nostre mandement sur
+                     le <lb/>premier article que s’il y a hoste ny hostesse quel qui soit qu’il n’ait
+                     a vendre vin <lb/>a mantil ny a soustenir personne dissolue et desbordée de
+                     blasphemes ny de <lb/>mesme soustenir aucuns jeux ny tirer aucun vin du temps
+                     que l’on est au sermon <lb/>ny feur d’heure sinon en cas de nécessité pour les
+                     estrangers et passans, <lb/>en faisant au contraire qu’en soyons advertiz,
+                     seront punis les delinquans selon <lb/>l’exigence du fait, grièvement pour estre
+                     exemple aux autres.</p>
+                  <p><lb/><add place="left margin">Le second comment les enfans <lb/>peuvent avoir et
+                        retirer <lb/>leur <term ref="lem015074">legitime</term><note>Note Favarger
+                           1982&#160;: On consultera à ce sujet, Favarger, <hi rend="italic">Régime
+                              matrimonial</hi>, p.&#160;70-72.</note>.</add></p>
+                  <p><lb/>Item quant au second article, nous ordonnons deffendons et prohibons
+                     pour <lb/>la maintenance des authoritez des peres, meres et services de leurs
+                     enfans, que <lb/>iceux enfans quelz qu’ilz soyent ne pouront ny debvront
+                     doresenavant prendre, <lb/>retirer et avoir leur <term ref="lem015074"
+                        >legitime</term> que par partage ou mariage, du bon vouloir
+                     et <lb/>consentement de leurs ditz peres, parens, tuteurs et advoyers et amis
+                     d’eux ayantz <lb/>charge. Ou bien sy le pere estoit cogneu sy divers que il ne
+                     voulust soufrir <lb/>son enfant mais le rejestat d’avec luy sans raison, alors
+                     sera approuvé le fait <lb/>par justice et pourveu comme par raison&#160;; comme
+                     de mesme sy un pere dissipoit <lb/>malheureusement son bien, que alors il puisse
+                     retirer sa legitime.</p>
+                  <pb n="201v" facs="AEN_3PAST_2_201v_202r"/>
+                  <p><add place="left margin"><lb/>Le tier que les hostes <lb/>n’ayent a soubtenir
+                        les <lb/>enfans estans soubs tutelle <lb/>en despence oultre dix <lb/>sols
+                        foibles, etc.</add></p>
+                  <p><lb/>Item sur le troisieme article, nous deffendons a tous hostes
+                     recepvoir <lb/>payement d’eux jusques a dix solz pour une fois, sans plus
+                     recommencer, le tout <lb/>sans fraud ny barat, sans le sceu, vouloir,
+                     consentement et congé de leurs peres, <lb/>meres, tuteurs et advoyers. Autrement
+                     sy par iceux leur est dehu davantage <lb/>que dix solz, nous voulons qu’iceux
+                     hostes n’ayent a repeter ny demander le <lb/>surplus qu’ilz leur auront
+                     chargé&#160;; et s’ilz le veulent faire, nous deffendons <lb/>a tous officiers,
+                     soyent chastelains, mayres ou leurs lieutenans, qu’ilz ne <lb/>leur ayent a
+                     donner aucungs biens ny administrer justice. Et de ce lesditz <lb/>hostes seront
+                     advertis pour ne prétendre excuse d’ignorance par cy après, <lb/>avec ce que sy
+                     lesditz enfans portoyent gages ne leur sera par lesditz hostes <lb/>rien chargé
+                     dessus, sans l’avoir premièrement fait entendre aux peres ou <lb/>meres, tuteurs
+                     ou bien aux parens d’iceux enfans ayans charge. Et s’ilz font <lb/>autrement,
+                     non seulement ilz seront tenus rendre lesditz gages sans avoir <lb/>aucun
+                     payement, mais davantage seront tenus estimez et punis
+                     comme <lb/>ressoteleurs.</p>
+                  <p><add place="left margin"><lb/>Le quart concerne les <lb/>emprunts que
+                        font <lb/>les dits enfans soubz tutelle.</add></p>
+                  <p><lb/>Item quant au quatriesme et dernier article des enfans qui
+                     empruntent <lb/>argent en derrière de leurs peres, tuteurs ou advoyers, nous
+                     ordonnons comme <lb/>dessus que ceux ou celles qui leur en presteront ainsy ne
+                     pourront aucunement <lb/>avoir accez en leurs biens pour y estre satisfaictz. Et
+                     pour ce faire, deffendons <lb/>aussy a tous chastelains, mayres, officiers
+                     qu’ilz ne leur ayent a administrer <lb/>justice. En advertissant ung chacun pour
+                     se scavoir conduire de mesme. Et <lb/>aussy les notayres de ce comté que ilz
+                     n’ayent a recepvoir obligez ny actes <lb/>quelconques des enfans estans soubz
+                     tutelle, soit de leurditz peres ou aultres <lb/>tuteurs et advoyers sans le sceu
+                     et consentement d’iceux peres et tuteurs.</p>
+                  <p><lb/>Lesquelz articles susditz, ordonnons, entendons et voulons qu’ilz
+                     soyent <lb/>publiez et lisuz publiquement au prosne afin que personne n’y
+                     pretende <lb/>aucunes excuses ny ignorances et se conduisent et guident au
+                     contenu. <lb/>Toutesfois que reservons en cecy d’y adjouster ou diminuer ainsy
+                     qu’il sera <lb/>veu par mondict seigneur en ces prochaines audiances afin d’y
+                     adviser, <lb/>adjouster ou diminuer ce qu’il verra par rayson estre a faire. Et
+                     ce temps <lb/>pendant, voulons qu’ilz soyent observez et gardez invyolablement
+                     soubz la <lb/>peyne d’estre punis selon l’exigence du faict. Passé le XXVIII<hi
+                        rend="sup">e</hi> d’apvril, <lb/>en presence de nous ledict gouverneur,
+                     Benoist Chambrier, Guillaume <lb/>Hory et Franceoys Clerc.</p>
+                     <pb n="202r"
+                        facs="AEN_3PAST_2_201v_202r"/>
+                  <p><add place="left margin"><lb/>Tous secretaires seront <lb/>privez de leur
+                        plume <lb/>s’ilz contreviennent a <lb/>ceste ordonnance.</add></p>
+                  <p><lb/>Messieurs les assistans de l’audiance generalle cy après nommez ayant
+                     au <lb/>long entendu les susditz quatre articles, disent, declairent et de ce
+                     font <lb/>decret que iceux doivent avoir lieu et sortir a leur effect
+                     entierement depuis <lb/>le jour susdict. Ainsy ordonné par Monsieur le
+                     gouverneur et les gens du conseil <lb/>susnommez et du jour de la publication
+                     d’iceux faite sans que personne y doibge <lb/>contrevenir. Aussy que les
+                     secretayres qui feront ou recepvront du <lb/>contraire seront privez de la plume
+                     et de son office de notayre reservant la <lb/>grâce de Monseigneur. <gap
+                        reason="missing"/><note>Note Favarger 1982&#160;: Suit la liste des juges
+                        aux Audiences.</note>
+                  </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;201-202.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;280v-282.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;52v-54.</p>
+                  <p>Registre des Trois-États, I, fol.&#160;70.</p>
+                  <p>AEN, P9, N<hi rend="sup">o</hi>20 (copie du XVI<hi rend="sup"
+                     >e</hi>&#160;siècle), p.&#160;19-24.</p>
+                  <p>Éd.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;18-21.</p>
+                  <p>Résumé&#160;: Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;138-139.</p>
+               </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

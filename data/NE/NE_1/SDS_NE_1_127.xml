@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-127-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-X23.3</idno> 
+               </msIdentifier>
+               <head>Confirmation et précision des franchises de la Côte et de la baronnie de Thielle par
+                  Marie de Bourbon</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.9"/>
+                              <width unit="cm" quantity="50.3"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/><!-- Masse nachtragen -->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="absent" ns0:attachment="slit"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1599-01-22"/>
+                     <origPlace ref="loc010601">Paris</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_300">SDS NE 1, N<hi rend="sup">o</hi>&#160;127</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000086"></term>
+               <term ref="key003389"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="AEN_AS_X23_3_r"/>               <div>
+                  <p>
+                     <gap reason="missing" unit="line" quantity="14"/> <hi rend="italic"
+                           ><supplied>Confirmation et précision des franchises de la Côte et de la
+                           baronnie de Thielle par Marie de Bourbon et stipulant entre autres
+                           que</supplied></hi><note>L'édition Favarger&#160;1982 résume ainsi (en italique) le début du
+                        texte et commence sa transcription à la l.&#160;14.</note>
+                     <choice>
+                        <abbr>nosd</abbr>
+                        <expan> nosdits</expan>
+                     </choice> bourgeois et subjetz <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdits</expan>
+                     </choice> quatre villaiges de la Coste et baronnie de Thielle ny leurs
+                     successeurs ne pourront prendre a l’advenir bourgeoisie ny combourgeoisie avec
+                     ville, prince, estet ou communauté que ce <del rend="strikethrough"
+                     >soit</del> <lb/>soit, sans l’auctorité, adveu et consentement par escrit de
+                     nous et de noz successeurs audit comté et que d’ores en avant ilz marcheront en
+                     guerre soubz la bannière et enseigne de nous et de noz successeurs audit comté.
+                        <gap reason="missing" unit="line" quantity="2"/> <supplied>La princesse déclare de plus
+                        avoir annulé</supplied><note>L'édition Favarger&#160;1982 résume ainsi les
+                           deux lignes précédentes.</note> l’octroy par nous ou noz predecesseurs concedé
+                     de la cage ou javyolle. Et ce pour le regard de nosditz bourgeois<lb/>resseantz
+                     dessus et dessoubz <choice>
+                        <abbr>nosd<hi rend="sup">s</hi></abbr>
+                        <expan>nostredite</expan>
+                     </choice> ville de Neufchastel seullement. </p>
+                  <pb n="v" facs="AEN_AS_X23_3_v"/>  
+               </div>
+            </body>
+            <back><div>
+               <p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin avec sceau pendant sur double queue, AEN, X&#160;23, N<hi
+                        rend="sup">o</hi>&#160;3.<note>En 2022, ce sceau et les queues ont
+                        disparu.</note></p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

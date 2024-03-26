@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.47-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 53r–53v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 53r–53v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Verhör und Urteil</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1683-08-02" to="1683-08-23"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="53r"/><p><lb/><placeName ref="loc008105.02">Käller</placeName>, den <origDate when="1683-08-02">2<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1683</origDate>
+							<seg><lb/><abbr>H</abbr> großweybel <persName ref="per027537a.01">Castella</persName> und der under zeichnete gricht<lb break="no"/>schryber</seg></p>
+						<p><lb/><persName ref="per027452a">Maria Ribotel</persName> de <placeName ref="loc008073">Matran</placeName> examinée et
+						<lb/>interrogée pourquoy elle at transgressé le se<lb break="no"/>rement formel quʼelle at presté à la sortie des
+						<lb/>prisons de <placeName ref="loc001060.04">Frybourg</placeName> en presence de <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le <term ref="lem014993.10">grand
+						<lb/>saultier</term>, du soubsigné et de lʼofficier <persName ref="per026562a.02">Lary</persName>,
+						<lb/>sur les condition quʼelle sʼabsenteroit à perpe<lb break="no"/>tuité des terres et dominations de Leurs Excel<lb break="no"/>lences mes sauverains seigneurs, desquelles
+							<lb/>terres elle et <term ref="lem019512.05">bannye</term> à perpetuité, le tout
+						<lb/>aux contenus de la sentence sauveraine du
+							<lb/><origDate when="1683-05-06">sixiesme may de la presente année</origDate><note>Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-204.45-1">SSRQ FR I/2/8 204.45-1</ref>.</note>, laquelle
+						<lb/>sentence la cominoit que si elle estoit dere<lb break="no"/>chef apperceues et attrappée, que son proces
+						<lb/>estoit faict&#160;; sur laquelle proposition ladite
+						<lb/><persName ref="per027452a">Maria Ribotel</persName> at respondus avec une face
+						<lb/>riante que ses habits luy sont esté bruslé <add place="bottom" type="catchword">à un</add>
+						<pb n="53v"/> <lb/><choice><sic>à un</sic><corr></corr></choice> village proche de <placeName ref="loc007646.04">Geneve</placeName>, et elle seroit
+						<lb/>venue en ce pays pour demander des habits à
+						<lb/>sa mere quʼest à <placeName ref="loc008073">Matran</placeName>, et aultre nʼat voulus
+						<lb/>dire. <foreign xml:lang="la">Actum ut supra</foreign>.</p>
+						<p><lb/><foreign xml:lang="la">Idem notarius</foreign><note>Il sʼagit de <persName ref="per026058">Jost Ignaz Progin</persName>.</note>.</p>
+						<p><lb/>Extract
+						<lb/>auß dem raths manual deß <origDate when="1683-08-23">23<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1683</origDate>.</p>
+						<p><lb/>Inligende</p>
+						<p><lb/><persName ref="per027452a">Maria Ribotel</persName> von <placeName ref="loc008073.04">Mattran</placeName>, ein übertretterin
+							<lb/>deß eydts, werde nochmahlen über den <placeName ref="loc009182">see</placeName><note>Gemeint ist der <placeName ref="loc009182">Neuenburgersee</placeName>.</note> ge<lb break="no"/>stoßen. Und wan sie widerumb zu <term ref="lem012975.02">betretten</term>, soll
+						<lb/>ihro <foreign xml:lang="la">de facto</foreign> daß läben abgesprochen sein. <foreign xml:lang="la">Actum
+						<lb/>ut supra</foreign>.</p>
+						<p><lb/><choice><abbr>Sig</abbr><expan>Signiert</expan></choice> cantzely <placeName ref="loc001060.02">Fryburg</placeName></p>
+						<add place="below"><p><lb/>Die obgemeldte <persName ref="per027452a">Maria Ribotel</persName> hatt nochmahlen
+							daß <term ref="lem001262.21">ur<lb break="no"/>pfedt</term> geleistet und den förmbcklichen eydt auff obgeschribne
+							ober<lb break="no"/>keitliche intention der obigen <term ref="lem001289.08">urthell</term> geschworren, in gä<lb break="no"/>genwarth
+							deß <abbr>h</abbr> großweybels<note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note>, deß
+							under zeichneten grichtschry<lb break="no"/>bers und deß weybels <persName ref="per026562a.03">Josten Larys</persName>.
+							<foreign xml:lang="la">Actum</foreign> den <origDate when="1683-08-23">23<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1683</origDate>.</p>
+							<p><lb/><persName ref="per026058a.03"><choice><abbr>Jus</abbr><expan>Jodocus</expan></choice> Progin</persName> <figure type="notarial sign"/></p></add>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

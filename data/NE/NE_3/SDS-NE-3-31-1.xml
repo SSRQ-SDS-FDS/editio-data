@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-31-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.14.001, fol. 371v</idno>
+     </msIdentifier>
+     <head>Gestion du patrimoine par les tuteurs</head>
+     <msContents>
+      <summary>Les tuteurs ne peuvent pas diminuer l’héritage qui revient à une veuve et aux
+       orphelins sans une décision de justice ou pour éponger les dettes des pupilles, sur l’avis
+       des proches. Ils doivent de plus en rendre des comptes.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="33"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1598-01-09" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term></term>
+     <term ref="key000410"></term>
+     <term ref="key000997"></term>
+     <term ref="key000311"></term>
+     <term ref="key000074"></term>
+     <term ref="key000058"></term>
+     <term ref="key000231"></term>
+     <term ref="key003331"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="371v" facs="AVN_B_101.14.001_0371v"/> 
+     <div><add place="left margin" hand="later hand"><lb/>Tuteurs et advoyers <lb/>ne peuvent desheriter.</add>
+      <head>
+       <lb/>Par autre declaration <lb/>rendue le <origDate when="1598-01-09" calendar="Julian">neufviesme jour de
+        janvier <lb/><hi rend="underline">1598</hi></origDate> à l’instance de discret <persName
+        ref="per010450">Abraham <lb/>Gallandre</persName> notaire enregistrée comme <lb/>dessus, sur
+       la demande faicte si tuteur <lb/>&amp; advoyer ne peuvent desheriter. </head></div>
+     <div>
+      <p>
+       <lb/>A esté declaré &amp; rapporté <choice>
+        <abbr>unaniment</abbr>
+        <expan>unanimement</expan>
+       </choice>, que la <lb/>coustume usitée de toute ancieneté jusqu’à <choice>
+        <abbr>pnt</abbr>
+        <expan>présent</expan>
+       </choice>
+       <lb/>en ceste Ville &amp; Comté de <placeName ref="loc007785">Neufchastel</placeName> pour
+       l’egard <lb/>de ce que dessus a esté et est encore tels&#160;; que <lb/>tuteurs advoyers ne
+       peuvent desheriter femmes <lb/>vefves ny enffans orphelins, et ne peuvent alliener <lb/>ny
+       laisser perdre le bien de vefves ny orphelins par <lb/>partage, <term ref="lem015546"
+        >vendition</term>, engagere, ou autrement <term ref="lem015876">fors</term>
+       <lb/>que par cognoissance de justice, par l’advis des <lb/>plus proches parens pour payer les
+       debtes des pupils, <lb/>et pour appliquer le tout à leur evident proffict, &amp; <lb/>la
+       charge d’en rendre bon &amp; fidelle compte en temps <lb/>&amp; lieu à qu’il
+        appartient.<note>Sans signature.</note>
+      </p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

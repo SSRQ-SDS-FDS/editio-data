@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.57-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 287–290</idno>
+     </msIdentifier>
+     <head>Execution des sentences</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000683"/>
+     <term ref="key005823"></term>
+     <term ref="key005189"></term>
+     <term ref="key000065"></term>
+     <term ref="key005130"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="287" facs="AEN_MJ_17_286_287"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> LVII. <lb/>De l’execution <lb/>des sentences</head>
+      <p>
+       <lb/><app>
+        <lem>Les sentences, s’il n’en</lem>
+        <rdg wit="AVN Q41, p. 95">S’il ne</rdg>
+       </app>
+       <lb/><term ref="lem014925.02">gist</term> appellation <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 95">des <lb/>sentences</rdg>
+       </app> doibvent estre executées <lb/>par l’officier du lieu ou elle a esté rendue <lb/><add
+        place="below" type="catchword">sy</add>
+       <pb n="288" facs="AEN_MJ_17_288_289"/><lb/>sy la personne ou les biens du condanné <lb/>y sont<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 95">&#160;: sinon</rdg>
+       </app> tel autre officier soubs la <lb/>charge et jurisdiction duquel ils seront <lb/>trouvez doit execution de sentence <lb/><app>
+        <lem>en estant</lem>
+        <rdg wit="AVN Q41, p. 95">toutes<lb break="no"/>fois et quantes, qu’ils en seront</rdg>
+       </app> requis et supplié par <lb/>la partie.</p>
+      <p><app>
+        <lem><lb/>Les sentences d’estat se doibvent <lb/>aussy executer par les officiers <lb/>ou elles s’adressent, sans admettre <lb/>opposition quelconque.</lem>
+        <rdg wit="AVN Q41, p. 95"/>
+       </app></p>
+      <p>
+       <lb/>Toute sentence de diffinitive <lb/>se doit poursuivre &amp; estre <lb/>mise en execution, dans l’<date dur-iso="P1Y6W"><term ref="lem014776"
+        >an <lb/>et jour</term></date>, autrement les oppositions <lb/>sont reçeues. <lb/><add
+        place="below" type="catchword">Aussy</add>
+      </p>
+      <pb n="289" facs="AEN_MJ_17_288_289"/>
+      <p>
+       <lb/>Aussy ne doit on precipiter <lb/>le condanné par une execution <lb/>trop briefve, &amp; peut pour le moins <lb/>avoir <date dur-iso="P8D">huict jours</date> de relasche.</p>
+      <p>
+       <lb/>Sy celuy contre lequel l’execution <lb/>se fait est condamné en matiere <lb/>personnelle, l’officier tient main a <lb/>l’<term
+        ref="lem017865.02">impetrant</term> que sans opposition ny <lb/>autre <term
+        ref="lem017879.02">dilay</term> ou longueur il soit <lb/>payé &amp; contenté ou fait <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 95">incontinent</rdg>
+       </app> jouyssant <lb/><app>
+        <lem>incontinent</lem>
+        <rdg wit="AVN Q41, p. 95"/>
+       </app> de ce que luy a esté <lb/>adjugé, sinon fait briefvement <lb/><term ref="lem014995.06"
+        >taxer</term> des biens du condamné au choix <lb/>de l’<term ref="lem017865.02"
+        >impetrant</term>, <app>
+        <lem>jusques</lem>
+        <rdg wit="AVN Q41, p. 95"/>
+       </app> a entier <lb/>payement a forme de la coustume <lb/>du pays sans autre formalité.</p>
+      <p>
+       <lb/>Et sy c’est en matiere reelle, l’officier met <lb/><add place="below" type="catchword"
+        >ou</add>
+       <pb n="290" facs="AEN_MJ_17_290_291"/><lb/>ou maintient l’<term ref="lem017865.02"
+        >impetrant</term> en reelle<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 95">, et</rdg>
+       </app>
+       <lb/>actuelle possession de la chose de laquelle <lb/>le condanné est descheu, sans aussy <lb/>admettre aucune opposition.</p>
+      <p>
+       <lb/>L’execution se fait tousjour contre <lb/>le principal condamné, sy ce n’est <lb/>a deffaut de moyens qu’elle se faict <lb/>contre la <term
+        ref="lem017936">fiance</term>.</p>
+      <p>
+       <lb/>Les officiers sont aussy tenuz <lb/>faire valloir &amp; executer les sentences <lb/>des arbitres. <term
+        ref="lem017828">Item</term>
+       <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 95">aussi</rdg>
+       </app> celles des <lb/>arbitrateurs, quand elles ont <lb/>esté acceptées, par les parties.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

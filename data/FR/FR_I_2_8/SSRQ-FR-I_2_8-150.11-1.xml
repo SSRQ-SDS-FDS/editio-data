@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-150.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 180–181</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 180–181</idno>
+					</msIdentifier>
+					<head xml:lang="de">Françoise Clerc-Ayer – Verhör und Urteil</head>
+					<head xml:lang="fr">Françoise Clerc-Ayer – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1650-11-22" to="1650-12-03"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="180"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1650-11-22">22<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1650</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.05">von Montenach</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009264a.04">Jost Amman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per011532a.04">Brinißholtz</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018141a.01">Burgki</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><lb/><persName ref="per020256a.01">Françoise Ahier<!--on lit à hier!!--></persName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict sans <term ref="lem019428.02">tourture</term>
+							<lb/>examinée, ne veut estre <term ref="lem015549.04">confessante</term> d’avoier esté
+							<lb/><add place="left margin">plus</add> à la <term ref="lem017043">secte</term> qu’une seule fois il ast <date dur-iso="P2Y">deux ans</date>,
+							<lb/>ou elle ne recogneut qu’une du costé de <placeName ref="loc007610">Payerne</placeName>,
+							<lb/>sans sçavoier qu’elle c’estoit, et une aultre de
+							<lb/><placeName ref="loc008141.06">Visternens</placeName>, femme<note>Gemeint ist möglicherweise <persName ref="per020266">Marie Farconet-Dulin</persName>.</note> d’un nommé <persName ref="per020269a.02">Farquonet</persName>, allemande
+							<lb/>ains qu’un l’a dit, demourant un peu plus hault de
+							<lb/>la maison dez <term ref="lem015041.01">religieux</term> d’<orgName ref="org004802.06">Haulterive</orgName>, la quelle
+							<lb/>elle recogneut tres bien à la <term ref="lem017043">secte</term>, ou il avoit
+							<lb/>plusieurz aultres, qu’elle ne peut recognaistre,
+						<pb n="181"/><lb/>ayant tous le visage bouchéz dez mouchoir noir.
+							<seg><lb/>Dit n’avoier esté que <date dur-iso="P6W">6 septmaines</date> en la puissance
+							<lb/>du <term ref="lem015433.10">maling</term>, l’ayant ossitout le repentir saissie, elle
+								<lb/>fist entiere <term ref="lem019466.01">confession</term>, du quel tempz le <term ref="lem017521">diable</term>
+							<lb/>ne luy apparut davantage. S’estant aussi pour lors
+								<lb/>faict <subst><del>e</del><add place="overwritten">i</add></subst>nscrire à la <orgName ref="org001675.07">confrerie du <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> Nom de <persName>Jesus</persName></orgName>
+							<lb/>et ne veut avoier receu du <term ref="lem015433.10">maling</term> q’une seule fois
+								<lb/>de la <term ref="lem018382.02">graise</term>, avec la quelle elle <term ref="lem018313.06">inficiat</term> une siene
+							<lb/><term ref="lem018922.02">jumment</term>, que partant n’en mourut, ains la vendirent
+							<lb/>à <placeName ref="loc007610">Payerne</placeName> pour <measure type="currency" quantity="25" unit="k">25 </measure>.</seg> <seg>Finalement elle confirme
+							<lb/>le reste de ce qu’elle avoit hier dit et ast demandé
+							<lb/>à Dieux et Leurs <choice><abbr>Exelle</abbr><expan>Exellences</expan></choice> humblement pardon.</seg></p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1649-12-03">3<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>decemb</abbr><expan>decembris</expan></choice></foreign>
+							<lb/>1650</origDate> uff der <term ref="lem019163.02">stoß<lb break="no"/>leytter</term> gebunden,
+							<lb/><term ref="lem017539">stranguliert</term> und
+							<lb/>volgendt in das <term ref="lem012936.07">feüwr</term>
+							<lb/>gestürtzt worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 180.</note></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

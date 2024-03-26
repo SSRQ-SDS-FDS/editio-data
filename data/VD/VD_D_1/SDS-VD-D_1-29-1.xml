@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2020"/>
+                <date type="print" when="2020"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/>
+                </respStmt>
+                <idno>SDS-VD-D_1-29-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;456–458</idno>
+                    </msIdentifier>
+                    <head>Mandement de l’official de l’évêque de Lausanne au juge temporel du Chapitre concernant le procès de Jaquemod Forney</head>
+                    <msContents>
+                        <summary>
+                            <p>L’official de l’évêque de Lausanne, à la requête des chanoines François des Vernets et Urbain Flory, ordonne au juge temporel du Chapitre cathédrale de Lausanne Jean Costable de ne plus agir en justice, selon la clame du prud’homme Claude Jaquet, contre Jaquemod Forney de Renges à propos d’un différend portant sur une partie de maison. Le mandement, daté du 1er décembre 1525, offre un délai de dix jours sous peine d’excommunication en cas de désobéissance, et convoque le juge et le prud’homme à comparaitre devant la cour de l’official le sixième jour après l’issue du mandement pour présenter ses allégations. Le lendemain, le 2 décembre 1525, le notaire juré de la cour de l’officialité communique le mandement aux destinataires.</p>
+                        </summary>
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1525-12-01" to="1525-12-02"/>
+                            <origPlace ref="loc007885.01">Lausanne</origPlace>                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;9</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref>, p.&#160;23–24, 30–33</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/> 
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="456" facs="ACV_AC-29_456_457"/>
+                        <p><seg><lb/>Officialis curie <orgName ref="org001749.04">Lausannensis</orgName> universis et singulis <term ref="lem017169.01">curatis</term>, <term ref="lem000013.01">vicariis</term>, <term ref="lem009160.01">clericis</term>, <term ref="lem001992.01">notariis</term> et
+                                        <lb/><term ref="lem018973.01">tabellionibus</term> publicis quibuscumque curieque nostre juratis super exequutione presentium
+                                        <lb/>requirendis, salutem in Domino.</seg>
+                            <seg>Nobis pro parte venerandorum dominorum <persName ref="per023271a.01">Francisci de
+                                        <lb/>Vernetis</persName> et <persName ref="per016716a.01">Urbani Flory</persName> <term ref="lem006983.01">canonicorum</term> <orgName ref="org004033.03">Lausanne</orgName> expositum extitit
+                                        <lb/>verum esse quod <persName ref="per016715a.01">Jaquemodus Forney</persName> de <placeName ref="loc011993.02">Rengerenge</placeName> fuit tractus in causam
+                                        <lb/>coram nobili viro <persName ref="per016546a.05">Johanne Costabilis</persName>, judice temporali venerabilis capituli
+                                        <lb/>ecclesie cathedralis <placeName ref="loc005781.04">Beate Marie virginis Lausannensis</placeName>, ad instanciam honesti
+                                        <lb/>viri <persName ref="per023281a.01">Glaudii Jaquet</persName> predicti loci de <placeName ref="loc011993.02">Rengerenge</placeName>, coram quoquidem nobili
+                                        <lb/>judice suam talem qualem formavit peticionem citra tamen illius approbationem
+                                        <lb/>occasione cuiusdam partis domus&#160;; de quaquidem vero peticione ipse <persName ref="per016715a.01">Jaquemodus
+                                        <lb/>Forney</persName> allegavit in querentes predictos dominos <persName ref="per023271a.01">Franciscum de Vernetis</persName>
+                                        <lb/>et <persName ref="per016716a.01">Urbanum Flory</persName>, quiquidem dominus <persName ref="per023271a.01">Franciscus</persName> et <persName ref="per016716a.01">Urbanus</persName> onus huiusmodi
+                                        <lb/>querentie in se assumere intendunt. Supplicatum nobis propterea
+                                        <lb/>pro parte predictorum dominorum <persName ref="per023271a.01">Francisci de Vernetis</persName> et <persName ref="per016716a.01">Urbani Flory</persName> exponi
+                                        <lb/>qua<damage agent="ink blot"><supplied>the</supplied></damage>nus sibi super premissis de opportuno remedio providere dignaremur,
+                                        <lb/>officium nostrum humiliter implorando. Cui supplicatione ut consone rationi
+                                        <lb/>annuentes attendentesque quod juste supplicantibus non est denegandus assensus,
+                                        <lb/>igitur nos officialis prefatus vobis quibus supra expresse precipiendo mandamus
+                                        <lb/>quathenus auctoritate nostra moneatis canonice et competenter predictum
+                                        <lb/><persName ref="per023281a.01">Glaudium Jaquet</persName> ex adverso principalem instantem nobilem virum <persName ref="per016546a.05">Johannem
+                                        <lb/>Costabilis</persName> judicem temporalem predicti venerabilis capituli, quos tenore
+                                        <lb/>presentium sic monemus, ut ipsi infra decem dies proximos post exequutionem
+                                        <lb/>presentium immediate sequentes a predictis clama, assignatione, peticione, instancia, 
+                                        <lb/>turbacione, molestacione, inquietacione, impedimentis et ulteriori prosequutione 
+                                        <lb/>se penitus et omnino desistant, alioquim ipsos monitos quos nos lapso
+                                <pb n="457" facs="ACV_AC-29_456_457"/><lb/>dicto termino, pro eorum contemptu et inhobedientia, ad instantem predictorum
+                                        <lb/>dominorum <persName ref="per023271a.01">Francisci de Vernetis</persName> et <persName ref="per016716a.01">Urbani Flory</persName> supplicantium, exc<supplied>omunicamus</supplied>
+                                        <lb/>in hiis scriptis <term ref="lem018974.02">excomonicatosque</term> publice nuncietis, nisi causam justam
+                                         <lb/>et rationi consonam, quare premissa sic fieri non debeant, allegare
+                                        <lb/>voluerint. Ad quam allegandam citetis ipsos perhemptorie coram nobis <orgName ref="org001749.06">Lausanne</orgName>
+                                         <lb/>ad diem sextam post exequutionem presentium immediate sequentem <time period="morning">hora
+                                         <lb/>prime</time> quasi <abbr>etc</abbr>., dictam causam dicturos et allegaturos, inhibentes
+                                         <lb/>eisdem monitis, quibus et nos tenore presentium inhibemus sub excomunicacionis
+                                         <lb/>et aliis juris penis, ne pendente hac monicione et causa super eadem
+                                         <lb/>aliquid novi directe vel indirecte quovis quesito colore attemptent,
+                                        <lb/>faciant vel innovent in prejudicium predictorum dominorum <persName ref="per023271a.01">Francisci</persName> et
+                                        <lb/><persName ref="per016716a.01">Urbani</persName> atque <persName ref="per016715a.01">Jaquemodi Forney</persName>. Quod si secus factum fuerit,
+                                         <lb/>nos id totum revocabimus et in pristinum curabimus redducere
+                                         <lb/>statum justicia mediante. Cum intimacione eisdem fienda quod
+                                         <lb/>sive venerint sive non, nos in premissis et circa ea procedemus juris via.</seg>
+                             <seg><lb/><origDate when="1525-12-01" period="P6WD" type="holiday">Datum <origPlace ref="loc007885.11">Lausanne</origPlace> die veneris post festum Sancti <persName ref="per000303a.10">Andree</persName> appostoli
+                                        <lb/>prima mensis decembris anno Domini millesimo quingentesimo
+                                        <lb/>vigesimo quinto</origDate>.</seg></p> 
+                        <pb n="458" facs="ACV_AC-29_458_459"/>
+                        <p><seg><lb/>Cum debitis honore et reverentia receptum est mandatum, cuius copia retro scripta <supplied reason="omitted">est</supplied> per me notario et <supplied>scriptoris jurati <unclear>honorabilis</unclear> officialis</supplied><note>Une partie de ce passage apparaît dans la page 455, qui a servi de page de garde du procès <persName ref="per016599a">Jean Massot</persName>.</note>
+                                        <lb/><orgName ref="org001749.04">Lausannensis</orgName> subsignatis, et inde exequutum contra et adversus <del rend="strikethrough">no</del> <persName ref="per023281a.01">Claudium Jaquet</persName> <del rend="strikethrough">retrono[minatis]</del><supplied>pronominatis</supplied> <damage agent="overbinding"><supplied>et <gap/> nobilem</supplied></damage> <persName ref="per016546a.05">Johannem
+                                        <lb/>Costabilis <unclear><abbr>seniorem</abbr></unclear></persName> judicem venerabilis capituli <orgName ref="org004033.02">Lausannensis</orgName> temporalem, ipsis citando, monendo eisdemque in<supplied>hibendo</supplied><damage agent="overbinding"> <supplied><gap/> et <gap/>endo</supplied></damage>
+                                        <lb/>pro ut in eisdem litteris mandatur ac juxta earumdem vim, formam, continentiam et tenorem, nichil <damage agent="overbinding"><supplied>de contingentibus in eisdem</supplied></damage>
+                                        <lb/>obmittendo.</seg>
+                            <seg><date when="1525-12-02" period="P7WD">Datum <origPlace ref="loc007885.11">Lausanne</origPlace> die sabbati <damage agent="ink blot">secunda</damage> mensis decembris anno quo retro</date>.</seg>
+                        </p>         
+                                        <p><seg><signed><figure type="notarial sign"/></signed></seg></p>
+                    </div>
+                </body> 
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Ce document occupe les pages 455 à 458 du registre Ac 29 des ACV. Il s’agit d’une grande feuille pliée en deux. Les pages 456 et 457 constituent le recto du folio sur lequel est rédigé le mandement&#160;; les pages 455 et 458 forment le dos du folio, dans lequel se trouve l’attestation du notaire, authentifiée à l’aide de son signet.</p>
+                <p>Une partie du dos de ce document plié en deux est aussi utilisée comme page de garde du cahier du procès Jean Massot, qui s’est déroulé en juin 1525 (<bibl><ref target="urn:ssrq:SDS-VD-D_1-28-1">SDS VD D 1 28-1</ref>&#160;: ACV, Ac 29, p.&#160;459–468</bibl>). Cela explique la présence de cette pièce sans rapport avec la sorcellerie dans le registre Ac 29, et nous indique aussi la possible provenance du reste des procès de 1525 conservés dans ce registre, issus probablement des archives épiscopales de Lausanne.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

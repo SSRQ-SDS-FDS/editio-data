@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-117.10-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 109–111</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 109–111</idno>
+					</msIdentifier>
+					<head xml:lang="de">Apollonia Pfyffer-Sumi – Verhör und Urteil</head>
+					<head xml:lang="fr">Apollonia Pfyffer-Sumi – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1644-10-05" to="1644-10-08"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="109"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-10-05">5 <foreign xml:lang="la"><choice><abbr>octob</abbr><expan>octobris</expan></choice></foreign> 1644</origDate>, <persName ref="per013730a.01">Wulling</persName>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName>Python</persName><note>Gemeint ist entweder <persName ref="per012381">Hans Ulrich Python</persName> oder <persName ref="per012380">Jost Python</persName>.</note></seg>
+							<seg><lb/><persName ref="per013434a.02">Degranges</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per015965b">Apollonia Sumi</persName>, nachdem sie anfäncklich in ihrer
+						<lb/>gestrigen <term ref="lem016794.09">bekhandtnus</term> lang variert, hatt <del>sie</del> doch
+							<lb/>letstlich die selbe gäntzlich bestättiget unnd <term ref="lem011468.03">bekhendt</term>,
+						<lb/>es syend ohngefahrlich <date dur-iso="P15Y">15 jahr</date> in der zytt, wie herr
+						<lb/><persName>Odet</persName> <term ref="lem000266">landtvogt</term> zu <placeName ref="loc008049.03">Corbers</placeName> gsyn, daß ihren der
+						<lb/><term ref="lem014673.16">böße feind</term> in gestalt einer frauwen erschinnen.
+						<lb/>Derselbig habe sie in ihrem huß, alß sie wegen
+						<lb/>ihrer tochter sehr bekhümmeret war, dahin gebracht,
+							<lb/>daß sie gott, den allmächtigen, <term ref="lem016063.05">verlaugnet</term> unnd
+							<lb/>sich dem <term ref="lem014673.16">bößen feind</term>, der sich <persName ref="per029443a">Katza</persName> genendt, er<lb break="no"/>geben, ihme <term ref="lem000374.01">gehuldiget</term> unnd ihne, mit respect
+						<lb/>zu melden, hinden geküßt habe.</seg> <seg>Demnach habe
+						<lb/>er sie uff dem kopff <term ref="lem016598">gezeichnet</term>. Anfäncklich
+						<lb/>sye das <term ref="lem017060">zeichen</term> heiß gsyn wie <term ref="lem003365.10">füwr</term>, hernach aber
+						<lb/>gar kalt, auch alß wan sie vill <term ref="lem017917.02">lüß</term> daran hätte.</seg>
+						<seg><lb/>Sie habe von dem <term ref="lem014673.16">bößen feind</term> <term ref="lem004736.03">wurtzen</term> unnd krütter
+						<lb/>empfangen, darmit ein <term ref="lem011432.02">salb</term> zu machen, ihren schaden,
+						<lb/>den sie in der hand hatte, zu vertryben. Unnd was
+						<lb/>sie also mit der angesalbeten hand angerürt, hatt
+						<lb/>sie geschädiget. In der <term ref="lem016055">gestalt</term> habe sie <persName>Barbli
+							<lb/>Moßers</persName> <term ref="lem000130.11">khindt</term> angerürt, daß es darab <term ref="lem018819">verdorret</term>.</seg>
+						<seg><lb/>Der <term ref="lem007321.02">tüffel</term> habe ihren gesagt, wan sie schon mit
+						<lb/>ihrer hand niemand anrüren wolte, solle sie ihm doch
+						<lb/>nur den willen darin geben. Er wölle alßdan die
+						<lb/>sach woll verrichten. Er habe ihren die <term ref="lem000668">unzucht</term> nieh
+						<lb/><term ref="lem009591.04">angemuttet</term>. Sie sye auch nieh in der <term ref="lem017042.03">sect</term> gsyn, unnd
+						<lb/>wisse von kheiner anderen <term ref="lem006693.02">hex</term>.</seg> <seg>Dem <persName>Michel Türler</persName>
+						<lb/><add place="left margin"><placeName ref="loc008380">Im Fang</placeName></add> habe sie machen ein <term ref="lem001076.42">khu</term> zu <term ref="lem005335">verderben</term>. Des <persName>Anthi
+						<lb/>Bluttis</persName> <term ref="lem001076.04">khüe</term>, alß sie ihm dieselbe helffen <term ref="lem005621.02">tryben</term>, habe
+						<lb/>sie mit einer <term ref="lem000805.10">rutten</term> geschlagen, darab sie die <term ref="lem002272">milch</term> ver<lb break="no"/><pb n="110"/>loren.</seg> <seg>Dem <persName>Michel Julmi</persName> habe sie in das ohr
+						<lb/><term ref="lem017918.02">gerunet</term>, darab er syn kranckheit bekhommen.
+							<lb/>Desselben <term ref="lem000130.11">khindt</term> habe sie auch ein <term ref="lem016886.05">röckli</term> gemacht,
+						<lb/>darin sie den namen des <term ref="lem007321.02">tüffels</term> gethan. Unnd
+						<lb/>wie sie es ihm <term ref="lem017919">angelegt</term>, gesprochen: <q>Legs an in des
+						<lb/><term ref="lem007321.02">tüffels</term> namen</q>, darab es <term ref="lem002432">kranck</term> worden.</seg> <seg><persName>Hanßen
+						<lb/>Bugnets</persName> <term ref="lem001076.04">khüe</term> habe sie in einer matten mit wyssen
+							<lb/>blumen, so ihren ihr <term ref="lem017929.02">maister</term> gegeben, geschlagen unnd
+						<lb/>ihnen die kranckheit angethan.</seg> <seg>Dem <persName>Michel Barret</persName>
+						<lb/>habe sie machen ein <term ref="lem001076.42">khu</term> zu <term ref="lem005334.02">verdärben</term>. Unnd ein
+						<lb/>ander mahl, wie sie zu ihm kommen, habe sie gethan, alß
+						<lb/>wölte sie ihm ein floh uff dem <term ref="lem017920.02">buch</term> nemmen, dardurch
+						<lb/>sie ihm syn kranckheit angethan.</seg> <seg>Sie sye auch zu einer
+						<lb/><term ref="lem003505">hebamen</term> gebrucht worden unnd habe sie ein mahl ein
+							<lb/><term ref="lem000130.11">khindt</term>, so gar kranck war, selbs getaufft. In der
+						<lb/>form aber, wie sie es <term ref="lem003507">getaufft</term>, hatt sie variert.
+						<lb/>Dan erstlich hatt sie gesagt, sie habe es also getaufft:
+						<lb/><q>Christ, ich tauffe dich in namen gottes vatters, sohns,
+						<lb/>unnd heiligen geists. Amen.</q> Hernach aber hatt sie
+						<lb/>gesagt, sie habe es also getaufft: <q>Christ, ich tauffe
+							<lb/>dich innamen gottes vatters, des geists unnd dry<lb break="no"/>faltigkheit.</q></seg> <seg>Wytters hatt sie <term ref="lem011468.03">bekhendt</term>, daß sie in
+						<lb/>der suppen, die ihren die wirthin im hoff angericht,
+						<lb/>gwisses <term ref="lem011439.05">pulfer</term> wie <term ref="lem004519.03">äschen</term>, so ihren der <term ref="lem007321.02">tüffel</term> gegeben,
+								<lb/>gethan habe. Mehrers hatt sie <term ref="lem011468.03">bekhendt</term>, daß sie
+								<lb/>etlichen <term ref="lem000075.45">lüthen</term> <subst><del>d</del><add place="overwritten">m</add></subst>it brott, so sie ihnen zu essen geben,
+						<lb/>kranckheiten angethan habe. Sie habe auch der
+						<lb/><persName>Christini</persName>, des <persName>Bochars</persName> frauwen, in einem stuck brott
+						<lb/>wöllen ein <term ref="lem007321.02">tüffel</term> yngeben. Wylen sie aber gnad von
+						<lb/>gott gehabt, habe sie den <term ref="lem007321.02">tüffel</term> nit yngenommen.</seg>
+						<seg><lb/>Dem <persName>Hanßen Grotschi</persName> habe sie synem hengst, den er
+						<lb/>zum <term ref="lem018850">gestüet</term> gebrucht, die krafft unnd stärcke be<lb break="no"/>nommen.</seg> <seg>Der <term ref="lem007321.02">tüffel</term> sye ihren hinden an der zungen unnd
+							<lb/>allenthalben gsyn, daß sie nichts <term ref="lem011468.04">bekhennen</term> mögen.
+							<lb/>Sie habe ihn in der <term ref="lem013000.01">tortur</term> nebent ihren gesehen gantz
+						<pb n="111"/><lb/>grün, der ihren gesagt, er wölle ihren woll darvon
+						<lb/>helffen. Unnd wie man sie fangen wöllen, sye er auch
+						<lb/>zu ihren kommen unnd habe es ihren <term ref="lem016814">vermeldt</term>, daß man
+							<lb/>sie fangen werde. Sie solle aber nit <term ref="lem011468.04">bekhennen</term>, sonst
+							<lb/>wurde man sie <term ref="lem011474.01">verbrennen</term>. Sie wisse nit, wie man
+						<lb/>den <term ref="lem007321.02">tüffel</term> vertryben möchte, daß er die personen
+							<lb/>nit verhinderen möchte, die warheit zu <term ref="lem011468.04">bekhennen</term>.
+						<lb/>Es wäre dan, daß man gott betten wurde, den
+						<lb/><term ref="lem007321.02">tüffel</term> von der person zu bringen. Er sye ihren
+						<lb/>auch in gestalt einer <term>glüß</term><note>Die Bedeutung dieses Begriffs bleibt unklar.</note> erschinnen unnd habe
+						<lb/>sie etlich mahlen geschlagen. Bittet umb <term ref="lem004684.08">verzüchung</term>.<note>Le passage qui suit
+							concerne le procès mené contre <persName ref="per015753">Jenon Bodin-Monde</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-109.44-1">SSRQ FR I/2/8 109.44-1</ref>.</note></seg></p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1644-10-08">8<hi rend="sup">ten</hi> <choice><abbr>octob</abbr><expan>october</expan></choice>
+						<lb/>1644</origDate> zum <term ref="lem012936.03">füwr</term>
+						<lb/>verurtheilt, aber
+						<lb/>uß gnad zuvor
+						<lb/><term ref="lem017539">stranguliert</term>
+						<lb/>werden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

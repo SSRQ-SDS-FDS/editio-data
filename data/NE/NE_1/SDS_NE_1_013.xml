@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-13-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives du Landeron</repository>
+                  <idno xml:lang="fr">Archives du Landeron, A 12</idno>
+               </msIdentifier>
+               <head>Cession du droit de percevoir l'ohmgeld aux bourgeois et aux habitants du
+                  <placeName ref="loc007792">Landeron</placeName> par le comte <persName ref="per036715">Louis de Neuchâtel</persName> contre un prêt de sept cent quarante
+                  florins pour la délivrance de <persName ref="per036888">Jean de Neuchâtel</persName>, son fils</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="30"/>
+                              <width unit="cm" quantity="42"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/><!-- Mass fehlt -->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round" ></seal>
+                     <seal n="2" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="oval"></seal>
+                     <seal n="3" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="fragmentary" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round" ></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1369-09-01"/>
+                     <origPlace></origPlace><!-- s.l. -->
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_59">SDS
+                           NE 1, N<hi rend="sup">o</hi>&#160;13</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000086"></term>
+               <term ref="key004415"></term>
+               <term ref="key000510"></term>
+                        </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="LANDERON_A_12_r"/>
+               <div> 
+                  <p>
+                     <gap reason="missing"/><note>Favarger&#160;1982 n'a pas fourni de transcription. Nous fournissons
+                        cependant le facsimilé correspondant.</note>
+                     </p>
+               </div>
+               <pb n="1v" facs="LANDERON_A_12_v"/>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin avec trois sceaux pendant sur double queue, <hi
+                        rend="italic">Archives du Landeron</hi>, A&#160;1, N<hi rend="sup"
+                     >o</hi>&#160;12.</p>
+               <p><hi rend="italic">Éd.&#160;</hi>Matile, <hi rend="italic">Monuments</hi>, III.
+                     666, p.&#160;908-909.</p><p><hi rend="italic">Cité</hi>&#160;: Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;352.</p>
+                  <p>Jean le Bel, fils unique de Louis de Neuchâtel, avait été capturé le 25 mars
+                     1365 par le duc de Bourgogne et emprisonné au château de Semur-en-Auxois où il
+                     mourut le 10 septembre 1369. Il était né le 13 décembre 1334, cf.&#160;Eddy
+                     Bauer, «&#160;La captivité de Jean de Neuchâtel à Semur-en-Auxois&#160;», dans
+                        <hi rend="italic">MN</hi>, 1932, p.&#160;53-60.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

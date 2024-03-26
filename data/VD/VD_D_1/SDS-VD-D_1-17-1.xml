@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2019"/>
+                <date type="print" when="1996"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS-VD-D_1-17-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;301–312</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre Jean Poesiouz, de Clarens</head>
+                    <msContents>
+                        <summary>
+                            <p>Jean Poesiouz, de Clarens, comparait le 17 avril 1480 devant le vice-inquisiteur et représentant de l’évêque de Lausanne Jean Blanchet, au château de Châtelard. Il reconnait s’être confessé auparavant du crime d’hérésie à l’instigation de son père et avoir reçu une lettre d’absolution, mais il avoue avoir participé à nouveau à des rassemblements hérétiques après les guerres de Bourgogne (1475–1476)&#160;; il dénonce huit personnes comme complices (7 hommes et une femme). Le 18 avril, l’inculpé se rétracte devant le vice-inquisiteur, qui ordonne alors de reprendre l’instruction le lendemain avec la troisième monition&#160;; mais ce même jour l’inculpé finit par ratifier et compléter ses aveux, tout en dénonçant huit autres personnes (6 hommes et 2 femmes). Le 19 avril Jean confirme à nouveau tous ses aveux. Il mentionne au total 16 complices (13 hommes et 3 femmes).</p>
+                        </summary> 
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1480-04-17" to="1480-04-19"/>
+                            <origPlace ref="loc011133.01">Château du Châtelard</origPlace>                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;201–221</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001201449603977">Reymond 1908</ref>, p.&#160;3, 8</bibl>
+                            <bibl><ref>Kieckhefer 1976</ref>, p.&#160;139</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;152, 162, 290, 292, 293</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;59–70, 107–108</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647203977">Utz Tremp 2005c</ref>, p.&#160;358</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000122674">Modestin/Ostorero 2008</ref>, p.&#160;357–358</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref><!--, p.&#160;21, 23, 25–26, 28, 347, 402, 407–408, 431, 466, 514--></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000055619">Ostorero 2010</ref>, p.&#160;21</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001208849503977">Pittet  2010</ref>, p.&#160;205, 217</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000122355chbsg000122355">Ostorero et al. 2011</ref>, p.&#160;77–78</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001220742103977">Ostorero 2013a</ref>, p.&#160;311</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="301" facs="ACV_AC-29_300_301"/>
+                        <head><hi rend="center">Processus <persName ref="per015861a.01">Johannis Poesiouz</persName> de <placeName ref="loc008474.03">Clarens</placeName></hi></head>
+                       <p><seg><lb/> Reperta <lb/>sunt accusatorum <lb/>nomina</seg></p>
+                        <p><seg><lb/>Reperta sunt nomina <lb/>accusatorum</seg></p>
+                        <div><ab type="archiving reference" hand="hand20c" medium="pencil" place="below"><date when="1480">1480</date></ab></div>
+                        <pb n="302" facs="ACV_AC-29_302_303"/><p/>
+                        <pb n="303" facs="ACV_AC-29_302_303"/>
+                        <head type="subtitle" resp="GO">17 avril 1480</head>
+                        <p><seg><lb/><origDate when="1480-04-17">Anno Domini millesimo IIII<hi rend="sup">c</hi> octuagesimo die vero
+                                        <lb/>decima septima mensis aprilis</origDate> personaliter constitutus <persName ref="per015861a.01">Johannes
+                                        <lb/>Poesiouz</persName> de <placeName ref="loc008474.03">Clarens</placeName> parrochie <placeName ref="loc008180.04">Mustruaci</placeName> <placeName ref="loc005781.05">Lausannensis</placeName> diocesis
+                                        <lb/>detentusque in <origPlace ref="loc011133.02">castro Castellarii</origPlace> coram religioso viro
+                                        <lb/><del rend="strikethrough">p</del> fratre <persName ref="per015160a.01">Johanne Blancheti</persName> <orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName>,
+                                        <lb/>heretice pravitatis in diocesibus <placeName ref="loc005781.05">Lausannensi</placeName> et
+                                        <lb/><placeName ref="loc008973.04">Sedunensi</placeName> <term ref="lem018123.01">viceinquisitore</term> auctoritate apostolica specialiter deputato
+                                        <lb/><choice><sic>vicariusque</sic><corr>vicarioque</corr></choice> in hac parte reverendi in <persName ref="per000353a.17">Christo</persName> patris et
+                                        <lb/>domini domini <persName ref="per013042a.01">Benedicti de Monteferrando</persName> <orgName ref="org001749.04">Lausannensis</orgName>
+                                        <lb/><term ref="lem001847.01">episcopi</term> et <term ref="lem005360.01">comitis</term> specialiter <choice><sic>deputatus</sic><corr>deputato</corr></choice>, et per eundem
+                                        <lb/>fratrem <persName ref="per015160a.01">Johannem</persName> interrogatus mediante juramento
+                                        <lb/>super sanctis Dei euvangeliis per ipsum detentum
+                                        <lb/>prius tactis&#160;:
+                        </seg></p>
+                        <p><seg><lb/>Primo si sciat causam propter quam ipse <persName ref="per015861a.01">Johannes Poesiouz</persName>
+                                        <lb/>delatus sit detentus&#160;; qui respondit quod sic, videlicet pro fide.
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus si sciat a quo tempore fuerit <term ref="lem018156.01">diffamatus</term>
+                                        <lb/>de <term ref="lem017269.01">crimine heresis</term>, qui respondit quod a <date when="1468" dur-iso="P12Y">duodecim annis citra
+                                        <lb/>vel circa</date>, scilicet a <persName ref="per015865a.01">Jaqueta</persName> filia <persName ref="per015864a.01">Vincencii Piecyz</persName>, que sibi
+                                        <lb/>improperavit quod ceciderat cum tempore in vineis, et que <persName ref="per015865a.01">Jaqueta</persName>
+                                        <lb/>se <sic>didissit</sic> in judicio temporali in quo eandem citaverat
+                                        <lb/>super injuriis, prout sciunt gentes.
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus ipse delatus si habeat aliquos emulos
+                                        <lb/>sive malivolos, qui respondit quod non credit habere
+                                        <lb/>aliquos inimicos.
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus si unquam participaverit et iverit cum aliquibus
+                                        <lb/><term ref="lem017125.01">hereticis</term>, qui respondit quod bibit et comedit sepe cum
+                                        <lb/><persName ref="per015867a.01">Mermeto Gillion</persName>, <persName ref="per015868a.01">Anthonio Dornier</persName> et <persName ref="per011198a.02">Mermeto Doz Tyil</persName>
+                                        <lb/>qui male dies suos clauserunt, tamen nesciebat quod essent
+                                        <lb/>mali. Et quodam semel ipse delatus et prenominati proxime
+                                        <lb/>dicti luserunt bilie, et luso iverunt ad domum dicti
+                                        <lb/><persName ref="per015867a.01">Mermeti Gillion</persName> et ibidem fecerunt cenam et comederunt
+                                        <lb/>certas carnes. Deinde noluit dicere quae carnes erant, nisi
+                                        <lb/>carnes recentes et salsate.
+                        </seg></p>
+                        <pb n="304" facs="ACV_AC-29_304_305"/>
+                        <p><seg><lb/>Item interrogatus si unquam cognoverit <persName ref="per011162a.01">Johannem Rossat</persName>,
+                                        <lb/>qui respondit quod non.
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus si unquam habuerit voluntatem recedendi
+                                        <lb/>propter <term ref="lem016977.01">infamiam</term> <term ref="lem017109.01">heresis</term> contra ipsum laborantem&#160;; qui
+                                        <lb/>dixit quod non.
+                        </seg></p>
+                            <p><seg><lb/>Interrogatus si unquam confessus fuerit de dicto crimine heresis,
+                                        <lb/>respondit et dixit quod ita, et quod habebat litteram suam
+                                        <lb/><term ref="lem017105.01">absolutionis</term>, quam per istas guerras<note>Les guerres de Bourgogne sévissent dans le Pays de Vaud <date from="1475-10-31" to="1476-07-31">de fin octobre 1475 à fin juillet 1476</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340 ">Maier 1996</ref>, p.&#160;135–139</bibl>).</note> asserit perdisse et
+                                        <lb/>quod eius pater<note>Il s’agit de <persName  ref="per016283a">Nicod Poesiouz</persName>.</note> fuerat <placeName ref="loc000076.08">Rome</placeName> <subst><del>qui</del><add place="overwritten">et</add></subst> dictam suam absolutionem
+                                        <lb/>apportaverat. Et etiam fuerat ipse pater suus pro ipso
+                                        <lb/>delato ad <placeName ref="loc009136.05">Sanctum Jacobum</placeName>.
+                            </seg></p>
+                                <p><seg><lb/>Interrogatus si eius pater sciverit quod comisserit illud
+                                        <lb/>peccatum heresis, qui respondit quod ita, quia <add place="right margin" type="sign">ipse pater </add> non fecisset
+                                        <lb/>viagia predicta et non apportasset dictam <del rend="strikethrough">suam</del>
+                                        <lb/>absolutionem nisi cognovisset quod ipse delatus erat
+                                        <lb/>infectus peccato <choice><sic>predictam</sic><corr>predicto</corr></choice> heresis.
+                                </seg></p>
+                        <p><seg><lb/>Interrogatus si de post quod habuit dictam suam absolutionem
+                                        <lb/>fuerit ad aliquam <term ref="lem018331.01">sectam</term> hereticorum, qui dixit
+                                        <lb/>quod sic, in quatuor sectis tam ante guerram quam post
+                                        <lb/>guerram. Deinde dixit quod amore Dei exaudiretur
+                                        <lb/>et quod pro vero volebat confiteri de omnibus suis peccatis
+                                        <lb/>et dicere qualiter et quomodo fecit et intravit dictas
+                                        <lb/>sectas.</seg>
+                            <seg>Et primo
+                                        <lb/>confitetur ipse <persName ref="per015861a.01">Johannes</persName> delatus quod ipso <persName ref="per015861a.01">Johanne</persName> existente in
+                                        <lb/>etate <measure type="age" unit="year" quantity="15">quindecim</measure> vel <measure type="age" unit="year" quantity="18">octodecim annorum</measure>, quodam semel ibat
+                                        <lb/>ipse delatus ad juriam cum <persName ref="per011158a.02">Petro Reys</persName>. Quiquidem <persName ref="per011158a.02">Petrus
+                                        <lb/>Reys</persName> dixit dicto <persName ref="per015861a.01">Johanni</persName> delato quod si vellet sibi credere,
+                                        <lb/>quod numquam haberet parum, sed semper esset dives homo.
+                                        <lb/>Quiquidem <persName ref="per015861a.01">Johannes</persName> delatus dixit et respondit eidem
+                                        <lb/><persName ref="per011158a.02">Petro Reys</persName> quod bene contentabatur et quod faceret ea
+                                        <lb/>que sibi diceret. Et tunc ipse <persName ref="per011158a.02">Petrus Reys</persName> dixit eidem
+                                        <lb/>delato&#160;: <q>&#160;Opportet quod tu venias mecum una ista dierum
+                                        <lb/>et tibi faciam facere plura bona&#160;</q>. Qui delatus fuit contentus
+                                        <lb/>ire <choice><sic>ibi</sic><corr>ubi</corr></choice> sibi dicto <persName ref="per011158a.02">Petro</persName> placeret ire. Et modicos dies
+                        <pb n="305" facs="ACV_AC-29_304_305"/><lb/>post premissa facta, ipse delatus et <persName ref="per011158a.02">Petrus Reys</persName> se
+                                         <lb/>reperierunt in dicta <term ref="lem018680.02">juria</term> nuncupata <foreign xml:lang="fr"><placeName ref="loc011101.01">Laz Joux de
+                                         <lb/>Blonay</placeName></foreign><note>Bois sis au dessus de <placeName ref="loc011085.01">Tercier</placeName>.</note>, versus fontem frigidam. Et ibidem dictus
+                                         <lb/><persName ref="per011158a.02">Petrus Reys</persName> dixit dicto delato quod opportebat
+                                        <lb/>quod faceret ea que sibi diceret. Qui delatus fuit
+                                        <lb/>contentus, et ibidem apparuit unus <del rend="strikethrough">curvus niger</del>
+                                        <lb/><term ref="lem017097.02">dyabolus</term> in specie unius curvi nigri qui vocabatur
+<lb/><label type="keyword" place="left margin"><term ref="lem018089.02">Nomen dyaboli</term></label> <persName ref="per011219a.07">Sathanas</persName>. Et ibidem dictus <persName ref="per011158a.02">Petrus Reys</persName> fecit eidem
+<lb/><label type="keyword" place="left margin">Negatio Dei</label> delato negare Deum <choice><sic>omnipotem</sic><corr>omnipotentem</corr></choice> totamque Trinitatem
+                                        <lb/>virginemque <persName ref="per000169a.02">Mariam</persName> et totam curiam celestem atque
+                                        <lb/>sanctum <term ref="lem009197.04">baptissmum</term> et omnia que Dei sunt, accipiendo
+                                        <lb/>dictum <persName ref="per011219a.07">Sathanas</persName> in dominum et magistrum suum, et <term ref="lem018116.01">homagium</term>
+                                        <lb/>eidem dyabolo faciendo, osculando eundem dyabolum
+                                        <lb/><subst><del rend="strikethrough">supra caput</del><add place="above">sub cauda in culo, et erat</add></subst> in specie dicti curvi <del rend="strikethrough">existentem</del>, dandoque
+                                        <lb/>eidem dyabolo unam parvam onciam articuli pedis <add place="above">sui</add> dextri
+                                        <lb/><del rend="strikethrough">sui</del> etiam in <term ref="lem018469.01">signum homagii</term>.</seg>
+                                <seg>Et vidit ipse delatus
+                                        <lb/>dictum suum magistrum sepe in specie hominis non bene loquentis.
+                                        <lb/>Quiquidem <persName ref="per011219a.07">Sathanas</persName> dyabolus promisit eidem
+                                        <lb/>delato dare qualibet vice quam iret ad sectam cum
+                                        <lb/>aliis hereticis, videlicet <measure type="currency" unit="ß" quantity="5">quinque solidos</measure>, quos ab ipso habuit
+                                        <lb/>et recepit bis aut ter tantum.</seg>
+                                <seg>Item confitetur ipse
+                                        <lb/>delatus quod ipse fuit in sectis sequentibus&#160;:
+                                        </seg></p>
+                        <p><seg><lb/>Primo in secta loco dicta <foreign xml:lang="fr"><placeName>Ou Mont de Granges</placeName></foreign><note>Eventuellement contrefort du <placeName ref="loc011102.01">Mont Chesau</placeName> près de <placeName ref="loc008024.01">Granges</placeName>.</note> versus
+                                        <lb/>fontem de <foreign xml:lang="fr">Billieryz</foreign>.</seg></p>
+                        <p><seg><lb/>Item in secta <del rend="strikethrough">de</del> <placeName ref="loc011084.06">Prati de Chissiez</placeName><note>Pré sis à l’est du <placeName ref="loc011103.01">Molard</placeName>, commune de <placeName ref="loc008180.01">Montreux</placeName>.</note> in qua fuit bis.</seg></p>
+                        <p><seg><lb/>Item in secta <foreign xml:lang="fr"><placeName ref="loc011104.02">Dez Mossectes</placeName></foreign><note>Pré au nord-est des <placeName ref="loc011075.02">Pléiades</placeName>, sur la commune de <placeName ref="loc011075.02">Saint-Légier-la Chiésaz</placeName>.</note> <add place="above">que est</add> in pratis de <placeName ref="loc008181.02">Blonay</placeName>.
+                                        <lb/>Et in istis sectis vidit <persName ref="per011379a.02">Glaudium Bochet</persName>, <persName ref="per015867a.01">Mermetum Gillion</persName>,
+                                        <lb/><persName ref="per011158a.03">Petrum Rey</persName>, <persName ref="per015868a.01">Anthonium Dornier</persName> et <persName ref="per011198a.03">Mermetum Doz Tyt</persName>&#160;;
+                                        <lb/>alios non cognovit, licet plures essent gentes.</seg>
+                              <seg><lb/>Deinde confitetur ipse delatus quod quando eiusdem delati pater
+                                        <lb/>cognovit quod ipse delatus ibat cum predictis <persName ref="per011158a.02">Petro Reys</persName>, <persName ref="per015867a.01">Mermeto
+                                        <lb/>Gillion</persName> et aliis supra nominatis, fuit ipse pater contra dictum
+                                        <lb/>delatum valde malecontentus et voluit scire qualiter
+                                        <lb/>se habebat ipse delatus cum supra nominatis. Quiquidem pater
+                                        <lb/>dicti delati, associato domino officiali <orgName ref="org005217.03">Viviaci</orgName>, <add place="above">videlicet domino <term ref="lem017169.01">curato</term> de <placeName ref="loc008012.04">Combremont</placeName></add> qui pro tunc
+                                        <lb/>erat <add place="above">officialis <orgName ref="org005217.03">Viviaci</orgName>, qui eundem delatum</add> monuerunt et tantum fecerunt eidem delato, quod
+                                        <lb/>ipse delatus recognovit eisdem, <add place="right margin" type="sign">patri et officiali</add>, omnia que fecerat
+                                        <lb/>et que dictus <persName ref="per011158a.02">Petrus Reys</persName> sibi facere <choice><sic>fferat</sic><corr>fecerat</corr></choice> in dictis
+                                        <lb/>sectis, ita quod ipse pater et officialis fecerunt ipsum delatum
+                            <pb n="306" facs="ACV_AC-29_306_307"/><lb/>confiteri. Et fuit predictus pater <placeName ref="loc000076.08">Rome</placeName> pro ipso delato, qui
+                                        <lb/>sibi apportavit suam absolutionem, quam perdidit per
+                                        <lb/>dictas guerras. Et habita absolutione predicta, numquam de post
+                                        <lb/>intravit dictas sectas, usque ad istas guerras <placeName ref="loc005824.06">Mureti</placeName><note>Il s’agit de la Bataille de Morat (<date when="1476-06-22">22 juin 1476</date>), lors des guerres de Bourgogne (<bibl><ref target="https://hls-dhs-dss.ch/fr/articles/008884/2010-09-02/">DHS, Bataille de Morat</ref></bibl>).</note>,
+                                        <lb/>per quas ipse delatus omnia bona sua perdiderat. </seg>
+                            <seg><lb/>Et confietur quod tunc tempore guerre <placeName ref="loc005824.06">Mureti</placeName> ipse delatus
+                                        <lb/>veniebat de <subst><del rend="strikethrough"><placeName ref="loc008099.07">Viviaco</placeName></del><add place="above"><placeName ref="loc008475.06">Turri</placeName></add></subst> valde <choice><sic>melencolic</sic><corr>melencolicus</corr></choice> eo quod omnia sua
+                                        <lb/>bona perdiderat. Et inter <placeName ref="loc011105.02">Burier</placeName> et clausum quondam <persName ref="per015889a.01">Jacobi
+                                        <lb/>de Villarsel</persName> apparuit sibi dictus <persName ref="per011219a.07">Sathanas</persName> in specie hominis,
+                                        <lb/>qui sibi dixit&#160;: <q>&#160;<persName ref="per015861a.01">Johannes</persName> tu es valde iratus et <term ref="lem018332.02">melencolicus</term>
+                                        <lb/>de perditione bonorum tuorum. Ymo, si tu velis michi credere,
+                                        <lb/>ego faciam quod tu maiora habebis et numquam parum
+                                        <lb/>habebis. Tu male fecisti dimittere me, quia si tu non
+                                        <lb/><sic>dimississes</sic> me, tu non perdisses tanta. Et ulterius
+                                        <lb/>dico tibi, quod si tu non iterum reducas ad me et quod tu michi
+                                        <lb/>facias prout alias, ego <term ref="lem018465.01">interficiam</term> omnes filios <add place="above">tuos</add> et gentes
+                                        <lb/>tuas et destruam tibi omnia bona tua&#160;</q>. Quo audito
+                                        <lb/>ipse <persName ref="per015861a.01">Johannes</persName> delatus fuit contentus facere omnia que ipse
+                                        <lb/><persName ref="per011219a.07">Sathanas</persName> sibi <sic>dixeret</sic>. Quiquidem <persName ref="per011219a.07">Sathanas</persName> fecit eidem
+                                        <lb/>delato iterum negare Deum totamque Trinitatem, baptissmum
+                                        <lb/>et totam curiam celestem, ipsum accipiendo in magistrum
+                                        <lb/>et dominum suum prout jam alias fecerat, osculando eum
+                                        <lb/>sub cauda in signum homagii.</seg>
+                            <seg>Interrogatus in qua specie
+                                        <lb/>erat dictus <persName ref="per011219a.07">Sathanas</persName> quando fecit homagium predictum,
+                                        <lb/>dixit idem delatus quod incontinenti quando voluit facere
+                                        <lb/>dictum homagium, quod devenit in specie unius <foreign xml:lang="fr"><term ref="lem018682.01">motchou</term></foreign>
+                                        <lb/>sive vituli nigri, deinde poslopost in specie hominis, qui
+                                        <lb/>sibi dicebat quod omnia mala que posset facere, quod ipse
+                                        <lb/>faceret, et quod ipse delatus semper veniret cum aliis
+                                        <lb/>ad sectam.</seg>
+                            <seg>Et iterum ipse dyabolus <persName ref="per011219a.07">Sathanas</persName> promisit
+                                        <lb/>eidem delato dare qualibet vice qua iret ad sectam, <measure type="currency" unit="S" quantity="5">quinque
+                                        <lb/>solidos</measure>. Et depost, videlicet a dicta guerra, fuit in sectis sequentibus&#160;:
+                                        <lb/>Primo in secta de <foreign xml:lang="fr"><placeName ref="loc011084.05">Praz Chissiez</placeName></foreign>, in qua fuit bis cum
+                                <lb/><label type="keyword" place="left margin" scribe="2">Complices</label> <persName ref="per015891a.02">Glaudio Johannodi alias de Capella</persName> de <placeName ref="loc008099.07">Brent</placeName>&#160;; et multi erant
+                                        <lb/>in dicta secta, tamen non cognovit illos, quia erant
+                                        <lb/>stupati ut non cognoscentur. Et ibidem fuit apportatus
+                                        <lb/>unus puer qui erat <persName ref="per015873a.01">Jordano Poesiouz</persName> qui vocabatur
+                                        <lb/><persName ref="per015874a.01">Jacobus</persName>, etatis <measure type="age" unit="year" quantity="2">duorum annorum vel circa</measure>. Quiquidem puer
+                                        <lb/>fuit interfectus <add place="above">in cuna</add> per dictum <persName ref="per015891a.02">Glaudium Johannodi</persName>. Et dixit idem
+                                        <lb/>delatus quod quando dictus <persName ref="per015891a.02">Glaudius</persName> interfecit dictum puerum,
+                                        <lb/>quod dictus delatus non erat presens, et quod mater dicti
+                                        <lb/>pueri erat in molendino <subst><del rend="strikethrough">nemine</del><add place="above">nullusque</add></subst> erat pro tunc
+                                        <lb/>in dicta domo <add place="above">ubi fuit interfectus dictus puer</add>. Et tunc ipse delatus cepit dictum puerum
+                                        <lb/>et posuit eum infra quasdam bisaculas tele et latitavit.
+                                        <lb/>Deinde ipse delatus composuit unum parvum <foreign xml:lang="fr"><term ref="lem018681.01">va</term></foreign> gallice. Et
+                                        <lb/>facto dictum va, ipse delatu posuit unum parvum plotum
+                                        <lb/>nemoris de longitudine pueri infra dictum va, et quando
+                        <pb n="307" facs="ACV_AC-29_306_307"/><lb/>illi de domo et eiusdem pueri mater venerunt ad
+                                        <lb/>domum <add place="above">ipsorum</add>, ipse delatus ipsis dixit&#160;: <q>&#160;Ecce, filius <persName ref="per015873a.01">Jordani</persName>
+                                        <lb/>est mortuus, ego posui eum in suo va&#160;</q>. Et ita crederunt,
+                                       <lb/>et fuit sepultus in <choice><sic>cimsterio</sic><corr>cimisterio</corr></choice> <placeName ref="loc008180.04">Mustruaci</placeName> dictus plotus.</seg>
+                               <seg><lb/>Deinde confitetur ipse delatus quod ipse portavit
+                                        <lb/>ad dictam sectam de <foreign xml:lang="fr"><placeName ref="loc011084.05">Praz Chissiez</placeName></foreign> predictum puerum
+                                        <lb/>in una bisacula et ibidem comederunt dempto capite
+                                        <lb/>quod dimiserunt propter <choice><sic>crissima</sic><corr>crisma</corr></choice>. Et fuerunt presentes
+                                        <lb/>dicti <persName ref="per015891a.04">Glaudius Jonoz</persName>, <persName ref="per015870a.01">Petrus Duc</persName> de <placeName ref="loc009095.02">Planchamps</placeName>.
+                                        <lb/>Quiquidem <persName ref="per015870a.02">Petrus Ducis</persName> est coquus secte et sibi fuit
+                                        <lb/>tradittus dictus puer ut prepararet ad comedendum,
+                                        <lb/>manu <del rend="strikethrough">Jo[hannodi]</del> <persName ref="per015891a.02">Glaudii Johannodi</persName>, cui ipse delatu tradiderat,
+                                        <lb/>eundo ad dictam sectam.</seg>
+                            <seg>Interrogatus quare consentierat
+                                        <lb/>morti dicti pueri, dixit quod numquam fecerat aliquod servicium
+                                <lb/><label type="keyword" place="left margin" scribe="2">Complices</label> magistro suo dyabolo, quare erat sibi delato neccesse
+                                        <lb/>quod sibi faceret aliquod servicium prout alii sibi faciebant.
+                                        <lb/>Et etiam ipse delatus eidem magistro suo promiserat mediante
+                                        <lb/>dicto <persName ref="per015891a.02">Glaudio de Capella alias Johannodi</persName> quod faceret tantum
+                                        <lb/>quod portaret unum puerum. Nichillominus promiserat
+                                        <lb/>ipse delatus dicto magistro suo dare unum puerum nascendum
+                                        <lb/><del rend="strikethrough">ab</del><add place="overwritten">ex</add> uxore sua dicti delati. Et credebat ipse delatus defraudare
+                                        <lb/>dictum magistrum suum dyabolum, <subst><del rend="strikethrough">quia</del><add place="inline">eo quod</add></subst> uxor sua dicti delati
+                                        <lb/>erat jam antiqua mulier, et credebat quod numquam portaret
+                                        <lb/>pueros neque fecit <add place="above">depost</add>, ut dixit, quare confidebat esse quittus
+                                        <lb/>a dicta promissione. </seg>
+                            <seg>Interrogatus quid faciunt in dictis
+                                        <lb/>sectis, qui dixit quod comedunt et bibunt atque coream <gap unit="word" quantity="1"/><note>Il manque le verbe.</note>,
+                                        <lb/>et quod homines habitant cum mulieribus per retro more
+                                        <lb/>bruttorum&#160;; et quod fit magnus ignis et habent certas
+                                        <lb/>candelas que fiunt de budellis puerorum. Et ignis
+                                        <lb/>non est sicut noster ignis sed totus <foreign xml:lang="fr"><term ref="lem016939.06">blovoz</term></foreign>.
+                                </seg></p>
+                            <p><seg><lb/>Interrogatus qua die vadunt ad sectam, qui dixit&#160;:
+                                        <lb/><q>&#160;Aliquando per <date period="P5WD">diem jovis</date> et aliquando per <date period="P7WD">diem
+                                        <lb/>sabati</date>, et de <time period="byNight">nocte hora undecima vel circa</time>&#160;</q>.
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus que mulieres vidit in dictis sectis,
+                                        <lb/>qui dixit quod vidit <persName ref="per015710b.01">Johannetam</persName> uxorem <persName ref="per013045a.03">Johannis Montet</persName> <del rend="strikethrough">dicto</del>
+                                        <lb/>que vocatur <persName ref="per015710a.01">Borjaudaz</persName> parrochie <subst><del rend="strikethrough"><placeName ref="loc008180.04">Mustruaci</placeName></del><add place="above"><placeName ref="loc008181.02">Blonay</placeName></add></subst>. Et confitetur
+                                        <lb/>quod ipsa <persName ref="per015710b.01">Johanneta</persName> est amasia sua in dicta secta et quod
+                                        <lb/><subst><del rend="strikethrough">cono[vit]</del><add place="inline">cognovit</add></subst> eam carnaliter per retro more bruttorum.
+                                        <lb/>Alia noluit confiteri. </seg> 
+                                <seg>Quo audito prefatus dominus viceinquisitor
+                                        <lb/>assignavit eundem delatum <date when="1480-04-18">ad crastinam diem, <time period="morning">hora prima</time></date>
+                                        <lb/>ad magis confitendum et continuandum. Et hoc pro secunda monitione,
+                                        <lb/>sibi semper presentando Ecclesie misericordiam, ut moris est, presentibus 
+                      <pb n="308" facs="ACV_AC-29_308_309"/><lb/>nobilibus viris <persName ref="per015875a.01">Michaele Ledi</persName> <term ref="lem017142.01">castellano</term> <orgName ref="org005217.03">Viviaci</orgName>,
+                                         <lb/><persName ref="per015871a.01">Glaudio Maioris</persName>, <persName ref="per015872a.01">Nicodo Maioris</persName>, <persName ref="per016211a.03">Petro Maioris</persName>
+                                         <lb/>domicello, <persName ref="per015876a.01">Francisco de Paleria</persName> <term ref="lem017142.01">castellano</term> dicti loci <orgName ref="org005216.03">Castellarii</orgName>,
+                                         <lb/><persName ref="per015877a.01">Vincencio de Gradibus</persName>,<persName ref="per015892a.01"> Petro Douz Fort</persName>, <persName ref="per015878a.01">Roleto Catzellaz</persName>,
+                                         <lb/><persName ref="per015162a.01">Johanne Champens</persName>, <persName ref="per015879a.01">Huberto de Fleyer</persName> clerico et <persName ref="per015894a.01">Johanne
+                                        <lb/>Testaz</persName>, testibus ad premissa vocatis et rogatis.
+                                        </seg></p>
+                        <head type="subtitle" resp="GO">18 avril 1480</head>
+                           <p><seg><lb/><origDate when="1480-04-18">Anno Domini M<hi rend="sup">o</hi> IIII<hi rend="sup">c</hi> LXXX<hi rend="sup">mo</hi> die vero decima octava
+                                        <lb/>mensis predicti aprilis</origDate> personaliter constitutus in predicto loco <origPlace ref="loc011133.02">castri
+                                        <lb/>Castellarii</origPlace> in quadam magna aula ipsius castri predictus
+                                        <lb/><persName ref="per015861a.01">Johannes Poesiouz</persName> inquisitus coram prefato fratre <persName ref="per015160a.01">Johanne Blancheti</persName>
+                                         <lb/>viceinquisitore, et per eundem dominum viceinquisitorem interrogatus
+                                         <lb/>si confessata per eundem delatum sint vera, qui delatus
+                                         <lb/>respondit quod non erant vera et quod ipse false et male
+                                         <lb/>confessus fuerat, quia numquam fecit nec facere vellet ea
+                                         <lb/>que dixit et confessus est sub periculo dampnationis
+                                         <lb/>anime sue.</seg>
+                               <seg>Interrogatus quis promovit eum dicere talia
+                                         <lb/>et ita confiteri, qui delatus respondit quod nescit, nisi quod male
+                                         <lb/>fecerat talia confiteri. Quare iterum fuit monitus per prefatum
+                                         <lb/>dominem viceinquisitorem quatenus sibi diceret puram veritatem et quod sibi
+                                         <lb/>indulgeretur, si veritatem puram dicere vellet et quod se
+<lb/><label type="keyword" place="left margin">Tercia monitio</label> advisaret bene, ipsum assignando <date when="1480-04-19">ad diem crastinam</date> et hoc
+                                        <lb/>pro tercia monitione, sibi presentando Ecclesie misericordiam ut decet,
+                                        <lb/>presentibus ibidem nobilibus <persName ref="per015871a.01">Glaudio Maioris</persName>, <persName ref="per015876a.01">Francisco
+                                        <lb/>de Paleria</persName> castellano dicti loci <orgName ref="org005216.03">Castellarii</orgName>, <persName ref="per015878a.01">Roleto Catzellaz</persName>,
+                                        <lb/>honestis viris <persName ref="per015877a.01">Vincencio de Gradibus</persName>, <persName ref="per015893a.01">Petro Testa</persName>, <persName ref="per015162a.02">Johanne
+                                         <lb/>Champen</persName>, <persName ref="per015926a.03">Johanneto Collin</persName>, <persName ref="per015880a.02"><choice><abbr>Joe</abbr><expan>Johanne</expan></choice> de Pallen</persName> de <placeName ref="loc011098.02">Salles</placeName>,
+                                        <lb/><persName ref="per015896a.01">Roleto de <foreign xml:lang="fr">Laz Tourt</foreign></persName>, <persName ref="per015872a.01">Nicodo Maioris</persName> domicello, <persName ref="per015881a.01">Jaqueto
+                                        <lb/>Tallon</persName>, cum pluribus aliis testibus, <abbr>etc</abbr>.
+                          </seg></p>
+                          <p><seg><lb/>Deinde <origDate when="1480-04-18">dicta die proxime dicta poslopost</origDate> premissam negationem
+                                        <lb/><add place="left margin">factam</add> ut supra, personaliter constitutus dictus <persName ref="per015861a.01">Johannes Poesiouz</persName>
+                                        <lb/>in dicto loco aule predicte coram prefato domino viceinquisitore
+                                        <lb/>et <choice><sic>testium supra proxime nominatorum</sic><corr>testibus supra proxime nominatis</corr></choice>, quiquidem <persName ref="per015861a.01">Johannes</persName> delatus
+                                        <lb/>dixit prefato domino viceinquisitori et rogavit quatenus sibi
+                                        <lb/>vellet indulgeri, quia pro recto erat male advisatus
+                                        <lb/>negare ea que sibi confessus fuerat, quia sub periculo
+                                        <lb/>dampnationis sue anime omnia que jam confessus fuerat
+                                        <lb/>erant vera <del rend="strikethrough">t</del> et illa <subst><del rend="strikethrough">vel[le]</del><add place="inline">vult</add></subst> manutenere et confiteri
+                        <pb n="309" facs="ACV_AC-29_308_309"/><lb/>de omnibus peccatis que comissit, nichil de eisdem
+                                        <lb/>obmittendo.</seg>
+                              <seg>Item confitetur ipse delatus quod <add place="above">ipse</add> fecit
+                                        <lb/>omnia, prout et quemadmodum dixit et confessus est in
+                                  <lb/><label type="keyword" place="left margin" scribe="2">Complices</label> sua prima monitione, et quod ipse fuit in dictis sectis
+                                        <lb/>et vidit in eisdem <persName ref="per015569a.01">Johannem Morier</persName>, <persName ref="per015857a.02">Johannem Vuadens</persName>,
+                                        <lb/><persName ref="per011379a.02">Glaudium Bochet</persName>, dictum <persName ref="per015572a.03">Vully</persName>, <persName ref="per015710b.01">Johannetam</persName> uxorem <persName ref="per013045a.01">Johannis
+                                        <lb/>Montet</persName> dictam <persName ref="per015710a.02">Borjaudaz</persName> parrochie <placeName ref="loc008181.02">Blonay</placeName>, que erat
+                                        <lb/>amasia sua in dicta secta, quam cognovit carnaliter
+                                        <lb/>per retro in <placeName ref="loc011084.06">Prato de Chissiez</placeName>, <persName ref="per015882a.01">Girardum Contoz</persName> de <foreign xml:lang="fr"><placeName ref="loc008530.04">Challiez</placeName></foreign>,
+                                        <lb/><add place="left margin"><figure type="drawing"/>&#160;X</add> <persName ref="per015895a.01">Jaquetum Nicollet</persName><note>Son nom est marqué par une croix en marge de gauche.</note> de <placeName ref="loc008821.03">Bren</placeName>, et vidit eum bis in secta
+                                        <lb/>de <foreign xml:lang="fr"><placeName ref="loc011134.01">Mont de Vaul</placeName></foreign><note>Ce lieux n’a pas pu être identifié.</note> et <placeName ref="loc011084.06">Prati de Chissiez</placeName>, <persName ref="per015883a.01">Glaudiam</persName> uxorem
+                                        <lb/><persName ref="per015884a.01">Petri Barichet</persName> de <placeName ref="loc011106.02">Chernex</placeName> in secta de <foreign xml:lang="fr"><placeName ref="loc011084.11">Chissiez</placeName></foreign>, <persName ref="per011057a.03">Johannem
+                                        <lb/>Hugonin</persName> de <placeName ref="loc008099.07">Viviaco</placeName> et dictam <persName ref="per016289a.01">Corectaz</persName> uxorem <persName ref="per016288a.01">Johannis
+                                        <lb/>Mermet alias de Blonay de Vernex</persName>&#160;; et plures alios
+                                        <lb/>vidit quos non cognovit, bibentes et comedentes
+                                        <lb/>et cum mulieribus habitantes, prout dixit in principio
+                                        <lb/>dicte sue confessionis.</seg>
+                              <seg>Deinde dixit quod <persName ref="per015891a.03">Glaudius Jonodi</persName>
+                                        <lb/>supra nominatus apportavit ad sectam <placeName ref="loc011084.04">Prati de Chissie</placeName>,
+                                        <lb/>sunt <date when="1478" dur-iso="P5Y">circa duo anni</date>, quemdam puerum qui erat <persName ref="per016291a.02"><choice><abbr>Guilli</abbr><expan>Guillielmo</expan></choice></persName>
+                                        <lb/>genero <persName ref="per015885a.01">Roleti Gravel</persName>. Quiquidem puer fuit traditus
+                                        <lb/>per dictum <persName ref="per015891a.02">Glaudium Johannodi</persName> <persName ref="per015870a.02">Petro Ducis</persName>, qui est coquus
+                                        <lb/>in secta, ut prepararet ad comedendum. Et ita fecit,
+                                        <lb/>et fuit comestus in dicta secta, et quasi omnes supra
+                                        <lb/>nominati complices fuerunt presentes, potissime dicti
+                                  <lb/><label type="keyword" place="left margin" scribe="2">Complices</label> <persName ref="per015870a.02">Petrus Ducis</persName>, dictus <persName ref="per015572a.03">Vully</persName>, <persName ref="per015891a.02">Glaudius Johannodi</persName> 
+                                        <lb/>et <persName ref="per015569a.02"><choice><abbr>Jo</abbr><expan>Johannes</expan></choice> Morier</persName>.</seg> 
+                              <seg>Item dicit quod nescit qualiter
+                                        <lb/>fuit interfectus dictus puer nec quomodo ipse <persName ref="per015891a.02">Glaudius
+                                        <lb/>Johannodi</persName> habuit, quia non fuit presens, nisi tantum
+                                        <lb/>quod vidit in secta predicta premissa facienda. Et dixit
+                                        <lb/>ipse delaltus quod comedit de eodem puero.</seg>
+                              <seg>Item
+                                        <lb/>dixit quod ipse delatus fuit verberatus bis aut
+                                        <lb/>ter a predictis suis complicibus eo quod defficiebat multotiens
+                                        <lb/>ire ad dictas sectas. Et quodam semel <persName ref="per015891a.02">Glaudius Johannodi</persName> 
+                                        <lb/>deffecerat venire ad <add place="above">sectam, propter quod</add> fuit valde verberatus per
+                                        <lb/><persName ref="per015569a.01">Johannem Morier</persName> et certos alios hereticos&#160;; et nisi ipse
+                                        <lb/>delatus fuisset, credit quod ipsi <sic>interficissent</sic> ipsum <persName ref="per015891a.02">Glaudium</persName>,
+                                        <lb/>sed ipse delatus inter ipsos pacem posuit.</seg>
+                              <seg>Interrogatus
+                                        <lb/>qualiter vadunt ad sectam, dixit quod sunt certi qui habent
+                                        <lb/>quemdam <term ref="lem017132.01">baculum</term> et alia instrumenta per quem seu qua vadunt
+                                         <lb/>ad dictas sectas, sed numquam ipse delatus habuit baculum
+                                         <lb/>picidem sive instrumentum, ymo quando volebat ire ad
+<lb/><label type="keyword" place="left margin">Nomen dyaboli</label> sectam, eius magister dyabolus nuncupatus <subst><del rend="strikethrough"><term ref="lem017140.01">demon</term></del><add place="above"><persName ref="per011219a.07">Sathanas</persName></add></subst>
+                                         <lb/>providebat <choice><sic>ei</sic><corr>eum</corr></choice> de uno equo nigro, supra quem ipse
+                                         <lb/>delatus ascendebat et incontinenti se reperiebat in
+                                         <lb/>loco in quo volebat ire. Alia nescit, quare iterum fuit
+          <pb n="310" facs="ACV_AC-29_310_311"/><lb/>assignatus ad diem mercuri immediate sequentem ad magis
+                                        <lb/>confitendum et se advisandum, eidem delato semper presentando
+                                        <lb/>Ecclesie misericordiam, presentibus quibus supra proxime dictis.
+                        </seg></p>
+                        <head type="subtitle" resp="GO">19 avril 1490</head>
+                        <p><seg><lb/><origDate when="1480-04-19" period="P4WD">Die vero mercuri supra dicta, anno quo supra</origDate>
+                                        <lb/>et in predicto loco <origPlace ref="loc011133.02">castri Castellarii</origPlace> personaliter constitutus
+                                        <lb/>predictus <persName ref="per015861a.01">Johannes</persName> delatus <del rend="strikethrough">et per e[um]</del> coram prefato
+                                        <lb/>domino viceinquisitore et per eum interrogatus si sit
+                                        <lb/>aliquid advisatus magis confiteri et si per eum confessata
+                                        <lb/>sint vera, qui respondit quod omnia que confessus est
+                                        <lb/>erant et sunt vera per juramentum suum supra per
+                                        <lb/>ipsum prestitum et sub periculo <term ref="lem018472.02">dampnatione</term> anime sue.</seg>
+                            <seg>Et
+                                        <lb/>confitetur quod a guerra citra ipse delatus fuit in
+                                        <lb/>secta predicta de <foreign xml:lang="fr"><placeName ref="loc011134.01">Mont de Vaul</placeName></foreign>, in qua erat generalis secta,
+                                        <lb/>et faciebant prout in aliis dixit facere. Et erant in numero
+                                        <lb/>circa quatuor viginti, et erant presentes <persName ref="per015891a.02">Glaudius
+                                        <lb/>de Capella alias Johannodi</persName>, <persName ref="per015895a.01">Jaquetus Nicollet</persName> de <placeName ref="loc008821.02">Brent</placeName>,
+                                        <lb/><persName ref="per015870a.02">Petrus Ducis</persName> de <placeName ref="loc009095.03">Planchampt</placeName>, <persName ref="per015710a.06"><choice><abbr>Jota</abbr><expan>Johanneta</expan></choice> Borjaudaz</persName>, dictus
+                                        <lb/><persName ref="per015572a.03">Vully</persName>, <persName ref="per015857a.02">Johannes Vuadens</persName>, <persName ref="per015569a.01">Johannes Morier</persName> parrochie <placeName ref="loc008181.02">Blonay</placeName> et
+                                        <lb/>plures alii quos non cognovit. Et dictus <persName ref="per015572a.03">Vully</persName> volebat
+                                        <lb/>tunc verberare <persName ref="per015569a.01">Johannem Morier</persName> eo quod tarde venerat
+                                        <lb/>ad dictam sectam, quod non fecit eo quod spectaverat
+                                        <lb/>dictum delatum, et quod ipse <persName ref="per015569a.01">Johannes Morier</persName> iverat eundem
+                                        <lb/>delatum vocatum quod veniret ad dictam generalem sectam.
+                                        <lb/>Alia nescit <del rend="strikethrough">presentibus</del> nisi quod dixit quod quando prefatus
+                                        <lb/>dominus viceinquisitor venit die qua <del rend="strikethrough">fuit detentus</del> ipse
+                                        <lb/>delatus fuit detentus, quod ipse volebat venire ad confitendum&#160;;
+                                        <lb/>sed quidam erat cum ipso domino <term ref="lem017062.01">inquisitore</term> et non potuit
+                                        <lb/>sibi loqui, quia nolebat loqui coram aliquo, <abbr>etc</abbr>. Alia
+                                        <lb/>nescit.
+                            </seg></p>
+                        <p><seg><lb/>Pro premissis</seg> <seg><signed><persName ref="per015897a.02"><choice><abbr>G</abbr><expan>Guilliermus</expan></choice> Danielis</persName> <figure type="notarial sign"/></signed></seg></p>
+                        <pb n="311" facs="ACV_AC-29_310_311"/><p/>
+                        <pb n="312" facs="ACV_AC-29_312_313"/><p/>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Les procès de Jaquet de Panissère (<bibl><ref target="urn:ssrq:SDS-VD-D_1-14-1">SDS VD D 1 14-1</ref>&#160;: ACV, Ac 29, p.&#160;228–258</bibl>), Jordana de Baulmes (<bibl><ref target="urn:ssrq:SDS-VD-D_1-15-1">SDS VD D 1 15-1</ref>&#160;: ACV, Ac 29, p.&#160;208–227</bibl>), Claude Bochet (<bibl><ref target="urn:ssrq:SDS-VD-D_1-16-1">SDS VD D 1 16-1</ref>&#160;: ACV, Ac 29, p. &#160;264–275</bibl>), Jean Poesiouz (<bibl><ref target="urn:ssrq:SDS-VD-D_1-17-1">SDS VD D 1 17-1</ref>&#160;: ACV, Ac 29, p.&#160;301–312</bibl>), Jeannette Barattier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-18-1">SDS VD D 1 18-1</ref>&#160;: ACV, Ac 29, p.&#160;276–300</bibl>), Antoine de Vernex (<bibl><ref target="urn:ssrq:SDS-VD-D_1-19-1">SDS VD D 1 19-1</ref>&#160;: ACV, Ac 29, p.&#160;313–327</bibl>) et Jean Gallot (<bibl><ref target="urn:ssrq:SDS-VD-D_1-20-1">SDS VD D 1 20-1</ref>&#160;: ACV, Ac 29, p.&#160;333–348</bibl>) ont tous été intentés entre 1477 et 1484. Ils sont les témoins d’une nouvelle chasse aux sorciers menée sur la Riviera lémanique, après la première vague des années 1448–1449.</p>
+                <p>L’ancien <orig>&#160;dossier Poesiouz&#160;</orig> occupe les pages 301 à 312 du registre ACV, Ac 29. La page de garde (numérotée 301) comporte des notes dorsales similaires au <orig>&#160;dossier Bochet&#160;</orig>. Le verso de la page de garde de l’ancien dossier a été laissé en blanc. Le procès-verbal en tant que tel ne débute qu’à la page 303 pour se terminer à la page 310. Les deux dernières pages de l’ancien dossier n’ont pas été utilisées. Hormis trois annotations en marge d’une main anonyme (pages 306, 307 et 309), le procès-verbal a entièrement été rédigé par le notaire Guillaume Daniélis, auquel nous attribuons aussi l’une des notes dorsales de la page de garde. Deux autres notes dorsales sur la page de garde proviennent d’une main dont nous ignorons l’auteur, mais que nous retrouvons dans l’une des inscriptions de l’ancien <orig>&#160;dossier de Vernex&#160;</orig></p>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-6-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives du Landeron</repository>
+                  <idno xml:lang="fr">Landeron, A 2</idno>
+               </msIdentifier>
+               <head>Confirmation des franchises du Landeron par Louis de Neuchâtel, les lettres de
+                  franchises précédentes concédées par Rodolphe de Neuchâtel ayant été détruites
+                  lors d'un incendie, à la fin de 1349</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="la"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="64"/>
+                              <width unit="cm" quantity="55"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/>
+                              <!-- Mass fehlt -->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:condition="chamfered" ns0:attachment="sealed on a parchment tag"
+                        ns0:material="wax" ns0:shape="oval"/>
+                     <seal n="2" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:condition="chamfered" ns0:attachment="sealed on a parchment tag"
+                        ns0:material="wax" ns0:shape="oval"/>
+                     <seal n="3" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag"
+                        ns0:material="wax" ns0:shape="oval"/>
+                     <seal n="4" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:condition="chamfered" ns0:attachment="sealed on a parchment tag"
+                        ns0:material="wax" ns0:shape="round"/>
+                     <seal n="5" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:condition="chamfered" ns0:attachment="sealed on a parchment tag"
+                        ns0:material="wax" ns0:shape="round"/>
+                     <seal n="6" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag"
+                        ns0:material="wax" ns0:shape="round"/>
+                     <seal n="7" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag"
+                        ns0:material="wax" ns0:shape="round"/>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1350-01-17">1351 (n. st.), 17 janvier</origDate><note>Favarger
+                        date de 1351.</note>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_38">SDS
+                           NE 1, N<hi rend="sup">o</hi>&#160;6</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000298"></term>
+               <term ref="key000264"></term>
+               <term ref="key000047"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="LANDERON_A_2_1r"/>
+               <div>
+                  <p><seg><lb/>Nos <persName ref="per036715">Ludovicus</persName>, comes et dominus
+                        Novicastri, notum facimus universis presentibus et futuris quod <date
+                           when="1350-01-17">anno Domini millesimo ccc quadragesimo nono, decima
+                           septima die mensis januarii</date> in nostra presencia personaliter,
+                        infra dominacionem nostram quod infra villam nostram <lb/>de <placeName
+                           ref="loc007786">Novocastro</placeName> inhabitamus, constituti et ad nos
+                        propter hoc venientes, presentibus religioso viro domino <persName
+                           ref="per036891a.01">Ulrico de Falguestains</persName><note>Note
+                           Favarger&#160;1982&#160;: Il s'agit de Ulrich de Falkenstein mentionné
+                           de&#160;1340 à&#160;1362.</note> abbate <orgName ref="org011943.03"
+                           >monasterii Herlacensis</orgName>
+                        <orgName>ordinis sancti Benedicti</orgName>, <placeName>lausannensis
+                           dyocesis</placeName>, domino Othone de Vallemortua, milite, baillivo
+                        nostro, Cristino de <foreign xml:lang="fr">Pomer</foreign>, canonico
+                        ecclesie Novicastri et clerico nostro, <lb/>Johanne de <foreign
+                           xml:lang="fr">Claron</foreign>, domicello castellano nostro pontis Tele,
+                        Johanne d'<foreign xml:lang="fr">Espagnyé</foreign>, castellano nostro
+                           <foreign xml:lang="fr">dou Landiron</foreign>, Othone dicto Belarmigero
+                        et pluribus aliis fidedignis hic astantibus pro testibus, vocati specialiter
+                        et rogati videlicet Uldricus de <unclear>Veteri</unclear> foro, Borquinus
+                           <foreign xml:lang="fr">Trouchon</foreign>, Vuillelmus Eurardi, Jaquininus
+                        de <foreign xml:lang="fr">Mornet</foreign>, <lb/>rectores tunc temporis et
+                        electi pro communitate ville nostre <foreign xml:lang="fr">dou
+                           Landiron</foreign> et per nos confirmati ad regimen ipsius ville una cum
+                        pluribus aliis burgensibus dicte ville, nobis pro ipsis ac vice nomine et ad
+                        opus predicte communitatis <foreign xml:lang="fr">dou Landiron</foreign> et
+                        pro omnibus ad presens ibidem habitantibus et in futurum habitandis,
+                        humiliter suppli<lb break="no"/>caverunt quod nos libertates et immunitates
+                        predecessoribus suis ville de turri de <foreign xml:lang="fr"
+                           >Nyroul</foreign> per predecessores nostros concessas eisdem et suis
+                        heredibus nunc in dicta villa <foreign xml:lang="fr">dou Landeron</foreign>
+                        habitantibus et habitaturis in futurum, pro nobis et nostris heredibus
+                        vellemus confirmare et sibi in scripturis redigere <lb/>facere ad sanam
+                        memoriam presentium et futurorum, maxime cum ipsi rectores et ipsa
+                        communitas <foreign xml:lang="fr">dou Landeron</foreign> de novo litteras
+                        dictarum suarum libertatum et immunitatum per dictos predecessores nostros
+                        predecessoribus suis predictis concessarum amiserint per incendium de novo
+                        habitum in dicta villa nostra <foreign xml:lang="fr">dou
+                           <lb/>Landiron</foreign> in carreria a parte venti videlicet <date>anno
+                           predicto quadragesimo nono, quindecima die mensis decembris</date> de
+                        nocte prout in litteris confirmationis dictarum libertatum predictis
+                        predecessoribus dictorum habitantium ville nostre <foreign xml:lang="fr">dou
+                           Landeron</foreign> per illustrem et potentem virum karissimum dominum
+                        nostrum, <lb/>dominum <persName>Rodulfum</persName> comitem et dominum
+                        Novicastri concessarum et innovatarum, sigillo suo una cum sigillo inclite
+                        recordationis domine Olyenode de Sabaudia, domine Novicastri, ipsius domini
+                        Rodulfi patris nostri consortis et matris nostre, reverendi in Christo
+                        patris domini G. Dei gratia episcopi lausannensis, religiosorum <lb/>virorum
+                        de Aurora et Herlacensis abbatum et venerabilis capituli ecclesie Novicastri
+                        sigillatis plenius continetur quarum quoddam vidimus sigillatum .. abbatis
+                        Herlacensis et capituli ecclesie Novicastri predictorum sigillatum penes nos
+                        invenimus et reperimus cujus vidimus et confirmationis tocius libertatis
+                        <lb/>predicte, totus tenor de verbo ad verbum est inferius insertus et sic
+                        incipit&#160;:</seg>
+                     <quote><seg>Nos
+                           abbas monasterii Herlacensis ordinis sancti Benedicti capitulumque
+                           ecclesie Novicastri lausannensis dyocensis, notum facimus universis quod
+                           nos vidimus et de verbo ad verbum legimus quasdam litteras sanas et
+                           integras, <lb/>non viciatas, non cancellatas nec in aliqua parte
+                           corruptas quarum tenor sequitur in hec verba&#160;:</seg>
+                        <seg>Nos Rodolphus comes et dominus Novicastri, filius quondam Amedei,
+                           domini dicti loci, notum facimus universis presentibus et futuris quod
+                           venientes ad nos universitas burgensium nostrorum ville de <lb/>Turri de
+                              <foreign xml:lang="fr">Nygerols</foreign> nobis humiliter supplicarunt
+                           quod nos libertatem et immunitatem eisdem ab illustri viro domino
+                              <persName>Rodulpho</persName> avo nostro, domino Novicastri<note>Note
+                              Favarger&#160;1982&#160;: Il s'agit de Rodolphe&#160;III de Neuchâtel,
+                              mort en&#160;1264.</note> collatam, vellemus confirmare et dicte
+                           libertatis cartam innovare. Nos vero eorum supplicationibus annuendo
+                           inclinati <lb/>cartam libertatis sibi a dicto avo nostro concessam
+                           inspeximus et legi fecimus coram nobis diligenter et licet eam invenimus
+                           pro nimia vetustate et negligenti custodia fore consumptam interim quod
+                           jam duo sigilla inde ceciderant et alia periculose pendebant <lb/>nos
+                           tamen volentes predecessorum nostrorum sequi vestigia et eorum bona facta
+                           approbare, libertatem et immunitatem ab ipsis collatas firmas et
+                           inviolabiles inperpetuum futuris manere temporibus libertatem et
+                           immunitatem a dicto avo nostro dictis burgensibus nostris de <foreign
+                              xml:lang="fr">Nygerols</foreign> presentibus <lb/>et futuris pro
+                           nostris successoribus et pro nobis ex certa scientia confirmamus,
+                           auctorizamus et ratifficamus ac eorum cartam super dictis libertate et
+                           immunitate confectam licet locus in quo dicta burgensia et libertas facta
+                           fuit ad presens propter guerras sit destructus et habitatoribus
+                           destitutus <lb/>presenti instrumento innovamus,<note>Note
+                              Favarger&#160;1982&#160;: Allusion à la destruction de Nugerol, à côté
+                              de La Neuveville, entre&#160;1312-1318, à la suite des guerres entre
+                              les Neuchâtel et l'évêque de Bâle. C'est à la suite de cette
+                              destructin que fut bâtie la ville du Landeron. En&#160;1330 (<bibl><ref>AEN,
+                              B&#160;9, N<hi rend="sup">o</hi>&#160;2</ref></bibl>) à Saint-Maurice du Landeron,
+                              on rencontre un <orig>Johannes de Turre burgensis Turris
+                                 de Nirrouz</orig> qui doit les usages comme <orig>alii
+                                 burgensis dicte Turris ut in eorum quarta continetur</orig>.</note>
+                           volentes et annuentes quod ulterius dicti burgenses non teneantur nisi
+                           velint cartam libertatis eis a dicto avo nostro datam jam pene vetustate
+                           consumptam nobis aut alicui successorum nostrorum aut alicuicumque
+                           ostendere cum ejus carte tenor de verbo <lb/>ad verbum in presenti
+                           instrumento innovacionis quam eis fecimus contineatur et inseratur in hec
+                           verba&#160;:</seg>
+                        <seg>Quoniam lites plurimas et questiones multas intereunt si gesta hominum
+                           seu dicta scripture fideique rerum omnium interpres testis et obtima
+                           conservatrix eficaciter comendetur <lb/>fidem plenam posteris facienda,
+                           noverint igitur présentes et posteri quod ego Rodulphus, filius Bertholdi
+                           domini Novicastri novam villam meam de <foreign xml:lang="fr"
+                              >Nygerols</foreign> et burgensia ejusdem ville liberos constituo sub
+                           hac forma videlicet quod in eadem villa et burgensia dicte ville ego vel
+                           heredes nostri <lb/>nullam exactionem faciemus sed tamen leges nostras
+                           ibidem in forefactis capiemus et juribus, consuetudinibus seu
+                           conditionibus contenti erimus subnotatis.</seg>
+                        <seg n="1">Nullus in dicta villa nostra sine juditio capietur, nisi latro
+                           aut homicida vel insidiator manifestus in sanguine, <lb/>vero infra
+                           treugam Dei et in foro fuso, sexaginta solidos accipiemus, extra treugam,
+                           novem solidos, tamen pro armis tractis super aliquem et pro jactu lapidis
+                           in aliquem sine percusione uterque decem libras dabit.</seg>
+                        <seg n="2">Si vero is qui trahit arma vel jactat lapidem super aliquem vel
+                           <lb/>sanguinem alicujus fudit in villa non postest facere cautionem,
+                           corpus ejus in lege tenebitur usque ad satisfactionem.</seg>
+                        <seg n="3">Lis si oritur in villa, tunc illi qui non sunt de lite nec de
+                           altera parte fuerunt, per sacramentum quod nobis et ville fecerunt
+                           requisiti, dicent veritatem et secundum reportationem eorum <lb/>nobis
+                           fiet emenda et illi qui injuriam passus est, quicumque et in dicta villa
+                           ictum fecerit, omnes qui id viderint et ibi aderunt, illum retinere
+                           debent usque ad presentiam nostram. </seg>
+                        <seg n="4">Si vero hii qui eum retinere vellent indigerent auxilio, omnes
+                           illi quos ipsi vocarent et eos juvare nollent et omnes <lb/>illi qui ibi
+                           presentes fuerint et hoc viderint et audierint nec auxilium quod talis
+                           retineatur prestiterint, unusquisque eorum super hoc convictus dabit
+                           nobis sexaginta solidos pro emenda. </seg>
+                        <seg n="5">In predicta quoque villa habemus bannum nostrum quod possumus
+                           vendere octo modios vini ad mensuram Novicastri ad majus precium
+                           <lb/>quam vendi solet aliud, cupam vini denario uno, dummodo vinum sit
+                           competens et hoc quocumque tempore voluerimus a tempore videmiarum usque
+                           ad tempus quo capiemus bannum nostrum. </seg>
+                        <seg n="6">Debemus enim nos vel nuncius noster in dicta villa ponere bannum
+                           nostrum. </seg>
+                        <seg n="7">Debemus quoque apponere custodes in vineis et <lb/>bannum
+                           similiter vindemiandi. </seg>
+                        <seg n="8">Quilibet tabernarius pro quolibet modio vini quod vendet in
+                           taberna dabit nobis unum denarium et pro quolibet vase seu dolio,
+                           quantecumque sit magnitudinis et capacitatis, unum bicharium seu quartam
+                           dabit vini. </seg>
+                        <seg n="9">Habemus etiam in dicta villa mensuram que minagium <lb/>dicitur
+                           et libram seu pondus quintallus vocatur tam super extraneos quam supra
+                           burgenses&#160;; insuper de quolibet genere biadi, de uno quoque modio
+                           unam mensuram accipiemus preter avenam. </seg>
+                        <seg n="10">De quolibet etiam bove vel vaca venditis in macello quatuor
+                           denarios et linguam&#160;; pro porco duos denarios&#160;; pro berna seu
+                           <lb/> bacone unum denarium&#160;; pro ariete vel ove unum denarium&#160;;
+                           pro hirco vel capra obolum tantum accipiemus. </seg>
+                        <seg n="11">Quilibet pistor seu bolengesii singulis annis debent nobis
+                           octodecim denarios die Cene nec debent luctari in modio biadi plusquam
+                           sexdecim denarios. </seg>
+                        <seg n="12">Si vero suspecta sit quod fuerit plus lucrata, advocatus ipsius
+                           <lb/>jurare debet quod plus lucrata non sit&#160;; si autem jurare
+                           noluerit quatuor solidos dabit pro emenda. </seg>
+                        <seg n="13">Quilibet sutor habens stallum in foro dabit nobis annuatim
+                           quatuor paria calceorum nec de melioribus nec de pejoribus, hiis
+                           temporibus videlicet ad nativitatem Domini, unum par, ad Pascha, unum
+                           par, ad festum <lb/>beati Johannis, unum par, et unum par ad festum beati
+                           Gally.</seg>
+                        <seg n="14">Quicumque faber residenciam fecerit in dicta villa quolibet anno
+                           dabit nobis duodecim ferramenta equi in cena Domini propter
+                           vassallos.</seg>
+                        <seg n="15">Item debemus in dicta villa portarios de consilio burgensium
+                           ponere et mutare cum nobis displacuerint ad profectum <lb/>nostrum et
+                           ville&#160;; tamen claves debent de nobis tenere et burgenses tenentur
+                           ipsas procurare. </seg>
+                        <seg n="16">Si vero villa refectura vel bastimento indigeat, communitas
+                           ville id faciat is pro posse suo. </seg>
+                        <seg n="17">Insuper si custodia tempore guerre seu pacis dicta villa
+                           indigeat, dicti burgenses de consilio et mandato <lb/>nostro debent
+                           vigilles apponere et nichilominus mercedem ipsorum persolvere sine dampno
+                           nostro. </seg>
+                        <seg n="18">Preterea si qumque propriam guerram habere nos contingat,
+                           burgenses debent nos juvare sine tallie captione&#160;; debent etiam
+                           armaturas et equos habere burgenses, quilibet juxta facultatem suam et
+                           secundum consilium communitatis. </seg>
+                        <seg n="19">Item qum aliquam <lb/>de filiabus nostris maritari voluerimus
+                           aut aliquem de filiis nostris facere militem, juvare nos debent dicti
+                           burgenses secundum consilium communitatis et possibilitatem dicte ville. </seg>
+                        <seg n="20">Si qumque in aliquam villarum nostrarum veniremus et ibidem
+                           prandere, cenare voluerimus vel jacere et aliquis dictorum burgensium ibi
+                           fecerit residenciam, juvare tamen <lb/>debet persolvere nostras expensas
+                           cum aliis hominibus ejusdem ville&#160;; et si indigeremus de vecturis
+                           tali quis burgensis faciat residenciam extra villam, juvare debet ad
+                           vecturas cum hominibus ejusdem ville.</seg>
+                        <seg><!-- AB Favarger fait un saut de ligne mais pas de numérotation, je le hais. -->Insuper
+                           si aliquis burgensium predictorum habeat aliqua pecora extra villam illa
+                           debent nos juvare in vecturis faciendis. <lb/>
+                        </seg>
+                        <seg n="21">Preterea qumque voluerimus, quilibet burgensium residens extra
+                           villam 35 liberam debet redire ad ipsam et ibi facere residenciam post
+                           monicionem nostram sine qualicumque contradictione. </seg>
+                        <seg n="22">Nullus eciam burgensium debet facere alteri ville sacramentum
+                           absque licentia nostra speciali. Hoc addito in premissis de consensu et
+                           voluntate dictorum burgensium quod <lb/>omnia bona mobilia et immobilia
+                           illius burgensis qui tale sacramentum faceret sine nostra licentia,
+                           ubicumque inventa fuerint tam infra villam quam extra nostra sint et ad
+                           manum nostram redigantur libere absque reclamatione aliqua ab illo
+                           burgensi facienda et nichilominus corpus ejus nobis erit obligatum
+                           pristine servituti sicut fuerat <lb/>ante dictam libertatem. </seg>
+                        <seg n="23">Non debet etiam in dicta villa aliquis recipi in burgensem
+                           absque nostra licentia speciali&#160;; quod si factum fuerit, nos taliter
+                           receptum non reputabimus per burgensem. Et insuper quilibet eorum qui
+                           taliter reciperit aliquem in burgensem debet nobis ex lege sexaginta
+                           solidos pro emenda. </seg>
+                        <seg n="24">Casalia vero que sine edifficiis domorum fuerint per <lb/>tres
+                           annos nostra debent esse libera et quieta. </seg>
+                        <seg n="25">Insuper qui vineam suam quam de nobis jure possidet feodali sine
+                           cultura dimiserit, immediate per tres annos libere nostra erit. </seg>
+                        <seg n="26">Item nullus debet aliquid in dicta villa vel extra vadiare sine
+                           nostra vel castellani nostri licentia speciali. </seg>
+                        <seg n="27">Omnia vero simplicia et plena vadia summam <lb/>quatuor solidos
+                           excedere non debent. </seg>
+                        <seg n="28">In venditionibus vero vadiorum jus domini tale est quod omnia
+                           vadia seu pignora que sub ejus nomine pro cibariis, feno, avena et
+                           ferratura equorum capta fuerint seu obligata, indistructa conserventur ad
+                           annum et diem. </seg>
+                        <seg n="29">Omnis eciam qui injuste conqueritur de aliquo, quatuor solidos
+                           debet <lb/>domino, et illi quatuor de quo conqueritur injuste. </seg>
+                        <seg n="30">Nullius quoque testimonium in aliquo casu debet recipi vel
+                           approbari nisi de visu et auditu, sacramento nichilominus subsequto. </seg>
+                        <seg n="31">Quicumque etiam jus nostrum male dicatur reddidisse, nobis in
+                           quibuscumque redditibus nostris vel juribus, sacramento prestito, inmunis
+                           sit, si tamen alias pro <lb/>legitimo habeatur. </seg>
+                        <seg n="32">Si vero per duos vicinos legitimos accusatus fuerit ministris
+                           nostris et convictus jura nostra male reddidisse sexaginta solidos debit
+                           pro lege nec deinceps pro legitimo habeatur. </seg>
+                        <seg n="33">Omnis etiam qui pisces ad vendendum de foris attulerit, in
+                           macello debet vendere et si alibi vendiderit infra villam, quatuor
+                           <lb/>solidos debet pro lege. </seg>
+                        <seg n="34">Concedimus autem ut dicti burgenses possessiones suas scilicet
+                           domos, vineas, campos et prata libere et secure vendant aut inpignorent
+                           quibuscumque voluerint, salvis tamen juribus nostris et requisita
+                           licentia nostra, maxime de illis de quibus solvere nobis tenentur census
+                           sive <lb/>laudes et ventas, de venditis aut pro solido unum
+                           denarium&#160;; de impignoratis pro solido obolum accipiemus&#160;; de
+                           quibus duas partes solvere debet qui emit vel in pignus accipit, vendens
+                           vero vel inpignorans tertiam partem. </seg>
+                        <seg n="35">Si vero retinere voluerimus ea que venalia sunt vel de nofctro
+                           feodo <lb/>sunt, liberam de hoc habere debemus post omnibus facultatem. </seg>
+                        <seg n="36">Si autem aliquis res suas vendiderit vel inpignoraverit absque
+                           nostro consensu et postea alii vendit vel inpignorat, consensu nostro
+                           requisito pariter et obtento, ille qui sit venditum vel inpignoratum
+                           accipiet, per nos obtinebit illud <lb/>, alius vero amictet&#160;;
+                           poterit tamen debitum suum repetere si debitor tantum habeat aliunde,
+                           alioquin ab actione inanis excluditur. </seg>
+                        <seg n="37">Mutato etiam domino sua replacitare non debent.</seg>
+                        <seg n="38">Si autem aliqui burgenses obierint, heredes ipsorum sine
+                           replacito succedent in hereditatem, scilicet infra annum et diem <lb/>de
+                           manu domini reci pere debent. </seg>
+                        <seg n="39">Item si aliquis burgensium dicte ville obierit sine herede aut
+                           parentibus, ejus possessio tam mobilium quam immobilium nostra erit. Si
+                           autem habeat heredes aut parentes et illi fuerint absentes, usque ad
+                           annum et diem expectabuntur&#160;; quod si infra annum et diem
+                           hereditatem <lb/>suam non requisierint ut tenentur, hereditas nostra erit
+                           nisi legitima occasione fuerint detenti. </seg>
+                        <seg n="40">De religiosis etiam qui domos in dicta villa habuerint et jus
+                           burgensie, volumus quod gaudeant omnibus libertatibus, immunitatibus,
+                           defensionibus et manutenentia nostra sicut ceteri burgenses et
+                           nichilominus <lb/>ipsi et domus ipsorum sint liberi et absoluti, exempti
+                           penitus et quietati ab omnibus servitiis, exactionibus, talliis, juribus,
+                           consuetudinibus aliorum burgensium universorum sicut et in aliis
+                           civitatibus et villis ipsi et domus eorum a regibus et principibus sunt
+                           liberaliter emancipati, excepto quod seculares <lb/>qui in domibus eorum,
+                           quas in dicta villa nostra habent, commorantur et de familia eorum non
+                           fuerint, excubias sicut alii burgenses procurabunt. </seg>
+                        <seg n="41">De advenis autem quicumque ad dictam villam confugerit, dummodo
+                           non sit de hominibus nostris et a nemine requisitus per annum et diem,
+                           ibi moram fecerit et se <lb/>officialibus ville vel nobis representaverit
+                           et ad ea que communibus usibus sunt necessaria juverit burgenses,
+                           deinceps pro conburgense habeatur et nos cum ipsis manutenentiam
+                           exibebimus quam opportet. Si autem non juverit eos ad usus communes nec
+                           manutenentia ei exibebitur nec habebitur pro burgense <lb/>infra villam
+                           tanem pro auctoritate ville non permictemus ei dedecus inferri&#160;;
+                           extra villam vero si capitur vel occiditur non vindicabimus eum nec
+                           sequimur. </seg>
+                        <seg n="42">Si vero infra annum et diem is qui fecerit in villa predictas
+                           consuetudines ab aliquo requiratur vel <choice>
+                              <sic>inpetatur</sic>
+                              <corr>inpetratur</corr>
+                           </choice>, de ipso fiat ratio requirenti, tali modo videlicet quod si
+                           requirens <lb/>poterit probare per septem homines legitimos, qui non
+                           fuerint suspecti, quod fugitivus homo suus sit et de jure debeat sibi
+                           servitium et talliam, non tenebimus eum pro conburgense sed dabimus ei
+                           ducatum per diem et noctem unam infra quadraginta dies ut confugiat
+                           quocumque voluerit. </seg>
+                        <seg n="43">Si autem non requiratur infra anum <lb/>et diem, nos habebimus
+                           ipsum pro conburgense. </seg>
+                        <seg>Preterea omnia alia jura et consuetudines que in presenti carta posita
+                           non sunt secundum antiquas consuetudines Novicastri volumus ibidem
+                           observari sicut apud Novumcastrum servantur simpliciter et usitantur. Has
+                           autem consuetudines sive jura que in presenti continentur autentico per
+                           que predictos <lb/>burgenses nostros de <foreign xml:lang="fr"
+                              >Nygerols</foreign> constituimus et vocamus et quittatos ab omni
+                           exactione, tallia et extorsione, sacramento interposito, bona fide
+                           promittimus inviolabiliter observare, excepto quod officiales nostros dum
+                           officiis nostris presunt excipimus ne ipsis teneamur prestito sacramento
+                           quin nobis serviant de suo <lb/>proprio si servitia requisierimus ab
+                           eisdem vel si res nostras male tractaverint quin de male tractatis nobis
+                           reddant rationem et satifacio nobis fiat, successores nostri ad
+                           observantiam predictarum consuetudinum quando in hereditatem succedent
+                           tenebuntur promittere, prestito sacramento, ut ea que fecimus et
+                           promisimus in <lb/>premissis in perpetuum incuncussa et illibata studeant
+                           observare. Quod si forte nos vel nostri successores premissa statuta in
+                           aliquo violaremus vel eciam successores nostri ipsis consuetudinibus in
+                           aliquo contradicerent et contrairent, venerabilem dominum .. episcopum
+                           lausannensem et ..  capitulum Novicastri super hoc judices constituimus
+                           et <lb/>dominos, volentes ut totam terram nostram et successorum
+                           nostrorum preter Novumcastrum ecclesiastico subiciant interdicto, donec
+                           predicte consuetudines et jura a nobis et successoribus nostris in
+                           integrum observentur et sacramenta prestentur, addicientes quod iidem
+                           judices nobis et nostris successoribus per eamdem censuram justitiam
+                           <lb/>de ipsis burgensibus faciant, si a premissis consuetudinibus, quibus
+                           erga nos tenentur astricti, attemptaverint resilire. Ut autem hec rata
+                           permaneant imposterum et inconvulsa, presentem cartam ad majorem
+                           evidentiam et majus robur premissorum, sigillum videlicet venerabilis
+                           patris nostri <persName>Johannis</persName>, Dei gratia episcopi
+                           lausannensis nec non venerabilis in Christo, <persName>Ulrici</persName>,
+                           abbatis <lb/>de Frinisperg, ordinis cisterciensis,
+                              <persName>Aymonis</persName>, abbatis Herlacensis, ordinis sancti
+                           Benedicti et capituli Novicastri et inferius nobilis viri domini
+                              <persName>Bertholdi</persName>, patris nostri, domini Novicastri et
+                           nostro fecimus roborari. Actum et datum apud Novumcastrum, anno
+                              <date>gratie millesimo ducentissimo sexagesimo, mense aprilis, tertie
+                              indictionis</date>.</seg></quote>
+                     <seg>Nos <lb/>autem <persName>Rodulphus</persName> prenominatus,<note>Note
+                           Favarger&#160;1982&#160;: Il s'agit de Rollin, mort en&#160;1343, époux
+                           d'Eléonore de Savoie et père du comte Louis.</note> comes et et dominus
+                        Novicastri, filius quondam <persName>Amedei</persName> supradicti qui dictas
+                        consuetudines et jura prout presenti carte sunt inserte et contente
+                        confirmamus et eorum cartam innovamus, easdem consuetudines et jura
+                        promittimus pro nobis et nostris heredibus 5 bona fide, sacramentoque
+                        interposito, in perpetuum et <lb/>inviolabiliter observare nec contra venire
+                        in futurum et ad universa predicta et singula observanda, reverendum in
+                        Christo patrem ac dominum .. episcopum lausannensem et venerabile ..
+                        capitulum ecclesie Novicastri judices et dominos constituimus qui nos et
+                        successores nostros, si in aliquo de predictis contrairemus, possint
+                        compellere censura prenotata et dictos burgenses <lb/>censura simili si in
+                        aliquo contrairent de predictis. Nos autem <abbr>G</abbr>, Dei gratia episcopus
+                        lausannensis et capitulum ecclesie Novicastri ad preces dictarum partium
+                        videlicet domini <persName>Rodulphi</persName> comitis et domini Novicastri
+                        et dictorum burgensium de <foreign xml:lang="fr">Nygirols</foreign> dictas
+                        consuetudines et jura ac libertates in nostra protectione et tutela
+                        recipimus et recepimus. <lb/>Et promittimus bona fide, partem violantem
+                        dictas consuetudines vel in aliquo contravenientem ad querimoniam alterius
+                        partis censura predicta cohercere prout superius declaratur. In quorum
+                        omnium testimonium et roboris firmitatem, nos sepedictus Rodulphus comes,
+                        sigillum reverendi in Christo patris domini <abbr>G</abbr>, Dei gratia episcopi
+                        lausannensis predicti, religiosorum virorum de Aurora et Herlacensis
+                        abbatum, venerabilis capituli ecclesie Novicastri unacum signo nostro et
+                        signo domine Helienor uxoris nostre supplicavimus et fecimus precibus
+                        nostris presenti carte innovationis et confirmationis apponi ut predicta
+                        valleant in futurum firma et illibata permanere. Actum et datum <lb/>in
+                        Novocastro, <date>mense septembris, anno gratie millesimo trecentesimo nono,
+                           indictione septima</date>. In cujus visionis testimonium, nos .. abbas
+                        Herlacensis et capitulum ecclesie Novicastri, prefata signa nostra prout
+                        duximus apponenda. Datum et actum in Novocastro, <date>mense octobris, anno
+                           Domini millesimo trecentesimo quadragesimo.</date>
+                        <lb/>Nos igitur Ludovicus, comes et dominus Novicastri, scientes et
+                        spontanei supplicationi predictorum burgensium et rectorum ville nostre
+                           <foreign xml:lang="fr">dou Landeron</foreign> tanquam rationi
+                        consonnanti, annuere volentes et predecessorum nostrorum sequi vestigia
+                        eorumque bona facta approbare, libertatem et immunitatem ab ipsis collatas
+                        <lb/>firmas in inviolabiles imperpetuum futuris temporibus predictis
+                        burgensibus nostris <foreign xml:lang="fr">dou Landeron</foreign>
+                        presentibus et futurus volumus permanere ipsasque pro nobis, heredibus et
+                        successoribus nostris confirmamus, auctorizamus et rattifficamus et ipsas
+                        bono zelo cum ipsis burgensibus nostris habito emerito <lb/>presentium per
+                        tenorem pro nobis, heredibus et successoribus nostris innovamus, volentes et
+                        concedentes pro nobis, heredibus et successoribus nostris predictis nostris
+                        burgensibus <foreign xml:lang="fr">dou Landeron</foreign>, qui nunc sunt et
+                        qui pro tempore fuerint, quatinus presens nostra confirmatio tantum sibi et
+                        suis valeat et valere <lb/>possit in juditio et extra, quantum si haberent
+                        proprium originale dictarum suarum libertatum et qui aliam litteram dictarum
+                        suarum libertatum nobis nec alicui successorum nostrorum in futurum
+                        ostendere teneantur nisi litteram hanc presentem vel vidimus earumdem.</seg>
+                     <seg>Item ultra libertates predictas <lb/>per predecessores nostros predictis
+                        gentibus nostris concessas nunc de novo pro nobis et nostris heredibus, nos
+                        Ludovicus predictus damus et concedimus per présentes dictis burgensibus
+                        nostris ville nostre <foreign xml:lang="fr">dou Landeron</foreign> et suis
+                        heredibus tanquam benemeritis imperpetuum et irrivocabiliter, dona<lb
+                           break="no"/>tione facta inter vivos perpetuo valitura, pratum nostrum
+                        dictum de <foreign xml:lang="fr">l'ospitaul </foreign>in quantum se extendit
+                        in longitudine et latitudine, situm inter iter publicum quod tendit a villa
+                        nostra <foreign xml:lang="fr">Crissié </foreign>de ad Novam Villam
+                        episcopatus basiliensis ex una parte, et ortos ipsius <lb/>ville nostre
+                           <foreign xml:lang="fr">dou Landeron</foreign> ex altera, ad ponendum per
+                        eosdem et suas ad comodum evidentem totius communitatis ville nostre
+                           <foreign xml:lang="fr">dou Landeron</foreign> predicte sive ponatur ad
+                        pascua vel ad census.</seg>
+                     <seg> Item cum nos dictus <persName>Ludovicus</persName> edificare vellemus in
+                        medio <lb/>dicte ville nostre <foreign xml:lang="fr">dou Landeron</foreign>
+                        plura edificia et facere quamdam carreriam prout protenditur a magna porta
+                        anteriori ipsius ville nostre <foreign xml:lang="fr">dou Landeron</foreign>
+                        de longitudine, ad posterlam sitam in muros bastimenti ipsius ville prope
+                        domum Johannis <lb/>de <foreign xml:lang="fr">Maches</foreign>, domicelli,
+                        predicti <foreign xml:lang="fr">dou Landeron</foreign> dampnum ipsorum,
+                        heredum et successorum suorum non modicum in futurum tam propter incendia
+                        quam alia pericula eminentia inspicientes apparere, nobis humiliter
+                        supplicarunt iidem nostri burgenses <foreign xml:lang="fr">dou
+                           Landeron</foreign> ut <lb/>a predictis faciendis cessare vellemus, maxime
+                        cum parati essent et sint totum locum quem edomificare <choice>
+                           <sic>vellebamus</sic>
+                           <corr>vollebamus</corr>
+                        </choice> a dicta porta anteriori per medium dicte ville <foreign
+                           xml:lang="fr">dou Landeron</foreign> usque ad dictam posterlam siccum
+                        tenere et cum expensis <lb/>communitatis ipsius ville nostre <foreign
+                           xml:lang="fr">dou Landeron</foreign> levare de grossis lapidibus et
+                        arena, nos dictus Ludovicus, comes, supplicationi ipsorum, amore quem erga
+                        ipsos gerimus annuentes, promittimus, pro nobis et nostris heredibus bona
+                        fide, presentem per tenorem, <lb/>predictis gentibus nostris <foreign
+                           xml:lang="fr">dou Landeron</foreign> et eorum heredibus, dictum locum a
+                        dicta porta anteriori dou Landeron usque ad dictam posterlam non edificare
+                        nec facere edificari per nos vel per alium in futurum, dum tamen ipsum locum
+                        a dicta porta anteriori <lb/>usque ad dictam posterlam levent de grossis
+                        lapidibus et arena ita quod nunc et imperpetuum dictum locum teneant siccum,
+                        furno tamen nostro in medio dicte ville nostre <foreign xml:lang="fr">dou
+                           Landeron</foreign> existente, nobis semper et nostris heredibus, ibidem
+                        dum nobis placuerit, <lb/>perpetuo et pacifice remanente. Promittentes nos
+                        dictus Ludovicus, comes et dominus Novicastri, qui dictas consuetudines et
+                        jura, prout presenti carte sunt inserte et contente, iterum confirmamus et
+                        eorum cartam innovamus, easdem consuetudines et jura <lb/>promittimus pro
+                        nobis nostrisque heredibus et successoribus bona fide, sacramentoque
+                        interposito, imperpetuum et inviolabiliter observare nec contravenire in
+                        futurum. Et ad universa et singula predicta observanda, reverendum in
+                        Christo patrem et dominum, dominum, .. episcopum lausannensem <lb/>et
+                        venerabile capitulum ecclesie Novicastri, judices et dominos constituimus,
+                        qui nos et successores nostros, si in aliquo de predictis contrairemus,
+                        possint compellere censura prenotata et dictos burgenses censura simili, si
+                        in aliquo contrairent de predictis. Nos vero <lb/>Franciscus, Dei gratia,
+                        episcopus lausannensis et capitulum ecclesie Novicastri ad preces dictarum
+                        partium videlicet domini Ludovici comitis et domini Novicastri et dictorum
+                        burgensium <foreign xml:lang="fr">dou Landeron</foreign>, dictas
+                        consuetudines, jurra et libertates in nostra protectione et tutela
+                        <lb/>recepimus et recipimus. Et promittimus bona fide queremoniam alterius
+                        partis censura predicta cohercere prout superius declaratur. In quorum
+                        omnium testimonium et roboris firmatatem, <lb/>nos sepedictus Ludovicus,
+                        comes, sigillum reverendi in Christo patris predictu domini Francisci, Dei
+                        gratia lausannensis episcopi, religiosorum virorum de Aurora et Herlacensis
+                        abbatis, venerabilis capituli ecclesie Novicastri una cum signo nostro et
+                        signo domine Katherine, predilecte consortis <lb/>nostre ac dilecti filii
+                        nostri Johannis de Novocastro supplicavimus et fecimus precibus nostris
+                        presenti carte innovationis et confirmationis apponi ut predicta valeant in
+                        futurum firma et illibata permanere. Actum et datum anno, die, mense, loco
+                        et presentibus <lb/>quibus supra in primis lineis presentis instrumenti <gap
+                           reason="missing"/>. Constat nobis Ludovico comiti de rasura in villa tunc
+                        illi qui non sunt de lite, que rasura est in vicesima prima linea presentis
+                        instrumenti et est sub sigillo nostro. Datum ut supra.</seg></p>
+                  <p><seg>
+                        <lb/>Duplicatum est presens instrumentum videlicet unum pro domino
+                           <persName> Ludovico</persName> comite Novicastri et aliud pro burgensibus
+                           <foreign xml:lang="fr">de Landeron</foreign>.</seg>
+                     <seg>Ita est</seg>
+                  </p>
+                  <signed>
+                     <persName>C. de Pomer</persName>.
+                  </signed>
+               </div>
+               <pb n="v" facs="LANDERON_A_2_1v"/>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>
+                  Original sur parchemin avec sept sceaux pendants sur simple queue, Archives du Landeron, A N<hi rend="sup">o</hi>&#160;2.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Monuments</hi>, II, N<hi rend="sup">o</hi>&#160;523, p.&#160;639-646.
+            </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

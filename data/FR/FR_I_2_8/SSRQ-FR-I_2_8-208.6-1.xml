@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-208.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 283 (1732), S. 46</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 283 (1732), p. 46</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Jacques du St-Esprit, Marguerite Repond – Urteil</head>
+					<head xml:lang="fr">Jean Jacques du St-Esprit, Marguerite Repond – Jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1732-01-31">31<hi rend="sup">ten</hi> <foreign xml:lang="la">januarii</foreign> [1732]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Procedure criminele de <placeName ref="loc008470.07">Gruyere</placeName></p>
+						<p><lb/>La justice inferieure ayant reconnu que le detenue <persName>Jean Jaques
+							<lb/>du S<hi rend="sup">t</hi> Esprit</persName><note>Es ist unklar, ob es sich um einen Ruf- oder um einen Fantasienamen handelt.</note>, qui se dit estre <term ref="lem019308.01">sorcier</term>, n’estre de bon sens par ses
+							<lb/>variations ordinaires, l’ont condamné à etre <term ref="lem019518.02">exilé</term> de cette
+						<lb/>souveraineté. Daß undergerichtliche <term ref="lem001289.07">urthel</term> ist <foreign xml:lang="la">in toto</foreign> bestättiget.</p>
+						<p><lb/>Plus</p>
+						<p><lb/>contre la detenüe <persName ref="per028136a.01">Margueritte Repond</persName>, qu’at etée accusée
+						<lb/><term ref="lem019389.01">sorcière</term>. Laditte justice l’ayant examinée au demi <term ref="lem018232.01">quintal</term>,
+						<lb/>laquelle a perceverer à la negative, et n’ayant etée convincue
+						<lb/>d’aucun fortfait, l’at deliberée. Soll auff <date dur-iso="P15Y">fünfzehen jahren</date>
+						<lb/>sie <term ref="lem003474.01">verbannisierdt</term> werden, mit schwerung der <term ref="lem001262.18">urpheds</term>
+						<lb/>in zahlung der kösten, wan sie zu erheben.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

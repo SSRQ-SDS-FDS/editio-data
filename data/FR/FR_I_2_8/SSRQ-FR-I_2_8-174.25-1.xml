@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-174.25-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 1r–1v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 1r–1v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Cossonay-Morand – Verhör und Urteil</head>
+					<head xml:lang="fr">Clauda Cossonay-Morand – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1678-09-30" to="1678-10-01"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="1r"/><p><lb/><foreign xml:lang="la"><origDate when="1678-09">1678 in <choice><abbr>7<hi rend="sup">bri</hi></abbr><expan>septembri</expan></choice></origDate></foreign>
+						<seg><lb/><placeName ref="loc008105">Keller</placeName>, den <origDate when="1678-09-13"><sic>13</sic><hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> 1678</origDate><note>Cette date semble erronnée. Le procès-verbal suit probablement lʼinstruction donnée le <date when="1678-09-30">30 septembre 1678</date> (voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-174.24-1">SSRQ FR I/2/8 174.24-1</ref>) et devrait donc dater du même jour.
+							En outre, le jugement intervient le lendemain, cʼest-à-dire le <date when="1678-10-01">1<hi rend="sup">er</hi> octobre</date> (voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-174.26-1">SSRQ FR I/2/8 174.26-1</ref>).</note></seg>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr großweibel <persName ref="per027527a.01">Peterman Reynold</persName></seg>
+							<seg><lb/>Der räthen herr <persName ref="per026616a.01">Frantz Peter Gottraw</persName>, herr <persName ref="per027528a.03">Frantz Joseph Fegli</persName> <term ref="lem018597.02">burgermeister</term></seg>
+							<seg><lb/>Der burgeren <abbr>h</abbr> <persName ref="per026532a.04">Görg Antoni Werli</persName></seg></p>
+						<p><lb/><persName ref="per026681a.01">Clauda Moran</persName> de <placeName ref="loc007983.04">Noreya</placeName>, femme de <persName ref="per026680a.04">Pierre Cossonez</persName>
+						<lb/>dudit lieu, detenue sur soupçons de <term ref="lem018521.01">sorcellerie</term>,
+						<lb/>interrogée sur le subject de sa detention, dict
+						<lb/>nʼen rien sçavoir, sinon que ce soit à raison
+						<lb/>de ce quʼelle sʼest absentée des terres de Leurs
+						<lb/><choice><abbr>Exclles</abbr><expan>Excellences</expan></choice> depuis y a environ <date dur-iso="P1Y">un an</date>&#160;; que sa mere<note>Gemeint ist <persName ref="per017167">Elisabeth Morand-Favre</persName>.</note>
+							<lb/>en ayant esté <term ref="lem019512.03">bannie</term>, elle lʼa accompagnée
+						<lb/>et servie jusques à sa mort survenue environ
+						<lb/><date when="1678-04-10">Pasques</date> aux terre de <placeName ref="loc000738.08">Soleure</placeName>, en bonne crestienne
+						<lb/>et <term ref="lem019534.03">catholicque</term> comme dict en avoir ses attestations.</p>
+						<p><lb/>De plus interrogée sur les poin<damage agent="hole">ts d</damage>e lʼ<term ref="lem018363">inquisition</term>
+						<lb/>prise par <choice><abbr>mons</abbr><expan>monsieur</expan></choice> le ballif de <placeName ref="loc007889.09">Montagni</placeName><note>Gemeint ist <persName ref="per027534a">Protasius Bürki</persName>.</note> le 26<hi rend="sup">me</hi>
+						<lb/>du present, notamment sur lʼaveuglement survenu
+						<lb/>à la mere de <persName>Jean Duret</persName>, a declaré nʼen rien sçavoir
+						<lb/>et quʼelle est desja morte y a passé <date dur-iso="P30Y">trente ans</date>.</p>
+						<p><lb/>De mesme a nié dʼavoir touché sur lʼespaulle
+						<lb/><persName>Jean Guisolan</persName> et le reste de sa deposition.</p>
+						<p><lb/>Nie la 3<hi rend="sup">me</hi> deposition quʼon lʼaye appellée <term ref="lem014908.07">vaudeisa</term>
+						<lb/>sans en avoir procuré reparation, disant ne lʼavoir
+						<lb/>entendu de personne que du moderne vicaire
+						<lb/>de <placeName ref="loc008168.04">Préz</placeName>, duquel voulloit avoir reparation, mais
+						<lb/>lors quʼelle demandoit justice chez le <choice><abbr>r<hi rend="sup">me</hi></abbr><expan>reverendissime</expan></choice> evesque
+						<lb/>on luy fermoit la porte.</p>
+						<p><lb/>Touchant la deposition de <persName>Jacques Robattel</persName>, <term ref="lem015549.13">confesse</term> dʼavoir
+						<lb/>dict les indecentes paroles y contenues, mais les expli<lb break="no"/>que disant quʼelle entendoit que dʼautant <del>elle</del>
+						<pb n="1v"/> <lb/>la femme de laquelle il luy parloit se trouve enceinte&#160;;
+						<lb/>si elle eust bien gardé sa bouticque, elle ne le seroit.</p>
+						<p>Le 5<hi rend="sup">me</hi> article estant bien <term ref="lem019267.02">inveteré</term> et de petite importance
+						<lb/>nʼa esté consideré, ny trouvé à propos dʼestre sur iceluy
+						<lb/>interrogée.</p>
+						<p><lb/>Nie entierement la deposition dudit <persName>Robattel</persName> touchant
+						<lb/>sa fille.</p>
+						<p><lb/>Nie dʼavoir touché <persName>Jacques Guisolan</persName> par derriere. <term ref="lem015549.13">Confesse</term>
+						<lb/>que sa femme lʼa appellée <term ref="lem014908.07">vaudeisa</term>, mais quʼelle lʼen a
+						<lb/>dementie, et luy a dict quʼelle estoit plus <term ref="lem014908.13">vaudaisa</term>
+						<lb/>quʼelle, et que ce nʼest point occasion dedites paroles
+						<lb/>quʼelle est sortie des terres de <choice><abbr>L E</abbr><expan>Leurs Excellences</expan></choice>, ains pour
+						<lb/>servir sa mere comme elle a faict.</p>
+						<p><lb/>Nie dʼavoir demandé du <term ref="lem015011.04">laict</term> à la servante dudit
+						<lb/><persName>Guisoland</persName>, ny de lʼavoir menacée, au contraire
+						<lb/>asseure quʼelle luy en a donné une fois dans
+							<lb/>leur <term>pugisina</term><note>Le sens de ce mot demeure incertain. Il pourrait désigner un <term ref="lem019431.01">pugissin</term>.</note>.</p>
+						<p><lb/>Sur la deposition de <persName>Pierre Jacqua</persName>, nʼa esté interro<lb break="no"/>gée pui<damage agent="hole">sque</damage> cʼest la mesme que celle dudit <persName>Robattel</persName>,
+						<lb/>quʼelle a explicqué par la grossesse de la femme
+						<lb/>de laquelle on luy parloit.</p>
+						<p><lb/>Asserant finallement que ceux qui la soupçonnent
+						<lb/>de <term ref="lem018521">sorcellerie</term> luy font tort, quʼelle est femme
+						<lb/>de bien et dʼhonneur, et vit en bonne crestienne
+						<lb/>et <term ref="lem019534.03">catholicque</term>, se <term ref="lem019463.02">confessant</term> toutes les bonnes
+						<lb/>festes, comme <subst><del>en a</del><add place="above">dict avoir</add></subst> les attestations du reverend
+						<lb/>pere <persName>Jacques Reyff</persName>, demandant au surplus par<lb break="no"/>don à Dieu et à Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice> pour ses autres
+						<lb/><term ref="lem019539.04">pechez</term> et deffauts.</p>
+						<p><lb/><add place="bottom" hand="other hand"><choice><abbr>M G G H H</abbr><expan>Meine gnädigen herren</expan></choice> des <term ref="lem019378.02">inneren raths</term> haben nach verhör unndt
+						<lb/><unclear>erhurter</unclear> obiger schrifftlicher <term ref="lem005044">examination</term> die gefangene
+						<lb/><persName ref="per026681a.02">Cloda Morand</persName> <term ref="lem007301.04">ledig erkent</term>, mit schwörung des <term ref="lem001262.19">urpfeedts</term>
+						<lb/>unndt starcker mahnung per <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027527">Petermann Reynold</persName>.</note>, sich unklagbar<lb break="no"/>lichen zu verhalten.
+							<foreign xml:lang="la">Actum <origDate when="1678-10-01">i<hi rend="sup">ma</hi> octobris <hi rend="underline">1678</hi></origDate></foreign>.
+						<lb/>Rathschryber zu
+						<lb/><placeName ref="loc001060.02">Fryburg</placeName>.</add></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p></p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.20-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 70–71</idno>
+     </msIdentifier>
+     <head>Plaintes</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004436"></term>
+     <term ref="key003026"></term>
+     <term ref="key000366"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="70" facs="AEN_MJ_17_070_071"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chapp.</abbr><expan>Chapitre</expan></choice> XX.
+       <lb/>De plaintifs
+      </head>
+      <p>
+       <lb/><app>
+        <lem>Plaintifs se font</lem>
+        <rdg wit="AVN Q41, p. 28">Plaintif se fait</rdg>
+       </app> quand <lb/>quelcun est molesté <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 28">et fasché</rdg>
+       </app> en sa <lb/>possession, s’il en est <app>
+        <lem><term ref="lem015994.06">degetté</term></lem>
+        <rdg wit="AVN Q41, p. 28"><term ref="lem015994.08">dejetté</term></rdg>
+       </app> par <lb/>force ou autre moyen, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 28">soit</rdg>
+       </app> en prenant <lb/>les fruicts, ou se mettant dans la <lb/>possession de son authorité
+       privée <lb/>et sans figure de justice. <term ref="lem017828">Item</term> aussi <lb/>quand
+       quelcun est injurié, frappé,  <lb/><add place="below" type="catchword">battu</add>
+       <pb n="71" facs="AEN_MJ_17_070_071"/>
+       <lb/>battu, outragé, spolié, ou <app>
+        <lem>qu’</lem>
+        <rdg wit="AVN Q41, p. 28">quand</rdg>
+       </app>il luy <lb/><app>
+        <lem>soit</lem>
+        <rdg wit="AVN Q41, p. 28">a esté</rdg>
+       </app> fait quelque <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 28">tort, ou</rdg>
+       </app> violence <app>
+        <lem>ou</lem>
+        <rdg>et</rdg>
+       </app> force, <lb/>soit <app>
+        <lem>a</lem>
+        <rdg wit="AVN Q41, p. 28">en</rdg>
+       </app> sa personne, famille, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 28">ou</rdg>
+       </app> biens <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 28">et</rdg>
+       </app>
+       <lb/>moyens. Il peut aussy user de plaintif, <lb/>et en se plaignant s’il est estranger,
+       <lb/>ou sans bien <term ref="lem017830.02">riere</term> ceste souverayneté, <lb/>doit donner
+        <term ref="lem017936">fiance</term> du lieu. Et a deffaut <lb/>de ce, faisant promesse sur
+       le baston <lb/>judicial, entant que l’officier le trouve <lb/>a propos, luy pourra servir de
+        <term ref="lem017936">fiance</term>
+       <lb/>pour le <term ref="lem018031">ban</term> du plaintif. Et qui se <lb/>trouve au tort en
+       poursuyvant par <lb/>apres le faict de plaintif, paye <app>
+        <lem><choice>
+          <abbr>led</abbr>
+          <expan>ledit</expan>
+         </choice></lem>
+        <rdg wit="AVN Q41, p. 28">le</rdg>
+       </app>
+       <lb/><term ref="lem018031">ban</term> ou amende avec les missions <lb/>et despendz.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

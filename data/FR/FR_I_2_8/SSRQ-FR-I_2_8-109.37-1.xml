@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.37-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 195 (1644), S. 311</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 195 (1644), p. 311</idno>
+					</msIdentifier>
+					<head xml:lang="de"> Madeleine Bochard, Jenon Bodin-Monde, Claudine Girard – Anweisung</head>
+					<head xml:lang="fr"> Madeleine Bochard, Jenon Bodin-Monde, Claudine Girard – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-08-23">23 <foreign xml:lang="la"><choice><abbr>aug</abbr><expan>augusti</expan></choice></foreign> 1644</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Process <placeName ref="loc007931.02">Cugie</placeName></p>
+						<p><lb/><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						<p><lb/>Process <foreign xml:lang="la">ibidem</foreign></p>
+						<p><lb/><persName ref="per015781a.01">Magdelaine Bochart</persName> de <placeName ref="loc007970">Montet</placeName>, <persName ref="per015753a.01">Genon Monde</persName>, vefve de
+							<lb/><persName ref="per015755a.01">Franceois Bodin</persName> de <placeName ref="loc007932.02">Visin</placeName>, <persName ref="per015785a.01">Claudina</persName>, vefve de <persName ref="per015788a">Claude
+								<lb/>Girard</persName><note>Le greffier le nomme François dans le procès-verbal du <date when="1644-09-16">19 septembre</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-109.40-1">SSRQ FR I/2/8 109.40-1</ref>.</note> de <placeName ref="loc007970">Montet</placeName>, touttes <term ref="lem015356.10">acculpees</term> et soustenues <term ref="lem019389.02">sorciere</term>
+							<lb/>par ladite exequutee<note>Il s’agit de <persName ref="per016901">Catherine Pochon</persName>, femme «&#160;<term ref="lem019471.01">lubrique</term> et <term ref="lem019434.02">larronesse</term>&#160;» et «&#160;<term ref="lem019434.03">laronaisse</term> et <term ref="lem019389.02">sorciere</term>&#160;», condamnée au bûcher à Cugy, le <date when="1644-08-07">17 août 1644</date>. Voir <bibl><ref target="http://www2.fr.ch/aef_query/detail.aspx?ID=71624">StAFR, Ratsmanual 195</ref> (1644), S. 305, 307</bibl>. Son procès n’est pas passé par Fribourg et n’est donc pas relaté dans les Thurnrodel.</note> et <persName ref="per015785a.02">Claudine Gerardt</persName>, laquelle couche
+							<lb/>tousjours avec son filz aagé de <measure type="age" quantity="25" unit="year">25 ans</measure> et plus, adjugee
+							<lb/>au <term ref="lem018305.03">droict imperial</term>. Sollendt lär <term ref="lem016150">uffzogen</term> werden. <term ref="lem011468">Be<lb break="no"/>kennendt</term> sie nichts, ingestelt biß die obige <term ref="lem006574.06">gevoltert</term>
+							<lb/>worden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

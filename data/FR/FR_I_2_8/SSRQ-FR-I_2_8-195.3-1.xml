@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-195.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 380–382</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 380–382</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marie Blanc-Edouard – Verhör</head>
+					<head xml:lang="fr">Marie Blanc-Edouard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1673-08-18"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="380"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1673-08-18">18 <foreign xml:lang="la">augusti</foreign> <hi rend="underline">1673</hi></origDate></p>
+						<p><seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026535a">Hans Peter Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per026537a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per026539a.01">Dageth</persName></seg>
+							<seg><lb/><persName ref="per026547a.01"><choice><abbr>Jg</abbr><expan>Jgnaz</expan></choice> Vonderweydt</persName>, <persName ref="per026544a.01"><choice><abbr>B L</abbr><expan>Beat Ludwig</expan></choice> Techterman</persName></seg></p>
+						<p><lb/><persName ref="per021194a">Marie</persName>, femme de <persName ref="per021196a">Claude Blanc dict l’aveugle</persName>, de <placeName ref="loc007747">Russy</placeName>, et fille
+						<lb/>d’<persName ref="per021201a.01">Isaye Eduard</persName> de <placeName ref="loc012855.02">Chesar</placeName> du <placeName ref="loc008526.03">Vaux de Ruz</placeName> en sa comtée
+						<lb/>de <placeName ref="loc005950.05">Vallangin</placeName>, agée environ les <measure type="age" quantity="60" unit="year">trois vingt ans</measure><note>Lors de son
+							interrogatoire du <date when="1673-09-09">9 septembre</date>, Marie déclare être âgée de 80 ans. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-195.17-1">SSRQ FR I/2/8 195.17-1</ref>.</note>, ast <term ref="lem015549.07">confessé</term> d’avoir
+						<lb/>esté elevée depuis le berseau à <placeName ref="loc008483.05">Crisié</placeName>, ayant environ les <date dur-iso="P37Y">37</date>
+						<lb/>ou <date dur-iso="P38Y">38 ans</date> qu’elle est venue à <placeName ref="loc007747">Russy</placeName>, c’estant rendue, en
+							<lb/>ce temps la, <term ref="lem019533.01">catholique</term> auprès des <abbr>RR</abbr> peres <term ref="lem019403.02">capucins</term> de
+						<lb/>ceste ville&#160;; et que la maraistre de son mari, appellée
+						<lb/><persName>la grossa Clauda</persName>, luy avoit donné les <term ref="lem017091.06">ennemis</term>
+					<pb n="381"/><lb/>dans uns souppe de pois verdet, son mari en ayant mangé, re<lb break="no"/>vomit&#160;; et que domp <persName>Girard</persName>, curé de
+							<placeName ref="loc008130.10">L’Eschille</placeName>, l’auroit con<lb break="no"/>jurée en sa chappelle de <placeName ref="loc007616.01">Chandon</placeName>, et que par l’intercession
+							<lb/>de monseignieur <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <persName ref="per029410a.01">Jangon</persName><note>L’église primitive de Chandon
+								(X<hi rend="sup">e</hi> siècle), tout comme celle qui fut reconstruite au XVI<hi rend="sup">e</hi> siècle,
+								étaient dédiées à saint <persName ref="per029410a.02">Gengon</persName>. L’église actuelle, bâtie en 1872, l’est aussi.</note> et aultres reliques, elle seroit
+						<lb/>esté delivrée. Et come on la vollu saisir par cy devant
+						<lb/>pour la mener en prison, elle menoit une lessive, et
+						<lb/><persName>Jean Corti</persName>, de <placeName ref="loc007747">Russy</placeName>, compere de son mari, ayant ad<lb break="no"/>verti ledit mari qu’on la voloit prendre prisonniere,
+						<lb/>elle se seroit sur cest advis sauvée chez un verrier
+						<lb/>d’<placeName ref="loc007603.10">Avanche</placeName>&#160;; et de la, elle fust environ les <date dur-iso="P5W">5 septmaines</date>
+						<lb/>à <placeName ref="loc013005.02">Mortaux</placeName> chez un homme appellé <placeName>Richard</placeName>, lequel est
+						<lb/>presentement mort. De la, ayant donné le tour au
+							<lb/>lac, est parvenue à <placeName ref="loc007618.03">Yverdon</placeName>, demandant l’<term ref="lem021653.06">ausmone</term>&#160;;
+						<lb/>s’estant depuis ce temps la entretenue aux entours
+						<lb/>de <placeName ref="loc007647.01">Romont</placeName> et <placeName ref="loc007861.07">Bulloz</placeName>. Et il y ast environ les <date dur-iso="P3W">trois
+							<lb/>septmaines</date> qu’elle est retournée à <placeName ref="loc007747">Russy</placeName>, le <term ref="lem017410.07">mestraux</term>
+						<lb/>de <placeName ref="loc007747">Russy</placeName> l’ayant accompagnée jusques au chasteau de
+						<lb/><placeName ref="loc008683.03">Montagnie</placeName>, ne sçachant aulcunement la raison pourquoy
+						<lb/>on l’avoit saisie et on la detient.</p>
+						<p><lb/>Sur l’<term ref="lem018363">inquisition</term></p>
+						<p><lb/>La predicte detenue ast nyé tout le contenu du
+						<lb/>premier article, à la reserve que sur ce qu’est porté
+						<lb/>audit article, que la detenue venant de la campagne seroit
+						<lb/>recontrée au deposant dudit article avec la face toutte
+						<lb/>dechirée et en sang, ayant allegé ladite detenue sur ceste
+						<lb/>question qu’icelle voulant cueillir des <term ref="lem015764.03">griettes</term>, elle
+						<lb/>seroit tombée avec la face sur des espines, dont
+						<lb/>elle parust gratignée et en sang.</p>
+						<p><lb/>Item ladite detenue ast nyé tout le contenu de second,
+						<lb/>troisiesme, quatriesme, cinquiesme et sixiesme article
+						<lb/>de l’examen.</p>
+						<pb n="382"/><p><lb/>Quand au septiesme article contenant que <persName>Caspar Corti</persName>
+						<lb/>luy ast cryé en pleine rue&#160;: <q>&#160;Sorciere, vien oster le mal
+						<lb/>que tu a donné à ma femme&#160;!&#160;</q> Elle ast nyé que <persName>Corti</persName>
+							<lb/>luy aye cryé <term ref="lem019389.02">sorciere</term>, du reste n’ayant voulu recher<lb break="no"/>cher ledit <persName>Corti</persName>, par ce qu’il est homme surtesmogné.
+						<lb/>Le reste dudit article elle l’ast tout nyé.</p>
+						<p><lb/>Item elle ast ausy nyé tout le contenu du 8<hi rend="sup">e</hi>,  9<hi rend="sup">e</hi>,  10<hi rend="sup">me</hi>, 11<hi rend="sup">me</hi>, 12<hi rend="sup">me</hi>,
+						<lb/>13, 14, 15, 16 et 17<hi rend="sup">me</hi> articles de la predite <term ref="lem018363">inquisition</term>.</p>
+						<p><lb/>Concernant le 18<hi rend="sup">me</hi> article de l’examen, <term ref="lem015549.13">confesse</term> bien la
+						<lb/>detenue d’avoir donné des pommes à diverses personnes,
+						<lb/>mais à aulcune mauvaise occasion, ayant nyé le reste
+						<lb/>dudit article.</p>
+						<p><lb/>Item ladite detenue ast ancor nyé <subst><del>d</del><add place="overwritten">t</add></subst>out le contenu du 19<hi rend="sup">me</hi>
+						<lb/>et 20<hi rend="sup">me</hi> article.</p>
+						<p><lb/><hi rend="outdent">Touchant</hi> le 21<hi rend="sup">me</hi> article de l’examen, elle ast <term ref="lem015549.07">confessé</term> que sur
+						<lb/>le bruyt que la femme de <persName>Jean Corti</persName>, de <placeName ref="loc007747">Russy</placeName>, avoit fait
+						<lb/>de ce qu’on la vouloit emprisonner à <placeName ref="loc001060.04">Frybourg</placeName>, ce qu’ayant
+						<lb/>entendu la fille de l’<term ref="lem019230.02">essertyaux</term> de <placeName ref="loc007616.01">Chandon</placeName>, avec la<lb break="no"/>quelle, elle et trois aultres <term ref="lem019503.06">possedées</term>, la detenue se trouvat
+						<lb/><placeName>es Erses de Bourgogne</placeName><!--il y a Les Erses sur la commune de Dompierre, à 6km de Chandon...--> ensemble, ou demeuroit un homme
+						<lb/>qu’avoit une <term ref="lem017507.01">vache</term> malade au pied, d’une maladie appellée
+						<lb/>la <term>mota</term><note>Le sens de ce mot demeure incertain&#160;; un rapprochement avec <term ref="lem019240.01">mota</term> peut être envisagé, désignant alors une atteinte aux sabots
+						de la vache, qui seraient tout ou partie émoussés/écornés.</note>, dont la fille dudit homme, à qui la <term ref="lem017507.01">vache</term> appar<lb break="no"/>tenoit, ayant entendu de la fille du susdit <term ref="lem019230.02">essertyaux</term>,
+						<lb/>en quelle reputation la detenue estoit sur le bruyt predit,
+						<lb/>comança querelle avec ladite detenue, luy disant qu’elle
+						<lb/>debvoit oster le mal à ceste <term ref="lem017507.01">vache</term>, faisant la predite fillie beau<lb break="no"/>coup de bruyt en colere. A la fin elle jetta une pierre aux
+						<lb/>flanc du mari de la detenue, nyant au reste d’avoir donné
+						<lb/>le mal à ladite <term ref="lem017507.01">vache</term>, come ce qu’est du surplus dudit 21<hi rend="sup">me</hi>
+						<lb/>article. Ayant icelle en oultre nyé tout le 22<hi rend="sup">me</hi>, 23 et 24<hi rend="sup">me</hi>
+						<lb/>article de l’information.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

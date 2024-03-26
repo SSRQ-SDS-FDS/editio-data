@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-126.20-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 105–107</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 105–107</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jeanne Michel – Verhör</head>
+					<head xml:lang="fr">Jeanne Michel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-12-14"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="105"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-12-14">14<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>decemb</abbr><expan>decembris</expan></choice></foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice> statthalter <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName><note><persName ref="per006840">Andres Fleischmann</persName> vertrat den Grossweibel <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/>Herr <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013978a.04">Kämerli</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per006523a.03"><choice><abbr>Casp</abbr><expan>Caspar</expan></choice> von Montenach</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per011543a.01">Niclauß Falck</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013469a.06">Cattella</persName></seg></p>
+						<p><seg><lb/><persName ref="per017128a.02">Jasne Mizi</persName> estant applicquee a la <term ref="lem015441.02">gehenne</term> du
+							<lb/><term ref="lem018772.02">tonnelet</term> et la desus par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict ex<lb break="no"/>aminee, ast d’abord denié sa precedente <term ref="lem019465.01">confession</term>
+						<pb n="106"/><lb/>qu’elle avoit faict a <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict, et dit qu’elle
+							<lb/><del>s’</del>estoit, par la <term ref="lem019428.01">torture</term>, esté forcee a se faire
+							<lb/>mahlereusement tort, et qu’elle confessoit avoier
+							<lb/>par la <subst><del>viol<gap reason="illegible" unit="cm" quantity="1.5"/>t</del><add place="inline">violation</add></subst> dez deux serementz
+							<lb/>bien merité la mort, mais que non l’<term ref="lem022070.01">encendrement</term>.</seg>
+							<seg><lb/>Ayant quesque temps esté <del rend="underline">quesque temps</del>
+							<lb/>en la <term ref="lem019428.01">torture</term>, finalement commençat d’entrer
+								<lb/>en <term ref="lem019465.01">confession</term>, reiterant ce qu’elle avoit dit
+							<lb/>hier, comme le <term ref="lem015433.03">maling esprit</term> luy estant, il ast
+							<lb/><add place="left margin"><date dur-iso="P1Y">un <choice><sic></sic><corr>an</corr></choice></date></add>, apparu
+								deruier les a<unclear>s</unclear>choc<note>Le greffier a apporté une correction, qui finalement a transpercé le papier, rendant la lecture difficile.</note> de la vefve de
+							<lb/>feu <persName>Guillaume Helbling</persName>, en forme humaine, habilé
+							<lb/>de noier et vert, avec pieds de <term ref="lem018314.02">chain</term>, au quel
+								<lb/>elle se rendit, ayant <term ref="lem019541.15">renié</term> Dieu et les sainct.
+								<lb/>Le quel la <term ref="lem018895.07">marquat</term> sur la mammelle gauche,
+							<lb/>luy donant la dessus de la <term ref="lem018382.02">graise</term> et du <term ref="lem014886.02">pusset</term>
+							<lb/>pour <term ref="lem018313.03">inficierer</term> et faire mourier hommes
+								<lb/>et bestail, ce que peu aprés elle <subst><del>i</del><add place="overwritten">g</add></subst>estat <term ref="lem019135.02">en<lb break="no"/>voye</term>.</seg> <seg><term ref="lem015549.13">Confesse</term> davantage,
+								confesse, d’<subst><del>a</del><add place="overwritten">e</add></subst>sté<note>La tournure de la phrase est curieuse, peut-être faut-il comprendre ici que l’on fait référence à la saison estivale.</note>,
+							<lb/>le <term ref="lem015433.10">maling</term> l’avoier une foy porté a la <term ref="lem017043.01">secte</term>, <add place="inline">de
+								<lb/><sic>noict</sic></add>, ou le <term ref="lem019529.01">feu</term> que les eclairet estoit d’un extra<lb break="no"/>ordinaire resemblance et les viandes d’un goust
+							<lb/>non naturel&#160;; la contree ou lieux c’estoit vers
+							<lb/><placeName ref="loc007919.07">Corselle</placeName>, bois des <placeName>Rappetes</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc012575">La Rapetta</placeName>, un lieu-dit à l’est
+									de <placeName ref="loc007919">Corcelles-près-Payerne</placeName>, qui aujourd’hui, toutefois,
+								n’est plus une forêt.</note> nommé, ou le <term ref="lem015433.10">maling</term>
+							<lb/>jouait du viollon et les aultres cependant
+							<lb/>dansoint, ou elle recognut&#160;: <add place="above">1<hi rend="sup">ent</hi></add> la servante de
+							<lb/><persName>P<subst><del>ierre</del><add place="overwritten">eter</add></subst><add place="above">man</add> Monney</persName>,
+								nommé <persName>Marie</persName>, de <placeName ref="loc007599.06">Pontau</placeName>&#160;; 2<hi rend="sup">dement</hi>
+							<lb/>la femme de <persName>Louis d’Aumont</persName> de <placeName ref="loc007648.09">Dompieru</placeName>&#160;;
+						<pb n="107"/><lb/>3<hi rend="sup">tio</hi> la vefve de feu <persName>Helbling</persName> susdite&#160;; 4<hi rend="sup">to</hi> la <del rend="underline">femme ou</del>
+									<lb/>mere de <persName>Lorentz du Criz</persName>, nommé <persName>Marie</persName>.</seg> <seg><term ref="lem015549.13">Confesse</term>
+							<lb/>aussi avoier faict mourir certaine femme, luy ayant
+							<lb/>sur du pain frais mis du <term ref="lem014886.02">pusset</term>, du quel <term ref="lem014886">pousset</term>
+							<lb/>elle en mist aussi dans de la paste, qu’elle donnat
+							<lb/>a certaine femme, la quelle l’ayant mis a quire
+							<lb/>dans le four, rendit grand esc<subst><del>c</del><add place="overwritten">l</add></subst>at. Si <sic>teut</sic> aprés,
+							<lb/>dit qu’elle donnat dit <term ref="lem014886.02">pusset</term> a de ces compagnies,
+							<lb/>lé quelles la mirent dans dite paste. Et assere
+							<lb/>que le <term ref="lem015433.10">maling</term> l’avoit<del>t</del> diverse fois solicité a faire
+							<lb/>mourier dé persones, au quel commandement elle partant
+							<lb/>n’obeit. Demande la desus a Dieux et a Leur
+							<lb/><choice><abbr>Exell</abbr><expan>Exellences</expan></choice> humblement pardon.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

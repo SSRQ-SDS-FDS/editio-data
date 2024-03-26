@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-175.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 101–102</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 101–102</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jeanne Menoud-Bertet – Verhör</head>
+					<head xml:lang="fr">Jeanne Menoud-Bertet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1662-02-11"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="100"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.14">Jasquemard</placeName></hi>, den <date when="1662-02-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la">februari</foreign> 1662</date></p>
+						<p><lb/>Her <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026098a">Franz Josef Wild</persName>.</note>
+							<seg><lb/><persName ref="per026102a.03">Pithon</persName></seg>
+							<seg><lb/><persName ref="per026304a.01">Zurthan</persName>, <persName ref="per006528a.05">Possard</persName>, <persName ref="per026294a.01">Lentzburger</persName>, <persName ref="per018672a.01">Castella</persName></seg>
+							<seg><lb/><persName ref="per026281a.01">Gadi</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<pb n="101"/><p><lb/><hi rend="outdent"><placeName ref="loc008105.02">Käller</placeName></hi>, <foreign xml:lang="la">eadem die, presentibus praedictis</foreign></p>
+						<p><seg><lb/><persName ref="per021180a.01">Jasne Meinnu</persName><note>Jeanne est nommée Menoud puis Bertet dans la suite de son procès, mais les informations ne suffisent pas à déterminer lequel de ces noms
+							de famille serait celui de son défunt mari. Comme elle est originaire d’Yverdon mais s’est rendue dès son jeune âge dans la région de Villarepos, il
+							semble raisonnable de penser que son époux était fribourgeois. Il se peut ainsi que le nom de famille
+							Menoud fut son nom d’alliance et Bertet son nom de jeune fille.</note> <subst><del>examinée</del><add place="inline">(estant</add></subst> reduitez
+							<lb/>aux prisons sur le soubson d’estre <term ref="lem019389.02">sorciere</term>),
+						<lb/><add place="left margin">la desus</add> par messieurs du droict <add place="above">examinée</add>, dit estre originelle
+						<lb/>du ballifage d<subst><del>e</del><add place="above">’</add></subst><placeName ref="loc013004.03">Iverdon</placeName> et d’estre agée
+						<lb/>d’environ <measure type="age" quantity="60" unit="year">60 ans</measure>&#160;; d’ou estant en son baz
+						<lb/>age venue du costé de <placeName ref="loc007600.06">Villarepo</placeName>, i avoir
+						<lb/>demouré en partie, et partye à <placeName ref="loc007937.12">Cressi</placeName>,
+						<lb/>et que aprèz la mort de son mari estre
+						<lb/>venue demouré chez maistre <persName>Nicola Albert</persName>,
+						<lb/>menusier, d’ou s’estre retiré et rendue
+						<lb/>au gouverneur de <placeName ref="loc013001.02">La Matta</placeName>, paroisse de <placeName ref="loc007626.11">Che<lb break="no"/>verli</placeName>, ou quelquez mahlvoliantz ne la voulant <add place="bottom" type="catchword">suffrir</add>
+						<pb n="102"/><lb/><choice><sic>sufrir</sic><corr></corr></choice>, s’estre retirée auprèz de l’officier <persName>Tapi</persName>,
+						<lb/>mais qu’elle a dempuis obtenu de Leurs Exellencez
+							<lb/>d’estre tollorée au dit <placeName ref="loc007626.10">Cheuverli</placeName>.</seg> <seg><term ref="lem015549.13">Confesse</term> que,
+						<lb/>demourant chez le minusier <persName>Albert</persName>, qu’ayant
+						<lb/>pendant son sejour illec <subst><del>el</del><add place="inline">le</add></subst> jeusne fils du
+						<lb/>dit <persName>Albert</persName> <subst><del>diversez fois</del><add place="above">tout jour</add></subst> pri<subst><del>et</del><add place="overwritten">s</add></subst> de l’eaux beniste
+						<lb/>et faict le signe de la croix, s’en estre
+						<lb/>plaint à sa mere, qu’elle voioit bien que ce
+						<lb/>garson avoit du soubson d’elle, asserant
+						<lb/>aussi d’avoir cognu la <persName>Pazeta</persName> et d’avoir
+						<lb/><term ref="lem016134.05">maroné</term> à <placeName ref="loc007851.05">Chastel St Denis</placeName>, mais que <subst><del>o</del><add place="overwritten">à</add></subst> <placeName ref="loc013003.02">Champz
+						<lb/>d’Ossi</placeName> n’i avoir <term ref="lem016134.05">maroné</term>, <subst><del>mais</del><add place="overwritten">ains</add></subst> d’avoir assisté
+						<lb/>aux affligez de contagion, niant absolue<lb break="no"/>ment tous aultres pointz proposez, et ne veut
+						<lb/>estre <subst><del>aulcune</del><add place="inline">culpable</add></subst> de <term ref="lem018521.01">sorcellerie</term>,
+						<lb/>demandant la desus à Dieu et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>
+						<lb/>humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

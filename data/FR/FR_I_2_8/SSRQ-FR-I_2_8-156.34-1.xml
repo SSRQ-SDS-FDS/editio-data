@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.34-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 160v</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 160v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Mayor-Savarioud, Jeanne Perret, Antoine Piccand, Pierre Ducli le père – Anweisung</head>
+					<head xml:lang="fr">Elisabeth Mayor-Savarioud, Jeanne Perret, Antoine Piccand, Pierre Ducli le père – Instruction</head><!--décision de ce qu'on fait des biens de Ducli, déjà exécuté-->
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-08-14">14 <foreign xml:lang="la">augusti</foreign> 1651</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangene</p>
+						<p><lb/><persName ref="per020499a.07">Isabell Schavarriou</persName>, femme de <persName ref="per020503a.03">Franceois Maior</persName>, <term ref="lem019427.06">torturée</term> simple<lb break="no"/>ment sans voulloir entrer en <term ref="lem019465.01">confession</term> du <term ref="lem019494.01">crime</term> dont elle est
+							<lb/>soubçonnée, sçavoir de <term ref="lem018521">sorcellerie</term>. Das <term ref="lem003708">examen</term> ist zimblich
+							<lb/>wyttlaüffig, dahäro soll sie mit dem ½ <term ref="lem018237.08">cendtner</term> <term ref="lem006574.08">gefolteret</term> werden.</p>
+						<p><lb/><persName ref="per020510a.03">Jeane Perret</persName>, qui est de la maison des <persName>Cagniards</persName> de <placeName ref="loc007976.03">Port Alban</placeName>,
+							<lb/>qui a demeuré <date dur-iso="P40Y">40 anns</date> à <placeName ref="loc008123.01">Neyruz</placeName>, ne veut rien <term ref="lem015549.01">confesser</term>. Yn<lb break="no"/>gestelt biß uff wyttere <term ref="lem011250.01">fürsehung</term>.</p>
+						<p><lb/><persName ref="per020532a.03">Anthoyne Piccand</persName> de <placeName ref="loc007935.10">Farvagnye</placeName>, aagé environ de <measure type="age" quantity="80" unit="year">80 anns</measure>,
+							<lb/>dit estre innocent du <term ref="lem018524.02">sortilege</term>. Yngestelt biß die <persName ref="per020499a">Schavariouda</persName>
+							<lb/>mit der <term ref="lem017526.01">folterung</term> <term ref="lem006520.04">gerechtfertiget</term> sye. Sagt sie von disem nichts
+							<lb/>arges, werde <term ref="lem009657">gelediget</term> unnd in synem hauß lauth vorigen ansehens
+							<lb/><term ref="lem015151.02">confiniert</term> mit abtrag kostens.</p>
+						<p><lb/>Deß hingerichten <persName ref="per020477a.03">Pierre Duclys</persName> gutt</p>
+						<p><lb/>Soll nach anwyßung des <choice><abbr>hrn</abbr><expan>herrn</expan></choice> <term ref="lem006250">vennern</term> <persName ref="per006518a.01">Lanters</persName> unnd <abbr>h</abbr> grichtschrybers<note>Gemeint ist <persName ref="per018190a">Franz Daguet</persName>.</note>
+							<lb/><term ref="lem006438">gebauwt</term>, angesayet unnd recht mässig verwaltet werden.
+							<lb/><abbr>Hr</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName> hatt umb ein sackh <subst><del>so</del><add place="inline"><term ref="lem000051.12">weisßen</term></add></subst>, so
+							<lb/>genanter <persName ref="per020477a.02">Ducly</persName> ihme soll schuldig syn, protestiert.</p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

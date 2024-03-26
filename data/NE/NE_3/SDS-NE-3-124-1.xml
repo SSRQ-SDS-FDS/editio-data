@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome
+     3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print" when="2022-06-08"/>
+    <availability>
+     <p xml:id="facs">Adrien Wyssbrod</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-124-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.007, fol. 99r</idno>
+     </msIdentifier>
+     <head>Droit d’usufruit du père sur les biens hérités par ses enfants</head>
+     <msContents>
+      <summary>Dans le cadre d’une succession réglée par un «&#160;traité&#160;» le père demande
+       l’usufruit des biens dont ses enfants héritent par leur mère décédée précédemment.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1644-04-24" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head>Bibliographie</head>
+       <bibl><ref target="http://permalink.snl.ch/bib/chbsg000142327">Boyve 1854–1861</ref>, t. 4, p.
+        53. Il s'agit probablement d'une erreur et Boyve fait en réalité référence à <ref target="urn:ssrq:SDS-NE-3-123-1">SDS NE 3 123-1</ref>.</bibl>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004770"/>
+     <term ref="key000920"/>
+     <term ref="key000815"/>
+     <term ref="key000476"/>
+     <term ref="key000803"/>
+     <term ref="key000336"/>
+     <term ref="key005299"/>
+     <term ref="key000558"/>
+     <term ref="key005098"/>
+     <term ref="key003024"/>
+     <term ref="key003025"/>
+     <term ref="key000635"/>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="99r" facs="AVN_B_101.01.01.007_0099r"/> 
+     <div>
+      <head>
+       <lb/>Du <origDate when="1644-04-24" calendar="Julian">xxiiii d’apvril <hi rend="underline"
+         >1644</hi></origDate>. En Conseil <lb/>estroict presidant <choice>
+        <abbr>mons<hi rend="sup">r</hi></abbr>
+        <expan>monsieur</expan>
+       </choice>
+       <persName ref="per014730a.01">Berthodt</persName>. </head>
+      <add place="left margin" rend="pencil" hand="later hand"><choice>
+        <abbr>Délib</abbr>
+        <expan>Délibérations</expan>
+       </choice></add>
+      <lb/>
+      <add place="left margin">Point de <lb/>coustume</add>
+      <p>
+       <lb/>Le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per011304a.01">Isaac Merveilleux</persName> a demandé esclaircissement d’un
+       <lb/>point de coustume au faict suivant. Scavoir <term ref="lem016286">mon</term> si un
+       <lb/>pere peut pretendre quelque usufruict sur les biens <lb/>devolus a ses enfans par la
+       mort de leur grand pere <lb/>ou grand mere, la mere precedemment decedée, soubs <lb/>pretexte
+       que dans le traicté faict pour <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice> biens <lb/>avec les coheritiers de <choice>
+        <abbr>sesd</abbr>
+        <expan>sesdits</expan>
+       </choice> enfans, il seroit faict <lb/>mention de la mere, et non de son enfant. Que luy
+       <lb/>a esté accordé suivant sa petition.<add place="below" rend="pencil" hand="later hand">Boyve IV/page 53<note><bibl><ref
+          target="http://permalink.snl.ch/bib/chbsg000142327">Boyve 1854–1861</ref>, t. 4, p.
+         53</bibl>. Il s'agit probablement d'une erreur et Boyve fait en réalité référence à
+       <ref target="urn:ssrq:SDS-NE-3-123-1">SDS NE 3 123-1</ref>.</note></add></p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

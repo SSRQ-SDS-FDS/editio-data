@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-138.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 509</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 509</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Crety, Catherine Crety – Verhör</head>
+					<head xml:lang="fr">Claude Crety, Catherine Crety – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1648-04-21"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1648-04-21">21<hi rend="sup">ten</hi> <foreign xml:lang="la">aprilis</foreign> 1648</origDate>
+							<seg><lb/><term ref="lem018540.03">Amman</term> <persName ref="per012378a.01">Heydt</persName></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Tornier</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013626a.02"><choice><abbr>N</abbr><expan>Nikolaus</expan></choice> Reyff</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per018076a.01">Claudi Crety</persName>, aagé de <measure type="age" quantity="8" unit="year">huict ans</measure>, ne sçait autre chose de son pere,
+						<lb/>sinon qu’il avoit une <term ref="lem014919.08">boëte</term> remplye de <term ref="lem018382">graisse</term> noire, laquelle il
+							<lb/>portoit en temps d’hyver et de <term ref="lem019439.02">Caresme</term> aux champs, et la jettoit parmy
+						<lb/>des buissons de beau jour&#160;; que personne n’estoit avec luy que luy et
+							<lb/>sa soeur. Lors qu’il fut piqué dans la <term ref="lem018894.01">marque</term> putative, tout <term ref="lem015622">in<lb break="no"/>continent</term> il sentit la douleur et dit qu’il ne sçavoit d’ou
+						<lb/>ceste tache, a la grosseur d’une bien petite verrue, provenoit.
+						<lb/>Les prieres plus necessaires a un chrestien, qu’il a fort bien dites,
+						<lb/>les avoir apprinses de son pere, qui tous les jours le faisoit
+						<lb/>prier.</seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per018077a.01">Cathelina</persName> sa soeur, aagee de <measure type="age" quantity="10" unit="year">10 ans</measure>, dit de mesme que sondit
+						<lb/>frere, ne sçachant d’ou son pere a cette <term ref="lem015060.02">grosla</term> ou <term ref="lem014919.05">boete</term>, et
+						<lb/>lors que les bleds commençoient a pousser <subst><del>et</del><add place="inline">et</add></subst> nouer, qu’il
+						<lb/>s’en alloit parfois de nuict hors de la maison pour soy prendre
+							<lb/>garde de ses bleds, que les <term ref="lem018921.06">chevaux</term> <add place="above" type="sign">d’<placeName ref="loc008104.05">Olleyre</placeName></add> n’entrassent dans les champs
+						<lb/>de ce costé la, qui n’estoit garny de hayez. Autre ne sçait.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

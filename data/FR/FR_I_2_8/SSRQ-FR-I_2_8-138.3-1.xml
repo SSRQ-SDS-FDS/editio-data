@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-138.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 502–504</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 502–504</idno>
+					</msIdentifier>
+					<head xml:lang="de">Georges Crety – Verhör</head>
+					<head xml:lang="fr">Georges Crety – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1648-04-02"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="502"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1648-04-02">2<hi rend="sup">a</hi> <foreign xml:lang="la">aprilis</foreign> 1648</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per009259a.01">von Ligertz</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per018075a.02">George Crety</persName> de <placeName ref="loc005865.11">Sabvoye</placeName>, qui des <date dur-iso="P30Y">30 anns</date> en ça, fait
+						<lb/>sa demeure riere le ballifvage de <placeName ref="loc007889.07">Montagnyez</placeName>, ou ce que
+					<pb n="503"/><lb/>son pere defunct, qui estoit <term ref="lem018651.01">magnien</term> et couppoit les bestes,
+						<lb/>le laissa, et aprés avoir long temps servy et travaillé d’un
+						<lb/>costé et d’autre avec contentement de ses maistres, il se
+						<lb/>mariast avec certaine jeusne fille du lieu, laquelle aprés
+						<lb/>avoir ehu 4 enfants de luy, s’absenta du pais a cause
+						<lb/>que s’estant trouvee a la compagnie d’aucunes femmes, desquelles
+						<lb/>l’une devient malade et mourut, on faisoit courir le bruit
+						<lb/>comme si elle luy auroit causé le mal, partant nonobstant
+						<lb/>a ce qu’il croit innocente. Mais de crainte <add place="above" type="sign">d’estre saisie</add> se retira et
+						<lb/>vuida le pais, ne sçachant ou elle faict son sejour.</seg> <seg>Quant
+						<lb/>a luy, s’estre tousjours comporté en homme d’honneur et
+						<lb/>nourry ses enfants par son <sic>travaill</sic> sans faire tort a personne&#160;;
+						<lb/>ne sçait le subject de son emprisonnement, si ce n’est peut
+							<lb/>estre que l’ayant deux femmes <term ref="lem019502.07">possedees</term>, l’une sa belle soeur
+						<lb/>et l’autre <persName>Claudaz</persName>, femme de <persName>Jaques Gachet</persName>, poursuivy
+							<lb/>et nommé <term ref="lem019308.01">sorcier</term>, on vouldroit par tel moien le soubçonner
+							<lb/>de <term ref="lem018521.01">sorcellerie</term>, duquel <term ref="lem019494.01">crime</term> il n’a jamais esté attaint. Vray
+							<lb/>est que ledit <persName>Gachet</persName>, marry dedite <term ref="lem019503.07">possedee</term>, vient une fois de
+							<lb/>nuict l’injurier et dire qu’il estoit <term ref="lem019308.01">sorcier</term>, mais ce fust en
+						<lb/>absence des tesmoings, autrement il eust deheuement re<lb break="no"/>cherché par voye de justice. Il ne laissa portant d’en
+						<lb/>faire plaintif a <choice><abbr>monsr</abbr><expan>monsieur</expan></choice> le balliff du lieu.</seg> <seg>Le subject pour<lb break="no"/>quoy il dit une fois qu’il croioit estre damné, est que
+						<lb/>ayant pour certain desgoust juré que Dieu le damnast s’il
+						<lb/>prendroit sa femme en mariage, et comme on l’induict par
+						<lb/>aprés a l’espouser, il dit auparavant la conclusion du
+						<lb/>mariage qu’il croiroit estre damné s’il contrevenoit au
+							<lb/>jurement, mais aprés qu’il se fust <term ref="lem019463.06">confessé</term> aupres de
+						<lb/>domp <persName>Bernard</persName>, qui luy dit que cet jurement ne devoit
+						<lb/>empecher l’accomplissement de cet mariage, il luy obeit
+						<lb/>et non obstant tel jurement, pour lequel il fust plainement
+						<lb/>absoud, espousa sadite femme.</seg> <seg>Lors que <persName>Benoit Gremion</persName>,
+						<lb/>qui ayant mangé de sé ceryses, luy vient dire que s’il
+						<lb/>deviendroit derechef mallade, il l’en rechercheroit, luy avoir
+						<lb/>reparty qu’il estoit homme de bien, et si bien il <subst><del>de</del><add place="inline">venoit</add></subst>
+						<lb/>estre attaint de quelque maladie, n’en seroit pourtant au<lb break="no"/>cunement culpable, et de ce s’en plaignoit par aprés a <choice><abbr>mr</abbr><expan>monsieur</expan></choice>
+						<lb/>le ballif.</seg> <seg>Ce qu’il dit que <persName>Barbli Charlet</persName>, sa belle soeur,
+							<pb n="504"/><lb/>estoit <term ref="lem019502.06">possedee</term> de deux <term ref="lem015433.13">malings</term>, lesquels sortir<add place="above">oi</add>ent a <date when="1648-04-12">Pasques</date>
+						<lb/>prochain, ne le sçavoir d’autres que d’elle, qui le dit souventes<lb break="no"/>fois. Ne veut aucunement sçavoir par quelles sciences on
+						<lb/>peut attirer le <term ref="lem015011.04">laict</term> des autres <term ref="lem017507.02">vaches</term> aux sienes, ny
+						<lb/>mesme que ses enfants, le plus vieux desquels est agé de
+						<lb/><measure type="age" quantity="9" unit="year">9</measure> a <measure type="age" quantity="10" unit="year">10 ans</measure>, ayent dit qu’ils sçavoient bien faire plouvoir.</seg>
+						<seg><lb/>Soustient enfin n’estre aucu<add place="above">ne</add>ment attaint du <term ref="lem018524.02">sortilege</term>, ains
+						<lb/>s’estre tousjours comporté en homme d’honneur, s’offrant
+						<lb/>le verifier par ses voisins et ceux qu’il a servy, aupres
+						<lb/>desquels il prie que messeigneurs fassent exacte <term ref="lem018363">inqu<lb break="no"/>sition</term>, par laquelle il espere, aydant Dieu, d’estre libre
+						<lb/>de tel soubçon. <term ref="lem019498">Crie mercy</term>.</seg></p>
+		</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

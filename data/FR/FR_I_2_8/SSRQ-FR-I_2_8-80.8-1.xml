@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-80.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 12, S. 243–245</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 12, p. 243–245</idno>
+					</msIdentifier>
+					<head xml:lang="de">François Péclat – Verhör</head>
+					<head xml:lang="fr">François Péclat – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1628-08-22">22 <foreign xml:lang="la"><abbr>aug</abbr></foreign> 1628</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="243"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+							<seg><lb/><origDate when="1628-08-22">22 <foreign xml:lang="la"><choice><abbr>aug</abbr><expan>augusti</expan></choice></foreign> 1628</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per009100">Weck</persName>, <abbr>h</abbr> <persName ref="per009266">Feldtner</persName></seg>
+							<seg><lb/><persName ref="per006532">Bawman</persName>, <persName ref="per006509">Rämi</persName>, <persName ref="per009264">Amman</persName>, <persName ref="per006839">Lari</persName></seg>
+							<seg><lb/><persName ref="per009265a.03">Guidolla</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+						<pb n="245"/><p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice> <measure type="currency" quantity="6" unit="lb">6 </measure></foreign>.</add></seg>
+							<seg><persName ref="per009312a.02">François Pecla</persName><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note> <term ref="lem015549.13">confesse</term> qu’estant en <term ref="lem015479.02">estrif</term> et combat
+							<lb/>avec <persName>Anthoine du Praz</persName> et voullant la femme dudit <persName>du Praz</persName>
+							<lb/>estre de la meslee, il luy donna un coup de pied, mais
+							<lb/>qu’elle n’estoit enceinte et qu’il avoit commandé a ses
+							<lb/>gens d’aller paistre son bestail au prez de <persName>Roguin</persName>, qui
+							<lb/>luy avoit aussy faict degast en ses terres. <term ref="lem019498">Crie mercy</term> et
+							<lb/>requeste de ne le remettre au cachot dans lequel
+							<lb/>il avoit esté pour la grande puanteur qui y est, ne
+							<lb/>la pouvant <subst><del>supporter</del><add place="inline">souffrir</add></subst>.</seg> <seg>Ist ler <term ref="lem016150">uffgezogen</term> worden,
+							<lb/>er lougnet aber alleß, waß ihm laut <term ref="lem003708">examens</term> fürgehalten worden ist.</seg>
+						</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

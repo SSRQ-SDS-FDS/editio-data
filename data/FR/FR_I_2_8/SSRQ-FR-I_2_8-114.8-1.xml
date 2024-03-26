@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-114.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 74–75</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 74–75</idno>
+					</msIdentifier>
+					<head xml:lang="de">Françoise Pillet-Genod – Verhör</head>
+					<head xml:lang="fr">Françoise Pillet-Genod – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-06-23"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="74"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1644-06-23">23 <foreign xml:lang="la">junii</foreign> 1644</origDate>, <persName ref="per012378a.01">Heydt</persName>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per009378a.01">Lari</persName>, <persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName>Python</persName><note>Gemeint ist entweder <persName ref="per012381a">Hans Ulrich Python</persName> oder <persName ref="per012380a">Jost Python</persName>, die beide im Stadtgericht sassen.</note>, <persName ref="per013720a.01">Zumholtz</persName></seg>
+							<seg><lb/><persName ref="per011547a.01">Munat</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016480b">Françoise Genod</persName>, femme de <persName ref="per016467a">Claude Pillet</persName> d’<placeName ref="loc007609.04">Estavayé le
+							<lb/>Gibloux</placeName>, dict avoir heu cinq enfants avec sondit mary, que
+							<lb/>sont tous morts, qu’elle et son marit ne se sont jamais
+							<lb/>aimé de bon <term ref="lem014871.01">coeur</term>&#160;: iceluy la battoit et malmenoit
+							<lb/>tousjours, et n’y donnoit quelques fois pas a manger.
+							<lb/>Et ce <subst><del>l</del><add place="overwritten">a</add></subst> l’occasion que les enfants de sa premiere
+						<pb n="75"/><lb/>femme y faisoient tousjours des faux rapports, les<lb break="no"/>quels il croioit&#160;; qu’iceluy estoit aussi tousjours
+							<lb/><term ref="lem015161.03">mary</term> quand il avoit des enfants, mais qu’elle n’a
+							<lb/>aperceu aulcun mauvais bruict dans la maison, ny
+							<lb/>qu’il soit sorty de nuict hors du logis&#160;; qu’elle
+							<lb/>n’a point aperceu de mal <subst><del>lu</del><add place="overwritten">de</add></subst> luy pour la sor<lb break="no"/>cellerie, et qu’elle n’est point <term ref="lem019389.02">sorciere</term> non plus.
+							<lb/>Et si elle ne dict la verité, prie Dieu qu’il la
+							<lb/>fasse mourir tout a l’heure.</seg> <seg>Qu’elle a bien en<lb break="no"/>tendu quelques fois des crys de <term ref="lem018315.02">chats</term> dans la
+							<lb/>nuict, mais de point d’oiseaux, ny aultres bestes&#160;;
+								<lb/>qu’elle a bien nommé son homme <term ref="lem019308.01">sorcier</term>, mais
+							<lb/>qu’elle sçait pas qu’il soit tel, et n’y dict rien
+							<lb/>que ce qu’elle en a entendu des aultres. Qu’iceluy
+							<lb/>y dict aussi une fois, elle estant enceinte, qu’elle
+							<lb/>portoit un <term ref="lem017030.02">pudrinet</term>&#160;; sur ce elle y respondit ouy, bien
+							<lb/>s’il le luy avoit chargé.</seg> <seg>Pour ce qu’elle doibt
+							<lb/>avoir <choice><sic></sic><corr>dit</corr></choice>, estant enceinte, si elle sçavoit que ce fust
+								<lb/>une fille, qu’elle l’affameroit&#160;: ne le veut ny <term ref="lem019442.04">de<lb break="no"/>neger</term>, ny <term ref="lem015549.01">confesser</term>. Mais pour la <term ref="lem017276.04">Bourguignotte</term>,
+							<lb/>icelle estant aussi enceinte et se plaignant
+							<lb/>grandement des douleurs qu’elle souffrait, <term ref="lem015549.13">confesse</term>
+							<lb/>bien d’y avoir dict que par sa foy elle croioit
+							<lb/>qu’elle n’iroit gueres loing et ne porteroit son
+							<lb/>enfant a terme, mais qu’elle ne l’a pas mal
+							<lb/>pencé. <term ref="lem019498">Crie mercy</term>.</seg></p>
+		</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.10-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 40v–41r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 40v–41r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Verhör</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-01-18"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="40v"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <origDate when="1683-01-18">18<hi rend="sup">ten</hi> <foreign xml:lang="la">januarii</foreign> 1683</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per026328a.05">Rudolff Fyva</persName>, <abbr>h</abbr> <persName ref="per026534a.02">Hanß <choice><abbr>Dan</abbr><expan>Daniel</expan></choice> von Montenach</persName></seg>
+							<seg><lb/>LX <persName ref="per013469a.01">Castella</persName>, <persName ref="per027532a.02"><choice><abbr>Fr Pet</abbr><expan>Frantz Peter</expan></choice> Amman</persName>, <persName ref="per026289a.03"><choice><abbr>Nic</abbr><expan>Niclauß</expan></choice> Amman</persName>, <persName ref="per026070a.03">Rämy</persName></seg>
+							<seg><lb/>Burger <persName ref="per027538a.02">Gottrauw</persName>, <persName ref="per027531a.01">Odet</persName></seg></p>
+						<p><seg><lb/><persName ref="per027452a">Maria Fridlin</persName> susdite tenue en <term ref="lem018792.01">question</term> à la simple
+						<lb/><term ref="lem018231">corde</term> de la <term ref="lem019428.01">torture</term>, elle at dit dʼabord au commence<lb break="no"/>ment, avant quʼelle fut attachée, quʼelle sʼestoit à ses
+							<lb/>precedentes <term ref="lem019465.02">confessions</term> faicte tort. Mais icelle estant
+						<lb/>serieusement exhortée à dire la verité, elle at
+						<lb/>dit quʼelle at bien esté ou ce quʼil estoit, asçavoir
+						<lb/>le <term ref="lem017521">diable</term>, mais quʼil ne lʼat jamais touchée ny <term ref="lem018895.03">marquée</term>.</seg>
+							<seg><lb/>Item elle at reconfirmé ses precedantes <term ref="lem019465.02">confessions</term>
+							<lb/>concernant les <term ref="lem019436.04">larrecins</term> par elle comis. Touttefois
+							<lb/>elle aurroit oublié de <term ref="lem015549.01">confesser</term> quʼelle at <term ref="lem015015.09">derobé</term>
+							<lb/>un <term ref="lem015429.01">linceul</term> à ceux de <placeName ref="loc013744.02">La Tyolleyre</placeName>, lequell elle lʼat
+						<lb/>puis après restitué. Elle at aussy reconfirmé les,
+								<lb/>au precedantes <term ref="lem019465.02">confessions</term> confessé, <term ref="lem019542.06">babtesme</term> reiteré
+						<lb/>de ses enfants.</seg> <seg>Item elle persistoit en negative
+						<lb/>absolue dʼestre <term ref="lem018895.03">marquée</term> du <term ref="lem017521">diable</term>, ny que elle se soit
+							<lb/><term ref="lem019553.05">abandonnée</term> à luy, mais sur la fin les mains luy estant
+							<lb/>liées par le <term ref="lem018791.02">boreaux</term> pour la <term ref="lem019427.01">torturer</term>, elle at <term ref="lem015549.07">con<lb break="no"/>fessé</term> que ouy, le <term ref="lem017521">diable</term> lʼavoit dansée et lʼavoit
+						<lb/>bien touchée desoub le bras, mais nʼavoir sentis quʼil
+						<lb/>lʼayet <term ref="lem018895.03">marquée</term>.</seg> <seg>Item derechef interrogée si le <term ref="lem017521">diable</term>
+						<lb/>ne lʼavoit voulus induire à <term ref="lem019541.03">renyer</term> <hi rend="font change">Dieu</hi>, comme elle at
+						<lb/>desja <term ref="lem015549.07">confessé</term> par ses precedentes <term ref="lem019465.02">confessions</term>, elle luy
+						<lb/>at respondus que elle luy avoit bien promis de le
+						<lb/>voulloir <term ref="lem019541.03">renyer</term>, mais que elle ne lʼavoit faict
+						<lb/>et ne le vouloit faire.</seg> <seg>Item elle at <term ref="lem015549.07">confessé</term>
+						<lb/>que le <term ref="lem017521">diable</term> luy avoit dit&#160;: <q>&#160;Tu est bien <term ref="lem019277.02">luré</term> de servir
+						<lb/>cet homme, asçavoir <hi rend="font change">Dieu</hi>&#160;</q>.</seg> <seg>Item interrogée si elle
+						<lb/>nʼavoit <subst><del>voulut</del><add place="inline">faict</add></subst> mourir la <term ref="lem017507">vache</term> que la servante
+						<lb/><term ref="lem015160.02">arrioit</term> à <placeName>Gorgon</placeName><!-- Ort oder Name? -->. Après plusieurs negatives sur ce
+							<lb/>sujet, sur la fin pendant les 3 <term ref="lem019550.03">elevations</term> de la <term ref="lem019428.01">tor<lb break="no"/>ture</term>, elle at <term ref="lem015549.07">confessé</term> que le <term ref="lem017521">diable</term> ne luy avoit pas
+						<lb/>comandé de la faire mourrir, mais luy at commendé
+							<lb/>de <term ref="lem019525.01">souffler</term> à lʼencontre, ce quʼelle at faict et pas
+						<lb/>aultre.</seg> <seg>Interrogée si elle ne cognoissoit le
+						<lb/><term ref="lem015047.02">menestrier</term> de <placeName ref="loc007928">Treyvaux</placeName> allegué par elle dans ses
+							<lb/>precedentes <term ref="lem019465.02">confessions</term>, elle at respondus que
+						<lb/>sʼestoit un <term ref="lem019278.01">gigare</term> de <placeName ref="loc007928">Treyvaux</placeName>, mais que elle ignoret
+						<lb/>son nom.</seg> <seg><add place="bottom" type="catchword">Item</add>
+							<pb n="41r"/> <lb/><choice><sic>Item</sic><corr></corr></choice> questionée pendant les 3 <term ref="lem019550.03">elevations</term> de ladite <term ref="lem019428.01">torture</term>
+							<lb/>si elle nʼavoit faict mourrir ou bien <term ref="lem019460.02">tué</term> son enfant à
+						<lb/><placeName ref="loc008332.03">Balleswyl</placeName>, ce quʼelle at constamment nyé et aultres
+						<lb/>nʼat voulus <term ref="lem015549.01">confesser</term>. Et a demandé pardon de
+						<lb/>touttes ses faultes à <hi rend="font change">Dieu</hi> et Leurs Excellences mes
+							<lb/>souverains seigneurs, auxquels les predites <term ref="lem019465.02">confessions</term>
+						<lb/>doivent estre rapportée demain pour en attendre leurs
+						<lb/>ulterieurs ordres. <foreign xml:lang="la">Actum ut supra</foreign>.</seg></p>
+						<p><lb/><foreign xml:lang="la">Idem notarius</foreign> <figure type="notarial sign"/><note>Il sʼagit de <persName ref="per026058">Jost Ignaz Progin</persName>.</note></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

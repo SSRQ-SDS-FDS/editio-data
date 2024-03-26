@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-126.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 94–97</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 94–97</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jeanne Michel – Verhör</head>
+					<head xml:lang="fr">Jeanne Michel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-11-20"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="94"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-11-20">20<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975a">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013626a.03">Niclauß Reyff</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013469a.05">Catilla</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne les procès menés contre <persName ref="per020125">Anni Dumont</persName>,
+							<persName ref="per020144">Tichtli Binno</persName>, <persName ref="per020136">Elsi Overney-Bifrare</persName> et <persName ref="per020132">Eva Aeby-Ritter</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-146.9-1">SSRQ FR I/2/8 146.9-1</ref></note>.</p>
+						<pb n="96"/><p><lb/><foreign xml:lang="la">Ibidem supra dicta die</foreign></p>
+						<p><seg><lb/><persName ref="per017128a.01">Jeanne Mizi</persName>, prisoniere sur faict de <term ref="lem018521.02">sorcele<lb break="no"/>rie</term>, par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examinee, <term ref="lem015549.13">confesse</term>
+							<lb/>avoier <subst><del>d</del><add place="overwritten">p</add></subst>ar deux fois esté avec <add place="above">le</add> serement
+							<lb/><term ref="lem019512.03">bannie</term> dé terres de Leur Exellences, dans
+							<lb/>lé prisons des quelles avoier esté prisoniere,
+							<pb n="97"/><lb/>detenue quesque temps a <placeName ref="loc007655.13">Montagni</placeName>, et en aprés
+							<lb/>ici dans la ville, ou elle a esté mise a la
+							<lb/><term ref="lem018792.01">question</term> du <term ref="lem018305.03">droict imperial</term>, se qu’ayant soustenu,
+							<lb/>feut <term ref="lem019512.03">bannie</term>. Demande pardon du transgres dez com<lb break="no"/>mandement de Leurs Exellences et d’avoier oultre passé
+							<lb/>le serement.</seg> <seg>Quant au <term ref="lem018524.02">sortilege</term>, <term ref="lem019442.03">denege</term> entierement
+							<lb/>et dit qu’il ne se consterat point par aulcuns tesmoins.
+							<lb/>Feint la <term ref="lem019503.07">possedee</term>, n’ayant portant aulcune apparance
+							<lb/>de l’estre, bien qu’elle dit qu’ils l’ayant volu precipité
+							<lb/>dans le <placeName ref="loc010988.03">Lac de Morrat</placeName>.</seg> <seg><subst><del>dit</del><add place="overwritten">F</add></subst>inalement, ast dit que la
+							<lb/>vielle <persName>Helblina</persName>, que fust le soubject de son emprisonement,
+								<lb/>estre aultant <term ref="lem019389.02">sorciere</term> que<subst><del>l</del><add place="inline">’</add></subst>elle. Demande a Dieux,
+							<lb/>a <choice><abbr>messeig<hi rend="sup">r</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

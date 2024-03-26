@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-133.20-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 480–483</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 480–483</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Jolion Sohn / fils – Verhör</head>
+					<head xml:lang="fr">Jean Jolion Sohn / fils – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-12-03"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="480"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1647-12-03">3<hi rend="sup">ten</hi> <foreign xml:lang="la">decembris</foreign> 1647</origDate>
+						<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Torny</persName></seg>
+						<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+					<pb n="481"/><p><lb/><foreign xml:lang="la">Ibidem</foreign> im <placeName ref="loc008105.03">Crotton</placeName></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><lb/><persName ref="per017933a.01">Jean Jolyon le jeusne</persName>, fils du <term ref="lem015025.04">meusnier</term> de <placeName ref="loc007935.10">Farvagnye</placeName>, qui
+							<lb/>a esté accusé par le supplicié de <placeName ref="loc008048.09">Corbierez</placeName><note>Il s’agit de <persName>Pierre Gillet</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-133.16-1">SSRQ FR I/2/8 133.16-1</ref>.</note> d’avoir esté a la
+							<lb/><term ref="lem017043">secte</term> avec luy au <placeName ref="loc008144.04">Gybliaux</placeName>, dit en premier n’estre aucunement
+								<lb/><term ref="lem019308.01">sorcier</term>, et que ce pauvre malheureux l<subst><del>a</del><add place="overwritten">u</add></subst>y faict faux et
+							<lb/>mechament tort, sçachant bien, avec l’ayde de Dieu, qu’il
+							<lb/>n’est aucunement attaint du <term ref="lem018524.02">sortilege</term>&#160;; qu’il se constera pas
+					<pb n="482"/><lb/>qu’il soit sorty de nuict, que pour aller au moullin tout joing<lb break="no"/>nant la maison&#160;; ne sçavoir aucun secret pour faire retrouver
+							<lb/>les choses perdues.</seg> <seg>Bien est il vray que <persName>Niclaud Berset</persName>, qui
+							<lb/>disoit avoir perdu sa fraise sous un cerisier, le vient un jour
+							<lb/>prier d’arrester la rue du moullin, et permettre de mettre
+								<lb/>un <term ref="lem018992.01">chandelle</term> allumee dans la lanterne du moullin, ce qu’il ne
+							<lb/>luy voullut permettre, que au preallable il sceut pourquoy,
+							<lb/>mais luy ayant dit le subject, il alla sans mal penser
+								<lb/>arrester la rue et laissa mettre dite <term ref="lem018992.01">chandelle</term> dans la
+							<lb/><choice><sic>laterne</sic><corr>lanterne</corr></choice>, puis il remit l’eau sur la rue, jusques a tant qu’elle
+							<lb/>fust bruslee et esteinte. Ledit <persName>Berset</persName>, a ce qu’il luy dit,
+							<lb/>avoir par aprés trouvé sa fraise. La femme de <persName>Jaques
+							<lb/>Villet</persName>, qui avoit perdu certain argent qu’elle retrouva, en
+							<lb/>avoir faict de mesme, et luy promis recompense s’il per<lb break="no"/>mettroit faire comme ledit <persName>Berset</persName>, ce qu’il luy accorda
+							<lb/>sans estre aucunement recompensé. Luy le detenu lors que
+							<lb/>il se perdoit quelque chose dans leur maison, avoir aussy
+							<lb/>voullu esprouver ceste science, mais que ce fust en vain,
+							<lb/>sans aucun effect, tellement qu’il n’y adjousta point de
+								<lb/>foy.</seg> <seg>Concernant la <term ref="lem018922.01">jument</term> qui s’estoit esgaree sans sçavoir,
+							<lb/>l’espace de <date dur-iso="P8D">huict jours</date>, ou elle estoit devenue, dit l’avoir
+							<lb/>cherchee a <placeName ref="loc007618.02">Iverdon</placeName>, <placeName>La Sauge</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de
+								<placeName ref="loc012285">La Sauge</placeName>, située sur la route allant d’Yverdon à Sorens.</note> et autres passages, et
+							<lb/>par aprés trouvee a <placeName ref="loc007663.06">Sorrens</placeName>, ou ce que le serviteur de
+							<lb/><persName>Chassot</persName> l’avoit enserree dans l’escurie, et par aprés
+							<lb/>laissé courir aux gistes dudit lieu, ou ce qu’ils la
+							<lb/>trouverent.</seg> <seg>Enquis s’il n’a esté chez <persName>Tichtli
+							<lb/>Cler</persName> et, faisant l’amour, luy tatté les tettons, dit y
+							<lb/>avoir vrayment esté, mais en bien et honneur, et luy
+							<lb/>tatté les mammelles au jardin, ou ce qu’il luy dit si elle
+							<lb/>le voulloit en mariage&#160;; a quoy elle repartist qu’ouy, a
+							<lb/>la reserve touttefois que ses parens en feussent contents.
+							<lb/>S’estre ainsy separé sans luy occasioner aucun mal aux tetons,
+							<lb/>ny faire semblant de la voulloir forcer, ny chercher en
+							<lb/>deshonneur, s’asseurant bien qu’elle ne le dira pas. Et en<lb break="no"/>cor qu’il luy soit <add place="above" type="sign"><date dur-iso="P3Y">3</date> ou <date dur-iso="P4Y">4 ans</date> aprés</add> advenu quelqu’incommodité a ses mammelles,
+							<lb/>n’ayant peu, par manque des embouchures et tettons, allaictant
+							<lb/>ses enfants, n’en estre aucunement la cause&#160;; n’avoir jamais
+							<lb/>songé a luy nuire, ny a personne que soit.</seg> <seg>Estant en oultre
+							<lb/>demandé s’<add place="above">il</add> n’avoit <term ref="lem019486">cogneu charnellement</term> <persName>Magdelaine Ser<lb break="no"/>moud</persName>, et par aprés ehu affaire avec la tante d’icelle&#160;?
+							<lb/>Dit quant a ladite tante, que jamais il a ehu <del>seulement</del>
+						<pb n="483"/><lb/><add place="inline">intention</add> de la cognoistre, mais bien dite <persName>Magdelaine</persName>, qui,
+							<lb/>estant devenue enceinte, dit que l’enfant luy appartenoit,
+							<lb/>ce que estant venu a nottice au <choice><abbr>sgr</abbr><expan>seigneur</expan></choice> bailly, fut re<term ref="lem015009.08">cerché</term>
+							<lb/>pour l’offence <subst><del>qu</del><add place="overwritten">po</add></subst>ur laquelle il accorda avant que
+							<lb/>l’enfant fut nay. Mais quelque temps aprés la naissance,
+							<lb/>avoir apprins de quelques femmes que dite <persName>Magdelaine</persName>
+							<lb/>leur avoit dit qu’elle craingnoit d’avoir faict tort audit
+							<lb/>detenu, que si bien icelluy l’avoit cognue, que <persName>Pierre <add place="above" type="sign">Marmod</add></persName> en
+							<lb/>avoit faict le mesme, ne sçachant a qui des deux cet
+							<lb/>enfants appartenoit.</seg> <seg>Prie messeigneurs de pardon,
+								<lb/>soustenant estre accusé a tort pour faict de <term ref="lem018521.01">sorcellerie</term>
+								<lb/>et autres <term ref="lem019494.02">crimes</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

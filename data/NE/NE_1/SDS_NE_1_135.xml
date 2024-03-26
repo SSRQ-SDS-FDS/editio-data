@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-135-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-C9.5</idno>
+               </msIdentifier>
+               <head>Charte de fondation de la ville d'Henriopolis (fondation projetée par
+                  Henri&#160;II de Longueville) et de franchises octroyées à ses futurs
+                  habitants</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Cahier</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.5"/>
+                              <width unit="cm" quantity="26"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a cord" ns0:material="wax" ns0:shape="round"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1625-06-04"/>
+                     <origPlace ref="loc016690">Dieppe</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_315"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;135</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_C9_5_1r"/>
+               <div>
+                  <p>
+                     <lb/><gap reason="missing"/><note>Favarger&#160;1982 n'a pas fourni de transcription. Nous fournissons
+                        cependant le facsimilé correspondant.</note>
+                     <pb n="1v" facs="AEN_AS_C9_5_1v_2r"/>
+                     <pb n="2r" facs="AEN_AS_C9_5_1v_2r"/>
+                     <pb n="2v" facs="AEN_AS_C9_5_2v_3r"/>
+                     <pb n="3r" facs="AEN_AS_C9_5_2v_3r"/>
+                     <pb n="3v" facs="AEN_AS_C9_5_3v_4r"/>
+                     <pb n="4r" facs="AEN_AS_C9_5_3v_4r"/>
+                     <pb n="4v" facs="AEN_AS_C9_5_4v_5r"/>
+                     <pb n="5r" facs="AEN_AS_C9_5_4v_5r"/>
+                     <pb n="5v" facs="AEN_AS_C9_5_5v_6r"/>
+                     <pb n="6r" facs="AEN_AS_C9_5_5v_6r"/>
+                     <pb n="6v" facs="AEN_AS_C9_5_6v_7r"/>
+                     <pb n="7r" facs="AEN_AS_C9_5_6v_7r"/>
+                     <pb n="7v"  facs="AEN_AS_C9_5_7v_8r"/>
+                     <pb n="8r" facs="AEN_AS_C9_5_7v_8r"/>
+                     <pb n="8v" facs="AEN_AS_C9_5_8v_9r"/>
+                     <pb n="9r" facs="AEN_AS_C9_5_8v_9r"/>
+                     <pb n="9v" facs="AEN_AS_C9_5_9v_10r"/>
+                     <pb n="10r" facs="AEN_AS_C9_5_9v_10r"/>
+                     <pb n="10v" facs="AEN_AS_C9_5_10v"/>
+                  </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Éd. P.-L. Pelet, «&#160;Une fondation de ville au XVII<hi rend="sup"
+                     >e</hi>&#160;siècle&#160;: Henriopolis&#160;» dans <hi rend="italic">Revue
+                        historique de droit français et étranger</hi>, 1951, p.&#160;418-426.</p>
+               <p>Étude&#160;: Pelet, <hi rend="italic">art.&#160;cit.</hi>, p.&#160;407-426.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;505-506. Roulet,
+                     «&#160;Henri&#160;II d'Orléans-Longueville ...&#160;», dans <hi rend="italic"
+                        >MN</hi>, 1959, p.&#160;12-13. J.&#160;Guibert, <hi rend="italic">L'affaire
+                        Hory</hi> ..., p.&#160;13-15. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

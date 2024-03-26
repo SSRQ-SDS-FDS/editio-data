@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-118.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 118–120</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 118–120</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Grotschi-Morerod, Louise Champmartin-Bosson – Verhör</head>
+					<head xml:lang="fr">Anni Grotschi-Morerod, Louise Champmartin-Bosson – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-11-19"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="118"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-11-19">19<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013479a.01">Reynold</persName></seg>
+							<seg><lb/><persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per012381a.01">Python</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013439a.01">Montenach</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016943a">Anni</persName>, <persName ref="per016942a.01">Claude Murerous</persName> tochter uß dem <placeName ref="loc012049.02">Rochemont</placeName>,
+							<lb/>sagt, sie sye im <placeName ref="loc005882.02">Sibenthal</placeName> erzogen worden, unnd wie
+							<lb/>sie <measure type="age" quantity="15" unit="year">15 jährig</measure> gsyn, sye sie in das <placeName ref="loc012653.02">Flüeland</placeName> kommen,
+							<lb/>da sie dem <persName>Jaqui Türler</persName> ein zytt lang <term ref="lem009502">gedient</term>.
+							<lb/>Alßdan habe sie sich mit <persName ref="per016944a">Michel Grotschi</persName> verehe<lb break="no"/>lichet, mit dem sie schon <date dur-iso="P38Y">38 jahr</date> lang im <term ref="lem004548">ehestandt</term>
+							<lb/>gelebt. Sie habe khein <term ref="lem015197.03">uppigs</term> leben nieh gefürt,
+							<lb/>sie habe zwar ihr lebtag vill grossen kummer
+							<lb/>unnd hertzleidt gehabt, aber sie habe sich nieh so
+							<lb/>wytt vergessen, daß sie nie gedacht habe, gott,
+							<lb/>den allmächtigen, zu verlassen.</seg> <seg>Sie wisse von
+							<lb/>kheinem <term ref="lem015962">hexenwerk</term>. Sie habe der <persName>Christyni Pa<lb break="no"/>radys</persName> uff ihrem vilfältigem anhalten woll ihr
+							<lb/><term ref="lem013838.05">teckbeth</term> verkaufft, aber sie habe darin nichts
+							<lb/>gethan. Genandte <persName>Christyni</persName> habe das <term ref="lem013838.05">teckbeth</term> noch
+							<lb/>uff den hüttigen tag unnd syend die federen darin
+							<lb/>nit verbrent worden.</seg> <seg><persName>Pettern Ryssis</persName> <term ref="lem004657.06">stutten</term> habe
+							<lb/>sie zwar vor etlichen jahren von ihrem <term ref="lem001076.68">khüwen</term> weggetriben,
+								<lb/>habe aber dem <term ref="lem001069.03">roß</term> nütt angethan unnd es möchte syn,
+							<lb/>daß sie wegen der worten, die ihren derselbig zu ge<lb break="no"/>redt, mit ihme habe wöllen zum <term ref="lem000043">weybel</term> gehen,
+						<pb n="119"/><lb/>es sye aber nit geschehen.</seg> <seg>Sie sye auch nieh by <persName>Meria</persName>,
+							<lb/><persName>Jacoben Monets</persName> verlaßner, gsyn, weder in ihr <term ref="lem006336.15">khind<lb break="no"/>betti</term> noch sonst.</seg>
+							<seg><lb/>Der <persName>Christyni Brodard</persName> noch <persName>Claude
+							<lb/>Paradys</persName> frauwen habe sie by ihrem wissen nieh khein
+							<lb/><term ref="lem000187.09">spyß</term> geben. Habe auch mit der hand niemand geschlagen
+							<lb/>und der <persName>Clauda Türler</persName> auch nichts verwißen,
+							<lb/>daß sie sie nit zur <term ref="lem003726.02">hochzytt</term> geladen hatte. Sie sye
+							<lb/>auch nieh zu <persName>Hanßen Brodard</persName> kommen, wie er syn
+							<lb/><term ref="lem000310.14">viech</term> <term ref="lem001469">gaumbt</term> hatt.</seg> <seg>Sie habe nieh nichts <term ref="lem000312.01">entfrembdt</term>,
+							<lb/>weder <term ref="lem000142.20">haüw</term>, gersten noch andere sachen. Vorbe<lb break="no"/>halten, wan sie <term ref="lem008937.03">etwan</term> under einem baum kommen,
+							<lb/>darunder sie wenig <term ref="lem003604.01">obs</term> in ihrem <term ref="lem015804.02">fürtch</term> uffgeläßen,
+							<lb/>es zu essen. Dem <persName>Hanßen Paradys</persName> habe sie khein
+								<lb/><term ref="lem000142.20">haüw</term> genommen, es werdt sich nit <term ref="lem008354">erfinden</term>. Dem <persName>Pettern
+							<lb/>Toffel</persName> habe sie auch khein <term ref="lem007340.06">embd</term> genommen, vorbehalten
+							<lb/>ein <term ref="lem018195.02">byrli</term>, so sie ihrer <term ref="lem001076.42">khu</term> über den <term ref="lem001035.05">zuhn</term> geworffen.
+							<lb/>Welches alles sie am lären <term ref="lem006591">seil</term> <term ref="lem015124">erhalten</term>.</seg></p>
+						<p><seg><lb/><persName ref="per016940a.01">Leysa Bosson</persName>, originelle de <placeName ref="loc007846.04">Ryaz</placeName>, est mariee a <persName ref="per016941a.01">Jaque
+							<lb/>Champmartin</persName> a <placeName ref="loc007660">La Roche</placeName>, dict avoir servy l’espace
+							<lb/>de <date dur-iso="P7Y">sept ans</date> a la ville aupres de madame <persName>de Gleresse</persName>
+							<lb/>et <term ref="lem015549.13">confesse</term> d’avoir commis quelques petits <term ref="lem019436.04">larrecins</term>,
+							<lb/>comme quelque peu de <term ref="lem016204.04">fruictage</term>, un bichet d’a<lb break="no"/>voine, deux <term ref="lem018227.03">mottetes</term>, du pain et une fois <measure type="currency" quantity="10" unit="bz">dix batz</measure>
+							<lb/>a une servante, lesquelles elle rendit par aprés.
+							<lb/>Mais pour la <term ref="lem018521.01">sorcellerie</term> n’y estre jamais tombee,
+							<lb/>que Dieu l’en a bien gardee et l’en preservera
+							<lb/>encour davantage.</seg> <seg>Et le commencement du soub<lb break="no"/>çon, qu’on a sur elle, estre venu d’une de ses
+							<lb/>voisines, avec laquelle elle se combattoit souvent,
+							<lb/>laquelle alla dire ça et la qu’elle luy avoit
+							<lb/>donné sa maladie, qu’elle luy faict bien tort,
+							<lb/>qu’elle ne s’est jamais mal gouvernee avec personne,
+							<lb/>hormis avec un, que l’avoit promis en mariage, avec
+							<lb/>lequel elle alla en <placeName ref="loc000438.06">Italie</placeName>, croyant qu’il l’espouse<lb break="no"/>roit&#160;; qu’elle n’a faict aultre mal a personne, que ce
+								<pb n="120"/><lb/>qu’elle a dict d’avoir <term ref="lem015015.03">derobbé</term>, et n’avoir jamais
+								<lb/>commandé aux enfants de <persName>Pierre Monet</persName> de <term ref="lem015015.02">de<lb break="no"/>robber</term> du bled et le luy aporter&#160;; qu’elle n’a ja<lb break="no"/>mais donné aulcune maladie a personne, ny faict
+							<lb/>a mourir aulcune <term ref="lem014874.08">geline</term>, ny aultres betes&#160;; qu’il luy
+								<lb/>en arrivent tort, qu’elle est tout a faict in<lb break="no"/>nocente de <term ref="lem018521.01">sorcellerie</term>. Ce qu’elle a soustenu
+								<lb/>a la <term ref="lem019428.01">torture</term> de la simple <term ref="lem018231">corde</term> et a <term ref="lem019498">crié
+							<lb/>mercy</term>.</seg>
+						</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

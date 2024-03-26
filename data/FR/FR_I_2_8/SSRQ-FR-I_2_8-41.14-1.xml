@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-41.14-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 9</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 9</idno>
+					</msIdentifier>
+					<head xml:lang="de">Joni Voland – Verhör</head>
+					<head xml:lang="fr">Joni Voland – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1618-08-31"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+							<seg><lb/><origDate when="1618-08-31">31 <foreign xml:lang="la">augusti</foreign> 1618</origDate></seg>
+							<seg><lb/><foreign xml:lang="la"><choice><abbr>Jud</abbr><expan>Judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Wilhelm Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per009250">Gerwer</persName></seg>
+							<seg><lb/><persName ref="per009388">Reiff</persName>, <persName ref="per009579"><choice><abbr>L</abbr><expan>Ludwig</expan></choice> Gottrou</persName></seg>
+							<seg><lb/><persName ref="per009259">Ligertz</persName>, <persName ref="per009123">Werly</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg>
+							<seg>La susdite <persName ref="per009584a">Joni Voland</persName> a dit que nulle aultre
+						<lb/>personne est cause de son apprisonnement, que
+						<lb/><persName>Lorentz Treytorens</persName>, ayant ouy dire de <persName>Mar<lb break="no"/>gerita Bally</persName>, sa servante, qu’on murmuroit,
+						<lb/>ladite prisonniere avoir <term ref="lem015635.16">ballié</term> les <term ref="lem017091.06">ennemis</term> a une
+						<lb/>sienne fillie, et que lesdits <term ref="lem017091.06">ennemis</term> l’auroient
+						<lb/><term ref="lem015356.05">acculpé</term>, ladite prisonniere en estre cause, ce qu’elle
+						<lb/>n’auroit jamais pensé, ny fait, et que on luy
+						<lb/>faisoit grand tort.</seg> <seg>A dit dadvantage qu’on
+						<lb/>disoit aussy, ladite prisonniere les avoir <term ref="lem015635.16">ballié</term> a
+						<lb/>la <persName>Zibera</persName>, et ayant apperceu cela, auroit
+						<lb/>mandé sadite servante vers ladite <persName>Zibera</persName>, pour
+						<lb/>s’enquerir, laquelle luy respondit que le pere
+						<lb/>et mere dedite <term ref="lem019503.07">possedee</term> en estoient <add place="above">cause</add>, et de tout
+							<lb/>ce que on luy faisoit grandement et me<lb break="no"/>schamment <add place="inline">tort</add>.</seg> <seg>Estant <term ref="lem019548.07">eslevee</term> avec la petite
+						<lb/><term ref="lem018285.01">pierre</term>, aultre n’a dit.<note>Der nächste Abschnitt betrifft den Prozess gegen <persName ref="per009582">Clauda Grandjean</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-42.6-1">SSRQ FR I/2/8 42.6-1</ref>.</note></seg>
+					</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

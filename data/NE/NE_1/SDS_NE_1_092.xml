@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-92-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2 fol.&#160;223r-230v</idno>
+               </msIdentifier>
+               <head>Ordonnances matrimoniales promulguées par le gouverneur Georges de Rive</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Copie</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1550-03-21"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_205">SDS NE 1, N<hi rend="sup">o</hi>&#160;92</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003400"></term>
+               <term ref="key005098"></term>
+               <term ref="key000863"></term>
+               <term ref="key000138"></term>
+               <term ref="key005141"></term>
+               <term ref="key000558"></term>
+               <term ref="key003389"></term>
+               <term ref="key000103"></term>
+               <term ref="key000658"></term>
+               <term ref="key003072"></term>
+               <term ref="key005489"></term>
+               <term ref="key000953"></term>
+               <term ref="key000586"></term>
+               <term ref="key000803"></term>
+               <term ref="key000958"></term>
+               <term ref="key000611"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="223r" facs="AEN_3PAST_2_222v_223r"/>
+               <div>
+                  <head type="title"><lb/>Articles dressez pour la justice <lb/>matrimoniale et le
+                     consistoire <lb/>nouvellement ordonné en la ville et comté <lb/>de Neufchastel
+                        <date when="1550-03-23">le XXIII<hi rend="sup">e</hi> de mars 1550</date>. </head>
+                  <head type="subtitle"><lb/>Le nombre des seigneurs juges assistans audit
+                     <lb/>consistoyre et de leurs journéeset despens</head>
+                  <p><lb/>Et premierement le seigneur juge presidant tenant le baston de la
+                     <lb/>justice, trois du conseil de Monseigneur nostre prince et qu’ilz soyent en
+                     <lb/>nostre reformation et trois des seigneurs vingt quatre du conseil de
+                     ladite <lb/>ville et ung des ministres appellé avec eux le secretayre de ladite
+                     justice <lb/>ensemble du southier de la seigneurie&#160;; et seront en cest
+                     office un an, et l’an <lb/>finy, se changeront le tout d’an en an ainsy que il
+                     sera tousjours advisé par <lb/>bon conseil et meure deliberation selon Dieu et
+                     la reformation evangelique. <lb/>Et sera donné a un chacun d’eux pour ses
+                     vaccations et despens assavoir <lb/>dix solz par assize. </p>
+                  <head type="subtitle">Comment l’on doibt contracter mariage</head>
+                  <p><lb/>En prealable a esté statué et ordonné que personne en ceste ville ny en
+                     <lb/>tout ce comté dudit Neufchastel ne debvra contracter mariage sans la
+                     <lb/>presence a tout le moins de deux hommes de bien et d’honneur. </p>
+                  <head type="subtitle"><lb/>Que nul ne doibt solliciter en mariage les enfans d’un
+                     <lb/>autre en derriere de ceux ausquelz le regime appartient</head>
+                  <p><lb/>En après ne debvra aulcun solliciter en mariage les enfans d’un aultre
+                     <lb/>sans le sceu, voulloir et consentement des peres, meres, parens, tuteurs
+                     ou <lb/>aultres qui auroyent le gouvernement desditz enfans&#160;; et qui
+                     contreviendra <lb/>a cestuy edict sera chastié par trois jours en la javyolle
+                     en pain et eau <lb/>et, avec ce, tel mariage sera nul et de nulle vigueur.</p>
+                  <pb n="223v" facs="AEN_3PAST_2_223v_224r"/>
+                  <head type="subtitle"><lb/>Que nulz enfans moindres d’eage se doibgent marier sans
+                     <lb/>le sceu et vouloir de pere et mere, parens et tuteurs</head>
+                  <p><lb/>Et afin que l’estat de mariage ne soit contemné et frivollement faict
+                     <lb/>comme du passé, n’aura aucun mariage vertu ny force qui se contractera
+                     <lb/>par les enfans, en derriere de pere et de mere, tuteurs et gouverneurs
+                     <lb/>d’iceux, sinon que telz enfans ayent entierement dix neuf ou vingt ans
+                     <lb/>et sy cela se faisoit avant tel eage, lesditz pere, mere et tuteurs
+                     pourroyent <lb/>empescher et aneantir telz mariages sy bon leur semble.</p>
+                  <head type="subtitle"><lb/>Quand lesditz enfans se peuvent marier eux
+                     mesmes</head>
+                  <p><lb/>Et sy lesditz pere, mere, parens ou tuteurs ne faisoyent dilligence, ains
+                     <lb/>soyent negligens de marier leurs enfans dedans ledict eage de dix neuf ou
+                     <lb/>vingt ans, est permis que adonc eux mesmes avec l’ayde de Dieu, voyre
+                     <lb/>sans contredict de personne, ils se puissent marier combien que du doct
+                     <lb/>et mariage, il en soit a la declairation desditz seigneurs juges quand
+                     <lb/>se seroit contre le pere ou la mere.</p>
+                  <head type="subtitle"><lb/>Que l’on ne doibt contraindre les enfans a aulcung
+                     <lb/>mariage</head>
+                  <p><lb/>Pere, mere, tuteurs ny autres ne doibvent contraindre leurs enfans <lb/>a
+                     aulcungs mariages contre leur voulloir en nul temps. Et sy cela <lb/>se faisoit
+                     et que plaintifz s’en fit au droict, tel mariage ne vauldra <lb/>rien et seront
+                     les contrevenans a cecy chastiez&#160;; mais sy le pere ou la <lb/>mere
+                     remettoyent tel affaire a la liberalle election de leurs enfans <lb/>et iceux
+                     enfans ne voulloyent estre obtemperans, ains eslire le pire <lb/>et faire au
+                     pis, soit masle ou femelle, que adonc le pere, mere, tuteur <abbr>etc</abbr>
+                     <lb/>ne leurs soyent entenuz leur vie durant donner aulcun doct de mariage,
+                     <lb/>fors que par la discrétion des juges et selon l’exigence de la cause.</p>
+                  <head type="subtitle"><lb/>Comme personne libres qui n’ont aucun qui se <lb/>mesle
+                     d’eulx se peuvent marier</head>
+                  <p><lb/>Quand deux se prennent qui sont libres et n’ont aulcung qui ait le regime
+                     <lb/>sur eux qui s’en mesle, qui sont tous deux recognoissans du mariage se
+                     <lb/>doibvent avoir l’un l’autre, toutesfois la fille doibt estre oultre
+                     quatorze ans <lb/>et le filz non mineur de l’eage de seize ans, mais s’ilz
+                     nyent le mariage et <lb/>qu’ilz n’ayent tesmognage selon le contenu du premier
+                     statut, tel mariage n’aura <lb/>aulcune force, sur ce, se sache un chacun
+                     conduire et garder de deshonneur et <lb/>vitupere.</p>
+                  <pb n="224r" facs="AEN_3PAST_2_223v_224r"/>
+                  <head type="subtitle"><lb/>Quand une fille se mect pour pucelle et qu’elle
+                     querelle celuy <lb/>qui auroit heu sa compagnie</head>
+                  <p><lb/>Combien qu’il soit comprins en la loy de Dieu que quiconque despucellera
+                     <lb/>et deshonnorera une vierge, que iceluy luy doibge constituer doct et
+                     mariage <lb/>et l’avoir pour sa femme et que nous nous soyons un bon espace de
+                     temps <lb/>aydé de cestuy statut, lequel ne seroit desraysonnable quand la
+                     chose seroit <lb/>ainsy en soy mesme et qu’il n’y auroit aulcune fraude ny
+                     barat, ce qu’est<lb/> advenu plusieurs fois, car il se trouve beaucoup de
+                     tromperies et gros <lb/>dangers comme l’avons expérimentez journellement, parce
+                     que plusieurs <lb/>filles se disoyent estre vierges et ne l’estoyent pas et
+                     prenoyent en vigueur <lb/>de tel statut les juvenceaux a querelle et les
+                     gagnoyent, qui nous a <lb/>occasionné d’y remedier et faire sur ce autre
+                     declairation afin que l’on <lb/>sache et puisse cognoistre lesquelles sont
+                     vierges et par quel moyen elles <lb/>doibvent gratifier par honneur aux jeunes
+                     a marier; parquoy avons <lb/>ordonné et estably nommeement que une fille sera
+                     tenue pour vierge <lb/>laquelle sera de bonnes moeurs, fame et renommée sans
+                     aucun vytupere <lb/>ny suspition, et qui ne consentira a la vollonté du
+                     jouvenceau sinon que <lb/>premierement il luy ait promis par devant deux hommes
+                     de bien pour <lb/>le moins, de bouche et de main directement la foy de
+                     mariage&#160;; et qui ne <lb/>feroit cela ou qui oultre ce obtempereroit a la
+                     vollonté d’un sans <lb/>requisition ny confirmation de mariage comme sus est
+                     dict, tel mariage <lb/>ne vauldra rien puis après ny ne astraindra point le
+                     filz, car telle <lb/>fille ne doibt point estre tenue ne réputée pour vierge. </p>
+                  <head type="subtitle"><lb/>Sy aucun se jactoit ou vantoit de l’autre</head>
+                  <p><lb/>Quand une personne se vantera de l’aultre par malvueillance <lb/>et cela
+                     se peut manifestement conster, doit iceluy venteur estre chastié <lb/>a la
+                     cognoissance des juges.</p>
+                  <head type="subtitle"><lb/>Que chacun mariage doibt estre publiquement manifesté
+                     <lb/>en l’eglise</head>
+                  <p><lb/>Afin que toutes suspitions, murmurations et séductions soyent évitées,
+                     doibt <lb/>un chacun mariage qui sera dehuement contracté, estre ouvertement
+                     confirmé <lb/>et testiffié devant toute l’eglise avant que les deux parties
+                     hantent ny <lb/>conversent ensemble par copulation charnelle, et ce a cause que
+                     tous sachent <pb n="224v" facs="AEN_3PAST_2_224v_225r"/>
+                     <lb/>lesquelz habitent en loyal mariage par ensemble&#160;; et doit le ministre
+                     telz <lb/>conjoinctz mettre en escript. Et ne conjoindra aucun ministre les
+                     perrochains <lb/>d’un autre ministre sans le sceu et consentement
+                     d’icelluy.</p>
+                  <head type="subtitle"><lb/>Lesquelz a cause de consanguinité ne se peuvent
+                     <lb/>prendre en mariage</head>
+                  <p><lb/>Apres ce que cy devant en briefve substance avons ordonnez par <lb/>quelle
+                     maniere mariage se doibt contracter et que aucune affinité ne <lb/>degrez ou
+                     aultres choses ne puissent retarder tel mariage sinon celles <lb/>comprinses cy
+                     après, afin que ce que par le pape a esté permis par argent <lb/>et
+                     dispensation soit abolly, car plusieurs se copulent par ce, en la papauté
+                     <lb/>qui sont bien près en consanguinité, dont surviennent scandales,
+                     <lb/>murmuration et detraction d’honneur, pour a quoy obvyer et a celle fin que
+                     <lb/>nul ne se confonde en l’affinité ains que chacun ait cognoissance
+                     <lb/>jusques ou et en quel degré il se peut coppuler en mariage, sont cy
+                     <lb/>après specifiez et comprins les degrez du masle et de la femelle lesquelz
+                     <lb/>sont prohibez et deffendus, pour meilleur clarification de tel cas.
+                     <lb/>Par quoy voulions chacun auprès d’iceux demeurer et que a nul soit
+                     <lb/>licite ne permis les transgresser comme que ce soit, car sy aucun
+                     <lb/>temerairement estoit sy osez de soy marier et perfonder en tel degrez
+                     <lb/>prohibez, ne vauldra rien tel mariage et ce neantmoins les
+                     <lb/>transgresseurs seront chastiez en corps, honneur et biens selon qu’il sera
+                     <lb/>requis, toutesfois réservé que s’il avoit esté faict ou ottroyé devant
+                     <lb/>ceste declairation quelque chose contrariant a icelle pour eviter
+                     <lb/>toute erreur cela ne debvra pourtant estre abolly ains demourera <lb/>en
+                     vigueur, et sommaire­ment est ottroyez que ceux qui sont passez le
+                     <lb/>quatriesme degré d’affinité, soit en ascendant ou descendant, que
+                     <lb/>iceux se puissent prendre en mariage.</p>
+                  <pb n="225r" facs="AEN_3PAST_2_224v_225r"/> 
+                  <table>
+                     <row>
+                        <cell><head><lb/>Le filz ne <lb/>prendra en <lb/>mariage</head></cell>
+                        <cell><head><lb/>La fille <lb/>ne prendra en <lb/>mariage</head></cell>
+                     </row>
+                     <row>
+                        <cell><lb/>Sa grand mere</cell>
+                        <cell><lb/>Son grand pere</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>Sa mere</cell>
+                        <cell><lb/>Son pere</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>Sa marastre</cell>
+                        <cell><lb/>Son parastre</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La fille de son frere venue <lb/>de sa marastre </cell>
+                        <cell><lb/>Le filz de son frere venu <lb/>de son parastre</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La fille de sa seur venue <lb/>de sa marastre</cell>
+                        <cell><lb/>Le filz de sa soeur venu <lb/>de son parastre</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>Sa soeur de pere et de mere</cell>
+                        <cell><lb/>Son frere de pere et de mere</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>Sa belle soeur de pere ou <lb/>de mere seul</cell>
+                        <cell><lb/>Son beau frere de par pere <lb/>ou mere</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>Sa fille</cell>
+                        <cell><lb/>Son filz </cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La fille de son filz </cell>
+                        <cell><lb/>Le filz de son filz</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La fille de sa fille</cell>
+                        <cell>Le filz de sa fille</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La soeur de son pere</cell>
+                        <cell><lb/>Le frere de son pere</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La femme du frere de son pere</cell>
+                        <cell><lb/>Le frere de sa mere</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La soeur de sa mere</cell>
+                        <cell><lb/>Le mary de la soeur de son pere</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La femme du frere de sa mere</cell>
+                        <cell><lb/>Le mary de la soeur de sa mere</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La femme de son filz</cell>
+                        <cell>Le mary de sa fille</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La femme de son frere</cell>
+                        <cell><lb/>Le mary de sa soeur</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La fille de sa femme</cell>
+                        <cell><lb/>Le filz de son mary, le filz <lb/>du filz de son mary</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La fille du filz <add place="above">ou de la fille</add> de sa
+                           femme </cell>
+                        <cell><lb/>Le filz de la fille de son mary</cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La soeur de sa femme</cell>
+                        <cell><lb/>Le frere de son mary </cell>
+                     </row>
+                     <row>
+                        <cell><lb/>La mere de sa femme</cell>
+                        <cell><lb/>Le pere de son mary</cell>
+                     </row>
+                  </table>
+                  <head type="subtitle"><lb/>Réservation que les enfans frereux ne se doibvent
+                     <lb/>point marier ensemble et ce que s’ensuit</head>
+                  <p><lb/>Combien que selon la loy divine et imperiale n’est deffendu ains permis
+                     <lb/>que les enfans frerreux se puissent prendre en mariage, toutesfois selon
+                     <lb/>que nous semble estre necessayre a cause des nations estranges et
+                     frontieres <lb/>des pays a nous adjacens et pour moins de scandalle et
+                     espouventement, <lb/>avons voulsu descendre de tel auctroy et franchise,
+                     laquelle aussy <lb/>expressement deffendons et ne voulions permettre que aucun
+                     en nos <pb n="225v" facs="AEN_3PAST_2_225v_226r"/>
+                     <lb/>terres et pays se copulent et marient ensemble plus près qu’ilz n’ayent
+                     <lb/>passez le quatriesme degré de consanguinité, car celluy qui le feroit
+                     <lb/>en transgressant cestuy nostre comman­dement, voulions qu’il soit
+                     <lb/>griefvement puny par le jugement et discretion desdits juges.
+                     Semblablement <lb/>ne laissons tel mariage avoir lieu&#160;; et sy entre le
+                     commung peuple <lb/>qui bonnement ne se seroit entendu sur tel affaire de
+                     consanguinité survenoit <lb/>quelque erreur ou mescognoissance, afin que nul ne
+                     s’y <lb/>abuse, voulions avant que telz mariages se contractent que tousjours
+                     <lb/>l’on aye premierement conseil vers les juges du consistoire, et cela
+                     <lb/>demeurer a leur declairation et ordonnance. </p>
+                  <head type="subtitle"><lb/>Statuz desquelz l’on use en séparation de
+                     mariage</head>
+                  <p><lb/>Depuis qu’il se conste par le droict divin et humain que le divorce et
+                     <lb/>separation de mariage en aucun point et article soit permis, aussy pour
+                     <lb/>entretenement et utilité de l’estât de mariage fort necessayre, toutesfois
+                     <lb/>considerant les cautelles, abusions et maulvaisties qui par les iniques
+                     <lb/>sont estées usées afin que tant plus legierement fussent separez, pour
+                     <lb/>prevenir a icelles avons ordonnez et estably que doresenavant a aulcune
+                     <lb/>personne ne soit licite de soy despartir de sa propre authorité d’avec
+                     <lb/>son epoux ou espouse, en la delaissant presumptueusement pour <lb/>quelque
+                     cause que ce soit, ains se doibvent vertueusement et amyablement <lb/>supporter
+                     et souffrir l’un l’autre et non point se imputer ny querir <lb/>cautelles,
+                     cavillations, querelles, courroux ny autres mauvaises <lb/>oppinions pour soy
+                     separer&#160;; et sy l’une ou l’autre des parties en mariage <lb/>pensoit avoir
+                     une cause susffisante et necessayre a se despartir et ne se <lb/>voulsist
+                     aulcunement laisser rappointer et reunir, adoncques telles <lb/>personnes
+                     doibvent aller par devant les juges au consistoyre et leur <lb/>declairer leurs
+                     griefz, puis en attendre leur cognoissance juridique.</p>
+                  <head type="subtitle"><lb/>Comment lesditz juges quand l’on vient en droict
+                     <lb/>devant eux se doibvent conduyre. </head>
+                  <p><lb/>Les dictz juges ne doibvent point ottroyer separation de mariage sinon par
+                     <lb/>grosse contraincte et nécessité, ains tousjours entretenir et dilayer tel
+                     cas <lb/>sans y proceder en haste, inconsideréement, précipitant leur sentence
+                     et <lb/>les occasions, deppendances, irritations et aultres choses d’une
+                     chacune <lb/>querelle soit par tesmoings ou par quelques aultres convenables
+                     moyens <lb/>proprement, entierement et bien apprendre, considerer, ponderer <pb
+                        n="226r" facs="AEN_3PAST_2_225v_226r"/>
+                     <lb/>tresacertes sans fiction toutes choses plaintifz et demandes, le tout
+                     selon <lb/>qu’est requis, dilligemment et au vray entendre et de toute leur
+                     force <lb/>s’employer, supporter et induire les parties qu’ilz ne se
+                     separent&#160;; et <lb/>quant ilz auront essayez tout ce qu’il convient
+                     d’essayer et que toutesfois <lb/>aucune reunion ne se pourra faire, adoncques
+                     peuvent iceux selon <lb/>l’opportunité du cas et selon ce qu’il auront trouvez
+                     besogner et cognoistre <lb/>ce que leur semblera estre selon Dieu et raison et
+                     non point par rigueur&#160;; <lb/>neantmoins ne separeront aulcuns sans grosses
+                     necessitez et evidante <lb/>cause.</p>
+                  <add place="interlinear" hand="later hand"><lb/>Acause du billet qui s'ensuit
+                     <lb/>nous pouvons nous en</add>
+                  <head type="subtitle"><lb/>A cause de quoy separation s’ensuit</head>
+                  <head type="subtitle"><lb/>Pour adultayre</head>
+                  <p><lb/>Premierement quand l’une des parties mariées offence l’autre par
+                     <lb/>publicque et contempnable adultaire sans la coulpe ny cause d’icelle,
+                     aussy <lb/>quand ung ou une sera par tesmoigns convaincue par devant le
+                     consistoyre <lb/>ainsy que selon la coustume du droict de Neufchastel, il faut
+                     par tesmoings <lb/>veriffier autres causes, ou qui sera surprins au fai et ou
+                     aussy que tel faict <lb/>sera sy manifeste et evident ou sy suspitionné que par
+                     nulle mode ny <lb/>verité ne se pourra nyer, adoncques lesditz juges peuvent,
+                     sy nul moyen, <lb/>priere ne requeste envers l’incoulpable ne peut ayder, comme
+                     sus est dict, <lb/>la separation laisser avoir lieu. </p>
+                  <head type="subtitle"><lb/>Plus grosses choses que adultayre. </head>
+                  <p><lb/>Quand un ou une auroit perpétrez cas qu’attoucheroit le corps et la
+                     <lb/>vie ou qui seroit ladre, hors du sens et furieux, de sorte qu’ilz ne
+                     seroyent <lb/>pas seurs l’un avec l’autre et qu’il n’y auroit aulcune
+                     meillorance.</p>
+                  <p><lb/>Ou aussy sy aucun par deffault de nature ou aultre faulte n’estoit
+                     <lb/>apte aux oeuvres de mariage. Toutesfois en cecy ne doibt estre besongné
+                     <lb/>en haste comme sus est dict, spécialement au faict de ladrerie,
+                     effrenation <lb/>ou hors du sens, semblablement à l’innepteté et impuissances
+                     des oeuvres <lb/>matrimonialles, ains tousjours querir ayde et conseil vers les
+                     medecins et <lb/>tous moyens par lesquelz a telles personnes pouroit estre aydé
+                     et remedié. <lb/>Et quand riens n’y poura ayder, adonc separation s’en pourra
+                     suyvre pour <lb/>celuy qui sera sain et idoine afin qu’il ne soit contrainct a
+                     paillarder.</p>
+                  <pb n="226v" facs="AEN_3PAST_2_226v_227r"/>
+                  <p><lb/>Mais en ce cas du deffault de nature doibvent encore ce neantmoings
+                     <lb/>telles personnes résider ensemble l’espace d’un an pour voir sy pendant
+                     <lb/>ce terme Dieu leur impartissoit sa grâce que leur deffault se meillorast.
+                     <lb/>Mais s’il n’y avoit aulcune meillorance, on les pourra despartir, estre
+                     <lb/>finy ledict an, et les laisser pourvoir ailleurs, par tel que les docteurs
+                     et <lb/>naturelz medecins qui s’entendent sur telz affaires rendent tesmoignage
+                     <lb/>aux juges de telle faulte, impotence et inepteté. </p>
+                  <head type="subtitle"><lb/>Declairation comment est de besognes au faict <lb/>de
+                     ladrerie</head>
+                  <p><lb/>Combien qu’en la parolle de Dieu n’est clerement contenu ny trouvé
+                     <lb/>comme l’on doibt sentencer et besogner au faict de ladrerie, toutesfois
+                     <lb/>en la similitude de foy et d’amour chrestienne en quoy git toute la loy
+                     <lb/>divine et les prophetes, aussy en considération de l’utilité et bien
+                     publicque <lb/>se trouvera estre plus raisonnable et convenable que personnes
+                     mariées <lb/>entre lesquelles l’une sera infecté de la ladrerie, et qui selon
+                     la parolle <lb/>de Dieu, Levitique au XIIII<hi rend="sup">e</hi>
+                        chappitre<note>Note Favarger&#160;1982&#160;: Lév.&#160;14/34-36.</note>,
+                     doibt estre séparée du peuple et <lb/>avoir son habitation a part, a cause que
+                     l’on peut facillement heriter <lb/>l’un de l’autre telle maladie, se puissent
+                     despartir quand la personne <lb/>nette et pure se plaindra en droict et que
+                     l’infecte y consentira, que de <lb/>dire que celle qui est saine doibge
+                     tousjours brusler en cupidité et desir <lb/>et parce d’avanture tomber en
+                     paillardise, adultayre ou en quelque <lb/>plus groz vice contre Dieu, depuis
+                     que la corrompue partie ne se <lb/>peut acquiter envers la saine touchant
+                     oeuvres matrimonnialles sans <lb/>gros danger a cause de telle hereditayre
+                     malladie et qu’il n’y a <lb/>esperance de meillorance comme en autre maladie,
+                     que seroit chose <lb/>contre la foy, contre le bien publicque et amour
+                     chrestienne, car <lb/>comme l’on peut considerer, lequel pourroit souffrir que
+                     non tant <lb/>seullement la personne ladre fut infect son pair en mariage,
+                     voyre <lb/>leurs enfans, ensemble toute une voysinance, parquoy neantmoins
+                     <lb/>que en la saincte parolle n’en est faicte claire mention, sy n’est il
+                     <lb/>point contre Dieu, que nous comme ordonnez magistratz fassions <lb/>en
+                     cest endroict statuz et ordonnances, comme en aultres exterieures <lb/>choses,
+                     desquelles n’avons expressement memoyre en la saincte parolle&#160;;
+                     <lb/>toutesfois jouxte icelle, selon la foy et fraternelle amour sans y
+                     <lb/>contrevenir. Parquoy en contemplation de cela avons estably quand en
+                     <lb/>un mariage, l’une des parties est ladre et cognue a estre separée que
+                     <lb/>l’autre saine aye patience avec elle un an ou demy an selon que <pb
+                        n="227r" facs="AEN_3PAST_2_226v_227r"/>
+                     <lb/>son train et mesnage le pourra souffrir, et estre passé celluy temps
+                     <lb/>après que les medecins auront estez sur ce interrogez et avoir usé de
+                     <lb/>tous moyens et aucune meilleurance ne s’en peut suyvre, ains seroit sy
+                     <lb/>fort infectée que accomplissement des oeuvres matrimonialles ne
+                     <lb/>pourroit estre sans gros dangier de la personne pure et du fruict,
+                     <lb/>peuvent iceux mariez estre despartis, et au pur et net ottroyé se
+                     <lb/>remarier ailleurs, toutesfois que telle saine personne ayt a ce le
+                     <lb/>consentement de l’infecte, literallement ou de bouche, et combien que
+                     <lb/>telle separation a cause de ladrerie ou frenesie se feroit, ce neantmoins
+                     <lb/>doit la personne pure pourvoir l’infecte et separée raisonnablement
+                     <lb/>et selon sa puissance.</p>
+                  <p><lb/>Ung chacun doibt estre adverty que nul ne se mesle de se despartir par
+                     cautelles <lb/>et raisons, sans bon fondement, et que nul n’y use de faulceté
+                     et meschanceté, <lb/>car celluy qui se trouveroit cela faisant, ce que les
+                     juges doibvent bien <lb/>enquerir, sera puny a son corps, vye, honneur et biens
+                     selon la pesanteur de son <lb/>meffait.</p>
+                  <p><lb/>Semblablement quiconque commetra adultayre et rompra son mariage
+                     <lb/>cauteleusement, afin qu’il soit desparty, s’en ventant puis apprès ou
+                     <lb/>manifestant son meffect, ou quiconque conviendroit avec un aultre, par
+                     <lb/>argent ou aultrement, pour suborner son espoux ou espouse, en couchant
+                     <lb/>avec elle a cause qu’ilz se puissent puis après despartir, un tel
+                     personnage <lb/>quand de ce il nous constera, voulions punir par la discrétion
+                     desditz juges. </p>
+                  <head type="subtitle"><lb/>Comment l’on doibt citer ceux qui s’en vont d’avec
+                     <lb/>leur espoux ou espouse</head>
+                  <p><lb/>Quant une personne maryée, par cautelle ou oultrecuydance laisse
+                     <lb/>l’aultre et s’en va d’avec elle, ne doibt pourtant a la delaissée estre
+                     <lb/>permis ny ottroyez de soy remarier ny copuler avec aultres, ains se doibt
+                     <lb/>dilligemment informer et enquérir pour trouver telle fugitive personne
+                     <lb/>et icelle estre trouvée, doibt demander ayde et justice aux juges,
+                     lesquelz <lb/>donneront a icelle saulf conduict et seureté pour venir et
+                     comparoir en droict <lb/>sur une establie journée, puis de s’en retourner en
+                     luy notiffiant qu’il <lb/>comparoisse ou non, cela nonobstant la partie que
+                     sera contre elle et ne <lb/>voudra comparoir sur telle seurté, ains sera
+                     desobeyssante et que par la <lb/>partie actrice sera apportée vallide lettre
+                     aux juges que a la partie <pb n="227v" facs="AEN_3PAST_2_227v_228r"/>
+                     <lb/>fugitive soit estée notiffiée telle seurté et adjournement, adonc iceux
+                     <lb/>juges luy pourront encores eslargir six sepmaines et trois jours de terme
+                     <lb/>a comparoir par trois edietz et trois fois&#160;; mais non point
+                     personnellement <lb/>sinon es publicques chayres, seigneuries et parroisses ou
+                     la personne <lb/>fugitive avant son despartement faisoit sa demeurance, et sy
+                     après cella <lb/>elle estoit encores desobeyssante et ne veult obeyr au droict,
+                     adoncques <lb/>pourront les juges proceder en tel affaire et sentencer ce que
+                     leur <lb/>semblera juste et raisonnable, selon la propriété du cas.</p>
+                  <head type="subtitle"><lb/>Quand la personne citée obtempere et obeyt en
+                     <lb/>droict puis s’en retourne, quelle est sa punition. </head>
+                  <p><lb/>Sy la personne citée et toutesfois ne voulloit accomplir ce <lb/>que luy
+                     seroit adjugé ains derechef absenter le lieu ou sy elle avoit <lb/>estée citée
+                     et jamais n’auroit comparu, elle doibt avoir perdu nos <lb/>terres et pays, sy
+                     puis après elle est trouvée en icelles, l’on luy donnera <lb/>le serement hors
+                     d’icelles et l’acusera l'on envers le magistrat riere <lb/>lequel elle
+                     habitera, comme une desobeyssante, descriée et digne de <lb/>chastier, et ne la
+                     laisserons rentrer en nosdites terres sinon qu’il fust <lb/>que telle fugitive
+                     personne demandoit grâce et desirast de gracieusement <lb/>rehabiter avec son
+                     espoux ou espouse comme appartient a gens de bien, et <lb/>que devant tout l’on
+                     cogneust en icelle fugitive personne une manifeste <lb/>et entiere meillorance
+                     et amendement&#160;; adonc voulions avoir nostre main <lb/>ouverte s’il nous
+                     plaist de luy pardonner ou non&#160;; et le cas advenant <lb/>que telle
+                     personne par cautelle demeureroit sy longtemps dehors <lb/>jusques a ce que son
+                     espoux ou espouse fut morte ou qu’elle fut astrainte <lb/>ailleurs en mariage
+                     ou transgresseroit aultres nos commendemens <lb/>et ordonnances, soit a cause
+                     de pension, guerre ou en autres manieres, <lb/>ne voulions, cela estant, que
+                     icelle personne rentre jamais en nos villes <lb/>et pays, ains quant elle ne
+                     observeroit le serement, et que oultre <lb/>iceluy elle seroit trouvée en
+                     icelles, la voulions adoncques punir <lb/>au corps et a la vie. </p>
+                  <p><lb/>Et sy la personne délaissée ne pouvoit appercepvoir ne trouver la
+                     <lb/>fugitive et que cela elle certifie par son grand serement, neantmoins
+                     <lb/>doit elle attendre an et jour sans se remarier, et sy après que tel an
+                     sera <lb/>escouruz elle demande droict, doibvent les juges par trois edietz et
+                     <lb/>admonestement, comme sus est dict, faire demander telle fugitive personne
+                     <lb/>et estre passez par trois fois, trois jours et six sepmaines, et la
+                     personne <lb/>fugitive est tousjours desobeyssante au droict, adonc peuvent ilz
+                     laisser <pb n="228r" facs="AEN_3PAST_2_227v_228r"/>
+                     <lb/>aller le droict a la délaissée et cognoistre ce que leur conscience
+                     portera <lb/>sans avoir plus de regard a l’inobediance de la personne absente. </p>
+                  <add place="inline" hand="later hand">Soit pour</add>
+                  <head type="subtitle"><lb/>Quand une personne mariée s’en va par le consentement
+                     de l’aultre <add place="inline" hand="later hand">Soit pour nous nos hoirs et
+                        successeurs</add></head>
+                  <p>
+                     <lb/>Et sy une personne mariée par le voulloir, sceu, consentement ou par
+                     ottroy, <lb/>obeissance et commendement de son magistrat et du bon voulloir de
+                     sa partie <lb/>en mariage ou par aultres raysonnables causes, honnorablement se
+                     despartoyt <lb/>d’avec l’aultre et s’en alloit, ne doibt a telle personne estre
+                     estably aulcun <lb/>terme de retourner, ny a celle qui demeure ne doibt estre
+                     ottroyé de se remarier <lb/>jusques a ce qu’elle apporte vallide lettre et
+                     tesmognage souffisant en droict <lb/>que icelle personne absente fut morte et
+                     non plus en vie. </p>
+                  <p><lb/>Sy d’avanture une personne mariée se souffroit et entretenoit un long
+                     <lb/>espace de temps sans rien demander ny s’enquérir de l’autre, tellement
+                     <lb/>que l’on puisse penser estre vraysemblable a une entreprinse et cautelle,
+                     <lb/>les juges doivent gracieusement admonester telle personne a se informer
+                     <lb/>de l’aultre absente, et ce par bon conseil et moyens que dessus luy aider,
+                     <lb/>afin que pluz gros deshonneur et scandale soit evité, toutesfois sy la
+                     <lb/>personne delaissée est de bonne vie et moeurs, ne doibt estre contraincte
+                     <lb/>d’aller apres et suyvre l’aultre, tandis qu’elle se gouverne
+                     honnorablement <lb/>sans blasme. </p>
+                  <p><lb/>Mais sy serviteurs advenayres et personnes estranges qui ne
+                     <lb/>apartiendroyent point ny a nous ny a aultres nos semblables a la foy
+                     <lb/>se voulloyent mesler en la sorte que dessus de contracter mariage ou se
+                     <lb/>despartir ou de citer, ceux pourroyent bien estre remis et renvoyez la ou
+                     <lb/>ilz estoyent paravant et de la ou ilz sont, sans se mesler ny charger
+                     d’eulx. </p>
+                  <head type="subtitle"><lb/>Par quelle maniere l’on se doibt marier apres la
+                     <lb/>separation tant coulpables que incoulpables. </head>
+                  <p><lb/>Apres avoir essayé tous moyens pour reunir personnes mariées et iceux
+                     <lb/>ne peuvent proffiter et que l’incoupable ne veut desister de son bon
+                     droict <lb/>et qu’elle obtienne separation, ne doibt elle pourtant se remaryer
+                     devant <lb/>un demy an apres telle separation et encores appres tel terme cela
+                     doibt <lb/>estre faict par ottroy et consentement des juges, lesquelz aussy par
+                        <pb n="228v" facs="AEN_3PAST_2_228v_229r"/>
+                     <lb/>bonnes parolles tant qu’il leur sera possible entretiendront l’incoulpable
+                     <lb/>de soy remarier pour voir sy davanture durant cela Nostre Seigneur
+                     <lb/>donnoit grace que telles personnes separées fussent reunies ensemble, ce
+                     <lb/>que lesditz juges avant et apres la separation doibvent tousjours de leur
+                     <lb/>pouvoir cercher. Mais sy après tout cela aucune grace ne se peut
+                     <lb/>trouver envers l’innocente sinon qu’elle veuille proceder a la rigueur
+                     <lb/>du droict, luy doibt estre permis, toutesfois non point devant demy an
+                     <lb/>comme sus est dict, pour et afin que par advanture cependant ilz pouroyent
+                     <lb/>par le moyen de gens de bien estre reconjoinctz, et s’il n’y a moyen
+                     quelconque <lb/>qu’il puisse ayder et que l’incoulpable se marye par le
+                     consentement <lb/>que dessus, adonc doibt le coulpable attendre un an entier,
+                     soy porter <lb/>chastement et en honneur et meilleurement par bons tesmoigns de
+                     la <lb/>parroisse ou il habite se conste veritablement en justice, sera permis
+                     <lb/>de soy remaryer, mais les juges ne ottroyeront tel mariage sans
+                     <lb/>premier estre dehuement informez par tesmoins de sa vie. </p>
+                  <p><lb/>Aussy telle coulpable personne a cause que par son vice elle corrompt
+                     <lb/>et scandalise toute une eglise, voulions qu’elle se transporte hors
+                     d’icelle <lb/>parroisse sans y jamais plus habiter&#160;; et toutesfois et
+                     quantes qu’elle <lb/>fauldra dedans l’année qu’elle se doibt entretenir,
+                     recommencera <lb/>tousjours icelle année sur le jour de la faulte et souffrira
+                     aussy <lb/>tousjours la punition des adultayres. </p>
+                  <head type="subtitle"><lb/>Quand la personne coulpable ne voudroit retourner
+                     <lb/>avec l'incoulpable après qu’elle luy aura pardonné <lb/>quelle punition
+                     s’enyvra</head>
+                  <p><lb/>Et sy la personne coulpable apres que l’incoulpable luy aurait pardonné
+                     <lb/>sans suffisante et expresse cause ne voulloit retourner avec l’incoulpable
+                     <lb/>adonc doit la coulpable affectionnée estre transmise hors de nos terres et
+                     <lb/>pays, sans jamais y rentrer, car telle contrarieté donneroit claire
+                     <lb/>cognoissance de son commis adultayre qui auroit esté faict, afin qu’elle
+                     <lb/>fut separée, et la punition se fera par la discretion des juges. </p>
+                  <head type="subtitle"><lb/>Quand la personne incoulpable se remarie <lb/>sans
+                     congé ne doibt rien valloir</head>
+                  <p><lb/>Et sy la personne incoulpable se remaryoit devant ou après le demy an
+                     <lb/>sans le voulloir et congé du consistoyre, tel mariage ne doit rien valoir,
+                     <lb/>ains doibt estre ledict incoulpable reputé et chastié pour adultayre.</p>
+                  <pb n="229r" facs="AEN_3PAST_2_228v_229r"/>
+                  <head type="subtitle"><lb/>Quand la personne coulpable se remarye sans congé
+                     <lb/>quelle est sa punition</head>
+                  <p><lb/>Quand la personne adultayre qui est separée d’avec sa partie se remarye
+                     <lb/>sans le congé du consistoyre, ne doit tel mariage jamais avoir lieu en nos
+                     <lb/>seigneuries et pays, ny reputé pour mariage, et telles promesses n’avoir
+                     <lb/>effect ne valleur mais totalement abolly&#160;: et telle personne
+                     adultayre qui <lb/>se remarye ainsy sans congé, aussy celle qui la prend et qui
+                     sçait bien qu’elle <lb/>est une adultayre, doibvent estre punis comme
+                     s’ensuict&#160;: </p>
+                  <p><lb/>Premierement tous deux doibvent estre mis en prison comme adultayres,
+                     <lb/>puis après absenter un an entier le lieu, paroisse et seigneurie la ou ilz
+                     <lb/>demeurent, et sy pendant telle absence lesdites personnes paillardoyent
+                     par <lb/>ensemble, adonc selon nostre statut, doibvent estre punis par
+                     incarceration&#160;; <lb/>et quand oultre ce ilz voudroyent totallement habiter
+                     ensemble en maniere <lb/>de mariage, adonc doibvent vuyder nostre terre et pays
+                     sans jamais faire <lb/>residance en iceux, sinon comme un estrangier y avoir
+                     seullement passage, <lb/>car leur habitation n’est reputée pour mariage ains
+                     comme une publique <lb/>putterye, laquelle ne voulions souffrir riere nosdites
+                     terres, et pour la <lb/>transgression qu’ilz auroyent comis doibvent du tout
+                     vuider nosdites terres <lb/>un an entier sans passage quelconque, et cest
+                     article se fera a la discretion <lb/>desditz juges comme dessus est dict, et
+                     non aultrement. </p>
+                  <p><lb/>Et combien que personnes qui auroyent estées separées devant ou apres
+                     <lb/>ledit terme d’un se remaryoient et racordoyent, se doibvent presenter
+                     <lb/>au consistoyre et a cause de ce ne doibvent confirmer tel mariage
+                     <lb/>ouvertement en l’eglise ny faire nopces. </p>
+                  <p><lb/>Et sy aucun et aucune avant la separation ou avant que son espoux ou
+                     <lb/>espouse fut morte, de sa propre authorité faisoit convenances et promesses
+                     <lb/>de mariage par son serement pour l’advenir ou pour le present, et que sus
+                     <lb/>telles promesses survint concubination ne doibt tel mariage aulcunement
+                     <lb/>avoir lieu. </p>
+                  <p><lb/>Aussy aucune personne qui aura estée en mariage et icelle aura transgressé
+                     <lb/>et rompu icelluy sy apertement qu’il ne le puisse nyer, ne peut et ne
+                     <lb/>doibt se conjoindre et marier avec la personne avec laquelle il auroit <pb
+                        n="229v" facs="AEN_3PAST_2_229v_230r"/>
+                     <lb/>paillardé, soit après la mort de son espoux ou espouse ny apres aucune
+                     <lb/>separation, cela vienne au droict ou non, afin d’eviter scandale&#160;;
+                     toutesfois <lb/>reservons quand l’une des personnes mariées seroit insuffisante
+                     et <lb/>qu’elle ne pourroit a l’aultre observer l’obligation matrimonialle de y
+                     <lb/>pouvoir cognoistre et ordonner cela que necessité requerra, soit <lb/>en
+                     permettant de se remarier ou aultrement. </p>
+                  <p><lb/>Nous n’entendons par ce que deux liberes personnes qui auroyent heuz
+                     <lb/>affaires ensemble ne se puissent bien prendre en mariage, ains
+                     <lb/>l’ottroyons. </p>
+                  <p><lb/>Nous voulions aussy que tous ceux qui seront conjoinctz ensemble <lb/>en
+                     mariage par sentences des juges au consistoyre, et qui ne <lb/>voudroyent
+                     observer telles sentences, que iceux soyent demonstrez <lb/>a nos officiers sur
+                     le pays par les ministres ou autres a ce <lb/>depputez d’une chascune paroisse,
+                     et sy cela ne peut proffiter, <lb/>qu’ils soyent literallement ou en aultre
+                     maniere signifiez ausditz <lb/>juges d’y besogner selon leurs demerites. </p>
+                  <p><lb/>Quant aux biens des personnes separées, n’en est faicte encores
+                     <lb/>declairation, ains le retenons en nostre main pour y ordonner <lb/>selon
+                     qu’il sera requis. </p>
+                  <head type="subtitle"><lb/>Comment les ministres et officiers doibvent
+                     <lb/>proceder aux causesmatrimonialles avant qu’elles <lb/>soyent remises aux
+                     juges du consistoyre</head>
+                  <p><lb/>Quand les deux parties s’acorderont en ce qu’elles confesseront mariage
+                     estre <lb/>faict entre elles, sans dylais leur sera commandé qu’ilz confirment
+                     leur <lb/>mariage devant l’eglise et habitent ensemble, par tel que l’une des
+                     <lb/>parties ne fust conjoincte avec l’autre outre le quatrième degré de
+                     <lb/>consanguinité, lesquelz degrez sont par loix deffendus et reputez incestes
+                     <lb/>selon nostre constitution cy devant, pourveu aussy qu’il n’y heust point
+                     <lb/>d’aultre empeschement, comme seroit sy l’une des parties avoit estée <pb
+                        n="230r" facs="AEN_3PAST_2_229v_230r"/>
+                     <lb/>conjoincte tant par droict de mariage que hors d’iceluy avec le pere ou
+                     mere <lb/>frere ou soeur, oncle ou tante, cousin ou cousine germaine, car en
+                     tel cas la <lb/>cognoissance en doit estre remise ausditz juges. </p>
+                  <p><lb/>Et jaceoit ce que les deux personnes consentent et confessent mariage
+                     estre <lb/>faict, ce neantmoins sy les parens de l’une ou l’autre partie,
+                     alleguans <lb/>l’imperfection de l’eage s’efforcent d’empescher ledict mariage
+                     leur est permis <lb/>selon nos loix de poursuyvre leur cause devant lesditz
+                     juges&#160;; toutefois <lb/>il faut premierement experimenter sy on pourroit
+                     accorder lesditz parens<lb/> par douceur et les faire consentir audict mariage,
+                     moyennant que entre <lb/>les deux jeunes qui se sont promis soit trouvée
+                     egualité de condition et forme <lb/>sans avoir aucun respect aux richesses. </p>
+                  <p><lb/>Mais s’il y a quelque personne qui face demande a un aultre pour raison
+                     <lb/>de mariage promis et contracté et l’autre au contraire nye ledict mariage,
+                     <lb/>lesditz ministres et officiers mettront toute dilligence a les accorder et
+                     <lb/>leur persuader ledict mariage, et s’ilz ne peuvent par doux admonestemens
+                     <lb/>ce impetrer, les remettront ausditz juges du consistoyre. </p>
+                  <p><lb/>S’il advient quelque noise ou tumulte entre les deux conjoinctz par
+                     mariage, <lb/>et fust a cause d’adultayre et que quelque temps il ayent
+                     ensemble vescuz, <lb/>sera loysible de les induyre et reconcilier a concorde et
+                     unyon afin qu’ilz <lb/>s’aydent l’un l’autre d’un accord au proffit et
+                     advancement de leur mesnage, <lb/>ne voullant souffrir que la cause parvienne
+                     ausditz juges, laissant <lb/>toutesfois tousjours a son entier la peyne dehue a
+                     l’adultayre. </p>
+                  <p><lb/>Et quand il adviendra des moindres noises, il faudra mettre peyne tant
+                     <lb/>qu’on pourra que icelles ne viennent point devant lesditz juges, ains
+                     seront <lb/>ouys lesditz mariez chacun a part et separéement, desquelz
+                     conviendra <lb/>aucunes fois punir et emprisonner comme le droict le requiert
+                     celuy qui <lb/>l’aura merité. Bref, on s’efforcera par tous les moyens
+                     possibles que <lb/>les mariez ne soyent separez. </p>
+                  <p><lb/>Aussÿ quand il y aura cryme d’adultayre ou aultre chose tellement
+                     <lb/>qu’elle merite estre traictée par devant les juges, et l’incoulpable ne
+                     <lb/>voulloist pardonner ne desister que la cause soit demenée par droict,
+                     après <lb/>avoir beaucoup travaillé pour les reconcilier, l’action sera remise
+                     a <lb/>nosditz juges du consistoyres, desquelz on attendra le jugement et
+                     sentence. <pb n="230v" facs="AEN_3PAST_2_230v_231r"/>
+                     <lb/>Les ministres ne les officiers d’un chacun lieu ne feront en cecy
+                     <lb/>aulcun jugement de séparation ny aultre chose fors que tant seulement
+                     <lb/>faire et procurer en toute douceur a ce que les mariez vivent ensemble
+                     <lb/>et qu’ilz ne soyent point divisez. </p>
+                  <p><lb/>Au surplus a esté advisé pour le soulagement du pauvre peuple, que <lb/>en
+                     nos quatre chastellanies assavoir au Landeron, Bouldry, Vaultravers <lb/>et
+                     Thielle et a une chacune d’icelles sera dressé un consistoyre ou
+                     <lb/>assisteront avec l’officier, cinq juges, assavoir le ministre du lieu
+                     <lb/>et quatre jurez de la justice dudict lieu. Pareillement sera faict es
+                     <lb/>seigneuries de nos vassaulx hautz justiciers, sy bon leur semble,
+                     <lb/>lesquels juges pourront cognoistre des causes que leur seront mises
+                     <lb/>par devant au contenu des articles cy devant escriptz, reservé
+                     <lb/>seullement qu’ilz ne feront aucun jugement de separation de mariage,
+                     <lb/>ains seront tenus renvoyer les personnes, ensemble de leur plaidoyerie
+                     <lb/>preuves et examen de tesmoins, par devant le consistoyre de nostre
+                     <lb/>ville de Neufchastel pour illec en estre jugé, sentence et declairé ce que
+                     par raison appartiendra d’en faire. </p>
+                  <p><lb/>Nous <persName ref="per031747a.01">George de Rive</persName>, chevallier,
+                     seigneur de Prangin, <lb/>Grandcourt, Genoillier et Tremblieres, lieutenant et
+                     gouverneur general <lb/>au comté de Neufchastel, pour et au nom des très
+                     illustres hault et excellent <lb/>prince Franceois d’Orleans, duc de
+                     Longueville, comte dudit Neufchastel <gap reason="missing"/>
+                     <lb/>sçavoir faisons a tous ceux a qu’ilz appartiendra, que après avoir ouy et
+                     <lb/>au long entendu les articles dressez pour le faict du consistoyre en
+                     <lb/>ceste ville pour le bien et repos du peuple, lesquelz articles par les
+                     <lb/>prudens, sages et discretz quatre ministraulx et conseilliers de ladite
+                     <lb/>ville les ont heuz agréez, donques et afin que en ce puissions y adviser
+                     <lb/>sy voulions que n’ayons cy après la main close d’y adjouster en iceux
+                     <lb/>ou d’en diminuer par l’advis desditz sieurs ministraulx, afin que
+                     aucunement <lb/>l’on n’y attouche contre la franchise de la ville, laquelle sur
+                     ce reservons <lb/>expressement. Et en signe de ce, nous avons signé cestes de
+                     nostre main, <del rend="strikethrough">et signée aussy par le secretayre de
+                        ladicte ville</del> donné <date when="1550-03-21">le <lb/>vingt et uniesme
+                        de mars, l’an mil cinq centz et cinquante ans. </date></p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Copie dans le Coutumier Baillods, fol.&#160;223-230v.</p>
+               <p>Éd.&#160;Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;495-504. Matile, <hi
+                        rend="italic">Plaits</hi>, p.&#160;15.</p>
+               <p>Cité&#160;: Farel, p.&#160;601-602, avec les notes.</p>
+                  <p>Remarque de Favarger&#160;1982&#160;:</p>
+               <p>Le 26&#160;mai&#160;1571 (AEN, «&#160;Justice matrimoniale de Neuchâtel&#160;»,
+                        N<hi rend="sup">o</hi>&#160;1, fol.&#160;11) un défendeur, accusé d'avoir
+                        <hi rend="italic">desfloré</hi> une jeune fille, <hi rend="italic">se
+                        reffiert es coustumes de consistoire qui portent que pour l'abbus que c'est
+                        fait des filles qui s'adonnait a des juvenceaulx et puis apprès les
+                        querelloient a marriage, ains le tout se debvoit faire par devant deux
+                        hommes de bien, dignes et de foy.</hi> Ce registre est extrêmement important
+                     pour l'application des ordonnances promulguées en&#160;1550&#160;; il couvre la
+                     période&#160;1570-1621. C'est le plus ancien registre conservé pour la Justice
+                     matrimoniale de Neuchâtel. On consultera aussi sur ce sujet Jean Courvoisier,
+                     «&#160;Mœurs et problèmes ecclésiastiques dans le pays de Neuchâtel,
+                     en&#160;1564-1565&#160;», dans <hi rend="italic">MN</hi>, 1980, p.&#160;80-93,
+                     et surtout les <hi rend="italic">Annexes</hi>, p.&#160;90-93, qui donnent le
+                     texte inédit d'un cahier égaré du Manuel du Conseil d'État.</p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

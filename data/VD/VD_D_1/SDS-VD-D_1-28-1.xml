@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2020"/>
+                <date type="print" when="2007"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS-VD-D_1-28-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;455, 459–466, 468–467</idno>
+                    </msIdentifier>
+                    <head>Publication de la sentence du procès de brigandage intenté contre Jean Massot, de Villars-Tiercelin, inventaire des biens et dépenses</head>
+                    <msContents>
+                        <summary>
+                            <p>Jean Massot, originaire de Villars-Tiercelin et résident à Naz, est arrêté le 20 juin 1525 au château de Dommartin. Accusé de brigandage, il est interrogé par Jean Costable, châtelain de Dommartin et juge temporel du Chapitre cathédral de Lausanne, accompagné de neuf jurés de Dommartin. Ce même jour, Massot confesse spontanément douze vols, réalisés de sa seule initiative, et six meurtres, tous perpétrés avec l’aide d’au moins deux complices, avec lesquels il aurait aussi conclu un pacte d’alliance ou <orig>&#160;serement&#160;</orig>. Le 27 juin 1525, l’accusé comparait devant la cour sur le pont du château de Dommartin, en présence de la population, pour entendre la lecture des articles de sa confession obtenue sans torture, qu’il ratifie une dernière fois. Le châtelain Jean Costable communique ensuite sa décision de confisquer les biens de l’accusé et de le condamner à être roué et exposé au gibet, et demande la connaissance (<orig>&#160;cognitio&#160;</orig>) des jurés de Dommartin. Le prud’homme Jean Curchod, au nom des susdits jurés, accède à la demande, et le châtelain demande au notaire François Demiéville de rédiger une lettre testimoniale.</p>
+                        </summary> 
+                        <msItem>
+                            <textLang xml:lang="fr"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1525-06-20" to="1525-06-27"/>
+                            <origPlace ref="loc010898.01" cert="high">[Château de Dommartin]</origPlace>                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001221049003977">Dorthe 2007</ref>, p.&#160;261–275</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;10</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001221049003977">Dorthe 2007</ref>, p.&#160;277–313</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="455" facs="ACV_AC-29_454_455"/>
+                        <div><ab type="archiving reference" place="left margin" hand="hand20c" medium="pencil"><date when="1525-06-20">1525, juin 20</date></ab></div>
+                        <add place="top" hand="other hand"><date when="1525">1525</date></add> 
+                        <p><lb/><foreign xml:lang="la"><placeName ref="loc007669.03">Dompni Martini</placeName></foreign></p>
+                        <head type="title"><lb/><foreign xml:lang="la">Processus <persName ref="per016599a.02">Johannis <lb/>Massot</persName></foreign>.</head> 
+                        <pb n="459" facs="ACV_AC-29_458_459"/>
+                        <head type="subtitle" resp="GO">20 juin 1525</head>
+                        <p><seg><lb/>S’ensuyt le prossez et confession de <persName ref="per016599a.01">Joham
+                                        <lb/>Massot</persName> naquis douz <placeName ref="loc010907.05">Villard Tiercellin</placeName>, ad presens
+                                        <lb/>demorant en laz <term ref="lem018739.01">tyolleyre</term> de <placeName ref="loc010909.01">Naz</placeName>, pris et detenuz
+                                        <lb/>ouz chathiaulx, maysons et prissons<note>C’est-à-dire qu’il est incarcéré au château même de <origPlace ref="loc010898.01">Dommartin</origPlace>&#160;: les personnages détenus pour affaire de sorcellerie des années <date from="1524-01-01" to="1528-12-31">1524 à 1528</date> se trouvent <orig>&#160;in carceribus reverendorum et venerabilium dominorum canonicorum cathedralis ecclesie Beate Marie Virginis Lausannensis in castro ipsorum Dompni Martini&#160;</orig> (<bibl><ref target="urn:ssrq:SDS-VD-D_1-30-1">SDS VD D 1 30-1</ref>&#160;: ACV, Ac 29, p.&#160;473 et 487</bibl>, <bibl><ref>SDS-VD-D_2-39-1<!--vérifier le nr à la fin--></ref>&#160;: ACV, Bh 10–3, fol.&#160;1r</bibl>).</note> de mé tres reverent
+                                        <lb/>seignieurs messeignieurs des chapitrez de l’esglise cathedrale
+                                        <lb/>de <placeName ref="loc009833.08">Nostre Damme de <orgName ref="org004033.01">Lausanne</orgName></placeName> part noble homme
+                                        <lb/><persName ref="per016546a.03">Johan Costabloz</persName>, juje, <term ref="lem018914.03">chastellam</term> de <orgName ref="org005304.01">Essertines</orgName>
+                                        <lb/>et de <orgName ref="org005241.03">Dompmartin</orgName>, part mesdiz tres <term ref="lem018740.02">reverain</term>
+                                        <lb/>seignieurs speciallement deputé, pris <origDate when="1525-06-20" period="P3WD">le mardi
+                                        <lb/>aprés l’Eucharistie de Nostre Seignieurs en l’am courant
+                                        <lb/>mille V<hi rend="sup">z</hi> et XXV.</origDate></seg>
+                            <seg>Lequel prossez a ffayt et confessé
+                                        <lb/>spontaneement aprés les admonition a luy
+                                        <lb/>premierement faictez selon l’us et laz coustume
+                                        <lb/>du pays<note>Il s’agit de la coutume de Lausanne (ou Plaict général). Voir <bibl><ref target="http://permalink.snl.ch/bib/chbsg000073360">Poudret 1998–2006</ref> I, p.&#160;19, 21 et 144</bibl>.</note>, comme a tieulx cas appertiant en
+                                        <lb/>laz presence des borjoys et proudomme desous
+                                        <lb/>nommé, s’e assavoer&#160;: honneste <persName ref="per012894a.03">Claude douz Saint</persName>,
+                                        <lb/><persName ref="per016530a.02">Nycod Jacaud</persName>, <persName ref="per012747a.02">Pierre Diserens</persName>, <persName ref="per016601a.01">Jaqueme Gillieron</persName>,
+                                        <lb/><persName ref="per016496a.02">Girard Jacquier</persName>, <persName ref="per016604a.01">Joham Cruchod</persName>, <persName ref="per016528a.01">Pierre Marguet</persName><note><persName ref="per016528a">Pierre Marguet</persName> est le fils de feu <persName ref="per012756a">François Marguet</persName> de <placeName ref="loc007669.01">Dommartin</placeName>, vraisemblablement le même qui a été banni pour sorcellerie en <date when="1498-11">novembre 1498</date>. En dépit du bannissement de son père, <persName ref="per016528a">Pierre</persName> mène une carrière de notable puisqu’il est gouverneur de <placeName ref="loc007669.01">Dommartin</placeName> aux côtés d’<persName ref="per016702a">Etienne Dufour</persName> en <date when="1524">1524</date> (<bibl><ref target="http://www.davel.vd.ch/detail.aspx?id=765200">ACV, Ff 49</ref>, fol.&#160;137r</bibl>). Il faut dire que son père, âgé d’une soixantaine d’années, était une personne influente lorsqu’une partie de la communauté s’était acharnée contre lui en <date when="1498">1498</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000076753">Pfister 1997</ref>, p.&#160;52–53, 186–217 et 297</bibl>). <persName ref="per016528a">Pierre Marguet</persName> est en outre victime de <persName ref="per016436a">Claude Rolier</persName>, qui aurait tué un de ses bœufs, et est juré pour les procès de <persName ref="per016490a">Jeannette Vincent</persName>, <persName ref="per016437a">Margot Rolier</persName> et <persName ref="per016717a">Françoise Gilliéron</persName>. Cette dernière, dont il est même le conseiller, sera bannie au lieu d’être envoyée au bûcher, tout comme ce fut le cas pour <persName ref="per012756a">François Marguet</persName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;23, 60, 85, 113, 114, 116–117 et 195</bibl>).</note>,
+                                        <lb/><persName ref="per016685a.01">Joham Barraulx</persName> et <persName ref="per016702a.01">Estivent douz Fort</persName>, prodommes
+                                        <lb/>dudiz lieu et mandement de <placeName ref="loc007669.02">Dompmartin</placeName>. 
+                            </seg></p>
+                        <p><seg><lb/>Et premierement a di et confessé qu’il avoyt
+                                        <lb/>pris entre deouz foys <measure type="volume" unit="Kopf" quantity="1" commodity="salt">une cope de seille</measure>,
+                                        <lb/>chescune foys ung bichet, en laz mayson de
+                                        <lb/><persName ref="per012747a.02">Pierre Diserens</persName> de <placeName ref="loc010896.06">Payre</placeName> quan demorey
+                                        <lb/>en laz petite mayson de <persName ref="per016703a.01">Claude Jacaud</persName> de <placeName ref="loc010896.06">Payre</placeName>. 
+                             </seg></p>
+                        <p><seg><lb/>Item mays a di et confessé qu’il avoyt pris a <persName ref="per012745a.03">Joham
+                                        <lb/>Sovajat</persName> douz <placeName ref="loc010907.06">Villard</placeName><note>Très certainement <placeName ref="loc010907.01">Villars-Tiercelin</placeName>, puisque <persName ref="per012745a">Jean Sovajat</persName> en est originaire et y habite.</note> une pierre a ffaulx en leur
+                                        <lb/><term ref="lem018935.01">ovryoz</term><note>Un des aveux de <persName ref="per016490a">Jeannette Vincent</persName>, effectué le <date when="1524-11-12">12 novembre 1524</date>, nous apprend qu’elle et ses complices <orig>&#160;tenebant eorum sinagogam versus martinetum dictorum <orgName ref="org005198.04">Souvajat</orgName> de <placeName ref="loc010907.09">Villars Tyessellin</placeName>&#160;</orig> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;58</bibl>), ce qui nous montre que les Sovajat étaient en outre forgerons.</note>, laquelle il usaz, et <date when="1513" dur-iso="P12Y">l’i at bien deouz an</date> que
+                                        <lb/>fut fayt selas.
+                            </seg></p>
+                        <pb n="460" facs="ACV_AC-29_460_461"/>
+                        <p><seg><lb/>Item a di et confessé qu’il avoyt pris
+                                        <lb/>a <persName ref="per016704a.01">Joham Monaschon</persName> de <placeName ref="loc012368.01">Martherenges</placeName>
+                                        <lb/><measure type="volume" unit="Mäss" quantity="3" commodity="wheat">III bichet de froment</measure> en laz grange de yvers
+                                        <lb/>et les portat a <placeName ref="loc007673.05">Chappalaz Voudanna</placeName> en laz
+                                        <lb/>mayson de <persName ref="per016705a.01">Claude Paschit</persName>, et le luy vendit
+                                        <lb/><measure type="currency" unit="S" quantity="18">XVIII <abbr>s</abbr></measure> que luy devey a cause de dispense
+                                        <lb/>par luy fayte, et <date when="1517" dur-iso="P8Y">l’i at environ VIII ans</date>. 
+                        </seg></p>
+                        <p><seg><lb/>Item mais a confessé qu’i avoyt pris deouz
+                                        <lb/><term ref="lem018923.03">buff</term><note>Le mot se termine par un signe abréviatif que nous n’avons pas résolu. Peut-être le scribe voulait-il simplement inscrire un <orig>&#160;s&#160;</orig> final pour le pluriel.</note> a <placeName ref="loc007610.06">Payernoz</placeName> tous dous de peil <term ref="lem018936.01">rojoz</term> et
+                                        <lb/>les pris eis pasquier dudit liu jote <placeName ref="loc008383.01">La Broye</placeName>,
+                                        <lb/>et estoyt <date when="--08-24" type="holiday"><subst><del rend="strikethrough">de</del><add place="inline">le</add></subst> jor de Saint <persName ref="per000861a.18">Bartholomey</persName></date>, lequel
+                                        <lb/>minat ad <placeName ref="loc007607.08">Modon</placeName> a laz feyre ledit jort en laz
+                                        <lb/>placit et en duz <measure type="currency" unit="fl" quantity="15">XV <abbr></abbr></measure>, et <date when="1519" dur-iso="P6Y">l’i at environ VI ans</date>. 
+                         </seg></p>
+                        <p><seg><lb/>Item mais a di et confessé leditz <persName ref="per016599a.04">Johan
+                                        <lb/>Mossot</persName> que ly, <persName ref="per016706a.01">Pierre Jaunyn</persName> de <placeName ref="loc009338.01">Fey</placeName>, <persName ref="per016707a.01">Mermet
+                                         <lb/>Carrel</persName> de <placeName>Place</placeName><note>Lieu indéterminé. Le <ref target="http://fichiers-muret.unine.ch/manager/#/1:2">fichier Muret</ref> indique les mentions de <orig>&#160;Place&#160;</orig>, comme toponyme&#160;: à <placeName ref="loc007955.01">Villars-le-Grand</placeName>, <orig>&#160;En Place&#160;</orig> et à <placeName ref="loc011575.01">Thierrens</placeName>, <orig>&#160;Pré de Place&#160;</orig>. Mais selon le <bibl><ref target="http://permalink.snl.ch/bib/chbsg000082860">GPSR</ref></bibl>, nous ne pouvons rien en conclure.</note> tuarem ung homme en <placeName ref="loc012369.02">Laz
+                                        <lb/>Cerjolaz</placeName>, lequel venoit de <placeName ref="loc007607.09">Moudons</placeName> et
+                                        <lb/>estoyt vestu de blant drat de <term ref="lem018937.01">ostaulx</term><note>Il faut comprendre qu’il s’agit d’un drap d’une qualité inférieure, fait à la maison.</note> et portoy
+                                        <lb/>ung chappiaul noir. Et le frappi le premyer
+                                        <lb/>lediz <persName ref="per016599a.01">Joham Massot</persName> per laz teste de ung <term ref="lem018938.02">paux</term>,
+                                        <lb/>et ledit <persName ref="per016706a.01">Jaunyn</persName> aprés, et trennerent le cors
+                                        <lb/>ouz <term ref="lem018971.01">riaulx</term><note>D’après la logique de la phrase, il faut retenir ici le sens de ravin.</note> et le covrirent de foyllie. Et puys cella
+                                        <lb/>fayt alirent boere a <placeName ref="loc008123.07">Neruz</placeName> et heurent <term ref="lem018972.01">desoubre</term>
+                                         <lb/>aprés beyre d’argent chescum <measure type="currency" unit="S" quantity="8">VIII <abbr>s.</abbr></measure>&#160;; et <date when="1521-05-20" type="holiday" dur-iso="P4Y">at
+                                        <lb/>environ de quatre an que cellaz feuz fayt environ
+                                        <lb/>de laz <term ref="lem018934.02">Penthecoste</term></date>.</seg></p>
+                        <pb n="461" facs="ACV_AC-29_460_461"/>
+                        <p><seg><lb/>Item mais a di et confessé leditz <persName ref="per016599a.01">Joham</persName> qui luy,
+                                        <lb/><persName ref="per016706a.01">Pierre Jaunyn</persName> et le gran <persName ref="per016707a.01">Mermet</persName>, <date notBefore="1521-05-20" notAfter="1522-06-09" dur-iso="P4Y">l’avoyt environ
+                                        <lb/>troys ouz quatre an environ de laz <term ref="lem018934.02">Penthecoste</term></date>,
+                                        <lb/>se trovarent <placeName ref="loc012370.01">En Perrex</placeName> et troverent ung hommes que
+                                        <lb/>venoit de <placeName ref="loc010902.05">Sugnyens</placeName> ouz de <placeName ref="loc007885.01">Lausanne</placeName>, lequel portoy
+                                        <lb/>une dague et une dimie lance, lequel il tuarent
+                                        <lb/>et luy troverent <measure type="currency" unit="écu" quantity="3">troys escuz en ors</measure> et en monee <measure type="currency" unit="écu d’or" quantity="2">II escus</measure>,
+                                        <lb/>desqueulx en heu a sa pars <measure type="currency" unit="écu" quantity="1">ung escus</measure> et <measure type="currency" unit="S" quantity="9">IX</measure> ouz <measure type="currency" unit="S" quantity="15">XV <abbr>s</abbr></measure>&#160;;
+                                        <lb/>lequel homme estoy vestu d’une robe noere de gro
+                                        <lb/>dratt. Et ledit <persName ref="per016599a.01">Joham Massot</persName> ferit le premier d’on
+                                        <lb/><term ref="lem019117.01">suaton</term> et encontinan chesit ad terre et ledit <persName ref="per016706a.01">Pierre</persName>
+                                        <lb/>ferit aprés et puys le granz <persName ref="per016707a.01">Mermet</persName>, et l’enterrarent
+                                        <lb/>ouzdit bo<note>C’est-à-dire le bois <placeName ref="loc012370.01">En Perrex</placeName>.</note>desub ung <term ref="lem017681.04">foug</term> oug <term ref="lem016908.10">chano</term> pres du
+                                        <lb/>chemin jote une <term ref="lem019124.01">mollie</term>, lequel ne cognesçoy poen.
+                        </seg></p>
+                        <p><seg><lb/>Item a di et confessé que luy, <persName ref="per016706a.01">Pierre Jaunyn</persName>, le grant
+                                        <lb/><persName ref="per016707a.01">Mermet</persName> et <persName ref="per016708a.01">Nycollard Canon</persName>, naquis de <placeName ref="loc007669.02">Dompmartin</placeName>
+                                        <lb/>qui se tient ad presens a <placeName ref="loc012371.02">Suchie</placeName> et est <term ref="lem015021.01">tissot</term>, se troverent
+                                        <lb/>une autrefoys en laz vaulx de <placeName ref="loc012372.02">Bolens</placeName><note>Il s’agirait donc d’un vallon dans la région de <placeName ref="loc012372.01">Boulens</placeName>.</note> ou il troverent
+                                        <lb/>ung hommes vestu d’une robe blanche et ung chappiaud
+                                        <lb/>blanc, une mantelline noyre, lequel estuyt a chevaulx <add type="sign" place="left margin">su ung chival<lb/> <term ref="lem018916.03">bayard</term>,</add>
+                                        <lb/>qu’i tuarent. Et le feriz le premier ledit <persName ref="per016599a.03">Johan Massot</persName>
+                                        <lb/>et les aultres aprés luy, et estoy en myeulx eage<note>C’est-à-dire qu’il était d’âge moyen, <orig>&#160;in medio aetatis&#160;</orig>, et avait donc la trentaine.</note>, et say
+                                        <lb/>d’ou estoy ledit homme, ouquel trovirent <measure  type="currency" unit="écu d’or" quantity="4">quattre
+                                        <lb/>escus</measure> et vendirent ledit chevaulx <measure  type="currency" unit="écu d’or" quantity="5">V escus</measure>, et
+                                        <lb/>de se ne heu sinon ung escus de sa pars.
+                                        <lb/>Et puys les enterrarent pres de <placeName ref="loc012373.02">Laz Menthoye</placeName>
+                                        <lb/>jote aulcons chemyn et aprés les covrirent de follie.</seg></p>
+                        <pb n="462" facs="ACV_AC-29_462_463"/>
+                        <p><seg><lb/>Item mais a di et confessé qu’i se trovat luy
+                                        <lb/>et le devan dit <persName ref="per016706a.01">Pierre <subst><del rend="strikethrough">Joh</del><add place="inline">Jaunyn</add></subst></persName>, le grant <persName ref="per016707a.01">Mermet</persName>
+                                        <lb/>et ledit <persName ref="per016708a.01">Nycolard</persName> une aultre foys en <placeName ref="loc012369.02">Laz Cerjolaz</placeName>
+                                        <lb/>ouz bas de <placeName ref="loc012369.02">Laz Cerjolaz</placeName>, <date when="1522-04-20" type="floating holiday" dur-iso="P3Y">l’i at environ troys ans,
+                                        <lb/>aprés <term ref="lem019120.02">Pasques</term></date>, trovirem ung homme qui venoyt
+                                        <lb/>de <placeName ref="loc007607.01">Moudon</placeName> et portoyt une robe noyre, ung chapiaulx
+                                        <lb/>noir, une chausse blanche, ung gippon de <term ref="lem019122.01">trijoz</term>
+                                        <lb/>et portuyt une dague, une dimie lance et eyre
+                                        <lb/>fransçoes non en mieulx eage<note>C’est-à-dire qu’il n’avait pas encore atteint l’âge moyen.</note>, et <persName ref="per016707a.01">Mermetus</persName> eum invenit
+                                        <lb/>jam circa <placeName ref="loc012353.02">Sancte Katherine</placeName><note>Eugène Mottaz relève justement l’insécurité de ce lieu de passage (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000074603">Mottaz 1982</ref>, II, p.&#160;575</bibl>).</note>&#160;; lequel tuarem et
+                                        <lb/>luy trovirent viii escus dequeulx avoyt <measure type="currency" unit="Dicken" quantity="7">VII
+                                        <lb/>teston</measure> <measure  type="currency" unit="fl" quantity="2">II <abbr></abbr></measure> de monee et le demorent ors. Et le
+                                        <lb/>freppi le premier <persName ref="per016710a.01">Le More</persName> d’une dague qu’i
+                                        <lb/>portoyt in laz teste et puys l’enterrarent jote
+                                        <lb/>l’autre qui aviau dejat tué et le covrirent de terre, de
+                                        <lb/><term ref="lem019126.01">arenne</term> et de bo. Et heu a sa pars sinon <measure  type="currency" unit="écu d’or" quantity="2.5">II escus
+                                        <lb/>et dimi</measure> et ne heu riens de ses <term ref="lem019130.02">alions</term>, et en selluy
+                                        <lb/>temps demoroy ad <placeName ref="loc011575.03">Tierrens</placeName> ché <persName ref="per026957a.01">Forestel</persName><note>Cette personne n’a pas pu être identifiée.</note>. 
+                         </seg></p>
+                        <p><seg><lb/>Item <date when="1522-09-29" type="holiday" dur-iso="P3Y">environ troys ans ouz pres de laz
+                                        <lb/>Saint <persName ref="per000390a.09">Michiel</persName></date> se trovat ledit <persName ref="per016599a.01">Joham</persName> et <persName ref="per016710a.02">Le Moroz</persName>
+                                        <lb/>et le grant <persName ref="per016707a.01">Mermet</persName> eis <term ref="lem019123.01">mesure</term> ouz metem
+                                        <lb/>deis mesure et trovirent ung home qui
+                                        <lb/>venoyt de <placeName ref="loc007885.01">Lausanne</placeName>, lequel portoyt une
+                                        <lb/>dimie lance <add type="sign" place="left margin">et le trovat le premier <lb/><persName ref="per016710a.03">Le Moro</persName>, et puys <term ref="lem019121.02">sublat</term>
+                                        <lb/>ledit <persName ref="per016599a.04">Johan</persName> et <persName ref="per016707a.01">Mermet</persName>, <lb/>qui attendoent,</add> et le tuarem&#160;; ouquel trovirent
+                                        <lb/><measure  type="currency" unit="écu d’or" quantity="2">II escus en ors</measure> et <measure  type="currency" unit="S" quantity="3">trois</measure> ou  <measure type="currency" unit="S" quantity="4">quattre soux</measure>
+                                        <lb/>en sa borse, et heu de sa pars des alions
+                                        <lb/><measure type="currency" unit="S" quantity="4">quattre</measure> ouz <measure  type="currency" unit="S" quantity="5">V <abbr>s</abbr></measure>. Lequel portoyt une robe
+                                        <lb/>noere de gro drat, ung chappeaulx noir,
+                                        <lb/>une chausse de drat de <placeName ref="loc007618.03">Yverdon</placeName>, ung porpoen
+                                        <lb/>de <term ref="lem015024.02">fustanne</term> noir et estoyt <term ref="lem019125.01">gavot</term> <del rend="strikethrough">v</del>, outre my age<note>C’est-à-dire qu’il avait dépassé l’âge moyen.</note>,
+                                        <lb/>et puys l’enterrarent et covrirent de follie.</seg></p>
+                        <pb n="463" facs="ACV_AC-29_462_463"/>
+                        <p><seg><lb/>Item mais a di et confessé que ly, leditz <persName ref="per016599a.04">Johan</persName>,
+                                        <lb/>et <persName ref="per016706a.01">Pierre Jaunyn</persName>, le grant <persName ref="per016707a.01">Mermet</persName> et ledit <persName ref="per016708a.02">Nycolard</persName>
+                                        <lb/>se trovarent une foys ouz <placeName ref="loc007674.01">Jorat</placeName> devers <placeName ref="loc008011.01">Rue</placeName><note>Il faut donc comprendre qu’ils se trouvaient dans les bois du <placeName ref="loc007674.01">Jorat</placeName>, à proximité de <placeName ref="loc008011.01">Rue</placeName>.</note>,
+                                        <lb/>aulquel lieuz trovarent ung home, <add type="sign" place="left margin">lequel venoyt de <lb/><placeName ref="loc010913.05">louz Vaulx</placeName>,</add> vestu d’une
+                                        <lb/>robe de gro drat noyre et une dague, lequel ilz
+                                        <lb/>tuarent. Et le fery premierement leditz <persName ref="per016599a.01">Joham
+                                        <lb/>Massot</persName>, et portoyt <measure type="currency" unit="S" quantity="15">LX <abbr>s</abbr> en monee <add type="sign" place="left margin">et <term ref="lem019367.02">baschez</term></add></measure>, <measure  type="currency" unit="écu d’or" quantity="1">ung escus
+                                        <lb/>en ors</measure> et <measure type="currency" unit="Dicken" quantity="0.5">dimy ung teston</measure>. Et puys vendirent
+                                        <lb/>sa dague <measure type="currency" unit="S" quantity="9">IX <abbr>s</abbr></measure> et heu a sa partie <measure  type="currency" unit="S" quantity="3">troys soulz</measure>, lequel
+                                        <lb/>hommes enterrarent&#160;; et <date when="1521-11-11" type="holiday" dur-iso="P4Y">a environ quatre an
+                                        <lb/>que cella fuz fayt, environ laz Saint <persName ref="per000141a.11">Martin</persName>
+                                        <lb/>en yvers</date>. 
+                          </seg></p>
+                        <p><seg><lb/>Item a di et confessé que luy et les dessu
+                                        <lb/>nommés une foyt se troverem en laz mayson
+                                        <lb/>de <persName ref="per016711a.01">Joham de laz Cusinaz</persName> et firent le
+                                        <lb/>serement et alliance, et <persName ref="per016710a.03">Le Moro</persName> dognoyt le
+                                        <lb/>serement eis autre desu aulcuns papey et lettre
+                                        <lb/>que celluy qui serey pris le premier ne
+                                        <lb/>encuseray poent les autres. 
+                         </seg></p>
+                        <p><seg><lb/>Item a confessé et ditz que durant
+                                        <lb/>le temps qui fesoyt les dessu dicte chose,
+                                        <lb/>que jamays ne se <unclear>enviere</unclear><note> Peut-être faut-il comprendre <orig>&#160;envier&#160;</orig>, dans le sens de <orig>&#160;se laisser engager à&#160;</orig>. Ce qui signifierait que <orig>&#160;jamais il ne s’est engagé à se confesser&#160;</orig>. Pour sa part, le <bibl><ref target="http://permalink.snl.ch/bib/chbsg000082860">GPSR</ref></bibl> propose d’envisager que la fin du mot soit une forme de l’imparfait, à la troisième personne, en <orig>&#160;ere&#160;</orig>, ce qui donnerait <orig>&#160;jamais ne se en(…)ere confessé&#160;</orig>.</note>confessé mes
+                                        <lb/>avoy vecu en se sorte. 
+                            </seg></p>
+                        <p><seg><lb/>Item a confessé quan demoroyt a <placeName ref="loc012352.02">Cuarnix</placeName>
+                                        <lb/>avesque <persName ref="per016712a.01">Joham Lorent</persName> en son grenier
+                                        <lb/>prys <measure type="volume" unit="Mass" quantity="3" commodity="wheat">troys bichet de froment</measure> et le vendy
+                                        <lb/>a ung homme de <placeName ref="loc012352.02">Cuarnix</placeName>, qui estoy deis <placeName ref="loc007675.05">Bechesre</placeName>,
+                                        <lb/>et <date when="1513" dur-iso="P12Y">l’i a bien XII</date> <date when="1511" dur-iso="P14Y">ouz XIIII ans</date>. </seg></p>
+                        <pb n="464" facs="ACV_AC-29_464_465"/>
+                        <p><seg><lb/>Item a confessé leditz <persName ref="per016599a.01">Joham Massot</persName>
+                                        <lb/>quar ilz avoy pris a <placeName ref="loc008016.09">Morit</placeName> en laz mayson
+                                        <lb/>de <persName ref="per017298a.01">Rochet</persName> une pierre ad faulx, et <date when="1523" dur-iso="P2Y">l’i at envyron
+                                        <lb/>deoux ans</date>.
+                            </seg></p>
+                        <p><seg><lb/>Item a ditz que quant ilz alloy ad <placeName ref="loc005628.09">Borgonie</placeName>
+                                        <lb/>desos de <placeName ref="loc008002.05">Sallin</placeName> pris ung pain en ung <term ref="lem019064.02">fort</term>.
+                            </seg></p>
+                        <p><seg><lb/>Item a di et confessee que pris a monseignieur le
+                                        <lb/><term ref="lem018912.04">balliff</term> <persName ref="per017241a.01">Krumenstol</persName> ung pain de deoux quars.
+                            </seg></p>
+                        <p><seg><lb/>Item a di que ilz avoy pris ung pot
+                                        <lb/>de <term ref="lem019065.02">estent</term> en laz mayson de <persName>Joham
+                                            <lb/>Favre</persName><note>S’agit-t-il du même <persName ref="per010039a">Jean Favre</persName>, évoqué comme sautier de <placeName ref="loc001060.03">Fribourg</placeName> en <date when="1505">1505</date> lors du procès contre <persName ref="per009711a">Pierre Bolengé</persName> (<bibl><ref target="https://www.ssrq-sds-fds.ch/exist/apps/ssrq/FR/SSRQ-FR-I_2_8-3-1.xml">StAFR, Thurnrodel 3, fol.&#160;28r–29r</ref></bibl>)&#160;?</note> de <placeName ref="loc011575.03">Tierrens</placeName>, <date when="1515" dur-iso="P10Y">l’i at X</date> ouz <date when="1516" dur-iso="P9Y">IX ans</date>,
+                                        <lb/>qui estoy de misure, lequel vendit a domp <persName ref="per026054a.01">Claude</persName>
+                                        <lb/>de <placeName ref="loc010904.05">Pollié le Grant</placeName> et le vendit <measure type="currency" unit="S" quantity="12">XII <abbr>s</abbr></measure>.
+                            </seg></p>
+                        <p><seg><lb/>Item ouz <subst><del rend="strikethrough">mo[llin]</del><add place="inline">mullin</add></subst> de <placeName ref="loc007675.04">Berchier</placeName> a
+                                        <lb/>confessé que ilz avoyt robé ung quarteron
+                                        <lb/>de bla et le portat la au il demoroy.
+                            </seg></p>
+                        <p><seg><lb/>Item a dit et confessé que une foys
+                                        <lb/>quan il vendoyt le vin ad <placeName ref="loc010904.05">Pollié le Grant</placeName>,
+                                        <lb/>la communité dudit lieu lurs allirent
+                                        <lb/>boyre et lessirent en laz <term ref="lem017721.03">charreyre</term> deouz
+                                        <lb/><term ref="lem019066.02">fossiouz</term>, lesqueoux pris. </seg></p>
+                        <pb n="465" facs="ACV_AC-29_464_465"/>
+                        <p><seg><lb/>Item a di et confessé qu’i avoyt pris <measure type="volume" unit="Kopf" quantity="1">une coppe
+                                        <lb/>de blé</measure> ad monseignieurs le curé de <placeName ref="loc007673.06">Chappalle Voudanyne</placeName>,
+                                        <lb/><date when="1524" dur-iso="P1Y">l’i at ung ans</date>, en saz grange de <placeName ref="loc012369.03">Laz Cerjolat</placeName>,
+                                        <lb/>laquelle portoyt ad <placeName ref="loc007675.04">Berchier</placeName>, las aut demoroy
+                                        <lb/>en laz mayson de <persName ref="per016713a.01">Meri Bissat</persName> de <placeName ref="loc007675.04">Berchier</placeName>.
+                            </seg></p>
+                        <p><seg><lb/>Veullient <term ref="lem019128.02">mori</term> ledit <persName ref="per016599a.01">Joham Massot</persName> et
+                                        <lb/>vivre en selle foys<note>C’est-à-dire qu’il confirme ses aveux et en assume les conséquences.</note>, entenant et conclosant
+                                        <lb/>son prossez en laz sorte dessus escripte,
+                                        <lb/>demandens et requirens pardon et marsi
+                                        <lb/>a Dieu et mes tres reverent seignieurs messeignieurs
+                                        <lb/>de chappitres ensemble leour officier
+                                        <lb/>et subjet dudit lieu de <placeName ref="loc007669.02">Dompmartin</placeName>. 
+                            </seg></p>
+                        <head type="subtitle" resp="GO">27 juin 1525</head>
+                        <p><seg><lb/><origDate when="1525-06-27" period="P3WD">Le mardi XXVII jour de juyn l’an
+                                        <lb/>de laz nativité de Nostre Seignieur corant
+                                        <lb/>mille cincens et vint et sint</origDate>, le dessus
+                                        <lb/>nommé noble <persName ref="per016546a.04">Joham Costabloz</persName> assis
+                                        <lb/>judicialement ouz lieux acostumé devant
+                                        <lb/>le pont douz chasteaulx de <placeName ref="loc010898.03">Dompmartin</placeName><note>Sur le lieu accoutumé de l’exécution des peines, voir <bibl>Dorthe dans <ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref>, p.&#160;278, n. 6</bibl>.</note>,
+                                        <lb/>voyent tous les monde, a esté leuz
+                                        <lb/>le prossez dudit <persName ref="per016599a.01">Joham Massot</persName> detenuz,
+                                        <lb/>article par article, par le scribe dessoubz
+                                        <lb/>signé et par lediz <persName ref="per016599a.01">Joham</persName> confessé et recogneuz.</seg>
+                              <seg><lb/>Et demande lediz monseignieurs le chastellam
+                                        <lb/>ycelluy estre confisqué et adjugé ad mesdiz
+                                        <lb/>tres reveraint seignieurs premierement
+                                        <lb/>les biens, et luy estre mené aut lieuz
+                                        <lb/>acostumé ad mesdiz tres reverent seigneur
+                                        <lb/>fayre justice, son cors briser et mis sur
+                                        <lb/>une roe et gibet.
+                              </seg></p>
+                        <pb n="466" facs="ACV_AC-29_466_467"/>
+                        <p><seg><lb/>De quoy a demandé aut assistent luy
+                                        <lb/>en fayre cognoissance<note>La cognitio désigne les délibérations de la cour (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001204748903977">Gallone 1972</ref>, p.&#160;237</bibl>).</note>.
+                                </seg></p>
+                        <p><seg><lb/>Laquelle cognoissance <subst><del rend="strikethrough">a[...]</del><add place="inline">a</add></subst> esté fayte
+                                        <lb/>concordablement par tous les assistent
+                                        <lb/>et raportee par honeste homme
+                                        <lb/><persName ref="per016604a.01">Joham Cruchod</persName> de <placeName ref="loc007669.02">Dompmartin</placeName>, s’e
+                                        <lb/>assavoir&#160;: les biens confisqué et lui estre
+                                        <lb/>mené aut lieu acostumé ad mesdiz tres reverent
+                                        <lb/>seignieurs de fayre justice, son cors estre
+                                        <lb/>brisé et <term ref="lem019127.01">detrossé</term> et puys mis sur une
+                                        <lb/>roez.
+                                </seg></p>
+                        <p><seg><lb/>Laquelle cognoissance ledit monseignieurs
+                                        <lb/>le <subst><del rend="strikethrough">scatel</del><add place="inline">chastellam</add></subst> a accepté aut non
+                                        <lb/>de mesdiz tres reverent senieurs a bonne
+                                        <lb/>demandent ad tesmoniage&#160;: monseignieurs de
+                                        <lb/><orgName ref="org006744.04">Berchier</orgName>, monseignieurs le chastellam d’<orgName ref="org005686.01">Orbe</orgName><note>Il s’agit de <persName ref="per016535a">Jacques Agassiz</persName>, aussi juré au procès de <persName ref="per016436a">Claude Rolier</persName>, en <date when="1524-10">octobre 1524</date>, où il est explicitement mentionné comme <orig>&#160;chastellain d’Orbe&#160;</orig> (<bibl><ref target="urn:ssrq:SDS-VD-D_1-26-1">SDS VD D 1 26-1</ref>&#160;: ACV, Ac 29, p.&#160;443</bibl>).</note>,
+                                        <lb/><persName ref="per013011a.03">Joham Panchaud</persName>, <persName ref="per016714a.01">Joham Pavie</persName> et plusour
+                                        <lb/>aultre present et assistent digne
+                                        <lb/>de foy.
+                                </seg></p>
+                        <p><seg><lb/>Lesqueules chose dessus dictes faytes,
+                                        <lb/>minee et confessee a aujorduy date
+                                        <lb/>de ceste acteste estre veritable, <add type="sign" place="left margin">moé juré <lb/>ici soulxsigné.</add> Donné <origDate when="1525-06-27">le
+                                        <lb/>XXVII jour de juyn en l’an que dessus</origDate>, en laz
+                                        <lb/>presance de dessus noble borjoys et
+                                        <lb/>proudomme. 
+                           </seg></p>
+                        <p><seg><lb/><hi rend="right"><signed><persName ref="per028245a.01"><choice><abbr>[...]cus</abbr><expan>Franciscus</expan></choice> de Mediavilla <figure type="notarial sign"/></persName><note><persName ref="per028245a">François de Miéville alias Meyjoz</persName>, clerc et notaire de <placeName ref="loc010907.01">Villars-Tiercelin</placeName> est attesté dans plusieurs documments des années <date from="1525" to="1531">1525–1531</date>, souvent en rapport avec <placeName ref="loc007669.01">Dommartin</placeName> (<ref target="http://www.davel.vd.ch/detail.aspx?ID=1204014">ACV, C XXII NF14894 C XX 99</ref>, <ref target="http://www.davel.vd.ch/detail.aspx?ID=332000">C XX 103/4</ref>, <ref target="http://www.davel.vd.ch/detail.aspx?ID=1201852">C XXII NF12307 C XX 84</ref>, <ref target="http://www.davel.vd.ch/detail.aspx?ID=1201808">C XXII NF12260</ref>, <ref target="http://www.davel.vd.ch/detail.aspx?ID=899154">C V b 1118</ref>). Il pourrait être un descendant d’<persName ref="per028094a">Humbert de Miéville</persName>, notaire sous l’épiscopat de <persName ref="per010754a">Georges de Saluces</persName> dont il est le commissaire en <date when="1444">1444</date> et <date when="1446">1446</date> (<bibl><ref target="http://www.davel.vd.ch/detail.aspx?id=765057">ACV, Ff 12 bis</ref> et <ref target="http://www.davel.vd.ch/detail.aspx?id=761157">Fee 7</ref></bibl>) ou de parenté avec <persName ref="per028096a">Jean</persName>, fils de feu <persName ref="per028095a.01">Antoine de Miéville alias Mejoz</persName>, habitant <placeName ref="loc010907.01">Villars-Tiercelin</placeName> (<bibl><ref target="http://www.davel.vd.ch/detail.aspx?id=765200">ACV, Ff 49</ref>, fol.&#160;237r</bibl>), victime de <persName ref="per016436a">Claude Rolier</persName> et juré au procès de <persName ref="per016717a">Françoise Gilliéron</persName>.</note></signed></hi></seg></p>     
+                        <pb n="467" facs="ACV_AC-29_466_467"/>
+                        <head type="title" resp="GO">Inventaire des biens de Jean Massot</head>
+                        <p><seg><lb/>S’ensuyt le inventoyre des biens dudit
+                                        <lb/><persName ref="per016599a.01">Joham Massot</persName> devant nommé.
+                        </seg></p>
+                        <p><seg><lb/>Et premierement l’i at ung pot de <term ref="lem018961.01">mictaulx</term>
+                                <lb/>qui tient VI escuelles<del rend="strikethrough">une</del>.</seg>
+                            <seg><lb/>Item une pele tenant dimie <term ref="lem018962.01">seigle</term>.</seg>
+                            <seg><lb/>Item une petite pelle tenant II ecuelle.</seg>
+                            <seg><lb/>Item dimie ung <term ref="lem018963.01">comacle</term>.</seg>
+                            <seg><lb/>Item une segle, ung <term ref="lem018964.01">sellion</term> et <del rend="strikethrough">de ue c</del> une <term ref="lem018965.01">casse</term>.</seg>
+                            <seg><lb/>Item une <term ref="lem018966.01">cultre</term>, ung cussin, V <term ref="lem015429.07">lencieux</term>,
+                                        <lb/>ung couvertoux de <choice><sic>lanyne</sic><corr>layne</corr></choice>.</seg>
+                        </p>
+                        <p><seg><lb/>Item une <term ref="lem018967.01">arche</term>, troys chievre et ung <term ref="lem018968.01">chevri</term>.</seg>
+                             <seg><lb/>Item V <term ref="lem014874.12">ginillie</term>, ung quartheron de poys.</seg>
+                             <seg><lb/>Item deouz <term ref="lem018969.02">gromissel</term> de fil, une
+                                        <lb/><term ref="lem018970.02">destraulx</term>, ung fossioulx. Et non aultre. 
+                            </seg></p>
+                        <p><lb/><figure type="notarial sign"/><note>Suit à la ligne du dessous ce qui paraît être la signature paraphée du notaire, ne reprenant que ses initiales et quelques éléments de sa signature complète, sans doute dans le but d’authentifier le contenu de l’inventaire.</note></p>
+                        <pb n="468" facs="ACV_AC-29_468_469"/>
+                        <head type="title" resp="GO">Dépenses faites pour le procès de Jean Massot</head>
+                        <p><seg><lb/><foreign xml:lang="la"/>Expense facte in <origPlace ref="loc007669.03">Dompno Martino</origPlace> causa
+                                        <lb/>retro scripta <choice><sic>sequntur</sic><corr>sequuntur</corr></choice>&#160;:</seg>
+                            <seg>Et primo
+                                        <lb/>in domo <persName ref="per012890a.03">Claudii Marguet</persName><note><persName ref="per012890a">Claude Marguet</persName> est le fils de <persName ref="per026954a">Nicod Marguet</persName> de <placeName ref="loc007669.01">Dommartin</placeName> et le neveu de <persName ref="per012756a">François Marguet</persName>, inculpé pour sorcellerie en <date when="1498">1498</date> et avec lequel il est en conflit perpétuel. Alors qu’il a une trentaine d’années, <persName ref="per012890a">Claude</persName> accuse son oncle d’avoir tué sa fille <persName ref="per012890a">Anthonie</persName> et sa première femme <persName ref="per022025a">Marguerite</persName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000076753">Pfister 1997</ref>, p.&#160;186, 190, 192, 194, 198, 202, 212, 224 et 296–297</bibl>).</note>  <hi rend="right"><measure type="currency" unit="fl" quantity="8">VIIII <abbr></abbr></measure></hi>.</seg>
+                            <seg><lb/>Item pro magistro <persName ref="per017268a.01">Petro</persName><note>Maître <persName ref="per017268a">Pierre</persName> est le bourreau de <placeName ref="loc007885.01">Lausanne</placeName>. C’est aussi à lui que sont livrées <persName ref="per016490a">Jeannette Vincent</persName> et <persName ref="per016437a">Margot Rolier</persName> pour leur exécution (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;60, 86</bibl>).</note> operis  <hi rend="right"><measureGrp><measure type="currency" unit="fl" quantity="7">VII <abbr></abbr></measure> et <measure type="currency" unit="S" quantity="8">VIII <abbr>s</abbr></measure></measureGrp></hi>.</seg>
+                             <seg>Item pro rota et ferro ac fera
+                                        <lb/>in domo <persName>Jacaudorum</persName><note>Il pourrait s’agir de la maison des frères <persName ref="per026092a">Pierre</persName> et <persName ref="per016530a">Nicod Jacaud</persName> de <placeName ref="loc011120.08">Chardonney</placeName>, portiers de <placeName ref="loc007669.01">Dommartin</placeName> (<bibl>Dorthe dans <ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref>, p.&#160;606, n.&#160;114</bibl>. Lors de son procès, <persName ref="per016436a">Claude Rolier</persName> avoue avoir tué un cheval <orig>&#160;cheu les Jaccaud de Chardoney&#160;</orig> et d’avoir fait <orig>&#160;mori eys Jaccaud de Chardoney deux beufs&#160;</orig> (<bibl><ref target="urn:ssrq:SDS-VD-D_1-26-1">SDS VD D 1 26-1</ref>&#160;: ACV, Ac 29, p.&#160;444</bibl>). Les frais notés ici pourraient donc s’expliquer par le fait que ce sont ces deux frères, peut-être forgerons, comme l’étaient les frères Sovajat, qui ont mis à disposition le matériel nécessaire pour le châtiment de <persName ref="per016599a">Jean Massot</persName>. </note>  <hi rend="right"><measure type="currency" unit="S" quantity="17">XVII <abbr>s</abbr></measure></hi>.</seg>
+                             <seg><lb/>Item in domo domini <persName ref="per017316a.01">Anthonii</persName><note>Il s’agit de la maison d’<persName ref="per017316a">Antoine de Pisoz</persName>, recteur, chapelain et altariste de la nouvelle chapelle dédiée à la Vierge dans l’église <placeName ref="loc011126.01">Saint-Martin</placeName> de <placeName ref="loc007669.01">Dommartin</placeName>. Peut-être apparaît-il ici en tant que confesseur du condamné, ce qui lui assure une modeste rétribution (<bibl>Dorthe dans <ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref>, p.&#160;275</bibl>).</note>  <hi rend="right"><measure type="currency" unit="S" quantity="11">XI <abbr>s</abbr></measure></hi>.</seg></p>
+                          <delSpan rend="strikethrough" spanTo="del1"/><p><seg><hi rend="right">Suma est <measure type="currency" unit="fl" quantity="19">XIX <abbr></abbr></measure></hi>.</seg></p>
+                        <p><seg><lb/><hi rend="right">Primo alterius et qui rotam et alia ceram
+                                          <lb/>necessariam minime inclusis</hi></seg></p><anchor xml:id="del1"/>
+                        <p><seg><lb/><hi rend="left"><measure type="currency" unit="fl" quantity="19">XIX <abbr></abbr></measure></hi>.<note>Ce montant correspond bien au total du détail, qui est de <measure type="currency" unit="fl" quantity="16">16 florins</measure> <measure type="currency" unit="S" quantity="36">36 sous</measure>, soit <measure type="currency" unit="fl" quantity="19">19 florins</measure>. Pierre-Han Choffat avance un chiffre de <measure type="currency" unit="fl" quantity="18">18 florins</measure> <measure type="currency" unit="S" quantity="11">11 sous</measure>, ce qui est incorrect (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;100</bibl>).</note>
+                            </seg></p>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Le procès de Jean Massot (p.&#160;459–468) est le seul procès criminel du registre Ac 29 sans rapport direct avec la sorcellerie. Il est placé avec les procès de Claude Rolier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-26-1">SDS VD D 1 26-1</ref>&#160;: ACV, Ac 29, p.&#160;443–454</bibl>), Margot Rolier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-31-1">SDS VD D 1 31-1</ref>&#160;: ACV, Ac 29, p.&#160;469–484</bibl>) et Françoise Gilliéron (<bibl><ref target="urn:ssrq:SDS-VD-D_1-30-1">SDS VD D 1 30-1</ref>&#160;: ACV, Ac 29, p.&#160;485–492</bibl>) qui, avec celui de Jeannette Vincent (<bibl><ref target="urn:ssrq:SDS-VD-D_2-39-1">SDS VD D_2 39-1</ref><!--controler le numéro à la fin-->&#160;: ACV, Bh 10/3</bibl>) font partie d’une nouvelle chasse aux sorciers menée à Dommartin, dans les terres du Chapitre cathédral de Lausanne, durant les années 1520.</p>
+                <p>L’annotation <orig>&#160;Prossès des malfateurs&#160;</orig>, écrite à l’envers, d’une main plus tardive, au dos du cahier contenant le procès de Françoise Gilliéron (p.&#160;492), se réfère probablement à un ensemble de documents se rattachant à Dommartin et à la juridiction du Chapitre cathédral, lesquels concernent non seulement des affaires de sorcellerie, mais aussi de brigandage, à l’instar de celui intenté contre Jean Massot.</p>
+                <p>L’acte d’exécution de la sentence de Jean Massot occupe les pages 459 à 466 du registre ACV, Ac 29&#160;; les deux dernières pages du cahier contiennent l’inventaire de ses biens et la liste des dépenses occasionnées par le procès (p.&#160;467 et 468). L’intitulé de la pièce est rédigé au dos d’un autre document plié contenant un mandement de l’officialité de Lausanne concernant le procès de Jaquemod Forney (<bibl><ref target="urn:ssrq:SDS-VD-D_1-29-1">SDS VD D 1 29-1</ref>&#160;: ACV, Ac 29, p.&#160;456–458</bibl>), utilisé comme page de garde du dossier Jean Massot (p.&#160;456). La lettre testimoniale de l’acte, rédigée en langue vulgaire, est authentifiée par le notaire François Demiéville, qui valide aussi l’inventaire des biens à l’aide de son signet.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

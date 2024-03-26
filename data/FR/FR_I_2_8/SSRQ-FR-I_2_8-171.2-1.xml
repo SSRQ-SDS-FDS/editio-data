@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-171.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 211 (1660), S. 233–234</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 211 (1660), p. 233–234</idno>
+					</msIdentifier>
+					<head xml:lang="de">Françoise Ding-Roux, Louis Ding – Anweisung und Urteil</head>
+					<head xml:lang="fr">Françoise Ding-Roux, Louis Ding – Instruction et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1660-07-05">5 <foreign xml:lang="la">julii</foreign> 1660</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="233"/><p><lb/>Gefangene</p>
+						<p><lb/><hi rend="outdent"><persName ref="per022491a.02">Louys Ding</persName></hi>, von <placeName ref="loc007902.02">Escuvillens</placeName>, pris prisonnier <add place="above" type="sign">et accusé</add> pour avoir quelques fois uriné
+							<lb/>contre la chappelle et os des deffuncts sur le <term ref="lem019306.03">cemitiere</term>, estant
+						<lb/>sur ce examiné, a dit luy estre survenu cette incommodité dèz quelques temps
+						<lb/>en ça de ne pouvoir aucunement retenir lʼurine, mais nʼavoir jamais
+						<lb/>commis cette action contre la chapelle. Ist <term ref="lem016800">ledig</term> mit abtrag <add place="above" type="sign">der <term ref="lem007271">atzung</term></add> kostens,
+						<lb/>und die durch <abbr>h</abbr> abten von <placeName ref="loc010298.05">Altenryff</placeName> ihme deßwegen ufferlegte
+							<lb/><measure type="currency" unit="k" quantity="6">6 </measure> <term ref="lem005940.04">buß</term> zur kirchen alda uffgehebt, wylen dißer act den
+						<lb/>jurisdiction herren gebürte.</p>
+						<p><lb/><hi rend="outdent"><persName ref="per022493b.01">Françoise Roud</persName></hi>, femme du predit <persName ref="per022491a.01">Loys Ding</persName>, examinée pour avoir cité une femme
+						<lb/>à la cour de <persName ref="per011343a">Josaphat</persName>, et jetté <measure type="currency" unit="ß" quantity="3">3 </measure> sur la table, nʼen veut advouer
+							<lb/>le subject et de ne sʼestre purifiée, lors quʼon lʼappelloit <term ref="lem019389.02">sorciere</term>,
+						<pb n="234"/><lb/>dit nʼen rien sçavoir ny sʼen souvenir. Wylen daß <term ref="lem003708">examen</term> viel
+						<lb/>andere verdächtliche actionen mit sich bringt, sonderlich die be<lb break="no"/>rüerung einer dochter, die <term ref="lem006484.07">nachwerts</term> an der gerürten seiten
+						<lb/>gantz blauw, und bald darnach gestorben, auch die uff einen
+							<lb/>zur <choice><abbr>h</abbr><expan>heiligen</expan></choice> <term ref="lem003506.01">tauff</term> getragenen <term ref="lem000130.11">khindt</term> gethane <term ref="lem016805.02">imprecation</term> halber,
+							<lb/>so <term ref="lem011078.08">angendt</term> daruff gar kranck worden. Wan man sie der
+							<lb/><term ref="lem013000.01">tortur</term> wirdt <term ref="lem017028.03">betröuwt</term> haben, unnd sie nichts wirdt <term ref="lem011468">be<lb break="no"/>kennen</term> wöllen, haben die <choice><abbr>hh</abbr><expan>herren</expan></choice> des grichts gwalt, sie zu <term ref="lem018848.02">vereyden</term>.
+						<lb/>Uff gnad hin, doch mit abtrag des kostens.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

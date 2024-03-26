@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.38-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 140–147</idno>
+     </msIdentifier>
+     <head>Vente et achat</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000231"/>
+     <term ref="key003521"></term>
+     <term ref="key001112"></term>
+     <term ref="key004428"></term>
+     <term ref="key000874"></term>
+     <term ref="key000410"></term>
+     <term ref="key005062"></term>
+     <term ref="key005072"></term>
+     <term ref="key000739"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>  
+     <pb n="140" facs="AEN_MJ_17_140_141"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chap.</abbr><expan>Chapitre</expan></choice> XXXVIII.
+       <lb/>De vente et
+       <lb/>achept.</head>
+      <p>
+       <lb/>L’achept se parfaict par le <lb/>consentement du vendeur &amp; de <lb/>l’achepteur, et
+       ne peut estre dit un <lb/>consentement parfait, le pourparlé <lb/>et l’accord que l’on fait
+       de vendre &amp; <lb/>achepter, sinon que les parties ayent <lb/>stipulé le marché entre les
+       mains <lb/>d’un notaire, et des lors que l’achept <lb/><add place="below" type="catchword"
+        >ou</add>
+       <pb n="141" facs="AEN_MJ_17_140_141"/>
+       <lb/><app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 53">et</rdg>
+       </app> vente est ainsy stipulée, elle ne <lb/>se peut revocquer que dedans la <lb/><date dur-iso="P8D">huictaine</date>, en payant les <term ref="lem014983">lods</term>, vins <lb/>et
+       missions, mais bien auparavant<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 53"> que la vente et achept soit ainsi stipulée</rdg>
+       </app>
+       <lb/>les parties s’en peuvent repentir <lb/>sans autres fraits.</p>
+      <p>
+       <lb/>Toutes <term ref="lem015546.02">venditions</term> de fond, maysons <lb/>&amp; autres
+       heritages se doibvent rediger <lb/>par escript et mettre en forme deuë <lb/>d’escripture par
+       un notaire juré du pays, <lb/>car estant faites sans garder ceste <lb/>solennité ou par
+       escript privé, ou d’un <lb/>notaire estranger, sont estimées <lb/>frauduleuses, et les pieces
+       <term ref="lem018027.02">commises</term>
+       <lb/>sy les parties en sont entrées en <lb/>possession par telle ou autre simple
+       <lb/>condition, sans la formalité gardée <lb/>comme dessus.</p>
+      <p>
+       <lb/>Incontinent que le contract <lb/>d’achept ou vente est passé par <lb/><add place="below"
+        type="catchword">la</add>
+       <pb n="142" facs="AEN_MJ_17_142_143"/>
+       <lb/><app>
+        <lem>la</lem>
+        <rdg wit="AVN Q41, p. 53"/>
+       </app> stipulation et forme que <lb/>dessus, le <term ref="lem014983.02">lod</term> est dehu
+       au prince, <lb/>qu’est de <measure origin="NE" type="currency" unit="d" quantity="12">douze
+        deniers</measure> l’un.</p>
+      <p>
+       <lb/>Sy quelcun achepte d’un pupil
+       <lb/>sans l’authorité de son tuteur,
+       <lb/>le contract est vaillable d’un costé,
+       <lb/>car celuy qui achepte est obligé
+       <lb/>au pupil, mais le pupil ne
+       <lb/>l’est pas a luy.
+      </p>
+      <p>
+       <lb/>Le tuteur<app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 53"> et</rdg>
+       </app>
+       <term ref="lem014768.01">advoyer</term><app>
+        <lem>, &amp; ceux</lem>
+        <rdg wit="AVN Q41, p. 53"/>
+       </app>
+       <lb/>qui manient &amp; procurent les <lb/>affaires <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 53">et negoces</rdg>
+       </app> d’un autre, ne peuvent <lb/>achepter la chose <app>
+        <lem>qui</lem>
+        <rdg wit="AVN Q41, p. 53">laquelle</rdg>
+       </app> appartient <lb/>a leur pupil ou mineur, et <lb/>desquels charge ils ont, sy ce n’est
+       <lb/>publicquement par <term ref="lem015541.02">montes</term>
+       <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 53">et</rdg>
+       </app>
+       <lb/><term ref="lem016370">adjudication</term> de justice.</p>
+     <pb n="143" facs="AEN_MJ_17_142_143"/>
+      <p><lb/>Sy quelcun achepte de celuy <lb/>qui sera soubs curatelle, ou qui <lb/>est privé de
+       l’administration de <lb/>ses biens, sans le consentement de <lb/>ceux qu’il appartient, tel
+       contract <lb/>peut estre revocqué par les parents, <lb/>et l’achepteur mis pour les fraitz<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 54"> de ladite vente</rdg>
+       </app>
+       <lb/>et <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 54">pour les</rdg>
+       </app> <term ref="lem014983">lods</term>.</p>
+      <p>
+       <lb/>Vente ne se peut faire de la
+       <lb/>chose qui est en litige.
+      </p>
+      <p>
+       <lb/>Vente ne se peut <app>
+        <lem>aussy</lem>
+        <rdg wit="AVN Q41, p. 54">de la chose qui est en litige. <lb/>Vente aussi ne se peut</rdg>
+       </app> faire <lb/>de mayson, fond et heritage, a <lb/>villes, communaultez, corps &amp;
+       <lb/>colleges, <term ref="lem018028.02">prelats</term>, convents, et <lb/>monasteres ou
+       hospitaux, ny par <lb/>consequent les asservir soubs <choice>
+        <abbr>qlqß</abbr>
+        <expan>quelque</expan>
+       </choice>
+       <term ref="lem015877">cense</term>
+       <lb/><choice>
+        <abbr>prestaon</abbr>
+        <expan>prestation</expan>
+       </choice> ou servitude et <choice>
+        <abbr>obligaon</abbr>
+        <expan>obligation</expan>
+       </choice>
+       <choice>
+        <abbr>qßlconqß</abbr>
+        <expan>quelconque</expan>
+       </choice>
+       <lb/>sans <term ref="lem017832">licence</term> de <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 54">la</rdg>
+       </app> souveraineté. <lb/><add place="below" type="catchword">Ou</add>
+      </p>
+     <pb n="144" facs="AEN_MJ_17_144_145"/>
+      <p>
+       <lb/>Et ou cela adviendroit, et mesmes, <lb/>qu’il leur fust donné legué ou testé <lb/>chose
+       semblable, et ils n’en vuident leurs <lb/>mains dedans <app>
+        <lem><date dur-iso="P2Y1D">deux ans et jours</date></lem>
+        <rdg wit="AVN Q41, p. 54"><date dur-iso="P1Y6W"><term ref="lem014776.03">an et
+          jours</term></date></rdg>
+       </app>
+       <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 54">il</rdg>
+       </app> y a <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 54">lieu</rdg>
+       </app> commise, sans <term ref="lem017832.02">lisence</term> que <lb/>dessus.</p>
+      <p>
+       <lb/>L’on ne peut vendre une hypotheque <lb/>speciale, que pour <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 54">payer</rdg>
+       </app> la somme <lb/>capitalle, ou que ce ne soit du <lb/>consentement du crediteur, sinon
+       <lb/>luy demeure tousjour hypothequée.</p>
+      <p>
+       <lb/>Le vendeur est tenu a la <lb/>delivrance de la chose vendue <lb/>ce que rend l’achepteur
+       proprietaire <lb/>d’icelle chose sy elle appartenoit <lb/>au vendeur, sinon il est obligé
+       <lb/>a l’eviction &amp; guerentie d’icelle <lb/><add place="below" type="catchword"
+        >pourveu</add>
+       <pb n="145" facs="AEN_MJ_17_144_145"/>
+       <lb/>pourveu que le prix du marche <lb/>ayt esté payé ou respondu par <lb/>bonne asseurance
+       ou obligation <lb/>d’iceluy prix par l’achepteur.</p>
+      <p>
+       <lb/>L’achepteur d’un heritage n’est
+       <lb/>aucunement tenu ny subject
+       <lb/>aux obligations personnelles du
+       <lb/>vendeur, autres que seigneurialles.
+      </p> 
+      <p>
+       <lb/>L’on ne peut vendre ce qui <lb/>appartient a<del>u</del> autruy, sy ce n’est <lb/>avec
+       charge &amp; pouvoir.</p>
+      <p>
+       <lb/>Celuy qui achepte une chose qui <lb/>est hypothequée a autruy, soubs <lb/>la generalité
+       de tous ses biens <lb/>le marché a lieu, car l’<choice>
+        <abbr>hypotheqß</abbr>
+        <expan>hypotheque</expan>
+       </choice>
+       <lb/>generale se peut vendre et alliener,  <lb/><add place="below" type="catchword">et</add>
+       <pb n="146" facs="AEN_MJ_17_146_147"/>
+       <lb/>et n’aura le crediteur recours sur <lb/>la chose a luy hypothequée en general <lb/>qu’a
+       deffaut de tous autres biens, <lb/>de son debteur, et s’il laisse <lb/>passer le temps et
+       terme de <lb/><date dur-iso="P15Y">quinze ans</date>, sans repeter ladite <lb/>hypotheque, n’y
+       aura plus de <lb/>recours, <term ref="lem015643">ains</term> demeurera seure et <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 54">evincée</rdg>
+       </app> au <lb/>possesseur.</p>
+      <p>
+       <add place="left margin" hand="hand18c"><lb/><hi rend="underline">vid. p. <lb/>19<damage
+          agent="ink blot">9</damage>.</hi><note>Voir <ref target="urn:ssrq:SDS-NE-4-1.45-1">SDS NE 4 1.45-1</ref>.</note></add>
+       <lb/>Personne ne se peut retenir sur <lb/>la mayson ou heritage qu’il vend, <lb/>aucune <term
+        ref="lem015877">cense</term> fonciere, ny aucune <lb/>autre charge de directe <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 54">de</rdg>
+       </app> seigneurie, <lb/>d’autant que tels droits appartiennent <lb/>au prince, ny par
+       consequent acquerir <lb/>ou achepter tels droits, veu qu’ils <lb/>prejudicient a sa directe,
+       qui s’espend <lb/>par toute ceste souveraineté, sur <lb/>toutes possessions, fonds &amp;
+       heritages <lb/>qui y sont enclavez. <lb/><add place="below" type="catchword">La</add>
+      </p> 
+     <pb n="147" facs="AEN_MJ_17_146_147"/>
+      <p>
+       <lb/>La <term ref="lem015546">vendition</term> rompt toute forme <lb/>d’<term ref="lem014978"
+        >admodiation</term>, louage, <term ref="lem016009.03">engagere</term>, &amp; <lb/>mise a <term ref="lem016354"
+        >moiteresse</term>.</p>
+      <p>
+       <lb/>Celuy qui vend une chose a deux <lb/>achepteurs est tenu de crime.</p>
+      <p>
+       <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 55"><lb/>Celuy qui est si outrecuidé et temeraire que d’oser vendre <lb/>a autruy, le bien
+         d’un autre qui ne luy appartient point, est aussi tenu <lb/>de crime, et doit estre puni
+         comme larron. </rdg>
+       </app></p>
+      <p>
+       <lb/>En toutes <term ref="lem015546.02">venditions</term> s’entend <lb/>tousjour la maintenance &amp;
+       guerantise, <lb/>s’il n’est <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice> par pact expres.</p>
+     </div>   
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

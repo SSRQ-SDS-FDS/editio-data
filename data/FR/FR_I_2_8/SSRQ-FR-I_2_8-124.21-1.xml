@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-124.21-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 405–407</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 405–407</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Gendre-Motta – Verhör und Urteil</head>
+					<head xml:lang="fr">Anni Gendre-Motta – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1647-02-04" to="1647-02-05"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="405"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1647-02-04">4<hi rend="sup">ten</hi> hornungs 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Tornier</persName>, <abbr>hr</abbr> obristen <persName ref="per013438a.01">von Perroman</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013439a.01">von Montenach</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017140">Jean Bondalla</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-127.7-1">SSRQ FR I/2/8 127.7-1</ref>.</note></p>
+						<pb n="407"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add><note>Un premier «&#160;ß&#160;», placé plus haut, a été biffé en raison de l’ajout plus tardif de la sentence. Voir ci-dessous.</note></seg>
+						<seg><lb/><persName ref="per017120b">Anni Motta</persName>, wellche abermahlen von mynen <choice><abbr>hhrn</abbr><expan>herren</expan></choice> des
+						<lb/>gerichts über alle puncten examiniert worden, hatt ihr vorige
+						<lb/><term ref="lem016794.05">bekhandtnuß</term> gäntzlich bestättiget. Allein, das der <term ref="lem014673.13">böße feindt</term>
+						<lb/>sie niehmahlen zum bächlyn undendthalb <placeName ref="loc007982.06">St. Wollffgang</placeName> getragen,
+						<lb/>sie auch nieh angerürt <del>hab</del>.</seg> <seg>Was aber die verlaugnung gottes unnd
+						<lb/>andere puncten, die sie nochmahlen einen nach dem anderen <term ref="lem006137.05">eräffert</term>
+							<lb/>unndt <term ref="lem011468.03">bekhendt</term> hatt, zeigt an, es sye alles wahr. Dessendtwegen
+						<lb/>ihren sehr leydt sye, das sie sich dergestalt vergessen unnd wider
+						<lb/>gott <term ref="lem015245">vergriffen</term> hab. Wölle <subst><del>auch</del><add place="inline">aber</add></subst> in diser <term ref="lem016794.03">bekandtnuß</term>, durch
+						<lb/>welche sie ihren selbs nit unrecht thutt, beständig verblyben und
+						<lb/><add place="left margin">darby</add> sterben, wie es gott unnd mynen gnädigen <choice><abbr>hhrn</abbr><expan>herren</expan></choice> gefallen wirdt.</seg> <seg>
+							<lb/>Wan aber sie mehrers, als sie hievor <term ref="lem011468.03">bekhendt</term> hatt, anzeige<subst><del>n</del><add place="overwritten">te</add></subst>
+						<lb/><del>wurdt</del>, so wurdt sie alßdan ihren selbs unrecht thun. Hatt
+						<lb/><term ref="lem015124">erhalten</term>, sie wisse von kheinen <term ref="lem011441.06">gespüllenen</term>. Wüsse auch nit,
+						<lb/>das der <term ref="lem014673.14">böse feindt</term>, <persName ref="per011219a">Satan</persName> genandt, sie angerürt unndt <term ref="lem016598">ge<lb break="no"/>zeichnet</term> habe. Bittet umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+						<p><lb/><add place="left margin">Den <origDate when="1647-02-05">5<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>feb</abbr><expan>februarii</expan></choice></foreign> 47</origDate>, wylen
+						<lb/>sie in ihr <term ref="lem016794.05">bekhandtnuß</term>
+						<lb/>gevariert unndt mehr<lb break="no"/>theils unbeständig ver<lb break="no"/>bliben, ist sie ohngeacht
+						<lb/>wyttlaüffiger <term ref="lem016794.05">bekhandt<lb break="no"/>nuß</term>, by deren sie das
+						<lb/>letste mahl beständig ver<lb break="no"/>bliben, zwar <term ref="lem009657">gelediget</term>
+						<lb/>aber in ewigkheit <term ref="lem018848">vereydet</term>
+						<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

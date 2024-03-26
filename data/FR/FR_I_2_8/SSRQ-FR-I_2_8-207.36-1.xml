@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.36-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 20, fol. 524v–525r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 20, fol. 524v–525r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond – Verhör und Urteil</head>
+					<head xml:lang="fr">Catherine Repond – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1731-09-04" to="1731-09-15"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref>Berchtold 1846</ref>, S. 124</bibl><!--AJOUTER REF BSG-->
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="524v"/>
+						<p><lb/><placeName ref="loc007683.05">Mauvaise Tour</placeName> ce <origDate when="1731-09-04">4<hi rend="sup">e</hi> <choice><abbr>7<hi rend="sup">bre</hi> </abbr><expan>septembre</expan></choice> 1731</origDate></p>
+						<p><lb/>Juge, Monsieur le <term ref="lem014993.01">grand sautier</term> <persName ref="per028146a.01">Odet</persName>, et le soussigné<note>Gemeint ist <persName ref="per028157a">Franz Nikolaus Haberkorn</persName>.</note>
+							<seg><lb/>Present <persName ref="per027701a.02">Bertschy</persName>, officier</seg></p>
+						<p><seg><lb/><persName ref="per028134a">Catherine Repond</persName> la detenüe, après les
+							<lb/>representations et ex<subst><del><unclear>d</unclear></del><add place="overwritten">h</add></subst>ortations ordinaires
+							<lb/>à elle faites d’entrer et de dire naïvement &amp;
+							<lb/>sincerement tout ce qu’elle a comis de mal et
+							<lb/>d’illicite pendant sa vie, que pour cela on luy
+							<lb/>a donné tout le tems par la longueur des
+							<lb/>prisons à y pouvoir songer, en renonceant
+							<lb/>à toute haine et inimitié dont elle auroit
+							<lb/>put jusqu’à present être accompagnée, mais
+							<lb/>de se rendre entièrement à la verité, que
+							<lb/>par ce moyen elle pourroit espérer des <term ref="lem019504.03">graces</term>
+							<lb/>de Leurs <choice><abbr>Ex<hi rend="sup">ces</hi></abbr><expan>Excellences</expan></choice> la dessus.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> si elle persiste
+							<lb/>toujours d’etre <term ref="lem019389.01">sorcière</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’elle êtoit
+							<lb/>presentement toute à Dieu et qu’on ne
+							<lb/>luy devoit plus parler de cette mauvaise
+							<lb/>beste, et en après s’etant voullu au
+							<lb/>commancement re<subst><del>a</del><add place="overwritten">ji</add></subst>mber, elle dit nonobstant
+							<pb n="525r"/> <lb/>que cela êtoit arrivé par pur desespoir, aussi
+							<lb/>par la raison des mechantes langues qui luy
+							<lb/>vouloyent du mal, <subst><del>et</del><add place="inline">êtante</add></subst> toute desesperée
+							<lb/>de s’etre donnée au <term ref="lem017521">diable</term>.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> si elle
+								<lb/>persiste toujours d’avoir fait le <term ref="lem019375.01">pacte</term> avec
+								<lb/>le <term ref="lem017521">diable</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’ouy, avoir fait ce <term ref="lem019375.01">pacte</term>
+							<lb/>avec le <term ref="lem017521">diable</term>.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> si elle reitère d’avoir
+							<lb/>êté au <term ref="lem015765.03">sabath</term> soit <term ref="lem017043.08">schetaz</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’ouy,
+							<lb/>y avoir êté <subst><del><unclear>plusieurs</unclear></del><add place="above">2 ou 3</add></subst> fois, et elle at
+							<lb/>confirmé de nouveau toutes ses precedentes
+								<lb/><term ref="lem019465.02">confessions</term> soit examinations, tant de
+							<lb/><placeName ref="loc008048.10">Corbière</placeName> que d’icy, en disant estre bien vrayes
+							<lb/>et telles.</seg> <seg>Ainsi finit presente examination,
+							<lb/>en se recommandant à Dieu et à Leurs <choice><abbr>Ex<hi rend="sup">ces</hi></abbr><expan>Excellences</expan></choice>
+							<lb/>de ne la pas châtier suivant son merite.</seg></p>
+						<p><lb/><persName ref="per028157a.02">Habercorn</persName> secretaire
+							<lb/>civil <figure type="notarial sign"/>.</p>
+						<p><lb/>Sentence de mort du <origDate when="1731-09-15">15<hi rend="sup">e</hi>
+							<lb/><choice><abbr>7<hi rend="sup">bre</hi></abbr><expan>septembre</expan></choice> 1731</origDate></p>
+						<p><lb/>Leurs <choice><abbr>Ex<hi rend="sup">ces</hi></abbr><expan>Excellences</expan></choice> mes souverains <choice><abbr>sg<hi rend="sup">rs</hi></abbr><expan>seigneurs</expan></choice> et <choice><abbr>sup<hi rend="sup">rs</hi></abbr><expan>superieurs</expan></choice> du
+							<lb/>suprême senat de la ville et canton de <placeName ref="loc001060.03">Fribourg</placeName> ayant
+							<lb/>apris les <term ref="lem019465.02">confessions</term> et avêus susdits, icelles ont dit &amp;
+							<lb/>sentencié que son <choice><abbr>Ex<hi rend="sup">ce</hi></abbr><expan>Excellence</expan></choice> <choice><abbr>Monsgr</abbr><expan>Monseigneur</expan></choice> l’advoyer president<note>Gemeint ist <persName ref="per028185a">Jean Henry Vonderweid</persName>.</note>,
+							<lb/>en tant que chef de cette republique et juge de sang,
+							<lb/>comme aussi singulier amateur de la justice, devra
+							<lb/>livrer au <term ref="lem018791.02">boureau</term> cette malheureuse creature,
+							<lb/>avec ordre de la conduire au lieu du suplice ordi<lb break="no"/>naire, et là y lier sur une echelle, ensuite
+							<lb/>pour servir d’exemple à un chacun, de l’etrangler
+							<lb/>jusqu’a ce que la mort s’ensuive, et puis après de jetter
+							<lb/>le corps sur un buché allumé pour y estre,
+							<pb n="525v"/> <lb/>suivant le <term ref="lem018305.02">droit imperial</term>, consumé, avec
+							<lb/>ulterieur ordre de n’y quitter, jusqu’a ce que le tout
+							<lb/>soit reduit en cendre, adjugeants ses biens au
+							<lb/>juge rière lequel ils se trouvent. Dieu ait
+							<lb/>pitié de son <term ref="lem018939.02">ame</term>.</p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p>Berchtold n’a édité que la partie consacrée à la sentence.</p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

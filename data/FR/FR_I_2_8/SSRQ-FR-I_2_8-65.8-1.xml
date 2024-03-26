@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-65.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 174 (1623), S. 479</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 174 (1623), p. 479</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jeanne Cardinaux-Marguet, Jacques Fallier, Sabel Fallier-de la Riaz,  Louise Clot-du Tey – Anweisung</head>
+					<head xml:lang="fr">Jeanne Cardinaux-Marguet, Jacques Fallier, Sabel Fallier-de la Riaz,  Louise Clot-du Tey – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-08-21">21 <foreign xml:lang="la">augusti</foreign> 1623</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gfangne</p>
+						<p><lb/><persName ref="per009553a.02">Janne Marguet</persName> de <placeName ref="loc007934.07">Mignires</placeName> <term ref="lem015549.13">confesse</term> avoir
+							<lb/>eu deux bastards, mais n’est <term ref="lem019389.02">sorciere</term>. Man
+						<lb/>sol mit ire warten, biß man mit dem man
+							<lb/><persName ref="per009510a.05">Jaques Fallie</persName> <term ref="lem010306.08">fürgefarn</term>.</p>
+						<p><lb/><persName ref="per009510a.05">Jaques Fallie</persName>, <subst><del><unclear>ir</unclear></del> <add place="inline">man</add></subst>, der ouch alles <term ref="lem001931">leignet</term>, der
+						<lb/>soll dry mal lär <term ref="lem016150">uffgezogen</term> werden.</p>
+						<p><lb/><persName ref="per009581a.02">Loise du Tey</persName>, femme de <persName ref="per009557a.01">Niclaus Clot</persName> de <placeName ref="loc007619.01">Chapelle</placeName>,
+						<lb/>qui dit avoir parlé avec la <choice><abbr>s<hi rend="sup">te</hi></abbr><expan>sainte</expan></choice> vierge <persName ref="per000970">Barbe</persName>,
+						<lb/>qui l’a apprinse a prier <abbr>etc</abbr>. Ist ouch ingstelt,
+							<lb/>biß man mit <persName ref="per009510a.01">Fallie</persName> <term ref="lem010306.03">fürgfaren</term>.</p>
+						<p><lb/><persName ref="per009554a">Sabel de la Riaz</persName> glychfals ingstelt.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

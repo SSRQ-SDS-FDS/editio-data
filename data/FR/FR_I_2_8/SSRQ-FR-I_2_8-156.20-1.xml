@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.20-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 153v</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 153v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Sohn / le fils, Antoinie Ducli – Anweisung</head>
+					<head xml:lang="fr">Pierre Ducli der Sohn / le fils, Antoinie Ducli – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-29">29 <foreign xml:lang="la"><choice><abbr>jul</abbr><expan>julii</expan></choice></foreign> [1651]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<p><lb/>Gefangne</p>
+						<p><lb/><persName ref="per020483a.03">Pierre Ducly le jeusne</persName> a <term ref="lem015549.07">confessé</term> d’estre <term ref="lem019308.01">sorcier</term> et d’avoir
+							<lb/><term ref="lem019541.15">renié</term> Dieu, sur des pensées qu’il avoit, qu’il n’y avoit
+							<lb/>point de Dieu, ou qu’il n’avoit aulcune puissance&#160;; il est
+							<lb/><term ref="lem018895.02">marqué</term> sur le dos. Du dempuis il a entierement retracté sa
+							<lb/><term ref="lem019465.01">confession</term>. Er soll an die einfältige <term ref="lem013000.01">tortur</term> des <term ref="lem006591">seils</term> ohne
+							<lb/><term ref="lem018287">stein</term> geschlagen unnd alles <term ref="lem019161.01">referiert</term> werden.</p>
+						<p><lb/>Syn schwester<note>Gemeint ist <persName ref="per020487">Antoinie Ducli</persName>.</note>, die auch <term ref="lem009330.04">ynzogen</term> worden, soll examiniert werden.
+							<lb/>Wider <add place="above">die</add> soll <abbr>h</abbr> landtvogt von <placeName ref="loc007935.11">Fawernach</placeName> <term ref="lem011997">inquirieren</term>. Sie heißt <persName ref="per020487a.02">Teini</persName>,
+							<lb/>des <persName>Francois Bossins</persName><note>Der Name des Ehemanns bleibt unklar. An anderer Stelle wird er <persName>François Rosset</persName> genannt.
+								Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-156.17-1">SSRQ FR I/2/8 156.17-1</ref>.</note> frauw, auch <abbr>h</abbr> grichtschryber<note>Gemeint ist <persName ref="per018190a">Franz Daguet</persName>.</note> wider den sohn.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-107-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN-4a, fol.&#160;31v-32r</idno> 
+               </msIdentifier>
+               <head>Décrétale des Audiences générales (prise à l'occasion d'un cas particulier) sur le
+                  degré de consanguinité autorisé pour contracter mariage et sur l'interdiction faite aux
+                  officiers du prince de vendre du vin et de tenir hôtellerie</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="21.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1553-10-24"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_229">SDS NE 1, N<hi rend="sup">o</hi>&#160;107</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000863"></term>
+               <term ref="key005111"></term>
+               <term ref="key000129"></term>
+                       </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="31v" facs="AEN_EN_4a_31v_32r"/>      
+               <div><p><origDate  when="1553-10-24"><lb/>Le XXIIII<hi rend="sup">me</hi> <choice><abbr>dud</abbr><expan>dudit</expan></choice> octobre <lb/>1553</origDate></p>
+                  <p><lb/>Mondict seigneur le gouverneur ayant mis en <lb/>decretale le faict dudict
+                     Jehan Griva et de sa femme <lb/>de St Blaise qui se veuillent avoir en mariage
+                     neantmoings <lb/>qu’ils soyent au troisième degré de consanguinitté, <lb/>s’ils
+                     se peuvent prendre. Il a esté decretté puis<lb break="no"/>que ledict mariage
+                     ne contrevient a l’ordonnance de <lb/>Dieu qu’il doibt aussy avoir lieu pour ce
+                     coup <lb/>icy seullement mais pour aultant qu’il y en heu <pb n="32r"
+                        facs="AEN_EN_4a_31v_32r"/>
+                     <lb/>decretale faicte qu’elle soit doresenavant publiée <lb/>et observée.</p>
+                  <p><lb/>Item pour ce que desja decretale est aussy faicte des <lb/>officiers qu’ils ne
+                     doyvent tenir hostelerie, taverne ny <lb/>vendre vin a tous venans, elle se
+                     doibt aussy publier et <lb/>observer en son entier. </p></div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;31v-32.</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;214v.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;305.</p>
+               <p>AEN, Registre des Trois-États, I, fol.&#160;41v.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;15-16. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

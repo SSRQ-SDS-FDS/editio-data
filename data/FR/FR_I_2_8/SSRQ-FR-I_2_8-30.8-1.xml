@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-30.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 10, S. 251–253</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 10, p. 251–253</idno>
+					</msIdentifier>
+					<head xml:lang="de">Nicod Jorand – Verhör</head>
+					<head xml:lang="fr">Nicod Jorand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1610-09-30"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="251"/><p><lb/>Im <placeName ref="loc007594">Rosey</placeName>, den <origDate when="1610-09-30">30 herbstmonats 1610</origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009136">Umbert Brassa</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentes</foreign> <abbr>h</abbr> <persName ref="per009101">Keller</persName>, <persName ref="per009141">Meyer</persName></seg>
+							<seg><lb/><persName ref="per009107">Thorman</persName>, <persName ref="per009212">Spreng</persName></seg>
+							<seg><lb/><persName ref="per009103"><choice><abbr>Melch</abbr><expan>Melchior</expan></choice> Zum Holtz</persName>, <persName ref="per009106">Tumbe</persName>, <persName ref="per006839"><choice><abbr>H Ja</abbr><expan>Hans Jacob</expan></choice> Lary</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft den Prozess gegen <persName ref="per009217">Jenon Jorand</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-30.7-1">SSRQ FR I/2/8 30.7-1</ref>.</note></p>
+						<pb n="252"/><p><lb/>Im <placeName ref="loc007683.14">boßen thurn</placeName>, <foreign xml:lang="la">eodem die</foreign>
+						<lb/>und im bywäßen obstadt.</p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" quantity="3" unit="lb">3 </measure>.</add></seg>
+							<seg>Le sus desnommé <persName ref="per009214a.02">Nicod Joran</persName> estant <term ref="lem018774.04">admonesté</term>
+						<lb/>de de<subst><del><unclear>z</unclear></del><add place="overwritten">ss</add></subst>eller sa conscience et de dire la pure verité,
+						<lb/>auroit aussi icellui tout ce que on lui auroit
+						<lb/>tenu en devant et <del>sur</del> chasque poinct de l’examen
+						<lb/><term ref="lem019442.05">denegué</term>, disant que sa feme et enfans lui font
+						<lb/>tort.</seg> <seg>Item mesme le granger <persName>Grollei</persName>, car aulcun
+						<lb/>mal n’avoir faict.</seg> <seg>Et point estre vrai que
+						<lb/>ses enfans soient <term ref="lem018895.05">marqués</term>, <add place="left margin" type="sign">toutefois que <lb/>la fille auroit pourté <lb/>une marque de <lb/>ventre de sa <lb/>mere, et</add> <del>car</del> auroit jamais
+						<lb/>servi et honnoré aultre que Dieu.</seg> <seg>Dit avoir
+						<lb/><term ref="lem015169.02">escout</term> le blez qu’il avoit heu du granger de la
+						<lb/>donna <persName>Zieglera</persName>, et que ses enfans avoient <term ref="lem015171.02">lignié</term>&#160;;
+							<lb/>et s’il heut <term ref="lem018886.04">roubé</term>, ne l’ust publiquement <term ref="lem015169.02">escout</term>.</seg>
+						<seg><lb/>Aussi ha dit que <persName>Claude <unclear>Gazu</unclear></persName> lui laissa des <term ref="lem019232.03">primes
+						<lb/>bestes</term> 3, et que icelles lui murirent aussi.</seg>
+						<seg><lb/>Finalement, dit que estant <term ref="lem015172.02">pastaur</term> se seroit frappé
+						<lb/>avec un aultre, auquel auroit tirré des poilz de la
+						<lb/>barbe, et que par accord, auroit falluz <term ref="lem015635.18">ballier</term> <measure type="currency" quantity="3" unit="lb">3 </measure>
+					<pb n="253"/><lb/>de chasque poilz.</seg> <seg>Et ayant esté 3 fois tirré
+						<lb/>sans <term ref="lem018285">pierre</term>, n’auroit ses tous <term ref="lem017003.04">interrogatz</term> aultre
+						<lb/>chose voulluz <term ref="lem015549.01">confesser</term>, disant <subst><del>qee</del><add place="inline">que</add></subst> seroit
+						<lb/>innocentement accusé d’un granger. <term ref="lem019498">Crie aussi
+						<lb/>merci</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

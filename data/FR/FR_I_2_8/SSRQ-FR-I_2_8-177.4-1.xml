@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-177.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 136–137</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 136–137</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Vuarchon – Verhör</head>
+					<head xml:lang="fr">Pierre Vuarchon – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1663-07-11"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="136"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.02">Jaquemard</placeName></hi>, den <origDate when="1663-07-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1663</origDate></p>
+						<p><lb/>Herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056">Hans Jakob Buman</persName>.</note>
+						<seg><lb/><abbr>H</abbr> <persName ref="per026102a.02">Antoni Python</persName>, <abbr>h</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per018693a.02">Gottrau</persName></seg>
+						<seg><lb/><persName ref="per026304a.02">Zurthannen</persName></seg></p>
+						<p><seg><lb/><persName ref="per026739a.05">Pierre Vuarzou</persName>, examiné par messieurs du droit
+						<lb/>susnommés, a continué <subst><del>dans</del><add place="inline">sa</add></subst> precedente con<lb break="no"/>fession en tous ses poincts, soustenant que son
+						<lb/><term ref="lem019555.05">maistre</term> <persName ref="per029457a">Abraham</persName> luy est apparu vers la moderne
+						<lb/>prison, sans y entrer, ny parler aulcun mot.
+						<lb/>Dit l’avoir veu d’un costé et d’autre pendant
+						<lb/>ceste examination. Persiste d’avoir <term ref="lem019481.03">baisé</term> sondit
+							<lb/><term ref="lem019555.05">maistre</term>, par respect, au <term ref="lem015018.09">dernier</term>, lequel luy a dit
+						<lb/>qu’il se debvoit donner à luy, qu’il voulloit
+						<lb/>estre son pere. La dessus estant examiné, quelle
+						<lb/>responce il luy avoit donné, il a <term ref="lem015549.07">confessé</term> de l’avoir
+						<lb/>accepté pour tel et s’estre rendu à luy pour filz.</seg>
+							<seg><lb/>En après estant interrogé s’il n’avoit point esté recher<lb break="no"/>ché de <term ref="lem019552.01">renoncer</term> au <term ref="lem019542.04">baptesme</term>, et s’il sçavoit comme
+						<lb/>l’on <term ref="lem019543.09">baptise</term>, après avoir declaré qu’on <term ref="lem019543.09">baptise</term>
+						<lb/>au nom de Dieu, le Pere, Filz et <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> Esprit,
+						<lb/>a dit que son <term ref="lem019555.05">maistre</term> <persName ref="per029457a">Abraham</persName> l’a persuadé
+						<lb/>à les <term ref="lem019541.01">renier</term>, comme aussi la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge et
+						<lb/>tous les saincts, mais qu’à present il <term ref="lem019552.05">renonce</term>
+						<lb/>à sondit <term ref="lem019555.05">maistre</term> et non pas à Dieu.</seg> <seg>Persiste
+						<lb/>d’avoir esté porté par <persName ref="per029457a">Abraham</persName> sur son dos,
+						<lb/>comme l’on porte les enfants dans la <term ref="lem017043.01">secte</term>,
+						<lb/>en un bois du costé de <placeName ref="loc007862.06">La Tour</placeName>, ou il a
+						<lb/>veu quelques petits garçons avec lesquels luy
+						<lb/>et son <term ref="lem019555.05">maistre</term> ont fait quelques <add place="above" type="sign">petits</add> bastiment de la
+						<lb/>terre&#160;; y avoir cogneu un mendiant comme luy, nommé
+						<lb/><persName>Jean</persName>.</seg> <seg><term ref="lem015549.13">Confesse</term> avoir donné de la <term ref="lem018382">graisse</term>
+							<lb/>de son <term ref="lem019555.05">maistre</term> à des <term ref="lem015985.02">oyssons</term> appartenants
+							<lb/>à un nommé <persName>Tenterey</persName>, et à des <term ref="lem018925.03">veaux</term>
+						<pb n="137"/><lb/>de <persName>François Mattey</persName> de <placeName ref="loc007861.07">Bulloz</placeName>, mais pas à aulcunes
+						<lb/>personnes, puisque il en recevoit du bien, car il
+						<lb/>craignoit, si il leur eut donné dedite <term ref="lem018382">graisse</term>,
+						<lb/>qu’elles fussent aussi mortes.</seg> <seg>Ne veult pas
+							<lb/>avoir receu de son <term ref="lem019555.05">maistre</term> aulcun argent,
+						<lb/>ains dit qu’il luy a pris trois soulz à <placeName ref="loc007861.07">Bulloz</placeName>,
+							<lb/>disant en oultre que son <term ref="lem019555.05">maistre</term> l’a persuadé
+						<lb/>à luy promettre de faire ce qu’il luy commandera,
+						<lb/>avec defence à luy reiterée dans l’autre prison
+						<lb/>de ne pas dire la verité, en quoy pourtant il ne
+						<lb/>veult pas le croire, demandant les <term ref="lem019504.03">graces</term> de Leurs
+						<lb/>Excellences.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

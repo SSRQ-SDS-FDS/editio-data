@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-120.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 153–154</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 153–154</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Hayoz-Fruyo – Verhör</head>
+					<head xml:lang="fr">Margreth Hayoz-Fruyo – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1645-07-11"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="153"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1645-07-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> <hi rend="underline">1645</hi></origDate>, <foreign xml:lang="la">judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><choice><abbr>Haupt</abbr><expan>Hauptman</expan></choice> <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><foreign xml:lang="la">Extraordinarii</foreign> <abbr>hr</abbr> <persName>Piccand</persName><note>Gemeint ist vermutlich Ratsherr <persName ref="per009780">Jacques Piccand</persName>.</note>, <persName>Haberkhorn</persName><note>Gemeint ist entweder <persName ref="per013446a">Ludwig Haberkorn</persName> oder <persName ref="per006517a">Franz Haberkorn</persName>.</note></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><lb/><persName ref="per016946a.01">Margreth Fryoudt</persName> von <placeName ref="loc007935.06">Fawernachen</placeName> ist an der <term ref="lem015170.07">zwehelen</term>, daran
+								<lb/>sie ohngefahrlich <time dur-iso="PT3H">dry stundt</time> gehanget, by ihrem vorigen hartnäckig<lb break="no"/>en <term ref="lem001931.09">läugnen</term> verharret unnd gesagt, wan man sie schon verbrennen solte,
+								<pb n="154"/><lb/>wurde sie doch nit alß ein <term ref="lem006693.02">hex</term> hingrichtet werden. Pittet, man
+								<lb/>wölle sie diser <term ref="lem004666.03">marther</term>, dardurch sie ihren selbs unrecht zu thun
+								<lb/>gezwungen wirdt, <term ref="lem009657">ledigen</term>. Dan sie möge unnd könne dieselbe nit
+								<lb/>lenger lyden. Wo nit, sie wölle alles, obschon es nit wahr ist,
+								<lb/>anzeigen, damit sie disen unglaublichen schmertzen abkähme. Es
+								<lb/>trybe sie die noth unnd nit die wahrheit darzu.</seg> <seg>Hieruff
+									<lb/>hat sie <term ref="lem011468.03">bekhendt</term>, daß sie nit allein dem diener zu <placeName ref="loc009988">Berlens</placeName>
+									<lb/>die kranckheit angethan, unnd d<subst><del>en</del><add place="overwritten">ie</add></subst> übrige <term ref="lem016889.03">hußgnossen</term> in der <term ref="lem018224.02">chur</term>
+									<lb/>daselbsten <term ref="lem018557.02">maleficiert</term>, sonders alles, darumb sie <term ref="lem007803.05">pynlich</term> erfragt,
+								<lb/>gethan unnd verbracht habe. Welches sie uff der stäth verneinet
+									<lb/>unnd <term ref="lem001931.09">geläugnet</term> hatt, mit <term ref="lem016814">vermelden</term>, sie müsse unnd habe ihren
+									<lb/>selbst mittlest diser <term ref="lem018266.03">pynigung</term>, die sie nit länger ußsthän mag,
+									<lb/>faltschlich unrecht gethan. Dan es sye nit wahr, das <add place="above">sie</add> ein <term ref="lem006693.02">hex</term> sye
+									<lb/>unnd jemandt beleidiget habe.</seg> <seg>Alß sie erfragt, durch welche
+								<lb/>künsten sie, mit respect, ab einer oder 2 <term ref="lem001076.04">khüen</term> so vihl <term ref="lem002272">milch</term>
+								<lb/>bekäme, hatt geandtwortet, sie habe zwar ihnen offt gutten
+									<lb/>grüne unnd frische krütter alß <term ref="lem018223.02">römischen kömich</term> unnd gundelreben,
+								<lb/>so zum theil in ihrem garten wachsen<del>dt</del>, damit sie an der <term ref="lem002272">milch</term>
+									<lb/>guthen währendt, zu <term ref="lem001166.03">ätzen</term> unnd zu leckhen geben. Sye aber
+									<lb/>darumb nit wahr, das sie so vihl, wie etliche <term ref="lem017642">verbünstige</term> gesagt,
+								<lb/>gemolchen habe. Dan sie niehmahlen derglychen unzulaßlichen
+								<lb/>künsten gewust unnd gebrucht hatt. Es geschehe ihren faltschlich un<lb break="no"/>recht. Unnd <subst><del>sie</del><add place="inline">wan sie</add></subst> jemandt verbürgen wurde, das sie ihrem
+								<lb/>schöpffer unnd erleser in anzeigung der unwahrheit nit
+										<lb/>beleidigen thäte, wurde sie alsobaldt, damit sie diser <term ref="lem004666.03">marther</term>
+										<lb/>abkhäme, alles, wan es schon nit währe, <term ref="lem011468.04">bekhennen</term>.</seg> <seg>Hatt
+									<lb/>endtlich in allen ihren fürgehaltnen <add place="above" type="sign"><term ref="lem014672.03">hexerys</term></add> <sic>punckhen</sic> unschuldig syn wöllen.
+								<lb/>Bittet umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

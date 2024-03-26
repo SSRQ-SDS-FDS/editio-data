@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-197.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 416–419</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 416–419</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Andrey-Centlivres – Verhör</head>
+					<head xml:lang="fr">Clauda Andrey-Centlivres – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1676-06-30"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="416"/><p><lb/>Zinstag, den <origDate when="1676-06-30">30<hi rend="sup">ten</hi> <foreign xml:lang="la">junii</foreign> 1676</origDate></p>
+						<p><seg><lb/><foreign xml:lang="la">Judex</foreign> herr großweibel <persName ref="per026528a.01">Reynold</persName></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026365a.04"><choice><abbr>H P</abbr><expan>Hans Peter</expan></choice> Vonderweidt</persName>, <abbr>h</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.01">Python</persName></seg>
+							<seg><lb/> LX herr <persName ref="per026120a.03">Johan Rämy</persName></seg>
+							<seg><lb/>Der burgeren <abbr>h</abbr> <persName ref="per026541a.02">Kesler</persName>, <abbr>h</abbr> <persName ref="per026560a.01">Buman</persName></seg>
+						<seg><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>.</seg></p>
+						<p><persName ref="per019871b">Clauda Centlivres</persName>, veufve de <persName ref="per019873a">François Andrey</persName> de
+					<pb n="417"/><lb/><placeName ref="loc008085.02">Botterin</placeName>, en suitte de la sentence de <choice><abbr>L.E.</abbr><expan>Leurs Excellences</expan></choice> d’aujourdhuy, ayant
+						<lb/>esté examinée sur l’<term ref="lem018363">inquisition</term> prise, et premierement
+						<lb/>si elle sçavoit le subject de sa detention.</p>
+					<p><lb/>A dict qu’elle n’est detenue qu’à cause des mesdisances et malveillances,
+						<lb/>et qu’elle est eagée de <measure type="age" quantity="78" unit="year">quatre vingt moins deux ans</measure>, se
+						<lb/>recommandant à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict de ne la beaucoup <term ref="lem019393.01">questionner</term>,
+						<lb/>puisqu’elle ne le pourroit endurer à cause de son haut eage, et
+						<lb/>qu’elle veut bien declarer la verité, disant avoir eu un en<lb break="no"/>fant illegitime avant son mariage.</p>
+					<p><lb/>Et interrogée sur tous les principaux poincts de l’examen,
+						<lb/>n’a tout a fait rien voullu <term ref="lem015549.01">confesser</term> de ce qui la pourroit
+						<lb/>rendre coulpable, ny seulement suspecte, niant d’avoir
+						<lb/><term ref="lem019478.02">infecté</term> aucun bestail, ny donné les <term ref="lem018555.03">malefices</term> à personne.
+						<lb/>Asserant que la <term ref="lem017507.01">vache</term> d’<persName>Antoine Dupui</persName> est morte d’une
+						<lb/>maladie, qui estoit alors bien commune au bestail.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> d’avoir donné à boire à la femme de <persName>Frantz Angeloz</persName>,
+						<lb/>qui luy porta des <term ref="lem015349.06">bressy</term>, mais que ce fust du commandement
+						<lb/>de son mari, et sans luy avoir donné aucun mal, disant
+						<lb/>ladite femme estre de son naturel <term ref="lem018802.01">cansa</term> et indisposée,
+						<lb/>et que si elle estoit entretenue de bon pain et de bon vin,
+							<lb/>elle se porteroit mieux. <term ref="lem015549.13">Confesse</term> bien que le <term ref="lem019503.02">possedé</term> <persName>Han<lb break="no"/>seman Uldrigon</persName> faisoit bien du bruit, quand la voyoit,
+						<lb/>mesme que les <term ref="lem018556.05">maleficiés</term> l’ont quelquesfois appellée <term ref="lem014908.07">vau<lb break="no"/>deisa</term>, mais dict qu’ils ne sont à croire, et qu’on sçait
+							<lb/>bien que le <term ref="lem017521">diable</term> ne dict pas la verité. <term ref="lem015549.13">Confesse</term>
+						<lb/>aussy que le tuillier l’a appellée <term ref="lem014908.13">vaudaisa</term>, mais qu’il
+						<lb/>luy disoit que c’estoit une autre femme qui le luy avoit
+						<lb/><add place="left margin">dict</add>, laquelle s’estoit retractée, et que sa fillie en avoit sa
+						<lb/>reparation.</p>
+						<p><lb/>Tellement que n’ayant rien voullu advouer de considerable,
+							<lb/>elle a esté attachée à la <term ref="lem018231">corde</term> pour estre <term ref="lem019547.04">levée</term> conformement
+						<lb/>à ladite sentence&#160;; ce que voyant, elle a dict si on ne la
+							<lb/>voulloit pas <term ref="lem019509.01">visiter</term> pour sçavoir si elle estoit <term ref="lem018895.03">marquée</term>,
+						<lb/>avant que la mettre à la <term ref="lem018231">corde</term>, que c’estoit pourtant
+						<lb/>la coustume, l’ayant entendu dire d’une femme
+					<pb n="418"/><lb/>d’<placeName ref="loc007693.04">Estavayer</placeName>, qui avoit eu une soeur entre les mains
+						<lb/>de la justice trois fois&#160;; ce laquelle ayant esté
+						<lb/>sollicitée de dire le nom, a dict ne le sçavoir.</p>
+						<p><lb/>Et en suitte a esté <term ref="lem019548.06">eslevée</term>e deux fois à la simple
+						<lb/><term ref="lem018231">corde</term>, et en icelle derechef examinée serieusement
+						<lb/>sur les principaux poincts de l’examen, sans
+						<lb/>qu’elle aye rien voullu <term ref="lem015549.01">confesser</term>.</p>
+						<p><lb/>Mais lorsqu’on estoit en termes de suivre à la
+						<lb/>troisiesme tesmognant, d’en avoir grande apprehension
+						<lb/>et derechef exhortée de declarer la verité sans se
+							<lb/>laisser <term ref="lem019427.01">torturer</term> davantage, a dict qu’elle desiroit
+						<lb/>le faire, mais seulement aux deux seigneurs conseilliers.
+						<lb/>Et les autres estant sortis, et lesdits seigneurs conseilliers
+						<lb/>et l’escrivain d’icestes estant demeurés seuls, a
+						<lb/>dict qu’elle voulloit <term ref="lem015549.01">confesser</term> les assauts qu’elle
+						<lb/>avoit eus du malin&#160;; disant l’avoir songé en
+						<lb/>dormant, qu’elle voyoit les pieds du malin comme
+							<lb/>des pieds de <term ref="lem018314">chien</term>, et ses oreilles comme des oreil<lb break="no"/>les de <term ref="lem019400.02">chevre</term>, et des cornes de biche&#160;; et qu’elle
+						<lb/>faisoit souvent des songes, qu’elle le voyoit
+						<lb/>en forme de lievre, mesme quelques fois en
+						<lb/>sommeillant, ou <term ref="lem018830.02">draucant</term>, lorsqu’elle filoit&#160;;
+						<lb/>d’autres fois, qu’elle voyoit des lievres sur les
+						<lb/>hayes. Mais soustient que jamais ne luy a
+						<lb/>parlé, et qu’elle a esté ainsy poursuivie
+						<lb/>depuis <date dur-iso="P14Y">quatorze ans</date> en ça, et non auparavant.</p>
+						<p><lb/>En outre a dict qu’elle a esté malitieuse et jalouse,
+						<lb/>ayant faict des imprecations contre ceux qui l’ap<lb break="no"/>pelloyent <term ref="lem014908.07">vaudeisa</term>. Et qu’une fois trouvant
+						<lb/><persName>Hanseman Uldrigon</persName> le <term ref="lem019503.02">possedé</term> enbourbé avec
+						<lb/>son attelage, elle souhaittoit qu’il n’en peust
+						<lb/>sortir à cause qu’il luy detenoit <measure type="currency" unit="bz" quantity="16">16 batz</measure>, mais
+						<lb/>pourtant il sortit libre.</p>
+					<pb n="419"/><p><lb/>Finallement, ayant encor bien <add place="above" type="sign">esté</add> exhortée de descouvrir la verité,
+						<lb/>a dict ne sçavoir autre chose, et que si on voulloit qu’elle
+						<lb/>dict davantage, elle diroit des mensonges&#160;; qu’on luy avoit
+						<lb/>bien dict que la <term ref="lem018231">corde</term> faisoit dire des choses qu’on n’avoit
+						<lb/>pas faictes. Et sur ce a dict avoir veu le malin comme un
+						<lb/><term ref="lem018314">chien</term> en filant, mais iceluy ne luy avoir jamais parlé,
+						<lb/>priant instamment d’estre destachée et non plus <term ref="lem019474.03">tourmen<lb break="no"/>tée</term>, puisqu’elle a dict tout ce qu’elle sçait, et si elle dict
+						<lb/>davantage, ce ne seront que mensonges. Tellement qu’estant
+						<lb/>les autres seigneurs du droict rentrés, elle a esté <term ref="lem019548.06">eslevée</term>
+						<lb/>pour la 3<hi rend="sup">me</hi> fois, ou ce qu’estant encor interrogée n’a
+						<lb/>rien voullu dire, ny <term ref="lem015549.01">confesser</term> plus outre.</p>
+						<p><lb/>Ce que messieurs du droict ont dict debvoir estre inseré dans
+							<lb/>ce livre, et demain representé à <choice><abbr>L.E.</abbr><expan>Leurs Excellences</expan></choice> du Conseil estroit<note>Il s’agit du Petit Conseil.</note>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

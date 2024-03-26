@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-162.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 312–313</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 312–313</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Millioud – Verhör</head>
+					<head xml:lang="fr">Pierre Millioud – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1652-05-23"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="312"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1652-05-23">23<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1652</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <subst><del><persName ref="per018131a.01">Werli</persName></del><add place="overwritten"><persName ref="per009264a.03">Aman</persName></add></subst>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018134a.01">von Affry</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018126a.01">Perret</persName></seg></p>
+						<p><seg><lb/><persName ref="per020608a.01">Pieru Millu</persName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict derechef examiné
+							<pb n="313"/><lb/>avant qu’estre aplicqué à la <term ref="lem018792.01">question</term>, ne veut estre
+							<lb/><term ref="lem015549.03">confessant</term> d’aulcune chosse, mais estant par après <term ref="lem019427.03">torturé</term>
+							<lb/>par la simple <term ref="lem018231">corde</term>, <term ref="lem015549.13">confesse</term> que s’estant entre jour
+							<lb/>et nuict rencontré, il a <date dur-iso="P6Y">six ans</date> environ, vers <placeName ref="loc008091.04">Planne<lb break="no"/>siva</placeName>, desolé de n’avoier <del><unclear>a</unclear></del> peu<del><gap reason="illegible" quantity="1" unit="cm"/></del> trover logement,
+							<lb/>le <term ref="lem015433.03">maling esprit</term>, nommé <persName ref="per029445a">Adam</persName>, s’estre apparu à luy <add place="inline">habi<lb break="no"/>lé de noir</add>, le quel luy ayant donné de l’argent, que par aprèz ne
+							<lb/>fust que <term ref="lem018302.10">feulies</term> d’arbrez, <subst><del>dit</del><add place="overwritten">il</add></subst> l<subst><del>’avoir</del><add place="overwritten">e</add></subst> marqu<subst><del>é</del><add place="overwritten">at</add></subst> à l’espaule
+							<lb/>droicte, ou il croit que la <term ref="lem018894.01">marque</term> se troverat.</seg> <seg>Et
+							<lb/>comme il a <date dur-iso="P10Y">dix ans</date> <add place="inline">que</add> il fust adverti par sa femme
+							<lb/>de ce retirer de ces pays, sur ce qu’elle avoit esté
+							<lb/>advisée par la femme de feu <persName>Hans Caspar</persName>, s’estre enallé
+							<lb/>pour quelque peu de tempz contre <placeName ref="loc000085.14"><choice><abbr>Nre</abbr><expan>Notre</expan></choice> Dame des Hermites</placeName>,
+							<lb/>d’ou apès quelque sejour illec et aux lieux voisins
+							<lb/>faict, s’estre retiré dans le pays de <placeName ref="loc008470.07">Gruyere</placeName>
+							<lb/>et <placeName ref="loc007849.04">Chermey</placeName> jusquez à ce qu’il fust conduit ici&#160;;
+							<lb/>demandant à Dieu et à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

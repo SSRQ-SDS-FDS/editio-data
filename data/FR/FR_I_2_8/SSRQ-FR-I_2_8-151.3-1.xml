@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-151.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 189–190</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 189–190</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marie Farconet-Dulin – Verhör</head>
+					<head xml:lang="fr">Marie Farconet-Dulin – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-03-14"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="189"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-03-14">14<hi rend="sup">ten</hi> <foreign xml:lang="la">martii</foreign> 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.03">Caspar von Montenach</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018126a.01">Perret</persName></seg></p>
+						<p><lb/><persName ref="per020266a.01">Marie Duling</persName> de <placeName ref="loc011687.02">Freydevilla</placeName>, femme de <persName ref="per020269a.01">Pieru Farconet</persName>, reduite aux <!--à Pont-la-Ville: route et lieu-dit En Freydeville-->
+							<lb/>prisons sur <term ref="lem018521">sorcellerie</term>, par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict, estant
+							<lb/>aplicquée à la simple <term ref="lem018231">corde</term>, examinée sur dit faict,
+							<lb/><term ref="lem019442.03">denege</term> tous points propossé hors qu’elle dit que certain garçon,
+							<lb/><add place="left margin">qu’est presentement</add> mort, luy monstrat dans une <term ref="lem014919.01">boite</term> deux <term ref="lem017521.02">diables</term> resemblant
+						<pb n="190"/><lb/>à des mouches noires, lé quelles ser<subst><del>i</del><add place="overwritten">v</add></subst>oient pour gagnier
+							<lb/>beauxcoup, lesquel<del>le</del>s elle nommet des bestelletes. Et
+							<lb/>estant par <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le <term ref="lem019323.06">bourgermeister</term> serieusement
+							<lb/>examinée, s’excussat n’avoier heu la companie
+							<lb/>du <term ref="lem015433.10">maling</term>, <subst><del><gap reason="illegible" quantity="1" unit="cm"/></del><add place="overwritten">niant</add></subst> avoier esté proche de la maison
+							<lb/>de <persName>Clement Girard</persName>, lors que sa <term ref="lem018922.02">jumment</term> feut
+							<lb/>conduite dehors à la fontaine, ni<del><unclear>e</unclear></del> d’avoier touché
+							<lb/>certain masson, que luy raccommodoit son <term ref="lem019145.02">fournio</term>, <add place="inline">de sa main</add>,
+							<lb/>lequel elle assere desja avoier paravant esté
+							<lb/>malade. Et la desus demandat à Dieu et à Leur
+							<lb/>Exellences bien humblement pardon.</p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-193.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 317–320</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 317–320</idno>
+					</msIdentifier>
+					<head xml:lang="de">Eva Perrottet-Widmann – Verhör</head>
+					<head xml:lang="fr">Eva Perrottet-Widmann – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1669-07-20"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="317"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1669-07-20"><subst><del>3</del><add place="overwritten">2</add></subst>0<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1669</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026533a">Karl Kessler</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026065a">Joseph Reyff</persName>.</note></seg>
+							<seg><lb/><persName ref="per026315a.01">Techterman</persName>, <persName ref="per026534a"><choice><abbr>H D</abbr><expan>Hans Daniel</expan></choice> von Montenach</persName></seg>
+							<seg><lb/><persName ref="per026535a.01">Castella</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per026981a.01">Eva</persName>, <persName ref="per026985a.01">Ulli Widmans</persName> von <placeName ref="loc000482.02">Lentzburg</placeName> im <placeName ref="loc000464">Berner</placeName>
+							ge<lb break="no"/>bieth tochter, <persName ref="per026979a.01">Antoine Perrotets</persName> von <placeName ref="loc007649.05">Dompdidier</placeName> selig
+						<lb/>hinderlaßne wittwen, erfragt, waß uhrsachen sie
+							<lb/><term ref="lem009330.04">yngezogen</term> worden unnd in <term ref="lem002006.01">verhafft</term> lige. Zeigt an,
+						<lb/><persName>Marguerithe Jordan</persName>, welche von dem <term ref="lem011429.13">bößen geist</term>
+							<lb/><term ref="lem017161">besessen</term> ist, sie in dem <term ref="lem016582.03">bachoffen</term> angefallen unndt
+						<lb/>angriffen habe. So vermutlich die uhrsach seye, <subst><del>w</del><add place="overwritten">d</add></subst>arumb
+						<lb/>sie ynligt.</seg> <seg>Weiters, sie seye von <date dur-iso="P15Y">15 jahren</date> här
+						<pb n="318"/><lb/><term ref="lem018557.02">maleficiert</term> unnd <term ref="lem011468.03">bekhent</term>, daß <add place="above" type="sign">da</add> sie ein bissen <term ref="lem019244.02">coussola</term>
+						<lb/>gessen, in dem sie gebachen, ihren, wisse nit waß, uß
+						<lb/>dem halß unnd mund wie <term ref="lem011456.05">bluth</term> khommen. Darzu
+						<lb/>sie ihr magd beruffen unnd gesagt, gott wölle sie
+					<lb/>dißer <term ref="lem011429.16">bößen geistern</term> <term ref="lem009657">ledigen</term>, weil so vihl <term ref="lem017940.01">wusts</term>
+						<lb/>von ihren giege, unnd habe ihren bevohlen, solches
+						<lb/><term ref="lem011456.05">bluth</term> mit äschen zu zu decken unnd ins wasser zu
+						<lb/>werffen, damit nit <term ref="lem008937.03">etwan</term> das <term ref="lem000310.16">vych</term> solches an<lb break="no"/>riechen oder ufflecken thäte.</seg> <seg>Hernacher hat
+						<lb/>sie weitläuffig erzehlt, wie daß ein gwüsser
+						<lb/><persName>Toni Jordan</persName>, so vor etwas zeits in krieg gezogen,
+							<lb/>sie zur ehe <term ref="lem006676.02">solicitiert</term> unnd sehr einständig <term ref="lem007397">angesprochen</term>
+							<lb/>habe. Darzu aber sie lang nit habe <term ref="lem009609">verstehen</term> wöllen,
+						<lb/>biß er ihr dessenthalben überlästig worden. Da
+						<lb/>sie dan eines mahls, da er zu ihren khommen unndt
+						<lb/>ihr sein obiges anligen eröfferte, ein wachskertzlin
+						<lb/>angezündet unnd ihme ernstlich zugesprochen unndt
+						<lb/>erfragt, ob es ihm ernst währe. Welcher von <q>ja</q>
+						<lb/>geantworttet habe. Daruff sie ihme dan mit ihrer
+						<lb/><term ref="lem001913.03">fust</term> uff die brust klopft unndt in stille gesagt
+						<lb/><q>gott vatter</q>. <term ref="lem006484.02">Nachwertz</term> fragte sie ihne nochmahls,
+						<lb/>ob er beständig seye? Unnd da er <subst><del>es</del><add place="inline">widerumb</add></subst>
+						<lb/>betheüert, daß er sie unnd khein andere haben wölte,
+						<lb/>habe sie ihm den anderen <term ref="lem003737">streich</term> uff die brust geben,
+						<lb/>unnd heimblich gesprochen <q>gott der sohn</q>. Endtlich
+						<lb/>habe sie dessen noch die dritte versicherung haben <add place="above" type="sign">wöllen</add>, also
+						<lb/>daß gedachter <persName>Jordan</persName> ihren die ehe mit einem schwur
+						<lb/>versicheret unnd sie ihme den dritten brust <term ref="lem003737">streich</term>
+						<lb/>angesetzt, sagend <q>unnd der heilig geist</q>. Dißer
+						<lb/>seye <term ref="lem006484.07">nachwerts</term> gantz erblichen unnd an einem fuß
+						<lb/>hinkend worden, unnd so gar uff allen vieren heim<lb break="no"/>gekrochen, weilen er nit im sinn gehabt habe, sie
+						<pb n="319"/><lb/>zu <term ref="lem009285.02">heürathen</term>.</seg> <seg>Zeigt an, dißer <persName>Toni Jordan</persName> unndt <persName>Cor<lb break="no"/>minbeuf</persName> seye nur einer, der zween nahmen tragt. Dißer
+						<lb/>habe ihren <term ref="lem015807">einest</term> etwaß uff beiden brüsten unndt uff
+						<lb/>dem <term ref="lem017470.02">halsknickh</term> gelegt, darab sie gantz <term ref="lem017471">unsinnig</term> wor<lb break="no"/>den unnd habe sich erträncken wöllen.
+							Daran sie von ei<lb break="no"/>nem gwüssen man verhinderet worden.</seg> <seg>Beckhendt,
+						<lb/>daß sie sich mit obgemeltem <persName>Jordan</persName> oder <persName>Corminbeuf</persName>
+						<lb/>vor <date dur-iso="P15Y">15 jahren</date> fleischlich <term ref="lem015245">vergriffen</term>. Über das habe
+						<lb/>er sie <term ref="lem015807">einest</term> darnider gehabt, <add place="above" type="sign">das maul verstopfft unnd</add> ihr kopff zwüschen seine
+						<lb/>knien genommen, sich mit den armen uff ihre schänckell
+						<lb/>gesteürt unnd mit der zungen (<foreign xml:lang="la">reverenter</foreign>) in ihrer
+						<lb/><term ref="lem015717">scham</term> ungebührlich gehandlet. Will aber nit gestehen,
+						<lb/>daß er sie sodomitisch gebrucht habe.</seg> <seg>Mehr <term ref="lem011468.03">be<lb break="no"/>khent</term> sie, daß <date>zwo nächt</date> vor unnd ehe dißer <persName>Jordan</persName>
+						<lb/>ihrer genossen, ihren getraumbt habe, sie höre ein stim,
+						<lb/>die ihren geruffen unnd seye nach dißem <persName>Jordan</persName>
+						<lb/>gantz brünstig worden. Die andere nacht habe ihren
+						<lb/>gedunckt, derselbig läge bey ihr im beth, so doch nit
+						<lb/>seye, unnd alß währen ihr zwen da, ein rother unnd
+						<lb/>ein grüener. Der eint habe gesagt <q>touche-le</q>, daruff
+						<lb/>ihren dunckte, er hätte ihn berürt. Hernach seye ihr
+						<lb/>vorkhommen, alß sagte er widerrumb <q>touche-la</q>, welcher
+						<lb/>geantwortttet <q>Je ne puis, elle s’at recommandée à
+						<lb/>Dieu.</q></seg> <seg>Ist in <term ref="lem005649">abred</term>, geredt zu haben, daß sie die
+						<lb/><term ref="lem001039.02">kilbe</term> nicht achte, dan sie vor solcher zeit wurde ver<lb break="no"/>brent werden. Wie auch, daß sie ein <term ref="lem001076.03">khue</term> habe
+						<lb/>vertuschen wöllen, so am volgenden tag ihrem <term ref="lem005243.06">nachpuren</term>
+						<lb/>druffgangen. <term ref="lem017472">Betruwet</term> hoch unnd <term ref="lem015124">erhaltet</term>, kheinem
+						<lb/><term ref="lem000310.16">vych</term> niemahlen <add place="above" type="sign">den tohdt</add> angethan zu haben unnd seye im übri<lb break="no"/>gen ein ehrliches weibs, so von
+							dem laster der <term ref="lem007355.04">unhol<lb break="no"/>dery</term> nichts wisse.</seg> <seg>Sie <term ref="lem011468.03">bekhent</term>, daß sie <foreign xml:lang="fr"><term>des croix
+								<lb/>de Provence</term></foreign><note>Le sens de cette expression demeure incertain.</note> gemacht habe uß anwyßung eines armen
+						<lb/>menschs, so <date dur-iso="P7Y">siben jahr</date> bey ihr gewohnt hat, sich darmit
+						<lb/>von <term ref="lem018558.03">maleficischen</term> persohnen zu verhüten. Item da<subst><del>s</del><add place="overwritten">ß</add></subst>
+							<lb/>ein gwüsse persohn ihren die <term ref="lem017051">kunst</term> gelehrt, den <term ref="lem001076.11">küen</term>
+						<pb n="320"/><lb/>die verlohrne <term ref="lem002272">milch</term> wider zuwegen zu bringen. So nach<lb break="no"/>volgender gestalt zu bruchen seye. Man müsse von der
+						<lb/><term ref="lem001076.03">khue</term> an dem <term ref="lem015953.03">utter</term> unnd zwüschen den hörnern etwas
+						<lb/><term ref="lem017474.02">hars</term> abscheren mit <subst><del>unt</del><add place="inline">hartz</add></subst> zerstampffen unndt
+								<lb/>ihren darmit ein <term ref="lem000698.09">krütz</term> über den <term ref="lem002080.06">ruggen</term> machen. Item
+						<lb/>damit <del>man</del><subst><del>sie</del><add place="inline">durchs</add></subst>
+								jahr der <term ref="lem000603.01">ancken</term> wohl gerirte,
+						<lb/>habe sie den <term ref="lem017475.02">anckenkibell</term> am <date when="--12-24">wihenacht abend</date> vor
+						<lb/>dem huß gestellt.</seg> <seg>Sie will nit geredt haben, daß
+						<lb/>der dritte theil zu <placeName ref="loc007649.05">Dompdidier</placeName> besessen seye und
+						<lb/>es erst über <date dur-iso="P6Y">6</date> oder <date dur-iso="P10Y">10 jahren</date> ußbrechen werde.
+						<lb/>Zeigt an, ein gwüsse <persName>Maria Chavalliat</persName> von <placeName ref="loc007599.04">Pontaux</placeName>,
+						<lb/>so zu <placeName ref="loc008483.03">Cressier le Landeron</placeName> verbrendt worden, sie
+							<lb/>in bößem <term ref="lem005132.01">rueff</term> gebracht, weilen sie <date dur-iso="P5D">fünff täg</date> bey
+						<lb/>ihr zu <placeName ref="loc007649.05">Dompdidier</placeName> eingekhert.</seg> <seg>Berichtet, daß
+						<lb/>sie ein schwester zu <placeName ref="loc007786.11">Nüwenburg</placeName> hat, so ihren <measure type="currency" unit="k" quantity="150">150 </measure>
+						<lb/>gegeben, darmit ihren etwas erdtrichts zu kauffen.
+						<lb/>Zudem habe sie, da sie im <placeName ref="loc005628">Burgund</placeName> geweßen, da<lb break="no"/>selbsten <measure type="currency" unit="Pistole" quantity="17">17 pistolen</measure>
+							uß ihrem <term ref="lem000310.16">vych</term> gelößt. Jetz
+							<lb/>sage man, sie seye ein <term ref="lem006693.02">hex</term>, sie habe so vihl geldt <del>also</del>
+						<lb/>sie wölle. Welches aber uß nyd unnd haß ihres
+							<lb/>enckels <persName ref="per026986a.01">Beney Perrotet</persName> unnd <persName>Benoist Mottaz</persName>
+						<lb/>unnd ihrer zwey wybern herrüere, weilen sie
+						<lb/>mit ihnen wegen eines spychers <term ref="lem017476.02">gehartzet</term> und
+						<lb/>gezancket hat. Von welcher zeytt sie ihren al<lb break="no"/>zeit <term ref="lem017477.02">uffsetzig</term> geweßen, unnd <persName>Clodina Perrotet</persName>
+						<lb/>sie allzeit ein <term ref="lem006693.02">hex</term> geheissen. So nie werde bewißen
+						<lb/>werden, dan sie in solchem fahl khein gnad begehre,
+						<lb/>sonders daß man sie hinrichten lasse.</seg> <seg>Bittet
+						<lb/>gott unnd meine herren umb <term ref="lem004684.10">verzühung</term> unndt <term ref="lem008237.03">bevilcht</term> ihnen
+							<lb/>ihre zwey <term ref="lem000130.03">khinder</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

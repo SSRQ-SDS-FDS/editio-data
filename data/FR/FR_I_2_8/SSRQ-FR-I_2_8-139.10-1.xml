@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-139.10-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 199 (1648), S. 348</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 199 (1648), p. 348</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Destra – Anweisung</head>
+					<head xml:lang="fr">Catherine Destra – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1648-08-04">4 <foreign xml:lang="la"><choice><abbr>aug</abbr><expan>augusti</expan></choice></foreign> [1648]</origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangne</p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<p><lb/><persName ref="per018091a.04">Catherine Destrey</persName> hatt <term ref="lem011468.03">bekhendt</term>, daß sie das <term ref="lem003365.10">füwr</term> zu
+							<lb/><placeName ref="loc008127.06">Magnudens</placeName>, <placeName ref="loc009823.04">Lentenach</placeName> unnd <placeName ref="loc009824.02">Chenens</placeName> angesteckt habe,
+							<lb/>dahin sie aber von zweyen wyberen sye veranlasset
+							<lb/>worden. Hatts <subst><del>als</del><add place="overwritten">am</add></subst> <term ref="lem006591">seil</term> mit dem halben <term ref="lem018237">zentner</term> <term ref="lem015124">erhalten</term>.
+							<lb/>Man besorgt, diße angebung entspringe uß einem bößen
+							<lb/>willen, dan etliche uß ihnen ein gutten namen habe. Unnd
+							<lb/>wylen der vatter<note>Gemeint ist <persName ref="per018093">David Destra</persName>.</note> der <term ref="lem014609.02">strudlery</term> verdacht ist, möchte etwas
+							<lb/>wytters hinder ihren stecken. Soll zwey mahl mit dem <term ref="lem018237">zentner</term>
+							<lb/><term ref="lem016150.02">uffzogen</term> werden, zu sehen ob sie wölle in dißer angebung
+							<lb/>beständig oder <term ref="lem005649.05">abred syn</term>. Darby soll nach befindendem
+							<lb/>anlaß über die <term ref="lem014672.03">hexery</term> sie auch erfragt werden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

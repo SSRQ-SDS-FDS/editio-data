@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-177.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 134–135</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 134–135</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Vuarchon – Verhör</head>
+					<head xml:lang="fr">Pierre Vuarchon – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1663-07-09"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="134"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1663-07-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1663</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056">Hans Jakob Buman</persName>.</note></seg>
+						<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per018693a.01">Gottrauw</persName>, <abbr>h</abbr> <persName ref="per026102a.02">Antoni Python</persName></seg>
+						<seg><lb/><persName ref="per026304a.02">Zurthannen</persName></seg></p>
+						<p><lb/><persName ref="per026739a.03">Pierre</persName>, filz d’<persName ref="per026737a.03">Abraham Wa<del>r</del>rzou</persName> de <placeName ref="loc007887.02">Losanne</placeName>,
+							re<lb break="no"/>duit aux prisons pour faits de <term ref="lem018521.01">sorcellerie</term> <term ref="lem015549.14">confessés</term>
+						<lb/>à <placeName ref="loc007861.07">Bulloz</placeName>, d’ou il at esté evocqué, a soustenu dans
+						<lb/>l’examination du jour d’huy, qu’un homme
+						<lb/>vestu de verd ayant les pieds de <term ref="lem018923.04">beuf</term>, nommé
+							<lb/><persName ref="per029457a.01">Abraham Warzu</persName><note>Im Verlauf dieses Verhörs vermischt sich der Name des Teufels mit dem Namen von Pierre Vuarchons Vater.</note>, luy est apparu la premiere
+						<lb/>foys à <placeName ref="loc007861.07">Bulloz</placeName> chez les <persName>Pasquiers</persName> dans l’estable,
+						<lb/>mais l’avoir obligé à s’en aller par le signe
+						<lb/>de la s<hi rend="sup">te</hi> croix.</p>
+						<p><lb/>La seconde foys l’avoir veu au chasteau
+						<lb/>de <placeName ref="loc007861.07">Bulloz</placeName>, se secouuant comme un <term ref="lem018314">chien</term>, et
+							<lb/>comme ledit <persName ref="per026739a.03">Pierre</persName> s’en rioit, <persName ref="per029457a">Abraham</persName> luy avoir
+						<lb/>dit qu’il s’en debvoit enaller, si moings qu’il
+						<lb/>le battroit, commandant d’aller par devant
+						<lb/>les maisons demander du pain, et de dormir
+							<lb/>par les estables, sans prieres, et d’<term ref="lem019476.01">empoisonner</term>
+							<pb n="135"/><lb/>des <term ref="lem018925.03">veaux</term> avec la <term ref="lem018382">graisse</term> qu’il luy donna
+						<lb/>dans une <term ref="lem014919.01">boite</term> de bois, laquelle il at jettée
+						<lb/>derriere une <term ref="lem019215.01">teche</term> de bois.</p>
+						<p><lb/>La troisiesme foys a <term ref="lem015549.07">confessé</term> l’avoir veu
+						<lb/>chez les ballifves, battant les <term ref="lem017507.02">vaches</term> dans
+						<lb/>l’estable avec un baston de sapin.</p>
+						<p><lb/>Plus a <term ref="lem015549.07">confessé</term> <persName ref="per029457a.01">Abraham Warzu</persName> l’avoir porté
+						<lb/>sur son dos riere les murailles de <placeName ref="loc007861.07">Bulloz</placeName>,
+						<lb/>environ les <time when="04:00:00">quatre heures du matin</time>, et de nuit
+						<lb/>avoir esté à la <term ref="lem017043.01">secte</term> du costé de <placeName ref="loc005708.07">Gruyeres</placeName>,
+							<lb/><persName ref="per029457a">Abraham</persName> faisant le fol avec d’autres de <placeName ref="loc007861.07">Bulloz</placeName>
+						<lb/>à luy incogneus, dansant et mangeant du
+						<lb/>pain et du <term ref="lem018643.06">frommage</term>.</p>
+						<p><lb/>En oultre a <term ref="lem015549.07">confessé</term> avoir <term ref="lem019481.03">baisé</term> son <term ref="lem019555.05">maistre</term>
+							<lb/><persName ref="per029457a">Abraham</persName>, comme l’on <term ref="lem019481.11">baise</term> les filles, assavoir
+						<lb/>au visage et, par respect, au <term ref="lem015018.09">dernier</term>.</p>
+						<p><lb/>Plus n’avoir frotté les <term ref="lem018925.03">veaux</term> de <persName>Tenterey</persName>
+							<lb/>ny les <term ref="lem015985.02">oyssons</term>, ains sondit <term ref="lem019555.05">maistre</term> <persName ref="per029457a">Abraham</persName>
+						<lb/>frottant aussi les bestes sur les champs, luy allant
+						<lb/>au devant, regardant.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> sondit <term ref="lem019555.05">maistre</term> <persName ref="per029457a">Abraham</persName> avoir
+						<lb/>esté la nuit passée dans les prisons auprès de
+						<lb/>luy, vestu de verd, luy commandant de sortir en
+						<lb/>rompant la fenestre avec une pierre.</p>
+						<p><lb/>Finalement a dit n’oser plus parler puisque ledit
+							<lb/><persName ref="per029457a">Abraham</persName>, vestu de verd, estoit toujours auprès
+						<lb/>de luy, le voyant passer auprès de la fenestre.
+						<lb/>De quoy il en demande pardon au bon Dieu, lequel
+						<lb/>il a soustenu n’avoir jamais <term ref="lem019541.15">renié</term>, se recommandant
+						<lb/>aux <term ref="lem019504.03">graces</term> de Leurs Excellences.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

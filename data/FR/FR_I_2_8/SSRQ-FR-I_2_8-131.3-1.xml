@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-131.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 456–457</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 456–457</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jenon Romanens – Verhör</head>
+					<head xml:lang="fr">Jenon Romanens – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-08-09"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="456"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1647-08-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1647</origDate>
+						<seg><lb/><persName ref="per013748a.01">Mathyß Albrächt</persName></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013437">von Torny</persName></seg>
+						<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName>Jenon</persName>, fille de feu <persName>Peter <sic>Obermontenach</sic></persName><note>Il s’agit bien de <persName ref="per017764">Jenon Romanens</persName> et de son père <persName ref="per017767">Peterman Romanens</persName>.
+							Jenon explique, lors de son interrogatoire du <date when="1647-08-13">13 août</date>, qu’elle n’a pas donné son vrai nom. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-131.6-1">SSRQ FR I/2/8 131.6-1</ref>.</note> en son vivant bourgois
+						<lb/>et charpentier en ceste ville, le nom duquel se trouvera au roolle
+						<lb/>de l’<orgName ref="org004814.02">abbaye des Chappuis</orgName>, emprisonnee sur cas de <term ref="lem018521.01">sorcellerie</term> et
+						<lb/>examinee sur tous les poincts de l’<term ref="lem018363">inquisition</term>, et principalement
+						<lb/>sur ce que, qu’un jeusne garçon de <placeName ref="loc005628.02">Bourgogne</placeName> doit avoir veu
+						<lb/>vers la muraille du <placeName ref="loc008545.03">Walriß</placeName>&#160;?</seg> <seg>Dit en premier qu’elle <term ref="lem019498">crie mercy</term>
+						<lb/>a messeigneurs de la peine et facherie qu’ils ont pour son
+						<lb/>subjet, que portant elle n’a jamais commis aucun forfait dont
+						<lb/>elle est detenue. Quant a ce jeusne garçon, qui doit avoir veu
+						<lb/>des figures effroyables vers les murailles du <placeName ref="loc008545.04">Wallriß</placeName>, dit en
+						<lb/>estre ignorante et ne sçavoir que luy faire, quoy qu’il ait
+						<lb/>veu. Bien est il vray que estant ce garçon a l’entree du
+						<lb/>chemin du <placeName ref="loc008545.03">Walriß</placeName> et <term ref="lem015009.04">cerchant</term> ses compagnons, elle luy
+						<lb/>dit que le jeusne <space quantity="1" unit="cm"/> <persName>Lang</persName> estoit tantost passé par la, que peut
+						<lb/>estre il seroit vers le jeu des <term ref="lem018780.02">guilles</term>, tout joingnant dites
+						<lb/>murailles, ou ce qu’il alla, et doit, a ce qu’on dit, avoir veu
+						<lb/>beaucoup d’affaires, desquelles elle estoit entierement innocente
+						<lb/>et n’en sçavoit rien, disant n’avoir oncques dit a personne que
+						<lb/>un homme noir (qui deut estre dernier son grenier) luy ayt
+						<lb/>parlé, ny dit chose que ce soit, n’en ayant (Dieu mercy)
+						<lb/>jamais rien veu.</seg> <seg>Nye aussy d’avoir dit que si on n’eust
+						<lb/>appellé le marrechal sur <placeName ref="loc007883.05">Les Places</placeName> pour <add place="above" type="sign">devoir</add>, avec l’ayde de <choice><abbr>mstr</abbr><expan>maistre</expan></choice>
+							<lb/><persName>Joggli</persName>, guarir le <term ref="lem018921.01">cheval</term> de monseigneur l’advoyer <persName>de König</persName>,
+						<lb/>il ne fust peut estre pas <term ref="lem018017.08">mescheut</term>, mais bien sçachant estre
+						<lb/>malade, elle pria Dieu, <subst><del>pour</del><add place="inline">et pource</add></subst> que recevant souvent
+							<lb/>la charité d’icelle maison, offrit un <term ref="lem018921.01">cheval</term> de cyre a l’autel
+							<lb/><choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <persName ref="per000795a.11">Anthoyne</persName>, pour la guarison d’icelluy.</seg> <seg>La raison
+						<lb/>pourquoy elle se fache et jure contre ses voisins, et autres,
+						<lb/>est qu’iceux luy donnent le subject, principalement les escolliers
+						<lb/>et petits garçons qui, passant par la, luy font mille maux, l’injurient
+						<lb/>et <subst><del>luy</del><add place="inline">jettent</add></subst> des pierres contre le grenier, tant qu’elle est
+					<pb n="457"/><lb/>contrainte de soy revancher et leur faire retorsion des paro<lb break="no"/>les qu’ils luy crient. Enquise pourquoy elle jure, crye <del>de nuict</del>
+						<lb/><add place="inline">et parle</add> entre elle mesme de nuict dans son grenier, que pour<lb break="no"/>tant personne n’y dort qu’elle&#160;? Dit que parfois elle prie
+						<lb/>pour ceux qui luy font du bien, et qu’elle a ainsy de coustume de
+						<lb/>prier et parler haut&#160;; d’autres fois, estant fachee contres ses
+						<lb/>persecuteurs, jure contre eux et soy plainct entre elle mesme
+						<lb/>du mal et tort qu’ils luy font, dont en <term ref="lem019498">crie mercy</term> a Dieu
+						<lb/>et messeigneurs, avec propos de s’amender, mais vouldroit bien
+						<lb/>qu’on chastiast ces faictneants des escolliers, qui l’occasionnent
+						<lb/>d’ainsin offencer son Dieu.</seg> <seg>Dit et soustient enfin qu’il luy
+						<lb/>arrive grand tort par ceux qui la soubçonnent et accusent
+						<lb/>de <term ref="lem018521.01">sorcellerie</term>, n’ayant onques commis tel forfaict, ny mesme (ay<lb break="no"/>dant Dieu) ehu telle mauvaise intention, que Dieu l’en de<lb break="no"/>fende<del>nt</del> plus outre. Prie messeigneurs voulloir s’enquerir
+						<lb/>aupres de tous les messieurs et dames qu’elle a servy, a ce
+						<lb/>ils puissent estre informéz de la verité, comme quoy elle s’est
+						<lb/>comportee, et trouveront sans doubte aupres d’unchacun, de quelle
+						<lb/>façon elle les a servy, sans jamais les scandalizer, ny donner
+							<lb/>soubçon, auquel elle est maintenant, mais a tort. <term ref="lem019498">Crie
+						<lb/>mercy</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

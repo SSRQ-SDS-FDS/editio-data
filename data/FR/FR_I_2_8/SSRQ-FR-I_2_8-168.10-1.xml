@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-168.10-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 238</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 238</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Favre-Piccand – Verhör</head>
+					<head xml:lang="fr">Marguerite Favre-Piccand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-12-15"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1665-12-15">15<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> 1665</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018540.03">amman</term><note>Gemeint ist <persName ref="per018126a">Jost Perret</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018632a.01">Rämi</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per026065a.01">Reyff</persName></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <persName ref="per026077a.01">Küenli</persName>, <persName ref="per026078a.01">Vonderweidt</persName>, <persName ref="per018085a.01">Adam</persName></seg>
+							<seg><lb/><persName ref="per026058a.01">Progin</persName></seg></p>
+						<p><seg><lb/><persName ref="per020614a.02">Marguerithe Piccand</persName>, <term ref="lem019427.06">torturée</term> avec le demy <term ref="lem018232">quintal</term>,
+							<lb/>offre ses <term ref="lem019473.06">torments</term> au bon Dieu, <term ref="lem015549.13">confesse</term> de sçavoir arrester
+						<lb/>le sang et d’en avoir fait les preuves à un garçon et deux
+						<lb/>filles, dont une s’appell<subst><del>oit</del><add place="overwritten">e</add></subst> <persName>Cheysa Raboud</persName>, lesquelles s’estoient
+						<lb/>couppé la main, par moyen d’une priere qu’elle a recitée
+						<lb/>et dit l’avoir apprise de son beaufrere <persName>Bastiant Pollet</persName>,
+						<lb/>de <placeName ref="loc010145">Corserey</placeName>, justicier à <placeName ref="loc007655.06">Montagnie</placeName>. Dit l’avoir decelé
+							<lb/>à son pere <term ref="lem019467.01">confesseur</term> dans la <term ref="lem019466.01">confession</term>, lequel luy a re<lb break="no"/>pondu que les parolles dont elle se servoit n’estoient
+						<lb/>pas mauvaises, moyennant qu’elle n’en usast pas d’autres.</seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> que sa fille luy a fait mettre d’autre habits et
+						<lb/>sa cappe lorsqu’on la fait prisonniere, puisque son autre
+						<lb/>habit ne valloit rien. Elle ne veult pas sçavoir si
+						<lb/><persName>Anne Magning</persName> est incommodée, ni de la fille de <persName>Clement
+						<lb/>Michy</persName>, soustenant si elles sont <term ref="lem019502.04">possedées</term>, de n’en estre
+						<lb/>pas la cause. Nie d’avoir la science de faire revenir
+						<lb/>le <term ref="lem015011.04">laict</term>, soit aux femmes ou bestes. Persiste dans ses prece<lb break="no"/>dentes declarations et negatifves y specifiées, et se
+								<lb/>recommande au bon Dieu, à la <subst><del>vie</del><add place="inline"><choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice></add></subst> Vierge, à sa pa<lb break="no"/>tronne et aux <term ref="lem019504.03">graces</term> de vos Excellences.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

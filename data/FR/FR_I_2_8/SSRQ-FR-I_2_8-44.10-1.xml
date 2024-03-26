@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-44.10-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 38–39</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 38–39</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madeleine Meino-Jordan – Verhör</head>
+					<head xml:lang="fr">Madeleine Meino-Jordan – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1619-03-06"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="38"/><p><lb/><foreign xml:lang="la">Ibidem, die, anno et presentibus
+							<lb/>iisdem</foreign><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt. Die anwesenden Gerichtsherren sind ersichtlich unter <ref target="urn:ssrq:SSRQ-FR-I_2_8-44.9-1">SSRQ FR I/2/8 44.9-1</ref>.</note></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg>
+							<seg><persName ref="per009602b.01">Magdelaine</persName>, femme dudit <persName ref="per009600a.02">Maynod</persName>, a dit
+								<pb n="39"/><lb/>que plusiers femmes sçavent faire aussy ladite <term ref="lem018382">graisse</term>
+						<lb/>de serpent, comme <persName>Barbly Martin</persName> de <placeName ref="loc007953.02">Donatire</placeName>,
+						<add place="left margin" type="sign"><persName>Anna Sonalion</persName>, <persName>Mar<lb break="no"/>geret Bonjour</persName> et <lb/>sa fillie</add>,
+						<lb/>et des aultres. Et qu’on receuist l’<term ref="lem015388">herbe</term> en la
+						<lb/>veille de la <date when="--06-24"><choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per000049">Jean</persName></date>, et durant qu’on sonne <time when="12:00:00">mydy</time>, que
+								<lb/>ont la met dans un <subst><del>f</del><add place="overwritten">p</add></subst>ot, et on la laisse jus<lb break="no"/>ques aprés les <date when="--01-06">Rois</date>, et ains que devint <term ref="lem018382.02">grai<lb break="no"/>se</term>.</seg> <seg>Item que la femme de <persName>Savariod</persName> lay demanda
+						<lb/>des <unclear>chouz</unclear> pour replanter, ce qu’elle luy octroya d’aller
+						<lb/>prendre, qu’elle ne fust <choice><abbr>pnte</abbr><expan>presente</expan></choice> quand les prist. Et
+						<lb/>ladite femme devenant aprés malade la blasma, dont
+						<lb/>en firent accord, que fust aussy <choice><abbr>pnte</abbr><expan>presente</expan></choice>.</seg> <seg>Item que
+						<lb/>une servante a <persName>Claude Follie</persName> la vint trouver,
+						<lb/>disant que le <subst><del>cherveux</del><add place="above">cer<subst><del>a</del><add place="overwritten">v</add></subst>au</add></subst> luy seroit tombé
+						<lb/>a bas, et la pria pour quelque remede, dont
+						<lb/>elle prist du drap rouge et du vin, et <add place="above" type="sign">le</add> mist
+						<lb/>sur le <subst><del>cherveux</del><add place="above">cervau</add></subst>, jusques a tant que tombast
+						<lb/>de soy mesme, comme l’avoit aprins de <persName>Catheli<lb break="no"/>na Bonjour</persName> d’<placeName ref="loc007603.04">Avenche</placeName>. Item qu’elle revint
+						<lb/>en peu de jours, disant qu’elle auroit un
+							<lb/><term ref="lem021326.02">bocon</term> au col, pria aussy de le luy oster, si
+						<lb/>elle le sçavoit, la faisant boire et disant
+						<lb/>une priere, se pense qu’en devint guerie. <add place="inline">Mais
+						<lb/>pour ce ne pense aulcun mal.</add></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

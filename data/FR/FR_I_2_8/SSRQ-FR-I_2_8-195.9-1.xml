@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-195.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 385–386</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 385–386</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marie Blanc-Edouard – Verhör</head>
+					<head xml:lang="fr">Marie Blanc-Edouard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1673-08-26"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="385"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, sambstag den <origDate when="1673-08-26">26 <foreign xml:lang="la">augusti</foreign> <hi rend="underline">1673</hi></origDate></p>
+						<p><seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026535a">Hans Peter Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026537a">Hans Jakob Python</persName>.</note>, <abbr>h</abbr> <choice><abbr>haubt</abbr><expan>haubtmann</expan></choice> <persName ref="per026365a.03">Vonderweydt</persName></seg>
+							<seg><lb/><persName ref="per026550a.01">Gottrauw</persName>, <persName ref="per026536a.02">Des Granges</persName>, <persName ref="per026549a.01">Schrötter</persName></seg>
+							<seg><lb/><persName ref="per026540a.01">Werro</persName>, <persName ref="per026543a.01">Rossier</persName></seg></p>
+						<p><lb/><persName ref="per021194a">Marie</persName>, femme de <persName ref="per021196a">Claude Blanc</persName>, avant que d’estre appliquée à la
+							<lb/><term ref="lem019428.01">torture</term> du <term ref="lem018232">quintal</term>, ast <term ref="lem015549.07">confessé</term> qu’elle avoit conduit avec
+							<lb/>d’aultres des <term ref="lem019233.02">menues bestes</term> au marché et que la sienne, lors
+						<lb/>qu’elle la demandoit, elle la suivoit par les sentiers et passoit
+						<lb/>librement les <term ref="lem018883.02">passyaux</term> avec elle, l’ayant ainsy apprivoisée.</p>
+						<p><lb/>Interrogée si pas <persName>Anne</persName>, fille de <persName>Pierre Blanc</persName>, estant malade, luy
+						<lb/>fist reproche, disant&#160;: <q>&#160;Marie, la mauvaise <term ref="lem018880.01">fricassée</term> que j’ay
+						<lb/>mangé avec toy.&#160;</q>&#160;; <term ref="lem015549.13">confesse</term> estre veritable et que ladite fille
+						<lb/>mourust le mesme jour ou le lendemain.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir donné une poire à une fille, laquelle se plaint
+						<lb/>d’abord que le gosier luy faisoit mal, et que la dessus
+						<lb/>elle vomit.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> d’avoir donné du pain chaud à <persName>Marie Perriard</persName>,
+						<lb/><term ref="lem014767.01">relicte</term> de <persName>Aymé Pauzard</persName>, et que suivant le raport
+						<pb n="386"/><lb/>de sa fille <persName>Anne Pauzard</persName>, elle en devient enflée.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir dict à la servante des <persName>Motta</persName>, laquelle ne luy
+						<lb/>voulut donner dé poids&#160;: <q>&#160;<term ref="lem018884.02">Becca</term>, becca, tu t’en repentira&#160;!&#160;</q>
+							<lb/>Et que elle <term ref="lem019525.06">souffla</term> contre ladite servante, dont elle en
+						<lb/>devient malade par la goue et toutte la partie droicte
+						<lb/>du corp.</p>
+						<p><lb/>Interrogée quel <term ref="lem019526.01">souffle</term> c’estoit, la detenue respondit que
+						<lb/>cela provenoit du <persName>Pou</persName>, sçavoir le <term ref="lem017521">diable</term>, lequel
+							<lb/>s’appelle <persName ref="per029440a">Jean</persName>, qui luy apparust <add place="above" type="sign">habillié de noir</add> avant l’environ
+						<lb/><date dur-iso="P30Y"><sic>trent</sic> ans</date>, en <placeName>Biaumont</placeName><note>L’identification du lieu est incertaine.
+							Il pourrait s’agir de la forêt du <placeName ref="loc014650">Grand Belmont</placeName>.</note>, dans le bois, ou ce que
+						<lb/>elle pleuroit et estoit triste à cause du mal que son mary
+						<lb/>luy faisoit, et à cause de sa pauvreté. Et dict à la de<lb break="no"/>tenue que elle se devoit donner à luy, qu’il avoit
+						<lb/>assé de bien pour elle, promettant qu’elle n’auroit
+						<lb/>plus des regrets. Surquelles promesses la detenue
+						<lb/>se donna au <term ref="lem015433.10">maling</term>, renonçant à Dieu, à la Sainte
+							<lb/>Vierge, au <term ref="lem019542.04">baptesme</term>, à <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>sainte</expan></choice> <persName ref="per012479a">Anne</persName>, à touts les saincts et sainctes
+							<lb/>de paradis et à la s<hi rend="sup">te</hi> foy <term ref="lem019533.01">catholique</term>. Quoy faict,
+							<lb/>il l’ast <term ref="lem018895.03">marquée</term> desoubt l’ongle du gros doigt au
+						<lb/>pied gauche, mais pour voir ladite <term ref="lem018894.01">marque</term> qu’il foudroit
+						<lb/>couper l’ongle.</p>
+						<p><lb/>Interrogée si pas elle ast esté à la <term ref="lem017043.01">secte</term>, dict y avoir esté
+						<lb/>une seule fois avant l’environ <date dur-iso="P2Y">deux</date> ou <date dur-iso="P3Y">trois ans</date>,
+						<lb/>en <placeName ref="loc008104.04">Ouleire</placeName><note>Lors de son interrogatoire du <date when="1673-09-09">9 septembre</date>,
+							Marie déclare être allée à la <term ref="lem017043.01">secte</term> <placeName ref="loc013016.02">en Mouleire</placeName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-195.17-1">SSRQ FR I/2/8 195.17-1</ref>.</note>, ou ce que plusieurs aultres s’y trouvarent,
+						<lb/>mais que l’on pouvoit pas bien touts cognoistre, disant
+						<lb/>en oultre qu’ils dansoi<subst><del>t</del><add place="overwritten">e</add></subst>nt et leur faisoit croire
+						<lb/>qu’ils mangoient diverses viandes, mais que ce n’estoit
+						<lb/>rien. Et que l’on <term ref="lem019481.08">baisoit</term> le <term ref="lem015433.10">maling</term> à la main
+						<lb/>et par <term ref="lem015018.07">derriere</term>, ce que elle ast ausy faict estant
+						<lb/>à genoux. En après qu’à la pointe du jour touts
+						<lb/>se retiroient, mais qu’il ne falloit poin dire l’un
+						<lb/>à l’aultre à Dieu. A present elle ast demandé pardon
+							<lb/>à Dieu, embrassant sa s<hi rend="sup">te</hi> croix et renonçant de bon <term ref="lem014871.01">coeur</term>
+							<lb/>à <persName ref="per011219a">Satan</persName>, avec tres humble priere de ne la plus <term ref="lem019427.01">torturer</term>
+						<lb/>et de faire celebrer des messes pour le salut de son <term ref="lem018939.02">ame</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

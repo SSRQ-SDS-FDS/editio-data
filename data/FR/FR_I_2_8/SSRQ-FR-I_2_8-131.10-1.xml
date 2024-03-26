@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-131.10-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 535–538</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 535–538</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jenon Romanens – Verhör</head>
+					<head xml:lang="fr">Jenon Romanens – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1648-08-11"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="535"/><p><lb/><hi rend="outdent"><placeName ref="loc008105.02">Käller</placeName></hi>, den <origDate when="1648-08-11">11<hi rend="sup">ten</hi> augsten 1648</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per013479a.01">Reynold</persName></seg>
+							<seg><lb/><del><abbr>Hr</abbr> <persName ref="per013433a.01">Techterman</persName></del><abbr>hr</abbr> <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013434a.04">De Granges</persName>, <abbr>hr</abbr> <persName ref="per013469a.04">Cattilla</persName></seg></p>
+					<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						<pb n="537"/><p><lb/><hi rend="outdent">Im <placeName ref="loc007690.06">Spittall</placeName></hi>, <foreign xml:lang="la">eadem die, presentibus supra dictis dominis</foreign></p>
+						<p><seg><lb/><persName ref="per017764a.02">Jenon Romanin</persName>, durch <choice><abbr>m h</abbr><expan>mine herren</expan></choice> deß grichts examiniert,
+							<lb/><term ref="lem011468.03">bekhent</term>, das sie zwahr in grimigen zohrn fluche und <term ref="lem010250.02">schwer<del>en</del></term>,
+							<lb/>durch anlaß mehrertheils der bößen knaben, so ihr auß
+							<lb/><term ref="lem001275.05">muthwillen</term> füll übels anthunt. Habe auch niemahlen
+							<lb/>waß übels angestifftet noch begangen, sie sey ein ehrliche
+							<lb/>tochter. Sie habe <subst><del rend="underline">auch</del><add place="inline">zwahr</add></subst> über seine eltern gefluchet,
+							<lb/>das sie die selben <subst><del>d</del><add place="overwritten">z</add></subst>u solchem ellendt, in welchem sie sich
+							<lb/>befündt, gebohren. Und <add place="above">weilen sie</add> so füll ubels außstehen
+							<lb/>müßte, sagt, sie habe <subst><del><gap reason="illegible" quantity="1" unit="cm"/></del><add place="overwritten">g</add></subst>ott und die heillige
+							<lb/>jungfrauw <persName ref="per000169a.06">Mariam</persName> gesehen in ihrem spicher,
+							<pb n="538"/><lb/>schön glantzendt wie goldt und wie der <term ref="lem018482.02">mohn</term>, weliche
+							<lb/>sie umb hilff angerufft und das heilig <term ref="lem000698.06">crütz </term> gemacht,
+							<lb/>habe solches zum andermahl gesehen.</seg> <seg>Bekhendt auch,
+							<lb/>den <foreign xml:lang="la">patribus</foreign> <term ref="lem011458.03">capuciner</term> gesagt zu haben, als sie
+							<lb/>ihr das <term ref="lem002264.20">almuoßen</term> abgeschlagen: <q>Ihr gebe<subst><del>ndt</del><add place="overwritten">tt</add></subst> daß selbig
+							<lb/>schönnen töchteren woll <subst><del rend="underline">das almußen</del><add place="above">lieber</add></subst>.</q> Und daß
+								<lb/>sie bey den <foreign xml:lang="la"><choice><abbr>p</abbr><expan>patribus</expan></choice></foreign> <term ref="lem011458.03">capuciner</term> mit der <persName>Schwëblina</persName> in
+							<lb/>schlägen <sic>gerhaten</sic>, weillen sie die selbige ein
+							<lb/><term ref="lem000658.09">huer</term> (<foreign xml:lang="la">reverendter</foreign>) unnd <term ref="lem006693.02">hex</term> genendt. Aber das
+							<lb/>sie die selbige solle gesalbet haben, werde sich
+							<lb/>niemahlen befünden. Auch das, als ihr die
+							<lb/>thür des spicher zu gespert worden, und ins
+							<lb/>schloß etwaß eingesteckt worden, habe sie
+							<lb/>morgens früe ein für uberghenden <term ref="lem000325.09">paur</term>, den
+							<lb/>sie nit khöndt, auffzuthun angesprochen, ihme
+								<lb/>die <term ref="lem003127.14">schlisel</term> durch ein oben im spicher loch dem
+							<lb/><subst><del rend="underline">schliße</del><add place="inline">landtman</add></subst> herauß geworffen, so ihme
+							<lb/>die thür eröffnet.</seg> <seg>Sagt, das <persName>Jacob Zaggu</persName>
+								<lb/>sie offt mit steinen geworffen und daß <add place="inline">keineß<lb break="no"/>wegß</add> er gestatten wolte, das seine <term ref="lem000130.09">künder</term>
+							<lb/>zu ihr giengendt. <subst><del rend="underline">Und</del><add place="inline">Habe</add></subst> offtermahlen
+								<lb/>die <term ref="lem018484.02">benachperten</term> verflucht. <term ref="lem011468.03">Bekhent</term>, das sie dem
+								<lb/>fluchen und <term ref="lem000722.01">schweren</term> under worffen. Werde sich
+							<lb/>aber hinfürro bëseren. Seye ihr leydt, das sie
+								<lb/>miner <choice><abbr>g</abbr><expan>gnädigen</expan></choice> oberkheit verbott <term ref="lem013656.02">übertretten</term>, in dem
+							<lb/>sie wider in dise statt khommen. Bittet
+							<lb/>gott und ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkheit umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

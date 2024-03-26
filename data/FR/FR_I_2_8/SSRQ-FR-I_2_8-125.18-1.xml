@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-125.18-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 350</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 350</idno>
+					</msIdentifier>
+					<head xml:lang="de">Louise Monod-Blanc – Verhör</head>
+					<head xml:lang="fr">Louise Monod-Blanc – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-11-28"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-11-28">28<hi rend="sup">ten</hi> <foreign xml:lang="la">novembris</foreign> 1646</origDate>
+						<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+						<seg><lb/><subst><del>Techte</del><add place="below"><persName ref="per006817a.02">Schaller</persName></add></subst></seg>
+						<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per017126a.01">Louysa Blanc</persName> de <placeName ref="loc009823.02">Lentignye</placeName> examinee l’espace de <date dur-iso="PT2H">deux heures</date>
+						<lb/>sur touts les points contenuz dans l’examen levé contre elle pour
+						<lb/>cas de <term ref="lem018521.01">sorcellerie</term>, n’a rien voullu <term ref="lem015549.01">confesser</term>, faisant semblant
+							<lb/>comme si elle tomboit <add place="above">en</add> <term ref="lem019485.03">pammoison</term>, disant n’estre <term ref="lem019389.02">sorciere</term>, n’avoir
+							<lb/>jamais <term ref="lem019541.17">renyé</term> Dieu son <choice><abbr>Creat<hi rend="sup">r</hi></abbr><expan>Createur</expan></choice>, ny faict aucun <add place="above" type="sign">mal</add> a personne&#160;; que ceux
+						<lb/>qui l’accusent pour semblable mesfaitct luy font grand tort&#160;;
+						<lb/>estre une pauvre femme inpotente et toutte troublee en sa teste&#160;;
+						<lb/>avoir en sa jeusnesse servy a beaucoup des messieurs de ceste ville,
+							<lb/>entre autres a <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName ref="per009203">Gybach</persName> et <persName ref="per025613">Peter Kämmerling</persName>, qui sont
+						<lb/>estés hospitaliers&#160;; avoir aussy, au vivant de feu son marry, admodié
+						<lb/>des tenements et beaucoup ehu de perte a son bestail, sans qu’elle
+							<lb/>se soit excessivement attristee&#160;; ains remis le tout a la volonté de
+						<lb/>Dieu.</seg> <seg>Prie <subst><del>que</del><add place="inline">si</add></subst> quelq’un l’auroit accusé, qu’on le luy mene
+						<lb/>devant, pour entendre les raisons de part et autre. Mais aprés
+							<lb/>avoir longtemps varié, a <term ref="lem015549.07">confessé</term> a la <term ref="lem019428.01">torture</term> de la simple <term ref="lem018231">corde</term>
+						<lb/>que avant ou l’environ d’<date dur-iso="P1Y">un’annee</date>, <add place="left margin" type="sign">peu avant les moissons</add>, estant couchee de beau jour
+						<lb/>soubz un <term ref="lem017988.02">blessoney</term> au champ dessoubz le village de <placeName ref="loc009823.03">Lentignie</placeName>,
+						<lb/>nommé le champ de <placeName ref="loc012050.02">La Vuad</placeName>, ou ce qu’estant fort attristee
+						<lb/>de ce que quelques <term ref="lem019503.03">possedés</term> disoient qu’elle les avoit <term ref="lem018556.05">maleficiés</term>,
+						<lb/>le <term ref="lem015433.03">maling esprit</term> luy est apparru en forme d’un homme noir, qui
+						<lb/>luy dit qu’elle ne se debvoit ainsin attrister, luy promettant, si
+						<lb/>elle se voulloit rendre a luy et <term ref="lem019541.03">renyer</term> Dieu, qu’il luy fairoit
+						<lb/>et donneroit toutte assistance, ce qu’elle ne voullut aucunement
+						<lb/>faire. Mais dit et <term ref="lem015549.13">confesse</term> que le <term ref="lem015433.10">maling</term> l’ast <term ref="lem018895.04">marquee</term> a
+						<lb/>la cuisse, sans touttefois qu’elle se soyt rendue a luy, ny <term ref="lem019541.17">renyé</term>
+						<lb/>Dieu, et aprés qu’il luy ehut un peu parlé, dit qu’elle s’en alla
+						<lb/>la premiere, le laissant la, sans qu’elle l’ayt jamais veu, ny
+						<lb/>apperceu dudespuis&#160;; et si bien elle auroit ehu <subst><del>peut</del><add place="inline">peur</add></subst>, sou<lb break="no"/>stient pourtant ne l’avoir veu que vers ledit <term ref="lem017988.02">blessoney</term>. <term ref="lem019498">Crie
+						<lb/>mercy</term>.</seg></p>
+						<p><lb/><add place="left margin">Ist im <space quantity="2" unit="cm"/> <term ref="lem018848">ver<lb break="no"/>eydet</term> worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, mais il est entièrement biffé.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

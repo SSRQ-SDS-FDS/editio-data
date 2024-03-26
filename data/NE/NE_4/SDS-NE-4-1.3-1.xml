@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.3-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 11–16</idno>
+     </msIdentifier>
+     <head>Office des juges</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005189"/>
+     <term ref="key000103"></term>
+     <term ref="key005117"></term>
+     <term ref="key005176"></term>
+     <term ref="key003026"></term>
+     <term ref="key005808"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="11" facs="AEN_MJ_17_010_011"/>
+     <div>
+      <head type="title">
+        <lb/><choice>
+        <abbr>Chap</abbr>
+        <expan>Chapitre</expan>
+       </choice> III. <lb/>De l’office des <lb/>justiciers</head>
+      <p>
+       <lb/><app>
+        <lem>Lesdits</lem>
+        <rdg wit="AVN Q41, p. 5">Sont aussi lesdits</rdg>
+       </app> justiciers <app>
+        <lem>et officiers</lem>
+        <rdg wit="AVN Q41, p. 5"/>
+       </app>
+       <lb/>pareillement <app>
+        <lem>sont</lem>
+        <rdg wit="AVN Q41, p. 5"/>
+       </app> tenuz de s’assembler <lb/>de bon matin <app>
+        <lem>a l’heure que</lem>
+        <rdg wit="AVN Q41, p. 5">au lieu et heure qui</rdg>
+       </app> sera establie a <lb/>chasque justice qui ne pourra estre changée, <lb/>et est ce
+       tousjour l’avant disnée <app>
+        <lem>au lieu, et</lem>
+        <rdg wit="AVN Q41, p. 5">incontinent apres la <lb/>predication, a l’issüe et sortie du
+         service divin, et lieux ou l’on <lb/>a accoustumé de prescher en ces jours la&#160;: et
+         comparoistront audit <lb/>lieu, que</rdg>
+       </app>
+       <lb/>choisit le chastelain ou mayre pour tribunal <lb/>&amp; lieu d’auditoire aux jours
+       destinez pour les <lb/><term ref="lem015614.02">plaids</term> sans leur estre signifié, afin <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> les <lb/>parties ne soyent retardées et viennent en <lb/>fraits<note>Probablement à
+        rapprocher de l'italien «&#160;venire in fretta&#160;» se dépêcher.</note> a leur occasion, comme
+       aussy s’ils n’ont <lb/>excuse ligitime toutes les fois qu’il leur <lb/>est comandé pour
+       quelque extraordinaire <lb/><add place="below" type="catchword">tous</add>
+       <pb n="12" facs="AEN_MJ_17_012_013"/>
+       <lb/>tous en corps ou une partie seulement, soit <lb/>pour faict de police, ou se transporter
+       sur les <lb/>lieux litigieux quand requis <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 6">en</rdg>
+       </app>est, ou pour en <choice>
+        <abbr>fe</abbr>
+        <expan>faire</expan>
+       </choice>
+       <lb/>taux et evaluation, comme aussy de faire <lb/>les <term ref="lem016019.03"
+        >exploicts</term> de justice civile qui leur sont <lb/>commandez.</p>
+      <p>
+        <lb/>Le justicier qui ne se trouvera a l’heure ordonnée <lb/>et desinée a chasque justice pour
+       s’assembler, <lb/>s’il ne comparoit a la seconde cause et <choice>
+        <abbr>cognoiss<hi rend="sup">ce</hi></abbr>
+        <expan>cognoissance</expan>
+       </choice> <lb/>perd la moitie <app>
+        <lem>des</lem>
+        <rdg wit="AVN Q41, p. 6">de ses</rdg>
+       </app> emoluments de justice dudit <lb/>jour, et sy l’officier et le reste de la
+       justice <lb/>recognoissent qu’il soit negligent a son <lb/>debvoir, luy ayant fait commandement
+       de <lb/>comparoistre, et il est du tout deffaillant, <lb/>sera pour une cognoissance pour la
+       justice, <lb/>s’il n’a excuse ligitime.</p>
+      <p>
+        <lb/>Sont aussy tenus d’<term ref="lem017626.06">ouyr</term> et juger des causes <lb/>du
+       prince et des pauvres femmes vefves et <lb/>enfans orphelins, et de gens mendiants
+       ausquels <lb/>il y a grande necessité et disette, sans <lb/>en avoir &amp; retirer aucun <choice>
+        <abbr>emolum<hi rend="sup">t</hi></abbr>
+        <expan>emolument</expan>
+       </choice>. A <lb/>quoy les officiers tiendront main de bonne foy.</p>
+      <p>
+       <lb/>Mais sy le prince, ou necessiteux, obtient <lb/>gain de cause contre une personne de
+       moyen le <lb/><add place="below" type="catchword">succombant</add>
+       <pb n="13" facs="AEN_MJ_17_012_013"/>
+       <lb/>succombant sera tenu aux emoluments que <lb/>le prince et la personne miserable debvront
+       <lb/>payer, &amp; en fera la justice rembourser de ses <lb/>droits.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> de rendre <choice>
+        <abbr>promptem<hi rend="sup">t</hi></abbr>
+        <expan>promptement</expan>
+       </choice> appres consultation <lb/><app>
+        <lem>leur</lem>
+        <rdg wit="AVN Q41, p. 6"/>
+       </app> jugement, soit declaration, cognoissance, <lb/>ou sentence, sur chasque faicts
+       proposez et <lb/>pendants devant eux, <app>
+        <lem>que</lem>
+        <rdg wit="AVN Q41, p. 6">a ceux qui</rdg>
+       </app> le requierent, sans <lb/>remise ou longueur, sy ce n’est qu’il fust <lb/><app>
+        <lem><term ref="lem019461">dubieux</term></lem>
+        <rdg wit="AVN Q41, p. 6">douteux</rdg>
+       </app> et de <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 6">fort</rdg>
+       </app>grand poids &amp; consequence, ou qu’ils <lb/>fussent moings de quatre <app>
+        <lem>juges</lem>
+        <rdg wit="AVN Q41, p. 6">jurés</rdg>
+       </app> pour en <choice>
+        <abbr>cog<hi rend="sup">tre</hi></abbr>
+        <expan>cognoistre</expan>
+       </choice>
+       <lb/>qu’ils peuvent lors avoir advis de l’un des jours<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 6"> de plaid</rdg>
+       </app>
+       <lb/>a l’autre pour y penser, &amp; le consulter sans <lb/>autre plus long dilay&#160;: Et
+       les justiciers <lb/>qui auront prins jours d’advis seront tenuz <lb/>se retrouver pour le
+        <term ref="lem015997.02">vuidange</term> au bout de la <lb/><date dur-iso="P8D"
+       >huictayne</date>, a peyne d’un <app>
+        <lem><term ref="lem018031.05">bamp</term></lem>
+        <rdg wit="AVN Q41, p. 6"><term ref="lem018031">ban</term></rdg>
+       </app> de <measure origin="NE" type="currency" unit="S" quantity="60">soixante
+       sols</measure>, <lb/>&amp; a l’interest de la partie.</p>
+      <p>
+       <lb/>Lesdits justiciers sont aussy, tenuz de <lb/>recourir les <term ref="lem017803.03"
+        >remaises</term>, desquelles ils ont jugé, <lb/>&amp; dont il y <app>
+        <lem>en</lem><rdg wit="AVN Q41, p. 6"/></app> a appel <app>
+        <lem>toutes &amp; quantes fois</lem>
+        <rdg wit="AVN Q41, p. 6">toutes <lb/>fois et quantes</rdg>
+       </app>
+       <lb/>que l’officier les fait assembler a cest effect, <lb/>a l’instance des parties, et ce
+       dans la <date dur-iso="P8D">huictaine</date>, <lb/>et en recourant sy les jusiciers le trouvent
+       <lb/>a propos pourront appeller les parties, &amp; sy <lb/><add place="below"
+        type="catchword">la</add>
+       <pb n="14" facs="AEN_MJ_17_014_015"/>
+       <lb/>la partie est interressée de sa <term ref="lem017803">remaise</term>, apres <lb/>qu’il
+       l’aura reçeue, la debvra faire voir &amp; <lb/>recourir dedans la <date dur-iso="P15D"
+        >quinzaine</date>, sans esperance <lb/>d’autre reveuë et recours de <term ref="lem017803"
+        >remaise</term>, moyenant <lb/><measure origin="NE" type="currency" unit="bz" quantity="8"
+        >huict batz</measure> de sallaire <app><lem>&#160;! <add place="inline" hand="hand17c">Nota pour les fraits.</add></lem><rdg wit="AVN Q41, p. 7">, pour les fraits de ceux qui la recourront.</rdg>
+       </app></p>
+      <p>
+        <lb/>Lesdits justiciers sont aussy tenuz de porter <lb/>la parolle pour les parties qui se <choice>
+        <abbr>pntent</abbr>
+        <expan>presentent</expan>
+       </choice> <lb/>en jugement.</p>
+      <p>
+       <lb/>Aussy <app>
+        <lem>celle</lem>
+        <rdg wit="AVN Q41, p. 7">la partie</rdg>
+       </app> qui ne parle par la bouche <lb/>de quelcun des justiciers, est pour un <app>
+        <lem><term ref="lem018031.05">bamp</term></lem>
+        <rdg wit="AVN Q41, p. 6"><term ref="lem018031">ban</term></rdg>
+       </app> de <lb/><measure origin="NE" type="currency" unit="S" quantity="60">soixante
+        sols</measure>, s’il ne luy est donné <term ref="lem017832.02">lisence</term>
+       <lb/>du president, afin que les parties ne viennent <lb/>a s’eschauffer, et parler sans
+       respect ou introduire <lb/>confusion. <note>Cette dernière ligne est sur un nouveau
+        paragraphe dans AVN Q41, p.&#160;7.</note>Celuy aussy qui parle ou lasche <lb/>parolles
+       indecentes devant la justice est aussi <lb/>de mesme <term ref="lem017837.02"
+        >chastiable</term>.</p>
+      <p>
+       <lb/>Et pour ce <app>
+        <lem>aussy</lem>
+        <rdg wit="AVN Q41, p. 7"/>
+       </app> que la justice est sacrée, &amp; <lb/>le lieu ou elle s’administre de respect, pour
+       <lb/>l’exercice sainct que s’y pratique, &amp; <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> le prince <lb/>y est <choice>
+        <abbr>repnté</abbr>
+        <expan>representé</expan>
+       </choice>, partant celuy est amendable de <lb/><measure origin="NE" type="currency" unit="S"
+        quantity="60">soixante sols</measure> qui donne un desmenty couvert, &amp; <lb/>celuy qui le
+       donne tout a fait, est mis en prison, <lb/>avec le mesme <app>
+        <lem><term ref="lem018031.05">bamp</term></lem>
+        <rdg wit="AVN Q41, p. 6"><term ref="lem018031">ban</term></rdg>
+       </app> &amp; amende par <choice>
+        <abbr>cog<hi rend="sup">ce</hi></abbr>
+        <expan>cognoissance</expan>
+       </choice>. <lb/><add place="below" type="catchword">Les</add>
+      </p>
+     <pb n="15" facs="AEN_MJ_17_014_015"/>
+      <p>
+        <lb/>Les justiciers desdits comtez <app>
+        <lem>ferient</lem>
+        <rdg wit="AVN Q41, p. 7">font feries</rdg>
+       </app> et <lb/>suspendent <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 7">la justice</rdg>
+       </app>les quatre temps de l’année que l’on <lb/>celebre la Saincte Cene <date dur-iso="P8D">huict
+        jours</date> devant <lb/>&amp; <date dur-iso="P8D">huict jours</date> appres la celebration, et
+       les <lb/>jours des festes aux lieux qu’elles sont observées.</p>
+      <p>
+        <lb/>Et les vacquances sont en temps de <term ref="lem017838.02"
+       >fenaisons</term>, <lb/>moissons et vendanges, les justices cessent <lb/>aussy lors, mais le
+       jour <app>
+        <lem>de plaid</lem>
+        <rdg wit="AVN Q41, p. 7"><add place="above">de plaid</add></rdg>
+       </app> rencontrant <lb/>feste ou foires, la justice se remet au <lb/>landemain.</p>
+      <p>
+        <lb/>Et ne peut le cours de justice cesser ou sus<lb break="no"/>pendre pour le deffaut <app>
+        <lem>et occupation de <lb/>quelques officiers ou justiciers</lem>
+        <rdg wit="AVN Q41, p. 7">de quelques officiers ou justiciers, <lb/>ou pour quelque occupation
+         qu’ils pourroyent avoir</rdg>
+       </app>, ny autre <lb/>occasion quelconque, que celles cy-dessus, <lb/>sy elle n’est grande et
+       bien apparente, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 7">et <lb/>bien apparente,</rdg>
+       </app>&amp; <lb/>par le <choice>
+        <abbr>commandem<hi rend="sup">t</hi></abbr>
+        <expan>commandement</expan>
+       </choice> du prince ou de son lieu<lb break="no"/>tenant <app>
+        <lem>general</lem>
+        <rdg wit="AVN Q41, p. 7"/>
+       </app> &amp; <orgName ref="org003098.03">Conseil d’Estat</orgName>.</p>
+      <p>
+       <lb/>Toutesfois pendant lesdites vaccations <lb/>et feries se peut et doit administrer
+       justice <lb/>pour cas qui autrement tomberoyent en <lb/>prescription, comme mise en
+       possession <lb/>de la succession des biens d’un deffunct, <choice>
+        <abbr>venat</abbr>
+        <expan>venant</expan>
+       </choice>
+       <lb/>le jour des <date dur-iso="P6W">six sepmaynes</date> a escheoir durant <lb/>lesdites feries
+       &amp; vacquances. <lb/><add place="below" type="catchword"><term ref="lem017828">Item</term></add>
+      </p>
+     <pb n="16" facs="AEN_MJ_17_016_017"/>
+      <p>
+        <lb/><term ref="lem017828">Item</term> pour demande d’injure dedans la <lb/><date dur-iso="P8D"
+        >huictaine</date>, &amp; investitures de <term ref="lem014996.03">barres</term> sur
+       le <lb/>jour des <date dur-iso="P6W">six sepmaines</date>, &amp; <choice>
+        <abbr>aues</abbr>
+        <expan>autres</expan>
+       </choice> semblables cas, <lb/>et toutesfois sy ledit jour eschet sur un jour <lb/>de dimanche
+       ou de feste, est remis au landemain.</p>
+      <p>
+        <lb/><term ref="lem017828">Item</term> pour faict de dommage de fruictz, <lb/>prez a
+       recueillir, force et spoliation, outrages <lb/>et violences, pour <term ref="lem015005.02"
+        >clames</term> sur gagements de <lb/>biens meubles &amp; immeubles, &amp; autres
+       cas <lb/>privilegez.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

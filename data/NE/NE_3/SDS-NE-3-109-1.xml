@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-109-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.006, p. 589</idno>
+     </msIdentifier>
+     <head>Appel devant la propriété</head>
+     <msContents>
+      <summary>Demande sans réponse sur les frais en cas d’appel devant la propriété.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1632-07-15" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000287"></term>
+     <term ref="key000270"></term>
+     <term ref="key005000"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="587"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1632-07-15" calendar="Julian">15 de juillet <hi rend="underline">1632</hi></origDate> en <orgName ref="org007660">Conseil
+        <lb/><choice><abbr>gnal</abbr><expan>général</expan></choice></orgName>, presidant <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le  <choice><abbr>mre</abbr><expan>maitre</expan></choice> bourgeois
+       <lb/><persName ref="per010521">Rosellet</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="589" facs="AVN_B_101.01.01.006_0589"/> 
+     <div><head><lb/><choice><abbr>Dud</abbr><expan>Dudit</expan></choice> jour en <orgName ref="org003085">Conseil estroict</orgName>.</head></div>
+     <div>
+      <lb/><add place="left margin">Déclaration de la<lb/> coutume renvoyée à<lb/> un autre
+       Conseil</add>
+      <add place="left margin" hand="later hand" rend="pencil"><choice>
+        <abbr>Délibérat</abbr>
+        <expan>Délibérations</expan>
+       </choice></add>
+      <p>
+       <lb/><persName ref="per011718a.01">Jonas Chastellain</persName> a faict entendre qu’ayant
+       esté <lb/>condamné par la pollice de ce lieu contre <persName ref="per011719">Pierre
+        <lb/>Bachelin</persName> de laquelle <choice>
+        <abbr>condamnaon</abbr>
+        <expan>condamnation</expan>
+       </choice> il en auroit appellé <lb/>par devant la proprieté, demandant <choice>
+        <abbr>declairaon</abbr>
+        <expan>déclaration</expan>
+       </choice>
+       <lb/>du point de coustume scavoir combien il faut <lb/>payer pour les frais advenant que <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> proprieté <lb/>aille sur le lieu. </p>
+      <p>
+       <lb/>L’affaire remise au premier Conseil. </p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-205.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 284r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 284r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Pythoud – Verhör</head>
+					<head xml:lang="fr">Claude Pythoud – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1695-03-23"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="284r"/><p><lb/><placeName ref="loc007890.08">Jaquemars</placeName>, <origDate when="1695-03-23">23<hi rend="sup">ten</hi> <foreign xml:lang="la">martii</foreign> 1695</origDate>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per027618a">Franz Augustin de Diesbach-Torny</persName>.</note>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027633a">Tobias Kuenlin</persName>.</note></seg>
+						<seg><lb/>Weibel <persName ref="per026620a.01">Meyer</persName></seg></p>
+						<p><seg><lb/><persName ref="per027520a.02">Claude Pettaud</persName> derechef examiné, at entierement
+						<lb/>nié dʼestre <term ref="lem019308.01">sorcier</term>, de mesme dʼavoir fait aulcune
+						<lb/><term ref="lem018102.02">gresle</term>, ains seulement que les petits garçons le
+							<lb/>lui disoient dʼestre <term ref="lem019308.01">sorcier</term> et dʼavoir fait
+							<lb/>la <term ref="lem018102.02">gresle</term>.</seg> <seg>Advoue dʼavoir <term ref="lem019460.02">tué</term> une <term ref="lem019301.02">poulle</term>
+						<lb/>à <placeName ref="loc010270.02">Corjollens</placeName>, mais que sʼestoit avec une
+						<lb/>pierre, lui ayant rompu une chambe.</seg> <seg>Dit
+							<lb/>et <term ref="lem015549.13">confesse</term> de sʼestre vanté dʼavoir une <term ref="lem014919.01">boite</term>
+						<lb/>de <term ref="lem018382">graisse</term>, mais que jamais il nʼen at eu&#160;;
+						<lb/>nie dʼavoir mys de la <term ref="lem018382">graisse</term> dans aulcun pot
+						<lb/>à cuire, et que jamais il en avoit eu.</seg> <seg>Sur la
+						<lb/>demande pourquoi donc il avoit dit quʼil avoit
+						<lb/>fait la <term ref="lem018102.02">gresle</term>, at dit que sʼestoit le petit
+						<lb/>garçon que lui disoient, parlant et restant
+						<lb/>à cela avec dé rys et quelques signes des
+						<lb/>folies, niant entierement dʼavoir fait
+						<lb/>aulcun mal.</seg></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

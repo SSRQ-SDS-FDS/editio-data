@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-34.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 10, S. 280–283</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 10, p. 280–283</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jost Wohlgemut – Verhör</head>
+					<head xml:lang="fr">Jost Wohlgemut – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1611-06-14"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="280"/><p><lb/><foreign xml:lang="la">Eodem loco, die <origDate when="1611-06-14">14<hi rend="sup">a</hi> junii MDCXI</origDate></foreign>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009136">Umbert Brassa</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentes <choice><abbr>d</abbr><expan>domini</expan></choice></foreign> <persName ref="per009101">Keller</persName>, <persName ref="per009102a.02">Amman</persName></seg>
+							<seg><lb/><persName ref="per009128">Gurnel</persName>, <persName ref="per009103a.01"><choice><abbr>M</abbr><expan>Melchior</expan></choice> Zum Holtz</persName></seg>
+							<seg><lb/><persName ref="per009106">Tumbe</persName></seg>
+							<seg><lb/>Weibel</seg></p>
+						<p><gap reason="irrelevant"/><note>Die ersten Abschnitte betreffen eine andere Person und den Prozess gegen <persName ref="per009240">Johannes Erzinger</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-34.3-1">SSRQ FR I/2/8 34.3-1</ref>.</note></p>
+						<pb n="282"/><p><lb/>Im <placeName ref="loc008105.02">Käller</placeName>, <foreign xml:lang="la">eodem die et
+						<lb/>presentibus quibus supra</foreign></p>
+						<p><seg><lb/><add place="left margin">Hat nüt zalt.</add></seg>
+							<seg>Der vorgemelt <persName ref="per009235a.01">Jost
+								Wolgemutt</persName> hatt uff <lb/>alle anfragen nichz <term ref="lem011468.03">bekhendt</term>,
+								auch sich für unschuldig <pb n="283"/><lb/>ußgeben <add type="sign"
+									place="above">vom keller ufbrechen und</add> dere <measure
+									type="currency" unit="k" quantity="7">7  </measure>, item
+									<measure type="currency" unit="Doubloon" quantity="1">einen
+									dublon</measure> und <measure type="currency" unit="bz"
+									quantity="4">4 bz</measure>, <lb/>auch <measure quantity="1"
+									type="currency" unit="Dukat">einer ducaten</measure> und dere
+									<measure type="currency" unit="k" quantity="6">6 </measure> in
+								einem <subst><del>fazell</del>
+									<add place="above"
+										><term ref="lem016418.03">fatzankli</term></add></subst>,
+								<lb/>so dann der <measure type="currency" unit="k" quantity="13">13
+									</measure>, so einer underm hauptkissen <lb/><placeName ref="loc008699.02">zum
+									Jeger</placeName> solle verlohren han. Und alß ime <lb/>etlichs
+								werckhzüg under augen gstelt, alß <term ref="lem017040.02"
+									>spinlen</term>, <lb/>ein <term ref="lem014737.03"
+									>schrottysen</term> und ein <term ref="lem001914.03"
+									>meßer</term>, hatt er das nit kendt <lb/>noch darumb wüssen
+								wöllen.</seg>
+							<seg>Deß <term ref="lem014673.03">bösen findts</term>
+								<lb/>halber sagt, ime nichz <term ref="lem006645.06"
+									>verheißen</term> zuhaben. Hatt <lb/>auch die hirvor schon uß
+								synem mundt geflossene <lb/>wort deß findts <term ref="lem015284"
+									>reveliert</term>, wöl es aber nit <lb/>für ein wahrheit <term
+									ref="lem015124">erhalten</term>, das es der <term
+									ref="lem014673.04">böß feindt</term> gsyn sye. <lb/>Betreffend
+								des gelt, so er ynzichen sollen, sagt, <lb/>sye <measure
+									type="currency" unit="k" quantity="15">15 </measure> gsyn.
+								Baldt darnach sagt er, sye <lb/><measure type="currency" unit="k"
+									quantity="20">20 </measure> gysn.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2018-12-12"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-13.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 6, S. 195–199</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 6, p. 195–199</idno>
+					</msIdentifier>
+					<head xml:lang="de">Collette Bosson – Verhör</head>
+					<head xml:lang="fr">Collette Bosson – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1564-07-05" to="1564-07-16"></origDate>
+						</origin>
+					</history></msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="195"/><p><lb/>S’ensuit<del>t</del> ce que <persName ref="per009742a.01">Colleta</persName> de la terre
+							<lb/>de <placeName ref="loc007646.04">Geneve</placeName>, <term ref="lem019450.03">relaissee</term> de feu <persName ref="per009743">François
+								<lb/>Bosson</persName> de <placeName ref="loc007663.04">Sorin</placeName>, a confessé.</p>
+						<p><lb/>Premierement quil il <subst><del>ay</del><add place="inline">a</add></subst> l’anviron de
+							<lb/><date dur-iso="P3Y">trois ans</date> que <subst><del>a l’instigation et persuasion du</del><add place="above" type="sign">en gardant les <term ref="lem019400.04">chievres</term></add></subst>
+							<lb/><add place="left margin">le</add> <term ref="lem016981.03">mauvais esperit</term> <subst><del>quil</del><add place="inline">lui</add></subst> apparut en l’haut
+							<lb/>des abbergeaux vers la fontaine des <placeName ref="loc011701.02">Assillietes</placeName>
+							<lb/>en forme d’un <term ref="lem019344.01">renard</term> noir <del>elle avoit <term ref="lem019541.15">renié</term>
+							<lb/>Dieu et tous les saints</del>, <subst><del>Et</del><add place="above">quil</add></subst> lui dit, qu’elle
+							<lb/>fesoit et qu’elle avoit belle fain&#160;? Et elle
+							<lb/>lui dit qu’oy et qu’elle n’avoit de quoy vivre,
+							<lb/>car elle ne pouvoit estre painé des paisans
+							<lb/>du ble qu’il lui debvoient pour la
+							<lb/>garde des <term ref="lem019400.04">chievres</term>. Alhors il lui dit
+							<lb/>que s’elle le vouloit croire, qu’il lui donneroit
+							<lb/>assés pain a manger. Et elle dit, qu’il vouloit
+							<lb/>qu’elle <subst><del>fusse</del> <add place="inline">fit</add></subst>. Et il <choice><abbr>rdnit</abbr><expan>repondit</expan></choice> qu’il falloit
+							<lb/><term ref="lem019541.01">renier</term> la <term ref="lem019532.01">papista</term>. <add place="left margin" type="sign">Et elle <lb/>dit&#160;: <q>&#160;Mais se
+								<lb/>je le <term ref="lem019541.18">renie</term>,
+								<lb/>je <term ref="lem019541.02">renieray</term>
+								<lb/>Dieu. Si il
+								<lb/>lui dit qu’oy.&#160;</q></add> Alhors elle dit sinon
+							<lb/>qu’elle eusse a manger, qu’elle en estoit bien
+							<lb/>contente. Sur ce, il lui donnat du pain et
+							<lb/>elle <subst><del>lui dit</del><add place="above">pensoit</add></subst> qu’il ne seroit pas bon, mais quant
+							<lb/>elle l’eut mangé, il lui semblat bon. Et
+							<lb/><subst><del>s’appelloit Rubinet</del><add place="inline"><term ref="lem019541.16">renioit</term> ainsi Dieu et les saints.
+								<lb/>Et sondit <term ref="lem019555.05">maistre</term> dit qu’il s’appelloit <persName ref="per029416a.01">Rubinet</persName></add></subst>.</p>
+						<p><lb/>Item a dit que dernierement quant il
+							<lb/><term ref="lem019484.02">tempesta</term> a <placeName ref="loc007663.04">Sorin</placeName>, elle et son fils avoient
+							<lb/>mené les <term ref="lem019400.04">chievres</term> jusques vers la fontainne
+							<lb/>des <placeName ref="loc011701.02">Assillietes</placeName> et estoit le temps tout cler.
+							<lb/>Sur ce sourvint son <term ref="lem019555.05">maistre</term>, habillié de noir,
+							<lb/>comme ung <term ref="lem015043.02">gagnieur</term>, quil lui donnoit une verge
+							<lb/>blanche, puis lui prit la main et lui <subst><del>fit</del><add place="inline">fesoit</add></subst>
+							<lb/>battre <del>atout ladite verge</del> la fontaine. Et ledit
+							<lb/>son <term ref="lem019555.05">maistre</term> <del>ledit son mai</del> lui donna une <term ref="lem014919.01">boite</term>
+							<lb/>ou il avoit <del>je</del> ne sçay quoy qu’estoit prin comme farine,
+						<pb n="196"/><lb/>qu’il lui fit mettre dedans l’eau, de quoy fut le
+							<lb/>temps <add place="above" type="sign"><term ref="lem015622.02">incontinant</term></add> si fort chargé, qu’elle ne veoit rien. Et elle
+							<lb/>dit a sondit <term ref="lem019555.05">maistre</term> qu’il debvait fere aller le
+							<lb/>temps par sus la <term ref="lem015050.02">joux</term> affin qu’il ne gasta les
+							<lb/>bles. Et il lui dit qu’il le feroit seulement
+							<lb/>aller le <term ref="lem015044.02">contravault</term> et qu’il lui donneroit
+							<lb/>prou pain et autres choses pour vivre. Et quant
+							<lb/>ce temps vint, son fils fuioit devant les
+							<lb/>bestes.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> que son <term ref="lem019555.05">maistre</term> l’avoit mené
+							<lb/>au bas du <unclear><placeName>Girinio</placeName></unclear> es <term ref="lem021275.01">Bordes</term> passees a la
+							<lb/><term ref="lem017043.01">secte</term> <add place="above">entre jour et nuit</add>, ou il y avoit beaucop d’hommes et de
+							<lb/>femmes&#160;; les ungs chantoient et les autres
+							<lb/>dansoient, mais <subst><del>il ne</del><add place="inline">elle ne</add></subst> peut cognoistre
+							<lb/>lesdites gens car il estoient <term ref="lem015869.02">estoppés</term> au visage.
+							<lb/>Et son <term ref="lem019555.05">maistre</term> la voulit mener danser,
+							<lb/>mais elle dit qu’elle n’avoit jamais dansé
+							<lb/>depuis qu’elle avoit esté fillié a <placeName ref="loc001060.03">Fribourg</placeName>
+							<lb/>et qu’elle ne savoit danser, et s’assit bas
+							<lb/>pour veoir les autres danser. Et y avoit ung
+							<lb/><term ref="lem015047.02">menestrier</term> <add place="above" type="sign">habillié tout de noir</add>, qui menoit une cornemuse, qui ne fesoit que l’ordonner.</p>
+						<p><lb/>Item a dit que en <placeName>Chant des Apralles</placeName><!-- Ort? -->, son fils
+							<lb/>avoit <term ref="lem019541.15">renié</term> <choice><abbr>nre sr</abbr><expan>notre Seigneur</expan></choice> <subst><del>pour ainsi</del><add place="above">pour ce</add></subst> que les
+							<lb/><term ref="lem019400.04">chievres</term> furent espanchees ça et la, et <add place="above" type="sign">qu’il</add> ne
+							<lb/>les pouvoit reassembler, et <subst><del>ainsi qu’il estoit</del> <del>fut</del><add place="left margin">estoit</add></subst>
+							<lb/>fort en malisse. <add place="left margin" type="sign">Et se nomma <lb/>son <term ref="lem019555.05">maistre</term> <lb/> <persName ref="per029462a">Coquillion</persName>.</add> <add place="above">Puis</add> sourvint <subst><del>le <term ref="lem016981.01">mauvais esprit</term></del><add place="above">ung homme</add></subst>
+							<lb/><del><add place="left margin">ung gagnieur</add></del> habillié de noir <subst><del>comme ung gagnieur</del><add place="above">comme ung <term ref="lem015043.02">gagnieur</term></add></subst>, quil dit
+							<lb/>qu’il <del>les</del> emmeneroit <add place="above">les <term ref="lem019400.04">chievres</term></add> car elles avoient pasturé
+							<lb/>sur leur commun et les acueillit devant soy
+							<lb/>bien avant en la <term ref="lem015050.02">joux</term>. Sur ce il coururent
+							<lb/>aprés et le prierent les leur laisser. Respondit
+							<lb/>qu’il n’en feroi<subst><del>ent</del><add place="cover">t</add></subst> rien quil ne lui donnissiont
+							<lb/>une <term ref="lem019400.03">chievre</term>, ce que il lui accorderent. Adoncq
+						<pb n="197"/><lb/>il en prit une et leur donnat seulement les
+							<lb/>cornes, lesquelles il porterent a <persName>Nico Deferra</persName>
+							<lb/>de <placeName ref="loc007663.04">Sorin</placeName>, a qui ladite <term ref="lem019400.03">chievre</term> estoit, et lui dirent
+							<lb/>que le <term ref="lem019401.01">loup</term> l’avoit mangee. Il y a l’anviron <date dur-iso="P3Y">trois
+							<lb/>ans</date> que ce a esté fait.</p>
+						<p><lb/>Item a dit que sondit <term ref="lem019555.05">maistre</term> ne lui a jamais
+							<lb/>rien donné de <term ref="lem018382">graisse</term>, mais bien lui a il eu
+							<lb/>donné plain sa main de <term ref="lem018254">poudre </term>comme de
+							<lb/>farine blanche, qui <subst><del>revint</del><add place="above">montat</add></subst> ung bichotet, qu’elle
+							<lb/>forneiat et on fit du pain, qu’elle et son
+							<lb/>mesnage mengerent.</p>
+						<p><lb/>Item a dit que son fils n’avoit rien esté en la
+							<lb/><term ref="lem015072.02">sinagogue</term>.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> que en <placeName>La Verna</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir du lieu-dit <placeName ref="loc008508">La Verne</placeName>.</note>, son <term ref="lem019555.05">maistre</term>
+							<lb/>lui avoit dit que <persName>Girard Gobet</persName> n’avoit
+							<lb/>voulu <term ref="lem015048">acoventer</term> son fils, mais qu’il lui feroit
+							<lb/>manger ses deux <term ref="lem015049.02">pudrins</term> es <term ref="lem019401.02">loups</term>, et
+							<lb/>combien qu’elle lui dit qu’il ne le debvoit
+							<lb/>fere car son fils estoit son parent et <del>qu’il</del>
+							<lb/>qu’il se pourroit radviser, dit il, que si,
+							<lb/>feroit. Sur ce, elle lui dit&#160;: <q>&#160;Fais doncq ce que
+								<lb/>tu vouldras.&#160;</q> Sur ce, le matin, les <term ref="lem019401.02">loups</term>
+							<lb/>heurent mangé les <term ref="lem015049.02">pudrins</term>.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> qu’il y a l’anviron de <date dur-iso="P3Y">trois ans</date>
+							<lb/>que son <term ref="lem019555.05">maistre</term> se mit en la guise de son feu mari
+							<lb/>et vint vers elle es grosses <term ref="lem015050.02">joux</term>, <unclear>vouzlant</unclear> avoir sa
+							<lb/>compagnie, de quoy elle fesoit le refus, et son fils
+							<lb/>aussi lui disait&#160;: <q>&#160;Tu n’es point mon pere car il est
+							<lb/>enterré dedans l’eglise de <placeName ref="loc007661">Vuippens</placeName>.&#160;</q> Touteffois,
+							<lb/>il la <term ref="lem015054.02">sarrat</term>, la batit et tormentat, puis la
+							<lb/>gectat par terre et heut sa compagnie. Et depuis
+							<lb/>a encor heu a fere avec elle une autres fois
+							<lb/>au <unclear><placeName>Girinio</placeName></unclear><!-- Ort --> a la <term ref="lem017043.01">secte</term>.</p>
+						<pb n="198"/><p><lb/>Item a dit que son fils a heu plusieurs fois sa
+							<lb/>compagnie par les bois.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> que du temps qu’elle gardoit
+							<lb/>les <term ref="lem019232.02">primmes bestes</term>, son <term ref="lem019555.05">maistre</term> lui fit semer du
+							<lb/><term ref="lem014886.02">pusset</term> tout <term ref="lem014910.04">rosset</term>, <term ref="lem015055">prin</term> comme de farine par
+							<lb/>des places es tor, et si tost qu’il en mengeoient
+							<lb/>il trebuchoient et estoient mort, de sorte qu’il
+							<lb/>en mourit beaucop.</p>
+						<p><lb/>Item<note>Un cercle est tracé dans la marge de gauche de cet item.</note> interroguee sur ce que <persName>Girard Gobet</persName> a deposé
+							<lb/>causant les deux <term ref="lem015049.02">pudrins</term> que le <term ref="lem019401.01">loup</term> lui a mangé,
+							<lb/>a repondu qu’elle avoit dit que s’il eut <term ref="lem015048">acoventé</term>
+							<lb/>son fils <add place="above">pour garder ses bestes, comme elle l’en avoit <unclear>prier</unclear>,</add> il lui heu gardé les <term ref="lem015049.02">pudrins</term>, que le
+							<lb/><term ref="lem019401.01">loup</term> ne les lui eut mangé.</p>
+						<p><lb/>Item<note>Un cercle est tracé dans la marge de gauche de cet item.</note> interroguee sur les propos qu’elle doit avoir
+							<lb/>dit, que la <date when="--06-24">Saint <persName ref="per000049">Jean</persName></date> venoit tost et que le lundi il le
+							<lb/>sauroient <subst><del>tost</del><add place="above">tous</add></subst>, a repondu qu’elle l’avoit dit pour
+							<lb/>son sallaire, pour ce qu’elle ne peut estre paiee
+							<lb/>d’eulx pour sa peine et labeur, et qu’il <del>il</del> en a
+							<lb/>quil lui doivent son sallaire bien de <date dur-iso="P3Y">trois
+							<lb/>ans</date>, dont elle estoit deliberee les fere <del>a</del> gager
+							<lb/>pour ce qu’il lui debvoient, et pour aultre
+							<lb/>respect ne l’avoit dit.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> qu’elle aie pris du ble, <term ref="lem018643.01">fromage</term>
+							<lb/>et fruite pour se sustenter et ses enfans. Et a
+							<lb/>heu pris des <term ref="lem015652.04">givales</term> de ble sur les champs, qu’elle
+							<lb/>frotoit atout les mains, et a aussi tiré des espy
+							<lb/>ça et la, et a aussi pris des <term ref="lem020611.02">lignies</term> de ble.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> avoir pris a <persName>Girard Gobet</persName>
+							<lb/>deux gerbes de ble, l’une de jour et l’autre
+							<lb/>entre jour et nuit.</p>
+						<pb n="199"/><p><lb/>Item a dit que le <term ref="lem019555.05">maistre</term> de son fils s’appelle
+							<lb/><persName ref="per029462a">Coquillion</persName>.</p>
+						<p><lb/>Item<note>Un cercle est tracé dans la marge de gauche de cet item.</note> a dit qu’elle n’a jamais veu fere mal
+							<lb/>a <persName>Jaqueta</persName> femme de <persName>Mathei Nove</persName>, ne a <persName>Loisa</persName>
+							<lb/>femme de <persName>François Comba</persName>, ne a la <persName>Bec noire</persName>,
+							<lb/>sinon qu’elle les a veu par la <term ref="lem015050.02">joux</term>, qu’elles
+							<lb/>recueillient de la priere, autre chose n’a elle
+							<lb/>veu d’elles. Bien que une fois
+							<lb/>qu’elle estoit allee a <placeName ref="loc007647">Romont</placeName> au marché, on
+							<lb/>lui dit comme ladite <persName>Loisa</persName> se portoit, et qu’on
+							<lb/>estoit fort aise qu’elle estoit autre part car
+							<lb/>elle est de deça du <placeName ref="loc008144">Gibloux</placeName> devers
+							<lb/><placeName ref="loc008169.02">Grangetes</placeName>. Et que s’elle y heut demeuré
+							<lb/>plus gueres, qu’ont eut autrement parlé
+							<lb/>a elle. A aussi ouy dire que ladite
+							<lb/><persName>Jaqueta</persName> et ladite <persName>Loisa</persName> estoient <term ref="lem015356.10">accoulpees</term>
+							<lb/>es mains de <choice><abbr>messrs</abbr><expan>messeigneurs</expan></choice>, mais elle ne le
+							<lb/>sait. La <persName>Bec noire</persName> est une povre femme des
+							<lb/>biens de ce monde, comme elle.</p>
+						<p><lb/>Item<note>Un cercle est tracé dans la marge de gauche de cet item.</note> a dit qu’elle n’a jamais fait mourir
+							<lb/>personne quelconque.</p>
+						<p><lb/>Item<note>Un cercle est tracé dans la marge de gauche de cet item.</note> a dit qu’elle a heu deux batars
+							<lb/>du filz de <persName>Nico Deferra</persName>, qui sont mort.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p>Die Datierung bleibt unklar, aber das Verhör fand irgendwann zwischen dem 5. und 16. Juli 1564 statt.</p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-134.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 465</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 465</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Débieux – Verhör</head>
+					<head xml:lang="fr">Jacques Débieux – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-08-30"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-08-30">30<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>burgerm</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.03"><choice><abbr>Caß</abbr><expan>Caßpar</expan></choice> Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><seg><lb/><persName ref="per017939a.02">Jaques Debieux</persName>, qui suivant la relation du <term ref="lem018789.02">maistre</term> ne soy trouvé
+							<lb/>point <term ref="lem018895.02">marqué</term>, a soustenu la <term ref="lem019428.01">torture</term> du demy <term ref="lem018232">quintal</term> sans rien
+						<lb/><term ref="lem015549.01">confesser</term> et dit que le bruit et cry qu’on doit avoir entendu
+						<lb/>de nuict chez luy, n’est autre sinon que parfois sa soeur, qui de
+						<lb/>tout temps ast estee insensee, crie et hurle de nuict sans comparai<lb break="no"/>son comme une beste. Le debat ehmeu entre luy et les <persName>Pourviants</persName>,
+						<lb/>venant avec plus de 30 ou 40 personnes de la foire de <placeName ref="loc007647.07">Romond</placeName>,
+						<lb/>avoir esté moderé et accordé par <persName>Franceois Blanc</persName>, <persName>Jean du
+						<lb/>Moullin</persName> de <placeName>Villaz</placeName><note>L’identification du lieu est incertaine. Il pourrait
+							s’agir de <placeName ref="loc007950">Villaz-Saint-Pierre</placeName>.</note>, <persName>Pierre Zilliet</persName> et d’autres, sans que jamais il
+						<lb/>ait demandé le <term ref="lem015433.03">maling esprit</term> en ayde. Que si <persName>Claude Gué</persName>, qui
+						<lb/>doit avoir mesdit de luy touchant certaine <term ref="lem017507.01">vache</term>, luy ehu dit
+						<lb/>qu’il la luy avoit <term ref="lem018556.03">maleficié</term>, infalliblement il luy ehut <term ref="lem015635.10">baillé</term>
+						<lb/>un coup de poing par la teste, sçachant bien que luy et d’autres
+						<lb/>l’accusent faulsement.</seg> <seg>A promis, si Dieu par sa toutte puissance
+						<lb/>le desliuvre hors de cet grand malheur ou il est maintenant, de
+							<lb/>offrir un pain benist a l’eglyse d’<placeName ref="loc008334">Orsonnens</placeName>, une liuvre d’<term ref="lem018801.02">ouure</term>
+							<lb/>et faire chanter un Salue a la <placeName>Chartreuse</placeName><note>Il pourrait s’agir du couvent chartreux de <placeName ref="loc008461.01">La Valsainte</placeName>.</note>, et d’accomplir
+						<lb/>des voyages ça et la dans des saints lieux, a fin qu’il plaise
+						<lb/>a Dieu de l’assister en son innocence. <term ref="lem019498">Crie mercy</term>.<note>Le passage qui suit concerne le procès mené contre <persName ref="per017913">Jean Jolion</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-133.5-1">SSRQ FR I/2/8 133.5-1</ref>.</note></seg></p>
+						<p><lb/><add place="left margin">Dißem <persName ref="per017939a.04">Debieux</persName> hab<lb break="no"/>end myn <choice><abbr>g</abbr><expan>gnädige</expan></choice> herren den
+						<lb/>kosten nachgelassen wegen
+						<lb/>seiner ynfältigen armen
+							<lb/><term ref="lem000130.03">khindern</term>.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

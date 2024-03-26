@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-115.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 102–104</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 102–104</idno>
+					</msIdentifier>
+					<head xml:lang="de">Susanne Michod-Ginivy, Marguerite Cordey-Bovet – Verhör</head>
+					<head xml:lang="fr">Susanne Michod-Ginivy, Marguerite Cordey-Bovet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-08-30"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="102"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-08-30">30 <foreign xml:lang="la">augusti</foreign> 1644</origDate>, <persName ref="per012378a.01">Heydt</persName>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per012381a.02"><choice><abbr>D</abbr><expan>Doctor</expan></choice> Python</persName>, <persName ref="per012380"><choice><abbr>J</abbr><expan>Jost</expan></choice> Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.02">Degranges</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016503a">Susanne Michod</persName> a derechef soustenu que <persName ref="per016901a.01">Catherine
+							<lb/>Pozun</persName>, dernierement suppliciee a <placeName ref="loc007931.07">Cugiez</placeName>, luy a
+							<lb/>faict tort et qu’elle l’a accusee par jalousie
+							<lb/>et malveuillance, a l’occasion qu’elle y refusa
+							<lb/>un’<term ref="lem021653.02">aulmosne</term> devant la maison de sa fille a
+							<lb/><placeName ref="loc007934.04">Mignieres</placeName>, qu’auparavant elle ne l’a pas cogneue
+							<lb/>et n’a jamais esté avec elle a la <term ref="lem017043">secte</term>, ny aulcun
+							<lb/>aultre lieu, et qu’elle soit allee mourir comme
+							<lb/>elle aura voullu, qu’elle ne s’en soucie pas, que
+							<lb/>c’est une meschante femme que ne doibt pas
+							<lb/>estre a croire, <subst><del>que</del><add place="inline">si</add></subst> elle la prisonniere seroit
+							<lb/>une telle femme, que tant de <term ref="lem019389.04">sorcieres</term> qu’on
+							<lb/>a executé a <placeName ref="loc005824.03">Morat</placeName>, l’eussent bien accusee,
+							<lb/>qu’on y faict tort, et la prend pour un’aultre.</seg>
+							<seg><lb/>Qu’elle a donné aulcun mal a la femme de
+							<lb/><persName>François Souilliard</persName> et qu’elle l’a pas seulement
+							<lb/>cogneue, et ne luy a point donné de poisson&#160;;
+							<lb/>n’avoir aussi point donné de pain a l’enfant
+							<lb/>de <persName>Pierre <unclear>Vuidepat</unclear></persName>, lequel elle ne cognoit
+							<lb/>aussi pas, que ce sont tous des faux rapports
+							<lb/>et de faux tesmoignages&#160;; qu’elle est femme
+							<lb/>de bien et tant innocente au faict de <term ref="lem018521.01">sorcellerie</term>,
+							<lb/>comme un enfant que vient au monde&#160;; qu’elle
+							<lb/>ne s’est jamais adonnee au <term ref="lem015433.03">maling esprit</term> et
+							<lb/>ne sçait rien de luy, et n’a aussi donné a aulcune
+						<pb n="103"/><lb/>personne les mauvais <term ref="lem017091.08">ennemys</term>.</seg> <seg>Et pour le re<lb break="no"/>gard du <term ref="lem019286.02">lievre</term>, qu’on doibt avoir veu a la
+							<lb/>vigne de son mary, appellé <persName ref="per016902a">Signor Michod</persName><note>Cette appellation semble curieuses. Faut-il comprendre «&#160;seigneur&#160;» Michod&#160;?
+								Le <origDate when="1644-08-23">23 août 1644</origDate>, cet homme
+								est nommé Ulli. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-115.2-1">SSRQ FR I/2/8 115.2-1</ref>.</note>,
+							<lb/>a la <placeName ref="loc008696">Croix Blanche</placeName> a <placeName ref="loc005824.03">Morat</placeName>, lequel elle ne sçait
+							<lb/>s’il est mort daviron devant <date dur-iso="P6Y">six ans</date>, qu’elle
+							<lb/>en sçait du tout rien.</seg> <seg>Ce qu’elle a soustenu
+								<lb/>aux trois premieres et simples <term ref="lem019428.03">tortures</term> et a <term ref="lem019498">crié
+							<lb/>mercy</term>.</seg></p>
+						<p><seg><persName ref="per016494b.01">Margueritte Bovey</persName> a aussy soustenu que celle que l’a
+							<lb/>accusee a <placeName ref="loc007931.02">Cugie</placeName> pour estre une de ses complices
+							<lb/>et d’avoir esté a la <term ref="lem017043">secte</term> avec elle au bas de
+							<lb/>la vaux, vers la grange du bois ou bien aillieurs,
+							<lb/>y a faict tort, si elle luy eussent donné
+							<lb/>ce qu’elle y a demandé comme des <term ref="lem019398.02">oeufs</term>, <term ref="lem015761.03">blessons</term>
+							<lb/>et aultre, peut estre qu’elle ne l’eussent pas
+							<lb/>accusee, qu’elle ne l’a point hantee aultrement
+							<lb/>que par rencontre.</seg> <seg>Pour le <term ref="lem018209.02">cunieux</term> que se
+							<lb/>perdit au four a <placeName ref="loc007934.04">Mignieres</placeName>, qu’elle ne l’avoit
+							<lb/>pas pris, et n’a heu des combats aultrement
+							<lb/>pour ce soubject avec <persName>Claude Fontanna</persName>, n’estant
+							<lb/>allee en sa maison pour luy faire du mal, ny
+							<lb/>pour se combattre avec luy, mais qu’elle luy
+							<lb/><subst><del><gap reason="illegible" quantity="3" unit="cm"/></del><add place="inline">demanda</add></subst> bien s’il voulloit dire qu’elle
+								<lb/>l’aye <term ref="lem015015.03">derobbé</term>, mais ce sans l’avoir tousché
+							<lb/>par les bras et les espaules, auquel elle n’a
+							<lb/>faict aulcun mal, et qu’iceluy ne luy en a faict
+							<lb/>aulcun reproche, et qu’elle ne luy a aussi pas
+							<lb/>dict qu’il se debvoit enaller, et qu’il se por<lb break="no"/>teroit mieux, que ledit <persName>Fontanna</persName> ne l’a aussi
+								<lb/>pas appellee <term ref="lem019389.02">sorciere</term>, qu’elle aye entendu.</seg>
+							<seg><lb/>Qu’elle ne sçait aussi pas d’avoir demandé
+							<lb/>des charrois a <persName>François Rey</persName> au vivant de son
+							<lb/>mary, qu’elle ne luy a faict mourir aulcun
+							<lb/>bestail. Nie aussi d’avoir cousu un enfant de
+							<lb/>sa voisine mort de verolle, qu’elle n’alla pas
+							<lb/>en la maison pour ce soubject, ains seulement
+						<pb n="104"/><lb/>pour prier, et que ledit enfant n’a point jetté
+							<lb/>de sang, lors qu’elle y arriva, qu’elle aye veu
+							<lb/>qu’elle est innocente de touttes ces accusations,
+							<lb/>qu’il luy arrive tort.</seg> <seg>Ce qu’elle a soustenu
+							<lb/>a la simple <term ref="lem018231">corde</term>, en demandant pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

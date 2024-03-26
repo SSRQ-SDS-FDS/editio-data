@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-202.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 471</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 471</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madeleine Gobet-Tannaz – Verhör</head>
+					<head xml:lang="fr">Madeleine Gobet-Tannaz – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1677-09-27"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, montag, den <origDate when="1677-09-27">27<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> <hi rend="underline">1677</hi></origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.01">Python</persName>, <abbr>h</abbr> <persName ref="per026616a.01">Frantz Peter Gottraw</persName></seg>
+							<seg><lb/> LX <abbr>h</abbr> <persName ref="per026549a.03">Pancratz Schröter</persName></seg></p>
+						<p><seg><lb/><persName ref="per027166a.01">Magdelaine Tannaz</persName>, natifve de <placeName ref="loc010147">Champmartin</placeName> riere
+							<lb/><placeName ref="loc008068.04">Cudreffin</placeName>, veufve de <persName ref="per027165a">Jacques Gobet</persName> de <placeName ref="loc010145">Corserey</placeName>,
+						<lb/>ensuitte du commandement de Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice>,
+							<lb/>ayant esté exposée à la <term ref="lem019428.01">torture</term> de la simple
+							<lb/><term ref="lem018231">corde</term>, et en icelle <term ref="lem019548.06">eslevée</term> trois differentes
+						<lb/>fois, et bien examinée et questionnée sur
+							<lb/>les informations et l’<term ref="lem015358.07">accoulpe</term> ou accu<lb break="no"/>sation du beaufils de son mari, a derechef
+						<lb/>soustenu que ladite accusation ou <term ref="lem015358.07">accoulpe</term>
+						<lb/>estoit fausse. Et resolument nie tous les
+						<lb/>poincts ou articles de l’examen à elle propo<lb break="no"/>sés, tant lors qu’elle estoit libre que lors
+						<lb/>qu’elle estoit pendue à la <term ref="lem018231">corde</term>.</seg> <seg>Et sur
+						<lb/>la declaration de <persName>George Warnoz</persName>, que sa
+						<lb/>femme a longtemps langui en maladie
+						<lb/>et est morte dans la croyance qu’elle avoit
+						<lb/>receu son mal d’elle, icelle a declaré et
+						<lb/>soustenu ne luy avoir jamais faict ny donné
+						<lb/>aucun mal, et qu’elle est morte d’enfant
+						<lb/>après avoir employé deux sages femmes
+						<lb/>ou <placeName ref="loc013216.02">Devens</placeName>. Et que ce qu’elle avoit longtemps
+						<lb/>langui procedoit de ce qu’elle estoit rompu
+						<lb/>d’une precedente couche.</seg> <seg>A aussy soustenu
+						<lb/>de n’avoir aucune <term ref="lem018894.03">marque diabolicque</term>
+						<lb/>sur son corps et n’avoir jamais esté
+						<lb/>recherchée, ny sollicitée par le <term ref="lem018943.02">demon</term>,
+							<lb/><term ref="lem015549.03">confessant</term> d’estre pecheresse comme d’autres,
+							<lb/>mais d’estre exemptée du <term ref="lem019494.01">crime</term> duquel est
+						<lb/>accusée, demandant au surplus pardon à Dieu
+						<lb/>et à vos <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

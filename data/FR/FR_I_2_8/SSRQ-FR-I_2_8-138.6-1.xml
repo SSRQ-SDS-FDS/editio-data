@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-138.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 504–507</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 504–507</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Crety, Claude Crety, Georges Crety – Verhör</head>
+					<head xml:lang="fr">Catherine Crety, Claude Crety, Georges Crety – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1648-04-17"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="504"/><p><lb/> Im <placeName ref="loc007690.06">Spittall</placeName>, <origDate when="1648-04-17">17<hi rend="sup">ten</hi> <foreign xml:lang="la">aprilis</foreign> 1648</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Torny</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per009259a.01">von Ligertz</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013626a.01">Reyff</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013469a.02">Castellaz</persName></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per018077a">Catherine</persName>, fille du prenommé <persName ref="per018075a.02">George Crety</persName>z, aagee environ de
+						<lb/><measure type="age" quantity="9" unit="year">neuf</measure> a <measure type="age" quantity="10" unit="year">dix anns</measure>, demandee ou estoit sa mere et pourquoy
+						<lb/>elle s’absentit du pais&#160;? Dit parce que ayant <term ref="lem015635.10">baillé</term>
+						<lb/>d’un <term ref="lem018653.01">tourteau</term> a la femme de <persName>Gachet</persName>, allant ensemble
+						<lb/>un jour de <subst><del><placeName ref="loc007610">Payerne</placeName></del><add place="inline">marché a <placeName ref="loc007610">Payerne</placeName></add></subst>, duquel, a ce
+						<lb/>qu’on dit, en devient malade et mourut, mais auparavant
+						<lb/>qu’elle se plaignoit <add place="above" type="sign">desja</add> d’un mal de teste, tellement qu’elle
+						<lb/>la detenue, ny les autres, ne peuvent sçavoir certainement
+						<lb/>d’ou cette malladie provient&#160;; et pour estre soubçonnee
+						<lb/>par ledit <persName>Gachet</persName>, se retira de ce lieu au pais de <placeName ref="loc005865.11">Sabvoye</placeName>,
+						<lb/>et vient souvent, ou de nuict, ou sur le mattin, vers le
+						<lb/>pere, mais des environ <date dur-iso="P2Y">deux ans</date> en ça ne l’avoir veue.
+						<lb/>La femme dudit <persName>Gachet</persName> avoir estee cy devant en conteste
+						<lb/>avec sa mere, occasion d’un pot qu’elle disoit avoir
+						<lb/>perdu, la soubçonnant de le luy avoir ravy, ce qu’elle
+						<lb/>la detenue ne peut sçavoir, n’ayant onques veu ledit
+						<lb/>pot chez eux.</seg> <seg>Quant a son pere, ne sçait qu’il soit
+							<lb/><term ref="lem019308.01">sorcier</term>, mais a bien veu qu’il avoit une <term ref="lem014919.08">boëte</term> remplye
+						<lb/>de <term ref="lem018382">graisse</term> noir par petits morceaux, qu’il tenoit cachee
+						<lb/>dans un trou derriere la porte, laquelle, en presence
+						<lb/>de son frere <persName ref="per018076a.01">Claudi</persName> et d’elle, il jettoit <subst><del>p</del><add place="overwritten">s</add></subst>ur les champs et
+					<pb n="505"/><lb/>bois en temps d’hyver, et faisoit par ce moyen de la <term ref="lem018102.07">graisle</term>,
+						<lb/>et luy commandoit, et a son frere, de jetter dedite <term ref="lem018382">graisse</term> en
+							<lb/>haut et ils verroient bientost plouvoir et <term ref="lem019524.02">graisler</term>, mais
+						<lb/>ne pouvant jetter cette <term ref="lem018382">graisse</term> assez haut, le pere les
+						<lb/>battit. En mesme temps aussy d’hyver lors qu’elle lavoit
+						<lb/>des poids vers le ruisseau du <placeName>Craux</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir du <placeName ref="loc011630">Creux du Loup</placeName>.</note>, son pere y avoir
+						<lb/>faict la <term ref="lem018102.07">graisle</term> avec cette <term ref="lem018382">graisse</term> qu’il jettoit en haut,
+							<lb/>et avec icelle faict mourir beaucoup des <term ref="lem018315.02">chats</term>, que
+							<lb/>par aprés il jettoit <term ref="lem019135.02">envoye</term>.</seg> <seg>Les enfants du village
+						<lb/>de <placeName ref="loc011632.02">Bubberonds</placeName> avoir dit que sa mere avoit <term ref="lem014913.04">oinct</term>
+						<lb/>les portes de leurs maisons et que son pere prennoit le
+						<lb/>fumier de ses voisins pour aggrandir le sien, et en entre
+						<lb/>autre qu’il en avoit pri<subst><del>t</del><add place="overwritten">s</add></subst> a <persName>Rorbasser</persName> le <term ref="lem015025.04">meusnier</term>, ce
+						<lb/>qu’elle ne sçait que aprés ouyr dire.</seg> <seg>Davantage
+						<lb/>a veu que son pere, avant environ <date dur-iso="P1Y">un an</date>, oignit dedite
+						<lb/><term ref="lem018382">graisse</term> <subst><del>deux</del><add place="inline">les tettons</add></subst> de deux <term ref="lem017507.02">vaches</term> a <term ref="lem015011.04">laict</term>, laissant
+							<lb/>la <term ref="lem015014.07">mouge</term> et 2 <term ref="lem018925.03">veaux</term>, disant que par ce moien il atti<lb break="no"/>reroit le <term ref="lem015011.04">laict</term> aux siennes. Sa tante estant grande<lb break="no"/>ment <term ref="lem019474.10">tormentee</term> des <term ref="lem015433.13">malings</term>, dit une fois qu’on le
+							<lb/>prendroit et <term ref="lem019496.07">brusleroit</term>. Nye qu’elle soit estee a la
+						<lb/><term ref="lem017043">secte</term> et soustient ne sçavoir si son pere y ast esté,
+							<lb/>ny qu’icelluy soit <term ref="lem019308.01">sorcier</term>.</seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per018076a.01">Claudi</persName>, frere dedite fillete encorre de bas aage, dit,
+						<lb/>aprés ouyr dire, que sa mere a vuidé le pais sur le
+						<lb/>subject que sa soeur a raconté cy devant et
+						<lb/>qu’elle vient quelques fois vers son pere de jour, mais des
+						<lb/><date dur-iso="P2Y">deux anns</date> en ça, ne sçait de l’avoir veue.</seg> <seg>Attouchant le
+						<lb/>bruit et desportement de son pere, ne sçait autre chose
+						<lb/>sinon que quelques <term ref="lem019503.03">possedés</term> le blasment et poursuivent, luy
+							<lb/>cryant parfois&#160;: <q>&#160;Sorcier, tu es nostre <term ref="lem019555.05">maistre</term>&#160;!&#160;</q> Sa tante, que
+							<lb/><add place="left margin">estoit</add> aussy <term ref="lem019502.06">possedee</term> et <term ref="lem018655.02">desbordee</term>, luy disoit mille injures, mais
+						<lb/>a present, aprés avoir mangé du sel benist, que sa soeur luy
+						<lb/><term ref="lem015635.12">baillast</term>, estre a ce qu’on <add place="above" type="sign">croit</add> guarie et deslivree du <term ref="lem018555.02">malefice</term>.</seg>
+						<seg><lb/>Dit en outre avoir veu que son pere tenoit certaine <term ref="lem018382">graisse</term>
+						<lb/>noire comme de la suye dans uns <term ref="lem014919.09">boëtte</term>, et par fois en
+							<lb/>jettoit en temps d’hyver et en <term ref="lem019439.02">Caresme</term> dans et parmy les
+						<lb/>buissons pour faire de la <term ref="lem018102.07">graisle</term>&#160;; luy en avoir aussy <term ref="lem015635.10">baillé</term>
+						<lb/>avec commandement d’en jetter tout ainsy que luy, mais
+					<pb n="506"/><lb/>ne la pouvant jetter comme il commandoit, la luy osta hors des
+						<lb/>mains et dit&#160;: <q>&#160;Tu ne sçays rien petit foll&#160;!&#160;</q>&#160;; mais ne le battit
+						<lb/>point. Ne sçait que son pere ait faict du mal aux
+						<lb/>gens, ny au bestail, ny qu’il luy ait veu faire chose malingne.</seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per018075a.02">George Crety</persName> le pere, natif de la parroisse dite <placeName>La Razy</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc012552">La Ragia</placeName>, un hameau de l’ancienne paroisse des <placeName ref="loc012551">Gets</placeName>.</note> en
+						<lb/><placeName ref="loc005865.11">Sabvoye</placeName>, a soustenu la <term ref="lem018231">corde</term> simple sans rien <term ref="lem015549.01">confesser</term>, disant
+						<lb/>n’avoir ehu une <term ref="lem014919.03">boette</term> remplye de <term ref="lem018382">graisse</term> noire et avec
+						<lb/>icelle la jettant dans des buissons, jamais faict <term ref="lem018102.07">graisle</term>, ny
+						<lb/>autres injures de temps, moings <term ref="lem015635.10">baillé</term> <term ref="lem018382">graisse</term>, ny autre a
+						<lb/>ses enfants, ny frotté ou <term ref="lem014913.04">oinct</term> les tettons des <term ref="lem017507.02">vaches</term> de
+							<lb/><persName>Rorbasser</persName> le <term ref="lem015025.04">meusnier</term>&#160;; que ceux qui l’accusent <del rend="underline">qui l’accu<lb break="no"/>sent</del> de tels forfaits ou <term ref="lem019494.01">crime</term> de <term ref="lem018521.01">sorcellerie</term> luy font mecha<lb break="no"/>ment tort.</seg> <seg>Ne sçait que sa fille ait oncques lavé des
+						<lb/>poids a la fontaine du <placeName>Craux</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir du <placeName ref="loc011630">Creux du Loup</placeName>.</note>, ains les lavoit ordinaire<lb break="no"/>ment au logis, et n’a jamais vers cette fontaine, ny ailleurs,
+						<lb/>faict <term ref="lem019524.02">graisler</term> ou autre mauvais temps, n’estre Dieu mercy
+						<lb/>homme a ce faire.</seg> <seg>La querelle esmeue entre luy et <persName>Gyrard
+						<lb/>Rybotty</persName>, qui le soubçonnoit et nommoit sorcier a cause que
+						<lb/>sa femme, ayant mangé de ses ceryses, devient malade,
+						<lb/>aprés qu’il le cita par devant <choice><abbr>monsr</abbr><expan>monsieur</expan></choice> le balliff pour
+						<lb/>demander restitution de son honneur, fust par telle moyen
+						<lb/>assoupie, et ledit <persName>Rybotty</persName> luy demanda pardon en <choice><abbr>pnce</abbr><expan>presence</expan></choice> dudit
+						<lb/><choice><abbr>sr</abbr><expan>seigneur</expan></choice> ballif et d’autres paisans du lieu, disant ne sçavoir
+						<lb/>que bien et honneur de luy&#160;; que le soubçon qu’il eut
+							<lb/>sur luy provenoit d’une femme <term ref="lem019502.06">possedee</term>, dite <persName>La Crottiaz</persName>,
+						<lb/>qui disoit que sa femme fust <term ref="lem018556.04">maleficiee</term> par luy. Sa femme,
+						<lb/>qui peu<del>t</del> de temps sejournoit a <placeName ref="loc007885.10">Losanne</placeName> et gardoit le plus
+						<lb/>petit de ses enfants, n’estre venue vers luy despuis la
+							<lb/><date when="1646-09-29"><choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per000390a">Michel</persName> 1646</date> en ça, ne sçachant ou elle est a present. Et
+						<lb/>l’enfant qu’elle gardoit, il le voullut avoir avec les autres,
+						<lb/>de crainte d’estre instruit d’autre religion que la vraye
+						<lb/>foy <term ref="lem019533.01">catholique</term>.</seg> <seg>N’avoir sceu qu’on le voulloit reduire
+						<lb/>aux prisons, sinon de sa belle soeur, qui luy dit avoir
+						<lb/>entendu dire que la commune de <placeName ref="loc007616">Chandon</placeName> s’estoit assemblee
+						<lb/>sur ce sujet, mais luy encor que plusieurs fois adver<lb break="no"/>tys de soy retirer, ne s’est pourtant voullu aucunement
+						<lb/>absenter, en tant qu’il se sentoit estre homme d’honneur
+						<lb/>et <subst><del>croit</del><add place="inline">croioit</add></subst> non obstant qu’il fust faict prisonnier
+					<pb n="507"/><lb/>que Dieu l’assisteroit, estant a present de cette esperance. Et
+						<lb/>ne veut <add place="above">que</add> Dieu et la Vierge <subst><del>ne</del><add place="inline">luy</add></subst> soient en ayde, si jamais
+							<lb/>il a commis acte de <term ref="lem018521.01">sorcellerie</term>, duquel <term ref="lem019539.02">peché</term> il pretend estre
+						<lb/>innocent, de mesme qu’un enfant nouveau né, esperant que
+						<lb/>Dieu, qu’il invoque a son ayde, le soustiendra et recompensera
+							<lb/>les <term ref="lem019473.06">torments</term> et injures qu’il luy faut endurer par ses
+						<lb/>haine<subst><del>s</del><add place="overwritten">ux</add></subst> et faux accusateurs, qui un jour viendra seront
+						<lb/>confuz pour avoir <add place="above" type="sign">dit</add> des choses de luy jamais advenues. De<lb break="no"/>mande humblement pardon et soy recommande a messeigneurs.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-65-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;193v-194r</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales confirmant une ordonnance des Ligues suisses relative
+                  à la prescription des cens fonciers</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1537-08-09"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_167">SDS NE 1, N<hi rend="sup">o</hi>&#160;65</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003040"></term>
+               <term ref="key005072"></term>
+               <term ref="key000920"></term>
+               <term ref="key005101"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="193v" facs="AEN_3PAST_2_193v_194r"/>
+               <div>
+                  <add place="left margin"><lb/>Reconfirmation du <lb/>decret mentionnant<lb/>
+                     <sic>perscription</sic> des censes <lb/>voyageres</add>
+                  <p><lb/>Messeigneurs des Trois Estatz ont reconfirmé le decret fait par messieurs
+                     <lb/>des Ligues<note>Note Favarger&#160;1982&#160;: Du 18 mars 1522.</note> a
+                     cause des <term ref="lem015877.02">censes</term> que l’on pouvoit debvoir sur
+                     aucungs maix et <lb/>héritages lesquelles l’on auroit acquis perpétuelles et
+                     semblablement <lb/>des engagieres et censes voyageres que si l’on ne monstroit
+                     en avoir heu <pb n="194r" facs="AEN_3PAST_2_193v_194r"/>
+                     <lb/>jouyssance de trente ans en bas que icelles estoyent perscriptes et
+                     passées, mais <lb/>tant qu’il touche censes de vraye directe et foncieres, en
+                     icelle n’aura nulle <lb/><sic>perscription</sic>, mais les laissent comme du
+                     passé en a esté usé sans y rien <lb/>diminuer ny adjouster. </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;193v-194.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;270v.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;7v.</p>
+               <p>AEN, Registre des Trois Etats, I, fol.&#160;9v-10.</p>
+               <p>AEN, T 12, N<hi rend="sup">o</hi>&#160;2, p.&#160;28.</p>
+               <p>Ed.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;4-5.</p>
+               <p>Cité&#160;: Calame, <hi rend="italic">Droit privé</hi>, p.&#160;48.</p>
+            </div>
+               <div>
+                  <p>Remarque&#160;:</p>
+                  <p>Cf. AEN, série «&#160;Tribunal souverain&#160;», 1/XVI&#160;: «&#160;Le grieff
+                     de monseigneur de Collombier contre Jehan Jaiquemet, le III<hi rend="sup"
+                        >e</hi> jour de novembre&#160;1537. Mal jugé et bien appellé a cause de la
+                     descretalle faicte que en cense fossiere n'ay nulle prescription et actendu
+                     qu'ilz ce conste que icelle censse est transferée de terrage en cense.
+                     Touttesfoys que sy ledict Jaiquemet se peult descharger clore. Par escript pour
+                     monseigneur de Collombier&#160;» (fol.&#160;23(b)v).</p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

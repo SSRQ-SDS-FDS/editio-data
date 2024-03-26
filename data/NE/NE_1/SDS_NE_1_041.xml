@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-41-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives du Locle</repository>
+                  <idno xml:lang="fr">Archives du Locle, A No&#160;19</idno>
+               </msIdentifier>
+               <head>Nouvelles franchises accordées par Jean d'Aarberg, seigneur de Valangin, aux habitants
+                  du Locle et de la Sagne, avec confirmation des anciennes coutumes</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34"/>
+                              <width unit="cm" quantity="39"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="1.0"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1481-03-20"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_119">SDS NE 1, N<hi rend="sup">o</hi>&#160;41</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000468"></term>
+               <term ref="key005128"></term>
+               <term ref="key006365"></term>
+               <term ref="key000047"></term>
+               <term ref="key000815"></term>
+               <term ref="key000211"></term>
+                </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="LOCLE_A19_r"/>
+               <div>
+                  <p><lb/><seg>Nous <persName ref="per036807a.01">Jehan conte d’Arberg
+                     </persName>seigneur de <placeName ref="loc005950.09">Vaulengin</placeName> et
+                     de Boffremont scavoir faiçons comme autreffois par noz seigneurs predecesseurs
+                     seigneurs dudict <placeName ref="loc005950.09">Vaulengin</placeName> ayent
+                     <lb/>estees donnees et ouctroiees a noz biens amés les habitans et manans
+                     francs habergeans de noz deux villes du <placeName ref="loc007795"
+                        >Locle</placeName> et de <placeName ref="loc007789.02">la
+                     Saigne</placeName>, les libertés, dons, <lb/>franchises et bonnes usances que
+                     s’ensuigvent comme il nous ont humblement dit et exposer.</seg> <seg n="1">Et
+                     premierement que tous les habitans desdis lieux du <placeName ref="loc007795"
+                        >Locle</placeName> et <lb/>de <placeName ref="loc007789.02">la
+                        Saigne</placeName> demeurans et residans deans les limites subscriptes et
+                     non alleurs, c’est assavoir des le bout desdis lieux ddu <placeName
+                        ref="loc007795">Locle</placeName> et de <placeName ref="loc007789.02">la
+                        Saigne</placeName> devers vent <lb/>tirans par le hault de la basse coste de
+                        <placeName ref="loc007789.02">la Saigne</placeName> jusques a la roiche de
+                     la Corbatiere devers solail levant, et dès ladicte roiche tirans par la combe
+                     de Sonbaille <lb/>jusques a Doubz devers bise montans a mon le fil de l’eal
+                     dudict Doubz jusques au bié de Goudebast devers solail couchant, montans aussi
+                     a mon le fil de l'eal <lb/>dudict bié jusques es portes du Locle devers vent
+                     pouvoient et debvoient heriter et succeder l'um l’autre jusques a la sixieme
+                        ligne<note>Note Favarger&#160;1982&#160;: Cf.&#160;<ref>SDS_NE_1_16</ref>
+                        (1372) article 1.</note> et joincte en descendant toujours <lb/>au plus
+                     preusme et prochain, selon costume de pays, demeurans esdis lieux et non
+                     autrement.</seg> <seg n="2">Item qu’il pouvoient et debvoient vendre,<note>Note
+                        Favarger&#160;1982&#160;: Cf.&#160;<ref>SDS_NE_1_16</ref>
+                        art.&#160;2.</note> engaigier, accenser <lb/>et donner les ungs aux autres
+                     tous et singuliers leurs biens et nous leurs en debvons seeler lectres de
+                     nostre propre seel porpayant a nous et a noz <lb/>successeurs les lods
+                        desdictes vendicions et gaigieres de dozes libvres, une de lod.</seg> <seg n="3">Item qu’il pouvoient et debvoient jouyr et user de nos aigues<note>Note
+                        Favarger&#160;1982&#160;: Cf.&#160;<ref>SDS_NE_1_16</ref> art.&#160;4 et
+                        8.</note> ainsi que du <lb/>temps passer il en avoient jouyr et user avecque
+                     nosdis seigneurs predecesseurs et nous, et de noz boix et joux, reserver pour
+                     faire champs et prez et <lb/>cernis, lesquelles ne pouvoient faire ne peulent
+                     de present ne au temps avenir sans premierement estre reprins et accensés de
+                     nous per faulx, ladicte faul <lb/>ayant et debvoir contenir sezes perches de
+                     longueur et austant de largeur, et chescune perche sezes pieds moien, et
+                     chescune faul pour quatre deniers lausannois <lb/>bonne monnoye de annuelle et
+                     perpetuele rente, cense par lesdis habitans et par leursdis hoirs ung chescun
+                     an perpetuelement le jour de feste de saint Martin <lb/>d’ivers, en nostre
+                     chastel dudit <placeName ref="loc005950.09">Vaulengin</placeName> debvoirs
+                     rendre et payer.</seg> <seg n="4">Item que nous estions tenus et debvions maintenir
+                     en une chescune de nosdictes deux villes <lb/>du <placeName ref="loc007795"
+                        >Locle</placeName> et de <placeName ref="loc007789.02">la Saigne</placeName>
+                     bonne et briefve justice pour faire a ung chascun raison. Et aussi que de
+                     toutes choses que nous leurs vouldrions <lb/>demander avoir ou faire affaire
+                     hors de bonne raison, nous leurs en debvons faire et ministrer bonne et briefve
+                        justice.<note>Note Favarger&#160;1982&#160;: Cf.&#160;<ref>SDS_NE_1_16</ref>
+                        art.&#160;5.</note></seg>
+                     <seg n="5">Et que nous debvions <lb/>prendre et lever le diesme de leurs
+                     grainnes accostumees sur leurs champs de umses gerbes, une, et de umses andens,
+                     ung ainsi que la faul <lb/>l’abatoit et eulx nous debvoient et nous estoiens
+                     tenu rendre et ramener en nostre chastel dudit Vaulengin ung chescum an ainsi
+                     qu’il estoit <lb/>accostumés, les grainnes de nosdis diesmes quant elles
+                     estoiens ecoussés ainsi qu’il estoit accostumer.<note>Note
+                        Favarger&#160;1982&#160;: Cf.&#160;<ref>SDS_NE_1_16</ref>
+                        art.&#160;9.</note></seg>
+                     <seg n="6">Item que nous debvions maintenir <lb/>ausdis habitans en une
+                     chescune desdictes deux villes, molins, tout ce que torne et vire en molins
+                     seulement et eulx tout le surplus et <lb/>residus necessaires ausdis molins por
+                     payent a nous et es notres que dessus la moture accostumee&#160;; c’est
+                     assavoir d’um muis de grainne une <lb/>emyne de moture.<note>Note
+                        Favarger&#160;1982&#160;: Cf.&#160;<ref>SDS_NE_1_16</ref>
+                        art.&#160;10.</note></seg>
+                     <seg n="7">Item qu’il nous debvoient le service pour nostre propre guerre et
+                     de noz combourgeois et aultres, a leurs missions et despens <lb/>et pour servir
+                     aultruy es nostres.<note>Note Favarger&#160;1982&#160;:
+                           Cf.&#160;<ref>SDS_NE_1_16</ref> art.&#160;12.</note></seg> <seg n="8">Item
+                     qu’il nous debvoient et estoiens tenus en telles et semblables aides que noz
+                     bourgeois dudict Vaulengin <lb/>et aultres justement et raisonnablement nous
+                     debvoient et estoiens tenus quant elles advenient et non autrement.<note>Note
+                        Favarger&#160;1982&#160;: Cf.&#160;<ref>SDS_NE_1_16</ref>
+                        art.&#160;11.</note></seg>
+                     <seg n="9">Item que tous mal appelans <lb/>et desdisans n'estoiens encheris
+                     envers nous que en ung bans de sexantes sols et les injures quant les cas
+                        advenoient.<note>Note Favarger&#160;1982&#160;: Nouveau.</note></seg> <seg n="10">Item que toutes tenues <lb/>il estoiens quietes et libérés et ne leurs en
+                     avions aucunes choses a demander quant les cas advenoient.<note>Note
+                        Favarger&#160;1982&#160;: Nouveau.</note></seg>
+                     <seg>Et aussi qu’il devoient estre et estoiens <lb/>es propres us et costumes
+                     de nostre justice dudict Vaulengin, desquelles costumes, franchises, libertés
+                     dessus dites disoient avoir jouyr et user de tout <lb/>le temps passer et en
+                     avoir heus lectres de noz seigneurs predecesseurs, seigneurs dudict Vaulengin,
+                     lesquelles par orvales de feu et aultrement <lb/>avoient estees arcés, perdues
+                     et abolies, nous supplians et humblement requerans qu’ils nous pleust a eulx
+                     derechiefz et de nouvel donner et <lb/>reconfermer les dictes franchises,
+                     libertés et bonnes costumes.</seg> <seg>Pour ce est il que nous les choses dessus
+                     dites considérees, desirans lesdis habitans de <lb/>nosdictes deux villes du
+                        <placeName ref="loc007795">Locle</placeName> et de <placeName
+                        ref="loc007789.02">la Saigne</placeName> estre maintenues et gardees en
+                     leurs dis privileges, franchises, libertés et louables usances et costumes
+                     <lb/>et que lesdis habitans soiens reduis a leurs dictes franchises et libertés
+                     et par ce moyen vivre en habumder en peuple et biens, a iceulx habitans
+                     <lb/>frans abergeans de nos dictes deux villes du <placeName ref="loc007795"
+                        >Locle</placeName> et de <placeName ref="loc007789.02">la
+                     Saigne</placeName>, pour eulx, leurs hoirs et successeurs presens et avenir
+                     quelconques, par grande et <lb/>meheure deliberacion et en esperance qu’il
+                     serons tousjours bons et vrays obiessans a nous et a noz successeurs, avons
+                     ouctroier, donner <lb/>et accorder et nous, pour nous, noz hers, cohers et
+                     successeurs et ayans de nous cause present et avenir quelconques, donnons,
+                     octroyons et accordons la <lb/>pleniere et entière joyssance des franchises,
+                     libertés, preheminences, loables usances et costumes dessus dictes et
+                     escriptes. Et voulons et nous consentons <lb/>pour nous et pour les nostres que
+                     dessus que lesdis habitans et les leurs que dessus joyssent et usent
+                     paisiblement sans empeschement ne <lb/>detourbier quelconques des dessus dictes
+                     franchises, libertés, loables usances et costumes dessus dictes. Et aussi que
+                     pour quelconque service, <lb/>dons, courtoisies que les dessusdis habitans nous
+                     porrions avoir fait en maintes guises du temps passer et porrions faire a temps
+                     avenir <lb/>ou les leurs que dessus a nous et es nostres que dessus, voulons et
+                     nous consentons que ce soit sans préjudice et dommaige des dessus dictes
+                     franchises, <lb/>libertés, loables usances et costumes. En reservans et
+                     retenans a nous et es nostres que dessus sur lesdis habitans et les leurs que
+                     dessus tous <lb/>bans, clammes et deffauls et avecque toutes juridisctions,
+                     seigneuries et dominations, haulte, moienne et basse, mere et misde impere,
+                     <lb/>bonnes, loables usances et costumes quant les cas adviendrons et il le
+                     mefferons. Et aussi tous noz drois a cause de noz fours, molins, resses,
+                     <lb/>bateurs, diesmes, usances et costumes ensemble et avecque tout le contenus
+                     de noz extentes, rentes vielles et novelles et tous noz autres drois
+                     <lb/>quelconques. Et nous avons fait ce présent don et bail pour le pris et
+                     somme de trois cens florins d’ors d’Allemaigne de bon or et juste poix lesquelx
+                     <lb/>nous confessons avoir heus et recephus desdis habitans pour et a cause des
+                     choses dessus dictes <gap reason="missing"/> que furent faictes et donnees
+                        <date when="1480-03-20">le vingtieme jour du mois de mars l’an de grace
+                        Nostre Seigneur courant mil quatres cens octante.</date></seg></p>
+                  <pb n="v" facs="LOCLE_A19_v"/>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, avec sceau pendant sur simple queue, <hi rend="italic"
+                        >Archives du Locle</hi>, A&#160;N<hi rend="sup">o</hi>&#160;19.</p><p><hi rend="italic">Éd.&#160;Recueil historique... des franchises</hi>, p.&#160;43-47. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

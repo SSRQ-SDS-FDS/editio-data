@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.74-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 135–137</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 135–137</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marti Margueron – Verhör und Urteil</head>
+					<head xml:lang="fr">Marti Margueron – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate from="1645-01-18" to="1645-01-21"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007690.02">Spittal</placeName>, <origDate when="1645-01-18">18 <foreign xml:lang="la">januarii</foreign> 1645</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per012381a.01">Python</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013439a.01">Montenach</persName>, <persName ref="per013436a.01">Vonderweydt</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per015678a">Marti Margueron</persName> dict qu’il veut librement <term ref="lem015549.01">confesser</term>
+						<lb/>la verité de tout ce qu’il sçait, mais qu’il se peut plus
+						<lb/>resouvenir de tout, a cause qu’il est trop long temps
+						<lb/>detenu aux prisons, dans lesquelles il n’a jamais veu,
+							<lb/>ny aperceu <persName ref="per029441a">Pauzun</persName>, ny aulcun esprit, ny lieuvre,
+						<lb/>qu’il s’est tousjours bien recommandé a Dieu.</seg> <seg>Que
+						<lb/>sa mere est cause de tout son mal et c’est elle que
+						<lb/>l’a rendu au <term ref="lem015433.03">maling esprit</term>, et quand il voulloit aller
+						<lb/>au cathequisme, qu’elle ne le voulloit permettre,
+						<lb/>ains elle le battoit a coup de battons et l’enchaisna
+							<lb/>une fois aux deux pieds au <term ref="lem015742.02">poile</term>, affin qu’il ne sor<lb break="no"/>tisse pas de la maison. Que luy n’eusse jamais heu
+						<lb/>la volonté de se rendre au <term ref="lem015433.03">maling esprit</term> si sa mere
+						<lb/>ne fust esté, car lors qu’elle le mena en l’allee
+							<lb/>de la maison en l’<placeName ref="loc008529.05">Oge</placeName> pour le rendre a <persName ref="per029441a">Pauzun</persName>,
+						<lb/>que luy en sçavoit rien, et n’y fust pas allé quand
+						<lb/>il eusse sceu. Cela estre arrivé environ <date dur-iso="P6M">un demy
+						<lb/>an</date> avant sa detention, et qu’elle mesme demande
+							<lb/><persName ref="per029441a">Pauzun</persName>, lequel leur apparu <term ref="lem015622">incontinent</term>. Lors elle
+							<lb/>luy dict qu’il le debvoit <term ref="lem018895.01">marquer</term> et a luy qu’il se
+						<lb/>debvoit rendre au <term ref="lem015433.03">maling esprit</term>, mais luy fist la croix,
+						<lb/>tellement que le <term ref="lem015433.10">maling</term> disparu vistement. Sur ce sa mere
+						<lb/>luy disit beaucoup de mal et luy deffendit de ne faire la
+							<pb n="136"/><lb/>croix.</seg> <seg>Qu’il ne sçauroit bien dire comme <persName ref="per029441a">Pauzun</persName> estoit,
+						<lb/>ne l’ayant regardé que contre la face, laquelle
+						<lb/>a son advis ressembloit le visage d’une personne,
+						<lb/>ne sçaschant asseuré si cela est arrivé de jour
+						<lb/>ou de nuict, mais <date dur-iso="P2D">deux jours</date> aprés sa mere l’avoit
+						<lb/>pris derechef par le bras et tiré en l’allee de
+								<lb/>la maison, ou ce que <persName ref="per029441a">Pauzun</persName> se monstra vistement.
+						<lb/>Lors elle luy commanda de se rendre a luy, luy disant
+								<lb/>qu’en aprés il luy fairoit beaucoup de bien, tel<lb break="no"/>lement qu’il se rendit au <term ref="lem015433.10">maling</term> et <term ref="lem019541.12">renia</term> Dieu,
+						<lb/>mais qu’il ne sçavoit pas qu’il faisoit si mal, et que
+								<lb/>luy ne s’est pas presenté mesme a <persName ref="per029441a">Pauzun</persName>, ains
+						<lb/>que sa mere l’a faict, <sic>neatmoings</sic> qu’il y consenty
+						<lb/>bien. Aprés ce, qu’il fust <term ref="lem018895.02">marqué</term>, mais <subst><del>s’est</del><add place="inline">recognois<lb break="no"/>sant</add></subst> par aprés sa fautte, qu’il s’en repanty grandement
+						<lb/>dans <time dur-iso="PT15M">un quart d’heure</time> et <term ref="lem019498">cria mercy</term> a Dieu. Que
+								<lb/><persName ref="per029441a">Pauzun</persName> l’a <term ref="lem018895.02">marqué</term> dessoubz la langue sans luy avoir
+						<lb/>faict mal et luy commanda de faire du mal aux
+						<lb/>gens, pourquoy il luy voullu <term ref="lem015635">bailler</term> de la <term ref="lem018382">graisse</term>, la<lb break="no"/>quelle il a pourtant jamais voullu recevoir, et n’a
+								<lb/>faict mal a aulcune personne. Et lors qu’il fust <term ref="lem018895.02">mar<lb break="no"/>qué</term>, que sa mere parla encour bien <time dur-iso="PT15M">un quart d’heure</time>
+								<lb/>avec <persName ref="per029441a">Pauzun</persName>, mais qu’il a pas entendu ce qu’ils ont
+						<lb/>dict.</seg> <seg>Que sa mere est cause de tout son mal, car
+						<lb/>si elle ne l’eusse pas mené devant le <term ref="lem015433.03">maling esprit</term>,
+						<lb/>qu’il ne se fusse jamais rendu a luy et n’y eusse jamais
+						<lb/>songé.</seg> <seg>Qu’il a aussy esté a la <term ref="lem017043">secte</term> <placeName ref="loc010283.03">en Eiglen</placeName>,
+							<lb/>ou ce que sa mere l’a mené, que <persName ref="per029441a"><subst><del>G</del><add place="overwritten">P</add></subst>auzun</persName> alloit
+						<lb/>devant, sa mere aprés et luy le dernier, et aus<lb break="no"/>sy ils passoient les murs de la ville, ce qu’il fai<lb break="no"/>soient aussy en revenant a la maison, estant tout
+						<lb/>nuict. Que sa mere porta deux gaubelets de bois
+						<lb/>a la <term ref="lem017043">secte</term>, ou ce qu’il a veu deux hommes, qu’il
+						<lb/>cognoit pas, lesquels mangeoient et bevoient en
+						<lb/>une table. Qu’il y a vu encour un, ne sçaschant
+						<lb/>plus comme il a esté, que menoit le violon. Que sa
+							<pb n="137"/><lb/>mere dançoit avec son <term ref="lem019555.05">maistre</term> <persName ref="per029441a">Pauzun</persName>, pour luy,
+						<lb/>qu’il estoit en un coing, ou ce qu’il ne s’osoit bouger,
+							<lb/>ne se souvenant d’y avoir veu du <term ref="lem019529.01">feu</term>.</seg> <seg>Qu’il est con<lb break="no"/>tent de mourir s’il plait a Dieu et messeigneurs,
+						<lb/>mais qu’il s<subst><del>’est</del><add place="overwritten">e</add></subst> fusse jamais rendu au <term ref="lem015433.03">maling esprit</term>
+						<lb/>quand sa mere ne l’eusse mené<del>e</del> et rendu<del>e</del> mesme
+						<lb/>a luy, que luy n’y <subst><del>auroit</del><add place="above">a</add></subst> jamais songé. <term ref="lem019498">Crie mercy</term>.</seg>
+						</p>
+						<p><add place="left margin"><lb/>Ist den <origDate when="1645-01-21">21 <foreign xml:lang="la">januarii</foreign>
+							<lb/>1645</origDate> mit dem <term ref="lem007052">schwert</term>
+							<lb/>hingericht unnd syn
+							<lb/><term ref="lem000271.04">lyb</term> in das <term ref="lem012936.03">füwr</term> ge<lb break="no"/>worffen worden. Ist
+							<lb/>in allem beständig
+							<lb/>gsyn, so woll umb
+							<lb/>das so ihn unnd das
+							<lb/>so syn mutter <term ref="lem017950">antrifft</term>.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p.&#160;135.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

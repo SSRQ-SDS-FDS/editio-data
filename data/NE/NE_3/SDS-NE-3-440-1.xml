@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2020-08-17"/>    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-3-440-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+                  <idno xml:lang="fr">AVN B 101.14.002, fol. 72r</idno>
+               </msIdentifier>
+               <head>Usufruit pour le survivant des biens donnés en jouissance à son conjoint par
+                  ses parents</head>
+               <msContents>
+                  <summary>Lorsque l’un des deux conjoints décède «&#160;après l’an et jours&#160;»
+                     sans laisser de famille, le survivant conserve à vie l’usufruit des biens
+                     donnés en jouissance par ses parents à celui qui est décédé.</summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1765-01-21"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000863"/>
+               <term ref="key003521"/>
+               <term ref="key000803"/>
+               <term ref="key000920"/>
+               <term ref="key000815"/>  
+               <term ref="key004428"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="72r" facs="AVN_B_101.14.002_0072r"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1765-01-21">21<hi rend="sup">e</hi> janvier
+                        1765</origDate>. </p>
+                  <p>
+                     <lb/>Sur la requête présentée par le <choice>
+                        <abbr>S<hi rend="sup">r</hi>
+                        </abbr>
+                        <expan>sieur</expan>
+                     </choice>
+                     <persName ref="per008701">Jean George <lb/>Bourquin</persName>, maître
+                     bourgeois du <placeName ref="loc007792">Landeron</placeName>, aux <lb/>fins
+                     d’avoir la déclaration de la coutume du pays <lb/>sur le cas suivant, savoir. </p>
+                  <p>
+                     <lb/>Si un enfant, venant à se marier, ses parents lui <lb/>ayant donné en
+                     jouissance des biens fonds et <lb/>autres, et qu’après l’<date dur-iso="P1Y6W"
+                           ><term ref="lem014776">an et jours</term></date> expiré cet enfant
+                     <lb/>venant à mourir sans délaisser famille, le survivant <lb/>n’est pas obligé
+                     de rendre lesdits biens aux parents <lb/>du deffunt, surtout ayant encore les
+                     pères et mère <lb/>vivans, et des frères et soeurs, qui ont constamment <lb/>et
+                     jusques icy payé les censes foncières de ces fonds <lb/>et même perçus les
+                     fruits des arbres, et les herbes <lb/>qui croissoient sur une partie
+                        d’iceux<del rend="underline">jusq</del>. </p>
+                  <p>
+                     <lb/>Monsieur le maître bourgeois en chef et <orgName ref="org003085">
+                        <choice>
+                           <abbr>mess<hi rend="sup">rs</hi>
+                           </abbr>
+                           <expan>messieurs</expan>
+                        </choice>
+                        <lb/>du Petit Conseil</orgName>, ayant consulté ensemble <lb/>et déliberé,
+                     ont donné par déclaration, <lb/>que la coutume a constamment été dans <lb/>ce
+                     pays, que <seg>deux conjoints par le mariage, <lb/>l’un d’eux, venant à mourir
+                        après l’<date dur-iso="P1Y6W"><term ref="lem014776">an <lb/>et
+                           jours</term></date>, sans laisser famille, le survivant <lb/>a l’usufruit
+                        pendant sa vie, des biens donnés <lb/>en jouissance au prédécédé par ses
+                        parents.</seg>
+                  </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsy rendue, il a été <lb/>ordonné au secrétaire du
+                     Conseil soussigné <lb/>de l’expédier en cette forme, sous le seau de <lb/>la
+                     mairie et justice de <origPlace ref="loc007786">Neufchatel</origPlace>, ce
+                        <origDate when="1765-01-21">vingt <lb/>unième janvier mille sept cent
+                        soixante et cinq</origDate>. </p>
+               </div>
+               <div>
+                  <signed>
+                     <persName ref="per008687">Renaud</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

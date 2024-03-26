@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2020"/>
+                <date type="print" when="1989"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/>
+                </respStmt>
+                <idno>SDS-VD-D_1-27-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;439–442</idno>
+                    </msIdentifier>
+                    <head>Mandement de l’évêque de Lausanne au châtelain de Dommartin concernant le procès de sorcellerie de Jeannette Vincent</head>
+                    <msContents>
+                        <summary>
+                            <p>Jean Costable, châtelain de Dommartin et juge temporel du Chapitre cathédral de Lausanne, comparait le 23 octobre 1524 devant l’évêque de Lausanne Sébastien de Montfalcon, dans la chapelle Saint-Jean-Baptiste de ladite cathédrale. L’évêque accuse le châtelain de s’être immiscé dans l’office d’inquisition en faisant arrêter et juger Jeannette Vincent de Dommartin, usurpant ainsi les fonctions de l’évêque en tant qu’inquisiteur général député par le siège apostolique dans tout son diocèse. Le châtelain reconnait que la poursuite de l’hérésie ne figure pas parmi ses facultés, mais ajoute que celles-ci lui permettent néanmoins d’agir contre les <foreign xml:lang="la">facinorosos, maleficos et delinquentes</foreign>&#160;; ce qui semble être le cas de Jeannette Vincent, arrêtée sur clame d’une autre femme de Dommartin qui l’a accusée d’être une méchante femme (<orig>&#160;meschientaz femmaz&#160;</orig>). L’évêque interdit au châtelain de procéder contre l’accusée, laquelle est suspectée de crime d’hérésie et a été signalée par des supposés complices. Les deux parties demandent au notaire Richard de rédiger des lettres testimoniales, en présence du bailli de Lausanne et du châtelain de Vevey.</p>
+                        </summary>
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate when="1524-10-23"/>
+                            <origPlace ref="loc009833.01">Notre-Dame de Lausanne</origPlace>                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;208–211</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;65–67</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000055619">Ostorero 2010</ref>, p.&#160;20</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/> 
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="439" facs="ACV_AC-29_438_439"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1524">1524</date></ab></div>
+                        <head type="subtitle" resp="GO">23 octobre 1524</head>
+                        <p><seg><lb/>In nomine Domini amen. <origDate when="1524-10-23">Anno a nativitate
+                                        <lb/>eiusdem Domini sumpto currente millesimo
+                                        <lb/>quingentesimo vicesimo quarto, indicione
+                                        <lb/>duodecima cum eodem anno sumpta, die vero
+                                        <lb/>vicesima tertia mensis octobris.</origDate></seg>
+                            <seg>In mis
+                                        <lb/>notarii publici et testium subscriptorum presentia
+                                        <lb/>personaliter constituti&#160;: reverendissimus
+                                        <lb/>in <persName ref="per000353a.17">Christo</persName> pater et dominus dominus <persName ref="per016587a.01">Sebastianus
+                                        <lb/>de Montefalcone</persName>, miseratione divina
+                                        <lb/><term ref="lem001847.01">episcopus</term> <orgName ref="org001749.04">Lausannensis</orgName> et <term ref="lem000016.01">princeps</term> ex una&#160;; et
+                                        <lb/>nobilis <persName ref="per016546a.01">Johannes Costabloz</persName>, <term ref="lem017142.01">castellanus</term>
+                                        <lb/>castellaniarum de <orgName ref="org005241.02">Dompno Martino</orgName> et de <orgName ref="org005304.02">Essertines</orgName>,
+                                        <lb/><add place="left margin" type="sign">pro venerabili capitulo <orgName ref="org004033.02">Lausannensi</orgName></add> ac eis nominibus partibus ex alia. Prefatus siquidem
+                                        <lb/>reverendissimus dominus <orgName ref="org001749.04">Lausannensis</orgName> episcopus et princeps,
+                                        <lb/>sua verba dirigens ad dictum nobilem <persName ref="per016546a.01">Johannem
+                                        <lb/>Costabloz</persName> nominibus quibus supra et eidem
+                                        <lb/>alloquens, dixit quod ipse nobilis <persName ref="per016546a.01">Johannes
+                                        <lb/>Costabloz</persName> non ignorabat ignorareque non
+                                        <lb/>debebat, ipsum reverendissimum dominum <orgName ref="org001749.04">Lausannensem</orgName> episcopum et
+                                        <lb/>principem fuisse et de presenti esse <orgName ref="org001749.04">Lausannensem</orgName>
+                                        <lb/>episcopum generalemque in tota sua dyocesi <placeName ref="loc005781.05">Lausannensi</placeName>
+                                        <lb/><term ref="lem017062.02">heretice pravitatis inquisitorem</term> auctoritate
+                                        <lb/>apostolica et a summo romano pontifice constitutum et
+                                        <lb/>deputatum&#160;; et quod ipse nobilis <persName ref="per016546a.01">Johannes</persName> nominibus 
+                                        <lb/><sic>jandictis</sic> –&#160;qua auctoritate, facultate <del rend="strikethrough">ve</del> sive licentia
+                                        <lb/><add place="left margin" type="sign">ignorabat</add>&#160;– dictum inquisitionis heretice pravitatis officium
+                                        <lb/>exercuebat et exercere nitebatur, exercereque ulterius
+                                        <lb/>satagebat <del rend="strikethrough">ignorabat</del>, capiendo prout cepit,
+                                        <lb/>detinuit, inquisivit, questionavit, interrogavit,
+                                         <lb/>examinavit, processus formavit et <term ref="lem018147.01">torqueri</term> <del rend="strikethrough">fecit</del>
+                                        <lb/>ac alias et alia fieri, tam per se quam per suos servitores,
+                                        <lb/>clientes, servientes et nuntios seculares fecit et
+                       <pb n="440" facs="ACV_AC-29_440_441"/><lb/>procuravit&#160;; et inter ceteros utriusque sexus homines,
+                                        <lb/>quandam mulierem appellatam <persName ref="per016490a.02">Vincentaz</persName> de<note>On comprend mal la fonction de cette préposition&#160;; peut-être le notaire voulait-il indiquer son village.</note>
+                                        <lb/>quam ipse nobilis <persName ref="per016546a.01">Johannes</persName>, castellanus dictorum
+                                        <lb/>locorum, ad presens super dicto casu <term ref="lem017109.01">heresis</term> 
+                                        <lb/>cepit et detinet, juriditionem et exercicium officii
+                                        <lb/>inquisitionis heretice pravitatis sibi attribuendo,
+                                        <lb/>inque de ipso inquisitionis officio de facto immiscendo,
+                                        <lb/>ipsumque inquisitionis officium sibi reverendissimo
+                                        <lb/>domino <orgName ref="org001749.04">Lausannensi</orgName> usurpando et turbando, quod
+                                        <lb/>sic sibi dicto castellano facere non licebat
+                                        <lb/>neque licuit de jure, neque de consuetudine
+                                        <lb/>loci et patrie. </seg>
+                            <seg>Adque humiliter et cum
+                                        <lb/>quanta debuit et potuit reverentia, respondit
+                                        <lb/>ipse prefatus nobilis <persName ref="per016546a.01">Johannes Costabloz</persName>,
+                                        <lb/>castellanus et eis nominibus quibus supra, et dixit
+                                        <lb/>quod –&#160;salva ipsius reverendissimi domini <orgName ref="org001749.04">Lausannensis</orgName>
+                                        <lb/>episcopi et principis reverentia&#160;– numquam de
+                                        <lb/>dicto inquisitionis heretice pravitatis officio
+                                        <lb/>se immiscuit nec se immiscere vellet,
+                                        <lb/>cum non sit sue facultatis nec ad eum 
+                                        <lb/>spectabat de materia inquisitionis se
+                                        <lb/>immiscere, neque ipsum inquisitionis heretice
+                                        <lb/>pravitatis officium numquam intellexit se velle
+                                        <lb/>exercere nec ad se attribuere, quia suo
+                                        <lb/>non incombebat castellanie officio, quinymo
+                                        <lb/>–&#160;secluso exercicio officii dicte inquisitionis&#160;–
+                                        <lb/>suo incombebat castellanie officio 
+                                        <lb/><term ref="lem018933.02">facinorosos</term>, <term ref="lem018932.02">maleficos</term> et delinquentes aeguere,
+                                        <lb/>corrigere et juxta delictorum qualitates et quantitates
+                                        <lb/>punire et justitiam ministrare. Et licet
+                                        <lb/>ipse castellanus detineat dictam mulierem,
+                                        <lb/>hoc non fit neque facit pro crimine heresis,
+                                        <lb/>sed potius et verius vigore clame et instantie
+                                        <lb/>supra corpus dicte <persName ref="per016490a.02">Vincentaz</persName>, per <persName ref="per016590a.01">Glaudiam</persName>, uxorem
+                                        <lb/><persName ref="per016588a.01">Johannis Calye</persName> de <placeName ref="loc010909.03">Na</placeName>, parrochie <placeName ref="loc007669.02">Dompni Martini</placeName>,
+                          <pb n="441" facs="ACV_AC-29_440_441"/><lb/>factarum super eo, videlicet quod dicta <persName ref="per016590a.01">Glaudia</persName>
+                                        <lb/>asseruit dictam <persName ref="per016490a.02">Vincentaz</persName> fuisse et esse,
+                                        <lb/>vulgariter loquendo, <foreign xml:lang="fr">meschientaz femmaz</foreign>, et
+                                        <lb/>non alias.</seg>
+                            <seg>Quaquidem responsione
+                                        <lb/>sic per dictum <persName ref="per016546a.01">Johannem Costabloz</persName> castellanum
+                                       <lb/>et eis nominibus quibus supra facta, prelibatus
+                                        <lb/>reverendissimus dominus <orgName ref="org001749.04">Lausannensis</orgName> episcopus prefato nobili
+                                        <lb/><persName ref="per016546a.01">Johanni Costabloz</persName> castellano prohibuit, defendit et
+                                       <lb/>inhibuit sub sententiis et censuris apostolicis, et
+                                       <lb/>in quantum ipsas sententias et censuras ecclesiasticas,
+                                        <lb/>tam a jure quam a summo romano pontifice<note>Il manque le verbe introduit par <orig>&#160;in quantum&#160;</orig> et qui devrait signifier <orig>&#160;émanant de&#160;</orig> (les sentences émanant du droit et du souverain pontife).</note>,
+                                       <lb/>contra tales officio sacre inquisitionis heretice
+                                       <lb/>pravitatis sine licentia et auctoritate ipsius summi
+                                        <lb/>pontificis seu ipsius reverendissimi domini <orgName ref="org001749.04">Lausannensis</orgName>,
+                                        <lb/>in tota sua dyocesi <placeName ref="loc005781.05">Lausannensi</placeName> generalis inquisitoris,
+                                       <lb/>immiscentes et illud indebite attribuere
+                                       <lb/>sive usurpare nitentes, inflictas et 
+                                        <lb/>comminatas, ne ipse prefatus nobilis <persName ref="per016546a.01">Johannes
+                                       <lb/>Costabloz</persName>, dictorum locorum castellanus, auderet
+                                       <lb/>sive audeat se numquam inmiscere nec
+                                        <lb/>ulterius quitquam contra dictam <choice><sic>melierem</sic><corr>mulierem</corr></choice> appellatam
+                                        <lb/><persName ref="per016490a.02">Vincentaz</persName> verbo nec facto procedere presumeret,
+                                       <lb/>in quantum multas juris penas incurrere
+                                       <lb/>formidabat, asserens ipse prelibatus
+                                        <lb/>reverendissimus dominus <orgName ref="org001749.04">Lausannensis</orgName> episcopus et princeps dictam
+                                        <lb/>mulierem vocatam <persName ref="per016490a.02">Vincentaz</persName> fuisse et esse
+                                        <lb/>de <term ref="lem017269.01">crimine heresis</term> suspectam, ymo verius de ipso 
+                                       <lb/>heresis crimine per nonnullos super dicto
+                                       <lb/>casu convictos et plexos acculpatam,
+                                        <lb/>offerens se idem reverendissimus dominus <orgName ref="org001749.04">Lausannensis</orgName>
+                                       <lb/>de processibus eorumdem plexorum, 
+                                       <lb/><add place="left margin" type="sign">in quibus dicta 
+                                                    <lb/>mulier <persName ref="per016490a.02">Vincentaz</persName> 
+                                                    <lb/>erat intitulata 
+                                                    <lb/>sive acculpata,</add> 
+                                       <lb/>promptam fidem facturum&#160;;
+                                       <lb/>totiens quotiens ipse castellanus voluerit et 
+                                       <lb/>opportunum fuerit. </seg>
+                            <seg>De quibus premissis omnibus et
+                                        <lb/>singulis suprascriptis, prelibatus reverendissimus 
+                       <pb n="442" facs="ACV_AC-29_442_443"/><lb/>dominus <orgName ref="org001749.04">Lausannensis</orgName> episcopus et princeps, per me
+                                        <lb/><sic>jandictum</sic> notarium publicum subsignatum,
+                                        <lb/>jussit<note>La phrase s’interrompt ici. Probablement l’évêque ordonnait-il, comme le châtelain dans la phrase suivante, que lui soient livrées des lettres testimoniales. Toutefois, le châtelain demande qu’elles soient concédées <orig>&#160;ad opus cuiuslibet partis&#160;</orig>, ce qui expliquerait que l’évêque n’ait pas besoin de l’ordonner.</note>. Dictus vero nobilis <persName ref="per016546a.01">Johannes Costabloz</persName>, 
+                                        <lb/>castellanus et eis nominibus quibus supra,
+                                        <lb/>a me predicto notario publico subsignato
+                                        <lb/>petiit per me et requisivit sibi dari, tradiri et
+                                        <lb/>concedi litteras de premissis testimoniales seu
+                                        <lb/>publicum et publica instrumentum et instrumenta
+                                        <lb/>ad opus cuiuslibet partis unum ac tot quot
+                                        <lb/>sibi fuerint necessaria et opportuna, dictanda et
+                                        <lb/>corrigenda ad dictamen sapientium, facti
+                                        <lb/>tamen sustantia in aliquo non mutata.
+                                        <lb/>Acta fuerunt hec publice in majore ecclesia,
+                                        <lb/>videlicet cathedrali <origPlace ref="loc009833.05">Lausannensi</origPlace>, in navi dicte
+                                        <lb/>ecclesie, ante et prope altare capellanie Sancti
+                                        <lb/><persName ref="per000049a.26">Johannis Baptiste</persName><note>Autel Saint-Jean-Baptiste, dans la <placeName ref="loc009833.06">cathédrale de Lausanne</placeName>.</note> in dicta ecclesia fondate,
+                                        <lb/>presentibus ibidem nobilibus viris <persName ref="per016592a.01">Georgio
+                                        <lb/>Levet</persName>, <term ref="lem018778.03">baillivo</term> <orgName ref="org009301.02">Lausanensi</orgName>, et <persName ref="per016593a.01">Jacobo
+                                        <lb/>Hugonin</persName> de <placeName ref="loc008475.04">Turri de Peil</placeName>, castellano <orgName ref="org005217.03">Viviaci</orgName>,
+                                        <lb/>testibus ad premissa vocatis specialiter et
+                                        <lb/>rogatis.
+                            </seg></p>
+                           <p><seg><hi rend="right">pro duplo instrumento
+                                           <lb/>prescripti</hi></seg></p>                
+                            <p><seg><signed><persName ref="per025927a.01">Richardi</persName> <figure type="notarial sign"/></signed></seg></p>
+                    </div>
+                </body> 
+            </text>
+        </group>
+        <back>
+            <div>
+                    <p>Le mandement du 23 octobre 1524 concerne l’affaire Jeannette Vincent (<bibl><ref target="urn:ssrq:SDS-VD-D_2-39-1">SDS VD D_2 39-1</ref>&#160;: <!--controler le numéro à la fin-->ACV, Bh 10/3</bibl>) de Dommartin, une des femmes accusées dans la chasse aux sorciers menée dans les terres du Chapitre cathédral de Lausanne durant les années 1520, au cours de laquelle furent aussi jugés Claude Rolier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-26-1">SDS VD D 1 26-1</ref>&#160;: ACV, Ac 29, p.&#160;443–454</bibl>), Margot Rolier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-31-1">SDS VD D 1 31-1</ref>&#160;: ACV, Ac 29, p.&#160;469–484</bibl>) et Françoise Gilliéron (<bibl><ref target="urn:ssrq:SDS-VD-D_1-30-1">SDS VD D 1 30-1</ref>&#160;: ACV, Ac 29, p.&#160;485–492</bibl>). Les lettres témoignent du conflit de juridiction existant entre l’évêque et le Chapitre de Lausanne vis-à-vis de la répression de la sorcellerie.</p>
+                    <p>La lettre testimoniale occupe les pages 439 à 442 du registre Ac 29 des ACV. Elle a été rédigée par le notaire Richard, qui authentifie le document à l’aide de son signet.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

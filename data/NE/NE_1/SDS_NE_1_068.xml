@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-68-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;194r</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur l'obligation de rédiger les plaidoiries en cas
+                  d'appel</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="45"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1537-10-25"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_168">SDS NE 1, N<hi rend="sup">o</hi>&#160;68</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184"></term>       
+               <term ref="key005189"></term>
+               <term ref="key000287"></term>
+               <term ref="key005191"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="194r" facs="AEN_3PAST_2_193v_194r"/>
+               <div>
+                  <add place="left margin"><lb/>Reconfirmation du decret <lb/>faict pour faire rediger
+                     <lb/>par escript les remaises <lb/>et plaidoyeries deans huict <lb/>jours après
+                     le cognoissance <lb/>rendue sy on en proteste.</add>
+                  <p><lb/>Messeigneurs des Trois Estatz icy devant nommez en general estans
+                     assemblez <lb/>par ensemble, ont derechef renouvellé ung decret qu’estoit
+                     paravant faict<note>Note Favarger&#160;1982&#160;: Ne nous est pas
+                        parvenu.</note>, <lb/>qu’est que une chacune justice dudict comté de
+                     Neufchastel sera tenue deans huict <lb/>jours faire coucher par escript les
+                     plaidoyeries que leur seront mises par devant, <lb/>a peyne de
+                        <measure>soixante solz</measure> d’esmende, moyennant que le clerc de la
+                     justice sera tenu <lb/>l’escrire et la presenter a ladite justice deans lesditz
+                     huict jours, sy tant <lb/>est que proteste d’appellation y soit faite&#160;; et
+                     sy ledict clerc estoit desfaillant, <lb/>l’officier <del rend="strikethrough"><gap/></del> sera tenu a ce le
+                     contraindre a semblable ban de <measure>soixante solz</measure>&#160;; et<lb/>
+                     afin que ledict clerc ait occasion de ce faire, mesditz seigneurs ordonnent que
+                     <lb/>le protestant sera tenu donner et délivrer sur le pied audit clerc
+                        <measure>dix solz foibles </measure><pb n="194v"
+                           facs="AEN_3PAST_2_194v_195r"/><lb/>et a ladite justice pour passer ladicte <term
+                        ref="lem017803">remaise</term>
+                     <measure>cinq solz</measure>&#160;; et s’il ne donnoit lesditz <lb/>quinze solz
+                     ledit clerc ny ladite justice ne seront tenus icelle <term ref="lem017803"
+                        >remaise</term>
+                     <lb/>coucher ny escripre, ains sera ladite protestation nule.</p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;194.<note>Aujourd'hui AEN 3PAST-2</note></p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;271.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;8-8v.</p>
+               <p>AEN, Registre des Trois-États, I, fol.&#160;101v-11.</p>
+               <p>AEN, T&#160;12, N<hi rend="sup">o</hi>&#160;2, p.&#160;30-31.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;4.</p>         
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

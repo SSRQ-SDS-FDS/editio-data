@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 144v</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 144v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Vater / le père – Anweisung</head>
+					<head xml:lang="fr">Pierre Ducli der Vater / le père – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-10">10<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> [1651]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangne</p>
+						<p><seg><lb/><persName ref="per020477a.01">Pierre Ducly</persName>, der syn eigen hausung <term ref="lem018824.03">angesteckht</term>, dardurch die
+							<lb/><term ref="lem000240.12">kilchen</term> zu <placeName ref="loc008073.01">Matran</placeName> sampt noch anderen haüser allerdings <term ref="lem019166.03">yngeäscheret</term>
+							<lb/>worden, <term ref="lem017464">mithin</term> ist er <term ref="lem018703.03">hirnmüthig</term>, darby aber gantz <term ref="lem019178.02">wortheillig</term> gsyn.
+							<lb/>Unnd wylen diß sehr bedencklich, er aber mit zimblichen <term ref="lem002287.08">mittlen</term>
+							<lb/>begabet, die <term ref="lem000130.35">khinderen</term> auch offt unnd <term ref="lem001483.06">dickh</term> gemahnt worden,
+							<lb/>ihnne anzufäßlen unnd woll zu <term ref="lem011264">verwahren</term>, so sie aber unbe<lb break="no"/>dachtsamb <term ref="lem010257">übersehen</term>, sollend syne gütter wie billich <term ref="lem005891.04">lyden</term>.</seg>
+							<seg><lb/>Die deputierte herren haben zu etwelcher <term ref="lem004242">reparation</term> der abgebranten
+							<lb/>pfarrkirchen unnd anderer nachbaren gebüwen <measure type="currency" quantity="1000" unit="k">1000 </measure> geschöpfft.
+							<lb/>Darby <subst><del rend="underline">wirdt</del><add place="inline">will</add></subst> man es bewenden lassen, doch das disere verordnung den
+							<lb/>rechtmässigen <term ref="lem009105">gläubigeren</term> nit zu nachteill <term ref="lem005821.02">erschieße</term>. Der kirchen
+							<lb/>verordnet man <measure type="currency" quantity="800" unit="k">800 </measure> unnd <measure type="currency" quantity="200" unit="k">200 </measure> den anderen brunsterlitnen.</seg> <seg>Unnd
+							<lb/>damit die kirchen uff das bäldest bedeckht unnd wider <term ref="lem010518">ufferbauwt</term>
+							<lb/>soll <abbr>hr</abbr> oberster <persName ref="per013438a.01">von Perroman</persName> sampt <abbr>h</abbr> <term ref="lem002872.04">bauwmeister</term> angends <term ref="lem005639">verschaffen</term>,
+							<lb/>das daß holtz alßbaldt <term ref="lem013178.03">gefölt</term> <subst><del>werde</del><add place="inline">unnd</add></subst> gezimmeret werde durch die
+							<lb/><term ref="lem000674.14">kirchgenossen</term>. Zu bezahlung der <term ref="lem003692.14">zimmerlüthen</term> soll man in deduction der <measure type="currency" quantity="800" unit="k">800 </measure>
+								<lb/>das <term ref="lem000049.01">korn</term> angryffen, doch den <term ref="lem000130.35">khinderen</term> zu ihrer nahrung darvon geben. Under<lb break="no"/>dessen die <term ref="lem019149.03">perrochianer</term> zu dem <term ref="lem010580.10">kilchgebüw</term> gelt <term ref="lem016276.04">uffbrechen</term> unnd  genanter <abbr>hr</abbr>
+							<lb/>oberster allen gwalt haben, die <term ref="lem009779.04">erhoüschende</term> anordnung zu thun. <foreign xml:lang="la">Vide infra<note>Vgl. den untersten Abschnitt.</note></foreign>.</seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne les procès menés contre <persName ref="per020329">Elsi Veillard</persName>,
+							<persName ref="per020299">Mathia Palliard-Cosandey</persName> et <persName ref="per020304">Agathe Wirz-Corboz</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-155.8-1">SSRQ FR I/2/8 155.8-1</ref> et <ref target="urn:ssrq:SSRQ-FR-I_2_8-154.14-1">SSRQ FR I/2/8 154.14-1</ref></note></p>
+						<p><lb/><hi rend="outdent">Parroissiens de <placeName ref="loc008073.04">Mattran</placeName></hi>, par leurs deputés <persName>Franceois Maior</persName><note>Peut-être s’agit-il du
+							mari de <persName ref="per020499">Elisabeth Mayor-Savarioud</persName>&#160;?</note> et <persName>Pierre Bulliard</persName>, plaignent
+						<lb/>que se trovant avec les seigneurs souverainement establys au subject de
+						<lb/>l’<term ref="lem019136.02">ovaille</term> survenu audit <placeName ref="loc008073.04">Mattran</placeName>, le curé de <placeName ref="loc007899.04">Barbereche</placeName> <persName>Domp
+						<lb/>Pierre Juvat</persName> leur dit sur la rue, que <persName ref="per020477a.01">Pierre Ducly</persName>, qui a mis
+						<lb/>le <term ref="lem014953.01">feu</term> dans sa maison, estoit aussy homme d’honneur qu’eux et
+						<lb/>autres semblables injures. Dont ils prient <choice><abbr>L E</abbr><expan>Leurs Excellences</expan></choice> voulloir induire
+						<lb/>ledit <choice><abbr>sr</abbr><expan>seigneur</expan></choice> <persName>Domp Juvat</persName> à leur à <add place="above">ne</add> les plus molester. Alle wortt
+						<lb/>uffgehebt mit <term ref="lem004618.05">bevelch</term> an <choice><abbr>hrn</abbr><expan>herrn</expan></choice> obristen <persName ref="per013438a.01">von Perroman</persName> unnd <choice><abbr>hrn</abbr><expan>herrn</expan></choice>
+							<term ref="lem018597.02">bur<lb break="no"/>germeister</term><note>Gemeint ist <persName ref="per009276">Franz Karl Gottrau</persName>.</note>, sie sollend ihme den kopff starckh <term ref="lem018726.01">abzwagen</term>. Deßglychen
+						<lb/>soll <abbr>hr</abbr> <foreign xml:lang="la">vicarius generalis</foreign> auch thun, mit vermelden, wo er syn zungen
+							<lb/>nit stutzet, man werde ihme würckhlich straffen und <term ref="lem016960">abschaffen</term>.</p>
+						<p><lb/><hi rend="outdent"><persName>Baumgartner</persName>, der</hi> <term ref="lem007817.02">güesser</term>, sampt den pfarrherren von <placeName ref="loc008073.04">Mattran</placeName> sollen den <term ref="lem019179.02">gloggenzüg</term> zu
+							<lb/>sammen thun, abwegen unnd biß uff <subst><del>bem</del><add place="inline">obgenants</add></subst> <choice><abbr>hrn</abbr><expan>herrn</expan></choice> obristen
+							<lb/><persName ref="per013438a.01">von Perromans</persName> wytterer fürsehung uffbehalten.<note>Dieser Abschnitt bezieht sich auf das obige «Vide infra». Ein weiterer Eintrag zu den neu zu giessenden <term ref="key004725">Kirchenglocken</term> befindet sich in <bibl><ref target="http://www2.fr.ch/aef_query/detail.aspx?ID=71631">StAFR, Ratsmanual 202</ref> (1651), fol. 149v</bibl>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

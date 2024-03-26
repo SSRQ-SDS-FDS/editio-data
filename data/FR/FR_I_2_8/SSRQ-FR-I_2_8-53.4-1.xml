@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-53.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 169</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 169</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Jaquier, Marguerite Ansermet – Verhör</head>
+					<head xml:lang="fr">Claude Jaquier, Marguerite Ansermet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1621-05-28"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Ufm <placeName ref="loc007890.03">Jaquemar</placeName>
+							<seg><lb/><origDate when="1621-05-28">28 <foreign xml:lang="la">maii</foreign> <hi rend="underline">1621</hi></origDate>, <choice><abbr>j</abbr><expan>judex</expan></choice> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009249">Daniel von Montenach</persName>.</note>, <persName ref="per006840">Fleischman</persName></seg>
+							<seg><lb/><subst><del>1</del><add place="overwritten">2</add></subst><note>An diesem Tag fanden mehrere Verhöre statt. Die vorgestellten Zahlen dienten zur Verrechnung der Sitzungsgelder, und sie signalisieren, wie oft die Mitglieder des Gerichts anwesend waren.</note> <abbr>h</abbr> <persName ref="per006501">Heinricher</persName>,  1 <abbr>h</abbr> <persName ref="per009250">Gerwer</persName></seg>
+							<seg><lb/><persName ref="per009251">Känel</persName>, 1 <persName ref="per009252">Rämi</persName>, <subst><del>1</del><add place="overwritten">2</add></subst> <persName ref="per009117">Pitung</persName>, <subst><del>1</del><add place="overwritten">2</add></subst> <persName ref="per009123">Werli</persName></seg>
+							<seg><lb/>1 <persName ref="per009253">Bocard</persName></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg>
+							<seg><persName ref="per009247a.01">Margerita Ansermet</persName> <term ref="lem019498">crie bien humblement
+						<lb/>mercy</term>, si dernierement n’a bonnement sceu
+						<lb/>respondre sus tous <term ref="lem017003.03">interrogats</term>. Concernant
+						<lb/>primierement les blasmes proferuz contre
+						<lb/>elle, se souvient que <persName ref="per009248a.03">Claude Joquier</persName>
+						<lb/>a dit et parlé qu’on la <term ref="lem019496.07">brusleroit</term> dans
+						<lb/><date dur-iso="P6Y">6 ans</date>.</seg> <seg>La cause de telle envie est que
+						<lb/>aprés <subst><del>le</del><add place="above">que</add></subst> la commune de <placeName ref="loc007620.02">Cheyry</placeName> l’eut ac<lb break="no"/>commodé d’un jardin, se mirent a vendre
+						<lb/>vin, dont ledit <persName ref="per009248a.03">Joquier</persName> en estoit fort envieux,
+						<lb/>ce qu’est la cause que la persecuté cy avant
+						<lb/>ayant souffert plusieurs debats. Quand
+						<lb/>aux medicines, si elles ne sont licites, ne
+						<lb/>les veult plus user, ny les a usé depuis
+						<lb/>qu’on les luy deffendit avant <date dur-iso="P3Y">3 ans</date>.
+						<lb/>Aultre n’a dit.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

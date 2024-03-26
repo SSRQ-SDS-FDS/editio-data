@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de
+               Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor>
+            <editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>
+            <date type="print" when="1982"/>
+            <availability>
+               <p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                  4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-45-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN BV-146, parchemin No&#160;11</idno>
+               </msIdentifier>
+               <head>Dispense accordée par Claude d'Aarberg, seigneur de Valangin, aux bourgeois de
+                  Valangin, moyennant le paiement de 90&#160;livres, d'entretenir les ponts du dit
+                  bourg, cet entretien étant à la charge du seigneur de Valangin</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="19"/>
+                              <width unit="cm" quantity="36.7"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="fragmentary" ns0:material="wax" ns0:shape="round" ns0:attachment="sealed on a parchment tag"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1505-08-05"/>
+                     <origPlace ref="loc005950">Valangin</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_127"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;45</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000086"/>
+               <term ref="key000479"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1" facs="AEN_BV_146_parchemin_11"/>
+               <div>
+                  <p>
+                     <lb/>Nous Claude, conte d’Arberg, baron et seigneur de Valangin et de
+                     Boffremont savoir faisons a tous ceulx quilz ces presentes lectres verront et
+                     orront tant au present <lb/>comme ou temps advenir que nous pour nous, noz
+                     hoirs et successeurs que comme ainsi soit que noz bourgeois de Valengin, pour
+                     eulx et pour <lb/>leurs hoirs, fussent entenuz de maintenir et entretenir les
+                     ponts devant le bourg dudict Valengin jongnant a l’entour dudict bourg et
+                        <supplied>la voulte</supplied>
+                     <lb/>jongnant a nostre eglise nouvellement fondée devant ledict bourg dudict
+                     Valengin qu’est entre nostre dicte eglise et nostre moulin quil <supplied>est
+                        pour</supplied>
+                     <lb/><supplied>le</supplied> present ainsin comme antiennement l’avoient
+                     accoustumez de faire, maintenir et entretenir et seront aussi quietez nozdicts
+                     bourgeois de <supplied>tous aultres</supplied>
+                     <lb/><supplied>ponts</supplied> a l'entour de nostre dict bourg pour eulx et
+                     leurs hoirs, de maintenir et entretenir comme dit est. Or est ainsin que pour
+                     les humbles <supplied>prières et </supplied><lb/>supplications et requestes de
+                     nozdicts bourgeois, nous ledict Claude, conte et seigneur dessus nommez, pour
+                     nous et noz hoirs, avons promis <supplied>et promettons </supplied><lb/>soubz
+                     l'obligation de tous nos biens presens et advenir et de ceulx de nozdicts hoirs
+                     a nozdicts bourgeois et a leursdictz hoirs perpetuelment maintenir
+                        <supplied>conduire </supplied><lb/>et entretenir bon et vaillable lesdicts
+                     ponts et les faire ediffier de pierres et de murailles <supplied>par
+                        manieres</supplied> que nosdicts bourgeois ne <supplied>seront par cy après
+                     </supplied><lb/>de riens entenuz de les maintenir ne entretenir en maniere
+                     quelxconques. Et aussy leurs avons promis comme dessus de faire et ediffier
+                     <lb/>de costé ledict pont devant le bourg jongnant ladicte
+                        <supplied>tourt</supplied>, ung aulge et abreveur de pierres de tailles et
+                     non aultre et non aultre chouse pour <lb/>et au proufit de nous et de nozdicts
+                     bourgeois, le tout que dessus, sans fraulx et sans barat. Et est ce pour et
+                     moyennant la <lb/>somme de quatre vingts et dix libvres petites monnoies
+                     courant es terres et seigneurie dudict Valengin que nous avons heu et recephu
+                        <supplied>a</supplied>
+                     <lb/>ceste cause et en quictons nozdicts bourgeois et leurs hoirs et tous
+                     aultres, promectant pour ce, nous ledict Claude, conte, baron <supplied>et
+                        seigneur</supplied>
+                     <lb/>dessus nommez <gap reason="missing" quantity="9" unit="line"/>
+                     <lb/><note>Favarger reprend sa transcription à la ligne&#160;24.</note>En
+                     tesmoingz desquelles chouses, nous Claude, conte d’Arberg, baron et seigneur
+                     dessus nommez nostre propre sel a ces presentes lectres avons <lb/>commandé
+                     mectre ensamble nostre signet manuel cy mis, <origDate when="1505-08-05">le
+                        cinquiesme jour du mois d’aoust l’an Nostre Seigneur courant <lb/>mil cinq
+                        cents et cinq. </origDate></p>
+                                    <signed>Claude d’Arberg</signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, avec sceau sur simple queue, AEN, Archives de la Bourgeoisie de Valangin, parchemin N<hi rend="sup">o</hi>&#160;115.</p>
+               <p>Copie du XVII<hi rend="sup">e</hi>&#160;siècle, AEN, U&#160;5, N<hi rend="sup">o</hi>&#160;1.</p>
+               <p>Cité&#160;: Matile,<hi rend="italic"> Seigneurie de Valangin</hi>,
+                     p.&#160;204.</p>
+               <p>J.&#160;Courvoisier, <hi rend="italic">Les monuments d'art et d'histoire du canton
+                        de Neuchâtel</hi>, III, p.&#160;142.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

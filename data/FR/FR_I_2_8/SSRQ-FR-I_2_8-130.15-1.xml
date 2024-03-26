@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-130.15-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 448–449</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 448–449</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Mury-Favre, Louis Andrey – Verhör und Urteil</head>
+					<head xml:lang="fr">Clauda Mury-Favre, Louis Andrey – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1647-07-04" to="1647-07-06"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="448"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-07-04">4<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Tornier</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per017746a.01">Clauda Fabvre</persName> a entierement confirmé ses presentes <term ref="lem019465.02">confessions</term>
+							<lb/>et <add place="above" type="sign">dit</add> que lesdits <persName ref="per017754a.01">Collard Cugniet</persName> et <persName ref="per017761a.01">Louys Bastalliard</persName> estoient aussy
+							<lb/>bien <term ref="lem019308.02">sorciers</term> qu’elle, les ayant veu a la <term ref="lem017043">secte</term> une fois es <placeName ref="loc012044.03">Clouds
+							<lb/>Ryouds</placeName> et six fois vers la fontaine des <placeName ref="loc011701.06">Aschilletes</placeName>, ou ce qui
+							<lb/>se sont aydé a faire la <term ref="lem018102.02">gresle</term> des <date dur-iso="P6Y">six ans</date> en ça, dont les fruicts
+							<lb/>et biens de terre feusrent <term ref="lem019484.03">tempestés</term> <date dur-iso="P5Y">cinq annees</date> de fisle aux
+							<lb/>villages de <placeName ref="loc007935.10">Farvagnye</placeName> et la a l’entour, disant le voulloir
+							<lb/>soustenir a <persName ref="per017761a">Bastalliard</persName>, de mesme que a <persName ref="per017754a">Cugniet</persName>.</seg> <seg>Estant
+							<lb/>surce confrontee avec <persName ref="per017761a">Bastalliard</persName>, luy soustient devant
+							<lb/>qu’ainsy estoit, disant l’avoir fort bien cogneu et veu es
+							<lb/><placeName ref="loc011701.06">Aschilletes</placeName> et <placeName ref="loc012044.03">Clouds Ryouds</placeName>, comme est dit cy dessus, et
+							<lb/>qu’il s’estoit aydé a faire la <term ref="lem018102.02">gresle</term> <date dur-iso="P5Y">cinq ans</date> de fisle et
+								<lb/>aussy dernierement lors qu’il <term ref="lem019484.02">tempesta</term> a <placeName ref="loc008334">Orsonnens</placeName>. Surquoy
+							<lb/><persName ref="per017761a">Bastalliard</persName> luy respartyst&#160;: <q>&#160;<add place="above" type="sign">Hesla&#160;!</add> Mechante villaine, le grand tort
+							<lb/>que tu moy fais&#160;! Et si tu veus estre sauvee, il te faut
+							<lb/>retracter ceste fausse accusation, ou autrement tu mourra de
+							<lb/>male mort et ne pourra jamais veoir la face de Dieu, qui
+							<lb/>sçait le grand tort que tu moy fais, ains sera infalliblement
+							<lb/>damnee. Entre, je te supplie, en toy mesme et ne dis des
+								<lb/>choses et <term ref="lem019494.02">crimes</term> que jamais je <subst><del>ay</del><add place="inline">n’ay</add></subst> commis, ce que tu sçais
+							<lb/>fort bien, si tu veus dire la verité.&#160;</q> Ce nonobstant la
+							<lb/>detenue demeura tousjours constante, disant qu’elle ne luy
+							<lb/>faisoit point de tort, mais luy s’approchant d’elle et
+							<lb/>la regardant aux yeux, luy dit&#160;: <q>&#160;Pauvre miserable que
+							<lb/>tu es, tu sçais bien que tu m’accuse faussement, mais au
+							<lb/>nom de Dieu, dis ce que tu vouldra, tousjours suis je
+							<lb/>homme de bien et toy femme de reprouvee conscience.<note>Le greffier a noté le chiffre 2 au-dessus de «&#160;reprouvee&#160;» et le chiffre 1
+								au-dessus de «&#160;conscience&#160;», afin d’indiquer qu’il convient de lire ce passage dans cet ordre inversé.</note>&#160;</q> Mais
+								<lb/>elle ne voullust en rien se <term ref="lem018985.06">dedire</term>, asserant qu’aynsin estoit, <add place="below" type="sign">et avoit mesmement entendu d’une <term ref="lem019503.07">possedee</term>, que luy l’avoit <term ref="lem018556.04">maleficiee</term>.</add></seg>
+							<seg><lb/>Et sur la demande faicte, dit n’avoir autres moyens que
+							<lb/><measure type="currency" quantity="50" unit="k">50 </measure> plus ou moings, <subst><del>qui</del><add place="inline">et</add></subst> quelque peu de mesnage, que son
+							<lb/>marry a receu d’elle a l’entree du mariage. Prie mes<lb break="no"/>seigneurs luy voulloir permettre d’accomplir ses veux et
+							<lb/>voyages qu’elle doit a <placeName ref="loc000076.11">Rome</placeName>, et promet aprés son retour de
+							<lb/>se remettre entre leurs mains et puissance, et se ranger a tout
+							<lb/>ce qu’il leur plaira de luy injoindre. <term ref="lem019498">Crie mercy</term>.</seg></p>
+						<pb n="449"/><p><seg><lb/>Quant a la femme dudit <persName ref="per017754a.01">Collard Cugniet</persName>, encor qu’elle soit fort
+							<lb/>mauvaise de langue, si portant ne sçait d’elle que bien et hon<lb break="no"/>neur, de mesme du <term ref="lem015025.04">meusnier</term> de <placeName ref="loc007935.10">Farvagnye</placeName>, mais de <persName ref="per017761a">Bastalliard</persName>
+							<lb/>et <persName ref="per017754a.01">Collard Cugniet</persName>, qui souventes fois la querelloit a cause d’un
+							<lb/>chappeau de <term ref="lem015397.03">paslie</term>, qu’il luy a pris, demeure constante.</seg></p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1647-07-06">6<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 47</origDate>
+							<lb/>zwar zum <term ref="lem012936.03">füwr</term> lebendig
+							<lb/>verurtheillet, aber uß
+							<lb/>gnad, nachdem sie <term ref="lem012942.03">geschlei<lb break="no"/>pfft</term>, bevor <term ref="lem017539">stran<lb break="no"/>guliert</term> unndt ins
+							<lb/><term ref="lem012936.03">füwr</term> gestossen worden.
+							<lb/>Zu vor aber <term ref="lem016814">vermeldt</term>,
+							<lb/>sie bette die 2 anklagten
+							<lb/>umb <term ref="lem004684.08">verzüchung</term> mit
+							<lb/><term ref="lem016814">vermelden</term>, es gedunckhe
+							<lb/>sie zwar woll, alß
+							<lb/>wan sie sie in den ver<lb break="no"/>samblung gesehen,
+							<lb/>möge es aber nit
+							<lb/>eigendtlich wüssen.
+							<lb/>In massen sie gesagt,
+							<lb/>sie habe ihnnen unrecht
+							<lb/>gethan.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 448.</note></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-93-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN, 2PAST-6.142, folio 8v-11r</idno>                  
+               </msIdentifier>
+               <head>Institution des consistoires et tribunaux matrimoniaux dans le comté de
+                  Neuchâtel</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">
+                        <origDate when="1550-03-24"/>
+                        <origPlace ref="loc007786">Neuchâtel</origPlace>
+                     </filiation>
+                     <filiation type="original">copie</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate from="1501-01-01" to="1600-12-31"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_218">SDS NE 1, N<hi rend="sup">o</hi>&#160;93</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key003400"></term>
+               <term ref="key000863"></term>
+               <term ref="key005098"></term>
+               <term ref="key005489"></term>
+               <term ref="key000184"></term>
+               <term ref="key000611"></term>
+               <term ref="key005189"></term>
+               <term ref="key005403"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="9r" facs="AEN_2PAST_6.141_8v_9r"/>
+               <div>
+                  <head><lb/>Articles desdits consi<lb break="no"/>stoires de ce dit comté de
+                     Neufchastel <lb/>esquelz les justices matrimonnialles <lb/>sont entrées pour
+                     n’estre qu’une mesme <lb/>chose. </head>
+                  <p><lb/>Nous avons constitué et constituons six consistoires<note>Note
+                        Favarger&#160;1982&#160;: La copie du XVIII<hi rend="sup">e</hi>&#160;siècle
+                        parle de 5&#160;consistoires, ainsi que le texte de Boyve.</note>
+                     <lb/>cedit conté esquelz les justices matrimonialles sont <lb/>interinées par
+                     ce que ce n’est qu’une mesme justice, <lb/>c’est ascavoir ung en cestedite
+                     ville de Neufchastel <lb/>et a chascune baronie et chastellanie du Vaulx<lb
+                        break="no"/>travers, de Thielle, du Landeron, de Bouldry <lb/>et a la
+                     maiorie de la Cotte<note>Note Favarger&#160;1982&#160;: «&#160;auquel sera
+                        compris la mairie de Boudevilliers&#160;» donné par Boyve, Annales, II,
+                        p.&#160;493, après «&#160;la Cotte&#160;».</note> aussi ung&#160;; en ung
+                     chascun <lb/>desquelz assisteront et jugeront sous les noms et tiltres <lb/>de
+                     nosditz souverains princes messeigneurs les contes <lb/>d’icy nommément ung
+                     juge, un ministre de la <lb/>parolle de Dieu et cinq jurez, aussi ung notaire
+                     juré <lb/>publicque quy servira de secretaire, qui se change<lb break="no"
+                     />ront d’an en an si besoing fai et&#160;; lesquelz consistoires <lb/>desdites
+                     quatre chastellanies et maiori es congnoistront et <lb/>jugeront tous les moys
+                     une foys sus le premier <lb/>lundy aux lieux accoustumez de tous faietz de
+                     mariage, <lb/>hormis de la conjonction et divorse qui viendront <lb/>a la
+                     congnoiscance du consistoire de ceste dite ville <lb/>de Neufchastel,<note>Note
+                        Favarger&#160;1982&#160;: Exemple de divorce dans AEN, «&#160;Justice
+                        matrimoniale de Neuchâtel&#160;», N<hi rend="sup">o</hi>&#160;1, p.&#160;1
+                        (16 IX 1570).</note> et non d’autre, que se tiendra <pb n="9v"
+                        facs="AEN_2PAST_6.141_9v_10r"/>
+                     <lb/>en la prevosté dudit lieu ou ailleurs, la ou il <lb/>sera advisé, toutes
+                     les sepmaines une foys sus le <lb/>mecredy, auquel consistoire pour faict de
+                     mariage <lb/>seullement, assisteront deux nobles, deux officiers, <lb/><del
+                        rend="crossout">deux Bourgeois comme du passé ont</del>ung notaire <lb/>juré
+                     pour secretaire <del rend="crossout">comme du passé</del> deputez de la part de
+                     <lb/>ladite souveraineté et deux du conseil de ladite ville de
+                        <lb/><placeName>Neufchastel</placeName>, reservant touteffoys a ceulx
+                     <lb/>qui seront agravez d’icelles leurs sentences, les <lb/>appellations comme
+                     cy devant. Mais si lesdits assi<lb break="no"/>stens juges sont forchuz en
+                     leurs sentences, ledit <lb/>president y jugera aussi&#160;; un chascun desquelz
+                     et <lb/><add place="left margin">ledit secretaire</add> aura par jour et assise
+                     dix solz foyble monnoye pour faictz <lb/>de mariage et d’autres scandales
+                     publicques de pailliardise <lb/>et adultaire tant seullement. Mais pour la
+                     correction <lb/>des vices, rien&#160;; touteffoys quant aux escriptures dudit
+                        <lb/><add place="left margin">secretaire</add> pour appellations elles luy
+                     seront taxées a la discre<lb/>tion desdits juges d’iceluy consistoire.</p>
+                  <p>Le sergeant de ladite seigneurie y servira et n’aura <lb/>rien en la maiorie
+                     dudit Neufchastel sinon cinq solz <lb/>pour chascun cas de mariage. Mais pour
+                     autre, rien <lb/>sinon la ou les juges prendront dix solz. </p>
+                  <p>Le consistoire de ladite maiorie de <placeName>la Cotte</placeName> se tiendra
+                     <lb/>au village de <placeName>Cormondresche</placeName> au lieu accoustumé
+                     <lb/>de la justice en nous reservant l’election desdits assistens <pb n="10r"
+                        facs="AEN_2PAST_6.141_9v_10r"/><lb/>et des surveillans jurez qui
+                     rapporteront par leursdits <lb/>sermens les vicieulx et delinquans qui seront
+                     <lb/>advenuz es prisons de cestedite ville pour estre pugnis <lb/>selon leurs
+                     desmerites, lesquelz surveillans feront serment <lb/>d’estre bons et loyaulx a
+                     ladite souveraineté, d’avancer son honneur et <lb/>prouffit et eviter son
+                     dommaige. </p>
+                  <p><del><gap reason="illegible" unit="line" quantity="2"/></del></p>
+                  <p>En après d’avoir regard sur tous vices comme pailliardise, <lb/>adultaire,
+                     yvrognerie, jeux, blasphemes, contempnement <lb/>des mandemens de ladite
+                     souverainité et generallement <lb/>sur tous cas illicites et dommageables a la
+                     reformation <lb/>chrestienne et a toute bonne vertuz. Et mesmement <lb/>ce
+                     qu’ilz verront et côngnoistront d’icelles choses <lb/>ou qui leur seroient
+                     véritablement signiffiées et neant<lb break="no"/>moings il ne seroient si
+                     grandement publicques ou <lb/>dignes de chastoy que pour la premiere foys elles
+                     <lb/>meritassent pugnition, combien qu’elles fussent deshonnestes <lb/>et
+                     scandaleuses, qu’allors elles doybvent affectueusement <lb/>et acertes
+                     admonester les facteurs de soy toutalle<lb break="no"/>ment deppourter et
+                     desister. Mais si cela ne pour<lb break="no"/>toit aucun amendement ny prouffit
+                     envers eulx <lb/>ou qu’iceulx delictz fussent si deshonnestes et publicques
+                     <lb/>qu’il n’y eust plus besoing de correction comme pailliardise <lb/>et
+                     adultaire, soit entre gens mariez ou libres, bla<lb break="no"/>sphemes,
+                     yvrogneries, tellement qu’ilz rendissent leurs <lb/>gorges ou autres semblables
+                     cas, de les reveler et <pb n="10v" facs="AEN_2PAST_6.141_10v_11r"/>
+                     <lb/>publier tous a l’officier de ladite souveraineté affin <lb/>qu’ilz soyent
+                     chastiez selon les statuz d’icelle et <lb/>que chrestiennes vertuz et bonnes
+                     meurs soyent <lb/>avancées et les méchantes chastiées&#160;; et le <lb/>tout
+                     sans fraude ny barat.</p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p><hi rend="italic">BPN</hi>, Copie du XVI<hi rend="sup">e</hi>&#160;siècle dans un
+                     cahier en papier, liasse VI<hi rend="sup">6</hi>, N<hi rend="sup"
+                     >o</hi>&#160;7.</p>
+               <p><hi rend="italic">BPN</hi>, Copie du XVIII<hi rend="sup">e</hi>&#160;siècle dans
+                     un cahier en papier, liasse VI<hi rend="sup">6</hi>, N<hi rend="sup"
+                     >o</hi>&#160;1.</p>
+               <p>Éd&#160;: Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;493-494.</p>
+               <p><hi rend="italic">Cité</hi>&#160;: Farel, p.&#160;601-602.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

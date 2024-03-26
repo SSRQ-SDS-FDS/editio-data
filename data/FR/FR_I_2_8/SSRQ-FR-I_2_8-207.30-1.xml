@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+				<p>Hallo</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.30-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 20, fol. 521v–522v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 20, fol. 521v–522v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Bouquet – Verhör</head>
+					<head xml:lang="fr">Jacques Bouquet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-08-17"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="521v"/>
+						<p><lb/>Raths <term ref="lem001289.07">urthel</term></p>
+						<p><lb/>Es gesinnendt meine gnädige <choice><abbr>hh</abbr><expan>herren</expan></choice> undt
+							<lb/>obern des <term ref="lem019378.03">ihnneren raths</term> befelchlichen
+						<lb/>an die hoch undt wohlgeehrten <choice><abbr>hh</abbr><expan>herren</expan></choice> <term ref="lem018597.02">burger<lb break="no"/>meistern</term> <persName ref="per028155a.02">Haberkorn</persName>, groß weibel<note>Gemeint ist <persName ref="per028146a">Karl Simon Odet</persName>.</note>
+						<lb/>undt grichtschryberen <persName ref="per028157a.01">Haberkorn</persName>, sich
+						<lb/>an heüth oder morgens den einligenden
+						<lb/><persName ref="per028151a.03">Jaques Bouquet</persName> wegen die bewuste <term ref="lem004978.02">sensen</term>
+						<lb/><foreign xml:lang="la">in generalibus terminis</foreign> <choice><sic>zu zu</sic><corr>zu</corr></choice> examinieren.
+						<lb/><foreign xml:lang="la">Ad referendum. Actum ut supra</foreign> den <origDate when="1731-08-17"><subst><del>2</del><add place="overwritten">1</add></subst>7ten
+						<lb/><foreign xml:lang="la">augusti</foreign> 1731</origDate>.</p>
+						<p><lb/>Rathschryber zu
+						<lb/><placeName ref="loc001060.02">Fryburg</placeName>.</p>
+						<p><lb/><placeName ref="loc007890.07">Jacquemars</placeName> ce <origDate when="1731-08-17">17<hi rend="sup">e</hi> aoust 1731</origDate></p>
+						<p><lb/><hi rend="outdent">Juge</hi>, <choice><abbr>Mons<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> le <term ref="lem014993.01">grand sautier</term> <persName ref="per028146a.01">Odet</persName>, mon très <choice><abbr>honré</abbr><expan>honoré</expan></choice>
+						<lb/><choice><abbr>seig<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <term ref="lem019323.02">bourguemaitre</term> <persName ref="per028155a.02">Haberkorn</persName>
+						<seg><lb/><persName ref="per028163a.01">Gritz</persName>, officier</seg></p>
+						<p><seg><lb/>A teneur de la sentence souveraine cy
+						<lb/>dessus, ledit <persName ref="per028151a.02">Bouquet</persName> at êté fort serieuse<lb break="no"/>ment exhorté à dire la verité en toutes
+						<lb/>choses, et de ne rien cacher touchant l<subst><del>e</del><add place="overwritten">a</add></subst>dite
+						<lb/>faulx. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’ouy, qu’il at êté à <placeName ref="loc007928">Treyvaux</placeName>
+						<lb/>avec le curial du lieu et un soldat des
+						<lb/><orgName ref="org009390">Cent Suisses</orgName>, il y a un couple d’année, où <choice><sic>il</sic><corr>ils</corr></choice>
+						<lb/>ont bûs par ensemble tranquillement sans y
+						<lb/>faire aucun mal.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il ne sçavoit pas
+						<pb n="522r"/> <lb/>qu’on avoit perdu une faulx chez la <persName>Curiardaz</persName>
+						<lb/>un <origDate when="--06-29"><subst><del>S<hi rend="sup">t</hi></del><add place="above">jour</add></subst> de <add place="above"><choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice></add> <persName ref="per000438a">Pierre</persName></origDate>, et s’il n’avoit point fait de
+						<lb/>paris pour la faire r’entrer par le <term ref="lem019339.01">guichet</term>
+						<lb/>avec <persName>Hanß Paris</persName> de <placeName ref="loc007631.06">Ponneville</placeName>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’il avoit
+						<lb/>environ <date dur-iso="P7Y">7</date> à <date dur-iso="P8Y">8 ans</date>, <subst><del>et</del><add place="inline">qu’il</add></subst> ne sçavoit pas bien
+						<lb/>se resouvenir à cause de sa courte memoire, mais
+						<lb/>qu’il se souvenoit bien d’avoir êté chez ladite
+							<lb/><persName>Curiardaz</persName>, un <origDate when="--06-29">jour de <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per000438a">Pierre</persName></origDate>, à table avec
+						<lb/>plus de <add place="above">20 ou</add> 30 personnes, qu’il ne se rememoroit
+						<lb/>pas bonnement de leurs noms, ni ceux qui ont
+						<lb/>achepté des faulx, et qu’on y a fait une
+						<lb/><term ref="lem019340.01">risade</term> entr’eux avec dites faulx.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il n’avoit
+						<lb/>pas eû des secrets particuliers pour faire
+						<lb/>r’entrer dites faulx par le <term ref="lem019339.01">guichet</term>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’il n’avoit
+						<lb/>point de secret pour cela.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il n’avoit pas
+						<lb/>dit à <persName>Paris</persName>&#160;: <q>&#160;Paye un pot de vin, <subst><del>et</del><add place="inline">je</add></subst> te feray
+						<lb/>retrouver ta faulx.&#160;</q> <choice><abbr>R</abbr><expan>Répondu</expan></choice> ne s’en souvenir à
+						<lb/>cause qu’il y a longtems&#160;; après grandes varia<lb break="no"/>tions, dit que <persName>Hanß Paris</persName> de <placeName ref="loc007631.06">Ponneville</placeName> et
+						<lb/><persName>Pierre Tinguel<subst><del>z</del><add place="overwritten">et</add></subst></persName> de <placeName ref="loc007660">La Roche</placeName> en avoyent
+						<lb/>achepté chacun une d’un <term ref="lem019341.01">magnin</term>, qui avoit
+						<lb/>des moustaches, nommé <persName>Joseph Delagy</persName>, un <origDate when="--06-29">jour
+							<lb/>de <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per000438a">Pierre</persName></origDate>, les ayant mises sur le fournaux
+						<lb/>où ils êtoyent tous, et ensuite lesdites faulx
+						<lb/>se sont <subst><del>trouvées</del><add place="inline">egarées</add></subst>, ne sçavoir par qui,
+						<lb/>car luy n’a b<subst><del>l</del><add place="overwritten">r</add></subst>anlé de la table, et on y fit
+						<lb/>un grand bruit, pour sçavoir qui les avoit
+						<lb/>prises, et sur cela l<subst><del>uy</del><add place="overwritten">edit</add></subst> <persName ref="per028151a.02">Bouquet</persName> leur dit&#160;:
+						<lb/><q>&#160;Ne vous mettez pas en peine, vostre faulx
+							<lb/>se retrouvera, sans faire tant de bruit.&#160;</q>&#160;; <add place="left margin" type="sign">d’autant qu’ils <lb/>avoyent plus de <lb/>deux qui sçavoyent <lb/>où dites faulx <lb/>êtoyent égarées.</add> <subst><del>et</del>
+						<lb/><add place="inline">Ensuitte</add></subst>, après grand vacarme et <term ref="lem019340.01">risade</term>,
+						<pb n="522v"/> <lb/>ladite faulx s’est trouvée sur un banc dernier
+						<lb/>ledit <persName>Hanß Paris</persName>, sans sçavoir qui avoit
+						<lb/>fait cette malice, ni comment ladite faulx
+						<lb/>s’y est trouvée, <add place="left margin" type="sign">ni si on a fait <lb/>rentrer dite faulx <lb/>par le <term ref="lem019339.01">guichet</term></add>, y étant present ledit
+						<lb/><persName>Pierre Tenguele</persName> de <placeName ref="loc007660">La Roche</placeName> <add place="above">sur les <term ref="lem017721.04">charrieres</term></add>, et n’en
+						<lb/>sçavoir d’autres circonstances comme la
+						<lb/>chose finit.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> s’il n’avoit pas dit avant
+						<lb/>qu’elle fut trouvée, qu’il feroit venir dite
+						<lb/>faulx sur la table. <choice><abbr>R</abbr><expan>Répondu</expan></choice> que non, qu’on
+						<lb/>luy faisoit tort, et qu’il avoit tout
+						<lb/>dit suivant sa conscience, et qu’il ne
+						<lb/>peut parler autrement.</seg> <seg>Ainsy finit la
+						<lb/><choice><abbr>pnte</abbr><expan>presente</expan></choice> examination.</seg></p>
+						<p><lb/><persName ref="per028157a.01">Haberkorn </persName>secretaire
+							<lb/>civil <figure type="notarial sign"/>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

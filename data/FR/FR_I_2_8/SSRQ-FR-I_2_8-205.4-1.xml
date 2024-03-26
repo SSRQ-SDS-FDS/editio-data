@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-205.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 246 (1695), S. 141–142</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 246 (1695), p. 141–142</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Pythoud – Anweisung</head>
+					<head xml:lang="fr">Claude Pythoud – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1695-03-07">7<hi rend="sup">ten</hi> <foreign xml:lang="la">martii</foreign> [1695]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="141"/><p><lb/>Einligender</p>
+						<p><lb/><persName ref="per027520a">Claude <choice><abbr><hi rend="underline">no</hi></abbr><expan>nommé</expan></choice>
+							Pythoud</persName> von <placeName ref="loc007983.04">Noreya</placeName>, ein junger
+						<lb/>knab, will sein alter nicht wüßen, ist
+							<lb/>aber dem ansehen nach nur <measure type="age" unit="year" quantity="8">achtjährig</measure> ohn<lb break="no"/>gefehrt. Hat vill der <term ref="lem007355.05">unholderi</term> <term ref="lem017858">anhauhige</term>
+						<lb/>puncten <term ref="lem011468.03">bekhent</term>. Werde in dennen orthen
+						<pb n="142"/><lb/>unnd enden, allwo er dem <term ref="lem002264.08">allmueßen</term>
+						<lb/>nachgangen ist, namblich zu <placeName ref="loc007613.07">Cormero</placeName>,
+						<lb/><placeName ref="loc010269.02">Cornillens</placeName>, <placeName ref="loc007983.02">Norea</placeName> <unclear><abbr>etc</abbr></unclear>, nachgeschlagen,
+						<lb/>wie er sich verhalten hat. Auch in den
+						<lb/>hirvorigen <term ref="lem018678.07">thurn-rödlen</term>, wie es
+							<lb/><origDate from="1632-01-01" to="1632-12-31"><foreign xml:lang="la">anno</foreign> 1632</origDate><note>Der Ratschreiber hat sich geirrt oder verschrieben. Im Jahr 1632 wurden in der Stadt Freiburg keine Kinder oder Jugendliche der Hexerei angeklagt, hingegen kam es 1633 zu einer Kumulierung solcher Fälle. Vgl. <bibl><ref>Binz-Wohlhauser 2020</ref></bibl>. Korrekt wiedergegeben wurde das Jahr 1633 im Prozess gegen <persName ref="per020582a">Claude Bernard</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-158.10-1">SSRQ FR I/2/8 158.10-1</ref>.</note> oder in anderen zeiten in
+						<lb/>solchen fählen gebraucht worden seye.
+						<lb/>Underdeßen werde dißer bub in
+						<lb/>der <persName>Ambrosina</persName> hauß gefiret, umb
+						<lb/>allda die schwartze <term ref="lem011432.07">salbi</term> in dem orth,
+						<lb/>wo er sie soll gethan haben, zu <term ref="lem017859.02">weysen</term>.
+						<lb/>Der herr pfarrer zu <placeName ref="loc008168.02">Prez</placeName> auch befragt,
+						<lb/>wan der einligende <term ref="lem003507.01">getaufft</term> worden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

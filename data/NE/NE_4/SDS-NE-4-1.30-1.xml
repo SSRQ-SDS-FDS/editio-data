@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.30-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 104–112</idno>
+     </msIdentifier>
+     <head>Successions par testament</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000815"/>
+     <term ref="key000635"></term>
+     <term ref="key004770"></term>
+     <term ref="key000874"></term>
+     <term ref="key000803"></term>
+     <term ref="key000078"></term>
+     <term ref="key005298"></term>
+     <term ref="key005127"></term>
+     <term ref="key000242"></term>
+     <term ref="key005078"></term>
+     <term ref="key005017"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>    <pb n="104" facs="AEN_MJ_17_104_105"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chapp.</abbr><expan>Chappitre</expan></choice> XXX.
+       <lb/>Des successions par
+       <lb/>testament
+      </head>
+      <p>
+       <lb/>Toutes personnes libres
+       <lb/>peuvent tester de leurs biens,
+       <lb/>et en disposer selon leur bonne
+       <lb/>volonté.
+      </p>
+      <p>
+       <lb/>L’enfant qui n’est emancipé <lb/>ou <term ref="lem014992.13">destroncqué</term> d’avec
+       son pere <lb/>ne peut tester que ce qu’il aura acquis <lb/>&amp; gagné a son propre.
+        <lb/><add place="below" type="catchword">Ny</add>
+      </p>
+     <pb n="105" facs="AEN_MJ_17_104_105"/>
+      <p>
+       <lb/>Ny aussy l’impuber, c’est a dire qui est <lb/>encor soubs tutelle, jusqu’a l’aage
+       <lb/>de <measure type="age" unit="year" quantity="15">quinze ans</measure>.</p>
+      <p>
+       <lb/>Ny par consequent ceux qui sont <lb/>troublez d’esprit &amp; de jugement, <lb/>furieux
+       ou enragez, ny mesmes les <lb/>prodigues, auxquels a esté interdit <lb/>l’administration de
+       leurs biens, <lb/>ny les gens de <term ref="lem017835">mainmorte</term>, ne peuvent <lb/>aussy disposer par
+       testament de leurs <lb/>biens.</p>
+      <p>
+       <lb/>Et faut bien aviser que le malade <lb/>faisant son testament qu’il soit <lb/>pour lors
+       sain d’esprit et <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 42">d’</rdg>
+       </app><choice>
+        <abbr>entendem<hi rend="sup">t</hi></abbr>
+        <expan>entendement</expan>
+       </choice>
+       <lb/>afin qu’il ne soit mis au nombre de ceux <lb/>cy dessus <unclear>&amp;</unclear>,
+       l’indisposition &amp; foiblesse <lb/>du corps ne le <app>
+        <lem>pouvant</lem>
+        <rdg wit="AVN Q41, p. 42">peuvent</rdg>
+       </app> aucunement <lb/>empescher<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 42"> la personne de tester</rdg>
+       </app>.</p>
+      <p>
+       <lb/><app>
+        <lem>Et</lem>
+        <rdg wit="AVN Q41, p. 42">Il faut aussi bien adviser,</rdg>
+       </app> que par son testament il ne <lb/>soit rien disposé et ordonné qui puisse <lb/>en
+       aucune maniere deroguer aux droits <lb/>du prince, ny alterer l’ordre de nature 
+       <lb/><app><lem><add place="below" type="catchword">prescripte</add>
+         <pb n="106" facs="AEN_MJ_17_106_107"/>
+         <lb/>prescripte</lem>
+        <rdg wit="AVN Q41, p. 42">, ou <lb/>prescrire</rdg>
+       </app> a ses heritiers choses <app>
+        <lem>indecentes <lb/>et illicites</lem>
+        <rdg wit="AVN Q41, p. 42">illicites, et interdites</rdg>
+       </app>, ou qui le peut rendre <app>
+        <lem>inofficiaux</lem>
+        <rdg wit="AVN Q41, p. 42">inoficieux</rdg>
+       </app>, <lb/>comme en desheritant ses enfans, sans cause <lb/>ligitime, ou les oubliant
+       seulement.</p>
+      <p>
+       <lb/>Les formalitez <app>
+        <lem>d’un testament</lem>
+        <rdg wit="AVN Q41, p. 42"/>
+       </app> requises <lb/>selon la coustume de ceste souveraineté <lb/>et qui s’observent en fait<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 42"> de testament</rdg>
+       </app>, sont telles <app>
+        <lem>qu’il</lem>
+        <rdg wit="AVN Q41, p. 42">. Il</rdg>
+       </app> faut <lb/>qu’il y soit appellé <app>
+        <lem>avec</lem>
+        <rdg wit="AVN Q41, p. 42"/>
+       </app> un notaire <lb/>fameux <app><lem/>
+        <rdg wit="AVN Q41, p. 42">et avec <lb/>luy</rdg>
+       </app> non moings de quatre tesmoings, <lb/>personnes virilles, gens d’honneur, bien
+       <lb/>cogneuz de ceux du lieu, &amp; qui ne soyent <lb/>domestiques ny parents du testateur <lb/><app>
+        <lem>ny</lem>
+        <rdg wit="AVN Q41, p. 42">et</rdg>
+       </app> moings du notaire, &amp; non forcez <lb/>a ce tesmoignage. Et que le <lb/>testateur
+       institue un heritier, car <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 42">c’est </rdg>
+       </app>le chef <app>
+        <lem>&amp; vray</lem>
+        <rdg wit="AVN Q41, p. 42"/>
+       </app> fondement de tous <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 42">vrays</rdg>
+       </app> <lb/>testaments, <app>
+        <lem>c’est</lem>
+        <rdg wit="AVN Q41, p. 42">assavoir</rdg></app> l’institution d’heritier.</p>
+      <p>
+       <lb/>Et ce que le testateur a ordonné et <lb/>declairé de sa derniere volonté en <choice>
+        <abbr>pnce</abbr>
+        <expan>presence</expan>
+       </choice>
+       <lb/>des tesmoings soit fidellement minuté <lb/>par escript par le notaire et leu &amp;
+       <lb/>recouru devant le testateur &amp;  <lb/><add place="below" type="catchword">les</add>
+       <pb n="107" facs="AEN_MJ_17_106_107"/>
+       <lb/>les tesmoings, afin que s’il n’y a <lb/>rien d’obmis, <app>
+        <lem>qu’</lem>
+        <rdg wit="AVN Q41, p. 42"/>
+       </app>il soit par apres signé <lb/>par ledit notaire de son signet manuel <lb/>en presence
+       desdits tesmoings, et <lb/>est tenu pour testament solennel.</p>
+      <p>
+       <lb/>Le testament peut aussy estre bon <lb/>&amp; vaillable, quand mesme il n’y a <lb/>point
+       de notaire, et combien qu’il ne <lb/>soit redigé par escript, moyenant <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>les autres formalitez cy dessus, soyent <lb/>observées, et que les heritiers <app>
+        <lem>de</lem>
+        <rdg wit="AVN Q41, p. 43">du</rdg>
+       </app>
+       <choice>
+        <abbr>testat<hi rend="sup">r</hi></abbr>
+        <expan>testateur</expan>
+       </choice>
+       <lb/>soyent bien clairement et <choice>
+        <abbr>intelligiblem<hi rend="sup">t</hi></abbr>
+        <expan>intelligiblement</expan>
+       </choice>
+       <lb/><choice>
+        <abbr>nomez</abbr>
+        <expan>nommez</expan>
+       </choice> en presence des tesmoings <lb/>et tel testament est appellé <lb/><term
+        ref="lem015631">nuncupatif</term>.</p>
+      <p>
+       <lb/>Sy le testateur sçait escripre <lb/>et il ne veut que sa volonté &amp; <lb/>disposition
+       soit sceuë de personne, <lb/>peut escripre luy mesme son <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>
+       <lb/>ou le faire escripre par quelqu’autre,  <lb/><add place="below" type="catchword"
+        >moyenant</add>
+       <pb n="108" facs="AEN_MJ_17_108_109"/>
+       <lb/>moyenant qu’il le signe de sa <lb/>propre main et ferme de son cachet <lb/>et que se
+       fasse en presence de quatre <lb/>ou cinq tesmoings, il leur monstre <lb/><app>
+        <lem>son</lem>
+        <rdg wit="AVN Q41, p. 43">sondit</rdg>
+       </app> testatment <app>
+        <lem>aussy</lem>
+        <rdg wit="AVN Q41, p. 43">ainsi</rdg>
+       </app> cloz &amp; les fasse <lb/>signer avec luy <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 43">sur le reply</rdg>
+       </app> sondit testament <lb/>leur asseurant<app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 43"> et</rdg>
+       </app> affirmant qu’en iceluy <lb/>est contenu sa derniere volonté pour <lb/>la disposition
+       de ses biens, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 43">un tel testament</rdg>
+       </app> vaut &amp; <lb/>s’equipare au testament solennel.</p>
+      <p>
+       <lb/><app>
+        <lem>En</lem>
+        <rdg wit="AVN Q41, p. 43">Et en</rdg>
+       </app> danger de guerre &amp; de peste, ou en <lb/>quelqu’autre grande necessité, deux
+       <lb/>ou trois tesmoings dignes de foy <lb/>et non suspects peuvent suffire <lb/>pour rendre
+       bon &amp; vaillable le <lb/>testament solennel &amp; <term ref="lem015631">nuncupatif</term>.</p>
+      <p>
+       <lb/>Et tous tesmoings qui se trouvent <lb/>en tels testaments, <term ref="lem014981.03"
+        >codicilles</term>, ou <lb/>donnations a cause de mort sont <lb/>tenuz d’avoir &amp; tenir
+       secret ce  <lb/><add place="below" type="catchword">qu’ils</add>
+       <pb n="109" facs="AEN_MJ_17_108_109"/>
+       <lb/>qu’ils ont ouy et entendu de la <lb/>volonté du testateur, ou<app>
+        <lem>de</lem>
+        <rdg wit="AVN Q41, p. 43"/>
+       </app> 
+       <lb/><term ref="lem019309">codicillant</term>.</p>
+      <p>
+       <lb/>Le testament soit solennel, ou <lb/><term ref="lem017986.02">equipolent</term> au
+       solennel ou <term ref="lem015631">nuncupatif</term>
+       <lb/>qui se trouve le dernier fait, corrompt <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 43">et abolit</rdg>
+       </app> <lb/>tous les precedents, attendu que la <lb/>volonté de l’homme est <term
+        ref="lem017987.02">ambulataire</term>
+       <lb/>jusques a la mort.</p>
+       <p>
+       <lb/>La disposition de ses biens, faite <lb/>en presence de tesmoingz requis <lb/>ou non
+       requis, escripte ou non escripte <lb/>est aussy vaillable, et est appellée <lb/><term
+        ref="lem014981.03">codicilles</term>.</p>
+      <p>
+       <lb/>L’heritier naturel <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 43">est</rdg>
+       </app> celuy <lb/>qui est institué par testament <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 43">et tel</rdg>
+       </app> <lb/>tient et represente la personne <lb/>du testateur, tellement qu’<choice>
+        <abbr>acceptat</abbr>
+        <expan>acceptant</expan>
+       </choice>
+       <lb/>l’heredité, il se charge de ses  <lb/><add place="below" type="catchword">debtes</add>
+       <pb n="110" facs="AEN_MJ_17_110_111"/>
+       <lb/>debtes, <term ref="lem015623.02">legats</term>, <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 43"/>
+       </app> <term ref="lem019310.02">clameurs</term> &amp; <lb/>par consequent de ses droits et
+       <lb/>proffits.</p>
+      <p>
+       <lb/>Par un <term ref="lem014981">codicille</term> ceux qui succedent <lb/>aux biens du
+       donnateur, sont chargez <lb/>de ses debtes et <term ref="lem019310.02">clameurs</term> un
+       chescun <lb/>a portion, mais ne peuvent <choice>
+        <abbr>repnter</abbr>
+        <expan>representer</expan>
+       </choice>
+       <lb/>le donnateur pour retirer &amp; avoir <lb/>part a ses droits et actions, et <lb/>ne peut
+       l’heredité par un <term ref="lem014981">codicille</term>
+       <lb/>estre donnée ny ostée, autrement <lb/>il n’y auroit point de difference <lb/>entre
+       testament &amp; <term ref="lem014981">codicille</term>.</p>
+      <p>
+       <lb/>Tous heritiers institutez <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 44">par quelqcun</rdg>
+       </app> sont <lb/>necessaires ou estrangers. Les <lb/>necessaires sont les fils<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 44"> et filles</rdg>
+       </app>, &amp; leurs <lb/>dessendants &amp; <term ref="lem015995.02">hoirs</term> tous ceux la
+       <lb/>s’appellent estrangers.</p>
+      <p>
+       <lb/>Aux heritiers necessaires l’on ne  <lb/><add place="below" type="catchword">peut</add>
+       <pb n="111" facs="AEN_MJ_17_110_111"/>
+       <lb/>peut par testament ny <term ref="lem014981">codicille</term>, <lb/>donnation ou <term
+        ref="lem015623.03">legat</term> oster la moitié <lb/>de la succession universelle, ny aux
+       <lb/>estrangers le tier, ce qu’advenant <lb/>peut estre le tout rescindé jusques <lb/>a ceste
+       concurrence&#160;: c’est a dire <lb/>l’on peut retrencher des donnations <lb/>et <term
+        ref="lem015623.02">legats</term> apposez au testament <lb/>jusques a ce que le droit qui
+       <lb/>doibt estre reservé aux heritiers <lb/>soit refait &amp; entier, sans <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 44">touteffois</rdg>
+       </app> pouvoir <lb/>rompre le testament.</p>
+      <p>
+       <lb/>La part et portien de l’heritier <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 44">mort, ou</rdg>
+       </app> <lb/>deffaillant au testament <app>
+        <lem>ou mort,</lem>
+        <rdg wit="AVN Q41, p. 44"/>
+       </app> 
+       <lb/>revient et accroist aux <app>
+        <lem>autres</lem>
+        <rdg wit="AVN Q41, p. 44"/>
+       </app> 
+       <lb/>heritiers, nommez par le <choice>
+        <abbr>testam<hi rend="sup">t</hi></abbr>
+        <expan>testament</expan>
+       </choice>
+       <lb/>et non a ceux qui seroyent <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice>
+       <lb/>les plus habilles a succeder.</p>
+      <p>
+       <lb/>Le frere n’est tenu tester en faveur <lb/><app>
+        <lem>de son</lem>
+        <rdg wit="AVN Q41, p. 44">du</rdg>
+       </app> frere ou soeur, mais s’il <lb/><add place="below" type="catchword">instituoit</add>
+       <pb n="112" facs="AEN_MJ_17_112_113"/>
+       <lb/>instituoit personne infame, comme <lb/>putains, bannis, le testament <lb/>lors se pourra
+        rompre,<note>Nouveau paragraphe dans AVN Q41.</note> c’est <lb/>particulierement &amp; <choice>
+        <abbr>principalem<hi rend="sup">t</hi></abbr>
+        <expan>principalement</expan>
+       </choice>
+       <lb/>les heritiers instituez par le <lb/>testament qui en doibvent demander <lb/>la
+       possession ou investiture, ou <lb/>bien renoncer l’institution des les <date dur-iso="P6W">six
+        <lb/>sepmaynes</date>, et observer les formalitez <lb/><app>
+        <lem>qui sont</lem>
+        <rdg wit="AVN Q41, p. 44"/>
+       </app> declarées au chapitre 27<note>Voir <ref target="urn:ssrq:SDS-NE-4-1.27-1">SDS NE 4 1.27-1</ref>.</note>
+       <lb/>cy devant.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

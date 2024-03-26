@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.1-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 282 (1731), S. 261</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 282 (1731), p. 261</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond – Anweisung</head>
+					<head xml:lang="fr">Catherine Repond – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-05-18">18ten meyen [1731]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc008049.03">Corbers</placeName></p>
+						<p><lb/>Den <origDate when="1731-05-08">8ten dieses</origDate> dortiger <abbr>h</abbr> ambtsmann<note>Gemeint ist <persName ref="per028137a">Beat Nikolaus von Montenach</persName>.</note>
+						<lb/>übersendet schrifftlichen den eingenommnen
+						<lb/>bericht in ansehen der abgeschnitnen <term ref="lem017901.03">zächen</term>
+						<lb/>der <persName ref="per028134a">Catherine</persName>, <persName ref="per028135a">Sulpice Repond</persName> seeligen tochter.
+						<lb/>Laße <abbr>h</abbr> landtvogt<note>Gemeint ist <persName ref="per028137a">Beat Nikolaus von Montenach</persName>.</note> also baldt obgenannte <persName ref="per028134a">Catherine</persName>
+						<lb/><term ref="lem009330">einziehen</term> undt examiniere die selbe, undt
+						<lb/>nemme eine genauwe information ein
+						<lb/>ihres <term ref="lem012172.01">verhalts</term>, <foreign xml:lang="la">ad rescribendum</foreign>. <term ref="lem018513.03">Beynebens</term>
+						<lb/>sollen copeyen ihrer aussaag dennen
+						<lb/><choice><abbr>hh</abbr><expan>herren</expan></choice> landtvögten zu <placeName ref="loc012284.05">Fawernacht</placeName><note>Gemeint ist <persName ref="per027754a">Josef Nikolaus Chrysogonus Gottrau</persName>.</note> undt
+						<lb/><placeName ref="loc007647.06">Remondt</placeName><note>Gemeint ist <persName ref="per028138">Hans Anton Beat Ludwig von Perroman</persName>.</note> zu geschickt werden, damit sie
+						<lb/>auch in erforderlichen ohrten bericht einholen
+						<lb/>undt dahariges befinden <add place="bottom" type="sign">gedachtem landtvogten zu <placeName ref="loc008049.03">Corbers</placeName></add><note>Gemeint ist <persName ref="per028137a">Beat Nikolaus von Montenach</persName>.</note> zu schicken mögendt.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-195.17-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 387–389</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 387–389</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marie Blanc-Edouard – Verhör und Urteil</head>
+					<head xml:lang="fr">Marie Blanc-Edouard – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1673-09-09"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="387"/><p><lb/>Proces</p>
+						<p><lb/>Der hingerichten <persName ref="per021194b.02">Marie Edoard</persName></p>
+						<p><lb/><persName ref="per021194b">Marie</persName>, fille d’<persName ref="per021201a.02">Isaye Eduard</persName> de <placeName ref="loc012855.02">Chesar</placeName> au <placeName ref="loc008526.03">Vaux de Ruz</placeName>
+							<lb/>en la comté de <placeName ref="loc005950.05">Vallangin</placeName>, agée environ les <measure type="age" unit="year" quantity="80">quattre vingt
+						<lb/>ans</measure><note>Lors de son interrogatoire du <date when="1673-08-18">18 août</date>,
+							Marie déclare être âgée de 60 ans. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-195.3-1">SSRQ FR I/2/8 195.3-1</ref>.</note>, estant reduicte aux prisons sur faict de <term ref="lem018521.01">sorcellerie</term> et
+						<lb/>appliquée à la <term ref="lem018792.01">question</term>, ast <term ref="lem015549.07">confessé</term> qu’il y ast environ
+						<lb/><date dur-iso="P37Y">trente et sept ans</date> qu’elle s’est mariée dans ce pays, et que
+						<lb/>la seconde année de son mariage, ayant esté mal traictée
+							<lb/>par son mary, elle s’en allast au bois en <placeName>Beaumont</placeName><note>L’identification du lieu est incertaine.
+								Il pourrait s’agir de la forêt du <placeName ref="loc014650.01">Grand Belmont</placeName>.</note>, toutte
+							<lb/>triste et pleurant, ou ce que le <persName ref="per011219a">Satan</persName>, appelé <persName ref="per029458a">Jean Lucifer</persName>,
+						<lb/>tout noir, luy apparu et dict qu’elle se debvoit rendre à
+						<lb/>luy, promettant de la soulager en ses regrets et necessités,
+						<lb/>auquel elle promit de luy estre fidele et obeisante.
+							<lb/>Surquoy le <term ref="lem015433.10">maling</term> l’ast faict <term ref="lem019552.01">renoncer</term> à Dieu, à la Sainte
+							<lb/>Vierge <persName ref="per000169a.05">Marie</persName>, mere de Dieu, au <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <term ref="lem019546.01">sacrement</term> de <term ref="lem019542.04">baptesme</term>,
+							<lb/>à la foy <term ref="lem019533.01">catholique</term> et à touts les saints et saintes de pa<lb break="no"/>radis, l’ayant sur ce <term ref="lem018895.03">marquée</term> soubz l’ongle au gros doigt
+						<lb/>du pied gauche, ce que luy faisoit mal, come si on l’auroit
+						<lb/>picquée avec un espingle ou espine. La dessus elle luy
+							<lb/>dict grand mercy et le <term ref="lem019481.02">baisast</term> à la main et en la partie
+							<lb/><term ref="lem015018.08">derniere</term>, ayant receu <measure type="currency" unit="Louis dor" quantity="1">un loys d’or</measure>, lequel au lendemain
+						<lb/>ne se trouva qu’une <term ref="lem018302.11">feullie</term> de <term ref="lem016908.06">chesne</term>.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir esté par le comandement de <persName ref="per011219a">Satan</persName> touts les
+						<lb/>jeudy à la <term ref="lem017043.01">secte</term>, au lieu appellé <placeName ref="loc013016.02">en Mouleire</placeName><note>Lors de son interrogatoire
+							du <date when="1673-08-26">26 août</date>, Marie déclare être allée à la <term ref="lem017043.01">secte</term> en <placeName ref="loc008104.04">Ouleire</placeName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-195.9-1">SSRQ FR I/2/8 195.9-1</ref>.</note>, ou
+						<lb/>ce que avec plusieurs aultres (qu’elle ne cognoissoit
+							<lb/>pas) elle estoit assise à table, et que <persName ref="per011219a">Satan</persName> <persName ref="per029427a.01">Lu<lb break="no"/>cifer</persName> estoit assis au dessus, qui jouoit du rubet,
+						<lb/>qu’elles beuvient et mangoient, mais que ce n’estoit
+						<pb n="388"/><lb/>rien, et en partant luy faisoient la reverence, et
+							<lb/>ceux qu’avoient dancé se <term ref="lem019481.09">baisoient</term> à la partie <term ref="lem015018.08">dernie<lb break="no"/>re</term>.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir receu du <term ref="lem015433.10">maling</term> par deux fois de la
+							<lb/><term ref="lem018382.01">graisse</term> et <term ref="lem018383.02">poussiere</term> en <placeName>Beaumont</placeName><note>L’identification du lieu est incertaine.
+								Il pourrait s’agir de la forêt du <placeName ref="loc014650">Grand Belmont</placeName>.</note> et un aultre fois
+						<lb/><placeName ref="loc013016.02">en Mouleire</placeName> pour faire du mal aux gens et au
+						<lb/>bestail.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir semé de ladite <term ref="lem018383.02">poussiere</term> par les chemyns
+						<lb/>pour faire mourir les gens et bestes, et qu’elle en ast
+						<lb/><term ref="lem019525.04">soufflé</term> contre plusieurs personnes, lesquelles elle ne cognoisoit
+						<lb/>pas, n’ayant tousjours eu la puissance de les faire
+						<lb/>mourir.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir donné à manger au fil de <persName>Jean Corty</persName>,
+						<lb/>qui avoit la <term ref="lem018886.03">robbé</term> des poires, dans lequels y avoit
+						<lb/>de ladite <term ref="lem018383.02">poussiere</term>, dont il en est mort.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir <term ref="lem019525.04">soufflé</term> contre le <term ref="lem015025.04">meusnier</term> de <placeName ref="loc008568.04">La Beaume</placeName>
+						<lb/>pour le faire mourir, d’aultant qu’il n’avoit pas rendu
+						<lb/>assé de farine, mais après elle luy enleva le mal.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir donné sur du pain de la <term ref="lem018880.01">fricassée</term> à
+						<lb/>la fille de <persName>Pierre Blanc</persName> de <placeName ref="loc007747">Russy</placeName>, avec de ladite
+						<lb/><term ref="lem018383.02">poussiere</term>, et l’ayant mangée, elle en devint malade
+						<lb/>et mourust.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir mis de ladite <term ref="lem018383.02">poussiere</term> et <term ref="lem018382.01">graisse</term> dans
+						<lb/>une souppe pour faire mourir <persName>Clauda Cartier</persName> dudit
+						<lb/><placeName ref="loc007747">Russy</placeName>, mais en après elle luy enleva le mal,
+						<lb/>qu’elle n’en est pas morte.</p>
+						<pb n="389"/><p><lb/>Finalement <term ref="lem015549.13">confesse</term> que la <term ref="lem019233.04">mesnue beste</term> qui la suivoit en
+						<lb/>s’en allant aux marchés et passoit par les sentiers, icelle
+						<lb/>estoit conduicte par le <term ref="lem015433.10">maling</term>, qui la faisoit passer et
+						<lb/>sauter les hayes.</p>
+						<p><lb/><lb/>Pour quels <term ref="lem019494.02">crimes</term> et malfaicts, elle ast demandé pardon
+						<lb/>à ce bon Dieu et à vos Excellences, les suppliant
+							<lb/>d’avoir pitié et <term ref="lem019497.02">misericorde</term> envers elle.</p>
+						<p><add place="below"><lb/>Nachdem obige <term ref="lem001254">vergicht</term> dißer armen persohn vor mehrerem
+						<lb/>gwaldt<note>Gemeint ist der Rat der Zweihundert.</note> vorgeleßen unndt sie deren nochmahlen <term ref="lem016680.02">khandtlich</term>
+						<lb/>unnd <term ref="lem015183.02">anredt</term> worden, ist ihro das leben abgesprochen unnd ir
+						<lb/>die <term ref="lem001289.08">urthell</term> zum todt gefelt. Ihro aber die gnad ertheilt
+						<lb/>worden, daß sie zuvor mit dem strangen vom leben
+							<lb/>zum todt hingerichtet undt <term ref="lem017539">stranguliert</term> unndt <term ref="lem006484.07">nachwerts</term>
+						<lb/>in das <term ref="lem012936.07">feüwr</term> solle gestürzt werden.</add></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p>
+					Le document n’est pas daté, mais il s’agit probablement de l’interrogatoire qui a précédé le prononcé du jugement protocolé dans le Manual du Conseil
+					(voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-195.18-1">SSRQ FR I/2/8 195.18-1</ref>). Le dernier paragraphe, reprenant la sentence, fut sans doute rédigé après coup, s’agissant d’un ajout un peu plus tardif (mais
+					probablement réalisé le jour-même).</p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2020-12-21"/>
+                <date type="print" when="1997"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS-VD-D_1-21-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;365–396</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre François Marguet, de Dommartin</head>
+                    <msContents>
+                        <summary>
+                            <p>François Marguet, de Dommartin, détenu sur la plainte d’un de ses paroissiens, comparait le 25 octobre 1498 devant le vice-inquisiteur François Fossaud, au château de Dommartin. Au cours de cette première audience, l’inculpé nie être hérétique et avoir été mêlé à un crime d’hérésie. Le lendemain, le vice-inquisiteur ordonne au notaire de produire une partie de l’enquête secrète menée quelques semaines auparavant par le Chapitre de Lausanne, seigneurs temporels de Dommartin, contenant les témoignages secrets de quinze hommes de la paroisse de Dommartin, y compris le neveu de l’inculpé, le châtelain et le chapelain de la paroisse. Ce même jour, l’inculpé est à nouveau interrogé pour répondre des informations récoltées, mais après la troisième monition, il refuse de passer aux aveux. Le 27 octobre, suite à une quatrième monition supplémentaire, Marguet avoue et dénonce cinq personnes (2 hommes et 3 femmes), dont l’inculpée Isabelle Perat. Marguet ratifie ses aveux le 5 novembre. Le lendemain, il ratifie et complète ses aveux à deux reprises, tout en ajoutant les noms de six autres complices (5 hommes et une femme), incluant ceux des inculpés Marguerite Diserens et Pierre Menetrey. Le même jour le procès est clos. Les actes s’arrêtent ici, mais nous savons que Marguet a finalement été banni par le Chapitre de Lausanne, seigneur temporel de Dommartin.</p>
+                        </summary> 
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1498-10-25" to="1498-11-06"/>
+                            <origPlace ref="loc010898.01">Château de Dommartin</origPlace>                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000076753">Pfister 1997</ref>, p.&#160;186–217</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000074530">Félix 1986</ref></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001201449503977">Reymond 1909</ref>, p.&#160;91–93</bibl>
+                            <bibl><ref>Kieckhefer 1976</ref>, p.&#160;33, 147</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000080613">Blauert 1989</ref>, p.&#160;87–97</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;40, 98</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000076753">Pfister 1997</ref>, p.&#160;37–65</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000146953">Ostorero 2005</ref>, p.&#160;368</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647203977">Utz Tremp 2005c</ref>, p&#160;361–362</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref>, p.&#160;281–292</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000055619">Ostorero 2010</ref>, p.&#160;20, 24–26</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001208849503977">Pittet  2010</ref>, p.&#160;209, 217, 219–220</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000122355">Ostorero et al. 2011</ref>, p.&#160;47, 75</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001201449203977">Ammann-Doubliez et al. 2014</ref>, p.&#160;170–173</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001220741803977">Ostorero 2015</ref>, p.&#160;277</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="365" facs="ACV_AC-29_364_365"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1498">1498</date></ab></div>
+                        <head type="title"><hi rend="right">Processus <persName ref="per012756a.01">Francisci Marguet</persName>
+                                            <lb/>de <placeName ref="loc007669.03">Dompno Martino</placeName> cum
+                                            <lb/>informacionibus in ipsum
+                                            <lb/>secrete sumptis</hi></head>
+                        <pb n="366" facs="ACV_AC-29_366_367"/><p/>
+                        <pb n="367" facs="ACV_AC-29_366_367"/>
+                        <head type="subtitle" resp="GO">26 octobre 1498</head>
+                         <p><seg><lb/><hi rend="right">Informacio secrete sumpta et testes
+                                            <lb/>examinati super <term ref="lem017269.01">crimine heresis</term>
+                                            <lb/>per dominum <term ref="lem018123.01">viceinquisitorem</term> contra <persName ref="per012756a.01">Franciscum
+                                            <lb/>Marguet</persName> detentum ad causam fidei,
+                                            <lb/><origDate when="1498-10-26">die vicesima sexta octobris anno
+                                            <lb/>Domini m<hi rend="sup">o</hi> iiii<hi rend="sup">c</hi> nonagesimo octavo.</origDate></hi></seg>
+                            </p>
+                         <p><seg><lb/>Et primo, <persName ref="per012886a.01">Nycolletus de Mediavilla<del rend="strikethrough">r</del></persName> dou <placeName ref="loc010907.02">Villar
+                                            <lb/>Tyercellyn</placeName> parrochie <placeName ref="loc007669.03">Dompni Martini</placeName>, etatis <measure type="age" unit="year" quantity="50">quinquaginta
+                                            <lb/>annorum vel circa</measure>, testis productus parte denuncianti.
+                                            <lb/>Interrogatus <abbr>etc</abbr>. et secrete examinatus, dixit <choice><sic>e</sic><corr>et</corr></choice> deponit<note>Dans son procès-verbal, le notaire utilise tantôt le présent, tantôt le parfait comme temps de référence du procès, sans aucune cohérence, témoignant ainsi de sa difficulté à se situer par rapport au moment du procès&#160;: fait-il un rapport simultané ou a posteriori&#160;?</note>
+                                            <lb/>se tantum scire quod <date when="1492" dur-iso="P6Y">sunt circa sex</date>, <date when="1491" dur-iso="P7Y">septem</date> <date when="1498" dur-iso="P8Y">aut octo anni
+                                            <lb/>proxime lapsi</date>, sic quod dici audivit communiter gentibus quod
+                                            <lb/>ipse <persName ref="per012756a.01">Marguet</persName> erat <term ref="lem017125.01">hereticus</term> et quod <persName ref="per012890a.01">Glaudius Marguet</persName>
+                                            <lb/>eius nepos sibi dixit <q>&#160;heretice&#160;</q>. Aliud nescit.</seg>
+                            </p>
+                        <p><seg><lb/><persName ref="per012887a.01">Stephanus Fauconet</persName> de <placeName ref="loc010902.02">Sugniens</placeName>, etatis <measure type="age" unit="year" quantity="40">quadraginta annorum
+                                            <lb/>vel circa</measure>, testis <abbr>etc</abbr>. juratus, dixit et deponit se scire
+                                            <lb/>quod, <date when="1488" dur-iso="P10Y">sunt bene circa decem anni</date>, <subst><del rend="strikethrough">comniter</del><add place="inline">communiter</add></subst> dicunt
+                                            <lb/>gentes quod ipse <persName ref="per012756a.01">Franciscus Marguet</persName> erat hereticus. Et ulterius
+                                            <lb/>dixit quod <date when="1492" dur-iso="P6Y">sunt circa sex anni</date> quod certi pueri, videlicet
+                                            <lb/>pastores, viderunt cadere a nubibus cum <term ref="lem018461.01">grela</term> prope
+                                            <lb/><placeName ref="loc010902.02">Sugniens</placeName> in quadam possessione sua sita <foreign xml:lang="fr"><placeName ref="loc012370.01">En Perrex</placeName></foreign>, <choice><sic>quidam
+                                            <lb/>homo</sic><corr>quendam hominem</corr></choice>&#160;; qui pueri dixerunt quod videbatur eis quod esset quidam
+                                            <lb/>bonus homo de <placeName ref="loc007669.03">Dompno Martino</placeName>, dictus <persName ref="per012756a.01">Marguet</persName>. Aliud
+                                            <lb/>nescit.</seg>
+                            </p>
+                        <p><seg><lb/>Item <persName ref="per012745a.01">Johannes Sovajat</persName> parrochie <placeName ref="loc007669.03">Dompni Martini</placeName>, etatis <measure type="age" unit="year" quantity="30">triginta annorum
+                                            <lb/>vel circa</measure>, testis juratus, deponit quod <date when="1488" dur-iso="P10Y">sunt circa decem anni</date> quod
+                                            <lb/>illi de <placeName ref="loc007669.03">Dompno Martino</placeName> ceperant bestias communes <placeName ref="loc010907.03">Villarii Tiercellyn</placeName>&#160;;
+                                            <lb/>et quando ipse testis venit ad villam <placeName ref="loc007669.03">Dompni Martini</placeName> quesitum
+                                            <lb/>ipsas bestias, et ipse testis dixit isti <persName ref="per012756a.01">Francisco Marguet</persName>&#160;:
+                                            <lb/><q>&#160;Vos gubernatis bestias nostras&#160;</q>. Et tunc ipse <persName ref="per012756a.01">Marguet</persName> respondit
+                                           <lb/>sibi&#160;: <q>&#160;Vos citius habebitis pelles&#160;</q>. Et in crastinum ipse
+                                            <lb/>testis reperit pulcriorem <term ref="lem018975.02">vacam</term> quam haberet mortuam,
+                                           <lb/>quare suspicionem habuit super eum.</seg>
+                            </p>
+                        <pb n="368" facs="ACV_AC-29_368_369"/>
+                        <p><seg><lb/><persName ref="per012908a.01">Petrus Udry Abbi</persName> de <placeName ref="loc010902.02">Sugniens</placeName>, etatis <measure type="age" unit="year" quantity="30">triginta annorum vel
+                                            <lb/>circa</measure>, <del rend="strikethrough">T</del> testis juratus, deponit quod <date when="1478" dur-iso="P20Y">sunt circa XX<hi rend="sup">ti</hi> anni</date>
+                                            <lb/>quod ipse dici audierit communiter quod ipse <persName ref="per012756a.01">Marguet</persName> hereticus erat,
+                                            <lb/>et quod vox et fama <abbr>etc</abbr>. Item quod ipse pariter dici audivit
+                                            <lb/>quod ipse <persName ref="per012756a.01">Marguet</persName> cecidit cum tempore, ut precedens.</seg>
+                        </p>
+                        <p><seg><lb/><persName ref="per012910a.01">Petrus</persName> filius <persName ref="per012911a.01">Petri Abby Jacod</persName> de <placeName ref="loc010902.02">Sugniens</placeName>, testis etatis
+                                                <lb/><measure type="age" unit="year" quantity="40">XL annorum</measure> <abbr>etc</abbr>., dixit de voce et fama ut precedens, et quod
+                                                <lb/>sunt <date when="1492" dur-iso="P6Y">circa sex</date> <date when="1491" dur-iso="P7Y">aut septem anni</date> quod <persName ref="per012912a.01">Johanneta</persName>, eius <subst><del rend="strikethrough">uxor</del><add place="inline">filia</add></subst>
+                                                <lb/>quondam, semel vidit cadere cum tempore et <term ref="lem017306.01">tempestate</term> dictum
+                                                <lb/><persName ref="per012756a.01">Marguet</persName> in loco predicto, ut precedens.</seg>
+                                </p>
+                        <p><seg><lb/><persName ref="per012888a.01">Petrus Franciget</persName> de <placeName ref="loc010909.02">Naz</placeName>, etatis <measure type="age" unit="year" quantity="40">quadraginta annorum</measure>, testis
+                                                <lb/>juratus, dixit et deponit quod sunt <date when="1473" dur-iso="P25Y">circa viginti quinque anni</date> quod
+                                                <lb/>ipse testis vidit in <placeName ref="loc011126.02">ecclesia Dompni Martini</placeName> quod quidam <persName ref="per012889a.01">Petrus
+                                                <lb/>Romanel</persName> dixit dicto <persName ref="per012756a.01">Marguet</persName>&#160;: <q>&#160;<foreign xml:lang="fr"><persName ref="per012756a.02">Franczey Marguet</persName>, je
+                                                <lb/>tey dit <term ref="lem014908.11">voude</term>&#160;; je ne scay se tu l’ez. Que qui soyt, je
+                                                <lb/>te crie mersy&#160;!</foreign>&#160;</q><note>C’est-à-dire&#160;: <orig>&#160;<persName ref="per012756a.01">François Marguet</persName>, je t’ai dit "vaudois"&#160;; je ne sais pas si tu l’es. Quoi qu’il en soit, j’implore ton pardon&#160;!&#160;</orig></note> <abbr>etc</abbr>. De voce et fama ut precedens.</seg>
+                                </p>
+                        <p><seg><lb/><persName ref="per012891a.01">Mermetus Mongouz</persName>, habitator de <placeName ref="loc010902.02">Sugniens</placeName>, etatis <measure type="age" unit="year" quantity="60">sexaginta
+                                                <lb/>annorum</measure>, testis juratus, deponit quod sunt <date when="1478" dur-iso="P20Y">circa viginti
+                                                <lb/>anni</date> quod ipse dici audivit quod ipse erat hereticus, et
+                                                <lb/>quod sunt <date when="1492" dur-iso="P6Y">circa sex</date> <date when="1491" dur-iso="P7Y">aut septem anni vel circa</date>, ipso
+                                                <lb/>teste existente in <placeName ref="loc007669.03">Dompno Martino</placeName>, quod tempus erat iratum
+                                                <lb/>tempestate, quod vidit dictum <persName ref="per012756a.01">Marguet</persName> in quadam possessione
+                                                <lb/><persName ref="per012774a.01">Gerardi dou For</persName> vocata <placeName>Subtus ecclesiam</placeName><note>Lieu-dit, situé sous l’église de <placeName ref="loc007669.01">Dommartin</placeName> qui est un lieu de réunion récurrent dans les procès de 1498.</note>, sicut illum
+                                                <lb/>qui cecidit a nubibus&#160;; tamen non bene vidit. De
+                                                <lb/>voce et face et fama ut precedens.</seg>
+                                </p>
+                        <p><seg><lb/><persName ref="per012748a.01">Nycodus Magan</persName>, habitator <placeName ref="loc007669.03">Dompni Martini</placeName>, etatis <measure type="age" unit="year" quantity="30">triginta annorum
+                                                <lb/>vel circa</measure>, testis juratus, deponit de fama ut precedens, a tempore
+                                                <lb/>quo stetit in ipso loco, ut precedens <del rend="strikethrough">a tempore quo stetit</del>.
+                                                <lb/>Et ulterius deponit a <date when="1498" type="floating holiday">festo <term ref="lem018615.02">Pache</term> usque in festo Beati <persName ref="per000049a.12">Johannis</persName></date>,
+                                                <lb/>ipse habuit debatum cum dicto <persName ref="per012756a.01">Marguet</persName> versus Reysiam de certis
+                                                <lb/><measure type="volume" quantity="2" unit="Klafter" commodity="wood"><!-- type="volume" unit="Holzblock/billon" quantity="2" commodity="wood"-->duobus billionis nemorum</measure>, usque ad verba&#160;; deinde, verbis
+                                                <lb/>dulcibus, <choice><sic>adduxerunt</sic><corr>adduxerat</corr></choice> eundem testem ad domum cure ipsius
+                                                <lb/>loci&#160;; et ibidem, mensa posita et cibo, dictus <persName ref="per012756a.01">Marguet</persName>
+                                                <lb/>exivit domum, deinde retrocessit ad domum, et deinde biberunt et
+                                                <lb/>comederunt <del rend="strikethrough">et recedendo</del> in signum pacis. Et recedendo ipse 
+                            <pb n="369" facs="ACV_AC-29_368_369"/><lb/>testis fuit graviter infirmus stomaco et ventre ac corde,
+                                                <lb/>sic quod timuit se mori. Et tunc posuit digitum in ore,
+                                                <lb/>sic quod fecit vomitum de hiis que comederat&#160;; deinde sanatus
+                                                <lb/>est. Tamen <sic>suspitabat</sic> ipsum Marguet quod sibi dedisset.
+                                                <lb/>Aliud nescit.</seg>
+                               </p>
+                        <p><seg><lb/><persName ref="per012892a.01">Petrus Pillet alias Grant</persName> dicti loci, <measure type="age" unit="year" quantity="40">etatis XL annorum
+                                                <lb/>vel circa</measure>, testis juratus, dixit et deponit de voce et fama <date when="1488" dur-iso="P10Y">a
+                                                <lb/>decem annis citra</date>, ut precedens. Et dici audivit quod cecidit
+                                                <lb/>quodam semel cum tempestate in <placeName ref="loc007669.03">Dompno Martino</placeName> ut supra. Aliud
+                                                <lb/>nescit.</seg>
+                            </p>
+                        <p><seg><lb/><persName ref="per012893a.01">Johannes Vincent</persName> dicti loci, <measure type="age" unit="year" quantity="40">etatis XL annorum vel circa</measure>, testis
+                                                <lb/>juratus, deponit quod sunt <date when="1472" dur-iso="P26Y">circa viginti quinque aut sex anni</date>
+                                                <lb/>quod ipse audivit dici communiter quod erat hereticus, et quodam
+                                                <lb/>semel erat presens <date when="1498">isto anno</date> tempore falcacionum loco dicto <placeName ref="loc010910.02">Eis
+                                                 <lb/>Oches</placeName>, dicto <persName ref="per012756a.01">Marguet</persName> et <persName ref="per012890a.01">Glaudio</persName> eius nepote <choice><sic>habentes</sic><corr>habentibus</corr></choice>
+                                                <lb/>debatum de quadam possessione, ecce quod inter cetera audiverit
+                                                <lb/>quod dictus <persName ref="per012890a.01">Glaudius</persName> dixit eius patruo&#160;: <q>&#160;<foreign xml:lang="fr">Herejoz mauves&#160;!&#160;</foreign></q><note>C’est-à-dire&#160;: <orig>&#160;Mauvais hérétique&#160;!&#160;</orig></note>
+                                                <lb/><abbr>etc</abbr>. Item ulterius deponit quod sunt <date when="1473" dur-iso="P25Y">circa viginti quinque
+                                                <lb/>anni</date> quod dictus <persName ref="per012756a.01">Franciscus</persName> et <persName ref="per012889a.01">Petrus Romanel</persName> fuerunt detenti
+                                                <lb/><placeName ref="loc007885.06">Lausanne</placeName> in carceribus, eo quod dictus <persName ref="per012889a.01">Petrus</persName> vocavit
+                                                <lb/>dictum <persName ref="per012756a.01">Franciscum</persName> hereticum&#160;; qui ambo <sic>cuncordaverunt</sic> simul.</seg>
+                                </p>
+                         <p><seg><lb/><persName ref="per012894a.01">Glaudius Doucen</persName> dicti loci <placeName ref="loc007669.03">Dompni Martini</placeName>, etatis
+                                                <lb/><measure type="age" unit="year" quantity="30">triginta annorum</measure>, testis juratus, dixit et deponit se tantum
+                                                <lb/>scire, videlicet de voce et fama ut precedens, a pluribus,
+                                                <lb/>quando habebant debatum cum eo, quod sibi improperabant
+                                                <lb/>quod ipsi non ceciderant de aere ut ipse. Item deponit quod
+                                                <lb/>sunt <date when="1496" dur-iso="P3Y">circa tres anni</date> quod <persName ref="per012890a.01">Glaudius Marguet</persName> <del rend="strikethrough">eius</del>, nepos
+                                                <lb/>eiusdem inquisiti, fecerat partagia sua cum eodem inquisito,
+                                                <lb/>ecce quod idem <persName ref="per012890a.01">Glaudius Marguet</persName> venit se retractum
+                                                <lb/>ad domum ipsius <subst><del rend="strikethrough">tesis</del><add place="inline">testis</add></subst>. Ecce quod ipse <subst><del rend="strikethrough">tesis</del><add place="inline">inquisitus</add></subst>
+                                                <lb/>dolebat eo quod retrahebat dictum <persName ref="per012890a.01">Glaudium</persName>, ivit ad
+                                                <lb/>domum ipsius testis et dixit <persName ref="per012890a.02">Glaude</persName> <persName ref="per012970a">uxori</persName> ipsius
+                                                <lb/>testis&#160;: <q>&#160;Vos retrahitis nepotem meum&#160;</q>, ipsa existente
+                                                <lb/><persName ref="per012890a.02">Glauda</persName>, et dabat sibi verba <subst><del rend="strikethrough">maliciosa</del><add place="inline">minatoria</add></subst>&#160;;
+                                                <lb/>et tunc ipsa sibi dixit&#160;: <q>&#160;Caveatis quid dicetis&#160;; si 
+                        <pb n="370" facs="ACV_AC-29_370_371"/><lb/>malum veniret michi, vos peniteret&#160;</q>. Tunc ipse inquisitus
+                                                <lb/>perseverando dixit&#160;: <q>&#160;Per Deum vos penitebit&#160;!&#160;</q>. Et postea,
+                                                <lb/>infra <date dur-iso="P15D">quindecim dies post vel circa</date>, mortue fuerunt dicto
+                                                <lb/>testi septem bestie bovinales, tam magne quam parve&#160;;
+                                                <lb/>propter quod ipse testis <supplied reason="omitted">habet</supplied> malam suspicionem contra ipsum inquisitum,
+                                                <lb/>et ista verba sibi fuerunt relata per dictam <persName ref="per012970a">uxorem</persName> suam.
+                                                <lb/>Aliud nescit.</seg>
+                            </p>    
+                        <p><seg><lb/><persName ref="per012890a.01">Glaudius Marguet</persName>, nepos dicti <persName ref="per012756a.01">Francisci</persName>, etatis
+                                            <lb/><measure type="age" unit="year" quantity="30">triginta annorum vel circa</measure>, memorie vero viginti,
+                                            <lb/>testis juratus, dixit et deponit quod sunt <date when="1496" dur-iso="P3Y">circa tres anni</date>
+                                            <lb/>quod ipsi <subst><del rend="strikethrough">faceba[nt]</del><add place="inline">faciebant</add></subst> partagia sua et habuerunt
+                                            <lb/>plura debata et multa verba. Deinde <date when="1498">isto anno</date> tempore
+                                            <lb/>falcacionum ipsis existentibus in prato <foreign xml:lang="fr"><placeName ref="loc010910.03">Des Oches</placeName></foreign> habentes
+                                            <lb/>debatum de ipso prato, ecce quod post plura verba inter
+                                            <lb/>cetera ipse testis dixit eidem <persName ref="per012756a.01">Francisco</persName>&#160;: <q>&#160;<foreign xml:lang="fr">Ley sy met
+                                            <lb/>luz myen, <term ref="lem018783.02">herejuz</term>&#160;!&#160;</foreign></q><note>C’est-à-dire&#160;: <orig>&#160;Vous me prenez mon bien, hérétique&#160;!&#160;</orig></note> <abbr>etc</abbr>. Deinde dixit quod sepius familia
+                                            <lb/>dicti inquisiti dixerit familie ipsius testis, et
+                                            <lb/>eciam ipsemet inquisitus dixit cuidam carpentatori
+                                            <lb/>vocato <persName ref="per012900a.01"><choice><sic>Glaudio Glaudio</sic><corr>Glaudio</corr></choice> Baon</persName> de <placeName ref="loc010912.02">Vuarens</placeName>, propter
+                                            <lb/>debatum quod habuit cum ipso teste, quod <persName ref="per022024a.01">Anthonia</persName> filia
+                                            <lb/>eius infirmabatur nec infirma fuisse&#160;; deinde decessit
+                                            <lb/>ipsa filia&#160;; propter quod ipse et eius uxor habent
+                                            <lb/>malam suspicionem contra eundem inquisitum. Et pariter
+                                            <lb/>de <persName ref="per022025a.01">Margarita</persName> eius quondam prima uxore, que decessit
+                                            <lb/>post eorum partagia et debata&#160;; propter quod eciam habent
+                                            <lb/>malam suspicionem contra eundem. Aliud nescit.</seg>
+                        </p>
+                        <p><seg><lb/><persName ref="per012773a.01">Petrus Jacaud</persName><note>Il s’agit vraisemblablement de <persName ref="per012773a">Pierre Jacaud senior</persName>, frère de <persName ref="per012744a">François Jacaud</persName> (et non du fils de ce dernier), étant donné l’âge indiqué ici.</note> de <placeName ref="loc010896.02">Peres</placeName> dicte parrochie <placeName ref="loc007669.03">Dompni
+                                            <lb/>Martini</placeName>, etatis <measure type="age" unit="year" quantity="50">quinquaginta annorum vel circa</measure>,
+                                            <lb/>memorie vero triginta quinque, testis juratus, qui
+                                            <lb/>dixit de voce et fama, dixit quod a <date when="1473" dur-iso="P25Y">viginti quinque
+                                            <lb/>annis vel circa</date> dici audivit quod erat hereticus. Et
+                                            <lb/>ulterius dixit quod sunt <date when="1487" dur-iso="P12Y">circa XII anni vel
+                                            <lb/>circa</date> <choice><sic>quod eo</sic><corr/></choice> quod ipse testis montavit decimam ipsius
+                                            <lb/>loci <placeName ref="loc007669.03">Dompni Martini</placeName> super ipsum <persName ref="per012756a.01">Franciscum Marguet</persName> inquisitum
+                                            <lb/>et <persName ref="per012774a.01">Girardum dou For</persName>&#160;; et tunc ipse <persName ref="per012756a.01">Franciscus</persName> dixit
+                                            <lb/>eidem testi&#160;: <q>&#160;Vos montastis decimam super me et socium
+                                            <lb/>meum&#160;; ymo si vos michi noceatis, vos emendabitis&#160;</q>.
+                        <pb n="371" facs="ACV_AC-29_370_371"/><lb/>Et tunc decima remansit eidem testi, et
+                                                <lb/>incontinenti post mortua est eidem testi quedam
+                                                <lb/>vacha <del rend="strikethrough">quedam</del>, ex quo ipse testis ipsum
+                                                <lb/><persName ref="per012756a.01">Franciscum</persName> inquisitum habet suspectum. Item
+                                                <lb/>ulterius dixit quod sunt <date when="1473" dur-iso="P25Y">viginti quinque
+                                                <lb/>anni vel circa</date> quod ipse <persName ref="per012756a.01">Franciscus</persName> inquisitus et
+                                                <lb/>quidam <persName ref="per012889a.01">Petrus Romanel</persName> habuerunt quoddam
+                                                <lb/>debatum ex in <gap unit="word" quantity="1"/><note>L’original contient un espace blanc, qui devait indiquer un lieu précis.</note> dicti loci <placeName ref="loc007669.03">Dompni Martini</placeName>&#160;;
+                                                <lb/>propter quod ipse <persName ref="per012889a.01">Petrus Romanel</persName> dixit eidem
+                                                <lb/>inquisito&#160;: <q>&#160;<foreign xml:lang="fr"><term ref="lem014908.12">Vaude</term></foreign>&#160;!&#160;</q>. Ex quo mota fuit differencia et
+                                                <lb/>lis inter eos <placeName ref="loc007885.06">Lausanne</placeName>, coram dominis capituli. Deinde
+                                                <lb/>vidit in <placeName ref="loc011126.02">ecclesia Dompni Martini</placeName> quod dictus <persName ref="per012889a.01">Romanel</persName>
+                                                <lb/>dixit quadam <date period="P1WD">die dominico</date> dicto <persName ref="per012756a.01">Marguet</persName>&#160;: <q>&#160;<foreign xml:lang="fr">Juz
+                                                <lb/>t’ay dit <term ref="lem014908.10">voudeis</term>&#160;; juz ne scayt se tu l’es. Tel
+                                                <lb/>que tu est, je te layse que qui soit dudit, je
+                                                <lb/>te crie mersy</foreign>&#160;</q><note>C’est-à-dire&#160;: <orig>&#160;Je t’ai dit "vaudois"&#160;; je ne sais pas si tu l’es. Tel que tu es, je t’ai lésé par ce qui a été dit&#160;; j’implore ton pardon.&#160;</orig></note>. Aliud nescit.</seg>
+                            </p>
+                        <p><seg><lb/>Item honestus vir <persName ref="per012744a.01">Franciscus Jacaud</persName> <term ref="lem017142.01">castellanus</term> <orgName ref="org005241.02">Dompni Martini</orgName>,
+                                                 <lb/>etatis <measure type="age" unit="year" quantity="60">sexaginta annorum vel circa</measure>, memorie
+                                                 <lb/>vero quadraginta, testis juratus <abbr>etc</abbr>, super
+                                                 <lb/>predictis dixit et deposuit quod sunt <date when="1473" dur-iso="P20Y">circa viginti <del rend="strikethrough">aut</del>
+                                                 <lb/>quatuor aut quinque anni</date> quod ipse <persName ref="per012756a.01">Franciscus Marguet</persName>
+                                                 <lb/>habuit nomen et famam essendi hereticus et <sic>dupitabatur</sic>
+                                                 <lb/>de eo. Et quod audivit et <subst><del rend="strikethrough">dixit</del><add place="inline">vidit</add></subst> sibi improperare
+                                                 <lb/>dictum crimen a nonnullis&#160;; et presertim <date when="1498">isto anno</date>
+                                                <lb/><choice><sic>isto anno</sic><corr/></choice> in sui presencia, dictus <persName ref="per012890a.01">Glaudius Marguet</persName>
+                                                 <lb/>eius nepos, habendo verba <sic>rigurosa</sic>, sibi dixit quod
+                                                 <lb/>erat hereticus. Item quod sunt <date when="1478" dur-iso="P20Y">circa viginti anni</date>
+                                                <lb/>quod <persName ref="per012889a.01">Petrus Romanel</persName> litigabat cum eodem <persName ref="per012756a.01">Francisco</persName>
+                                                <lb/>in curia <placeName ref="loc007669.03">Dompni Martini</placeName>, et in eodem loco in <del rend="strikethrough">presentibus</del>
+                            <pb n="372" facs="ACV_AC-29_372_373"/><lb/>presencia omnium ibidem assistentium, dictus <persName ref="per012889a.01">Petrus</persName>
+                                                <lb/>vocavit dictum <persName ref="per012756a.01">Franciscum</persName> hereticum&#160;; qui hac de
+                                                <lb/>causa ambo fuerunt detenti <placeName ref="loc007885.06">Lausanne</placeName> in carceribus
+                                                <lb/>et per dominos capituli liberati, cum concordio insimul
+                                                <lb/>facto. Et dum fuerunt reversi ad <placeName ref="loc007669.03">Dompnum Martinum</placeName>,
+                                                <lb/>dictus <persName ref="per012889a.01">Petrus Romanel</persName> dixit dicto <persName ref="per012756a.01">Francisco</persName> coram
+                                                <lb/>omni populo in ecclesia&#160;: <q>&#160;<persName ref="per012756a.01">Francisce</persName>, ego dixi tibi
+                                                <lb/>heretice&#160;; ego te reperi pravum et talem te dimicto.
+                                                <lb/>Sed tibi peto veniam&#160;</q>. Aliud nescit.</seg>
+                            </p>
+                        <p><seg><lb/>Item venerabilis dompnus <persName ref="per012743a.01">Johannes Vuystonis</persName> <term ref="lem009181.02">cappellanus</term>
+                                                <lb/>dicti loci, juratus testis, deponit quod a tempore
+                                                <lb/>quo stetit in parrochia predicta, audivit a pluribus
+                                                <lb/>dictum <persName ref="per012756a.01">Franciscum</persName> esse <term ref="lem018156.01">diffamatum</term> de dicto crimine, ut
+                                                <lb/>vidit et audivit in eius presencia dicti <persName ref="per012756a.01">Francisci</persName>
+                                                <lb/>improperare crimen heresis, et quod erat hereticus,
+                                                <lb/>presertim per <persName ref="per012890a.01">Glaudium Marguet</persName> eius nepotem a <date when="1496" dur-iso="P2Y">duobus
+                                                <lb/>annis citra</date>. Aliud nescit.</seg>
+                            </p>
+                         <p><seg><lb/>De dicti domini viceinquisitoris precepto
+                                                <lb/><signed><persName ref="per012775a.02"><choice><abbr>as</abbr><expan>Andreas</expan></choice> Thovacii</persName>
+                                                <figure type="notarial sign"/></signed></seg></p>
+                        <pb n="373" facs="ACV_AC-29_372_373"/>
+                        <head type="title"><hi rend="center">Processus <persName ref="per012756a.01">Francisci <del rend="strikethrough"><choice><abbr>Mrget</abbr><expan>Marguet</expan></choice></del>
+                            <lb/>Marguet</persName> de <placeName ref="loc007669.03">Dompno
+                            <lb/>Martino</placeName></hi></head>
+                        <head type="subtitle" resp="GO">25 octobre 1498</head>
+                         <p><seg><lb/><origDate when="1498-10-25">Anno Domini millesimo quatercentesimo
+                                            <lb/>nonagesimo octavo et die vicesima quinta
+                                            <lb/>mensis octobris</origDate>, <persName ref="per012756a.01">Franciscus Marguet</persName> de <placeName ref="loc007669.03">Dompno Martino</placeName>
+                                            <lb/>ad clamam <persName ref="per012963a.01">Johannis Sugniens</persName> in crimine heresis fuit
+                                            <lb/>detentus in <origPlace ref="loc010898.02">castro</origPlace> dicti loci&#160;; et coram
+                                            <lb/>venerabili patre fratre <persName ref="per012741a.01">Francisco Fossaudi</persName> <orgName ref="org004025.04">ordinis Predicatorum
+                                            <lb/>conventus Lausannensis</orgName>, viceinquisitore generali in
+                                            <lb/>civitatibus et dyocesibus <placeName ref="loc005781.05">Lausannensi</placeName>, <placeName ref="loc008750.05">Gebennensi</placeName> et
+                                            <lb/><placeName ref="loc008973.04">Sedunensi</placeName> auctoritate apostolica specialiter de<lb break="no"/>putato, fuit adductus dictus <persName ref="per012756a.01">Franciscus</persName>, omni
+                                            <lb/>vinculo carceris solutus, et per eundem
+                                            <lb/>viceinquisitorem interrogatus et adjuratus
+                                            <lb/>super sanctis Dei euvangeliis de veritate dicenda,
+                                            <lb/>presentando eidem misericordiam Ecclesie, casu quo vellet
+                                            <lb/>confiteri crimen <del rend="strikethrough">heresis</del> pro quo detinebatur.</seg>
+                        </p>
+                          <p><seg><lb/>Et primo fuit interrogatus si sciat causam
+                                            <lb/>sue detencionis. Dixit ad clamam <persName  ref="per012963a.01">Johannis
+                                            <lb/>Sugniens</persName> pro crimine heresis detinebatur.</seg>
+                            </p>
+                           <p><seg><lb/>Interrogatus si sit hereticus, <choice><sic>respondet</sic><corr>respondit</corr></choice> quod non nec
+                                            <lb/>unquam fuit in aliquo crimine heresis.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus <del rend="strikethrough">si</del> qui capiuntur pro fide, respondit quod
+                                            <lb/>sunt heretici et <supplied reason="omitted">qui</supplied> dicuntur esse.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus que opera faciunt heretici, dixit quod
+                                            <lb/>nescit. </seg>
+                                </p>
+                        <pb n="374" facs="ACV_AC-29_374_375"/>
+                            <p><seg><lb/>Interrogatus quare capiuntur heretici, respondit quia
+                                            <lb/>faciunt mala opera.</seg>
+                        </p> 
+                            <p><seg><lb/>Interrogatus si credat esse paradisum et qui
+                                            <lb/>vadunt illuc, dixit quod credit et quod boni
+                                            <lb/>illuc vadunt.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si credat esse infernum, dixit quod sic.
+                                            <lb/>Item si credat esse <term ref="lem017140.01">demones</term>, dixit quod sic,
+                                            <lb/>ex auditu.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si credat quod demones loquantur
+                                            <lb/>hominibus, dixit quod sic, ut audivit dici a
+                                            <lb/>nonnullis <choice><sic>heretici</sic><corr>hereticis</corr></choice> qui fuerunt plexi <placeName ref="loc007607.07">Melduni</placeName>,
+                                            <lb/>sunt <date when="1448" dur-iso="P60Y">circa XL anni elapsi</date>.</seg>
+                            </p>
+                             <p><seg><lb/>Interrogatus si umquam <term ref="lem017140.03">demun</term> fuerit sibi loquutus,
+                                            <lb/>respondit quod non.</seg>  
+                                <seg>Et ulterius non fuit interrogatus,
+                                            <lb/>sed per prefatum dominum viceinquisitorem fuit assignatus
+                                            <lb/>ad <date when="1498-10-26">diem sequentem</date> ad confitendum veritatem. Et hoc
+                                            <lb/>pro prima <term ref="lem017130.01">monicione</term> canonica, presentibus venerabili
+                                            <lb/>dompno <persName ref="per012743a.01">Johanne Vuystonis</persName> cappellano <term ref="lem000013.01">vicario</term> dicti
+                                            <lb/>loci <placeName ref="loc007669.03">Dompni Martini</placeName>, <persName ref="per012744a.01">Francisco Jacaud</persName> castellano dicti loci,
+                                            <lb/><persName ref="per012913a.02"><choice><abbr>Nyco</abbr><expan>Nycodo</expan></choice> Billiar</persName> <term ref="lem017142.01">castellano</term> de <orgName ref="org005304.02">Essertines</orgName><note><placeName ref="loc011236.01">Essertines-sur-Yverdon</placeName> est une possession du Chapitre de <orgName ref="org004033.01">Lausanne</orgName>.</note>, <persName ref="per012745a.01">Johanne Sovajat</persName>
+                                            <lb/><term ref="lem018460.01">gubernatore</term>, et <persName ref="per012773a.01">Petro Jacaud</persName> dicti loci, testibus
+                                            <lb/>ad premissa vocatis specialiter et rogatis.</seg>
+                            </p>
+                        <head type="subtitle" resp="GO">26 octobre 1498</head>
+                        <head type="subtitle">Secunda <term ref="lem017130.01">monicio</term></head>
+                            <p><seg><lb/><origDate when="1498-10-26">Anno quo supra et die vicesima sexta
+                                            <lb/>dicti mensis octobris</origDate>, prenominatus <persName ref="per012756a.01">Franciscus</persName> <del rend="strikethrough">Mar</del> fuit
+                          <pb n="375" facs="ACV_AC-29_374_375"/><lb/>ad locum auditorii coram prefato domino viceinquisitore
+                                            <lb/>adductus, omni vinculo carceris solutus, per eundem
+                                            <lb/>dominum viceinquisitorem interrogatus si umquam de
+                                            <lb/>dicto crimine heresis in sua parrochia et apud suos
+                                            <lb/>vicinos fuerit diffamatus, respondit quod non.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus si umquam fuerit sibi improperatum quod fuerit hereticus,
+                                            <lb/>dixit quod non, excepto quod sunt <date when="1498-07" dur-iso="P3M">tres menses vel
+                                             <lb/>circa</date> quod semel <persName ref="per012890a.01">Glaudius Marguet</persName> eius nepos habuit
+                                            <lb/>debatum cum eo, et pervenerunt ad verba injuriosa,
+                                            <lb/>ecce quod dictus <persName ref="per012890a.01">Glaudius</persName> improperavit eidem quod
+                                            <lb/>ibat per nubes.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus si fecerit unquam diligenciam se purgandi
+                                            <lb/>de dicta injuria sibi illata per dictum <persName ref="per012890a.01">Glaudium</persName>,
+                                            <lb/>dixit quod non quia non poterat probare.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si fugerit umquam metu ne caperetur, dixit quod non.</seg></p>
+                            <p><seg><lb/>Interrogatus si fecerit alicui dampnum vel displicitum,
+                                            <lb/>dixit quod sic, bestiis dampnifferrando.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si unquam litigaverit cum vicinis suis,
+                                            <lb/>dixit quod sic, cum pluribus, petendo jura sua
+                                            <lb/>vel deffendendo&#160;; tamen nescit nunc cum quibus.</seg>
+                           </p>
+                            <p><seg><lb/>Interrogatus si racione litis, si alicui unquam fecerit
+                                            <lb/>dampnum, dixit quod non.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si unquam fuerit suspectus a vicinis
+                                            <lb/>suis de crimine heresis, dixit quod nescit.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si sciat si fuerint sumpte informaciones
+                                            <lb/>in parrochia sua super crimine heresis contra suspectos
+                                            <lb/>de dicto crimine, dixit quod nescit.</seg>
+                        </p>
+                        <p><seg><lb/>Interrogatus si sciverit dominos capituli <orgName ref="org004033.02">Lausannensis</orgName>, sunt,
+                     <pb n="376" facs="ACV_AC-29_376_377"/><lb/><date notBefore="1498-10-01" notAfter="1498-10-04" dur-iso="P3W">tres ebdomade vel circa</date>, in parrochia
+                                            <lb/><placeName ref="loc007669.03">Dompni Martini</placeName>, sumptis informaciones contra predictos
+                                            <lb/>et si ipsos viderit, dixit quod non. Tamen
+                                            <lb/>fuit convictus per <persName ref="per012913a.01">Nycodum Billiar</persName> castellanum
+                                            <lb/>de <orgName ref="org005304.02">Essertines</orgName>, qui eidem <persName ref="per012756a.01">Francisco</persName> coram inferius
+                                            <lb/><choice><sic>nominatos</sic><corr>nominatis</corr></choice> dixit ipsum fuisse apud <placeName ref="loc011120.06">Chardoney</placeName>,
+                                            <lb/>fuit examinatus per eosdem dominos.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus si fuerit unquam coram aliquo inquisitore
+                                            <lb/>vocatus seu citatus, dixit quod non.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus si unquam frequentaverit cum aliquo
+                                            <lb/>suspecto de dicto crimine heresis, dixit quod non
+                                            <lb/>scit.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si unquam conversatus fuerit cum aliquo
+                                            <lb/><choice><sic>sortilegio</sic><corr><term ref="lem018785.01">sortilego</term></corr></choice>, <term ref="lem018784.01">devinatore</term> et <term ref="lem018782.01">invocatore</term>, dixit quod
+                                            <lb/>non.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus an aliquem minatus fuerit et post
+                                            <lb/>aliqua mala evenerint, tam in personis quam bonis,
+                                            <lb/>dixit quod non.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si unquam dederit aliqua munera vel
+                                            <lb/>convenerit ne caperetur de dicto crimine,
+                                            <lb/>dixit quod non.</seg>
+                            </p>
+                            <p><seg><lb/>Item si unquam dixerit alicui se velle confiteri
+                                            <lb/>dictum crimen vel si aliquis eum <del rend="strikethrough">memorie</del>
+                                            <lb/>monuerit ad dictum crimen <choice><sic>confitendi</sic><corr>confitendum</corr></choice>,
+                                            <lb/>dixit quod non.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus an <subst><del rend="strikethrough">interrogaverit</del><add place="inline">impetraverit</add></subst>
+                                            <lb/>aliquam provisionem ne caperetur, dixit quod non.</seg>
+                                   <seg><lb/>Et ulterius non fuit interrogatus, sed per prefatum dominum
+                                            <lb/><term ref="lem017062.01"><sic>inquisitorem</sic></term> fuit remissus ad <time period="afternoon">horam vesperorum</time>. Et
+                                            <lb/>hoc pro secunda monicione canonica, presentibus quibus
+                                            <lb/>supra, excepto prefato domino <persName ref="per012743a.01">Johanne</persName> vicario.</seg>
+                            </p>
+                        <pb n="377" facs="ACV_AC-29_376_377"/>
+                        <head type="subtitle" resp="GO">26 octobre 1498, plus tard</head>
+                        <head type="subtitle"><hi rend="center">Tercia <term ref="lem017130.01">monicio</term></hi></head>
+                        <p><seg><lb/><origDate when="1498-10-26">Anno et die premissis</origDate>, fuit adductus <persName ref="per012756a.01">Franciscus
+                                            <lb/>Marguet</persName> ut supra et per prefatum dominum viceinquisitorem
+                                            <lb/>fuit interrogatus. </seg>
+                            <seg>Et primo qui capiuntur pro
+                                            <lb/>fide, dixit quod sunt heretici.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus quare dicuntur heretici et que opera
+                                            <lb/>faciunt, dixit quod nescit, nisi quod faciunt mala,
+                                            <lb/>id est, vadunt per nubes cum tempestate
+                                            <lb/>et faciunt mori gentes <del rend="strikethrough">arte</del> et bestias <term ref="lem018466.02">arte
+                                            <lb/>dyabolica</term>.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus quem magistrum accipiunt heretici,
+                                            <lb/>dixit quod accipiunt <term ref="lem017521.02">dyabolum</term>.</seg>
+                            </p>
+                            <p><seg><lb/>Item quid demun eis precipit fieri, dixit
+                                            <lb/>quod faciant tempestates et malum hominibus
+                                            <lb/>et bestiis&#160;; quo modo et <subst><del rend="strikethrough">quibus</del><add place="inline">qualiter</add></subst> faciunt,
+                                            <lb/>nescit.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus si credat quod sit possibile quod heretici
+                                            <lb/>arte dyabolica possint nocere hominibus et bestiis,
+                                            <lb/>ipsis tradendo mortem, dixit quod non credit.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus qua hora heretici vadunt ad <term ref="lem018331.01">sectam</term>,
+                                            <lb/>dixit quod vadunt de <time period="byNight">nocte</time>, ut dici audivit.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus quid hic faciunt, nescit, ut dixit, nisi malum.</seg></p>
+                            <p><seg><lb/>Iterum fuit interrogatus si unquam sibi fuerit improperatum
+                                            <lb/>quod fuerit hereticus. Dixit quod non, nisi quod <persName ref="per012890a.01">Glaudius
+                                            <lb/>Marguet</persName> eius nepos sibi dixerat quod ibat per
+                                            <lb/>nubes, et per dictum <persName ref="per012890a.01">Glaudium</persName> in presencia subscriptorum
+                                            <lb/>fuit convictus&#160;; qui dixit eidem <persName ref="per012756a.01">Francisco</persName> quod semel a
+                                            <lb/>tribus mensibus citra in quodam jurgio sibi dixit quod
+                                            <lb/>erat hereticus et quod ibat per nubes. </seg>
+                            </p>
+                        <pb n="378" facs="ACV_AC-29_378_379"/>
+                            <p><seg><lb/>Item fuit interrogatus si habeat aliquos malivolos
+                                            <lb/>in dicta parrochia <placeName ref="loc007669.03">Dompni Martini</placeName>. Dixit quod non credit
+                                            <lb/>habere aliquos.</seg>
+                        </p>
+                           <p><seg><lb/>Interrogatus si aliquis fecerit clamam contra
+                                            <lb/><choice><sic>eundem</sic><corr>ipsum</corr></choice> de dicto crimine <del rend="strikethrough">h</del>, <supplied reason="omitted">dixit quod</supplied> usque nunc per <persName  ref="per012963a.01">Johannem
+                                            <lb/>Sugniens</persName>.</seg> 
+                               <seg>Et ulterius non fuit interrogatus,
+                                            <lb/>sed remissus ad <date when="1498-10-27">diem sequentem</date>. Et hoc pro tercia
+                                            <lb/>monicione canonica, presentibus prefatis dompno
+                                            <lb/><persName ref="per012743a.01">Johanne Vuystonis</persName> cappellano et vicario dicti loci <placeName ref="loc007669.03">Dompni
+                                            <lb/>Martini</placeName>, <persName ref="per012744a.01">Francisco Jacaud</persName> castellano ipsius loci, <persName  ref="per012913a.01">Nycodo Billiar</persName>
+                                            <lb/>castellano de <orgName ref="org005304.02">Essertines</orgName>, <persName ref="per012745a.01">Johanne Sovajat</persName> gubernatore,
+                                            <lb/><persName ref="per012773a.01">Petro Jacaud</persName> <term ref="lem017272.01">mistrali</term>, <persName ref="per012966a.01">Johanne Rolier</persName>, <persName ref="per012894a.02">Glaudio Docent</persName>,
+                                            <lb/><persName ref="per012892a.01">Petro Pillet</persName>, et <persName ref="per012887a.01">Stephano Fauconet</persName>, testibus ad premissa
+                                            <lb/>vocatis et rogatis.</seg>
+                           </p>
+                        <head type="subtitle" resp="GO">27 octobre 1498</head>
+                        <head type="subtitle"><hi rend="center">Confessio dicti <persName ref="per012756a.01">Francisci
+                            <lb/>Marguet</persName></hi></head>
+                            <p><seg><lb/><origDate when="1498-10-27">Anno predicto et die vicesima septima mensis octobris</origDate>,
+                                            <lb/>predictus <persName ref="per012756a.01">Franciscus Marguet</persName> fuit adductus ut supra, et
+                                            <lb/>per prefatum dominum viceinquisitorem monitus et interrogatus
+                                            <lb/>de veritate dicenda super crimine heresis pro quo
+                                            <lb/>detinetur.</seg> 
+                              <seg>Quiquidem <persName ref="per012756a.01">Franciscus</persName> confitetur se esse
+                                            <lb/>hereticum. Et sunt <date when="1478" dur-iso="P20Y">viginti anni proxime lapsi
+                                            <lb/>vel circa</date> quod una die <time period="byDay">de die</time> in <placeName ref="loc010913.04">Vallibus</placeName> subtus <placeName ref="loc010898.02">castrum
+                                            <lb/>Dompni Martini</placeName>, ipse reperit <subst><del rend="strikethrough">quem</del><add place="inline">quendam</add></subst> hominem
+                                            <lb/>vestitum nigro. Quiquidem alloquutus est dictum
+                                            <lb/><persName ref="per012756a.01">Franciscum</persName>, sibi dicendo&#160;: <q>&#160;Si velis negare Deum,
+                                            <lb/>virginem <persName ref="per000169a.02">Mariam</persName> et Trinitatem, faciam te divitem,
+                                            <lb/>et <date dur-iso="R/P2WD">quoti lune</date> dabo tibi <measure type="currency" unit="S" quantity="5">quinque solidos</measure>&#160;</q>. Et sibi
+                                            <lb/>intranavit quod erat demun, et nomen suum erat
+    <lb/><label type="keyword" place="left margin">negacio Dei</label> <persName ref="per012969a.01">Moret</persName>. Et idem <persName ref="per012756a.01">Franciscus</persName> ad vocem demonis negavit
+                            <pb n="379" facs="ACV_AC-29_378_379"/><lb/>Deum, virginem <persName ref="per000169a.02">Mariam</persName> et sanctam Trinitatem.
+                                            <lb/>Et inmediate dictus demun se transtulit
+                                            <lb/>in speciem <term ref="lem018118.01">canis</term> nigri, et ad vocem ipsius
+                                            <lb/>dictus <persName ref="per012756a.01">Franciscus</persName> obsculatus est sub cauda. Et dixit
+                                            <lb/>quod erat frigidus. In cuius <term ref="lem018469.01">homagii signum</term>
+                                            <lb/>dictus demun cum dentibus strinxit sibi digitum,
+                                            <lb/>videlicet indicem manus destre.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus quid demun sibi dabat, respondit quod
+                                            <lb/>sibi dabat <date dur-iso="R/P2WD">quoti lune</date> <measure type="currency" unit="S" quantity="5">quinque solidos</measure> quos
+                                            <lb/>reperiebat super uno lapide retro domum suam. Et
+                                            <lb/>dum illos ponebat in sua bursa, nichil reperiebat.</seg>
+                        </p>
+                            <p><seg><lb/>Item confitetur quod demun sibi precepit ipso tunc
+                                            <lb/>quod in crastinum iret ad sectam, ad locum vocatum <foreign xml:lang="fr"><placeName ref="loc010913.01">En
+                                            <lb/>les Vaux</placeName></foreign> de <placeName ref="loc007669.03">Dompno Martino</placeName>. Et ibidem ivit
+                                            <lb/>de <time period="byNight">nocte, hora bene tarda</time>. Et ibidem reperit
+                                            <lb/>plures homines et mulieres. Et ibidem erat
+                                            <lb/>ignis et candele viridei et <term ref="lem018185.01">persei</term> colloris. Et
+                                            <lb/>ibidem erat demun in specie hominis.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus quid ibidem egit, dixit et confitetur
+                                            <lb/>quod comedit et bibit panem et carnes ac vinum
+                                            <lb/>cum ceteris hereticis.</seg>
+                           </p>
+                            <p><seg><lb/>Interrogatus que carnes erant, dixit quod erant
+                                            <lb/><term ref="lem018083.01">carnes parvorum puerorum</term> et quod erant saporis
+                                            <lb/>dulcis.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus ubi <subst><del>capiutur</del><add place="overwritten">capiuntur</add></subst> corpora dictorum
+                                            <lb/>puerorum, respondit quod intrant domos et
+                                            <lb/><term ref="lem018465.01">interficiunt</term> illos prope matrem. Et dum sunt
+                                            <lb/>sepulti, heretici ipsi veniunt de sero ad
+                                            <lb/><placeName ref="loc011235.02">cimisterium</placeName> et extrahunt corpora a monumentis
+                      <pb n="380" facs="ACV_AC-29_380_381"/><lb/>et relinquunt <sic>capud</sic> propter sanctum crismia.
+                                             <lb/>Corpus vero portant ad <term ref="lem017070.01">synagogam</term>.
+                                            <lb/>Et dum comederunt carnes, comburunt ossa
+                                            <lb/>et faciunt ex eisdem <term ref="lem017274.01">pulveres</term> ad nocendum
+                                            <lb/>et necandum homines et animalia.</seg>
+                        </p>
+                        <p><seg><lb/>Interrogatus si fuerit in aliqua <term ref="lem016946.01">societate</term> quod
+                                                <lb/>aliquem ceperint, <add place="interlinear">dixit quod sic</add>, in domo <persName ref="per012968a.01">Johannis Jacaud</persName>&#160;;
+                                                <lb/>iverunt quadam <time period="byNight">nocte</time> ipse, <persName ref="per012763a.03">Pernetus Jacaud</persName>,
+                                                <lb/><persName ref="per011509a.01">Ysabella</persName> de <placeName ref="loc010896.02">Peres</placeName><note>Il s’agit vraisemblablement d’<persName  ref="per011509a">Isabelle Perat</persName>, de <placeName ref="loc010896.01">Peyres</placeName>, dont le procès a été conservé (<bibl><ref target="urn:ssrq:SDS-VD-D_1-22-1">SDS VD D 1 22-1</ref>&#160;: ACV, Ac 29, p.&#160;399–414</bibl>).</note>, <persName ref="per012762a.02">Francesia Jacaud</persName> de <placeName ref="loc010902.02">Sugniens</placeName>,
+                                                <lb/><persName ref="per012752a.03">Johannes Richar</persName> et eius <persName ref="per012759a">uxor</persName>&#160;; et intravit
+                                                <lb/>dicta <persName ref="per011509a.01">Ysabella</persName> per quandam fenestram domus
+                                                 <lb/>predicte et ivit ad accipiendum unum
+                                                 <lb/>parvum puerum juxta patrem et matrem&#160;;
+                                                <lb/>et tunc cum <term ref="lem018468.01">stringeret</term> et teneret ipsum
+                                                <lb/>puerum per tybiam, tunc puer clamavit&#160;;
+                                                 <lb/>et tunc puer exivit lectum, ac illi
+                                                 <lb/>abierunt, et tunc non potuerunt habere
+                                                 <lb/>illum&#160;; sed fuit dictus puer lesus vel
+                                                 <lb/>oppressus in tybia, sed modo sanatus
+                                                 <lb/>est.</seg></p>
+                            <p><seg><lb/>Interrogatus quid ultra in dicta secta faciunt, respondit
+                                                 <lb/>quod quisque reddit computum demoni de <term ref="lem018167.01">maleficiis</term> per
+                                                <lb/>eosdem perpetratis. Deinde dictus demun transfigurat
+<lb/><label type="keyword" place="left margin"><term ref="lem018116.01">homagium</term></label> in speciem canis, et ipsi obsculantur sub cauda.
+                                                <lb/>Deinde candele extinguntur, et tunc homines
+                                                <lb/>habitant cum mulieribus modo <term ref="lem017136.02">sodometico</term>.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus <sic>ultrum</sic> vadant ad pedes ad sectam,
+                                                <lb/>dixit quod demun sibi dedit et ceteris unum
+                                                <lb/>parvum <term ref="lem017132.01">baculum</term> et <term ref="lem018464.02">haulobostra</term> duo repleta
+                                <pb n="381" facs="ACV_AC-29_380_381"/><lb/><term ref="lem017273.01">unguentis</term>, de quo unguento ungunt ipsum baculum
+                                                <lb/>et ascendunt desuper, dum illuc volunt ire,
+                                                <lb/>dicendo&#160;: <q>&#160;Vade, ex parte dyaboli, vade&#160;!&#160;</q>. Et illuc
+                                                <lb/>sunt in secta.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus quid demun eisdem precipit, respondit quod
+                                            <lb/>faciant omnia mala que facere poterunt hominibus et
+                                            <lb/>bestiis. Et dat ipsis <term ref="lem018464.05">halabaustrum</term> in quo
+                                            <lb/>est unguentum, et pulveres pro interficiendo homines
+                                            <lb/>et bestias, et eciam ad infirmitates dandum.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus quibus dedit de dicto unguento, respondit
+                                            <lb/>quod semel habuit debatum <date when="1498">isto anno</date> cum
+                                            <lb/><persName ref="per012748a.01">Magan</persName> et, bibentes simul in domo vicarii dicte
+                                            <lb/>parrochie, dictus <persName ref="per012756a.01">Franciscus</persName> tenebat unguentum
+                                            <lb/>subtus ungulam policis, et tetigit vinum vitri
+                                            <lb/>in quo bibit dictus <persName ref="per012748a.01">Magan</persName>&#160;; qui inmediate fuit valde
+                                            <lb/>infirmus in stomaco et, vomendo acriter, projexit
+                                            <lb/>dictum <term ref="lem018786.01">venenum</term> extra corpus.</seg>
+                            </p>
+                            <p><seg><lb/>Item dixit et fatetur quod ad vocem demonis
+                                            <lb/>fecit crucem in terra et, in despectu Dei, calcavit
+                                            <lb/>eam pedibus. Et dum accipiebat aquam
+                                            <lb/>benedictam, non prohiciebat in vultu, sed retro.</seg>
+                            </p>
+                            <p><seg><lb/>Item confitetur quod demun ipsis precipit quod quando
+                                            <lb/>recipiunt sacrum corpus Domini, quod reservent in
+                                            <lb/>ore&#160;; deinde quod apportent illud ad sectam. Et
+                                            <lb/>quod sunt <date when="1496" dur-iso="P3Y">tres anni vel circa</date> quod <persName ref="per012763a.03">Pernetus Jacaud</persName>
+                                            <lb/>semel in <date type="floating holiday">festo <term ref="lem018615.02">Pache</term></date> recepit sacrum corpus
+<lb/><label type="keyword" place="left margin">Portavit <term ref="lem017061.01">corpus Christi</term> <lb/>ad sectam</label> Christi&#160;; deinde apportavit quadam die ipsum
+                                            <lb/>corpus Christi ad sectam quam tenebant in
+                        <pb n="382" facs="ACV_AC-29_382_383"/><lb/><placeName ref="loc010913.03">Valibus Dompni Martini</placeName>. Et illud posuerunt
+                                            <lb/>in patella ad fricandum, et dictum corpus exivit
+                                            <lb/>patellam et evanuit ab oculis eorum.</seg>
+                        </p>
+    <p><seg><lb/><label type="keyword" place="left margin">secta</label> Interrogatus in quibus sectis fuit, dixit quod
+                                            <lb/>in duabus, scilicet in dictis <placeName ref="loc010913.04">Vallibus</placeName> et in furno
+                                            <lb/><persName ref="per012968a.01">Johannis Jacaud</persName>.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus de suis complicibus, respondit quod vidit
+                                            <lb/>in dictis sectis et realiter cognovit sepissime
+    <lb/><label type="keyword" place="left margin">complices</label> <persName ref="per012763a.03">Pernetum Jacaud</persName>, <persName ref="per012752a.03">Johannem Richar</persName> et eius <persName ref="per012759a">uxorem</persName>,
+                                            <lb/><persName ref="per011509a.01">Ysabellam</persName> de <placeName ref="loc010896.02">Peres</placeName>, et <persName ref="per012762a.02">Francesiam Jacaud</persName> de <placeName ref="loc010902.02">Sugniens</placeName>,
+                                            <lb/>agentes honorem et reverenciam facientes demoni,
+                                            <lb/>ipsum in posterioribus sui fetidi  corporis obsculando.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus si fuerit diu quod non fuit in secta, dixit
+                                            <lb/>quod est <date when="1498-09" dur-iso="P1M">mensis vel circa</date>.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus in quo loco fuit ultimate, respondit quod
+                                            <lb/>in furno dicti <persName ref="per012968a.01">Johannis Jacaud</persName>, et ibidem
+                                            <lb/>erant dicti sui complices.</seg>
+                                <seg>Et juravit super
+                                            <lb/>sancta Dei euvangelia in manibus dicti domini
+                                            <lb/>viceinquisitoris premissa omnia superius per ipsum confessata
+                                            <lb/>fore vera. Et ultra non fuit interrogatus,
+                                            <lb/>sed remissus ad dietim<note>Le procès-verbal ne reprend que le <date when="1498-11-05">5 novembre 1498</date>.</note> per prefatum dominum viceinquisitorem,
+                                            <lb/>presentibus venerabili domino <persName  ref="per012743a.01">Johanne Vuystonis</persName> cappellano vicario
+                                            <lb/>dicti loci, <persName ref="per012744a.01">Francisco Jacaud</persName> castellano loci predicti
+                                            <lb/><placeName ref="loc007669.03">Dompni Martini</placeName>, et <persName ref="per012913a.01">Nycodo Billiar</persName> castellano de <orgName ref="org005304.02">Essertines</orgName>,
+                                            <lb/>testibus ad premissa vocatis et rogatis.</seg>
+                            </p>
+                        <head type="subtitle" resp="GO">5 novembre 1498</head>
+                        <head type="subtitle"><hi rend="center">Alia <term ref="lem018426.01">repeticio</term></hi></head>
+                            <p><seg><lb/><origDate when="1498-11-05">Anno predicto et die <choice><sic>quindecima</sic><corr>quinta</corr></choice> mensis
+                            <pb n="383" facs="ACV_AC-29_382_383"/><lb/>novembris</origDate>, predictus <persName ref="per012756a.01">Franciscus Marguet</persName> fuit interrogatus
+                                            <lb/>per prefatum dominum viceinquisitorem an omnia superius
+                                            <lb/>per ipsum confessata essent vera. Qui <persName ref="per012756a.01">Franciscus</persName> juravit
+                                            <lb/>ut supra fore vera.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus si unquam in confessione sacramentali
+                                            <lb/>confessus fuerit dictum crimen heresis, respondit quod
+                                            <lb/>non&#160;; sed in illo peccato quoti <date type="floating holiday"><term ref="lem018615.04">Pascate</term></date> recepit
+                                            <lb/>sacrum corpus Domini.</seg>
+                        </p>
+                            <p><seg><lb/>Interrogatus si dederit mortem vel infirmitatem
+                                            <lb/>alicui, dixit quod non, preter ut supra in
+                                            <lb/>domo <persName ref="per012968a.01">Johannis Jacaud</persName>.</seg>
+                            </p>
+                            <p><seg><lb/>Interrogatus quo modo habebat animum necandi
+                                            <lb/>homines et bestias, dixit quod demun ipsum
+                                            <lb/>verberabat, dum defficiebat ipsius preceptis,
+                                            <lb/>et dabat mercedem huic qui majora
+                                            <lb/>commictebat <term ref="lem018084.01">homicidia</term>&#160;: uni dabat <measure type="currency" unit="ß" quantity="30">xxx
+                                            <lb/>solidos</measure>, alteri <measure type="currency" unit="ß" quantity="40">XL</measure>, secundum majus et minus.</seg>
+                            </p>
+                            <p><seg><lb/><label type="keyword" place="left margin">complices</label> Interrogatus de complicibus et sectis, dixit
+                                            <lb/>se vidisse realiter et cognovisse in vultu
+                                            <lb/>et loquela in predictis sectis supradictos,
+                                            <lb/>scilicet <persName ref="per011509a.01">Ysabellam</persName> de <placeName ref="loc010896.02">Peres</placeName>, <persName ref="per012752a.03">Johannem Richar</persName> et
+                                            <lb/>eius <persName ref="per012759a">uxorem</persName>, <persName ref="per012763a.02">Pernetum Jacaud</persName> et <persName ref="per012762a.01">Francesiam Jacaut</persName>
+                                            <lb/>de <placeName ref="loc010902.02">Sugniens</placeName>, agentes et facientes ut supra.</seg>
+                                <seg><lb/>Et ultra non fuit interrogatus, sed remissus
+                                            <lb/><date when="1498-11-06">ad diem sequentem</date>, presentibus venerabili et circumspecto viro
+                                            <lb/>domino <persName ref="per012742a.01">Laurencio Curvillionis</persName> et <persName ref="per012771a.01">Johanne Moneti</persName>
+                                            <lb/>clerico eiusdem domini <persName ref="per012742a.01">Laurencii</persName> famulo, testibus
+                                            <lb/>ad hec vocatis et rogatis. </seg></p>
+                        <pb n="384" facs="ACV_AC-29_384_385"/>
+                        <head type="subtitle" resp="GO">6 novembre 1498</head>
+                        <head type="subtitle"><hi rend="center">Alia repeticio</hi></head>
+                            <p><seg><lb/><origDate when="1498-11-06">Anno quo supra et die sexta dicti mensis
+                                                <lb/>novembris</origDate>, <persName ref="per012756a.01">Franciscus Marguet</persName> per prefatum
+                                                <lb/>dominum viceinquisitorem fuit <choice><sic>interim</sic><corr>iterum</corr></choice> interrogatus
+                                                <lb/>quo modo et quo nomine vocant beatissimam
+                                                <lb/>virginem <persName ref="per000169a.02">Mariam</persName> ipsi heretici. Respondit quod, ad
+                                                <lb/>vocem demonis et preceptum, vocant illam
+                                                <lb/><foreign xml:lang="fr">Rossaz</foreign>.
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus de suis complicibus, dixit ut
+    <lb/><label type="keyword" place="left margin">complices</label> supra. Et ultra predictos, dixit et
+                                                <lb/>confitetur vidisse et realiter cognovisse
+                                                <lb/>sepe in predictis sectis in vultu et
+                                                <lb/>loquela, scilicet <persName ref="per012738a.02">Margaretam</persName> uxorem <persName ref="per012739a.01">Johannis
+                                                <lb/>Diserens</persName> de <placeName ref="loc010896.02">Peres</placeName>, <persName ref="per012765a.03">Girardum de Madalena</persName>
+                                                <lb/>de <placeName ref="loc010906.02">Pullie Pictet</placeName>, <persName ref="per012766a.02">Glaudium Audriar <foreign xml:lang="fr">le
+                                                <lb/>Magnyn</foreign></persName> de <placeName ref="loc010903.02">Boctent</placeName>, et <persName ref="per012959a.01">Johannem Pillet</persName>
+                                                <lb/>de <placeName ref="loc010914.02">Sancto Ciriaco</placeName>, ac <persName ref="per012767a.02">Petrum Menestrey
+                                                <lb/>seniorem</persName> de <placeName ref="loc010904.02">Pullie <foreign xml:lang="fr">luz Grant</foreign></placeName>, comedentes
+                                                <lb/>et bibentes in dictis sectis, honorem et
+                                                <lb/>reverenciam demoni eorum magistro necnon
+                                                <lb/>homagium facientes et ceteros actus ibidem
+                                                <lb/>fieri solitos.</seg></p>
+                            <p><seg><lb/>Interrogatus super maleficiis, confitetur quod
+                                                <lb/>sunt <date when="1495" dur-iso="P3Y">tres <del rend="strikethrough">anni</del></date> <date when="1494" dur-iso="P4Y">aut quatuor anni vel
+                                                 <lb/>circa</date> quod ipse dictus inquisitus, <persName ref="per012763a.03">Pernetus Jacaud</persName>
+                                                <lb/>et <persName ref="per011509a.01">Ysabella Perat</persName> fecerunt cadere <persName ref="per012964a.01">Petrum
+                                                <lb/>Vincent</persName> de <placeName ref="loc007669.03">Dompno Martino</placeName> a quadam arbore
+                                                <lb/>pirus existente in villa <placeName ref="loc007669.03">Dompni Martini</placeName>, prope
+                            <pb n="385" facs="ACV_AC-29_384_385"/><lb/>domum ipsius <persName ref="per012964a.01">Petri</persName>, arte demonis&#160;; qui
+                                                <lb/><persName ref="per012964a.01">Petrus</persName> mortuus fuit.</seg>
+                            </p>
+                        <p><seg><lb/><label type="keyword" place="left margin">homicidum</label> Item confitetur fuisse quodam semel in quodam
+                                            <lb/>nemore <foreign xml:lang="fr"><placeName ref="loc010916.01">En laz Sollaz</placeName></foreign>, loco vocato <foreign xml:lang="fr"><placeName ref="loc010916.02">Laz
+                                            <lb/>Sollaz</placeName></foreign>&#160;; et ibidem erat pater dicti <persName ref="per012964a.01">Petri
+                                            <lb/>Vincent</persName> qui cindebat nemora. Unde ipse
+                                            <lb/>inquisitus, <persName ref="per012763a.03">Pernetus Jacaud</persName> et <persName ref="per011509a.01">Ysabella Perat</persName>
+                                            <lb/>arte dyabolica eidem dederunt infirmitatem de
+                                            <lb/>qua mortuus est, licet steterit pro <date dur-iso="P15D">quindecim
+                                            <lb/>dies vel circa</date> languens.</seg>
+                            </p>
+                        <p><seg><lb/><label type="keyword" place="left margin">homicidum</label> Item confitetur <time period="byNight">una nocte</time> intrasse domum
+                                            <lb/><persName ref="per012890a.01">Glaudii Marguet</persName> nepotis sui, et extrinxit
+                                            <lb/>manibus quandam ipsius <persName ref="per012890a.01">Glaudii</persName> parvam
+                                            <lb/>filiam <foreign xml:lang="fr">ou <term ref="lem014915.04">bris</term></foreign>, sic quod <date when="1498-10" dur-iso="P15D">post quindecim dies
+                                            <lb/>vel circa</date> decessit. Et ipsa filia sepulta in
+                                            <lb/><placeName ref="loc011235.02">cimisterio Dompni Martini</placeName>, ipse inquisitus
+                                            <lb/>et <persName ref="per012763a.03">Pernetus Jacaud</persName> exumaverunt a sepultura,
+                                            <lb/>relinquentes <sic>capud</sic> propter sanctum crisma&#160;;
+                                            <lb/>residuum vero importaverunt ad sectam et
+                                            <lb/>fecerunt ut supra dictum est.</seg>
+                        </p>
+                                <p><seg><lb/>Item confitetur quod <persName ref="per012763a.03">Pernetus Jacaud</persName>, prout <choice><sic>in
+                                                <lb/>sua</sic><corr/></choice> ab ore dicti <persName ref="per012763a.03">Perneti</persName> audivit, dum reddebat
+                                                <lb/>computum de maleficiis suis, dedisse infirmitatem
+                                                <lb/><persName ref="per012967a.01">Allesie</persName> uxori <persName ref="per012772a.01">Petri</persName> filii <persName ref="per012744a.01">Francisci Jacaud</persName>, quam ad<lb break="no"/>huc de presenti patitur.</seg> 
+                                <seg>Et ultra non fuit interrogatus,
+                                                <lb/>sed per prefatum dominum viceinquisitorem fuit remissus ad
+                                                <lb/>horam vesperorum, ad se readvisandum,
+                                                <lb/>presentibus venerabili et circumspecto viro domino <persName ref="per012742a.01">Laurencio
+                                                <lb/>Curvillionis</persName> <term ref="lem006983.01">canonico</term> <orgName ref="org004033.02">Lausannensi</orgName> et <term ref="lem000316.01">cellerario</term> capituli <orgName ref="org004033.02">Lausannensis</orgName>,
+                                                <lb/>dompno <persName  ref="per012743a.01">Johanne Vuystonis</persName> vicario dicti loci <placeName ref="loc007669.03">Dompni
+                                                <lb/>Martini</placeName>, et <persName  ref="per012744a.01">Francisco Jacaud</persName> castellano ipsius loci, testibus
+                                                <lb/>ad premissa vocatis et rogatis. </seg></p>
+                        <pb n="386" facs="ACV_AC-29_386_387"/>
+                        <head type="subtitle" resp="GO">6 novembre 1498, plus tard</head>
+                            <head type="subtitle"><hi rend="center">Alia repeticio cum conclusione
+                                                <lb/>processus</hi></head>
+                        <p><seg><lb/><origDate when="1498-11-06">Anno et die quibus supra</origDate>, supradictus <persName ref="per012756a.01">Franciscus
+                                                <lb/>Marguet</persName> <time period="evening">hora vesperorum</time> per prefatum dominum
+                                                <lb/>viceinquisitorem fuit iterum interrogatus
+                                                <lb/>super maleficiis per eum perpetratis. Dixit et
+                                                <lb/>respondit alia nescire preter illa que
+                                                <lb/>superius dixit et confessus fuit.
+                            </seg></p>
+                            <p><seg><lb/>Iterum interrogatus super complicibus suis,
+                                                <lb/>dixit vidisse et realiter cognovisse in sectis
+                                                <lb/>supradictis sepe supradictos, scilicet <persName ref="per011509a.01">Ysabellam</persName> de <placeName ref="loc010896.02">Peres</placeName>,
+                                                <lb/><persName ref="per012763a.04">Peronetum Jacaud</persName>, <persName ref="per012752a.03">Johannem Richar</persName> et eius <persName ref="per012759a">uxorem</persName>,
+                                                <lb/><persName ref="per012762a.02">Francesiam Jacaud</persName> de <placeName ref="loc010902.02">Sugniens</placeName>, <persName ref="per012764a.02">Johannem</persName> filium dicti <persName ref="per012752a.03">Johannis
+                                                <lb/>Richar</persName>, quem vidit una vice in supradictis sectis
+                                                <lb/>et non plus, quia non est diu quod fuit hereticus,
+                                                <lb/><persName ref="per012765a.04">Girardum de <foreign xml:lang="fr">laz Madellenaz</foreign></persName> de <placeName ref="loc010906.03">Pollie Pictet</placeName>,
+                                                <lb/><persName ref="per012766a.03">Glaudium Adriar <foreign xml:lang="fr">le Magnyn</foreign></persName> de <placeName ref="loc010903.02">Boctent</placeName>, <persName ref="per012767a.01">Petrum
+                                                <lb/>Menestrey seniorem</persName> de <placeName ref="loc010904.03">Pollie <foreign xml:lang="fr">luz Grant</foreign></placeName>, et <persName ref="per012738a.02">Margaretam</persName>
+                                                <lb/>uxorem <persName ref="per012739a.01">Johannis Diserens</persName>, et <persName ref="per012959a.01">Johannem Pillet</persName> de <placeName ref="loc010914.02">Sancto
+                                                <lb/>Ciriaco</placeName>, agentes honorem et reverenciam, ut supra
+                                                <lb/>dictum est.</seg>
+                                <seg>Et aliud dixit se nescire, sed
+                                                <lb/>juravit in manibus prefati domini viceinquisitoris
+                                                <lb/>super sanctis Dei euvangeliis omnia per ipsum superius
+                                                <lb/>confessata fore vera, et ea vult manutenere
+                                                <lb/>coram omnibus.</seg>
+                                <seg>Tunc prefatus dominus viceinquisitor
+                                                <lb/>dixit prefato confitenti si vellet conclusionem fieri
+                                                <lb/>super dicto suo processu, et finem imponere.
+                                                <lb/>Qui dictus <persName ref="per012756a.01">Franciscus Marguet</persName> prefatum dominum viceinquisitorem
+                                    <pb n="387" facs="ACV_AC-29_386_387"/><lb/>rogavit ut concluderet <del rend="strikethrough">se submictens</del> et finem
+                                                <lb/>imponeret dicto eius processui, se submictens de
+                                                <lb/>non veniendo in contrarium, renunciando juribus, <abbr>etc</abbr>.</seg>
+                                       <seg><lb/>Illico comparuit venerandus <term ref="lem017131.01">procurator fidei</term> sacre
+    <lb/><label type="keyword" place="left margin">conclusio porcessus</label> coram dicto viceinquisitore, petens concludi
+                                                <lb/>dictum processus et conclusionem fieri. Et tunc
+                                                <lb/>prefatus dominus viceinquisitor conclusit et finem
+                                                <lb/>imposuit, presentibus venerabili et circumspecto viro domino
+                                                <lb/><persName ref="per012742a.01">Laurencio Curvillionis</persName> canonico <orgName ref="org004033.02">Lausannensi</orgName> et cellerario venerabilis
+                                                <lb/>capituli <orgName ref="org004033.02">Lausannensis</orgName>, necnon <persName ref="per012744a.01">Francisco Jacaud</persName> castellano
+                                                <lb/>dicti loci <placeName ref="loc007669.03">Dompni Martini</placeName>, <persName ref="per012892a.01">Petro Pillet alias Grant</persName>,
+                                                <lb/><persName ref="per012745a.01">Johanne Sovajat</persName> gubernatore ipsius loci, <persName ref="per012774a.01">Girardo
+                                                 <lb/>dou For</persName>, <persName ref="per012769a.01">Petro Silvestri</persName>, et <persName ref="per012965a.01">Glaudio Vincent</persName>, testibus
+                                                <lb/>ad premissa vocatis et rogatis.<note>La sentence de bannissement contre <persName ref="per011509a">Isabelle Perat</persName> et <persName ref="per012756a">François Marguet</persName> est rendue le <date when="1498-11-14">14 novembre 1498</date> par<persName ref="per012742a"> Laurent Curvillion</persName>. Elle est conservée aux Archives de l’Etat de Neuchâtel (<bibl><ref target="https://floraweb.ne.ch/flora/ark:/37964/001255792">AEN, Archives anciennes, AS–E24.3</ref></bibl>, éditée par <bibl>Morerod dans <ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero 2007</ref>, p.&#160;489–492</bibl> et analysé p.&#160;481–487)</note></seg>
+                            </p>
+                            <p><seg><lb/>De prefati domini viceinquisitoris
+                                            <lb/>precepto</seg></p>
+                        <p><seg><lb/><signed><persName ref="per012775a.02"><choice><abbr>as</abbr><expan>Andreas</expan></choice> Thovacii</persName>
+                                <figure type="notarial sign"/></signed></seg></p>
+                        <pb n="388" facs="ACV_AC-29_388_389"/><p/>
+                        <pb n="389" facs="ACV_AC-29_388_389"/><p/>
+                        <pb n="390" facs="ACV_AC-29_390_391"/><p/>
+                        <pb n="391" facs="ACV_AC-29_390_391"/><p/>
+                        <pb n="392" facs="ACV_AC-29_392_393"/><p/>
+                        <pb n="393" facs="ACV_AC-29_392_393"/><p/>
+                        <pb n="394" facs="ACV_AC-29_394_395"/><p/>
+                        <pb n="395" facs="ACV_AC-29_394_395"/><p/>
+                        <pb n="396" facs="ACV_AC-29_396_397"/>
+                        <p><lb/><addSpan place="right top"  scribe="2" spanTo="add1"/><note>L’indication qui suit est d’une autre main, probablement plus tardive, masquée par une réparation de la page. Sur cette mention <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref>, p.&#160;33</bibl>.</note>Processus <placeName ref="loc007669.03">Dompni Martini</placeName>.</p>
+                        <p><lb/>Processus contra <persName ref="per012756a.01">Franciscum
+                        <lb/>Marguet</persName> super crimine
+                        <lb/>heresis.
+                        </p>
+                        <p><lb/>Registratus.</p>
+                        <p><lb/>Ponantur<note>Voir la lettre testimoniale qui a été insérée dans le registre Ac 29 à l’époque moderne et qui suit le cahier du procès <bibl><ref target="urn:ssrq:SDS-VD-D_1-25-1">SDS VD D 1 25-1</ref>&#160;: ACV, Ac 29, p.&#160;397–398</bibl>.</note> cum litteris <lb/><placeName
+                                    ref="loc007669.03">Dompni Martini</placeName>, <lb/><origDate
+                                    from="1498-01-01" to="1498-12-31">1498.</origDate><anchor xml:id="add1"/>
+                        </p>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Les procès de François Marguet (<bibl><ref target="urn:ssrq:SDS-VD-D_1-21-1">SDS VD D 1 21-1</ref>&#160;: ACV, Ac 29, p.&#160;365–396</bibl>), Isabelle Perat (<bibl><ref target="urn:ssrq:SDS-VD-D_1-22-1">SDS VD D 1 22-1</ref>&#160;: ACV, Ac 29, p.&#160;399–414</bibl>), Marguerite Diserens (<bibl><ref target="urn:ssrq:SDS-VD-D_1-23-1">SDS VD D 1 23-1</ref>&#160;: ACV, Ac 29, p.&#160;349–364</bibl>) et Pierre des Sauges alias Menetrey (<bibl><ref target="urn:ssrq:SDS-VD-D_1-24-1">SDS VD D 1 24-1</ref>&#160;: ACV, Ac 29, p.&#160;415–438</bibl>) ont tous été intentés en 1498 au château de Dommartin et présidés par le vice-inquisiteur François Fossaud. Ils sont les témoins d’une nouvelle chasse aux sorciers menée à Dommartin, après la première vague soixante ans auparavant.</p>
+                <p>Le procès de François Marguet occupe les pages 365 à 396 du registre ACV, Ac 29&#160;; les pages 388 à 395 ont été laissées en blanc. L’enquête secrète (p.&#160;367–372) et le procès-verbal (p.&#160;373–388) sont rédigés par le notaire André Thovacin et authentifiés à l’aide de son signet, tout comme les trois autres procès du dossier <orig>&#160;Dommartin 1498&#160;</orig>. Il est aussi l’auteur des titres et des notes marginales ajoutées tout au long des procès. Le dos du cahier (p.&#160;396) contient une indication d’une autre main, plus tardive, qui atteste l’existence d’une sorte de casier aux archives du Chapitre cathédral contenant des documents concernant le village ou la seigneurie de Dommartin&#160;: <orig>&#160;Processus Dompni Martini. Processus contra Franciscum Marguet super crimine heresis. Registratus. Ponantur cum litteris Dompni Martini. 1498.&#160;</orig> Le dos du cahier contient aussi une autre annotation de type comptable d’une main inconnue.</p>
+            </div>
+        </back>
+    </text>
+</TEI>  

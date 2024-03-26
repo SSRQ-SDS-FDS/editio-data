@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-168.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 239</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 239</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Favre-Piccand – Verhör</head>
+					<head xml:lang="fr">Marguerite Favre-Piccand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-12-17"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1665-12-17">17<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> 1665</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per018693a">Tobias Gottrau</persName>.</note></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <persName ref="per026077a.01">Küenli</persName></seg>
+							<seg><lb/><persName ref="per026058a.01">Progin</persName>, <persName ref="per026070a.01">Rämi</persName></seg></p>
+						<p><seg><lb/><persName ref="per020614a.02">Marguerithe Piccand</persName>, examinée estroictement
+						<lb/>sur tous les poincts des <term ref="lem018363.02">inquisitions</term> prises contre
+							<lb/>elle, persiste sans <subst><del>alte</del><add place="inline">variation</add></subst> dans sa preceden<lb break="no"/>te declaration, nyant de s’estre laissée appeller <term ref="lem019389.02">sorciere</term>
+						<lb/>sans resentiment et <term ref="lem018954.01">condigne</term> poursuitte, soustenant
+						<lb/>de ne l’avoir jamais entendu, si ce n’est par rapport,
+						<lb/>et qu’elle <subst><del>leur</del><add place="inline">les</add></subst> a chargé d’injures pour response,
+						<lb/>sans en avoir esté poursuitte par droit.</seg> <seg>Continue
+							<lb/>sa <term ref="lem019465.01">confession</term> de sçavoir arrester le sang, et dit
+						<lb/>que d’autres, nommément le filz de <persName>Cathelina Gobet</persName>
+						<lb/>en a aussy fait la preuve, ne sachant par quel moyen.
+						<lb/>Nie de sçavoir faire revenir le <term ref="lem015011.04">laict</term>. Continue la
+						<lb/>negatifve d’avoir veu, ny parlé à son ange.</seg> <seg>Et
+							<lb/><subst><del>a</del><add place="overwritten">e</add></subst>stant <term ref="lem019427.06">torturée</term> par trois <term ref="lem019550.03">elevations</term> avec le
+						<lb/><term ref="lem018232">quintal</term>, après avoir esté examinée sur tous les
+						<lb/>articles, dont elle est soubçonnée par l’<term ref="lem018363">inquisition</term>,
+						<lb/>icelle a soustenu en confirmation de ce qu’elle
+						<lb/>at desja declairé, qu’on luy fait tord, qu’elle
+						<lb/>n’est pas de ces gens, comme on l’accuse, suppliant le
+						<lb/>bon Dieu de luy maintenir son bon droit, et se
+						<lb/>recommandant tres humblement aux <term ref="lem019504.03">graces</term> de vos
+						<lb/>Excellences.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

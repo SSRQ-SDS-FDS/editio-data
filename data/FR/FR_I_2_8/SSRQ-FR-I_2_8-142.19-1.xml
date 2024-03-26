@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-142.19-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 78</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 78</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Bapst-Käser – Verhör und Urteil</head>
+					<head xml:lang="fr">Catherine Bapst-Käser – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1649-10-25" to="1649-11-16"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <origDate when="1649-10-25">25<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8<hi rend="sup">bris</hi></abbr><expan>octobris</expan></choice></foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.02">von Peroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009276a.03">Frantz Carle Gottrauw</persName> <term ref="lem018597.02">burgermeister</term></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013469a.09">Catella</persName></seg></p>
+						<p><lb/><persName ref="per018326b.06">Catrin Käß oder Babstin</persName> <time dur-iso="PT3H">3 stundt</time> an der
+						<lb/><term ref="lem015170.02">zwechelen</term> gehangen und  durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des
+						<lb/>gerichts examiniert, verneinet alle ihr
+						<lb/>fürgehaltne puncten. Allein, das sie <term ref="lem011898.03">bekhandt<lb break="no"/>lich</term> <subst><del rend="underline">geweßen</del><add place="above">ist</add></subst>, in <persName>Frantzen Schautau</persName> zu
+						<lb/><placeName ref="loc009238.03">Willer</placeName> <term ref="lem001611.15">staal</term>, wie dan auch das sie dem
+						<lb/><persName>Curti</persName> im <placeName><subst><del>G</del><add place="overwritten">B</add></subst>rynißheltzli</placeName><!-- Brünisholz als Wald, nicht gefunden --> begegnet, welcher
+						<lb/>ihr gelt abgefordert. Deme sie zwar in
+						<lb/>antwort werden laßen, wie sie ihn
+						<lb/>bezahlen wolle, und aber werde er
+						<lb/>nichts darduch gewinnen. Welches sie
+						<lb/>hievor jederweillen verneinet hete und deßen
+						<lb/>in gentzlicher <term ref="lem005133.04">abredt</term> stunde. Will aber
+						<lb/>mit nichten waß übels gethan haben,
+						<lb/>dariber sie gott und ein <choice><abbr>g</abbr><expan>gnädige</expan></choice> oberkeitt
+						<lb/>umb <term ref="lem004684.01">verzeichung</term> gebetten.</p>
+						<p><lb/><add place="left margin">Ist mit abtrag costens
+							<lb/><term ref="lem016800"><subst><del>i</del><add place="overwritten">l</add></subst>edig</term>, doch soll in
+							<lb/>ihr hauß <term ref="lem015151.02">confiniert</term>
+							<lb/>sein durch <term ref="lem001289.47">uhrteil</term> vom
+							<lb/><origDate when="1649-10-27">27<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8<hi rend="sup">bris</hi></abbr><expan>octobris</expan></choice></foreign> 1649</origDate><note>.</note>.
+							<lb/>Nach dem ward sie
+							<lb/>wegen übertretung
+							<lb/>der confinierung des
+							<lb/>landt ewigklich
+							<lb/><term ref="lem003474">verbannisiert</term>.<note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire. Der Schreiber hat sich möglicherweise geirrt: Laut den Ratsprotokollen wurde das erste Verbannungsurteil am 26. Oktober 1649 ausgesprochen. Das Zweite erfolgte am 16. November 1649.</note></add></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

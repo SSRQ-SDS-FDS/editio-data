@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2019"/>
+                <date type="print" when="1996"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS-VD-D_1-20-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;333–348</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre Jean Gallot, de Corsier-sur-Vevey</head>
+                    <msContents>
+                        <summary>
+                            <p>Jean Gallot, de Corsier, comparait le 21 février 1484 au château d’Attalens devant Damien Berruyer (<orig>&#160;Berruerii&#160;</orig>), vice-inquisiteur et représentant de l’administrateur de l’évêché de Lausanne et doyen de Sion. Après la deuxième monition, l’inculpé avoue et dénonce deux personnes déjà brûlées (son frère et sa belle-sœur). Le 24 février, suite à la troisième monition, Jean poursuit ses aveux et dénonce deux autres personnes (un homme et une femme). Le lendemain, après la quatrième monition, l’inculpé refuse de continuer ses aveux&#160;; le procureur de la foi demande alors à la cour de l’interroger sur plusieurs articles. Le 26 février, après avoir entendu les réponses aux susdits articles, le procureur de la foi demande la sentence interlocutoire afin de soumettre l’inculpé à la question, laquelle sentence sera rendue par la cour ce même jour et exécutée immédiatement. Jean confirme alors ses aveux et dénonce quatre hommes comme complices. Au total, Jean Gallot mentionne 7 complices (5 hommes et 2 femmes). Le 4 mars, le procès est clos et la cour assigne les parties au 6 mars pour entendre la sentence dans l’église d’Attalens.</p>
+                        </summary> 
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1484-02-21" to="1484-03-06"/>
+                            <origPlace ref="loc011092.01">Château d’Attalens</origPlace>                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;363–385</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref>Kieckhefer 1976</ref>, p.&#160;141</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000079676">Ostorero 1995</ref>, p.&#160;79</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;13, 24, 28,69, 116–117, 120, 123, 132, 134, 145, 163–164, 406</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001201949603977">Ostorero 2002a</ref>, p.&#160;112</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647203977">Utz Tremp 2005c</ref>, p.&#160;359–360, 367</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref><!--, p.&#160;21, 26, 28–29, 73, 248–251, 254, 365, 369, 388, 398, 403, 405–406, 511--></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001208849503977">Pittet  2010</ref>, p.&#160;214–215, 217</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000133657">Ostorero 2014</ref>, p.&#160;94–96</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="333" facs="ACV_AC-29_332_333"/>
+                        <div><ab type="archiving reference" hand="hand20c" medium="pencil" place="left margin"><date from="1484-02-01" to="1484-03-31">1484, février–mars</date></ab></div>
+                        <head type="title"><hi rend="right">Processus <persName ref="per016293a.01">Johannes Gallot</persName> parrochie de
+                                        <lb/><placeName ref="loc008151.04">Corsie</placeName> mandamenti de <placeName ref="loc008023.05">Atthalen</placeName> <placeName ref="loc005781.05">Lausannensis</placeName>
+                                        <lb/>dyocesis de <origDate from="1484-02-01" to="1484-03-31">anno Domini M<hi rend="sup">o</hi> CCCC<hi rend="sup">o</hi> LXXXIIII de
+                                        <lb/>mensibus februarii et marci</origDate>.
+                        </hi></head>
+                        <pb n="334" facs="ACV_AC-29_334_335"/><p/>
+                        <pb n="335" facs="ACV_AC-29_334_335"/>
+                        <p><seg><lb/><hi rend="center"><persName ref="per000353a.22">Jhesus</persName></hi></seg></p>
+                        <p><seg><lb/>Processus ex mero sacre inquisitionis fidei
+                                        <lb/>officio instantique eiusdem sacre <term ref="lem017131.02">fidei procuratore</term>
+                                        <lb/>formatus
+                                        <lb/><hi rend="right">contra et adversus <persName ref="per016293a.01">Johannem 
+                                        <lb/>Gallot</persName> parrochie de <placeName ref="loc008151.04">Corsie</placeName> mandamenti
+                                        <lb/>de <placeName ref="loc008023.05">Atthalen</placeName> <placeName ref="loc005781.05">Lausannensis</placeName> dyocesis.</hi>
+                        </seg></p>
+                        <head type="subtitle" resp="GO">21 février 1484</head>
+                            <p><seg><lb/><origDate when="1484-02-21">Anno Domini M<hi rend="sup">o</hi> CCCC<hi rend="sup">o</hi> octuagesimo tercio et die XXI mensis februarii</origDate>,
+                                        <lb/>in dicto <origPlace ref="loc011092.02">castro de Atthalen</origPlace> sequitur inquisitio seu <choice><sic>inquisitional</sic><corr>inquisitionalis</corr></choice>
+                                        <lb/>processus, qui et que fiunt et fieri proponunt per me <persName ref="per016294a.01">Rodulphum <del rend="strikethrough">off[icii]</del>
+                                        <lb/>Macri</persName> <term ref="lem017295.01">burgensem</term> <orgName ref="org005514.03">Corziati</orgName> et dicte sacre fidei inquisitionis
+                                        <lb/>officii scripbam de mandato venerabilis religiosi fratris <persName ref="per012840a.01">Damiani
+                                       <lb/>Berruerii</persName><note><persName ref="per012840a">Damien Berruyer</persName> est en <date when="1464">1464</date> déjà vicaire de l’inquisiteur <persName ref="per012535a">Victor Massenet</persName>. Il instruit à <placeName ref="loc011073.01">Fruence</placeName> le procès contre <persName ref="per012575a">Perrissone Gappit</persName> (<bibl><ref>ACV, Ac 29</ref>, p.&#160;160–179</bibl>).</note> <orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName>, in dyocesi <placeName ref="loc005781.05">Lausannensi</placeName> <choice><sic>viceinquisitorem
+                                        <lb/>generalem</sic><corr><term ref="lem018123.01">viceinquisitoris</term> generalis</corr></choice> per reverendum patrem fratrem <persName ref="per016295a.01">Franciscum Granet</persName><note><persName ref="per016295a">François Granet</persName> est nommé inquisiteur dès <date when="1484">1484</date>. En <date when="1481">1481</date>, il agit comme vicaire de l’inquisiteur <persName ref="per012708a">Thomas Goga</persName> à <placeName ref="loc007786.01">Neuchâtel</placeName> dans les procès de quatre hommes (<bibl><ref>Hansen 1901</ref>, p.&#160;499–500</bibl>&#160;; <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001180645303977">Modestin 2016</ref></bibl>). Dix-huit ans plus tard, il est mentionné dans un document comme étant dans l’entourage de <persName ref="per012535a">Victor Massenet</persName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001190347603977">Reymond 1918</ref>, p.&#160;37</bibl>). En même temps que <persName ref="per016295a">François Granet</persName>, cette source cite également <persName ref="per015160a">Jean Blanchet</persName>, qui est vice-inquisiteur <date from="1480-01-01" to="1482-12-31">1480 à 1482</date>&#160;; il instruit les procès de <persName ref="per015861a">Jean Poesioux</persName>, <persName ref="per015156a">Jeannette Barattier</persName> et <persName ref="per016030a">Antoine de Vernex</persName>.</note> eiusdem
+                                        <lb/>ordinis, sacre theologie egregium professorem, in dyocesi <placeName ref="loc005781.05">Lausannensi</placeName>,
+                                        <lb/><placeName ref="loc008750.05">Gebennensi</placeName> et <placeName ref="loc008973.04">Sedunensi</placeName> sacre fidei inquisitorem generalem
+                                        <lb/>vicariumque in hac parte reverendi domini <add place="inline" hand="other hand"><persName ref="per016298a.01">Johannis Balisterii</persName><note><persName ref="per016298a">Jean Balisteri</persName> est doyen de <orgName ref="org005364.01">Sion</orgName> à partir de <date when="1483-02">février 1483</date>. Avant la mi-novembre de la même année, l’évêque de <orgName ref="org001749.05">Lausanne</orgName>, <persName ref="per013042a">Benoît de Montferrand</persName> lui amodie les revenus de son évêché et le nomme vicaire général (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000150991">HS, 1/4</ref>, p.&#160;242</bibl>). Serait-ce lui qui fait emprisonner pour acte d’hérésie un homme à <placeName ref="loc008462.01">Ouchy</placeName> en <date when="1487">1487</date> (<bibl><ref>ACV C VI f 53</ref></bibl>)&#160;?</note> administratoris
+                                        <lb/>episcopatus <orgName ref="org001749.04">Lausannensis</orgName>, decani <orgName ref="org005364.03">Sedunensis</orgName></add><note>Ajouté plus tard dans un espace laissé en blanc.</note>, contra et adversus <persName ref="per016293a.01">Johannem Gallot</persName>
+                                        <lb/>parrochie de <placeName ref="loc008151.04">Corsie</placeName> eiusdem dyocesis <placeName ref="loc005781.05">Lausannensis</placeName> inquisitum, superius
+                                        <lb/>intitulatum. Qui de mandato prefati domini viceinquisitoris
+                                        <lb/>captus extitit et in carceribus <placeName ref="loc011092.02">castri de Atthalen</placeName> in dicta
+                                        <lb/>parrochia tamquam de fide suspectus notatusque et vehementer
+                                        <lb/><term ref="lem018156.01">diffamatus</term> de <term ref="lem018471.02">dampnato</term> <term ref="lem017269.03">heresis crimine</term>. </seg>
+                      <seg>Quiquidem <persName ref="per016293a.01">Johannes</persName>
+                                        <lb/>existens et personaliter constitutus coram prefato domino viceinquisitore
+                                        <lb/>omni carceris vinculo solutus ac per eundem examinatus et interrogatus
+                                        <lb/>eius mediante juramento in ipsius viceinquisitoris manibus
+                                        <lb/>et ad sancta Dei euvangelia corporaliter tacta prestito tamquam
+                                        <lb/>principalis in facto suo et ut testis in facto alieno, <choice><sic>vedelicet</sic><corr>videlicet</corr></choice>
+                                        <lb/>primo an sciat causam sue detentionis, prius sibi appositis
+                                        <lb/>quomodo Ecclesia numquam claudit gremium redeunti nec peccati venia
+                                        <lb/>penitentis quovis tempore denegatur&#160;; qui dixit quod nescit.</seg>
+                       <seg>Deinde
+                                        <lb/>paulo post <sic>advisitatus</sic> dicit quod ita, quia <term ref="lem017142.01">castellanus</term> eiusdem
+                                        <lb/>castri sibi dixit quod ipse erat captus pro heresis crimine.
+                </seg></p>
+                 <p><seg><lb/>Item interrogatus an habeat aliquos emulos seu malivolos in
+                                        <lb/>dicta parrochia de <placeName ref="loc008151.04">Corsie</placeName> nec in circumvicinis locis, qui dixit quod non.
+                </seg></p>
+                 <p><seg><lb/>Item interrogatus an umquam per aliquem seu aliquos crimen heresis
+                                        <lb/>fuerit sibi improperatum, qui respondit quod non.
+                  </seg></p>
+                  <p><seg><lb/>Item interrogatus an sciat fidem catholicam, dixit se scire Pater
+                                        <lb/>Noster et Ave Maria. Credo dixit se nescire neque Benedicite.
+                  </seg></p>
+                        <pb n="336" facs="ACV_AC-29_336_337"/>
+                 <p><seg><lb/>Item interrogatus an in quolibet <date type="floating holiday">festo sancto <term ref="lem018615.01">Pasche</term></date> fuit confessus
+                                        <lb/>et eucaristie sacramentum, ut moris est unicuique fideli christiano,
+                                        <lb/>receperit, dixit quod sic. Et dixit se nichil aliud scire, pro<lb break="no"/>nunciando et dicendo hec verba&#160;: <q>&#160;Utinam essem perfectus <term ref="lem017125.01">hereticus</term>
+                                        <lb/>et ita malus si umquam fuerit aliquis, quia dicerem vobis veritatem
+                                        <lb/>pro leviori experditione mea&#160;</q>.
+                        </seg></p>
+                  <p><seg><lb/>Interrogatus si aliqua alia velit dicere, eidem presentando misericordiam
+                                         <lb/>Ecclesie et monendo eundem pro secunda monitione. Quiquidem dicit&#160;: <q>&#160;<add place="above">Non</add> aliud
+                                         <lb/>dicam, etiam si deberetis me excoriare&#160;</q>, jurando per Deum se esse
+                                         <lb/>innocentem et nichil scire de crimine heresis.</seg>
+                    <seg>Qua propter auditis verbis
+                                        <lb/>per dictum <persName ref="per016293a.01">Johannem</persName> prolatis, instante procuratore fidei fuit assignatus
+                                        <lb/><time period="afternoon">ad quartam horam post meridiem</time>. Et hoc pro secunda monitione,
+                                        <lb/><add place="inline" hand="other hand">presentibuse domino <persName ref="per016334a.02">Petro de Clausulo</persName>, domino <persName ref="per018325.01">Petro de Borello</persName>, domino
+                                        <lb/><persName ref="per013476a.01">Anthonio Michodi</persName> <term ref="lem017169.01">curato</term> dicti loci de <placeName ref="loc008023.05">Atthalen</placeName>, domino <persName ref="per016300a.01">Johanne
+                                        <lb/>Michodi</persName>, domino <persName ref="per016301a.01">Johanne Henrici</persName>, nobili viro <persName  ref="per016302a.01">Nycodo Tibie</persName> <term ref="lem018778.02">ballivo</term>
+                                        <lb/><placeName ref="loc007887.03">Lausannensi</placeName>, nobili <persName ref="per016303a.01">Francisco Julliari</persName> et <persName ref="per016304a.01">Anthonio Bachellardi</persName>.</add>
+                 </seg></p>
+                        <head type="subtitle" resp="GO">21 février 1484, plus tard</head>
+                        <p><seg><lb/><origDate when="1484-02-21">Anno quo supra, die et <time period="afternoon">hora quarta post meridiem</time></origDate> idem <persName ref="per016293a.01">Johannes
+                                        <lb/>Gallot</persName> instante procuratore fidei et vigore assignationis
+                                        <lb/>comparuit coram domino <sic>viceinquisitori</sic>. Quiquidem viceinquisitor
+                                        <lb/>semper eidem misericordiam <choice><abbr>ecclesiam</abbr><expan>ecclesiasticam</expan></choice> presentando, dixit eidem <persName ref="per016293a.01">Johanni</persName>,
+                                        <lb/>si esset advisatus et si aliqua vellet dicere de crimine pro quo
+                                        <lb/>detinebatur et inculpabatur. Quiquidem <persName ref="per016293a.01">Johannes Gallot</persName>
+                                        <lb/>dixit prout sequitur&#160;:
+                        </seg></p>
+              <p><seg><lb/>Et primo quod <date when="1481" dur-iso="P3Y">sunt tres anni salvo pluri</date> ipso existente in quadam
+                                         <lb/>tristicia seu malenconia, et hoc racione paupertatis, itinerando
+                                        <lb/>in dicta parrochia sua in quodam loco vocato In Cresto de <placeName ref="loc008444.02">Sales</placeName>. Et in<lb break="no"/>continenti reperit <persName ref="per013736a.03">Ginodum Gallot</persName> et eius <persName ref="per013738a">uxorem</persName>, combustos, qui<del rend="strikethrough">d</del> dixerunt
+                                         <lb/>eidem <persName ref="per016293a.01">Johanni</persName>&#160;: <q>&#160;Opportet quod nos vadamus ad domum fratris nostri ad
+                                         <lb/>procurandum sibi aliquod malum domui sue&#160;</q>.</seg>
+                  <seg>Interrogatus qua de
+                                        <lb/>causa volebant et dicebant alii sibi velle procurare malum,
+                                        <lb/>dixit quod eos non interrogavit, nec fuerunt in predicta domo.
+                        </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">introitus</label> Item modico successu temporis idem <persName ref="per016293a.01">Johannes Gallot</persName> ivit ad quondam
+                                        <lb/>locum vocatum <placeName>Affora</placeName><note>N’a pas pu être identifié&#160;; toutefois, <orig>&#160;Afforets&#160;</orig>, <orig>&#160;Affores&#160;</orig> est un lieu-dit répandu qui se compose de <orig>&#160;ad&#160;</orig> et de <orig>&#160;forestus&#160;</orig> – forêt et qui doit signifier près de la forêt. Peut-être <placeName>Les Rafforts</placeName>, entre <placeName>Oron</placeName> et <placeName>Thioleyres</placeName>.</note> pro lignis <choice><sic>colligendum</sic><corr>colligendis</corr></choice>. Et incontinenti,
+                                        <lb/>ipso existente in malenconia, reperit dyabolum in specie unius
+                                        <lb/>hominis <choice><sic>habens</sic><corr>habentis</corr></choice> vestem brevem quasi nigri coloris. Quiquidem
+                                        <lb/><term ref="lem017097.02">dyabolus</term> eidem <persName ref="per016293a.01">Johanni</persName> dixit&#160;: <q>&#160;<persName ref="per016293a.01">Johannes Gallot</persName>, tu es tristis,
+                        <pb n="337" facs="ACV_AC-29_336_337"/><lb/>dolens et pauper. Si velis michi credere, faciam te divitem. Sed
+                                        <lb/>opportet quod facias michi <term ref="lem018116.01">homagium</term>&#160;</q>. Quod et fecit sine ulterioribus
+                                        <lb/>verbis. Et quia dictus <persName ref="per016293a.01">Johannes</persName> erat pauper <del rend="strikethrough">dyabolus</del>, dyabolus
+<lb/><label type="keyword" place="left margin">tributum</label> promisit sibi dare qualibet <date dur-iso="R/P1W">ebdomada</date> unum grossum, et
+                                         <lb/>dictus <persName ref="per016293a.01">Johannes</persName> sibi promisit dare in signum veri homagii qualibet
+                                         <lb/>septimana <measure type="currency" unit="d" quantity="1">unum denarium</measure> pro homagio. Quod et hoc fecit <add place="inline" hand="other hand">semel tantum</add>.
+                        </seg></p>
+                        <p><seg><lb/>Item interrogatus per prefatum dominum viceinquisitorem de modo
+                                <lb/>faciendi homagium et forma, dixit instigante et consulente
+<lb/><label type="keyword" place="left margin"><term ref="lem018089.02">Nomen dyaboli</term></label> dyabolo&#160;: <q>&#160;Dixi in hec verba&#160;: Ego, <persName ref="per016293a.01">Johannes Gallot</persName>, nego
+                                <lb/>Deum omnipotentem, virginem <persName ref="per000169a.02">Mariam</persName> et quidquid de Deo est, et te
+                                <lb/>dyabolum, vocatum <persName ref="per016176a.02">Grabrier</persName><note>A rapprocher de <persName ref="per016176a.01">Grabier</persName>, nom du démon mentionné dans le procès d’<persName ref="per016030a">Antoine de Vernex</persName> en <date when="1482">1482</date> (<bibl><ref target="urn:ssrq:SDS-VD-D_1-19-1">SDS VD D 1 19-1</ref>&#160;: ACV, Ac 29, p.&#160;320</bibl>).</note>, recipio in magistrum meum&#160;</q>.</seg>
+                       <seg>Et cum
+                                <lb/>magis fuerit super confessatum per ipsum, et sponte nichil aliud voluit
+                                <lb/>dicere, sed dicit&#160;: <q>&#160;Habeatis pacientiam, quia aliud <add place="above" hand="other hand">non</add> feci ne scio&#160;</q>. Quare
+                                <lb/> instante procuratore fidei fuit assignatus pro tercia monitione ad <date when="1484-02-24">diem
+                                <lb/>XXIIII dicti mensis februarii</date>, presentibus <add place="inline" hand="other hand">dominis <persName ref="per013476a.01">Anthonio Michodi</persName>
+                                 <lb/> curato dicti loci de <placeName ref="loc008023.06">Atthaleni</placeName>, <persName ref="per016334a.01">Petro de Clauso</persName>, <persName ref="per018325.01">Petro de Borello</persName>,
+                                <lb/><persName ref="per016300a.01">Johanne Michodi</persName>, <persName ref="per016301a.01">Johanne Henrici</persName> <term ref="lem007833.01">presbyteris</term>, nobilibus et discretis <del rend="strikethrough">o</del>
+                                <lb/><persName ref="per016302a.01">Nycodo Tibie</persName> ballivo <placeName ref="loc007887.03">Lausannensi</placeName>, <persName ref="per016303a.02">Francisco Julliardi</persName>, <persName ref="per016304a.01">Anthonio
+                                <lb/>Bachellardi</persName></add>.
+                        </seg></p>
+                        <head type="subtitle" resp="GO">24 février 1484</head>
+              <p><seg><lb/><origDate when="1484-02-24">Anno et die XXIIII dicti mensis februarii</origDate>, vigore assignationis comparuerunt
+                                <lb/>dicti, procurator fidei et dictus <persName ref="per016293a.01">Johannes Gallot</persName>, et per prefatum dominum
+                                <lb/>viceinquisitorem monitus pro tercia monitione, eidem presentando misericodiam
+                                <lb/>Ecclesie, idem viceinquisitor dixit eidem <persName ref="per016293a.01">Johanni</persName>&#160;: <q>&#160;<persName ref="per016293a.01">Johannes Gallot</persName>,
+                                <lb/>prout dixi tibi, poteris salvare animam, corpus, honorem et bona solum
+                                <lb/>quod velis dicere puram et meram veritatem&#160;</q>. Et precepit eidem dicere
+                                <lb/>sub juramento per presens sibi prestito et dato.</seg>
+                      <seg>Et primo dixit quod omnia
+                                <lb/>per ipsum superius confessata sunt vera et hoc in periculum anime sue.</seg>
+                       <seg><lb/>Deinde interrogatus super nonnullis per ipsum superius confessatis, quod omnimodam
+                                <lb/>respondeat veritatem, dixit se paratum respondere. 
+                                </seg></p> 
+                     <p><seg><lb/>Et primo super eo quia interrogatus fuit, si quolibet anno confessus
+                                <lb/>fuerit in <date type="floating holiday">Ebdomada Sancta</date> prout decet verum christianum suo proprio
+                                <lb/>sacerdoti omnia peccata sua, et istud peccatum ydolatrie, dixit et
+                                <lb/>respondit quod a tempore quo fecit <term ref="lem018116.01">homagium</term> predicto eius magistro
+                                <lb/>dyabolo, quolibet anno confessus est omnia peccata sua, dempto isto peccato
+                                <lb/><term ref="lem017404.02">ydolatrie</term>.</seg>
+                         <seg>Et interrogatus quare non confitebatur istud peccatum sicut
+                                 <lb/>et alia peccata, dixit quod hoc fecit ex precepto dicti dyaboli, magistri
+                                 <lb/>sui.
+              </seg></p>  
+              <p><seg><lb/>Item interrogatus si quolibet anno etiam post dictum homagium et
+                                <lb/>confessionem factam receperit <term ref="lem017061.01">corpus Christi</term>, et quomodo usus est,
+                                <lb/>dixit quod recepit prout alii boni christiani, sed ex precepto
+                  <pb n="338" facs="ACV_AC-29_338_339"/><lb/>dicti magistri dyaboli duabus vicibus sacro ipso corpore Christi recepto
+                                <lb/>manibus suis pollutis ipsum ab ore extraxit. Deinde juxta domum
+                                <lb/>suam propriam in quodam rivullo aque progessit. Et hoc dixit fecisse
+                                <lb/>ex precepto magistri sui.
+              </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Nomen dyaboli</label> Item dixit quod quando fecit homagium predicto magistro suo vocato <persName ref="per016176a.02">Grabrier</persName>,
+                                <lb/>ipse dyabolus sibi apparentem erat in specie unius hominis, et quando probuit
+    <lb/><label type="keyword" place="left margin">Homagium</label> consensum de faciendo sibi homagium, ipse dyabolus illico et in<lb break="no"/>continenti conversus est in speciem unius <term ref="lem018448.01">catti</term>, quem obsculatus est
+                                <lb/>in posterioribus. Que posteriora erant callida <add place="inline" hand="later hand">et postea dixit frigida</add>.
+                  </seg></p>
+               <p><seg><lb/>Item interrogatus de censu et tributo sibi promisso per dictum dyabolum,
+                                <lb/>si receperit, dixit quod numquam recepit nisi semel, videlicet tres grossos.
+                                <lb/>Et ipse dictus <persName ref="per016293a.03"><choice><abbr>Jo</abbr><expan>Johannes</expan></choice> Gallot</persName> in signum veri homagii inmediate
+                                <lb/>post homagium sibi factum, dedit eidem dyabolo unum capriolum,
+                                <lb/>circa <date type="floating holiday">festum <term ref="lem006185.04">Pentechostis</term></date> sibi dyabolo portatum per prefatum <persName ref="per016293a.01">Johannem</persName>
+                                <lb/>juxta unam parvam aquam prope domum in qua habitabat. Et dictum
+                                <lb/>censum numquam solvit nisi semel.
+               </seg></p>
+                        <p><seg><lb/>Item interrogatus <add place="above">si</add>, post dictum homagium factum eidem dyabolo vocato <persName ref="per016176a.02">Grabrier</persName>,
+                                <lb/>quid idem dyabolus eidem precipiebat seu precepit, dixit quod idem magister
+<lb/><label type="keyword" place="left margin">Precepta dyaboli</label> suus sibi et suis complicibus precipiebat quod facerent multa mala.</seg>
+                       <seg><lb/>Interrogatus que mala, dixit nocere hominibus, animalibus, <abbr>etc</abbr>. Tamen
+                                <lb/>dixit se nichil fecisse nec umquam alicui nocuisse.
+                                <lb/>Item ulterius dixit quod dyabolus eidem precepit ire ad <term ref="lem018331.01">sectam</term> hereticorum.</seg>
+                       <seg>Interrogatus
+<lb/><label type="keyword" place="left margin">Prima secta</label> si hoc fecerit, dixit quod sic.</seg>
+                       <seg>Interrogatus in qua prima secta fuit,
+                                <lb/>dixit in quodam loco vocato <foreign xml:lang="fr"><placeName ref="loc011136.01">Perreal</placeName></foreign><note>N’a pas pu être identifié.</note>.</seg>
+                       <seg>Interrogatus qua die et hora
+                               <lb/>et quomodo ivit <time period="byDay">de die</time>, dixit quod quadam <date period="P5WD">die jovis</date> <time period="byNight">circa horam
+                               <lb/>novam noctis</time>. Dixit etiam quod ivit pedes.</seg>
+                       <seg>Interrogatus quomodo
+                                <lb/>poterat videre, dixit quod mediante quodam lumines <subst><del rend="strikethrough">modus obscuro</del><add place="inline">modicum obscuros</add></subst>.</seg>
+                       <seg><lb/>Interrogatus qui erant presentes, dixit quod non erant in ista
+<lb/><label type="keyword" place="left margin">Complices</label> prima secta nisi <persName ref="per013736a.03">Ginodus Gallot</persName> et <persName ref="per013738a.01">uxor</persName> sua, qui postea
+                                <lb/>fuerunt combusti, <persName ref="per016336a.01">Philippa</persName>, uxor <persName  ref="per016335a.01">Johannis Pictier</persName> de <placeName ref="loc008024.02">Grangiis</placeName>.</seg>
+                       <seg><lb/>Interrogatus si ibidem erat magister suus, dixit quod sic.</seg>
+                       <seg>Interrogatus
+                                <lb/>quid ibidem <sic>facerunt</sic> in ista prima secta, dixit quod biberunt vinum et
+                                <lb/>comederunt carnes, panem apportatum <supplied reason="omitted">fuit</supplied> per dictum <persName ref="per013736a.04">Johannem Gallot</persName>
+                                <lb/>et eius <persName ref="per013738a">uxorem</persName><note>Il ne s’agit certainement pas de l’accusé, mais de son frère et de sa belle-sœur mentionnés plus haut.</note>.</seg>
+                       <seg>Interrogatus que carnes erant, dixit quod carnes vituli,
+                                <lb/>prout sibi videbatur.</seg>
+                       <seg>Interrogatus quid post illam comestionem fecerunt,
+                                 <lb/>dixit quod recesserunt quilibet ad domum suam.</seg>
+                       <seg>Interrogatus de
+<lb/><label type="keyword" place="left margin">Secunda secta</label> secunda secta ubi fuit tempta, dixit in quodam <supplied reason="omitted">loco</supplied> vocato <del rend="strikethrough">Peregerne</del>
+                           <lb/><foreign xml:lang="fr"><placeName ref="loc011100.03">Perevernoge</placeName></foreign><note>Eventuellement <orig>&#160;<placeName ref="loc011100.01">Perevuat</placeName>&#160;</orig>, <orig>&#160;<placeName ref="loc011100.02">Perreyvuat</placeName>&#160;</orig>, sur la commune de <placeName ref="loc007903.01">Bossonnens</placeName>.</note>.</seg>
+                       <seg>Interrogatus quid ibi fecerunt, dixit quod sicut in prima
+                               <lb/>secta et cibaria aportata fuerunt per superius nominatos.</seg>
+                       <seg>Interrogatus
+                                <lb/>quid pro parte sua, dixit quod nichil portavit nec portabat.</seg>
+                       <seg>Interrogatus
+                                <lb/>quomodo ibat ad sectam, cum locus secte sit remotus a domo sua,
+                                <lb/>dixit quod mediante quodam baculo sibi traditto per dictum suum magistrum.
+                   </seg></p>
+                        <pb n="339" facs="ACV_AC-29_338_339"/>
+                        <p><seg><lb/>Interrogatus si sibi tradiderit aliquid aliud cum <term ref="lem017132.01">baculo</term> et ubi est dictus
+                                <lb/>baculus, dixit quod dyabolus nichil aliud ibi tradidit nisi dictum
+                                <lb/>baculum. Et quod dictus baculus est in domo sua cum certis lignis
+                                <lb/>et quod non poset reperiri nisi per ipsum <persName ref="per016293a.01">Johannem</persName>.</seg> 
+                  <seg>Interrogatus
+                                <lb/>qui erant ex suis complicibus in dicta secta et quos realiter
+                                <lb/>vidit, dixit quod vidit jam superius nominatos. Et primo
+<lb/><label type="keyword" place="left margin">Complices</label> <persName ref="per013736a.04">Johannem Gallot</persName> fratem suum et <persName ref="per013738a">uxorem</persName> suam videlicet dicti <persName ref="per016293a.03"><choice><abbr>Jo</abbr><expan>Joahhnis</expan></choice> Gallot</persName>,
+                                <lb/>combustos, <persName ref="per016337a.01">Johannem <subst><del rend="strikethrough">Runy</del><add place="inline">Rumy</add></subst></persName> de <placeName ref="loc008024.02">Grangiis</placeName> parrochie de <placeName ref="loc008023.05">Atthalen</placeName>.
+                                <lb/>Et dixit se non vidisse alios et quod numquam fuit nisi in istis
+                                <lb/>duabus sectis. Et istud dixit in periculum anime et cum juramento
+                                <lb/>in hec verba&#160;: <q>&#160;Per Deum, nescio aliud&#160;</q>.</seg> 
+             <seg>Interrogatus de preceptis dyaboli,
+                                <lb/>dixit ut superius, videlicet quod dyabolus eisdem multa mala facere <choice><sic>precepit</sic><corr/></choice>, sed ipse nulli nocuit&#160;;
+                                <lb/>presentibus quibus supra.
+                            </seg></p>      
+                  <head type="subtitle" resp="GO">25 février 1484</head>
+                <p><seg><lb/><origDate when="1484-02-25">Anno quo supra et die XXV eiusdem mensis februarii</origDate>, idem <persName ref="per016293a.02"><choice><abbr>Joes</abbr><expan>Johannes</expan></choice> Gallot</persName>
+                                <lb/>per prefatum dominum viceinquisitorem <choice><sic>et et</sic><corr>et</corr></choice> monitus pro quarta
+                                <lb/>et ultima monitione, eidem presentando misericordiam Ecclesie ut supra,
+                                <lb/>etiam vigore juramenti sibi prestiti dixit&#160;: <q>&#160;Interrogetis me quantum
+                                <lb/>volueritis, quia nichil a me habebitis et sufficiat que dixi vobis&#160;</q>.</seg>
+                        <seg>Interrogatus
+                               <lb/>si recordetur de superius confessatis per ipsum et ista sive illa per
+                               <lb/>ipsum confessata sint vera, dixit quod sic.</seg> 
+                      <seg>Interrogatus si fuerit
+                               <lb/>in aliquibus preter quam <choice><sic>in in</sic><corr>in</corr></choice> suo processu superius nominatis sectis, dixit
+                               <lb/>quod non.</seg>
+                       <seg>Interrogatus de baculo sibi traditto per dictum suum magistrum,
+                                <lb/>ubi est et quod meram dicat veritatem, dixit&#160;: <q>&#160;Vere, ego nescio&#160;</q>. Et dixit&#160;: <q>&#160;Si
+                               <lb/>permittatis me abire, ego aportabo vobis&#160;</q>.</seg> 
+                        <seg>Auditis istis, petiit procurator
+                                <lb/>fidei ipsum <persName ref="per016293a.01">Johannem Gallot</persName> respondere ad formam super nonnullis per ipsum
+                                <lb/>procuratorem producendum aut questioni subiciendum, donec et quousque ab ore
+                                <lb/>suo veritas eruatur. Istud petit visis informacionibus sumptis contra eundem
+                               <lb/><persName ref="per016293a.01">Johannem</persName>, visis etiam variacionibus suis. Quiquidem <persName ref="per016293a.02"><choice><abbr>Joes</abbr><expan>Johannes</expan></choice></persName> dixit&#160;:
+                                <lb/><q>&#160;Nichil aliud scio, excorietis me&#160;</q>. Qua propter fuit idem <persName ref="per016293a.02"><choice><abbr>Joes</abbr><expan>Johannes</expan></choice></persName> assignatus
+                                <lb/>ad audiendum proponenda per prefatum procuratorem <date when="1484-02-26">ad diem crastinam</date>&#160;;
+                                <lb/>presentibus quibus supra.
+                        </seg></p> 
+                        <head type="subtitle" resp="GO">26 février 1484</head>
+                        <p><seg><lb/><origDate when="1484-02-26">Anno quo supra et die XXVI vigore</origDate> assignacionis comparuerunt <persName ref="per016293a.02"><choice><abbr>Joes</abbr><expan>Johannes</expan></choice>
+                                <lb/>Gallot</persName> ex una parte et procurator fidei ex altera, petens ipse
+                                <lb/>procurator fidei responderi ipsum <persName ref="per016293a.01">Johannem</persName>, et ipse <persName ref="per016293a.02"><choice><abbr>Joes</abbr><expan>Johannes</expan></choice></persName> se
+                                <lb/>ad singula responsurus.
+                            </seg></p>
+                        <head type="subtitle"><hi rend="right">Sequitur ea que petit ipse procurator fidei, petit
+                                <lb/>ipsum responderi puram et meram
+                                <lb/>veritatem, alioquem petit <term ref="lem018147.01">torqueri</term>.</hi>
+                        </head>
+                        <p><seg><lb/>Et primo qua de causa ipse <persName ref="per016293a.02"><choice><abbr>Joes</abbr><expan>Johannes</expan></choice></persName> intravit sectam et quis
+                                <lb/>eundem posuit in predicta secta.</seg>
+                            <seg>Secundo quomodo
+                                <lb/>fecit homagium dicto dyabolo et quo nomine vocatur. In quo loco,
+                                <lb/>in qua specie sibi apparuit.</seg>
+                            <seg>Tercio modo et forma negationis
+                                <lb/>Dei et fidei. </seg>
+                            <seg>Quarto quid dedit dyabolo predicto
+                        <pb n="340" facs="ACV_AC-29_340_341"/><lb/>de corpore proprio aut si dederit censu&#160;; et quid post mortem.</seg>
+                      <seg><lb/>Sexto<note>Le cinquième point manque.</note> fuit in diversis sectis, in quibus et de tempore, <choice><sic>quod</sic><corr>quot</corr></choice>
+                                <lb/>sunt anni quibus intravit sectam. </seg>
+                       <seg>Septimo qua die et hora
+                                <lb/>ivit ad se<subst><del rend="strikethrough">p</del><add place="overwritten">c</add></subst>tam et quo lumine utuntur.</seg> 
+                        <seg>Octavo quos actus fecit
+                                <lb/>et faciunt predicti heretici, et quid dyabolus eisdem precipit.</seg> 
+                            <seg>Nono
+                                <lb/>quantis vicibus fuit in sectis et quos realiter ibidem vidit et
+                                <lb/>cognovit.</seg> 
+                            <seg>Decimo quid dyabolus eidem precipiebat et suis
+                                <lb/>complicibus.</seg> 
+                            <seg>Undecimo si quolibet anno confessus fuerit suo
+                                 <lb/>proprio sacerdoti omnia peccata sua, et istud peccatum ydolatrie.</seg> 
+                       <seg><lb/>Duodecimo si sacrum corpus Christi quolibet anno receperit et quomodo
+                                <lb/>usus est.</seg> 
+                            <seg>Terciodecimo a quo tempore non vidit magistrum
+                                    <lb/>suum et quid in ultimis verbis dyabolus eidem <persName ref="per016293a.01">Johanni</persName> dixit. </seg> 
+                            <seg>Quarto<lb break="no"/>decimo qua de causa quoniam scivit se ita peccasse contra Deum
+                                   <lb/>et fidem catholicam, quare non venit ad confessionem.
+                     </seg></p>
+                        <head type="subtitle"><hi rend="left">Petit procurator ad ista superius proposita
+                                    <lb/>ipsum <persName ref="per016293a.01">Johannem Gallot</persName> responderi.</hi>
+                        </head>
+                        <head type="subtitle"><hi rend="center">Responsio predicti <persName ref="per016293a.02"><choice><abbr>Jois</abbr><expan>Johannis</expan></choice> Gallot</persName></hi></head>
+                        <p><seg><lb/>Ad primum ubi queritur qua de causa, respondet quia etiam in maxima
+                                <lb/>necessitate et se reperit in loco superius nominato et fecit prout
+<lb/><label type="keyword" place="left margin">Nota de variacionibus <lb/>introitus per eum <lb/>jam superius dictis</label> jam confessus est. Et in crastinum super isto primo articulo dixit quod
+                                <lb/>frater suus <persName ref="per013736a.03">Ginodus Gallot</persName>, videns paupertatem dicti eius fratris,
+                                <lb/>quadam die prope domum suam dixit eidem frater&#160;: <q>&#160;Tu es pauper,
+                                <lb/>si velis michi credere, ducaberis&#160;</q>. Et post plurima verba idem <persName ref="per013736a.05">Johannodus
+                                <lb/>Gallot</persName> duxit eumdem <persName ref="per016293a.03"><choice><abbr>Jo</abbr><expan>Johannem</expan></choice></persName> ad locum quemdam vocatum <foreign xml:lang="fr"><placeName ref="loc011136.02">Perreauz</placeName></foreign>. Et ibidem <supplied reason="omitted">apparuit</supplied> dyabolum
+                                <lb/>qua supra in suo processu.</seg>
+                        <seg>Ad secundum, tercium et quartum respondet
+                                <lb/>ut prius, ad quintum, sextum, septimum, octavum, nonum, decimum usque ad ultimum
+                                <lb/>respondet ut prius.
+                                </seg></p> 
+                        <p><seg><lb/>Visa prima confessione que non fuit confestim facta, viso juramento
+                                <lb/>sibi dato, visa gracia sibi presentata, visis informacionibus contra
+                                <lb/>eundem sumptis, visis variacione de introitu dicte secte et
+                                <lb/>pluribus aliis, idem procurator fidei petit per corpus suum proprium
+                                <lb/>examinari et interloqui. Quibus auditis, de consilio discretorum <gap/><note>La phrase s’arrête brusquement.</note>.</seg>
+                      <seg><lb/>Nos frater <persName ref="per012840a.01">Damianus Berruerii</persName>, viceinquisitor, processimus ad sentenciam
+                                <lb/>interloqutoriam, que talis est et sequitur secundum formam
+                                <lb/>juris et ad peticionem procuratoris fidei racionaliter requirentis et
+                                <lb/>petentis&#160;; presentibus quibus supra.
+                        </seg></p>
+                        <p><seg><lb/><figure type="drawing"/>† <persName ref="per000353a.17">Christi</persName> nomine invocato a quo omne rectum judicium procedit, non declinantes
+                                <lb/>a dextris neque a sinistris, sed equo libramine ut de vultu Dei nostrum
+                        <pb n="341" facs="ACV_AC-29_340_341"/><lb/><subst><del rend="strikethrough">prediat</del><add place="above">prodeat</add></subst> judicium et occuli nostri videant equitatem, audita fama,
+                                <lb/>auditis clamoribus contra te <persName ref="per016293a.01">Johannem Gallot</persName> laborantibus, visis indiciis
+                                <lb/>ac <del rend="strikethrough">parte</del> per te confessatis et <choice><sic>viriacionibus</sic><corr>variacionibus</corr></choice> atque perjurio, ac <term ref="lem018779.01">blasphemia</term>
+                                <lb/>que etiam coram nobis sepius prolata, et mendaciis, de consilio
+                                <lb/>peritorum te questioni subiciendum <add type="sign" place="right margin">condempnamus</add>, donec et quousque veritas ab
+                                <lb/>ore tuo eruatur, citra tamen sanguis effusionem et membrorum
+                                <lb/>mutilacionem de quibus expresse protestamur. In nomine Patris<note>La sentence s’arrête ici, il devrait suivre <abbr>etc</abbr>.</note>.
+              </seg></p>
+              <p><seg><lb/>Lata fuit hec sentencia per dominum viceinquisitorem <origDate when="1484-02-26">die qua supra</origDate>. Qua
+                            <lb/>lata, petiit ipse procurator fidei exequi et dari exequcioni.</seg>
+                  <seg><lb/>Deinde ipse dictus <persName ref="per016293a.01">Johannes</persName> fuit ductus ad aulam magnam
+                            <lb/>dicti castri&#160;; et dum ducebatur ad predictum locum dicte torture, dixit
+                            <lb/>idem <persName ref="per016293a.01">Johannes</persName>&#160;: <q>&#160;Per Deum, nichil aliud habebitis a me&#160;</q>, et&#160;: <q>&#160;Habeatis
+                            <lb/>pacientiam&#160;</q>. Ac tamen per dominum castellanum et nonullos alios
+                            <lb/>fuit ligatus a tergo, et ligatis manibus rogavit ipsum non torqueri,
+                            <lb/>se offerens omninodam dicere veritatem. Qua propter non fuit tractus nec
+                            <lb/>in corpore molestatus, sed fuit assignatus, quia erat <time period="morning">hora octava de
+                            <lb/>mane, ad horam decimam</time>.
+                        </seg></p>
+                        <head type="subtitle" resp="GO">26 février 1484, plus tard</head>
+          <p><seg><lb/><time period="morning">Hora decima</time> coram superius nominatis dixit idem <persName ref="per016293a.02"><choice><abbr>Joes</abbr><expan>Johannes</expan></choice> Gallot</persName> coram
+<lb/><label type="keyword" place="left margin">Complices</label> superius nominatis&#160;: <q>&#160;Ecce domine viceinquisitor et vos domini, nec
+                        <lb/>timore, nec amore, sed pro veritate dico duo&#160;: primo omnia
+                        <lb/>superius per me confessata sunt vera. Et ultra obmisi unum,
+                        <lb/>videlicet super complicibus meis&#160;; in <term ref="lem017070.02">sinagogis</term> dyaboli vidi superius
+                        <lb/>nominatos et <persName ref="per016338a.01">Johannem Millioz antennatum</persName>&#160;</q>. Et dixit ipsum vidisse
+                        <lb/>tantum modo in una secta, videlicet in ultima. Item <persName ref="per016339a.02">Vuillelmum Berruyer</persName>
+<lb/><label type="keyword" place="left margin">Nota <lb/>contra <persName ref="per016339a.01">Vuillelmum Berruer</persName> <lb/>de <placeName ref="loc008152.03">Chardona</placeName></label> filium <persName ref="per013704a.01">Mermeti Berrueyer</persName> de <placeName ref="loc008152.03">Chardona</placeName>&#160;; item <persName ref="per016340a.01">Petrum Decimatoris</persName>
+                        <lb/>filium quondam <persName ref="per016341a.01">Johannis Decimatoris</persName>, qui fuit combustus, de <placeName ref="loc008152.03">Chardona</placeName>&#160;; item
+                        <lb/>vidit in dicta secta <persName ref="per016340a.01">Petrum Decimatoris</persName> filium quondam <persName ref="per016341a.01">Johannis Decimatoris
+                        <lb/>antenatum</persName>, qui vocatur <persName ref="per016340a.01">parvus Petrus</persName> de <placeName ref="loc008152.06">Chardonna</placeName>, et dixit
+                        <lb/>in periculum anime sue alios non scire nec vidisse. Sed petiit
+                        <lb/>amplius non ipsum interrogari, sed omninodam in suo processu facere
+                        <lb/>conclusionem, dicendo ulterius&#160;: <q>&#160;Si dicerem vobis aliqua alia,
+                        <lb/>non essent nisi mendacia, et supplico pacientiam habeatis&#160;</q>. Auditis
+                        <lb/>istis, fuerunt assignati procurator fidei et ipse <persName ref="per016293a.01">Johannes</persName> ad
+                        <lb/>concludendum in dicto processu ad <origDate when="1484-03-04">quartam mensis marcii</origDate>.</seg>
+               <seg>Quiquidem
+                        <lb/>comparuerunt, et fuit interrogatus dictus <persName ref="per016293a.02"><choice><abbr>Joes</abbr><expan>Johannes</expan></choice></persName> <supplied reason="omitted">si</supplied> velit aliquod dicere in oppositum
+                         <lb/>contra dictum procuratorem et si velit quod fiat conclusio in suo processu,
+                         <lb/>dixit quod sic. Et sibi procurator fidei petiit concludi. Qua
+                         <lb/>propter per ipsum viceinquisitorem fuerunt assignati ad <origDate when="1484-03-06">diem
+                         <lb/>VI huius mensis</origDate> in ecclesia de <placeName ref="loc008023.07">Athallen</placeName>, audituri sentenciam domini
+                         <lb/>viceinquisitoris&#160;; presentibus quibus supra.
+             </seg></p>
+                        <p><seg><lb/><signed>notarius <persName ref="per011054a.01">Humbertus de Gerdili</persName></signed><figure type="notarial sign"/></seg></p>
+                        <pb n="342" facs="ACV_AC-29_342_343"/><p/>
+                        <pb n="343" facs="ACV_AC-29_342_343"/><p/>
+                        <pb n="344" facs="ACV_AC-29_344_345"/><p/>
+                        <pb n="345" facs="ACV_AC-29_344_345"/><p/>
+                        <pb n="346" facs="ACV_AC-29_346_347"/><p/>
+                        <pb n="347" facs="ACV_AC-29_346_347"/><p/>
+                        <pb n="348" facs="ACV_AC-29_348_349"/>
+                        <p><add place="cover above">Materia valis</add></p>
+                        <p><add place="cover bottom"><persName ref="per023981a.01"><choice><abbr>Jo</abbr><expan>Johannees</expan></choice> Chapuys alias Aymbaz</persName> et <persName ref="per023982a.01"><choice><abbr>Jo</abbr><expan>Johannes</expan></choice> Coiret</persName>.</add> </p>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Les procès de Jaquet de Panissère (<bibl><ref target="urn:ssrq:SDS-VD-D_1-14-1">SDS VD D 1 14-1</ref>&#160;: ACV, Ac 29, p.&#160;228–258</bibl>), Jordana de Baulmes (<bibl><ref target="urn:ssrq:SDS-VD-D_1-15-1">SDS VD D 1 15-1</ref>&#160;: ACV, Ac 29, p.&#160;208–227</bibl>), Claude Bochet (<bibl><ref target="urn:ssrq:SDS-VD-D_1-16-1">SDS VD D 1 16-1</ref>&#160;: ACV, Ac 29, p. &#160;264–275</bibl>), Jean Poesiouz (<bibl><ref target="urn:ssrq:SDS-VD-D_1-17-1">SDS VD D 1 17-1</ref>&#160;: ACV, Ac 29, p.&#160;301–312</bibl>), Jeannette Barattier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-18-1">SDS VD D 1 18-1</ref>&#160;: ACV, Ac 29, p.&#160;276–300</bibl>), Antoine de Vernex (<bibl><ref target="urn:ssrq:SDS-VD-D_1-19-1">SDS VD D 1 19-1</ref>&#160;: ACV, Ac 29, p.&#160;313–327</bibl>) et Jean Gallot (<bibl><ref target="urn:ssrq:SDS-VD-D_1-20-1">SDS VD D 1 20-1</ref>&#160;: ACV, Ac 29, p.&#160;333–348</bibl>) ont tous été intentés entre 1477 et 1484. Ils sont les témoins d’une nouvelle chasse aux sorciers menée sur la Riviera lémanique, après la première vague des années 1448–1449.</p>
+                <p>Le procès de Jean Gallot occupe les pages 333 à 348 du registre ACV, Ac 29. On trouve une note sur la page de garde de l’ancien <orig>&#160;dossier Gallot&#160;</orig>, tandis que le verso de la page est resté vierge. Le procès-verbal à proprement parler débute à la page 335 pour finir à la page 341. Les pages 342 à 347 n’ont pas été utilisées. La dernière page de l’ancien dossier comporte trois inscriptions, dont deux rassemblent celles du dos de l’ancien <orig>&#160;dossier Barratier&#160;</orig>. Les actes du procès de Jean Gallot ont été signés par Humbert de Gerdil&#160;; cependant, nous ne pensons pas qu’il en soit l’auteur parce que le premier procès-verbal indique clairement comme notaire un certain Rodolphe Macri, bourgeois de Corsier. Comme tout le procès relève de la même main, y compris ce premier interrogatoire, il faut sans doute attribuer sa rédaction à Rodolphe Macri. Humbert de Gerdil a donc simplement apposé sa signature au procès-verbal déjà rédigé. La plus grande partie des annotations en marge proviennent de la main qui a rédigé le reste du procès-verbal. Cependant, la page 338 comporte quatre annotations d’une main inconnue, probablement rajoutées lors d’une lecture plus tardive.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

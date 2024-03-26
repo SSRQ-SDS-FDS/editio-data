@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-193.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 322–323</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 322–323</idno>
+					</msIdentifier>
+					<head xml:lang="de">Eva Perrottet-Widmann – Verhör</head>
+					<head xml:lang="fr">Eva Perrottet-Widmann – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1669-07-24"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="322"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1669-07-24">24<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1669</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026533a">Karl Kessler</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026065a">Joseph Reyff</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per026329a.01">Schrötter</persName></seg>
+							<seg><lb/><persName ref="per026534a.01"><choice><abbr>D</abbr><expan>Daniel</expan></choice> Montenach</persName>, <persName ref="per026315a"><choice><abbr>R</abbr><expan>Rudolf</expan></choice> Techterman</persName></seg>
+							<seg><lb/><persName ref="per026535a.01">Castella</persName>, <persName ref="per026536a.01">Desgranges</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per026981a.01">Eva Widman</persName> de <placeName ref="loc000504.03">Monlauff</placeName> riere <placeName ref="loc000482.03">Lentzbourg</placeName> demeure
+							<lb/>constante dans les <term ref="lem019465.02">confessions</term> et declarations qu’elle
+						<lb/>at faictes dans les precedentes examinations, sans
+						<lb/>aucune extravagance, et n’at dict ny plus ny moings
+							<lb/>dans les <term ref="lem019428.03">tortures</term> que la premiere foys qu’elle fust
+						<lb/>examinée par la voye douce.</seg> <seg>Demandée pourquoy
+						<lb/>elle n’at pas levé des tesmoings lors qu’ont l’appelloit
+							<lb/><term ref="lem019389.02">sorciere</term>, declare que son beaufilz l’en at empechée,
+						<lb/>luy disant&#160;: <q>&#160;Que voullez vous plaider, vous ne man<lb break="no"/>gerés que de l’argent&#160;!&#160;</q> Et sustient que <persName>Corminbeuf</persName>,
+						<lb/>soit <persName>Toni Jordan</persName>, l’at contraincte à l’action predite,
+						<lb/>l’ayant renversée bas dans la ruelle, entre son lict
+						<lb/>et la muraille, ou elle ne se pouvoit debarasser,
+							<lb/>outre qu’il luy avoit bouché la bouche. <term ref="lem015549.13">Confesse</term> neant<lb break="no"/>moins qu’elle s’est servie de luy <term ref="lem019472.01">lubriquement</term> parce
+						<lb/>que c’estoit un bel homme, comme elle estoit aussy
+						<lb/>belle dans ce temps.</seg> <seg>Veut que <persName>Clodina Perrotet</persName>,
+						<lb/>femme de son nepveur, soit appliquée à la <term ref="lem015441.02">gehenne</term>
+						<lb/>comme elle, ou elle <term ref="lem015549.09">confessera</term> sans doute le tort qu’elle
+						<lb/>luy fait, et veut perir si elle ne luy faict tort, disant
+						<lb/>qu’elle est une querelleuse qui luy porte rancune
+						<pb n="323"/><lb/>à cause de quelques difficultés qu’elles ont heu par ensemble.</seg>
+						<seg><lb/>Confirme d’avoir veu en songent deux qui ressembloint à
+						<lb/>des seigneurs ou gentilshommes, l’un habillé de vert et
+						<lb/>l’autre de rouge, au pied de son lict, mais qu’elle ne sçau<lb break="no"/>roit pas dire que ce fussent esté des <term ref="lem017521.02">diables</term>. Dit que
+							<lb/>si elle confessoit d’estre <term ref="lem019389.02">sorciere</term>, elle perdroit son <term ref="lem018939.02">ame</term>,
+						<lb/>priant de luy plustost donner la mort, persistant
+							<lb/>qu’elle est nette de ce <term ref="lem019494.01">crime</term>.</seg> <seg>Declare qu’elle at <term ref="lem019463.06">con<lb break="no"/>fessé</term> son forfaict touchant l’action commise avec ledit
+						<lb/><persName>Jordan</persName> au curé, qui l’at exhortée de se deporter
+						<lb/>de luy, ainsy que après qu’il l’eut conjurée, elle s’en
+						<lb/>trouva mieux, et les pensées de brusler ses enfans et
+						<lb/>de se noyer ne luy viendrent plus en l’esprit.</seg> <seg>Ne veut
+						<lb/>avoir faict des menaces à personne, sauf à son beaufilz,
+						<lb/>qui luy avoit desclos son jardin, mais <subst><del>d</del><add place="overwritten">s</add></subst>ans aucune mau<lb break="no"/>vaise intention, ains seulement comme une belle mere
+						<lb/>le peut faire à ses enfans, luy ayant veritablement
+						<lb/>dit, si cella estoit la recompense des biens qu’elle luy
+						<lb/>avoit faict, qu’il ne faict pas cella à un pendu mais à
+						<lb/>un rendu.</seg> <seg>Quant à la rossette qu’elle doit avoir vomy
+						<lb/>plaine de <term ref="lem015433.18">malins</term>, elle persiste dans l’explication
+						<lb/>qu’elle en at faicte, soustenant que ce n’estoit
+						<lb/>que du sang <subst><del>q</del><add place="inline">caillé</add></subst>, ignorant si peut estre en mesme
+						<lb/>temps quelques <term ref="lem015433.18">malins</term> sortirent de son corps. Et
+						<lb/>nie toutt à faict d’avoir veu le <term ref="lem018943.02">demon</term> delà la <placeName ref="loc008383">Broye</placeName>.
+						<lb/>Veut estre innocente, disant que son trop de langue
+						<lb/>est cause de son malheur. <term ref="lem019498">Crie mercy</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-35.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 10, S. 295–296</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 10, p. 295–296</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anna Page-Dulin – Verhör</head>
+					<head xml:lang="fr">Anna Page-Dulin – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1611-08-06">6 <foreign xml:lang="la">augusti</foreign> 1611</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="295"/><p><lb/>Im <placeName ref="loc007594.01"><subst><del>Keller</del><add place="above">Rosey</add></subst></placeName>, <origDate when="1611-08-06">6 <foreign xml:lang="la">augusti</foreign> 1611</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009100">Rudolf Weck</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentibus</foreign> <abbr>h</abbr> <persName ref="per009101">Keller</persName>, <persName ref="per009102">Amman</persName></seg>
+							<seg><lb/><persName ref="per009103"><choice><abbr>M</abbr><expan>Melchior</expan></choice> Zum Holtz</persName></seg>
+							<seg><lb/><persName ref="per009105">Pavillard</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft den Prozess gegen eine andere Person.</note></p>
+						<p><lb/>Im <placeName ref="loc007890.05">Jaquimar</placeName> <foreign xml:lang="la">eodem die</foreign></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg>
+					<seg><persName ref="per009210a">Anna</persName> fillie de <persName ref="per009209a">Nicod Dulin</persName> d’<placeName ref="loc007902.02">Escuvillens</placeName>, alias <persName>La Chi<lb break="no"/>noda</persName>, <choice><abbr>fee</abbr><expan>femme</expan></choice> de <persName ref="per009211">Franceois Page</persName>, le <term ref="lem015145.02">chappuis</term> de <placeName ref="loc007959.03">Rueyre</placeName>, de <placeName ref="loc007693.05">E<lb break="no"/>stavayé le Lac</placeName>, a dit ne sçavoir l’occasion de son appriso<lb break="no"/>nement. Mais quant au <term ref="lem015146.02">laqué</term> d'<placeName ref="loc007901.02">Aulteripue</placeName>, qui doit estre
+						<pb n="296"/><lb/><term ref="lem015148">debile</term> ou estropié, a ladite prisonniere dit qu’elle n’a ja<lb break="no"/>mais parlé ny eu querelle avec luy, moings de luy avoir
+						<lb/>tel mal, ny a persone que ce soit, <choice><abbr>coe</abbr><expan>comme</expan></choice> aussy n’avoir donné
+						<lb/>aucun <term ref="lem015011">lait</term> pour faire mal aux <term ref="lem015172.04">pasteurs</term>, demandant
+						<lb/>pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

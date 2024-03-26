@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.17-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 239–241</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 239–241</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Vater / le père – Verhör und Urteil</head>
+					<head xml:lang="fr">Pierre Ducli der Vater / le père – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1651-07-27" to="1651-08-05"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="239"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-07-27">27<hi rend="sup">ten</hi> july 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.03">du Prez</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName></seg></p>
+						<p><seg><lb/><persName ref="per020477a.05">Pieru Du Cli <add place="above">le vieux</add></persName><note>La mention «&#160;le vieux&#160;» a clairement été ajoutée au moment où le greffier a rédigé le jugement dans la marge de gauche (voir infra).
+							Le but était sans doute de bien distinguer le père du fils homonyme, dont le procès a débuté le lendemain, soit le <date when="1651-07-28">28 juillet 1651</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-156.19-1">SSRQ FR I/2/8 156.19-1</ref>.</note> estant <term ref="lem019427.03">torturé</term> <subst><del>de</del><add place="overwritten">par</add></subst> la petite <term ref="lem018285.03">piere</term> par trois
+							<lb/>fois et par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examiné, dit qu’il ast re<lb break="no"/>cherché lez coingz de sa conscience pour tout dire ce
+							<lb/>qu’il sçait, se recomandant à la bonne <term ref="lem019504.02">grace</term> de messieurs.
+							<lb/>La desus assere le tout de ce qu’il ast hier dit, estre
+							<lb/>veritable, sçavoier d’avoir veu <subst><del>le</del><add place="overwritten">so</add></subst>n fils<note>Gemeint ist <persName ref="per020483">Pierre Ducli</persName>, der Sohn.</note>, <persName ref="per020304a.03">Agata</persName> et
+							<lb/><persName ref="per020299a.04">Mathie</persName> à la <term ref="lem017043">secte</term>, et la femme de <persName>Niclo</persName>, aussi une siene
+							<pb n="240"/><lb/>fillie, mariée à <placeName ref="loc007935">Farvagny</placeName>, nommée <persName ref="per020487a.01">Anthoinete</persName>, feme de
+							<lb/><persName>François Rosset</persName><note>Der Name des Ehemanns bleibt unklar. An anderer Stelle wird er <persName>François Bosson</persName> genannt. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-156.20-1">SSRQ FR I/2/8 156.20-1</ref>.</note><!-- habe den Mann nicht in der Personen DB aufgenommen, weil sein Name unklar ist. -->, la quelle il dit avoier veu qu’une
+							<lb/>fois, par après dit plusieurs foiz, reiterant aussi
+							<lb/>lez lieux ou il avoit esté à la <term ref="lem017043">secte</term> comme si devant.</seg>
+							<seg><lb/>Citout après, il dit qu’il avoit crainte de faire tord
+							<lb/>à quelques unes qu’il avoit nommé, mes ossitout
+							<lb/>dit le tout ainsi qu’il les avoit nommé, et <add place="above">ce</add> qu’il
+							<lb/>avoit dit est<subst><del>oit</del><add place="above">re</add></subst> veritable, reiterant s’estre doné
+							<lb/>au <term ref="lem015433.16">malling espris</term> lors qu’il estoit tout desolé, il
+							<lb/>ast <date dur-iso="P10Y">dix ans</date>, au soubject de quelque<del>s</del> bestail
+							<lb/>de perdu, se trovant dans sez proprez bois, ou
+							<lb/>il dit avoier rencontré le <term ref="lem015433.03">maling esprit</term>, mais
+							<lb/>qu’il se donnat à luy sur <placeName ref="loc008500.03">Montcour</placeName>, ayant
+							<lb/>bien beu. Par après, variant, dit que ce fust dans
+								<lb/>l’allée de sa maison, ou l’ayant <term ref="lem018895.02">marqué</term> sur
+							<lb/>l’espaule, <add place="inline">ou</add> luy donat de la <term ref="lem018382">graisse</term> dans une
+								<lb/><term ref="lem015060.01">grolle</term> et du <term ref="lem014886.02">pusset</term> tout vert, le quel il
+							<lb/>espanchat esmi le chemin, ne sçachant ci c’estoit
+							<lb/>pour faire mourir le bestail ou quoy. La desus,
+							<lb/>revariant, dit que c’estoit sur <placeName ref="loc008500.03">Montcour</placeName> la <subst><del>ou ly</del>
+							<lb/><add place="inline">premiere</add></subst> fois qu’il se rendit au <term ref="lem015433.10">maling</term>, le quel
+								<lb/>se nommet <persName ref="per011219a">Satan</persName>, au quel il prestat <term ref="lem018915.01">hommage</term>
+							<lb/>de la fasson <subst><del>qu’il</del><add place="inline">comme</add></subst> il avoit desja dit.</seg> <seg>Estant
+							<lb/>demandé comme son <sic>perre</sic> estoit mort, dit que
+							<lb/>le cherchant un jour sur le tard, il ast environ <add place="inline"><date dur-iso="P3W">3
+								<lb/>septmaines</date> après <date when="--12-25">Noel</date></add>, <date dur-iso="P30Y">30 ans</date>, il le trovat pendu à toict et estranglé
+								<lb/>d’une corde dans le <term ref="lem019146.03">zapeti</term>, le quel ainsi ayant
+							<lb/>trové ils l’enlevarent avec l’<choice><sic>assistace</sic><corr>assistance</corr></choice> de quatre
+							<lb/>aultres persones, le quel feut ensuitte enseveli <add place="inline">hono<lb break="no"/>rablement</add>&#160;;
+							<lb/>que s’il l’eussent laissé enlevé par ceux
+						<pb n="241"/><lb/>qu’il <subst><del>lay</del><add place="inline">convenoit</add></subst> ’estre <add place="above">enlevé et</add> enseveli, il ne lay sçauroit
+							<lb/>survenu ce que luy est arrivé, ni devenu dans l’estat
+							<lb/>qu’il se trouve. Et estant parti le jour suivant que
+							<lb/>son dit pere fust trouvé estranglé, à l’aulbe du jour,
+							<lb/>pour venir en la ville achepter des ciergez pour
+							<lb/>son ensevelissement, un orage chaud l’entourna <add place="inline">sur
+							<lb/><placeName ref="loc008500.03">Montcour</placeName></add>, ou ayant entendu une voix espouvantable, dont une
+							<lb/>grand espouvante et frayeur le saissit, ains que dé
+							<lb/>lors n’avoier esté à son aise.</seg> <seg>Et comme l’on s’inquerit
+							<lb/>de luy s’il avoit long tempz que s’estoit faict
+								<lb/><term ref="lem019308.01">sorcier</term>, il repartit qu’il avoit environ <date dur-iso="P6Y">6 ans</date>, le
+							<lb/>quel dansoit en la <term ref="lem017043">secte</term> et jouait au cartes avec
+							<lb/>aplaudissement du <term ref="lem015433.10">maling</term>, ou il mangoint dé viandes,
+							<lb/>lé quelles au goust estoint comme de la terre, estant
+							<lb/>esclairé d’une <subst><del>ch</del><add place="overwritten">f</add></subst>eu bleu, pour quels mefaictz il de<lb break="no"/>mande à Dieu et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</seg></p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1651-08-05">5<hi rend="sup">ten</hi> augsten
+							<lb/>1651</origDate>, nach empfang<lb break="no"/>nem 6 mit <term ref="lem021889.02">glüender
+							<lb/>zangen</term> <term ref="lem018728.02">griffen</term>, uff
+							<lb/>der <term ref="lem019163.03">stoßleiter</term> ge<lb break="no"/>bunden, also lebendig
+							<lb/>in das <term ref="lem012936.03">füwr</term> gestürtzt
+							<lb/>und <choice><sic>eingeescher</sic><corr><term ref="lem019166.02">eingeeschert</term></corr></choice> worden.
+							<lb/>Hat sich zwar anfangs
+							<lb/>nicht zur <term ref="lem011881.02">communion</term> wöllen bequemen laßen.
+							<lb/>Darzu er aber durch sein pfahrher <abbr>h<hi rend="sup">r</hi></abbr> <persName>Claudu Macheret</persName>, nach dem die <choice><abbr>ehrw pp</abbr><expan>ehrwürdigen patres</expan></choice> <term ref="lem016504.02">jesui<lb break="no"/>ter</term> viel arbeit umb sonsten
+								angewendt haten, darzu beredt und bequembt <add place="above">worden</add>, maßen
+							<lb/>er uffs <placeName ref="loc009227.08">Rahthauß</placeName> <time dur-iso="PT3H">3 stund</time>, eher er <term ref="lem018729.02">supliciert</term> wurde, mit dem <choice><abbr>hochw h</abbr><expan>hochwürdigen heiligen</expan></choice>
+							<term ref="lem005136.01">sacrament</term> versehen worden.</add><note>Ce passage se trouve dans la marge de gauche et se poursuit en bas de page, au début du procès-verbal de l’interrogatoire, à la p. 239.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

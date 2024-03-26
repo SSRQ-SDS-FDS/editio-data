@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-19-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de Boudry</repository>
+                  <idno xml:lang="fr">Archives de Boudry, G 1, No 1</idno>
+               </msIdentifier>
+               <head>Confirmation par Isabelle de Neuchâtel des franchises accordées aux bourgeois de Boudry
+                  le <date when="1343-09-12">12 septembre 1343</date> par son père Louis de Neuchâtel</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <textLang xml:lang="la"/>
+                     <filiation type="original">Vidimus</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="26.5"/>
+                              <width unit="cm" quantity="46.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1378-09-02"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_68">SDS NE 1, N<hi rend="sup">o</hi>&#160;19</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000086"></term>
+               <term ref="key000468"></term>
+               <term ref="key000815"></term>
+               <term ref="key005822"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="BOUDRY_G1_1_r"/>      
+               <div>
+                  <p><lb/>Donnee par copie soubs le signe de moy <persName>Nicolas de
+                        Granssons</persName> notaire es jurez de la cort de
+                        <placeName>Lousanne</placeName>.</p>
+                  <p><seg><lb/>Nous <persName ref="per036884a.01">Ysabel</persName>, contesse et
+                        dame de Nuefchastel de la dyocise de Lausanne façons savoir a tout ceulx que
+                        verront cestes presentes lettres que come nostre tres cher signour et pere
+                        monssi <persName ref="per036715a.02">Loys</persName>, conte et signour de
+                           <placeName>Nuefchastel</placeName>, cza en <lb/>arrer, cuy Dyoux
+                        pardoing, pour lui et pour ses hoirs, heut donnez, bailliez et utroyez a
+                        perpetuitel eis bourgois de <placeName ref="loc007904.03">Boudry</placeName>
+                        et pour lours successours, us, franchises, custumes et libertez et ly dit
+                        bourgois de <placeName ref="loc007904.03">Boudry</placeName>
+                        <lb/>nous haens supployez et requise que les dictes franchises, custumes et
+                        libertel nous lour volissens luez et confermer pour le temps advenyr enxi
+                        comez il est contenuz eis lettres des dites franchises sellees douz grant
+                        seel <lb/>de nostre dit signour et pere, la tenour des quelx franchise
+                        s’ensoit cy après de mot a mot par ceste maniere&#160;:</seg>
+                     <quote xml:lang="la" type="fully_inserted"><seg>Nos <persName ref="per036715"
+                              >Ludovicus</persName> comes et dominus Novicasitri, notum facimus
+                           universis presentes litteras inspecturis seu eciam audituris <lb/>quod
+                           nos volentes et cupientes burgenses, villam nostram de <placeName
+                              ref="loc007904.05">Boudico</placeName> ad augmentum et statum facilem
+                           devenire, nosque super hoc primo bene premeditati, habiti et usi in hac
+                           parte, bono et maturo consilio, pro nobis <lb/>et nostris heredibus
+                           dedimus et concessimus, damus et concedimus conditione meliori qua
+                           possumus dillectis burgensibus nostris de Budrico, presentibus et futuris
+                           et successoribus eorum imperpetuum valituros, omnes et singulas
+                           <lb/>immunitates, usus et libertates et consuetudines qualesconque quas
+                           habent et obtinent a progenitoribus nostris et a nobis diletti burgenses
+                           nostre ville <placeName>Novicastri</placeName> et ipsos burgenses nostros
+                           de <placeName ref="loc007904.04">Budrico</placeName>, presentes et
+                           <lb/>futuros et eorum successores ad dictas immunitates, libertates, usus
+                           et consuetudines nostrorum burgensium Novicastri posuimus et ponimus et
+                           nos posuisse confitemur per presentes super traditionem presentis
+                           instrumenti in <lb/>perpetuum pro nobis et nostris heredibus et perpetue,
+                           ut predicitur, valituros excepto tamen et a nobis retento quod nullus de
+                           nostris burgensibus dicte nostre ville de Budrico non debet nec potest
+                           facere alteri ville burgensiam seu aliquod <lb/>sacramentum adsque nostra
+                           licencia speciali&#160;; quod si facerent, omnia bona mobilia et
+                           immobilia illius burgensis qui talem burgensiam seu sacramentum faceret
+                           sine nostra licencia, ubicumque inventa fuerint, tam infra vil<lb
+                              break="no"/>lam quam extra, nostra sint et ad manus nostras et heredum
+                           nostrorum redigantur et revertantur libere, absque aliqua reclamatione ab
+                           illo burgense seu altero facienda. Et nichillominus corpus ejus,
+                           ubicumque repertum fuerit <lb/>nobis seu nostris heredibus erit et
+                           remanebit obligatum omnimode tailliabili servituti. Et hoc similiter a
+                           nobis excepto et retento quod de novo dictis burgensibus nostris de
+                              <placeName>Novocastro</placeName> pro dicta villa nostra de
+                              <placeName>Novocastro</placeName>
+                           <lb/>similiter augmentanda concessimus et ordinamus quod de quibusdam
+                           consuetudinibus quibus utebantur que galice vocantur <foreign xml:lang="fr" >desditz et tenues</foreign> ulterius non utantur quod ad nos et nostros
+                        heredes retinemus et volumus <lb/>quod de dictis consuetudinibus <foreign xml:lang="fr" >desditz et tenues</foreign> dicti nostri burgenses de
+                              <placeName ref="loc007904.06">Boudrico</placeName> presentes et futuri
+                           nobis et nostris heredibus subjecti remaneant de eisdem in futurum et
+                           utantur, volentesque et concedentes nos comes <lb/>predictus, pro nobis
+                           et nostris heredibus, quod predicti burgenses nostri de Budrico et eorum
+                           successores recipere possent in burgensia dicti loci de Budrico omnes et
+                           singulas personas qualescumque ad hoc dignas preter de nostris gentibus
+                           <lb/>et de nostro dominio existentibus nec de feodalibus nostris, ita
+                           tamen quod illi burgenses quos, ut predicitur, recipient de nostro
+                           dominio et feodalibus minime existentes residere possint in dicta villa
+                           nostra de Budrico aut extra dictam <lb/>villam seu alibi, ubi sibi
+                           placuerit, quamdiu parere voluerint dicte burgensie et communibus ipsius
+                           ville nostre volentes obedire. Et sic nos prefatus Ludovicus comes et
+                           dominus Novicastri, pro nobis et nostris heredibus, predictos
+                           <lb/>burgenses nostros de <placeName ref="loc007904.04"
+                              >Budrico</placeName> et eorum successores liberos vocamus et ipsos ab
+                           omnibus aliis et singulis tailliis et aliis exactionibus quibuscumque
+                           quitamus imperpetuum et absolvimus per presentes. Promittentes
+                           <lb/>siquidem nos comes predictus per juramentum nostrum pro nobis et
+                           nostris heredibus corporaliter prestitum non venire contra predicta aut
+                           aliquid de predictis, sed ea firmiter tenere et inviolabiliter observare,
+                           et predictos bur<lb break="no"/>genses nostros de <placeName
+                              ref="loc007904.07">Budrio</placeName> et eorum successores in dictis
+                           immunitatibus, libertatibus, usibus et consuetudinibus manutenere per
+                           modum et formam superius declaratos. In quorum omnium prescriptorum
+                           testimonium et robur, nos <lb/>prefatus Ludovicus comes et dominus
+                           Novicastri sigillum nostrum litteris presentibus duximus apponendum.
+                           Datum et actum <date when="1343-09-12">dodecima die mensis septembris,
+                              anno Domini millesimo trecentesimo quadragesimo
+                        tercio</date>.</seg></quote>
+                     <gap reason="missing"/>
+                     <seg><lb/>Que furent faites et donees <date when="1378-09-02">le secon jour dou
+                           moy de septembre, l’an de Nostre Signour corrant mil trois centz septante
+                           et huictz</date>. </seg>
+                  </p>
+                  <lb/>
+                  <signed xml:lang="la"> Ita est <persName>Nicholetus de Grandissono</persName>.
+                  </signed>
+               </div>
+               <pb n="v" facs="BOUDRY_G1_1_v"/>      
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original perdu.</p>
+               <p>Vidimus sur parchemin, <hi rend="italic">Archives de Boudry</hi>, G&#160;1, N<hi
+                        rend="sup">o</hi>&#160;1.</p><p><hi rend="italic">Éd.</hi>&#160;: Matile, <hi rend="italic">Monuments</hi>, I, N<hi rend="sup"
+                        >o</hi>&#160;457, p.&#160;518-519 d’après l’original. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

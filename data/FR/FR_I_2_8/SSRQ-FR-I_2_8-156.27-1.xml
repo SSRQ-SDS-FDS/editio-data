@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.27-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 251–252</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 251–252</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Sohn / le fils – Verhör und Urteil</head>
+					<head xml:lang="fr">Pierre Ducli der Sohn / le fils – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1651-08-03" to="1651-08-05"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="251"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-08-03">3<hi rend="sup">ten</hi> augsten 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName><!--avec tilde!-->, <abbr>h<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName></seg></p>
+						<p><seg><lb/><persName ref="per020483a.01">Piere du Cli le jeusne</persName>, <term ref="lem019427.03">torturé</term> dans le <term ref="lem018772.03">tonneaux</term>,
+							<lb/>dit s’estre faict tord dans la <term ref="lem019465.01">confession</term> ci devant faicte.
+							<lb/>Par après assere que ce qu’il ast <term ref="lem015549.07">confessé</term> touchant sa persone
+							<lb/>estre vray, mais touchant les <term ref="lem015380.05">acculpées</term> leur avoier faict
+							<lb/>tord, ce que oussitout il re<term ref="lem019144.04">inficat</term>, disant s’estre faict tort
+							<lb/>aussi bien que aux <term ref="lem015380.05">acculpées</term>.</seg> <seg>Par après reitere tout au
+								<lb/>long sa <term ref="lem019465.01">confession</term>&#160;: s’estre rendu en pasturant lé <term ref="lem018921.06">chevaux</term>
+							<lb/>en <placeName>Zeirru</placeName> au <term ref="lem015433.10">maling</term>, habilé comme il l’avoit ci devant
+							<lb/>descript, et avoier esté 3 fois à la <term ref="lem017043">secte</term>, au pont
+							<lb/>de <placeName>Marze</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir d’un pont se trouvant en <placeName ref="loc011690">Les Marches</placeName>, à l’est de Matran.
+								Il existe aussi un lieu-dit <placeName ref="loc011692">Bois du Pont</placeName>, situé au sud, juste au-dessous du village de Matran. Enfin, un peu plus éloigné de Matran, au sud-ouest, il existe encore un lieu-dit
+								<placeName ref="loc011691">Pont Neuf</placeName>, juste en dessous du <placeName ref="loc011689">Marchet</placeName>.</note>, <placeName ref="loc011457.02">Verdilu</placeName> et <placeName ref="loc008500.03">Montcour</placeName>. En quels lieux
+								<lb/>par après <term ref="lem015549.05">confessat</term> avoier veu les ci devant <term ref="lem015380.05">acculpées</term>,
+							<lb/>ce qu’ayant remonstré à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict, il
+							<lb/>s’en retractat des ossitout, disant sur ce <choice><sic>qu’il
+							<lb/>qu’il</sic><corr>qu’il</corr></choice> fut interrogé, d’avoier <term ref="lem015356.05">acculpé</term> <persName ref="per020532a.02">Piccant</persName> aussi
+							<lb/>bien que les aultres<note>Il s’agit entre autres de <persName ref="per020510">Jeanne Perret</persName>, <persName ref="per020522">Anna Spielmann</persName>, <persName ref="per020499">Elisabeth Mayor-Savarioud</persName>.</note>, par despit, d’aultant que
+							<lb/>le nepveu du dit <persName ref="per020532a.02">Piccant</persName>, nommé <persName>Jehan Lemeri</persName>,
+							<lb/>demourant <placeName ref="loc010320.04">es Granges à Paccot</placeName>, l’avoit
+							<lb/>offencé.</seg> <seg>Par après <subst><del>est</del><add place="overwritten">ay</add></subst>ant esté quelque tempz
+								<pb n="252"/><lb/>en la <term ref="lem015441.02">gehenne</term> <subst><del>rentre</del><add place="above">reentré</add></subst> en sa premiere <term ref="lem019465.01">confession</term> sans
+							<lb/>variation, persistant avoier veu les <term ref="lem015380.05">acculpées</term> à la
+							<lb/><term ref="lem017043">secte</term> et d’avoier esté 3 fois à la <term ref="lem017043">secte</term>, au pont de
+							<lb/><placeName>Marze</placeName>, en <placeName ref="loc011457.02">Verdilu</placeName> et <placeName ref="loc008500.03">Montcour</placeName>, ou
+								<lb/>il avoit joué au cartes avec son <term ref="lem019555.05">maistre</term>, le
+							<lb/>quel fourniset l’argent, qui estoit tout bleu, le quel
+							<lb/>se trovant par a<subst><del>l</del><add place="overwritten">p</add></subst>rés estant esvanoui <del>se trouvait</del>
+							<lb/><term ref="lem018302.09">feullies</term> de <term ref="lem016908.09">chaine</term>.</seg> <seg>Et dit avoier veu en
+							<lb/><placeName>Marze</placeName> danser avec le <term ref="lem015433.10">maling</term> la <persName ref="per020499b">Mayorda</persName>&#160;;
+							<lb/>en <placeName ref="loc008500.03">Montcour</placeName> <persName ref="per020510a.02">la <subst><del>m</del><add place="overwritten">g</add></subst>rande Jasne</persName> et la <persName ref="per020522a">Spilmande</persName>
+							<lb/>ou le <term ref="lem015433.10">maling</term> et luy les dansoint&#160;; de mesme
+							<lb/><persName ref="per020304a.02">Ageta</persName> en <placeName ref="loc011457.02">Verdilu</placeName>, et <persName ref="per020299a">Mathia</persName> en pont des <placeName>Marze</placeName>
+							<lb/>et en <placeName ref="loc011457.02">Verdilu</placeName>, en quel dernier lieux avoier
+							<lb/>il ast <date dur-iso="P5Y">cinq ans</date> veu discurir <persName ref="per020532a.01">Piccand</persName> avec
+								<lb/>son <term ref="lem019555.05">maistre</term> <persName ref="per029450a">Torzi</persName>&#160;; demandan<subst><del>d</del><add place="overwritten">t</add></subst> à Dieu
+							<lb/>et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> pardon la desus.</seg></p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1651-08-05">5<hi rend="sup">ten</hi> augsten
+							<lb/>1651</origDate> woll bereüwt
+							<lb/>mit dem <term ref="lem007052">schwert</term> hingericht
+							<lb/>volgendts in das <subst><del>füwr</del>
+							<lb/><add place="inline"><term ref="lem012936.07">feüwr</term></add></subst> geworffen
+							<lb/>und verzehrt worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 251.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

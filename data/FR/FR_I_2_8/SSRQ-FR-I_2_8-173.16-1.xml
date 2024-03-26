@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-173.16-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 54–55</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 54–55</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Brassa-Schmidt – Verhör</head>
+					<head xml:lang="fr">Margreth Brassa-Schmidt – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1661-05-12"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="54"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1661-05-12">12<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1661</origDate></p>
+						<p><lb/><persName ref="per006840a.01">Fleischman</persName><note>An Stelle des Grossweibels übernahm der Rathausammann <persName ref="per006840a">Andres Fleischmann</persName> den Vorsitz.</note>
+							<seg><lb/>Herr <persName ref="per026152a.01">Müller</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013470a.02">Mänlin</persName></seg>
+							<seg><lb/><persName ref="per006528a.05">Possard</persName></seg></p>
+						<p><seg><lb/><persName ref="per026661a.01">Margereth Schmidt</persName>, des <persName ref="per026660a">Brassas</persName> von <placeName ref="loc007626.03">Gyffers</placeName>
+							<lb/><add place="left margin">frauw</add>, auß dem <placeName ref="loc005882.03">Sibenthall</placeName> von <placeName ref="loc001335.04">Oberwyll</placeName> gebür<lb break="no"/>tig,
+							welche der <term ref="lem014672.06">hexeri</term> verdacht gefäng<lb break="no"/>lich
+							angehalten und <subst><del>den</del><add place="inline">uber</add></subst> den gäntz<lb break="no"/>lichen
+							inhalt der uffgenomnen infor<lb break="no"/>mation
+							durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gericht exami<lb break="no"/>niert.</seg> <seg>Sagt, wie sie von viellen <term ref="lem000130.36">khünderen</term>,
+							<lb/>so sie von ihrem eheman gehabt, 2 allein bey
+							<lb/>leben, <add place="above">und</add> wie sie ihres alters halb erfragt worden,
+							<lb/>hat sie angezeigt, <subst><del>w</del><add place="overwritten">s</add></subst>ie wisse es nicht. Unnd
+							<lb/>aber geduncke ihr, sie habe von anfang
+							<lb/>der welt gelebt. Ihr <term ref="lem018692.02">ehewirth</term> were
+							<lb/><date when="1660-12-31">verschinnen <abbr>St</abbr> Silvestertag</date> todts verblichen.</seg>
+							<seg><lb/><term ref="lem011468.03">Bekhendt</term>, das sie zwar gesagt habe, der
+							<pb n="55"/><lb/><persName>Petter Käpffer</persName> habe <term ref="lem016814">vermeldt</term>, das sie <subst><del>ihr</del><add place="above">sein</add></subst> <term ref="lem001076.33">khuo</term> <term ref="lem018557.03">male<lb break="no"/>ficiert</term>
+								hette, <subst><del><unclear>so</unclear></del><add place="above">desen</add></subst> aber sie nit <term ref="lem016680.03">kandtlich</term> sein wöllen.</seg>
+							<seg><lb/>Der <persName ref="per026640b">Schullera</persName> <term ref="lem000130.09">künder</term> hetten ihr <term ref="lem016814">vermeldt</term>, ihr
+							<lb/>mutter hette sie nit angeben. So were
+							<lb/>ein gemeine <term ref="lem005129.05">redt</term> im dorff <placeName ref="loc007626.03">Gyffers</placeName> ergangen,
+							<lb/>das die hingerichte <persName ref="per026640a">Spilmandin</persName> oder
+							<lb/><persName ref="per026640b">Schuollerin</persName> bey dem hievor vergohnten <foreign xml:lang="la">jubileo</foreign>
+							<lb/>oder <term ref="lem005858.02">ablas</term> gebeichtet und von der zeit hin
+							<lb/>den <term ref="lem017940.02">wuost</term>, <foreign xml:lang="la">id est</foreign>, den <term ref="lem014673.13">bößen feindt</term> nit gesehen
+							<lb/><add place="left margin">habe</add>. So hetten ihr sohn und tochter <subst><del>vermeldt</del><add place="inline">der</add></subst>
+							<lb/><persName ref="per026640a">Spilmandin</persName> <term ref="lem016814">vermeldt</term>, wie ihr der <term ref="lem014673.04">böß feindt</term>
+							<lb/>bey einem brunnen grien gekleidt erschinnen
+							<lb/>sye vor <date dur-iso="P3Y">3 jahren</date>.</seg> <seg>Im ubrigen will nicht anders
+							<lb/><term ref="lem011468.03">bekhenen</term>, sonders bittet gott und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice>
+							<lb/>umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

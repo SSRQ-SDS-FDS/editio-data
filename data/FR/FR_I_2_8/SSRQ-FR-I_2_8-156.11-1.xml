@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 230–233</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 230–233</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Vater / le père – Verhör</head>
+					<head xml:lang="fr">Pierre Ducli der Vater / le père – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-20"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="230"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-07-20">20<hi rend="sup">ten</hi> jully 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.03">Frantz Carle Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018141a.01">Burgki</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.<!--François Basset--></note></p>
+						<pb n="231"/><p><lb/><hi rend="outdent"><placeName ref="loc007690.06">Spittall</placeName></hi>, <foreign xml:lang="la">eadem die, præsentibus prædictis</foreign></p>
+						<p><seg><lb/><add place="left margin">Estant par <choice><abbr>m</abbr><expan>messieurs</expan></choice> du droict</add> <persName ref="per020477a.01">Pierre Ducly</persName> <add place="above">examiné</add>, ast <term ref="lem015549.07">confessé</term> que, voulant diverses foys aller <subst><del>en</del><add place="overwritten">à</add></subst>
+							<lb/>l’eglise, il fust detenu par une certaine voix, qui luy disoit
+							<lb/>à l’oreille, pourquoy il vouloit aller en l’eglise, puisqu’il
+							<lb/>estoit damné à tout’eternité. Le mesme jour qu’il ast
+							<lb/>brulé à <placeName ref="loc008073.01">Matran</placeName>, le diable luy commanda sans cesse dans
+							<lb/>l’oreille, dernier sa maison, environ <time when="12:00:00">mydi</time>, qu’il <term ref="lem019531.07">embrasat</term>
+							<lb/>sa maison, estant par après, come dans des espines pour exce<lb break="no"/>cuter son dessein, il ast mis le <term ref="lem014953.01">feu</term>, sans s’en avoir pu
+							<lb/>retirer.</seg> <seg>Aujourd’hui, lors qu’il se faisoit jour, ast eu
+							<lb/>grandement peur du bruict, qu’il ast entendu dans la
+							<lb/>prison. Plus ast il dict qu’il luy falloit souvent sor<lb break="no"/>tir la nuict du lid et aller au large. Un aultre foys
+							<lb/><subst><del>estant</del><add place="above">sortant</add></subst> un peu enviné de la ville, et passant entre jour et
+							<lb/>nuict par le chemin de <placeName ref="loc008500.05">Moncourt</placeName>, y vist tout à coup,
+							<lb/>et hors du chemin, un homme, viellard, avec un <term ref="lem018526.03">haut
+							<lb/>de chause</term> vert, pourpoint et chapeau noir, <subst><del>et</del><add place="inline">effro<lb break="no"/>yable</add></subst>, luy disant&#160;: <q>&#160;Ou va tu&#160;?&#160;</q> Surquoy ledit <persName ref="per020477a">Pierre</persName>
+						<pb n="232"/><lb/>respondant, <add place="above">luy dit&#160;:</add> <q>&#160;J’ay prins <del>dit il</del> un peu de vin et (devoyé)
+							<lb/>m’en retourne en bon chemin.&#160;</q> Surquoy, ayant faict
+							<lb/>le signe de la croix, il disparut <term ref="lem015622">incontinent</term>, faisant un bruit
+							<lb/>comme s’il rompoit tous les <subst><del>buis</del><add place="inline">buissons</add></subst>. Ce point icy ast
+							<lb/>esté recognu par ledit <subst><del><persName>Piere</persName></del><add place="overwritten">prisonier</add></subst>, comme il est icy specifié,
+							<lb/>lors qu<subst><del>’il</del><add place="overwritten">e</add></subst> <subst><del>r’entra par</del><add place="inline">voluntairement il r’entra</add></subst>
+							<lb/>par devant lesdits <choice><abbr>seigrs</abbr><expan>seigneurs</expan></choice> dans la chambre, de laquelle il
+							<lb/>estoit desja par leur commandement sorti, ayant pre<lb break="no"/>mierement <term ref="lem015549.07">confessé</term> que venant, il y ast <date dur-iso="P6M">demy an</date>, entre
+							<lb/>jour et nuict, du marché de <placeName ref="loc001060.04">Frybourg</placeName>, et chantant
+							<lb/>en passant par le chemin de <placeName ref="loc008500.05">Moncourt</placeName>, il <subst><del>entendit
+							<lb/>une voix</del><add place="above">vist un home</add></subst>, dernier une haye, <add place="left margin" type="sign">qui avec une voix</add> ressemblante à celle
+							<lb/>de <persName>Pierre Bulliard</persName> dudit <placeName ref="loc008073.04">Mattran</placeName>, <subst><del>laquelle</del><add place="inline">luy</add></subst>
+							<lb/>disoit&#160;: <q>&#160;Tu chante bien.&#160;</q> Ce mesme home estoit
+								<lb/>semblable à celuy que ledit <persName ref="per020477a.01">Pierre Ducly</persName> trouva
+								<lb/>en cherchant la <term ref="lem017507.01">vache</term> sur la montagne, hors que
+							<lb/><subst><del>celuy icy</del><add place="above">il</add></subst> estoit plus petit, plus jeusne et ressemblant
+								<lb/>à un <term ref="lem015172">pasteur</term>, car lors qu’il cherchoit ladicte <term ref="lem017507.01">vache</term>,
+							<lb/>il trouva un homme noir, avec un chappeau noir,
+							<lb/>chaussons blancs, visage et pied d’home, jeusne
+								<lb/>et semblable à un <term ref="lem015172">pasteur</term>, auquel il dit, s’il n’avoit
+								<lb/>point vu sa <term ref="lem017507.01">vache</term>. Surquoy ledit home la luy fist
+							<lb/>trouver estant dernier un buisson.</seg> <seg>Davantage
+							<lb/>ast il dict, qu’il devoit estre à toute eternité
+							<lb/>damné, car domp <persName>Claude</persName>, le curé, l’avoit <del>preché</del>
+								<lb/>preché. Et interrogé s’il n’estoit point <term ref="lem018895.02">marqué</term>
+								<lb/>du <term ref="lem017521">diable</term>, repliqua qu’il ne le sçavoit pas, mais
+							<lb/>qu’il avoit bien mal depuis quelque temps dans
+							<lb/>un <del>oeil</del> oeil. Il ast aussi <term ref="lem015549.07">confessé</term> <subst><del>qu’</del><add place="inline">d’avoir</add></subst>
+							<lb/>par le passé faict un serment, sans sçavoir qu’il
+							<lb/>l’eust fait faux.</seg> <seg>Finalement, <persName>Jacob Borra</persName>,
+						<pb n="233"/><lb/>officier, ast declaré que, le ramenant dans la prison, <subst><del>il</del><add place="overwritten">que</add></subst> ledit
+							<lb/>detenu <del>ait</del> luy ast dict que cest home, qu’il ast vu dans le
+								<lb/>chemin de <placeName ref="loc008500.05">Moncourt</placeName>, luy dit qu’il estoit le <term ref="lem017521">diable</term>. Oultre quoy,
+								<lb/>ne veut estre <term ref="lem015549.03">confessant</term> d’aulcun aultre faict, demandant à Dieu
+							<lb/>et à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

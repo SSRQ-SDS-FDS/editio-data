@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-123.23-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 322–323</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 322–323</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Schueller, die Kleine, Anni Schueller, die Grosse, Elsy Schueller – Verhör</head>
+					<head xml:lang="fr">Anni Schueller, die Kleine, Anni Schueller, die Grosse, Elsy Schueller – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="la"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-08-30"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="322"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-08-30">30<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Tornier</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/>Weybell</seg></p>
+						<p><seg><lb/><persName ref="per017041a.01">Klein Anni Schuller</persName>, die jüngste tochter der hingerichten <persName ref="per006147b">Tietrinna</persName>,
+						<lb/>als sie abermahlen examiniert unndt mit dem <term ref="lem018237.02">zendtner</term>,
+						<lb/>daran sie gebunden worden, <term ref="lem004933.05">getreüwet</term> ward, hatt nichts
+							<lb/><term ref="lem011468.04">bekhennen</term> wollen unndt weinend <term ref="lem016814">vermeldt</term>, sy sie der <term ref="lem014672.10">häxery</term>
+						<lb/>unschuldig. Unndt wan ihre mutter sie villeüchten angeben hätte, so
+						<lb/>habe dieselbe ihren grob <subst><del>unnd</del><add place="inline">unrecht</add></subst> gethan. Werde sich
+						<lb/>niehmahlen befinden, daß sie jehmandt was leydts ge<lb break="no"/>than noch etwaß derglychen begangen habe.</seg> <seg>Erfragt,
+							<lb/>ob sie nit wüße, waß der la<subst><del>ü</del><add place="overwritten">n</add></subst>ge<del>r</del><note>Le greffier a aussi biffé les trémas qu’il avait tracés au-dessus du n, qui avait ainsi, d’abord, valeur de u.</note> schwartze<del>r</del> schatten, so
+							<lb/>sie mit ihrer mutter im <placeName ref="loc012659.04">Buchwaldt</placeName> redend gesehen, geweßen
+						<lb/>sey unndt derselb bedüttet hab? Hatt geandtworttet, sie
+							<lb/>wisse darvon nichts. Unndt glychwohlen sie etwas der<lb break="no"/>glychen gesehen zu haben <term ref="lem011468.03">bekhendt</term> hatt, sye es doch nit
+						<pb n="323"/><lb/>wahr, sie habe ihren selbs unrecht gethan. Inmassen sie es aller<lb break="no"/>dingen gelaügnet unndt beständig <term ref="lem015124">erhalten</term>, <subst><del>sich</del><add place="above">sie habe</add></subst> sich in derglychen
+						<lb/>sachen, darumb sie erfragt wirdt, niehmahlen <term ref="lem015245">vergriffen</term>. Auch
+							<lb/>mit niehmandt (glychwohl sie offt unndt <term ref="lem001483.06">dickh</term> <term ref="lem017357">ersucht</term> undt
+						<lb/>von vihlen angelangt worden) <term ref="lem000668">unzucht</term> getriben, sonders
+						<lb/>jederwylen müglichesten fleißes sich ehrlich verhalten. Gott
+							<lb/>unndt syn reine mutter <persName ref="per000169a.08">Mariae</persName> bittendt, sie wöllend ihren uß
+						<lb/>diser noth gnädig verhelffen unndt beystähn. Bittet umb
+						<lb/><term ref="lem004684.08">verzüchung</term>.</seg> </p>
+						<p><lb/><placeName ref="loc008105">Keller</placeName>, <foreign xml:lang="la">eadem die et praesentibus dominis ut
+						<lb/>supra et domino <persName ref="per012380a.04">Jodoco Python</persName></foreign></p>
+						<p><lb/><persName ref="per011903a.01">Anni Schuller, die <term ref="lem018876">gehörloße</term></persName>, übelredende unndt halbyn<lb break="no"/>fälltige dißer töchteren, auch über alle artickhell des <term ref="lem003708">examens</term>
+							<lb/>wyttläuffiglich examiniert, hatt nichts <term ref="lem011468.04">bekhennen</term> wöllen, sonders
+							<lb/>gebetten, man solle sie <term ref="lem009657">ledigen</term> unndt heim schickhen.</p>
+						<p><lb/><persName ref="per017043a.01">Elsy Schuller</persName>, die älteste, auch ebenmässig erfragt, will nichts
+							<lb/><term ref="lem011468.04">bekhennen</term>. Anzeigend, sie hätte nit vermeint, das ihre mutter ein
+							<lb/>solche frauw gewesen wäre. Dieselbe hab ihnnen ein grossen
+							<lb/>schandtfleckhen angethan. Bittet umb gnad.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

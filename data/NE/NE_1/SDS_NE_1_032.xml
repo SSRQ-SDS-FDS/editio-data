@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-32-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Sagne</repository>
+                  <idno xml:lang="fr">Archives de la Sagne, Parchemin No 6</idno>
+               </msIdentifier>
+               <head>Accord passé entre Jean d'Aarberg, seigneur de Valangin et les habitants de la Sagne
+                  définissant la condition juridique des terres défrichées par ces derniers</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">
+                        <origDate when="1440-12-10"/>
+                        <origPlace ref="loc005950">Valangin</origPlace>
+                     </filiation>
+                     <filiation type="current">Copie</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="30"/>
+                              <width unit="cm" quantity="17.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1505-07-07"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_86">SDS NE 1, N<hi rend="sup">o</hi>&#160;32</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000249"></term>
+               <term ref="key005822"></term>
+               <term ref="key000468"></term>
+               <term ref="key006365"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb  n="r" facs="SAGNE_Parchemin_6_1r"/>
+               <div>
+                  <p><lb/>Nous <persName ref="per036807a.01">Jehan, conte d’Arberg</persName>,
+                     seigneur de <placeName ref="loc005950.08">Valengin</placeName>, faisons savoir
+                     a tous ceulx quilz verront et orront ces <lb/>presentes lectres que nous avons
+                     accorder avec les habitants de <placeName ref="loc007789.02">la
+                        Saigne</placeName>, c’est assavoir de tout ce que lesdits <lb/>habitans se
+                     pourroient estre recrut en bois ou en cerniz et lesquels ilz ne auroient
+                     recongnuz <lb/>ou repris de nous en la maniere que s’ensuit, c’est assavoir que
+                     nous debvons faire perchoier les heritaiges <lb/>desdits habitans quant ilz
+                     nous plait et quant nous les auront fait perchoier, ilz seront tenuz de les
+                     <lb/>recongnoistres en noz ententes, chascune faulx pour quatre deniers, c’est
+                     assavoir de ce que se <lb/>troveroit oultre ce que se troveroit en noz ententes
+                     sans ce que nous puissions dire ou <lb/>alleguer que lesdites possessions nous
+                     soient point escheutes, mais icelles possessions nous leurs <lb/>havons remis
+                     et remectons par ces presentes, saul et reserver nostredit cense, ensemble noz
+                     anciens <lb/>droits et coustumes, pourvehuz aussy que ce quil se trouveroit
+                     quilz se accroistroient puis la <lb/>date des presentes em avant, qu’ilz soient
+                     toujours tenuz de les reprendre et recongnoistre de nous <lb/>ou des nostres
+                     par tel condicion aussy que quant nous auront perchoier lesdits heritaiges et
+                     recongnuz <lb/>en nos ententes, ilz seront tenuz de nous rendre ceste presente.
+                     Et cestuy present accord nous avons <lb/>fait parmy <measure>quatres cens et
+                        quatre vingts florins d’or </measure>et <measure>vingt florins d’or
+                     </measure>qu’ilz ont donnez <lb/>a nostre femme pour ses espingles, tant pour
+                     ledit accord que pour l’aide de nostre seigneur. En tesmoignz <lb/>desquelles
+                     chouses, nous avons fait mectre nostre propre sel en ces presentes que furent
+                     <lb/>faictes et données <date when="1440-12-10">le dixiesme jour du mois de
+                        decembre, l’an mil quatre cens et quarante</date>. <gap reason="missing"
+                     /></p>
+                  <lb/>
+                  <pb n="v" facs="SAGNE_Parchemin_6_1v"/>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Copie sur parchemin du 7&#160;juillet&#160;1505, <hi rend="italic">Archives de la
+                        Sagne</hi>, parchemi,n N<hi rend="sup">o</hi>&#160;6.</p><p><hi rend="italic">Mention</hi>&#160;: Boyve, <hi rend="italic">Annales</hi>, I, p.&#160;494.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

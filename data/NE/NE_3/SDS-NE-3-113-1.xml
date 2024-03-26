@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-113-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.006, p. 633−634</idno>
+     </msIdentifier>
+     <head>Rachat de biens mis en taxe</head>
+     <msContents>
+      <summary>Demande renvoyée en justice pour savoir si un individu peut racheter certains de ses terrains
+       mis en taxe ou s’il doit procéder au rachat complet.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1633-08-26" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005095"></term>
+     <term ref="key000376"></term>
+     <term ref="key005128"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="633" facs="AVN_B_101.01.01.006_0633"/> 
+     <div>
+      <head>
+       <lb/>Conseil du <origDate when="1633-08-18" calendar="Julian">18 aoust 1633</origDate>, <orgName ref="org003085">messieurs les 24</orgName>
+       <lb/>presidan le <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>sieur</expan></choice> <choice><abbr>mre</abbr><expan>maitre</expan></choice> <choice><sic>bourgois</sic><corr>bourgeois</corr></choice> <persName ref="per010437">Jonas Bourgois</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <div>
+      <add place="left margin"><persName ref="per011720">Pierre Goura</persName></add>
+      <p>
+       <lb/><persName ref="per011720">Pierre Goura</persName> de <placeName ref="loc010221.02"
+        >Serrieres</placeName> a demandé le poinct de coutume <lb/>savoir sy une <term
+        ref="lem014995.02">taxe</term> de diverses pieces en voullant faire <lb/><term
+        ref="lem015637.03">rehemption</term>&#160;: <choice>
+        <sic>syl</sic>
+        <corr>s’il</corr>
+       </choice> fault que celluy qui veult <del rend="strikethrough"><gap reason="illegible"
+         unit="character" quantity="4"/></del>
+       <term ref="lem015032.04">rambre</term> <pb n="634" facs="AVN_B_101.01.01.006_0634"/>
+       <lb/>sa piece particulliere le peult faire ou s’il fault qu’il <lb/>soit tenu de <term
+        ref="lem015032.04">rambre</term> le <term ref="lem015071.02">toutage</term>.</p>
+      <p>
+       <lb/>Pour ce faict renvoyé en justice pour liquider <lb/>telle difficulté.</p>
+      </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

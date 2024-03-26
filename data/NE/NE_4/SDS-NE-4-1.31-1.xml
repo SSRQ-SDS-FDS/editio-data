@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.31-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 113–114</idno>
+     </msIdentifier>
+     <head>Legs</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000242"/>
+     <term ref="key000635"></term>
+     <term ref="key000815"></term>
+     <term ref="key004770"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="113" facs="AEN_MJ_17_112_113"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chappe</abbr>
+        <expan>Chappitre</expan>
+       </choice> XXXI. <lb/>Des <term ref="lem015623.02">legats</term>.</head>
+      <p>
+       <lb/>Un <term ref="lem015623.03">legat</term> est une chose <lb/>particuliere qui est donnée &amp; leguée
+       <lb/>par testament et ordonnance de <lb/>derniere volonté, que l’heritier est tenu
+       <lb/>accomplir &amp; payer.</p>
+      <p>
+       <lb/>Le testateur peut leguer ce qui <lb/>est obligé et hypothequé, <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> l’heritier <lb/>est tenu desgager, et en payer la valeur <lb/>au legataire, ou bien
+       en demeurer <lb/><app>
+        <lem><term ref="lem019313.03">guerent</term></lem>
+        <rdg wit="AVN Q41, p. 44"><term ref="lem019313.02">guerant</term></rdg>
+       </app>.  <lb/><add place="below" type="catchword">Sy</add>
+      </p>
+     <pb n="114" facs="AEN_MJ_17_114_115"/>
+      <p>
+       <lb/>Sy au temps que l’on fait un <term ref="lem015623.03">legat</term>
+       <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 45">qu’il</rdg>
+       </app> est escript et donné il n’estoit vivant, <lb/>cela doit estre tenu pour non escript,
+       <lb/>et revient a l’heritier institué.</p>
+      <p>
+       <lb/>Personne ne peut accepter <lb/>partie d’un mesme <term ref="lem015623.03">legat</term>,
+       <lb/>&amp; renoncer a l’autre partie.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

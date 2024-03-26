@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-03-20"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-28.1-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 10, S. 83–84</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 10, p. 83–84</idno>
+					</msIdentifier>
+					<head xml:lang="de">François Blanchet – Verhör</head>
+					<head xml:lang="fr">François Blanchet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1608-05-28">28 <foreign xml:lang="la">maii</foreign> 1608</origDate>
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="83"/><p><lb/>Im <placeName ref="loc007594">Rosey</placeName>, <origDate when="1608-05-28">28 <foreign xml:lang="la">maii</foreign> 1608</origDate></p>
+						<p><seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009113">Franz Schröter</persName>.</note></seg>
+							<seg><lb/><foreign xml:lang="la">Presentibus</foreign> <abbr>h</abbr> <persName ref="per009114a.03">Reyff</persName>, <persName ref="per009125a.02"><choice><abbr>Mont</abbr><expan>Montenach</expan></choice></persName> </seg>
+							<seg><lb/><persName ref="per009108">Alt</persName>, <persName ref="per009117">Pithung</persName>, <persName ref="per009123a.02">Werly</persName></seg>
+							<seg><lb/><persName ref="per009207a.01">Perroman</persName>, <persName ref="per009122">Mäß</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+						<pb n="84"/><p><lb/> <foreign xml:lang="la">Ibidem presentibus et die ut supra</foreign><note>Das Verhör fand im <placeName ref="loc007594">Rosey</placeName> statt.</note></p>
+						<p><seg><lb/><add place="left margin">Hatt nüt bezalt.</add></seg>
+					<seg><persName ref="per009109a.01">Franceois Blanchet</persName> de <placeName ref="loc008012">Combremont le Grand</placeName> dit n’avoir
+						<lb/>fait mal a persone que ce soit, toutesfois que par faulx tes<lb break="no"/>moignage de quelques persones il aye souffert la <term ref="lem019428.01">torture</term>
+						<lb/>et <term ref="lem018305.02">droit imperial</term>, aussy accepté par aprés le serement
+						<lb/>des terres de messeigneurs. Et nonobstant ledit serement,
+						<lb/>s’est transpourté en ceste ville pour accomplir son vo<lb break="no"/>yage et devotion par luy prinse, quant aux prieres
+						<lb/>qu’il a cy devant et encour dites, il veult soustenir estre
+						<lb/><choice><abbr>boes</abbr><expan>bonnes</expan></choice> oraisons. Et n’est <term ref="lem019442.09">deneguant</term> avoir jetté de
+						<lb/>l’argent sur la <term ref="lem017721.02">charriere</term>, ce qu’il fist par mal advis
+						<lb/>et courroux, disant que ceux <subst><del>qu’il ny</del><add place="inline">qui luy</add></subst> fairoient
+						<lb/>tort, il deussent comparoir a la <placeName ref="loc008697.02">val de Josaphat</placeName><note>Vermutlich wird ein Bezug zur Bibel hergestellt, vgl. Joel 3.2, 4.2: <quote>will alle Heiden zusammenbringen und will sie in das Tal Josaphat hinabführen</quote>. Blanchet hat die Freiburger Obrigkeit somit indirekt als Heiden bezeichnet.</note>.</seg> <seg>Tou<lb break="no"/>tesfois, si tost qu’on luy aura refraichi<del>r</del> son passeport,
+						<lb/>il quitera volontairement le pais et terres de
+						<lb/><choice><abbr>messeig</abbr><expan>messeigneurs</expan></choice> a perpertuité.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

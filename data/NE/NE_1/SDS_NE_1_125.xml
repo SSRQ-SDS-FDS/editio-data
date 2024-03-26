@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-125-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-E1.1</idno>
+               </msIdentifier>
+               <head>Ordonnance de Marie de Bourbon sur diverses matières d'administration</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Cahier</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="52.8"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1588-02-06"/>
+                     <origPlace ref="loc010601">Paris</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_280">SDS NE 1, N<hi rend="sup">o</hi>&#160;125</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004489"></term>
+               <term ref="key004056"></term>
+               <term ref="key004428"></term>
+               <term ref="key005032"></term>
+               <term ref="key000273"></term>
+               <term ref="key003291"></term>
+             </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_E1_1_1r"/>
+               <div>
+                  <head type="title"> <lb/>La duchesse de Longueville et de Touteville  <lb/>contesse souveraine de
+                     Neufchastel et seigneurie de Valengin<note>Les divers points de cette
+                        ordonnance illustrent bien le redressement du pouvoir souverain sous Marie
+                        de Bourbon. Une étude consacrée à ce règne manque malheureusement et il faut
+                        se contenter des remarques de Chambrier dans son <hi rend="italic">Histoire de Neuchâtel
+                           et Valangin</hi>, au pages&#160;364-374.</note></head>
+                  <head type="subtitle">
+                     <add place="left margin"><lb/>N 1. <lb/>Article qui concerne <lb/>la fabrication de <lb/>la
+                        nouvelle monnoÿe.</add></head> 
+                     <p><lb/>Estant advertie que nonobstant que ledict comté soit
+                     assis dans <lb/>le climat des Ligues de Suisse, que pour ce regard ses
+                     prédécesseurs comtes <choice>
+                        <abbr>dud<hi rend="sup">t</hi></abbr>
+                        <expan>dudict</expan>
+                     </choice> Neufchastel et <lb/>elle ayent dressé, maintenu et observé alliance et
+                     combourgeoisie perpetuelle avec les cantons de <lb/>Berne, Lucerne, Fribourg et
+                     Solleure, et que ses bourgeois et subjectz tant de la ville que reste <lb/><choice>
+                        <abbr>dud<hi rend="sup">t</hi></abbr>
+                        <expan>dudict</expan>
+                     </choice> comté de Neufchastel et seigneurie de Valengin, ont leur principal
+                     commerce et conversation <lb/>avec les peuples <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> cantons, speciallement de Berne, Fribourg et Solleure avec lesquels
+                     ilz <lb/>confinent et comfrontent. Ce neantmoings qu’il ne se voit n’y reçoit <choice>
+                        <abbr>aud<hi rend="sup">r</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> comté et <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de <lb/>Vallengin que monnoies de Savoye, Genesve, Besanson,
+                     Montbelliard et aultres qu’ilz appellent <lb/>monnoies vielles&#160;; lesquelles
+                     n’aians cours en France ny parmy <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictz</expan>
+                     </choice> cantons. Son Excellence <lb/>et <choice>
+                        <abbr>sesd</abbr>
+                        <expan>sesdictz</expan>
+                     </choice> bourgeois et subjectz en reçoivent notable perte pour le
+                     convertissement et sur achapt <lb/>qu’il leur fault faire des escus, francs,
+                     tallers, testons et aultres especes ayans cours en France <lb/>et <choice>
+                        <abbr>esd</abbr>
+                        <expan>edictz</expan>
+                     </choice> cantons dont la perte et interest augmente d’année en aultre. A quoy
+                     voullant <lb/>pourvoir a ordonné et ordonne, veult et entend qu’il soit dressé
+                     et battu en <choice>
+                        <abbr>sond</abbr>
+                        <expan>sondict</expan>
+                     </choice> comté de <lb/>Neufchastel monnoie de testons, batz, demy batz,
+                     krutzers, demis, quartz et octaves des <lb/>krutzers qu’ilz appellent deniers.
+                     Au mesme pied, loy, poix, valleur et bonté que celles qui <lb/>se battent en
+                     chacun <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> cantons de Berne, Fribourg et Soleure&#160;: dont les coings
+                     seront <lb/>faictz sur les portraictz qui seront envoiées à son gouverneur <choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> comté qui en communicquera <lb/>et accordera les essays avec les <choice>
+                        <abbr>srs</abbr>
+                        <expan>seigneurs</expan>
+                     </choice>
+                     <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> cantons&#160;; ausquelz Son Excellence escrira et priera
+                     de <lb/>donner cours à <choice>
+                        <abbr>sesd</abbr>
+                        <expan>sesdictes</expan>
+                     </choice> monnoies parmy eulx et leurs peuples comme elle veult et entend que
+                     les <lb/>leurs et aultres a qui ilz donneront cours en <choice>
+                        <abbr>sonsd</abbr>
+                        <expan>sondict</expan>
+                     </choice> comté et <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de Vallengin pour tel pris qu’ilz leur donneront, et toutes aultres
+                     bannyes et interdictes. Et jusques a ce que <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladicte</expan>
+                     </choice> <lb/>fabrication de monnoie soit faicte, Son Excellence a agreable le
+                     choix, cry et descry, rabaiz et <lb/>diminution des especes <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> monnoies vielles arresté par Monsieur de Lyverdis au
+                     conseil <lb/>d’estat <choice>
+                        <abbr>dud<hi rend="sup">t</hi></abbr>
+                        <expan>dudict</expan>
+                     </choice> Neufchastel le dixneufiesme novembre dernier passé selon l’<choice>
+                        <sic>antien</sic>
+                        <corr>ancien</corr>
+                     </choice> calendrier <lb/>qui se debvoit publier le XXVI<hi rend="sup">e</hi>
+                     <choice>
+                        <abbr>dud<hi rend="sup">t</hi></abbr>
+                        <expan>dudict</expan>
+                     </choice> moys. Mais après <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladicte</expan>
+                     </choice> nouvelle fabrication faicte <lb/>veult et entend toutes lesdictes
+                     especes de monnoies vielles&#160;; et toutes aultres que celles <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> cantons, de France&#160;; et aultres a qui ilz donneront cours et
+                     pour le pris qui sera advisé <lb/>et selon qu’il se faict <choice>
+                        <abbr>esd</abbr>
+                        <expan>esdictz</expan>
+                     </choice> cantons.</p>
+                  <pb n="1v" facs="AEN_AS_E1_1_1v_2r"/> 
+                  <head type="subtitle"><add place="left margin">2. Madame ordonne de <lb/><choice>
+                           <abbr>f</abbr>
+                           <expan>faire</expan>
+                        </choice> renouveller les <lb/><choice>
+                           <abbr>recogn<hi rend="sup">ces</hi></abbr>
+                           <expan>recongnoissances</expan>
+                        </choice> tant riere le <lb/>conté <choice>
+                           <abbr>q</abbr>
+                           <expan>que</expan>
+                        </choice> seigneurie de <lb/>Vallangin et de luy <lb/>donner advis des
+                        personnes <lb/>capables a l’exercisse <lb/>de telle charge <choice>
+                           <abbr>p<hi rend="sup">or</hi></abbr>
+                           <expan>pour</expan>
+                        </choice> leur <lb/>en <choice>
+                           <abbr>f</abbr>
+                           <expan>faire</expan>
+                        </choice> dresser leurs <lb/>provisions.</add></head>
+                  <p><lb/>Madicte Dame estant aussi
+                     advertie que a cause du longtemps que les recongnoissances <lb/>n’ont esté
+                     renouvellées en aucunes chastellenies et <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneuries</expan>
+                     </choice> de <choice>
+                        <abbr>sonsd</abbr>
+                        <expan>sondict</expan>
+                     </choice> comté de Neufchastel <lb/>et speciallement en la <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de Vallengin <choice>
+                        <abbr>plus<hi rend="sup">rs</hi></abbr>
+                        <expan>plusieurs</expan>
+                     </choice>
+                     <add place="above">droits</add> demeurent esgarez et insolus, et
+                     desirant <lb/>esclaircir et conserver le bien de Messeigneurs ses enffans pour
+                     le leur rendre le plus <lb/>clair que faire se pourra, veult ordonner et entend
+                     qui soit proceddé au <choice>
+                        <abbr>renouvellem<hi rend="sup">t</hi></abbr>
+                        <expan>renouvellement</expan>
+                     </choice> <lb/><choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> reconnoissances et terriers en toutes <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> chastellenies, <choice>
+                        <abbr>s<hi rend="sup">ries</hi></abbr>
+                        <expan>seigneuries</expan>
+                     </choice> et majories tant <lb/><choice>
+                        <abbr>dud<hi rend="sup">t</hi></abbr>
+                        <expan>dudict</expan>
+                     </choice> comté de Neufchastel que <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de Vallengin ou elles n’ont esté faictes ny renouvellées <lb/>depuis
+                     trente ans en ça&#160;; et qu’il y soit proceddé en la plus grande dilligence
+                     que <choice>
+                        <abbr>f<hi rend="sup">e</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> se <lb/>pourra, et que a ceste fin les gouverneur et gens du conseil
+                     d’estat <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> Neufchastel <lb/>ayent a luy envoier ung roolle des lieulx ou il sera
+                     plus expediant de commencer <lb/>et des personnes qu’ilz estimeront plus propres
+                     pour y besongner affin de leur <choice>
+                        <abbr>f<hi rend="sup">e</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> <lb/>despescher les <choice>
+                        <abbr>lres</abbr>
+                        <expan>lettres</expan>
+                     </choice> et provisions qui seront necessaires.</p>
+                  <head type="subtitle"><lb/><add place="left margin">3. Que les commissaires <lb/>deputez au <choice>
+                           <abbr>renouvellm</abbr>
+                           <expan>renouvellement</expan>
+                        </choice> <lb/>des <choice>
+                           <abbr>recong<hi rend="sup">ces</hi></abbr>
+                           <expan>recongnoissances</expan>
+                        </choice> imposent <lb/>sur chascune piece sa <lb/>cense.</add></head>
+                    <p> <lb/>Sur le propos
+                     desquelles recongnoissances voullant Son Excellence obvier aux altercations
+                     et <lb/>differends qui en adviennent par la mort ou mutation des proprietaires
+                     et aux fraiz en quoy <lb/>les bourgeois et subjectz sont constituez a faire et
+                     refaire souvent les esgances, veult et <lb/>ordonne que procedant par les
+                     commissaires au renouvellement <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> reconnoissances ilz <lb/>departent et assignent a chacune maison,
+                     journée et pose de vignes, prez, champs, joux <lb/>et bois telle part et portion
+                     que chacune maison, journée et pose debvra porter de cense <lb/>soit en argent,
+                     bled ou vin. Et qu’en cas d’allienation par vente ou <choice>
+                        <abbr>engaigem<hi rend="sup">t</hi></abbr>
+                        <expan>engaigement</expan>
+                     </choice> les notaires <lb/>aient à speciffier le nombre des journées ou hommes
+                     de vignes et poses de prez, champs, <lb/>joux ou bois, et ce que chacune journée
+                     ou homme de vignes et pose des aultres devra <lb/>de cense et redevance, soit en
+                     argent, bled, vin ou aultre denrée par chacun an. Et que tous <lb/>les notaires <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté soient advertis de ce <choice>
+                        <abbr>f<hi rend="sup">e</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> à l’advenir a peyne d’estre interdictz <lb/>de l’exercice de leurs
+                     charges.</p>
+                  <head type="subtitle"><lb/><add place="left margin">4. Madame veult que quant les recongnoissances
+                        seront parachevées en ung lieu, soit chastelanie, majorie ou seigneurie, que
+                        l’on mesure le general soit de vignes, prez, champs et a chacun particulier
+                        le nombre de ses terres recongneues et le reste reuny a son domeyne.</add>
+                     </head> <p><lb/>Et
+                     estant <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> recongnoissances faictes et parachevées en une seigneurie, majorie
+                     ou <lb/>contrées d’icelles, veult Madicte Dame qu’il soit faict ung mesuré
+                     general de toute la <lb/>contrée, soit de vignes, prez, champs, joux ou
+                     bois&#160;; et a chacun <choice>
+                        <abbr>pa<hi rend="sup">er</hi></abbr>
+                        <expan>particulier</expan>
+                     </choice> assigne et borne <lb/>le nombre des journées ou hommes de vigne, et
+                     poses de prez, terres, joux et bois qu’ilz <lb/>auront recongneu et le reste mis
+                     en sa main et uny a son domaine. Si ne se presentent et <lb/>declarent
+                     proprietaires qui les pretendent et facent apparoir de leurs tiltres et les
+                     reconnoissent <lb/>aux charges qu’il apparoistra par les terriers <choice>
+                        <sic>antiens</sic>
+                        <corr>anciens</corr>
+                     </choice>.</p>
+                  <pb n="2r" facs="AEN_AS_E1_1_1v_2r"/>
+                  <head type="subtitle"><lb/><add place="left margin">5. <lb/><choice>
+                           <abbr>Maddame</abbr>
+                           <expan>Madicte Dame</expan>
+                        </choice> est <lb/>contente de supporter <lb/>les frais <choice>
+                           <abbr>desd</abbr>
+                           <expan>desdictz</expan></choice> <lb/>mesurages</add></head>
+                     <p><lb/>Estant <add place="above">la volonté de</add>Madicte Dame pour le soullagement de <choice>
+                        <abbr>sesd</abbr>
+                        <expan>sesdictz</expan>
+                     </choice> subjectz que <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictz</expan>
+                     </choice> mesurages se facent <lb/>a ses despens par gens expers et suffizans
+                     qui feront serment de s’en acquicter en toute fidellité <lb/>et en rendront
+                     leurs proces verbaulx signez et certiffiez par eulx pour y avoir recours
+                     en <lb/>temps et lieu.</p>
+                  <head type="subtitle"><lb/><add place="left margin">6. <lb/>Que les commissaires <lb/>deputez a <choice>
+                           <abbr>f</abbr>
+                           <expan>faire</expan>
+                        </choice> lesdictes <lb/>recongnoissances usent <lb/>de dilligence a
+                        peyne <lb/>d’y en deputer d’aultres.</add></head>
+                     <p><lb/>Comme elle veult et entend aussy
+                     que les commissaires qui seront depputez à faire <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> <lb/>reconnoissances ayent à y procedder en toute fidellité et
+                     diligence au plus grand <choice>
+                        <abbr>soullagem<hi>t</hi></abbr>
+                        <expan>soullagement</expan>
+                     </choice> <lb/>de ses subjectz que faire se pourra et que le rolle d’iceulx soit
+                     baillé au procureur general <lb/>de Son Excellence audict comté pour y tenir la
+                     main et rapporter a son conseil <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> Neufchastel <lb/>le debvoir ou negligence dont chacun <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> commissaires usera afin de les contraindre à faire <lb/>diligence et
+                     debvoir a peyne de y en depputter d’aultres.</p>
+                  <head type="subtitle"> <lb/><add place="left margin">7. <lb/>Madame ordonné qu’il <lb/>soit donné ung
+                        roole <lb/>a son procureur de <lb/>toutes les vignes que <lb/>l’on faict a
+                           moicteresse<note>Sur les baux à moiteresse, cf.&#160;Herold, <hi
+                              rend="italic">Rechtsverhältnisse</hi>, p.&#160;49-65 (<hi
+                              rend="italic">Die Halbpacht und andere
+                        Pachtverhältnisse</hi>).</note>, <lb/>tierce gierle et les <lb/>noms des
+                        vignerons <lb/>pour se donner garde <lb/>du labourage d’icelles <lb/>et le gage
+                        qu’elle luy <lb/>ordonne.</add></head>
+                     <p><lb/>Saichant Madicte Dame que partie du revenu <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté consiste en vignes dont les unes <lb/>sont tenues en sa main, et
+                     les aultres baillées a moictié et tiers gerle les preneurs desquelles <lb/>ont
+                     besoing d’estre sollicitez et veuillez souvent s’ilz en <del
+                        rend="strikethrough">debv</del> doivent <choice>
+                        <abbr>fe</abbr>
+                        <expan>faire</expan>
+                     </choice> leur debvoir, veult <lb/>et entend qu’il soit donné a <choice>
+                        <abbr>sonsd</abbr>
+                        <expan>sondict</expan>
+                     </choice> procureur general<note>Le procureur agit au nom du prince&#160;; il défend
+                        les droits et l’autorité de la princesse (AEN, «&#160;Audiences générales&#160;», VI,
+                        fol.&#160;9 et 46&#160;; textes de 1576 et 1579). Il a une <hi rend="italic">charge et
+                           comandement</hi>&#160;; il est le <hi rend="italic">représentant</hi> de la princesse
+                        (<hi rend="italic">ibidem</hi>, fol.&#160;119-120 ; anno&#160;1587).</note> un roolle de tous les
+                     hommes de vignes <lb/>estans du domaine <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté en chacune chastellenie et majorie et le nom de ceulx qui
+                     les <lb/>tiennent soit a façon, moitié, tierce gerle ou aultrement pour avoir
+                     l’oeil en chacune façon <lb/><choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> vignes qu’ilz s’en acquittent et facent leur debvoir de les façonner,
+                     fumer, cultiver <lb/>et provigner a temps et saison et en leur deffault et
+                     negligence le rapporter au gouverneur <lb/>et gens du conseil <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> Neufchastel pour les bailler a d’aultres. Et pour son sallaire et
+                     vaccation <lb/>luy ordonne Son Excellence le muid de bled qu’elle avoit cy
+                     devant accordé a ung nommé Jehan <lb/>Guillaume de Neufchastel qu’elle revocque
+                     pour s’en estre rendu indigne tant par ses mauvais <lb/>deportemens precedens
+                     que pour estre nouvellement marché en la guerre nonobstant les
+                     deffenses <lb/>faictes de la part de Son Excellence. Et deux muidz de vin, le
+                     tout a prendre chacun an <choice>
+                        <abbr>p</abbr>
+                        <expan>par</expan>
+                     </choice> les <lb/>mains du receveur des quatre majories de Neufchastel.</p>
+                  <head type="subtitle"><lb/><add place="left margin">8. <lb/>Madame ordonne de <lb/>prendre la cense
+                        d’argent <lb/>de la somme restante que <lb/>luy doibvent les <lb/>gouverneurs
+                        de la <lb/>Coste sans d’icelle <lb/>en achepter aultres <lb/>vignes que celles
+                        qui sont acheptées <lb/>de l’argent qu’ilz ont desja delivré
+                        en <lb/>desduction de ladicte somme principale.</add></head>
+                     <p><lb/>Et neantmoings pour
+                     estre le revenu <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> vignes incertain et de grande despense a faire venir <lb/>et
+                     recuillir, veult, ordonne et entend <choice>
+                        <abbr>mad</abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame que quant il en aura esté retiré et achapté <lb/>des quatre mil
+                     cinq cens escus que les quatre communes de la Coste doibvent fournir en
+                     vignes <lb/>ou cense d’argent au lieu de la disme de conscience qu’ilz
+                     soulloient cy devant paier a la recepte <lb/>du prieuré de Vautravers establie à
+                     Auvernier, pour aultant qu’il fault a fournir le <lb/>vin <lb/>ordonné chacun an
+                     aux officiers et ministres assignez sur <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladicte</expan>
+                     </choice> recepte qu’il n’en <pb n="2v" facs="AEN_AS_E1_1_2v_3r"/> soit plus
+                     achapté mais que les gouverneurs <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> communes demeurent chargez de paier <lb/>chacun an la cense de ce
+                     qu’ilz debvront encore de reste <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictz</expan>
+                     </choice> quatre mil cinq cens escus <lb/>au feur et termes portez par la <choice>
+                        <abbr>lre</abbr>
+                        <expan>lettre</expan>
+                     </choice> d’eschange et bail que leur en a faict Son Excellence.</p>
+                  <head type="subtitle"><lb/><add place="left margin">9. <lb/>Madame descharge <lb/>Monseigneur le baron
+                        de <lb/>Gorgier de la recepte du <lb/>vin et bled de la cave <lb/>d’Auvernier
+                        dependant <lb/>du domeyne du prieuré <lb/>du Vauxtravers et <lb/>en donne la
+                        charge <lb/>a Jehan Perrochet <lb/>maÿre de la Coste.</add></head>
+                     <p><lb/>Laquelle estant
+                     advertie que pour la longue distance qu’il y a <choice>
+                        <abbr>dud<hi rend="sup">t</hi></abbr>
+                        <expan>dudict</expan>
+                     </choice> Auvernier a Moustiers <lb/>au Vautravers ou est assis le principal
+                     manoir et recepte <choice>
+                        <abbr>dud<hi rend="sup">t</hi></abbr>
+                        <expan>dudict</expan>
+                     </choice> prieuré et le continuel soing <lb/>qu’il fault avoir <choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> Auvernier a cause que la plupart du revenu consiste en vignes,
+                     censes <lb/>et dismes de vin des <choice>
+                        <sic>antiens</sic>
+                        <corr>anciens</corr>
+                     </choice> prieurs et ceulx qui après le changement de religion ont manié <lb/><choice>
+                        <abbr>led<hi rend="sup">t</hi></abbr>
+                        <expan>ledict</expan>
+                     </choice> prieuré depputtoient ung receveur particullier <choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> Auvernier qui en rendoit compte a <lb/>part. Ce qui est plus requis a
+                           <corr><corr>apnt</corr><corr>présent</corr></corr> qu’il ne fut jamais a
+                     cause que le <corr><corr>s<hi rend="sup">r</hi></corr><corr>sieur</corr></corr>
+                     baron de Gorgier <lb/>qui a la charge de la recepte <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> prieuré est aussi pourveu de la chastellenie et recepte <lb/>de la
+                     baronnie <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> Vautravers ou il est assez occuppé avec ce qu’il est aussi
+                              <corr><abbr>lieuten<hi rend="sup"
+                        >t</hi></abbr><abbr>lieutenant</abbr></corr> <lb/>general au gouvernement et
+                     du conseil d’estat <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté. Pour ces causes
+                        <corr><abbr>mad</abbr><abbr>Madicte</abbr></corr> <lb/>Dame ne voullant rien
+                     negliger a faire valloir le bien de <choice>
+                        <abbr>mesd Seig<hi rend="sup">rs</hi></abbr>
+                        <expan>Mesdits Seigneurs</expan>
+                     </choice> ses enffans a <lb/>exclipsé de la recepte <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> prieuré de Vautravers tout ce qui estoit cy devant manié <lb/>et
+                     administré par ung receveur particullier estably <choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> Auvernier tant en vin, <lb/>bledz que toutes aultres denrées pour
+                     estre cy après manyé et receu par ung <choice>
+                        <abbr>re<hi rend="sup">r</hi></abbr>
+                        <expan>receveur</expan>
+                     </choice> <lb/>particullier qui y sera par elle estably ayant des a <choice>
+                        <abbr>pnt</abbr>
+                        <expan>présent</expan>
+                     </choice> nommé, choisy et esleu <choice>
+                        <abbr>aud</abbr>
+                        <expan>audict</expan>
+                     </choice> <lb/>estat <choice>
+                        <abbr>me</abbr>
+                        <expan>maistre</expan>
+                     </choice> Jehan Parrochel son maire au lieu de la Coste lequel comme resident
+                     sur les <lb/>lieulx et pour sa suffizance s’en pourra acquicter avec plus de
+                     commodité et toute <lb/>fidellité pour en rendre par luy compte ainsi que les
+                     aultres comtables <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté <lb/>aux mesmes gaiges et droictz tant <choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audit</expan>
+                     </choice>
+                     <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>sieur</expan>
+                     </choice> de Gorgier pour le reste de la recepte <lb/><choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> prieuré que <choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> Perrochel pour celle <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> Auvernier que soulloient avoir leurs <lb/>predecesseurs exerçans l<choice>
+                        <abbr>les<hi rend="sup">t</hi></abbr>
+                        <expan>lesdictes</expan>
+                     </choice> charges separement selon la <choice>
+                        <abbr>verifficaon</abbr>
+                        <expan>veriffication</expan>
+                     </choice> qui s’en fera <lb/>sur les comtes et baulx <choice>
+                        <sic>antiens</sic>
+                        <corr>anciens</corr>
+                     </choice>.</p>
+                  <head type="subtitle"><lb/><add place="left margin">10. <lb/>Madame ordonne <lb/>que tous
+                        receveurs <lb/>apportent registre du <lb/>nombre de gieles
+                        qu’ilz <lb/>recuilliront des vignes <lb/>qui sont soubz <choice>
+                           <abbr>leurd</abbr>
+                           <expan>leurdictes</expan>
+                        </choice> <lb/>receptes qui seront <lb/>certifiez par les charrotons <lb/>et
+                        randares qui auront recuilly <lb/>et charrié <choice>
+                           <abbr>lad</abbr>
+                           <expan>ladicte</expan>
+                        </choice> vendange en presence de l’officier <lb/>de chasque lieu ou de son <choice>
+                           <abbr>lieuten</abbr>
+                           <expan>lieutenant</expan>
+                        </choice> et signé <choice>
+                           <abbr>p</abbr>
+                           <expan>par</expan>
+                        </choice> le <choice>
+                           <abbr>secrete<hi rend="sup">r</hi></abbr>
+                           <expan>secretaire</expan>
+                        </choice> <lb/>de la justice <choice>
+                           <abbr>dud</abbr>
+                           <expan>dudict</expan>
+                        </choice> lieu.</add></head>
+                     <p><lb/>Et sur ce propos estant Madicte Dame advertie que es
+                     comptes qui ont esté rendus <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> <lb/>prieuré, <choice>
+                        <abbr>chappre</abbr>
+                        <expan>chappitre</expan>
+                     </choice>
+                     <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> Auvernier et de quelques <choice>
+                        <abbr>aus</abbr>
+                        <expan>aultres</expan>
+                     </choice> receptes <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté ne se faict <lb/>recepte du nombre de gerles provenues es vignes
+                     tenues en recepte ou baillées à <lb/>moictié ou tierce gerle. Mais pour toute
+                     veriffication de recepte se rapporte une legere <lb/>certiffication de <choice>
+                        <sic>quentité</sic>
+                        <corr>quantité</corr>
+                     </choice> du vin clair trouvé au proffict de la <choice><abbr>s<hi rend="sup"
+                              >rie</hi></abbr><expan>seigneurie</expan></choice>, veult et
+                     ordonne <lb/>que <choice>
+                        <abbr>esd</abbr>
+                        <expan>esdictes</expan>
+                     </choice> receptes aussi bien qu’en toutes les aultres <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté soit tenu <choice>
+                        <abbr>regi<hi rend="sup">e</hi></abbr>
+                        <expan>registre</expan>
+                     </choice>
+                      <pb n="3r" facs="AEN_AS_E1_1_2v_3r"/> du nombre <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> gerles mesurées a la rende de la <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> provenant tant des vignes a <lb/>moicteresse ou tierce gerles que
+                     dismes. Et que <choice>
+                        <abbr>p<hi rend="sup">or</hi></abbr>
+                        <expan>pour</expan>
+                     </choice> la veriffication de la recepte des <lb/>comptables ilz en rapportent
+                     certiffication faicte devant l’officier du lieu ou son lieutenant <lb/>par les
+                     cherrotons et rendaires qui les auront cueillies et charriées par leur
+                     serment <lb/>et signées du <choice>
+                        <abbr>scret<hi rend="sup">e</hi></abbr>
+                        <expan>secretaire</expan>
+                     </choice> de la chastellenie ou justice du lieu ou sont <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> receptes.</p>
+                  <head type="subtitle"><lb/><add place="left margin">11. <lb/>Madame consent <lb/>la commuation
+                        des <lb/>censes de vin en <lb/>argent, au regard <lb/>de cinq escuz
+                        d’or <lb/>sol chascung muyd.</add></head>
+                     <p><lb/>Sur ce qui a esté remonstré a <choice>
+                        <abbr>mad</abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame l’incommodité qui sont à ses receptes <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté les <lb/>censes deues et qui ce paient en vin tant pour la
+                     despence qui ce faict et difficulté qu’il <lb/>y a a les recueillir, que
+                     d’aultant qu’il est impossible d’empescher ceulx qui les doivent de <lb/>paier
+                     en vin meslé ou alteré de façon qu’il se vend beaucoup moins et bien souvent
+                     est <lb/>cause de faire vendre moins celluy provenu des vignes et dismes, et
+                     l’ouverture qui luy <lb/>a esté faictes de les commuer en argent qui aura mesme
+                     nature de cens et sur les mesmes  <lb/>vignes et heritaiges qui doivent <choice>
+                        <abbr>led</abbr>
+                        <expan>ledict</expan>
+                     </choice> vin, consent et accorde que paiant par ceulx qui <lb/>doivent <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictz</expan>
+                     </choice> censes de vin cinq escus d’or <choice>
+                        <abbr>sol</abbr>
+                        <expan>sols</expan>
+                     </choice> pour chacun muid de vin et a <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladicte</expan>
+                     </choice> raison <lb/>selon que monteront <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> censes et chargeant chacune journée ou homme de vigne <lb/>de la cense
+                     en argent qu’elles debvront paier selon qu’il est dit cy devant sur
+                     l’article <lb/>des reconnaissances paiables chacun an au mesme jour qu’ilz
+                     doibvent paier <choice>
+                        <abbr>led</abbr>
+                        <expan>ledict</expan>
+                     </choice> vin <lb/>que <choice>
+                        <abbr>lres</abbr>
+                        <expan>lettres</expan>
+                     </choice> d’eschange et bail en soit faict sur lesquelles Son <choice>
+                        <abbr>Ex<hi rend="sup">ce</hi></abbr>
+                        <expan>Excellence</expan>
+                     </choice> fera expedier les <lb/><choice>
+                        <abbr>ratifficaons</abbr>
+                        <expan>ratiffications</expan>
+                     </choice> requises et necessaires.</p>
+                  <head type="subtitle"><lb/><add place="left margin">12. <lb/>Des vignes dependant <lb/>de l’abaye de
+                        Fontaynandré <lb/>qui payent la sixte <lb/>gierle, Madame <lb/>veult estre
+                        advertie <lb/>le nombre des hommes <lb/>de vigne qu’il y a <lb/>de ceste
+                        qualité et <lb/>de quelle somme d’argent <lb/>on les pourra charger <lb/>par
+                        chascung homme <lb/>oultre l’unzieme gerle.</add></head>
+                     <p><lb/>Ayant le <choice>
+                        <abbr>sre</abbr>
+                        <expan>sieur</expan>
+                     </choice> Vallier gouverneur et lieutenant general pour <choice>
+                        <abbr>maddame</abbr>
+                        <expan>Mad[icte] Dame</expan>
+                     </choice> en <choice>
+                        <abbr>sond</abbr>
+                        <expan>sondict</expan>
+                     </choice> comté <lb/>faict entendre a Son Excellence par Monsieur de Lyverdis
+                     qu’il y a des vignes deppendantes <lb/>de l’abbaye de Fontaine André paians le
+                     sixte que ceulx qui les tiennent laissent aller <lb/>en ruyne et sont prest de
+                     les abandonner du tout a cause qu’estans sur mauvais fondz <lb/>ilz ne se y
+                     peuvent sauver. Mais que s’il plaist a <choice>
+                        <abbr>sad</abbr>
+                        <expan>Sadicte</expan>
+                     </choice> Excellence les remectre a l’unzeiesme <lb/>gerle, ilz paieront oultre
+                     cela une honneste cense d’argent par chacun an au lieu d’entroge <lb/>et
+                     s’efforceront eulx ou aultres de les remectre et faire valloir. Madicte Dame
+                     avant que se <lb/>resouldre sur cest article desire estre advertie par <choice>
+                        <abbr>led</abbr>
+                        <expan>ledict</expan>
+                     </choice> sieur Vallier et les <choice>
+                        <abbr>aus</abbr>
+                        <expan>aultres</expan>
+                     </choice>
+                     <choice>
+                        <abbr>srs</abbr>
+                        <expan>sieurs</expan>
+                     </choice> de son <lb/>conseil de quel nombre d’hommes peuvent estre <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> vignes et de quelle somme <del rend="strikethrough">de</del> <lb/>en
+                     argent on les pourra charger pour chacun homme oultre ladicte unzeiesme <pb
+                        n="3v" facs="AEN_AS_E1_1_3v_4r"/> gerle et se le nouveau bail qui s’en fera
+                     ne se pourra pas <choice>
+                        <abbr>fe</abbr>
+                        <expan>faire</expan>
+                     </choice> au plus offrant <lb/>a qui en donnera le plus.</p>
+                  <head type="subtitle"><lb/><add place="left margin">13. <lb/>Madame ne veult <lb/>plus accorder
+                        aulcung <lb/>rabais aux dismeurs <lb/>de ce conté et <choice>
+                           <abbr>seigrie</abbr>
+                           <expan>seigneurie</expan>
+                        </choice> <lb/>de Vallangin sy ce n’est <lb/>en cas d’orvale&#160;;
+                        iceluy <lb/>advenant dont les <lb/>receveurs en advertiront <lb/>les monteurs
+                        et <lb/>enchérisseurs <choice>
+                           <abbr>desd</abbr>
+                           <expan>desdictes</expan>
+                        </choice> <lb/>dismes.</add></head>
+                     <p><lb/>Estant Madicte Dame informée des retenues que
+                     font ceulx qui montent et a qui sont <lb/>dellivrées comme plus offrans les
+                     dismes de vin, bled et aultres grains deubz <lb/>au doumaine <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté de Neufchastel et <choice>
+                        <abbr>srie</abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de Vallengin soubz esperance d’en <lb/>avoir rabais encores qui <del
+                        rend="strikethrough">le</del> ne leur soit advenu aucune orvalle, dont ilz
+                     viennent <lb/>souvent importuner Son Excellence par leurs <choice>
+                        <abbr>req<hi rend="sup">tes</hi></abbr>
+                        <expan>requestes</expan>
+                     </choice> qui empesche les receveurs de <choice>
+                        <abbr>fa<hi rend="sup">e</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> <lb/>leurs receptes et <choice>
+                        <abbr>sond</abbr>
+                        <expan>Sondict</expan>
+                     </choice> Excellence d’estre secourue de ses revenus pour
+                     l’entretenement <lb/>de sa maison et estat et celluy de <choice>
+                        <abbr>mesd</abbr>
+                        <expan>mesdicts</expan>
+                     </choice>
+                     <choice>
+                        <abbr>s<hi rend="sup">rs</hi></abbr>
+                        <expan>seigneurs</expan>
+                     </choice> ses enffans, déclaré comme elle a ja <lb/>faict sur aucunes requestes
+                     qui luy ont esté <choice>
+                        <abbr>preseer</abbr>
+                        <expan>présentées</expan>
+                     </choice> en ceste matière qu’elle ne <lb/>veult plus entrer <choice>
+                        <abbr>esd</abbr>
+                        <expan>esdicts</expan>
+                     </choice> rabais et deffend a ses <del rend="strikethrough">d</del> officiers
+                     d’en faire aucun ny renvoier <lb/>a Son Excellence <choice>
+                        <abbr>reqtes</abbr>
+                        <expan>requestes</expan>
+                     </choice> qui leur soient <choice>
+                        <abbr>pntées</abbr>
+                        <expan>présentées</expan>
+                     </choice> a cest effect sinon advenant orvalle <lb/>auquel cas se remect a <choice>
+                        <abbr>sesd</abbr>
+                        <expan>sesdicts</expan>
+                     </choice> officiers et le <choice>
+                        <abbr>fa<hi rend="sup">r</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> en leurs loyautez et consciences <lb/>sur les <choice>
+                        <abbr>informaons</abbr>
+                        <expan>informations</expan>
+                     </choice> et attestations du domaige bonnes et <choice>
+                        <abbr>vallablem<hi rend="sup">t</hi></abbr>
+                        <expan>vallablement</expan>
+                     </choice> faictes par <lb/>les officiers des lieux voulant et ordonnant que cecy
+                     soit bien <choice>
+                        <abbr>expressem<hi rend="sup">t</hi></abbr>
+                        <expan>expressément</expan>
+                     </choice> <del rend="strikethrough">faict</del> <lb/>declaré par les officiers qui feront
+                     les montes <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> dismes affin que personne <lb/>n’en pretende cause d’ignorence et
+                     qu’il ne intervienne plus a l’advenir aucune longueur <lb/>ou difficulté a paier
+                     en temps et lieu es mains des receveurs ce a quoy aura monté <lb/><choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> dismes et que <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdicts</expan>
+                     </choice> receveurs ne puissent plus pour ce regard s’excuser de
+                     paier <lb/>chacun en ce qu’ilz debvront de leurs receptes.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>14. Touchant la vente <lb/>des vins et abris
+                        des <lb/>grains de <choice>
+                           <abbr>ced</abbr>
+                           <expan>cedict</expan>
+                        </choice> comté et <lb/>seigneurie de Vallangin.</add></head> 
+                     <p><lb/>Quant a la vente
+                     des vins et abris des grains actendu que les receveurs et <lb/>comptables ne
+                     sont chargez d’aucuns paiemens a Son Excellence ny aultres qu’ilz <lb/>ne soient
+                     bien avant en l’année de leurs receptes et bien souvent a la fin d’icelles, <lb/><choice>
+                        <abbr>Sad</abbr>
+                        <expan>Sadicte</expan>
+                     </choice> Excellence veult, ordonne et entend que la vente des vins de ses
+                     caves <lb/>se facent es saisons que les vins sont plus recherchez et a meilleure
+                     valleur <lb/>et a personnes qui en donneront le plus au proffict de <choice>
+                        <abbr>sond</abbr>
+                        <expan>Sondict</expan>
+                     </choice> Excellence et quant <lb/>a l’abris des bledz et aultres grains qu’il
+                     soit faict a deux fois entre les festes <lb/>de Pasques et la Pantecoste sur les
+                     attestations qui se prendront de ce que <pb n="4r" facs="AEN_AS_E1_1_3v_4r"
+                     /> telz grains auront vallu es trois prochains marchez tenuz en la ville
+                     de <lb/>Neufchastel et lieulx circonvoisins.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Touchant la <lb/>réparation des <lb/>maisons
+                     des <lb/>ministres. <lb/>15.</add></head>
+                     <p><lb/>Ayant esté rapporté a <choice>
+                        <abbr>Mad<hi rend="sup">te</hi></abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame l’instance que font la plupart des ministres <lb/>et predicans <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté et <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de Vallangin de la reffection et <choice>
+                        <abbr>entretenem<hi rend="sup">t</hi></abbr>
+                        <expan>entretenement</expan>
+                     </choice> des maisons <lb/>ou ilz habitent et d’en pourvoir a ceulx qui n’en ont
+                     poinct qu’ilz prétendent devoir <lb/>estre faict aux fraix et despens de Son
+                     Excellence, elle declare n’estre tenue ny <lb/>pour la consequence voulloir
+                     entrer en telles despences sauf des lieulx et parroisses <lb/>dont il
+                     apparoistra que ses predecesseurs fussent chargez avant le changement de
+                     la <lb/>religion et de ceulx dont il apparroistra aussi que depuis <choice>
+                        <abbr>led<hi rend="sup">t</hi></abbr>
+                        <expan>ledict</expan>
+                     </choice>
+                     <choice>
+                        <abbr>changem<hi rend="sup">t</hi></abbr>
+                        <expan>changement</expan>
+                     </choice> de religion <lb/>les revenus des cures ou partie d’iceulx aient esté
+                     uniz et incorporez au doumaine <lb/>des receptes ou sont assises <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> parroisses esquelz deulx cas, elle veult et ordonne <lb/>que ses
+                     officiers aient soing de l’entretenement <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> maisons comme de celles du <lb/>doumaine de Son Excellence et quant
+                     aux aultres qu’elles soient entretenues par ceulx <lb/>qui avoient accoustumé de
+                     ce <choice>
+                        <abbr>fr<hi rend="sup">e</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> avant <choice>
+                        <abbr>led</abbr>
+                        <expan>ledict</expan>
+                     </choice> changement de religion.</p>
+                  <head type="subtitle"><lb/><add place="left margin">16. <lb/>Article mentionnant <lb/>la forme qui se
+                        doit <lb/>tenir pour les répara<lb break="no"/>tions des
+                        maisons <lb/>chasteaux et <choice>
+                           <abbr>aus</abbr>
+                           <expan>aultres</expan>
+                        </choice> <lb/>édifices tant de <lb/><choice>
+                           <abbr>ced</abbr>
+                           <expan>cedict</expan>
+                        </choice> conté que <choice>
+                           <abbr>seig<hi rend="sup">rie</hi></abbr>
+                           <expan>seigneurie</expan>
+                        </choice> <lb/>de Vallangin. </add></head>
+                     <p><lb/>Et pour regard <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> réparations tant des maisons et chasteaux de Son Excellence <lb/><choice>
+                        <abbr>aud</abbr>
+                        <expan>audict</expan>
+                     </choice> comté de Neufchastel et <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de Vallengin celles <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdicts</expan>
+                     </choice> ministres en cas <lb/><choice>
+                        <abbr>susd</abbr>
+                        <expan>susdict</expan>
+                     </choice> que tous aultres ediffices estans du doumaine <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdicts</expan>
+                     </choice> comté et <choice>
+                        <abbr>s<hi rend="sup">ries</hi></abbr>
+                        <expan>seigneuries</expan>
+                     </choice>, abbaies <lb/>et prieurez annexez a icelluy, veult, ordonne et entend
+                     Son Excellence que incontinant <lb/>qu’il se presentera quelque reparation a <choice>
+                        <abbr>fr<hi rend="sup">e</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> en icelles, les officiers, concierges, ministres <lb/>et <choice>
+                        <abbr>aus</abbr>
+                        <expan>aultres</expan>
+                     </choice> habitans et possedans <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> maisons et ediffices le facent entendre au <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>sieur</expan>
+                     </choice> <lb/>gouverneur et lieutenant general <choice>
+                        <abbr>aud</abbr>
+                        <expan>audict</expan>
+                     </choice> comté lequel ordonnera la reffection d’icelle <lb/>sur le marché qui
+                     en sera faict par l’officier ou juge du lieu jusques a la concurrence <lb/>de
+                     dix livres foibles pour une fois, et si elles doivent monter plus grosse
+                     somme <lb/>en fera <choice>
+                        <abbr>led</abbr>
+                        <expan>ledict</expan>
+                     </choice> officier et juge faire le devis et estimation par expers du mestier
+                     sur <lb/>lequel devis seront <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> reparations baillées au rabais a qui les fera a
+                     meilleure <lb/>condition et <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdicts</expan>
+                     </choice> ouvrages faictz seront veuz et vizistez avant que de <choice>
+                        <abbr>fr<hi rend="sup">e</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> le <lb/>parfaict paiement duquel le comptable qui les aura paiez sera
+                     tenu rapporter <lb/>la quictance avec les actes, devis, bail au rabais et <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdicts</expan>
+                     </choice> ouvrages bien et <pb n="4v" facs="AEN_AS_E1_1_4v_5r"/> deuement faictz
+                     et parfaictz avec l’ordonnance <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> gouverneur pour le paiement d’icelle <lb/>aultrement <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladicte</expan>
+                     </choice> despense ne luy sera passée ny allouée en ses comptes.</p>
+                  <head type="subtitle"><lb/><add place="left margin">17. <lb/>La forme que l’on doit <lb/>tenir a
+                        l’examen procez <lb/>et execution des criminels <lb/><choice>
+                           <abbr>po<hi rend="sup">r</hi></abbr>
+                           <expan>pour</expan>
+                        </choice> le regard de la <choice>
+                           <abbr>despce</abbr>
+                           <expan>despence</expan>
+                        </choice> <lb/>que s’y faict, laquelle <lb/>despence se rapportera <choice>
+                           <abbr>p</abbr>
+                           <expan>par</expan>
+                        </choice> <lb/>parcelles par les receveurs <lb/>qui auront payé
+                     icelle.</add></head>
+                     <p><lb/>Sur les fraiz de justice estant Son Excellence advertie des
+                     grandes et excessives <choice>
+                        <abbr>desp</abbr>
+                        <expan>despences</expan>
+                     </choice> <lb/>qui se font en tous les lieulx et endroitz <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté a toutes les détentions, examen, <lb/>proces et execution des
+                     cryminelz s’assemblans ceulx des droictures en tous actes et procedures <lb/>qui
+                     apporte plustost longueur et confusion que expédition et preuve des meffaictz
+                     des <lb/>coupables, semble a Son Excellence et <choice>
+                        <abbr>srs</abbr>
+                        <expan>sieurs</expan>
+                     </choice> de son conseil estant près d’elle qu’il suffiroit <lb/>qu’en tous
+                     examens, torture<note>Un voleur de fromage est <hi rend="italic">mis a
+                           question</hi> le 9&#160;septembre&#160;1429 (AEN, H&#160;23, No&#160;25,
+                        fol.&#160;20). Le sautier assiste à la question. Le prévenu, du Locle,
+                        comparaît devant le châtelain de Valangin.</note> et aultres actes
+                     preparatoires des proces <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdicts</expan>
+                     </choice> criminels <lb/>intervinssent deux ou trois de la justice avec le maire
+                     ou son lieutenant, le greffier <lb/>et saultier et estant le proces preparé et
+                     prest a juger que lors s’assemblassent  <lb/>tous ceulx de la justice pour en
+                     faire le jugement de toutes lesquelles assemblées <lb/>Son Excellence veult et
+                     entend qu’il soit faict articles sepparez et taxe modérée d’un <lb/>repas a
+                     chacun pour <choice>
+                        <abbr>chaune</abbr>
+                        <expan>chascune</expan>
+                     </choice> assemblée en une parcelle de la <choice>
+                        <abbr>despen</abbr>
+                        <expan>despence</expan>
+                     </choice> qui aura esté faicte <lb/>durant la confection <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdicts</expan>
+                     </choice> procès, lesquelles parcelles attestées et certiffiées par
+                     les <lb/>maires et juges <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdicts</expan>
+                     </choice> lieulx et signées de leur <choice>
+                        <abbr>secretes</abbr>
+                        <expan>secreteres</expan>
+                     </choice> et greffiers avec quictances <lb/>des hostes qui auront fourny <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> despenses et certiffication si les prévenus et <lb/>condampnez auront
+                     biens ou non pour paier <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> despenses. Les comptables <lb/>seront tenuz rapporter en leurs comptes
+                     aultrement ne leur en sera rien passé ny <lb/>alloué.</p>
+                  <head type="subtitle"><lb/><add place="left margin">18. <lb/>Article qui concerne <lb/>la despence qui
+                        se <lb/>doit faire a la recerche <lb/>de ceux qui sont noyez <lb/>au lac et la
+                        forme <choice>
+                           <abbr>q</abbr>
+                           <expan>que</expan>
+                        </choice> <lb/>l’on y doit tenir.</add></head>
+                     <p><lb/>Et pour regard de ceulx qui se noient
+                     ou aultres nauffrages qui adviennent dans <lb/>le lac a la recherche desquelz <choice>
+                        <abbr>mad</abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame est advertie qu’il se faict souvent de <lb/>grandes et excessives
+                     despences sans qui luy en revienne aucun proffict, veult, ordonne <lb/>et entend
+                     que l’advenir quant telles <choice>
+                        <abbr>occaons</abbr>
+                        <expan>occasions</expan>
+                     </choice> de nauffrage et noyemens de <lb/>personnes adviendront, il se face une
+                     sommaire recherche en l’estandue <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> lac <lb/>appartenant a <choice>
+                        <abbr>mad</abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame par les sauthiers de Neufchastel ou de Thielle
+                     accompagnez <lb/>de deux ou trois personnes qui en feront leur rapport, lequel
+                     sera enregistré au <lb/><choice>
+                        <abbr>regre</abbr>
+                        <expan>registre</expan>
+                     </choice> du greffe <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice>
+                     <choice>
+                        <abbr>s<hi rend="sup">ries</hi></abbr>
+                        <expan>seigneuries</expan>
+                     </choice> pour servir de preuves en temps et lieu de la pocession <lb/>de <choice>
+                        <abbr>mad</abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame et ce pour une fois a <choice>
+                        <abbr>chun</abbr>
+                        <expan>chacun</expan>
+                     </choice> nauffrage et sans y retourner si souvent <lb/>ny en tel nombre de
+                     personnes qu’a esté faict cy devant.</p>
+                        <pb n="5r" facs="AEN_AS_E1_1_4v_5r"/>
+                  <head  type="subtitle"><add
+                        place="left margin">19. <lb/>Madame ordonne <lb/>de faire tenir
+                        les <lb/>audiances <choice>
+                           <abbr>gnales</abbr>
+                           <expan>generales</expan>
+                        </choice> <lb/>es mois d’avril <lb/>et de may prochains.</add></head>
+                  <p><lb/>Madicte Dame
+                     desirant sur toutes choses que la justice ait lieu et soit bien
+                     fidellement <lb/>et briefvement administrée en <choice>
+                        <abbr>sond</abbr>
+                        <expan>sondict</expan>
+                     </choice> comté et aiant esgard au long temps qu’il n’y a esté
+                     tenu <lb/>d’audiences generalles qui tient en suspens et indécises <choice>
+                        <abbr>plus<hi rend="sup">rs</hi></abbr>
+                        <expan>plusieurs</expan>
+                     </choice> appellations et aultres matières <lb/>qui n’ont accoustumé d’estre
+                     traictées et deciddés <choice>
+                        <sic>que</sic>
+                        <corr>qui</corr>
+                     </choice>
+                     <choice>
+                        <abbr>esd</abbr>
+                        <expan>esdictes</expan>
+                     </choice> audiences generalles, veult et ordonne <lb/>au <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>sieur</expan>
+                     </choice> Vallier gouverneur et son lieutenant general <choice>
+                        <abbr>aud</abbr>
+                        <expan>audict</expan>
+                     </choice> comté qu’il ayt a assembler et <choice>
+                        <abbr>fa<hi rend="sup">e</hi></abbr>
+                        <expan>faire</expan>
+                     </choice> <lb/>tenir et publier <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> audiences <choice>
+                        <abbr>gnalles</abbr>
+                        <expan>generalles</expan>
+                     </choice> pour tout <choice>
+                        <abbr>led</abbr>
+                        <expan>ledict</expan>
+                     </choice> comté de Neufchastel <lb/>dans les mois d’apvril ou may prochainement
+                     venant, les composant du nombre <lb/>de vassaulx, officiers, bourgeois et
+                     aultres qu’on a accoustumé d’appeller en tel cas pour <lb/>vacquer incessamment
+                     et dilligemment a la decision et jugement de toutes <choice>
+                        <abbr>appellaons</abbr>
+                        <expan>appellations</expan>
+                     </choice> <lb/>et aultres matières et reglemens accoustumez estre faictz,
+                     deciddez et terminez <choice>
+                        <abbr>esd</abbr>
+                        <expan>esdictes</expan>
+                     </choice> <lb/>audiences. Et que les quatre ministraulx de la ville de
+                     Neufchastel et aultres qui ont <lb/>cy devant tenu a ferme quelques membres <choice>
+                        <abbr>dad</abbr>
+                        <expan>dudict</expan>
+                     </choice> comté ayent a contrybuer aux fraiz <lb/><choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice> audiences <choice>
+                        <abbr>gnalles</abbr>
+                        <expan>generalles</expan>
+                     </choice> a la ratte et pour le temps de <choice>
+                        <abbr>leursd</abbr>
+                        <expan>leursdictes</expan>
+                     </choice> fermes suivant les <lb/>articles accordez avec <choice>
+                        <abbr>lesds</abbr>
+                        <expan>lesdicts</expan>
+                     </choice> ministraulx  en febvrier 1585.</p>
+                  <head type="subtitle"><lb/><add place="left margin">20. Touchant la <lb/>teneur des <lb/>audiences en
+                        la <lb/>seigneurie del <lb/>Vallangin.</add></head> 
+                     <p><lb/>Et n’estant moins requis de
+                     pourvoir aussi a la justice de la <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de Vallengin pour le <lb/>longtemps qu’il n’y a esté tenu audiences
+                     generalles ni estatz a cause du trouble et <lb/>controuverse en quoy <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladicte</expan>
+                     </choice>
+                     <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> a esté durant <choice>
+                        <abbr>plus<hi rend="sup">rs</hi></abbr>
+                        <expan>plusieurs</expan>
+                     </choice> années, veult aussy et ordonne <lb/><choice>
+                        <abbr>mad</abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame <choice>
+                        <abbr>aud</abbr>
+                        <expan>audict</expan>
+                     </choice>
+                     <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>sieur</expan>
+                     </choice> Vallier que devant ou après avoir tenu <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> audiences <choice>
+                        <abbr>gnalles</abbr>
+                        <expan>generalles</expan>
+                     </choice> <lb/><choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> comté de Neufchastel ainsi qu’il trouvera estre plus a propos, il
+                     face <lb/>publier tenir et assembler les audiences generalles <choice>
+                        <abbr>aud</abbr>
+                        <expan>audict</expan>
+                     </choice> Vallengin les composant <lb/>du nombre de personnes et de la qualité
+                     qu’il avoit accoustumé estre faict <choice>
+                        <sic>aucunement</sic>
+                        <corr>anciennement</corr>
+                     </choice> <lb/>mesmes en celles qui furent tenues par le <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>sieur</expan>
+                     </choice> Claude d’Arbergs, <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>seigneur</expan>
+                     </choice>
+                     <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> Vallengin <lb/>et de Baufremont, au mois de septembre MV<hi rend="sup"
+                        >c</hi>XI.</p>
+                  <head type="subtitle"><lb/><add place="left margin">21. <lb/>Madame ordonne <lb/>de faire tenir
+                        les <lb/>estas a Vallangin <lb/>en la mesme forme qu’il <lb/>se faict au <choice>
+                           <abbr>coté</abbr>
+                           <expan>comté</expan>
+                        </choice> de <lb/><choice>
+                           <abbr>Neufch<hi rend="sup">el</hi></abbr>
+                           <expan>Neufchastel</expan>
+                        </choice>, composant <choice>
+                           <abbr>lesd</abbr>
+                           <expan>lesdicts</expan>
+                        </choice> <lb/>estas de Vallangin des <lb/>nobles, officiers, mayres
+                        bourgeois <lb/>et subjectz de <choice>
+                           <abbr>lad</abbr>
+                           <expan>ladicte</expan>
+                        </choice> seigneurie de <lb/>Vallangin.</add></head>
+                     <p><lb/>Et après <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdictes</expan>
+                     </choice> audiences tenues <choice>
+                        <abbr>aud</abbr>
+                        <expan>audict</expan>
+                     </choice> Vallengin esquelles toutes <choice>
+                        <abbr>appellaons</abbr>
+                        <expan>appellations</expan>
+                     </choice> seront <lb/>vuydées et <choice>
+                        <abbr>reglem<hi rend="sup">t</hi></abbr>
+                        <expan>reglement</expan>
+                     </choice> de la justice faictz en la maniere accoustumée pour une
+                     fois <lb/>desirant <choice>
+                        <abbr>mad</abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame pourvoir a ce que la vuidange des appellations ne
+                     demeurent <lb/>plus en si grande longueur et d’attendre aultres audiences
+                     generalles qui ne se tiennent <lb/>que d’une longue espace d’années a <choice>
+                        <abbr>aus</abbr>
+                        <expan>aultres</expan>
+                     </choice> et inclinant a cest esgard a la <choice>
+                        <abbr>req<hi rend="sup">te</hi></abbr>
+                        <expan>requeste</expan>
+                     </choice>
+                     <pb n="5v" facs="AEN_AS_E1_1_5v_6r"/> que luy ont sur ce <choice>
+                        <abbr>pntees</abbr>
+                        <expan>présentées</expan>
+                     </choice> les bourgeois et subjectz de <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladicte</expan>
+                     </choice> seigneurie de Vallengin, <lb/>veult et ordonne a <choice>
+                        <abbr>sond</abbr>
+                        <expan>sondict</expan>
+                     </choice> gouverneur que toutes fois et quantes que le cas le requerra <lb/>il
+                     face tenir des estatz <choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> Vallengin pour la vuydange <choice>
+                        <abbr>desd</abbr>
+                        <expan>desdictes</expan>
+                     </choice>
+                     <choice>
+                        <abbr>appellaons</abbr>
+                        <expan>appellations</expan>
+                     </choice> et aultres <lb/>matières accoustumées d’estre traictées <choice>
+                        <abbr>ausd</abbr>
+                        <expan>ausdicts</expan>
+                     </choice> estatz ainsi et en la mesme forme et maniere <lb/>qui se faict <choice>
+                        <abbr>aud<hi rend="sup">t</hi></abbr>
+                        <expan>audict</expan>
+                     </choice> comté de Neufchastel composant <choice>
+                        <abbr>lesd</abbr>
+                        <expan>lesdicts</expan>
+                     </choice> estatz de Vallengin des nobles, <lb/>officiers, maires, bourgeois et
+                     subjectz de <choice>
+                        <abbr>lad</abbr>
+                        <expan>ladicte</expan>
+                     </choice>
+                     <choice>
+                        <abbr>s<hi rend="sup">rie</hi></abbr>
+                        <expan>seigneurie</expan>
+                     </choice> de Vallengin tout ainsi qu’il faict <lb/>a ceulx de Neufchastel pour
+                     tout <choice>
+                        <abbr>led</abbr>
+                        <expan>ledict</expan>
+                     </choice> comté suivant les franchises conceddées <choice>
+                        <abbr>aud</abbr>
+                        <expan>audict</expan>
+                     </choice> de <lb/>Vallengin par les predecesseurs <choice>
+                        <abbr>s<hi rend="sup">rs</hi></abbr>
+                        <expan>seigneurs</expan>
+                     </choice>
+                     <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice> lieu confirmées par <choice>
+                        <abbr>mad</abbr>
+                        <expan>Madicte</expan>
+                     </choice> Dame a laquelle est <lb/>apparu portans par exprès qu’ilz jouiront des
+                     mesmes libertez franchises et  <lb/>coustumes dont jouissent ceulx de
+                     Neufchastel.</p>
+                  <p><lb/>Faict, arresté et ordonné par nous estant presente en <choice>
+                        <abbr>nre</abbr>
+                        <expan>nostre</expan>
+                     </choice> conseil près <choice>
+                        <abbr>nre</abbr>
+                        <expan>nostre</expan>
+                     </choice> personne, <lb/>a <origPlace ref="loc010601">Paris</origPlace>  <origDate when="1588-02-06">le sixiesme jour de febvrier mil cinq cens
+                        quatre vingtz huict</origDate>. </p>
+                  <lb/><signed>Marie de Bourbon</signed>
+                  <p> <lb/>Par Madame estant <lb/>en son conseil</p>
+                  <signed>De Porquier</signed>
+               </div>
+               <pb n="6r" facs="AEN_AS_E1_1_5v_6r"/> 
+               <pb n="6v" facs="AEN_AS_E1_1_6v"/> 
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur cahier en parchemin, AEN, E&#160;N<hi rend="sup">o</hi>&#160;1.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;299.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

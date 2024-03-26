@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 270–272</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 270–272</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Tunney-Schueller – Verhör</head>
+					<head xml:lang="fr">Elsi Tunney-Schueller – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-07"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="270"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-07-07">7<hi rend="sup">ten</hi> heüwmonats 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note>, sampt dem <term ref="lem018540.03">amman</term> <persName ref="per012378a.01">Heydt</persName> unndt</seg>
+							<lb/>weybell <persName ref="per013730a.02">Hannßen Wulling</persName>.</p>
+						<p><seg><lb/>Allß die gefangne <persName ref="per016968a.01">Elsy Schuller</persName> den herren groß<lb break="no"/>weybell ihme etwaß anzuzeigen beschickht, unndt den
+							<lb/>verlauff des mit herren <persName>Niclaußen Reynoldt</persName> gehabten
+							<lb/><term ref="lem002465">handels</term> der lenge nach erzehlt, sich auch deßwegen sehr
+							<lb/>erklagt, hatt <term ref="lem011468.03">bekhendt</term>, do sie <date when="1645-06-18">am mittwuchen vor
+							<lb/>dem letst verschinnen heimlichen sonntag</date><note>Heimlichen Sonntag nannte man in Freiburg den Sonntag vor St. Johannes dem Täufer (24. Juni). Am heimlichen Sonntag fanden die offiziellen Wahlen statt, um den Rat und die Ratsämter zu besetzen.
+							Voir <bibl><ref target="http://permalink.snl.ch/bib/chbsg000041389">Utz Tremp 2005b</ref>, p. 39–45</bibl>.</note> uß der statt
+							<lb/>nacher huß gueng, unndt sie sich im crützweg by <placeName ref="loc010936.02">St.
+							<lb/>Bartholomes cappellen</placeName> gantz betrübt unndt bekhümmert
+							<lb/>befandt, daß sie einen schönen wolgestalten, einen
+							<lb/>soldaten gleichsehenden man mit grüenen <add place="above"><term ref="lem018246.02">grißlet</term></add> kleideren ge<lb break="no"/>sehen hab den oberen weg hinunder khommen. Der
+							<lb/>sie fründtlich angeredt unndt gefragt, wahrumb sie
+							<lb/>dergstalt bekhümmeret unndt trurig ußsehe. Dem
+							<lb/>sie geandtworttet: <q><add place="above">Ach!</add></q>, sie habe woll ursach darzu, dan
+							<lb/>man ihren, als einer armen trostloßen unndt von
+							<lb/>der oberkheit verlaßnen <term ref="lem011890.09">wittfrauwen</term> daß ihrig
+							<lb/>abgesprochen unndt darvon verstossen habe. Hierob
+							<lb/>er sie getröstet unndt <term ref="lem016814">vermeldet</term>, sie solle nicht also
+							<lb/>trauren, er wölle ihren woll verhilfflich syn. Unndt
+							<lb/>wan sie alleß, waß sie in diser welt haben mag, ver<lb break="no"/>lassen unndt syn syn wölle, so wölle er sie ins
+							<pb n="271"/><lb/><placeName ref="loc000281.16">Franckhrych</placeName> führen unndt ihren daselbsten khein mangel
+							<lb/>lassen.</seg> <seg>Uff dem hatt sie ihn angeschauwen unndt
+							<lb/>geandtworttet, sy wölle zwahr nit dahin ziechen
+							<lb/>unndt aber woll syn syn, jedoch mit <term ref="lem010101.04">gedingen</term>, das er
+							<lb/>ihren nichts bößes anthüye. Do hatt er ihren alsdan
+							<lb/>gesagt: <q>So bist du dan myn.</q> Sie auch alßbald zu sich ge<lb break="no"/>zogen unndt mit der handt, so kalt war, durch <del>ein loch</del>
+							<lb/><add place="inline">ihre gelöcherte kleider</add> am <term ref="lem002080.02">ruckhen</term> griffen unndt gefaßt,
+							<lb/>nit wüssend, waß er ihren dardurch möchte angethan <del>haben</del>
+							<lb/>unndt zu gefügt haben. Unndts alß sie ihr <term ref="lem016581.03">rosenkrantz</term>
+							<lb/>hatt fallen lassen unndt sie sich in uffnemmung desselben
+							<lb/>nidergebuckht, hatt er <subst><del>ihren</del><add place="inline">sie mit</add></subst> einem steckhen am
+							<lb/><term ref="lem002080.02">ruckhen</term> getroffen, darab sie khein sonderen schmertzen
+							<lb/>empfunden.</seg> <seg><term ref="lem006484.06">Nachwerths</term> ist sy gantz weinend unndt
+							<lb/>betrübt ihr straaß gangen unndt underwegs dem
+							<lb/><persName>Falckhen</persName> von <placeName ref="loc008079.03">Litzestorff</placeName>, der under einem <term ref="lem002517.19">krießbaum</term>
+							<lb/>gantz <term ref="lem018857.02">trunckhen</term> lag, angetroffen. Der alßdan sie an<lb break="no"/>gefragt, waß ihren <term ref="lem016559.04">prüste</term>, das sie dergestalt traurig
+							<lb/>unndt bekhümmert sye. Unndt sie geandtworttet, es
+							<lb/>sye wegen des mit angedütnem <choice><abbr>hrn</abbr><expan>herrn</expan></choice> <persName>Reynoldt</persName> habenden
+							<lb/><term ref="lem002465">handels</term>. Da sie aber zu ruckh gesehen unndt gäntzlichen
+							<lb/>vermeint, das der gesell oder soldat ihren nachgueng, ist
+							<lb/>sy ihres vermeinens beraubt unndt ihne nicht ferner gesehen,
+							<lb/>darab sy sich nit wenig verwundert. Das sy nit gewußt, wo
+							<lb/>er hinkhommen sey unndt also in ihr vorigen traurigkheit
+							<lb/>weinen unndt bekhümmernuß zu huß gangen. Da sie alß<lb break="no"/>dan wider ihre khind<note>Gemeint sind <persName ref="per016972">Annili Tunney</persName> und ihr Bruder.</note> unndt <term ref="lem016889.04">hußgenossen</term><note>Gemeint sind <persName ref="per016984">Maria Ruschwil-Clossner</persName> und <persName ref="per016978">Anna Götschmann</persName>.</note> dermassen ange<lb break="no"/>fangen zu fluchen unndt z’<term ref="lem000722.07">schwörren</term> (wie in gestriger <term ref="lem016794.05">be<lb break="no"/>khandtnuß</term> zu sehen), das ihren ein <term ref="lem018244.03">grußen</term> ankhommen undt
+							<lb/>sehr kalt worden. Welliches sy ihrem <choice><abbr>hrn</abbr><expan>herrn</expan></choice> <term ref="lem000646.05">bychtvatter</term> <choice><sic>mit
+							<lb/>mit</sic><corr>mit</corr></choice> wahrer <term ref="lem012968.07">rühw</term> unndt leydt angezeigt, der ihren
+								<lb/>zu einer buß ufferlegt unndt befohlen, nacher <placeName ref="loc000085.04">Einsidlen</placeName>
+							<lb/>ein <term ref="lem002059.05">farth</term> zu verrichten. Sy sye des willens solche<del>ß</del> gebührlich
+							<pb n="272"/><lb/>volnzuziechen.</seg> <seg>Als man sie angefragt, ob sie zuruckhge<lb break="no"/>melten soldaten nit andere mahl gesehen, gespürt
+							<lb/>oder ihren <term ref="lem008937.03">etwan</term> erschinnen sye, unndt ob sie nit wüsse,
+							<lb/>wär er sey, hatt gesagt, sie hab ihne nieh alß eben da<lb break="no"/>mahlen gesehen noch gespürt. Wüsse auch nit, wär er sye;
+							<lb/>habe auch nit uff desselben füß geachtet noch war
+							<lb/>genommen. Auch niehmahlen gesinnet, das es der <term ref="lem011429">böse geist</term>
+							<lb/>sey, gott wölle sie darvon bewahren. Hatt endtlich nach
+							<lb/>langem geschwätz <term ref="lem015124">erhalten</term>, sie hab sich niehmahlen dem <term ref="lem014673.13">bößen
+								<lb/>feindt</term> <term ref="lem018858.01">ergeben</term>. Habe aber dem soldaten woll gesagt,
+							<lb/>sy wölle syn syn, so vehr er ihren nüt bößes anthüye.
+							<lb/>Wüsse unndt vermeine aber nicht, das es der <term ref="lem007321.10">teüffell</term>
+							<lb/>gewesen sey. Sagt auch, sie habe niehmandt beleidiget
+							<lb/>noch machen zu sterben. Thut sich gott unndt <choice><abbr>m g h</abbr><expan>mine gnädigen herren</expan></choice>
+							<lb/>gehorsambst empfehlen, mit underthänigster bitt, sie
+							<lb/>wöllendt ihren gnädig zu lassen unndt verwilligen, das sie
+							<lb/>ihre vom <term ref="lem000646.05">bychtvatter</term> anbefohlne schuldige <term ref="lem002059">fahrt</term> nacher
+							<lb/><placeName ref="loc000085.04">Einsidlen</placeName> volnziechen unndt verrichten möge.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

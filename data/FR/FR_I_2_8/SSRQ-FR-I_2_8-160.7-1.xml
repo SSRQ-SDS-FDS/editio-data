@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-160.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 278–279</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 278–279</idno>
+					</msIdentifier>
+					<head xml:lang="de">Christina Tinguely-Aeby – Verhör und Urteil</head>
+					<head xml:lang="fr">Christina Tinguely-Aeby – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1652-01-19" to="1652-01-22"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="278"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1652-01-19">19<hi rend="sup">ten</hi> jenner 1652</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018134a.02">von Affri</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018625a.01">Gadi</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per018176a.01">Hanß Rudolff Gottrauw</persName></seg></p>
+						<p><seg><lb/><persName ref="per020284a.03">Cristini Äbi</persName> mit dem <term ref="lem018237.01">zentner</term> zum dritten mahl
+							<lb/><gap reason="illegible" unit="cm" quantity="1"/> <term ref="lem006574.01">gefoltert</term> oder <term ref="lem014641.01">torturiert</term> und durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des
+							<lb/>gerichts examiniert, hat anfangs mit nichten zu
+							<lb/>einicher <term ref="lem016794.05">bekhandtnuß</term> tretten wollen.</seg> <seg>Als sie aber
+								<lb/>gesehen, das man sie zu der <term ref="lem013000.01">tortur</term> <term ref="lem018100.03">albereit</term> an<subst><del><gap reason="illegible" unit="cm" quantity="1"/></del><add place="overwritten">feßlen</add></subst>
+							<lb/>wollen, hat sie als dan <term ref="lem011468.03">bekhendt</term>, das als sie ihrem ehe<lb break="no"/>man uff dem <placeName ref="loc008069.03">Mattenberg</placeName> 4 leiber brotts getragen
+							<lb/>und nun mehr biß im <placeName>Grundmoß</placeName><!-- Ort? Nichts gefunden in der Region --> angelangt, seye
+								<lb/>ihr der <term ref="lem014673.04">böß feindt</term>, <persName ref="per029459a.02">Stäffilli</persName> genandt, mit <term ref="lem018359.03">grienem</term>
+							<lb/><term ref="lem002462.06">huott</term> und kleider angethan erschinnen. Demme sie,
+								<lb/>nach dem sie gott <term ref="lem016063.05">verlaugnet</term>, sich <subst><del>er</del><add place="overwritten">i</add></subst>hme <term ref="lem018858.01">ergeben</term>.
+							<lb/>Welcher ihr gelt dargereicht, so sie aber nicht
+						<pb n="279"/><lb/>angenommen. Und habe der selb sie do mahlen am halß uff
+								<lb/>der linge seitten <term ref="lem016598">gezeichnet</term>. Und aber sey ihr
+							<lb/>als baldt die <term ref="lem012968.05">reüw</term> ankhommen, gott und der hochgebenedeiten
+								<lb/>jungfrauwen und mutter gottes <persName ref="per000169">Mariæ</persName> dariber mit
+							<lb/>hauffigen <term ref="lem018600.02">zeherren</term> umb gnad und <subst><add place="above">umb</add><del>un</del></subst> <term ref="lem004684.08">verzüchung</term> ihrer began<lb break="no"/>gnen unthat gebetten.</seg> <seg>Als sie solches <term ref="lem011468.03">bekhendt</term>, <subst><del>hete</del><add place="inline">hat</add></subst>
+							<lb/>sie gleich hernach desen in <term ref="lem005649">abred sein</term> wollen und <term ref="lem016814">vermeldt</term>,
+								<lb/>die tortur und <term ref="lem004666.03">marther</term>, so sie ußzustanden habe <add place="above">und</add> uußstanden
+							<lb/>thue, mache ihr mehr zu sagen, als an im selbest nicht seye,
+							<lb/>und mehr als sie gethan habe.</seg> <seg>Und aber als sie das lest mahl
+								<lb/><term ref="lem014641">torturiert</term> worden, hat sie nach der tortur ihr vorige
+							<lb/>gethanne <term ref="lem016794.05">bekhandtnuß</term> bestättiget, und gott und
+							<lb/><choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice> umb <term ref="lem004684.08">verzüchung</term> gebetten.</seg></p>
+						<p><lb/><add place="left margin">Hat sich in der gefang<lb break="no"/>schafft <term ref="lem018601.01">geleibloset</term>
+							<lb/>und ist under die
+							<lb/>galgen gelochet
+							<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 278.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

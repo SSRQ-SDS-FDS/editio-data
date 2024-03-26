@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName></editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2020"/>
+                <date type="print" when="1999"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/>
+                </respStmt>
+                <idno>SDS-VD-D_1-31-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;473–484, 466–472</idno>
+                    </msIdentifier>
+                    <head>Publication de la sentence du procès de sorcellerie intenté contre Margot Rolier, de Villars-Tiercelin, et inventaire de ses biens</head>
+                    <msContents>
+                        <summary>
+                            <p>Margot Rolier, veuve de Jean Rolier de Villars-Tiercelin, est jugée pour crime de sorcellerie au cours d’un procès présidé par le châtelain de Dommartin Jean Costable et conduit par le chanoine François Cabaret, agissant en tant qu’inquisiteur au nom du Chapitre cathédral de Lausanne. Le procès se termine le 26 septembre 1528. Le 28 septembre 1528, Margot comparait devant la cour sur le pont du château de Dommartin, en présence du peuple, pour entendre la lecture des articles de sa confession, qu’elle ratifie une dernière fois. Le châtelain communique ensuite sa décision de condamner à mort l’accusée et de lui confisquer les biens, et demande la connaissance (<orig>&#160;cognitio&#160;</orig>) des jurés et prud’hommes de la cour de Dommartin. Ceux-ci accèdent à la demande d’amener l’accusée au bûcher, ce qui est exécuté immédiatement par le bourreau. Pour finir, le châtelain demande au notaire Aymon de Vallone de rédiger une lettre testimoniale de l’exécution. Trois jours plus tard, le 1<hi rend="sup">er</hi> octobre 1528, l’inventaire des biens de la défunte est dressé à Villars-Tiercelin, et [son fils] Jordan s’engage à les garder et à les mettre à disposition des seigneurs du Chapitre.</p>
+                        </summary>
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1528-09-26" to="1528-10-01"/>
+                            <origPlace ref="loc010898.01">Château de Dommartin</origPlace>
+                            <origPlace ref="loc010907.01">Villars-Tiercelin</origPlace>                        </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;81–93</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000106060">Choffat 1989</ref>, p.&#160;93–108</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;132</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000006859">Ostorero 1999</ref>, p.&#160;43</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647203977">Utz Tremp 2005c</ref>, p.&#160;365</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001208849503977">Pittet  2010</ref>, p.&#160;214–215, 217</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/> 
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="484" facs="ACV_AC-29_484_485"/>
+                        <head type="title"><lb/><hi rend="right">Processus <persName ref="per016437a.02">Margarete</persName> 
+                                            <lb/>relicte <persName ref="per012966a.02">Johannis Rolyer</persName> super
+                                            <lb/><term ref="lem017269.01">crimine heresis</term>.</hi> 
+                        </head>
+                        <p><seg><lb/><hi rend="right"><origDate from="1528-01-01" to="1528-12-31">1528,</origDate>
+                                          <lb/><placeName ref="loc007669.03">Dompni Martini</placeName><note>Cet intitulé figure à la page 484 du registre, les pages 481–483 étant restées blanches. Avant la reliure, la page 484 était la dernière du cahier contenant la procédure&#160;; l’intitulé, une fois le cahier plié, permettait de connaître rapidement le contenu d’une pièce.</note>
+                        </hi></seg></p>
+                        <pb n="473" facs="ACV_AC-29_472_473"/>
+                        <head type="subtitle" resp="GO">26 septembre 1528</head>
+                        <p><seg><lb/>Sequitur processus et confessio <persName ref="per016437a.04">Marguerete</persName>
+                                            <lb/>seu <persName ref="per016437a.01">Margot</persName>, relicte quondam <persName ref="per012966a.04">Johannis
+                                            <lb/>Rolier</persName> de <placeName ref="loc010907.04">Villario Tiercellyni</placeName>, parrochie <placeName ref="loc007669.03">Dompni
+                                            <lb/>Martini</placeName>, in carceribus reverendorum et venerabilium
+                                            <lb/>dominorum <term ref="lem006983.01">canonicorum</term> cathedralis ecclesie <placeName ref="loc009833.02">Beate
+                                            <lb/>Marie Virginis Lausannensis</placeName>, in castro ipsorum
+                                            <lb/><origPlace ref="loc010898.02">Dompni Martini</origPlace> nullius <sic>dyosesis</sic>, <choice><sic>mancipatam</sic><corr>mancipate</corr></choice> 
+                                            <lb/><choice><sic>et detentam</sic><corr>et detente</corr></choice> de et pro crimine heresis. Super
+                                            <lb/>quo casu et in cuius personam, realiter venerabilis
+                                            <lb/>dominus <persName ref="per016721a.01">Franciscus Cabareti</persName>, regularis canonicus
+                                            <lb/><orgName ref="org004824.03">Sancti Marii Lausannensis</orgName>, –&#160;ad requisitionem et
+                                            <lb/>instantiam prefati venerabilis capituli <orgName ref="org004033.02">Lausannensis</orgName>,
+                                            <lb/>domini temporalis et spiritualis et tam predicte
+                                            <lb/><persName ref="per016437a.04">Marguerete</persName> seu <persName ref="per016437a.01">Margot</persName> detente quam loci
+                                            <lb/>eiusdem&#160;– veluti <term ref="lem017062.01">inquisitor</term>, servatis <term ref="lem017130.02">monitionibus</term>
+                                            <lb/>debitis precedentibus et aliis divino et humano
+                                            <lb/>jure requisitis, processit modo et forma
+                                            <lb/>subscriptis&#160;; nobili <persName ref="per016546a.05">Johanne Costabilis</persName>,
+                                            <lb/><term ref="lem017142.01">castellano</term> <orgName ref="org005241.02">Dompni Martini</orgName>, parte prefatorum
+                                            <lb/>dominorum canonicorum capituli <orgName ref="org004033.02">Lausannensis</orgName><note>Il manque <orig>&#160;presente&#160;</orig> ou un terme équivalent, le châtelain représentant le Chapitre lors de l’interrogatoire.</note>, <choice><sic>dictam</sic><corr>dicta</corr></choice> 
+                                            <lb/>dominum inquisitorem interrogata modo et 
+                                            <lb/>forma inferius descriptis super casu heresis. 
+                                            <lb/>Que dicit et recognovit prout sequitur.<abbr><unclear>*</unclear></abbr><note>L’(*) signale le paraphe que le notaire appose à la fin de chaque paragraphe ou aveu.</note>
+                        </seg></p>
+                        <p><seg><lb/>Et primo videlicet quod <date notBefore="1488" notAfter="1498" dur-iso="P30Y">sunt viginti aut 
+                                        <lb/>triginta anni</date> quod dicta <persName ref="per016437a.04">Marguereta</persName>
+                                        <lb/>seu <persName ref="per016437a.01">Margot</persName> detenta erat ad locum
+                                        <lb/>appellatum en <foreign xml:lang="fr"><placeName>Laz Tilliz seu ou Chanoz</placeName></foreign><note>Ce lieu n’a pas pu être identifié. Littéralement ce lieu-dit ce situe <orig>&#160;sous le Tilleul&#160;</orig> ou <orig>&#160;sous le Chêne&#160;</orig>.</note>
+                                        <lb/>ubi erat valde tristis&#160;; et ibi invenit
+                                        <lb/>unum hominem vestitum <choice><sic>niger</sic><corr>nigro</corr></choice> et pileum etiam 
+                                        <lb/><choice><sic>niger</sic><corr>nigrum</corr></choice>. Tunc ille homo dicit eidem <persName ref="per016437a.04">Marguerete</persName> 
+                                        <lb/>quod erat <term ref="lem017097.04">dyabulus</term> et habebat nomen 
+                                        <lb/><persName ref="per028190a.01">Gabriel</persName>&#160;: <q>&#160;Tu es valde tristis&#160;! Quid habes 
+                                        <lb/>et quo vadis&#160;?&#160;</q>. Que <persName ref="per016437a.04">Marguereta</persName> dicit 
+                                        <lb/>quod nesciebat quo debebat ire. Tunc ille 
+                                        <lb/>homo dyabulus <persName ref="per028190a.01">Gabriel</persName> dicit eidem
+                            <pb n="474" facs="ACV_AC-29_474_475"/><lb/><persName ref="per016437a.05">Margote</persName>&#160;: <q>&#160;Tu habes multa mala, ynmo, 
+                                        <lb/>si tu velis michi credere, ego faciem te 
+                                        <lb/>divitem et dabo tibi quam plurima bona&#160;</q>.
+                                        <lb/>Quequidem <persName ref="per016437a.04">Marguereta</persName> seu <persName ref="per016437a.01">Margot</persName> detenta 
+                                        <lb/>dicit quod ita crederet. Tunc ille homo eidem 
+                                        <lb/><persName ref="per016437a.04">Marguerete</persName> dedit <measure type="currency" unit="S" quantity="3" origin="Savoie">tres solidos monete 
+                                        <lb/>Sabaudie</measure> ut sibi videbatur. Postea dicit
+                                        <lb/>eidem <persName ref="per016437a.05">Margote</persName> detente&#160;: <q>&#160;Te opportet renuntiare 
+                                        <lb/>Deum&#160;</q>. Tunc dicta <persName ref="per016437a.01">Margot</persName> renuntiavit <sic>hore</sic> 
+                                        <lb/>sed non corde et dicto demoni fecit <term ref="lem018116.01">homagium</term> 
+                                        <lb/>sibi osculando in culo. Et illico quod dicta 
+                                        <lb/><persName ref="per016437a.05">Margota</persName> fuit in domo sue habitacionis, 
+                                        <lb/>posuit dictos <measure type="currency" unit="S" quantity="3">tres solidos</measure> in sua bursa
+                                        <lb/>cum pluribus aliis pecuniis.<abbr><unclear>*</unclear></abbr></seg></p>
+                            <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName> 
+                                        <lb/>detenta quod ipsa<note><orig>&#160;Ipsa&#160;</orig> n’a ici aucune valeur grammaticale puisqu’il y a un changement de sujet en cours de phrase, <orig>&#160;dictus dyabulus Gabriel&#160;</orig> devenant le sujet de <orig>&#160;vocavit&#160;</orig>.</note>, cum pluribus aliis personis 
+                                        <lb/>quas non cognoscebat, dictus dyabulus <persName ref="per028190a.01">Gabriel</persName>
+                                        <lb/>ipsam vocavit ad <term ref="lem018331.03">syetam</term> seu <term ref="lem017070.05">sinagogaz</term>
+                                        <lb/>loco appellato <foreign xml:lang="fr"><placeName>ou Chanoz</placeName></foreign> ad <date period="P5WD">diem jovis</date> 
+                                        <lb/><time period="byNight">de nocte hora assueta</time>. Et dicit dicta detenta 
+                                        <lb/>quod sepe tenebant eorum sinagogaz versus
+                                        <lb/><term ref="lem019085.01">martinetum</term> Iohannis sinagogaz edam versus
+                                        <lb/><foreign xml:lang="fr"><placeName ref="loc011907.03">Laz Mollietaz</placeName></foreign> et alia <term ref="lem017070.01">synagoga</term><note>Le notaire utilise d’abord la forme en langue vulgaire <orig>&#160;<term ref="lem015072.03">synagogaz</term>&#160;</orig>, puis la forme latine. Plus loin, la forme vulgaire est à nouveau utilisée.</note> apud
+                                        <lb/><foreign xml:lang="fr"><placeName>Laz Golletaz</placeName></foreign><note>Peut-être <placeName ref="loc013854.01">Gillette</placeName>, tout près ou <placeName ref="loc011908.02">Les Golettes</placeName>, dans la seigneurie de Rue.</note>  ac etiam una alia 
+                                        <lb/>synagoga eundo contra <placeName ref="loc010906.04">Puliee Pictet</placeName> et
+                                        <lb/>una alia <placeName>es Croux</placeName><note>Ce lieu n’a pas pu être identifié.</note>&#160;; et maxime 
+                                        <lb/>tenebant dictas synagogas <date period="P5WD">die jovis</date> <time period="byNight">nocte</time>.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName>
+                                        <lb/>quod ipsa ibat ad dictas syetas seu 
+                                        <lb/>synagogas supra unum <term ref="lem017132.01">baculum</term> album 
+                                        <lb/>quem <term ref="lem017140.04">demom</term> sibi dederat&#160;; et quando 
+                                        <lb/>volebat ire supra dictum baculum, dicebat&#160;: 
+                                        <lb/><q>&#160;Vade ex parte dyabuli&#160;</q>.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <pb n="475" facs="ACV_AC-29_474_475"/>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName> 
+                                        <lb/>quod ipsa tenebat dictum baculum ante suum 
+                                        <lb/>lectum in suo <term ref="lem019014.01">citurno</term> ubi cubabat&#160;; et
+                                        <lb/>unam <term ref="lem019008.01">bustam</term> quam dictus dyabulus sibi 
+                                        <lb/>tradiderat, in qua erat <term ref="lem019101.01">pussetum</term><note>Le notaire n’est pas au claire sur le genre à attribuer à <orig>&#160;pussetum&#160;</orig>. Il hésite également entre les formes <orig>&#160;<term ref="lem019101.01">pussetum</term>&#160;</orig> et <orig>&#160;<term ref="lem019101.02">pusetum</term>&#160;</orig>.</note> ad
+                                        <lb/>faciendum <term ref="lem019129.01">mori</term> personas aut animalia, 
+                                        <lb/>et tenebat illam bustam in sua 
+                                        <lb/>domo supra <term ref="lem019116.02">trablale</term> dicti citurni&#160;; ac 
+                                        <lb/>etiam magister suus <persName ref="per028190a.01">Gabriel</persName> sibi 
+                                        <lb/>precipiebat facere plura mala.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <p><seg><lb/>Item dicta <persName ref="per016437a.05">Margota</persName> dicit et confessa est 
+                                        <lb/>quod ipsa paulo post invenit unum <term ref="lem019024.01">masculum</term> 
+                                        <lb/>ante <term ref="lem019007.01">bornellum</term> de <placeName ref="loc010907.08">Villario</placeName> et posuit de
+                                        <lb/>dicto <term ref="lem019101.02">puseto</term>, que erat in dicta busta, per 
+                                        <lb/>supra <foreign xml:lang="fr">l’<term ref="lem018978.01">aretaz</term></foreign> dicti masculi, qui pertinebat
+                                        <lb/><persName ref="per016731a.01">Glaudio Jayet</persName>, de quo fuit mortuus, et 
+                                        <lb/><date when="1526" dur-iso="P2Y">sunt circa <choice><sic>duorum annorum proxime lapsorum</sic><corr>duo anni proxime lapsi</corr></choice></date>.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName> 
+                                        <lb/><supplied reason="omitted">quod</supplied> invenerat unam equam pili nigri <foreign xml:lang="fr"><placeName>En
+                                        <lb/>Morate</placeName></foreign><note>Ce lieu n’a pas pu être identifié.</note>, <date when="1527" dur-iso="P1Y">circa unum annum proxime elapsum</date>, et
+                                        <lb/>posuit supra dictam <term ref="lem018166.01">equam</term> de puseto 
+                                        <lb/>quem tradidit magister suus <persName ref="per028190a.01">Gabriel</persName>, 
+                                        <lb/>de quo fuit mortua ante domum dicti <persName ref="per016731a.01">Glaudii</persName>.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName>
+                                        <lb/>quod de <date when="1527-05">mense maii proxime elapsi</date> posuit manum 
+                                        <lb/>supra unum <choice><sic>bovum</sic><corr><term ref="lem018117.01">bovem</term></corr></choice> pili albi <term ref="lem018676.02">blanchenex</term> 
+                                        <lb/>cum dicto puseto, <choice><sic>pertinente</sic><corr>pertinentem</corr></choice> <persName ref="per016724a.02">Deofilio Sovajat</persName>,
+                                        <lb/>de quo fuit mortuus.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <pb n="476" facs="ACV_AC-29_476_477"/>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName>
+                                        <lb/>detenta <supplied reason="omitted">quod</supplied>, <date when="1528-09">circa tres aut quatuor dies 
+                                        <lb/>antequam fuisset detenta</date>, posuit de dicto 
+                                        <lb/>puseto per supra <foreign xml:lang="fr">l’<term ref="lem018978.01">aretaz</term></foreign> unius equi pili 
+                                        <lb/>nigri, qui erat <persName ref="per017319a.01">Jacobo Massot</persName>, de quo
+                                        <lb/>fuit mortuus.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName> 
+                                        <lb/>detenta quod magister suus <persName ref="per028190a.01">Gabriel</persName> sibi 
+                                        <lb/>tradebat de dicto puseto <date when="1528">anno quolibet 
+                                        <lb/>semel in anno</date>, et erat <choice><sic>roseta</sic><corr>roseto</corr></choice>, et faciebat 
+                                        <lb/>dictum pusetum <foreign xml:lang="fr">des <term ref="lem019100.03">crapox</term></foreign>.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName> 
+                                        <lb/>quod dedit <persName ref="per016731a.01">Glaudio Jayet</persName> semel ad potandum, 
+                                        <lb/>veniendo<note>On attendrait plutôt <orig>&#160;venienti&#160;</orig>&#160;; c’est probablement <persName ref="per016731a">Claude</persName> qui vient de <placeName ref="loc007885.01">Lausanne</placeName>.</note> de <placeName ref="loc007885.06">Lausanna</placeName>, ante domum
+                                        <lb/>dicte <persName ref="per016437a.05">Margote</persName>, de aqua, que erat infra
+                                        <lb/>domum, in sua <term ref="lem019010.01">capsa</term> in qua posuerat 
+                                        <lb/>modicum dicti puseti&#160;; de qua dictus <persName ref="per016731a.01">Glaudius</persName> 
+                                        <lb/>fuit valde infirmatus.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta detenta 
+                                        <lb/>quod, revertendo, dictam <term ref="lem019010.02">cassam</term> infra
+                                        <lb/>domum suam nectidavit, eo quod nullus
+                                        <lb/>caperet malum.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta detenta
+                                        <lb/>quod, <date when="1527" dur-iso="P1Y">anno proxime elapso</date>, ivit ad domum 
+                                        <lb/><persName ref="per012745a.01">Johannis Sovajat</persName> post <sic>prandeum</sic><note>La même forme est utilisée pour <orig>&#160;prandium&#160;</orig> dans le procès de <persName ref="per016717a">Françoise Gilliéron</persName> (cf. lignes 91, 112 et 114).</note> et 
+                                        <lb/>invenit ante ignem suam filiam dicti <persName ref="per012745a.01">Johannis</persName>
+                                        <lb/>et posuit de illo pusseto dicte filie 
+                                        <lb/>et duxit ipsam in citumo dicti <persName ref="per012745a.01">Johannis</persName>, 
+                                        <lb/>de quo fuit mortua.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <pb n="477" facs="ACV_AC-29_476_477"/>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName>
+                                        <lb/>quod in <term ref="lem018331.03">syeta</term> seu synagogaz reddebat
+                                        <lb/>computum magistro suo <persName ref="per028190a.01">Gabriel</persName> de malis 
+                                        <lb/>per ipsam factis.<abbr><unclear>*</unclear></abbr> 
+                            </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName> 
+                                        <lb/>detenta quod habuit societatem magistri 
+                                        <lb/>sui <term ref="lem017140.04">demom</term> <persName ref="per028190a.01">Gabriel</persName> in synagoga duas
+                                        <lb/>vices et dicit quod <choice><sic>materiam quam</sic><corr>materia que</corr></choice> exiebat 
+                                        <lb/>de dicto magistro suo <persName ref="per028190a.01">Gabriel</persName> erat
+                                        <lb/><choice><sic>figidam</sic><corr>frigida</corr></choice>.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName> 
+                                        <lb/>quod ipsa invenit unum equum pili nigri
+                                        <lb/>ante bornellum de <placeName ref="loc010907.08">Villario</placeName>, veniendo de 
+                                        <lb/>campis seu pascuis, <time period="evening">hora vesperorum</time>, et 
+                                        <lb/>posuit dicto equo de puseto per supra 
+                                        <lb/><foreign xml:lang="fr">l’<term ref="lem018978.01">aretaz</term></foreign>, <choice><sic>quem equum</sic><corr>qui equus</corr></choice> pertinebat <persName ref="per016481a.02">Anthonio
+                                        <lb/>Barraux</persName>, de quo fuit mortuus <date when="1527" dur-iso="P1Y"><choice><sic>anni proxime elapsi</sic><corr>anno 
+                                        <lb/>proxime elapso</corr></choice></date>.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName> 
+                                        <lb/>detenta quod <date when="1525" dur-iso="P3Y">sunt circa tres anni</date> quod ipsa
+                                        <lb/>venit in domo dicti <persName ref="per016481a.02">Anthonii Barraux</persName>&#160;;
+                                        <lb/>et erat <choice><sic>filiam</sic><corr>filia</corr></choice> dicti <persName ref="per016481a.02">Anthonii</persName> in suo
+                                        <lb/><foreign xml:lang="fr"><term ref="lem014915.03">briez</term></foreign>, in quo posuit de dicto puseto per 
+                                        <lb/>supra <foreign xml:lang="fr">laz <term ref="lem019025.01">forsalaz</term></foreign> dicte filie&#160;; et illico, 
+                                        <lb/><date dur-iso="P4D">infra tres aut quatuor dies</date>, fuit
+                                        <lb/><del rend="strikethrough">mortua est</del><note>Le notaire différencie cette fois les meurtres de personnes de ceux d’animaux.</note> ab humanis decessa.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.05">Margota</persName>,
+                                        <lb/><date notBefore="1523" notAfter="1524" dur-iso="P5Y">circa quatuor aut quinque <choice><sic>annorum</sic><corr>annos</corr></choice></date>, <supplied reason="omitted">quod</supplied> venit 
+                                        <lb/>ad domum <persName ref="per017319a.01">Jacobi Massot</persName> et dedit filio 
+                                        <lb/>dicti <persName ref="per017319a.01">Jacobi</persName> de dicto puseto, de quo ab 
+                                        <lb/>humanis decessit.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <pb n="478" facs="ACV_AC-29_478_479"/>
+                                <p><seg><lb/>Item dicit et confessa est dicta
+                                        <lb/><persName ref="per016437a.04">Marguereta</persName> quod <date when="1528">anno presenti</date> dedit 
+                                        <lb/>avenam ante suam domum, in qua avena
+                                        <lb/>posuerat de dicto puseto, <choice><sic>cuiusdam</sic><corr>cuidam</corr></choice>
+                                        <lb/><term ref="lem019026.01">prime bestie</term> vocate <foreign xml:lang="fr"><term ref="lem016982.03">porchez</term></foreign>, que 
+                                        <lb/>erat es <persName ref="per017320a.01">Chambez</persName>, de quo fuit mortua.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <p><seg><lb/><delSpan rend="crossout" spanTo="del1"/>Item<note>Les deux aveux qui suivent, concernant l’initiation de <persName ref="per016437a">Margot</persName>, n’ont pas abouti et sont cancellés dans le texte. On peut remarquer en outre que le notaire n’y a pas apposé son paraphe.</note> dicit et confessa est dicta <persName ref="per016437a.04">Marguereta</persName> 
+                                        <lb/>quod venit ipsa <choice><sic>heres</sic><corr>heresis</corr></choice> propter quemdam 
+                                        <lb/>errorem quem habebat cum filia eius 
+                                        <lb/>filie de <placeName ref="loc009338.03">Feys</placeName> de domo <persName ref="per017324a.01">David</persName><note>Cette personne n’a pas pu être identifée.</note>.
+                                </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.04">Marguereta</persName> 
+                                        <lb/>detenta quod post <choice><sic>dictam</sic><corr>dictum</corr></choice> errorem octo 
+                                        <lb/>dierum magister suus dicte <persName ref="per016437a.04">Marguerete</persName> 
+                                        <lb/><persName ref="per028190a.01">Gabriel</persName> venit <foreign xml:lang="fr"><placeName>En Laz Tilliz ouz Chanoz</placeName></foreign>, 
+                                        <lb/>in quo loco reperit dictam <persName ref="per016437a.05">Margotam</persName>
+                                        <lb/>et petiit si vellet sibi dare aliquid.
+                                        <lb/>Et tunc ipsa <persName ref="per016437a.04">Marguereta</persName> sibi dedit 
+                                        <lb/>unum vitulum de suis.<anchor xml:id="del1"/>
+                                </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.04">Marguereta</persName> 
+                                        <lb/>quod de omnibus malis suprascriptis
+                                        <lb/>per ipsam factis, numquam nullo tempore 
+                                        <lb/>fecit confessionem.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <p><seg><lb/>Item dicit et confessa est dicta detenta 
+                                        <lb/>quod <persName ref="per016731a.01">Glaudius Jayet</persName> eidem dixit quod ipsa
+                                        <lb/>erat <choice><sic>heres</sic><corr>heresis</corr></choice> et fuerunt in litigio, sed ipsa
+                                        <lb/><persName ref="per016437a.04">Marguereta</persName> concordavit cum ipso ad <measure type="volume" unit="Mass" quantity="1" commodity="wheat">unum 
+                                         <lb/>bichetum bladi</measure>, eo quod ipse <persName ref="per016731a.01">Glaudius Jayet</persName> 
+                                        <lb/>dimicteret dormire causam.<abbr><unclear>*</unclear></abbr>
+                                </seg></p>
+                        <pb n="479" facs="ACV_AC-29_478_479"/>
+                        <p><seg><lb/>Item dicit et confessa est dicta <persName ref="per016437a.04">Marguereta</persName>
+                                        <lb/>detenta quod non est nisi dymidium annum quod
+                                        <lb/>ipsa stetit in synagoga.<abbr><unclear>*</unclear></abbr>
+                            </seg></p>
+                        <p><seg><lb/>Conclusus est processus <choice><sic>suprascriptum</sic><corr>suprascriptus</corr></choice> <origDate when="1528-09-26" period="P7WD" type="holiday">die sabati
+                                        <lb/>ante festum Sancti <persName ref="per000390a.05">Michaelis</persName> anno Domini 
+                                        <lb/>millesimo quingentesimo vigesimo octavo</origDate>.
+                            </seg></p>
+                        <p><seg><signed><lb/><persName ref="per017322a.01">Aymo de Va<hi rend="sup">ne</hi></persName> <figure type="notarial sign"/></signed></seg></p>
+                        <head type="subtitle" resp="GO">28 septembre 1528</head>
+                        <p><seg><lb/><origDate when="1528-09-28" period="P2WD" type="holiday">Die lune ante festum Sancti <persName ref="per000390a.05">Michaelis</persName> anno 
+                                        <lb/>quo supra</origDate>, fuit adducta prenominata <persName ref="per016437a.04">Marguereta</persName>
+                                        <lb/>coram prefato domino castellano, super pontem dicti 
+                                        <lb/><origPlace ref="loc010898.02">castri Dompni Martini</origPlace>, in judicio pro tribunali 
+                                        <lb/>sedente, narratisque et lectis coram populo
+                                        <lb/>nonnullis articulis heresis, supra in presenti 
+                                        <lb/>processu descriptis et per dictam delatam confessatis, 
+                                        <lb/>et interrogata<note><orig>&#160;Interrogata&#160;</orig> dépend de fuit six lignes plus haut.</note> iterum dicta <persName ref="per016437a.04">Marguereta</persName> delata 
+                                        <lb/>si illa essent vera&#160;; que illa recognovit et 
+                                        <lb/>confessa fuit esse vera.</seg>
+                            <seg>Quibus confessatis, prefatus
+                                        <lb/>dominus castellanus dictam delatam retrahi
+                                        <lb/>fecit a curia ad ponendum casum in cognitionem&#160;; 
+                                        <lb/>a curia remotam<note>La construction de ce passage est difficilement compréhensible. Dans la sentence contre <persName ref="per016490a">Jeannette Vincent</persName>, un ablatif absolu était utilisé. Peut-être <orig>&#160;remotam&#160;</orig> et <orig>&#160;petitam&#160;</orig> sont-ils les sujets d’une proposition infinitive dont le verbe est <orig>&#160;adiudicari&#160;</orig> et qui serait introduite par la phrase précédente <orig>&#160;ad ponendum in cognitionem&#160;</orig>. Comme dans le procès <persName ref="per016490a">Vincent</persName>, il s’agit d’une sentence en deux temps&#160;: le châtelain demande d’abord que <persName ref="per016437a">Margot</persName> soit adjugée au Chapitre&#160;; ensuite le jugement est rendu par la cour avec le châtelain (cf. procès de <persName ref="per016490a">Jeannette Vincent</persName>).</note>, petitam per dictum dominum 
+                                        <lb/>castellanum dictam <persName ref="per016437a.04">Margueretam</persName> dictis
+                                        <lb/>reverendis dominis capituli adjudicari in corpore et bonis&#160;;
+                                        <lb/>cognitum fuit in dictam curiam concorditer per
+                                        <lb/><persName ref="per016722a.01">Glaudium Guyot</persName>, <persName ref="per016685a.01">Johannem Barraux</persName>, <persName ref="per016604a.03">Johannem 
+                                        <lb/>Cruscho</persName>, <persName ref="per016528a.02">Petrum Marguet</persName>, <persName ref="per012747a.01">Petrum Diserens</persName>,
+                                <pb n="480" facs="ACV_AC-29_480_481"/><lb/><persName ref="per016496a.03">Girardum Jaquier</persName>, <persName ref="per016474a.01">Glaudium Pillet</persName>, <persName ref="per016725a.01">Roletum 
+                                        <lb/>Garym</persName>, <persName ref="per016737a.01">Jacobum Gillieron</persName>, necnon <persName ref="per017319a.01">Jacobum
+                                        <lb/>Massot</persName>, <persName ref="per016481a.02">Anthonium Barraux</persName>, <persName ref="per016724a.02">Deumfilium Sovajat</persName>, 
+                                        <lb/>parrochie <placeName ref="loc007669.03">Dompni Martini</placeName>, pluresque alios probos 
+                                        <lb/>homines cum dicto castellano in curia premissa 
+                                        <lb/>concorditer quod dicta <persName ref="per016437a.04">Marguereta</persName> delata, 
+                                        <lb/>adtentis heresitatibus et malefactis per
+                                        <lb/>ipsam confessatis, erat dominis predictis in corpore 
+                                        <lb/>et bonis adjudicandam et ipsam adjudicabant,
+                                        <lb/>ita et taliter quod corpus eius deberet <choice><sic>duxi</sic><corr>duci</corr></choice> 
+                                        <lb/>a loco curie usque ad locum ubi consuetum est fieri 
+                                        <lb/>executio malefactorum et ibi debere super
+                                        <lb/>foco uriri et conbulsi, videlicet quod corpus eius in 
+                                        <lb/>cineribus devenerit. </seg>
+                            <seg>Quam cognitionem sic
+                                        <lb/>factam dictaque <persName ref="per016437a.04">Marguereta</persName> ad curiam vocatam 
+                                        <lb/>et adductam<note>Le notaire utilise une sorte d’ablatif absolu à l’accusatif qui aurait mal tourné à cause de la fonction d’objet qu’il a par la suite.</note>, dictus dominus castellanus dictam 
+                                        <lb/>cognitionem reportavit illamque tradidit
+                                        <lb/>magistro <persName ref="per017268a.01">Petro</persName>, <term ref="lem019088.01">laniste</term> <placeName ref="loc007885.05">Lausannensi</placeName>, ad executandam. 
+                                        <lb/>Qui <choice><sic>lanistam</sic><corr>lanista</corr></choice> <sic>eandem</sic> delatam ad locum solitum 
+                                        <lb/>fieri tales cognitiones in castellania 
+                                        <lb/><placeName ref="loc007669.03">Dompni Martini</placeName> transducit dictumque corpus predicte 
+                                        <lb/><persName ref="per016437a.04">Marguerete</persName> uri fecit ut supra cognitum est.</seg>
+                          <seg><lb/>De quibus premissis, prefatus castellanus per 
+                                        <lb/>me notarium subscriptum sibi fieri petiit
+                                        <lb/>litteram testimonialem, quam sibi de cognitione 
+                                        <lb/>quorum supra sibi concessi et tradidi. 
+                                        <lb/>Presentibus quibus supra. <origDate when="1528-09-28">Datum et actum
+                                        <lb/>ut supra</origDate>.
+                            </seg></p>            
+                        <p><seg><lb/>Originale. <signed><persName ref="per017322a.01">Aymo de Va<hi rend="sup">ne</hi> </persName><figure type="notarial sign"/></signed></seg></p>
+                        <pb n="481" facs="ACV_AC-29_480_481"/><p/>
+                        <pb n="482" facs="ACV_AC-29_482_483"/><p/>
+                        <p><pb n="483" facs="ACV_AC-29_482_483"/><note>La page 484, dernière page du cahier, est positionée en page de titre.</note></p>
+                        <pb n="469" facs="ACV_AC-29_468_469"/>
+                        <head type="title" resp="GO">Inventaire des biens de Margot Rollier, 1<hi rend="sup">er</hi> octobre 1528, Villars-Tiercelin<note>Cet inventaire de biens a été relié par erreur avant le procès (p.&#160;469–472), alors qu’il est levé après l’exécution de l’accusée.</note></head>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1528">1528</date></ab></div>
+                        <head type="title"><lb/>Sequitur bonorum inventarium
+                            <lb/>quondam <persName ref="per016437a.03">Margarete</persName> relicte <persName ref="per012966a.01">Johannis Rolier</persName>.</head>
+                        <p><seg><lb/>Et primo domus cum pertinentiis
+                                        <lb/>Suis, sita in villagio <placeName ref="loc010907.07">Villarii Tiercellini</placeName>
+                                        <lb/>cum <choice><sic>orto</sic><corr>horto</corr></choice> retro contiguo iuxta suos 
+                                        <lb/>limites.
+                        </seg></p>
+                        <p><seg><lb/>Item <measure type="volume" unit="Garbe" quantity="300" commodity="wheat">gerbe bladi tam frumenti quam siliginis 
+                                        <lb/>circa tercentum</measure>.</seg></p>
+                        <p><seg><lb/>Item ordei <measure type="volume" unit="Garbe" quantity="9" commodity="barley">octo vel novem gerbe</measure>.</seg></p>
+                        <p><seg><lb/>Item <measure type="volume" unit="Garbe" quantity="200" commodity="oat">avene gerbe duocentum</measure>.</seg></p>
+                        <p><seg><lb/>Item <measure type="undefined" unit="carriage" quantity="2" commodity="pea">unus currus pisorum</measure> pauci valoris.</seg></p>
+                        <p><seg><lb/>Item <measure type="undefined" unit="carriage" quantity="18" commodity="hay">decemocto cumrs feni</measure>.</seg></p>
+                        <p><seg><lb/>Item <measure type="area" unit="Juchart" quantity="12">duodecim pose <term ref="lem019090.01">investite</term> blado</measure> scilicet 
+                                       <lb/><measure type="area" unit="Juchart" quantity="9">novem bladi <term ref="lem019006.02">messelli</term></measure> et <measure type="area" unit="Juchart" quantity="3">tres frumenti</measure>.</seg></p>
+                        <p><seg><lb/>Item <measure type="area" unit="Juchart" quantity="12">duodecim pose</measure> de <foreign xml:lang="fr"><term ref="lem019027.02">freytit</term></foreign> <term ref="lem019028.01">galice</term> 
+                                        <lb/>ad seminandam avenam.</seg></p>
+                        <p><seg><lb/>Item <measure type="area" unit="Juchart" quantity="11">undecim pose</measure> <term ref="lem019029.02">semoralis</term>.</seg></p>
+                        <p><seg><lb/>Item <measure type="area" unit="fauchée" quantity="15">quindecim falcate</measure> tam prati quam <term ref="lem019015.01">clausi</term>.</seg></p>
+                        <p><seg><lb/>Item una <term ref="lem019083.01">ochia</term> <term ref="lem019009.02">canapis</term> et unus alius
+                                        <lb/><choice><sic>ortus</sic><corr>hortus</corr></choice>.</seg></p>
+                        <p><seg><lb/>Item nemoris <measure type="area" unit="Juchart" quantity="20">viginti pose</measure> vel circa.</seg></p>
+                        <p><seg><lb/>Item octo equi tam parvi quam magni, <term ref="lem019092.01">inclusis</term> 
+                                        <lb/>jumentis.</seg></p>
+                        <p><seg><lb/>Item unus bos et quatuor masculi.
+                                        <lb/>Item quinque <term ref="lem018975.03">vacche</term> lactive.</seg></p>
+                        <pb n="470" facs="ACV_AC-29_470_471"/><p><seg><lb/>Item duo parvi <term ref="lem018976.01">vituli</term> anni presentis.</seg></p>
+                        <p><seg><lb/>Item quinque <term ref="lem019102.01">capre</term> lacticine.</seg></p>                             
+                        <p><seg><lb/>Item una <term ref="lem019103.01">ovis</term> cum <term ref="lem019104.01">agno</term> suo.</seg></p>                               
+                        <p><seg><lb/>Item quatuor <term ref="lem019099.01">porci</term> magni et una porca
+                                        <lb/>ducens quinque nascentes.</seg></p>                               
+                        <p><seg><lb/>Item quinque <term ref="lem019084.03">oce</term> et una duodena 
+                                        <lb/><term ref="lem019105.01">gallinarum</term> cum gallo.</seg></p>                            
+                        <p><seg><lb/>Item <measure type="undefined" unit="carriage" quantity="2">duo currus</measure> nemoris et sex 
+                                        <lb/><foreign xml:lang="fr"><term ref="lem019091.03">ingyni</term></foreign> galice.</seg></p>                             
+                        <p><seg><lb/>Item una carrieta munita suis 
+                                        <lb/>necesariis et una <foreign xml:lang="fr"><term ref="lem019096.03">erseyr</term> de fer</foreign>.</seg></p>
+                        <p><seg><lb/>Item duo iuga ad intergendos boves&#160;; 
+                                        <lb/>una <term ref="lem019094.02">falca</term> cum <foreign xml:lang="fr">le <term ref="lem019097.02">enchapploz</term></foreign>.</seg></p>                             
+                        <p><seg><lb/>Item tres secures tam parve quam magne
+                                        <lb/>et una <term ref="lem019018.01">degleria</term>.</seg></p>                              
+                        <p><seg><lb/>Item quatuor <term ref="lem019106.01">terebra</term> tam parva quam magna 
+                                        <lb/>et unum <foreign xml:lang="fr"><term ref="lem019095.01">exchanproz</term></foreign>.</seg></p>                             
+                        <p><seg><lb/>Item una <term ref="lem019114.01">solleta</term> et una villis <term ref="lem019073.01">ressia</term>.</seg></p>
+                        <p><seg><lb/>Item unus parvus cultellus <foreign xml:lang="fr"><term ref="lem019081.01">parioux</term></foreign>.</seg></p>                               
+                        <p><seg><lb/>Item <term ref="lem019017.01">culcitra</term> et <term ref="lem019074.01">pulvinar</term> unum cum uno 
+                                        <lb/>villi <term ref="lem019016.01">cohopertorio</term>.</seg></p>
+                        <p><seg><lb/>Item duodecim <term ref="lem019087.01">lintheamina</term> pauci
+                                        <lb/>valoris&#160;; unum <term ref="lem019086.02">mantille</term>.</seg></p>
+                        <pb n="471" facs="ACV_AC-29_470_471"/><p><seg><lb/>Item una <term ref="lem019077.02">pesia</term> grosse lane ovis.</seg></p>
+                        <p><seg><lb/>ltem <term ref="lem018667.01">canapis</term> una duodena.</seg></p>
+                        <p><seg><lb/>Item duo <term ref="lem019075.01">poti</term> metalli, unus magnus 
+                                        <lb/>et unus parvus.</seg></p>
+                        <p><seg><lb/>Item una <term ref="lem019011.01">carderia</term> tenoris unius 
+                                        <lb/><term ref="lem019115.01">situle</term> cum dimidia&#160;; due <term ref="lem019079">patelle
+                                        <lb/>pendentes</term>, quarum una est pauci 
+                                        <lb/>valoris.</seg></p>
+                        <p><seg><lb/>Item una <term ref="lem019080.01">patella friseria</term>, 
+                                        <lb/>unus <term ref="lem019076.02">pochon</term> et una <term ref="lem019098.01">echomeria</term>.</seg></p>
+                        <p><seg><lb/>Item una <choice><sic>plvis</sic><corr><term ref="lem019078.01">pelvis</term></corr></choice> pauci valoris.</seg></p>
+                        <p><seg><lb/>Item duo situli&#160;; media <choice><sic>duode</sic><corr>duodena</corr></choice>
+                                        <lb/><term ref="lem019019.01">discorum</term> nemoris, et <term ref="lem019071.01">scutelle</term> nemoris
+                                        <lb/>octo, sinsoriorum octo et totidem de <foreign xml:lang="fr"><term ref="lem019093.01">grelet</term></foreign>.</seg></p>
+                        <p><seg><lb/>Item una scutella magna ad <term ref="lem019089.02">lacces</term>.</seg></p>
+                        <p><seg><lb/>Item una mensa cum <foreign xml:lang="fr">le <term ref="lem017399.02">trabichet</term></foreign>
+                                        <lb/>et <term ref="lem019072.02">scano</term>.</seg></p>
+                        <p><seg><lb/>Item una duodena caseorum.</seg></p>
+                        <p><seg><lb/>Item quatuor poti butiri.</seg></p>
+                        <p><seg><lb/>Item duo poti stanni, de quibus unus 
+                                        <lb/>est villis et pauci valoris.</seg></p>
+                        <p><seg><lb/>Item <term ref="lem019082.01">orreum</term> ante domum.</seg></p>
+                        <p><seg><lb/>Item due <term ref="lem019005.01">benne apium</term>.</seg>
+                            <seg>Que
+                                        <lb/>bona predesignata mobilia et 
+                                        <lb/>et immobilia idem <persName>Jordanus</persName><note>Il s’agit, peut-être, de <persName ref="per016729a">Jordan Rollier</persName>, le fils de <persName ref="per016437a">Margot</persName> et de <persName ref="per012966a">Jean</persName>.</note>
+                                <pb n="472" facs="ACV_AC-29_472_473"/><lb/>promisit juramento suo <abbr>etc</abbr>., et super
+                                        <lb/>obligatione bonorum suorum <abbr>etc</abbr>., 
+                                        <lb/>bene et decenter custodire 
+                                        <lb/>necnon reverendis dominis de capitulo 
+                                        <lb/>venerabilis ecclesie cathedralis <placeName ref="loc009833.04">Beate 
+                                        <lb/>Marie Lausannensis</placeName> bonum et ydoneum
+                                        <lb/>computum reddere dum et quando per eosdem 
+                                        <lb/>fuerit evocatus, cum dampnis 
+                                        <lb/><abbr>etc</abbr>., <choice><abbr>r</abbr><expan>reddere</expan></choice> <abbr>etc</abbr>., fiat <abbr>etc</abbr>.</seg>
+                            <seg><origDate when="1528-10-01" period="P5WD" type="holiday">Datum et 
+                                        <lb/>actum die jovis post festum Beati
+                                        <lb/><persName ref="per000390a.05">Michaelis</persName> archangelli</origDate> in dicto
+                                        <lb/>loco <origPlace ref="loc010907.07">Villarii Tiercellini</origPlace>, <origDate from="1528-01-01" to="1528-12-31">anno 
+                                        <lb/>Domini millesimo quingentesimo vigesimo 
+                                        <lb/>octavo</origDate>.
+                            </seg></p>
+                        <p><seg><lb/><signed><persName ref="per016738a.01">Benedictus de Plathea</persName> <figure type="notarial sign"/></signed></seg></p>      
+                    </div>
+                </body> 
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Les procès de Claude Rolier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-26-1">SDS VD D 1 26-1</ref>&#160;: ACV, Ac 29, p.&#160;443–454</bibl>), Margot Rolier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-31-1">SDS VD D 1 31-1</ref>&#160;: ACV, Ac 29, p.&#160;469–484</bibl>), Françoise Gilliéron (<bibl><ref target="urn:ssrq:SDS-VD-D_1-30-1">SDS VD D 1 30-1</ref>&#160;: ACV, Ac 29,  p.&#160;485–492</bibl>) et Jeannette Vincent (<bibl><ref>SDS-VD-D_2-39-1<!--controler le numéro à la fin--></ref>&#160;: ACV, Bh 10/3</bibl>) font partie d’une nouvelle chasse aux sorciers menée à Dommartin, dans les terres du Chapitre cathédral de Lausanne, au cours des années 1520.</p>
+                <p>L’acte d’exécution de la sentence de Margot Rolier occupe les pages 473 à 484 du registre Ac 29&#160;; les pages 481 à 483 ont été laissées en blanc. Le dos du cahier (p.&#160;484) contient l’intitulé de la pièce. Il s’agit de l’acte original rédigé par Aymon de Vallone, notaire de Lausanne, qui authentifie le document et valide aussi la copie des articles de la confession à l’aide de son signet.</p>
+                <p>L’inventaire des biens de Margot Rolier occupe les pages 469 à 472 du registre Ac 29&#160;; il est donc placé juste avant l’acte d’exécution de la sentence (p.&#160;473–484). Le notaire Benoît de Platea, commissaire aux extentes du Chapitre, authentifie l’inventaire à l’aide de son signet.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

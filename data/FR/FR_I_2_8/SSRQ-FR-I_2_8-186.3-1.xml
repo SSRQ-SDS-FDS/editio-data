@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-186.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 215–217</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 215–217</idno>
+					</msIdentifier>
+					<head xml:lang="de">Barbli Müller-Roggo – Verhör</head>
+					<head xml:lang="fr">Barbli Müller-Roggo – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-08-12"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="215"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1665-08-12">12<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1665</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per018693a">Tobias Gottrau</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><persName ref="per026304a.02">Zurthannen</persName>, <persName ref="per026077a.01">Küenli</persName>, <persName ref="per026128a.02">Kemmerling</persName>, <persName ref="per018085a.01">Adam</persName></seg>
+							<seg><lb/><persName ref="per026091a.03">Vögelli</persName>, <persName ref="per026058a.01">Progin</persName></seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+						<pb n="216"/><p><seg><lb/><persName ref="per026840a.01">Barbli Rogkou</persName>, <persName ref="per026842a.01">Ulli Müllers</persName> von <placeName ref="loc007894.07">Gurmelß</placeName> hußfrouw,
+						<lb/>der <term ref="lem007355.04">unholdery</term> verdacht und über die <term ref="lem016288">inquisitions</term>
+							<lb/>puncten grichtlich examiniert, will darvon kheine <term ref="lem003508.03">wüssen<lb break="no"/>schafft</term> haben noch von einichem <term ref="lem001980.01">geschrey</term> der vögten.</seg> <seg>Sagt,
+						<lb/>daß ihr ußgestandene kranckheit ein ursach sye ihres übel
+						<lb/>ußsehens, sie hab den <term ref="lem017347.02">kritz</term> an ihren angefügt mit einem
+						<lb/><term ref="lem017348.02">strähl</term> gemacht. Will sich anfänglich nit erinneren,
+						<lb/>daß ihr eheman sie <term ref="lem000632">geschlagen</term> habe. Volgents aber hat
+								<pb n="217"/><lb/>sie <term ref="lem016814">vermelt</term>, er habe sie etliche mahlen getroffen. <term ref="lem016063.05">Verlaugnet</term>,
+						<lb/>geredt zu haben, daß die <term ref="lem002179.02">studen</term> sie also verkratzt.</seg> <seg>Sie
+							<lb/><term ref="lem011468.03">bekhent</term>, <add place="above" type="sign">in</add> einen <term ref="lem005658">zeppel</term> mit <persName>Elsi Benninger</persName> gerathen zu syn,
+							<lb/>wylen sie zu ihr gesagt, ob sie nit ihr <term ref="lem000579.10">pferdt</term> geneßen khönte
+						<lb/>und daß der <term ref="lem007098.02">schinter</term> die jenigen, so daran schuldt tragen, daß
+							<lb/>solches <term ref="lem001069.03">roß</term> kranckh worden, werde vor ihrem huß <term ref="lem015736">vermögen</term>,
+						<lb/>welches <persName>Maria Rondi</persName> und <persName>Elsi Müller</persName> auch geredt haben.
+							<lb/>Sie <term ref="lem011468.03">bekhent</term>, umb den wagen gangen zu syn, da sie <term ref="lem000049.01">korn</term> uffm
+							<lb/><term ref="lem000171.07">veld</term> neben anderen persohnen geleßen. Will <subst><del>solches nit</del><add place="above">kein <term ref="lem000579.05">pferdt</term></add></subst> ange<lb break="no"/>rürt,
+							wil weniger <term ref="lem004327.01">inficiert</term> haben.</seg> <seg>Sagt, da sie vernommen, daß
+								<lb/>man sie deswegen <term ref="lem017350.02">verdenckhe</term>, daß sie den <term ref="lem001740.12">geschwornen</term> zu
+						<lb/>der gemelten <persName>Elsi Benninger</persName> geschickt, umb zu wüssen,
+								<lb/>ob sie der wortten wölle <term ref="lem016680.04">khantlich</term> syn. Sie <term ref="lem011468.03">bekhent</term>
+						<lb/>auch, alß ihr <term ref="lem016560">gegenschwester</term> zu ihren gesagt, der <term ref="lem011429.13">böße geist</term>
+						<lb/>habe sie durch die <term ref="lem013468.04">schyben</term> getragen, geandtworttet zu
+						<lb/>haben, sie müsse der jenig geist sein.</seg> <seg>Wytters ist
+						<lb/>sie <term ref="lem011898.06">bekhantlich</term>, by den nachbahren broth abgefordert zu
+						<lb/>haben, solches sye vor und nit hinder die hüßer geschechen.
+						<lb/>Sagt, sie habe vernommen, daß dem <persName>Caspar Audriset</persName> ein
+							<lb/><term ref="lem015570">hengst</term> druff gangen, und anderen anders <term ref="lem000310.11">vech</term>, <add place="above" type="sign">sie</add> will aber
+							<lb/>gäntzlich unschuldig syn. Sie <term ref="lem011468.03">bekhent</term>, von ihrem nachbaren
+						<lb/>namens <persName>Bast</persName>, deme ein <term ref="lem000110.09">ox</term> <term ref="lem017351.02">mißgefallen</term>, fleisch abge<lb break="no"/>fordert zu haben.
+								Wylen aber sie vernommen, daß der <term ref="lem007098.02">schinter</term>
+						<lb/>selbigen uffgehauwen, so habe sie darvon nichts wytters beg<add place="above">e</add>hrt.
+							<lb/>Sagt, daß <persName>Audriset</persName> eine <term ref="lem018855.02">Burgunderin</term> wegen seines verdorbnen
+						<lb/>hengsts <term ref="lem017350.03">verdenckt</term> und vor den <abbr>h<hi rend="sup">r</hi></abbr> schuldtheißen <term ref="lem005750">bescheiden</term> hat.
+						<lb/><add place="left margin">Sie</add> <term ref="lem015124">erhaltet</term>, daß ihre groß unrecht geschicht und thut
+						<lb/>sich <choice><abbr>ü g</abbr><expan>üwer gnaden</expan></choice> empfehlen.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

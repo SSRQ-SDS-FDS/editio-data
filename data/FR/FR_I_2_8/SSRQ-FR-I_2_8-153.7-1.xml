@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-153.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 211–212</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 211–212</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Balmer – Verhör</head>
+					<head xml:lang="fr">Elsi Balmer – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-06-12"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="211"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-06-12">12<hi rend="sup">ten</hi> juni 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <subst><del>Groß</del><add place="overwritten"><term ref="lem018540.04">aman</term></add></subst> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.02">Zurmatten</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<pb n="212"/><p><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note>, eadem die, presentibus
+						<lb/>predictis</foreign></p>
+						<p><lb/><persName ref="per020291a">Elsi Balmer</persName> an die <term ref="lem015170.07">zwehelen</term> <term ref="lem013000.01">tortur</term> aber mahlen
+							<lb/>geschlagen und durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts exa<lb break="no"/>miniert, bleybt bey ihr <subst><del>hartneki</del><add place="inline">beharliche</add></subst> hartnegig<lb break="no"/>kheit,
+							will kheiner unthaten <term ref="lem011898.03">bekhandtlich</term> sein.<seg></seg> Und
+							<lb/>aber als endtlich <add place="inline">sie</add> ernstlich erforschet worden, waß gestalten
+							<lb/>sie doch des <persName>Jasque Krammers</persName>, des <term ref="lem017197">bettelvogten</term> huß<lb break="no"/>frauwen <term ref="lem001284.04">axlen</term> und handt habe <term ref="lem018701.01">eingericht</term>, hat sie
+							<lb/>angezeigt, wie sie <subst><del>e</del><add place="overwritten">s</add></subst>olches vermitelst ein<del>es</del> <term ref="lem015854.04">sëgen</term>,
+							<lb/>so sie von <persName>Maria Egger</persName> selig erlehrnt, zu wegen
+							<lb/>gebracht habe mit volgenden, namlichen worten: <q>Unser
+								<lb/>Liebe Frauw<note>Gemeint ist <persName ref="per000169">Maria</persName>.</note> geth über ein <term ref="lem014441.03">heidt</term>, sie stoßt sich
+							<lb/>an einem stein, sie nimbt ein sältzli und schmältzli
+							<lb/>und gesegnets in namen gott, des vatters und
+								<lb/><choice><sic>und</sic><corr></corr></choice> heilige dreyfaltigkheit.</q> Im übrigen bittet gott
+							<lb/>und <choice><abbr>m G</abbr><expan>meine Gnaden</expan></choice> umb <term ref="lem004684.08">verzüchung</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

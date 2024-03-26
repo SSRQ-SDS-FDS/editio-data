@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.28-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 303–307</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 303–307</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Obertoos-Raeber, Tichtli Jeckelmann-Gauch, Maria Roggo-Conte – Verhör</head>
+					<head xml:lang="fr">Anni Obertoos-Raeber, Tichtli Jeckelmann-Gauch, Maria Roggo-Conte – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-27"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="303"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-07-27">27<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013453a.01">Gady</persName>, <choice><abbr>br</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per012379a.01">Progin</persName>, <abbr>hr</abbr> <persName ref="per013433a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per006528a.03">Possardt</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016996a.01">Anni Räber</persName> ist by voriger <term ref="lem016794.05">bekhandtnuß</term> beständig verbliben
+							<lb/>unnd noch darüber <term ref="lem011468.03">bekhendt</term>, sie habe die frauw <persName>Ap<subst><del>itti</del><add place="overwritten">otte</add></subst>llin</persName>,
+							<lb/><choice><abbr>hrn</abbr><expan>herrn</expan></choice> <term ref="lem006250">venner</term> <persName>Apothels</persName> seligen verlaßne, da sie uß der kirchen
+							<lb/>von <placeName ref="loc007857.06">Didingen</placeName> kham, <term ref="lem017537">angeblaßen</term>, der meinung, sie sterben
+							<lb/>zu machen. Wylen aber sie sich <term ref="lem018239">bezeichnet</term>, habe sie über
+							<lb/>sie nit gwalt gehabt. Der <persName>Ursulen Apothell</persName> selig habe
+							<lb/>sie ein stuchk kuchens geben wöllen, daruff sie wyß
+							<lb/><term ref="lem011439">pulver</term>, so ihren der <persName>Krä<subst><del>uw</del><add place="overwritten">ttz</add></subst>ly</persName> gegeben, gethan hatt. Sy
+							<lb/>aber habe es nit abnemmen wöllen. Sy sye der meinung
+							<lb/>gsyn, sie darmit kranckh zu machen.</seg> <seg>In gemelts
+							<lb/>herren <persName>Apothels</persName> seligen <term ref="lem016582.03">bachoffen</term> habe sie von selben
+							<lb/><term ref="lem011439">pulver</term> geworffen, das sie ein zyttlang nichts haben
+								<lb/>darinnen bachen mögen. Mehr habe sie den <choice><abbr>hrn</abbr><expan>herrn</expan></choice> <persName>Apothel<lb break="no"/>s</persName>, syn hußfrauw, desselben <term ref="lem000130.03">khinder</term> unndt <term ref="lem016889.04">hußgenossen</term>,
+							<lb/>do sie miteiner wahrend, mit grauwen <term ref="lem011439">pulver</term>, so sie
+								<lb/>im maul hatte, <term ref="lem017537.02">angeblaßen</term>. Des willens, sie darmit zu
+							<lb/>bekränckhen, darab sie auch kranckh unndt <term ref="lem015098">übelmögend</term>
+							<lb/>worden. Ein anders mahl habe sie angedütne <persName>Ursell Apothel</persName>
+								<pb n="304"/><lb/>mit selbigem <term ref="lem011439">pulver</term> <term ref="lem017537.02">angeblaßen</term>, das sie darab kranckh
+							<lb/>werden unndt sterben solle, so auch glych hernach geschechen.</seg>
+							<seg><lb/>Erfragt, welliche die syend, die sie in der <term ref="lem017042.04">seckht</term> gesehen,
+							<lb/>sagt, sie habe vihl statt- unndt landtlüthen in underschyden<lb break="no"/>lichen <subst><del>krätzli</del><add place="inline">kleideren</add></subst> dahär <subst><del>zh</del><add place="inline">ziehend</add></subst> gesehen, aber
+							<lb/>niehmand erkhendt als die <persName ref="per017000a">Tichtli Jeckhelmanin</persName> unndt
+							<lb/>die <persName ref="per017006b">Muß Maria</persName>. Die <persName ref="per017000a">Jeckhelmanin</persName> sye die dritte
+							<lb/>nach der fürnembsten geweßen, die erste unndt fürnembste
+							<lb/>sye ein stattfrauw mit einem brunen, die andere
+							<lb/>auch ein stattfräuwlyn mit einem blauwen <term ref="lem016886.03">rockh</term> ge<lb break="no"/>weßen.</seg> <seg>Die <persName ref="per017000a">Jekhelmannin</persName> habe daselbsten in der <term ref="lem017042.04">seckht</term>
+								<lb/>mit dem <persName ref="per029442a.01">Krätzly</persName> gedantzet, sie habe ein wyße hu<subst><del>ß</del><add place="overwritten">be</add></subst>n
+							<lb/>angehabt unndt <term ref="lem000187.13">spyßen</term> in ihr <term ref="lem015804">fürtuch</term> getragen. Sie aber
+								<lb/>sye die minste unndt geringste gsyn, wylen sy die heil<lb break="no"/>lige <persName ref="per000169">Maria</persName> nit <term ref="lem016063.05">verlaugnet</term>. Die <persName ref="per017006b">Muß Maria</persName> sye
+							<lb/>auch <del>alda</del> 5 underschydenliche mahlen, glych wie die
+							<lb/><persName ref="per017000a">Jekhelmannin</persName>, <subst><del>by</del><add place="inline">in</add></subst> der <term ref="lem001528.03">auw</term> by <placeName ref="loc008046.03">Ottißberg</placeName> <subst><del>erschinnen
+							<lb/>unndt alda </del><add place="inline">mit einer schwartzen</add></subst> cappen erschinnen,
+								<lb/>undt mit dem <persName ref="per029442a.01">Krätzly</persName> <term ref="lem018316.02">kumpet</term> unndt gedantzet.
+							<lb/>Die <persName ref="per017006b">Muß Maria</persName> habe zerlumpete, <term ref="lem006166.06">böß</term> kleider angehabt.
+							<lb/>Die <persName ref="per017000a">Jekhelmannin</persName> unndt die <persName ref="per017006b">Muß Maria</persName> syendt <term ref="lem017464">mithin</term>
+							<lb/>im dantz zu boden gefallen, wüsse aber nit eigendtlich,
+							<lb/>waß sie mit dem tantzer gethan habend. Sagt, sie
+							<lb/>wölle es ihnnen bständig vorsagen unndt darby, wylen
+							<lb/>es wahr ist, ohne verenderung verblyben.</seg></p>
+							<p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><persName ref="per017000b">Tichtli Gauch alias die Jekhellmannin</persName> ist by ihren
+							<lb/>vorigen verneinen ohne einiche <term ref="lem016794.05">bekhandtnuß</term> verbliben
+							<lb/>unndt angezeigt, es werde sich nit befinden, das sie
+							<lb/>ein <term ref="lem006693.08">häx</term> seye. Wölle auch daruff gahn sterben, das
+							<lb/>sie niehmahlen in der <term ref="lem017042.05">seckt</term> erschinnen unndt nichts
+							<lb/>dahin getragen habe. Die jenigen, so sie darfür haltend,
+							<lb/>unndt deßwegen angeklagt habend, thüyend ihren
+							<pb n="305"/><lb/>unrecht wie <term ref="lem018317.02">fuhle</term>, faltsche ehrendieben.</seg> <seg>Die <persName ref="per016996a.01">Anni Räber
+							<lb/>alias Obertooßina</persName>, wan sie sie angeben, so rede sie wie ein
+							<lb/><term ref="lem018317.02">fuhle</term>, niehtwärtige frauw. Bittend, man solle einer solchen
+							<lb/>verlognen ehrendiebin khein glauben geben. Sie könne nit
+								<lb/><term ref="lem011468.04">bekhennen</term>, waß sie nieh im sinn gehabt noch begangen und
+							<lb/>verbracht hatt.</seg></p>
+						<p><seg><lb/>Alß die <persName ref="per016996b">Obertooßina</persName> ihren vorgestelt unndt mit ein
+							<lb/>ander <term ref="lem018944.01">confrontiert</term> worden, hatt sie mit hievorgemelten
+							<lb/><term ref="lem015276.02">circumstantzen</term> ihren vorgesagt, sy sye mit ihren in der <term ref="lem001528.03">auw</term>
+							<lb/>by <placeName ref="loc008046.03">Ottißberg</placeName> <subst><del>alda</del><add place="inline">fünff</add></subst> mahl in der <term ref="lem017042.04">seckht</term> gsyn. Alda
+							<lb/>sy von den fürnembsten gweßen unndt mit dem <persName ref="per029442a.01">Krätzly</persName>
+							<lb/>gedantzet habe. Sie habe zum <term ref="lem010889.03">worttzeichen</term> ein schwartz
+							<lb/>käplyn, ein wyße huben unndt ein schwartzes <term ref="lem015804">fürtuch</term>,
+							<lb/>darin sie etwas getragen, angehabt. Könne unndt möge
+							<lb/>sie nit <term ref="lem006220.04">endtschlagen</term>, wylen sie sie gwüßlich alda, wie vor<lb break="no"/>gemelt, gesehen. Wölle auch daruff gahn sterben, daß sie
+							<lb/>ein <term ref="lem007356">unholdin</term> sye.</seg> <seg>Hieruff angedütne <persName ref="per017000a">Jeckhellmannin</persName>
+							<lb/>ihren gesagt, sie habe es, mit ihren zu melden, <term ref="lem006104.03">erhüyet</term>
+							<lb/>unndt erlogen. Gott, den allmächtigen, bittend unndt an<lb break="no"/>ruffend, er wölle ihren gnädig bystahn unndt durch et<lb break="no"/>was ein zeichen ihr unschuldt lassen am tag khommen.
+							<lb/>Dan sie woll wüsse, das sie nit ein solliche seye.</seg> <seg>Hingegen
+							<lb/>hatt ihren die <persName ref="per016996b">Obertoosina</persName> ohne einiche enderung bständig
+								<lb/>vorgehalten unndt gesagt, <add place="above">wan</add> sie es <term ref="lem001931.09">läugnen</term> wölle, so rede sie
+								<lb/>faltsch. Dan sie sye so woll ein <term ref="lem006693.08">häx</term> wie sie, daruff
+							<lb/>sie ein ander mit vihl wortten mehr dan 30 mahl haben
+							<lb/>heissen <term ref="lem001930.02">erliegen</term>.</seg></p>
+						<p><lb/>Demnach wardt die <persName ref="per016996b">Obertoosina</persName> absönderlich angefragt,
+							<lb/>ob sie <term ref="lem008937.03">etwan</term> angedütne <persName ref="per017000a">Tichtli</persName> nit uß zorn oder
+							<lb/><term ref="lem014610.07">raachgyrigkheit</term> angeben unndt anklagt habe. Hierüber
+							<lb/>sie geandtworttet nein, sy thüye ihren nit unrecht.
+							<lb/>Habe auch khein unwillen <subst><del>wider</del><add place="inline">oder</add></subst> zorn wider sie noch
+							<lb/>die ihrigen gehabt. Darby sie beständig verbliben.</p>
+						<pb n="306"/>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017023">Margreth Boschung-Dedelley</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-122.5-1">SSRQ FR I/2/8 122.5-1</ref>.</note></p>
+						<p><seg><lb/><persName ref="per017006b">Maria Conte alias Muß Maria</persName>, die kranckh ist, hatt
+							<lb/>nüt <term ref="lem011468.04">bekhennen</term> wöllen. Anzeigend, es habe niehmandt
+							<lb/>ihren <term ref="lem006693.08">häx</term> gesagt als die zu <placeName ref="loc008855.02">Wyttenbach</placeName>. Werde sich nit
+							<lb/>befinden, das sie ein solche sye. Sie sye zwar uff des
+							<lb/><persName>Nicoudt Wäbers</persName> von <placeName ref="loc010969">Räsch</placeName> lähren wagen mehrmahlen
+							<lb/>gesessen, ihme aber noch synen <term ref="lem000579.12">pferdten</term> nüt leydts gethan.</seg>
+							<seg><lb/>Wan die <persName ref="per016996b">Obertoosinna</persName> sage, das sie sie in der <term ref="lem017042.04">seckht</term> gesehen,
+								<lb/>sye woll zu friden, es zu <term ref="lem011468.04">bekhennen</term>. <subst><del>S</del><add place="inline">Vermeine</add></subst> aber nit,
+							<lb/>das sy es reden werde, dan sie sye woll vergwüsset, das
+							<lb/>sie khein häx, auch niehmahlen daselbsten erschinnen sye.</seg>
+							<seg><lb/>Darüber, als sie mit ein ander <term ref="lem018944.01">confrontiert</term> warend
+							<lb/>unndt die <persName ref="per016996b">Obertoosinna</persName> ihren vorgesagt, sy sye ein
+							<lb/>häx so woll als sie, habe sie <add place="above">auch</add> fünff underschydenliche
+							<lb/>mahlen in der <term ref="lem017042.05">seckt</term> undenthalb <placeName ref="loc008046.03">Ottißberg</placeName> gesehen,
+							<lb/>alda sie <subst><del>die</del><add place="inline">von den</add></subst> geringsten häxen gsyn unndt
+								<lb/>mit dem <persName ref="per029442a.01">Krätzly</persName> gedantzet habe; sie sye nit <term ref="lem018296">verbutzt</term>
+							<lb/>noch verkleidt gsyn, habe sie gar woll erkhendt. Unndt
+							<lb/>da sie wegen ihrrer <term ref="lem000116.15">hünneren</term> unndt <term ref="lem000118.03">eyeren</term> mit einander
+							<lb/>stryttig gsyn, habe ihren die <persName ref="per017006b">Muß Maria</persName> gesagt, <add place="above">das</add> ihre
+							<lb/><term ref="lem000116.12">hüner</term> <subst><del>werdendt</del><add place="inline">nit</add></subst> mehr <term ref="lem018319.02">leggen</term> werdend.</seg> <seg>Hieruff
+							<lb/>die <persName ref="per017006b">Muß Maria</persName> gesagt unndt ihren <term ref="lem016814">vermeldt</term>, sie habe
+							<lb/>es, <foreign xml:lang="la">reverenter</foreign>, <term ref="lem006104.03">erhyet</term> unndt erlogen wie ein <term ref="lem018317.02">fuhle</term>
+							<lb/>häx. Sy thüye ihren grob unrecht, dan sie sye khein
+							<lb/>häx. Werde sich auch nieh befinden, das sie in der <term ref="lem017042.04">seckht</term>
+							<lb/>noch in derglychen versamblungen niehmahlen erschinnen. Sie
+							<lb/>solle doch in sich selbsten gahn und woll lugen unnd
+							<lb/>denckhen, das sie sich mit diser faltschen anklag nit
+							<lb/>verdamme. Belangend die <term ref="lem000116.12">hüner</term> unndt <term ref="lem000118.03">eyer</term> sagt,
+							<lb/>es sye war, das sy wegen ihrer verlohrnen <term ref="lem000118.03">eyeren</term> mit
+							<lb/>ein ander <term ref="lem016462">gebalget</term>. Habe aber nit unrecht gehabt, dan
+							<pb n="307"/><lb/>sie, die <persName ref="per016996b">Obertoosinna</persName>, hab ihren ein <term ref="lem001813.05">hännen</term> mit dem, so
+							<lb/>sie ihren fürgeworffen, machen zu <term ref="lem005335">verderben</term>. Thüye ihren
+							<lb/>in allem <subst><del>un</del><add place="overwritten">ge</add></subst>walt unndt unrecht.</seg> <seg>Daruff die <persName ref="per016996b">Ober<lb break="no"/>toosina</persName> ihren <term ref="lem016814">vermeldt</term>, sy thüye ihren nit unrecht, dan
+							<lb/>sie sye so woll ein häx als sie. Welches sie mehrmahlen
+							<lb/><term ref="lem006137.05">eräfferet</term> unndt <subst><del>darbly</del><add place="inline">darby</add></subst> bständig verbliben.</seg> </p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

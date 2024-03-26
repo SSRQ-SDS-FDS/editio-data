@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-130.18-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 198 (1647), S. 314–315</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 198 (1647), p. 314–315</idno>
+					</msIdentifier>
+					<head xml:lang="de">Louis Andrey, Clauda Mury-Favre – Anweisung und Urteil</head>
+					<head xml:lang="fr">Louis Andrey, Clauda Mury-Favre – Instruction et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-07-06">6 <foreign xml:lang="la">julii</foreign> 1647</origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="314"/><p><lb/>Gefangne</p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<p><lb/><persName ref="per017761a.01">Louys Andrey</persName>, originel de <placeName ref="loc007852.05">Chastel Crisou</placeName>, demeurant a <placeName ref="loc008141.05">Vuister<lb break="no"/>nens</placeName>, der <subst><del>hechs</del><add place="overwritten"><term ref="lem014672.03">hexery</term></add></subst>
+							wegen yngezogen, hatt das <term ref="lem006591">seil</term> lär ohne <term ref="lem016794.09">be<lb break="no"/>khandtnus</term> erlitten. Werde er <term ref="lem006220">entschlagen</term> oder nit, soll man
+							<lb/>mit ihme dem <term ref="lem002679.15">keyßerlichen rechten</term> volkhomlich <term ref="lem010306">fürfahren</term>,
+							<lb/>wylen das <term ref="lem003708">examen</term> gar <term ref="lem018380">wichtig</term>.</p>
+						<p><gap reason="irrelevant"/><note>Die nächsten Abschnitte betreffen andere Themen.</note></p>
+						<p><lb/><term ref="lem004395.05">Bluttgericht</term></p>
+						<p><lb/><persName ref="per017746a">Clauda Favre</persName>, welche gott <term ref="lem016063.05">verlaugnet</term> unnd dem <term ref="lem014673.16">bößen feind</term>
+							<lb/><term ref="lem000374.01">gehuldiget</term>, unnd von demselben materien empfangen, durch
+							<lb/>welche sie <term ref="lem000075.13">lüth</term> unnd <term ref="lem000310.14">viech</term> beschädiget, auch zu underschydlichen
+							<pb n="315"/><lb/>mahlen den <term ref="lem007347">hagel</term> mit anderen hatt helffen machen. Ist zum <term ref="lem012936.03">füwr</term>
+							<lb/>verurtheilt worden, mit confiscation ihrer gütteren, unnd uß gnaden
+							<lb/>soll sie <term ref="lem017539">stranguliert</term> werden. Hiemit gnad gott der seel.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-52-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+                  <idno xml:lang="fr">AVN GA Mn1 B 103.01.05</idno> 
+               </msIdentifier>
+               <head>Ordonnance des Douze cantons sous forme d'arbitrage entre le conseil de ville et les
+                  bourgeois de Neuchâtel, instituant le conseil des quarante et réglant divers points
+                  contestés</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="68.5"/>
+                              <width unit="cm" quantity="54.3"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="absent" ns0:attachment="sealed on a parchment tag"/>
+                     <seal n="2" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1522-05-19"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_142">SDS NE 1, N<hi rend="sup">o</hi>&#160;52</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key005189"></term>
+               <term ref="key000266"></term>
+               <term ref="key000902"></term>
+               <term ref="key000047"></term>
+               <term ref="key005369"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="AVN_GA_Mn1_B_103.01.05"/>
+               <div>
+                  <p><seg><lb/>Nous les ambassadeurs des douze quantons des Ligues, assavoir de
+                     Zurich&#160;: messire <persName ref="per006086">Felix <lb/>Grebel</persName> chevalier&#160;;
+                     de Berne&#160;: messire <persName>Kaspare de Melune</persName>,
+                     chevallier&#160;; de Luzernne&#160;: <persName>Hans Zoger</persName>&#160;; de
+                     Ury&#160;: <persName>Henry Arnoult</persName>&#160;; de Schwytz&#160;:
+                        <persName>Adryan Fischer</persName>&#160;; de Undrewalde&#160;:
+                        <persName>Niclaus Halter</persName> alors bailly&#160;; de Zug&#160;:
+                        <persName>Arnoult Brandemberg</persName>, borcier&#160;; de
+                     <lb/>Glaris&#160;: <persName>Bernnard Schiesser</persName>&#160;; de
+                     Basle&#160;: <persName>Hans Graff</persName>&#160;; de Frybourg&#160;: messire
+                        <persName>Humbert de Praroman</persName>, chevallier&#160;; de
+                     Salleurre&#160;: <persName>Thurs Startz</persName>, tous conseilliers ayans
+                     puyssance du canthon de Schaffhuse transmis par noz seigneurs supperieurs
+                     <lb/>pour oyr les comptes et aultres noz negoces, faysons scavoir a tous ceulx
+                     qui ces presentes lettres verront et orront, comme ainsin soit que grands
+                     desbas, questions et differans soyent estez esmeuz, esperant de plus grand
+                     esmouvoir <lb/>entre les quatre ministraux et aultres conseilliers de la ville
+                     de Neufchastel d’une part, et les gens de la communaultey tant dedans ladite
+                     ville que d’aultres bourgeois de dehors de ladite ville d’aultre part, <lb/>en
+                     et sur ce que lesdits de ladite communaultey demandoyent soixante hommes que se
+                     deussent eslire tant par lesdits quatre ministraulx que par les bourgeois pour
+                     tousjours conseillier et adviser pour l’utilitey, gouvernement <lb/>et prouffit
+                     de ladite ville et qu’il se puyssent changer par an ou laisser ou remectre des
+                     aultres en lieux d’iceulx.</seg> <seg>Item demandoyent lesdits de ladite communaultey
+                        et disoyent que lesdits quatre ministraulx et <lb/>conseil ne puyssent
+                        vendre, engaiger ny aliener des biens de ladite ville sans le vouloir et
+                        consentement des dits soixante ou nom desdits bourgeois, excepter et
+                        reservez a eulx lesdits ministraux et conseil l’auctoritey <lb/>et puyssance
+                        de polvoir cinquer et donner juridicquement ainsy que l’on a fait du passez
+                        tant aux seigneurs circonvoysins nos biens vueillans que aulcunes foys
+                        viegnent en ladite ville. Semblablement <lb/>demandoyent ausdits quatre
+                        ministraux et conseil qu’il ne puyssent ne deussent fayre nul marchier pour
+                        ladite ville ny maisonner sans le vouloir et consentement desdits soixante
+                        ny fayre election <lb/>tant pour aller en guerre que ailleurs, sans le
+                        vouloir desdits soixante, sans y comprendre l’election desdits vingt quatre
+                        du conseil.</seg>
+                     <seg>Demandent aussy lesdits de la communaultey que <lb/>lesdits quatre
+                        ministraux se doigent eslire par les bourgeois tant de dedans que de dehors
+                        en suyvant la franchise&#160;; et pour eviter la poine de tousjours
+                        assambler lesdits soixante, demandoyent que <lb/>desdits soixante en fussent
+                        esliz quatre au nom d’iceulx pour suppourter la poine desdits quatre
+                        ministraulx.</seg>
+                     <seg>Item demandoyent ung taxeur du commung pour taxer avec son compaignom et
+                        ung borcier que se <lb/>dehut eslire par lesdits bourgeois en general. Et
+                        quant l’on vouldra rendre les comptes pour ladite ville que l’on dehut
+                        eslire de la part dudit commung huit personnes, lesquelx se esliront tant
+                        par lesdits quatre <lb/>ministraulx que par lesdits bourgeois. En oultre
+                        demandoyent lesdits de ladite communaultey ausdits vingt quatre du conseil
+                        qu’il deussent tenir et rendre compte de toute la recepte de ladite ville de
+                        plussieurs <lb/>années dont lesdits comptes rendus du temps passez lesdits
+                        de la communaultey ont les papiers et comptes riere eulx, et mesmement des
+                        harnoys et colovrines, presses de fert, coings de fert, borrel, traisais et
+                        <lb/>aultres baigaiges et des esmendes de cent solz tant de guerre que
+                        aultres, comme des cinq cens frans que feuz monseigneur <persName>Loys
+                           d’Orleans </persName>donna a ladite ville de bonne estraynne pour sa
+                        bienvenue, et de mille <lb/>libvre que <persName ref="per010710a">Pierre
+                           Hardy</persName> et <persName>Jehan Coquillion </persName>avoyent
+                        recouvrer ensamble de unze cens et plus que leurs estoyent dehus. Demandent
+                        aussy les obligiers en quoy ladite ville estoit obligée comme Schaffhuse et
+                        <lb/>ailleurs et que iceulx soyent remis en leurs mains. Et en oultre cent
+                        escux que <persName>Georges du Scel </persName>a donné et cent florins d’or
+                        de Rin pour ceulx de <placeName>Budevillier </placeName>et plussieurs
+                        aultres demandent faysoyent ladite <lb/>communaultey ausdits du conseil,
+                        tant des deniers du Chablay que aultres que disoyent estre perdus.</seg> 
+                     <seg>Contre lesquelles demandes faictes par lesdits de la communaultey
+                        iceulxdits du conseil respondent <lb/>que des soixante hommes qu’il
+                        demandent avoir pour l’affayre de ladite ville que tant a eulx que a ladite
+                        communautey par mes tres honnorez et redoubtey seigneurs fut deffendus et
+                        inhibir non debvoir <lb/>tenir ny avoir conseil en ladite ville aultre que
+                        celluy desdits vingt quatre sur poine de leurs estre deshobeissans et
+                        infraindre la frainchisse de ladite ville&#160;; et plussieurs aultres
+                        raysons et causes respondirent <lb/>non estre entenus ce fayre, affin que ne
+                        fussent contredisant a la dite ordonnance faicte par mesdits seigneurs
+                        laquelle ils laissarent par despart. Et tant qu’il touche au second article
+                        demandez par <lb/>ladite communaultey qu’il disoyent et vouloyent que
+                        lesdits quatre ministraulx et conseil ne puyssent ne deussent vendre, donner
+                        ny aliener des biens de ladite ville sans le vouloir et consentement
+                        <lb/>desdits soixante, respondent les dits du conseil qu’il sont contens et
+                        d’acord de non fayre vendicion ny acquisicion ny aussy ediffices de ville
+                        sans y demander et en appeller ladite communaultey comme tous jours <lb/>il
+                        ont fait du passez.</seg>
+                     <seg>Et quant au tier article que lesdits quatre ministraulx et conseil ne
+                        puyssent fayre nul marchier de ville ne fayre nul maysonnement ny election
+                        tant d’aller en guerre que <lb/>ailleurs sans le vouloir de ladite
+                        communaultey, respondent lesdits vingt quatre quant ausdits marchiers et
+                        maysonnement qu’il sont contens de non en fayre sans le consentement de
+                        ladite communaultey.</seg> <seg>Et <lb/>quant aux elections des guerres et
+                        aultres, disent lesdits vingt quatre que toutes elections leurs
+                        appartiengnent et qu’il en ont tousjours heuz du temps passez la joyssance
+                        et election, mesmement <lb/>des quatre ministraulx. Et combien que ladite
+                        communaultey demande que lesdits quatre ministraulx se doigent eslire par
+                        eulx, lesdits du conseil respondent que c’est a eulx a qu’il appartient
+                        ladite <lb/>election comme tousjours il ont fait du passez comme dit est. Et
+                        de prendre quatre hommes hors de ladite communaultey pour suppourter lesdits
+                        quatre ministraulx et ung taxeur ensamble de l’election <lb/>dudit bourcier
+                        avec les vingt quatre, respondent iceulxdits du conseil que ce ne fut jamays
+                        fait et que ancor ne l’entendent le fayre. Et sur l’article que lesdits de
+                        la communaultey demandent estre <lb/>esleuz huit hommes d’icelle
+                        communaultey tant par lesdits ministraulx que eulx, respondent lesdits du
+                        conseil qu’ils ont tousjours du passez prins et esleuz de ladite
+                        communaultey quatre en ladite ville et quatre de <lb/>dehors que sont huit
+                        personnes avec les quatre ministraulx vieulx et nouvel, et que aultrement il
+                        n’estoyent entenus fayre que ainsy que ont fait du temps passez. Touchant
+                        les demandes faictes par <lb/>ladite communaultey tant pour les comptes de
+                        la ville que de plussieurs grosses sommes d’argent cy devant notées, aussy
+                        de plussieurs meubles, ferrementes et harnoys, respondent lesdits vingt et
+                        quatre <lb/>que lesdits comptes sont toujours estez rendus par huit
+                        personnes dudit commung et par huit du conseil et n’entendent-il avoir nulle
+                        fraude ny barat, sy n’y estoit estez mis par ignorance. Et entendent que
+                        <lb/>les biens meubles, ferrementes et harnoys il entendent qu’il doigent
+                        estre ancor en bon estre, reservez quelque ferrementes que l’on a employer
+                        pour le prouffit de ladite ville. Et quant aux grosses sommes <lb/>d’argent
+                        pretendues, disent lesdits vingt quatre en avoir respondus et desclairez la
+                        ou icelles sommes ont estées delivrées, tant en rehemptions de censes que
+                        ladite ville debvoit que a aultres choses a icelle <lb/>necessayre que
+                        seroyent trop prolixes d’escripre.</seg>
+                     <seg>Sur lesquelz desbas et differans, nous lesdites ambes parties, desirans
+                        venir en bonne paix, pacifficacion et concorde, a la priere et requeste de
+                        <lb/>plussieurs gens de bien nous biens vueillans, nous sommes mis et
+                        condescendus en amyable compromis en et sur nostre tres chier et honnorez
+                        seigneur monseigneur le bailly de ce contey de Neufchastel,
+                           <persName>Nicolas Halter</persName>
+                        <lb/>de Undrewalde, auquel avons donnez et octroyer et par ces presentes
+                        donnons et octroyons, pour nous et nos successeurs, entiere puyssance et
+                        facultey touchant iceulxdits nous desbas et differans ycy dessus
+                        <lb/>mencionnez debvoir et polvoir nous paciffier, accorder et unir et de ce
+                        en fayre desclairacion sans ce que pour ses dessusdits articles nous
+                        doigeons a tout jamays de sadite sentence arbitrayre <lb/>rappeller ny tirer
+                        journée par devant noz seigneurs supperieurs ny en justices spirituelle ny
+                        temporelle, comme ce avons promis et jurez es mains des notayres soubscript
+                        comme sur sains euvangilles de Dieu <lb/>et soubz l’expresse obligacion et
+                        ypothecque d’ung chascun nous biens presens et advenirs et de ceulx de nous
+                        successeurs.</seg> <seg>Et moy le dessusdit bailly, par ordonnance et
+                        commandement a moy fait <lb/>par messeigneurs supperieurs estans assemblez a
+                        Zurich, pour bien de paix entre lesdites partyes, ait prins la charge pour
+                        debvoir appointer et accorder, touteffoys par l’advis de mesdits seigneurs
+                        les ambassadeurs <lb/>des Ligues ycy devant nommez et après avoir oyr les
+                        droys, accusacions, doleances et articles ycy dessus mencionnez, ait
+                        prononcez et sentencez, prononce, ordonne et sentence par vertus de la
+                        puyssance a moy donnée comme dessus en la mode et maniere quii
+                        s’ensuyt&#160;:</seg>
+                     <seg n="1">Premierement que bonne paix, amour, dilection et fraternitey soit
+                        et doige demourer entre lesdits du conseil et ladite <lb/>communaultey.
+                        </seg> <seg n="2">En après que tous papiers, tant des comptes de ladite
+                        ville que aultres lectres faysant et servant a icelle que lesdits de la
+                        communaultey doigent et soyent tenus des maintenant <lb/>iceulx rendre et
+                        restituyr ausdits vingt quatre du conseil, pour iceulx papiers et lectres
+                        restablir et remectre aux secretz et fermeture de ladite ville, ainsin que
+                        avant cedit desbas il estoyent&#160;; touteffoys <lb/>que lesdits du conseil
+                        en auront deux clefz et ceulx de ladite communaultey aultres deux, affin que
+                        les libertés, frainchisses et papiers de ladite ville puyssent tant myeulx
+                        estre gardées pour lesdites <lb/>deux parties.</seg> <seg n="3">Item ait
+                        pronuncez et pronunce par cesdittes presentes que l’ont doige commectre et
+                        prendre trante hommes de dedans la communaultey de ladite ville et dix
+                        hommes des bourgeois de dehors <lb/>que seront en nombre quarantes hommes
+                        lesquelx seront pour ceste premiere foy esluz par moy ledit bailly avec
+                        aulcungs aultres commis&#160;; lesquelx quarante hommes doresenavant seront
+                        demandez et <lb/>appeliez par lesdits vingt et quatre quant l’on vouldra
+                        fayre ediffices, bastiment ou maysonnement ou quant l’on vouldra acheter,
+                        vendre, engaigier ou prester chose que touche au fait de ladite ville et
+                        bien <lb/>publicque. Et semblablement quant l’on vouldra mectre et fayre
+                        admodiacions et fermes, tant des fours, mollins, halle, Chablay que
+                        thieulles choses&#160;; touteffoys reservez que s’il survenoit aulcungs gros
+                        <lb/>affayre trop pesant a passer par lesdits vingt quatre et quarante, que
+                        alors il pourront assembler pour leursdites affayres la reste de ladite
+                        communaultey, le tout sans fraude ny agueitz&#160;; et ce que a la
+                        <lb/>reste sera fait par lesdits vingt quatre du conseil et lesdits quarante
+                        de la communaultey touchant les affayres de ladite ville debvra tenir et
+                        avoir lieu sans appeller ny debvoir demandez <lb/>la reste de ladite
+                        communaultey.</seg>
+                     <seg n="4">Item ait pronnuncez et pronnunce par cesdites presentes que quant
+                        lesdits vingt quatre du conseil auront demandez lesdits quarante pour
+                        aulcunes causes pour debvoir venir en <lb/>conseil et aulcungs desdits
+                        quarantes y estoyent deffaillant, que pour ce ne doit aulcune chose demourer
+                        a fayre ains que le plus de voix doige passer et avoir lieu. Et quant
+                        aulcungs desdits <lb/>quarantes hommes yroyent de vie a trespas, ou que par
+                        inconveniens il se meffissent ou que par lesdits vingt quatre avec la reste
+                        des dits quarante y heussent congier, alors s’en esliront aultres par
+                        <lb/>ledit conseil et la reste desdits quarante jusques au nombre du
+                        deffaillant, soit ung ou plussieurs. </seg> <seg n="5">Item ait pronnuncez
+                        et pronnunce par cesdites presentes que lesdits vingt quatre dudit conseil
+                        auront toutes elections <lb/>d’officiers et mectre officiers de ville comme
+                        anciennement et coustumierement il en ont user et joyr au temps
+                        passez.</seg>
+                     <seg n="6">Toutesffoys que lesdits vingt quatre avec lesdits quarante
+                        esliront huit hommes de ladite communaultey <lb/>pour oyr les comptes
+                        general de ladite ville que se doibvent rendre une foys l’année&#160;; et ce
+                        que par iceulx commis dudit conseil et lesdits huit de ladite communaultey
+                        sera fait et passez, doige tenir et avoir <lb/>lieu et demourer ferme sans y
+                        contrevenir. </seg> <seg n="7">Et quant aux taxeurs accoustumez, a estez
+                        dit et pronnoncez que lesdits taxeurs seront esleuz par lesdits vingt quatre
+                        du conseil et lesdits quarantes par <lb/>ensamble&#160;; combien que lesdits
+                        taxeurs seront tousjours du nombre des vingt quatre.</seg>
+                     <seg n="8">Et se par la faulte desdits taxeurs les choses n’estoyent bien
+                        conduytes, lesdits de la communaultey en pourront <lb/>fayre doleance a la
+                        seigneurie et au conseil, lesquelx alors seront tenus il pourveoir de
+                        souffizant remede et y en mectre d’aultres ydonnes et souffizans, affin que
+                        le bien publicque de ladite <lb/>ville soit tousjours gardez et
+                        augmentez.</seg>
+                     <seg n="9">Et tant qu’il touche a l’election des gens pour aller a la guerre,
+                        ladite election se fera comme il est contenus en la frainchisse de ladite
+                        ville et <lb/>non aultrement.</seg>
+                     <seg n="10">Au surplus toutes preminences, previlege et doictures desdits
+                        vingt quatre demeurent et demeuront en leurs entiers ainsin que de toute
+                        anciennetey il en ont joyr. Et ne <lb/>doit ce present instrument nuyre a la
+                        seigneurie aulcunement ny a la franchise de ladite ville ains demeure
+                        tousjours en sa force et vigueur.</seg>
+                     <seg n="11">Item ait pronnuncez et pronnunce par ces presentes <lb/>que
+                        toutes greuses et demandes faictes par lesdits de ladite communaultey
+                        ausdits vingt quatre du conseil pour quelque causes ou rayson que ce soit
+                        pour le fait de ladite ville et mesmement pour <lb/>les comptes et demandes
+                        fait et prétendus par lesdits de la communaultey que toutes et une chascune
+                        d’icelles doigent estre abolies et mises a neant sans jamays en riens
+                        demander ausdits <lb/>vingt quatre ny a leurs hoirs ny successeurs, ains
+                        demeureront lesdites deux parties par vertus de ceste pronunciacion bons
+                        amys et freres comme du passez par avant cedit desbatz estoyent <lb/>et
+                        avoyent accoustumez.</seg>
+                     <seg n="12">Et tant qu’il touche aux frays et missions faictes et soubtenues
+                        par lesdites ambes parties en demenant cestuy affayre, seront et demeureront
+                        sur la bouree de <lb/>ladite ville en general, sans ce que nully
+                        particulièrement en doige rien payer de toutes parties, vehus et considerez
+                        que le tout a estez fait en pretendant fayre le bien et prouffit d’icelle
+                        ville. </seg> <seg><lb/>Et nous les dessus dites ambes parties, assavoir du
+                        conseil et de la communaultey, louhons, ratiffions, confirmons et approuvons
+                        ceste presente perpetuelle pronunciacion, tout ainsin et <lb/>pareillement
+                        que cy dessus est dit, pronuncez et desclairez par nostre dit seigneur
+                        bailly et arbitre. Et de ce avons promis et promectons par noz bonnes foys
+                        et seremens que dessus et soubz <lb/>l’expresse ypothecque et obligacion de
+                        nosdits biens contre ceste presente et perpetuelle pronunciacion non fayre,
+                        dire ne venir par nous ne par aultres secretement ny ouvertement, die ou
+                        face <lb/>ou contrayre nullement ou temps advenir. Renunceant par ce, nous
+                        les dessusdites parties en tant que a une chascune de nous touche, compete
+                        et peult appartenir, a toutes et singulieres <lb/>excepcions, allégations,
+                        cauthelles, deffences et raysons qui tant de fait comme de droit et de
+                        coustume de pays ou de lieux que nullement pourroyent estre dictes,
+                        alleguées ou proposées contre la <lb/>teneur desdites presentes du tout en
+                        tout renunceant&#160;; et aussy au droit disant que general renunciacion ne
+                        vault se l’especial ne precede. En tesmoings desquelles choses, je ledit
+                           <persName>Nycolas Halter</persName>, <lb/>baillifz que dessus, mon scel
+                        propre ad ces presentes j’ay fait mectre et appendre. Et nous les dessusdits
+                        ambassadeurs après avoir heuz entendus tout le contenu de ces presentes pour
+                        et aux <lb/>noms de noz seigneurs supperieurs, avons ceste dicte
+                        pronunciacion auctorisez et confermez, auctorizons et confermons. Et en
+                        signe de veritey au nom de nous tous, avons fait sceller cesdites
+                        <lb/>presentes par nostre bien aymez et feal bailly nouveaul,
+                           <persName ref="per009178">Oswald Tos</persName>, de Zug, et fait signer par nostre bien
+                        aymez et feaul secretayre <persName>Claude Bailliodz</persName>, nostre
+                        chastellain du Vaultravers et le <lb/>notayre soubscript. Que furent faictes
+                        et données <date when="1522-05-19">le dixneufiesme jours du moys de may,
+                           l’an de grâce Nostre Seigneur courrant mil cinq cens et vingt
+                        deux</date>.</seg></p>
+                  <signed><persName>Baillioz</persName>  <figure type="notarial sign"/></signed>
+                  <signed><persName>Petrus de Gland</persName> not.  <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+            <back><div>
+               <p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin avec un sceau pendant sur double queue&#160;; un sceau
+                     manque, <hi rend="italic">AVN</hi>, M&#160;N<hi rend="sup">o</hi>&#160;1.</p>
+               <p>Copie certifiée conforme de 1676 dans le «&#160;Livre des concessions et octroits
+                     faits aux sieurs quarante hommes, 14 janvier 1520 - 30 décembre 1799&#160;»,
+                        <hi rend="italic">AVN</hi>.</p>
+                  <p>Éd.&#160;Berger-Locher, <hi rend="italic">Neuchâtel sous l'occupation des douze
+                        cantons,</hi> p.&#160;257-260, pièce justificative N<hi rend="sup"
+                     >o</hi>&#160;10.</p>
+                  <p>Mention&#160;: Berger-Locher, <hi rend="italic">op.&#160;cit.</hi>,
+                     p.&#160;125-127. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

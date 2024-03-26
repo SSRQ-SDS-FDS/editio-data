@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-191.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 300</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 300</idno>
+					</msIdentifier>
+					<head xml:lang="de">Antoinie Jaquenoud – Verhör</head>
+					<head xml:lang="fr">Antoinie Jaquenoud – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1668-08-30"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007690.02">Spittal</placeName></hi>, den <origDate when="1668-08-30">30<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1668</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026314a">Karl von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> major <persName ref="per026329a.01">Schrötter</persName></seg></p>
+						<p><lb/><persName ref="per026951a.02">Anteini</persName>, fillie de <persName ref="per026950a.02">Clode Jaquenoud</persName> de <placeName ref="loc008179.02">Gilliarens</placeName>, con<lb break="no"/>duite
+							à <placeName ref="loc001060.01">Fribourg</placeName> sur la declaration qu’elle a faicte
+						<lb/>à <placeName ref="loc008011.01">Rue</placeName> d’avoir parlé au <term ref="lem015433.10">maling</term>, dit avoir veu
+						<lb/>la beste vestue de noir, <add place="above" type="sign">icelle fillie</add> pasturant du bestail au temps
+						<lb/>que le soleil s’alloit coucher, et que le <term ref="lem017521">diable</term> <add place="above" type="sign">luy</add> estoit
+						<lb/>apparu au prez dit <placeName>Cornamoudou</placeName><note>Der Ort konnte nicht identifiziert werden.</note>, avec des pieds de
+						<lb/><term ref="lem018923.01">boeuf</term>, comme un prestre avec un manteau noir, assés
+						<lb/>esloigné d’elle, lequel luy demanda si elle se voul<lb break="no"/>loit donner à luy, que son pere la luy avoit desja
+						<lb/>donnée. Surquoy icelle luy auroit demandé qui il
+						<lb/>estoit, et luy avoir respondu qu’il estoit le <term ref="lem017521">diable</term>.
+						<lb/>Sur ce icelle s’<subst><del>ayant</del><add place="above">estre</add></subst> munie du signe de la croix, et
+							<lb/>le <term ref="lem017521">diable</term> s’estre enfuy du costé de <placeName ref="loc010833.02">Promassens</placeName>, et
+							<lb/>qu’il estoit fort laide. <term ref="lem015549.13">Confesse</term> en avoir adverty
+						<lb/>ses gens, et son pere luy avoir reparty&#160;: <q>&#160;Plust à
+						<lb/>Dieu qu’il ne t’eust <subst><del>enporté</del><add place="inline">pris</add></subst>&#160;!&#160;</q></p>
+						<p><lb/>Elle dit que son pere est un <term ref="lem021734.02">maguant</term>, par ce qu’il
+						<lb/>l’at ainsy donné à la beste, dit n’avoir jamais
+						<lb/>veu dempuis le <term ref="lem015433.10">maling</term>.</p>
+						<p><lb/>Nie d’avoir receu d’argent de luy, mais <term ref="lem015549.13">confesse</term>
+						<lb/>qu’il luy en at montré sans l’avoir neantmoins apro<lb break="no"/>ché que <subst><del>hors</del><add place="above">dans</add></subst> la distance de quelques pas, et que ledit
+						<lb/>argent estoit noir, lequel elle ne voullust recepvoir.
+						<lb/>Et nie que le <term ref="lem015433.10">maling</term> l’ayt touchée, ny ses habits.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

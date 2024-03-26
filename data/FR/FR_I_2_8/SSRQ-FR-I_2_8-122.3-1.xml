@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-122.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 301–302</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 301–302</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Boschung-Dedelley – Verhör</head>
+					<head xml:lang="fr">Margreth Boschung-Dedelley – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-26"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="301"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1646-07-26">26<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per013432a.01">Stutz</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus, dont le procès mené contre <persName ref="per017000">Tichtli Jeckelmann-Gauch</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-121.26-1">SSRQ FR I/2/8 121.26-1</ref>.</note></p>
+						<pb n="302"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <foreign xml:lang="la">eadem die</foreign></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><lb/><persName ref="per017023a.02">Marguerithe</persName> <term ref="lem014767.01">relicte</term> de feu <persName ref="per017029a.01">Ulli Bushun</persName> de <placeName ref="loc007630.05">Tavy</placeName>, fille
+							<lb/>de feu <persName ref="per017030a.01">Albin de Deley</persName> du village <choice><sic>Dedeley</sic><corr>de <placeName ref="loc008095.02">Deley</placeName></corr></choice>, dit qu’elle
+							<lb/>peut avoir l’environ de <measure type="age" quantity="60" unit="year">60 ans</measure> et qu’il a <date dur-iso="P36Y">36 ans</date>
+							<lb/>qu’elle s’<subst><del>elle</del><add place="inline">est</add></subst> mariee avec ledit <persName ref="per017029a.01">Buschun</persName>, qui est mort
+							<lb/>desja avant <date dur-iso="P7Y">7 anns</date>.</seg> <seg>Enquise sur quelques articles de
+							<lb/>l’<term ref="lem018363.01">inquisition</term> prinse contre elle touchant le <term ref="lem018524.02">sortilege</term>,
+							<lb/>a dit qu’il ne se constera jamais qu’elle soit attainte
+								<lb/>de cest <term ref="lem019539.02">peché</term>, et que ceux la qui l’ont accusee et
+							<lb/>fait emprisonner pour tel cas, luy font grand tort,
+							<lb/>ne pouvant <term ref="lem015549.01">confesser</term> une chose dont elle <add place="above">est</add> ignorante
+							<lb/>et tout a fait innocente. <term ref="lem019498">Crie merci</term>.<note>Le passage qui suit concerne le procès mené contre <persName ref="per017006">Maria Roggo-Conte</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-121.26-1">SSRQ FR I/2/8 121.26-1</ref>.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

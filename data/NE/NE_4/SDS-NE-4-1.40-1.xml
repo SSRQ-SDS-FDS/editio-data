@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.40-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 151–158</idno>
+     </msIdentifier>
+     <head>Retrait lignager ou proximité<!--@AB meilleure idée de titre?--></head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005819"/>
+     <term ref="key000231"></term>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key004428"></term>
+     <term ref="key003521"></term>
+     <term ref="key001112"></term>
+     <term ref="key000925"></term>
+     <term ref="key000803"></term>
+     <term ref="key001043"></term>
+     <term ref="key005198"></term>
+     <term ref="key000159"></term>
+     <term ref="key000938"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="151" facs="AEN_MJ_17_150_151"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chapp.</abbr>
+        <expan>Chappitre</expan>
+       </choice> XL. <lb/>Du <term ref="lem018509.02">retraict <lb/>lignager</term> ou <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 56">de</rdg>
+       </app> <lb/>proximité.</head>
+      <p>
+       <lb/>A une piece de terre <lb/>ou <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 56">a une</rdg>
+       </app> mayson vendue, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 56">il</rdg>
+       </app> y a retraicte <lb/>dans <date dur-iso="P1Y6W"><term ref="lem014776.04">an et
+        jour</term></date>, prins a la datte <lb/>du contract de <term ref="lem015546"
+        >vendition</term> par le <lb/><term ref="lem016048.02">preusme</term> ou plus proche <term
+        ref="lem015638">lignager</term>
+       <lb/><add place="below" type="catchword">du</add>
+       <pb n="152" facs="AEN_MJ_17_152_153"/>
+       <lb/>du vendeur de consanguinité, <app>
+        <lem>et <lb/>restitution</lem>
+        <rdg wit="AVN Q41, p. 56">en restituant</rdg>
+       </app> en argent comptent <lb/>a l’achepteur le prix de l’achept avec <lb/>les <term
+        ref="lem014983">lods</term> &amp; fraits raysonnables, et <lb/>du tout en faisant offre
+       &amp; <choice>
+        <abbr>presentaon</abbr>
+        <expan>presentation</expan>
+       </choice>
+       <lb/>devant <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 56">la</rdg>
+       </app> justice s’il est refusé.</p>
+      <p>
+       <lb/>Quand le mary vend des biens <lb/>mouvants de luy, le plus <app>
+        <lem>prochain</lem>
+        <rdg wit="AVN Q41, p. 56">proche</rdg>
+       </app>
+       <lb/>parent de son costé <app>
+        <lem>les peut retirer <lb/>par droit de preumeté<note>Terme atteseté nulle part.
+          Probablement à rapprocher de «&#160;<term ref="lem016048"
+         >preume</term>&#160;».</note></lem>
+        <rdg wit="AVN Q41, p. 56">ont ledict droict de retraicte à la <lb/>mesme condition que
+         dessus.</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Quand c’est des biens mouvants <lb/>de la femme, les plus proches <lb/>parents de <app>
+        <lem>ce</lem>
+        <rdg wit="AVN Q41, p. 56">son</rdg>
+       </app> costé ont ledit <lb/>droit de retraicte, a la mesme <lb/>condition que dessus.</p>
+      <p>
+       <lb/>Et sy les biens allienez sont <lb/>des acquets faits durant leur <lb/>mariage, se
+       pourront retirer  <lb/><add place="below" type="catchword">par</add>
+       <pb n="153" facs="AEN_MJ_17_152_153"/>
+       <lb/>par les parents de costé &amp; d’autre, <lb/>tousjour le plus <app>
+        <lem>prochain</lem>
+        <rdg wit="AVN Q41, p. 56">proche</rdg>
+       </app> du costé <lb/>du mary preferé, en satisfaisant aux <lb/>conditions requises.</p>
+      <p>
+       <lb/>Et pour ce que le droit de proximité <lb/>ou <term ref="lem018509.02">retraicte
+        lignager</term> de sa nature <lb/>ne se peut ceder ne transporter, <lb/>joint qu’estant
+       permis le <choice>
+        <abbr>contre</abbr>
+        <expan>contraire</expan>
+       </choice>
+       <lb/>il se commet plusieurs abuz, &amp; <lb/>en survient plusieurs questions <lb/>et procez.
+       Celuy d’ores en avant <lb/>qui voudra retirer la mayson <lb/>ou heritage vendu par son parent
+       <lb/>a droit de proximité, le doibt <lb/>faire pour soy seulement, et <lb/>tenir &amp; jouir
+       la piece ainsy retirée <lb/>a son particulier, <date dur-iso="P1Y6W"><term ref="lem014776.04">an
+         &amp; jour</term></date>, avant <lb/>la pouvoir vendre, ny avoir fait <lb/>promesse de la
+       revendre a un <lb/>autre, sinon l’achepteur <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 57">premier</rdg>
+       </app> sera continué <lb/>en sa possession. <lb/><add place="below" type="catchword"
+        >Les</add>
+      </p>
+     <pb n="154" facs="AEN_MJ_17_154_155"/>
+      <p>
+       <lb/>Les parents qui ont consenty a <lb/>la <term ref="lem015546">vendition</term> et marché
+       ne peuvent <lb/>faire retraicte a droit de <term ref="lem016048">preusme</term>
+       <lb/>de la chose vendue.</p>
+      <p>
+       <lb/>Et sont les parents tenus et <lb/>reputez avoir donné consentement, <lb/>qui se sont
+       aydez de leur <choice>
+        <abbr>pnce</abbr>
+        <expan>presence</expan>
+       </choice>
+       <lb/>a faire le marché, et qui ont beu <lb/>les vins du marché, sçachants bien <lb/>que
+       c’estoit pour ceste seule <lb/>occasion.</p>
+      <p>
+       <lb/>L’enfant encor qu’il aye renoncé <lb/>au bien de pere ou de mere, sy ne <lb/>laisse il
+       de pouvoir retirer les <lb/>heritages par eux allienez.</p>
+      <p>
+       <lb/>Le droit de retraicte appartient <lb/>aussy bien aux femelles qu’aux masles <lb/><add
+        place="below" type="catchword">tousjour</add>
+       <pb n="155" facs="AEN_MJ_17_154_155"/>
+       <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 57">touteffois</rdg>
+       </app>tousjour les masles &amp; les <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 57">plus aagés <lb/>et</rdg>
+       </app> vieux <lb/>preferez seul &amp; pour le tout, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 57">car la</rdg>
+       </app> <lb/>lignation<note>Terme atteseté nulle part, utilité pour
+        «&#160;filiation&#160;».</note> tousjour estre preferée <lb/>a la <term ref="lem017853"
+        >cognation</term>, quand les <del>con</del> <app>
+        <lem>retrahans</lem>
+        <rdg wit="AVN Q41, p. 57">retrayans</rdg>
+       </app><note>Terme atteseté nulle part, désignant probablement le personne usant de son droit
+        de retrait.</note>
+       <lb/>seroyent en un mesme degré.</p>
+      <p>
+       <lb/>L’heritage alliené par <term ref="lem016396.05">esgallation</term>,<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 57">ou</rdg>
+       </app> <lb/>taxe de justice, et par <term ref="lem015541.02">montes</term>
+       <lb/>publicques, n’y a lieu de retraicte <lb/>pour les preusmes <term ref="lem015638.02"
+        >lignagers</term>.</p>
+      <p>
+       <lb/>Un eschange fait sans fraud, ny <lb/>a lieu de retraicte, mais ou la <lb/>chose de
+       contr’eschange ne fait le <lb/>tier du prix, il y a retraction, <lb/>et le contr’eschange
+       s’esvaluera <lb/>et estimera par gend de justice <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 57">pour</rdg>
+       </app> sçavoir le juste prix de la <lb/>restitution qui se debvra <lb/>faire par le <term
+        ref="lem016048">preusme</term> qui voudra  <lb/><add place="below" type="catchword"
+        >retirer</add>
+       <pb n="156" facs="AEN_MJ_17_156_157"/>
+       <lb/>retirer la chose vendue, et neant<lb break="no"/>moings ainsy qualifiée d’eschange.</p>
+      <p>
+       <lb/>En cession et transport d’heritage <lb/>sans porter droit de <term ref="lem014983.02"
+        >lod</term> y a <lb/>commise, sy moings droit de <lb/>retraicte, sy ce n’est compartageux
+       <lb/>ou donnation libre.</p>
+      <p>
+       <lb/>Il y a aussy lieu a commise &amp; <lb/>retraict en eschange &amp; <choice>
+        <abbr>permutaons</abbr>
+        <expan>permutations</expan>
+       </choice>
+       <lb/>d’heritages, faites avec choses qui ne <lb/>sont de mesme nature.</p>
+      <p>
+       <lb/>Toutes conditions retenues par les <lb/>vendeurs en faisant le marché, <lb/>doibvent
+       estre inserées dans les <lb/>contracts de <term ref="lem015546">vendition</term>, autrement
+       <lb/>on n’y aura aucun esgard, &amp; ne seront <lb/>les <term ref="lem016048">preusme</term>
+       en cas de retraicte tenuz <lb/>les accomplir.  <lb/><add place="below" type="catchword"
+        >En</add>
+      </p>
+     <pb n="157" facs="AEN_MJ_17_156_157"/>
+      <p>
+       <lb/>En vente de succession &amp; heredité <lb/>et tels autres semblables droits et
+       <lb/>actions venduz, sinon, qu’ils consistent <lb/>du tout en meubles, y a lieu de retraicte.
+      </p>
+      <p>
+       <lb/>Le <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 58">droict de</rdg>
+       </app> <term ref="lem018509.02">retraict lignager</term> n’a lieu <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice>
+       <lb/>meubles, ores que se fust chose tres<lb break="no"/>precieuse, horsmis les armes entre
+       <lb/>freres germains du vendeur.</p>
+      <p>
+       <lb/>Personne ne peut avoir droit de <lb/>retraicte sur le prince, mais <lb/>bien <app>
+        <lem>y</lem>
+        <rdg wit="AVN Q41, p. 58"/>
+       </app> a il ce droit envers toutes <lb/>personnes en ceste souveraineté, avant <lb/>tous <term
+        ref="lem016048.04">preusmes</term>.</p>
+      <p>
+       <lb/>Les <term ref="lem017984.03">impences</term> ou fraits necessaires <lb/>faits par
+       l’achepteur, en l’heritage <lb/>que le <term ref="lem016048">preusmes</term> veut retirer,
+       luy <lb/>doibvent estre restituées, &amp; non ceux qu’il<app>
+        <lem>y</lem>
+        <rdg wit="AVN Q41, p. 58"/>
+       </app> 
+       <lb/>auroit mis et faits <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> son utilité et <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 58">pour <lb/>son</rdg>
+       </app>
+       <lb/>plaisir.</p>
+     <pb n="158" facs="AEN_MJ_17_158_159"/>
+      <p>
+       <lb/>En semblable <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 58">faict</rdg>
+       </app>, sy l’achepteur durant <lb/>le temps de retraict fait quelque <lb/>changement ou
+       deteriorement sur <lb/>l’heritage qu’est retiré d’entre ses <lb/>mains, est contraint le
+       restablir.</p>
+      <p>
+       <lb/>Retraict n’a point de lieu, quand <lb/>l’heritage est vendu au prochain <lb/>parent, qui
+       pourroit ab intestat <lb/>succeder audit heritage.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

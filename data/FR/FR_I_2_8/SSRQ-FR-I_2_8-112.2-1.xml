@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-112.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 31–32</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 31–32</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Nösberger-Bähler – Verhör</head>
+					<head xml:lang="fr">Anni Nösberger-Bähler – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-01-02"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="31"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1644-01-02">2 <foreign xml:lang="la"><choice><abbr>janua</abbr><expan>januarii</expan></choice></foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per009378a.01">Lari</persName>, <persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName>Python</persName><note>Gemeint ist entweder <persName ref="per012381a">Hans Ulrich Python</persName> oder <persName ref="per012380a">Jost Python</persName>, die beide im Stadtgericht sassen.</note>, <persName ref="per013720a.01">Zumholtz</persName></seg>
+							<seg><lb/><persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016031a">Anni</persName>, <persName ref="per016029a.01">Caspar Nößpergers</persName> seligen verlaßne
+							<lb/>unnd <persName ref="per016033a.01">Hanßen Bälers</persName> tochter uß dem <placeName ref="loc008597.02">Gugisperg</placeName>,
+							<lb/>zeigt an, sie sye gar jung unnd in der wiegen uß
+							<lb/>dem <placeName ref="loc008597.02">Gugisperg</placeName> in des gebiet getragen unnd uffer<lb break="no"/>zogen worden. Ihr man sye vor <date dur-iso="P11Y"><term ref="lem005960.02">einliff</term> jahren</date>
+							<lb/>ohngefahrlich gestorben, unnd habe ihren nichts alß
+							<lb/><term ref="lem000130.03">khinder</term> <term ref="lem008083">verlassen</term>.</seg> <seg>Ihres sohns des <persName>Josephs</persName> frauw
+							<lb/>sye dißer tagen kranck gelegen, darumb man sie
+							<lb/>mit dem heiligen, hochwürdigen <hi rend="font change"><term ref="lem005137.12">sacrement</term></hi> versorgen
+							<lb/>lassen. Dieselbe habe sie allezytt verschmächt unnd
+							<lb/>verachtet, <term ref="lem017961.02">dannenhar</term> sie wider dieselbe dermassen
+							<lb/>erzürnt gsyn, daß sie sich letstlich so wytt ver<lb break="no"/>gessen. Unnd sye domahlen so zornig gsyn, daß
+							<lb/>sie die <persName>Gichtinen</persName> <term ref="lem017962">angangen</term> unnd nit weiß zu sagen,
+							<lb/>was sie geredt. Bittet umb die wort umb
+								<lb/><term ref="lem004684.08">verzüchung</term>, sie habe verschinnen montag zun <term ref="lem011458.05">cappu<lb break="no"/>cyneren</term> <term ref="lem000645.03">gebychtet</term>.</seg> <seg>Sie habe in dem zorn <add place="above" type="sign">zwey mahl</add> geredt,
+							<lb/>der <term ref="lem007321.02">tüffel</term> habe das <term ref="lem000645.03">bychten</term> unnd <term ref="lem003350.01">communicieren</term>
+							<lb/>woll erdacht. Sie <term ref="lem017963.02">khye</term> <add place="above">sich</add> nichts darumb, der <term ref="lem007321.02">tüffel</term>
+							<lb/>solle es nemmen. Sie habe auch ihres sohns wyb <term ref="lem004933.09">getrouwt</term>,
+							<lb/><subst><del>zur</del><add place="overwritten">sie</add></subst> <term ref="lem000865">umbzubringen</term> unnd <subst><del>er</del><add place="overwritten">ge</add></subst>sagt, sie wölle das
+							<lb/><term ref="lem018825.02">hexenhuß</term> <term ref="lem002318">verbrennen</term>. Sie habe es aber nit
+							<lb/>im sinn gehabt. Mit den anderen worten, daß
+							<lb/>sie soll, mit ehren zu melden, geredt haben, sie <term ref="lem017964.02">hoffierte</term>
+									<lb/>uff dem heiligen <hi rend="font change"><term ref="lem005137.12">sacrement</term></hi>, hatt sie es zwar <term ref="lem011468.03">be<lb break="no"/>khendt</term>, ist aber daruff nit beständig verbliben.</seg>
+							<seg><lb/>Wytters habe sie in der verschinnen <term ref="lem002327">fasten</term> zu <placeName ref="loc010324.02">Graffen<lb break="no"/><pb n="32"/>riedt</placeName>, alß sie daselbst dem <term ref="lem002264.21">allmußen</term> nachgangen,
+							<lb/>von einer frauwen fleisch empfangen, so sie geessen.
+							<lb/>Unnd alß sie uß geheiß des ehrsamen woll<lb break="no"/>wyßen stattgerichts das <term ref="lem003411.02">Vatter Unser</term> gebetten,
+							<lb/>hatt sie den artickel von der <term ref="lem004684.08">verzüchung</term> dar
+							<lb/>sünden ußgelassen. Bittet umb gnad.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">BStadtarchiv Winterthur (STAW)</p>             
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-69-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/1, fol. 94v (Eintrag 3)</idno></msIdentifier><head>Bürgerrechtsaufgabe des Hans Ällikon von Winterthur</head><msContents><summary>Hans Ällikon hat sein Bürgerrecht aufgegeben und sich verpflichtet, Forderungen an Bürger und Ausbürger von Winterthur in der Stadt gerichtlich zu verfolgen und Ansprüche an die ganze Gemeinde in Konstanz, Zürich oder Schaffhausen auszutragen.</summary><msItem><textLang xml:lang="de"/><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.5"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1438-05-28"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000446">Abzug</term><term ref="key000134">Bürgerrecht</term><term ref="key005094">Gerichtsstand</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="94v" facs="STAW_B_2_1_fol_094_v"/>
+                        <p>
+                            <lb/><seg>Item als <persName ref="per027722">Hans Aͤllikon</persName> burgerrecht uffgeben haͤt, also haͤt er
+                                <lb/>gesworn willen und danks und gantz unbetwungenlich, ob er
+                                <lb/>mit deheinem burger, inwendig ald usswendig der statt gesessen, icht
+                                <lb/>zeschaffen ald ze sprechen hette ald jemer gewunne, so sol er
+                                <lb/>recht nemen ze <placeName ref="loc000849">Winterthur</placeName> und mit deheinen andern gerichten
+                                <lb/>noch sust nit schadgen noch beku̍mbren.</seg>
+                            <seg>Hette oder gewinne
+                                <lb/>er oͧch mit u̍nser gemeinen statt icht ze sprechen oder ze
+                                <lb/>schaffen, wor umb daz waͤr, nicht ussgenomen, so sol er
+                                <lb/>sich mit recht lassen benuͤgen ze <placeName ref="loc000008">Costentz</placeName>, <placeName ref="loc000065">Zu̍rich</placeName> oder
+                                <lb/>ze <placeName ref="loc000701">Schaͤffhusen</placeName>, in welher der <num value="3">dryer</num> stett eine er da
+                                <lb/>wil, und sich soͤlichs allweg benuͤgen laͧssen by sinem
+                                <lb/>geswornen eid.</seg>
+                            <seg>Actum <origDate when="1438-05-28">quarta post <persName ref="per000352">Urbani</persName>, anno xxxviij<hi rend="sup">to</hi></origDate>.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Personen, die das Bürgerrecht einer Stadt aufgaben und fortzogen, mussten sich in der Regel verpflichten, Forderungen an Bürger vor dem städtischen Gericht geltend zu machen und Ansprüche an die ganze Gemeinde vor dem Rat benachbarter Städte auszutragen. Vor der Übernahme der Stadtherrschaft durch die <orgName ref="org002406">Zürcher</orgName> gehörten neben <placeName ref="loc000065">Zürich</placeName> beispielsweise <placeName ref="loc000008">Konstanz</placeName>, <placeName ref="loc000701">Schaffhausen</placeName> oder auch <placeName ref="loc007335">Stein am Rhein</placeName> (<bibl>STAW URK 554</bibl>) zu diesem Kreis. Und noch 1470 sah eine Abzugsvereinbarung <placeName ref="loc000701">Schaffhausen</placeName>, <placeName ref="loc010222">Diessenhofen</placeName> oder <placeName ref="loc000008">Konstanz</placeName> neben <placeName ref="loc000065">Zürich</placeName> als mögliche Gerichtsorte für Klagen gegen die Stadt <placeName ref="loc000849">Winterthur</placeName> vor (<bibl>STAW B 2/3, S. 93</bibl>). Später begegnet man ausschliesslich <placeName ref="loc000065">Zürich</placeName> in dieser Funktion (vgl. beispielsweise <bibl>STAW B 2/8, S. 66, 150</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

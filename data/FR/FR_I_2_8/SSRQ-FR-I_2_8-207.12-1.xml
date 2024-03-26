@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 282 (1731), S. 401–402</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 282 (1731), p. 401–402</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond – Anweisung</head>
+					<head xml:lang="fr">Catherine Repond – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-07-16">16<hi rend="sup">ten</hi> <foreign xml:lang="la">jullii</foreign> [1731]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007683.21">Bößen thurn</placeName> einligende
+						<lb/><persName ref="per028134a.01">Catherina Repond</persName> von <placeName ref="loc008195.06">Villarvollard</placeName></p>
+						<p><seg><lb/>Soll abermahlen durch die hoch- und wohlgeehrten <choice><abbr>hh</abbr><expan>herren</expan></choice> eines
+							<lb/>wohlbestelten stattgrichts ohne <term ref="lem013000.01">tortur</term> über ihre getha<lb break="no"/>ne angebung der <term ref="lem002038">mitgesellen</term>, <add place="inline" type="sign">so dan auch, ob sie
+							<lb/>nit annoch andere anzuklagen weist</add><note>Diese Ergänzung befindet sich im Original 8 Zeilen unterhalb.</note>, am khünfftigen mitwochen
+							<lb/>befragt werden, und verharrenden fahls wirdt sie
+							<lb/><foreign xml:lang="la">punctatim</foreign> über den einten nach dem anderen ernstlich
+							<lb/>examiniert werden.</seg> <seg>Namblichen, ob ein solcher in <term ref="lem017517.04">pact</term>
+							<lb/>mit dem <term ref="lem007321.10">teüffell</term> getroffen, wie, wo und wan
+							<lb/>und wo sie ihne in dem <term ref="lem015765.06">saboth</term> gesehen, wie offt,
+							<lb/>so dan auch, ob ihro in wißen, daß ein solcher
+								<lb/>etwas <term ref="lem018892">übels</term> denen <term ref="lem000075.33">leüthen</term> oder <term ref="lem000310.13">vich</term> <term ref="lem018892">übels</term>
+								angehen<lb break="no"/>ckt und diß biß am lesteren.</seg> <seg>Anbey
+							<lb/>werde sie ferners befragt, ob sie nit menschen oder
+							<lb/><term ref="lem000310.13">vich</term> etwas unheils verursachet, und diß umbständ<lb break="no"/>lichen wie, wo und wan; insonderheitlichen aber der
+							<lb/><choice><abbr>D<hi rend="sup">lle</hi></abbr><expan>Demoiselle</expan></choice> <persName>von Belleroche</persName>, <sic>wan</sic><note>On attendrait plutôt «&#160;wo&#160;».</note>, wie und wan, und
+							<lb/>ob sie nit verhinderet, dißem oder je<subst><del>d</del><add place="overwritten">n</add></subst>nem <term ref="lem000139.02">züger</term>
+							<lb/>zu machen.</seg> <seg>Endtlichen soll sie <foreign xml:lang="la">articulatim</foreign> und
+							<lb/>umbständlichen über alle eingenommnen <term ref="lem016288.04">inquisitio<lb break="no"/>nen</term> und darauff erfolgten außsaagen quæstioniert
+							<lb/>werden, wie auch <foreign xml:lang="la">ratione</foreign> des empfangnem <term ref="lem014372.03">schutzes</term>
+							<lb/>und gethane <term ref="lem019229.02">pactung</term> mit dem <term ref="lem007321.10">teüffell</term>, namlichen
+							<lb/>wie, wo und wan, und wie sie sich verschryben, und
+							<lb/>auß welchem ohrt er ihro daß <term ref="lem011456.05">bluth</term> gezogen.</seg> <seg>Damit
+							<pb n="402"/><lb/><choice><sic>damit</sic><corr></corr></choice> aber dißes mit beßeren facilitet von statten gehe,
+							<lb/>haben ihr <choice><abbr>g</abbr><expan>gnaden</expan></choice> gutt befunden, dem vihlgeehrten <abbr>h</abbr> grichtschryber<note>Gemeint ist <persName ref="per028157a">Franz Nikolaus Haberkorn</persName>.</note>
+							<lb/>einen <abbr>h</abbr> <term ref="lem007586">substituten</term> zu schicken (zu mahlen so thuendes
+							<lb/><foreign xml:lang="la">opus</foreign> sehr weitläuffig), alle biß dahin geschehnen <term ref="lem011989.02">proceduren</term>
+							<lb/>und <term ref="lem005044.02"><choice><abbr>examinaoen</abbr><expan>examinationen</expan></choice></term> <foreign xml:lang="la">in ordine</foreign> setzen und eine <foreign xml:lang="la">lista</foreign> machen,
+							<lb/>auff welcher alle essentialische <choice><abbr>art</abbr><expan>artikel</expan></choice> <foreign xml:lang="la">a parte</foreign> verzeichnet,
+							<lb/>mit vermelden, wie offt sie eine solche thatt begangen,
+							<lb/>wie offt bekendt und widerumb in <term ref="lem005133">abred</term> gewessen,
+							<lb/>und <subst><del>ih</del><add place="inline">in</add></subst> welcher <term ref="lem005044">examination</term> geschehen.</seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage ne concerne pas le procès mené contre <persName ref="per028134">Catherine Repond</persName>.</note></p>
+						<p><lb/><term ref="lem001289.07">Urthel</term></p>
+						<p><lb/>An die hochgeehrten <choice><abbr>hh</abbr><expan>herren</expan></choice> <term ref="lem006250.03">venneren</term>, um zu <term ref="lem005639">verschaffen</term>, daß
+						<lb/>der hochgeehrte <abbr>h</abbr> alt <term ref="lem018597.02">burgermeister</term> <persName ref="per027761a.04">Gottrauu</persName> auff an
+						<lb/>zu künfftigen mitwochen wegen der einligende
+						<lb/><persName ref="per028134a.01">Catherina Repond</persName> zu thuender der <term ref="lem005044">examination</term>
+						<lb/>einfünde.</p>
+						<p><lb/>Wegen die, so obgesagte <persName ref="per028134a.01">Catherina Repond</persName> angegeben
+						<lb/>hatt, soll einem jeden <choice><abbr>hrn</abbr><expan>herrn</expan></choice> ambtsman eine
+						<lb/>copy zu <choice><sic>gescheickt</sic><corr>geschickt</corr></choice> werden, und sollend heimlich
+						<lb/><subst><del>um</del><add place="inline">ihres</add></subst> handels und <term ref="lem005097">wandels</term> bericht nehmen
+						<lb/>und daß <term ref="lem018896.02">befünden</term> ihro gnaden durch sichere händt
+						<lb/>wider bringen <foreign xml:lang="la">per mandata</foreign>.</p>
+						<p><lb/>Mandat</p>
+						<p><lb/>An <abbr>h</abbr> ambtsman von <placeName ref="loc008049.03">Corbers</placeName><note>Gemeint ist <persName ref="per028147">Karl von Montenach</persName>.</note>, alles <term ref="lem000049.01">korn</term> und
+						<lb/><term ref="lem011907.03">effecten</term>, waß nahmen sie haben mögen, so der vor<lb break="no"/>gedeütten <persName ref="per028134a.01">Catherina Repond</persName> gehören, inventorisieren
+						<lb/>zu laßen und in sicherheit <subst><del>stehlen</del><add place="inline">stellen</add></subst> biß <subst><del>ein</del><add place="inline">weitteren</add></subst>
+						<lb/>bescheidt.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

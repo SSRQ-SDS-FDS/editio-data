@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.38-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 255–256</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 255–256</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Mayor-Savarioud – Verhör</head>
+					<head xml:lang="fr">Elisabeth Mayor-Savarioud – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-08-17"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="255"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-08-17">17 augsten 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">er</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per009264a.01">Amman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018625a.01">Gadi</persName></seg></p>
+						<p><lb/><persName ref="per020499a.05">Jasbi Schavariu</persName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examiné, ayant
+							<lb/>esté à la <term ref="lem018792.01">question</term> du <term ref="lem018232">quintal</term> par trois fois applic<lb break="no"/>quée, persiste d’avoier veu à la <term ref="lem017043">secte</term> <persName ref="per020299a">Mathia</persName>
+							<lb/>et <persName ref="per020304a.02">Ageta</persName>, d’aultres n’avoier cogneu. Et confirme
+							<lb/>ce qu’elle ast hier dit, asserant avoier esté à la
+							<lb/><term ref="lem017043">secte</term> vers le <placeName ref="loc011691">Pont neuf</placeName>, ou elle vist lé susdites
+							<lb/>femmes&#160;; i ayant esté par le <term ref="lem017521">diable</term> portée <subst><del>illec</del>
+								<lb/><add place="inline">toutes deux</add></subst> ensemble. <term ref="lem015549.13">Confesse</term>, prestant <term ref="lem018915.01">hommage</term>
+							<lb/>au <term ref="lem015433.10">maling</term> nommé <persName ref="per029446a">Abran</persName>, l’avoier <term ref="lem019481.14">baissé</term> (par correction)
+							<lb/><term ref="lem015018.09">dernier</term>, le quel la desus la <term ref="lem018895.07">marquat</term> et luy donnat
+							<lb/>de la <term ref="lem018382">graisse</term>, la quelle dit avoier jesté <term ref="lem019135.01">envoie</term>.
+						<pb n="256"/><lb/>Confirmant dehors et dans la <term ref="lem015441.02">gehenne</term> tout ce qu’elle
+							<lb/>avoit ci devant declaré, a demand<subst><del>at</del><add place="overwritten">é</add></subst> à Dieu
+							<lb/>à la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge et Leur <choice><abbr>Exell</abbr><expan>Exellences</expan></choice> humblement
+							<lb/>pardon.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

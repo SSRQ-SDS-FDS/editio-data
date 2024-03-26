@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-114.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 73</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 73</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Pillet – Verhör</head>
+					<head xml:lang="fr">Claude Pillet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-06-14"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-06-14">14 <foreign xml:lang="la">junii</foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per009378a.01">Lari</persName></seg>
+							<seg><lb/><persName ref="per012381a.01">Python</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016467a">Claude Pillet</persName> d’<placeName ref="loc007609.04">Estavayé le Gibloux</placeName> dict ignorer
+							<lb/>la raison de sa detention, si ce n’est pour des faux
+							<lb/>rapports&#160;; estre environ <date dur-iso="P13Y">13 ans</date> qu’il a desja esté
+							<lb/>prisonnier icy<note><date when="1629-03">En mars 1629</date>, <persName ref="per009356">Marie Pillet-Clerc</persName>, d’<placeName ref="loc007609">Estavayer-le-Gibloux</placeName>, et sa fille
+								<persName ref="per009358">Clauda Pillet</persName> sont incarcérées à <placeName ref="loc001060">Fribourg</placeName> et interrogées pour motif de sorcellerie, mais sont
+								libérées. Au cours de son interrogatoire, Clauda évoque son frère <persName ref="per009359">Claude</persName>. Voir
+								<ref target="urn:ssrq:SSRQ-FR-I_2_8-83.2-1">SSRQ FR I/2/8 83.2-1</ref>. Il est possible que ce dernier soit identifiable au Claude du présent interrogatoire.</note>, pour des <term ref="lem019519.02">charmes</term> accusez faussement
+							<lb/>sus luy, qu’il a soustenu son innocence par le
+							<lb/><term ref="lem018305.03">droict imperial</term>, qu’il n’a jamais sceu ny faict aulcuns
+							<lb/><term ref="lem019519.02">charmes</term>, qu’on fasse de luy ce qu’on vouldra, qu’il
+							<lb/>ne dira pas aultrement.</seg> <seg><term ref="lem019442.03">Denege</term> entierement d’avoir
+								<lb/>menacé et dict, si on y prestoit <add place="above">pas</add> des <term ref="lem018921.06">chevaux</term>, qu’on
+							<lb/>s’en repentiroit&#160;; qu’il a menacé de faire mourir
+								<lb/>ny gens ny bestes&#160;; et qu’il n’a tousché aulcune <term ref="lem018922.01">jument</term>
+							<lb/>que soit meschantte, cela estre tout des mensonges&#160;;
+								<lb/>qu’il est pas <term ref="lem019308.01">sorcier</term> et que le <term ref="lem017521">diable</term> n’y est jamais
+							<lb/>apparu.</seg> <seg>Estre <date dur-iso="P9Y">n<del>e</del>euf ans</date> qu’il a pris <persName ref="per016480b">Françoise Genod</persName>
+							<lb/>de <placeName ref="loc007851.06">Chastel <abbr>S</abbr> Denys</placeName> en mariage, a laquelle il <term ref="lem015549.13">confesse</term>
+							<lb/>d’avoir dict qu’elle portoit un <term ref="lem015442.03">paullin</term> a l’occasion
+								<lb/>qu’elle y avoit dict qu’il estoit un <term ref="lem018921.01">cheval</term>&#160;; qu’il n’a
+							<lb/>presentement que deux enfants et pour ceux que
+							<lb/>sont morts, qu’il aimeroit mieux qu’iceux fussent
+								<lb/>en vie qu’en paradis.</seg> <seg><term ref="lem015549.13">Confesse</term> que sa femme y a dict
+							<lb/>que luy estoit la cause que ses enfants y mouroient
+							<lb/>tous en <term ref="lem017873.03">gesine</term>, cela estre la raison qu’il l’a souvent
+									<lb/>bastue&#160;; qu’il ne s’est jamais <term ref="lem019553.02">abandonné</term> au <term ref="lem015433.03">maling
+								<lb/>esprit</term>.</seg> <seg>Et y estant dict qu’il debvoit <term ref="lem019541.01">renier</term> le <term ref="lem017521">diable</term>,
+							<lb/>il le fist bien, mais au commencement il ne voulloit
+							<lb/>bien et de <term ref="lem017026.02">prossement</term> nommer le nom du <term ref="lem017521">diable</term>,
+									<lb/>jusque a la fin il dict qu’il <term ref="lem019541.16">renioit</term> le <term ref="lem015433.10">maling</term> de <term ref="lem014871.01">coeur</term>
+							<lb/>et de bousche.</seg> <seg>Plus a dict qu’il n’a jamais rien <term ref="lem015015.03">derobbé</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

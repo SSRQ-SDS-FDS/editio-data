@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-195.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 383–385</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 383–385</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marie Blanc-Edouard – Verhör</head>
+					<head xml:lang="fr">Marie Blanc-Edouard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1673-08-23"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="383"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1673-08-23">23<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> <hi rend="underline">1673</hi></origDate></p>
+						<p><seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026535a">Hans Peter Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026537a">Hans Jakob Python</persName>.</note>, <abbr>h</abbr> <choice><abbr>haubt</abbr><expan>haubtmann</expan></choice> <persName ref="per026365a.03">Vonderweydt</persName></seg>
+							<seg><lb/><persName ref="per026536a.02">Des Granges</persName>, <persName ref="per026549a.01">Schrötter</persName>, <persName ref="per026539a.01">Dageth</persName></seg>
+							<seg><lb/><persName ref="per026540a.01">Werro</persName>, <persName ref="per026543a.01">Rossier</persName></seg></p>
+						<p><lb/>La susdite <persName ref="per021194a">Marie Blanc</persName>, ayant soustenu les trois <term ref="lem019549.02">levées</term> avec le
+						<lb/>demy <term ref="lem018232">quintal</term>, ast declaré et confessé&#160;: premierement que,
+						<lb/>touchant les <term ref="lem018879.02">execrations</term> et jurements qu’elle doibt avoir faicts
+						<lb/>de ne plus retourner vers son mary, elle n’ast jamais dict ny juré
+						<lb/>aultrement que le <term ref="lem017521">diable</term> le may&#160;: <q>&#160;Veu je tourner auprès de <!--je ne suis pas sûr de la ponctuation... le sens est bizarre-->
+					<pb n="384"/><lb/>mon mary avant que d’avoir confessé&#160;</q>&#160;; ce que elle fist.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir demandé des poids au seigneur <persName>Pierre Monnay</persName>, lequel les
+							<lb/>refusa, disant qu’ils estoient du <term ref="lem015149.02">diesme</term>, dont elle s’en plaint
+						<lb/>à un nommé <persName>Vulliemain</persName> qui luy en donna, disant&#160;: <q>&#160;<persName>Monney</persName>
+						<lb/>m’en auroit bien peu ausy donner&#160;</q>&#160;; aultre n’ast elle dit. </p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir presenté et donné à <persName>Anne</persName>, fille de <persName>Pierre Blanc</persName>,
+						<lb/>une <term ref="lem018880.01">fricassée</term> sur du pain, laquelle on luy donna par l’amour
+							<lb/>de Dieu à <placeName ref="loc007655.01">Montagny</placeName>. Elle en ast ausy mangé avec des
+						<lb/>aultres, mais nie avoir donné aulcun mal.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir <term ref="lem019509.02">visité</term> ladite fille pendant sa maladie, mais ne
+						<lb/>se souvient pas que ladite fille luy aye faict aulcun re<lb break="no"/>proche de la susdite <term ref="lem018880.01">fricassée</term>.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir aydé à conduire des <term ref="lem019233.02">menues bestes</term> à <placeName ref="loc005824.03">Morat</placeName>, mais
+						<lb/>nie qu’elle les aye faict passer par des sentiers. Elle crioit
+						<lb/>quelques fois&#160;: <q>&#160;Venné vous&#160;!&#160;</q>&#160;; et que cependant les aultres les
+						<lb/>conduisoient par la <term ref="lem017721.02">charriere</term>.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir passé plusieurs fois par devant l’attelage de
+						<lb/><persName>Pierre Pauzard</persName>, mais ne sçay aulcunement que un de ses
+							<lb/><term ref="lem018921.05">chevaux</term> soit <term ref="lem018017.08">mescheut</term>, luy ayant faict aulcun mal.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> que <persName>Caspar Corti</persName> luy dict&#160;: <q>&#160;Tu a donné le mal à
+							<lb/>ma femme&#160;!&#160;</q>&#160;; surquoy elle luy envoyast le <term ref="lem017410.02">mestral</term>
+						<lb/><persName>Blanc</persName> de <placeName ref="loc007747">Russy</placeName>, s’il vouloit maintenir ses paroles. Et
+						<lb/>que après cela un’aultre fois ledit <persName>Corti</persName> ast dict à la dete<lb break="no"/>nue qu’il ne sçavoit que bien et honneur d’elle, de quoy
+						<lb/>elle se contenta.</p>
+						<p><lb/>Dict n’avoir eu aulcune familiarité ny conversation avec
+							<lb/><persName ref="per026989a">Catherine Verdon</persName> la suppliciée, n’ayant esté qu’une seule
+							<lb/>fois chez ladite <persName ref="per026989a">Catherine</persName>, ou elle s’eschaufast lors que
+						<lb/>l’on fasoit la <term ref="lem018881.02">donna</term> à l’ensevelissement de <persName>Pierre
+							<lb/>Monney</persName>. D’aultrefois elle se rancontroit avec ladite <persName ref="per026989a">Catherine</persName>,
+							<lb/>allant à l’eglise, et que ladite <persName ref="per026989a">Catherine</persName> donnoit à la detenue
+						<lb/>par fois du pain benist à l’eglise.</p>
+						<pb n="385"/><p><lb/><term ref="lem015549.13">Confesse</term> avoir demandé des choux à <persName>Anna Pryla</persName>, sans touttefois luy
+						<lb/>avoir faict aulcun mal aux reste de ses choux du jardin.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir donné deux pommes à <persName>Jean Corti</persName> pour sa peine
+						<lb/>d’avoir conduict le mary de la detenue au logis, sans touttefois
+						<lb/>faire aulcun mal. Advoue qu’il fault bien que les pommes qui
+						<lb/>doibvent avoir faict dans le four les effects mentionées, ayent
+						<lb/>esté des meschantes pommes.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir demandé une fois du <term ref="lem019529.01">feu</term> à <persName>Clauda Corti</persName>, mais qu’elle
+						<lb/>n’ast poin veu de souppe, et pour le mal des dents, dict
+						<lb/>luy avoir enseigné <sic>un</sic> herbe nommée <term ref="lem018882.01">gerletta</term>, et qu’elle se
+						<lb/>debvoit <term ref="lem016125.01">pourflammer</term> avec du bois gentil, l’ayant apris de <persName>Henri
+						<lb/>Marti</persName> de <placeName ref="loc008066.01">Lossy</placeName>. Et que peult estre que la detenue aye
+						<lb/>donné de la main sur l’espaule à ladite personne, mais sans
+						<lb/>luy faire ny donner du mal.</p>
+						<p><lb/>Touchant les aultres articles et interrogatoires elle persiste
+						<lb/>dans ses precedantes negatives, demandant pardon à Dieu
+						<lb/>et à vos Excellences.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

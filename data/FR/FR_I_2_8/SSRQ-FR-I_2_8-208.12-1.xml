@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-208.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 21, fol. 149r–152r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 21, fol. 149r–152r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Repond – Verhör</head>
+					<head xml:lang="fr">Marguerite Repond – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1741-11-14"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="149r"/> <p><lb/><placeName ref="loc007890.08">Jaquemars</placeName> le <origDate when="1741-11-14">14 de <choice><abbr>9<hi rend="sup">bre</hi></abbr><expan>novembre</expan></choice> 1741</origDate></p>
+						<p><lb/>Monsieur le <term ref="lem014993.11">grand-sauttier</term> <persName ref="per028232a.01">Rämi</persName>
+						<seg><lb/>Mes très honorés <choice><abbr>seigrs</abbr><expan>seigneurs</expan></choice> l’ancien
+							<lb/>tresaurier <persName ref="per028330a.01">Kienli</persName> et <term ref="lem019323.07">bourgemaitre</term>
+							<lb/><persName ref="per028332a.01">de Maillard</persName>,</seg> <seg><choice><abbr>Mr</abbr><expan>Monsieur</expan></choice> l’ancien ballif
+								<pb n="149v"/> <lb/><persName ref="per028335a.01">Prothaise Vonderweid</persName>, <choice><abbr>Mr</abbr><expan>Monsieur</expan></choice> <persName ref="per028337a.01">Buman</persName> ancien
+								<lb/>advoyer de <placeName ref="loc008661.03">Morat</placeName>, <choice><abbr>Mr</abbr><expan>Monsieur</expan></choice> <persName ref="per028338a.01">Maximillien Fegeli</persName></seg>
+							<seg><lb/><choice><abbr>Mr</abbr><expan>Monsieur</expan></choice> <persName ref="per028341a.01">Antoine de Reinold</persName></seg>
+							<seg><lb/>Officier <persName ref="per028170a.01">Quentz</persName></seg></p>
+						<p><seg><lb/>En exeqution de la sentence de mes souverains
+							<lb/>seigneurs du Conseil privé<sic>s</sic><note>Il s’agit du Petit Conseil.</note>, datée du <origDate when="1741-11-13">13</origDate>,
+						<lb/>mes<subst><del>seig du</del><add place="overwritten"> très honorés</add></subst>  <choice><abbr>seigrs</abbr><expan>seigneurs</expan></choice> du droit civil firent
+						<lb/>sciter par devant eux la detenue ès prison
+						<lb/>de <placeName ref="loc007890.08">Jaquemars</placeName>.</seg> <seg>Elle fut dabord interrogée comme
+						<lb/>elle s’appelloit&#160;? A quoi elle a repondu s’appeller
+						<lb/><persName ref="per028136a">Marguerite Repond</persName> de <placeName ref="loc008195.08">Villarvolaz</placeName>, fille de <persName ref="per028135a.01">Soulpis
+						<lb/>Repond</persName> de <placeName ref="loc008195.08">Villarvolaz</placeName>, sa mere s’appelloit <persName ref="per028343a">Cath<lb break="no"/>erine</persName>, aussi une Repond des plus anciennes familles
+						<lb/>de ces contrées, tous deux morts.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle avoit
+						<lb/>des soeurs&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui, mais elle étoient mortes.
+						<lb/>L’une s’appelloit <persName ref="per028134">Catherine</persName>, qui a été persequtée
+						<lb/>ici à <placeName ref="loc001060.04">Frybourg</placeName>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> pour quelle raison&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> parce
+						<lb/>qu’on la <subst><del><unclear>declara</unclear></del><add place="overwritten">dit être</add></subst> <term ref="lem019389.02">sorciere</term>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> de quel âge elle
+						<lb/><persName ref="per028136a">Marguerite</persName> pouvoit être&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> de <measure type="age" quantity="50" unit="year">50 ans</measure>, puis après
+						<lb/>d’environ <measure type="age" quantity="56" unit="year">56</measure>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> pour quelle raison ell’est
+						<lb/>detenue&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’elle s’en venoit de se repatrier
+						<lb/>et alloit à la dedicasse à <placeName ref="loc008195.08">Villarvolaz</placeName>, venant
+						<lb/>de <placeName ref="loc000740.06">Bienne</placeName>, de <placeName ref="loc008478">Villeneuve</placeName><!-- Villeneuve  VD, vgl. 23b -->, et qu’étante à <placeName ref="loc007804.06">Grand-<lb break="no"/>Court</placeName>, un homme lui demandat d’ou elle étoit&#160;?
+						<lb/>Elle lui repondit de la <placeName ref="loc008470.02">Gruiere</placeName>. L’homme lui
+						<lb/>dit qu’elle resembloit à celle qu’on at <subst><del>requté</del><add place="overwritten">persequtée</add></subst>,
+						<lb/>et là on l’at prise, et fut gardée à la maison
+						<lb/>de ville, et qu’auparavant <subst><del>i</del><add place="overwritten">e</add></subst>lle avoit receu
+							<lb/>l’<term ref="lem021653.08">aumone</term> de <choice><abbr>Mr</abbr><expan>Monsieur</expan></choice> le baron.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle
+						<lb/>y fut examinée&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> que non.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> de quelle
+						<lb/>religion ell’etoit&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> <term ref="lem019533.01">catholique</term> apostolique
+						<pb n="150r"/> <lb/>et romaine. On lui dit ici que puisque elle étoit
+						<lb/>de cette relligion, <add place="left margin" type="sign">elle doit bien <lb/>sçavoir</add> que les souverains étoient les
+						<lb/>vicaire de Dieu sur terres, que par consequant
+						<lb/>elle leurs devoit toutte obeissance, et qu’après avoir
+						<lb/>donné la gloire à Dieu, <choice><sic>il</sic><corr>elle</corr></choice> doit dire la verité
+						<lb/>à son souverain sans aucun detour.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si
+						<lb/>elle étoit veritablement intentionnée d’aller à
+						<lb/>la dedicasse de <placeName ref="loc008195.14">Vellarvolaz</placeName>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> pour
+							<lb/>combien de tems ell’étoit <term ref="lem019512.03">bannie</term>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> pour <date dur-iso="P15Y">15 ans</date>.
+							<lb/>On lui dit pour quoi elle étoit si <term ref="lem019022.02">osaire</term> de rentrer
+						<lb/>aux pays avant le terme expiré&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’elle le
+						<lb/>croioit à peu près expiré, qu’elle contoit cela
+						<lb/>par les ballifs. Et après avoir dit qu’elle croioit
+						<lb/>que son terme étoit expiré, et cela par plusieres
+						<lb/>reppettition, elle dit qu’elle <add place="above">croiot</add> manqu<subst><del>oit</del><add place="overwritten">er</add></subst> encor <date dur-iso="P3Y">3 ans</date> jusque
+						<lb/>à ce qu<subst><del>a</del><add place="overwritten">e</add></subst> sont terme fut fini.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> depuis quand
+						<lb/>elle n’a pas été au canton de <placeName ref="loc000284.06">Frybourg</placeName>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice>
+						<lb/><choice><sic>et</sic><corr>qu’</corr></choice>elle proteste totalement&#160;; n’y avoir mis le pied
+							<lb/>depuis son <term ref="lem019515.01">bannissement</term> de <placeName ref="loc008470.02">Gruiere</placeName>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si
+						<lb/>elle n’a pas éte ici il y a <date dur-iso="P4Y">4 ans</date>. Elle se reclame
+						<lb/>totalement la dessus, dirant n’avoir été au
+						<lb/>pays depuis sa sortie de la <placeName ref="loc008470.02">Gruiere</placeName>, qu’elle a
+							<lb/>été à la citté d’<placeName ref="loc013792.02">Aute</placeName>, aux <placeName ref="loc005954.06">Valley</placeName>, en <placeName ref="loc005628.02">Bourgogne</placeName>,
+						<lb/>en <placeName ref="loc005865.04">Savoye</placeName>, à <placeName ref="loc000910.07">St Bernard</placeName> et dans le <placeName ref="loc013793.02">Milanez</placeName>.
+						<lb/>On lui dit ici qu’elle en serat survainque, à
+						<lb/>quoi elle a repondu qu’on devoit les faire venir
+						<lb/>devant elles, pour voire si quelq’un pourroit la
+						<lb/>convainqre de l’avoir vue aux pays depuis sa
+						<lb/>sortie de la <placeName ref="loc008470.02">Gruiere</placeName>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si elle n’avoit été par
+						<lb/>le pays avec un homme du pays de <placeName ref="loc012653.01">La Roche</placeName>&#160;?
+						<lb/><choice><sic>Il</sic><corr>Elle</corr></choice> nie encor cela. On lui dit que c’étoit un <persName ref="per028151a.02">Bouquet</persName>.
+						<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’il y avoit des <persName>Bouquet</persName> à <placeName ref="loc007660">La Roche</placeName>, mais qu’elle
+						<lb/>n’avoit poin été avec un <persName>Bouquet</persName>. On lui dit
+						<pb n="150v"/> <lb/>qu’il y avoit environ <date dur-iso="P4Y">4 ans</date> qu’elle a été dans le
+						<lb/>balliage de <placeName ref="loc008049.04">Corbiere</placeName>, qu’elle en serat certainement
+						<lb/>convainque. Elle s’en recrie totalement.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice>
+						<lb/>si elle n’a pas connu un certain <persName>Joseph Zollet</persName>
+						<lb/>de <placeName ref="loc013794.02">Mont Servens</placeName> et un certain <persName>Christe l’ané</persName>&#160;; ce
+						<lb/>qu’elle lui est arrivé chés ce <persName>Joseph Zollet</persName>&#160;? Elle
+						<lb/>dit ne les avoir jammais connus, qu’elle sçait bien
+						<lb/>qu’il y a des <persName>Zollet</persName> dans beaucoup de village. On
+						<lb/>lui dit qu’elle les at fort bien connu, et qu’allante
+						<lb/>du cotté de <placeName ref="loc007849.04">Chermey</placeName>, à la <placeName ref="loc008461">Valsainte</placeName>, elle demanda
+						<lb/><term ref="lem019353.01">aberge</term>, alleguant être malade. Ce qu’elle nie
+						<lb/>totalement, et qu’il y avoit longtems qu’elle est
+						<lb/>hors de chés elle, qu’elle avoit servit à <placeName ref="loc001060.04">Frybourg</placeName>.</seg>
+							<seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> chés qui&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> chés <choice><abbr>Mr</abbr><expan>Monsieur</expan></choice> le chanoine <persName ref="per028345a.01">Reif</persName>,
+						<lb/>qui a present est mort malheureusement pour elle.
+						<lb/>Il lui fut dit qu’elle avoit été au pays, puisque
+						<lb/>elle sçavoit sa mort&#160;? Elle dit la dessus que <choice><abbr>Mr</abbr><expan>Monsieur</expan></choice>
+						<lb/><persName ref="per028345a.02">Reiff</persName> étoit deja mort avant son depart. On lui
+						<lb/>dit que cela n’étoit pas, qu’il n’y avoit pas si
+						<lb/>long tems qu’il étoit mort. Allors elle dit que,
+						<lb/>c’étant trouvée sur le soir à <placeName ref="loc007885">Lausanne</placeName> avec une
+						<lb/>revendeuse, <add place="above">chés la quelle elle couchat</add>, un peu agée et qui a des enfens, la
+						<lb/>quelle lui a compté sa mort. Il lui fut dit
+						<lb/>pourquoi elle auroit demandé à une étrangere
+						<lb/>la mort d’un chanoine qu’elle ne conoissoit pas,
+						<lb/>que cela n’étoit pas croyable&#160;? Elle dit qu’entr’autres
+						<lb/>discours, elle lui avoit fait cette demande, parce que
+						<lb/>cette revendeuse alloit par si par là, mais qu’elle
+						<lb/>sçait absolument pas son nom.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si il y a pas
+						<lb/><date dur-iso="P18M">une année et demi</date> envoiron, au tems des <term ref="lem019348.03">serises</term>,
+						<lb/>qu’elle a été à une maison hors la <placeName ref="loc007981.02">porte de Berne</placeName>,
+						<lb/>et ce qu’<choice><sic>il</sic><corr>elle</corr></choice> y a fait&#160;? <choice><sic>Il</sic><corr>Elle</corr></choice> nie cela absolument.
+						<pb n="151r"/> <lb/>On lui dit qu’elle avoit même passé la <placeName ref="loc007746.02">Sarine</placeName>
+						<lb/>le lendemain, sans etre moullée, que des gens l’<lb break="no"/>avoit vû, ce qu’elle nie continuelement, disant qu’on
+						<lb/>fasse venir ces gens la devant elle, et quand
+							<lb/>à elle, elle se tient toujour à <sic>ce</sic> premiere declaration.</seg>
+						<seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> ou elle étoit il y a <date dur-iso="P4Y">4 ans</date>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> dans la <placeName ref="loc005628.02">Bourgogne</placeName>,
+						<lb/>ne sçauroit se souvenir des noms des vilages, avoir
+						<lb/>été <date dur-iso="P1Y">un an</date> à <placeName ref="loc008464">Besançon</placeName>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> par ou elle a passé
+						<lb/>pour aller de <placeName ref="loc008464">Besançon</placeName> à <placeName ref="loc000910.07">St Bernard</placeName>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> par <placeName ref="loc008002.03">Salin</placeName>,
+						<lb/>par <placeName ref="loc008466.02">Noseret</placeName>, dans la montagne.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si pas par
+						<lb/>le canton de <placeName ref="loc000284.06">Frybourg</placeName> ou de <placeName ref="loc000464.08">Berne</placeName>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> par <placeName ref="loc007918">Orbe</placeName>,
+						<lb/>avoir passé la lac à <placeName ref="loc007885.03">Lausane</placeName>, avoir passé par
+						<lb/>la <placeName ref="loc005865.04">Savoye</placeName>, mais pas par le canton de <placeName ref="loc000284.06">Frybourg</placeName>,
+						<lb/>qu’elle c’étoit enbarquée à <placeName ref="loc008462.02">Uzi</placeName> près de <placeName ref="loc007885">Lausanne</placeName>
+						<lb/>un samedi, jour du marché.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> ou elle s’arretta
+						<lb/>en <placeName ref="loc005865.04">Savoye</placeName>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> chés une femme qui est du <placeName ref="loc007682.06">Grand Vellar</placeName>,
+						<lb/>elle ne sçauroit dire ni son nom ni l’endroit, puis
+						<lb/>après elle avoit passé par <placeName ref="loc008463.03">St Gingau</placeName>, par le
+						<lb/><placeName ref="loc005954.06">Valley</placeName>, par <placeName ref="loc000910.07">St Bernard</placeName>, avoir resté <date dur-iso="P3W">3 semaines</date>
+						<lb/>dans le <placeName ref="loc013793.03">Milanois</placeName>.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> si à son retour elle avoit
+						<lb/>pris le chemin de <placeName ref="loc008099.06">Vevay</placeName> ou de <placeName ref="loc008463.03">St Gingau</placeName>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice>
+						<lb/>par la <placeName ref="loc005865.04">Savoye</placeName>, parce on lui fesoit beaucoup de bien
+						<lb/>par là. Avoit aussi été du cotté de <placeName ref="loc013822.01">Pollinge</placeName>
+						<lb/>et les endroits voisins, comme aussi à <placeName ref="loc007786.10">Neuchattel</placeName>, à
+						<lb/><placeName ref="loc007797.03">Collombiers</placeName>, <placeName ref="loc007815.02">Overgnies</placeName> et ces villages, et qu’elle se tient
+						<lb/>toujour à sa premiere declaration (mot qu’elle a très
+						<lb/>souvent reitterés).</seg> <seg>Il lui fut demandé ce que c’étoit
+						<lb/>sa premiere declaration, qu’apparrement c’étoit
+						<lb/>qu’elle avoit connu ce <persName>Joseph Zollet</persName>, et qu’elle
+						<lb/>avoit souvent rodé par le canton de <placeName ref="loc000284.06">Frybourg</placeName>&#160;?
+						<lb/>Elle proteste n’avoir pas connu ce <persName>Zollet</persName>, et qu’elle
+						<lb/>se gardoit bien de venir au pays, crainte de manquer
+						<pb n="151v"/> <lb/>et d’etre obligée de paroitre comme aujourd’hui par
+						<lb/>devant tant d’honetes gens. On lui dit qu’on
+						<lb/>l’avoit vûe il n’y a pas long tems du cotté de
+						<lb/><placeName ref="loc007977.07">Belfaut</placeName>, de <placeName ref="loc008167.04">Cuttrevil</placeName>. Ce qu’elle nie continuellement.</seg>
+						<seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> comme elle s’habilloit à l’ordinaire&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’<lb break="no"/>elle se couvroit d’un chappau de <term ref="lem015397.01">paille</term>, d’une
+						<lb/><term ref="lem019349.02">coeffe</term>, ou à la mode des endroits ou elle demeuroit.</seg>
+						<seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> quel chemin <choice><sic>il</sic><corr>elle</corr></choice> vouloit prendre pour s’en
+						<lb/>retourner à <placeName ref="loc008195.09">Villarvollaz</placeName>&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> par <placeName ref="loc007610">Payerne</placeName>, par
+						<lb/><placeName ref="loc007655.08">Montagnies</placeName>, vouloit aller chés <choice><abbr>Mrs</abbr><expan>Messieurs</expan></choice> les <persName>Vonderweid</persName>
+						<lb/>à <placeName ref="loc007679.03">Pont</placeName>, des quels <subst><del>i</del><add place="overwritten">e</add></subst>lle avoit receû beaucoup de
+						<lb/>bien.</seg> <seg><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> quand elle a sçu la nouvelle de
+						<lb/>la mort de <persName>Joseph Zollet</persName>&#160;? Elle persiste de dire
+						<lb/>de n’avoir connu ni <persName>Zollet</persName>, ni sa demeure,
+						<lb/>et non plus <persName>Christe l’ané</persName>. On lui dit très
+						<lb/>serieusement de dire d’ou elle venoit lorsqu’<lb break="no"/>elle a été à <placeName ref="loc007804.06">Grand-Court</placeName>. Après avoir battu la
+						<lb/>campagne, disant etre venue par <placeName ref="loc013796.03">La Teila</placeName>, par
+						<lb/><placeName ref="loc008468.01">La Poissine</placeName>, par <placeName ref="loc013795.02">La Soge</placeName>, avoir couché à <placeName ref="loc008068.02">Cuttrefin</placeName>,
+						<lb/>avoir retourné à <placeName ref="loc007786.10">Neuchattel</placeName>, à <placeName ref="loc007879.02">Pesé</placeName>. <choice><sic>Il</sic><corr>Elle</corr></choice> dit à
+						<lb/>la fin que la veille de ce qu’elle est allée à
+						<lb/><placeName ref="loc007804.06">Grand-Court</placeName>, elle avoit couché à <placeName ref="loc007960.03">Ruchedin</placeName>.</seg>
+						<seg><lb/><choice><abbr>Int</abbr><expan>Interrogée</expan></choice> ou elle avoit couché l’avant veille&#160;?
+						<lb/>Après avoir hesité très long tems, elle dit avoir
+						<lb/>couché chés des <term ref="lem019538.03">hugenots</term> à un village moittié <term ref="lem019533.02">cath<lb break="no"/>oliques</term> et moittiés <term ref="lem019536.04">hugenot</term>. On lui dit que c’étoit
+						<lb/>peut etre à <placeName ref="loc007961.05">Villar les Friqques</placeName>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’oui.</seg> <seg>Ici
+						<lb/>il lui fut très vivement representé de dire la
+						<lb/>verité, comme elle avoit promis de la dire, si
+						<lb/>depuis <placeName ref="loc007961.06">Les Friqques</placeName> elle n’étoit pas passée par
+						<pb n="152r"/> <lb/><placeName ref="loc007868.07">St Aubin</placeName> pour aller à <placeName ref="loc007960.03">Ruchedin</placeName>, <add place="above">n’y pouvent aller que par là</add>&#160;? Elle proteste
+						<lb/>qu’elle n’a pas été à <placeName ref="loc007868.07">St Aubin</placeName>, ni <placeName ref="loc008095.01">Delley</placeName>, ni
+						<lb/><placeName ref="loc007976.01">Portalban</placeName>. On lui dit qu’elle ne pouvoit pas avoir
+						<lb/>été de <placeName ref="loc007961.12">Villars</placeName> à <placeName ref="loc007960.03">Ruchedin</placeName>, à moin qu’elle se soit
+						<lb/>fait porter. Elle repondit avec émotion que ceux
+						<lb/>qui l’auroit portée n’on rien affaire avec elle&#160;; <add place="bottom" type="sign">qu’elle se tient toujour à sa premiere declaration.
+						<lb/>Il lui fut dit que par sa premiere declaration,
+						<lb/>elle entendoit peut etre de n’avoir pas été
+							<lb/>au canton depuis son <term ref="lem019515.01">bannissement</term>, de n’avoir
+						<lb/>pas connu <persName>Joseph Zollet</persName> et <persName>Christe l’ané</persName>&#160;?
+						<lb/>A quoi elle a repondu qu’oui, et que depuis <placeName ref="loc007961">Les
+						<lb/>Friques</placeName> elle n’avoit passé par auqun vilage, mais
+						<lb/>par dessous des <term ref="lem016908.12">chaines</term> pour se rendre à <placeName ref="loc007960.03">Ruchedin</placeName></add>.</seg>
+						<seg><lb/>On lui fit encore une très vive remontrance sur
+						<lb/>ce qu’elle ne vouloit pas avouer la verité à son
+						<lb/>souverain, qu’elle étoit convainque d’avoir été au
+							<lb/>pays depuis son <term ref="lem019515.01">bannissement</term>, qu’elle a même
+						<lb/>crié à une fille, la quelle ramassoit du foin dans
+						<lb/>un prés&#160;: <q>&#160;Adiu <persName>Majon</persName>&#160;!&#160;</q> Elle nie totalement d’avoir
+						<lb/>été au pays depuis sa sortie de la <placeName ref="loc008470.02">Gruiere</placeName>,
+							<lb/>allors de son <term ref="lem019515.01">bannissement</term>, car elle a promis
+						<lb/>de ne pas revenir, comme aussi <add place="above">nie</add> d’avoir connu
+						<lb/><persName>Joseph Chollet</persName>, <persName>Christe l’ané</persName>.</seg> <seg>Après qu’on l’ut
+						<lb/>très serieusement advertie d’envoyer chercher <choice><abbr>Mr</abbr><expan>Monsieur</expan></choice>
+						<lb/>le <term ref="lem014993.11">grand sauttier</term><note>Gemeint ist <persName ref="per028232a">Franz Josef Moritz Raemy</persName>.</note>, en cas qu’elle voulut avouer la
+						<lb/>verité, et après avoir bien pensé au tort qu’elle
+						<lb/>a de la nier ainsi, <subst><del>la verité nier ainsi</del><add place="inline">elle fut</add></subst>
+						<lb/>renvoyée en prison. Ainsi ce terminat cette
+						<lb/>examination le <origDate when="1741-11-14">14 de <choice><abbr>9bre</abbr><expan>novembre</expan></choice> 1741</origDate>.</seg></p>
+						<p><lb/><persName ref="per028241a.01">Gottrau</persName> <figure type="notarial sign"/> secretaire civil.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

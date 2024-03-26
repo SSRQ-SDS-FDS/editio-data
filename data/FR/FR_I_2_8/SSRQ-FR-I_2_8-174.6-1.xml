@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-174.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 289–291</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 289–291</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsy Morand-Favre, Clauda Cossonay-Morand – Verhör</head>
+					<head xml:lang="fr">Elsy Morand-Favre, Clauda Cossonay-Morand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1668-04-16"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="289"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, den <origDate when="1668-04-16">16 <foreign xml:lang="la">aprilis</foreign> 1668</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026314a">Karl von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026065a">Joseph Reyff</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per026329a.01">Schrötter</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <persName ref="per026077a.01">Küenli</persName>, <persName ref="per026039a.01">Moßer</persName></seg>
+							<seg><lb/><persName ref="per026315a.01">Techterman</persName></seg></p>
+						<p><seg><lb/><persName ref="per017167b.01">Elsi Fabvre</persName>, vefve de feu <persName ref="per017168a">Pierre Morand</persName> de <placeName ref="loc007983.04">Noreya</placeName>, <add place="left margin" type="sign">et <persName ref="per026681a">Clauda</persName> sa fille</add>,
+						<lb/>reduictes aux arrests à cause qu’elles <add place="above" type="sign">ont</add> esté soubçonnées
+						<lb/>de <term ref="lem018521.01">sorcellerie</term>, estant examinées sur l’<term ref="lem018363">inquisition</term> prise,
+							<lb/><subst><del>at</del><add place="overwritten">ladite</add></subst> <persName ref="per026681a">Clauda</persName> a respondu d’avoir <subst><del>pris</del><add place="above"><term ref="lem019223.02">ligna</term></add></subst> de l’orge en
+						<lb/>recueillant de l’<term ref="lem017480.03">angelique</term> sur le champ de <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Mare<lb break="no"/>toud</persName>, mais en petite quantité, puisque elle y a treuvé
+						<lb/>de l’opposition.</seg> <seg>Item d’avoir eu querelles avec la
+						<lb/>femme de <persName>Jean Ducret</persName>, et mesmement de l’avoir frappée
+						<lb/>en se defendant.</seg> <seg>Dit qu’elle at esté incomodée, et qu’elle
+						<lb/>l’est encore, mais ne sçavoir d’ou sa malladie provient.</seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> d’avoir eu dispute <add place="above" type="sign">à cause d’une <term ref="lem019400.02">chevre</term></add> avec les hoirs de <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Haberkorn</persName>,
+						<pb n="290"/><lb/>et d’avoir payé pour telle et autres accusations
+							<lb/><measure type="currency" unit="Pistole" quantity="1">une pistole</measure> à <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le ballif <persName>Adam</persName><note>Il s’agit probablement de <persName ref="per018085">Peter Adam</persName>, bailli de Montagny 1657–1662.</note>.</seg> <seg>Plus <term ref="lem015549.13">confesse</term>
+							<lb/>de cognoistre <persName ref="per026682a.01">Magdelon Cossenez</persName>, <subst><del>niep</del><add place="inline">sa niepce</add></subst>, aagée
+						<lb/>d’environ <measure type="age" quantity="12" unit="year">12 ans</measure>, mais nie d’avoir esté avec elle
+						<lb/>de nuict ès <placeName>Rappes</placeName>.</seg> <seg>Dit qu’elle at porté quelques
+						<lb/>années en ça, et encore avant <date when="1667-12-25">Noel dernierement passé</date>,
+							<lb/>des herbes à meister <persName>Frantz</persName> le <term ref="lem019397.01">barbier</term>, et qu’il
+						<lb/>l’a recherchée il n’y a pas long temps de luy en
+						<lb/>porter.</seg> <seg>Declaire qu’elle est mariée environ <date dur-iso="P12Y">douze
+						<lb/>ans</date> sans avoir des enfants, et si elle eusse sceu
+						<lb/>de n’en point avoir, qu’elle ne se fust par mariée.</seg>
+						<seg><lb/>Soustient de s’estre toujours comportée en femme
+						<lb/>d’honneur et se recommande tres humblement à <choice><abbr>V E</abbr><expan>vos Excellences</expan></choice>.</seg></p>
+						<p><seg><lb/>La predite <persName ref="per017167a.03">Elsi</persName>, sa mere, dit que son pere estoit resor<lb break="no"/>tissant de <placeName ref="loc005865.04">Savoye</placeName>, <add place="above" type="sign">en</add> avoir belles attestations, declaire
+						<lb/>que la marque en son visage provient d’une cheutte
+						<lb/>faite dernierement, <subst><del>en</del><add place="inline">venant</add></subst> de <placeName ref="loc007610">Payerne</placeName> en
+						<lb/>presence d’environ dix personnes.</seg> <seg>Nie d’avoir esté
+						<lb/>de nuict au <placeName>Croup Loup</placeName> qui est au village de <!--un lieu-dit à Noréaz? j'ai rien trouvé sur geoportal-->
+						<lb/><placeName ref="loc007983.06">Noreyaz</placeName>, moings d’y avoir recontré <add place="above" type="sign">aucune</add> personne.</seg>
+						<seg><lb/>Elle ne veult pas sçavoir que <persName>Hausi Gumy</persName> ayt
+						<lb/>perdu du bestail depuis qu’il est à <placeName ref="loc007983.06">Noreyaz</placeName>,
+						<lb/>ny qu’elle ayt eu dispute avec <persName>Jaques Jaquaz</persName>.</seg>
+						<seg><lb/>Elle ne se veult pas souvenir d’avoir esté auprès
+						<lb/>la femme de <persName>Hausi Bergier</persName> pendant son
+						<lb/>accouchement, ou quand elle taitoit son enfant. </seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> d’avoir esté cy devant dans vos prisons
+						<lb/>à cause d’une <term ref="lem019002.02">aulaz</term> qu’elle dit avoir prise à ceux
+						<lb/>qui la luy avoient enlevée.</seg> <seg>Nie entierement
+							<lb/>d’avoir parlé à <persName ref="per026682a.02">Magdelon Cossonez</persName> dans un
+						<lb/>estable, ny autre part, moings de s’estre treuvée
+							<pb n="291"/><lb/>de nuict ès <placeName>Rappes</placeName><note>Il existe plusieurs toponymes de ce type dans le canton de Fribourg et il n’est pas possible de le préciser.</note> avec elle.</seg> <seg>Soustient qu’elle
+								<lb/>ne s’est jamais laissé dire ou appeller <term ref="lem019389.02">sorciere</term>.</seg>
+						<seg><lb/>Declaire que <persName>Pierre Chardonnens</persName> a souffert
+						<lb/>grande perte de son bestail, mais qu’on ne s’en
+						<lb/>faut pas estonner, puisque il les traitte mal et
+						<lb/>les laisse affamer&#160;; nie de luy <subst><del>ad</del><add place="inline">avoir</add></subst> conseillé
+						<lb/>de s’adresser au <term ref="lem018791.01">bourreau</term>&#160;; <term ref="lem015549.13">confesse</term> qu’il at eu
+						<lb/>mangé quelques foys chez elle avec d’autres personnes.</seg>
+						<seg><lb/>Nie d’avoir menacé <persName>Peterman Jaquat</persName> et d’avoir
+						<lb/>parlé contre la <term ref="lem019021.02">meyge</term>, qui est belle mere de
+						<lb/>sa fille.</seg> <seg>Dit qu’elle at eu donné à manger
+						<lb/>de la chair à la femme de <persName>Louys Pitthoud</persName>,
+						<lb/>laquelle, quelques temps après, est devenue in<lb break="no"/>commodée. Item que dispute est survenue pour
+						<lb/>ce fait entre elles, laquelle at esté decidée,
+						<lb/>l’ayant fait citer en justice, <add place="above" type="sign">et</add> après qu’elle luy
+						<lb/>a demandé pardon.</seg> <seg>Confesse d’avoir eu des ressen<lb break="no"/><subst><del>tisse</del><add place="inline">timents</add></subst> et d’avoir parlé contre <persName><add place="above" type="sign">Jaque</add> Jaquaz</persName>
+						<lb/>à cause qu’il doibt avoir dit qu’il voulloit
+						<lb/>supporter tous frais, moyennant qu’elle fust
+						<lb/>faite prisonniere.</seg> <seg>Nie de s’estre meslée du
+						<lb/>mariage de feu <persName>Bendicht Monney</persName>, ny de cognoistre
+							<lb/>un certain <persName>Pecla</persName> et <persName>Meria Michel</persName>.</seg> <seg><term ref="lem015549.13">Confesse</term>
+						<lb/>d’avoir donné volontairement <add place="above" type="sign"><unclear>par aucun</unclear></add> un bichet d’avoine
+						<lb/>aux grangers de <placeName ref="loc008103.02">Seydor</placeName>, mais sans aulcune menasse.</seg>
+							<seg><lb/>Soustient que le <term ref="lem019397.01">barbier</term> <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>meister</expan></choice> <persName>Franz</persName> ne luy a jamais
+						<lb/>fait defence de <add place="above">luy</add> porter des herbes, et qu’elle
+						<lb/>ne luy a jamais dit qu’il s’en repentiroit.
+						<lb/>Au contraire, que dernierement l’ayant rancontré
+								<lb/>auprès des <choice><abbr>r<hi rend="sup">ds</hi></abbr><expan>reverends</expan></choice> peres <term ref="lem019403.02">capucins</term>, il luy a parlé tout
+						<lb/>amiablement.</seg> <seg>Soustient d’estre femme d’honneur
+						<lb/>et se recommande aux <term ref="lem019504.03">graces</term> de vos Excellences.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

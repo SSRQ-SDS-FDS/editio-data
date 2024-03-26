@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-80.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 12, S. 235–236</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 12, p. 235–236</idno>
+					</msIdentifier>
+					<head xml:lang="de">François Péclat – Verhör</head>
+					<head xml:lang="fr">François Péclat – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1628-08-08">8 <foreign xml:lang="la"><abbr>aug</abbr></foreign> 1628</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="235"/><p><lb/><persName ref="per009312a.04">Frantz Pecla</persName><note>Das Verhör fand im <placeName ref="loc007890">Jacquemart</placeName> statt. Die anwesenden Gerichtsherren sind ersichtlich unter <ref target="urn:ssrq:SSRQ-FR-I_2_8-80.2-1">SSRQ FR I/2/8 80.2-1</ref>.</note> de <placeName ref="loc007893.02">Mides</placeName> ne sçait
+							la cause de son emprison<lb break="no"/>nement, n’ayant onques meffaict. Qu’estant il y a desja long<lb break="no"/>tempz en la guerre avec <choice><abbr>j</abbr><expan>junker</expan></choice> <unclear><persName>Ulrich</persName></unclear>, il trouva une bourse
+							<lb/>qui estoit a <persName>Tenquilly</persName>, dans laquelle estoient <measure type="currency" quantity="2" unit="écu d’or">deux escus d’or</measure>, <!--unit à préciser-->
+							<pb n="236"/><lb/>qui fust rendue au proprietaire. Que son frere <persName ref="per009319">Antheino</persName> avoit
+							<lb/>esté trouvé a l’emboucheure d’une cave, qui a esté exequuté
+							<lb/>a mort. Que sa femme devant <date dur-iso="P8D">huict jours</date> s’estoit acheminee
+							<lb/>contre <placeName ref="loc000076.11">Rome</placeName>, prenant le chemin de <placeName ref="loc000085.10">Nostre Dame des Hermites</placeName>
+							<lb/>avec une autre femme, dicte <persName>Anni Françoys</persName>. Estre vray
+							<lb/>qu’il auroit, estant attaqué par <persName>Anthoine du Praz</persName> et sa
+							<lb/>femme, donné du pied a ladite femme, se disant enceincte,
+							<lb/>mais qu’elle ne l’estoit. Qu’il auroit aussy commandé
+							<lb/>a un sien serviteur, nommé <persName>Claude Bugnon</persName>, d’aller manger
+							<lb/>le <term ref="lem017334.02">pasquis</term> de <persName>Claude Roguin</persName>, qui luy en avoit aussy
+							<lb/>mangé un. Soy recommande a messieurs.
+						</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

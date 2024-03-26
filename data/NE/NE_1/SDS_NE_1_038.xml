@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-38-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives communales de Val-de-Travers</repository>
+                  <idno xml:lang="fr">Archives des six communes, A No 3</idno>
+               </msIdentifier>
+               <head>Confirmation par Rodolphe de Hochberg des franchises accordées jadis par ses
+                  prédécesseurs aux  <orig>bonnes gens</orig> du <placeName ref="loc007812">Val-de-Travers</placeName></head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="18"/>
+                              <width unit="cm" quantity="32"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="absent" ns0:attachment="sealed on a parchment tag" ns0:material="wax"><persName role="sigillant" ref="per036882">Rodolphe de Hochberg</persName></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1458-04-08"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_104">SDS NE 1, N<hi rend="sup">o</hi>&#160;38</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000468"></term>
+               <term ref="key000296"/>
+                   </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="VDT_SixCommunes_A3_r"/>
+               <div>
+                  <p>
+                     <lb/>Nous <persName ref="per036882a.01">Rodoulf, marquis de Hochberg</persName>, conte de Neufchastel, seigneur de
+                     Rottelin et de Susemberg, scavoir <lb/>faisons a tous per ces presentes que
+                     aujourd'uy en recevant la foys et serment de nous bonnes gens
+                     dou <lb/>Vaultravers comen est de coustume, chascum en sa qualité a la
+                     suplicacion de nousdictes bonnes gens que pour ce <lb/>nous ont supplié tres
+                     humblement la donacion a eulx faicte per feu de noble recordacion messire Loys,
+                     jadis <lb/>seigneur et conte de Neufchastel, ensemble leurs franchises qu'il ont
+                     per escript de nous predecesseurs, avec toutes leurs <lb/>bonnes anciennes
+                     coustumes par la forme et maniere qu'il est contenu en ladicte lectre de
+                     donacion, confermons <lb/>et approvons per ces presentes, pour nous, nous hoirs
+                     et successeurs quelconques, lesquelles donacions a laquelle <lb/>nous presentes
+                     sont annexees, leurs franchises avec leurs bonnes anciennes costumes avons
+                     promis et <lb/>jurés, par la foys et serment de nostres corps, leur tenir,
+                     garder et inviolablement observer, san leurs <lb/>corrumpre ou venir ancontre
+                     ou temps advenir. Tesmoing nostre seel dou quel pour le present usons, <lb/>cy
+                     mis <date when="1458-04-08">le huitiesme jour d’apvril, l’an Nostre Seigneur
+                        corrant mil quatre cent cinquante et huit</date>. 
+                  </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, scellé d’un sceau de cire rouge sur simple queue, Môtier
+                        <hi rend="italic">Archives des 6&#160;Communes</hi>, A&#160;N<hi rend="sup"
+                        >o</hi>&#160;3.</p><p><hi rend="italic">Cité</hi>&#160;: Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;50.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

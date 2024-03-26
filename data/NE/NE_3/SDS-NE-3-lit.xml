@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xml:lang="fr" type="lit">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    XXI
+                    <hi rend="sup">e</hi>
+                    partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois
+                </title>
+                <editor>
+                    <persName>Adrien Wyssbrod</persName>
+                </editor>
+                <editor>
+                    <persName>Arnaud Besson</persName>
+                </editor>
+                <respStmt>
+                    <persName>Adrien Wyssbrod</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Adrien Wyssbrod</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2021-02-10"/>
+                <date type="print" when="2022-06-08"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/>
+                </respStmt>
+                <idno>SDS-NE-3-lit</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="title" n="4">Bibliographie</head>
+                <div>
+                    <head type="title" n="4.1">Liste des sources</head>
+                    <div>
+                        <head type="archivelocation">Archives de la Ville de Neuchâtel (AVN)</head>
+                        <listBibl>
+                            <head>Coutumiers de la Ville</head>
+                            <bibl>
+                                <idno>AVN&#160;B&#160;101.14.001</idno>
+                            </bibl>
+                            <bibl>
+                                <idno>AVN&#160;B&#160;101.14.002</idno>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Manuels du Conseil de Ville</head>
+                            <bibl>
+                                <idno>AVN&#160;B&#160;101.01.01.004</idno>
+                            </bibl>
+                            <bibl>
+                                <idno>AVN&#160;B&#160;101.01.01.005</idno>
+                            </bibl>
+                            <bibl>
+                                <idno>AVN&#160;B&#160;101.01.01.006</idno>
+                            </bibl>
+                            <bibl>
+                                <idno>AVN&#160;B&#160;101.01.01.007</idno>
+                            </bibl>
+                            <bibl>
+                                <idno>AVN&#160;B&#160;101.01.01.008</idno>
+                            </bibl>
+                            <bibl>
+                                <idno>AVN&#160;B&#160;101.01.01.009</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                    <div>
+                        <head type="archivelocation">Archives de l’État de Neuchâtel (AEN)</head>
+                        <listBibl>
+                            <head>Coutumier Baillod</head>
+                            <bibl>
+                                <idno>AEN&#160;14JL-451</idno>
+                            </bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Charte de Valangin</head>
+                            <bibl>
+                                <idno>AEN&#160;AS-05</idno>
+                            </bibl>
+                        </listBibl>
+                    </div>
+                </div>
+                <div>
+                    <head type="title" n="4.2">Sources imprimées et regestes</head>
+                    <div>
+                        <listBibl>
+                            <biblStruct xml:id="chbsg000142490">
+                                <monogr>
+                                    <author>Ostervald, Samuel</author>
+                                    <title>Les loix, us et coutumes de la souveraineté de Neuchâtel et Valangin</title>
+                                    <title type="short">Ostervald 1785</title>
+                                    <imprint>
+                                        <publisher>Samuel Fauche</publisher>
+                                        <pubPlace>Neuchâtel</pubPlace>
+                                        <date>1785</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct xml:id="chbsg000142357">
+                                <monogr type="edition">
+                                    <author>Matile, Georges-Auguste</author>
+                                    <title>Déclarations ou points de coutume rendus par le Petit-Conseil de la ville de Neuchâtel</title>
+                                    <title type="short">Matile 1836</title>
+                                    <imprint>
+                                        <publisher>Ch. Attinger</publisher>
+                                        <pubPlace>Neuchâtel</pubPlace>
+                                        <date>1836</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                            <biblStruct xml:id="SDS_NE_1">
+                                <monogr type="edition">
+                                    <author>Favarger, Dominique</author>
+                                    <author>Tribolet, Maurice de</author>
+                                    <title>Les sources directes</title>
+                                    <title type="short">SDS NE 1</title>
+                                    <imprint>
+                                        <publisher>Sauerländer</publisher>
+                                        <pubPlace>Aarau</pubPlace>
+                                        <date>1982</date>
+                                    </imprint>
+                                </monogr>
+                                <series>
+                                    <title>
+                                        Les sources du droit suisse, XXI
+                                        <hi rend="sup">e</hi>
+                                        partie : Les sources du droit du Canton de Neuchâtel
+                                    </title>
+                                    <biblScope>Tome 1</biblScope>
+                                </series>
+                            </biblStruct>
+                            <biblStruct xml:id="chbsg000142472">
+                                <monogr type="edition">
+                                    <title>Recueil de pièces officielles concernant la Principauté de Neuchâtel et Valangin</title>
+                                    <title type="short">RPO</title>
+                                    <imprint>
+                                        <publisher>H. Wolfrath</publisher>
+                                        <pubPlace>Neuchâtel</pubPlace>
+                                        <date>1827–1849</date>
+                                    </imprint>
+                                </monogr>
+                            </biblStruct>
+                        </listBibl>
+                    </div>
+                </div>
+                <div>
+                    <head type="title" n="4.3">Articles et monographies</head>
+                    <listBibl>
+                        <biblStruct xml:id="chbsg000095221">
+                            <monogr>
+                                <author>Berger-Locher, Gertrude</author>
+                                <title>Neuchâtel sous l’occupation des douze cantons 1512–1529 : contribution à la connaissance de la gestion des bailliages communs sous l’Ancien Régime</title>
+                                <title type="short">Berger-Locher 1975</title>
+                                <imprint>
+                                    <publisher>[s.n.]</publisher>
+                                    <pubPlace>[s.&#160;l.]</pubPlace>
+                                    <date>1975</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct xml:id="chbsg000142488">
+                            <monogr>
+                                <author>Boyve, Jacques-François</author>
+                                <author>Boyve, Jérôme-Emmanuel</author>
+                                <title>Examen d’un candidat pour la charge de justicier en la principauté de Neuchâtel et Valangin</title>
+                                <title type="short">Boyve 1791</title>
+                                <imprint>
+                                    <publisher>chez Samuel Girardet</publisher>
+                                    <pubPlace>Au Locle</pubPlace>
+                                    <date>1791</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct xml:id="chbsg000142485">
+                            <monogr>
+                                <author>Boyve, Jacques-François</author>
+                                <title>Examen d’un candidat pour la charge de justicier en la principauté de Neuchâtel et Valangin</title>
+                                <title type="short">Boyve 1786</title>
+                                <imprint>
+                                    <publisher>S. Fauche</publisher>
+                                    <pubPlace>Neuchâtel</pubPlace>
+                                    <date>1786</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct xml:id="chbsg000142327">
+                            <monogr>
+                                <author>Boyve, Jonas</author>
+                                <author>Petitpierre, Gonzalve</author>
+                                <author>Boyve, Jacques-François</author>
+                                <title>Annales historiques du comté de Neuchâtel et Valangin depuis Jules-César jusqu’en 1722 : contenant la part que ce comté a eue dans les révolutions de l’Helvétie, des royaumes de Bourgogne, de l’empire et des ligues suisses, les comtes de Neuchâtel, leurs guerres, leurs alliances, leurs gouvernements, leurs successions, les conditions différentes des sujets, leurs libertés, franchises ...</title>
+                                <title type="short">Boyve 1854–1861</title>
+                                <imprint>
+                                    <publisher>E. Mathey</publisher>
+                                    <pubPlace>Berne</pubPlace>
+                                    <publisher>Société littéraire</publisher>
+                                    <pubPlace>Neuchâtel</pubPlace>
+                                    <publisher>H. Georg</publisher>
+                                    <pubPlace>Bâle</pubPlace>
+                                    <publisher>E. Mathey</publisher>
+                                    <pubPlace>Berne</pubPlace>
+                                    <publisher>Société littéraire</publisher>
+                                    <pubPlace>Neuchâtel</pubPlace>
+                                    <publisher>Mathey &amp; Georg</publisher>
+                                    <pubPlace>Leipzig</pubPlace>
+                                    <publisher>Société littéraire</publisher>
+                                    <pubPlace>Berne</pubPlace>
+                                    <publisher>Société littéraire</publisher>
+                                    <pubPlace>Neuchâtel</pubPlace>
+                                    <date>1854–1861</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct xml:id="chbsg000030192">
+                            <analytic>
+                                <author>Dunand, Jean-Philippe</author>
+                                <title>Le testament oral en droit suisse et dans l’ancien droit neuchâtelois</title>
+                                <title type="short">Dunand 2002</title>
+                            </analytic>
+                            <monogr>
+                                <title>Collection genevoise. Pour un droit pluriel : études offertes au professeur Jean-François Perrin/éd. par Jean Kellerhals, Dominique Manaï, Robert Roth</title>
+                                <biblScope>p. 33–58</biblScope>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct xml:id="chbsg000142334">
+                            <monogr>
+                                <author>Matile, Georges-Auguste</author>
+                                <title>De l’autorité du droit romain, de la coutume de Bourgogne et de la Caroline, dans la principauté de Neuchâtel</title>
+                                <title type="short">Matile 1838a</title>
+                                <imprint>
+                                    <publisher>[s.n.]</publisher>
+                                    <pubPlace>Neuchâtel</pubPlace>
+                                    <date>1838</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct xml:id="chbsg000142335">
+                            <monogr>
+                                <author>Matile, Georges-Auguste</author>
+                                <title>Histoire des institutions judiciaires et législatives de la principauté de Neuchâtel et Valangin</title>
+                                <title type="short">Matile 1838</title>
+                                <imprint>
+                                    <publisher>[s.n.]</publisher>
+                                    <pubPlace>Neuchâtel</pubPlace>
+                                    <date>1838</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                        <biblStruct xml:id="chbsg991001189248503977">
+                            <monogr>
+                                <author>Wyssbrod, Adrien</author>
+                                <title>De la coutume au code : résistances à la codification du droit civil à Neuchâtel sous l’Ancien Régime</title>
+                                <title type="short">Wyssbrod 2019</title>
+                                <imprint>
+                                    <pubPlace>Bienne</pubPlace>
+                                    <date>2019</date>
+                                </imprint>
+                            </monogr>
+                        </biblStruct>
+                    </listBibl>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

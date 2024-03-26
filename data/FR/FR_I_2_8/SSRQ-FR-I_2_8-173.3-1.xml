@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-173.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 39–41</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 39–41</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Schueller-Spielmann – Verhör</head>
+					<head xml:lang="fr">Margreth Schueller-Spielmann – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1661-03-31"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="39"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1661-03-31">31<hi rend="sup">ten</hi> <foreign xml:lang="la">martii</foreign> 1661</origDate></p>
+						<p><lb/><persName ref="per026301a.01">Brinner</persName><note>Gemeint ist ein Stadtweibel.</note>
+							<seg><lb/>Herr <persName ref="per026152a.01">Müller</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013470a.02">Mänlin</persName> <term ref="lem018597.02">burgermeister</term></seg>
+							<seg><lb/><persName ref="per026278a.01">Buman</persName>, <persName ref="per006528a.05">Possard</persName>, <persName ref="per026294a.01">Lentzburger</persName></seg>
+							<seg><lb/><persName ref="per026281a.01">Gadi</persName>, <persName ref="per026295a.01">Ziegler</persName></seg></p>
+						<p><seg><lb/><persName ref="per026640b.02">Margereth Schuoller</persName>, <persName ref="per026641a.02">Petter Spilmans</persName>
+							<placeName ref="loc007660.06">von der Flüe</placeName> tochter,
+						<lb/>gefänglich über verdachter <term ref="lem014672.06">hexeri</term> angehalten und
+						<lb/>volgendts uber den <choice><sic>inhat</sic><corr>inhalt</corr></choice> <subst><del>der</del><add place="above">derß</add></subst> ingenommn<subst><del>ten</del><add place="above">en</add></subst>,
+						<lb/>über ihr thun und verhalten bericht<del>s</del> gerichtlich exami<lb break="no"/>niert, sagt, wie sie siben <term ref="lem000130.09">künder</term> von
+						<lb/>ihrem <add place="above"><term ref="lem011682">abgeleibten</term></add> eheman<note>Gemeint ist <persName ref="per026642">NN Schueller</persName>.</note> erzogen, deren 4 todts versch<del>e</del>yden,
+						<lb/>3 werendt noch beyleben, 2 dienende by meistern
+						<lb/>tochter und ein sohn, der mit <term ref="lem001548.01">fischen</term> sie erhalte.</seg>
+						<seg><lb/>Zeigt an, wie zwar die <persName>Margereth Zurmark</persName> zu
+						<lb/>ihr khommen und sich vor ihr nider uff die knie ge<lb break="no"/>worffen und sie gebetten, ihr das zu geschaffte
+						<lb/><term ref="lem015180.05">wehetumb</term> weg zu nemmen, will aber ihr nichts
+						<lb/>böses angethan haben. Fehrners wolte sie an<lb break="no"/>fangs <del>sp</del>nit <term ref="lem008202.04">anredt sein</term>,
+							<persName>Anti Lauperts</persName> <term ref="lem000216.06">wittib</term>
+						<lb/><term ref="lem019056.03">uffgestürtzt</term> noch was ihr zu geredt haben. Da
+						<lb/>sie <subst><del>h</del><add place="overwritten">a</add></subst>ber hernach nach erstlichen zusprechen
+						<lb/><term ref="lem011468.03">bekhendt</term> hat, sie habe sie zwar <term ref="lem019056.03">uffgestürtzt</term> gesehen,
+						<lb/>will ihr aber nichts <term ref="lem016814">vermeldt</term> haben, ob sie sich
+						<lb/>kheines bößen luffts <term ref="lem014055">besorgte</term>, will ihr auch den
+						<lb/><term ref="lem019056.03">uffgestürtzten</term> <term ref="lem016886">rock</term> <add place="above">nit</add> heilend erzogen haben. So
+						<lb/>habe sie <term ref="lem016749">gedachter</term> <persName>Lauperin</persName> söhnen gesagt <del>haben</del>,
+						<lb/>das wan ihre mutter waß bößses ihr <add place="above">an</add>trauwe,
+							<lb/>solle <add place="above">sie</add> es ihr vor ehrlichen <term ref="lem000075.33">leüthen</term> vorhalten.
+						<lb/>Die es aber darbey bewenden laßen.</seg> <seg>Wolte
+					<pb n="40"/><lb/><add place="left margin">auch</add>  nit <term ref="lem016680.03">kandtlich</term> sein, der gemelten wittwen sohn
+						<lb/>an der <subst><del>sch</del><add place="overwritten">s</add></subst>onnen gefunden zu haben. Da sie
+						<lb/>aber hernach <term ref="lem011468.03">bekhendt</term>, ihnen bey dem garten
+						<lb/>an der heissen sonnen gefunden  zu haben,
+						<lb/>will ihme aber nicht zu geredt haben, das er
+						<lb/><term ref="lem018317">faul</term> sye, auch ihme nicht bößes zu geschafft haben.</seg>
+							<seg><lb/>Des <persName>Nicoud <add place="left margin" type="sign">Käpffers</add></persName> <term ref="lem000579.05">pferdts</term> will sie nichts bößes gleich
+						<lb/><add place="left margin">fals</add> zu geschafft haben, sonders hette er das selbig
+						<lb/>überladen von dem berg gebracht. Und wie
+						<lb/>es gantz <term ref="lem016815">erhützget</term> zum wasser gehn laßen,
+						<lb/>dardurch dem selben der zustandt zu khommen,
+						<lb/>das es hingefallen. Und so <term ref="lem011468.03">bekhendt</term> sie, das
+						<lb/>wie sie die nacht hernach nichts geschlaffen
+						<lb/>hate, gesagt zu haben, das wan sie deßhalben
+						<lb/>in die statt müsse, so wurdendt die anderen,
+						<lb/>so sie unschuldig verklagt, auch hin ein müssen.</seg>
+						<seg><lb/>So ist sie auch zwar <term ref="lem008202">anred</term>, <persName>Cristu Huobers</persName>
+						<lb/>frauwen bey abwessenden eheman besucht
+						<lb/><subst><del>zu haben</del><add place="inline">und ihr</add></subst> uff die <term ref="lem001284.04">axlen</term> geschlagen
+						<lb/>zu haben, und aber ihr nichts böß angethan noch
+						<lb/><add place="left margin">gesund gemacht <lb/>haben.</add> In deren hauß will sie zwar gewessen sein,
+						<lb/>bey einer gewissen malzeit <subst><del>da</del><add place="above">daselbst als</add></subst> ihr supen
+						<lb/>in der <term ref="lem000278.08">khuchi</term> dargereicht worden, were
+						<lb/>sie darüber in die stuben zum tisch, weill
+						<lb/>sie hievor der mutter deß haußes <term ref="lem019330.03">gotts<lb break="no"/>kleidt</term><note>Es handelt sich wohl um ein Kleid der verstorbenen Mutter des Hauses. Wir danken dem Team des Idiotikons für diese Deutung.</note> gehabt hate, berufft worden,
+							<unclear><subst><del>dariber</del><add place="overwritten">daß</add></subst></unclear>
+						<lb/>sie in der <term ref="lem000278.08">khuchi</term> ihr supen uff einen <term ref="lem016816.02">schafft</term>
+						<lb/><del>gestelt</del>, darvon sie wenig genossen hatte, gestelt.
+						<pb n="41"/><lb/>Will aber nichts bösses darin gethan haben.</seg>
+						<seg><lb/>Dem <persName>Ruoffli Cossandey</persName> <term ref="lem011468.03">bekhendt</term>, zwar in den
+						<lb/>dryen ohrten gewartet <del>haben</del> und erfragt <add place="above">zu haben</add>, wessen
+						<lb/>die <term ref="lem016817.02">fahr haab</term>, so er fierthe, zu gehört, unnd
+						<lb/><add place="left margin">will</add> aber <add place="above">ihme</add> nichts bösses <subst><del>zugeschafft</del><add place="above">angethan</add></subst> haben. <subst><del>In</del><add place="overwritten">Vor</add></subst>
+						<lb/><persName>Pettern Guglers</persName> <add place="left margin" type="sign">hauß</add> will sie zwar mit jennigem
+						<lb/>hagen, so sie den mistell am <date type="floating holiday">carfryttag</date> von
+						<lb/>etlichen <term ref="lem002402.07">bettinen</term> abgenommen, die <term ref="lem016886">rock</term>, so uff
+						<lb/>einer lauben huogendt, beriert <del>haben</del> und
+						<lb/>aber ihr nichts böß angethan haben.
+						<lb/>Im übrigen verneinet alles und bittet dar<lb break="no"/>über gott und <choice><abbr>m g h</abbr><expan>meine gnädige
+							herren</expan></choice> umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

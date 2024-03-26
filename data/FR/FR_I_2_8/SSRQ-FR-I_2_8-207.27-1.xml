@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.27-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 282 (1731), S. 427</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 282 (1731), p. 427</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond, Jacques Bouquet – Anweisung</head>
+					<head xml:lang="fr">Catherine Repond, Jacques Bouquet – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-08-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> [1731]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Die einligende <persName ref="per028134a">Catherine Repond</persName></p>
+						<p><lb/><hi rend="outdent">Soll</hi> <term ref="lem001277">visitiert</term> werden, ob sie <subst><del>wohl</del><add place="inline">von</add></subst> dem
+							<term ref="lem007321.05">teüffel</term> gezeichnet seye.
+							<lb/>Fündet es sich also, so wird der <term ref="lem004390.01">scharffrichter</term> in solchen <term ref="lem017060">zeichen</term>
+							ein<lb break="no"/>stächen, um zu vernehmen, ob solche warhafftig seyen.
+							<subst><del>wid</del><add place="inline">Wohlgeehrter</add></subst>
+							<lb/><abbr>h</abbr> <choice><abbr>gros</abbr><expan>grosweibel</expan></choice><note>Gemeint ist
+								<persName ref="per028146a">Karl Simon Odet</persName>.</note> wirdt von den vilgeehrten <abbr>h</abbr> landvogt
+							<placeName ref="loc008372">Billens</placeName><note>Gemeint ist <persName ref="per028333a">Heinrich Josef Karl Gottrau von Billens</persName>, Vogt von <placeName ref="loc007886">Vaulruz</placeName> 1731–1736.</note> die notwendige
+							<lb/>nachricht nehmen, so wohl wegen den <persName ref="per028151a.02">Bouquet</persName> alß der obgedeütte
+							<lb/><persName ref="per028134a">Catherine Repond</persName>, und <term ref="lem006484.02">nachwertz</term> sich sambt den wohlgeehrten
+							<abbr>h</abbr> gericht<lb break="no"/>schriber<note>Gemeint ist <persName ref="per028157a">Franz Nikolaus Haberkorn</persName>.</note> nacher
+							<placeName ref="loc007928.02">Treffels</placeName> begeben, umb die information einzunehmen.
+							<lb/><foreign xml:lang="la">Per mandatum</foreign> wegen den <persName>Paris</persName> von
+							<placeName ref="loc007631.07"><subst><del><gap reason="illegible" quantity="1" unit="cm"/></del><add place="overwritten">Ponla</add></subst>ville</placeName> vor sich
+							<term ref="lem005750">bescheiden</term> zu laßen,
+							<lb/>um zu vernehmen, waß ihme bewust ist seiten des <persName ref="per028151a.02">Bouquet</persName>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

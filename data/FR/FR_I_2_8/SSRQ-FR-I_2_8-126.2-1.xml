@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-126.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 371</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 371</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jeanne Michel – Verhör</head>
+					<head xml:lang="fr">Jeanne Michel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-01-04"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007594">Rosey</placeName>, <origDate when="1647-01-04">4<hi rend="sup">ten</hi> <foreign xml:lang="la">jannuarii</foreign> 164<subst><del>6</del><add place="overwritten">7</add></subst></origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Torny</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006528a.03">Possardt</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per017128a">Jeanne</persName>, fille de <persName ref="per017129a">Pierre Michel</persName> de <placeName ref="loc007655.03">Montagnye</placeName>, autrement dite
+							<lb/>la <persName ref="per017128a">Dammetta</persName>, dit qu’il a envyron <date dur-iso="P6Y">6 ans</date> qu’elle <add place="above">est</add> <term ref="lem019502.06">possedee</term> des <term ref="lem015433.13">malings</term>,
+						<lb/>que le curé de <placeName ref="loc007899.04">Barbereche</placeName> l’a conjuree et que <choice><abbr>messg<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> l’ont
+							<lb/>faict emprisonner pour estre accusee de cas de <term ref="lem018521.01">sorcellerie</term>, et faict
+							<lb/><term ref="lem019427.01">torturer</term> mesmement par la <term ref="lem015642">serviette</term>, et dempuis avoir il y a
+						<lb/><date dur-iso="P2Y">deux ans</date> estee reduite aux prysons et liberee sans <term ref="lem019428.01">torture</term>,
+							<lb/>mais <term ref="lem019512.05">bannye</term> hors des terres de <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice><note>Le Thurnrodel pour l’année <date when="1641">1641</date> manque et dans
+								celui de <date when="1645">1645</date> il n’y a pas d’entrée qui concerne <persName ref="per017128">Jeanne Michel</persName>.</note>. Ne sçait si elle fust
+							<lb/><subst><del>l</del><add place="opposite">e</add></subst>xilee la premiere fois de son emprisonnement. La raison pour<lb break="no"/>quoy elle est revenue en <add place="above">ce</add> pais, est qu’estant sur les terres <term ref="lem019536.03">hugue<lb break="no"/>nottes</term>, elle ne pouvoit prier, ny servir Dieu&#160;; s’estre repatriee
+							<lb/>pour se remettre a la <term ref="lem019504.02">grace</term> de <choice><abbr>messg<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> et vivre dans la
+							<lb/>vraye foy.</seg> <seg>Avoir il n’a guere <term ref="lem019463.06">confessé</term> ses <term ref="lem019539.03">pechés</term> au curé de
+							<lb/><placeName ref="loc007937.09">Cressyé</placeName>, qu<subst><del>’ il</del><add place="overwritten">i</add></subst> luy enjoinct pour penitence qu’elle debvoit
+							<lb/>faire un voyage a <placeName ref="loc000085.15">Notre Dame des Ermittes</placeName>, a cause qu’elle
+						<lb/>avoit outrepassé le serement et commandement de noz <choice><abbr>sg<hi rend="sup">rs</hi></abbr><expan>seigneurs</expan></choice>&#160;;
+							<lb/>qu’elle n’est point <term ref="lem018895.04">marquee</term>, ny attaincte du <term ref="lem018524.02">sortilege</term>, ny personne
+							<lb/>de ses parents&#160;; estre une pauvre femme <term ref="lem019502.06">possedee</term>, qui va ça et la, men<lb break="no"/>diant sans faire tort a personne. <term ref="lem019498">Crie mercy</term>.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-124.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 401–403</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 401–403</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Gendre-Motta – Verhör</head>
+					<head xml:lang="fr">Anni Gendre-Motta – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-01-21"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="401"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-01-21">21<hi rend="sup">ten</hi> <foreign xml:lang="la">jannuarii</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/>Herr <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006528a.03">Possardt</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013439a.01">von Montenach</persName></seg></p>
+					<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+					<pb n="402"/><p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017120b">Anni Motta alias Gindronna</persName>, nachdem sie lang gevariert
+						<lb/>unndt <term ref="lem016814">vermeldt</term>, wan ihr seell nit in himmell khom<del>bten</del>, so
+						<lb/>wirdt kheines anderen seell nit dahin khommen.</seg> <seg><term ref="lem006484.06">Nachwerths</term>
+							<lb/>aber <term ref="lem011468.03">bekhendt</term>, es sye ohngefahrlich <date dur-iso="P1Y">ein jahr</date>, das ihren der
+						<lb/><term ref="lem014673.13">böße feindt</term> dry underschydenlichen mahl obendthalb der <placeName>dryen
+							<lb/>krützen</placeName><note>Die selbe Stelle ist im Fall <persName ref="per016996">Anni Obertoos-Raeber</persName> erwähnt. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-121.18-1">SSRQ FR I/2/8 121.18-1</ref>.</note>, wie man von <placeName ref="loc007857.06">Didingen</placeName> gehn <placeName ref="loc007982.05">St. Wolffgang</placeName>
+							<lb/>kombt, in eines menschen gestalt mit <term ref="lem018359.03">grienen</term> kleyderen
+						<lb/>erschinnen sye. Den sie zwar mit dem zeichen des heilligen
+						<lb/><term ref="lem000698.06">crützes</term> zum andermahl hatt hinder sich machen zu springen
+						<lb/>unndt vertriben. Im dritten mahl aber uff dessen er<lb break="no"/>suchen sie gott, den almächtigen, unnd alle heilligen
+							<lb/><term ref="lem016063.05">verlaugnet</term> unndt den <term ref="lem014673.16">bößen feind</term> namens <persName ref="per011219a.11">Sathan</persName>, <del>für</del>
+							<lb/><add place="inline">dem</add> sie sich <term ref="lem018858.01">ergeben</term>, für ihren herren unnd <term ref="lem017929">meister</term> ange<lb break="no"/>nommen <subst><del>habe</del><add place="inline">unndt</add></subst> von ihme <term ref="lem011439">pulver</term> in einem glaß undt
+						<lb/>ein <term ref="lem018405.02">trückhle</term> mit <term ref="lem011432">salben</term> <term ref="lem018404.02">ußgefühlt</term> empfangen habe. Mit
+							<lb/><term ref="lem004618.05">bevelch</term>, sie solte <term ref="lem000075.05">leüth</term> unndt <term ref="lem000310.12">veech</term> darmit beschädigen.</seg>
+						<seg><lb/>Gleych hernach habe sie des <persName>Claude Huguenoldts</persName> <term ref="lem001815.09">färlyn</term>
+						<lb/>angesalbet unndt <term ref="lem018406">durchgerichtet</term>. <term ref="lem006484.10">Nachwerthes</term> <persName>Elsy</persName>,
+							<lb/><persName>Niclaud Trintzens</persName> hußfrauw, als sie sich in derselben huß be<lb break="no"/>fandt, <term ref="lem017537.02">angeblaßen</term>, darab sie kranckh worden unnd gestorben.
+							<lb/>Mehr, uß angeben ihres <term ref="lem017929">meisters</term>, der <persName>Anna</persName>, <persName>Claude Hugue<lb break="no"/>noldts</persName> hußfrauwen, in dem sie by der <term ref="lem018910.02">füwrblatten</term> ihren die
+							<pb n="403"/><lb/><term ref="lem004519.03">äschen</term> endtgegen geblaßen, die noch habende kranckheit ange<lb break="no"/>than. Aber nit der meinung, das sie darvon sterben solle. Mehr
+							<lb/>angedütner <persName>Anna Huguenoldt</persName>, wylen ihr man einen <term ref="lem000151">march<lb break="no"/>stein</term> verruckht, ettliche <term ref="lem000116.12">hüner</term> machen zu <term ref="lem005335">verderben</term>.</seg> <seg>Dem
+								<lb/><persName>Willi Wäber</persName> von <placeName ref="loc007857.06">Didingen</placeName>, der ihren by des würths <persName ref="per019447a">Spycher</persName><note>Cet homme, qui tient auberge à <placeName ref="loc007857.02">Guin</placeName>, est aussi mentionné dans le procès mené contre <persName ref="per015739">Barbli Paccot-Tunney</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-109.28-1">SSRQ FR I/2/8 109.28-1</ref> et <ref target="urn:ssrq:SSRQ-FR-I_2_8-109.32-1">SSRQ FR I/2/8 109.32-1</ref>.</note>
+						<lb/>daselbsten ein <term ref="lem003674.01">trunckh</term> uß der <term ref="lem002084.04">kanthen</term> gegeben, die gehabte
+								<lb/>kranckheit, deren er wider <term ref="lem016800">ledig</term> ist, mit anblaßung des
+								<lb/><term ref="lem000053.03">wyns</term> angethan.</seg> <seg>Welche <term ref="lem016794.05">bekhandtnuß</term> sie am <term ref="lem018237.02">zendtner</term>,
+									<lb/>daran sie einmahl allein <term ref="lem006574.08">gefolteret</term> worden, <add place="above">zwar</add> mit vihlen varia<lb break="no"/>tionen, zu letst aber beständig <term ref="lem015124">erhalten</term>. Mit <term ref="lem016814">vermelden</term>, sie sye
+							<lb/>niehmahlen in der <term ref="lem017042.04">seckht</term> unnd in derglychen versamblungen
+									<lb/>erschinnen. Wüsse auch <subst><del>nicht</del><add place="inline">von kheinen</add></subst> <term ref="lem011441.07">gespillenen</term>.
+									<lb/>Bittet umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

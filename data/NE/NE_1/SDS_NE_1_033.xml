@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel,
+          Tome 1&#160;: Les sources directes</title>
+        <editor>
+          <persName>Dominique Favarger</persName>
+        </editor>
+        <editor>
+          <persName>Maurice de Tribolet</persName>
+        </editor>
+        <respStmt>
+          <persName>Dominique Favarger</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Maurice de Tribolet</persName>
+          <resp key="transcript"/>
+        </respStmt>
+        <respStmt>
+          <persName>Arnaud Besson</persName>
+          <resp key="qualitycheck"/>
+        </respStmt>
+        <respStmt>
+          <persName>Adrien Wyssbrod</persName>
+          <resp key="tagging"/>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>SSRQ-SDS-FDS</publisher>
+        <date type="electronic" when="2022"/>
+        <date type="print" when="1982"/>
+        <availability>
+          <p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt xml:id="ssrq-sds-fds">
+        <title>Les sources du droit suisse</title>
+        <respStmt>
+          <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+          <resp/>
+        </respStmt>
+        <idno>SDS-NE-1-33-1</idno>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+            <idno xml:lang="fr">AEN AS-G1.7</idno>
+          </msIdentifier>
+          <head>Accensement par Jean d'Aarberg, seigneur de Valangin, de diverses terres défrichées
+            par des habitants du Locle</head>
+          <msContents>
+            <msItem>
+              <textLang xml:lang="fr"/>
+              <filiation type="original">Original</filiation>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material>Parchemin</material>
+                </support>
+                <extent>
+                  <dimensions type="leaves">
+                    <height unit="cm" quantity="23.3"/>
+                    <width unit="cm" quantity="42.3"/>
+                  </dimensions>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+            <sealDesc>
+              <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="absent" ns0:attachment="sealed on a parchment tag"></seal>
+            </sealDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate calendar="Gregorian" when="1443-03-18"/>
+            </origin>
+          </history>
+          <additional>
+            <listBibl>
+              <head>Édition</head>
+              <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_87">SDS NE 1,
+                    N<hi rend="sup">o</hi>&#160;33</ref></bibl>
+            </listBibl>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+          <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass default="false">
+        <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+          <term/>
+          <term ref="key000249"/>
+          <term ref="key000376"/>
+          <term ref="key000739"/>
+          <term ref="key006365"/>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+   <group>
+     <text>
+      <body>
+        <pb n="1r" facs="AEN_AS_G1_7_r"/>
+        <div> 
+         <p><lb/>Nous <persName>Jehan</persName>, conte d’Arberg, seignour de Vaulengin, faisons
+              savoir a tout ceulx quil verront et orront ces presentes letres que comme ansi soit
+              que nous demandissien et qu’en lessien<lb/>a nostres habitant du Locle que yceulx
+              nostres habitant sens nostre licence et consentement se estoyen transportelz et boutez
+              dedens noz joulz et ycelles amortel, esserteiy, faire prel et <lb/>cernyr sens nous
+              paier sence ne reprendre de nous comme faire ille debvien<note>Favarger&#160;1982&#160;: Cf.&#160;P.&#160;Vuille, «&#160;Trops-faits&#160;»,
+                dans MN, 1935, p.&#160;135-140.</note> et ansy leur demandiens tous ce que se
+              troveroit estre pardessur de ce qu'il haurouin repris en <lb/>noulz ententes a nous
+              estre aquis et confisquer et en oultre leur demandien certainne somme d’ort en quoy
+              nous disiens qu’il nous estoient entenuz paier l’ayde dou mariaige <lb/>de
+                <persName>Ysabel de Vaulengin</persName> nostre seur. Et est ansin que lesdit noz
+              habitant ont traitiés et acorder pour les causes dessusdites en la maniere que
+              s’ensui, c’est a savoir que nous ledit <lb/>conte pour nous et pour noz hoirs ayen de
+              nous causes ou temps advenir havons remis et delaissé et remectons et delaissons par
+              ces presentes a noz dit habitant pour lours, <lb/>pour leur hoirs et l’ayant de leurs
+              cause ou temps advenir, et c’est assavoir toutes et singlere lesdit acrues tant enz
+              cerny, pray, chanps, bois corne aultrement come plus <lb/>a plant lesdite fault de
+              pray, cernis, boys, chanps, reprises sont limités en nouz en toutes parmy paiant par
+              lesdits nouz habitant et leur hoirs a nous et a noz hoirs ung chascung am a
+              <lb/>nostre chastel de Vaulengin pour chacune desdites fault de pray, de chanps, de
+              boys, de cernys quatre denier lausannois cense comme plus a plant on contien en noz
+              ententes&#160;; la quel fault <lb/>contien seze perches de long et de large, la perche
+              seze piez de long, le piez chaulciez sur douze point, et parmy onze cent florin d’or
+              d’Aillemagne de bon or et de juste pois <lb/>que nous en havons eheus et recehus et
+              dont nous nous tenons pour comptent paier et entierement satisfait et en quictons
+              lesdits noz heritain et tous ceulx cuil quictancé&#160;; a par <lb/>tient en outre
+              nous ledit conte pour nous et pour noz hoirs havons donnés et donnons par ces
+              presentes ha noz dit habitant licence et puissance qu’il puisent reprendre en noz
+              <lb/>joulz et essertelz tout ce qu’il leur plairat dedans dex ans prochannement venan
+              et non plus, oultre parmy paiant par leur et leurs hours a nous et a noz hours ung
+              chascung <lb/>anz a nostre chastel de Vaulengin pour une chascune fault quastre denier
+              lousannois cense et parmy ce qu’il veignent reprendre de nous ledit conte ou des
+              nostre quant il le vorront et <lb/>exsertés et ne nous paieront point d’entraige
+              lesdit habitant de ce qu’il reprendront durant ledit terme et ou cas que il
+              esserteroient ou que il se acrestroient plus a<lb break="no"/>vant sen reprendre de
+              nous ou doit estre a nous aquil et confisquelz. Et promestons nous ledit conte pour
+              nous et pour noz hoirs toutes les chouses dessusdites tenir, garder, <lb/>aconplir et
+              involablement observés et contre ycelles ou temps advenir non faire, dire ne venir par
+              nous ne par aultre sault toutefois a nous reservés noz loud, dieme, bans, <unclear>bare</unclear>,
+              <lb/>clanme et toute aultres amende a nous apartenant sugung droit et jugement et
+              custume du pais et du contraul et ressour de Neuchastel <gap reason="missing"
+                quantity="7" unit="line"/> que furent faites et données <origDate calendar="Gregorian" when="1443-03-18">dishuictieme jour de moys
+                  de mars, l’an Nostre Seignour courant milles quatre cent et quarante deulx.</origDate></p>
+        </div>
+        <pb n="1v" facs="AEN_AS_G1_7_v"/>
+      </body>
+      <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+        <p>Original sur parchemin, autrefois muni d'un sceau sur simple queue, AEN, G&#160;N<hi
+                rend="sup">o</hi>&#160;7.</p>
+      </div></back>
+     </text>
+   </group>
+  </text>
+</TEI>

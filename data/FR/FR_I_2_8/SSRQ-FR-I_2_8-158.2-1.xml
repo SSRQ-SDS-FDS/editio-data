@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-158.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 256–260</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 256–260</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Bernard – Verhör</head>
+					<head xml:lang="fr">Claude Bernard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-08-29"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="256"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-08-29">29<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> <hi rend="underline">1651</hi></origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h</abbr> <persName ref="per018131a.01">Werli</persName>, <abbr>h</abbr> <persName ref="per009264a.01">Amman</persName>, hauptmann <persName ref="per018134a.02">von Affri</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per018054">Anni Waeber-Schueller</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-157.2-1">SSRQ FR I/2/8 157.2-1</ref>.</note></p>
+						<pb n="257"/><p><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note>, praesentibus iisdem dominis et eadem die</foreign></p>
+						<p><seg><lb/><persName ref="per020582a">Claude Bernard</persName>, natif de <placeName ref="loc011646.02">La Petite Coste</placeName> pas loing de <placeName ref="loc011644.01">La
+					<pb n="258"/><lb/>Cluse</placeName>, examiné par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict sur faict de <term ref="lem018521">sorcellerie</term>, ast
+						<lb/>voluntairement, et sans aucune <term ref="lem019428.01">torture</term>, <term ref="lem015549.07">confessé</term> d’avoir
+						<lb/>prins, il y ast <date dur-iso="P18M">un an et demy</date>, la routte de ce pays pour y man<lb break="no"/>dier le pain que, manque de bien, il ne pouvoit avoir dans sa
+						<lb/>patrie. Passant donc un jour par <placeName ref="loc011647.02">S<hi rend="sup">t</hi> Emphorin</placeName><note>L’identification du lieu est incertaine, mais selon les autres mentions de lieux
+								faites dans le procès (<placeName ref="loc008475">La Tour-de-Peilz</placeName>, <placeName ref="loc008023">Vevey</placeName>, <placeName ref="loc008023">Attalens</placeName>), il faut privilégier la
+								provenance lémanique.</note>, un homme nommé
+							<lb/><persName ref="per029454a">Andrey</persName>, avec un visage noir, des pieds <subst><del>aussi</del><add place="inline">noirs</add></subst> et ronds, habillé
+							<lb/>d’un gros drap, aussi noir, et du tout difforme, luy comparust au<lb break="no"/>pres d’une riviere, et ensemble demandant s’il ne se vouloit don<lb break="no"/>ner à luy. A quoy ledict <persName ref="per020582a">Claude</persName>, tout effrayé qu’il estoit, pour
+						<lb/>un coup respondit que non, mais enfin contrainct tant <del>la rigueur</del>
+							<lb/>par la <term ref="lem018102.02">gresle</term> des pierres qu’il luy jettast après, que par le
+							<lb/>moyen d’autres menaces, condescendit à sa volunté, <subst><del>et</del><add place="inline">accom<lb break="no"/>plit</add></subst> la requeste qu’il luy fist de <term ref="lem019541.01">renier</term> <term ref="lem015622">incontinent</term> le Seigneur
+							<lb/>des <term ref="lem019534.02">catholiques</term>, et le receut pour son <term ref="lem019555.05">maistre</term>.</seg> <seg>Bien tost
+							<lb/>après, et dans ce mesme <add place="above">lieu</add>, ledit <persName ref="per029454a">Andrey</persName> <add place="above">luy</add> enseignast la façon de
+						<lb/>produire la <term ref="lem018102.02">gresle</term>, ce qu<subst><del>’il</del><add place="overwritten">e</add></subst> <add place="above">alors</add> effectivement il <subst><del>espp</del><add place="inline">esprovast</add></subst>
+						<lb/>dans ladicte riviere. Luy donna certaine <term ref="lem018382">graisse</term>, noire et
+							<lb/>puante, dans une meschante <term ref="lem014919.01">boite</term>, avec commandement de la
+						<lb/>employer à la perdition <subst><del>d</del><add place="overwritten">e</add></subst>t mort des hommes, aussi bien que des
+							<lb/>bestes&#160;; semblablement certaine <term ref="lem014946.03">grainette</term> pour <term ref="lem019460.01">tuer</term> les
+							<lb/><term ref="lem019301.04">poulles</term> et les <term ref="lem014874.09">gellines</term>. Et enfin l’apprist à <term ref="lem019457.01">voler</term> par l’air,
+						<lb/>ce qu’il luy fist experimenter, <add place="above">car</add> l’ayant quelques foys des<lb break="no"/>pouillé de ses habits, luy adjoustast des ailes, avec lesquelles,
+								<lb/><subst><del>il</del><add place="inline">se croyant</add></subst> estre un <term ref="lem019350.01">corbeau</term>, <term ref="lem019458.03">voletoit</term> quelques pas
+						<lb/>loing, ce pendant que son <term ref="lem019555.05">maistre</term> tenoit ses habits.</seg> <seg>Plus ast
+						<lb/>il recognu avoir essayé la vertu de sadicte <term ref="lem018382">graisse</term> dans ledit
+						<lb/><placeName ref="loc011647.02">St Emphorin</placeName>, <subst><del>au</del><add place="above">à</add></subst> un petit garçon, pas si grand que luy, nommé
+						<lb/><persName>Jacque</persName>, et vestu d’<term ref="lem018526.02">un haut de chausses</term>, lequel l’ayant
+						<lb/>irrité devant la maison, qui est au dessus de celle du sieur
+						<lb/>ministre dudit lieu, luy menast sa main engraissée par son visa<lb break="no"/>ge, disant&#160;: <q>&#160;Jacque, Jacque&#160;!&#160;</q> Et bien tost après <persName>Jaque</persName> mourust.
+							<lb/>Item d’avoir fait perir audit ministre, avec dicte <term ref="lem014946.03">grainette</term>,
+						<lb/>quatre <term ref="lem014874.10">gelines</term>, qui picquot<subst><del>oyent</del><add place="above">erent</add></subst> lesdits grains devant la maison.</seg>
+						<seg><lb/>Item d’estre venu par dessus <placeName ref="loc008099.02">Vivey</placeName> à <placeName ref="loc008023">Attalens</placeName>, ou <subst><del>ay</del><add place="inline">il</add></subst> dor<lb break="no"/>mist une nuict dans la grange d’un <choice><sic>preste</sic><corr>prestre</corr></choice>, auquel, pour
+							<lb/>vengeance de ce qu’il ne luy vouloit permetre, ny du <del>feu</del>
+							<lb/><term ref="lem019529.01">feu</term> pour s’eschauffer, ny de la <term ref="lem015397.05">paile</term> pour se coucher, et
+							<lb/>que mesmement il l’avoit <term ref="lem019525.10">souffleté</term>, fist mourir cinq <term ref="lem014874.10">gelines</term>
+						<lb/>d’<placeName ref="loc008023">Attalens</placeName> à <placeName ref="loc007903.02">Bossonens</placeName>, de <placeName ref="loc007903.02">Bossonens</placeName> à <placeName ref="loc008024.01">Granges</placeName>, ou il
+							<pb n="259"/><lb/>sejournast l’hyver passé, et y <term ref="lem014913.07">oinist</term> la porte du granger du sieur <supplied>ban</supplied><note>Le haut de la page est déchiré.</note><lb break="no"/>neret de <placeName ref="loc008152.07">Cherdona</placeName> <subst><del>avec</del><add place="above">de</add></subst> sa <term ref="lem018382">graisse</term>, et par ainsi fist mourir un garçon,
+						<lb/>qui ouvrist ladicte porte. Item d’avoir faict le mesme à <placeName ref="loc008664.03">Palesiu</placeName>, deça <supplied>de</supplied><note>Ce passage semble effacé à la suite d’un dommage causé par l’humidité.</note>
+						<lb/><placeName ref="loc008152.08">Cherdonna</placeName>, asçavoir d’avoir frotté des portes sans qu’enaprès il <unclear>ait</unclear> <supplied>de</supplied><lb break="no"/>claré les effects qui en sont survernus. Il ast aussi <subst><del>enarré</del><add place="inline">soustenu</add></subst> <supplied>av</supplied>oir
+						<lb/>expedié audict <placeName ref="loc008664.03">Palesiu</placeName> et fait passer de vie à trespas, par sa <term ref="lem018382">graisse</term>,
+							<lb/>un <subst><del>genon</del><add place="inline">jeusne</add></subst> garçon, grand come luy, appellé <persName>Pierre</persName>, qui par ad<lb break="no"/>vanture le fist tomber d’un <term ref="lem018921.01">cheval</term> dans un ruisseau, <add place="above" type="sign">par</add> lequel il le vou<lb break="no"/>loit passer. Plus de s’estre acheminé à <placeName ref="loc011648.02">Corsalet</placeName>, petit village pres dudict
+							<lb/><placeName ref="loc008023.04">Attallens</placeName>, auquel lieu il coucha <subst><del>d</del><add place="overwritten">c</add></subst>hes la plus pauvre maison et y <term ref="lem019460.06">tuast</term>,
+						<lb/>en façon que dessus, six <term ref="lem014874.09">gellines</term>, que les <subst><del>hab</del><add place="inline">paysans</add></subst> croyoient devoreés
+						<lb/>par la <term ref="lem018528.02">fuina</term> (comme il disoit). De <placeName ref="loc011648.02">Corsalet</placeName> à <placeName ref="loc008074">Oron</placeName>, de la à <placeName ref="loc010833">Promasens</placeName>,
+						<lb/>ou il fist aussi perir sept <term ref="lem019301.03">poules</term>. De <placeName ref="loc010833">Promasens</placeName>, ayant passé par
+						<lb/><placeName ref="loc007607.03">Mouldon</placeName> <add place="above" type="sign">et</add> <placeName ref="loc007657.03">Lussens</placeName> <subst><del>se trans</del><add place="inline">s’</add></subst><subst><del>avoir</del><add place="above">estre</add></subst> transporté à <placeName ref="loc009145.02">Villaret</placeName>, ou il se
+							<lb/>trouva <date when="1650-04-17">le jour de Pasques</date> et y fist perir huict <term ref="lem019301.04">poulles</term>, <subst><del>et</del><add place="inline">neuf</add></subst> à
+						<lb/><placeName>Conchet</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc008008">Cousset</placeName>.</note>, pas loing de <placeName ref="loc007655.11">Montagnier</placeName>, six audict <placeName ref="loc007655.11">Montagnier</placeName>, et cinq
+							<lb/>au <placeName>Montagnier dessus</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir de <placeName ref="loc011649">Sur Montagny</placeName>.</note>, ou son <term ref="lem019555.05">maistre</term> particulierement luy
+							<lb/>commandat d’<term ref="lem018313">inficier</term> <add place="above">à</add> la premiere maison des <term ref="lem017507.02">vaches</term> et <term ref="lem018921.07">chevaulx</term>,
+						<lb/>que pourtant il ne put effectuer.</seg> <seg>Il ast encore dit d’avoir
+							<lb/><term ref="lem019478.02">infecté</term> avec sa <term ref="lem014946.03">grainette</term> à <placeName ref="loc008130.08">L’Eschelle</placeName>, ches le gouverneur,
+						<lb/>quatre <term ref="lem014874.10">gelines</term>, au <placeName ref="loc011650.02">Crau</placeName> <subst><del>deux</del><add place="inline">trois</add></subst> <add place="above">et</add> à <placeName ref="loc010970.04">Messiry</placeName> quatre. D’ou
+							<lb/>estre allé à <placeName ref="loc007951">Grolley</placeName>, ou il <term ref="lem019460.06">tuast</term> assi quatre po<add place="above">u</add>lles à la maison
+							<lb/>qui est devant celle de la cure, ou avec son <term ref="lem018481.01">haleine</term> il enveni<lb break="no"/>mast aussi <del><subst><del>un garçon</del><add place="above">avec son <term ref="lem018481.01">haleine</term></add></subst></del> devant <date dur-iso="P6M">demy an</date> un garçon, dict <persName>Jean</persName>,
+						<lb/>un peu plus haut que luy, et dans <time dur-iso="PT15M">un quart d’heure</time> luy fist
+						<lb/>rendre l’ame devant la maison. La methode d’<term ref="lem018313">inficier</term> avec la
+							<lb/>seule <term ref="lem018481.01">haleine</term> estoit telle&#160;: son <term ref="lem019555.05">maistre</term> luy donnast une particule
+							<lb/>de certaine racine dans la <term ref="lem014919.07">bouete</term>, et aussitost qu’il <term ref="lem019525.09">soufflo<add place="above">i</add>t</term>, le
+							<lb/><term ref="lem019526.01">souffle</term> ne pouvoit manquer de <term ref="lem018556.09">maleficier</term> celuy qui l’avoit receu.
+							<lb/>Un mesme <term ref="lem019443.01">meurtre</term> ast il commis <add place="above">par son <term ref="lem019526.01">souffle</term></add> à <placeName ref="loc007977.09">Belfot</placeName>, à l’encontre d’un garçon
+						<lb/>qui trespassat, aussi bien que celuy de <placeName ref="loc007951">Grolley</placeName>.</seg> <seg>Ledict detenu
+							<lb/>ast encore <term ref="lem015549.07">confessé</term> que, venant dudit <placeName ref="loc007977.09">Belfot</placeName> (ou il ast aussi
+						<lb/>fait mourir neuf <term ref="lem014874.10">gelines</term>), <add place="above">il</add> se retirat enfin devant <date dur-iso="P6M">demie année</date>
+						<lb/>à <placeName ref="loc001060.04">Frybourg</placeName>, ou, au premier abord, il ha logé dans <placeName ref="loc008829.05">hospital sur
+						<lb/>les places</placeName>, et de la est descendu dans la <placeName ref="loc008133.05">Neufve Ville</placeName>, ches mon<lb break="no"/>sieur <persName>Gribolet</persName>. Item qu’il ast fait <subst><del>mo</del><add place="inline">perir</add></subst> quatre <term ref="lem014874.10">gelines</term> dela
+							<lb/>du pont, au dessus d’un <term ref="lem019064.03">faure</term>. Que <persName ref="per029454a">Andrey</persName>, son <term ref="lem019555.05">maistre</term>, l’ast <add place="left margin" type="sign">sorti d’<subst><del>une</del><add place="above">une</add></subst> bosse</add>,
+						<lb/><add place="above">et</add> mené, ou porté par les bras, plus que douze foys à la <term ref="lem017043">secte</term> dans
+							<lb/>un petit coin es <placeName ref="loc011651.02">Rames</placeName>, ou il vist son dit <term ref="lem019555.05">maistre</term> qui dansoit
+					<pb n="260"/><lb/><subst><del>jouoit</del><add place="above">tantost</add></subst> jouoit de la flute, et tantost d’un violon, tantost aussi bat<lb break="no"/>toit le tambour, et ainsi animoit toute la compagnie (qui estoit
+						<lb/>pour le moins de douzes, <add place="above">à luy</add> incognues persones), à la <subst><del>ref</del><add place="inline">rejouissance</add></subst>.
+						<lb/>Il y remarquast quatre <subst><del>berceaux</del><add place="inline">enfans</add></subst> <subst><del>dans</del><add place="inline">couchés dans</add></subst>
+						<lb/>des berçaux et posés au milieu de la ronde des saultans, et
+							<lb/>du <term ref="lem019529.01">feu</term> tout noir et <subst><del>bien</del><add place="inline">point</add></subst> amiable. Le mesme <persName ref="per029454a">Andrey</persName> <add place="above">l’</add>ast
+						<lb/>encore porté (et raporté aussi) <time dur-iso="PT3H">trois heures</time> loing hors de la
+						<lb/><placeName ref="loc010834.02">Porte de Bourguillon</placeName>, et l’ayant mis dans des buissons, il y
+						<lb/>vist plus que douze persones en mesme train et besogne
+						<lb/>qu’es <placeName ref="loc011651.02">Rames</placeName>, portantes des chappeaux noirs et semblables
+						<lb/>à ceulx que portent les paysans.</seg> <seg>Enfin il ha recognu que
+							<lb/><persName ref="per029454a">Andrey</persName>, son <term ref="lem019555.05">maistre</term>, luy est comparu sur <placeName ref="loc007890.02">Jaquemard</placeName> en mesme
+						<lb/>forme que les autres foys, luy demandant qu’il y faisoit,
+						<lb/>et ayant le detenu donné pour response, qu’il faisoit ce que
+						<lb/>il avoit à faire, le <term ref="lem015433.10">maling</term> disparut. Sur ce luy fust cher<lb break="no"/>chée la <term ref="lem018894.02">marque diabolique</term>, toutes foys pas trouvée&#160;; vray est
+							<lb/>il, que la <term ref="lem019510.01">visite</term> n’en ast pas esté faicte qu’aux seules espaules.</seg></p>
+						</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.29-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 197 (1646), S. 288, 289</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 197 (1646), p. 288, 289</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Obertoos-Raeber, Tichtli Jeckelmann-Gauch, Maria Roggo-Conte, Elsy Tunney-Schueller – Anweisung und Urteil</head>
+					<head xml:lang="fr">Anni Obertoos-Raeber, Tichtli Jeckelmann-Gauch, Maria Roggo-Conte, Elsy Tunney-Schueller – Instruction et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-28">28 <foreign xml:lang="la">julii</foreign> 1646</origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="288"/><p><lb/>Gefangne</p>
+						<p><lb/><persName ref="per016996a.01">Anni Räber, die Obertossina</persName>, <term ref="lem011468.03">bekhendt</term> noch mehr
+						<lb/><term ref="lem009471.04">mißhandlungen</term> unnd <term ref="lem018216.02">maleficia</term> unnd blybt in der
+						<lb/>angebung beständig. Man soll mit ihren mit dem
+						<lb/><term ref="lem002679.15">keyßerlichen rechten</term> <term ref="lem010306">fürfahren</term>.</p>
+						<p><lb/><persName ref="per017000b">Tichtli Gauch</persName> will gar unschuldig syn. Ist yngestelt,
+						<lb/>biß die <persName ref="per016996b">Obertossina</persName> das <term ref="lem002679.15">keyßerlich recht</term> völliglich
+						<lb/>ußgestanden.</p>
+						<p><lb/><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017023">Margreth Boschung-Dedelley</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-122.6-1">SSRQ FR I/2/8 122.6-1</ref>.</note></p>
+						<p><lb/><persName ref="per017006b">Mußmeria</persName> will auch nichts <term ref="lem011468.04">bekhennen</term>. Man soll mit
+						<lb/>dem instrument des <term ref="lem017655.04">schinbeins</term>, wan sie es erlyden
+						<lb/>mag, wider sie <term ref="lem010306">fürfahren</term>.</p>
+						<pb n="289"/><p><gap reason="irrelevant"/><note>Dieser Abschnitt betrifft eine andere Angelegenheit.</note></p>
+						<p><lb/><term ref="lem004395.05">Bluttgericht</term></p>
+						<p><lb/><persName ref="per016968a.02">Elsi Schuler</persName> von <placeName ref="loc007982.03">S. Wolffgang</placeName>, hinder <placeName ref="loc007630.03">Taffers</placeName> gebürtig,
+						<lb/>ein <term ref="lem007356">unholdin</term> ist zu dem <term ref="lem012936.03">füwr</term> verurtheilt worden, mit con<lb break="no"/>fiscation ihrer gütteren. Jedoch ward der <term ref="lem016899.06">schleiffen</term> erlassen unnd
+						<lb/>uß gnaden ein säckli <term ref="lem003247.06">pulfers</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

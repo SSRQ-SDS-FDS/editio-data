@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-187.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 225–227</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 225–227</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madeleine Gobet-Gauderon – Verhör</head>
+					<head xml:lang="fr">Madeleine Gobet-Gauderon – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-08-30"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="225"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1665-08-30">30 <foreign xml:lang="la">augusti</foreign> 1665</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018632a.01">Rämi</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per026329a.01">Schrötter</persName></seg>
+							<seg><lb/><persName ref="per026077a.01">Küenli</persName></seg>
+							<seg><lb/><persName ref="per026058a.01">Progin</persName></seg></p>
+						<p><seg><lb/><persName ref="per026858a.01">Magdelaine Gaudron</persName>, femme de <persName ref="per026857a">Michel Gobet</persName>
+						<pb n="226"/><lb/>d’<placeName ref="loc007609.12">Estavayer le Gybloux</placeName>, originelle de <placeName ref="loc007663.01">Sorens</placeName>, reduite
+						<lb/>aux prisons pour faits de <term ref="lem018521.01">sorcellerie</term>, dont elle est
+						<lb/>grandement soubçonnée en suitte de l’examen
+						<lb/>et <term ref="lem018363">inquisition</term> prise contre elle, estant exa<lb break="no"/>minée sur tous les articles qui l’accusent, et
+							<lb/>sur la negatifve responce <term ref="lem019427.06">torturée</term> par trois
+						<lb/>foys avec la simple <term ref="lem018231">corde</term>, a soustenu qu’elle
+						<lb/>ne sçavoit pas la raison ou cause de son empri<lb break="no"/>sonnement, bien qu’elle pense que ses malveillants
+						<lb/>en sont la cause.</seg> <seg>Dit que le lieu de <placeName ref="loc011036.03">Rueiri</placeName> est
+						<lb/>mal sein, et qu’il ne se fault pas estonner
+						<lb/>s’il y a des mallades, qu’elle l’a entendu et appris
+							<lb/>lorsque la <term ref="lem019480.01">peste</term> estoit audit <placeName ref="loc007609.13">Estavayer</placeName> et <subst><del>et</del><add place="overwritten">à</add></subst> <placeName ref="loc011036.03">Rueiri</placeName>,
+						<lb/>puisque il en mourroit baucoup plus audit <placeName ref="loc011036.03">Rueiri</placeName>
+						<lb/>que non pas à <placeName ref="loc007609.13">Estavayer</placeName>.</seg> <seg><term ref="lem015549.13">Confesse</term> d’avoir dit
+						<lb/>si le bon Dieu n’aide pas aux mallades dudit <placeName ref="loc011036.03">Rueiri</placeName>,
+						<lb/>qu’il sont en danger de mourrir, mais que cella
+						<lb/>n’at esté parlé que pour ladite consideration, et
+						<lb/>que le <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> curé mesme a dit que ledit lieu estoit
+						<lb/>mal seint.</seg> <seg><term ref="lem015549.13">Confesse</term> d’avoir esté chez <persName>Noé
+						<lb/>Fabvre</persName> pour aider embellir les <term ref="lem018987.02">confannos</term>, mais
+						<lb/>nie d’y avoir fait aulcune incommodité, moings
+						<lb/><term ref="lem019478.02">infecté</term> avec son <term ref="lem018481.01">haleine</term> aulcune personne, souste<lb break="no"/>nant n’estre pas de ces gens. Nie d’avoir menacé
+						<lb/>(de son souvenir) de voulloir mettre le <term ref="lem014953.01">feu</term>, ny d’avoir
+						<lb/>touché des personnes pour leur faire du mal, moings
+						<lb/>pour les <term ref="lem019478.01">infecter</term>.</seg> <seg><term ref="lem015549.13">Confesse</term> d’avoir esté querir
+						<lb/>à beoire dans le vase que <persName>Jean Clerc</persName> luy avoit
+						<lb/>donné, mais sans mauvaise intention. Dit que
+						<lb/>la seur de <persName><subst><del>Frgg</del><add place="inline">Fragnieri</add></subst></persName>, estant devenue mallade,
+						<lb/>l’at envoyée querir, avec recherche de luy oster
+						<lb/>le mal, mais qu’elle luy a respondu qu’elle ne
+						<pb n="227"/><lb/>le sçavoit pas. Nie d’avoir fait la mallade lorsque
+						<lb/>le <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> curé y est venu, ny d’avoir dit qu’elle et ses
+						<lb/>enfants estoient <term ref="lem019502.05">possedés</term> du <term ref="lem015433.19">malling</term>.</seg> <seg>Soustient
+						<lb/>n’avoir jamais donné la responce qu’elle ne se
+						<lb/>soucie pas des pardons, et que le <term ref="lem017521">diable</term> emporte
+						<lb/>ceulx qui luy parloient de se faire participante
+						<lb/>des indulgences, disant qu’elle a fait son debvoir
+						<lb/>dans l’esglise. Nie d’avoir parlé que le mal,
+						<lb/>dont une personne estoit affligée, luy estoit causé
+						<lb/>par une qui estoit aux dances.</seg> <seg><term ref="lem015549.13">Confesse</term> d’avoir
+						<lb/>treuvé une <term ref="lem019400.02">chevre</term> dans son jardin, mais non
+						<lb/>pas un enfant <add place="above" type="sign">ou fille</add>, moings de l’avoir jetté hors dudit
+						<lb/>jardin. Plus <term ref="lem015549.13">confesse</term> d’avoir dit à <persName>Catheri<lb break="no"/>ne Bossin</persName>, estant entré en querelle avec elle à
+						<lb/>cause de la jalousie, que ladite <persName>Catherine</persName> avoit
+						<lb/>de ce qu’elle estoit en service auprès des braves
+						<lb/>gens, qu’elle deviendroit incommodée comme la
+						<lb/>contesse. <term ref="lem015549.13">Confesse</term> d’avoir voullu faire le
+						<lb/>mariage entre <persName>Pierre Ouverney</persName> et <persName>Clauda Gobet</persName>,
+						<lb/>mais la fille ne l’a pas voullu.</seg> <seg>Elle prie qu’on
+						<lb/>la <term ref="lem019509.09">visite</term>, soustient d’estre femme d’honneur,
+						<lb/>estant toutte resolue de se conformer à la
+						<lb/>volonté de Dieu et de vos Excellences,
+						<lb/>aux quelles elle se recommande tres hum<lb break="no"/>blement avec ses quatre enfants.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

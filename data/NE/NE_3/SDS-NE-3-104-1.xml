@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-104-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.006, p. 529</idno>
+     </msIdentifier>
+     <head>Demande par écrit de points de coutume (suite)</head>
+     <msContents>
+      <summary>Suite de l’affaire Vallier.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1631-02-13" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term></term> 
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="529" facs="AVN_B_101.01.01.006_0529"/> 
+     <div>
+      <head>
+       <lb/>Du <origDate when="1631-02-13" calendar="Julian">XIII febvrier</origDate>, en <orgName ref="org003092">Conseil
+        <choice><abbr>gnal</abbr><expan>général</expan></choice></orgName>, presidant <lb/><choice><abbr>led</abbr><expan>ledit</expan></choice> <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>sieur</expan></choice> <choice><abbr>mre</abbr><expan>maitre</expan></choice> bourgeois <persName ref="per010451">Boyve</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <div>
+      <add place="left margin" hand="later hand" rend="pencil"><choice>
+        <abbr>Délibér</abbr>
+        <expan>Délibérations</expan>
+       </choice></add>
+      <add place="left margin">Coutume</add>
+      <p>
+       <lb/>La <choice>
+        <abbr>declairaon</abbr>
+        <expan>déclaration</expan>
+       </choice> des points de coustume demandés de la part <lb/><choice>
+        <abbr>dud.</abbr>
+        <expan>dudit</expan>
+       </choice> devant nommé <choice>
+        <abbr>S<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice><choice>
+        <abbr>capp<hi rend="sup">ne</hi></abbr>
+        <expan>capitaine</expan>
+       </choice> 
+       <persName ref="per011715">Vallier</persName> s’est passé comme <lb/>est a voir en margine
+       d’ung <choice>
+        <abbr>chung</abbr>
+        <expan>chacun</expan>
+       </choice> d’iceux. </p>
+     </div>
+    </body>
+    <back>
+     <div>
+      <p>Le début de cette affaire se trouve dans <ref target="urn:ssrq:SDS-NE-3-102-1">SDS NE 3 102-1</ref> et la suite dans <ref target="urn:ssrq:SDS-NE-3-105-1">SDS NE 3 105-1</ref>.</p>
+     </div>
+    </back>
+   </text>
+  </group>
+ </text>
+</TEI>

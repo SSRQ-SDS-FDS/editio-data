@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-123.19-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 321–322</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 321–322</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margret Schueller-Python – Verhör und Urteil</head>
+					<head xml:lang="fr">Margret Schueller-Python – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1646-08-23" to="1646-08-25"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref>Berchtold 1850</ref>, S. 502</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-08-23">23<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName>Hanns Heinrich Reyff</persName><note>Der Schreiber irrte sich beim Vornamen: Er hiess <persName ref="per013668a">Franz Heinrich Reyff</persName>.</note></seg></p>
+						<p><seg><lb/><persName ref="per006147b.04">Margreth Tietrichna</persName> dit de commencement qu’elle se
+						<lb/>estoit faicte tort d’avoir <term ref="lem015549.07">confessé</term> ce qu’elle n’avoit
+						<lb/>commis, ne sçavoir si elle a <term ref="lem019541.17">renyé</term> Dieu, mais estant
+						<lb/>par aprés serieusement advertye par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict
+						<lb/>de dire la verité, a dit qu’elle avoit <term ref="lem019541.17">renyé</term> Dieu
+						<lb/>son Createur au <placeName ref="loc012659.05">Bois de <term ref="lem017681.03">fau</term></placeName> du <placeName ref="loc008558.04">Muollers</placeName>, ou <add place="above">ce</add> que le <term ref="lem015433.10">ma<lb break="no"/>ling</term> la <term ref="lem018895.08">marqua</term> au bras droict. Lors il luy <term ref="lem015635.11">bailla</term> de
+						<lb/>la <term ref="lem018383.02">poussiere</term> gryse enveloppee dans du linge avec com<lb break="no"/>mandement de faire mourir le bestail&#160;; une autre fois
+						<lb/>luy avoir donné dedite <term ref="lem018383.02">poussiere</term> au <placeName ref="loc008144.05">Gyblaux</placeName> desja avant
+						<lb/><date dur-iso="P15Y">15 ans</date>, ou ce que avec ses complices elle fist la
+						<lb/><term ref="lem018102.02">gresle</term>, dont les bleds feusrent grandement tempestés.
+							<lb/>Plus qu’elle a esté deux diverses <supplied>fois</supplied> a la <term ref="lem017043">secte</term>&#160;: la premie<lb break="no"/>re au <placeName ref="loc012659.05">Bois de <term ref="lem017681.03">fau</term></placeName> du <placeName ref="loc008558.04">Muollers</placeName>, l’autre fois audit
+						<lb/><placeName ref="loc008144.05">Gyblaux</placeName>, y estre allee sur le baston du balay ou de
+						<lb/>la <term ref="lem015344">ramasse</term>, ou ce qu’elle dança, beut et manga avec
+						<lb/>les autres.</seg> <seg>A aussy derechef <term ref="lem015549.07">confessé</term> qu’elle a faict
+						<lb/>mourir la <term ref="lem017507">vache</term> a <persName>Anthoyne Fragnyri</persName> avec dite poussie<lb break="no"/>re, qu’elle luy <term ref="lem019525.06">souffla</term> encontre&#160;; avoir aussy <term ref="lem019525.04">soufflé</term>
+						<lb/>contre l’enfant de <persName>Nicoud Käppfer</persName>, dont il devient
+						<lb/>soudainement malade et mourut. Plus avoir faict
+							<lb/>mourir deux <term ref="lem019400.07">cheuvres</term> a la <persName>Jutzillina</persName> et un veau a
+						<lb/><persName>Hans Schvatz</persName> de <placeName ref="loc008087.05"><abbr>St</abbr> Silvestre</placeName> avec le <term ref="lem014886.02">pusset</term> que le
+							<lb/><term ref="lem015433.10">maling</term> luy a <term ref="lem015635.10">baillé</term>. L’argent que son <term ref="lem019555.05">maistre</term> luy
+						<lb/>avoit <term ref="lem015635.10">baillé</term>, s’estre par aprés trouvé de la <term ref="lem017680">faine</term>
+						<lb/>de <term ref="lem017681.03">fau</term>.</seg> <seg>Plus a confirmé qu’elle a faict la <term ref="lem018102.02">gresle</term>
+							<lb/>au ruisseau de <placeName ref="loc011049.02">Fillebach</placeName> <date when="1646-07-25">le jour de la <abbr>St</abbr> <persName ref="per000208">Jaques</persName> dernier<lb break="no"/>rement passé</date>, comme est a veoir cy devant. Et finale<lb break="no"/>ment a <term ref="lem015549.07">confessé</term> qu’elle avoit attainct le <term ref="lem018921.01">cheval</term> a <persName>Willi
+						<lb/>Cosandey</persName>, dont il mourut. A par aprés nié qu’elle
+					<pb n="322"/><lb/>n’avoit pas trainné la main par dessus le bestail ny
+						<lb/>semé ladite <term ref="lem018383.02">poussiere</term> sur les <term ref="lem015035.02">pasquiers</term>, ce que pourtant
+						<lb/>elle avoit <term ref="lem015549.07">confessé</term> avant hier.</seg> <seg>Enquise pourquoy elle
+							<lb/>estoit ainsy inconstante a sa <term ref="lem019465.01">confession</term> et si le <term ref="lem015433.10">maling</term>
+						<lb/>ne luy estoit apparu a la prison, et l’<subst><del>inst</del><add place="inline">induicte</add></subst> a
+						<lb/>nyer, ce qu’elle avoit confessé&#160;? A respondu qu’elle
+						<lb/>estoit ainsy folle, mais qu’elle voulloit maintenant de<lb break="no"/>meurer constante et volontairement mourir comme
+						<lb/>il plairoit a <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>. Et si bien le <term ref="lem015433.10">maling</term> est
+						<lb/>venu une fois aupres d’elle a la prison, l’ayant tiree par
+						<lb/>le bras et esveillee, luy disant qu’elle faisoit, si est
+						<lb/>ce neantmoings icelluy ne luy commanda pas de nyer ce
+						<lb/>qu’elle avoit confessé, ains se retira bien tost aprés
+							<lb/>ce qu’elle eut faict le signe de la croix.</seg> <seg><term ref="lem019498">Crie
+						<lb/>mercy</term> et dit <subst><del>voulloir</del><add place="inline">qu’elle</add></subst> veut mourir, que ainsy
+						<lb/>est, comme elle a <term ref="lem015549.07">confessé</term> a present. Et si bien le
+						<lb/><term ref="lem015433.10">maling</term> luy a demandé ses enfants, ne les luy avoir
+						<lb/>pourtant voullu rendre ny <term ref="lem015635">bailler</term>.</seg></p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1646-08-25">25<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign>
+							<lb/>1646</origDate> <term ref="lem012942.03">geschleipfft</term> unndt
+							<lb/>lebendig <term ref="lem011474">verbrent</term> worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

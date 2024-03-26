@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.48-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 209–213</idno>
+     </msIdentifier>
+     <head>Des garants et cautions</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005133"/>
+     <term ref="key000499"></term>
+     <term ref="key003331"></term>
+     <term ref="key004001"></term>
+     <term ref="key000803"></term>
+     <term ref="key005062"></term>
+     <term ref="key000874"></term>
+     <term ref="key000058"></term>
+     <term ref="key003867"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="209" facs="AEN_MJ_17_208_209"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> XLVIII. <lb/>Des <term ref="lem018056.02">pleiges</term> et <lb/>cautions.</head>
+      <p>
+       <lb/><term ref="lem017486">Fiancer</term> ou cautionner, est <lb/>promettre que le creancier
+       <lb/>n’aura perte en la debte ou chose <lb/>promise, et luy en respondre, <lb/>et aussy se
+       charger de l’<choice>
+        <abbr>obligaon</abbr>
+        <expan>obligation</expan>
+       </choice> <app>
+        <lem><lb/>d’autruy</lem>
+        <rdg wit="AVN Q41, p. 74"/>
+       </app>. <lb/><add place="below" type="catchword">Un</add>
+      </p>
+     <pb n="210" facs="AEN_MJ_17_210_211"/>
+      <p>
+       <lb/>Un <term ref="lem018056">pleige</term> ou caution est <choice>
+        <abbr>seulem<hi rend="sup">t</hi></abbr>
+        <expan>seulement</expan>
+       </choice>
+       <lb/>obligé par <app>
+        <lem>parolle et</lem>
+        <rdg wit="AVN Q41, p. 74"/>
+       </app> <term ref="lem017005">stipulation</term>, <lb/>et partant le <term ref="lem019331"
+        >fiancement</term> ne <lb/>se contracte vaillablement entre <lb/>absents<app>
+        <lem>.</lem>
+        <rdg wit="AVN Q41, p. 74">, <term ref="lem015643">ains</term> faut que la personne <lb/>de
+         celuy qui veut estre <term ref="lem018056">pleige</term> et caution de quelcun <lb/>soit
+         presente, et que par sa propre parole il ratifie son <term ref="lem019331"
+          >fian<lb break="no"/>cement</term> qu’il fait pour autruy.</rdg>
+       </app></p>
+      <p>
+       <lb/>L’on ne peut prendre caution du <lb/>prest fait aux enfans qui sont <lb/>soubs la
+       puissance de pere &amp; <lb/>mere ou de tuteurs.</p>
+      <p>
+       <lb/>Celuy qui est en curatelle, et <lb/>auquel l’on a interdit l’<choice>
+        <abbr>administraon</abbr>
+        <expan>administration</expan>
+       </choice>
+       <lb/>de ses biens peut bien acquerir pour <lb/>soy par <term ref="lem017005"
+        >stipulation</term>, mais il ne <lb/>peut rien <term ref="lem015635">bailler</term> ny
+       livrer ny estre <lb/>obligé par sa promesse, et partant <lb/>un <term ref="lem018056"
+        >pleige</term> ne peut intervenir pour <lb/>luy non plus que pour un furieux <lb/>et
+       insensé.  <lb/><add place="below" type="catchword">Ceux</add>
+      </p>
+     <pb n="211" facs="AEN_MJ_17_210_211"/>
+      <p>
+       <lb/>Ceux qui ne se peuvent obliger <lb/>d’eux mesmes sans adveu &amp; authorité, <lb/>comme
+       la femme, le pupil, le <lb/>mineur, le furieux, iceux ne <lb/>peuvent aussy estre
+       <term ref="lem018056.02">pleiges</term> &amp; <lb/>cautions.</p>
+      <p>
+       <lb/>Sy quelcun a fiancé avec <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 74">quelcun de</rdg>
+       </app> ceux <lb/>la, il demeure obligé pour le <lb/>tout.</p>
+      <p>
+       <lb/>La <term ref="lem017936">fiance</term> ne peut estre tenu <lb/>plus avant que le
+       principal <lb/>obligé.</p>
+      <p>
+       <lb/>L’on peut demander caution a <lb/>un acteur et deffenseur estranger <lb/>s’il n’a aucuns
+       biens <term ref="lem017830.02">riere</term> ceste  <lb/><add place="below" type="catchword"
+        >souveraineté</add>
+       <pb n="212" facs="AEN_MJ_17_212_213"/>
+       <lb/>souveraineté, mais se doit estre <lb/>avant <app>
+        <lem>que d’</lem>
+        <rdg wit="AVN Q41, p. 74"/>
+       </app>entrer en cause ou <lb/>litis contention, &amp; il n’en peut <lb/>trouver il pourra
+       suffire en <lb/>faisant caution juratoire, <choice>
+        <abbr>promettat</abbr>
+        <expan>promettant</expan>
+       </choice>
+       <lb/>sur le sceptre de justice de payer <lb/>l’<choice>
+        <abbr>even</abbr>
+        <expan>evenement</expan>
+       </choice> du procez en cas de <lb/>succombance.</p>
+      <p>
+       <lb/>Le cautionnement et <term ref="lem019331">fiancement</term>
+       <lb/>est esteint et dissolu par le <lb/>payement de la debte, ou bien sy le <lb/>terme du
+        <term ref="lem019331">fiancement</term> ou <choice>
+        <abbr>cautionnem<hi rend="sup">t</hi></abbr>
+        <expan>cautionnement</expan>
+       </choice>
+       <lb/>est <app>
+        <lem>passé et expiré</lem>
+        <rdg wit="AVN Q41, p. 75">et expiré et passé</rdg>
+       </app>, ou quand le <lb/>crediteur et debteur font quelques <lb/>nouvelles <term
+        ref="lem015000.02">pasches</term>, et renovation <lb/>de l’obligation par ensemble en
+       dernier <lb/>des <term ref="lem017936.02">fiances</term> <app>
+        <lem>et cautions</lem>
+        <rdg wit="AVN Q41, p. 75"/>
+       </app>.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> sy le temps et terme de payer <lb/>a esté prolongé au <choice>
+        <abbr>prial</abbr>
+        <expan>principal</expan>
+       </choice> debteur, <lb/>le <term ref="lem018056">pleige</term> est libre s’il a esté fait
+        <lb/><add place="below" type="catchword">en</add>
+       <pb n="213" facs="AEN_MJ_17_212_213"/>
+       <lb/>en dernier de luy, et toutesfois <lb/>le terme de <term ref="lem019331"
+        >fiancement</term> estant <lb/>expiré, et la caution ne s’en fait <lb/>descharger, est
+       reputé demeurer tousjour <lb/><term ref="lem017936">fiance</term>, et respondre &amp;
+       cautionner <lb/>ledit cautionnement.</p>
+      <p>
+       <lb/>Et sy le principal debteur <lb/>dissipe ses biens, les cautions <lb/>peuvent demander
+       que le creancier <lb/>poursuive le payement <app>
+        <lem>dehu</lem>
+        <rdg wit="AVN Q41, p. 75">de <lb/>son debt</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Quand de plusieurs <term ref="lem017936.02">fiances</term>, <lb/>l’un paye tout, et le
+       principal <lb/>obligé n’est solvable, <app>
+        <lem>il</lem>
+        <rdg wit="AVN Q41, p. 75">celuy qui a tout payé</rdg>
+       </app> peut <lb/>avoir son recours contre les <lb/>autres <app>
+        <lem>compleiges</lem>
+        <rdg wit="AVN Q41, p. 75"><term ref="lem018056.02">pleiges</term></rdg>
+       </app> pour chescun <lb/>sa <app>
+        <lem>ratte</lem>
+        <rdg wit="AVN Q41, p. 75">rate</rdg>
+       </app> part et portion.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

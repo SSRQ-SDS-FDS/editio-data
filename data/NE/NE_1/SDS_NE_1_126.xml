@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-126-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-D21.5</idno>
+               </msIdentifier>
+               <head>Décrétales des Audiences générales sur divers points de procédure dans la
+                  seigneurie de Valangin</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Cahier</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32"/>
+                              <width unit="cm" quantity="42"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1588-05"/>
+                     <origPlace ref="loc005950">Valangin</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_291"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;126</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000103"></term>
+               <term ref="key000270"></term>
+               <term ref="key000065"></term>
+               <term ref="key004969"></term>
+               <term ref="key004980"></term>
+               <term ref="key000058"></term>
+               <term ref="key000902"></term>
+               <term ref="key003867"></term>
+               <term ref="key000863"></term>
+               <term ref="key003026"></term>
+               <term ref="key005111"></term>
+               <term ref="key005189"></term>
+               <term ref="key000468"></term>
+               <term ref="key005184"></term>
+               <term ref="key000590"></term>
+               <term ref="key000184"></term>
+               <term ref="key003389"></term>
+               <term ref="key000129"></term>
+               <term ref="key000814"></term>
+               <term ref="key000304"></term>
+               <term ref="key000078"></term>
+               <term ref="key005057"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="19" facs="AEN_AS_D21_5_18_19"/>     
+               <div>
+                  <p><lb/>Ordonnances et decretalles faictes en la terre <lb/>et seigneurie de
+                     Vallangin par monseigneur le <lb/>gouverneur general au conté de Neufchastel et
+                     seigneurie <lb/>dudict Vallangin au nom de très illustre haulte et
+                     <lb/>puissante Ma Dame Marie de Bourbon, duchesse de <lb/>Longueville et de
+                     Touteville, contesse souveraine dudict <lb/>Neufchastel et Vallangin et de
+                     Messeigneurs ses <lb/>très illustres enfans, noz souverains princes et
+                     seigneurs, <lb/>par l’advis et conseil de messeigneurs les nobles <lb/>feaulx,
+                     officiers et bourgeois des audiances generalles <lb/>tenues au chasteau dudict
+                     Vallangin en l’an mille <lb/>cinq cens octante huict et au moys de may. </p>
+                  <head><lb/>A cause des justices extraordinayres <lb/>ou juge non suspect.</head>
+                  <p><lb/>Premièrement pour obvyer aux grands fraictz, <lb/>missions et temps perdu,
+                     voyre a celle fin que <lb/>tousjours droict et justice soit faicte et
+                     administrée <lb/>a ung chascung, a esté ordonné et decreté que doresenavant
+                     <lb/>quant causes extraordinayres ou ordinayres advien<lb break="no"/>dront que
+                     les juges seront parentz ou suspectz, <lb/>soit a la justice de Vallangin, a
+                     celle du Loucle, <lb/>de la Saigne ou des Brenetz, que le mayre d’illec <lb/>se
+                     doybge presenter par devant le sieur lieutenant <lb/>ou principal officier
+                     estant au chasteau dudict <lb/>Vallangin et luy demander juge et justice non
+                     <lb/>suspecte que l’on appelle le juge extraordinayre. <lb/>Lequel principal
+                     officier pourra choysir, prendre <lb/>et commander d’une chascune desdictes
+                     justices deux hommes, <lb/>troys ou quattre comme le cas le requerra pour
+                     <lb/>fournyr le nombre de douze juges compris <lb/>ceulx qui ne seront suspect
+                     en la justice ou telles <pb n="20" facs="AEN_AS_D21_5_20_21"/>
+                     <lb/>causes escherront. Et iceulx juges fera <lb/>commander par le mayre a
+                     comparoir au lieu que <lb/>sera requis et au jour que sera assigné pour faire
+                     <lb/>vuidange de telles causes. Et pource que les parties <lb/>ne soyent
+                     surchargées de trop grandz fraictz, coustes <lb/>et missions, a esté ordonné
+                     qu’il doybge estre <lb/>donné a ung chascung juré venant d’aultres justices
+                     <lb/>cinq gros par personne avec leur despens honnestement <lb/>selon l’estat
+                     de telz personnages. Et pour ceulx <lb/>qui seront de la justice ou la cause se
+                     tiendra <lb/>chascung troys groz avec leur despens comme dessus. <lb/>Par
+                     devant lesquelz juges ou justices extraordinayres <lb/>seront tant seullement
+                     desduictes les causes que <lb/>par parenté, affinité ou partialité evidente ne
+                     <lb/>pourront estre vuydées riere leur juge ordinayre <lb/>aussi les causes de
+                     communaulté contre communaulté <lb/>et les causes de pasturages ou bocquaiges
+                     que <lb/>ne se pourront vuyder aultrement en reservant <lb/>aux parties
+                     appellation par devant les audiances <lb/>generalles ou par devant ung estat
+                     ainsi que du <lb/>passez a esté ordonné. </p>
+                  <head><lb/>Les obligattions.</head>
+                  <p><lb/>Les obligations et debtes dehues en toute la <lb/>seigneurie dudict
+                     Vallangin, a esté ordonné que <lb/>le crediteur pourra faire prendre des biens
+                     de <lb/>son debteur telz que bon luy semblera et les <lb/>faire tauxer par gens
+                     de justice pour en avoir son <lb/>payement, reservé la maison, le lict et les
+                     <lb/>armes de l’homme que doybvent desmeurer les <lb/>derniers a tauxer&#160;;
+                     et sy les biens sont venduz <lb/>et usagés es obligations jusques a la tauxe
+                        <pb n="21" facs="AEN_AS_D21_5_20_21"/>
+                     <lb/>et que le debteur n’y mette aulcune difficulté, <lb/>le mayre ou le
+                     lieutenant pourra et debvra <lb/>ordonner les tauxeurs sans que ceulx de la
+                     <lb/>justice y doybgent prendre ny avoir aulcungz <lb/>droictz ny congnoissance
+                     pour eviter missions es <lb/>parties. </p>
+                  <head><lb/>Les justices.</head>
+                  <p><lb/>Il a esté ordonné que toutes les justices de cestedicte <lb/>seigneurie
+                     tant de Vallangin, du Loucle, de la <lb/>Saigne et des Brenetz se doybvent
+                     tenir le matin <lb/>commenceant a heures de prymes et ne debvront <lb/>les
+                     jurez desdictes justices prendre journées et <lb/>despens pour leur droictz,
+                     ains debvront prendre <lb/>leursdictz droictz par congnoissance suyvant
+                     l’arrest <lb/>faict par mondict seigneur gouverneur et les sieurs du conseil. </p>
+                  <head><lb/>Les tauxes.</head>
+                  <p><lb/>Pour toutes les tauxes que se feront riere toutes <lb/>et chascune les
+                     mayories de ceste seigneurie dudict <lb/>Vallangin, a esté ordonné et decreté
+                     que les <lb/>tauxeurs vacquantz toute la journée auront chascung <lb/>seze groz
+                     pour deux repas et quatre groz pour <lb/>la journée&#160;; et s’il ne vacquent
+                     que demy journée <lb/>n’auront que huict groz pour un repas et deuz <lb/>groz
+                     pour demy journée&#160;; touteffoys s’ilz font <lb/>plusieurs tauxes, leur
+                     droictz, journée et repas <lb/>se payeront allequipollant. Et sy lesdictz
+                     tauxeurs <lb/>rappourtent la tauxe a Vallangin ung jour non <pb n="22"
+                        facs="AEN_AS_D21_5_22_23"/>
+                     <lb/>pledoyant ilz auront chascung six groz, et s’ilz <lb/>rappourtent ladicte
+                     tauxe ung jour pledoyant <lb/>ilz auront chascung troys groz. Et s’il est
+                     requis <lb/>que le suthier soit avec eulx en faisant lesdictes<lb/> tauxes, il
+                     aura les droictz comme l’ung des <lb/>justiciers. Et sy lesdictz tauxeurs font
+                     lesdictes tauxes <lb/>riere leur communaulté et brevardie, ilz n’auront
+                     <lb/>que six groz pour tout, pour une chascune tauxe qu’ilz <lb/>feront et que
+                     le present article se puisse corriger <lb/>pour les despens selon la cherté ou
+                     villité du <lb/>temps, ainsi que aultrement en pourra estre <lb/>ordonnez. </p>
+                  <head><lb/>Les propryetez.</head>
+                  <p><lb/>Quant aulcungs demandent la proprietez de <lb/>justice sur les lieux
+                     contentieux que seroit pour <lb/>dommage evidant, pour cas de desboynement,
+                     <lb/>oultrages faictz les ungz aux aultres ou pour <lb/>faire ouverture de
+                     chemins et semblables causes <lb/>qui meritent veue de lieu et place, a esté
+                     <lb/>ordonné que le mayre ou son lieutenant pourra <lb/>ordonner quattre ou
+                     deux jurez de la justice les <lb/>moings suspectz et plus suffisantz, lesquelz
+                     visiteront <lb/>le lieu et en feront leur rapport a la justice <lb/>et leur
+                     debvra estre adjousté foy&#160;; ausquelz sera <lb/>donné pour leur journées et
+                     despens pour journée <lb/>entière a ung chascung vingt groz et pour demy
+                     journée <lb/>dix groz et au clerc et suthier a ung chascung aultant&#160;;
+                     <lb/>touteffoys que le present article se pourra corriger <lb/>pour les despens
+                     selon la cherté ou villité du <lb/>temps ainsi que par raison apartiendra. <pb
+                        n="23" facs="AEN_AS_D21_5_22_23"/></p>
+                  <head><lb/>Les eschanges.</head>
+                  <p><lb/>Item a esté ordonné que tous les eschanges que <lb/>se trouveront estre
+                     faictz frauduleusement en toute <lb/>la seigneurie, soit pour perdre les lodz
+                     ou pour <lb/>rompre et aneantir la proximitez aux preusmes <lb/>debvront estre
+                     chastiez ceulx qui les auroyent ainsi <lb/>faictz, au contenu de l’article
+                     declairé au serment des <lb/>notayres. Et que toutes les proximitez doybvent
+                     <lb/>apartenir et tousjours desmeurer aux plus prochains <lb/>parens et
+                     preusmes sans qu’il puissent vendre, <lb/>ceder ou remettre ladicte proximitez
+                     a aultruy, ains <lb/>en faire la rehemption pour eulx mesmes et non <lb/>pour
+                     aultres. </p>
+                  <head><lb/>Les reacheptz.</head>
+                  <p><lb/>Tous reacheptz devront estre perpetuelz&#160;; et <lb/>debvront estre
+                     faictz lesdictz reacheptz du jour et <lb/>datte des venditions et en presence
+                     des mesmes <lb/>tesmoings receuz par le mesme notayre. </p>
+                  <head><lb/>Les southiers.</head>
+                  <p><lb/>Il a esté ordonné que doresenavant les southiers <lb/>qui seront ordonnez
+                     pour servir a la justice de <lb/>Vallangin auront pour adjourner ou gager au
+                     bourg <lb/>ung groz, et par tous les villages du Vaulx <supplied>de
+                        Ruz</supplied>deux <lb/>groz&#160;; au Pasquier neuf groz et aux Montaignes
+                     <lb/>quant ilz y seront envoyez dix huict groz pour chascune <pb n="24"
+                        facs="AEN_AS_D21_5_24_25"/> 
+                     <lb/>excecution tant de gaiger que d’adjourner. Et quant <lb/>es aultres
+                     southiers des mayories des Montaignes de cestedicte <lb/>seigneurie prendront
+                     pour chascung gaigement ou adjournement <lb/>deux groz a cause de la distance
+                     des lieux et pourront <lb/>les mayres employer les jurez de leur justices pour
+                     <lb/>adjourner au deffaultdes southiers et surtout pour servir <lb/>les
+                     estrangiers affin d’eviter missions. </p>
+                  <head><lb/>Les causes et appellations que se <lb/>doybvent vuyder par devant les
+                        estatz.</head>
+                  <p><lb/>Pour ce que plusieurs des soubgectz de cestedicte seigneurie <lb/>qu’ont
+                     estez condampnez es proces intentez es justices <lb/>basses ne taschent sinon
+                     de s’ayder de dyllations que <lb/>les appellations leur peulvent permettre que
+                     revient au <lb/>grand dommage des parties tant aux appellantz que aulx
+                     <lb/>aultres, mesmes en plusieurs et diverses causes de petite <lb/>importance,
+                     ne meritans dillations pour eviter les <lb/>fraictz et dommages qu’en peulvent
+                     succeder ausdictz subgetz <lb/>et pour abreviation de justice, a esté ordonné
+                     que toutes <lb/>les causes desquelles il aura esté appellé a ladicte justice
+                     <lb/>basse concernantz faictz de mariage, d’injures, de <lb/>debtes et tous
+                     accessoyres seront cy après vuydées <lb/>et jugés diffinitivement par les
+                     sieurs juges des estatz <lb/>que pour ce faict seront ordonnez, et que ce soit
+                     et <lb/>sera es depens des parties qui tort auront et <lb/>qui seront
+                     condampnez. </p>
+                  <head><lb/>Pour les tesmoings.</head>
+                  <p><lb/>A ung chascung tesmoingz que sera du lieu sera donné pour <lb/>une
+                     chascune foys qu’ilz comparoistront en justice six groz. <lb/>A ceulx qui
+                     seront du Vaulx sera donné ung repas <lb/>raisonnablement&#160;; et a ceulx qui
+                     viendront des <pb n="25" facs="AEN_AS_D21_5_24_25"/><lb/> Montaignes dix huict
+                     groz et pour les affaires de <lb/>la seigneurie neant comme du passez,
+                     touteffoys que <lb/>le present article se pourra corriger par cy après selon
+                     <lb/>la cherté ou villité du temps. </p>
+                  <head><lb/>Ceulx que peulvent juger <lb/>a cause de parenté ou affinité.</head>
+                  <p><lb/>Il a esté ordonné que tous jurez des justices pourront <lb/>juger et
+                     sentencer des causes de communaultez a <lb/>communaultez exceptez ceulx que
+                     seront prochains parens <lb/>au second degrez&#160;; et tous aultres estre
+                     passez ledict <lb/>degrez en pourront juger. Et quant es causes de
+                     <lb/>particulier a aultre, il en doyt estre usez comme du <lb/>temps passez,
+                     que doyt estre passez le tier degrez <lb/>de parentaige et jusques au quart. </p>
+                  <head><lb/>Comment les protestes se doybvent <lb/>faire et recepvoir.</head>
+                  <p><lb/>Item est ordonné quant es aulcungs qui font <lb/>souventes foys protestes
+                     et fryvolles appellations, <lb/>quant es dictes protestes, que nul ne sera
+                     admis en <lb/>proteste qu’il ne donne cinq solz quant a l’ordynaire <lb/>ainsi
+                     que la coustume en est introduycte. Et quant <lb/>a l’extraordynaire ne sera
+                     receu sinon qu’il dellivre <lb/>promptement faisant sadicte proteste dix solz
+                     que <lb/>sera pour les droictz de la justice&#160;; et aussi que <lb/>nul ne
+                     sera admis ou receu en proteste ou appel <lb/>que la somme principalle n’eccede
+                     douze livres <lb/>et non moings et celluy qui ne dellivrera ledict <lb/>argent
+                     pour lesdictes proteste manuellement et a <pb n="26" facs="AEN_AS_D21_5_26_27"/> 
+                     <lb/>l’heure, sa proteste sera nulle touteffoys que <lb/>sy lesdictes protestes
+                     se dellivrent dedans le plaict <lb/>tenant il viendra assez a l’heure. </p>
+                  <head><lb/>Les journées devant la seigneurie.</head>
+                  <p><lb/>Item quant es journées qu’on demande depuis la <lb/>justice inferieure par
+                     devant la seigneurie, il sera a <lb/>la discretion du sieur lieutenant de la
+                     seigneurie de <lb/>l’accepter a la journée ou de la renvoyer en justice <lb/>et
+                     pour chascune cause que se tiendra par devant la seigneurie <lb/>sera donné es
+                     gens du conseil une congnoissance qu’est <lb/>quattre potz de vin. </p>
+                  <head><lb/>Pour ceulx qui despendent leur <lb/>biens par les tavernes.</head>
+                  <p><lb/>Item quant es tavernes et gens qui despendent leurs <lb/>biens
+                     frustrayrement dont s’apovrissent despendant <lb/>le bien de leur femmes et
+                     enfans, a esté ordonné <lb/>qu’il seront faictes des tablettes esquelles seront
+                     <lb/>inscriptz lesdictz malvivantz&#160;; et chez chascung hoste sera <lb/>mise
+                     une tablette&#160;; et sera donné charge es jurez de <lb/>la justice du lieu ou
+                     es southiers de s’en prendre <lb/>garde&#160;; et celluy qui sera repourté
+                     estre trouvé a <lb/>la taverne pour la premiere foys sera mys ung <lb/>jour et
+                     une nuict en prison en pain et eaue&#160;; pour <lb/>la seconde foys deux jours
+                     et aultant de nuictz, <lb/>et pour la tierce foys troys jours et troys nuictz
+                     <lb/>tousjours en pain et eaue. Et s’ilz s’oublient tant que <lb/>d’y retourner
+                     pour la quatriesme foys seront chastiez <lb/>selon l’exigence du cas comme
+                     deshobeyssantz, et les <lb/>hostes qui leur donneront a boyre et a manger
+                     <lb/>condampnez pour ung chascung et une chascune foys a ung <lb/>band <pb
+                        n="27" facs="AEN_AS_D21_5_26_27"/> 
+                     <lb/>de soixante solz. Et aussi est commandé a tous <lb/>les mayres de la
+                     seigneurie ung chascun en sa charge <lb/>et mayorie, rappourter et declairer a
+                     la seigneurie <lb/>ceulx qui congnoistront estre dignes d’enroller, que <lb/>se
+                     fera par l’advis des justiciers dudict lieu. Plus <lb/>est deffenduz a tous les
+                     hostes de cestedicte seigneurie <lb/>de ne donner a creance a personne quelle
+                     que ce soit plus <lb/>d’ung escot tant seullement a band de soixante solz pour
+                     <lb/>une chascune foys et a poynne de perdre ce qu’il chargera <lb/>davantaige.
+                     Il s’entend a ceulx qui tiengnent maulvais <lb/>mesnage et quil despendent leur
+                     biens de leur femmes <lb/>et enfans et ceulx qui sont soubz tutelle, deffendant
+                     <lb/>des maintenant a tous les mayres et a leur lieutenans <lb/>de donner ou
+                     ordonner soubthiers aux hostes pour <lb/>gaiger personne ny tauxer aussi pour
+                     aulcune despence <lb/>de taverne que se fera par cy apres, hormys pour le
+                     <lb/>faict de la justice, pour arbitrages, pour les gouverneurs <lb/>des
+                     communaultez et pour les estrangiers, deffendant <lb/>aussy aux soubthiers de
+                     non le fayre a poynne de <lb/>privation de l’office et chastiez de mesme.
+                        Sembla<lb break="no"/>blement que personne de quelque quallité qu’il soit
+                     <lb/>n’aye a incyter ny contraindre a boyre l’ung l’aultre <lb/>de faict ny par
+                     parolles pour en meshuser ou incitation <lb/>quelconques a poynne d’estre
+                     chastiez au contenu de <lb/>l’ordonnance faicte au consistoyre. </p>
+                  <head><lb/>La tauxe du pain <lb/>et du vin.</head>
+                  <p><lb/>Item on a confirmé la decretalle et ordonnance par <lb/>cy devant faicte a
+                     cause du taux du pain et du vin <lb/>et semblablement faire marquer les potz,
+                     demy <lb/>potz, quartheretz ou aultres et que deffence est <lb/>faicte a tous
+                     et ung chascung les hostes de cestedicte <lb/>seigneurie tant riere la mayorie
+                     de Vallangin, du <lb/>Loucle, de la Saigne que celle des Brenetz, de non <pb
+                        n="28" facs="AEN_AS_D21_5_28_29"/>
+                     <lb/>vendre le vin que premierement leursdictz aysementz <lb/>ne soyent marquez
+                     et ladicte tauxe du pain et du <lb/>vin faicte&#160;; et lesdictes tauxes
+                     seront reffaictes de troys <lb/>moys a troys moys pour en user selon la cherté
+                     et <lb/>villité du temps, et seront commys gens a chascune <lb/>parroisse pour
+                     tauxer et se visiteront lesdictes mesures <lb/>annuellement&#160;; et a toutes
+                     les foys que on y trouvera <lb/>faulte, l’aysement sera confisqué a la
+                     seigneurie et <lb/>l’hoste condampnez a soixante solz. </p>
+                  <head><lb/>Les advoyers.</head>
+                  <p><lb/>Item quant es advoyers a esté ordonné et <lb/>decretté que ung homme ne
+                     peult estre advoyer <lb/>que de huict personnes et chascung advoyer aura pour
+                     <lb/>chascune comparoissance qu’il fera en justice cinq solz <lb/>foybles pour
+                     chascung advoyer qu’il aura et sans <lb/>aultre despence demander et n’yra
+                     pledoyer pour <lb/>personne sinon a la mayorie qu’il sera institué
+                     <lb/>advoyer, et luy sera donné par an pour son loyer <lb/>et sallayre ung
+                     escus d’or, vacquant pour les <lb/>affaires de sondict advoyer, et ledict
+                     sallayre a ratte <lb/>du temps et que celluy qui sera condampné ne <lb/>sera
+                     entenu rembourser a sa contrepartie pour ledict <lb/>advoyer sinon que cinq
+                     solz pour chascune foys qu’il <lb/>aura comparu en justice. </p>
+                  <head><lb/>Les tesmoings que se peulvent <lb/>examiner en secret.</head>
+                  <p><lb/>Item a esté ordonné et decretté pour le regard <lb/>des causes intentées
+                     en justice, quant il advient <lb/>que l’on prodhuict tesmoings et que la partie
+                     <lb/>deffend disant qu’il n’en doyt rappourter, a ces <lb/>causes pource que
+                     sumes tous mortelz et l’heure de <lb/>la <pb n="29" facs="AEN_AS_D21_5_28_29"/>
+                     <lb/>mort incertaine, soit par mort subite ou <lb/>aultrement, affin que la
+                     partie ne perde son droict <lb/>par le deceps que pourroyt advenir de l’ung ou
+                     de <lb/>plusieurs de ses tesmoings, est ordonné que le <lb/>tesmoing, ung ou
+                     plusieurs dont seroit question, <lb/>debvra estre examiné en secret par le
+                     mayre et deux <lb/>de la justice et rediger son rapport par escript <lb/>par le
+                     secretaire affin que sy apres le tesmoignage doyt <lb/>avoir lieu que la partie
+                     s’en doybge ou puisse servir <lb/>en reservant toutesfoys a l’aultre partie son
+                     droict <lb/>de pouvoir regetter tel rapport et tesmoignage <lb/>aussi bien
+                     apres comme devant parties ouyes. </p>
+                  <head><lb/>De non faire par les communaultez <lb/>acquisitions de terres.</head>
+                  <p><lb/>Item pource que quant les gouverneurs des villages <lb/>au nom de leur
+                     communaultez font des acquisitions <lb/>d’aulcungs morcelz de terre des
+                     particuliers, les <lb/>adjoingnantz a leur pasquiers en bien commung et que
+                     <lb/>par après il ne se revendent point, dont la seigneurie <lb/>en est
+                     perdante pour les lodz et pour le dixme, <lb/>a esté pour ces causes et raisons
+                     decretté et <lb/>ordonné que telles acquisitions ne se doybvent faire
+                     <lb/>doresenavant par les gouverneurs au nom de leursdictes <lb/>communaultez
+                     d’aulcungs particulliers, deffendantz aux <lb/>notayres de ladicte seigneurie
+                     de non recepvoir telz <lb/>actes ou lettres soit par venditions ou eschanges
+                     <lb/>sans le conscentement dudict seigneur gouverneur. </p>
+                  <head><lb/>Pour les notayres.</head>
+                     <p><lb/>Item est ordonné et decretté que tous notayres <lb/>jurez de ladicte
+                     seigneurie dudict Vallangin qui se <lb/>trouveront en quelque justice que ce
+                     soit a <lb/>l’absence du secretaire ordinayre d’icelle sera <pb n="30"
+                        facs="AEN_AS_D21_5_30_31"/>
+                     <lb/>entenus d’escripre quant il luy sera commandé par <lb/>le mayre ou son
+                     lieutenant moyennant sallayre <lb/>compettant sur poyne d’estre privé de son
+                     <lb/>office s’il n’a excuse raisonnable. </p>
+                  <head><lb/>Les lettres de <lb/>subastations.</head>
+                  <p><lb/>Item quant aux lettres de subastations que se <lb/>font pour les deniers
+                     de la seigneurie soyent <lb/>lodz ou aultres a esté ordonné que apres avoir
+                     <lb/>faict les usages et dehuement laissé scavoir <lb/>a ceulx qui tiendront
+                     les pièces que le sieur <lb/>recepveur ou son commys doyt faire adjourner
+                     <lb/>la partie tenant lesdictes pièces par devant la <lb/>justice et se faire
+                     dresser lettres par congnoissance <lb/>de justice sur lesdictes pièces et que
+                     sur ladicte <lb/>congnoissance n’y doyt avoir damme, proteste <lb/>ny
+                     appellation quelconques laissant les lettres <lb/>par cy devant dressées a leur
+                     force sans les <lb/>corrompre. </p>
+                  <head><lb/>Pour avoir justice chascung par devant son juge.</head>
+                  <p><lb/>Et pour aultant que les aulcungs font cyter et <lb/>adjourner, mesme font
+                     action et prennent a <lb/>cause ung aultre hors du lieu et mayorie d’ou <lb/>il
+                     est ressortissable et au lieu ou il n’a aulcung <lb/>bien adgesant que redonde
+                     en grande confusion <lb/>et desordre et cause grandz fraictz et despens <lb/>a
+                     la ruyne des subgetz, a ceste cause est inhibé <lb/>et deffendu au mayre de
+                     Vallangin ou a son <lb/>lieutenant et consequament a tous les aultres <lb/>de
+                     ladicte seigneurie a leur lieutenant et aultres <lb/>officiers de non tenir ny
+                     administrer justice <lb/>a aulcung qui ne soit manant et residant riere <lb/>la
+                     mayorie de son ressort et juge ordinayre <lb/>sinon qu’il y eust du bien
+                     adgesant ou que ce fut <pb n="31" facs="AEN_AS_D21_5_30_31"/>
+                     <lb/>pour cas d’injure, ains que lesdictz mayres et officiers <lb/>renvoyent
+                     les parties ung chascung par devant son juge <lb/>ordinayre et mayre du lieu ou
+                     il est ressortissable. <lb/>Et quant a ceulx qui font leur residance hors de
+                     <lb/>la seigneurie et quilz sont censiers allieurs, qu’iceulx <lb/>se doybvent
+                     actionner riere leur ressort et juge <lb/>ordinayre comme du passez. </p>
+                  <head><lb/>Pour les droictz des <lb/>justices et justiciers.</head>
+                  <p><lb/>Item est ordonné esdictz mayres, lieutenantz et <lb/>justiciers que sur
+                     les causes que se ventilleront <lb/>par les jours ordinayres et accoustumez,
+                     ilz auront <lb/>et percevront leur droictz par chascune congnoissance
+                     <lb/>qu’ilz rendront. Et quant il conviendra et que lesdictz <lb/>mayres et
+                     lieutenantz seront requis de faire a tenir <lb/>justice expressement par jours
+                     extraordinayres <lb/>que l’acteur requerant ainsi justice, sera tenuz
+                     <lb/>donner bonne et suffisante asseurance pour les despens <lb/>et journées de
+                     la justice, et sera donné a chascung <lb/>justicier par jour qu’il vacqueront
+                     esdictz jours <lb/>extraordinayres vingt gros pour journées et <lb/>despens se
+                     pouvant corriger selon la cherté et <lb/>villité du temps. </p>
+                  <head><lb/>Les passementz <lb/>constumas.</head>
+                  <p><lb/>Et quant es deffaulx et passementz de constumas <lb/>obtenuz par partie
+                     actrice contre partie rée <lb/>a faulte de non comparoir en justice, veu que
+                     <lb/>du passez il estoit adjugé passement de constumas <lb/>a l’acteur au
+                     second deffault commys par le rée, <lb/>chose que semble trop briefve et
+                     subite, a ces <pb n="32" facs="AEN_AS_D21_5_32_33"/><lb/> causes est ordonné
+                     que doresnavant ne sera <lb/>adjugé tel passement que jusques au tier
+                     adjournement <lb/>et la partie qui aura estée adjugée a deux deffaultz <lb/>et
+                     ne comparoistra a la tierce foys estant dehuement <lb/>cyté et adjourné alhors
+                     sera adjugé ledict passement <lb/>moyennant que partie debvra estre adjournée
+                     dehuement <lb/>le jour devant. </p>
+                  <head><lb/>Come les missions se doybvent <lb/>supporter en justice.</head>
+                  <p><lb/>Item et allendroict de supporter les despens <lb/>de justice par parties
+                     parmy et parmy jusques a <lb/>diffinitive de cause ainsi que on en a usez du
+                     passez <lb/>et toutesfoys es aultres justices l’acteur supporte
+                     <lb/>entièrement les missions jusques a diffinitive, <lb/>est advisé que par cy
+                     apres sy la partie actrice ayant <lb/>faict action contre partie rée et le
+                     deffendeur <lb/>prolonge la cause et serche dillations incompetantes,
+                     <lb/>alhors ledict rée supportera la moictier des despens <lb/>des jours que on
+                     verra qu’il prolongera ainsi la <lb/>cause sinon et que le deffenseur ne prenne
+                     journées <lb/>de dillations aultres que competantes, alhors <lb/>l’acteur
+                     supportera les missions jusques a vuydage <lb/>et deffinitive de cause. </p>
+                  <head><lb/>Pour ceulx qui mettent leur <lb/>biens en decret d’egallation.</head>
+                  <p><lb/>Et quant a ceulx qui mettent leur biens en decret <lb/>d’egallation s’il
+                     cy en treuve aulcung qui aye <lb/>chargé son bien de plus de debtes qu’il ne
+                     pourra <lb/>pourter, tel sera puny et chastié a la volunté <lb/>de la
+                     seigneurie et ung justicier ou aultre officier <lb/>qui mettra aussi son bien
+                     en egallation et que par <lb/>aultre moyen legitime et raisonnable ne pourra
+                        <pb n="33" facs="AEN_AS_D21_5_32_33"/>
+                     <lb/>satisfaire et faire raison a ses crediteurs, tel ou <lb/>telz justiciers
+                     ou officiers seront desmys et privez <lb/>de leur sieges et offices. </p>
+                  <head><lb/>Pour les tesmoingz qui seront parens ou affins de parties.</head>
+                  <p><lb/>Item quant il advient allendroict des tesmoings <lb/>qui se prodhuisent en
+                     justice par une partie actrice <lb/>contre la partie deffenderesse pour faict
+                     de debt, <lb/>promesse, dommage et aultres choses qui ne touchent <lb/>ny
+                     concernent l’honneur de l’une ny de l’aultre partie, <lb/>quant la partie
+                     prodhuict tesmoings qui sont parentz <lb/>de la partie negante et qu’elle
+                     deffent disant que <lb/>telz tesmoings qui sont ses parens ne doybvent faire
+                     <lb/>rapport, est ordonné qu’iceulx tesmoings en pourront <lb/>faire rapport
+                     hormys que ce ne fut pour faict de <lb/>deshonneur comme dict est. </p>
+                  <head><lb/>Conclusion des dictes decretalles.</head>
+                  <p><lb/>Lesquelles susdictes decretalles et ordonnances ont <lb/>estés faictes et
+                     passées par mondict seigneur le <lb/>gouverneur saulfz le bon voulloyr et
+                     plaisir de <lb/>Madicte Dame et de Mesdictz seigneurs, nos souverains
+                     <lb/>princes, pour les pouvoir corriger, y adjouster ou <lb/>dyminuer aux
+                     prochaines audiances que se tiendront <lb/>audict Vallangin ainsi qu’il se
+                     trouvera estre a faire <lb/>par raison. Et ce a esté par l’advis et declaration
+                     <lb/>des nobles feaulx, officiers et bourgeoys assistans <lb/>ausdictes
+                     audiances, nommeement Claude de Constable, <lb/>lieutenant au gouvernement de
+                     la seigneurie de <lb/>Vallangin, Claude de Neufchastel, baron et seigneur
+                     <lb/>de Gorgier, Pettremand de Gleresse, Wilhem <lb/>Tochner, bourgeoys et
+                     consceillier de Solleure, <pb n="34" facs="AEN_AS_D21_5_34_35"/>
+                     <lb/>Niccollas de Diespach, seigneur de Prangins, Urs <lb/>Vallier, Pierre
+                     Chambrier, <term ref="lem015881.02">recepveur</term> de Neufchastel,
+                     <lb/>Anthoine Junod, ancien <term ref="lem018914.02">chastellain</term> de
+                     Bouldry, tous <lb/>de l’estat de noblesse, Franceoys Clerc dit Guid, <lb/><term
+                        ref="lem018914.02">chastellain</term> de Thielle, Jehan Plattet, lieutenant
+                     <lb/>du Landeron, Abraham Cugnier, mayre de <lb/>Vallangin, Daniel
+                     Perret-Gentilz, mayre du Loucle <lb/>pour les officiers, Daniel Huguenaud,
+                     Jehan <lb/>Grenot, Nicollet Henzely, Pierre Trybollet, <lb/>consceillers de
+                     Neufchastel, Damyan Bourgeoys, <lb/>Anthoyne Vuthier, David Vefve et Bastian
+                     <lb/>Maillardet, bourgeoys et consceilliers de Vallangin, <lb/>pour les
+                     bourgeoys, que les articles susdictz ont <lb/>ainsi passez et conclud pour
+                     estre observez en <lb/>ladicte seigneurie de Vallangin et en sera donné <lb/>a
+                     chascung mayre ung double pour les faire publier <lb/>de troys ans a troys ans
+                     affin qu’elles soyent <lb/>observées et accomplies a poynne de <lb/>s’en
+                     prendre ausdictz mayres et officiers. </p>
+                  <p><lb/>Par commandement de mondict <lb/>seigneur le gouverneur signez </p>
+                  <lb/>
+                  <signed> D. Cornu <figure type="notarial sign"/>
+                  </signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+                  <p>AEN, D&#160;21, N<hi rend="sup">o</hi>&#160;5, cahier en papier.</p>
+                  <p>Éd.&#160;Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;299-305. Matile,
+                        <hi rend="italic">Plaits</hi>, p.&#160;58-73.</p>
+               <p>         
+            </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

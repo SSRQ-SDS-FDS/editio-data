@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-154.10-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 141r</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 141r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Agathe Wirz-Corboz, Mathia Palliard-Cosandey – Anweisung</head>
+					<head xml:lang="fr">Agathe Wirz-Corboz, Mathia Palliard-Cosandey – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-04">4<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1651</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangene</p>
+						<p><lb/><persName ref="per020304a.01">Agatha Corboz</persName> hatt den kleinen <term ref="lem018287">stein</term> ohne <term ref="lem016794.03">bekandtnuß</term> ußgestanden. Sie
+							<lb/>soll, wylen sie das tüfflische <term ref="lem017060">zeichen</term> uff dem kopff hatt, <term ref="lem016507.02">geschoren</term> unnd
+							<lb/><term ref="lem001277">gevisitiert</term>, auch mit dem <term ref="lem018237.08">cendtner</term> <term ref="lem006574.08">gefolteret</term> werden.</p>
+						<p><lb/><persName ref="per020299a">Mathia Cosandey</persName> soll auch <term ref="lem001277">gevisitiert</term>, <add place="above"><term ref="lem016507.02">geschoren</term></add> unnd mit ihren in der <term ref="lem017526.01">folterung</term> <term ref="lem010306">für<lb break="no"/>gefahren</term> werden.</p>
+						<p><lb/><hi rend="outdent">Dem hern</hi> <term ref="lem018597.02">burgermeisteren</term><note>Gemeint ist <persName ref="per009276">Franz Karl Gottrau</persName>.</note> zu examination der gefangenen ist <abbr>hr</abbr> <persName ref="per011532a.03">Brünißholtz</persName> zu geben worden,
+							<lb/>wylen übrige gerichtsherren übell uff sind oder aber sich in ihren usseren
+							<lb/>dorffes gelegenheiten befindend. <gap reason="irrelevant"/><note>Le passage qui suit concerne le procès mené contre <persName ref="per020329">Elsi Veillard</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-155.3-1">SSRQ FR I/2/8 155.3-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

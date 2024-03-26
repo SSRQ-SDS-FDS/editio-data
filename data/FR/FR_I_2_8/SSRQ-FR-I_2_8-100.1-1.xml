@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-100.1-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 13, S. 412–413</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 13, p. 412–413</idno>
+					</msIdentifier>
+					<head xml:lang="de">Barbli Billet-Bodmer – Verhör</head>
+					<head xml:lang="fr">Barbli Billet-Bodmer – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-07-23"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="412"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>
+							<seg><lb/><origDate when="1637-07-23">23 <foreign xml:lang="la"><choice><sic>junii</sic><corr>julii</corr></choice></foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006714a.02">Fryo</persName></seg>
+							<seg><lb/><persName ref="per011521a.01">Heylman</persName></seg>
+							<seg><lb/><persName ref="per011540a.02">Gartner</persName>, <persName ref="per011523a.01">Wildt</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<pb n="413"/><p><lb/><persName ref="per011982a">Barbli Bodmer</persName> von <placeName ref="loc001452.04">Wattemwyl</placeName> erfragt, warum
+							<lb/>sy gfängklich angenommen worden sye; hatt zum bscheidt
+							<lb/>gäben, sy wüße eß nitt. Ob sy hievor nitt ein<lb break="no"/>nen andern man gehabt, hatt geandtworttet nein.
+							<lb/>Mitt dem jezigen namens <persName ref="per012498a">Billet</persName> habe sy zu
+							<lb/><placeName ref="loc007629.06">Berfitschriedt</placeName> vor ohngfarlich <date dur-iso="P20Y">20 jahren</date> gedient
+							<lb/>unndt ihn zur ehe genommen. Ob sy den leütten
+							<lb/>nitt <term ref="lem011429.15">böse geister</term> gäben, hatt zur andtwortt
+							<lb/>gäben nein. Sy wüsse nitt, waß das sye. Sy
+							<lb/><term ref="lem016814">vermeldet</term>, sy begange kein unthat; daß <term ref="lem016426">an<lb break="no"/>laster</term> habe sy, in der hitz des zorns <add place="above">zu</add> <term ref="lem000722.03">schwerren</term>,
+							<lb/>jedoch niemand <add place="above">zu</add> verfluchen. Die jenigen, so sy <term ref="lem006693.02">hex</term> schelttend,
+							<lb/>thüend ihren ungüttlich, unndt wan mans ihren
+							<lb/>under mundts gesagt, habe sy zu ihrer seuberung
+							<lb/>rechtliche mittel an die handt genommen, ein jeder
+							<lb/>möge reden, waß ihm geliebt. Sy ist der artikeln
+							<lb/>des <term ref="lem003708">examens</term> <term ref="lem005649">abred</term>.<note>Le passage qui suit concerne le procès mené contre <persName ref="per011980a">Christine Bovigny</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-99.7-1">SSRQ FR I/2/8 99.7-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

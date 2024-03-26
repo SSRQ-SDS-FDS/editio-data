@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-119-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN, Les Verrières BB/1.24</idno> 
+               </msIdentifier>
+               <head>Franchises et concessions reconnues aux gens des Verrières par le gouverneur de
+                  Bonstetten</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="53"/>
+                              <width unit="cm" quantity="54"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="absent" ns0:attachment="sealed on a parchment tag"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1568-03-16"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_254">SDS NE 1, N<hi rend="sup">o</hi>&#160;119</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key005822"></term>
+               <term ref="key000815"></term>
+               <term ref="key000231"></term>
+               <term ref="key000468"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_VERRIERES_BB1_24_r"/>
+               <div>
+                  <p><seg><lb/>Nous <persName>Jehan Jaques de Bonstetten</persName>, escuyer, seigneur de Urttinen, <gap reason="missing"/>
+                     gouverneur et lieutenant general au comté de Neufchastel, au nom et pour la
+                     part <lb/> de très illustre, hault et puissant prince et seigneur Leonor
+                     d’Orléans, duc de Longueville et de Touteville, marquis de Rothelin, comte
+                     souverain de Neufchastel et de Saint Pol, <gap unit="line" quantity="47"
+                        reason="irrelevant"/><note>Note Favarger 1982&#160;: Suivent les actes cités
+                        à titre de preuves.</note>.<note>La transcription de Favarger 1982 reprend à
+                        la ligne&#160;49 du document.</note></seg> <seg><lb/>A ceste cause et suyvant
+                        cela<note>Note Favarger 1982&#160;: C’est-à-dire les différentes franchises
+                        concédées aux habitants des Verrières depuis le début du XVI<hi rend="sup"
+                           >e</hi>&#160;siècle, cf.&#160;Loew, <hi rend="italic">Les Verrières</hi>,
+                        p.&#160;23.</note>, nous <lb/> avons accordé et accordons par l’advis exprès
+                     desdites gens du conseil, au nom de mondit seigneur, de ses hoirs et ses
+                     perpetuelz successeurs que tous les habitans ausdites <lb/> Verrieres, confins
+                     et ressort d’icelles, presentz ou advenirs exceptez taillables de condition
+                     servile et mainmortable, qu’iceulz tous ensemblement et ung <lb/> chascung
+                     d’eulx particulièrement en sa recognoissance et aultre part, soit en tiltres,
+                     actes, instrumens ou aultrement soient, puissent et doigent estre notez,
+                     qualifiez, inscriptz, nommez <lb/> et declairez doresnavant hommes et subjectz
+                     franczhabergez de mondit seigneur et de ses perpetuelz successeurs esdites
+                     Verrieres, exemptez, manumiz et francz de toult <lb/> taillabilité, condition
+                     servile et mainmortable pour eulx et les hoirs d’ung chascung d’eulx a
+                     perpetuité, povant ung chascung d’iceulx donner, vendre, alliener, transporter,
+                     <lb/> eschanger, engaiger, tester et disposer de leurs biens, possessions,
+                     terres, heritaiges, meubles, immeubles, presentz et advenir quelzconques, a
+                     leur bon plaisir et volonté envers <lb/> qui bon semblera au
+                     transporteur&#160;; le tout neanmoins sans transport indeu ny abus d’iceulx,
+                     ains seulement selon leurs anciennes coustumes et usance d’icelles de <lb/>
+                     tout temps, sans par cestes en povoir ne debvoir user ne prétendre aultrement
+                     en façon quelconque&#160;; réservé aussi a moynnes blancz et tous aultres gens,
+                     ministres <lb/> et serviteurs de l’eglise pontificale de Rome, aussi a
+                     reservation expresse des lodz, bans, barres, clames, saisines, cognoissances,
+                     amendes, droictz et toutes aultres droictures <lb/> pour mondit seigneur et
+                     sesdits perpetuelz successeurs quand elles escherront&#160;; et generalement
+                     toute directe seigneurie, mere, mixte et impere, avec toute jurisdiction
+                     haulte, moyenne <lb/> et basse, quand et la souveraineté totale immediatement.
+                     Si n’entendons ne voulons oudit nom, nullement estre comptez en cesdites
+                     lettres aulcuns bastards, bastardes et tous aultres ille<lb break="no"
+                     />gitimes, lesquelz renvoyons a la coustume du pais et plaisir de mondit
+                     seigneur et desdits successeurs, faisant toutesfoys pleine reserve et exception
+                     portée et contenue tant par les lettres, tiltres <lb/> et privilèges que par
+                     les extentes de mondit seigneur d’article a aultre, qui est que touchant ce, en
+                     quoy lesdits requerans sont redevables a son Excellence et a ses officiers,
+                     soit en <lb/> faict de moulture, censes, rentes, dismes, voyages de guerre,
+                     subventions, tailles, impostz, les quattre aydes, subsides d’icelles, corvées,
+                     reutes, trahues, usaiges et tous aultres <lb/> debvoirs par eulx baillez,
+                     contribuez et faictz de tout temps.</seg> <seg>Tout cela lesdits des Verrieres, comme y
+                     tenus, obligez et subjectz, le debvront tousjours bailler, contribuer et faire,
+                     sans aulcung <lb/> refus, opposition ny empeschement quelconque, nonobstant le
+                     contenu des presentes, promettant en parole de gouverneur non jamais
+                     contrevenir. Renonceant a toutes <lb/> choses contraires, si baillons en
+                     mandement exprès a tous chastelains, commissaires, justiciers et aultres
+                     officiers de Son Excellence riere cedit comté que de nostre part <lb/> ilz
+                     ayent a laisser joyr paisiblement lesdits des Verrieres du benefice et contenu
+                     desdites presentes, especialement a vous Blaize Horry l’aisné, comme
+                     commissaire de Son Excellence en sa <lb/> chastellainie de Vaultravers et
+                     majorie desdites Verrieres, que ayez desincontinent, la presente veüe, a
+                     l’inserer et interiner tout son contenu de mot a aultre, fidelement en l’ung
+                     des volumes <lb/> des extentes de mondit seigneur, pour plus grande seurté
+                     d’une part et d’aultre. Et par mesme moyen, noter, nommer et declairer par
+                     interinement de la teneur desdites presentes, <lb/> lesdites des Verrieres,
+                     ensemblement et ung chascung d’eulx particulièrement en sa recognoissance ainsi
+                     que l’avons cy dessus prescript et declairé, assavoir, homme et subject <lb/>
+                     franchabergé de mondit seigneur et de ses perpetuelz successeurs esdites
+                     Verrieres et confins droicturiers d’icelles. En considération mesmement qu’ilz
+                     sont tous presentz et advenirs <lb/> d’une mesme condition et habergement
+                     franc, sans aulcune distinction, reservez les taillables advenirs, lesquelz ne
+                     comprenons aulcunement esdites presentes, ains les <lb/> remettons a ladite
+                     coustume et bonne volonté de mondit seigneur et de sesdits successeurs, en
+                     prenant toutesfoys d’ung chascung desdits des Verrieres recognoissant, deüe et
+                     <lb/> suffisante confession et recognoissance de telle intitulation et qualité
+                     de condition, le tout se faict sans intervention d’empeschement, dificulté ny
+                     opposition aulcune, <lb/> car tel est nostre plaisir, mesmes la raison et
+                     arrest desdites gens du conseil. En tesmoing de quoy, nous avons seelées
+                     lesdites présentes du seel de noz armes, toutesfois sans <lb/> le prejudice de
+                     nous ny des nostres et faict signer par ledit secretaire et commissaire Horry.
+                     Faict et passé au chasteau dudit <placeName  ref="loc007786">Neufchastel</placeName>, <date when="1568-03-16">le seiziesme jour de mars <lb/>
+                        l’an de salut mil cinq cens soixante huit</date>.</seg></p>
+                  <p><lb/>Par commandement </p>
+                  <lb/><signed>
+                     B.&#160;Horry l’aisné, clerc mayor
+                  </signed>
+               </div>
+               <pb n="1v" facs="AEN_VERRIERES_BB1_24_v"/>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, Archives des Verrières, BB/1. (N<hi rend="sup"
+                     >o</hi>&#160;au crayon&#160;: 24).</p>
+               <p>Éd.&#160;Loew, <hi rend="italic">Les Verrières</hi>, p.&#160;339-340, pièce
+                     justificative, N<hi rend="sup">o</hi>&#160;17.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;161. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

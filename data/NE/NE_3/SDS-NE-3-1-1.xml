@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Lionel Lüthi</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-1-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN AS-05.3r</idno>
+     </msIdentifier>
+     <head>Coutume et usances à observer en fait de justice et attestées par les sujets de
+      Valangin</head>
+     <msContents>
+      <summary>Un notaire met par écrit certains points de la coutume de Neuchâtel valable pour le
+       Val-de-Ruz. Ces déclarations sont faites par des individus du lieu âgés d'au moins trente
+       ans, certifiées par un individu de plus de cinquante ans et approuvées par le comte de
+       Valangin et des notables des seigneuries et bourgeoisies limitrophes. La plupart des points
+       concernent des cas où quelqu’un aurait levé une arme en direction d’une tierce personne, sous
+       l’effet de la colère. Des amendes de montants différents sont prévues en fonction de l’arme
+       ou plus souvent de l’outil (hache, fourche, bâton, ...) utilisé, si le coup a été
+       effectivement porté ou si le geste en est resté à la menace, si le sang a coulé ou non, etc.
+       Si la victime décède, le coupable encourt la peine de mort. Les faits seront poursuivis par
+       la seigneurie même s’il n’y a pas eu de plainte déposée dans le délai imparti et pour cela un
+       témoignage digne de foi sera suffisant. Les déplacements ou dommages portés aux bornes ou
+       clôtures des champs sont également amendables, le montant de l’amende pouvant être multiplié
+       par piquet déplacé si une plainte est déposée pour chaque piquet. Des dispositions sont
+       également prévues pour la manière dont les avocats doivent procéder, ainsi qu'en cas
+       d'obstruction à la justice.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Parchemin</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="50"/>
+          <!-- taille Hauteur gauche=49.8cm droite=50.7cm -->
+          <width unit="cm" quantity="61"/>
+          <!-- taille Largeur haut=60.7cm bas=62.1cm -->
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1426-01-12"/>
+       <origPlace ref="loc013628">Valangin</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005130"></term>
+     <term ref="key005191"></term>
+     <term ref="key005189"></term>
+     <term ref="key003037"></term>
+     <term ref="key005072"></term>
+     <term ref="key000376"></term>
+     <term ref="key000519"></term>
+     <term ref="key000275"></term>
+     <term ref="key000642"></term>
+     <term ref="key000078"></term>
+     <term ref="key005142"></term>
+     <term ref="key005035"></term>
+     <term ref="key000902"></term>
+     <term ref="key004993"></term>
+     <term ref="key000086"></term>
+     <term ref="key003024"></term>
+     <term ref="key000590"></term>
+     <term ref="key005679"></term>
+     </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb facs="AEN_AS-05.3r"/>
+     <div>
+      <p><seg><lb/>En non du Père, du Fil et du Saint Esperit Amen. <origDate when="1426-01-12">L’an
+         de la nativité d’icelui courant mil quatrecens vingt cinq, à la indicion <add
+          place="inline" rend="other ink">dusième</add> ou pontificant de Saint Père en Dieu
+          <persName ref="per012269">Martin</persName> par la divigne grâce <choice>
+          <abbr>nre</abbr>
+          <expan>notre</expan>
+         </choice>
+         <choice>
+          <abbr>s</abbr>
+          <expan>seigneur</expan>
+         </choice> pappe quint l’an <add place="inline" rend="other ink">neufvième</add><lb/> le
+         dimenche douzième jour du mois de janvier</origDate><note>Date&#160;: – A. st.&#160;: 1425,
+          2<hi rend="sup">e</hi> indiction, 9<hi rend="sup">e</hi> année du pontificat de <persName
+          ref="per012269">Martin V</persName>, dimanche 12 janvier, à l’heure de vêpres. – N.
+         st.&#160;: samedi soir 12 janvier 1426 (à l’heure de vêpres, le scribe considère déjà être
+         dimanche).  La 2<hi rend="sup">e</hi> indiction mène normalement à 1424&#160;! – L’acte
+         indique le style de la Nativité, mais c’est vraisemblablement celui de l’annonciation qui
+         est utilisé comme de coutume dans le diocèse de <placeName ref="loc005781"
+          >Lausanne</placeName>, ce qui donne 1426. La 9<hi rend="sup">e</hi> année du pontificat de
+          <persName ref="per012269">Martin V</persName> commence le 11/21 novembre 1425, ce qui
+         confirme la date de janvier 1426 (de même que le jour de la semaine indiqué).</note>,
+        devant le bourt du chastel de <origPlace ref="loc013628.02">Valengin</origPlace> on diocèse
+        de <placeName ref="loc005781">Lausanne</placeName>
+        <time period="evening">à heure de vespre</time> ou <choice>
+         <abbr>eviron</abbr>
+         <expan>environ</expan>
+        </choice>. Sachent tous ceulx qui verront ou orront ces <choice>
+         <abbr>pntes</abbr>
+         <expan>présentes</expan>
+        </choice>
+        <choice>
+         <abbr>lres</abbr>
+         <expan>lettres</expan>
+        </choice> que en la présence de moy noctaire <lb/>publique et des tesmoings cy dedens nommez
+        et subscrips à ce <choice>
+         <abbr>covoquez</abbr>
+         <expan>convoquez</expan>
+        </choice>, priez et requis <choice>
+         <abbr>personnelmt</abbr>
+         <expan>personnelement</expan>
+        </choice> constituy <persName ref="per016594">Perrot Maumary</persName> de <placeName
+         ref="loc008405.02">Savegnier</placeName>, <persName ref="per016595"><choice>
+          <abbr>Prot</abbr>
+          <expan>Perrot</expan>
+         </choice> Vallet</persName>, <persName ref="per019843a.01">Estienne Mathon</persName>,
+         <persName ref="per027525a.01"><choice>
+          <abbr>Jehm</abbr>
+          <expan>Jehan</expan>
+         </choice> Enfer</persName> et <persName ref="per027521a.01"><choice>
+          <abbr>Prot</abbr>
+          <expan>Perrot</expan>
+         </choice> Ranecte</persName>, tous demourans à <placeName ref="loc012851.02"
+         >Bussier</placeName>, <persName ref="per027495.01"><choice>
+          <abbr>Prot</abbr>
+          <expan>Perrot</expan>
+         </choice>
+         <lb/>Ladague</persName>, <persName ref="per027494">Othenin Laville</persName> et <persName
+         ref="per016603">Amyot de La Jonchière</persName>, tous demorans audit lieu de <placeName
+         ref="loc012296.02">La Jonchière</placeName>, <persName ref="per016649a.01">Willaume
+         Consandier</persName> et <persName ref="per016650a.01">Jehan Clert</persName> de <placeName
+         ref="loc008524">Coffrane</placeName>, <persName ref="per016651a.01">Jaquet
+         Roussel</persName>, <persName ref="per027493">Hendriset Legaingnot</persName>, <persName
+         ref="per027492a.01"><choice>
+          <abbr>Prot</abbr>
+          <expan>Perrot</expan>
+         </choice> Chovin</persName>, <persName ref="per016654">Remon Buchene</persName> et
+         <persName ref="per016655">Othenin Maillardet</persName>
+        <lb/>demourans à <placeName ref="loc007788">Fontaines</placeName>, <persName
+         ref="per016656a.01"><choice>
+          <abbr>Jehmet</abbr>
+          <expan>Jehromet</expan>
+         </choice> Mathe</persName>, <persName ref="per016658">Richardet Tonnerre</persName>,
+         <persName ref="per016659a.01">Amyet Coullon</persName>, <persName ref="per016662a.01"><choice>
+          <abbr>Guille</abbr>
+          <expan>Guillaume</expan>
+         </choice> Coullon</persName>, <persName ref="per016664"><choice>
+          <abbr>Guille</abbr>
+          <expan>Guillaume</expan>
+         </choice> Carrel</persName> et <persName ref="per016665a.01">Jaquet Feste</persName>,
+        demourans à <placeName ref="loc008407">Cernier</placeName>, <persName ref="per027496">Aubert
+         Mettrau</persName>, <persName ref="per016666"><choice>
+          <abbr>Prenet</abbr>
+          <expan>Perrenet</expan>
+         </choice> Labraham</persName>, <persName ref="per016667"><choice>
+          <abbr>Prot</abbr>
+          <expan>Perrot</expan>
+         </choice> Lespaulle</persName> et <persName ref="per016669">Raullet Chollet</persName>
+        <choice>
+         <abbr>demour</abbr>
+         <expan>demourans</expan>
+        </choice> à <placeName ref="loc012856.02">Chesar</placeName>
+        <lb/>et <persName ref="per027497">Jehan Maulle</persName> de <placeName ref="loc012857"
+         >Saint Martin</placeName>, tous estans et <choice>
+         <abbr>demouras</abbr>
+         <expan>demourans</expan>
+        </choice> esdictes villes gesans ou <placeName ref="loc008525.04">Val-de-Ruel</placeName> en
+        ladicte diocèse en la <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice> seignorie et hommez de noble seigneur <persName ref="per027526a.01"
+         >Guillaume</persName>, conte d’<placeName ref="loc008889.03">Arberg</placeName> et seigneur
+        de <placeName ref="loc005950.08">Valengin</placeName> et de <persName ref="per016671"><choice>
+          <abbr>Prin</abbr>
+          <expan>Perrin</expan>
+         </choice>
+         <lb/>Payen</persName>, bourgoiz du <placeName ref="loc007786.02">Neufchastel</placeName>,
+        leurs tous estans en aage compettant et au-dessus de <measure type="age" unit="year"
+         quantity="30">trente ans</measure> et plus, par devant noble homme <persName
+         ref="per016673">Nicollay de Chably</persName> estmer chastellain et <term ref="lem018124"
+         >maior</term> dudit <placeName ref="loc013628.02">Valengin</placeName> luy céant <choice>
+         <abbr>justicialment</abbr>
+         <expan>justicialement</expan>
+        </choice>
+        <choice>
+         <abbr>devat</abbr>
+         <expan>devant</expan>
+        </choice>
+        <lb/>ledit bourt de <placeName ref="loc005950.08">Valengin</placeName> hors de toute
+        fermeté.</seg>
+       <seg>Rapportèrent lez dessus nommez dudit <placeName ref="loc008525.06">Vaul de
+         Ruel</placeName> tous d’un commun accord sans <term ref="lem018839.02">destord</term> et
+        chascun <choice>
+         <abbr>pticulièremet</abbr>
+         <expan>particulièrement</expan>
+        </choice> sans nulle force ou contrainte, maiz purement <sic>de leur de leur</sic> france <choice>
+         <abbr>voluté</abbr>
+         <expan>volunté</expan>
+        </choice>
+        <lb/>non decheus <choice>
+         <abbr>no</abbr>
+         <expan>non</expan>
+        </choice>
+        <term ref="lem018836.02">baractez</term> mais saiges et bien conseillez ung chascun de leur <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice> leur serement donné et touché aux saintes evvangilles de Dieu en la main de moy
+        noctaire et en la <choice>
+         <abbr>pnce</abbr>
+         <expan>présence</expan>
+        </choice> desdiz tesmoings cy dessoubz nommez. C’est assavoir lez <lb/>coustumez estatus
+        constitucions et droitures seignoriaulx cy après escriptes et declairieez de mot à mot avoir
+        esté et estre vraiez et véritables, et icelles advoient de tout temps veuez useez tenuees et
+        gardeez et encore sont de <choice>
+         <abbr>pnt</abbr>
+         <expan>present</expan>
+        </choice>
+        <lb/>en toute la <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice> et seignorie dudit <placeName ref="loc005950.08">Valengin</placeName> et par
+        especial depuis <date dur-iso="P30Y">trente ans</date> et plus et de toute leur souvenance et
+        icelles scevent bien estre vraiez et véritables en tout ce qu’ellez contiengnent.</seg>
+       <seg>Premièrement et est assavoir que quant <lb/>aucune <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> de ladicte terre et seignorie de <placeName ref="loc005950.08"
+         >Valengin</placeName> liève contre une aultre <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> par <term ref="lem018838">courout</term> ou <term ref="lem018837">riot</term> et
+        dedens icelle seignorie une <term ref="lem014884.03">destrane</term> et il en <term
+         ref="lem018846.03">fiert</term>, il est encouru envers ledit seigneur en <measure
+         type="currency" unit="ß" quantity="60">soixante soubz</measure>
+        <choice>
+         <abbr>lausann</abbr>
+         <expan>lausannois</expan>
+        </choice> de <term ref="lem018031">ban</term>&#160;; et s’il ne <term ref="lem018846.03"
+         >fiert</term> pourveu <lb/>qu’il en face semblant il est pour <measure type="currency"
+         unit="L" quantity="10">dix livres</measure>
+        <choice>
+         <abbr>envs</abbr>
+         <expan>envers</expan>
+        </choice> ledits&#160;; et s’il tient ladicte destrane <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice> le fer et <term ref="lem018846.03">fiert</term> du mance, il est encouru <choice>
+         <abbr>envs</abbr>
+         <expan>envers</expan>
+        </choice> ledits en <measure type="currency" unit="ß" quantity="4">quatre
+        soubz</measure>&#160;; et s’il <gap reason="missing" unit="character" quantity="2"/>
+        <term ref="lem018846.03">fiert</term> à sang, il est pour <measure type="currency" unit="ß"
+         quantity="9">neuf soubz</measure>&#160;; et s’il ne fiert, il ne <term ref="lem018844.02"
+         >poie</term> rien.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peilement</abbr>
+         <expan>pareilement</expan>
+        </choice>
+        <choice>
+         <abbr>q</abbr>
+         <expan>que</expan>
+        </choice>
+        <lb/>quant aucun tire ou trait ung coustel ou espée sur ung autre par <term ref="lem018838"
+         >courout</term> ou <term ref="lem018837.02">riotte</term> et il <term ref="lem018846.03"
+         >fiert</term> il est encouru <choice>
+         <abbr>envs</abbr>
+         <expan>envers</expan>
+        </choice> ledits en <measure type="currency" unit="ß" quantity="60">soixante
+        soubz</measure>&#160;; et s’il ne <term ref="lem018846.03">fiert</term> pourveu qu’il en
+        face semblant il est pour <measure type="currency" unit="L" quantity="10">dix
+         livres</measure>
+        <choice>
+         <abbr>envs</abbr>
+         <expan>envers</expan>
+        </choice> ledits et qui met nul à mort <lb/>il doit estre exécuté et emporter poine corporel
+        et cappital.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> quant aucun liève une faulx sur ou contre une autre <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice>
+        <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice>
+        <term ref="lem018838">courout</term> ou <term ref="lem018837">riot</term>, il est encouru
+        envers ledits <choice>
+         <abbr>empeilles</abbr>
+         <expan>empareilles</expan>
+        </choice>
+        <term ref="lem018840.02">poines</term> et <term ref="lem018031">ban</term> qu’il est dessus
+        desclairé dudit <lb/>coustel ou espée.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> quant aucun liève sur ou contre ung autre une fourche ferrée ou non ferrée à deux
+        ou trois <term ref="lem018845.02">fourchons</term> de fer, de boiz ou de corne de chievre ou <choice>
+         <abbr>autment</abbr>
+         <expan>autrement</expan>
+        </choice> aguisée <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice>
+        <term ref="lem018838">courout</term> ou <term ref="lem018837">riot</term> et il <term
+         ref="lem018846.03">fiert</term> il est <lb/>encouru <choice>
+         <abbr>envs</abbr>
+         <expan>envers</expan>
+        </choice> ledits pour chascun <term ref="lem018845.01">fourchon</term> en <measure
+         type="currency" unit="ß" quantity="60">soixante soubz</measure>&#160;; et s’il ne <term
+         ref="lem018846.03">fiert</term> il est pour chascun <term ref="lem018845.01"
+         >fourchon</term> en <measure type="currency" unit="L" quantity="10">dix livres</measure>
+        pourveu que <term ref="lem015005">clame</term> soit faicte de et sur chascun <term
+         ref="lem018845.01">fourchon</term> et se <term ref="lem015005">clame</term> n’est faicte
+        que d’une fourche sans nommer ne <lb/>dicerner lesdiz <term ref="lem018845.02"
+         >fourchons</term>, il n’y a que <measure type="currency" unit="ß" quantity="60">soixante
+         soubz</measure> ou <measure type="currency" unit="L" quantity="10">dix livres</measure>
+        comme dessus.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice>
+        <choice>
+         <abbr>quat</abbr>
+         <expan>quant</expan>
+        </choice> aucun liève sur ou contre ung <choice>
+         <abbr>aut</abbr>
+         <expan>autre</expan>
+        </choice> personne <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice>
+        <term ref="lem018838">courout</term> ou <term ref="lem018837">riot</term> une <term
+         ref="lem019195.02">tran</term> de fer, il y a <choice>
+         <abbr>peilles</abbr>
+         <expan>pareilles</expan>
+        </choice> poines que dudit coustel ou espee et <lb/>par les manières dessus dictes.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice>
+        <choice>
+         <abbr>quat</abbr>
+         <expan>quant</expan>
+        </choice>
+        <add place="above">aucun</add> liève ou prent une pierre pour ruer ou <term
+         ref="lem018846.02">ferir</term> sur ou contre une <choice>
+         <abbr>aut</abbr>
+         <expan>autre</expan>
+        </choice>
+        <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice>
+        <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice>
+        <term ref="lem018838">courout</term> ou <term ref="lem018837">riot</term>, s’il rue ou <term
+         ref="lem018846.03">fiert</term> il est encouru envers ledits en <measure type="currency"
+         unit="ß" quantity="60">soixante soubz</measure> et s’il ne rue ou <term ref="lem018846.03"
+         >fiert</term>
+        <lb/>pourveu qu’il en face semblant il est pour <measure type="currency" unit="L"
+         quantity="10">dix livres</measure> comme dessus.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> que quant aucun faisant <term ref="lem017982">noise</term>, <term ref="lem018837"
+         >riot</term> ou débat contre ung autre et il est pris et tenu par aucune <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> pour doubte qu’il ne face aucun <lb/>mal ou que plus grant <choice>
+         <abbr>incovénient</abbr>
+         <expan>inconvénient</expan>
+        </choice> n’y adviengne, icelui qui est ainsi pris ou tenu est encouru <choice>
+         <abbr>envs</abbr>
+         <expan>envers</expan>
+        </choice> ledits en <measure type="currency" unit="ß" quantity="60">soixante
+        soubz</measure>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> quant aucun <term ref="lem018846.03">fiert</term> ung autre <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice>
+        <term ref="lem018838">courout</term> ou <term ref="lem018837">riot</term> d’un baston non
+        aguisié <lb/>il est encouru envers ledits en <measure type="currency" unit="ß" quantity="4"
+         >quatre soubz</measure>&#160;; et s’il y a sang il est pour <measure type="currency"
+         unit="ß" quantity="9">neuf soubz</measure>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> quant aucun liève sur ou contre ung autre <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice>
+        <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice>
+        <term ref="lem018838">courout</term> ou <term ref="lem018837">riot</term> ung <term
+         ref="lem014948">pal</term> de <term ref="lem015028">soifz</term> ou autre baston aguisié et
+        il <lb/><term ref="lem018846.03">fiert</term> il est encouru <choice>
+         <abbr>envs</abbr>
+         <expan>envers</expan>
+        </choice> ledits en <measure type="currency" unit="ß" quantity="60">soixante
+        soubz</measure>&#160;; et s’il ne <term ref="lem018846.03">fiert</term> pourveu qu’il en
+        face semblant, il est pour <measure type="currency" unit="L" quantity="10">dix
+         livres</measure> comme dessus.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> quant aucun liève ou fiche une <term ref="lem015028">soif</term> sur la possession
+        ou <choice>
+         <abbr>hitaige</abbr>
+         <expan>heritaige</expan>
+        </choice> d’une <lb/>autre <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> et oultre lez boines il est encouru envers ledits pour chascun <term
+         ref="lem014948">pal</term> de <term ref="lem015028">soif</term> ainsi mis ou fiché en
+         <measure type="currency" unit="ß" quantity="60">soixante soubz</measure> pourveu que <term
+         ref="lem015005">clame</term> soit <choice>
+         <abbr>fe</abbr>
+         <expan>faicte</expan>
+        </choice> de et sur chascun <term ref="lem014948">pal</term>&#160;; et se <term
+         ref="lem015005">clame</term> n’est faicte que d’une <term ref="lem015028">soif</term> sans
+        nommer <lb/>ne discerner lesdiz <term ref="lem014948.04">paulz</term>, il n’y a <choice>
+         <abbr>q</abbr>
+         <expan>que</expan>
+        </choice>
+        <measure type="currency" unit="ß" quantity="60">soixante soubz</measure>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> que quant aucun brise ou ront la <term ref="lem015028.03">soifz</term> d’un autre
+        et sans la license de celui à qui elle est, il est encouru envers ledits pour chascun <term
+         ref="lem014948">pal</term> ainsi brisié <lb/>ou ront en <measure type="currency" unit="ß"
+         quantity="60">soixante soubz</measure> pourveu que <term ref="lem015005">clame</term> soit
+        faicte de et sur chascun <term ref="lem014948">pal</term> et se <term ref="lem015005"
+         >clame</term> n’est faicte que d’une <term ref="lem015028">soif</term> brisiée ou ronte
+        sans nommer ne discerner lesdiz <term ref="lem014948.03">palz</term> il n’y a que <measure
+         type="currency" unit="ß" quantity="60">soixante soubz</measure>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice>
+        <choice>
+         <abbr>q</abbr>
+         <expan>que</expan>
+        </choice> quant <lb/>aucun officier, bourgoiz ou autre <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> qui ait serement audits de <placeName ref="loc005950.08">Valengin</placeName>
+        rechoit une ou plusieurs <term ref="lem015005">clame</term> ou <term ref="lem015005.02"
+         >clames</term> et il ne lez dénonce ou fait savoir audits ou a ces officiers à qui il <choice>
+         <abbr>apptient</abbr>
+         <expan>appartient</expan>
+        </choice> à lez <choice>
+         <abbr>dénonchr</abbr>
+         <expan>dénoncher</expan>
+        </choice> et faire savoir <lb/>dedens luitane <choice>
+         <abbr>enss</abbr>
+         <expan>ensemble</expan>
+        </choice>, il est encouru envers ledits pour chascune <term ref="lem015005">clame</term>
+        ainsi recelée en <measure type="currency" unit="ß" quantity="60">soixante soubz</measure> et
+         <term ref="lem019219.02">destria</term>.<note>Matile proposait de lire descrié dans le sens
+         d'une monnaie qui n'aurait plus cours, mais on lit distinctement dans le manuscrit destriã.
+         Un rapprochement avec le mot destriane (la hache), dont on trouve une occurrence dans le
+         texte, n'apporte pas grand-chose pour la compréhension. Nous proposons de rapprocher
+         destriane ici de détrie, au sens de retard, ou frais de retard.</note></seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> que quant aucun officier ou suiteur dudits de <placeName ref="loc005950.08"
+         >Valengin</placeName> et qui ait à lui serement <lb/>va <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice> le <choice>
+         <abbr>comandemt</abbr>
+         <expan>commandement</expan>
+        </choice> dudits de son <term ref="lem018124">maior</term> ou chastellain et pour icelui
+        seigneur faire aucun <term ref="lem016019.01">exploit</term>, arrest, deffence, commandement
+        ou <term ref="lem014996.01">barre</term>&#160;; et ledit <term ref="lem016019.01"
+         >exploit</term>, arrest, deffence, commandement ou <term ref="lem014996.01">barre</term>
+        lui est <choice>
+         <abbr>aucunemt</abbr>
+         <expan>aucunement</expan>
+        </choice> contredit, rompu <lb/>ou empesché, il et chascun diceulx <choice>
+         <abbr>officrs</abbr>
+         <expan>officiers</expan>
+        </choice> ou suiteurs dudit <choice>
+         <abbr>sement</abbr>
+         <expan>serement</expan>
+        </choice> font et sont acroire par leur rapport et sur leur dit serement sans avoir autre <choice>
+         <abbr>puve</abbr>
+         <expan>preuve</expan>
+        </choice> ou tesmoingnage.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> que quant aucune <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> a <term ref="lem018841.02">aré</term>
+        <lb/>ou fait labour ou <term ref="lem019220.02">gaingnage</term> sur la terre d’un autre <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> et oultre lez boynes, et <term ref="lem015005">clame</term> est faicte
+        efforcheement, icelui ou ceulx qui ont ainsi <term ref="lem018841.02">aré</term> ou fait
+        labour ou gaingnage oultre lesdiz <term ref="lem015081.04">boynes</term> est encouru <choice>
+         <abbr>envs</abbr>
+         <expan>envers</expan>
+        </choice> ledits <lb/>pour chascune raye de <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice> ainsi <term ref="lem018841.03">arée</term> sur autruy <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice> en <measure type="currency" unit="ß" quantity="60">soixante soubz</measure>
+        pourveu que <term ref="lem015005">clame</term> soit faicte de et sur chascune raie <term
+         ref="lem018841.03">arée</term> et se <term ref="lem015005">clame</term> n’est faicte que
+        d’une <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice>
+        <term ref="lem018841.03">arée</term>, il n’y a que <measure type="currency" unit="ß"
+         quantity="60">soixante soubz</measure>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice>
+        <choice>
+         <abbr>q</abbr>
+         <expan>que</expan>
+        </choice> quant <lb/>le <term ref="lem014994.09">sauctier</term> dudits de <placeName
+         ref="loc005950.08">Valengin</placeName> va faire aucuns <term ref="lem016019.06"
+         >exploix</term>, arrestz, deffences, <choice>
+         <abbr>comandems</abbr>
+         <expan>commandemens</expan>
+        </choice> ou <term ref="lem014996.05">barrez</term> à la resqueste d’aucun <choice>
+         <abbr>ptie</abbr>
+         <expan>partie</expan>
+        </choice> à partie, icelui sauctier doit <choice>
+         <abbr>appellr</abbr>
+         <expan>appeller</expan>
+        </choice> avec soy une ou deux <choice>
+         <abbr>psonnes</abbr>
+         <expan>personnes</expan>
+        </choice> se tant en peult avoir pour porter <lb/>tesmongnage de son <term
+         ref="lem016019.01">exploit</term> avec son rapport car autrement il ne seroit à croire en
+        icelui cas.</seg>
+       <seg><term ref="lem017828">Item</term> et pareillement que quant aucune <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> desuest ung pra à tout le <term ref="lem019221.02">rastel</term> oultre le
+        contredit, et <term ref="lem015005">clame</term> en est faicte, icelui ou <lb/>ceulx qui
+        desuest ledit pra est encouru envers ledits pour chascune dent dudit <term
+         ref="lem019221.02">rastel</term> en <measure type="currency" unit="ß" quantity="60"
+         >soixante soubz</measure> pourveu que <term ref="lem015005">clame</term> soit <choice>
+         <abbr>fe</abbr>
+         <expan>faicte</expan>
+        </choice> de et sur chascune dent dudit <term ref="lem019221.02">rastel</term> et se <term
+         ref="lem015005">clame</term> est faicte sans nommer ne discerner <lb/>lesdiz dens se non <choice>
+         <abbr>seulemet</abbr>
+         <expan>seulement</expan>
+        </choice> d’un seul desuest à tout le <term ref="lem019221.02">rastel</term>, il n’y a que
+         <measure type="currency" unit="ß" quantity="60">soixante soubz</measure>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> que quant aucune ville, bourc ou communité, qui est ville ou bourc de commun, est <choice>
+         <abbr>aucunemt</abbr>
+         <expan>aucunement</expan>
+        </choice>
+        <choice>
+         <abbr>rmpue</abbr>
+         <expan>rompue</expan>
+        </choice> brisiée ou sceparée <lb/>par ung ou <choice>
+         <abbr>pluss</abbr>
+         <expan>plusieurs</expan>
+        </choice> d’icelle communité, icelui ou ceulx qui ainsi ront brise ou scepaire icelle <choice>
+         <abbr>counité</abbr>
+         <expan>comunité</expan>
+        </choice> est et doit estre encouru envers ledits de <placeName ref="loc005950.08"
+         >Valengin</placeName> en la <term ref="lem018840.03">poyne</term>, amende ou <term
+         ref="lem018031">ban</term> qu’il <choice>
+         <abbr>apptient</abbr>
+         <expan>appartient</expan>
+        </choice> en tel cas ou selon les <choice>
+         <abbr>lres</abbr>
+         <expan>lettres</expan>
+        </choice>, constitucions <lb/>coustumes et <choice>
+         <abbr>ordonn</abbr>
+         <expan>ordonnances</expan>
+        </choice> sur ce faictes et acoustumeez tenir en la dicte <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice> et seignorie de <placeName ref="loc005950.08">Valengin</placeName>, et <choice>
+         <abbr>sancunemt</abbr>
+         <expan>sancunement</expan>
+        </choice> débat, <choice>
+         <abbr>pces</abbr>
+         <expan>proces</expan>
+        </choice> ou <term ref="lem018839.03">destort</term> se meult ou mouvoit à cause d’icelle <choice>
+         <abbr>counité</abbr>
+         <expan>comunité</expan>
+        </choice> en quelque manière que ce fust entre <lb/>ledits de <placeName ref="loc005950.08"
+         >Valengin</placeName> et icelui ou ceulx qui ainsi auront rompu brisié ou sceparé icelle
+        communité, toutes les <choice>
+         <abbr>auts</abbr>
+         <expan>autres</expan>
+        </choice>
+        <choice>
+         <abbr>psonnes</abbr>
+         <expan>personnes</expan>
+        </choice> d’icelle communité sont à croire et recevables en tesmoingnage oudit procès ne ils
+        ne sont <lb/>à débouter d’icelui <choice>
+         <abbr>tesmoignage</abbr>
+         <expan>tesmoingnage</expan>
+        </choice> non obstant qu’ils soient d’icelle communité.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> quant aucune <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice>
+        <term ref="lem018846.03">fiert</term> une autre <choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice> par <term ref="lem018838">courout</term> ou <term ref="lem018837">riot</term>
+        d’une verge ferrée de quoy ou <term ref="lem018842.02">mayne</term> ou <term
+         ref="lem018843.02">chache</term> les <lb/>beufs, icelui qui <term ref="lem018846.03"
+         >fiert</term> est encouru envers ledits de <placeName ref="loc005950.08"
+         >Valengin</placeName> en <measure type="currency" unit="ß" quantity="4">quatre
+         soubz</measure> pourveu qu’il n’y ait sang&#160;; et s’il y a sang il est pour <measure
+         type="currency" unit="ß" quantity="60">soixante soubz</measure>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> quant aucun fait une <term ref="lem015005">clame</term> efforcheement pour
+        <lb/>quelconques chose que ce soit icelle <term ref="lem015005">clame</term> ainsi faicte
+        vault <measure type="currency" unit="ß" quantity="60">soixante soubz</measure>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> que quant aucunes <choice>
+         <abbr>psonn</abbr>
+         <expan>personnes</expan>
+        </choice> d’icelle <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice> et seignorie ou autres en dedens icelle seignorie ont fait aucun <term
+         ref="lem018837">riot</term>, <term ref="lem018839.03">destort</term>
+        <lb/>ou débat l’un contre l’autre, et que <term ref="lem015005">clame</term> n’en soit
+        faicte à justice dedens luytane <choice>
+         <abbr>enss</abbr>
+         <expan>ensemble</expan>
+        </choice> ledits de <placeName ref="loc005950.08">Valengin</placeName> son <term
+         ref="lem018124">maior</term> chastelain ou autre officier en peult faire informacion ou
+        enqueste <choice>
+         <abbr>aps</abbr>
+         <expan>après</expan>
+        </choice> ladicte <date dur-iso="P8D">huytane</date> passée sur et dudit <lb/><term
+         ref="lem018837">riot</term>, <term ref="lem018839.03">destort</term> ou débat, laquelle <choice>
+         <abbr>informacon</abbr>
+         <expan>informacion</expan>
+        </choice> ou enqueste vault et souffist pour ledits par ung seul tesmoing véritable, digne
+        de foy homme ou femme pour congnoistre, juger, condempner et declairier la <term
+         ref="lem018840.02">poines</term> ou <term ref="lem018840.02">poines</term>
+        <lb/>amendez ou <term ref="lem018031">ban</term> enquoy celui ou ceulx qui ce ont fait sont
+        et doivent estre encourus sauf et <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice> ainsi que ou cas ou ledits auroit sceu et en vraye congnoissance dudit <term
+         ref="lem018837">riot</term>
+        <term ref="lem018839.03">destort</term> ou débat dedens icelle <date dur-iso="P8D"
+         >huitane</date> et <choice>
+         <abbr>enss</abbr>
+         <expan>ensemble</expan>
+        </choice>
+        <lb/>d’icelui ledit seigneur ne doit ne a povoir d’en faire plus enquérir puis que une foiz
+        lasten dedens ledit <choice>
+         <abbr>tme</abbr>
+         <expan>terme</expan>
+        </choice>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> que quant aucun avant <choice>
+         <abbr>plier</abbr>
+         <expan>parlier</expan>
+        </choice> ou advocat <choice>
+         <abbr>ple</abbr>
+         <expan>parle</expan>
+        </choice> en jugement ou justicialment pour une autre <lb/><choice>
+         <abbr>psonne</abbr>
+         <expan>personne</expan>
+        </choice>, la <choice>
+         <abbr>polle</abbr>
+         <expan>parolle</expan>
+        </choice> dudit avant <choice>
+         <abbr>plier</abbr>
+         <expan>parlier</expan>
+        </choice> ou advocat ne <sic>puet</sic> porter, ne porte aucun <choice>
+         <abbr>advanchemet</abbr>
+         <expan>advanchement</expan>
+        </choice>, <choice>
+         <abbr>pffit</abbr>
+         <expan>proffit</expan>
+        </choice>, <choice>
+         <abbr>pjudice</abbr>
+         <expan>préjudice</expan>
+        </choice> ou dommaige à celui ou ceulx pour qui il <choice>
+         <abbr>ple</abbr>
+         <expan>parle</expan>
+        </choice> jusques à ce qu’il soit advoué et que sa <choice>
+         <abbr>polle</abbr>
+         <expan>parolle</expan>
+        </choice> grée à celui ou ceulx pour qui il <lb/><choice>
+         <abbr>ple</abbr>
+         <expan>parle</expan>
+        </choice>. Mais celui ou ceulx pour qui ledit avant <choice>
+         <abbr>plier</abbr>
+         <expan>parlier</expan>
+        </choice> ou advocat <choice>
+         <abbr>ple</abbr>
+         <expan>parle</expan>
+        </choice>, s’il <choice>
+         <abbr>ploit</abbr>
+         <expan>parloit</expan>
+        </choice> ou <choice>
+         <abbr>ploient</abbr>
+         <expan>parloient</expan>
+        </choice> de leur bouche, la <choice>
+         <abbr>polle</abbr>
+         <expan>parolle</expan>
+        </choice> leur pouroit bien porter et tourner à <choice>
+         <abbr>pjudice</abbr>
+         <expan>préjudice</expan>
+        </choice>.</seg>
+       <seg><term ref="lem017828">Item</term> et <choice>
+         <abbr>peillement</abbr>
+         <expan>pareillement</expan>
+        </choice> oudit jour duy au lieu, heure et <lb/>place sur dicte, c’est <choice>
+         <abbr>compu</abbr>
+         <expan>comparu</expan>
+        </choice>
+        <choice>
+         <abbr>psonnelmt</abbr>
+         <expan>personnelment</expan>
+        </choice> en la présence de moy noctaire et des tesmoings cy dessoubz <choice>
+         <abbr>subscps</abbr>
+         <expan>subscrips</expan>
+        </choice>
+        <persName ref="per027684">Perrenet Lamoureux</persName> demourant audit lieu de <placeName
+         ref="loc008524">Coffrane</placeName>
+        <measure type="age" unit="year" quantity="50">aagé de l. ans</measure> ou <choice>
+         <abbr>eviron</abbr>
+         <expan>environ</expan>
+        </choice>, jurant sur sainctes évvangilles <lb/>de Dieu et sans nul force ou contrainte
+        comme dessus et après ce qu’il ot oy de mot à mot lire les coustumez, estatus, droictures
+        seignoriaulx et articles dessus dictes, dist, jura, deposa et aferma icelles estre vrayes
+        <lb/>et véritables en tout ce qu’ellez contiengnent et icelles a veu user, tenir et garder
+        de toute sa souvenance en la dicte <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice> et seignorie de <placeName ref="loc005950.08">Valengin</placeName> et oudit
+         <placeName ref="loc008525.05">Val de Ruel</placeName>, fors que tant que à son advis lez
+        bourgoiz du bourc dudit <lb/><placeName ref="loc005950.08">Valengin</placeName> estoient et
+        devoient estre aux us et <choice>
+         <abbr>coustum</abbr>
+         <expan>coustumez</expan>
+        </choice> dudit <placeName ref="loc007786.02">Neufchastel</placeName>, et lez advoient
+        acoustumeez et en usoient. Toutes lesquelles articles, coustumez, estatus, constiticions et
+        droictures seignoriaulx <lb/>dessus dictes deviseez et declaireez, ont esté dictes, <choice>
+         <abbr>declair</abbr>
+         <expan>declaireez</expan>
+        </choice> et rapporteez estre vraiez et véritables en tout ce qu’elles contiengnent et en
+        avoient usé et usoient de tout temps en ladicte <choice>
+         <abbr>tre</abbr>
+         <expan>terre</expan>
+        </choice> et seignorie de <lb/><placeName ref="loc005950.08">Valengin</placeName> oudit
+         <placeName ref="loc008525.05">Val de Ruel</placeName>.</seg>
+       <seg>Après lesquelles <choice>
+         <abbr>deppons</abbr>
+         <expan>deppositions</expan>
+        </choice>
+        <gap reason="missing" unit="cm" quantity="1"/> et rappors ainsi faiz <choice>
+         <abbr>p</abbr>
+         <expan>par</expan>
+        </choice> lesdiz <choice>
+         <abbr>pdomes</abbr>
+         <expan>prudommes</expan>
+        </choice> et chascun d’eulx en la <choice>
+         <abbr>pnce</abbr>
+         <expan>présence</expan>
+        </choice> de moy noctaire publique et des tesmoings cy dedens nommez et subscrips ledit <gap
+         reason="missing" unit="cm" quantity="1"/>
+        <persName ref="per027526a.01">Guillaume</persName>
+        <lb/>conte et seigneur dessus nommé enssemble tous lesdiz <choice>
+         <abbr>pdomez</abbr>
+         <expan>prudommez</expan>
+        </choice> et d’une voix demandèrent à moy noctaire ung ou <sic>pluseurs</sic> instrumens à
+        la faveur d’une chascune desdictes <choice>
+         <abbr>pties</abbr>
+         <expan>parties</expan>
+        </choice> pour leur valoir ou <choice>
+         <abbr>teps</abbr>
+         <expan>temps</expan>
+        </choice>
+        <lb/>advenir ce qu’il <choice>
+         <abbr>apptendra</abbr>
+         <expan>appartendra</expan>
+        </choice>.</seg>
+       <seg>Et furent faictes, dictes et rapporteez toutes ces choses l’an, jour, heure et place sur
+        dicte&#160;; présens et pour ce appellez nobles et saiges hommes <choice>
+         <abbr>mons</abbr>
+         <expan>monsieur</expan>
+        </choice>
+        <persName ref="per027503.01">Jehan de Conlombier</persName>, <choice>
+         <abbr>chls</abbr>
+         <expan>chevaliers</expan>
+        </choice>
+        <persName ref="per027504">Jehan de <lb/>Longueville</persName>, <persName
+         ref="per027505a.01">Estienne de Montegny</persName>, <persName ref="per027506">Jaquet de la
+         Sarra</persName>, <persName ref="per027507">Jaquet de Valmarcoul</persName>, <persName
+         ref="per027508a.01"><choice>
+          <abbr>Prin</abbr>
+          <expan>Perrin</expan>
+         </choice> de Regnans</persName> et <persName ref="per027509">Jaquet de Diesse</persName>,
+        escuiers <persName ref="per027510">Jehan Gabbe de Chaignin</persName>, <persName
+         ref="per027511">Jaquemin Redet</persName> et <persName ref="per027512">Anthoine
+         Bourgon</persName> de <placeName ref="loc001311.05">la Nove Ville</placeName> , <persName
+         ref="per027513">Perrot Martin</persName> et <lb/><persName ref="per027514a.01"><choice>
+          <abbr>Guille</abbr>
+          <expan>Guillaume</expan>
+         </choice> Ragas</persName> bourgoiz du <placeName ref="loc007792">Landeron</placeName>,
+         <persName ref="per027516">Estevenian Sanssain</persName> et <persName ref="per027515">Eme
+         Tonnerre</persName> bourgois de <placeName ref="loc007904">Boudry</placeName>, tesmoings
+        par moy noctaire cy dessoubz subscript <choice>
+         <abbr>appell</abbr>
+         <expan>appellez</expan>
+        </choice> et especialment requis. Donné comme dessus.</seg></p>
+     </div>
+     <div>
+      <signed><persName ref="per027518"><choice>
+         <abbr>H P</abbr>
+         <expan>Henric Pigaud</expan>
+        </choice></persName>
+       <figure type="notarial sign"/></signed>
+     </div>
+     <div>
+      <p> Et moy <persName ref="per027518">Henric Pigaͧd</persName> de <placeName ref="loc007786.14"
+        >Nuefchastel</placeName>
+       <choice>
+        <abbr>noͣire</abbr>
+        <expan>noͣtire</expan>
+       </choice>
+       <choice>
+        <abbr>impiaul</abbr>
+        <expan>impériaul</expan>
+       </choice> de l’authoritez <choice>
+        <abbr>impiaul</abbr>
+        <expan>imperiaul</expan>
+       </choice> et jurez de la cort de <choice>
+        <abbr>Laus</abbr>
+        <expan><placeName ref="loc007885">Lausanne</placeName></expan>
+       </choice> que en <choice>
+        <abbr>tout</abbr>
+        <expan>toutes</expan>
+       </choice> les <choice>
+        <abbr>chos</abbr>
+        <expan>choses</expan>
+       </choice> dessus <choice>
+        <abbr>dces</abbr>
+        <expan>dictes</expan>
+       </choice> en tant come elle se fassent <lb/> comme dessus est divisez avec les tesmoing
+       dessus nommez j’ay <choice>
+        <abbr>pnt</abbr>
+        <expan>present</expan>
+       </choice> estez et ycelles <term ref="lem019198.02">ansaim</term> j’ay veliuz faire et <term
+        ref="lem017626.08">oir</term> et ycelles en note j’ay recehuz de la quel note per bonne
+       <lb/> collacion sur ce <choice>
+        <abbr>deligentemat</abbr>
+        <expan>deligentemant</expan>
+       </choice> faite d’ycell ce <choice>
+        <abbr>pnt</abbr>
+        <expan>present</expan>
+       </choice>
+       <choice>
+        <abbr>instmͧant</abbr>
+        <expan>instrumant</expan>
+       </choice> j’ay fait extraire per ung <choice>
+        <abbr>ault</abbr>
+        <expan>aultre</expan>
+       </choice> et <choice>
+        <abbr>excpre</abbr>
+        <expan>excripre</expan>
+       </choice> et de mon <term ref="lem019197.02">soignet</term> dou quel je use en mes publique <choice>
+        <abbr>instmͧant</abbr>
+        <expan>instrumant</expan>
+       </choice> j’ay soignie <lb/> et moy <choice>
+        <abbr>subscpt</abbr>
+        <expan>subscript</expan>
+       </choice> appellez et requis en foy et <choice>
+        <abbr>tesmoign</abbr>
+        <expan>tesmoignage</expan>
+       </choice> de <choice>
+        <abbr>tout</abbr>
+        <expan>toutes</expan>
+       </choice> les <choice>
+        <abbr>chos</abbr>
+        <expan>choses</expan>
+       </choice>
+       <choice>
+        <abbr>dess</abbr>
+        <expan>dessus</expan>
+       </choice>
+       <choice>
+        <abbr>dces</abbr>
+        <expan>dictes</expan>
+       </choice>. </p>
+      <p>Et je <persName ref="per027519">Jacob Leopard</persName> clerc jurez de la court de
+        <placeName ref="loc007885.10">Losanne</placeName> et de <placeName ref="loc001311.05">la
+        Nove Ville</placeName> desobz le chastel de <placeName ref="loc013620.02"
+        >Slossenberg</placeName> aussi que en toutez les chosez dessus <choice>
+        <abbr>dtes</abbr>
+        <expan>dictes</expan>
+       </choice> en tant comme elle se faisient comme dessus est devisez avec lez <lb/> tesmoins
+       dessus nommez j’ay <choice>
+        <abbr>pnt</abbr>
+        <expan>present</expan>
+       </choice> estez et ycellez ainsi j’ay vehus faire et oy et ycellez en note j’ay recehuz de la <choice>
+        <abbr>qle</abbr>
+        <expan>quelle</expan>
+       </choice> note per <choice>
+        <abbr>bone</abbr>
+        <expan>bonne</expan>
+       </choice>
+       <choice>
+        <abbr>collacon</abbr>
+        <expan>collacion</expan>
+       </choice> sur ceu <choice>
+        <abbr>diligemant</abbr>
+        <expan>diligemmant</expan>
+       </choice> faite d’<choice>
+        <abbr>ycell</abbr>
+        <expan>ycelle</expan>
+       </choice> ceste <choice>
+        <abbr>pnte</abbr>
+        <expan>presente</expan>
+       </choice> carte j’ay fait extraire <lb/> per ung altre et escipre et de mon <term
+        ref="lem019197">signet</term> acostumez de la court de <placeName ref="loc007885.10"
+        >Losanne</placeName> j’ay signiez en foy et tesmoignaige de toutez les chosez dessus dites
+       avec <persName ref="per027518">Henry Pigaͧd</persName> dessus nommez.</p>
+     </div>
+     <div>
+      <signed><persName ref="per027519">Jacob Leopard</persName>
+       <figure type="notarial sign"/></signed>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

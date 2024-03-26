@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-141.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 46–49</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 46–49</idno>
+					</msIdentifier>
+					<head xml:lang="de">Rose Bise – Verhör</head>
+					<head xml:lang="fr">Rose Bise – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-09-27"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="46"/><p><lb/><hi rend="outdent"><placeName ref="loc008105.04">Keller</placeName></hi>, den <origDate when="1649-09-27">27<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>7<hi rend="sup">bris</hi></abbr><expan>septembris</expan></choice></foreign> 1649</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>hr</abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.04">Caspar Montenach</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009264a.02">Jost Aman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079a.01">Ludwig Zurmaten</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013469a.06">Cattella</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013668a.04">Frantz Heinrich Reyff</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<pb n="47"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <foreign xml:lang="la">dito, presentibus
+						<lb/>supradictis.</foreign></p>
+						<p><seg><lb/><persName ref="per012301b.02">Rouscha</persName>, de <persName ref="per019222a.02">Peret Gentil</persName> du badi <placeName ref="loc007795.03">L’Ocle</placeName> pais de
+						<lb/><placeName ref="loc007785.07">Neufchatel</placeName>, <subst><del>s</del><add place="overwritten">d</add></subst>ont <subst><del>m</del><add place="overwritten">s</add></subst>on mari estoit savoiard, <del rend="underline">estant</del>
+						<lb/>par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examinee, estant applicquee
+						<lb/>a la simple <term ref="lem018231">corde</term>, <term ref="lem015549.13">confesse</term> avoier surpassé son ser<lb break="no"/>rement, et que il ast environ <date dur-iso="P6Y">6 ans</date> qu’elle
+							<lb/>prestat <term ref="lem018915.03">homage</term> au <term ref="lem017521">diable</term>, le quel luy appareut
+						<lb/>en un bois proche de <placeName ref="loc008168.03">Prez</placeName>, en figure humaine,
+						<lb/>mais avec pieds de <term ref="lem017507.01">vache</term>, habilé de bleu,
+						<lb/><add place="left margin">avec</add> chapeux noir, mains <subst><del>n</del><add place="overwritten">d’h</add></subst>omme<subst><del>e</del><add place="overwritten">z</add></subst> et d’un visage
+						<lb/>noirastre, le quel, a mesure qu’elle se randit
+							<lb/>a luy, il la <term ref="lem018895.07">marquat</term> entre les cuisses, du
+							<lb/>costé droict (ou le <term ref="lem018789.02">maistre</term> l’ayant <term ref="lem019509.02">visité</term>, i ast
+						<lb/>trové la <term ref="lem018894.01">marque</term>)&#160;; le quel luy donat certaine
+						<lb/><term ref="lem018383.02">poussiere</term>.</seg> <seg>Dit n’avoier esté qu’une fois a la
+						<lb/><term ref="lem017043">secte</term> riere <placeName ref="loc001395.06">Svartzenbourg</placeName>, en une maison
+							<lb/>escartee du village, ou le <term ref="lem015742.03">poille</term> estoit tout
+							<lb/>rempli de <term ref="lem019308.02">sorciers</term>&#160;; son <term ref="lem019555.05">maistre</term>, nommé <persName ref="per029445a">Adam</persName>,
+						<lb/>s’i estant aussi trouvé. Dans quelle maison
+						<lb/>il dansiont et i mangiont des <term ref="lem015139.07">beunniets</term>, pendant
+						<lb/>quoy elle estoit assise sur un banc, voiant les
+						<lb/>aultres manger et danser.</seg> <seg>De la <term ref="lem018383.03">pussiere</term>
+						<pb n="48"/><lb/>que le <term ref="lem018943.02">demon</term> luy donnat, en fist l’espreuve
+						<lb/>a <placeName ref="loc007660.01">La Roche</placeName>, ou elle fist mourir deux <term ref="lem014874.09">gellines</term>.
+						<lb/><add place="left margin">Mesmement</add> de la dite <term ref="lem018383.03">p<add place="above">o</add>ussiere</term>, en ayant aussi gesté, que
+						<lb/>le <term ref="lem017521">diable</term> luy donat un aultre fois (en ayant
+						<lb/>receu que en deux diverse<del>n</del>s fois de luy) a
+						<lb/>la <placeName ref="loc010697.02">Cauglerera</placeName> dans un prez, <subst><del><unclear>un</unclear></del><add place="overwritten">ou un</add></subst> <term ref="lem015442.05">poullin</term>
+						<lb/>du dit granger en per<subst><del>r</del><add place="overwritten">i</add></subst>t, et deux aultres,
+							<lb/>un <term ref="lem018552.02">hunger</term> et <num value="1">i</num> <term ref="lem018922.06">jumant</term>, en aiant aussi esté <term ref="lem018313.02">inficié</term>,
+							<lb/>que n’en <term ref="lem018017.06">mecheurent</term> portant pas. <term ref="lem015549.13">Confesse</term>
+						<lb/>le tout avoir faict a l’<term ref="lem018520">instinction</term> et solici<lb break="no"/>tation du <term ref="lem015433.06">malin</term>, qui a ce faire la poussoit,
+						<lb/>ainsi aussi que a la <term ref="lem019527.02">suflation</term> qu’elle fit
+						<lb/>a la femme du dit granger, que peu aprés
+						<lb/>devient toute enflee, elle la croiat <term ref="lem018313.04"><subst><del><gap reason="illegible" unit="cm" quantity="1"/></del><add place="overwritten">inf</add></subst>iciee</term>,
+						<lb/><subst><del><gap reason="illegible" unit="cm" quantity="2"/></del><add place="overwritten">auquels</add></subst> <term ref="lem018524.03">sortileges</term> par remedes spirituels elle
+							<lb/>previent.</seg> <seg><term ref="lem015549.13">Confesse</term> finalement avoier
+						<lb/>doné le mahl a <placeName ref="loc007630.06">Tavi</placeName> a la servante
+						<lb/>de l’hoste, <persName>Tichtli Schmidt</persName>, pour ne luy
+							<lb/>avoier volu doner du <term ref="lem019279.03">rosti</term> en certains
+								<lb/>festins, luy ayant <term ref="lem019525.08">sufflé</term> encontre. Et <term ref="lem015549.03">confes<lb break="no"/><add place="left margin">sant</add></term>, dit que c’estoit de jour, environ le aprés
+						<lb/>midi, qu’elle se rendit aux <term ref="lem015433.06">malin</term>, estant
+						<lb/>en grande tristesse et desolation pour ne
+						<lb/>se voier en estat de pouvoier ellever ses
+					<pb n="49"/><lb/>enfans orphelins. Asserant la dessus n’avoier
+						<lb/>heu la companie de cest <term ref="lem015433">malin esprit</term>, au
+								<lb/>quel elle <term ref="lem019552.04">renoncet</term> entierement et demandoit
+								<lb/>a Dieux et a la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge <persName ref="per000169a.08">Mariae</persName><!-- Mariæ? --> et
+						<lb/>toute la cour celleste, comme aussi à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>
+						<lb/>bien humblement de pardon<del>er</del>, recomandant
+						<lb/>ses enfans à Leur Exellences.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

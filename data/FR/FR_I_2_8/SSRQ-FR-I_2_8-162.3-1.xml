@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-162.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 312</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 312</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Millioud – Verhör und Urteil</head>
+					<head xml:lang="fr">Pierre Millioud – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1652-05-22" to="1652-06-01"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1652-05-22">22<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1652</origDate>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018655a.01">Jost von Dießbach</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018126a.01">Perret</persName></seg></p>
+						<p><seg><lb/><persName ref="per020608a.01">Pieru Millu</persName>, d’<placeName ref="loc008040.10">Echallans</placeName> originel, par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict
+							<lb/>examiné sans luy doner la <term ref="lem018792.01">question</term> <subst><del>dix</del><add place="overwritten">s</add></subst>ur
+							<lb/>le <term ref="lem018524.02">sortilege</term>, dit comme il a environ <date dur-iso="P10Y">dix ans</date>
+							<lb/>que sa mere fust ici, sur sa <term ref="lem019465.01">confession</term> d’estre
+							<lb/><term ref="lem019389.02">sorciere</term>, executée&#160;; après l’execution de la
+							<lb/>quelle <subst><del>il</del><add place="overwritten">s’</add></subst>estre achiminé à <placeName ref="loc000085.14"><choice><abbr>Nre</abbr><expan>Notre</expan></choice> Dame dez
+							<lb/>Hermites</placeName>, ou et à l’entour estre demouré quelques
+							<lb/>tempz jusques à ce qu’il fust de retour en cez
+							<lb/>cartiers, pendant quel tempz s’estre comporté
+							<lb/>et telle fasson que persone n’aurat soubject de
+							<lb/>plaintes, ains que tous les maistres qu’il a servi
+							<lb/><add place="left margin">ci devant</add> en ceste ville, et dans le pays circonvoisin,
+							<lb/>ne doneront tesmogniage d’aulcune action reprochable.</seg>
+							<seg><lb/>Nie tout affaict d’estre <term ref="lem019308.01">sorcier</term> et que comme après
+							<lb/>l’execution faicte de sa mere, l’on voloit dire
+							<lb/>qu’elle l’avoit <term ref="lem015356.05">acculpé</term>, dit s’estre adressé à <abbr>m<hi rend="sup">r</hi></abbr>
+								<lb/>le <term ref="lem019323.06">bourgermeister</term>, <subst><del>j</del><add place="overwritten">p</add></subst>our lors <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per006533a.01">Petter de Diesbach</persName>,
+							<lb/>pour savoier si ainsi estoit, le quel luy dit que
+							<lb/>non, ains qu’il se debvoit tout jour bien comporter.</seg>
+							<seg><lb/>Mais estant par après adverti q’un le vouloit saisi
+							<lb/>prisonnier, <term ref="lem015549.13">confesse</term> veritablement s’estre esquivé,
+							<lb/>puis qu’il a<subst><del>ye</del><add place="overwritten">im</add></subst>oit mieux estre os<subst><del>e</del><add place="overwritten">i</add></subst>aux dé champz, que
+							<lb/>de <term ref="lem019142.01">case</term>, mais que par après s’en estre bien respenti
+							<lb/>de s’estre <subst><del>et</del><add place="overwritten">ab</add></subst>senté&#160;; demandant la desus à Dieu
+							<lb/>et à Leur <choice><abbr>Exell</abbr><expan>Exellences</expan></choice> humblement pardon.</seg></p>
+						<p><lb/><add place="left margin">Ist mit der <term ref="lem004668.02">strangen</term>
+							<lb/>hingericht unnd der
+							<lb/>leib <term ref="lem019166">eingeeschert</term>
+							<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.
+								Il est possible qu’il s’agisse d’une erreur du greffier. Selon le jugement, il aurait dû être décapité. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-162.13-1">SSRQ FR I/2/8 162.13-1</ref>.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

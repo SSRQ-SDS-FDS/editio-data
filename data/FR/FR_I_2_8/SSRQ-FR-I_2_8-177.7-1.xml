@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-177.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 137–138</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 137–138</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Vuarchon – Verhör</head>
+					<head xml:lang="fr">Pierre Vuarchon – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1663-07-16"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="137"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.02">Jaquemard</placeName></hi>, den <origDate when="1663-07-16">16<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1663</origDate></p>
+							<p><lb/>Herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056">Hans Jakob Buman</persName>.</note>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per026102a.02">Antoni Python</persName>, <abbr>h</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per018693a.01">Gottrauw</persName></seg>
+							<seg><lb/><persName ref="per026304a.03">Zurthanen</persName></seg></p>
+						<p><seg><lb/><persName ref="per026739a.05">Pierre Vuarzou</persName>, examiné sur la description
+						<pb n="138"/><lb/>faite de <persName>Jean, dit au masson</persName>, et sur l’advis
+						<lb/>sur ce ensuivy, a <term ref="lem015549.07">confessé</term> avoir veu ledit
+						<lb/><persName>Jean</persName> massoner à l’esglise de <placeName ref="loc007862.06">La Tour</placeName>,
+						<lb/>un peu de temps avant la dedicasse derniere
+						<lb/>dedite esglise. Soustient ledit <persName>Jean</persName> estre ha<lb break="no"/>billé de toile comme luy, et <persName>Claude</persName> son fre<lb break="no"/>re estre vestu de peau, lequel il dit pre<lb break="no"/>sentement estre plus jeusne que son frere
+						<lb/><persName>Jean</persName>. Iceulx avoir deux freres, dont il ignore
+						<lb/>leur noms. Et estant interrogé si l’un
+						<lb/>ne s’appelle pas <persName>Guilleaume</persName>, il a respondu
+						<lb/>que non.</seg> <seg><subst><del>Avec en</del><add place="above" type="sign">Il est a notter qu’en</add></subst> suitte de l’information
+						<lb/>receue de <placeName ref="loc005708.07">Gruyeres</placeName>, ilz s’appellent autrement.</seg>
+						<seg><lb/>Soustient les avoir veu tous deux dans la
+						<lb/><term ref="lem017043.01">secte</term>, <subst><del>n</del><add place="overwritten">s</add></subst>e demeurant avec <persName>Claude</persName>, <subst><del>n</del><add place="overwritten">e</add></subst>t n’<subst><del>ayant</del><add place="above">avoir</add></subst>
+						<lb/>pas pris garde ce que <persName>Jean</persName> faisoit. Il
+							<lb/>continue dans sa <term ref="lem019465.01">confession</term> derniere, que
+						<lb/>leur pere doibt estre mort, pour verifi<lb break="no"/>cation de quoy, il dit l’avoir veillé après
+							<lb/>son <term ref="lem018422.01">obit</term>.</seg> <seg><term ref="lem015549.13">Confesse</term> que son <term ref="lem019555.05">maistre</term> <persName ref="per029457a">Abra<lb break="no"/>ham</persName> s’est approché de son lict dans sa moder<lb break="no"/>ne prison, et qu’il luy at osté la couverte,
+						<lb/>mais l’avoir dechassé par le signe de la
+						<lb/>croix, sans qu’il luy ayt parlé aulcun mot.
+						<lb/>Plus sondit <term ref="lem019555.05">maistre</term> estre retourné hier au<lb break="no"/>près de luy avec commandement de jetter
+						<lb/>dehors son <term ref="lem015471">agnus dei</term>, lequel il dit avoir
+						<lb/>laissé tomber <add place="above" type="sign">par megard</add>, mais après luy avoir esté
+						<lb/>restitué par un garçon de celuy qui est
+						<lb/>garde de la tour.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

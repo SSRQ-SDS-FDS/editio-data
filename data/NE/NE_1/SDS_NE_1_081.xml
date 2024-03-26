@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-81-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;232r-235v</idno>
+               </msIdentifier>
+               <head>Ordonnance sur les mœurs, la liturgie et les sacrements</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="45"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1542-02-15"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_188">SDS NE 1, N<hi rend="sup">o</hi>&#160;81</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184"></term>   
+               <term ref="key000590"></term>   
+               <term ref="key003389"></term>   
+               <term ref="key000586"></term>   
+                <term ref="key005274"></term>
+               <term ref="key000658"></term>
+               <term ref="key005489"></term>
+               <term ref="key003072"></term>
+               <term ref="key000767"></term>
+               <term ref="key006236"></term>     
+               <term ref="key001078"></term>     
+               <term ref="key004007"></term>               
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="232r" facs="AEN_3PAST_2_231v_232r"/>
+               <div>
+                  <p><lb/>Constitutions et ordonnances faites et dressées pour <lb/>l’ordre des
+                     ceremonies evangelicques, adnullation et correction des vices, passées <lb/>par
+                     honnorable et sage homme <persName ref="per010696a">Pierre Chambrier</persName>
+                     à present commis et depputé <lb/>lieutenant en ce comté de <placeName
+                        ref="loc007785.04">Neufchastel</placeName> d’appart Monsieur le gouverneur
+                     general <lb/>d’icelluy au nom de nostre souverayne dame et Messieurs les quatre
+                     <lb/>ministraulx, conseil grand et petit de la communauté de ceste ville de
+                        <lb/><placeName ref="loc007786.02">Neufchastel</placeName>, <date
+                        when="1542-02-01">le premier jour de febvrier en l’an courant après la
+                        nativité <lb/>de Nostre Seigneur Jesus Christ mil cinq centz quarante et
+                        deux</date>, et <lb/>publiées en l’eglise de ceste dicte ville dimanche
+                     suyvant cinquiesme jour <lb/>dudit mois.</p>
+                  <head><lb/>Premièrement de la très sainte Cene de <lb/>Nostre Seigneur.</head>
+                  <p><lb/>Constituons et ordonnons que les ministres de la saincte parolle <lb/>de Dieu
+                     administreront la saincte Cene de Nostre Seigneur en pain non pas <lb/>commung,
+                     domestique ou levé, mais sans levain, lequel sera rompu et distribué <lb/>en
+                     grande reverence en la saincte congregation de Jesus Christ, y allant tous
+                     <lb/>fidelles par bon ordre&#160;; et sy aucun faict autrement, soit homme ou
+                     femme et <lb/>que en la recepvant villipende le sain et ministere soit de
+                     parolle ou de faict <lb/>ou en mesprisant le ministre qui ainsy administre
+                     icelle saincte Cene, <lb/>iceluy ou iceux seront chastiez selon l’exige du cas
+                     par la discretion et <lb/>sagesse de mesditz sieurs, et les chefz d’hostel
+                     seront tenuz d’amonester <lb/>fidellement leurs serviteurs et servantes, et
+                     aussy les hostes, les gens <lb/>estrangers a estre diligens a aller ouyr et
+                     retenir la saincte predication <lb/>pour estre instruitz et enseignez a
+                     recepvoir dignement a leur salut <lb/>ladite Cene de Nostre Seigneur Jesus
+                     Christ.</p>
+                  <head><lb/>Du sainct baptesme.</head>
+                  <p><lb/>Deffendons expressement a toutes personnes, soyent hommes ou femmes,
+                     <lb/>qu’ilz n’ayent point a baptiser les enfans pour quelques causes qu’ilz
+                     puissent <lb/>alleguer, excepté les ministres et ceux a tel office deputez,
+                     voyre que <lb/>cela soit faict en ladite congregation au temple et en temps
+                     opportun <lb/>sur peine de <measure>cinq livres</measure>, et le pere doibt
+                     assister a iceluy baptesme de <lb/>son enfant tesmognant sa foy et pour prier
+                     pour luy, s’il n’a excuse <lb/>raisonnable, et les ministres enregistreront
+                     desormais le jour et an du <lb/>baptesme de tous les enfans qu’ilz
+                     baptizeront.</p>
+                  <p><pb n="232v" facs="AEN_3PAST_2_232v_233r"/><lb/>Aussy que nul n’alle faire baptizer
+                     ses enfans hors sa parroisse <lb/>sur peyne de <measure>cinq
+                     livres</measure>.</p>
+                  <p><lb/>Et le ministre qui est ordonné pour baptizer sera tenu de baptizer au lieu
+                     <lb/>a ce ordonné qui est le baptistere dressé audit temple.</p>
+                  <head><lb/>Des espousailles.</head>
+                  <p><lb/>Ordonnons que nul ne s’aye a espouser hors de sa parroisse sur <lb/>la peyne de
+                        <measure>cinq livres</measure> s’il est bourgeois&#160;; et le ministre
+                     debvra faire <lb/>les trois bans acoustumez publiquement en l’eglise. Et
+                     touchant les <lb/>advenaires, lesditz ministres ne les auront a espouser fors
+                     que par <lb/>le consentement de mesditz seigneurs, afin que l’on sache a la
+                     verité de quelle <lb/>vie et reputation ilz sont.</p>
+                  <head><lb/>Du sainct dimanche.</head>
+                  <p><lb/>Il est a entendre veritablement que le sainct dimanche est ordonné <lb/>de Dieu
+                     auquel jour nous debvons estre attentifs a la parolle de Dieu <lb/>et cesser de
+                     nos oeuvres mecanicques pour nous applicquer a plus <lb/>sainctes oeuvres.</p>
+                  <head><lb/>De la messe.</head>
+                  <p><lb/>Pour ce qu’elle est entierement contre la saincte parolle de Dieu <lb/>et ses
+                     sainctes ordonnances, voyre contre nostre religion chrestienne, <lb/>pour cest
+                     effect expressement, inhibons et deffendons que nul n’ait <lb/>a aller ouyr
+                     messe pour quelque cause que ce soit en lieu quelconque&#160;; <lb/>et s’il se
+                     trouve, le contrevenant, s’il est de nos bourgeois, sera chastié <lb/>pour
+                        <measure>cinq livres</measure>, et pour la seconde fois pour aultres
+                        <measure>cinq livres </measure>et <lb/>puis estre mis a la javiolle un jour
+                     en pain et eau, et a la tierce plus <lb/>griefvement a la discretion de mesditz
+                     seigneurs.</p>
+                  <head><lb/>Punition des blasphémateurs du très sainct <lb/>nom de Dieu.</head>
+                  <p><lb/>Pour ce que plusieurs ont accoustumé, voyre perseverent a jurer le <lb/>nom de
+                     Nostre Seigneur, sans occasion a ce requise et necessayre <lb/>pour telles
+                     choses adnuller, constituons et ordonnons sur ce quiconque <pb n="233r"
+                        facs="AEN_3PAST_2_232v_233r"/>
+                     <lb/>jurera, blasphemera ou detestera le nom de Nostre Seigneur, lors icelluy
+                     <lb/>ou iceux qui seront en presence le debvront admonester de baiser terre
+                     <lb/>et crier mercy a Nostre Seigneur contre lequel il a grandement
+                     offencé&#160;; <lb/>laquelle chose sera pour la premiere fois, et s’il ne veut
+                     cela accomplir <lb/>recommencer a le detester, jurer et blasphemer, tel
+                     personnage doit <lb/>estre rapporté a mesditz sieurs les quatre, lequel sera
+                     lors mis en ladite <lb/>javiolle en laquelle pour autant qu’il aura ainsy
+                     recommencé a <lb/>detester et blasphemer autant sera il de jours et de nuictz
+                     en icelle <lb/>javiolle en pain et eau, sans grâce et mercy&#160;; et sy celluy
+                     qui est admonesté <lb/>vouloit outrager de faict ou de parolle l’admonesteur,
+                     debvra estre <lb/>chastié au double&#160;; et s’il se trouvoit cy après qu’il
+                     en voullust porter <lb/>dommage ou faire vindication audit admonesteur, le
+                     delinquant <lb/>debvra estre puny selon l’exigence du cas par la discretion de
+                     mesditz <lb/>sieurs.</p>
+                  <p><lb/>Sachent aussy tous ceux qui auront veu faire telz blasphemes et <lb/>ilz ne les
+                     revelent qu’ilz seront aussy punissables comme celuy ou ceux <lb/>qui ainsy
+                     auroient detesté&#160;; et sy le cas advient que telz blasphemateurs <lb/>apres
+                     estre ainsy admonestez et chastiez ilz ne s’en voudroyent amender <lb/>il y
+                     sera lors advisé pour plus amplement les punir et y remedier <lb/>ainsy que
+                     Dieu enseignera mesditz sieurs, lequel doibt estre de nous regracié <lb/>et
+                     remercié de tous ses benefices que journellement il nous faict et non <lb/>par
+                     ainsy le jurer et blasphemer, car comme dict la saincte escripture <lb/>celluy
+                     qui se accoustumera a jurer, il luy mescherra.</p>
+                  <head><lb/>Ordonnance contre ceux qui usent de parolles <lb/>qui ne sont licites a
+                     chrestiens dire.</head>
+                  <p><lb/>Pour telles choses aneantir et abollir, constituons et ordonnons que <lb/>s’il
+                     se trouve aulcun qui use de parolles ordes et detestables disant a <lb/>aultres
+                     : «&#160;va faire a ta mere&#160;», ou d’aultres parolles semblables et
+                     <lb/>detestables qui ne sont dignes de proferer, pourtant que icelles sont
+                     <lb/>contre Dieu et nostre religion, a cest effect qu’il soit mis en la
+                     javiolle <lb/>et pour chacune fois qu’il usera de telles parolles, sera en
+                     icelle un jour <lb/>et une nuict en pain et eau, sans grace et mercy&#160;; et
+                     sy après en estre <lb/>ainsy chastié, <del rend="strikethrough">ainsy
+                        chastié</del>, il y retournoit, lors il y sera advisé pour <lb/>sur ce le
+                     punir ainsy qu’il plaira a Nostre Seigneur les enseigner afin <lb/>que telz
+                     maux ne demeurent impunis, aultrement a faulte de chastoy <lb/>l’ire de Dieu
+                     pourroit tomber sur nous&#160;; et celluy qui sera ainsy chastié <lb/>ne debvra
+                     porter dommage a celluy qui l’auroit rapporté, aultrement <lb/>il sera puny
+                     comme est declairé au precedent article.</p>
+                  <p><pb n="233v" facs="AEN_3PAST_2_233v_234r"/><lb/>Sachent semblablement ceux qui
+                     seront en presence, voyant icelles gens <lb/>user de telles parolles infames,
+                     et ilz ne les revellent à mesditz sieurs, qu’ilz <lb/>seront punissables comme
+                     ceux qui auroyent dict telles ou semblables parolles.</p>
+                  <head><lb/>Ordonnance contre ceulx qui injurient, poussent <lb/>ou battent leurs pere et
+                     mere.</head>
+                  <p><lb/>Constituons et ordonnons que quiconque injuriera, maudira, poulsera <lb/>ou
+                     battra son pere ou mere et qui allencontre d’eux useront de parolles
+                     <lb/>illicites, debvront estre griefvement punis au corps selon l’exigence du
+                     <lb/>demerite par l’advis de mondict seigneur le gouverneur et de mesditz
+                     <lb/>sieurs du conseil et communauté de ceste dicte ville afin que aultres y
+                     <lb/>prennent exemple.</p>
+                  <head><lb/>Punitions des adultayres.</head>
+                  <p><lb/>Est ordonné quiconque sera dehuement trouvé et prouvé avoir comis <lb/>le peché
+                     d’adultayre, soit homme ou femme, sera mis trois jours et <lb/>trois nuictz a
+                     la javiolle en pain et eau et debvra donner <measure>cinq livres</measure>
+                     <lb/>pour la premiere foys au despartir d’icelle javiolle&#160;; et pour la
+                     seconde <lb/>fois, s’il retourne audit peché, sera six jours et six nuictz a
+                     ladite <lb/>javiolle en pain et eau, et au partir d’icelle donnera <measure>dix
+                        livres</measure>&#160;; et pour <lb/>la tierce fois sera en icelle neuf
+                     jours et <add place="above">neuf</add> nuictz aussy en pain et eau, <lb/>et au
+                     despartir d’icelle donnera quinze livres&#160;; et s’il persevere davantage
+                     <lb/>a sa paillardise, il sera plus griefvement chastié selon son demerite
+                     <lb/>a la discretion de mesdits sieurs.</p>
+                  <p><lb/>Et au regard des jeusnes qui sont a marier, lesquelz soubz telle <lb/>jeunesse
+                     voudroyent user de peché de fornication en abusant et <lb/>commettant iceluy
+                     avec une femme mariée, afin que tel cas ne <lb/>demeure impuny, entendons et
+                     expressement voulions qu’ilz soyent <lb/>de semblable chastoy comme de ceux qui
+                     sont au lien de mariage, <lb/>ainsy qu’il est dict cy dessus. Et s’ilz estoyent
+                     trouvez ayant coppulation <lb/>charnelle avec filles communes seront pour la
+                     premiere fois un jour <lb/>et une nuict en la javiolle&#160;; et s’ilz
+                     voulloyent perseverer en leur peché, <lb/>ilz debvront estre chastiez tousjours
+                     plus griefvement selon le demerite <lb/>d’icelluy peché a la discretion de
+                     mesdits sieurs.</p>
+                  <head><lb/>Punition des ruffiens et ruffiennes.</head>
+                  <p><lb/>Ordonnons s’il se trouve aucun ou aucune qui ayent ruffienné, hommes, fils,
+                     <lb/>femmes ou filles qu’adonc ilz soyent punis et mis en la javiolle trois
+                     jours <lb/>et trois nuictz en pain et eau et puis banniz hors de cedict
+                     comté.</p>
+                  <pb n="234r" facs="AEN_3PAST_2_233v_234r"/>
+                  <head><lb/>Ordonnance de ceux qui sollicitent ou soustraisent <lb/>jeunes personnes a
+                     malvivre contre Dieu et raison.</head>
+                  <p><lb/>Constituons et ordonnons quiconque soit qui subornera, sollicitera, ou
+                     <lb/>soubstraira fils, filles, femmes, serviteurs ou servantes dessoubz la main
+                     du <lb/>pere, de la mere, tuteur ou maistre pour les nourir et entretenir a mal
+                     <lb/>faire sera chastié pour la premiere fois un jour et une nuict en pain et
+                     eau <lb/>en icelle javiolle en baillant <measure>cinq livres</measure>&#160;;
+                     et puis, s’il n’a l’argent, debvra <lb/>demeurer cinq jours et cinq nuictz en
+                     pain et en eau a ladite javiolle et s’il <lb/>persevere, cella sera a la
+                     discretion de mesditz sieurs.</p>
+                  <head><lb/>Punition de ceux qui boyvent trop.</head>
+                  <p><lb/>Chacune creature cognoissant Nostre Seigneur doibt user des viandes <lb/>avec
+                     sobrieté et action de graces, et pour ce que plusieurs boyvent plus <lb/>que
+                     nature ne peut porter, pour cela anuller, deffendons que nul n’ait <lb/>a
+                     bringuer soit par parolles, signes ou aultrement par aguet&#160;; et sy
+                     <lb/>aulcun contrevient a ceste ordonnance, voyre aussy qu’il eust trop beu
+                     <lb/>plus que de raison, adone il sera mis en la javiolle un jour et une nuict
+                     <lb/>en pain et eau et baillera <measure>vingt solz</measure> a l’issue
+                     d’icelle et les hostes doibvent <lb/>advertir ceux qu’ilz auroyent logez, afin
+                     qu’ilz ne contreviennent a ceste <lb/>dicte ordonnance.</p>
+                  <head><lb/>Ordonnance pour les jeux.</head>
+                  <p><lb/>Constituons que les jeux de l’acquebutte et de l’arbaleste se <lb/>peuvent
+                     exercer comme du passé pour ce qu’ilz sont jeux honnorables et <lb/>aussy
+                     deffensibles pour la chose publicque et conservation du pays. <lb/>Ottroyons
+                     aussy que l’on puissent jouer a la paulme, bolle, pallet, <lb/>trablier,
+                     coinchon et chiffle pour un repas seullement sans aguet. Mais <lb/>des aultres
+                     jeux comme des cartes, dez et aultres semblables et illicites <lb/>les
+                     abolissons et deffendons expressement que nul n’y ait a jouer. <lb/>Et sy aucun
+                     contrevient a ceste ordonnance, sera chastié pour une esmende <lb/>de
+                        <measure>vingt solz</measure>&#160;; et s’il y est trouvé davantage, il
+                     debvra estre puny plus <lb/>griefvement a la discretion de mesditz sieurs. Et
+                     quant aux jeux dessus mentionnez, ilz se debvront cesser et les joueurs
+                     <lb/>d’iceux se retirer pour aller ouyr la saincte predication de l’evangille
+                     <lb/>qu’ilz orront sonner le dernier coup du second presche, excepté le
+                     <lb/>jour du tirement du pris auquel on convoque nos circonvoisins vers
+                     lesquelz <lb/>soyent ilz de nostre religion ou aultres, permectons et
+                     consentons aussy pouvoir <lb/>au reciproque aller tirer a leur pris, toutesfois
+                     avec toute honnesteté et <lb/>modestie en observant entierement le contenu de
+                     nosdites ordonnances.</p>
+                  <pb n="234v" facs="AEN_3PAST_2_234v_235r"/>
+                  <head><lb/>Des gens oyseulx estans aux rues le sainct <lb/>dimanche tandis que l’on presche
+                     lesainct evangille.</head>
+                  <p><lb/>Sur quoy constituons qui se trouvera au jour dessusdict parmy les rues <lb/>et
+                     au marché estant oyseulx tandis qu’on presche la parolle de Dieu <lb/>voulions
+                     qu’il soit chastié et emendable de <measure>dix solz</measure> s’il n’a excuse
+                     raisonnable <lb/>et ce pour la premiere fois&#160;; et s’il estoit trouvé pour
+                     la seconde et tierce <lb/>sera chastié pour ladite esmende et s’il voulloit
+                     continuer ou se retirer <lb/>a sa maison par aguet apres certaines
+                     remonstrances benignes a luy <lb/>faictes, debvra estre puny a la correction de
+                     mesditz sieurs&#160;; et les officiers <lb/>soyent diligens d’assister au
+                     sermon afin qu’ilz donnent bon exemple au <lb/>peuple. </p>
+                  <p><lb/>Et les hostes qui
+                     bailleront a manger a ceux du lieu tandis qu’on presche <lb/>audit jour, ilz
+                     payeront <measure>vingt solz</measure>.</p>
+                  <head><lb/>De ceux qui rompent le sainct dimanche.</head>
+                  <p><lb/>Pour laquelle chose ordonnons quiconque rompra le sainct dimanche <lb/>par
+                     oeuvres mecanicques sera esmendable pour cinq livres.</p>
+                  <p><lb/>Et quant aux dances  abattues et abolies cy devant par conseil et <lb/>communaulté escriptes dedans
+                     le livre de conseil de ceste dicte ville<note>Note Favarger&#160;1982&#160;:
+                        AVN, Ordonnance du conseil de Ville d'avril&#160;1540, Coutumier de la
+                        Ville, fol.&#160;338v. Éd. Matile, <hi rend="italic">Plaits</hi>,
+                        p.&#160;229.</note>
+                     <lb/>reconfirmons et rattifions par cestes ordonnances, estre du tout <lb/>et
+                     pour le tout mortes et abollies.</p>
+                  <head><lb/>De ceux qui parlent contre nos predicans.</head>
+                  <p><lb/>Ordonnons et constituons que celuy ou ceux qui se sentiront scandalisez <lb/>et
+                     offencez de quelques parolles preschées par nosditz ministres n’ayent a
+                     <lb/>legerement detracter de luy ny de son ministère en sa presence ou absence
+                     <lb/>et mesmement aux tavernes, rues ny aultres lieux et places quelconques
+                     <lb/>et ce, pour obvier aux scandalles, troubles et facheries qu’en pourroyent
+                     <lb/>sortir au deshonneur de Dieu et de ceste dicte ville. Mais ordonnons et
+                     voullons <lb/>qu’icelluy ou iceux scandalisez qui auroyent ouyes et entendues
+                     icellesdites <lb/>parolles en facent le rapport, sans y diminuer ny adjouster,
+                     a nous lesdits <lb/>quatre ministraulx, afin qu’ayons a nous encercher a la
+                     vérité d’icelles <lb/>pour puis apres faire convenir icelluy ministre en
+                     nostredict conseil pour <lb/>rendre raison d’icellesdictes parolles ainsy par
+                     luy dictes et preschées et <lb/>en user comme il est declairé aux ordonnances
+                     pour cest effect dressées au <lb/>livre de nostredict conseil et les
+                     contrevenans a nostredicte <lb/>ordonnance seront et debvront estre chastiez
+                     griefvement selon l’exigence <pb n="235r" facs="AEN_3PAST_2_234v_235r"/>
+                     <lb/> desdictes parolles a la discretion de mesditz sieurs&#160;; et sy lesditz
+                     ministres <lb/>blasmoyent ou injurioient aucun particulierement hors de son
+                     ministere <lb/>on les pourra prendre par justice et au reciproque ledict
+                     ministre <lb/>en cas pareil.</p>
+                  <head><lb/>De non porter deux glaives.</head>
+                  <p><lb/>Aussy est ordonné que nully ne doibt porter deux bastons d’armes <lb/>parmy la
+                     ville fors que dehors tant qu’il en voudra et pourra porter. <lb/>Et sy
+                     quelqu’un contrevient a ceste ordonnance toutes les fois il en sera <lb/>pour
+                        <measure>cinq solz</measure>.</p>
+                  <head><lb/>De non porter des patenostres.</head>
+                  <p><lb/>A esté déterminé que nul n’ait a porter Patenostres de bois ni d’autre
+                     <lb/>qualité, car sy aucun contrevient a ceste nosttre ordonnance il sera pour
+                        <lb/><measure>vingt solz</measure>.</p>
+                  <head><lb/>Des habitz.</head>
+                  <p><lb/>L’on ordonne de non descouper chausses, pourpointz ny aultres habits, et
+                     <lb/>les cousturiers en soyent advertis. Et sy aucun contrevient a nostre
+                     present <lb/>edit son habit sera perdu et ledit cosandier pour dix solz.</p>
+                  <head><lb/>Punition des devins et divineresses.</head>
+                  <p><lb/>Soit faicte inquisition des devins et devineresses, sorciers et sorcieres
+                     <lb/>car sy aucuns sont trouvez parmy ce pays et comté, ilz seront punis selon
+                     <lb/>leur demerite au jugement de la seigneurie et justice.</p>
+                  <head><lb/>Ordonnance contre les Egiptiens.</head>
+                  <p><lb/>A esté dict que telle maniere de gens soyent totallement bannis <lb/>et
+                     dechassez de ce dict comté, veu que ce sont gens non seulement inutilles
+                     <lb/>mais grandement dommageables vivans contre Dieu et raison, car ilz ne
+                     <lb/>vivent que de larecin et pillerie, sans plusieurs autres maux qu’ilz
+                     <lb/>commettent.</p>
+                  <head><lb/>Des usuriers.</head>
+                  <p><lb/>Que nul n’ait a prester argent pour acheter cense de froment, avoyne,
+                     <lb/>foings ny semblable cas, fors que prester a cinq pour cent et qui
+                     <lb/>aultrement en sera sera chastié pour <measure>cinq livres</measure>.</p>
+                  <pb n="235v" facs="AEN_3PAST_2_235v_236r"/>
+                  <head><lb/>Ordonnance pour regracier Dieu avant et <lb/>après le repas.</head>
+                  <p><lb/> Ordonnons qu’un chacun pere de famille ayant enfans suffisamment
+                     <lb/>instruictz doibgent rendre grace et louange a Dieu avant et apres le
+                     <lb/>repas en leurs maisons&#160;; et semblablement les hostes en doibvent
+                     ainsy <lb/>user et faire pour tousjours donner bon exemple a nos freres
+                     chrestiens <lb/>afin que ne demeurions ingrats envers nostre pere eternel de
+                     ces graces <lb/>et benefices qu’il nous faict journellement.</p>
+                  <head><lb/>Ordonnance contre ceux qui se bendent <lb/>ou routtent.</head>
+                  <p><lb/>Constituons et ordonnons aussy que celuy ou ceux qui par cy apres
+                     <lb/>solliciteront le peuple par bendes ou routtes pour l’esmouvoir et
+                     <lb/>eslever a séditions, mutinations et troubles sans l’authorité et
+                     <lb/>permission de la souverayneté et conseigneurie d’icelle, ains de leur
+                     <lb/>propre volonté, seront et debvront estre griefvement punis par l’advis
+                     <lb/>de mondict sieur le gouverneur et de messieurs du conseil et communaulté
+                     <lb/>de ceste dicte ville, selon l’exigence du cas, d’autant que la consequence
+                     <lb/>de telles entreprises n’engendre fors que toutes inimitiez et ruynes
+                     <lb/>de bon ordre publique, voyre aussy desplait a Dieu et a toutes gens
+                     <lb/>de bien aymans bonnes pollices.</p>
+                     <p><lb/>En tesmoings desquelles choses, je ledict
+                        <persName ref="per010696a">Pierre Chambrier</persName>
+                     <lb/>a present comis et député, lieutenant en cedict comté de Neufchastel
+                     <lb/>de par noble et puissant seigneur, messire <persName ref="per031747a.01"
+                        >George de Rive</persName>, chevallier, <lb/>seigneur de Prangin,
+                     Grandcourt, Genollier, etc, gouverneur general <lb/>de cedict comté pour et au
+                     nom de tres illustre et excellente princesse <lb/>ma Dame <persName
+                        ref="per031748a">Jehanne de Hochberg</persName>, duchesse de Longueville,
+                     marquise de <lb/>Rothelin, comtesse dudict Neufchastel, etc, nostre souverayne
+                     et <lb/>redoubtée dame, ay signé de ma propre main cesdites presentes
+                     <lb/>constitutions et ordonnances, reservant touteffois au nom que dessus
+                     <lb/>les pouvoir amender, augmenter et amoindrir selon l’exigence, regard
+                     <lb/>et qualité des causes et matières que surviendront. Faict audict
+                        <lb/><placeName>Neufchastel</placeName>, <origDate when="1542-02-01">le premier
+                        jour de febvrier en l’an du Seigneur 1542</origDate>.</p>
+                  <lb/><signed>Ainsy signé <persName ref="per010696a">P.&#160;Chambrier</persName></signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;232r-235v.<note>Aujourd'hui AEN 3PAST-2</note></p>
+               <p>AVN, Affaires d'Église, liasse 1, N<hi rend="sup">o</hi>&#160;8.</p>
+               <p>Éd.&#160;Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;423-428. Matile, <hi
+                        rend="italic">Plaits</hi>, p.&#160;301-312.</p>         
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

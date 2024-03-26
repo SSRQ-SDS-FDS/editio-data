@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-59-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;190v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur le degré de consanguinité ou d'affinité admis
+                  pour être juge dans une cause touchant ses parents</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="45"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1532-04-12"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_156">SDS NE 1, N<hi rend="sup">o</hi>&#160;59</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000078"></term>
+               <term ref="key005111"></term>
+               <term ref="key005189"></term>
+               <term ref="key005128"></term>
+               <term ref="key005123"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="190v" facs="AEN_3PAST_2_190v_191r"/>
+               <div><seg><add place="left margin"><lb/>Decret faict sur le <lb/>degré de ceux qui peuvent <lb/>et doibvent
+                  juger et <lb/>tesmogner pour regard <lb/>du parentage et consanguinité<note>Ce titre est
+                        celui que donne le manuscrit Baillods. Avant la décrétale proprement dite et
+                        dont nous publions ici le texte, les Audiences avaient adopté deux projets
+                        (Baillods, fol.&#160;190v, «&#160;Decret faict sur le degré de ceux qui
+                        peuvent et doibvent juger et tesmogner pour regard du parentage et
+                        consanguinité&#160;»).</note></add></seg>
+                  <p><seg><lb/>Il a esté cogneu et adjugé par messieurs les assistans des audiances
+                     <lb/>que ceux qui seront en lignage et parenté jusques au quatriesme <lb/>degré
+                     ne pourront ny debvront estre en cognoissance ny jugement <lb/>des causes
+                     qu’attoucheront leurs ditz parens. Et ceux qui seront en consanguinité <lb/>au
+                     cinquiesme pourront assister et tesmogner en jugement comme autres <lb/>sans
+                     contredit quelconque. Fait le vendredy après quasimodo l’an que
+                     dessus.</seg> <seg><lb/>«&#160;Et pource que les aucungs desirent qu’il se fist et dressat
+                     ung livre<lb/>coustumier pour obvyer aux extremes despences qui se font par les
+                     justices<lb/>et aultres afaires, laquelle chose Ma Dame a accordé qu’il se
+                     face. &#160;»</seg></p>
+                  <p><seg>« &#160;Semblablement sera faict des censes et rentes de bled, de vin,
+                     d’avoyne<lb/>et autres, afin qu’il s’en face une ordonnance pour l’advancement
+                     du<lb/>bien publicq.&#160;»<note>Ces deux extraits, placés par Favarger après
+                        le décret qu’il retranscrit, se trouvent sur le fol.&#160;190v au dessus du
+                        décret.</note></seg></p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;190v.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;267.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;4-4v.</p>
+               <p>AEN, Registre des Trois-États, I, fol.&#160;5v.</p>
+               <p>AEN, T&#160;12, N<hi rend="sup">o</hi>&#160;2.</p>
+               <p>Ed.&#160;Matile, Plaits, p.&#160;2.</p>
+               </div>
+               <div>
+                  <p>Remarque&#160;:</p>
+                  <p>Favarger indiquait, au sujet du mot «&#160;Décrétale&#160;» utilisé en titre, «&#160;Le terme de «&#160;décrétale&#160;» consacré par l'usage neuchâtelois désigne des sentences de portée générale qui ressemblent à des ordonnances. Ce terme a été conservé ici.&#160;»</p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

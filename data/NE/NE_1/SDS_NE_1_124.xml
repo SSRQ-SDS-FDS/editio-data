@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-124-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-Y4.13</idno>
+               </msIdentifier>
+               <head>Projet d'ordonnance sur les fiefs nobles dans le comté de Neuchâtel ordonné par
+                  Marie de Bourbon<note>Note Favarger&#160;1982&#160;: Nous n'avons pas retrouvé
+                     cette enquête, mais le <hi rend="italic">Manuel du Conseil d'État</hi>,
+                     vol.&#160;5, f.&#160;100-102, en date du 19&#160;janvier&#160;1599, fait état
+                     des mesures arrêtées pour «&#160;la reprise&#160;» des fiefs mouvant et
+                     relevant du comté.</note></head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="38"/>
+                              <width unit="cm" quantity="47"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/><!-- Bitte nachtragen -->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:shape="round" ns0:attachment="sealed on a parchment tag"><persName  role="sigillant">Marie de Bourbon</persName></seal><!-- PS: ist das Material Siegellack oder Wachs? Und von wem ist das Siegel  -->
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1586-01-01"/>
+                     <origPlace ref="loc016691">Trie-Château</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_278"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;124</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000022"></term> 
+               <term ref="key000031"></term> 
+               <term ref="key000815"></term> 
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_Y4_13_r AEN_AS_Y4_13_plica"/>          
+               <div>
+                  <p><seg><lb/>Marie de Bourbon, duchesse de Longueville et de Touteville, contesse
+                     souveraine de Neufchastel <lb/>et dame de Vallengin en Suisse <gap
+                        reason="irrelevant"/>  a tous ceulx qui ses
+                     presentes lettres verront, salut. Sçavoir <lb/>faisons comme ainsi soit que
+                     nous soions esté fidellement advertie par noz amez et feaulx gouverneur et
+                     lieutenant general et conseillers de nostre conté souverain de Neufchastel que
+                     la plus part des fiefs <lb/>nobles dudit conté que cy devant auroient estez
+                     distribuez a plusieurs anciennes nobles familles sont dispersez, diminuez et
+                        alienez<note>Note Favarger&#160;1982&#160;: Cf. AEN, I, 4, N<hi rend="sup"
+                           >o</hi>&#160;28 (9<hi rend="sup">o</hi>), acte par lequel Marie de
+                        Bourbon donne son accord à la vente d'une partie de la seigneurie de Travers
+                        faite par André de Neuchâtel à Jean son frère, afin que «&#160;les maisons
+                        nobles de nostredict comté soient conservées en leur entier.&#160;»</note>,
+                     estans parvenuz a la pocession et jouissance de gens incapables, de sorte
+                     qu’estans <lb/>noz gentilzhommes decedez, le nombre d’iceulx est tellement
+                     diminué que venant noz audiences et grands jours a estre convocquez pour
+                     administrer justice a noz peuples dudit conté, il ne se trouve que bien peu de
+                     nosdictz<lb/>gentilzhommes et feodalz pour y assister ainsi que anciennement
+                     ils soulloient faire et a nos estatz, tant moins pour nous faire l'assistance
+                     qu'en tout besoin et nécessité la noblesse a accoustumé de faire a
+                     noz<lb/>illustres predecesseurs en nostredict comté. A ceste cause et aultres
+                     raisons, par nous bien préméditées et considérées, et après avoir participé de
+                     l’advis de nos tres chers et bien amez feaulx et de nostre conseil près de
+                     nostre <lb/>personne et celuy de nostredict conté, nous avons resolu et arresté
+                     de redresser et augmenter nostredict estat de nobles et vassaulx et de a iceulx
+                     faire reprendre lesdictz fiefs selon les coustumes et nature d’ung chacun
+                     d’iceulx <lb/>et selon que desja avoit esté arresté par nosdictz illustres
+                     predecesseurs et selon les <foreign xml:lang="de">abscheid</foreign> faictz par Messieurs
+                     des Ligues du temps qu'ilz tenoient nostredict conté<note>Note
+                        Favarger&#160;1982&#160;: On consultera à ce sujet Berger-Locher, <hi
+                           rend="italic">Neuchâtel</hi> ..., p.&#160;82-86.</note>. De nostre
+                     certaine science, plaine puissance et aucthorité <lb/>souveraine, donnons plain
+                     pouvoir, mandement special et general a noz amez et feaulx le sieur Vallier,
+                     nostre gouverneur et lieutenant general en nostredict conté et gens de nostre
+                     conseil en icelluy, de pouvoir et debvoir eslire, establir <lb/>et constituer
+                     de nostre part ung ou plusieurs commissaires a ce entenduz et telz que bon leur
+                     semblera, a telz gages et estât qu’ilz trouveront raisonnable, pour faire faire
+                     lesdictes reprinses de fief et hommages et de contraindre <lb/>tous et ungs
+                     chacuns desdictz gentilzhommes de specifier et declarer le nouveau
+                     particullierement par le menu toutes pieces dependantes de leur dit fief et de
+                     montrer et exiber leurs infeodations premieres et en cas qu’elles se
+                     <lb/>trouvassent esgarées, desunies de leurs precedentes infeodations, de les
+                     contraindre par toutes voies de justice que aultrement a les reunir et mettre
+                     ensemble, a peine de confiscation de leursdictz fiefs, daventage de pourvoir
+                     aussy <lb/>par lesdictz commisaires demander adjudication et confiscation
+                     d’iceulx et de contraindre par toutes voies de droit, licites et raisonnables,
+                     toutes personnes qui tiendront plusieurs pieces deppendantes et mouvantes de
+                     nosdictz fiefz <lb/>nobles ou parties d’icelles non capables de les remectre,
+                     dans certain bref terme que par vous nostredict gouverneur et nostredict
+                     conseil leur sera baillé et limité, entre les mains de personnes califiées et
+                     capables a deservir fiefz nobles <lb/>selon l’ancienne coustume observée par
+                     nosdictz illustres predecesseurs, semblablement de retirer tous les fiefz qui
+                     ont esté donnez par noz predecesseurs, redimables, racheptables au plus ample
+                     par leurs lettres de fief <lb/>et icelles rendre en nostre domaine en
+                     restituant lesditz deniers. Et de mesme de demander et confisquer tous fiefz a
+                     nous escheuz par la condition qu’ilz ne peuvent estre deserviz par filles ny
+                     tumber a la quenouille <lb/>ains aux masles et en tout aultre qualité qu’il y
+                     aura escheute et commise desdictz fiefz ou de quelque aultre condition et
+                     qualité qu’ilz puissent estre, sans respect ny support de quelque personne que
+                     soit, et generallement de <lb/>fere traicter et negotier en cest affaire et qui
+                     en deppend tout ce qu’ilz trouverront estre requis et necessaire pour nostre
+                     service, nonobstant tous autres empeschemens au contraire. Sy donnons en
+                     mandement a nostredict gouverneur <lb/>et lieutenant general de donner tout
+                     aide, faveur et assistance voire de administrer bonne et briesve justice a
+                     nosdictz commissaires pendant l’exercice de leur charge en tant que besoing
+                     sera. Commandons aussi, très expressement <lb/>a nostre procureur general de
+                     nostredict conté de en cela rendre dilligemment et songneusement son debvoir
+                     pour la conservation de noz droitz et obeir a tout ce que de la part de
+                     nostredict gouverneur luy sera ordonné <lb/>et commandé sans y fere reffuz ny
+                     difficulté, car n’est nostre voulloir et nous plaist. En foy de quoy, nous
+                     avons signé ces présentes, faict contresigner par l’un de noz secrettaires et
+                     faict apposer <lb/> nostre sceau.</seg> <seg>A <origPlace ref="loc016691.03">Trye</origPlace>, <origDate
+                        when="1586-01-01">le premier jour de janvier, l’an mil cinq cens quatre
+                        vingts six.</origDate></seg></p>
+                  <lb/><signed>Marie de Bourbon</signed>
+               </div>            
+               <div>
+                  <ab type="sigillant" place="plica" >
+                     <lb/>Par Madame, duchesse 
+                    <lb/>et comtesse souveraine,
+                     <lb/><signed>De Porquier</signed>              
+                  </ab>
+               </div>
+               <pb   n="1v" facs="AEN_AS_Y4_13_v"/>           
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin scellé sur double queue, AEN, Y&#160;4, N.<hi rend="sup"
+                        >o</hi>&#160;13</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Institutions judiciaires</hi>,
+                     p.&#160;94-96.</p>
+               <p>Cité&#160;: Chambrier, <hi rend="italic">Histoire de Neuchâtel et Valangin</hi>,
+                     p.&#160;372, note&#160;1 et p.&#160;371-372.</p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

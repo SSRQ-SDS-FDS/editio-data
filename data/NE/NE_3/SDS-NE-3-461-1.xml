@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="headerinfo"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2020-08-17"/>    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Bibliothèque publique et universitaire de Neuchâtel (BPUN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources
+      du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-3-461-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+                  <idno xml:lang="fr">AVN B 101.14.002, fol. 85r–85v</idno>
+               </msIdentifier>
+               <head>Délai pour ouvrir une action à des fins civiles</head>
+               <msContents>
+                  <summary>La seigneurie a un an et six semaines depuis que le délit a été commis
+                     pour ouvrir une action à des fins civiles, dès qu’il ne s’agit pas d’une simple
+                     amende. </summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="current"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1792-12-06"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head/>
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005117"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="85r" facs="AVN_B_101.14.002_0085r"/>
+               <div>
+                  <p>
+                     <lb/>Du <origDate when="1792-12-06">6<hi rend="sup">e</hi>
+                        <choice>
+                           <abbr>X<hi rend="sup">bre</hi>
+                           </abbr>
+                           <expan>décembre</expan>
+                        </choice> 1792</origDate>. </p>
+                  <p>
+                     <seg><lb/>Monsieur le maître bourgeois en chef a proposé <lb/>à <orgName ref="org003085"><choice>
+                           <abbr>MM :</abbr>
+                           <expan>messieurs</expan>
+                        </choice> du Conseil Étroit</orgName> qu’elle étoit la coutume</seg>  <seg><lb/>sur le tems qu’ont les officiers de judicature, <lb/>pour ouvrir les
+                        actions à fins civiles, qu’ils dirigent <lb/>contre les particuliers,
+                        lorsqu’il ne s’agit pas d’une <lb/>simple amende&#160;; surquoi,
+                           <orgName ref="org003085">mesdits sieurs du <lb/>Conseil Étroit</orgName>,
+                     ayant eu mûre délibération ensemble, <lb/>ont dit &amp; déclaré unanimement que
+                     la coutume <lb/>constamment usitée en cette souveraineté de père à fils
+                     <lb/>&amp; de tems immémorial est que</seg> <seg>la seigneurie a, <lb/>pour ouvrir
+                        une action à fins civiles, dès qu’il ne <lb/>s’agit pas d’une simple amende,
+                           <date dur-iso="P1Y6W">un an &amp; six <lb/>semaines</date>, sois l’<date dur-iso="P1Y6W"><term ref="lem014776">an &amp; jours</term></date> depuis que
+                        le délit <lb/>a été commis.</seg>
+                  </p>
+                  <p>
+                     <lb/>Laquelle déclaration ainsi rendue, il a <lb/><add place="below">été</add>
+                     <pb n="85v" facs="AVN_B_101.14.002_0085v"/>
+                     <lb/>ordonné au soussigné secrétaire du Conseil de <lb/>Ville, de l’expédier en
+                     cette forme, sous le sceau <lb/>de la mairie &amp; justice de cette Ville&#160;; à
+                        <origPlace ref="loc007786">Neûchatel</origPlace>. <lb/>Le <origDate
+                        when="1792-12-06">sixième décembre mil sept cent <lb/>quatre vingt
+                        douze</origDate>. </p>
+               </div>
+               <div>
+                  <lb/>
+                  <signed>
+                     <persName ref="per008723">
+                        <choice>
+                           <abbr>A</abbr>
+                           <expan>Abram</expan>
+                        </choice> Pettavel</persName>
+                     <figure type="notarial sign"/></signed>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

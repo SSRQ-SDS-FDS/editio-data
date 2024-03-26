@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-141.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 53</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 53</idno>
+					</msIdentifier>
+					<head xml:lang="de">Rose Bise – Verhör und Urteil</head>
+					<head xml:lang="fr">Rose Bise – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1649-09-30" to="1649-10-02"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-09-30">lesten <foreign xml:lang="la">septembris</foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.01">Ludwig Zurmaten</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013469a.06">Cattella</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></seg></p>
+						<p><lb/><persName ref="per012301b.02">Rouscha</persName> de <persName ref="per019222a.02">Peret Gentil</persName> ayant esté aplicquee
+							<lb/>a la <term ref="lem018792.01">question</term> de la grande <term ref="lem018285.03">piere</term> sans en estre
+						<lb/><term ref="lem019427.02">torturee</term>, et la desus examinee, ast constantement
+							<lb/>perseveré sa <term ref="lem019465.01">confession</term> precedante, hors que avec
+							<lb/>la <term ref="lem018383.02">poussiere</term>, qu’elle ast frottee lé jambes <add place="left margin" type="sign">de l’image de <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <lb/><persName ref="per000208a.05">Jasque</persName></add> et le
+							<lb/><term ref="lem018264.02">lendar</term> de la porte de la chapelle<note>Il s’agit de la <placeName ref="loc011696.02">Chapelle Saint-Jacques</placeName> à Tavel.</note>, en quoy
+							<lb/>variant, et <term ref="lem019144.05">inficiant</term>, disoit qu’elle avoit baisé
+							<lb/>lé pieds, mais estant un peu <term ref="lem019548.02">ellevee</term> sans que
+							<lb/>la <term ref="lem018285.03">piere</term> de la <term ref="lem019428.01">torture</term> se levat avec elle, ast
+						<lb/>finalement <term ref="lem015549.07">confessé</term> estre <sic>viray</sic> ainsi que si
+						<lb/>devant elle avoit dit, qu’elle avoit sorti
+						<lb/>de sa pouchete la <term ref="lem018383.02">poussiere</term>, avec quelle
+						<lb/>elle avoit frotté lé pied et jambe de la dite
+							<lb/>image de <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <persName ref="per000208a.05">Jasque</persName> et le <term ref="lem018264.02">lendar</term> de la
+						<lb/>porte, a l’intention par la que ceux qui viendront
+						<lb/>baiser en feussent <term ref="lem018313.02">inficié</term> mortaillement. Demande
+						<lb/>a Dieux et a Leur <choice><abbr>Exell</abbr><expan>Exellences</expan></choice> humblement pardon.</p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1649-10-02">2<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8<hi rend="sup">bris</hi></abbr><expan>octobris</expan></choice></foreign>
+							<lb/>1649</origDate> nach <term ref="lem019182.01">strangu<lb break="no"/>lation</term> in das <term ref="lem012936.07">feüwr</term>
+							<lb/>gestirzt und <term ref="lem011474.02">verbrent</term>
+						<lb/>worden.</add><note>Dieser Abschnitt befindet sich am linken Rand und zu Beginn des Protokolls.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

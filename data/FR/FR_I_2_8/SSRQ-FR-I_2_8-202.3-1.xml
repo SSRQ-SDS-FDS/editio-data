@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-202.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 470</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 470</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madeleine Gobet-Tannaz – Verhör</head>
+					<head xml:lang="fr">Madeleine Gobet-Tannaz – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1677-09-25"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, sambstag, den <origDate when="1677-09-25">2<subst><del>6</del><add place="overwritten">5</add></subst><hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> <hi rend="underline">1677</hi></origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.01">Python</persName></seg>
+							<seg><lb/> LX <abbr>h</abbr> <persName ref="per026549a.03">Pancratz Schröter</persName>, <abbr>h</abbr> <persName ref="per026531a.03">Jacob Fillistorff</persName></seg></p>
+						<p><lb/><persName ref="per027166a.01">Magdelaine</persName>, veufve de dernieres nopces de <persName ref="per027165a">Jacques Gobet</persName>
+							<lb/>de <placeName ref="loc010145">Corserey</placeName>, dicte <persName ref="per027166a">la Cagniarda</persName>, interrogée du subject
+						<lb/>de sa detention, respond ne rien sçavoir, sinon que
+						<lb/>ce soit à cause de l’accusation ou <term ref="lem015358.09">accoulpe</term> du
+							<lb/>beaufils de son mari<note>Gemeint ist möglicherweise <persName ref="per027155">Pierre Peity</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-202.7-1">SSRQ FR I/2/8 202.7-1</ref>.</note>,
+							dernierement supplicié à <placeName ref="loc007893">Middes</placeName>
+						<lb/>sur faict de <term ref="lem018521.01">sorcellerie</term>, lequel l’a accuseé d’estre
+						<lb/><term ref="lem014908.13">vaudaisa</term>, soustenant qu’il luy faict grand tort
+						<lb/>et qu’il luy voulloit mal, à raison de certaine
+						<lb/>difficulté qu’ils avoyent ensemble à <subst><del>raison</del><add place="above">cause</add></subst> des
+						<lb/>biens de sondit mari, asserant n’avoir jamais eu
+							<lb/>aucune cognoissance de <persName ref="per011219a.05">Sathan</persName> ny eu autre mai<lb break="no"/>stre que Dieu et Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice>.</p>
+						<p><lb/>Examinée et interrogée sur tous les poincts et
+						<lb/>articles de l’examen, les a tous <term ref="lem019493.02">opiniastrement</term>
+						<lb/>niés, s’entend ce qui la pourroit rendre coulpable
+						<lb/>ou suspecte de <term ref="lem018521.01">sorcellerie</term>, particulierement
+						<lb/><subst><del>de</del><add place="inline">d’</add></subst>avoir jamais faict mourir gens ny bestes,
+						<lb/>ny tiré le <term ref="lem015011.04">laict</term> des <term ref="lem017507.02">vaches</term> d’autruy.</p>
+						<p><lb/>Et sur les declarations d’avoir <term ref="lem019476.03">empoisonné</term> <persName>Claude
+						<lb/>Debarra</persName> et un Savoyard qui servoyent chez
+						<lb/><persName>Pancratz Champmartin</persName>, granger de <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Amman</persName>,
+						<lb/>soustient qu’on luy faict tort&#160;: que ledit Savoyard
+						<lb/>estoit devenu malade pour s’estre baigné après
+						<lb/>avoir eu bien chaud, et que depuis il estoit
+						<lb/>encor allé en <placeName ref="loc005628.02">Bourgogne</placeName>, ou il estoit mort
+						<lb/>longtemps après&#160;; et que ledit <persName>Debarra</persName> estoit
+						<lb/>aussy allé à la guerre, ou il estoit mort&#160;;
+							<lb/>disant voulloir soustenir tous les <term ref="lem019473.06">torments</term>
+						<lb/>qu’il plaira à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict, mais non pas pour
+						<lb/>le faict de <term ref="lem018521.01">sorcellerie</term> dont on la soupçonne.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

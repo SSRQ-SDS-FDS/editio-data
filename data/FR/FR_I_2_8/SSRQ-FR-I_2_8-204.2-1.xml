@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 34v–37r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 34v–37r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Verhör</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-01-04"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key003408"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="34v"/><p><lb/><placeName ref="loc007890.03">Jaquemar</placeName>, den <origDate when="1683-01-04">4ten <foreign xml:lang="la">januarii</foreign> 1683</origDate>
+						<seg><lb/><foreign xml:lang="la">Præside</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note></seg>
+						<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per026328a.04">Fyva</persName></seg>
+						<seg><lb/>Von LX <abbr>h</abbr> <persName ref="per013469a.11">Frantz Peter Castella</persName>, <abbr>h</abbr> <persName ref="per027532a.02">Frantz Peter Amman</persName>, <abbr>h</abbr> <persName ref="per026289a.03">Niclauß Amman</persName>, <abbr>h</abbr> <persName ref="per026070a"><del>t</del> <choice><abbr>Rud</abbr><expan>Rudolf</expan></choice> Rämi</persName></seg>
+						<seg><lb/>Von burgern <persName ref="per027535a.01"><choice><abbr>Fr Pet Em</abbr><expan>Franz Peter Emanuel</expan></choice> Fegeli</persName></seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+				<pb n="36r"/><p><lb/><hi rend="outdent">Im <placeName ref="loc008105">Keller</placeName></hi> by dem <placeName ref="loc009227.04">Rathhauß</placeName>, <foreign xml:lang="la">eodem die <origDate when="1683-01-04">4<hi rend="sup">ta</hi> januarii 1683</origDate> et
+						<lb/>presentibus ut supra</foreign></p>
+						<p><seg><lb/><persName ref="per027452a">Maria</persName>, <add place="above" type="sign">fillie de</add> <persName ref="per027448a">Fridli <add place="above" type="sign">Ribotel</add></persName> de <placeName ref="loc008073">Matran</placeName>, femme de <persName ref="per027463a.02">Jean dau Zano</persName>
+						<lb/>du compté de <placeName ref="loc007785.04">Neufchastel</placeName>, agée dʼenviron <measure type="age" quantity="30" unit="year">un tren<lb break="no"/>taine dʼannées</measure>, interrogé sur le sujet de sa detention,
+						<lb/>dit par ce quʼelle sʼest malheuresement oubliée
+						<lb/>dʼavoir faict <term ref="lem019543.03">babtiser</term> quatre fois son enfant.</seg>
+							<seg><lb/>Interrogée ou elle sʼestoit accouchée, elle at <term ref="lem015549.07">con<lb break="no"/>fessé</term> que sʼestoit à <placeName ref="loc007964">Macconnens</placeName> chez un
+						<lb/>granger de la parroisse dʼ<placeName ref="loc008334">Orsonnens</placeName>&#160;; dit quʼil
+						<lb/>at environ <date dur-iso="P7Y">sept ans</date> quʼelle sʼest espousée
+						<lb/>à <placeName ref="loc008073">Matran</placeName> avec son marry, et que elle avoit <add place="bottom" type="catchword">desja</add>
+						<pb n="36v"/> <lb/><choice><sic>desja</sic><corr></corr></choice> heu un aultre homme nommé <persName>Jaque Clerc</persName> dʼ<placeName ref="loc007902.03">Escu<lb break="no"/>villiens</placeName>, et que son dernier marry sʼestoit faict
+						<lb/><term ref="lem019533.01">catholique</term>.</seg> <seg>Interrogée comme ledit gagnoit son pain,
+						<lb/>elle respondit quʼil alloit deça et dela, quelque
+							<lb/>peus per travail, et aussy en demandant lʼ<term ref="lem021653.06">ausmone</term>.</seg>
+						<seg><lb/>Interrogée depuis quand elle estoit en prison, elle
+						<lb/>at respondus que cʼestoit depuis devant hier.</seg>
+							<seg><lb/>Interrogée ou elle avoit faict <term ref="lem019543.03">babtiser</term> son en<lb break="no"/>fant la premiere fois, elle respondit que sʼestoit
+						<lb/>à <placeName ref="loc007965.06">Villarembouz</placeName>, la seconde fois à <placeName ref="loc007630.02">Tavel</placeName>, la troisies<lb break="no"/>me fois à <placeName ref="loc007857.07">Ging</placeName> et la quatriesme fois à <placeName ref="loc007597.02">Dirlaret</placeName>.
+						<lb/>Et at mesmement <term ref="lem015549.07">confessé</term> quʼelle le voulloit
+						<lb/>faire <term ref="lem019543.01">baptiser</term> la cinquiesme fois.</seg> <seg>Interrogée
+						<lb/>pourquoy elle lʼavoit faict <term ref="lem019543.03">babtiser</term> tant de fois,
+						<lb/>elle respondit pour avoir tant plus de comperes,
+						<lb/>affin dʼavoir quelque choses dʼeux, veu quʼelle
+						<lb/>estoit pauvre. Elle at <term ref="lem015549.07">confessé</term> que ledit son en<lb break="no"/>fant pouvoit estre agé dʼenviron dʼ<measure type="age" quantity="1" unit="M">un mois</measure> lors
+						<lb/>quʼil et mort, et quʼil et mort à <date when="1682-12-25">Noel passé</date>, à
+						<lb/><placeName ref="loc008332.03">Balleswyl</placeName> chez <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le <term ref="lem016294.02">banderet</term> <persName ref="per026535a.01">Castella</persName>. En
+						<lb/>oultre at dit que elle avoit desja heu cinq enfant
+						<lb/>par cy devant.</seg> <seg>Interrogée par quel instinct elle
+						<lb/>aurroit faict <term ref="lem019543.03">babtiser</term> son enfant si souvent,
+						<lb/>si elle nʼavoit esté instiguée ou bien induitte par
+						<lb/>quelquʼun à cella, elle at respondu que non,
+						<lb/>mais que elle croit dʼestre <term ref="lem019502.03">possedée</term>, dʼaultant
+						<lb/>quʼil luy semblet courrir quelque chose par le
+						<lb/>corps, et quand elle vient dans des logis,
+						<lb/>il luy vient des <term ref="lem019270.02">avisons</term> dʼy prendre quelque
+						<lb/>chose et que elle at pris une fois deux fort
+						<lb/>meschantes chemises, desquelles elle ne sʼen sçauroit
+						<lb/>peu servir, et un aultre fois aurroit pris un
+						<lb/><term ref="lem015036.04">faudart</term>, mais que ce nʼestoit pas riere <add place="bottom" type="catchword"><placeName ref="loc007928">Treyvaux</placeName></add>
+						<pb n="37r"/> <lb/><choice><sic><placeName ref="loc007928">Treyvaux</placeName></sic><corr></corr></choice>.</seg> <seg>Interrogée si elle nʼavoit jamais heu
+						<lb/>quelque vision, elle at respondus que non, hormis
+						<lb/>hier au soir elle aurroit veuz Nostre Dame toutte
+						<lb/>blanche, la quelle se promenoit par le <term ref="lem015742.02">poile</term>.</seg>
+						<seg><lb/>Interrogée ou elle at frequenté le plus de quelque
+						<lb/>temps en ça, jusque à present dit avoir frequenté
+						<lb/>le plus à <placeName ref="loc007965.06">Villarembouz</placeName>, à <placeName ref="loc008332.04">Ballißwyl</placeName>, à <placeName ref="loc007860.03">Mensißwyl</placeName>,
+						<lb/>à <placeName ref="loc008073.04">Mattran</placeName>, à <placeName ref="loc007902.03">Escuvilliens</placeName> et à <placeName ref="loc007857.07">Ging</placeName>.</seg> <seg>Finalement
+						<lb/>ladite detenu nʼat voulus <term ref="lem015549.01">confesser</term> aultre chose que
+						<lb/>ce quʼest cy dessus, disant ne sçavoir davantage&#160;; pour
+						<lb/>quelle susdites faultes par elle commises, en at demandé
+						<lb/>pardon à <hi rend="font change">Dieu</hi> et à leurs Excellences. <foreign xml:lang="la">Actum ut supra</foreign>.</seg></p>
+						<p><lb/><hi rend="outdent">Obgemeldte</hi> <term ref="lem016794.18">bekhandtnußen</term> waren von den <choice><abbr>hhrn</abbr><expan>herren</expan></choice> examinatoren <foreign xml:lang="la">ad
+							<lb/>referendum</foreign> von dem <term ref="lem019372.03">täglichen rath</term> <term ref="lem005683.04">ynnommen</term>.</p>
+						<p><lb/><figure type="notarial sign"/> <persName ref="per026058a.03"><choice><abbr>Jus</abbr><expan>Jodocus</expan></choice>, idem, Progin</persName></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

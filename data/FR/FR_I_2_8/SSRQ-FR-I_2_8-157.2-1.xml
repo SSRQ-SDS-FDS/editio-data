@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-157.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 256–257</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 256–257</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Waeber-Schueller – Verhör</head>
+					<head xml:lang="fr">Anni Waeber-Schueller – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-08-29"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="256"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-08-29">29<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1651</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h</abbr> <persName ref="per018131a.01">Werli</persName>, <abbr>h</abbr> <persName ref="per009264a.01">Amman</persName>, hauptmann <persName ref="per018134a.02">von Affri</persName></seg></p>
+						<p><seg><lb/><persName ref="per018054a.01">Anni Wäber</persName> von <placeName ref="loc008058.04">Überstorff</placeName>, der <term ref="lem014672.06">hexeri</term>
+							<pb n="257"/><lb/>halber gefengcklich <term ref="lem009330.04">yngezogen</term>, und durch obehrengedachte
+							<lb/>herren des gerichts mitt drymahliger erheb und <term ref="lem017526.01">folterung</term>
+							<lb/>des lehren <term ref="lem006591">seils</term> embsig darüber examiniert, <term ref="lem016814">vermeldet</term>,
+							<lb/>sie sye von ettlicher mitt <persName>Großriedern</persName> und der <persName>Schaffera</persName><note>Vermutlich ist <persName ref="per018066">Elsi Schafer-Poffet</persName> gemeint. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-137.0-1">SSRQ FR I/2/8 137.0-1</ref>.</note>
+							<lb/>gehabten stryttigkheiten und ußgestoßnen <term ref="lem016026.11">scheltwörtern</term>
+							<lb/><subst><del>halber</del><add place="inline">wegen</add></subst> uß lutherem <term ref="lem018697.01">verbunst</term> angeklagt. Kenne mitt
+							<lb/>wahrheit nit gestahn, das sie ein <term ref="lem006693.02">hex</term> sye, werde sich auch nie<lb break="no"/>mahlen <term ref="lem008354">erfinden</term>, das sie sich so wytt <term ref="lem015245.01">vergriffen</term> habe.</seg>
+							<seg><lb/>Betreffend den des <term ref="lem018599.01">riemen</term> ziechens halber ihro
+							<lb/>fürgeworffnen artickhel hatt sie angezeigt, auch in
+								<lb/>angedütner <term ref="lem013000.01">tortur</term> zum dritten mahl <term ref="lem015124">erhalten</term>, sie
+							<lb/>kenne <subst><del>noch</del><add place="inline">den</add></subst> <term ref="lem001076.49">khüen</term> noch <subst><del>d</del><add place="overwritten">i</add></subst>hr habende <term ref="lem002272">milch</term> hinweg<lb break="no"/>nemmen noch vil weniger ihnen dieselbige <term ref="lem016707">restituieren</term>.
+							<lb/>Es sye waar, das ihr eheman vor disem ein <term ref="lem001076.42">khu</term> uff
+							<lb/>achtägige<del>r</del> probier und nutzung hin verkauft, und von
+							<lb/>dem käuffern erst nach <add place="above">verfloßnen</add> <date dur-iso="P3M">dryen monaten</date> ein klag unndt
+							<lb/><term ref="lem009510.04">verwiß</term> der wenigen darvon gezognen <term ref="lem002272">milch</term> empfangen.
+							<lb/>Solle aber die ursach dises mangels dem bößen <term ref="lem000142.11">höuw</term>,
+							<lb/>mitt welchem der käuffer gemelte <term ref="lem001076.42">khu</term> jederwyllen
+							<lb/>gefuettert, und nitt ihro zugemessen werden. Ver<lb break="no"/>neine benebens aüch nitt, das sie von einer ihro gehö<lb break="no"/>rigen <term ref="lem001076.42">khu</term> die hinderhalt<subst><del>ung</del><add place="overwritten">ne</add></subst> <subst><del>der milch</del><add place="above"><term ref="lem002272">milch</term> nitt</add></subst> fürgezogen,
+								<lb/>habe aber solches vermittlest adlibierter, von den <foreign xml:lang="la"><term ref="lem019554.02">patri<lb break="no"/>bus jesuuitis</term></foreign> empfangner gesegneter sachen <term ref="lem013174.07">ußge<lb break="no"/>würckht</term>.</seg> <seg>Mitt ebenmässiger verleugnung unndt
+							<lb/>endtschuldigung hatt sie, <subst><del>die becklagte</del><add place="inline">die gefang<lb break="no"/>ne</add></subst>, andern, im uffgenomnen <term ref="lem003708.01">examine</term> begriff<lb break="no"/>nen und ihro fürgehabten klagspuncten begegnet
+							<lb/>und mitt einem wortt <subst><del>in der</del><add place="inline">beständig</add></subst> <term ref="lem015124">erhalten</term>, es
+							<lb/>gescheche ihro hoch unrecht; <subst><del>man habe</del><add place="inline">und möchte</add></subst> woll
+							<lb/>die mißgünstige und ehrabschnydende kläger wüssen.
+							<lb/>Sich hiemitt gott dem almächtigen und einer
+							<lb/>gnädigen oberkheit empfehlend.<note>Le passage qui suit concerne le procès mené contre <persName ref="per020582">Claude Bernard</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-158.2-1">SSRQ FR I/2/8 158.2-1</ref>.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

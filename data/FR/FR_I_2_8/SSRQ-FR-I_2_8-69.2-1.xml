@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-69.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 12, S. 9</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 12, p. 9</idno>
+					</msIdentifier>
+					<head xml:lang="de">Georges Berat – Verhör</head>
+					<head xml:lang="fr">Georges Berat – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1625-08-25" to="1625-08-26"/><!-- kein Tag angegeben!! Datum vermutlich 25. oder 26. August 1625, vgl. 1. Anweisung RM!! -->													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007594.04">Roßey</placeName>
+							<seg><lb/><origDate when="1625-08"><foreign xml:lang="la">augusti</foreign> 1625</origDate><note>Le jour n’est pas mentionné. Il s’agit du <date when="1625-08-25">25</date>, éventuellement du <date when="1625-08-26">26</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-69.1-1">SSRQ FR I/2/8 69.1-1</ref>.</note>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per006580">Niklaus Meyer</persName>.</note></seg>
+							<seg><lb/><abbr>h</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per006506">Brynißholtz</persName></seg>
+							<seg><lb/><persName ref="per006509a.01">Rämi</persName>, <persName ref="per006511"><subst><del><choice><abbr>F</abbr><expan>Franz</expan></choice></del><add place="overwritten"><choice><abbr>C</abbr><expan>Claudo</expan></choice></add></subst> Haberkorn</persName></seg>
+							<seg><lb/><persName ref="per006523a.01">Monthenach</persName>, <persName ref="per006528a.01">Boßhard</persName>, <persName ref="per006517"><choice><abbr>F</abbr><expan>Franz</expan></choice> Haberkorn</persName></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Non solvit.</foreign></add></seg> <seg><persName ref="per006530a.01">George Berrat</persName> von <placeName ref="loc007598.04">Ottenachen</placeName>, alß er erfragt
+							<lb/>worden, uß waß ursach er gfängklich yngethan worden,
+							<lb/>hat anzeigt, er sye verdacht worden, einer frauwen von
+							<lb/><placeName ref="loc007599.02">Pontouz</placeName> die <term ref="lem011429.15">böse geister</term> geben zehaben. <subst><del>Diß</del> <add place="above">Sye</add></subst> aber dißfals
+							<lb/>gantz unschuldig. Sye ime ouch nit in sinn khommen, sich
+							<lb/>der <sic><term ref="lem014672.11">hexenry</term></sic> anzenemmen. Sye <subst><del>bishar</del> <add place="above">ein zyt lang</add></subst> wegen syner
+							<lb/><term ref="lem014634">übelmögenheit</term> von einem dorff zum anderen, dem <term ref="lem002264.12">almůßen</term>
+							<lb/>nachgangen.
+							<lb/>Bittet umb <term ref="lem004684.07">verzychung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

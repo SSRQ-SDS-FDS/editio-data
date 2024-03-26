@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-197.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 422–423</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 422–423</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Andrey-Centlivres – Verhör und Urteil</head>
+					<head xml:lang="fr">Clauda Andrey-Centlivres – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1676-07-04" to="1676-07-11"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="422"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1676-07-04">4<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> <hi rend="underline">1676</hi></origDate></p>
+						<p><seg><lb/><foreign xml:lang="la">Judex</foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> hauptman <persName ref="per026365a.04"><choice><abbr>H P</abbr><expan>Hans Peter</expan></choice> Vonderweidt</persName>, <abbr>h</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a"><choice><abbr>F P</abbr><expan>Franz Prosper</expan></choice> Python</persName></seg>
+							<seg><lb/> LX <abbr>h</abbr> <persName ref="per026550a.02">Peter Gottraw</persName>, <abbr>h</abbr> <persName ref="per026120a.01">Johan Rämi</persName>, <abbr>h</abbr> <persName ref="per026530a.01">Lentzburger</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026541a.03"><choice><abbr>Rud</abbr><expan>Rudolf</expan></choice> Kesler</persName>, <abbr>h</abbr> <choice><abbr>ob leut</abbr><expan> ober leutnant</expan></choice> <persName ref="per026560a.01">Buman</persName></seg></p>
+						<p><lb/><persName ref="per019871b.04">Claudaz Centlivres</persName>, en suitte de la sentence d’hyer
+						<lb/>derechef examinée sur tout l’examen, et sur
+							<lb/>ses precedantes <term ref="lem019465.02">confessions</term> et negatives, et
+						<lb/>particulierement sur ses complices, serieusement
+						<lb/>interrogée, n’a rien voullu adjouster à ce
+						<lb/>qu’elle avoit cy devant <term ref="lem015549.07">confessé</term> et nié.</p>
+						<p><lb/>Et de plus interrogeée si elle ne sçavoit oster les <term ref="lem015433.17">malins
+						<lb/>esprits</term> à ceux ausquels les avoit donnés, a dict que non.
+						<lb/>Davantage si elle n’avoit donné des <term ref="lem018555.03">malefices</term> à d’autres,
+						<lb/>affin qu’ils ne fissent des despenses inutiles pour leur
+						<lb/>guarison, l’a aussy nié.</p>
+						<p><lb/>De plus, s’il estoit bien possible que de <date dur-iso="P14Y">quatorze ans</date>
+							<lb/>ne fust esté que cincq fois à la <term ref="lem017043.01">secte</term>, l’a confirmé, disant
+						<lb/>qu’ils ne la y pouvoyent souffrir, à cause qu’elle avoit
+						<lb/>tousjours des choses dignes et benistes sur elle.</p>
+						<p><lb/>Et touchant <persName>Savarioud</persName>, a dict que ce n’estoit elle qui avoit
+							<lb/>mis les <term ref="lem018834.02">mussilions</term> dans son poutage, ains son <term ref="lem019555.05">maistre</term>
+						<lb/>le <term ref="lem017521">diable</term>. Et que si elle avoit dict que le <term ref="lem017521">diable</term>
+							<lb/>leur jou<subst><del>oit</del><add place="overwritten">at</add></subst> du violon en forme de <term ref="lem019402.01">bouc</term> à la <term ref="lem017043.01">secte</term>,
+						<lb/>elle s’estoit mesprise, puisqu’il leur jouoit en forme
+						<lb/>de jeune homme habillié de verd et un chapeau
+						<lb/>retroussé.</p>
+						<p><lb/>Finallement encor serieusement interrogée sur ses complices,
+					<pb n="423"/><lb/>et notamment sur ce qu’elle avoit dict de la <persName>Motteta</persName>, pourquoy
+						<lb/>l’avoit rendu suspecte d’avoir <term ref="lem018556.03">maleficié</term> les enfants de <persName>Bro<lb break="no"/>dard</persName>, a affirmé n’en rien sçavoir et l’avoir entendu dire
+						<lb/>de ceux de la <term ref="lem018835.02">tiolleire</term>, n’avoir eu aucune conversation
+						<lb/>ny familiarité avec elle, ne la cognoistre que quand
+						<lb/>la void, et ne la sçavoir que femme de bien, et n’avoir
+							<lb/>dans la <term ref="lem017043.01">secte</term> ny hors d’icelle cogneu aucuns complices.</p>
+						<p><lb/>Et toutes ses negatives et <term ref="lem019465.02">confessions</term> luy ayant esté
+						<lb/>distinctement et separement reiterées et representées
+						<lb/>avec serieux advertissements de declarer la verité pour
+							<lb/>le salut de son <term ref="lem018939.02">ame</term>, icelle les a soustenues et
+							<lb/>confirmées en deux <term ref="lem019550.03">elevations</term> <choice><sic>avce</sic><corr>avec</corr></choice> le <term ref="lem018232">quintal</term>
+						<lb/>aux pieds, sans avoir rien voullu changer, adjouster,
+							<lb/>ny diminuer, offrant ses <term ref="lem019473.02">tourments</term> à Dieu, et luy
+						<lb/>demandant pardon <subst><del>à Dieu</del><add place="inline"> et à Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice></add></subst>,
+							<lb/>se recommandant pour quelque <term ref="lem019504.02">grace</term> dans son supplice.</p>
+						<p><lb/>En suitte dequoy a esté par messieurs du droict cogneu,
+							<lb/>que d’autant ladite detenue a soustenu ses confessi<lb break="no"/>ons veritables par une <term ref="lem019550.02">eslevation</term> au <term ref="lem018232">quintal</term>, et
+						<lb/>ses negatives par un autre. Et Leurs <choice><abbr>L.E.</abbr><expan>Excellences</expan></choice> par leurdite
+						<lb/>sentence du <origDate when="1676-07-03">3<hi rend="sup">me</hi> du present</origDate> remettent a leur discretion
+						<lb/>ceste procedure&#160;; icelle ne debvoir a present estre
+							<lb/>davantage questionnée ny <term ref="lem019427.06">torturée</term>. Ains le
+							<lb/>tout rapporté à Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice> du Conseil estroit<note>Il s’agit du Petit Conseil.</note>
+						<lb/>et la dessus attendre leur jugement et volonté.</p>
+						<p><lb/><origDate when="1676-07-11">L’11<hi rend="sup">me</hi> juillet <hi rend="underline">1676</hi></origDate> a esté jugée d’estre estranglée et
+						<lb/><term ref="lem019496.12">bruslée</term>&#160;: ce qui a esté executé ledit jour.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

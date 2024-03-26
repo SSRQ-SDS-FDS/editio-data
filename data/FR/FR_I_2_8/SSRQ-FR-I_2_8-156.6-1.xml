@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 223–224</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 223–224</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Vater / le père – Verhör</head>
+					<head xml:lang="fr">Pierre Ducli der Vater / le père – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-10"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="223"/><p><lb/><hi rend="outdent"><placeName ref="loc007690.02">Spittal</placeName></hi>, den <origDate when="1651-07-10">10<hi rend="sup">ten</hi> ju<subst><del>n</del><add place="overwritten">l</add></subst>i 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per014042a.02">Hanß Niclauß Wildt</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.02">Zurmatten</persName></seg></p>
+						<p><seg><lb/><persName ref="per020477a.05">Pieru du Cli</persName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examiné dit,
+							<lb/>sans varier, que une mauvaisse advission luy survient
+							<lb/>le jour de l’<term ref="lem019530.02">embrassement</term>, sur la collere conceue contre
+							<lb/>sa filie <persName>Jabi</persName> et <persName>Marion</persName>, soeur du <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> curé de <placeName ref="loc007899.07">Barberezi</placeName>,
+							<lb/>de ce qu’il se mocquoient <add place="below">de luy</add><note>L’ajout se trouve sur la ligne d’en-dessous, avec un numéro 2 suscrit, le numéro 1 se trouvant au-dessus du mot <q>&#160;mocquoient&#160;</q>.
+								Dans la marge de gauche se trouvent les mots <q>&#160;qu’il&#160;</q>, effacés, sans que l’on sache à quoi ils se référaient.</note> à son arrivée par leur rire.
+							<lb/>La quelle luy causat et l’induict d’encend<lb break="no"/>rer sa maison&#160;; avoir aussi il ast quelque temps prié
+							<lb/>domp <persName>Claude</persName> et certain du moulin de le derechef lier
+							<lb/>et garroter comme par avant, ce que, s’il eussent
+							<lb/>mis en effect, cest <term ref="lem019530.01">embrasement</term> ne f<subst><del>er</del><add place="overwritten">us</add></subst>t survenu.</seg>
+							<seg><lb/>Ret<subst><del>ourant</del><add place="above">urnant</add></subst> de la ville un peu chargé de vin, la foire
+								<lb/><date when="1650-11-23"><choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per013804a.01">Clement</persName></date>, dernier la <placeName>Chapelle S<hi rend="sup">t</hi> Jasque</placeName><note>Il ne s’agit pas de la <placeName ref="loc011696.02">Chapelle Saint-Jacques</placeName> à Tavel, car il va dans l’autre direction.
+								Toutefois, dans les interrogatoires menés les <date when="1651-07-25">25</date> et <date when="1651-07-26">26 juillet 1651</date>, <persName ref="per020477">Pierre Ducli</persName>, le père, évoque la <placeName ref="loc011699">Chapelle Saint-Antoine</placeName> à <placeName ref="loc008137">Villars-sur-Glâne</placeName>, ce qui fait
+								davantage sens compte tenu des autres lieux mentionnés dans son procès, comme <placeName ref="loc008073">Matran</placeName> et <placeName ref="loc008500">Moncor</placeName>.</note>, assere s’estre
+							<lb/>endormi, ou estant esvellié poursuivant son chemin
+							<lb/>à la maison, il se fouvoiat, entrant dans des bouissons,
+						<pb n="224"/><lb/>dans quels se recognaisant esgaré, il se recomandat
+								<lb/>à Dieu et à la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge, ainsi ne veut avoier <foreign xml:lang="la">illec</foreign>
+							<lb/>veu aulcun spectre, ni que qu<subst><del>il</del><add place="overwritten">e ce</add></subst> soit.</seg> <seg>En la montagnie
+							<lb/>assere veritablement, il ast quelque temps, qu’une
+							<lb/>siene <term ref="lem017507">vache</term>, la quelle il avoit avec d’aultres
+								<lb/>enfermé dans un <term ref="lem015035.01">pasquier</term>, s’egarat et deperdit&#160;;
+								<lb/>l’ayant volu conduire à une foire, la quelle cher<lb break="no"/>chant, trovat un <term ref="lem015172">pasteur</term> qui luy dit qu’elle
+							<lb/>estoit tout à l’eure passée, la quelle il trova ossitout,
+							<lb/>ayant quitté le dit berger proche d’un ruisseaux&#160;;
+							<lb/>et que le dit berger estoit habilé avec chapeaux
+								<lb/>pointu, porpoint ethault de  <term ref="lem015400.04">chosse</term> noiere, baz
+							<lb/>blanc, ou il ne veut avoier faict, cherchant dite
+							<lb/><term ref="lem017507">vache</term>, aultre rencontre, demandant humble<lb break="no"/>ment à Dieu et à
+								<choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> pardon.<note>Le passage qui suit concerne les procès menés
+									contre <persName ref="per020329">Elsi Veillard</persName> et <persName ref="per020304">Agathe Wirz-Corboz</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-155.9-1">SSRQ FR I/2/8 155.9-1</ref> et <ref target="urn:ssrq:SSRQ-FR-I_2_8-154.15-1">SSRQ FR I/2/8 154.15-1</ref>.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

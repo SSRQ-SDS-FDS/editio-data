@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-123-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-T8.17</idno>
+               </msIdentifier>
+               <head>Accord (dit traité de Liverdis) passé entre M.&#160;de Liverdis, représentant
+                  de Marie de Bourbon, comtesse de Neuchâtel, et les Quatre Ministraux concernant
+                  plusieurs points de leurs franchises</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Cahier</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.8"/>
+                              <width unit="cm" quantity="28.1"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="damaged" ns0:attachment="sealed on a ribbon" ns0:material="wax"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1585-09-15" calendar="Julian"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_263"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;123</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000468"></term>
+               <term ref="key005297"></term>
+               <term ref="key000086"></term>
+               <term ref="key000065"></term>
+               <term ref="key003389"></term>
+               <term ref="key000366"></term>
+               <term ref="key000129"></term>
+               <term ref="key000273"></term>
+               <term ref="key000266"></term>
+               <term ref="key004136"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1" facs="AEN_AS_T8_17_1"/>
+               <div>
+                  <p>
+                     <lb/>Monsieur de Lyverdis, ambassadeur du Roy aux Ligues Grises<note>Note
+                        Favarger&#160;1982&#160;: Jean Grangier, sire de Liverdis, fut ambassadeur
+                        ordinaire du roi de France aux Ligues Grises de 1573 à 1587. Cf.&#160;Rott,
+                           <hi rend="italic">Histoire de la représentation diplomatique</hi>, II,
+                        p.&#160;323-338.</note> ayant charge <lb/>de Madame la duchesse de
+                     Longueville et de Toute ville de son conté de <lb/>Neufchastel, par l’advis de
+                     Messieurs les gouverneurs et gens du conseil d’estat audict conté <lb/>de
+                     Neufchastel, desirans vuider et paciffier aucuns poinctz qui sont en different
+                     entre <lb/>ladicte Dame et les sieurs quatre ministraulx representans le corps
+                     de la ville dudict <lb/>Neufchastel, affin que toutes occasions de debat ostées
+                     et lesdictz de Neufchastel rendans <lb/>generallement et particulierement a
+                     madicte dame les devoirs et obeissance qu’ilz luy doivent, <lb/>elle ayt tant
+                     plus d’occasion de les cherir et aymer, s’en servir, les employer et advancer
+                     <lb/>selon leur merite comme elle faict ses aultres subgectz, vassaulx et
+                     bourgeois de <lb/>sondict conté, ont dressé et mis en avant les moyens et
+                     expediens qui s’en suivent.</p>
+                  <p><lb/>Avec protestation touteffois que tout ce qui sera par eulx dict, respondu,
+                     proposé et advancé <lb/>sur les plainctes, demandes et pretentions desdictz
+                     quatre ministraulx au nom susdict, s’entend <lb/>estre de nul effect et valleur
+                     jusques a ce qu’il ayt esté loué, approuvé et ratiffié par <lb/>madicte dame et
+                     qu’il ne puisse ny doive aucunement nuyre a ses droictz ny en acquérir ausdictz
+                     <lb/>ministraulx au cas que pour raison desdictz poinctz ou aucuns d’iceulx, il
+                     falut venir en <lb/>justice mais demoureront chacune partie en l’integrité de
+                     leurs droictz esquelz ilz <lb/>sont ou estoient avant les presens articles. </p>
+                  <p><lb/>Sur le premier article concernant le chastiement de ceulx qui auroient esté en
+                     la <lb/>guerre de France soubz le duc Cazimir que madicte Dame voulloit et
+                     entendoit estre <lb/>chastiez par sa prison ordinaire et non par leur caige ou
+                     javiolle oultre les <lb/>amandes pecuniaires pour paier les fraiz de ses
+                     ambassadeurs qui avoient esté <lb/>aux journées tenues par Messieurs les
+                     Suisses et aultres despences et voiaiges <lb/>faictz pour cest effect. </p>
+                  <p><lb/>Après que lesdictz quatre ministraulx ont esté ouys et qu’ilz ont percisté a la
+                     responce <lb/>sur ce par eulx cy devant faicte, assavoir que s’estans Messieurs
+                     les Suisses contentez <lb/>du chastiement qui seroit faict aux cappitaines et
+                     soldatz dudict Neufchastel, tel et semblable <lb/>qu’auroient eu ceulx de
+                     Messieurs de Berne, ce que madicte dame a laquelle en <lb/>fut escript avoit eu
+                     agreable comme aussi madame la marquise se trouvant <lb/>audict Neufchastel
+                     auroit depuis a la requeste d’aucuns seigneurs dudict Berne consenti <lb/>que
+                     au lieu de la prison, lesdictz cappitaines et soldatz de Neufchastel seroient
+                     seullement <lb/>chastiez de ladicte caige et javiolle, ce qui fut executé.
+                     Enquoy faisant disent lesdictz <lb/>ministraulx qu’ilz n’ont faict aucune
+                     entreprinse sur les droictz et auctoritez de madicte <lb/>dame et seroient très
+                     maris de le faire, mais attendu que lesdictz chastiemens ont esté <pb n="2"
+                        facs="AEN_AS_T8_17_2_3"/>
+                     <lb/>faictz en la maniere susdicte et que la pluspart des cappitaines et de
+                     leurs officiers sont <lb/>deceddez supplient très humblement madicte Dame se
+                     voulloir contenter de ce qui a esté faict quant <lb/>ausdictz chastiemens
+                     corporelz, et quant aux amandes, offrent de tenir la main a ce qu’elles
+                     <lb/>soient promptement exigées par ceulx qui ont esté depputez a ce faire par
+                     le conseil de madicte <lb/>dame.</p>
+                  <p><lb/>Nous sommes d’advis que madicte dame sera suppliée de gratiffier lesdictz
+                     quatre ministraulx en ce <lb/>qu’ilz demandent qu’il ne soit plus faict aucune
+                     poursuitte desdictz chastiemens corporelz <lb/>en paiant promptement lesdictes
+                     amandes pour estre emploiées en ce qui en a esté cy devant <lb/>ordonné et
+                     accordé avec lesdictz quatre ministraulx&#160;; ce que leur estant accordé par
+                     madicte dame <lb/>ilz le recevront et recongnoistront de la bonté, clemence et
+                     grâce specialle de son Excellence, <lb/>attendu que selon la prononciation
+                     faicte en semblable cas par Messieurs de Berne le <lb/>jeudy après le dimanche
+                     Judica mil quatre cens septante ung entre monseigneur Rodolff, <lb/>marquis de
+                     Hochberg, conte de Neufchastel, et les quatre ministraulx dudict Neufchastel,
+                     <lb/>ledict faict d’aller en guerre ou levées sans le mutual sceu, auctorité,
+                     consentement <lb/>et voulloir de leurdict seigneur ou de ses officiers est jugé
+                     perfidie dont le chastiement est <lb/>attribué audict seigneur conte, seul ou a
+                     ses officiers.</p>
+                  <p><lb/>1.&#160;Et affin que telle chose n’advienne plus par cy après et que nul
+                     dudict Neufchastel soient <lb/>conseillers et bourgeois dehors ou receans en
+                     ladicte ville ne soient si hardis ou temeraires <lb/>d’encourir plus en telle
+                     faulte s’ilz ne veullent estre chastiez de ladicte peine de perfidie par
+                     <lb/>la prison de madicte dame ou de messeigneurs ses enffans et aultre tel
+                     chastiement qu’il <lb/>appartiendra, n’entandant toutesfois en ce comprendre
+                     les levées que se feront pour le <lb/>Roy de France, esquelz ilz pourront aller
+                     comme du passé et seront reiterées les deffences <lb/>portées par ladicte
+                     prononciation contenant de mot a mot ce qui s’ensuict&#160;:</p>
+                  <p><lb/>«&#160;Que lesdictz bourgeois de Neufchastel soient conseillers, bourgeois de
+                     dehors ou receans en ladicte <lb/>ville, devront jurer a leur seigneur si
+                     souvent que requis, et le faict y escherra de luy <lb/>rendre toute fidellité
+                     et loyaulté, eviter son dommaige, procurer son proffict, de ne <lb/>tirer en
+                     aucunes guerres ny levées, de ne faire aucunes seditions, esmotions ny
+                     assemblées, <lb/>secretement ny ouvertement, ny d’entreprendre aucunes de
+                     telles et semblables choses <lb/>sans le mutual sceu, auctorité, consentement
+                     et voulloir de leurdict seigneur ou de ses <lb/>officiers et conseillers de
+                     ladicte ville. Et si l’un d’eulx entendoit aucunes conspirations,
+                     <lb/>assemblées ou aultres semblables qui seroient contraires a leurdict
+                     seigneur de incontinant <lb/>le reveller et rapporter à luy, a ses officiers et
+                     conseillers et officiers de ladicte ville <pb n="3" facs="AEN_AS_T8_17_2_3"
+                     /> <lb/>ensemblement et de ce les advertir, et lequel d’iceulx seroit
+                     desobeissant et se prouvast <lb/>à la verité, icelluy pourra estre chastié par
+                     ledict seigneur et conte ou ses officiers <lb/>comme perfide selon son demerite
+                     et ordonnance du sainct empire.&#160;»</p>
+                  <p><lb/>2.&#160;Sur le deuxieme article concernant les audiances generalles
+                     lesquelles n’ont esté tenues <lb/>il y a plusieurs années au grand prejudice de
+                     plusieurs des subgectz, vassaulx et bourgeois <lb/>de ladicte conté.</p>
+                  <p><lb/>Après que lesdictz quatre ministraulx (à la requeste desquelz la tenue
+                     desdictes audiances a esté <lb/>suspendue a cause de la cherté du temps) ont
+                     offert de contribuer pour les fraiz desdictes <lb/>audiances generalles, telle
+                     part et portion qu’ilz pourront estre tenuz a la ratte des <lb/>années de ce
+                     qu’ilz ont tenu en admodiation de la presente conté, madicte dame sera suppliée
+                     <lb/>avoir agreable que lesdictes audiances soient tenues dans le mois de may
+                     prochain et <lb/>à cest effect ordonner a monsieur son gouverneur et lieutenant
+                     general audict conté de <lb/>les faire publier aux lieux et en la maniere
+                     accoustumée dans le quinzieme de mars <lb/>aussi prochain, qui est six
+                     sepmaines avant le terme suivant la coustume, advertissant <lb/>aussy ceulx qui
+                     ont tenu en admodiation aucunes partz et portions dudict conté qu’ilz
+                     <lb/>tiennent prest ce qu’ilz devront contribuer pour leur ratte et a raison du
+                     temps de <lb/>leurdicte amodiation s’ilz y sont tenuz.</p>
+                  <p><lb/>3.&#160;Sur le troysieme article qui est touchant ceulx que lesdictz
+                     quatre ministraulx font entrer <lb/>et sortir en leur caige ou javiolle de leur
+                     auctorité privée, sans la presence ou <lb/>consentement de l’officier de
+                     Madame, attendu que la confirmation de monseigneur le <lb/>duc Leonor d’Orleans
+                     est relative a la concession qui leur avoit esté auparavant <lb/>faicte de
+                     ladicte cage ou javiolle par le marquis François en l’an mil V<hi rend="sup"
+                        >C</hi> trente ung <lb/>contenant ces motz&#160;:<note>Note
+                           Favarger&#160;1982&#160;: Cf.&#160;<ref>SDS_NE_1_056</ref>, du (26 avril 1531).</note>
+                  </p>
+                  <p><lb/>«&#160;Avons aussi octroyé à noz bourgeois de ladicte ville et permis faire une
+                     prison et caige pour <lb/>mectre, punir et chastiier les enffans mal<note>Ce
+                        dernier mot «&#160;mal&#160;» avait été omis dans la transcription de
+                        Favarger&#160;1982, ce qui changeait fortement le sens de la phrase&#160;:
+                        ici on désigne bien des enfants «&#160;de mauvaise vie&#160;».</note>
+                     vivans, lesquelz font plusieurs folies et <lb/>insolences tant de nuict que de
+                     jour non criminelz, mesment ceulx qui derobent <lb/>les fruietz, a la charge
+                     touteffois que noz officiers y seront appeliez a iceulx prendre <lb/>et
+                     relascher, l’auctorité de nostre dicte dame tousiours gardée et expressement
+                     reservée.</p>
+                  <p><lb/>Et que par aucun droict ny devoir les ordonnances et decretz eclesiasticques ne
+                     leur <lb/>peuvent avoir acquis plus d’auctorité contre les contre venans a
+                     icelles que le seigneur <lb/>qui leur a accordé ladicte caige ou javiolle leur
+                     en a voullu donner contre les enffans <lb/>faisans des folies et non criminelz,
+                     lesquelz ilz ne pourront prendre ny relascher <lb/>que les officiers dudict
+                     seigneur n’y soient appeliez comme dict est, consideré aussi <pb n="4"
+                        facs="AEN_AS_T8_17_4_5"/>
+                     <lb/>que par la fin desdictz decretz et ordonnances eclesiasticques est
+                     notamment reservé de <lb/>les pouvoir amander, augmenter et amoindrir selon
+                     l’exigence des cas.</p>
+                  <p><lb/>Nous semble que pour ce regard, lesdictz quatre ministraulx doivent demourer
+                     auprès du contenu <lb/>en leursdictes franchises et en ce faisant
+                     n’entreprendre de mettre ny constituer prisonnier aucun <lb/>de quelque aage,
+                     qualité et condition ny pour quelque delict et cause que ce soit sans appeller
+                     <lb/>les officiers de madicte Dame et ne les relascher aussi que par leur
+                     participation et consentement. <lb/>Aultrement ilz se rendront indignes de la
+                     faveur et grace que leur prince leur a faict en cest endroict.&#160;»</p>
+                  <p><lb/>4.&#160;Pour le quatrieme article qui touche une aultre cage ou javiolle
+                     par eulx dressée en la <lb/>tour de Diesse, attendu la declairation qu’ilz ont
+                     faicte de ne s’en voulloir aider si madicte Dame ne <lb/>l’a agreable comme
+                     elle n’a, ilz s’en doivent depporter et n’en poinct user, mais se contenter
+                     <lb/>de celle qui leur a esté cy devant octroyée.</p>
+                  <p><lb/>5.&#160;Sur le cinquieme article concernant l’achapt qu’ilz ont faict du
+                     fief de la terre de Diesse et <lb/>faculté qu’ilz disent avoir d’achepter et
+                     tenir fiefz nobles par l’octroy et permission de monseigneur <lb/>le duc de
+                     Nemours du temps qu’il estoit conseigneur de ladicte conté de Neufchastel, avec
+                     feu <lb/>mondict seigneur le duc Leonor dernier deceddé, lequel fief ilz
+                     pretendent retenir nonobstant <lb/>les protestations qui ont tousjours esté
+                     faictes au nom de madicte Dame de le retirer, attendu <lb/>qu’il n’estoit en la
+                     puissance dudict seigneur de Nemours de donner et octroier aucune chose au
+                     prejudice <lb/>de son conseigneur et conte, requerans lesdictz quatre
+                     ministraulx que pour ne les rendre <lb/>de pire condition que plusieurs
+                     particuliers ausquelz mondict seigneur de Nemours seul avoit faict
+                     <lb/>semblables aultres graces ou concessions qui ont eu et ont encores lieu,
+                     la coppie dudict <lb/>previlege de mondict seigneur de Nemours leur soit
+                     confirmée par madicte dame. Eu esgard qu’en la <lb/>ruyne de leur tour qui
+                     advint par le ravage des eaues en l’an mil cinq cens septante neuf, <lb/>la
+                     pluspart de leurs tiltres et previleges furent emportez et anihirez et entre
+                     aultres l’original<note>Note Favarger&#160;1982&#160;: Cet original existe
+                        pourtant aux AVN, cf.&#160;<ref>SDS_NE_1_110</ref>.</note><lb/> du susdict
+                     qu'ilz disent avoir esté veu par madame la marquise et monsieur
+                     l'ambassadeur<lb/>d'Amours.</p>
+                  <p><lb/>Pour estre ledict faict nouveau et qui ne se peult decider par aucunes
+                     franchises precedentes, mesmement <lb/>que ledict sieur d’Amours desnye avoir
+                     jamais veu ledict previlege.</p>
+                  <p><lb/>Nous ne scaurions qu’en dire pour le present, mais est renvoyé a madicte
+                     dame pour en ordonner son bon <lb/>plaisir a laquelle sera aussi envoié la
+                     coppie du previlege de mondict seigneur de Nemours et <lb/>escript en
+                     recommandation desdictz quatre ministraulx pour leur faire telle gratiffication
+                     qu’elle <lb/>advisera.</p> <pb n="5" facs="AEN_AS_T8_17_4_5"/> 
+                     <p><lb/>6.&#160;Sur le sixieme article qui est pour regard des estrangiers qu’ilz
+                     veullent recevoir en <lb/>ladicte ville ou les chasser a leur plaisir sans la
+                     licence de madicte Dame ou de ses officiers <lb/>et contre leurs previlleges,
+                     entendant madicte Dame observer lesdictz previlleges de poinct <lb/>en poinct,
+                     la raison veult aussi que lesdictz quatre ministraulx facent le semblable de
+                     <lb/>leur part et contiennent les quatre articles qui s’ensuivent&#160;:</p>
+                  <p><lb/>«&#160;Et ne pourront nosdictz bourgeois recevoir nulz a bourgeois sans nous,
+                     ne nous sans eulx, <lb/>ne faire criées ny ordonnances en nostredicte ville de
+                     Neufchastel sans nous, ne nous sans eulx, <lb/>excepté en gaige de bataille et
+                     faict d’armes qui se feront doresenavant par devant <lb/>nous ou noz
+                     successeurs.</p>
+                  <p><lb/>Et si aucun estrangier, excepté qu’il ne soit de noz hommes ou des hommes de
+                     noz feodaulx, <lb/>resfuict en nostre ville de Neufchastel et y faict
+                     demourance an et jour sans estre requis <lb/>et il se represente a nous et aux
+                     quatre ministraulx de la ville a soy aider es <lb/>choses necessaires et
+                     communes usances, les bourgeois l’auront pour combourgeois <lb/>et nous avec
+                     eulx luy ferons maintenance s’il est necessité et s’il ne c’est poinct aidé
+                     <lb/>ne sera poinct tenu pour combourgeois ne a luy ne ferons maintenance
+                     dedans la ville, <lb/>tant comme pour l’auctorité de la ville ne permectons a
+                     luy estre faict charge.</p>
+                  <p><lb/>Et les estrangiers quant ilz se representent a l’entrée ne nous doivent rien ne
+                     es <lb/>ministraulx de la ville s’ilz ne le veullent donner de leur propre
+                     volonté et quant <lb/>il leur plaira avec entiere apportation de leurs biens
+                     pourront deppartir, et s’ilz veullent <lb/>tenir leurs possessions du dehors,
+                     les pourront tenir sauf noz droictz.</p>
+                  <p><lb/>Item donnons et octroyons a nosdictz bourgeois qu’ilz puissent faire et mettre
+                     tous statuz <lb/>et ordonnances entre eulx et sur leursdictz bourgeois tel
+                     comme leur plaira grandz ou <lb/>petis de cent solz en bas pour le bien et
+                     augmentation de nostredicte ville de Neufchastel et <lb/>iceulx statuz
+                     recouvrer par eulx ou par leurs messaigiers ou quiete ainsi que bon leur
+                     <lb/>semblera en retenant a nous banez, clames et recouses en faisant ledict
+                     office.&#160;»</p>
+                  <p><lb/>Par lesquelz articles appart clairement que lesdictz quatre ministraulx ne
+                     peuvent ne <lb/>doivent accepter et chasser ne imposer aucune chose sur
+                     lesdictz estrangiers habitans en ladicte <lb/>ville sans le sceu et
+                     consentement de madicte Dame ou de ses officiers, touteffois d’aultant <lb/>que
+                     par leur responce cy devant faicte sur semblable article, ilz s’excusent sur
+                     les <lb/>incommoditez et surcharges qu’apportent en leur ville plusieurs
+                     estrangiers pauvres et <lb/>de nulle consideration&#160;; madicte Dame ne
+                     voullant tollerer telles gens en ladicte ville ny en tout <lb/>son conté, veult
+                     et entend qu’il soit faict ung roolle de tous les estrangiers estans <lb/>en
+                     icelle ville et adviser entre les officiers de Son Excellence et lesdictz
+                     quatre ministraulx <pb n="6" facs="AEN_AS_T8_17_6_7"/>
+                     <lb/>quelz desdictz estrangiers on devra retenir et quelz chasser de ladicte
+                     ville.</p>
+                  <p><lb/>Estant raisonnable que ceulx qui seront retenuz aident et portent leur part des
+                     charges, <lb/>reparations et aultres fraiz de ladicte ville&#160;; lesdictz
+                     quatre ministraulx dresseront ung roolle <lb/>contenant les noms et quallitez
+                     de tous les estrangiers qui seront en ladicte ville sur lesquelz <lb/>ils
+                     vouldront gecter quelque imposition, lequel ilz apporteront au seigneur
+                     gouverneur pour avoir <lb/>congé et permission de faire ladicte imposition
+                     qu’il leur accordera selon l’exigence du cas pour <lb/>estre le tout applicqué
+                     ausdictes charges, reparations et aultres fraiz que supporte ladicte ville,
+                     <lb/>n’entendant en ce comprendre les reutes que lesdictz quatre ministraulx
+                     commanderont et <lb/>que lesdictz estrangiers seront tenuz de faire en la
+                     maniere accoustumée, le tout sans <lb/>aucunement prejudicier ny desroger aux
+                     droictz que madicte Dame a sur lesdictz estrangiers ny <lb/>aux franchises
+                     desdictz quatre ministraulx.</p>
+                  <p><lb/>Et affin que toutes choses passent par meilleur ordre et que madicte Dame et
+                     lesdictz quatre <lb/>ministraulx et bourgeois de ladicte ville se puissent tant
+                     mieulx asseurer desdictz estrangiers, <lb/>sera ordonné et observé pour
+                     l’advenir, tant en ladicte ville qu’en tous les aultres endroictz <lb/>dudict
+                     conté que tous estrangiers qui y auront résidé par an et jour et seront en
+                     volonté <lb/>d’y faire plus grande residence, si on le leur veult permectre,
+                     promecteront et jureront <lb/>d’estre bons, loyaulx et fidelles habitans tant
+                     de madicte Dame que de messeigneurs ses <lb/>enffans et d’estre obeissans a
+                     tous les commandemens qui leur seront faictz de leur <lb/>part et de reveller a
+                     leurs Excellences toutes entreprinses qui se pourront faire contre <lb/>leurs
+                     auctoritez souveraines et proprietaires et de eviter icelles pendant qu’ilz
+                     resideront <lb/>en ladicte ville; procureront et advanceront de tout leur
+                     pouvoir le bien, honneur, proffict <lb/>et auctorité tant de leurs Excelences
+                     que des quatre ministraulx de ladicte ville de <lb/>Neufchastel, comme bons et
+                     fidelles habitans sont tenuz de faire legitimement.</p>
+                  <p><lb/>7.&#160;Quant au septième article concernant de mettre le pris de la vente
+                     du vin et la <lb/>quictation du serment du maire, ayant leu l’article de la
+                     franchise faisant mention <lb/>de ladicte vente qui est du <date
+                        when="1454-02-12">douziesme fevrier mil quatre cens cinquante quatre
+                     </date>contenant <lb/>ce qui s’ensuict:</p>
+                  <p><lb/>«&#160;Auront aussi nosdictz bourgeois la tauxe du mazel, du pain, du vin, du
+                     poisson et aultres <lb/>choses que l’on doibt tauxer ainsi qu’il est accoustumé
+                     du temps passé.&#160;»</p>
+                  <p><lb/>Nous disons que cella s’entend du vin et aultres susdictes denrées qui se
+                     vendent en destail <lb/>en ladicte ville et non pour mectre le taux general du
+                     vin que regarde tant le dedans que le <lb/>dehors de ladicte ville qui
+                     appartient au seigneur seul et a son conseil ne leur pouvant <pb n="7"
+                        facs="AEN_AS_T8_17_6_7"/>
+                     <lb/>avoir acquis aucun tiltre en cest endroict, le taux qu’ilz ont faict
+                     dudict vin durant vingt ung <lb/>ou vingt deux années qu’ilz ont tenu
+                     l’admodiation des droictz et revenuz de la seigneurie.</p>
+                  <p><lb/>Ce neantmoings affin que les choses se f acent pour l’advenir avec meilleur
+                     ordre, ne se <lb/>fera plus ledict taux par le receveur sur la seulle
+                     information qu’il faict telle et avec <lb/>qui il luy plaist du prix qui se
+                     doibt donner chacun an audict vin, mais sera faicte par <lb/>le gouverneur et
+                     gens du conseil de madicte Dame, information deuement prise du prix <lb/>qu’on
+                     luy devra donner eu esgard a la qualité de l’année.</p>
+                  <p><lb/>Et d’aultant que lesdictz quatre ministraulx ont remonstré que leurs bourgeois
+                     sont <lb/>les plus intéressez audict taux du vin a cause des obligations qu’ilz
+                     font au long de <lb/>l’année pour recouvrer argent, marchandises et aultres
+                     choses qui sont necessaires pour <lb/>leur usaige de paier en vin au taux qui
+                     en est faict chacun an a la saint Martin, sera <lb/>madicte Dame suppliée
+                     d’avoir agreable que quant lesdictz gouverneur et gens de son conseil
+                     <lb/>procedderont audict taux du vin ilz demanderont jusques au nombre de
+                     trois, soient <lb/>ministraulx ou bourgeois telz qu’il leur plaira, pourveu
+                     qu’ilz soient du conseil de <lb/>ladicte ville, ayans congnoissance et
+                     experiance de la valleur du vin pour en avoir leur <lb/>advis et le dire par
+                     eulx, promptement et sur le champ, pour estre suyvi ou <lb/>non par lesdictz
+                     gouverneur et gens du conseil, selon qu’ilz le trouveront estre
+                     <lb/>raisonnable et équitable.</p>
+                  <p><lb/>Et en tant que touche le faict du mayre estant chose qui a esté cy devant
+                     souventeffois <lb/>disputée et sur laquelle est intervenue prononciation de
+                     Messieurs de Berne du <lb/><date when="1451-04-11" calendar="Julian">unziesme
+                        jour d’avril mil quatre cens cinquante ung</date> affin que ce qui en fut
+                     lors <lb/>prononcé soir observé pour l’advenir sera cy inceré de mot a mot et
+                     contient ce qui <lb/>s’ensuict&#160;:<note>Note Favarger&#160;1982&#160;: La
+                        sentence arbitrale est conservée aux AEN, sous la cote N&#160;6, N<hi
+                           rend="sup">o</hi>&#160;1<hi rend="sup">a</hi>, cf.&#160;Chambrier, <hi
+                           rend="italic">Histoire</hi>, p.&#160;159.  La cote est aujourd'hui AEN,
+                        AS-N6.1a.</note>
+                  </p>
+                  <p><lb/>«&#160;Avons prononcé, sentencé et declairé touchant ledict premier poinct du
+                     mayor <lb/>par la maniere qui s’ensuict. C’est assavoir que mondict seigneur le
+                     conte, pour luy et pour <lb/>ses hoirs et successeurs et pour ceulx qui de luy
+                     auront cause au temps advenir, peuvent <lb/>et pourront mectre, establir et
+                     depputer ung maire en ladicte ville de Neufchastel tel <lb/>que bon leur
+                     semblera et leur plaira, lequel fera le serment a mondict seigneur et eis
+                     siens, <lb/>comme dessus, de garder le droict de mondict seigneur et de ladicte
+                     ville, comme il est <lb/>accoustumé et toutes et quanteffois que les quatre
+                     ministraulx dudict Neufchastel <lb/>ou aultres amasseront ou congregeront le
+                     conseil pour quelque cause ou raison que <lb/>ce soit, devront et seront tenuz
+                     de le faire scavoir deuement sans fraude au dict maire <lb/>qui sera pour
+                     adoncques, lequel y pourra et devra estre et adcister, si bon luy semble,
+                     <lb/>ou son lieutenant qui devra estre l’un des vingt quatre jurez tel qu’il
+                     plaira audict maire <lb/>pour toujours représenter la personne du seigneur et
+                     tant qu’il touche de faire <pb n="8" facs="AEN_AS_T8_17_8_9"/>
+                     <lb/>et gecter communance et faire aussi les comptes d’icelle ville y pourra et
+                     devra estre <lb/>comme dessus est dict, ou son lieutenant s’il luy plaict, sans
+                     ce que ledict maire ou son <lb/>lieutenant y puisse faire ou doive mettre
+                     empeschement en faisant lesdictes communances et comptes, <lb/>mais se sera
+                     toujours au proffict de ladicte ville. Et au regard de faire statuz par
+                     lesdictz bourgeois <lb/>pour la repparation et augmentation de ladicte ville,
+                     lesdictz bourgeois le pourront doresnavant <lb/>faire pour la cause que dessus
+                     jusques a cent solz <choice><sic>vallois</sic><corr resp="Favarger">bâlois</corr></choice> et au dessoubz par maniere comme
+                     <lb/>est accoustumé&#160;; et en faisant lesdictz statuz, le maire y pourra et
+                     devra estre, si bon luy <lb/>semble, ou son lieutenant, et ne les pourra ne
+                     devra rien destourber ou empescher lesdictz bourgeois <lb/>en faisant lesdictz
+                     statuz ne avoir voix fors que ainsi que l’ung des aultres, mais toujours
+                     <lb/>le plus l’emportera.&#160;»</p>
+                  <p><lb/>Encores est contenu en la reconfirmation faicte par feu de très illustre
+                     memoire monseigneur <lb/>Leonor d’Orléans, dernier mort, conte souverain de
+                     Neufchastel, aux bourgeois dudict Neufchastel, <lb/>le vingt sixiesme jour de
+                     janvier mil cinq cens soixante deux l’article suivant&#160;:<note>Note
+                        Favarger&#160;1982&#160;: Cf. <ref>SDS_NE_1_50</ref> art.&#160;35.</note></p>
+                  <p><lb/>«&#160;Item nous sommes expressement retenuz et reservé le pouvoir et puissance
+                     de mectre en <lb/>nostredicte ville de Neufchastel ung maire tel qu’il nous
+                     plaira et au cas que voulsissions <lb/>prendre l’un de ceulx du conseil des
+                     vingt quatre de nostredicte ville de Neufchastel, que ce <lb/>sera a la charge
+                     de quicter par luy le serment qu’il a <supplied source="Favarger"
+                        >presté</supplied> a ceulx du conseil de ladicte ville.&#160;»</p>
+                  <p><lb/>Ne faisant aucunement a l’intention desdictz quatre ministraulx que ledict
+                     maire ne doive intervenir <lb/>à leur conseil, s’il ne leur a faict serment, ce
+                     que par ladicte confirmation est dict que au <lb/>cas qu’il vueille l’ung de
+                     ceulx du conseil des vingt quatre pour mettre maire <lb/>audict Neufchastel, il
+                     sera tenu de quicter le serment qu’il a <supplied source="Favarger"
+                        >presté</supplied> a ceulx du conseil de ladicte ville, <lb/>car au
+                     contraire c’est affin que adcistant audict conseil de la part du prince,
+                     suivant ce <lb/>qui est porté par le susdict article de prononciation, il
+                     puisse tant mieulx estre respecté <lb/>comme sa personne et garder que en faict
+                     et en parolle il ne soit traicté, dict ne proferé <lb/>aucune chose de luy que
+                     avec le respect et reverance deue a son souverain seigneur.</p>
+                  <p><lb/>Touteffois pour lever ausdictz ministraulx la deffiance qu’ilz disent avoir que
+                     ung maire <lb/>n’ayant <supplied source="Favarger">presté</supplied> serment a
+                     leurdict conseil revelle les choses qui y seront traictées par le moyen <lb/>de
+                     quoy toutes leurs affaires seroient descouvertes, madicte Dame sera suppliée
+                     trouver bon <lb/>que au serment qu’a accoustumé de faire ledict maire en
+                     entrant audict office soit adjousté <lb/>cest article&#160;: </p>
+                  <p><lb/>«&#160;Vous jurez aussi de tenir secret tout ce qui sera dict et traicté en
+                     vostre presence au conseil de ladicte <lb/>ville de Neufchastel de quelque
+                     nature et a quelque personne que se soit ne touchant <lb/>ou concernant
+                     directement ou indirectement la personne, affaires, droictz, auctoritez et <pb
+                        n="9" facs="AEN_AS_T8_17_8_9"/> 
+                     <lb/>preheminences et estât de madicte Dame, nosseigneurs ses enffans et leurs
+                     successeurs, en <lb/>quelque sorte et maniere que ce soit, esquelz cas vous
+                     serez tenu le reveller à son Excelence <lb/>ou a ses officiers comme aussi y
+                     sont tenuz et obligez par leur serment lesdictz quatre <lb/>ministraulx,
+                     conseillers et bourgeois de ladicte ville.&#160;»</p>
+                  <p><lb/>8.&#160;Sur le huictiesme article concernant le droict que lesdictz quatre
+                     ministraulx pretendent <lb/>avoir d’inscrire en leurs roolles et levées de gens
+                     de guerre les habitans du Vautravers <lb/>qui ont bourgeoisie audict
+                     Neufchastel nonobstant la remonstrance qui leur a esté <lb/>faicte, que Madame
+                     a la premiere ellection sur eulx comme estans francz sergeans <lb/>de son
+                     Excelence et comme telz doivent la garde du chasteau de madicte Dame audict
+                     <lb/>Vaulxtravers, les charrois, l’aide pour lever les ramures dudict chasteau
+                     et l’aide <lb/>pour conduire les prisonniers ainsi que du passé a esté faict et
+                     qu’il est porté par <lb/>leurs recongnoissances.</p>
+                  <p><lb/>Estant chose toute certaine qu’ilz estoient obligez ausdictz devoirs et
+                     services envers madicte <lb/>Dame avant qu’ilz feussent receuz en ladicte <del rend="strikethrough"><!-- PS: bitte ergänzen --></del>
+                     bourgeoisie, aussi que par la <lb/>combourgeoisie que lesdictz de Neufchastel
+                     ont avec les magnifficques et puissans <lb/>seigneurs de Berne sont signament
+                     exceptez et reservez tous les droictz ausquelz <lb/>lesdictz de Neufchastel
+                     sont tenuz envers leur conte et seigneur souverain, ses heritiers <lb/>et
+                     successeurs, madicte Dame ne peult consentir que lesdictz quatre ministraulx
+                     facent <lb/>lesdictz enrollemens ny tirent lesdictz bourgeois dudict pais de
+                     Vautravers pendant qu’ilz y <lb/>resideront et habiteront et qu’elle aura
+                     besoing de s’en servir, n’empeschant qu’ilz ne <lb/>le puissent faire quant ilz
+                     viendront resider en ladicte ville ou qu’elle n’aura aucun <lb/>besoing de leur
+                     service.</p>
+                  <p><lb/>9.&#160;Que le neufiesme article qui touche l’election que lesdictz quatre
+                     ministraulx veullent aussi <lb/>avoir sur les officiers et receveurs de madicte
+                     Dame qui sont bourgeois de ladicte ville, il a <lb/>esté convenu et arresté que
+                     iceulx quatre ministraulx n’auront aucune ellection <lb/>en temps de guerre sur
+                     leurs personnes&#160;; mais quant aux impostz qu’ilz pourraient <lb/>faire sur
+                     les aultres bourgeois le pourront aussi faire sur lesdictz officiers qui sont
+                     <lb/>bourgeois a mesure et equipolent qu’ilz auront et tiendront des maix
+                     bourgeoiseaulx <lb/>seullement en toute equicté, rondeur et bonne foy, comme
+                     l’un de leurs aultres <lb/>bourgeois dedans et dehors de ladicte ville et non
+                     pour regard de leurs fiefz et aultres <lb/>biens qu’ilz auront dedans le reste
+                     du conté, reservé quant ilz seront emploiez en <lb/>personne pour la propre
+                     guerre du prince et du pais, auquel cas et non aultrement <lb/>ilz en seront
+                     exemptz. Et affin d’esclairier qui sont les officiers et receveurs qui doivent
+                     <lb/>estre exemptz au contenu du susdict article, a esté dict que ce sont les
+                     officiers, gens <pb n="10" facs="AEN_AS_T8_17_10_11"/> 
+                     <lb/>tenans le conseil, procureur, receveur et secretaire d’estat de son
+                     Excellence et non aultre. <lb/>Reservant aussi que si le prince faisoit
+                     residance en ce lieu, que oultre les susnommez seront <lb/>aussi tous aultres
+                     officiers et serviteurs domesticques estans près de sa personne, exemptz
+                     <lb/>de ladicte ellection et giecte, le tout sans corrompre et enfraindre en
+                     maniere quelconque les <lb/>constitutions, libertez et franchises de ladicte
+                     ville de Neufchastel, ensemble les accordz, <lb/>traictez et prononciations
+                     faictes cy devant, tant par les seigneurs des Ligues que <lb/>Messieurs des
+                     estatz, ny par conséquent aux auctoritez et droictures tant souveraines que
+                     <lb/>propriaitaires de madicte Dame, lesquelz en tout et par tout, par le moyen
+                     du present article <lb/>doivent estre gardées, observées et entretenues sans
+                     nul aggaist, fraude ny barrat.</p>
+                  <p><lb/>10.&#160;Sur le dixiesme article concernant le mespris faict aux
+                     auctoritez de madicte Dame <lb/>d’avoir sans sa licence ou de ses officiers
+                     depposé et mis hors du siégé de justice ung des <lb/>justiciers qui longtemps
+                     auparavant avoit esté mis et institué de la part de son <lb/>Excellence&#160;:</p>
+                  <p><lb/>A quoy lesdictz quatre ministraulx alleguent pour excuses qu’ilz estiment en
+                     cella n’avoir rien <lb/>entreprins sur l’auctorité de Madame, attendu qu’ilz
+                     l’ont seullement esté du conseil et <lb/>que tout ce qui a esté faict en cest
+                     endroict auroit esté <supplied resp="Favarger">faict</supplied> en presence et
+                     avec la participation <lb/>du lieutenant du maire en son absence, parceque
+                     ledict maire estoit parent du deppossedé, <lb/>confessans n’avoir pouvoir de
+                     depposseder ceulx de ladicte justice de leur auctorité.</p>
+                  <p><lb/>Et puis qu’il est question d’accommoder toutes choses passées et establir une
+                     meilleure inteligence <lb/>et obeissance a l’advenir, pour a quoy parvenir
+                     lesdictz quatre ministraulx et Abraham <lb/>Wiliomier, qui est celluy qui a
+                     esté deppossedé, ont remis a nostre decision et accord <lb/>amiable tous les
+                     differendz qu’ilz ont eu ensemble depuis treize ou quatorze ans en
+                     <lb/>ça&#160;; surquoy nous avons faict presentement une prononciation amyable
+                     qu’ilz ont acceptée <lb/>d’une part et d’aultre, en laquelle nous avons
+                     recongneu qu’il a esté satisfaict a l’auctorité <lb/>de madame en ce que ledict
+                     Wiliomier a reprins et a esté remis en son siégé de ladicte justice depuis
+                     <lb/>qu’il en fut déposé, madicte Dame sera suppliée d’avoir aggreable que
+                     iceulx ministraulx <lb/>et justiciers ne seront plus tenuz de recevoir ledict
+                     Wiliomier au siege de ladicte justice, <lb/>attendu que pour les injures et
+                     offenses passées entre eulx, il seroit impossible qu’elle <lb/>feust
+                     administrée avec la sincérité, union et bonne intelligence qu’il appartient,
+                     mais que <lb/>son plaisir soit le pourveoir de quelque aultre office en son
+                     service qui se pourra presenter.</p>
+                  <p><lb/>A la charge que survenant cy après quelque occasion de different ou querelle
+                     desdictz quatre <pb n="11" facs="AEN_AS_T8_17_10_11"/> <lb/>ministraulx contre
+                     aucun du corps de ladicte justice, ilz le pourront oster de leur conseil si bon
+                     leur <lb/>semble, mais quant a la justice qui appartient a madicte Dame
+                     <lb/>seulle et a messieurs ses enffans et leurs successeurs, ne l’en pourront
+                     oster, ains <lb/>feront entendre leurs plainctes et doléances a monsieur le
+                     gouverneur qui sera pour <lb/>lors audict conté pour en congnoistre et
+                     ordonner, ainsi que le cas requerra, n’estant <lb/>l’intention de son
+                     Excellence que aucun soit maintenu en ladicte justice qu’il n’en soit digne
+                     <lb/>et se comporte avec tout devoir et modestie par raison. Et quant a
+                     l’election d’iceulx <lb/>justiciers et conseillers, icelle demoure en tel estre
+                     comme du passé.</p>
+                  <p><lb/>11.&#160;Sur le dernier article concernant la demande qu’avoit esté faicte
+                     ausdictz quatre <lb/>ministraulx de rendre et remectre es mains de Madame la
+                     prinse de l’année <date when="1582">Mv<lb/><hi rend="italic">c</hi> octante
+                        deux </date>des abbaie de Fontaine André et prieuré du Vautravers, attendu
+                     le <lb/>reachapt faict d’icelles et la notiffication qui leur avoit esté faicte
+                     dudict reachap dès <lb/>le mois d’avril audict an. Autrement ilz auroient
+                     l’argent et le revenu.</p>
+                  <p><lb/>Lesdictz quatre ministraulx ont respondu que la coustume observée en ce conté
+                     de <lb/>Neufchastel en faict de rehemptions porte de les faire sur le premier
+                     dimenche <lb/>de mars et qu’ayant ceste cy esté faicte au mois de septembre
+                     dudict an mil cinq <lb/>cens octante deux seullement, la dicte coustume seulle
+                     les devoit exempter de <lb/>ladicte restitution si on ne les voulloit rendre de
+                     pire condition que tous les aultres <lb/>de ladicte conté. Mais il y a
+                     davantaige que pour fournir a Madame la marquise <lb/>les vingt cinq mil tant
+                     d’escus de l’engaigement desdictes deux pièces, ilz auroient <lb/>emprunctez
+                     les deniers en la ville de Basle a gros fraiz et interestz qu’il leur falut
+                     <lb/>paier pour ladicte année <date when="1582">Mv<hi rend="italic">c</hi>
+                        octante deux </date> et oultre ce faict les fraiz de la cueillette <lb/>des
+                     fruictz et des vandanges et les dixmes montez soubz leur nom et adveu en
+                     presence <lb/>des officiers et chastellains qui ne se y sont opposez ny
+                     contredict, comme ilz devoient <lb/>faire s’ilz estimoient que ladicte prinse
+                     deust revenir a Madame&#160;; à cause de quoy <lb/>maintiennent n’estre tenuz a
+                     ladicte restitution, car autrement ilz demoureroient <lb/>interessez et en
+                     perte desdictes censes par eulx paiées pour ladicte année mil cinq cens
+                     <lb/>octante deux, a faulte d’avoir faict ledict reachapt dans le temps porté
+                     par la <lb/>coustume. </p>
+                  <p><lb/>Nous pour toutes les considerations susdictes sommes d’advis soubz le bon
+                     plaisir de madicte <lb/>Dame que lesdictz quatre ministraulx doivent estre
+                     deschargez de ladicte restitution <lb/>et que son Excellence soit suppliée
+                     trouver bon qu’ilz n’en soient plus recerchez. <lb/>Attendu mesmement la
+                     prompte volonté qu’ilz ont demonstrée de s’accommodder à <lb/>tous les aultres
+                     poinctz des articles precceddens pour le bien et repos de chacun <pb n="12"
+                        facs="AEN_AS_T8_17_12_13"/> 
+                     <lb/>et que tout respect et obeissance soient tant mieulx rendues a madicte
+                     Dame et a messeigneurs <lb/>ses enffans.</p>
+                  <p><lb/>Les presens articles et responces a iceulx ont esté disputez et accordez avec
+                     les sieurs quatre <lb/>ministraulx en personne, adcistez de plusieurs aultres
+                     du conseil de ladicte ville de Neufchastel, <lb/>soubz le bon voulloir et
+                     plaisir de madame, attendant lequel ont esté signez deux doubles
+                     <lb/>semblables, l’ung pour nous lesdictz seigneur ambassadeur Grangier et
+                     seigneur Valier, gouverneur <lb/>audict conté au nom de madicte Dame et de son
+                     conseil, pour servir aux quatre ministraulx <lb/>et l’autre par leur secretaire
+                     seellé du seel de ladicte ville pour envoyer a son Excellence. <lb/>Faict au
+                     chasteau de Neufchastel <date when="1585-02-11" calendar="Julian">le unziesme
+                        jour de février mil cinq cens octante cinq <lb/>selon l’ancien
+                        calendrier</date>.</p>
+                  <p><lb/>Marie de Bourbon, duchesse de Longueville et de Touteville, contesse
+                     <lb/>souveraine de Neufchastel en Suisse, scavoir faisons que nous en nostre
+                     conseil avons <lb/>entendu les declairations et resolutions prinses et redigées
+                     en escript par nostre très cher <lb/>et bien amé Jehan Grangier, seigneur de
+                     Lyverdis, conseiller et maistre d’hostel ordinaire du <lb/>Roy et son
+                     ambassadeur aux Ligues Grises, ayant charge et auctorité de nous en cest
+                     <lb/>endroict, adeisté de noz gouverneur et gens de nostre conseil en
+                     nostredict conté de Neufchastel, <lb/>d’une part, et les quatre ministraulx
+                     representans le corps de nostredicte ville de <lb/>Neufchastel d’aultre, sur
+                     plusieurs poinetz qui estoient en disputte entre nous et eulx <lb/>pour raison
+                     de leurs franchises et aultres particularitez contenues et declairées en ce
+                     <lb/>présent cahier contenant sept feuilletz de parchemyn escriptz cestuy
+                     compromis. Et <lb/>le tout bien veu et considéré, nous de l’advis de nostredict
+                     conseil, avons loué, agréé, <lb/>rattiffié et approuvé, louons, agreons,
+                     ratiffions et approuvons, tant pour nous que <lb/>pour noz tres chers et très
+                     amez enffans, par lesquelz promectons aussi faire rattiffier <lb/>quant ilz
+                     seront parvenuz en aage tout ce que par ledict seigneur de Lyverdis, adeisté
+                     comme <lb/>dessus, a esté traicté conclud et arresté avec lesdictz quatre
+                     ministraulx au nom de ladicte <lb/>ville sur tous les poinetz susdictz et selon
+                     que contenu est en chacun article de cedict present <lb/>cahier. Et quant au
+                     cinquiesme article qui est remys a nous concernant l’achapt que <lb/>lesdictz
+                     quatre ministraulx ont faict du fief de la tour de Diesse scituée dans
+                     nostredicte ville <lb/>de Neufchastel et la permission de tenir fiefz qu’ilz
+                     disent avoir eue de monsieur le <lb/>duc de Nemours, nostre tres cher cousin,
+                     du temps qu’il estoit seigneur par moictié de nostredict <lb/>conté, surquoy
+                     ilz nous ont escriptt et allégué audict sieur de Lyverdis, qui nous a faict <pb
+                        n="13" facs="AEN_AS_T8_17_12_13"/> <lb/>entendre plusieurs raisons pour
+                     lesquelles ilz pretendent ladicte permission leur devoir estre <lb/>tollerée et
+                     rattiffiée, nous ayans en nostredict conseil bien considéré ce faict qui est de
+                     telle <lb/>importance, que laissant ainsi tomber les fiefz de nostredict conté
+                     en main morte, il <lb/>perdroit avec le temps ses vassaulx et par concequent
+                     son principal ornement et <lb/>deffence. Disons que nostredict cousin n’a peu
+                     ny deu donner telle permission au prejudice <lb/>de son conseigneur qui estoit
+                     feu nostre tres honnoré seigneur et espoux de louable memoire. <lb/>Et tant
+                     pour ceste considération que pour les aultres susdictes ne pouvons consentir
+                     <lb/>ny accorder que lesdictz quatre ministraulx et corps de nostredicte ville
+                     de Neufchastel <lb/>ny aultres de nostredict conté puissent acquerir, tenir ny
+                     posseder aucuns fiefz dans <lb/>icelluy. Et neantmoings ayans esgard a la
+                     priere et remonstrance qui nous a <lb/>esté faicte par ledict seigneur de
+                     Lyverdis pour lesdictz quatre ministraulx par eulx de <lb/>leur laisser ladicte
+                     tour de Diesse pour tenir leurs tiltres et papiers afin d’eviter <lb/>pour
+                     l’advenir ung semblable inconvénient que celluy ou ilz tomberent en <date
+                        when="1579">l’an mil <lb/>cinq cens soixante dix neuf</date> que le ravaiges
+                     des eaues emporta et demoliit leur <lb/>aultre maison de ville ou ilz feirent
+                     très grande perte et speciallement de leursdictz <lb/>tiltres et papiers, nous
+                     desirans gratiffier lesdictz quatre ministraulx et corps <lb/>de nostre dicte
+                     ville de Neufchastel en consideration de la prompte volonté qu’ilz ont
+                     <lb/>demonstrée a s’accommoder de tous lesdictz aultres poinctz et differendz.
+                     Et pour <lb/>l’esperance que nous avons qu’ilz se comporteront de telle façon
+                     pour l’advenir <lb/>que nous et nosdictz enffans en auront toute obéissance,
+                     leur avons permis et <lb/>permectons de retenir ladicte tour de Diesse pour
+                     s’en servir aux commoditez et usaiges <lb/>de leurdicte ville, non en tiltre de
+                     fief, lequel nous avons estainct et abolly, estaignons <lb/>et abollissons par
+                     ces présentes, ne que pour ce regard lesdictz quatre ministraulx <lb/>puissent
+                     avoir seance aux estatz et audiences ny user des aultres prehemynances à
+                     <lb/>eulx conceddées par la lectre de permission de nostredict cousin monsieur
+                     le duc de <lb/>Nemours, laquelle n’entendons avoir aucun lieu ny effect, mais
+                     seullement <lb/>pour tenir ladicte tour de la mesme nature et qualité que les
+                     aultres maisons <lb/>et ediffices qu’ilz posseddent en nostredicte ville, a la
+                     charge aussi qu’ilz ne la <lb/>pourront hausser ny fortiffier mais
+                     l’entretiendront seullement en l’estat <lb/>qu’elle est à present. Et que
+                     advenant surprinse d’ennemys ou emotion en <lb/>nostredicte ville, ce que Dieu
+                     ne vueille, nous, nosdictz enffans et leurs successeurs <lb/>nous pourrons
+                     servir de ladicte tour aux usaiges qu’ilz verront pour la <lb/>deffence et
+                     conservation tant du chasteau que de ladicte ville, et le peril <lb/>passé sera
+                     remise et delaissée ausdictz quatre ministraulx pour en user comme <lb/>de
+                     leurs aultres maisons et ediffices. Et pour entiere approbation des choses <pb
+                        n="14" facs="AEN_AS_T8_17_14_15"/> <lb/>susdictes, nous avons signé ces presentes
+                     de nostre main, commandé a nostre secretaire les <lb/>contresigner et a icelles
+                     faict apposer le seel de noz armes. Donné a <placeName>Paris</placeName> <date when="1585-07-20">le
+                        <lb/>vingtiesme jour de juillet, l’an mil cinq cens quatre vingtz
+                        cinq</date>, ainsi signé <lb/><persName>Marie de Bourbon</persName> et contresigné de <persName>Porquier</persName>,
+                     son secretaire, et scellé de son grand <lb/>sceau en cire rouge a lacz de soye
+                     pendant.</p>
+                  <p><lb/>Sur la remonstrance faicte a nous seigneur de Lyverdis, Valier, gouverneur, et
+                     gens du conseil <lb/>de Madicte Dame de la part desdictz quatre ministraulx au
+                     nom du conseil et communaulté <lb/>de ladicte ville de Neufchastel après leur
+                     avoir délivré les articles et ratiffications contenues <lb/>cy devant et en
+                     avoir esté faicte lecture en leurdict conseil, que les adcistans en icelluy
+                     <lb/>se sont fort offencez de ce mot d’estre chastiez comme perfides, dont
+                     mention est <lb/>faicte sur le premier article, comme non usité en tout le pais
+                     des Ligues, disans qu’il <lb/>n’avoit esté par eulx entendu lorsque lesdictz
+                     articles furent accordez entre nous. Et <lb/>requerans ladicte peine estre
+                     changée et interprétée en punition de corps et de biens <lb/>selon l’exigence
+                     des cas qui est tout ce qui se peult praticquer contre les plus <lb/>coupables.
+                     Nous desirans gratiffier lesdictz quatre ministraulx, conseil et communaulté
+                     <lb/>en cest endroict, consentons et accordons soubz le bon plaisir de madicte
+                     dame que <lb/>au lieu de la peine de perfidie les chastiemens s’entendront
+                     estre faictz en pugnition <lb/>de corps et de biens selon l’exigence des cas,
+                     demourans en toutes aultres choses lesdictz <lb/>articles ensemble tous aultres
+                     traictez, concordz et prononciations en leur force, vertu <lb/>et vigueur,
+                     ensemble les bourgeoisie qu’ilz ont avec les seigneurs de Berne.</p>
+                  <p><lb/>Nous les quatre ministraulx au nom de la ville, conseil <lb/>et
+                     communaulté de Neufchastel recongnoissons et confessons que monsieur <lb/>de
+                     Liverdis adcisté de messieurs les gouverneur et gens du conseil de <lb/>Madame
+                     la duchesse de Longueville et de Touteville en son conté <lb/>dudict
+                     Neufchastel, nostre souveraine dame et princesse, nous a delivré <lb/>les
+                     originaulx articles et rattiffications de madicte dame sur iceulx cy devant
+                     <lb/>transcriptz en parchemin en sept feuilletz. Et ladicte rattiffication
+                     signée <lb/>de la main de son excellence, contresignée par de Porquier, son
+                     secretaire, <lb/>et scellée en cire rouge du seel de ses armes a lacz de soie
+                     pendant, l<lb/>e contenu esquelz articles, nous, pour nous et noz successeurs,
+                     louons <pb n="15" facs="AEN_AS_T8_17_14_15"/> 
+                     <lb/>aussi agreons, rattiffions et approuvons et promectons iceulx entretenir,
+                     <lb/>garder et observer pour l’advenir, soubz l’interpretation et commutation
+                     de <lb/>la peine de perfidie en chastiement de corps et de biens selon
+                     l’exigence des <lb/>cas ainsi que dict est au prochain precceddent article. En
+                     tesmoing de quoy <lb/>avons faict signer ces presentes par le secretaire
+                     ordinaire de ladicte ville soubzsigné <lb/>et sceller du seel d’icelle. Faict a
+                     Neufchastel <date calendar="Julian" when="1500-09-15">le quinziesme jour de
+                        septembre, <lb/>l’an mV<hi rend="sup">c</hi> quatre vingtz cinq selon
+                        l'ancien calendrier</date>.
+                  </p>
+                  <p><lb/>Par ordonnance et pour la part desdictz 
+                     <lb/>sieurs quatre ministraulx signé par
+                     moy</p>
+                  <lb/>
+                  <signed>
+                     Petter <figure type="notarial sign"></figure>
+                  </signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original dans un cahier en parchemin avec sceau pendant sur double queue, AEN,
+                     T&#160;8, N<hi rend="sup">o</hi>&#160;17</p> <!-- Cote actuelle? -->      
+               <p>Résumé&#160;: Boyve, III, p.&#160;281-284.           </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

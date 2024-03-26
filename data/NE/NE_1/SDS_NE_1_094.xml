@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-94-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 17JL-316, fol.&#160;23r-24r</idno>
+               </msIdentifier>
+               <head>Ordonnance de René de Challant sur les dispenses de mariage dans la seigneurie de
+                  Valangin</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="wrapping-tie" ns0:material="papered seal" ns0:shape="round"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1550-09-19"/>
+                     <origPlace ref="loc013628">Valangin</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_220">SDS NE 1, N<hi rend="sup">o</hi>&#160;94</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005811"></term>
+               <term ref="key005111"></term>
+               <term ref="key000863"></term>
+               <term ref="key000658"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="23r" facs="AEN_17JL_316_23r"/>      
+               <div>
+                  <head><lb/><add place="left margin">Puissance <lb/>donnée par <lb/>Monseigneur au
+                        <lb/>presidant <lb/>et juges du <lb/>consistoyre <lb/>decider des
+                        <lb/>mariages <lb/>par advis des <lb/>ministres </add></head>
+                  <p><seg><lb/>Nous René conte
+                     de Challant, seigneur souverain de <lb/>Vallangin <gap quantity="3" unit="line"
+                        reason="missing"/>, <abbr>etc</abbr>, scavoir faisons a tous que comme en noz
+                     ordonnances <lb/>de reformacions crestiennes par nous faictes en <date
+                        when="1541-07-21">l’an <lb/>mil cinq cens quarante et ung le vingt et ung
+                        jours <lb/>de juillet</date> en nostre terre et seigneurie de Vallangin,
+                     <lb/>en laquelle ordonnance et reformacion soit entre <lb/>aultres chouses dit
+                     et contenuz comme nous <lb/>ayons prohibé et deffenduz que nul ne preingne
+                     <lb/>en mariage de sa consanguinitté que pour le moings le <lb/>tier degrez ne
+                     soit passez. Et sy aulcungs se treuve <lb/>faisant le contraire, le mariage
+                     sera nul. Or c’est <lb/>que depuis ledit temps de nostredites ordonnances
+                     plusieurs <lb/>des nostres de ladite seigneurie soyent venuz par devers
+                     <lb/>nous et nous ayent suppliez instament et requis <lb/>les dispancer de
+                     prendre en mariage quant ilz <lb/>sont estez d’ung costel au tier et de
+                     l’aultre au quart, <lb/>comme encore nous estant en ce lieu en y a aulcungs
+                     <lb/>de nosdits soubgectz que de ce nous ont suppliez et requis <lb/>et comme
+                     soit que nous desirant ad ce comme a <lb/>toutes aultres chouses
+                     raisonnablement ordonnez <lb/>et pourveoir, avons sur ce ordonez et declairez
+                     <lb/>après avoir prins advis et par mehure deliberation <lb/>ordonnons et par
+                     ces presentes commandons a nostre <pb n="23v" facs="AEN_17JL_316_23v_24r"/>
+                     lieutenent principal officier de nostre dite seigneurie de <lb/>Vallangin et
+                     juges de nostre consistoyre que ils <lb/>doibgent dudit affaire et permission
+                     de mariages <lb/>consulté et avoir bon advis ez ministres de nostredite
+                     seigneurie <lb/>de Vallangin et au doyen, classe et congregacion dont ilz
+                     <lb/>sont pour decider des causes de mariages que leurs seront <lb/>mises par
+                     devant scellon Dieu et ses sainctes ordonnances <lb/>et scellon le conseil
+                     desdits ministres et congregacions <lb/>sans touteffoys en aulcunes chouses
+                     nous lier ny <lb/>astraindre&#160;; et de ce faire audit nostre principal
+                     officier, <lb/>juge et consistoyre, donnons plain pouvoir et aultoritté scellon
+                     <lb/>leur bon advis et celluy que dessus permectre, licenser <lb/>et dispencer
+                     desdits mariages a debvoir faire scellon Dieu <lb/>et raison et en bonne
+                     conscience ainssin que convyendra <lb/>sans ce que aulcunement en demeurons
+                     chargés, <lb/>ains le tout remectant a la suffisance et <lb/>discretion de
+                     ceulx que dessus, n’entendant que <lb/>doresenavant aulcungs pour cest effect
+                     doibge venir <lb/>et comparoistre par devant nous pour en avoir <lb/>laissez le
+                     pouvoir et la charge a ceulx que <lb/>dessus et est ce de nostre bon grez et
+                     voulloir <lb/>jusques aultrement en disposons et ordonnons.</seg> <seg><lb/>Faict et
+                        passez a nostre chastel de <origPlace ref="loc013628">Vallangin</origPlace>, <lb/>le <origDate when="1550-09-19">vendredy
+                        dix neufyeme jours du <lb/>moys de septambre l’an Nostre Seigneur <pb
+                           n="24r" facs="AEN_17JL_316_23v_24r"/><lb/>courant mil cinq cens et
+                        cinquante</origDate> soubz <lb/>nostre seing manuel et cachet armoyez de noz
+                     <lb/>armes cy mys en foi et coroboration.</seg></p>
+                  <lb/>
+                  <signed><persName>Challant</persName></signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p> 
+               <p>Original signé sur papier, sceau plaqué, AEN, Registre du consistoire de Valangin,
+                  N<hi rend="sup">o</hi>&#160;1, fol.&#160;23r-24r.</p>
+               <p>BPN, Copie certifiée conforme, Lettre des réformateurs, cahier A, N<hi rend="sup"
+                        >o</hi>&#160;27.</p>
+               <p>AEN, Copie (1819) dans consistoire seigneurial de Valangin, p.&#160;24-25.</p>
+               <p>Éd.&#160;Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;507-508.</p>
+               <p>Cité&#160;: Farel, p.&#160;606. Piaget/Lozeron, <hi rend="italic">Le
+                        consistoire</hi>, p.&#160;161.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

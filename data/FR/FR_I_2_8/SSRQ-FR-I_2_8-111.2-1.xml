@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-111.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 19–20</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 19–20</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Waeber-Raboud – Verhör</head>
+					<head xml:lang="fr">Elsi Waeber-Raboud – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1643-11-16"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="19"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1643-11-16">16 <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1643</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per009378a.01">Lari</persName>, <persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per013720a.01">Zumholtz</persName></seg>
+							<seg><lb/><persName ref="per011547a.01">Munat</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<p><lb/><placeName ref="loc008105">Keller</placeName></p>
+						<p><seg><lb/><persName ref="per016019a">Elsi</persName>, <term ref="lem019450.03">relaissee</term> de <persName ref="per016015a">Hans Wäber</persName> de <placeName ref="loc008071.05">Chrischlisperg</placeName>
+							<lb/>et fille d’<persName ref="per016018a.01">Antoine Rabod</persName> de <placeName ref="loc007628">Praroman</placeName>, dict que son
+							<lb/>mary est mort a la guerre et que son fils, que servoit
+							<lb/>a <placeName ref="loc008408.02">Vauxtravers</placeName>, a esté <term ref="lem019460.02">tué</term>, dont elle en a heu un
+							<lb/>resgret, mais ce nonobstant, elle n’a jamais heu mau<lb break="no"/>vaise pensee et ne s’est jamais oubliee envers Dieu,
+							<pb n="20"/><lb/>et s’il y a personne que porte haine aux mauvaises
+							<lb/>gens, c’est elle.</seg> <seg>Qu’on ne l’a jamais appellé <term ref="lem019389.02">sorciere</term>,
+							<lb/>qu’elle l’aye peu tesmoigner, <subst><del>mais</del><add place="inline">qu’on</add></subst> la soub<lb break="no"/>çonnoit bien, mais a grand tort et de grande
+							<lb/>jalousie, qu’elle est femme de bien et d’honneur.</seg>
+							<seg><lb/>Que le grangier de <placeName ref="loc007920.05">Burguillion</placeName> y dit bien une fois
+							<lb/>qu’il ne l’aimoit rien, puis qu’elle avoit pas bon
+								<lb/>nom, mais qu’il ne l’a pas appellé <term ref="lem019389.02">sorciere</term> et
+							<lb/>qu’elle ny a pas dict, qu’elle y envoyeroit des
+							<lb/>hommes.</seg> <seg>Pour le cerisier, dict estre vray que
+							<lb/>n’ayant que celle que demeure a <placeName ref="loc010323.03">Frauwmatten</placeName> estoit
+							<lb/>dessus, elle vient aupres d’elle depuis le prez et
+							<lb/>y commanda de descendre, d’aultant qu’elle
+							<lb/>avoit ledit cerisier en charge de ceux du moullin
+							<lb/>d’<persName>Ansermo</persName>.</seg> <seg>Et qu’elle ne s’est point combattue
+							<lb/>aupres de la fontaine et ne sçcait donner ny
+							<lb/>oster aulcun mal ny aux gens ny aux bestes, mais
+							<lb/>qu’elle sçait bien prier Dieu.</seg> <seg>Qu’elle n’a donné
+							<lb/>aulcun mal aux enfants, qu’on y faict tort, qu’elle
+							<lb/>voit bien qu’on a raporté beaucoup d’affaires contre
+							<lb/>elle a nosseigneurs, mais qu’on le doibt pas
+							<lb/>croire.</seg> <seg>Qu’<subst><del>e</del><add place="overwritten">i</add></subst>l y arrive aussy tort, qu’on dict qu’une
+							<lb/>de ses filles l’aye battu.</seg> <seg>Et qu’elle ne dira jamais
+							<lb/>aultrement a messieurs, qu’on fasse d’elle ce
+							<lb/>qu’on vouldra.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

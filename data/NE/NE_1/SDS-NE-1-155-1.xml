@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-155-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN 13, fol.&#160;212v-213r</idno>
+               </msIdentifier>
+               <head>Loi des Trois&#160;États sur la signature des témoins et les testaments
+                  olographes</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.5"/>
+                              <width unit="cm" quantity="52.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1760-05-13"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_361">SDS NE 1, N<hi rend="sup">o</hi>&#160;155</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000817"></term>
+               <term ref="key003025"></term>
+               <term ref="key005066"></term>
+               <term ref="key000078"></term>
+               <term ref="key000275"></term>
+               <term ref="key000635"></term>
+               <term ref="key000023"></term>
+               <term ref="key004774"></term>
+               <term ref="key005456"></term>
+               <term ref="key000231"></term>
+               <term ref="key000468"></term>
+               <term ref="key005143"></term>
+               <term ref="key005298"></term>
+               <term ref="key000989"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="212v" facs="AEN_EN_13_212v_213r"/>
+               <div>
+                  <head><lb/>Article&#160;1</head>
+                  <p><lb/>Que dans toutes les dispositions solemnelles et publiques <lb/>qui
+                     demandent pour leur validité la présence de cinq témoins, <lb/>comme sont les
+                     testaments, les donations pour cause de mort <lb/>et entre les vivants, les
+                        <term ref="lem015645.02">apentionnements</term> et autres de cette
+                     <lb/>nature, les personnes qui disposent de leurs biens et celles <lb/>qui
+                     servent de témoins devront signer avec le notaire <lb/>qui reçoit les dittes
+                     dispositions sur la minute du dit notaire, <lb/>faute de quoi, elles
+                     demeureront nulles et sans aucun effet. Bien <lb/>entendu que tant que les
+                     parties qui disposent que les témoins <lb/>sachent et puissent écrire.</p>
+                  <p><pb n="213r" facs="AEN_EN_13_212v_213r"/><lb/>Que si elles ne savent ou ne peuvent pas toutes écrire <choice>
+                        <abbr>moyenn<hi rend="sup">t</hi></abbr>
+                        <expan>moyennant</expan>
+                     </choice>
+                     <lb/>que les testateurs ou donateurs signent sur laditte minute, <lb/>il
+                     suffira que deux témoins y signent avec eux et le notaire.</p>
+                     <p>
+                     <lb/>Mais si lesdits testateurs ou donnateurs ne pouvoient pas <lb/>signer, il
+                     sera nécessaire dans ce cas qu’il y ait au moins trois <lb/>témoins qui signent
+                     avec le notaire sur sa minute et qu’ils <lb/>déclarent tous que les testateurs
+                     et donnateurs ne <lb/>sçavent pas écrire, ou qu’ils sont hors d’état de le
+                     faire.</p>
+                  <p><lb/>On excepte de ces règles les testaments, donations et <lb/>autres
+                     dispositions qui sont faites à la campagne par des <lb/>personnes qui habitent
+                     des lieux écartés et éloignés des <lb/>villes et villages et qui se trouvent
+                     dans des cas pressants&#160;; <lb/>il suffira alors d’interpeller deux ou trois
+                     témoins qui <lb/>signent avec le notaire sur sa minute par ce que ces sortes
+                     <lb/>de dispositions sont mises dans la classe de celles qui sont
+                     <lb/>privilégiées.</p>
+                  <p>
+                     <lb/>En second lieu on statue pour l’avenir, toujours sous la <lb/>même peine
+                     de nullité que dans tous les contracts et actes <lb/>publics qui ne demandent
+                     pour leur validité que la présence <lb/>de deux témoins, soit que lesdits actes
+                     soient perpétuels comme <lb/>les <term ref="lem015546.02">venditions</term>,
+                     échanges, <term ref="lem014964.02">résignations</term>
+                     <abbr>etc</abbr>, soit qu’ils soient <lb/>simplement à tems ainsi que le
+                     contract de société, les <lb/>cessions, les <term ref="lem014978.04"
+                        >amodiations</term>, les obligations, les procurations <lb/>et autres de
+                     cette nature, les parties contractantes et les <lb/>témoins qui auront été
+                     apellés pour être présents à la <lb/><term ref="lem017005">stipulation</term>
+                     desdits actes se signent aussi sur la minute <lb/>avec le notaire qui
+                     instrumentera.</p>
+                  <p>
+                     <lb/>Si l’une des parties contractantes ou toutes les deux <lb/>ne savoit ou ne
+                     pouvoit pas se signer, on sera obligé de <lb/>faire venir un troisième témoin
+                     qui signera pour elle <lb/>en déclarant tous que lesdittes parties
+                     contractantes n’ont <lb/>pû signer.</p>
+                  <p>
+                     <lb/>Les tierces personnes qui interviendront dans lesdits contracts, <pb
+                        n="213v" facs="AEN_EN_13_213v_214r"/>
+                     <lb/>comme sont les cautions, les garants ou autres quelque <lb/>qualité qu’ils
+                     aient devront aussi signer avec le notaire sur <lb/>la minute et si on neglige
+                     de les y faire signer, ils ne seront <lb/>tenus ni à être cautions ni à être
+                     garants ni à aucun des <lb/>engagemens dont on les auroit liés dans l’acte.</p>
+                  <p>
+                     <lb/>Si elles ne savoient ou ne pouvoient pas se signer, on apellera
+                     <lb/>encore un témoin qui signera pour elles et déclarera avec le <lb/>notaire
+                     et les autres témoins qu’elles ne savent pas écrire.</p>
+                  <p>
+                     <lb/>Bien entendu que cette loy ne sera pas étendue aux attest<lb break="no"
+                     />ations que les notaires ont accoutumé de donner pour le bétail <lb/>que l’on
+                     conduit en foire.</p>
+                  <p>
+                     <lb/>Et afin que les minutes des notaires ne s’égarent et ne se <lb/>perdent
+                     pas, il leur est ordonné sous peine d’être cassés de leur <lb/>office, de les
+                     conserver avec soin et de les tenir en cahiers bien <lb/>cousus, leur étant
+                    deffendu de se servir de feuilles volantes.</p>
+                  <head><lb/>Article&#160;2. Des testaments olographes.</head>
+                  <p>
+                     <lb/>Quoi que les déclarations de nos coutumes ne reconnoissent <lb/>que trois
+                     sortes de testaments, savoir les solemnels et publics, <lb/>les <term
+                        ref="lem015631.03">nuncupatifs</term> et ceux qui sont olographes et
+                     qu’elles exigent <lb/>expressement que suivant la nature des testamens
+                     olographes, <lb/>ils soient écrits et signés de la main du testateur seul,
+                     cependant <lb/>il n’a pas laissé de se glisser de très grands abus dans nos
+                     usages <lb/>à cet égard, puisqu’on a quelques fois donné effet à des testamens
+                     <lb/>écris d’une main étrangère et que le testateur n’avoit fait que <lb/>de
+                     signer de la sienne, ce qui est non seulement directement <lb/>oposé aux
+                     déclarations de nos coutumes et à l’ancienne et <lb/>saine pratique mais <add
+                        place="above">ouvre</add> encore la porte à des conséquences terribles
+                     <lb/>et formidables, d’autant qu’en donnant cours à des usages si
+                     <lb/>pernicieux, il seroit très aisé de commettre mille fraudes et
+                     <lb/>tromperies et même de substituer un autre testament à celui <lb/>qu’on
+                     auroit lu au testateur, avant que de le lui faire signer. <lb/>D’ailleurs,
+                     quand un testament est écrit en entier et signé de <pb n="214r"
+                        facs="AEN_EN_13_213v_214r"/>
+                     <lb/>la main du testateur, la volonté de ce dernier est bien plus
+                     <lb/>certaine, plus pesée et mieux réfléchie que quand un <lb/>étranger l’a
+                     rédigé par écrit et que le testateur n’a fait que <lb/>de la signer.</p>
+                  <p>
+                     <lb/>Pour ces raisons, et afin d’obvier à tous les funestes incon<lb break="no"
+                     />vénients dont on a parlé, on ordonne que désormais tout <lb/>testament qui ne
+                     sera pas écrit en entier et signé de la <lb/>propre main du testateur seul, ne
+                     sera point regardé comme <lb/>un testament olographe, et sera conséquemment nul
+                     et <lb/>demeurera sans aucun effet et cela quand même le prétendu
+                     <lb/>testateur auroit apellé un notaire et cinq témoins et leur <lb/>auroit
+                     montré son testament écrit d’une main étrangère <lb/>et signé de la sienne,
+                     clos et cacheté en leur déclarant qu’il <lb/>contient sa franche et libre
+                     volonté, et qu’ensuitte <choice>
+                        <abbr>led.</abbr>
+                        <expan>ledit</expan>
+                     </choice> notaire <lb/>et les témoins auroient écrit et signé la déclaration à
+                     <lb/>eux faite sur le replis ou l’envelope dudit testament, en <lb/>y mettant
+                     le jour et la date, puisqu’une pareille <lb/>déclaration n’est pas capable de
+                     remedier ou ne <add place="above">le</add> peut <lb/>faire que très
+                     imparfaitement aux inconvéniens et aux <lb/>conséquences dont on a parlé
+                     cy-dessus.</p>
+                  <p>
+                     <lb/>Si un testateur ne peut ou ne veut pas écrire lui même <lb/>son testament,
+                     il doit en faire un solemnel et public, ou <lb/>un <term ref="lem015631.01"
+                        >nuncupatif</term>, car le privilège de faire des testaments <lb/>olographes
+                     est restreints par les loix et par nos coutumes <lb/>aux seules personnes qui
+                     savent écrire et qui <sic>son</sic> en état <lb/>et en volonté de le faire.</p>
+                  <p>
+                     <lb/>Bien entendu que ces présentes loix n’auront point un <lb/>effet
+                     rétroactif sur le passé, mais regarderont uniquement <lb/>l’avenir et les cas
+                     futurs. </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>AEN, Registre des Trois&#160;États, IX, 13 mai 1760 (sans pagination).</p>
+               <p>Éd.&#160;Recueil de pièces officielles, I, p.&#160;105-110.</p>
+               <p>Cité&#160;: Calame, Droit privé, p.&#160;40-407, 409.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

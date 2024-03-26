@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-42.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 9–10</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 9–10</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Grandjean – Verhör</head>
+					<head xml:lang="fr">Claude Grandjean – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1618-08-31">31 <foreign xml:lang="la">augusti</foreign> 1618</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="9"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+							<seg><lb/><origDate when="1618-08-31">31 <foreign xml:lang="la">augusti</foreign> 1618</origDate></seg>
+							<seg><lb/><foreign xml:lang="la"><choice><abbr>Jud</abbr><expan>Judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr> <expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Wilhelm Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per009250">Gerwer</persName></seg>
+							<seg><lb/><persName ref="per009388">Reiff</persName>, <persName ref="per009579"><choice><abbr>L</abbr><expan>Ludwig</expan></choice> Gottrou</persName></seg>
+							<seg><lb/><persName ref="per009259">Ligertz</persName>, <persName ref="per009123">Werly</persName></seg>
+							<seg><lb/>Weybel</seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft den Prozess gegen <persName ref="per009584">Joni Voland</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-41.14-1">SSRQ FR I/2/8 41.14-1</ref>.</note></p>
+						<pb n="10"/><p><foreign xml:lang="la">Ibidem, die, anno, presentibus
+							<lb/>ut supra</foreign><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note></p>
+						<p><seg><lb/><add place="left margin">Hat nüt bezalt.
+						</add></seg> <seg>La susdite <persName ref="per009582a.02">Clauda Grand Jean</persName> affirmant d’estre
+						<lb/>esté prisonniere a <placeName ref="loc007603.04">Avenche</placeName> par l’espace de <date dur-iso="P13W">13
+						<lb/>sepmaines</date>, et que la justice d’illec l’auroit
+						<lb/>fait <term ref="lem015549.01">confesser</term> des choses que n’auroit jamais
+						<lb/>fait, notamment qu’estant fachee, seroit
+						<lb/>allee au four, la ou un certain homme la se<lb break="no"/>roit venu trouver, luy disant que elle fai<lb break="no"/>soit et qu’elle avoit, respondit n’avoir rien.
+						<lb/>Luy demandant comme s’appelloit, il auroit dit
+							<lb/><persName ref="per029425a.09">Grabrié le <term ref="lem017521">diable</term></persName>, et sur ce elle auroit fait
+						<lb/>la croix, et que ne l’auroit plus veu. Et
+						<lb/>non obstant que ladite prisonniere auroit <add place="above"><unclear>desceler</unclear></add> pour con<lb break="no"/>tenter la justice, s’avoir fait grandement <add place="above">tort</add> a son
+							<lb/>corps et <term ref="lem018939.02">ame</term>. A dit dadvantage avoir il<lb break="no"/>lec mesme dit a cause de la grande <term ref="lem019428.01">torture</term>,
+							<lb/>d’avoir <term ref="lem015015.13">desrobé</term> tout l’argent a <persName>Planchod</persName>
+						<lb/>et d’avoir voulu frotter la porte de <persName>Da<lb break="no"/>niel Bonjour</persName>&#160;; choses que ne sont vrayes
+						<lb/>ne onques les avoir fait.</seg> <seg>A dit d’estre esté
+							<lb/>contrainte de dire cela, a cause des gran<lb break="no"/>des <term ref="lem019428.03">tortures</term>&#160;; fust <term ref="lem019548.03">eslevé</term> avec la petite
+							<lb/><term ref="lem018285.01">pierre</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

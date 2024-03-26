@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-205.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 282r–283r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 282r–283r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Pythoud – Verhör</head>
+					<head xml:lang="fr">Claude Pythoud – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1695-03-05"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="282r"/><p><lb/><placeName ref="loc009227.03">Rathuß</placeName>, <origDate when="1695-03-05">5<hi rend="sup">ten</hi> <foreign xml:lang="la">martii</foreign> 1695</origDate>
+							<seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027633a">Tobias Kuenlin</persName>.</note></seg>
+						<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <term ref="lem018597.02">burgermeister</term> <persName ref="per027618a">von Torny</persName></seg>
+						<seg><lb/><unclear><persName ref="per027685a">Grongnau</persName></unclear></seg></p>
+						<p><seg><lb/><persName ref="per027520a">Claude Pythoud</persName> de <placeName ref="loc007983.03">Noreaz</placeName>, un petit garçon, qui
+						<lb/>ne veut sçavoir son age, interrogé comme il
+						<lb/>sʼentretenoit, at respondu en mandiant tantost
+						<lb/>dans un lieu et tantost dans un autre, at aussi
+						<lb/>dit avoir deux freres et une tante nommé
+						<lb/><persName ref="per027522a">Françoise Pythoud</persName>.</seg> <seg>Sur la question quʼon lui
+						<lb/>fyt, ce quʼil avoit <sic>commpté</sic> concernant certain
+						<lb/><unclear>vespre</unclear>, quʼil passa par un bois, il se myt
+						<lb/>à rire, et nʼat au commencement vollu declarer,
+							<lb/>disant que son pere <term ref="lem015041.01">religieux</term> luy avoit defendu
+						<lb/>de ne plus parler de ça. En après at dit que
+						<lb/>le <term ref="lem019013.02">chauxtemps</term> passé, sur le soir, passant par
+						<lb/>un bois prosche de <placeName ref="loc007983.03">Noreaz</placeName>, il sʼestoit mys
+						<lb/>à pleurer, et lors il luy apparu un beau
+						<pb n="282v"/> <lb/>seigneur tout habillié de belles plumes.
+						<lb/>Il avoit un visage noir, des grandes grifves
+						<lb/>et de grandes cornes, le quel lui dit, sʼil se
+						<lb/>voulloit <term ref="lem015635.27">baillier</term> à lui, il at dit que ouy,
+						<lb/>et quʼil luy devoit donner du pain, et lors
+							<lb/>cet homme, disant estre son <term ref="lem019555.05">maistre</term>, lui
+						<lb/>donna un chappau plein dʼargent, qui en
+						<lb/>après sʼe trouvé que dé <term ref="lem018302.14">feuillies</term> de <term ref="lem016908.11">chenes</term>
+							<lb/>et des <term ref="lem015159.03">buzillies</term>.</seg> <seg>Item que son <term ref="lem019555.05">maistre</term> lui
+						<lb/>at defendu de prier Dieu, avec menaces
+						<lb/>sʼil prioit, quʼil le bastroit. Dit de lʼavoir
+						<lb/>veu trois ou quattre fois, et qʼune fois il
+						<lb/>lʼavoit battu pour avoir prier Dieu, et
+						<lb/>quʼil lui avoit donner certaine <term ref="lem018382">graisse</term>
+						<lb/>noire dans una <term ref="lem015060.04">grula</term> pour <term ref="lem019476.04">empoissoner</term>
+						<lb/>gens et bestes, mais nie dʼavoir fait aulcun
+						<lb/>mal avec cette <term ref="lem018382">graisse</term>, ains lʼavoir jetté.</seg>
+						<seg><lb/>Advoue aussi dʼavoir bastu deux ou trois
+						<lb/>fois avec une verge de <term ref="lem015341.04">coudrez</term>, la quelle
+							<lb/>il auroit <term ref="lem015329.03">plumé</term> et engraissée de ceste
+						<lb/><term ref="lem018382">graisse</term> dans une fontaine, et une fois <add place="inline">seu<lb break="no"/>lement!</add> estre ensuivy de la petite <term ref="lem018102.02">gresle</term>.</seg>
+							<seg><lb/>Demandé sʼil nʼavoit pas encor une <term ref="lem014919.01">boite</term>
+						<lb/>de cette <term ref="lem018382">graisse</term>, au commencement lʼa nié. En
+						<lb/>après at <term ref="lem015549.07">confessé</term> quʼil en avoit casché une
+								<lb/><term ref="lem014919.01">boite</term> dessoubs le fournaux, vers lʼ<persName>Ambrosina</persName>&#160;;
+								<lb/>at aussy <term ref="lem015549.07">confessé</term> que son <term ref="lem019555.05">maistre</term> lʼavoit porté
+						<lb/>une fois sur ses cornes dans lʼ<term ref="lem019394.01">assemblée</term> ou
+								<lb/><term ref="lem017043.07">asseta</term> en la <unclear>Verena</unclear>, et que son <term ref="lem019555.05">maistre</term>
+						<lb/>menoit le violon&#160;; pour lui, avoir regardé
+						<lb/>dancer les autres.</seg> <seg>Declare aussi que son
+							<lb/><term ref="lem019555.05">maistre</term> la vollu <term ref="lem018895.01">marquer</term> avec une grande
+						<lb/><sic>esquillie</sic> ou <sic>esplingle</sic>, mais que lui
+						<pb n="283r"/> <lb/>ayant peur, il auroit fait la croix et lors
+						<lb/>il disparu.</seg> <seg>Pendant lʼexamination, il parloit
+						<lb/>entre soymesme, <add place="above">baissant lé ieux en terres</add>, il nʼat vollu, non obstant touttes
+						<lb/>examinations, dire ce quʼil parloit entre soymeme.
+						<lb/>Ledit garçon, <choice><sic>neamoings</sic><corr>neanmoings</corr></choice>, sçait prier le <term ref="lem016771">Pater</term>, <term ref="lem016772">Ave</term>
+						<lb/>et <term ref="lem016774">Credo</term>. Finalement at toujours vollu aller
+						<lb/>couscher vers lʼ<persName>Ambrosina</persName>.</seg></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

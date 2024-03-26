@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-24-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.004, p. 216</idno>
+     </msIdentifier>
+     <head>Déclarations de la coutume pour la même raison</head>
+     <msContents>
+      <summary>Deux individus, peut-être des notaires, ont demandé déclaration de la coutume pour la
+       même raison (qui nous demeure inconnue). Ils seront entendus ensemble.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1595-05-28" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key004993"></term>
+     <term ref="key005189"></term>
+       </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="214"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1595-05-28" calendar="Julian">XXVIII de may <hi
+        rend="underline">95</hi></origDate>
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="216" facs="AVN_B_101.01.01.004_0216"/> 
+     <div>
+      <p>
+       <lb/><persName ref="per012183a.01">Jehan Fornachon</persName> notaire d’<placeName
+        ref="loc007815.04">Auvernier</placeName> prie <lb/><orgName ref="org003085"
+        >messieurs</orgName> luy declairer certain point <lb/>de coustume. </p>
+      <p>
+       <lb/>Ayant ouy sa proposition et que les <lb/><orgName ref="org006403.03">Belpoidz</orgName>
+       pour ce mesme faite en ont <lb/>aussy demandé declairation, et <lb/>que pour scavoir <unclear
+        cert="high">avoir</unclear> les choses pour <lb/>passées, doibvent aporter <unclear
+        cert="medium">les <choice>
+         <abbr>lres</abbr>
+         <expan>lettres</expan>
+        </choice></unclear>.</p>
+      <p>
+       <lb/>Remis avecque <choice>
+        <abbr>lesd</abbr>
+        <expan>lesdits</expan>
+       </choice>
+       <orgName ref="org006403.03">Belpoidz</orgName> pour les <lb/><term ref="lem017626.06">ouyr</term>
+       ensemblement, et leur en sera <lb/>advisé <term ref="lem017805">plus oultre</term>.</p>
+      </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

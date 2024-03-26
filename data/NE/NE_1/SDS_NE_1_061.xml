@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-61-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-B21.22</idno>
+               </msIdentifier>
+               <head>Ordonnance du gouverneur Georges de Rive concernant les mariages clandestins et
+                  «&#160;estrangement faitcz&#160;».</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="43.8"/>
+                              <width unit="cm" quantity="32.6"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1536-06-12"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_158"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;61</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000863"></term>
+               <term ref="key000611"></term>
+               <term ref="key005489"></term>
+               <term ref="key000803"></term>
+               <term ref="key004058"/>
+                                      </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_B21_22_r"/>
+               <div>
+                  <head><lb/>Le <orgName ref="org010430">gouverneur general</orgName> du <placeName
+                        ref="loc007785.04">conté de Neufchastel</placeName> et les seigneurs des
+                        <lb/><orgName ref="org003167.04">troys estats</orgName> dudict conté estans
+                     assemblez a <placeName ref="loc007786.02">Neufchastel</placeName>.</head> 
+                  <p>
+                     <lb/>A tous ceulx que ces presentes verront et ouirront et a ung <choice>
+                        <sic>chascung</sic>
+                        <corr>chacung</corr>
+                     </choice> selon son estat, salut. Vous scavez les <lb/>articles et ordonnances
+                     que de la part de nostre tres redoubtée et <persName ref="per031748">souveraine
+                        dame</persName> vous ont estez <lb/>envoyez pour iceulx publier tant pour le
+                     faict des mariages que aultres vices et pechez que habondoyent <lb/>en ce pays,
+                     mesmement pour le faict d’<term ref="lem019490.02">adultere</term> et
+                     paillardise extirper et abollir. Et pour ce faire a estée <lb/>instituée et
+                     ordonnée une justice par devant laquelle desja sont venus et desclairez
+                     plussieurs <lb/>mariages clandestins et estrangement faictz, lesquieulx
+                     pourriont estre scandaleux et bien <lb/>estranges tant a vous que a nous
+                     circunvoysins que ancor ne sont imbus ny instruytz de la sainte <lb/>escripture
+                     et vraye parolle de Dieu, dont pour obvier a scandalle, murmur et infirmité
+                     d’aulcuns que <lb/>ladicte escripture et parolle saincte ne peuvent entendre et
+                     cognoistre, pource qu’il est trouver des <lb/>personnaiges enffans de freres et
+                     de soeurs que par mariages se sont prins et accopulez charnellement <lb/>ont
+                     heuz des enffans par ensambles. Et sont venuz par devant ladicte justice qu’est
+                     chose <lb/>horrible et a plussieurs fort estrange d’ouyr a cause que jusques a
+                     present n’en a estez usez dont <lb/>sumes estez contraings en havoir advis et
+                     conseil avec les gens doctz et plains d’escriptures sainctes. <lb/>Mesmement
+                     vers les magnificques et très puissans seigneurs, <orgName ref="org002094"
+                        >meisseigneurs des villes et quanthons <lb/>de Bernne</orgName>, <orgName
+                        ref="org003384">Basle</orgName> et aultres et par l’advis d’iceulx trouver
+                     que thieulx mariages doresenavant ne <lb/>se doigent souffrir ny permettre en
+                     maniere quelconques. Par quoy, nous les dessusdictz <orgName ref="org010430"
+                        >gouverneur</orgName> et <lb/>seigneurs desdictz <orgName ref="org003167.04"
+                        >troys estas</orgName>, tous d’ung accordz, considerant les choses
+                     dessusdictes et mesmement <lb/>la fragilité du monde qu’est a present pour
+                     obvyer aux scandalles qu’en peuvent survenir tant <lb/>aux pays et terres de
+                     nostre dicte très redoubtée <del rend="strikethrough">dame</del>
+                     <corr/> et souveraine <persName ref="per031748">dame</persName> que a noz
+                     circunvoysins par <lb/>la puissance a nous donnée et comme souveraine justice,
+                     si avons ordonné, constituyé et establir <lb/>et par ces presentes ordonnons,
+                     constituons et establissons une loy et decrest que doresenavant en <lb/><choice>
+                        <abbr>ced</abbr>
+                        <expan>cedict</expan>
+                     </choice>
+                     <placeName ref="loc007785">conté</placeName>, nul cousin et cousine, enffans de
+                     freres ou de soeurs ne se pourront ne debvront <lb/>prendre ny accopulez en
+                     mariages ny aultrement. Et en cas qu’il s’en trouva des delinquans que
+                     <lb/>contre cestedicte ordonnance voulsissent faire et user et eulx en ce
+                     degrez marier, ordonnons et <lb/>establissons ceulx qui entreprendre le
+                     vouldront estre bannis hors dudict <placeName ref="loc007785">conté</placeName>
+                     le temps et <lb/>terme de dix ans, a peine de punition capitalle et ledict
+                     mariage abollir et de nulle valleur. <lb/>Et se voulliont persister et
+                     consommer ledict mariage, iceulx desclairons estre a perpetuitez <lb/>bannys
+                     hors dudict conté a la peine que dessus et ledict mariage nul. Et affin que ung
+                     <lb/>chascung en soit advertir et qu’ilz ne puyssent ignorez le cas, advons
+                     ordonnez et commandez et par ces <lb/>presentes ordonnons et commandons a tous
+                     les predicans, curez et officiers de cedict <placeName ref="loc007785"
+                        >conté</placeName>, <lb/>cestedicte ordonnance, decretalle et loy aux
+                     prosnes et justices voulloir publier et manifester <lb/>comme tel cas
+                     appartient, affin que icelle soit gardée et entretenue. Faict a <origPlace
+                        ref="loc007786.02">Neufchastel</origPlace>, le <origDate when="1536-06-12"
+                        >douziesmes jour de juing, l’an mil cinq cens trentte six</origDate>.</p>
+                  <lb/> <signed>
+                     <persName ref="per031747a.01">George de Rive</persName>
+                  </signed>
+                  <pb n="1v" facs="AEN_AS_B21_22_v"/>
+               </div>
+            </body>
+            <back><div>
+               <p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur papier, AEN, B 21, N<hi rend="sup">o</hi>&#160;22.</p>
+               <p>Remarque&#160;:</p>
+               <p>Le registre N<hi rend="sup">o</hi>&#160;1 de la Justice Matrimoniale de Neuchâtel
+                     offre de nombreux exemples de mariages clandestins, et ce dès&#160;1571. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

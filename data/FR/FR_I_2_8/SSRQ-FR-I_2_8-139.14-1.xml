@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-139.14-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 525–532</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 525–532</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Destra, Frau Guisolan, Madeleine Gillet, Jenon Philipona, Barbli Gaudron – Verhör und Konfrontation</head>
+					<head xml:lang="fr">Catherine Destra, Frau Guisolan, Madeleine Gillet, Jenon Philipona, Barbli Gaudron – Interrogatoire et confrontation</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1648-08-06"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="525"/><p><lb/>Den <origDate when="1648-08-06">6<hi rend="sup">ten</hi> augsten 1648</origDate>
+						<seg><lb/>Her <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/>Herr <term ref="lem018597.02">burgermeister</term> <persName ref="per013479a.06">Reinold</persName></seg>
+						<seg><lb/>Herr <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/>H<hi rend="sup">r</hi> <persName ref="per013434a.02">Degranges</persName></seg></p>
+						<p><seg><lb/><persName ref="per018091a.05">Catelina de Trey</persName>, estant examinee par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict
+							<lb/>avant la confrontation, ast dit que la <persName ref="per018191a">Gisolande</persName> luy
+							<lb/>commanda metre le <term ref="lem014953.01">feu</term> chez la <persName>Carnoda</persName>, pour la
+						<lb/>crainte qu’elle avoit que la <persName>Carnoda</persName> ne <term ref="lem018556.08">maleficiat</term> ses
+						<lb/>enfans, luy ayant promis une <term ref="lem017507">vache</term>. Et, estant confronté,
+							<lb/>soustenu le mesme et dit que le jour devant l’<term ref="lem019530.02">embras<lb break="no"/>sement</term>, elle le luy commanda par deux fois&#160;; une fois
+						<lb/>le matin avant qu’elle fust sortie du lict, <add place="left margin" type="sign">estant mala<lb/>de</add>, l’aultre fois
+						<lb/>le soier, le mesme jour, et luy fit prendre un cherbon
+							<lb/>de <term ref="lem019529.01">feu</term> et <subst><del>de</del><add place="inline">le</add></subst> metre dans du <term ref="lem018208.02">bournion</term> <sic>sour</sic> le devant
+						<lb/>de la maison (auparavant elle avoit dit qu’elle luy
+						<lb/>avoit commandé le metre sur le <term ref="lem018264.02">lendar</term> <subst><del>)</del><add place="inline">d</add></subst>e la porte).
+							<lb/>Et que, sur le soier, la maison dite et celle de la <persName ref="per018191a">Gisolande</persName>
+							<lb/>estant encendrees, elle allat chez les <persName>Mazeri</persName>, ou la <persName ref="per018191a">Gisolande</persName>
+						<lb/>estoit retiree, avec lé siens, en quel logis luy donat
+							<lb/>du pain. Sitout aprés asserat que, ayant <subst><del><unclear>retir</unclear></del><add place="overwritten">mis</add></subst> le <term ref="lem014953.01">feu</term>,
+						<lb/>ayant retiré et saulvé ses <term ref="lem016278">hardes</term>, s’en alla sans
+						<lb/>rentrer au dit <choice><sic>Chennes</sic><corr><placeName ref="loc009824.04">Chennens</placeName></corr></choice>, jusques 1<subst><del>5</del><add place="overwritten">4</add></subst><note>Il manque visiblement une information.
+							On attendrait éventuellement «&#160;14 jours&#160;». Ce point est répété quelques lignes plus bas, mais l’information demeure incomplète là aussi.</note> aprés, ou elle
+						<lb/>i revient avec son pere pour se faire voir,
+							<lb/>puisque la <persName ref="per018191a">Gisolande</persName> debvoit avoir faict currir
+							<pb n="526"/><lb/>le bruict par lé lieux, que son fils <persName ref="per018197a">Jean</persName> l’avoit
+							<lb/>veu porter un charbon de <term ref="lem019529.01">feu</term> <add place="left margin" type="sign">sur son <term ref="lem018064">devantier</term></add>, et qu’elle luy
+							<lb/>avoit <term ref="lem015015.13">desrobé</term> une chemisse. Et puisque <add place="inline">le monde</add>
+						<lb/>d’allentour disoit qu’elle estoit prisoniere,
+						<lb/>detenue a <placeName ref="loc007610">Payerne</placeName>, ou estant venue, se querelat
+							<lb/>avec la <persName ref="per018191a">Gisolande</persName>, la quelle la <subst><del>aye dit</del><add place="inline">tansa</add></subst> fort
+						<lb/>et luy dit du mahl, luy proposant comme son fils
+							<lb/><persName ref="per018197">Jean</persName> l’avoit veu porté le charbon <add place="above">de <term ref="lem019529.01">feu</term></add>, au quel elle
+						<lb/>disat&#160;: <q>&#160;Tu veras tanto bien d’affaires et belles choses&#160;!&#160;</q></seg>
+							<seg><lb/>Surquoy la <persName ref="per018191a">Gisolande</persName> asserat par sa bone foy et
+						<lb/>conscience, que jamais elle n’ast heu maulvaise
+						<lb/>opinion de la <persName>Carnoda</persName>, ni jamais luy estre
+						<lb/>venu en pansee de faire metre le <term ref="lem014953.01">feu</term> chez
+						<lb/>elle, moi<subst><del>g</del><add place="overwritten">n</add></subst>s de le luy (sur la promaisse de luy
+						<lb/>doner une <term ref="lem017507">vache</term>) avoier commandé a ce faire
+						<lb/>et qu’elle luy faict tort en cella, et qu’elle fesoit
+						<lb/>cella par rancune, a cause de ce qu’elle luy dit et
+								<lb/><add place="left margin">respresentat</add> lors qu’elle revenit avec son pere 14 aprés l’<term ref="lem019530.01">embrasement</term>.
+						<lb/>Le propos qu’elle avoit dit a son fils portant <subst><del>le</del><add place="overwritten">su</add></subst>bs le <del>fa</del>
+							<lb/><add place="left margin"><term ref="lem015036.03">faudar</term></add> le charbon, et pour la querrelle de la chemisse <term ref="lem015015.16">derosbee</term>,
+						<lb/>qu’il aviont heu, et que ce n’estoit pas ainsi qu’elle
+						<lb/>asserat avoier demouré chez elle <date dur-iso="P8D">8 jou<subst><del><unclear/></del><add place="overwritten">r</add></subst></date> et davantage,
+						<lb/>veu comme par les voisins consterat, elle est entré
+						<lb/>a son service le vandredi et en sortit le mecredi,
+						<lb/>ainsi ne i feut que <date dur-iso="P5D">5 jour</date>, et que lors qu’elle mit le
+						<lb/><term ref="lem014953.01">feu</term>, ils estiont trestouts au champz, et que si elle luy
+						<lb/>eut commandé cella, qu’elle feut bien demouré a la
+						<lb/>maison pour prendre garde que la siene ne feut
+						<lb/><term ref="lem019531.06">embrassee</term>, ou pour sauver son meuble et ses petits
+						<lb/>enfans que a paine ses voisins sauvarent, et que les
+						<lb/>voisin donerient tesmogniage, comme voiant l’<term ref="lem019530.01">embrase<lb break="no"/>ment</term>, elle tomba pasmee, ou des gens la falierent
+						<lb/>lever et la porter chez les <persName>Mazeri</persName>, ses apparentés,
+						<lb/>ainsi dit estre tout affaict innocente de ceste accusation.</seg></p>
+					<pb n="527"/><p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+						<p><lb/>Dite <persName ref="per018091a.05">Catelina de Trey</persName> sur l’accusation faicte d’avoier veu
+						<lb/>a la <term ref="lem017043">secte</term> <persName>Franseisa Piccant</persName>, femme de <persName>Petit Jean
+						<lb/>Metro</persName>, estant confrontees, dit que lors que la <persName>Canteneta</persName><!-- Kontrolle ob Vinzenza Cantin gemeint ist?? -->
+						<lb/>la seduit et conduit en des <placeName ref="loc011707.02">Uzes</placeName>, ou l’ayant mené a la
+							<lb/><term ref="lem017043">secte</term> et i estant arrivé, elle luy dit&#160;: <q>&#160;Voila 4 de <placeName ref="loc007935.13">Far<lb break="no"/>vagni</placeName>&#160;!&#160;</q>&#160;; lé quelles il ast <date dur-iso="P7Y">sept ans</date> qu’il sont <term ref="lem019389.04">sorcieres</term>, ou
+						<lb/>ilz saultient aux <term ref="lem015231.02">corraules</term> par ensemble&#160;; elle dit l’avoier
+						<lb/>veu. Sitout aprés assere que ce sont ceux de <placeName ref="loc008127.03">Manedens</placeName>
+						<lb/>quil le luy aviont dit, que <del>cel</del>les 4 i estoient. En
+						<lb/>aprés redit que, ayant rencontré dite <persName>Franseisa</persName> vers le
+						<lb/>moulin d’<placeName ref="loc007598.07">Ottigni</placeName>, elle luy demanda de retourner ensemble
+						<lb/>a la <term ref="lem017043">secte</term>, il ast environ <date dur-iso="P3W">3 septmaines</date>. Sitout aprés
+						<lb/>variant, dit qu’il ast dimanche passé un mois qu’elle
+							<lb/>luy proposat de retourner avec elle a l<subst><del>a</del><add place="overwritten">e</add></subst>ur <subst><del><unclear>sect</unclear></del><add place="inline"><term ref="lem019394.08">asamblee</term></add></subst>
+							<lb/>et que si elle le veut <term ref="lem019442.04">deneger</term>, qu’elle n’en peut pas nié.
+						<seg><lb/>Surquoy predite <persName>Piccande</persName> luy dit de prendre garde
+						<lb/>a son salut et qu’elle luy faisoit grandissime tort,
+						<lb/>et qu’elle ne sçavoit qu’elle voloit dire, ne sçavoier
+						<lb/>jamais rencontré en semblables endroit, mesme qu’elle
+						<lb/>ne cognaisoit dite <persName ref="per018091a.01">Cateline</persName>, moins de luy avoier parlé
+						<lb/>vers le moulin d’<placeName ref="loc007598.06">Ottini</placeName>, ou elle ne sçait avoier onques
+						<lb/>estéz, ainsi que le point qu’elle luy avoit prospossé
+						<lb/>estre du tout faulx. Et estant derechef examiné,
+						<lb/>reytera lé susdites paroles et dit si elle estiont <term ref="lem018108.02">accorpa<lb break="no"/>ies</term>, qu’elle ne sçavoit que faire, qu’elle l’estoit aussi.</seg></p>
+					<p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+						<p><lb/>Praedite <persName ref="per018091a.06">Cateline de Trey</persName> estant examinee ulterieurement
+						<lb/>concernant ce qu’elle avoit dit de la <persName>Cantenete</persName>, commen<lb break="no"/>sat ossitout a dire non pas la <persName>Canteneta</persName> mes la
+					<pb n="528"/><lb/><choice><sic>la</sic><corr></corr></choice> <persName>Tissoteta</persName> et, estant confrontee, asserat que la
+						<lb/>ditte <persName>Canteneta</persName>, l’ayant un jour mené en sa maison,
+						<lb/>elle luy dit&#160;: <q>&#160;Ors ma filie, tu m’a tout jour dit
+						<lb/>de me vouloir croire, en quoy fais tres bien, et
+						<lb/>me plais bien, et si presentement tu me veux
+						<lb/>croire, je te veu mener en un lieux, ou tu sçauras
+							<lb/>bien.&#160;</q> Ainsi, environ <time when="00:00:00">minuict</time>, la conduis<subst><del>a</del><add place="overwritten">i</add></subst> a la <term ref="lem017043">secte</term>,
+						<lb/>ou elle la tenoit par la mian, pendant qu’elle se
+							<lb/>donat au <term ref="lem017521">diable</term>, il ast <date dur-iso="P3Y">trois ans</date>, vers la <date when="--06-24"><choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> <persName ref="per000049">Jean</persName></date>.
+						<seg><lb/><subst><del>et</del><add place="left margin">Item</add></subst> dit que <persName>Peter Dougu</persName> avoit dit que la dite <persName>Cantenete</persName>
+							<lb/>n’estoit guere bonne, ains qu’elle estoit <term ref="lem019389.02">sorciere</term>.
+							<lb/>Et quant a l’<term ref="lem019530.04">enbrassement</term> de la maison de <persName>Dougu</persName>,
+							<lb/>qu’elle le luy avoit commandé en sa propre maison
+						<lb/>a <placeName ref="loc008127.05">Manedin</placeName>, a <time when="14:00:00">2 heures aprés midi</time>, vandredi <date dur-iso="P5W">5 septmaines</date>,
+						<lb/>ou elle se trouva toute seule avec dite <persName>Canteneta</persName>,
+						<lb/>ce qu’elle effectua <term ref="lem018101.02">desossitout</term>, et luy creut, metant
+						<lb/>sitout aprés le <term ref="lem014953.01">feu</term>. Surquoy luy estant prospossé
+						<lb/>par <choice><abbr>mess<hi rend="sup">r</hi></abbr><expan>messeigneurs</expan></choice> du droict, que l’on la trovait presente<lb break="no"/>ment en manifeste <choice><sic>mesonge</sic><corr>mensonge</corr></choice>, voiant que si devant,
+						<lb/>elle le luy avoit <subst><del rend="underline">dit</del><add place="inline">desja</add></subst> <add place="above">dit</add> a la Pentecoste a <placeName ref="loc007902.06">Escu<lb break="no"/>villin</placeName>, present la <persName>Tissoteta</persName> et le <persName>Bossu</persName>, fils du <persName>Chapuis</persName>
+						<lb/>de <placeName ref="loc008127.03">Manedens</placeName>. Surquoy <subst><del>d</del><add place="overwritten">r</add></subst>epartit <subst><del>d</del><add place="overwritten">p</add></subst>redite <persName ref="per018091a.01">Cateline</persName> qu’elle
+						<lb/>s’estoit mespris et, variant, confirme de le luy avoir
+						<lb/>dit a <choice><sic>Escuillin</sic><corr><placeName ref="loc007902.06">Escuvillin</placeName></corr></choice> de metre le <term ref="lem014953.01">feu</term>, et luy promit
+						<lb/>de l<subst><del>a</del><add place="inline">’</add></subst>habilier de neuf, fesant de son comandement.</seg> <seg>A
+						<lb/>quoy dite <persName>Cantenete</persName>, que les articles qu’elle asserait
+						<lb/>estre faulx, ne l’avoier oncques mené a la <term ref="lem017043">secte</term>
+						<lb/>et ne sçavoit que cella estoit, moins de luy avoier
+						<lb/>monstré les 4 de <placeName ref="loc007935.14">Farvani</placeName>, lesquelles elle ne
+						<lb/>cognais pas seulement, et qu’elle luy fessoit grand
+							<lb/>tort en cest affaire, aussi bien que de l’<term ref="lem019530.04">enbrassement</term>
+						<lb/>sur promaisse d’un habis neuf, ce que n’est aulcunement
+					<pb n="529"/><lb/>puis que’elle en’auroit elle mesme affaire pour sé pauvres
+						<lb/>enfans.</seg> <seg>La desus estant par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict, <persName><subst><del>F</del><add place="overwritten">C</add></subst>ateline</persName>
+						<lb/><add place="left margin">fort</add> <term ref="lem018774.03">admonestee</term> de prendre bien garde a ne faire tort a persone.
+						<lb/><add place="left margin">La desus</add> dit que a Dieux ne plaise qu’elle volut faire tort a que
+						<lb/>qui fust, <choice><sic>peseverant</sic><corr>perseverant</corr></choice> ce qu’elle avoit dit de la dite
+						<lb/><persName>Canteneta</persName>.</seg></p>
+					<p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+						<p><lb/>Sur l’examination faicte a susdite <persName ref="per018091a.07">de Trey</persName> de <persName ref="per017908a.03">Madelaine
+						<lb/>Gilliet</persName>, respartit que, ayant esté conduite par la <persName>Cante<lb break="no"/>nete</persName> <placeName ref="loc011707.03">ès Uzes</placeName> vers le <placeName ref="loc001095.12">Rone</placeName><note>Cette mention est curieuse,
+							compte tenu du fait que cette assemblée est censée avoir eu lieu près d’un hameau gruérien. Il existe bien un cours d’eau nommé <placeName ref="loc013232">Les Usses</placeName>, en <placeName ref="loc005865.03">Savoie</placeName>, qui rejoint le <placeName ref="loc001095">Rhône</placeName> près
+						de <placeName ref="loc012550">Seyssel</placeName>, mais, en fonction des autres mentions de lieux faites dans le procès, il semble peu opportun de retenir la provenance savoyarde pour ce nom de lieu.</note>, elle <subst><del><unclear>les</unclear></del><add place="overwritten">i</add></subst> vist avec les aultres
+						<lb/>de <placeName ref="loc007935.14">Farvani</placeName> saulter dite <persName ref="per017908a">Madeleine</persName> aux <term ref="lem015231.02">corraules</term>, et
+						<lb/>que ceux de <placeName ref="loc008127.03">Manedens</placeName> l<subst><del>e</del><add place="overwritten">a</add></subst> leur ayant monstré, avec
+						<lb/>les aultres luy dirent qu’il avoit <date dur-iso="P7Y">7 ans</date> qu’il estiont
+							<lb/><term ref="lem019389.04">sorcieres</term>. Surquoy luy estant propossé si elle le luy sostien<lb break="no"/>drait devant, elle respartit que oui. Estant confrontee,
+						<lb/>sostient et confirma pr<subst><del><gap reason="illegible" unit="character" quantity="1"/></del><add place="overwritten">e</add></subst>dites paroles, et assere qu’elle luy avoit
+						<lb/>dit, luy donant du <term ref="lem018215.02">vin quit</term> de <term ref="lem019348.01">cerises</term>, si elle n’i voloit
+							<lb/>plus retourner a la <term ref="lem017043">secte</term>, car elle n’i voloit aussi plus retour<lb break="no"/>ner, et qu’estant dite <persName ref="per018091a.01">Cateline</persName> arrivee a leur <term ref="lem019394.05">assamblee</term>,
+						<lb/>dite <persName ref="per017908a">Gilliete</persName> <subst><del rend="underline">dist et</del><add place="inline">tansa</add></subst> la <persName>Cantenete</persName> pour avoier
+						<lb/>desboché une si jeusne filie, disant qu’elle estoit bien
+						<lb/>ceure d’avoier mené en ces lieux une si jeusne fillie,
+						<lb/>et que un jour estant allé querir un pain par empront,
+						<lb/><add place="left margin">dite <persName ref="per017908a">Gilliete</persName></add> a <placeName ref="loc008127.03">Manedens</placeName> vers <persName>Ulrich Chapuis</persName>, elle parlat a la <persName>Cantenete</persName>
+						<lb/>en sa presence et luy demanda si elle voloit retourner
+						<lb/>a la <term ref="lem017043">secte</term>. <seg>Surquoy susdite <persName ref="per017908a">Gilliete</persName> dit ne l’avoier
+							<lb/>jamais veu que parfoy, demandant l’<term ref="lem021653.02">aulmosne</term>,
+						<lb/>que pouroit estre luy avoier donné du <term ref="lem018215.02">vin quit</term>
+							<lb/>pour le nom de Dieux et l’<term ref="lem021653.02">aulmosne</term>, et jamais elle n’avoit
+						<lb/>esté a <placeName ref="loc008127.03">Manedens</placeName> pour empronter du pain du <persName>Chapuis</persName>,
+						<lb/>veue (Dieux grace) elle n’avoit jamais heu manqué
+					<pb n="530"/><lb/>de pain en sa maison, et si bien (ce que n’est pas) feut
+						<lb/><add place="left margin">manqué de pain</add>, elle n’eust print un s<subst><del>e</del><add place="overwritten">i</add></subst> long chemin de <placeName ref="loc007935.13">Farvagni</placeName>
+						<lb/>a <placeName ref="loc008127.03">Manedens</placeName>, pour l’empront d’un pain, le quel elle
+						<lb/>eust bien trové vers ces voisins. Et sur ça luy respartit
+						<lb/>que es point susdits elle luy fesoit grand <subst><del><gap reason="illegible" unit="character" quantity="1"/></del><add place="overwritten">tort</add></subst>
+						<lb/>et qu’elle n’avoit jamais en ces lieux predits esté,
+							<lb/>ni se trouvé en telles <term ref="lem019394.07">assamblees</term>, et qu’elle estoit et
+						<lb/>faloit <subst><del>ils</del><add place="inline">estre</add></subst> une veraye et mechante persone
+						<lb/>d’entreprendre a dire tels propos.</seg> <seg>Surquoy elle
+						<lb/>respartit qu’elle estoit aussi bone que dite <persName ref="per017908a.03">Gillete</persName>,
+						<lb/>qu’elle ne sçavoit ce qu’elle estoit, bone ou mechante.</seg>
+						<seg><lb/>Dite <persName ref="per017908a.03">Gilliete</persName> estant sortie, feut serieusement
+						<lb/><term ref="lem018774.03">admonestee</term> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict a prendre garde.
+						<lb/>Surquoy fit responce que s’il luy refessiont son
+						<lb/>honneur, elle les <term ref="lem015363.08">descoulperait</term>, et que s’il la<del>y</del>
+						<lb/>refesiont bonne et se detracter des paroles, elle
+						<lb/>leur rendroit aussi leur honneur, et estant demandé
+						<lb/>par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droit comme elle voloit q’un luy
+						<lb/>refit son honneur, respartit en luy tennant ce que<del>lle son</del>
+						<lb/>luy avoit promis, assavoier l’habilier et une demi
+						<lb/>maison.</seg></p>
+					<p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+						<p><persName ref="per018189a.01">Jenon Phillipuna</persName>, filie du <term ref="lem015166.01">favre</term> d’<placeName ref="loc007693.13">Estavaié</placeName>, estant <!--nom de famille ou profession??-->
+						<lb/>confrontee a <persName ref="per018091a.06">Cateline de Trey</persName> sur l’accusation de
+						<lb/>l’avoier veu a la <term ref="lem017043">secte</term>, la <persName ref="per018091a.01">Cateline</persName> assere et dit que
+						<lb/>ceux de <placeName ref="loc008127.03">Manedens</placeName> le luy aviont dit qu’il en avoit
+							<lb/>lé 4 nommees de <placeName ref="loc007935.13">Farvagni</placeName> a l’<term ref="lem019394.04">assemblé</term> en predites <placeName ref="loc011707.02">Uzes</placeName>,
+						<lb/>peu aprés confirme la i avoier dit a la <persName>Canteneta</persName><!--Vincenza Cantin?--> de mesme
+						<lb/>que la <persName ref="per017908a">Gillieta</persName>, assavoier qu’elle avoit bien faict mahl
+					<pb n="531"/><lb/>d’avoier desboché une telle jeusne fillie et qu’elle fesoit
+						<lb/>bien mahl, son pere le sçachant en sçauroit fort fachez,
+						<lb/><subst><del>pers</del><add place="inline">persistant</add></subst> l’avoir veu en la <term ref="lem017043">secte</term>, dite <persName ref="per018189a">Jenon</persName> luy demande
+						<lb/>qu’elle la debvoit bien regarder et dire en quel habis elle
+						<lb/>l’avoit veu. Surquoy variant, dit l’avoier veu habilee toute
+						<lb/>de toille, ossitout aprés, dit l’avoier veu en <term ref="lem018788.01">cotte</term> de toille
+						<lb/>et un corset de laisne, a la fin elle dit l’avoier veu (lors
+						<lb/>qu’elle la vit en la <term ref="lem017043">secte</term>) avec cest habis du quel elle est<del>oit</del>
+						<lb/>habilié a present, puis aprés variant derechef dit qu’elle <add place="right margin">ne sçait</add>
+						<lb/>rien de maulx d’elle, et que <subst><del>c’estoit</del><add place="inline">c’estiont</add></subst> la <persName>Cantenete</persName> et
+						<lb/>la <persName>Tissoteta</persName> que luy aviont dit devant leur maison que de
+							<lb/>telles estiont <term ref="lem019389.04">sorcieres</term> de <placeName ref="loc007935.13">Farvagni</placeName>, et a la fin dit derechef
+						<lb/>l’avoier veues. <seg>Surquoy dite <persName ref="per018189a">Jenon</persName> prie ne luy doner
+						<lb/>croiance, voiant la variation, et dit qu’elle luy faict tort,
+						<lb/>et d’aultant plus qu’elle n’ast aulcune cognaisance avec
+						<lb/>la <persName>Cantenete</persName> et <persName>Tissoteta</persName>, ne sçachant d’ou, ni quelles elles
+						<lb/>sont, mois les avoir ni veu ni hanté&#160;; et estant la desus
+						<lb/>la <persName ref="per018091a.08">Caterine de Trey</persName> blasmé par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict pour le
+						<lb/>tort qu’elle fesoit, respondit qu’elle estoit troublee et
+						<lb/>ignorante, ne sçachant ce qu’elle disait.</seg></p>
+					<p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+						<p><lb/>Estant <persName ref="per018187a">Barbli Gaudron</persName> confrontee <subst><del>ave</del><add place="overwritten">a</add></subst> <persName ref="per018091a.06">Cateline de Trey</persName>,
+						<lb/><add place="left margin">elle</add> dit que la <persName>Cantenete</persName> et <persName>Tissoteta</persName> <add place="above" type="sign">luy ont dit</add> qu’il avoit <date dur-iso="P7Y">7 ans</date>
+							<lb/>qu’elle estoit <term ref="lem019389.02">sorciere</term>, et qu’elle ne luy avoit jamais
+						<lb/>veu faire mahl que ce soit, mais que la <persName>Canteneta</persName>
+						<lb/>luy dit qu’elle la luy feroit voier en la <term ref="lem017043">secte</term>, ou estant
+						<lb/>arrivee, elles saultient, et ceux de <placeName ref="loc008127.03">Manedens</placeName> les l<subst><del><unclear>eur</unclear></del><add place="overwritten">uy</add></subst>
+						<lb/>monstrarent dé ossitout, aux quelles elle di<subst><del>re</del><add place="overwritten">t</add></subst> en
+						<lb/>mesme temps dou <q>&#160;bon jour&#160;</q> et <q>&#160;bon vespre&#160;</q>, ce quel heure
+						<lb/>que ce soit, et assere aussi que dite <persName ref="per018187a">Barbli</persName> dit <choice><sic>a
+					<pb n="532"/><lb/>a</sic><corr>a</corr></choice> la <persName>Canteneta</persName>&#160;: <q>&#160;Va&#160;! N’es tu pas bien miserable de mener
+						<lb/>en perdition telle pauvrete, si jeusne.&#160;</q> Et ne sçait jamais
+						<lb/>l’avoier jamais veu que lors que la luy monstrat en
+						<lb/>la <term ref="lem017043">secte</term>&#160;; sitout aprés, variant, elle dit que ceux de
+						<lb/><placeName ref="loc008127.03">Manedens</placeName> luy ont assuré qu’elle i avoit esté, des
+						<lb/>quels discours predite <persName ref="per018187a">Barbli Gaudron</persName>, bien
+						<lb/>estonee, affirme et prie Dieux la pounnir a l’heure
+						<lb/>si elle avoit jamais heu cognaissance d’elle, ni la
+						<lb/>sçavoier oncques avoier veu, ni esté<subst><del>s</del><add place="overwritten">z</add></subst> en tels lieux
+						<lb/>de <term ref="lem017043">secte</term>, ainsi que dite <persName ref="per018091a.01">Cateline</persName> luy faict grand
+						<lb/>tor<subst><del>d</del><add place="overwritten">t</add></subst> l’avoier mis en tel <term ref="lem018127.02">laberinte</term> et paine, priant
+						<lb/>de ne fonder ni arrester a ses mechants propos.</p>
+						<p><lb/>La desus estant dite <persName ref="per018091a.06">Cateline de Trey</persName> <term ref="lem018774.03">admonestee</term>
+						<lb/>par <choice><abbr>mes<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> du droict a prendre garde a son salut,
+						<lb/>affin, fesant tort a son prochain, elle ne cause
+							<lb/>la perdition de son <term ref="lem018939.02">ame</term> et salut. A quoy respondit
+						<lb/>ne voloier faire tort a pe<subst><del>s</del><add place="overwritten">r</add></subst>sone, et que ce qu’elle
+						<lb/>avoit dit des <term ref="lem018128.02">accoulpees</term>, que c’estoit ainsi, disant
+						<lb/>que un luy fairoit bien tort si l’on ne chatie ceux
+						<lb/>que l’ont instruict et seduit, de mesme façon qu’elle
+						<lb/><unclear>surça</unclear> demande pardon.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

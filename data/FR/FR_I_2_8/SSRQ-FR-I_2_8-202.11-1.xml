@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-202.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 475</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 475</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madeleine Gobet-Tannaz – Verhör und Urteil</head>
+					<head xml:lang="fr">Madeleine Gobet-Tannaz – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1677-10-11" to="1677-10-14"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>,  den <origDate when="1677-10-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8bris</abbr><expan>octobris</expan></choice></foreign> <hi rend="underline">1677</hi></origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> <abbr>h</abbr> <term ref="lem018540.03">amman</term><note>Gemeint ist <persName ref="per026624a">Hans Jakob Landerset</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026529a">Franz Prosper Python</persName>.</note>, <abbr>h</abbr> <persName ref="per026616a.01"><choice><abbr>F P</abbr><expan>Frantz Peter</expan></choice> Gottraw</persName></seg>
+							<seg><lb/> LX <abbr>h</abbr> <persName ref="per026549a.03">Pancratz Schröter</persName>, <abbr>h</abbr> <persName ref="per026531a.03">Jacob Fillistorff</persName></seg></p>
+						<p><lb/><persName ref="per027166a.02">Magdelaine Tanna</persName> prenommée, derechef
+						<lb/>examinée sur tout ce que devant, a tousjours
+						<lb/>persisté dans ses negatives de tous les poincts
+						<lb/>qui la pourroyent rendre suspecte de <term ref="lem018521.01">sorcel<lb break="no"/>lerie</term>, et a soustenu
+							les mesmes à la <term ref="lem015642">servie<damage agent="faded ink and clipping"><supplied>tte</supplied></damage></term>
+						<lb/>pendue environ <time dur-iso="PT75M">cincq quarts d’heures</time>, disant
+						<lb/>tousjours que le beaufils de son mari, qui la
+						<lb/><term ref="lem015356.18">accoulpée</term>, luy faict tort. Et ne pouvant
+						<lb/>croire que <persName>Lusa Crotta</persName> l’aye <term ref="lem015356.18">accoulpée</term>, puis<damage agent="faded ink and clipping"><supplied>que</supplied></damage>
+						<lb/>jamais ne la cogneue ny parlé à elle.
+						<lb/>Demandant au surplus pardon à Dieu et à
+						<lb/>Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice>.</p>
+						<p><lb/>Ce qui debvrat estre rapporté à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice>
+						<lb/>du Conseil pour attendre leur jugement.</p>
+						<p><add place="below"><lb/>A esté liberée moyennant le payement des <term ref="lem017065.02">mis<damage agent="faded ink and clipping"><supplied>sions</supplied></damage></term>
+						<lb/>et advertissement de se tenir reservée sans beaucoup
+						<lb/>converser avec le monde, sinon pour ce qui luy
+							<lb/>sera necessaire d’agir.</add><note>Cet ajout date probablement du <date when="1677-10-14">14 octobre</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-202.12-1">SSRQ FR I/2/8 202.12-1</ref>.</note></p>
+						<p><lb/><foreign xml:lang="la">Finis</foreign>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

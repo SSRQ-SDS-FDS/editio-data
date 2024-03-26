@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+                  sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-95-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 17JL-316, fol.&#160;25v</idno>
+               </msIdentifier>
+               <head>Ordonnance de René de Challant sur les dispenses de mariage dans la seigneurie de
+                  Valangin</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="wrapping-tie" ns0:material="papered seal" ns0:shape="round"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1550-09-20"/>
+                     <origPlace ref="loc013628">Valangin</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_220">SDS NE 1, N<hi rend="sup">o</hi>&#160;94</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000658"></term>
+               <term ref="key003389"></term>
+               <term ref="key000184"></term>
+                                      </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="25v" facs="AEN_17JL_316_25v"/>
+               <div>
+                  <head resp="Dominique Favarger">Ordonnance pénale de René de Challant pour la seigneurie de Valangin fixant
+                     les châtiments de ceux qui troublent les pasteurs dans l'exercice de leur
+                     ministère </head>
+                  <p><seg><lb/>Nous René, conte de Challant, seigneur souverain de Vallangin, baron de
+                     <lb/>Bauffroymont etc. scavoir faisons a tous que comme nous soyons informez
+                     que <lb/>aulcungs temeraires gens mal advisez et ayans peu reverence a Dieu et
+                     a sa parolle ne es <lb/>sainctz sacremens empeschent ou donnent scandalle es
+                     ministres a la predication ou en <lb/>administrant lesdictz sacremens, chose
+                     que n’est a tollerer et que ne voulions souffrir ne <lb/>permectre, pour ce
+                     est-ilz que doresenavant deffendons très expressement que nulz de quelque
+                     <lb/>estatz et quallité qu’il soyt doige ne presume empescher aulcun ministre
+                     ne le troubler, <lb/>soyt ce en preschant la saincte parolle de Dieu ou en
+                     administrant la saincte Cene <lb/>de Nostre Seigneur ou aultre sacrement, ainsi
+                     que affiert et appartient au ministère. Et ce <lb/>a pene d’estre pris a la
+                     personne, mis et detenu prisonnier en prison sarrée troys jours <lb/>et troys
+                     nuictz en pain et en eau et a pene de l’emende que sera ordonnée par la
+                     congnoissance <lb/>de nostre consistoyre&#160;; et ce pour la premiere foys.</seg> 
+                     <seg>Et qui sera reprins pour la seconde <lb/>foys, nous ordonnons et
+                     commandons qu’il soyt pugny au double de ce que dessus est dict <lb/>et
+                     esmendable a nous a la is congnoissance de nostre dict consistoyre. Et qui sera
+                     reprins <lb/>de telle offense jusques a la tierce foys sera triplement pugny et
+                     emendable <lb/>et oultre ce bampny de nostre terre et seigneurie de Vallangin
+                     par nostre consistoyre <lb/>a pene de nostre indignation et mallegrace jusques
+                     a nostre bon voulloyr et playsir. <lb/>Et ce que dessus par nous ordonnez,
+                     voulions et commandons a nostre lieutenant et principal <lb/>officier, mayres
+                     et aultres de nostredicte seigneurie de Vallangin, fere publier en
+                     <lb/>chascung lieu et parroiche affin que ung chascung l’entende sans
+                     ignorance.</seg> <seg>Et après est <lb/>nostre voulloir et commandement exprès que
+                     tous transgressemens de nostre presente ordonnance, <lb/>ainsi comme dessus est
+                     dict, soyent pugnis, car tel est nostre voulloir.</seg> <seg>Donné et faict <lb/>à
+                        <origPlace ref="loc013628">Vallangin</origPlace> <origDate when="1550-09-20">le jour vingtiesme du moys de septembre en
+                        l’an Nostre Seigneur Jesuchrist <lb/>prins a sa nativité courant mil cinq
+                        cens et cinquante </origDate>soubz nostre seing manuel <lb/>et scel armoyé de
+                     noz armes avec le contre seing de nostre secretere <persName>Gaulthier</persName>.</seg></p>
+                  <lb/><signed><persName>Challant</persName></signed> 
+                     <lb/><signed><persName>Gautiez</persName><note>Contresignature.</note></signed>
+               </div>
+            </body>
+                      <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+                         <p>AEN, Original sur Papier, signé Challant, avec sceau plaqué, Registre du
+                            consistoire seigneurial de Valangin, N<hi rend="sup">o</hi>&#160;1, fol.&#160;25v.</p>
+                         <p>Résumé&#160;: Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;508.</p>
+                         <p>Cité&#160;: Piaget/Lozeron, <hi rend="italic">Le consistoire</hi>, p.&#160;161.</p> </div></back>
+          </text>
+      </group>
+   </text>
+</TEI>

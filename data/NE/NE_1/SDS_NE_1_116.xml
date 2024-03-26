@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-116-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;202v-205v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur diverses matières économiques, judiciaires et de
+                  droit privé</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1565-05-31"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_241">SDS NE 1, N<hi rend="sup">o</hi>&#160;116</ref></bibl>                  
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000287"></term>
+               <term ref="key000231"></term>
+               <term ref="key000350"></term>
+               <term ref="key000157"></term>
+               <term ref="key004428"></term>
+               <term ref="key004969"></term>
+               <term ref="key005038"></term>
+               <term ref="key000058"></term>
+               <term ref="key000270"></term>
+               <term ref="key005189"></term>
+               <term ref="key000815"></term>
+               <term ref="key004770"></term>
+               <term ref="key004056"></term>
+               <term ref="key000291"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="202v" facs="AEN_3PAST_2_202v_203r"/>
+               <div>
+                  <head type="title"><lb/>Aultres articles qu’estoyent plus que  <lb/>necessayres de reformer et les
+                     passer par maniere de  <lb/>decretalle tant pour la grandeur de nostre souverain
+                     prince  <lb/>et seigneur que pour le grand profit et bien du pauvre  <lb/>peuple et
+                     le soulagement d’iceluy. Le <date when="1565-05-31">dernier may&#160;1565</date>.</head>
+                  <head type="subtitle"><lb/>Premièrement</head>
+                  <head type="subtitle"><add place="left margin"><lb/>Decret faict touchant  <lb/>le profit que
+                     doibvent  <lb/>prendre les marchands  <lb/>de bled.</add></head> <p><lb/>De l’abus que aucungs
+                     marchandz vendans graynes peuvent faire  <lb/>en vendant trop la creance, de
+                     sorte que plusieurs doleances en sont faites  <lb/>tant pour ce que beaucoup de
+                     pauvres gens s’y treuvent desertz et leurs  <lb/>enfans es portes des autres,
+                     pour ce qu’en vertu dudict cher temps, il faut qu’ilz  <lb/>vendent leurs biens.
+                     Parquoy il seroit bon de decreter combien doresenavant  <lb/>telz et semblables
+                     marchandz doibvent prendre de profit sus un chacun muidz  <lb/>qui se vendra a
+                     credit demy an durant ou tant tenu tant payer selon le susdict  <lb/>terme oultre
+                     ce que on le vendra en argent comptent a la hasle dudit Neufchastel.  <lb/>A esté
+                     sur cela decreté par mesditz seigneurs des audiances generales que le
+                     marchand  <lb/>doresenavant ne prendra de profit davantage sus le muidz
+                     d’espeaultre, froment,  <lb/>messel, moytié bled que quatre livres foibles outre
+                     ce qui se vendra a la  <lb/>hasle dudict Neufchastel. Item sur le muidz d’orge
+                     quarante solz&#160;; et sur le  <lb/>muidz d’avoyne vingt solz et non plus.
+                     Donques celuy qui contreviendra a ce  <lb/>present decret et ordonnance et qui
+                     l’excedera, son debt sera confisqué a la  <lb/>seigneurie, reservant la grâce de
+                     monseigneur ou de son lieutenant.</p>
+                  <p><lb/>Quant au vin qu’on recueil<note>Note Favarger 1982&#160;: Il s’agit du vin
+                        apporté au pressoir de la seigneurie pour acquitter la dîme. Les vignerons
+                        déduisaient le prix du transporte.</note>, on ne rabatra au vignolan qui le
+                     delivre  <lb/>doresenavant que quinze solz foibles pour le charret et non
+                     plus.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Decret touchant le tier  <lb/>denier, taxe
+                     des <lb/>biens meubles et immeubles,  <lb/>reveüe de taxe, etc.</add></head> <p><lb/>Item
+                     Monseigneur le gouverneur demande declairation, voire que decretalle  <lb/>s’en
+                     face pour le grand profit du bien publicq voyant le grand mesus  <lb/>que s’en
+                     faict a cause des obligez qui sont faitz au plus offrant et
+                     dernier  <lb/>encherissant, qu’iceux soyent remis a la mesme forme qu’on en usoit
+                     de  <lb/>ancienneté et selon coustume du pays qu’est au tier denier avant&#160;;
+                     toutesfois  <lb/>que ce soit de telz biens qu’il plaira au crediteur prendre et
+                     non pas que ce soit  <lb/>aux debteurs de leur en donner, sans par cela toucher
+                     aux deniers dehus a la  <lb/>seigneurie ny a ses subalternes, desquelz on laisse
+                     les usages comme du passé.  <lb/>Les notayres punis de la privation de la jure et
+                     office de notayre&#160;; et le  <lb/>crediteur aura perdu son debt, le tout
+                     remettant soubz la grace de mondit seigneur, <pb n="203r"
+                        facs="AEN_3PAST_2_202v_203r"/><lb/>en reservant la grâce d’iceluy ou a Monsieur
+                     son gouverneur. Aussy que ceux de la  <add place="left margin"><lb/>revue de
+                        taxe</add> <lb/>justice ayent a taxer de sorte que le créditeur puisse trouver son
+                     dehu ou en cas  <lb/>qu’il trouvast a dire a icelle taxe, il poura d’icy en avant
+                     demander reveue de taxe,  <lb/>et en ce faisant, l’officier soit chastelain,
+                     mayre ou lieutenant luy ordonnera  <lb/>quatre de ceux de la justice, et s’il se
+                     treuve par les lesditz quatre que la taxe  <lb/>faite par les deux precedens
+                     fusse esté bien faicte, celuy qui l’aura ainsy  <lb/>demandé a grand tort sera
+                     pour soixante solz&#160;; et combien qu’elle ne fusse faite  <lb/>ainsy que les
+                     quatre consequens l’auroyent faite, que les deux precedens  <lb/>taxeurs fussent
+                     attaintz de leurs honneurs&#160;<note>Note Favarger 1982&#160;: Le registre
+                        «&#160;Audiences générales&#160;», fol.&#160;35 et Matile, <hi rend="italic"
+                           >Plaits</hi>, p.&#160;23 ajoutent&#160;: ou taxes.</note>; cela ne
+                     s’entend en maniere quelle  <lb/>qu’elle soit, pour ce que chacun juge sentence
+                     et taxe au plus près de sa conscience.  <lb/>Mais sy lesditz deux premiers
+                     taxeurs s’estant oubliez ne respectant leurs  <lb/>serementz faitz ny leurs
+                     consciences, ains par vindication voulussent pour  <lb/>advantager l’une des
+                     parties sur l’autre du tier ou du quart, moins ou plus,  <lb/>que cela approuvé
+                     ou veu dehuement, iceux taxeurs seront pour les missions  <lb/>et le tout
+                     s’entend sans fraud ny barat. Laissant neantmoins les obligez au  <lb/>plus
+                     offrant faitz devant la date de la presente decretalle en leur force  <lb/>et
+                     vigueur, reservant tousjours la grace de monseigneur et de Monsieur  <lb/>son
+                     lieutenant.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>La forme de proceder aux  <lb/>decrets et
+                        discutions tant  <lb/>des obligations que cedules <lb/>et comme agir par
+                     faute  <lb/>d’avoir assez biens.</add></head> <p><lb/>Semblablement pour le mesus qui se fait
+                     des esgalations tant en vertu  <lb/>de la despence que aultrement n’y voyant
+                     qu’abus, sembleroit que doresenavant  <lb/>cela ne se doit nommer esgalation mais
+                     que les biens des debteurs soyent d’icy en  <lb/>avant décrétez ou discutez comme
+                     on en use aux lieux circonvoisins&#160;; et d’iceux payer  <lb/>les plus
+                     anciennes lettres et obligez&#160;; et ne seront admises les cedules devant
+                     les  <lb/>obligez signez de notayre, sy le crediteur n’approuve la realité et
+                     deuement  <lb/>comme en la date ny autrement, il n’y ait fraud ny barat. Et s’il
+                     n’avoit assez  <lb/>biens pour satisfaire, de sorte que les pauvres crediteurs
+                     fussent perdans, a luy  <lb/>que seroit larecin manifeste, iceluy cas advenant,
+                     il sera ou seront mis aux  <lb/>prisons fortes de Monseigneur quinze jours,
+                     pendant lequel terme sy ses  <lb/>pere, mere, tuteurs ou amys satisfont le
+                     surplus, il sera mis dehors et lasché  <lb/>d’icelle prison&#160;; ou bien sy
+                     quelque crediteur le vouloir nourir en icelle dicte  <lb/>prison jusques a
+                     satisfaction, il y sera entretenu sans en sortir pendant cela.  <lb/>Mais a faute
+                     de cela, il sera publiquement mené devant le peuple et iceluy  <lb/>banny a
+                     perpetuyté hors de ce comté reservé la grace de Monseigneur ou de  <lb/>Monsieur
+                     son lieutenant. Et le tout se doit entendre sans fraud ny barat de ceux
+                     qui  <lb/>par accident ou infortune auroyent perdu leurs biens. </p> 
+                  <pb n="203v" facs="AEN_3PAST_2_203v_204r"/>  <p><lb/>Item seroit de besoing de considerer aux charges que
+                     ceux des justices soubalternes  <lb/>de ce comté ou les aucunes ont mis le pauvre
+                     peuple, tant a cause des  <lb/>cognoissances que des accessoires trouvez et
+                     inventez par aucuns justiciers  <lb/>desdites justices, ce que d’ancienneté on ne
+                     souloit prendre icelles dictes  <lb/>cognoissances, ains plaidoyoit on par clame
+                     jaceoit que le temps fust a meilleur  <lb/>marché, parquoy seroit bon de reformer
+                     tout cela, et que pour accessoire  <lb/>on ne prenne rien et au lieu des
+                     cognoissances user de clame comme dit est.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Decret que les officiers  <lb/>peuvent
+                        permettre  <lb/>execution des biens des  <lb/>debteurs pour
+                        debtes  <lb/>recognues.</add></head>
+                  <head type="subtitle"><add place="left margin"><lb/>Touchant les droicts  <lb/>de la
+                     justice.</add></head>  <p><lb/>Surquoy a esté declairé et decreté que en monstrant ou
+                     presentant obligez,  <lb/>debtes recognues en les monstrant a l’officier, soit
+                     chastelain, mayre et <add place="above">ou</add>  <lb/>lieutenant, iceux les
+                     feront a jouyr du contenu, sans les mettre en justice,  <lb/>sy ce n’estoit pour
+                     monstrer payement et satisfaction sur iceluy et non autrement  <lb/>user de
+                     cognoissance. Et quant aux accessoyres, ilz ne prendront plus
+                     doresenavant  <lb/>pour chacun d’iceux que cinq solz et rien davantage. Item
+                     quand ilz tiendront  <lb/>l’ordinayre pour cas de pocessions, d’heritages et
+                     censes, les demandes ne se feront  <lb/>que par clames, comme d’ancienneté, et a
+                     l’extraordinayre par cognoissance comme  <lb/>du passé.</p>
+                  <p> <lb/>Et celuy qui voudra doresenavant plaidoyer, il debvra soit par
+                     cognoissance ou  <lb/>par clame devant qu’il soit ouy delivrer, payer et mettre
+                     les droictz de la  <lb/>justice soit cognoissance sur la table&#160;; ou en cas
+                     deffaillant ne luy sera  <lb/>administrée justice aucune, sy ce n’estoit qu’il
+                     laissast gage suffisant  <lb/>au contentement de l’officier.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Decret deffendant a  <lb/>tous secretaires de
+                        justice,  <lb/>officiers, justiciers et  <lb/>soutiers de n’accepter  <lb/>aucunes
+                        advoyeries.</add></head>  <p><lb/>Item pour obvyer aux suspitions et malheurs a esté
+                     sentencé et decreté  <lb/>que tous les secretayres des justices, officiers ny
+                     soutiers ne debvront  <lb/>doresenavant plus estre advoyers de personnes <add
+                        place="above">de</add> quelles <subst><add place="above">qualité qu’ils</add><del
+                           rend="strikethrough">qu’elles</del></subst> soyent, ains s’en  <lb/>deporteront veu
+                     qu’ilz escripvent les remayses, clames, etc., et les autres  <lb/>raportent les
+                     exploitz de justice.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Touchant l’investiture  <lb/>des
+                     successions.</add></head> <p><lb/>Item a esté decreté que l’investiture des successions soyent
+                     observées comme  <lb/>d’ancienneté, sans donner autre relasche comme de peu de
+                     temps en ça il a  <lb/>esté introduict par les aucungs, a l’appetit d’avoir des
+                     cognoissances, laissant  <lb/>l’article contenu en la franchise de
+                        Neufchastel<note>Note Favarger 1982&#160;: N<hi rend="sup">o</hi>&#160;1, article 11,
+                        et N<hi rend="sup">o</hi>&#160;35, article&#160;11.</note> qu’on doit attendre
+                     celuy  <lb/>qui sera dehors du pays ne sachant l’obit du deffunct a son entier,
+                     sans l’alterer  <lb/>ny vitier, ains que l’estrangier ou pupile ne sachant la
+                     coustume que en  <lb/>faisant foy et ser ement que ainsy soit, la puissance sera
+                     a messieurs de  <lb/>l’audiance de l’en relever.</p>
+                  <pb  n="204r" facs="AEN_3PAST_2_203v_204r"/><head type="subtitle"><add place="left margin"><lb/>Les heritiers proprietaires  <lb/>et jouyssans du bien et
+                        succession  <lb/>du defunct ne sont tenus de  <lb/>s’en faire mettre en
+                        possession et  <lb/>investir par justice.</add></head>  <p><lb/>Aussy a esté dict que les
+                     heritiers du deffunct qui sont propryetaires et  <lb/>jouyssans du bien ou qui
+                     ont iceluy entre les mains, ilz n’ont besoing s’il ne leur  <lb/>plait de se
+                     mettre en pocession ny se investir pour ce qu’ilz sont desja saysis  <lb/>comme
+                     proprietayres dudict bien et succession&#160;; mais c’est a faire a ceux qui
+                     sont  <lb/>destronquez d’avec semblables proprietayres ou bien a ceux qui
+                     pretendront  <lb/>avoir action a ladite succession et bien, laissant au reste les
+                     coustumes quant  <lb/>a l’investiture des baronies a leur entier comme du
+                     passé.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Decret comment les  <lb/>prests se doibvent
+                        faire.</add></head>  <p><lb/>Pareillement a esté statué et decreté que nuly doresnavant
+                     ne doibge  <lb/>prester ny faire prest ne somme a personne que ce soit sinon en
+                     argent comptant  <lb/>ou avec une bonne denrée recepvable, pour un prix gracieux
+                     et raisonnable, le tout  <lb/>au regard de gens de bien ou bien en obligez
+                     solvables avec la maintenance  <lb/>d’iceux qu’ilz soyent dehuz, le tout sans
+                     fraude ny barat. Et sy autrement on en use,  <lb/>le delinquant sera pour le debt
+                     et iceluy sera confisqué a la seigneurie,  <lb/>reservant la grace de Monseigneur
+                     ou de Monsieur son lieutenant.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Les journées que doibvent  <lb/>avoir Messieurs des
+                        Trois  <lb/>Estats lors qu’on intente  <lb/>cause devant eux.</add></head>  <p><lb/>Item a
+                     esté décrété et statué que toutes les fois que les seigneurs des trois
+                     estatz  <lb/>seront assemblez pour intenter procez par devant eux et sur leurs
+                     sentences,  <lb/>pouvoir faire proteste et appellation, qu’ilz auront un chacun
+                     jour oultre la  <lb/>despence, assavoir les nobles quarante solz et les officiers
+                     et bourgeois  <lb/>seulement que trente solz foibles. Mais quand ilz seront
+                     assemblez pour vuyder  <lb/>et decider des causes desmenées par devant les
+                     justices inferieures comme  <lb/>justice souverayne, ilz n’auront que leur
+                     despence comme du passé.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Decret du salaire que  <lb/>doibvent avoir
+                        les lb/>justiciers allans aux  <lb/>renforts de justice  <lb/>ou
+                     assises.</add></head>  <p><lb/>Semblablement a esté statué et decreté, ayant ouy les
+                     doléances qu’ont fait  <lb/>les justiciers hors des villes de ce comté qui n’ont
+                     en allant assister aux justices  <lb/>non suspectes et aux assises, telz salayres
+                     comme ceux desdites villes, assavoir  <lb/>que le decret fait en l’an&#160;1547
+                     demeure en son entier, reservé que l’on a  <lb/>augmenté les villageois de dix
+                     solz aultant que les bourgeois. Et quant a  <lb/>pour l’aller et le venir, une
+                     journée seulement comme du passé, toutesfois  <lb/>qu’ilz n’auront serviteurs
+                     comme ceux des villes.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Decret touchant les reliefs  <lb/>que les seigneurs
+                        des estats par  <lb/>advis de Monseigneur le gouverneur  <lb/>et gens du conseil
+                        peuvent  <lb/>accorder.</add></head>  <p><lb/>Et pour ce que plusieurs et bons
+                     personnages, lesquelz ont quelque procez  <lb/>en justice contre aultres ne
+                     peuvent jouyr de leurs biens et droictz pour ce  <lb/>que messieurs des trois
+                     estatz ny aussy le seigneur gouverneur avec son conseil  <lb/>pour quelque
+                     deffault ou moindre chose, soit par obmission de produire  <lb/>quelque tiltre ou
+                     de bien débattre leurs droictz, ilz ne peuvent estre relevez <pb n="204v"
+                        facs="AEN_3PAST_2_204v_205r"/><lb/>sinon par les seigneurs de l’audiance
+                     generalle, laquelle n’est le plus <lb/>souvent assemblée suivant ce qu’il a esté
+                     determiné a raison des affaires <lb/>que surviennent sinon aucunes fois de six a
+                     huit ans, quoy attendant les <lb/>pauvres gens sont beaucoup perdans. Tout cela
+                     bien au long entendu, <lb/>a esté statué, decreté et ordonné que pour le bien
+                     publicq et pour esviter <lb/>beaucoup de fraiz, que doresenavant, messieurs des
+                     trois estatz estans <lb/>pour aultres choses assemblez ung seigneur gouverneur
+                     et les gens de son conseil <lb/>auront puissance de permettre et de faire telz
+                     et semblables reliefz pour <lb/>estre remis en justice a cause de obmissions
+                     mises en son grief, c’est assavoir <lb/>des causes qu’ilz peuvent juger et que
+                     leur viennent par devant, mais <lb/>non pas des causes qui deppendent
+                     d’heritages, pocessions et semblables <lb/>qu’appartiennent aux seigneurs les
+                     assistans de ladite audiance generalle <lb/>seulement.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Comment l’officier <lb/>se doit conduire <lb/>en
+                        justice.</add></head> <p><lb/>Et pour le grand desordre qui se met aux justices du
+                     comté tant de <lb/>criement, injures, desobeyssances, potenement que autrement,
+                     il est plus <lb/>que necessayre de statuer, declairer et décréter voyre de la
+                     desobeyssance <lb/>de ceux de ladite justice, que doresenavant tant les jours
+                     ordinayres que <lb/>extraordinayres on ne plaidoyera que le matin devant disné,
+                     qu’est pour <lb/>obvyer a plusieurs inconveniens qui s’en pouroyent ensuivre.
+                     Item aussy en <lb/>cas que les justiciers, secretayre et soutier ne fussent
+                     obeyssans a l’heure <lb/>que le mayre leur aura baillée, laquelle ilz adviseront
+                     pour incontinent <lb/>la declairer au secretayre de Monseigneur pour l’escripre
+                     en ce present <lb/>article qu’est&#160;: </p> <head type="subtitle"><add place="left margin"><lb/>Decret
+                        mentionnant <lb/>l’ordre qui se doibt <lb/>tenir aux justices <lb/>en
+                        plaidoyant.</add></head> <p><lb/>Le delinquant ou delinquans sera ou seront pour une
+                     amende de cinq solz <lb/>sans grâce ny mercy&#160;; et en cas que ledict mayre
+                     ne les face payer, luy mesme <lb/>les debvra payer, laquelle sera pour les
+                     obeyssans, et ce le tout sans <lb/>fraud, agait, dol ny barrat&#160;; et le tout
+                     sans corrompre, alterer ny vicier les <lb/>franchises et droitz de ceux qui en
+                     ont, ains seulement pour reformer les <lb/>grandz abus et desordres qu’on en
+                     voit.</p>
+                  <p> <lb/>Aussy que ceux qui donneront un desmenty a l’autre soit pour soixante
+                     solz.</p>
+                  <p> <lb/>Item ceux qui parleront paroles infames, pour soixante solz ou
+                     qui <lb/>parleront sans parlier, pour soisante solz, s’il n’estoit permis de
+                     l’officier.</p>
+                  <p> <lb/>Toutesfois pour estrangiers ou pour cas de dommage ou pour injures <lb/>on
+                     pourra tenir ou faire justice aux autres jours non ordonnez,
+                     assavoir <lb/>tousjours du matin devant disné et non après, sans par
+                     ces <lb/>decretales en rien adstraindre la seigneurie ny les
+                     deniers <lb/>provenans d’icelle.</p> 
+                  <pb n="205r" facs="AEN_3PAST_2_204v_205r"/><head type="subtitle"><add
+                        place="left margin"><lb/>Decret contre les <lb/>mesusans qui font
+                        vignes <lb/>a moyteresse<note>Note Favarger 1982&#160;: Sur les vignes à
+                           moiteresse on consultera Loew, «&#160;La vigne et le vin&#160;», <hi
+                              rend="italic">MN</hi>, 1966, p.&#160;3-18, qui est fondé sur de très
+                           larges dépouillements des notaires du
+                        XV<hi rend="sup">e</hi>&#160;siècle.</note>.</add></head> <p><lb/>Quant au mesus que font ceux qui
+                     font les vignes a moyteresse en faisant <lb/>raisins en derrière de leurs
+                     maistres et oultre raison pauvrement, sy ung <lb/>brevard ou gardeur des vignes
+                     le voit ou trouve, il le debvra rapporter par son <lb/>serement a l’officier,
+                     lequel l’enquestera pour soixante solz, et le maistre <lb/>de la piece la poura
+                     retirer, et de cela on luy en laisse l’action&#160;; ou a faute <lb/>du brevard
+                     qui a le serement, sy tel fait est approuvé par deux hommes de bien, <lb/>le
+                     tout sans fraude.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Punition decernée aux <lb/>larrons derobans
+                        fruicts <lb/>pendans.</add></head> <p><lb/>Item quant a ceux, soyent grandz ou petitz,
+                     masles ou femelles qui seront <lb/>trouvez prenans et desrobans fruitz, raisins,
+                     raves ou autres choses, quels <lb/>qu’ilz soyent, aussy barres, espines, sauges ou autres semblables es
+                     pocessions, <lb/>prelz, vignes et autilz d’autruy et qu’ilz soyent raportez a
+                     l’officier par <lb/>ung brevard, ayant serement ou bien approuvez par deux
+                     personnages au deffaut <lb/>dudit brevard, tels ou telles meffaisant sera sans
+                     grâce ny mercy, mis trois jours <lb/>et trois nuitz en pain et en eau aux
+                     prisons de Monseigneur, reservant la grace <lb/>de mondict seigneur ou de
+                     monsieur son lieutenant, et a Neufchastel autant <lb/>a la javyolle, et tenu de
+                     satisfaire ledict domage au maistre de ladite <lb/>pocession, auquel ledict
+                     brevard sera tenu le rapporter.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Decret des censes <lb/>foncieres et bien
+                        assignées.</add></head> <p><lb/>Item quant aux censes foncieres et bien assignées
+                     desquelles on monstrera <lb/>bon et vallide passement, tiltre, recognoissance,
+                     ou que le censier la <lb/>confesse debvoir, luy ayant icelle demandée, et il ne
+                     la paye de sorte qu’il <lb/>laisse echeoir trois retenues, trois ans estre
+                     revoluz sans la payer, le <add place="left margin" type="sign">seigneur censier pourra
+                        rentrer <lb/>sur sa piece et assignaulx, le</add> <lb/>tout sans toucher aux
+                     tiltres et privilleges des seigneurs feodaulx qu’en peuvent <lb/>avoir&#160;; et
+                     quant a ceux qui font partage des censes, ilz seront tenus <lb/>desormais faire
+                     ung porteur pour la delivrer au seigneur censier.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Quand les rehemptions <lb/>se doibvent
+                        faire.</add></head> <p><lb/>Item quant aux rehemptions qui se souloyent faire le jour
+                     des brandons, <lb/>il a esté statué et decreté que on remet cela sur le premier
+                        <add place="above">jour de</add> dimanche <lb/>de mars&#160;; et les
+                     seigneurs quatre ministraulx de Neufchastel se sont declairez <lb/>qu’en vertu
+                     de cela, ilz remettent les montes annuellements et aultres afaires <lb/>de la
+                     ville, ensemble leurs assemblées qu’ilz souloyent faire sur ledict jour <lb/>des
+                     brandons, sur ledict premier dimanche de mars, pour aucungs bons <lb/>respectz a
+                     ce les mouvans.</p>
+                  <head type="subtitle"><add place="left margin"><lb/>Reconfirmation du <lb/>decret que nul ne
+                        doibt <lb/>estre admis en proteste ny <lb/>appel syla cause n’excede <lb/>dix
+                        livres en principal.</add></head> <p><lb/>Mesditz seigneurs reconfirment l’article de
+                     la decretale desja par eux cy <lb/>devant faite que nuly ne sera receu en
+                     proteste ny en appellation sy la <lb/>cause ou le debt n’excede dix livres
+                     foibles.</p> <pb n="205v" facs="AEN_3PAST_2_205v_206r"/><p><lb/>Les dites decretales se
+                     doibvent publier aux prosnes et eglises, tant  <lb/>de ceste ville que a toutes
+                     celles du comté, sans exclure les subjectz  <lb/>des seigneurs feodaulx de
+                     mondict seigneur ny eux aussy estans riere  <lb/>cedict comté. Faictes,
+                     recourues et passées les an et jour que dessus  <lb/>qu’est <origDate
+                        when="1565-05-31">le dernier du mois de may&#160;1565</origDate>. </p>
+                  <p> <lb/>Double levé sur le vray original et collationné de mot a autre  <lb/>par moy
+                     Guillaume Hardy. </p>
+                  <p> <lb/>La presente coppie a esté prinse sur ledit  <lb/>double qui estoit signé par
+                     ledit feu sieur Hardy  <lb/>et dehuement collationnée a iceluy par moy. </p>
+                   <lb/><signed>Baillodz, <abbr>not</abbr></signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;202v-205.<note>Aujourd'hui AEN 3PAST-2</note></p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;283-288.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;54v-58v.</p>
+                  <p>Registre des Trois États, I, fol.&#160;73-79.</p>
+                  <p>AEN, P9, N<hi rend="sup">o</hi>&#160;20 (copie du XVI<hi rend="sup">e</hi>
+                     siècle), p.&#160;2-7.</p>
+                  <p>Éd.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;22-30.</p>
+                  <p>Résumé&#160;: Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;139-142.</p>
+               </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

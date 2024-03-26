@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-80.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 12, S. 230–235</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 12, p. 230–235</idno>
+					</msIdentifier>
+					<head xml:lang="de">François Peity – Verhör</head>
+					<head xml:lang="fr">François Peity – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1628-08-08">8 <foreign xml:lang="la"><abbr>aug</abbr></foreign> 1628</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="230"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName>
+							<seg><lb/><origDate when="1628-08-08">8 <foreign xml:lang="la"><abbr>aug</abbr></foreign> 1628</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per009172a.02">Gasser</persName></seg>
+							<seg><lb/><persName ref="per006532">Bawman</persName>, <persName ref="per006509">Rämi</persName>, <persName ref="per009264">Amman</persName>, <persName ref="per006839">Lari</persName></seg>
+							<seg><lb/><persName ref="per006528a.07">Poßhart</persName>, <persName ref="per009265a.02">Gydolla</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Die ersten Abschnitte betreffen andere Personen.</note></p>
+						<pb n="234"/><p><lb/>In <placeName ref="loc007683.17">Zollets thurn</placeName>
+							<seg><lb/><foreign xml:lang="la">Eodem coram iisdem</foreign></seg></p>
+						<p><seg><lb/><persName ref="per009320a.01">Françoys<del>e</del> Peity</persName> <add place="above" type="sign">de <placeName ref="loc007893.02">Mides</placeName></add> interrogué de la cause de son <choice><abbr>emprisonnem</abbr><expan>emprisonnement</expan></choice>,
+							<lb/>a dict qu’une <term ref="lem017319.02">demoniacle</term> avoit dict que le prisonnier<note>Gemeint ist wohl <persName ref="per009312">François Péclat</persName>.</note>
+							<lb/>luy auroit donné le mal dans un verre de vin <add place="above" type="sign">rouge</add>, ce que ne
+							<lb/>se constera jamais, car il n’auroit onques presenté a boirre
+							<lb/>a ladite <term ref="lem017319.02">demoniacle</term>, qui d’ailleurs le hait, pource qu’il
+							<lb/>ne luy a promys un de ses filz en mariage. Bien estre vray
+							<lb/>que son filz <persName ref="per009321">Pierre</persName>, aagé de <measure type="age" quantity="15" unit="year">15 ans</measure>, auroit presenté a boirre
+							<lb/>a ladite fille <term ref="lem017319.02">demoniacle</term>, mais elle n’ayant achevé de
+							<lb/>boirre ledit verre, qu’il l’acheva.</seg> <seg>Enquis s’il n’avoit
+							<lb/>respondu quand on luy demande sa quote des despendz qui se
+								<pb n="235"/><lb/>font aux processions et sollemnitez de la <term ref="lem017335">Passion</term>, <subst><del>a dict</del><lb/>
+									<add place="inline">si c’estoit pour la paisson des <term ref="lem019236.05">pors</term></add></subst>, a dict qu’ouy, mais
+							<lb/>pas en mauvaise intention, et qu’il avoit dict estant prisonnier.</seg>
+							<seg><lb/>Interrogué s’il avoit un rosaire et <foreign xml:lang="la"><term ref="lem015471.02">agnus</term></foreign>, qu’il ne sçavoit
+								<lb/>ce que c’estoit, mais qu’il sçavoit bien prier.<note>Der nächste Abschnitt betrifft das Verhör von <persName ref="per009315">Antonie de la Palud-Péclat</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-80.3-1">SSRQ FR I/2/8 80.3-1</ref>.</note></seg>
+						</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

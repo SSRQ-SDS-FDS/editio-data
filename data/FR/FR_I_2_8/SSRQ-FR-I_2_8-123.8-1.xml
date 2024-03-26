@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-123.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 311–312</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 311–312</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margret Schueller-Python – Verhör</head>
+					<head xml:lang="fr">Margret Schueller-Python – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-08-08"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref>Berchtold 1850</ref>, S. 499–500</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="311"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-08-08">8<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>hr</abbr> <persName ref="per013453a.01">Gady</persName></seg>
+							<seg><lb/><persName ref="per013432a.01">Stutz</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per006147a.04">Margreth Python, <add place="above" type="sign">alias Tietrina</add></persName> du <placeName ref="loc008558.05">Muoller</placeName>, ayant estee <term ref="lem019427.02">torturee</term> avec le
+						<lb/><term ref="lem018232">quintal</term>, n’a rien voullu <term ref="lem015549.01">confesser</term>, mais par aprés librement
+						<lb/>dit et <term ref="lem015549.07">confessé</term> que le <term ref="lem015433.10">maling</term> <add place="left margin" type="sign">avant <date dur-iso="P2Y">2</date> ou <date dur-iso="P3Y">3 ans</date></add> luy est apparu entre jour
+						<lb/>et nuict au <placeName ref="loc012659.03">Bois de <term ref="lem017681.02">faux</term></placeName> du <placeName ref="loc008558.05">Muoller</placeName>, la estant toutte
+						<lb/>fachee de ce que elle avoit laissé<del>r</del> tomber son fagot de
+						<lb/>bois, icelluy luy dit qu’elle ne se devoit pas attrister, qu’il
+						<lb/>fairoit qu’elle deviendroit riche, moiennant qu’elle <term ref="lem019541.09">reniasse</term>
+							<lb/>Dieu, ce qu’elle fist et le <term ref="lem019541.12">renia</term>&#160;; surce donques il l’a <term ref="lem018895.08">mar<lb break="no"/>qua</term> au bras droit avec sa main qu’estoit froide&#160;; icelluy
+						<lb/>estoit tout noir, avec une cappe disformé sur sa teste, n’avoir
+						<lb/>que bien peu demeuré aupres d’elle. Une autre fois estant
+						<lb/>allee audit bois, ou ce qu’elle le trouva, il luy dit qu’il
+						<lb/>luy voulloit ayder a faire son fagot, ce qu’elle permit
+							<lb/>sans avoir receu de luy aucune <term ref="lem018382">graisse</term> ny <term ref="lem018254">poudre</term> pour
+							<lb/><term ref="lem018556.09">maleficier</term> gens et bestails.</seg> <seg>Au <origDate when="1646-07-25">jour feste <persName ref="per000208a.03"><abbr>St</abbr> Jaques</persName>
+							<lb/>dernier passé</origDate>, avoir estee avec le <term ref="lem015433.10">maling</term> <subst><del>proche du</del><add place="above">vers un</add></subst> ruis<lb break="no"/>seau proche de <persName>Mathys Grimmo</persName> dudit <placeName ref="loc008558.05">Muoller</placeName>, ou ce que
+							<lb/>avec verges blanches ils battirent tous deux dans le ruis<lb break="no"/>seau <add place="left margin" type="sign">dit <placeName ref="loc011049.03">Füllebach</placeName></add> et fisrent par ce moien la <term ref="lem018102.02">gresle</term>&#160;; et a consenty qu’il
+							<lb/>la puisse conduire vers les danceurs de <placeName>Geyssale</placeName><note>Gemeint ist möglicherweise die Alp <placeName ref="loc011050.01">Geisserli</placeName>.</note>, qui estoent
+							<lb/>a la <term ref="lem015241.02">benission</term> ou <term ref="lem019394.03">assemblee</term> accoustumee sur ceste montagnie
+					<pb n="312"/><lb/>et aussy permis qu’il la puisse conduire ou ce qu’il luy plairoit,
+								<lb/>dont les fruits en sont estés destruits et <term ref="lem019484.03">tempestés</term>. Dit
+								<lb/>ne sçavoir le nom de son <term ref="lem019555.05">maistre</term>, si non qu’il s’appelle <persName ref="per029460a">Le
+						<lb/>Diable</persName>, ayant des cornes sur la teste et des pieds laids
+							<lb/>et noirs, et qu’elle luy demandera bien son nom.</seg> <seg>Le jour
+							<lb/>qu’elle <term ref="lem019541.12">renia</term> Dieu et se rendit au <term ref="lem015433.10">maling</term>, dit l’avoir
+							<lb/><term ref="lem019481.03">baisé</term> a la main, sans touttefois avoir receu aucune chose
+							<lb/>de luy, ny or ny argent, ny <term ref="lem018556.03">maleficié</term> chose que ce soit.
+							<lb/>Dit enfin qu’elle est <term ref="lem019389.02">sorciere</term> et a faict ceste <term ref="lem018102.02">gresle</term>,
+						<lb/>n’avoir pourtant faict autre mal, ny donné ses enfants
+						<lb/>au <term ref="lem015433.10">maling</term>, pour quels meffaicts a demandé pardon
+								<lb/>a Dieu et messeigneurs.<note>Le passage qui suit concerne les procès menés contre <persName ref="per016972">Annili Tunney</persName> et <persName ref="per017006">Maria Roggo-Conte</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-121.35-1">SSRQ FR I/2/8 121.35-1</ref>.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-135.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 468–470</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 468–470</idno>
+					</msIdentifier>
+					<head xml:lang="de">Antoine Fruyo – Verhör</head>
+					<head xml:lang="fr">Antoine Fruyo – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-09-09"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref>Berchtold 1850</ref>, S. 512</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="468"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-09-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> 1647</origDate>
+						<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+						<seg><lb/><persName ref="per013433a.02"><choice><abbr>C</abbr><expan>Caspar</expan></choice> Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+						<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017913">Jean Jolion</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-133.14-1">SSRQ FR I/2/8 133.14-1</ref>.</note></p>
+					<pb n="469"/><p><lb/><foreign xml:lang="la">Ibidem</foreign></p>
+						<p><seg><lb/><persName ref="per017942a.01">Antheynoz Fryoud</persName>, fils de prenommee <persName ref="per017940a.02">Catherine Magnyn</persName>, aagé
+							<lb/>de environ <measure type="age" quantity="11" unit="year">11</measure> a <measure type="age" quantity="12" unit="year">12 ans</measure>, demande du deportement de sa mere et
+							<lb/>du sien, aprés avoir par commandement de <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le <term ref="lem019323.06">bourgermeister</term>
+							<lb/>dheuement prié les oraisons necessaires a tous chrestiens <term ref="lem019533.02">catholiques</term>,
+							<lb/>a dit que jamais il n’a rien apperceu de mal de sa mere, qu’icelle
+							<lb/>l’avoit instruict de prier et servir Dieu, et n’entrelaissoit d’aller
+							<lb/>pour le moings touttes les festes et dimanches ouyr la <choice><abbr>s<hi rend="sup">te</hi></abbr><expan>sainte</expan></choice> messe.</seg>
+							<seg><lb/>Que jamais il a dit qu’il aymoit mieux porter fiente de <term ref="lem018921.01">cheval</term>
+							<lb/>au col que le <term ref="lem018037">scapulaire</term>, ny qu’il falloit (avec support) parfumer
+								<lb/>les <term ref="lem016119.03">privés</term> d’encens, et qu’on mangoit en paradis des <term ref="lem021654.02">pies</term> et
+								<lb/><term ref="lem019350.04">corbeaux</term>, mais bien qu’il <add place="above">y</add> faisoit bon estre et qu’il y vouldroit
+							<lb/>desja estre. Ne sçait qu’on ait rien veu chez eux, si non une
+							<lb/>fois dans la nuict, dormant avec sa mere <add place="above">et</add> soeur, qu’il vist
+								<lb/>sa tante, qui estant <add place="above" type="sign">toutte blanche</add> venue proche du lict et parlé pronfonde<lb break="no"/>ment avec sa mere, l’empoignant par le cordon de la <orgName ref="org001675.05">confrairie
+							<lb/>de <hi rend="font change">Jesus</hi></orgName> et dit qu’elle luy debvoit quitter certains habits,
+							<lb/>ce que luy ayant accordé, elle, aprés y avoir demeuré environ
+							<lb/><date dur-iso="PT15M">¼ d’heure</date>, luy repondit qu’elle alloit droit en paradis et
+							<lb/>prononçant telles parroles, disparut sans jamais la veoir du des<lb break="no"/>puis. Mais en ce qu’elle empoigna sa mere par le cordon, luy fist
+							<lb/>des marques bleues, vulgairement dites des <term ref="lem018063.02">bliods des morts</term>.
+							<lb/>Et si bien de peur qu’il avoit, il faisoit le signe de la
+							<lb/>croix, et <term ref="lem019131.01">quand et quand</term> sa mere et soeur, si portant ceste
+							<lb/>dite tante ne disparut avant que sa mere luy ehut accor<lb break="no"/>dé sa demande.</seg> <seg>Concernant certaine herbe qu’il doit
+							<lb/>cognoistre, dit en estre ignorant&#160;; bien est il vray que une
+							<lb/>certaine femme nommee <persName>Pernetta</persName> de <placeName ref="loc008140.04">Villar Gyroud</placeName> luy dit
+							<lb/>une fois qu’elle avoit entendu des enfants de <persName>Pierre Me<lb break="no"/>stral</persName>, qu’il cognoissoit de l’herbe pour gaster les enfants
+							<lb/>dans les ventres des meres, ce qu’ayant entendu, ne tarda
+							<lb/>de demander auxdits enfants, qui sont encorres de bas aage, s’ils
+							<lb/>avoient dit cela de luy, lequels repartirent que non et
+							<lb/>s’enfuirent.</seg> <seg>S’il sçauroit que sa mere fut telle dont
+							<lb/>elle est soubzçonnee et ehut veu <subst><del>quelque</del><add place="inline">ou apperceu quel<lb break="no"/>que</add></subst> mal d’elle, le diroit promptement, sans soy laisser plus
+								<pb n="470"/><lb/>presser les doigt&#160;; en quel <term ref="lem019473.05">torment</term> il n’a rien voullu
+							<lb/><term ref="lem015549.01">confesser</term>, demandant humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

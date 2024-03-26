@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-174-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.008, fol. 38r</idno>
+     </msIdentifier>
+     <head>Délai pour réclamer un usufruit en legs</head>
+     <msContents>
+      <summary>Il n’est pas nécessaire de se mettre en possession de biens dont on a reçu l’usufruit
+       par legs dans un délai de six semaines après l’ensevelissement.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="42.8"/>
+          <width unit="cm" quantity="29.6"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1661-05-01" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000336"></term>
+     <term ref="key005117"></term>
+     <term ref="key000242"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="37v"/>
+     <div>
+      <head>
+       <lb/>Le <origDate when="1631-05-01" calendar="Julian"><choice><abbr>mercedi</abbr><expan>mercredi</expan></choice> premier jour de may <hi rend="underline">1661</hi></origDate> en <orgName ref="org007660">Conseil general</orgName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="38r" facs="AVN_B_101.01.01.008_0038r"/>
+     <div>
+      <head>
+       <lb/><choice>
+        <abbr>Dud</abbr>
+        <expan>Dudit</expan>
+       </choice> jour que devant en <orgName ref="org003085">Conseil estroict</orgName>. </head>
+      <add place="left margin" hand="later hand" rend="pencil">Délibérations</add>
+      <add place="left margin">Point de coustume</add>
+      <p>
+       <lb/>Sur la requeste de la part des enfans de feu <persName ref="per011287a.01">Jehan
+        Cortaillod</persName>, aux fins d’avoir <lb/>le point de coustume suivant. </p>
+      <p>
+       <lb/>Assavoir si un usufructuaire par legat faict par un deffunct, est obligé <lb/>de <del
+        rend="strikethrough"><gap unit="character" quantity="2" reason="illegible"/></del> se mettre
+       en possession sur le jour des <date dur-iso="P6W">six sepmaines</date> de l’<choice>
+        <abbr>ensepvelissem<hi rend="sup">t</hi></abbr>
+        <expan>ensepvelissement</expan>
+       </choice>
+       <choice>
+        <abbr>dud</abbr>
+        <expan>dudit</expan>
+       </choice>
+       <lb/>deffunct. </p>
+      <p>
+       <lb/>Il a esté passé que <choice>
+        <abbr>led</abbr>
+        <expan>ledit</expan>
+       </choice> usufructuaire n’est point tenu de s’en mettre en possession. </p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

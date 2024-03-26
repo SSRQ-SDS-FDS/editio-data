@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-143.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 200 (1649), S. 386</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 200 (1649), p. 386</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Droz – Anweisung</head>
+					<head xml:lang="fr">Elisabeth Droz – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-10-15">15<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8<hi rend="sup">bris</hi></abbr><expan>octobris</expan></choice></foreign> 1649</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>	<p><lb/>Gefangne</p>
+						<p><lb/><persName ref="per019694a.02">Elisabeth Drau</persName>, ein <term ref="lem007356">unholdin</term>, hatt im halben <term ref="lem018237.02">zendtner</term> über die
+							<lb/>nüwliche <term ref="lem017789.02">verjähung</term> noch <term ref="lem011468.02">bekendt</term>, das sie <term ref="lem000075.13">lüth</term> und <term ref="lem000310.12">veech</term> mit tüfflischem
+							<lb/><term ref="lem011439">pulver</term> <term ref="lem018557.02">maleficiert</term>, unnd sye ettliche mahl in der <term ref="lem017042.04">seckht</term> ge<subst><del>s</del><add place="opposite">w</add></subst>e<subst><del>h</del><add place="overwritten">s</add></subst>en. Unndt
+							<lb/>under anderen zwey mahl im <term ref="lem001320.08">kauffhuß</term> zu <placeName ref="loc000157">Bern</placeName> <time period="byNight">nachts</time> erschinnen, da sie
+							<lb/>ettliche frauwlenen daselbsten gebührtig mit guldenen <term ref="lem018103.02">kötten</term> gesehen,
+							<lb/>deren sie ettliche genambset. Sie soll mit dem grossen <term ref="lem018287">stein</term> <term ref="lem006574.08">gefolteret</term>
+							<lb/>werden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

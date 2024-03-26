@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 221–222</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 221–222</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Vater / le père – Verhör</head>
+					<head xml:lang="fr">Pierre Ducli der Vater / le père – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-05"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="221"/><p><lb/><hi rend="outdent"><placeName ref="loc007594.03">Rossey</placeName></hi>, den <origDate when="1651-07-05">5<hi rend="sup">ten</hi> juli 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem006250">venner</term> <persName ref="per006518a.01">Lanter</persName></seg></p>
+						<p><seg><lb/><persName ref="per020477a.04">Pierre du Cli</persName> de <placeName ref="loc008073.01">Matran</placeName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examiné sur
+							<lb/>l’<term ref="lem019530.01">embrasement</term> du dit lieux par luy causé, dit que luy
+							<lb/>estant venu hier la volonté de cest <term ref="lem022070.01">encendrement</term>, il fust
+							<lb/>agité dez panseez d’un costé d’aultre, de<del>s</del> faict qu’il estoit <!--je vois pas bien ce qu’est cette correction, à revoir-->
+							<lb/>pour lors en volonté de courrir dans lé montagnies,
+							<lb/>mais par après s’estant resault aultrement, il print
+							<lb/>un tison de <term ref="lem019529.01">feu</term> allumé, le quel il portat dans la
+							<lb/>grange, ou il le fourrat<!-- fourat? --> dans la <term ref="lem015397.04">pallie</term>, environ
+							<lb/>le <time when="12:00:00">midi</time>, qui par prés estant allumé, causat l’<term ref="lem019530.03">ambrassement</term>.
+							<lb/>Le quel voiant, il se retirat de <placeName ref="loc008073.01">Matran</placeName> et print
+							<lb/>le chemin d’<placeName ref="loc008116.05">Avri</placeName>, le repenti l’ayant saisi.</seg> <seg><term ref="lem015549.13">Confesse</term> <add place="inline">en
+							<lb/>oultre</add> des quesque bon espace de tempz, n’avoier esté à la
+								<lb/>messe, ni s’estre <term ref="lem019463.06">confessé</term> à <date type="floating holiday">Pasquez</date>, aussi d’avoier
+							<lb/>dit (sur la predication de <abbr>m<hi rend="sup">r</hi></abbr> le curé domp <persName>Claude</persName>,
+							<lb/>qu’il fit, disant qu’il en avoit un certain de <placeName ref="loc008073.01">Matran</placeName>
+							<lb/>qui estoit damné en toute eternité) qu’il estoit damné
+							<lb/>au suplice d’enfer<del>e</del>, ce que l’obligat de dire qu’il estoit
+								<lb/>damné et qu’il ne luy estoit besoing, à ce soubject, d’<lb break="no"/>aller à la messe et <term ref="lem019466.01">confession</term>.</seg> <seg>Estant plus
+						<pb n="222"/><lb/>avant examiné, ast <term ref="lem015549.07">confessé</term> que venant sur le
+							<lb/>tard de la ville, chantant, il <subst><del>rencontrat</del><add place="overwritten">entendit</add></subst> proche
+							<lb/>de <placeName ref="loc008073.01">Matran</placeName> une certaine voyx d’home, ains que
+							<lb/>luy semble, par la quelle luy <subst><del>faict</del><add place="overwritten">ast</add></subst> dit
+							<lb/>qu’il chantoit bien, sans l’avoier partant
+							<lb/>peu cognaistre qui c’estoit, estant la dite
+							<lb/>voix dans une haye espaisse, luy semblant que c’estoit
+							<lb/>quelcun qui conduiset de l’eaux par lez prez.
+							<lb/>Le quel discurs <choice><sic>pedant</sic><corr>pendant</corr></choice> l’examination il reiterat
+							<lb/>diverses fois.</seg> <seg>Aussi dit il que <persName>Fridli Riboti</persName> luy
+							<lb/>avoit resproché que par son tesmogniage qu’il
+							<lb/>avoit doné, il avoit falu susporter de grand
+							<lb/>frais et mission, et que ce partant il n’<lb break="no"/>avoit tesmognié à son advis que ainsi qu’il en
+							<lb/>sçavoit&#160;; la desus demandant à Dieu et
+							<lb/>à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

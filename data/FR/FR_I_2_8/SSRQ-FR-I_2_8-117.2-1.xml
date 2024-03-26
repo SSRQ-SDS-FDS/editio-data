@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-117.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 106</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 106</idno>
+					</msIdentifier>
+					<head xml:lang="de">Apollonia Pfyffer-Sumi – Verhör</head>
+					<head xml:lang="fr">Apollonia Pfyffer-Sumi – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-09-19"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-09-19">19 <foreign xml:lang="la"><choice><abbr>sept</abbr><expan>septembris</expan></choice></foreign> 1644</origDate>, <persName ref="per012378a.01">Heydt</persName>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per011519a.01">Techterman</persName>, <persName ref="per012381a.02"><choice><abbr>D</abbr><expan>Doctor</expan></choice> Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><lb/><persName ref="per015965b">Apollonia Sumi</persName> von <placeName ref="loc007859.03">Joun</placeName>, die vor <date dur-iso="P3Y">dry jahren</date> die
+							<lb/><term ref="lem013000.01">tortur</term> usgestanden und wytters der <term ref="lem014672.04">hechsery</term> verdacht worden<note>Apollonia a déjà été suspectée de sorcellerie. Dans le Manual du Conseil de 1641, elle apparaît une première fois
+								sous l’entrée <orig>Process <placeName ref="loc007859">Jaun</placeName></orig>, le <date when="1641-07-08">8 juillet&#160;</date>: <orig><persName ref="per015965a.01">Appollonia Pfyffer</persName> der hexery verdacht, soll <term ref="lem009330.02">inzogen</term>,
+									härgebracht und lär <term ref="lem016150.02">uffzogen</term> werden</orig>. Après plusieurs séances de <term ref="lem019428.01">torture</term>, elle est libérée <orig>mit abtrag kostens</orig> et condamnée au confinement
+								dans sa paroisse pendant <date dur-iso="P3Y">trois ans</date> (<bibl><ref target="http://www2.fr.ch/aef_query/detail.aspx?ID=71621">StAFR, Ratsmanual 192</ref> [1641],S. 232, 235, 236, 237, 238</bibl>). Le Thurnrodel pour l’année 1641 n’est en revanche pas conservé, raison pour laquelle son premier procès n’est pas édité.</note>,
+							<lb/>will frommer syn als andre; achtet der <term ref="lem013000.01">tortur</term> nichts, da
+							<lb/>sy lähr <term ref="lem016150">uffzogen</term>. Sagt sy, man soll nur <term ref="lem017902.02">waker</term> ziehen,
+							<lb/>ist aller sachen <term ref="lem005649.03">abredt</term>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

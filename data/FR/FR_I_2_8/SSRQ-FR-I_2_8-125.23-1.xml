@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-125.23-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 356–357</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 356–357</idno>
+					</msIdentifier>
+					<head xml:lang="de">Louise Monod-Blanc – Verhör</head>
+					<head xml:lang="fr">Louise Monod-Blanc – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-12-03"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="356"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-12-03">3<hi rend="sup">ten</hi> <foreign xml:lang="la">decembris</foreign> 1646</origDate>
+						<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Torny</persName></seg>
+						<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+						<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013439a.01">von Montenach</persName></seg></p>
+						<p><seg><lb/><persName ref="per017126a.01">Louysa Blanc</persName> est demeuree inconstante a sa precedente
+							<lb/><term ref="lem019465.01">confession</term>, et nyé tout ce qu’elle a dit et <term ref="lem015549.07">confessé</term> cy de<lb break="no"/>vant, disant qu’elle n’estoit point <term ref="lem019389.02">sorciere</term>, n’avoir on<lb break="no"/>ques <term ref="lem019541.17">renyé</term> Dieu. Et si <add place="above">elle</add> auroit accusé <persName>Jenon Morry</persName> de
+						<lb/><placeName ref="loc009823.02">Lentignye</placeName>, dit qu’elle luy a faict grand tort, ne sçachant
+						<lb/>d’elle que tout bien et honneur, luy <term ref="lem019498">crie mercy</term>, et
+						<lb/>prie qu’elle la veuille pardonner du tort qu’elle luy a
+							<lb/>faict.</seg> <seg>Mais aprés qu’on l’ehust attachee pour la <term ref="lem019427.01">tor<lb break="no"/>turer</term> avec le <term ref="lem018232">quintal</term>, elle, <add place="left margin" type="sign">aprés longues <lb/>variation</add>, a <term ref="lem015549.07">confessé</term> tout de nou<lb break="no"/>veau, que le <term ref="lem015433.03">maling esprit</term> luy est apparu en façon
+						<lb/>d’un umbre noir desja avant <date dur-iso="P2Y">deux</date> ou <date dur-iso="P3Y">trois ans</date> aux <term ref="lem017990.02">cein<lb break="no"/>tres</term> de son champ, ou elle <term ref="lem017991.02">esbuchettoit</term>, lequel la
+						<lb/>contraingnist a se rendre a luy et <term ref="lem019541.03">renyer</term> Dieu,
+						<lb/>ce qu’elle n’a faict que par force, car icelluy la battit
+						<lb/>avec un moyen baston&#160;; et aprés la renegation la <term ref="lem018895.08">marqua</term>
+						<lb/>a la cuisse gauche et <add place="above">la</add> <term ref="lem019481.07">baisa</term> sur l’espaule gauche.
+						<lb/>Le <term ref="lem015433.10">maling</term> par aprés luy <term ref="lem015635.11">bailla</term> un baston (ne sçait de
+						<lb/>quel bois il estoit) et commanda qu’elle devoit toucher
+						<lb/>les enfants qu’elle rencontreroit, ce qu’elle ne
+						<lb/>voullut faire, ains jetta ledit baston a costé d’une haye,
+						<lb/>ou elle le laissa sans le veoir du despuis. Mais le
+					<pb n="357"/><lb/>rencontrant une autre fois auxdits <term ref="lem017990.02">ceintres</term>, il luy <term ref="lem015635.11">bailla</term>
+						<lb/>une autre baston qu’estoit peu escorché, avec commande<lb break="no"/>ment qu’elle devoit avec icelluy toucher et faire mou<lb break="no"/>rir le bestail, auquel elle ne voullut obeir, ny faire aucun
+							<lb/>mal au bestail, ains le jetta <term ref="lem019135.02">envoye</term>. Et si bien elle auroit une
+						<lb/>fois battu leur <term ref="lem017507">vache</term> avec un baston, n’estre pourtant meschente
+							<lb/>par cas de <term ref="lem018521.01">sorcellerie</term>. Un’autre fois, le <term ref="lem015433.10">maling</term> luy voullut
+						<lb/><term ref="lem015635">bailler</term> certaine affaire dans un papier bleu, mais a cause
+						<lb/>qu’elle fist refus de le recevoir, il la bastit avec un baston.</seg>
+						<seg><lb/>Enquise ou elle avoit estee a la <term ref="lem017043">secte</term> et qui estoient ses complices&#160;?
+						<lb/>A dit qu’elle y avoit estee trois fois seulement, sçavoir aupres
+						<lb/>d’un ruisseau proche de <placeName ref="loc010145">Corserey</placeName>, la ou le <term ref="lem015433.10">maling</term>, l’empoignant
+						<lb/>par le bras gauche, la porta, n’y ayant peu aller a cause
+						<lb/>de son affoiblissement. Dit que le <term ref="lem015433.10">maling</term>, qui estoit comme
+						<lb/>verd, ayant <add place="above" type="sign">une queue et</add> un chappeau <term ref="lem017992.02">pellu</term> sur la teste, l’emporta par force
+							<lb/>a la <term ref="lem017043">secte</term>, ou ce qu’on saultoit et dançoit toutte la nuict jus<lb break="no"/>ques au chant des <term ref="lem019395.02">coqs</term>. Alors tous ceux de l’<term ref="lem019394.03">assemblee</term> s’en
+						<lb/>alloient, les uns ça, les autres la, tombant <subst><del>su</del><add place="inline">l’un sur</add></subst> l’autre,
+						<lb/>comme si tout estoit renversé. Mais soustient n’y avoir veu
+						<lb/>ny cogneu&#160;: <add place="above" type="sign">la premiere fois</add>, autre si non un faiseur de paniers, qu’on doit avoir
+							<lb/><term ref="lem019496.05">bruslé</term> a <placeName ref="loc007647.07">Romond</placeName> desja avant <date dur-iso="P4Y">4 anns</date>&#160;; la seconde fois, y avoir
+							<lb/>veu <persName ref="per017122a.01">Jenon Debieux</persName>, femme de <persName ref="per017121a.02">Gabriel Juvat</persName>, qu’y estoit
+						<lb/>toutte seule de sa cognoissance&#160;; la troisieme, y avoir veu
+						<lb/>un homme nommé <persName>Caddé</persName> de <placeName ref="loc010145">Corserey</placeName>, qui est mort, a son dire, desja
+							<lb/>avant <date dur-iso="P2Y">deux</date> ou <date dur-iso="P3Y">trois ans</date>&#160;; n’y avoir ny beu, ny mangé, ny cogneu
+							<lb/>que les predits.</seg> <seg>Lors que <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> de la justice luy desmanda<lb break="no"/>rent la raison pourquoy elle avoit <term ref="lem018556.03">maleficié</term> la mere de <persName>Fran<lb break="no"/>ceois Bovygnye</persName>, sa soeur et <persName>Anna Turlinger</persName>,
+								qui sont pos<lb break="no"/>sedéz des <term ref="lem015433.13">malings</term>, elle respondist qu’elle n’avoit <term ref="lem018556.03">maleficié</term>
+						<lb/>personne, hormis la soeur de <persName>François Bovygnye</persName>, disant
+						<lb/>avoir mis du poil de teste dans du pain frais, qu’elle mangea,
+						<lb/>dont elle en devient <term ref="lem019502.06">possedee</term>.</seg> <seg>Laquelle <term ref="lem019465.01">confession</term> et mes<lb break="no"/>faicts elle voulloit a tout coup nyer et retracter, mais a
+						<lb/>la fin, reconfirmant tous les articles susescripts, a dit
+						<lb/>que le tout estoit ainsy passé comme est dit cy dessus,
+							<lb/>se remettant a la <term ref="lem019504.02">grace</term> de Dieu et messeigneurs.
+						<lb/><term ref="lem019498">Crie mercy</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

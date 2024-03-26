@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.19-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 241–243</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 241–243</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Sohn / le fils – Verhör</head>
+					<head xml:lang="fr">Pierre Ducli der Sohn / le fils – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-28"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="241"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.16">Jaggimar</placeName></hi>, den <origDate when="1651-07-28">28<hi rend="sup">ten</hi> jully 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><seg><lb/><persName ref="per020483a.02">Pieru du Cli le jeusne</persName> sur l’<term ref="lem015358.08">acculpement</term> faict de
+							<lb/>son pere <persName ref="per020477a.06">Piere du Cli le vieux</persName>, <subst><del>p</del><add place="overwritten">r</add></subst>eduit au prison,
+							<lb/>la desus par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examiné, dit comme
+							<lb/>il ast environ <date dur-iso="P7Y">7 ans</date> qu’il fust saisi d’une maulvaise
+							<lb/>pansée, sçavoier qu’il n’avoit point de Dieu, ains
+							<lb/>qu’il ne debvoit craindre Dieu, de <subst><del><gap reason="illegible" quantity="1" unit="cm"/></del><add place="above">faict</add></subst> par la avoier
+							<lb/>commis un grand <term ref="lem019494.01">crime</term> et <term ref="lem019539.02">peché</term>, le quel il n’a partant
+							<lb/>si bien il aye <term ref="lem019463.06">confessé</term> ses aultres <term ref="lem019539.04">pechez</term> <add place="above">et les</add> decellez en
+							<lb/><term ref="lem019466.01">confession</term>, <subst><del>ains</del><add place="above" type="sign">si et ce partant qu’il n’ast unques signifiié</add></subst>, estoit en volonté de l’aller,
+							<lb/><add place="below">le grand <term ref="lem019539.02">peché</term> qu’il avoit commis à ce soubject,</add><note>Cet ajout demeure peu compréhensible à cet endroit.</note>
+							<pb n="242"/><lb/>au jubilée <term ref="lem019463.01">confesser</term> à <placeName ref="loc000076.15"><subst><del>r</del><add place="overwritten">R</add></subst>ome</placeName>, ce que partant
+							<lb/>il ne peut mestre en effaict&#160;; en quel tempz
+							<lb/>predit, il luy survenit un <term ref="lem021326.01">bouton</term> et marque au
+							<lb/>dos. Et dit que le <term ref="lem019539.02">peché</term> qu’il a commis, avoier
+							<lb/>esté si grand qu’il s’è toutjour, dempuis le tempz de
+							<lb/><date dur-iso="P7Y">7 ans</date>, <term ref="lem019463.06">confessé</term> sans le deceler, partant ne voloit
+							<lb/>avoier veu le <term ref="lem015433.03">maling esprit</term>, disant par après <add place="inline">que</add>
+							<lb/><del><add place="left margin">partant</add></del> ceste maulvaisse pensée provenoit d<subst><del>e</del><add place="overwritten">u</add></subst> <del><add place="above">l’instention du</add></del> <term ref="lem015433.10">maling</term>,
+							<lb/>par l’instention du quel il croiet que Dieu n’estoit
+							<lb/>rien, ains qu’il croiet estre damné.</seg> <seg>Et estant
+							<lb/>serieussement examiné, dit que ceux qui font
+							<lb/>la <term ref="lem018102.06">graille</term> et maleficient lé persones et bestail
+								<lb/>sont <term ref="lem019308.02">sorciers</term>, ce que <add place="above">partant</add> luy n’ast commis, et <del><add place="above">d<gap reason="illegible" quantity="0.5" unit="cm"/></add></del> que
+							<lb/>ceste mauldite pensée de ne craindre Dieu <del>et</del>
+							<lb/><subst><del>ains</del><add place="above">et</add></subst> de n’avoier aulcune confiance en luy, puis qu’il
+							<lb/>n’en avoit point, luy survenit en allant
+							<lb/>cullier du foin. Par après ast il librement
+							<lb/><term ref="lem015549.07">confessé</term> qu’il a<del>n</del> <date dur-iso="P6Y">6 <add place="above">ans</add></date> que l’ayant ceste maulvaisse
+							<lb/>pensée <del>le</del> saisi<del>t</del>, fauchant un prez et gardant
+								<lb/>par après lé <term ref="lem018921.06">chevaux</term> elongnié en quelque chose
+								<lb/>des persones, le <term ref="lem017521">diable</term> luy apparut en figure
+							<lb/>d’homme avec un pourpoint bleu<del>s</del>, <subst><del rend="underline">hault de <unclear>chausses</unclear></del><add place="above">chapeaux et</add></subst>
+								<lb/><add place="left margin"><term ref="lem018527.02">bas de chaussez</term></add> noir, piedz d’homme, le quel luy demandat s’il
+							<lb/>se vouloit rendre à luy, ce qu’il luy refusat
+							<lb/>d’abort, mais poursuivant il <term ref="lem015549.13">confesse</term> s’estre
+								<lb/>rendu à luy, après avoier <term ref="lem019541.15">renié</term> Dieu, et
+								<lb/>non la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge, le quel ensuite le <term ref="lem018895.07">marquat</term>
+								<lb/>au dos (ou le <term ref="lem018789.03">mestre</term> l’ast trouvé <subst><del>A</del><add place="overwritten">l</add></subst>’ayant
+							<lb/>fouré un aguille dedans), sans s’avoier
+								<lb/>deshabilé, ni sans l’avoier blessé&#160;; ce qu’ayant
+							<lb/>quelques fois à la recherche de <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict
+								<pb n="243"/><lb/>reiteré et confirmé, il <term ref="lem019144.03">inficiat</term> finalement tout
+							<lb/>ce qu’il avoit confessé, disant qu’il s’estoit faict tort
+							<lb/>en rencontant ce qu’il avoit dit, i persistant avec une
+							<lb/><term ref="lem019492.04">opignatreté</term> maulvaise.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

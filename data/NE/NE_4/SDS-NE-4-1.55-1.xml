@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.55-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 275–280</idno>
+     </msIdentifier>
+     <head>Dépense des États</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000341"/>
+     <term ref="key000212"></term>
+     <term ref="key005075"></term>
+     <term ref="key005092"></term>
+     <term ref="key000086"></term>
+     <term ref="key003681"></term>
+     <term ref="key004837"></term>
+     <term ref="key000815"></term>
+     <term ref="key000920"></term>
+     <term ref="key004770"></term>
+     <term ref="key000803"></term>
+     <term ref="key000590"></term>
+     <term ref="key000244"></term>
+     <term ref="key000476"></term>
+     <term ref="key000670"></term>
+     <term ref="key005421"></term>
+     <term ref="key000291"></term>
+     <term ref="key000670"></term>
+     <term ref="key003389"></term>
+     <term ref="key000266"></term>
+     <term ref="key003026"></term>
+     <term ref="key000863"></term>
+     <term ref="key005068"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="275" facs="AEN_MJ_17_274_275"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> LV. <lb/>Reiglement pour <lb/>la despence des <lb/>estats.</head>
+      <p>
+       <lb/>Les seigneurs assesseurs &amp; <lb/><orgName ref="org003167">juges auxdits
+        Estats</orgName>, n’ont <lb/>aucun sallayre. <lb/><add place="below" type="catchword"
+        >Quant</add>
+      </p>
+      <pb n="276" facs="AEN_MJ_17_276_277"/>
+      <p>
+       <lb/>Quant a la despence, veu l’abus <app>
+        <lem><choice>
+          <abbr>qß</abbr>
+          <expan>que</expan>
+         </choice></lem>
+        <rdg wit="AVN Q41, p. 92">qui</rdg>
+       </app>
+       <lb/>s’y commettoit &amp; qu’elle se trouvoit exeder <lb/><app>
+        <lem>de</lem>
+        <rdg wit="AVN Q41, p. 92"/>
+       </app> beaucoup plus que lesdits <orgName ref="org003167"><choice>
+         <abbr>s<hi rend="sup">rs</hi></abbr>
+         <expan>seigneurs</expan>
+        </choice> des <lb/>Trois Estats</orgName> ne despensoyent, <app>
+        <lem>qui</lem>
+        <rdg wit="AVN Q41, p. 92">que</rdg>
+       </app>
+       <lb/>redondoit au detriment des parties, <lb/>afin <app>
+        <lem>de en</lem>
+        <rdg wit="AVN Q41, p. 92">d’en</rdg>
+       </app> ce les soulager &amp; supporter, &amp; <lb/>qu’un chescun cognoisse &amp; sçache a
+       <lb/>peu pres ce que chasque cause coustera <lb/><app>
+        <lem>sera</lem>
+        <rdg wit="AVN Q41, p. 92"/>
+       </app> d’ores en avant<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 92">sera</rdg>
+       </app> donné a chasque <lb/><app>
+        <lem>assesseur</lem>
+        <rdg wit="AVN Q41, p. 92">assemblée</rdg>
+       </app> et personne employée auxdits <lb/>estats chescun jour pour la despence. <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 92">Assavoir,</rdg>
+       </app></p>
+      <table>
+       <row>
+        <cell><app>
+          <lem>Assavoir au</lem>
+          <rdg wit="AVN Q41, p. 92">Au</rdg>
+         </app>
+         <choice>
+          <abbr>seig<hi rend="sup">r</hi></abbr>
+          <expan>seigneur</expan>
+         </choice> gouverneur, president a <lb/>la tenue des <orgName ref="org003167"
+          >estats</orgName>, <choice>
+          <abbr>p<hi rend="sup">r</hi></abbr>
+          <expan>pour</expan>
+         </choice> luy <choice>
+          <abbr>troisie</abbr>
+          <expan>troisieme</expan>
+         </choice></cell>
+        <cell role="somme"><measure type="currency" quantity="21" unit="livre faible" origin="NE"
+          >xxi <choice>
+           <abbr>lb</abbr>
+           <expan>livres</expan>
+          </choice></measure>.</cell>
+       </row>
+       <row>
+        <cell>A chasque noble pour luy second</cell>
+        <cell role="somme"><measure type="currency" quantity="14" unit="livre faible" origin="NE"
+          >xiiii <choice>
+           <abbr>lb</abbr>
+           <expan>livres</expan>
+          </choice></measure>.</cell>
+       </row>
+       <row>
+        <cell>A chasque chastelain, chasque jour</cell>
+        <cell role="somme"><measure type="currency" quantity="9" unit="livre faible" origin="NE">ix <choice>
+           <abbr>lb</abbr>
+           <expan>livres</expan>
+          </choice></measure>.</cell>
+       </row>
+       <row>
+        <cell>Aux bourgeois qui jugent, chescun jour</cell>
+        <cell role="somme"><measure type="currency" quantity="20" unit="livre faible" origin="NE">xx <choice>
+           <abbr>lb</abbr>
+           <expan>livres</expan>
+          </choice></measure>.</cell>
+       </row>
+       <row>
+        <cell>Au <choice>
+          <abbr>secrete</abbr>
+          <expan>secretaire</expan>
+         </choice> d’Estat &amp; son clerc lecteur</cell>
+        <cell role="somme"><measure type="currency" quantity="12" unit="livre faible" origin="NE"
+          >xii <choice>
+           <abbr>lb</abbr>
+           <expan>livres</expan>
+          </choice></measure>.</cell>
+       </row>
+       <row>
+        <cell>Au grand <term ref="lem014994.06">soubthier</term>, chescun jour</cell>
+        <cell role="somme"><measure type="currency" quantity="5" unit="livre faible" origin="NE">v <choice>
+           <abbr>lb</abbr>
+           <expan>livres</expan>
+          </choice></measure>.</cell>
+       </row>
+      </table>
+      <p>
+       <lb/><add place="below" type="catchword">Et</add>
+      </p>
+      <pb n="277" facs="AEN_MJ_17_276_277"/>
+      <p>
+       <lb/>Et pour payement de ladite despence <lb/>la partie appellante sera <app>
+        <lem>entenue</lem>
+        <rdg wit="AVN Q41, p. 93">tenüe</rdg>
+       </app> de <lb/>consigner entre les mains du grand <term ref="lem014994.06">soubthier</term>
+       <lb/>de ceste ville, le quart qu’est <measure origin="NE" type="currency" unit="livre faible"
+        quantity="32">32 <choice>
+         <abbr>lb</abbr>
+         <expan>livres</expan>
+        </choice></measure>
+       <measure origin="NE" type="currency" unit="sol faible" quantity="3">3 <choice>
+         <abbr>g</abbr>
+         <expan>gros</expan>
+        </choice></measure>
+       <lb/>durant le terme des estats, a peyne <lb/>du double, sauf son recours envers l’apellé
+       <lb/>s’il succombe de la cause, le compte <lb/>jouxte la somme que dessus fait a la fin <lb/><app>
+        <lem>de l’estat</lem>
+        <rdg wit="AVN Q41, p. 93">des Estats</rdg>
+       </app><app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 93">la satisfaction <lb/>de ladite despence. Et</rdg>
+       </app> s’il n’eschet <app>
+        <lem>pour</lem>
+        <rdg wit="AVN Q41, p. 93">par</rdg>
+       </app> cause la <lb/>somme consignée, le suplus sera <choice>
+        <abbr>fidellem<hi rend="sup">t</hi></abbr>
+        <expan>fidellement</expan>
+       </choice>
+       <lb/>rendu, mais advenant qu’elle ne fust <lb/>suffisante, iceluy appellant sera tenu
+       <lb/>payer le surplus a la premiere <choice>
+        <abbr>somation</abbr>
+        <expan>sommation</expan>
+       </choice>
+       <lb/>que luy sera faite par ledit <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 93">grand</rdg>
+       </app>
+       <term ref="lem014994.06">soubthier</term>.</p>
+      <p>
+       <lb/>Les deffauts, <term ref="lem018031.04">bams</term>, declarations qui <lb/>adviendront
+       &amp; <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 93">se</rdg>
+       </app> rendront, seront <lb/>promptement payez durant le terme <lb/>des <term
+        ref="lem016349.02">escheutes</term>, a peyne aussy du double, <lb/>le tout a la recouvre
+       dudit grand <term ref="lem014994.06">soubthier</term>
+       <lb/>de la seigneurie. <!--AW: Problème avec ces 15 articles qui ne sont pas la dans Q41. Il faudra encore comparer avec Q 41 si on les considère vraiment comme équivalent. PS: Bitte eine note machen oder noch besser einen Kommentar zum gesamten Stück in back!!!! -->
+       <lb/><add place="below" type="catchword">Quinze</add>
+      </p>
+      <pb n="278" facs="AEN_MJ_17_278_279"/>
+      <head type="title"><note> Dans AVN  Q41, ces 15 articles se trouvent à la page 41, à la fin du chapitre 29
+        sur la légitime des enfants (<ref target="urn:ssrq:SDS-NE-4-1.29-1">SDS NE 4 1.29-1</ref>).</note><lb/>Quinze articles <lb/>par
+       lesquels un pere peut <lb/>desheriter son enfant, entant <lb/>qu’il <choice>
+        <abbr>comette</abbr>
+        <expan>commette</expan>
+       </choice> l’un d’iceux. <add place="below" hand="hand19c" rend="pencil"><lb/>Cy devant <choice>
+         <abbr>f<hi rend="sup">o</hi></abbr>
+         <expan>folio</expan>
+        </choice> 102</add></head>
+      <p>
+       <lb/>1. Sy le fils a esté cause d’une accusation <lb/>capitale contre <app>
+        <lem>le</lem>
+        <rdg wit="AVN Q41, p. 41">son</rdg>
+       </app> pere <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 41">, ou</rdg>
+       </app> sa mere.</p>
+      <p>
+       <lb/>2. S’il a machiné ou entreprins <lb/>la mort <app>
+        <lem>de l’un</lem>
+        <rdg wit="AVN Q41, p. 41"/>
+       </app> d’iceux.</p>
+      <p>
+       <lb/>3. S’il a adulteré la femme ou concubine <lb/>de son pere.</p>
+      <p>
+       <lb/><choice>
+        <sic>4</sic>
+        <corr>4.</corr>
+       </choice> S’il a violemment empesché l’un ou <lb/>l’autre de tester.</p>
+      <p>
+       <lb/>5. S’il a laissé le pere, prisonnier <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> crime <lb/>ou pour debt, sans secours. <lb/><add place="below" type="catchword"
+        >Sy</add>
+      </p>
+      <pb n="279" facs="AEN_MJ_17_278_279"/>
+      <p>
+       <lb/>6. <app>
+        <lem>Sy le fils</lem>
+        <rdg wit="AVN Q41, p. 41">S’il</rdg>
+       </app> embrasse une religion <choice>
+        <abbr>contre</abbr>
+        <expan>contraire</expan>
+       </choice>
+       <lb/>a la chrestienneté, comme mahomettaire <app>
+        <lem><lb/>&amp;</lem>
+        <rdg wit="AVN Q41, p. 41">, payenne, ou</rdg>
+       </app> judaique.</p>
+      <p>
+       <lb/>7. S’il a battu et <term ref="lem018348.02">exedé</term>
+       <app>
+        <lem>son pere</lem>
+        <rdg wit="AVN Q41, p. 41">son devoir naturel, ou s’il a<lb/> maudit son pere, ou mere</rdg>
+       </app>.</p>
+      <p>
+       <lb/>8. S’il a <app>
+        <lem>contre luy</lem>
+        <rdg wit="AVN Q41, p. 41"/>
+       </app> vomy parolles <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41">atroces, </rdg>
+       </app> injurieuses <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 41">et</rdg>
+       </app> diffamatoires<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41"> contre son pere, ou sa mere</rdg>
+       </app>.</p>
+      <p>
+       <lb/>9. S’il <app>
+        <lem>l’a</lem>
+        <rdg wit="AVN Q41, p. 41">est vray et qu’il se prouve, qu’il l’ayt</rdg>
+       </app> grandement interressé <app>
+        <lem>en</lem>
+        <rdg wit="AVN Q41, p. 41">a</rdg>
+       </app>
+       <lb/>son bien.</p>
+      <p>
+       <lb/>10. S’il a exercé contre la volonté <app>
+        <lem>du</lem>
+        <rdg wit="AVN Q41, p. 41">de son</rdg>
+       </app>
+       <lb/>pere un art infame<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41"> et sordide</rdg>
+       </app>, comme <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41">charlatan </rdg>
+       </app><app>
+        <lem><choice>
+          <abbr>comedien</abbr>
+          <expan>commedien</expan>
+         </choice></lem>
+        <rdg wit="AVN Q41, p. 41">comedien</rdg>
+       </app>
+       <lb/><app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 41">ou</rdg>
+       </app> bourreau.</p>
+      <p>
+       <lb/>11. S’il est volleur &amp; empoisonneur ordinaire.</p>
+      <p>
+       <lb/><note>Dans AVN Q41, le point 12 devient le point 15 et les points 13, 14 et 15
+        deviennent les points 12, 13 et 14.</note>Et quant a la fille<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41">, outre tous les articles que dessus <lb/>pour tous lesquels, elle
+         peut aussi bien estre desheritée comme <lb/>le fils s’il luy advenoit de commettre l’un
+         d’iceux. Il y a <lb/>encores cestuy cy, assavoir</rdg>
+       </app> sy elle refuse <lb/>de prendre party sortable a sa <lb/>condition, pour se prostituer <choice>
+        <abbr>impudiquem<hi rend="sup">t</hi></abbr>
+        <expan>impudiquement</expan>
+       </choice>
+       <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41">a paillardise, ou a suivre</rdg>
+       </app> le bordel. <lb/><add place="below" type="catchword">Sy</add>
+      </p>
+      <pb n="280" facs="AEN_MJ_17_280_281"/>
+      <p>
+       <lb/>13. <app>
+        <lem>Sy le fils de famille a contracté <lb/>mariage, sans le sçeu, vouloir &amp;
+         <lb/>consentement de son pere, n’ayant <lb/>atteint l’aage de majeur.</lem>
+        <rdg wit="AVN Q41, p. 41">Si le fils de mamelle, n’ayant encores atteint l’aage <lb/>de
+         maieur, a conracté mariage, sans le sceu, vouloir et <lb/>consentement de ses pere et
+         mere.</rdg>
+       </app></p>
+      <p>
+       <lb/>14. S’il a laissé pere<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41">, ou mere</rdg>
+       </app> furieux<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41">, ou malade</rdg>
+       </app> sans <lb/>luy donner assistance &amp; <choice>
+        <abbr>soulagem<hi rend="sup">t</hi></abbr>
+        <expan>soulagement</expan>
+       </choice><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 41">, combien qu’il le <lb/>moyen et puissance de le pouvoir
+         faire</rdg>
+       </app>. </p>
+      <p>
+       <lb/>15. Et sy son pere <app>
+        <lem>estoit</lem>
+        <rdg wit="AVN Q41, p. 41">estant</rdg>
+       </app> prisonnier <lb/>de guerre <app>
+        <lem>qu’il ne l’ayt</lem>
+        <rdg wit="AVN Q41, p. 41">, et il ne l’aye point</rdg>
+       </app> rachepté <lb/>ou moyenné <app>
+        <lem>a</lem>
+        <rdg wit="AVN Q41, p. 41">sa</rdg>
+       </app> delivrance.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

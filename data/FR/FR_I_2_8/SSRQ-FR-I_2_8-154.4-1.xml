@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-154.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 215–216</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 215–216</idno>
+					</msIdentifier>
+					<head xml:lang="de">Agathe Wirz-Corboz – Verhör</head>
+					<head xml:lang="fr">Agathe Wirz-Corboz – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-06-27"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="215"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-06-27">27<hi rend="sup">ten</hi> juni 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.03"><choice><abbr>Casp</abbr><expan>Caspar</expan></choice> von Montenach</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per011543a.02">Falk</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><seg><lb/><persName ref="per020304a.02">Ageta Corbu</persName> de <placeName ref="loc007862.09">La Tour de Treima</placeName>, sur <term ref="lem018524.02">sortilege</term>
+							<lb/>reduite au prisons <add place="above">et</add> par messieurs du droict examiné,
+							<lb/>ayant esté trois fois applicquée à la <term ref="lem018792.01">question</term> de
+							<lb/>la simple <term ref="lem018231">corde</term>, ne veut aulcunement estre <term ref="lem019389.02">sorciere</term>
+							<lb/>et dit que tous ceux qui ont esté admis en tesmegniage
+							<lb/>contre elle, qu’ils sont ses ennimis, lesquelz luy font
+						<pb n="216"/><lb/>grand tord&#160;; <add place="left margin" type="sign">prie que <lb/>d’aultres, ou <lb/>elle ast demouré, <lb/>soint entendu</add>. Ne veut <subst><del>est</del><add place="overwritten">a</add></subst>voier esté de nuict nu de<lb break="no"/>dans sa cour,
+								et que concernant sa soeur <persName>Deny<lb break="no"/>sa</persName><!-- evt. diese Schwester auch tagen? Sie wird nur einmal erwähnt im Unterschied zu Clauda Corboz.. --> (la quel<subst><del>e</del><add place="overwritten">le</add></subst> par une piere dans le moulin
+							<lb/>f<subst><del><unclear>est</unclear></del><add place="overwritten">ust</add></subst> touchée au cerveau, et par la troublée,
+							<lb/>la cervelle luy estant demourée overte), <term ref="lem015549.13">confesse</term>
+							<lb/>avoier heu diverses querelles avec elle, pendant
+							<lb/>qu’elles, luy avoier dit putin <add place="above">(<foreign xml:lang="la">salvo honore</foreign>)</add>, ou partant elle ne
+							<lb/>se peut souvenir qu’elle luy ayt jamais dit sor<lb break="no"/>ciere, la quelle après une longe maladie
+							<lb/>que luy feut causée par le coup de piere
+							<lb/>receu dans le moulin de la dame <persName>Fyrina</persName>, mou<lb break="no"/>rut finalement, ce que ce consterat par divers
+							<lb/>tesmoins.</seg> <seg>Nie d’avoier dit à <persName>Mathis</persName> le <term ref="lem014994.05">saultier</term><note>Möglicherweise ist der Freiburger Stadtweibel <persName ref="per013748a">Mattys Albert</persName> gemeint.</note>
+							<lb/>que si elle faloit mourir, qu’il fauldroit aussi bien
+							<lb/>d’aultres la suivvre&#160;; ains <term ref="lem015549.13">confesse</term> luy avoier
+							<lb/>dit de la sorte, que d’aultant qu’elle estoit agée,
+							<lb/>elle fauldroit bien tout mourir, quel chemin
+							<lb/>de la mort d’aultres fauldroint aussi tenir. Assere
+							<lb/>que ouy <subst><add place="inline">que</add><del>elle</del></subst> <add place="above"><persName>Mathia Chamby</persName><!-- meint sie evt. Mathia Palliard-Cosandey? vgl. deren Verhör vom 30.06. --></add> aye esté present deux aultres femmes
+							<lb/>sur <placeName ref="loc007890.14">Jasquemard</placeName> vers elle, mais est entierement
+								<lb/><term ref="lem019442.07">denegante</term> de l’avoier animé et exhorté de
+							<lb/>tenir bon&#160;; demandant à Dieu et à Leur <choice><abbr>Exell</abbr><expan>Exellences</expan></choice>
+							<lb/><add place="left margin">la desus</add> humblement pardon.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

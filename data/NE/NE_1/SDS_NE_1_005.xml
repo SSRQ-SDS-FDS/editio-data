@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-5-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-S5.10</idno>
+               </msIdentifier>
+               <head>Accensement par Jean d'Aarberg, seigneur de Valangin, de diverses terres au Val-de-Ruz
+                  et en la seigneurie de Valangin définissant le statut des tenanciers</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">
+                        <origDate when="1332-03-03" calendar="Julian">1332 (n. st.), 3 mars</origDate>
+                        <origPlace ref="loc005950">Valangin</origPlace>
+                     </filiation>
+                     <filiation type="current">Copie</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32"/>
+                              <width unit="cm" quantity="43.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="absent" ns0:attachment="slit"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate from="1401-01-01" to="1425-12-31">début du XV<hi rend="sup">e</hi> siècle</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_37">SDS NE 1, N<hi rend="sup">o</hi>&#160;5</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000479"></term>
+               <term ref="key000863"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_S5_10_r"/>      
+               <div>
+                  <p><seg><lb/>Je <persName>Jehan d’Arberg</persName>, sire de
+                        <placeName>Vaulengin</placeName> fait a savoir a tout ces que verront,
+                     ouront ces presentes lettres que j’ais mys et lessiés et lesse et delesse pour
+                     <lb/>moys et pour mes hoirs quecunque et pour lour et pour lour hoirs
+                     quecunque, tous et singulers mes mars de terre sissant out terretoire de mont
+                        <placeName>Vau de Ruyt</placeName> et riere <lb/>la mairier de Vaulengin,
+                     lesquel mars sont sugeste a moys a ma volontés, a mes bonhomme sugest tenant
+                     lesdit mars a moys sugest dessudit quesque part qu’il soient <lb/>par mont Vau
+                     de Ruys, pour telle censse et charge comme d’argens<note>Note Favarger&#160;:
+                        Il s'agit de toute évidence d'hommes censiers, qui au début du XV<hi
+                           rend="sup">e</hi> siècle, versent un cens annuel pro comendesial [sua]
+                        seu censeria corporis [sui]</note> ou de vaigne ou aultre cense peust devoir
+                     estre chargiés aulthans et soulont le contenuz de mes <lb/>ententes anciennes
+                     et nouvelles faites et escriptes devant la daiste de ces presentes.</seg> <seg>Et ne leor
+                     doit moys Jehan d’Arberg, sire dessus nommer ne mes hoirs aulciels la <lb/>dite
+                     cense oustre ycelle que este contenuees en mes dites ententes escriptes comee
+                     dessus, se tant n’estoit me fut revenus en la main ou a mes hoirs a faulte de
+                     hoirs ou <lb/>aultre cais aulcung desdit mars et que aulcung homme acensseur le
+                     reprit de moys ou de mes hoirs que dessout plan grais remonsterit la dite cense
+                     par anssis que tous <lb/>les hommes que tiegnent ou temps present et advenir
+                     mesdit mars surgest, de la dite condicion sourgeste dessus dite, doivent estre
+                     surgest a moys et a mes hoirs a la <lb/>voulontel de moys et de mes hoirs de
+                     reuiste, de corvoies et les puis faire a commander par mes hofficiels a tous
+                     mes bon, juste et raisonnauble afaire sengnier de vyvre <lb/>la bouche comme
+                     vaugnour, c’est a savoir chascung homme de mesdit sugest dessus dit des quinze
+                     annees, en outre, de sex jourgnaiees chascung an en quin temps que me
+                     <lb/>serast nessesere ou a mes hoirs. Et outre me doivent lesdit sugest
+                     chascung feust trois corvaiees a tous telz aplois de bestes comil hairent lour
+                     champs et les <lb/>gens apertinant pour mener lesdite bestes et se doit
+                     descontelz l'une desdite sex jourgnaies dout homme sur chascunne des trois
+                     corvaiees.</seg> <seg>Et quant j’ais doute <lb/>de guairre, il me doivent le guais a mont
+                     chastel de Vaulengin, fourt out faible a ma vouluntelz ou de mes hoirs.</seg> <seg>Et se
+                     aulcung de lour s’en vast heur <lb/>de desoub moys ou de mes hoirs, tout ces
+                     bien meuble et heretaige que il laisserat riere moys ou mes hoirs, il me serast
+                     aquil et confissequelz.</seg> <seg>Et quant le dit <lb/>homme serast heurt de desoubt moys
+                     je ne lour demander sur le courp, se nom aulcunne destes se il les me doit et
+                     nom aultre chouse. Et moys Jehan d’Arberg, <lb/>sire dessus dit, lour donne et
+                     outroies par ces presentes que touchanps la chevaulchiés et fait d’armes et
+                     touchanps la justice et dissme et moulin et <lb/>fule et bastuc que mes dit
+                     home sugest et censsier dessus dit soient et propres coustumes de mes home
+                     frant abergens genevesant et dou Locle et de la <lb/>Sagne. Et se lesdit sugest
+                     dessus dit pregnent une femme de mes frant homme dou Locle et de la Sagne ou
+                     d’aultre franche condition, il pevent et doivent <lb/>mariees lour enfanp que
+                     partiron de la dite franchise en franchise et donner mariaige en meuble jusque
+                     a la valour de dix livres bonne monnoie.</seg> <seg>Et <lb/>se aulcugne de mes prode femme
+                     suget prent par maryaige ung homme de franche condicion, il ne pevent ne
+                     doivent maryez lour enfans en franchise riere <lb/>mat sagnouryes et peuyent et
+                     doivent joys de lour bien a lour voulontelz excestelz lour heretaige.
+                    <gap reason="missing"/><!-- AB Favarger abrège  --></seg> <seg>En tesmoinage de laquelle chouse j’ai
+                     commander a <lb/>ces mon propre seelz apentdans estre mys a ces presentes
+                     lettres que furent faites et donnees <origDate when="1331-03-03" calendar="annunciation">le troyzieme jour
+                        du mois de mars, en l’an Nostre Seignour corant mil trois <lb/>cent et
+                        trente et ung</origDate>. </seg></p>
+               </div>
+               <pb n="1v" facs="AEN_AS_S5_10_v"/>    
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Copie sur parchemin du début du XV<hi rend="sup">e</hi> siècle, avec un sceau sur double
+                     queue, AEN, S <hi rend="sup">5</hi>, N<hi rend="sup">o</hi>&#160;10.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Monuments</hi>, I, N<hi rend="sup"
+                     >o</hi>&#160;392, p.&#160;401-402.</p>
+               <p>Cité&#160;: Matile, <hi rend="italic">Seigneurie de Valangin</hi>, p.&#160;45,
+                     note 3.</p>
+               <p>Remarque&#160;: Cet acte peut être considéré comme un pseudo-original, mais
+                     parfaitement sincère. Il doit être comparé avec la charte AEN, Y&#160;5, N<hi
+                        rend="sup">o</hi>&#160;10<hi rend="sup">c</hi>, de&#160;1408, qui présente
+                     les même traits graphiques. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

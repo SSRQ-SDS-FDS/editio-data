@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.30-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 89–93</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 89–93</idno>
+					</msIdentifier>
+					<head xml:lang="de">Barbli Paccot-Tunney – Verhör</head>
+					<head xml:lang="fr">Barbli Paccot-Tunney – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-07-13"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+<body>
+					<div><pb n="89"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-07-13">13 <foreign xml:lang="la">julii</foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per009378a.01">Lari</persName>, <persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per012381a.02"><choice><abbr>D</abbr><expan>Doctor</expan></choice> Python</persName>, <abbr>h</abbr> <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.05">Desgranges</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						<pb n="90"/><p><abbr>H</abbr> <persName ref="per011519a.01">Techterman</persName> <foreign xml:lang="la">abest</foreign>.</p>
+						<p><seg><lb/><persName ref="per015739b">Barbli Tunney</persName> hatt umb <term ref="lem004684.08">verzüchung</term> gebetten, daß
+							<lb/>sie gestriges tags ihre sünd unnd <term ref="lem009471.04">mißhandlungen</term>
+							<lb/>nit <term ref="lem011468.03">bekhendt</term>. Der <term ref="lem014673.16">böße feind</term> habe sie verhin<lb break="no"/>deret, von dem sie schon in ihr jugendt verfürt
+							<lb/>worden. Sie habe in ihr jugendt vill übells, grossen
+							<lb/>hunger unnd arbeit ußgestanden. Dannenhar sie in
+							<lb/>ein grossen unwillen, zorn unnd <term ref="lem017825.02">kümmernus</term> gefallen.
+							<lb/>Ihr vatter habe sie stätts ußgeschickt, das <term ref="lem000310.14">viech</term> unnd
+							<lb/>klein <term ref="lem005796.03">gutt</term> zu hütten. Habe sie gar streng gehalten, alle<lb break="no"/>zytt starck geschlagen unnd darneben wenig zu essen
+							<lb/>geben. Sie sye etliche tag ohn gessen gsyn, darab sie also
+							<pb n="91"/><lb/>unwillig worden, daß sie ihre elteren offt dem <term ref="lem014673.16">bößen
+							<lb/>feind</term> gewüntscht.</seg> <seg>Zu dem habe sie einmahl tags
+							<lb/>ihren vatter unnd mutter ge<subst><del>funden</del><add place="above">sehen</add></subst>, <subst><del>daß</del><add place="above">wie</add></subst> sie die <term ref="lem018817.02">ehelichen
+							<lb/>werck</term> begiengend, welchen sie in dißem fahl nach<lb break="no"/>volgen unnd es glycher <term ref="lem016055.03">gstalt</term> an ihrem bruder <persName>Bläsi</persName>,
+							<lb/>der zwar noch in der wiegen war, bruchen wöllen.
+							<lb/>Es habe sie der zorn, kummer, unwillen unnd inson<lb break="no"/>derheit der grosse hunger unnd die <term ref="lem000668">unzucht</term> dahin
+								<lb/>gebracht, daß sie sich dem <term ref="lem007321.02">tüffel</term> <term ref="lem018858.01">ergeben</term>. Es
+							<lb/>syend ihre fleischlische lüsten unnd begirden so groß
+							<lb/>gsyn, daß sie, mit respect zu melden, die <term ref="lem000668">unzucht</term>
+							<lb/>offt an ihren selbs mit ihrem finger begangen. Sie
+							<lb/>habe sich dem <term ref="lem007321.02">tüffel</term> im <term ref="lem002402.02">beth</term>, wie sie ihr <term ref="lem012401.03">unküschheit</term>
+								<lb/>begieng, <term ref="lem018858.02">ergäben</term>. Daselbst sie der <term ref="lem014673.16">böße feind</term> <term ref="lem016598">ge<lb break="no"/>zeichnet</term> habe.</seg> <seg>Das erste mahl, daß er ihren
+							<lb/>erschinnen, sye in einem wald geschehen, wo sie ihr
+							<lb/><term ref="lem000668">unzucht</term>, wie vorgemeldt <subst><del>begahn wolte</del><add place="inline">mit</add></subst> einer
+							<lb/>gwissen rothen sach, die sie vor ihren uff dem boden
+							<lb/>gefunden, begahn wolte. Er sye zu ihren kommen in
+							<lb/>eines jungen <term ref="lem000325.05">puren</term> knaben gestalt mit schwartzen
+							<lb/>kleideren. Sie sye aber darvon geflohen unnd sye
+							<lb/>er verschwunden. Er sye offt zu ihren ins huß kommen,
+							<lb/>sie habe ihn auch in dem garten gesehen.</seg> <seg>In der ge<lb break="no"/>fäncknus habe sie ihn gespürt, aber nit gesehen, unnd am
+							<lb/>verschinnen sontag in der nacht habe <add place="above">sie</add> in der gefangenschafft
+							<lb/>gehört, daß man mit den <term ref="lem018818.02">gygen</term> gar <term ref="lem010918">wüst</term> uffgemacht
+							<lb/>unnd ein seltzams gschrey gebrucht hatt.</seg> <seg>Der <term ref="lem007321.02">tüffel</term>
+								<lb/>heisse <persName ref="per029440a.04">Hanßli</persName>, unnd habe er sie machen, gott, den
+							<lb/>allmächtigen, in dem wald im graben undenthalb
+								<lb/><placeName ref="loc008332.02">Ballißwyll</placeName> gegen der <placeName ref="loc007746.03">Sanen</placeName> zu <term ref="lem016063.05">verlaugnen</term>. Daselbst
+							<lb/>er ihren <term ref="lem017889">staub</term> geben habe wie <term ref="lem004519.03">äschen</term>, so sie in den
+							<lb/>gärten herumb geworffen. Das kleine <term ref="lem005796.03">gutt</term> von <placeName ref="loc010226.02">Jetschen<lb break="no"/>wyll</placeName> aber habe sie allein im zorn angesehen, unnd den
+							<lb/>willen darin geben, sie habe gifftige augen. Darab sie
+						<pb n="92"/><lb/>vermeint, daß gemelts klein <term ref="lem005796.03">gutt</term> den schaden
+							<lb/>empfangen habe.</seg> <seg>Sie meine auch, ihr man sye
+							<lb/>darab gestorben, daß sie ihm ein <term ref="lem000118.09">ey</term> gekocht,
+							<lb/>welches sie allein mit dem finger, damit sie
+							<lb/>die unküschheit an ihren selbs begangen, ange<lb break="no"/>rürt hatte. Sie habe auch uß noth des hungers
+							<lb/>bißwylen in der statt etwas brotts, <term ref="lem000054.05">käß</term> unnd
+							<lb/>an  <term ref="lem007031.08">essigen spyßen</term> veruntrüwet. Unnd wie ihr
+								<lb/>mutter, alß sie <term ref="lem003963.01">schwanger</term> gsyn, fleisch essen wöllen.</seg>
+							<seg><lb/>Habe sie uß derselben <term ref="lem004618.05">bevelch</term> ein <term ref="lem000055.07">schaff</term> <term ref="lem000312.01">entfrembdt</term>.
+							<lb/>Sie habe den <term ref="lem007321.02">tüffel</term> nur zu offt geküßt. Sie sye
+							<lb/>uff dem <term ref="lem004629.05">bäßen</term> oder <term ref="lem003788.10">stuohl </term> nieh gefahren, sonders
+							<lb/>habe sie der <term ref="lem007321.02">tüffel</term> selbs getragen. Sie wurde
+							<lb/>gern die warheit eigentlich anzeigen, wan sie
+							<lb/>möchte. Der <term ref="lem007321.02">tüffel</term> sye ihren <subst><del>im ko</del><add place="inline">in den</add></subst> augen
+							<lb/>unnd im kopff, der sie hindereth, daß sie nit
+								<lb/><term ref="lem011468.04">bekhennen</term> mag. Es sye ihren von hertzen leidt,
+							<lb/>daß sie sich gegen gott, dem allmächtigen, so
+							<lb/>hoch vergessen. Hatt darumb gott unnd ein
+							<lb/>gnädige oberkheit umb <term ref="lem004684.08">verzüchung</term> gebetten.</seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu. Puis le protocole reprend avec l’interrogatoire mené contre Barbli, probablement après l’instruction protocolée le même jour. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-109.29-1">SSRQ FR I/2/8 109.29-1</ref>.</note></p>
+						<pb n="93"/><p><persName ref="per015739b">Barbli Tunney</persName>, alß sie von mynen herren des
+							<lb/>stattgrichts nochmahlen examiniert worden,
+							<lb/>hatt gesagt, es sye ihren leidt, daß sie hüttigen
+							<lb/>morgens sachen <term ref="lem017883">fürgeben</term> unnd <term ref="lem011468.03">bekhendt</term>, die sie
+							<lb/>nieh begangen. Dan sie habe gott nieh <term ref="lem016063.05">verlaugnet</term>.
+							<lb/>Mit dem <persName ref="per029440a.04">Hanßli</persName> sye es nütt, sie habe von ihm
+							<lb/>nütt empfangen, weder gelt, <term ref="lem017889">staub</term> noch <term ref="lem011432">salben</term>.
+							<lb/>Es sye woll wahr, daß sie im wald einen in eines
+							<lb/><term ref="lem000325.05">puren</term> knaben gstalt gesehen. Wisse aber nit, ob
+							<lb/>es der <term ref="lem007321.02">tüffel</term> ist, er habe sie nit gezeichnet.
+							<lb/>Was aber die ubri<subst><del>h</del><add place="overwritten">g</add></subst>e <term ref="lem016794.08">bekhandtnussen</term> der <term ref="lem000668">unzucht</term>
+							<lb/>unnd <term ref="lem000047.09">diebstählen</term> halben <term ref="lem017950">antrifft</term>, auch daß sie ihre
+							<lb/>elteren im zorn <subst><del>s</del><add place="overwritten">d</add></subst>em <term ref="lem007321.02">tüffel</term> offt geben <subst><del>s</del><add place="overwritten">h</add></subst>att
+							<lb/>sie bestanden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

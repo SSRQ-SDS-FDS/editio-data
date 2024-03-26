@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-08-19"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.6-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 24–28</idno>
+     </msIdentifier>
+     <head>Greffiers et notaires</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000826"/>
+     <term ref="key000275"></term>
+     <term ref="key005808"></term>
+     <term ref="key000212"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="24" facs="AEN_MJ_17_024_025"/>
+     <div>
+      <head type="title">
+        <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> VI. <lb/>Des grephiers et <lb/>notaires</head>
+      <p>
+        <lb/>A chasque chastelanie ou mayorie <lb/>il y a un grephier aussy <term ref="lem017856.02"
+        >esleu</term> de la part <lb/>du prince pour escripre et enregistrer <lb/>sur le livre de
+       justice souverainement <lb/>et sans mutation de substance, les <choice>
+        <abbr>demades</abbr>
+        <expan>demandes</expan>
+       </choice> <lb/>et responces ou exeptions, repliques, deffences, <lb/>et debattures des parties,
+       les declarations, <lb/>cognoissances &amp; sentences de justice.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> doibt fidellement enregistrer <lb/>le rapport des
+       tesmoings qui sont <lb/>examinez par serment, et le recourir <lb/>tout sur le <term
+        ref="lem015614">plaid</term>. <lb/><add place="below" type="catchword"><choice>
+         <abbr>coe</abbr>
+         <expan>comme</expan>
+        </choice></add>
+      </p>
+     <pb n="25" facs="AEN_MJ_17_024_025"/>
+      <p>
+       <lb/>Comme aussy tous actes judiciaires <lb/>qui touchent le faict de la seigneurie, &amp;
+       <lb/>doibvent tenir secret ce qui le requiert, <lb/>et obeyr au president, <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 11">et</rdg>
+       </app> se trouver a toutes<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 11"> les</rdg>
+       </app>
+       <lb/>assemblées et quand il luy est ordonné pour <lb/>le faict de la justice, ainsy que plus <choice>
+        <abbr>amplem<hi rend="sup">t</hi></abbr>
+        <expan>amplement</expan>
+       </choice>
+       <lb/>contient leur debvoir et serment.</p>
+      <p>
+        <lb/>Et ne doibvent
+         se mesler d’<term ref="lem017854.02">advoyerie</term> et tavernage, <lb/>ou estre
+       assistant, ny <app>
+        <lem>se</lem>
+        <rdg wit="AVN Q41, p. 11"/></app> monstrer partiaux <lb/>par leurs expeditions et escripts, <app>
+        <lem>s’il n’est</lem>
+        <rdg wit="AVN Q41, p. 11">ne sont</rdg>
+       </app> lisencié <lb/>du prince, <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 11">assavoir <lb/>pour fait d’avoyerie et tavernage. Et</rdg>
+       </app> d’ores en avant le grephier ne <lb/>sera <app>
+        <lem><term ref="lem016298.02">par lier</term></lem>
+        <rdg><term ref="lem016298">parlier</term></rdg>
+       </app> de personne.</p>
+      <p>
+       <lb/>Et s’il deffaut a ce doibt estre amendable <lb/>suyvant le decret, a la seigneurie de
+        <lb/><measure origin="NE" type="currency" unit="S" quantity="60">soixante sols</measure>, et
+       a la partie d’autant, <lb/>que seront rabatuz sur le taux de l’escript <lb/>que requerra de
+       luy la partie, lequel il <lb/>sera tenu luy delivrer dans <date dur-iso="P8D">huict jours</date>
+       <lb/>appres <app>
+        <lem>suivant</lem>
+        <rdg wit="AVN Q41, p. 12"/>
+       </app> a peyne du double. Aussy <lb/>la partie qui aura demandé sa <term ref="lem017803"
+        >remaise</term> ou <lb/>autre procedure et <term ref="lem016019">exploit</term> de justice <app>
+        <lem>par <lb/>escript</lem>
+        <rdg wit="AVN Q41, p. 12"/>
+       </app>, estant icelles recourues &amp; taxées <lb/>sera tenu de la retirer dudit grephier
+       avec <lb/>payement ou en convenir avec luy a peyne <lb/>de la mesme amende qui court contre <lb/><app>
+        <lem>ledit</lem>
+        <rdg wit="AVN Q41, p. 12">le</rdg>
+       </app> grephier <app>
+        <lem>deans</lem>
+        <rdg wit="AVN Q41, p. 12">dans</rdg>
+       </app> mesme terme. <lb/><add place="below" type="catchword">Et</add>
+      </p>
+     <pb n="26" facs="AEN_MJ_17_026_027"/>
+      <p>
+        <lb/>Et en recourant lesdites sentences, <choice>
+        <abbr>declaraons</abbr>
+        <expan>declarations</expan>
+       </choice>, <lb/>et autres actes de justice, le sallayre du <lb/>grephier pour l’escripture et
+       emolument de telles <lb/>choses sera taxé par le president ou justiciers, <lb/>et n’<app>
+        <lem>aura</lem>
+        <rdg wit="AVN Q41, p. 12">auront</rdg>
+       </app> esgard <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 12">et respect quelconque</rdg>
+       </app> aux escriptures superflues, <lb/><term ref="lem015643">ains</term>
+       <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 12">tant seulement</rdg>
+       </app> a ce qui sera du merite, <app>
+        <lem>du faict,</lem>
+        <rdg wit="AVN Q41, p. 12"/>
+       </app> et digne <lb/>d’avoir esté <app>
+        <lem>inscript</lem>
+        <rdg wit="AVN Q41, p. 12">escript</rdg>
+       </app> et inseré, et feront mettre <lb/>leur taux au pied de la <term ref="lem017803"
+        >remaise</term> ou de l’acte, qui <lb/>sera mis par escript, et ce tout au long &amp;
+       non <lb/>par chiffre.</p>
+      <p>
+        <lb/>Et sy lesdits presidents et justiciers reco<lb break="no"/>gnoissent quelque chose de
+       superflus esdites <lb/>escriptures, au lieu de luy hausser son sallaire, <lb/>le luy
+       diminueront plustost.</p>
+      <p>
+        <lb/>Ils auront aussy esgard en faisant le taux <lb/>desdites escriptures, aux matieres qui y
+       sont <lb/>contenues, sy elles sont de grande importance, <lb/>comme aussi aux personnes
+       auxquelles elles <lb/>touchent, que le pauvre, &amp; le fait de petite <lb/>importance, <app>
+        <lem>ne soit tant</lem>
+        <rdg wit="AVN Q41, p. 12">soit moins</rdg>
+       </app> chargé <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> l’autre.</p>
+      <p>
+        <lb/>Lesdits grephiers ne doibvent <term ref="lem015076">grossoyer</term> <lb/>ny lever un
+       acte qui l’a desja esté, ny <lb/>tous autres notayres que par cognoissance <lb/>de justice.</p>
+     <pb n="27" facs="AEN_MJ_17_026_027"/>
+      <p>
+        <lb/>Pour le procez criminel sera payé <lb/>au grephier<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 12"> de la justice</rdg>
+       </app>, <measure origin="NE" type="currency" unit="bz" quantity="15">quinze
+       bats</measure>.</p>
+      <p>
+        <lb/>Lesdits grephiers estants suspects ou <lb/>parents en quelque cause, le <app>
+        <lem><choice>
+          <sic>presidoit</sic>
+          <corr>president</corr>
+         </choice></lem>
+        <rdg wit="AVN Q41, p. 12">president</rdg>
+       </app> choisit <lb/>quelque autre notaire expert a sa place, lequel <lb/>a le mesme emolument
+       et droit que le grephier, <lb/>et est tenu faire l’expedition soubs mesme <lb/>peyne que celuy
+       dont il tient la place est <lb/>astraint.</p>
+      <p>
+       <lb/>Les autres notaires pour le sallayre <lb/>de leurs escripts en parchemin portants actes
+       <lb/>perpetuels ne pourront prendre que des deux <lb/>premieres centaynes de la valleur des
+       choses <lb/><app>
+        <lem>contractées</lem>
+        <rdg wit="AVN Q41, p. 13">contenues</rdg>
+       </app> qu’un pour cent. Et ce que passera <lb/>en outre demy un pour cent tant seulement.
+       <lb/>Cest article a esté reiglé selon l’article sur ce <lb/>fait de <date when="1529">l’an
+        1529</date><note>Cet article est introuvable.</note>, qu’est un <choice>
+        <abbr>po<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> cent en parchemin <lb/>et en papier la moitie. <app>
+        <lem>Et dessus <measure origin="NE" type="currency" unit="L" quantity="30">trente
+          <lb/>livres</measure>
+         <sic>en bas - - -</sic> sols.</lem>
+        <rdg wit="AVN Q41, p. 13"/>
+       </app></p>
+      <p>
+       <lb/>Tous notayres sont tenuz servir en justice <lb/>quand ils en sont sommez et requis par
+       l’officier, <lb/>a peyne d’amende selon l’exigence du fait par <lb/>cognoissance de justice,
+       leur serment les y <lb/>oblige. <lb/><add place="below" type="catchword">Les</add>
+      </p>
+     <pb n="28" facs="AEN_MJ_17_028_029"/>
+      <p>
+       <lb/><note>Dans le manuscrit AVN Q41, le texte est rédigé en entonnoir à partir d’ici et
+        jusqu’à la fin du chapitre.</note>Les manuels de justice des grephiers, et <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 13">les</rdg>
+       </app> registres <lb/>et protocolles de tous notayres <term ref="lem017830.02">riere</term>
+       ceste <lb/>souveraineté, sont <term ref="lem015877.02">censes</term> du domaine du prince,
+       <lb/>et apres leur decez sont retirez, et s’ils sont <lb/>commis <app>
+        <lem>et mis</lem>
+        <rdg wit="AVN Q41, p. 13"/>
+       </app> en garde entre les mains de <lb/>quelqu’autre notaire, doit donner recepisse a
+       <lb/>l’officier du lieu du nombre &amp; quantité des <lb/><choice>
+        <sic>fueillets</sic>
+        <corr>feuillets</corr>
+       </choice>, et ne les doit esgarer, qu’ils se puissent <lb/>tousjour trouver pour seurté des
+       parties y <lb/>denommées, parquoy nul estranger n’est admis <lb/>a tel estat <term
+        ref="lem017830.02">riere</term> ceste souveraineté, s’il n’y veut <lb/>finir ses jours et y
+       resider actuellement, afin <lb/><choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> leurs prothocolles <app>
+        <lem>ne</lem>
+        <rdg wit="AVN Q41, p. 13">nous</rdg>
+       </app> demeurent <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 13">et qu’ils ne</rdg>
+       </app> se trans<lb break="no"/>portent hors du pays, au prejudice souvent <lb/>de plusieurs
+       particuliers et des droits <choice>
+        <abbr>seig<hi rend="sup">aux</hi></abbr>
+        <expan>seigneuriaux</expan>
+       </choice>. <lb/>Et tous contracts reçeuz par notayres estrangers <lb/>seront tenuz et reputez
+       de nul effect, <choice>
+        <abbr>notament</abbr>
+        <expan>notamment</expan>
+       </choice>
+       <lb/>s’ils portent <term ref="lem016367">lods</term>, ou regardent en quelqu’autre <lb/>façon
+       les droits du prince.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

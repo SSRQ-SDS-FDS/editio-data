@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-188.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 243–246</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 243–246</idno>
+					</msIdentifier>
+					<head xml:lang="de">Christina Tornare-Welti – Verhör</head>
+					<head xml:lang="fr">Christina Tornare-Welti – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-12-22"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="243"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.08">Jaquemars</placeName></hi>, den <origDate when="1665-12-22">22 <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> 1665</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per018693a.01">Gottrauw</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <persName ref="per026077a.01">Küenli</persName>, <persName ref="per026078a.01">Vonderweidt</persName>, <persName ref="per026039a.01">Moßer</persName></seg>
+							<seg><lb/><persName ref="per026091a.01">Vögilli</persName>, <persName ref="per026058a.01">Progin</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Die ersten beiden Abschnitte betreffen <persName ref="per022648">Elisabeth Favre</persName> und deren Mutter <persName ref="per020614">Marguerite Favre-Piccand</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-168.15-1">SSRQ FR I/2/8 168.15-1</ref>.</note></p>
+						<pb n="244"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>. <seg><persName ref="per026868a.02">Christini Weltti</persName>, <subst><del>wegen vi</del><add place="inline"><persName ref="per026867a.02">Hannßen Tornares</persName></add></subst>
+						<lb/>hußfrouw von <placeName ref="loc008091">Plasselb</placeName>, <subst><del>hußfrouw</del><add place="inline">wegen vilfältiger</add></subst>
+						<lb/>klägden der <term ref="lem007355.04">unholdery</term> verdacht und gefäncklich <term ref="lem009330.04">ynge<lb break="no"/>zogen</term>, hat in der <term ref="lem005044">examination</term> über die klag- unndt
+						<lb/><term ref="lem016288">inquisitions</term> puncten <term ref="lem016814">vermelt</term>, sie sye by <measure type="age" quantity="50" unit="year">50 jahren</measure>
+						<lb/>ungefährlich alt, wüsse die ursach ihres gefäncklichen
+						<lb/>ynzugs nit. Sie vermeint, es möchten ettliche übelwöllende
+							<lb/><term ref="lem000075.45">lüthen</term> <choice><abbr>ü g</abbr><expan>üwer gnaden</expan></choice> mit der unwarheit berichtet und dißes
+						<pb n="245"/><lb/>ihr unglückh verursachet haben.</seg> <seg>Will sich nit errinneren,
+							<lb/>mit jemanden wegen eines <term ref="lem000508.07">biren baums</term> in <term ref="lem003232.17">stryttigkheit</term>
+						<lb/>gerathen zu syn. Wohl, daß sie mit ettlichen nachbaren
+						<lb/>umb andere sachen stryttig geweßen.</seg> <seg>Will von kheiner
+							<lb/>rothen <term ref="lem001076.03">khue</term> noch von <term ref="lem002088.03">kälberen</term>, so <term ref="lem005334">verdorben</term>, <term ref="lem003508.03">wüssen<lb break="no"/>schafft</term> haben. Sagt, wan schon etwas <term ref="lem004517.02">unfahls</term> am <term ref="lem000310.11">vech</term>
+							<lb/>ihren nachbahren widerfahren oder <term ref="lem008937.03">etwan</term> <term ref="lem000075.13">lüth</term> oder
+						<lb/><term ref="lem000130.35">khinderen</term> in kranck- oder <term ref="lem010193">ungelegenheit</term> gerathen, ob
+						<lb/>man sie darumb <term ref="lem017350.02">verdenckhen</term> oder beschuldigen wölte.
+							<lb/><term ref="lem015124">Erhaltet</term>, sie sye nit ein solche, welche mit solchen <term ref="lem017051.05">künsten</term>
+						<lb/>khönne umbgehn. Gott und sein liebe mutter <persName ref="per000169">Maria</persName>
+						<lb/>wölle sie darvon behüeten. Sagt, habe auch ihr <term ref="lem000528.20">bynden</term>, so
+						<lb/>nit <term ref="lem017368">ertragen</term> wöllen, müessen änderen, khönne aber die
+						<lb/>ursach niemanden alß <term ref="lem008937.03">etwan</term> dem erdtrich zumessen.</seg> <seg><term ref="lem011468.03">Be<lb break="no"/>khent</term>, der <persName>Pfyffera</persName> <term ref="lem016814">vermeldt</term> zu haben, sie solle ihr
+						<lb/>kranckes <term ref="lem000130.11">khindt</term> zum predicanten tragen. <term ref="lem015124">Erhaltet</term>
+							<lb/>aber, daß eben gemelte <persName>Pfyffera</persName> ihr <term ref="lem010356.03">lynigs</term> <term ref="lem000105.08">tuoch</term> <term ref="lem000312.07">endtfremb<lb break="no"/>det</term> und ihr <term ref="lem018502.04">sohnswyb</term> verführt, und dahär in <term ref="lem003232.17">stryttigkheit</term>
+						<lb/>mit ihren gefallen. Und wylen sie <term ref="lem017369.02">den nammen hat</term>, das sie
+							<lb/>ihrem man <term ref="lem011053.02">unthrüw</term> geweßen und sich mit einem man
+						<lb/>solt vergessen haben, den man für einen predicanten
+						<lb/>gehalten, so hat sie es ihro <term ref="lem018401.02">verwißen</term> und <term ref="lem016814">vermeldt</term>, sie
+						<lb/>solle daß <term ref="lem000130.11">khindt</term> zu ihrem predicanten tragen.</seg>
+						<seg><lb/>Will sich nit erinneren, daß man ihro etwas zu
+						<lb/>geworffen. <term ref="lem011468.03">Bekhent</term>, habe ettliche mahlen <term ref="lem001076.03">khue</term> <term ref="lem000824.01">feil
+						<lb/>gehabt</term> und verkaufft. <subst><del>Sie</del><add place="inline"><term ref="lem015124">Erhaltet</term></add></subst>, sie sye nit ein solche,
+						<lb/>wie man sie <term ref="lem017350.03">verdenckt</term>, sonderen ein ehrliche frauw, welche
+							<lb/>in gottes <term ref="lem002041.01">forcht</term> ufferzogen und von ehrlichen <term ref="lem000075.45">lüthen</term>
+						<lb/>härkhombt. Sagt, man habe hievor auch andere wyber
+						<pb n="246"/><lb/>verklagt und verdacht gehabt daselbsten zu <placeName ref="loc008091.02">Pla<subst><del>ffeyen</del><add place="above">selb</add></subst></placeName>,
+						<lb/>welche aber nit ungrecht befunden worden.</seg>
+						<seg><lb/><term ref="lem015124">Erhaltet</term>, das man ihro unrecht <subst><del>und</del><add place="inline">thut</add></subst> undt pittet
+						<lb/>ein gnädige oberkheit, sie in ihrer <term ref="lem016167.03">recommendation</term>
+						<lb/>zu nemmen.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

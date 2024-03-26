@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-135.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 459–462</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 459–462</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Fruyo-Magnin – Verhör</head>
+					<head xml:lang="fr">Catherine Fruyo-Magnin – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-08-28"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head>Edition</head>
+							<bibl><ref>Berchtold 1850</ref>, S. 511–512</bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="459"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-08-28">28<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.02"><choice><abbr>Cas</abbr><expan>Caspar</expan></choice> Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013628a.01">Vonderweydt</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017908">Madeleine Gillet-Richod</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-132.3-1">SSRQ FR I/2/8 132.3-1</ref>.</note></p>
+						<pb n="460"/><p><seg><lb/><persName ref="per017940a">Catherine Magnin</persName>, <term ref="lem014767.01">relicte</term> de feu <persName ref="per017941a.01">Jean Fryoud</persName> de <placeName ref="loc008145">Villarsi<lb break="no"/>viriaux</placeName>, qui est mort a la guerre desja avant <date dur-iso="P13Y">13</date> ou <date dur-iso="P14Y">14 ans</date>
+							<lb/>et luy a laissé 4 petits enfants, desquels l’un mourut bien
+							<lb/>tost aprés, dit avant qu’entrer en mariage avec luy, s’estre
+							<lb/>tousjours comportee en fille d’honneur et servy en ceste ville
+							<lb/>plusieurs <choice><abbr>seigrs</abbr><expan>seigneurs</expan></choice> et dames l’espace de <date dur-iso="P16Y">16 ans</date>, et entre
+							<lb/>autres <choice><abbr>monsg<hi rend="sup">r</hi></abbr><expan>monseigneur</expan></choice> l’advoyer <persName ref="per009594">Reyff</persName> <date dur-iso="P3Y">trois ans</date> <del>et</del> et <choice><abbr>sg<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice>
+							<lb/><persName>Peter Oddet</persName>, et d’autres, qui feusrent contents de son
+							<lb/>fidel service. Or comme elle se voioit chargee desdits enfants,
+							<lb/>qu’elle a instruict a la crainte de Dieu et entretenu de son travail
+							<lb/>au mieux qu’il luy a esté possible, et apprit a faire les bas
+							<lb/>a l’esquille, pria les communiers de <placeName ref="loc007935.10">Farvagnye</placeName> luy voulloir
+							<lb/><term ref="lem015635">bailler</term> une place pour y bastir quelque maisonnete, <subst><del>ce</del><add place="inline">que</add></subst>
+							<lb/>jamais ils ne luy voulurent accorder, ce que l’occasiona
+							<lb/>de recourir a la <term ref="lem019504.02">grace</term> de messeigneurs, qui tout <term ref="lem015622">incontinent</term>
+							<lb/>luy interinarent sa demande, avec commandement au <choice><abbr>s<hi rend="sup">r</hi>g</abbr><expan>seigneur</expan></choice> bailly
+							<lb/>de luy marquer une place commode, ou ce que avec l’ayde de ses
+							<lb/>beaufreres <del>et autr</del><subst><del>es</del><add place="overwritten">et</add></subst> parens, elle bastit la maison qu’elle
+							<lb/>possede maintenant, oultre le voulloir desdits communiers, qui,
+							<lb/>pour avoir obtenu de Leurs <choice><abbr>Excells</abbr><expan>Excellences</expan></choice> cette place, sont tousjours
+							<lb/>estéz envieux sur elle, en mesdisant d’elle et luy reprochant
+							<lb/>sa pauvreté&#160;; et que pourtant jamais elle leur a donné aucun
+							<lb/>subject et vouldroit mieux qu’elle n’ehut faict sa demeure
+							<lb/>en ce lieu, car l’envie qu’on a ehu sur elle la reduicte a la
+							<lb/>misere, qu’il luy fault souffrir par les prisons.</seg> <seg>Enquise sur ce
+								<lb/>point qu’elle doit avoir <term ref="lem019446.03">meurtry</term> un enfant avant que d’estre
+						<pb n="461"/><lb/>mariee, duquel <persName>Louysa Savary</persName> en doit avoir entendu quelques choses&#160;?
+							<lb/>Dit estre grandement estonnee de telle fausse accusation, que jamais
+							<lb/>cela se constera, n’ayant <add place="above">jamais</add> ehu enfant que avec son marry, ne croy<lb break="no"/>ant pas que dite <persName>Louysa</persName>, femme de <persName>Claude Savary</persName>, qui de son temps
+							<lb/>servant en ceste ville, estoit de sa cognoissance, et a present demeu<lb break="no"/>re a <placeName ref="loc007647.07">Romond</placeName>, ait oncques <add place="above">dit</add> tel propos d’elle, sçachant bien estre
+							<lb/>faulx qu’elle ait commis tel forfaict&#160;; moings ehu la compagnie avec
+							<lb/>personne avant le mariage. Mais pendant sa <term ref="lem015063">viduité</term>, estant re<term ref="lem015009.07">cer<lb break="no"/>chee</term> par un jeusne masson savoyard nommé <persName>Jean</persName>, qui travaille
+							<lb/>au pont de <placeName ref="loc008011">Rue</placeName>, et luy avoit promis mariage, icelluy sur ceste
+							<lb/>promesse dormit trois nuict avec elle et la quitta sans accom<lb break="no"/>plir le mariage.</seg> <seg>Quant a ce qu’on l’accuse du <term ref="lem018524.02">sortilege</term>, dit
+							<lb/>qu’il luy arrive grand tort, n’en estre Dieu mercy aucunement
+							<lb/>attainte&#160;; n’avoir jamais entendu des ses enfants qu’ils aient dit
+							<lb/>qu’ils aymoient mieux (avec respect) aller aux <term ref="lem016119.02">privéz</term> que
+								<lb/>a l’eglyse, et plus volontier porter une fiente de <term ref="lem018921.01">cheval</term>
+							<lb/>que un <term ref="lem018037">scapulaire</term>&#160;; au contraire qu’iceux en portent ordinai<lb break="no"/>rement chacun un et un cordon de la <orgName ref="org001675.05">confrairie de <hi rend="font change">Jesus</hi></orgName>.
+							<lb/>Que <persName>Christin Berset</persName> et <persName>Jean Bowin</persName>, venant d’<placeName ref="loc008334">Orsonnens</placeName>,
+							<lb/>ne l’ont trouvee seule vers la croix, ains avec <persName>Jaquez Poseud</persName>,
+							<lb/>son cousin de <placeName ref="loc007950.02">Villa</placeName>, et <persName>Pierre Reussin</persName>, qui s’en allant chez eux
+							<lb/>parlarent avec elle et vient a la maison avec lesdits <persName>Berset</persName>
+								<lb/>et <persName>Bowin</persName>. Que personne a son sçachant l’a nommee <term ref="lem019389.02">sorciere</term>,
+							<lb/>autrement elle s’en fust purgee par la voie du droit. De ce
+							<lb/>qu’elle doit avant <date dur-iso="P3Y">3 ans</date>, le jour <date when="--08-15">Assumption notre Dame</date>, avoir
+							<lb/>lavé du menu linge, dit n’estre vray, mais bien estant lavé le
+							<lb/>jour precedent, en exposa quelque peu au soleil, sans touttesfois
+							<lb/>mal penser.</seg> <seg>Interrogee sur ce que sa soeur la doit avoir
+							<lb/>malmenee&#160;? Dit estre chose veritable, que, ne luy <add place="above" type="sign">ayant</add> sa soeur au
+							<lb/>partage de leurs habits voullu laisser parvenir ce que luy pou<lb break="no"/>voit competir, elle luy dit franchement qu’elle ne les <add place="above">luy</add> quittoit
+							<lb/>ny en ce monde, ny l’autre, jusques a entiere restitution. Il
+							<lb/>advient donques quelques ans aprés que ceste sienne soeur vient
+							<lb/>a mourir, et aprés sa mort, luy apparut 4 ou 5 fois, et la
+							<lb/>poursuivoit sans la cognoistre, mais a la fin, s’estant approchee
+							<lb/>d’elle jusques a l’empoigner par la ceinture ou courdon qu’elle
+							<lb/>porte, et elle la detenue, grandement espouvantee, cria&#160;: <q>&#160;<hi rend="font change"><persName ref="per000353a.19">Jesus</persName>&#160;!
+							<lb/><persName ref="per000169a">Marie</persName>&#160;!</hi></q>&#160;; demandant que c’estoit que la poursuivoit et nommoit
+							<lb/>par son nom. L’esprit doncq respondit que c’estoit sa soeur qui
+								<lb/>estoit <term ref="lem019474.10">tormentee</term> et ne pouvoit <term ref="lem016345">fruir</term> de la beatitude celeste,
+						<pb n="462"/><lb/>que au preallable elle ehut faict satisfaction et restitution des
+							<lb/>habits qu’elle luy avoit retenu&#160;; c’est pourquoy la prioit instament
+							<lb/>de les luy quitter, et voulloir a son nom faire dire deux messes,
+							<lb/>l’une en l’eglyse <placeName ref="loc010489.02">Notre Dame de Bourguillon</placeName>, l’autre a <placeName ref="loc007982.07">Sainct
+							<lb/>Loup</placeName>, que ce faisant seroit tout <term ref="lem015622">incontinent</term> desliuvree de ces
+								<lb/>grands <term ref="lem019473.06">torments</term>&#160;; quoy entendant dite detenue luy accorda
+							<lb/>justement sa demande et disparut sans jamais l’appercevoir&#160;;
+								<lb/>ce qu’elle soustient les larmes aux yeux a la <term ref="lem019428.01">torture</term> simple
+							<lb/>et <term ref="lem019498">crie mercy</term>.<note>Le passage qui suit concerne les procès menés contre <persName ref="per017939">Jacques Débieux</persName> et <persName ref="per017913">Jean Jolion</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-134.2-1">SSRQ FR I/2/8 134.2-1</ref>, <ref target="urn:ssrq:SSRQ-FR-I_2_8-133.3-1">SSRQ FR I/2/8 133.3-1</ref>.</note></seg></p>
+						</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-133-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-S1.5</idno>
+               </msIdentifier>
+               <head>Règlement interne du Conseil d'État fixant, entre autres, dans quel ordre les
+                  divers officiers du comté doivent se présenter et rendre compte de leur
+                  gestion</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34"/>
+                                                            <width unit="cm" quantity="21"/>
+                                                         </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1624-01-09"/><note>L’édition Favarger de 1982 date le texte&#160;: «&#160;1624, janvier&#160;6&#160;» en dessous du titre. Il s’agit d’une coquille, la date est correctement transcrite dans le texte.</note>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_308"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;133</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000065"></term>
+               <term ref="key000341"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_S1_5_1r_4v"/><!-- AB Il faut être conscient qu'on a en fait pas de photo de 1r : il ne s'y trouvait rien et seul le verso de cette couverture improvisée a été pris. -->
+               <div>
+                  <head><gap reason="missing"/></head>
+               <pb n="1v" facs="AEN_AS_S1_5_1v_2r"/>
+               <pb n="2r" facs="AEN_AS_S1_5_1v_2r"/>
+                  <head><lb/>L’ambassadeur ordinaire es comtez  <lb/>de Neufchastel et de Vallangin.</head>
+                  <p>
+                      <lb/>A esté résolu et arresté que doresenavant on tiendra deux manuals <lb/>du
+                     conseil d’estat de S.A., l’ung des affaires lesquelles consernent <lb/>le bien
+                     et le service des S.A., tant pour ce qui peut estre de ses <lb/>finances,
+                     justice, affaires d’estat qu’aultrement, et l’aultre consernant <lb/>les
+                     affaires des particuliers et subjectz de sadicte Altesse. Et que par <lb/>telles
+                     sortes d’affaires, son conseil d’estat s’assemblera de quinze en <lb/>quinze jours, sçavoir le premier lundy de chasque mois et <lb/>le lundy
+                     quinze jours d’apprès, et ainsi de mois en mois <lb/>consécutivement.</p>
+                  <p><lb/>A ces jours la, apprès avoir traictté des affaires de S.A.,
+                     les <lb/>officiers des justices seront tenuz de se représenter pour
+                     rendre <lb/>compte audit conseil de ce qui se passe en leurs charges et <lb/>qui
+                     peut regarder le bien du service de S. A.&#160;; cela selon le <lb/>depportement
+                     qui en sera faict cy apprès&#160;; et amèneront aussi <lb/>lesdictz officiers
+                     avec eux les parties intéressées, ou qui auront <lb/>quelque chose a dire sur ce
+                     qu’ils proposeront audict conseil.</p>
+                  <p><lb/>Au conseil suivant celuy lequel aura esté premièrement <lb/>tenu, le sieur
+                     secre- tayre d’estat, ou son substitué et commis, <lb/>apportera les resolutions
+                     du conseil precedent au net dans son <lb/>manual, affin d’estre signées par tous
+                     ceux dudict conseil avant <lb/>que d’entreprendre aultre affaire. Et prendront
+                     soing lesdictz seigneurs  <pb n="2v" facs="AEN_AS_S1_5_2v_3r"/><lb/>du conseil de voir ce qui sera passé et
+                     comme quoy on aura faict <lb/>touchant l’execution de ce qui avoict esté résolu,
+                     comme aussi <lb/>de prendre resolution sur les remarques desquelles le dict
+                     manual <lb/>se trouvera estre chargé.</p>
+                  <p><lb/>Le premier lundy de janvier, le chastellain, le recepveur et
+                     le <lb/>grephier du Landeron se présenteront audict conseil.</p>
+                  <p><lb/>Le lundy quinziesme jour ensuivant l’officier de Lignieres.</p>
+                  <p><lb/>Le premier lundy de febvrier, les officiers de Thielle, sçavoir
+                     le <lb/>chastellain, le recepveur et le grephier.</p>
+                  <p><lb/>Le lundy quinziesme apprès, le recepveur de Fontayne-Andrey et <lb/>fermier
+                     du dopmaine de l’abbaye, avec le forestier des bois de <lb/>ladicte abbaye.</p>
+                  <p><lb/>Le premier lundy de mars, l’officier de Vaumarcus.</p>
+                  <p><lb/>Le lundy quinziesme apprès, le chastellain de Gorgier.</p>
+                  <p><lb/>Le premier lundy d’apvril, le mayre de Bevay, le grephier <lb/>et le
+                     fermier du prioré dudict lieu avec les forestiers des <lb/>bois en
+                     deppendantz.</p>
+                  <p><lb/>Le lundy quinziesme apprès, le mayre de Cortaillod et le grephier.</p>
+                  <p><lb/>Le premier lundy de may, le chastellain du Vaulxtravers <lb/>avec les
+                     recepveurs et le grephier.</p>
+                  <pb n="3r" facs="AEN_AS_S1_5_2v_3r"/>
+                  <p><lb/>Le quinziesme d’appres le mayre des Verrieres et le grephier <lb/>avec lesdicts
+                     recepveurs</p>
+                  <p> <lb/>Le premier lundy de juin, le mayre de Travers et le grephier.</p>
+                  <p><lb/>Le quinziesme d’apprès, le maire de Rocheffort et le grephier.</p>
+                  <p><lb/>Le premier lundy de juillet, le mayre des Brenetz et le grephier.</p>
+                  <p><lb/>Le quinziesme lundy d’apprès, le mayre du Locle avec le grephier.</p>
+                  <p><lb/>Le premier lundy d’aoust, le mayre et le grephier de la Sagne.</p>
+                  <p><lb/>Le lundy quinziesme d’apprès, le mayre de Collombier, le <lb/>recepveur et
+                     le grephier.</p>
+                  <p><lb/>Le premier lundy de septembre, le mayre de Neufchastel, le <lb/>recepveur
+                     et le grephier.</p>
+                  <p><lb/>Le quinziesme d’apprès, le mayre de la Coste, le recepveur <lb/>de la
+                        cave<note>Note Favarger&#160;1982&#160;: d’Auvernier.</note>, et le
+                     grephier.</p>
+                  <p><lb/>Le premier lundy d’octobre, le cappitayne et le mayre de <lb/>Vallangin
+                     avec le grephier.</p>
+                  <p><lb/>Le quinziesme d’apprès, le recepveur dudict Vallangin.</p>
+                  <p><lb/>Le premier lundy de novembre, le mayre de Boudevilliers <lb/>et le
+                     grephier.</p>
+                  <pb n="3v" facs="AEN_AS_S1_5_3v_4r"/>  <p><lb/>Le quinziesme lundy d’apprès, le
+                     chastellain, le recepveur <lb/>et le grephier de Bouldry.</p>
+                  <p> <lb/>Chaque officier amènera quand et luy les forestiers des bois <lb/>de S. A.
+                     rieres leurs charges.</p>
+                  <p> <lb/>Duquel reglement en sera promptement envoyé coppie a tous les
+                     dictz <lb/>officiers, affin de les preparer de bonne heure a l’effectuer et
+                     ensuivre, <lb/>et de se représenter aux jours que leur sont limitez par ledict
+                     reglement <lb/>faict au conseil tenu au chasteau de <placeName>Neufchastel</placeName> <origDate when="1624-01-09">le
+                     IX <lb/>janvier 1624</origDate>.</p>
+                   <lb/>
+                  <signed>
+                     P. Dinet St Romain
+                  </signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur papier, AEN, S N<hi rend="sup">o</hi>&#160;5.</p><p>Remarque&#160;:</p>
+               <p>Dès 1396, il est fait mention d’un <hi rend="italic">consoil de monseignour</hi> (Archives du Landeron, DD&#160;N<hi rend="sup">o</hi>&#160;22)&#160;; en 1564-1565, le Conseil d’État (=CE) se confond
+                  encore avec <hi rend="italic">le Conseil privé de Monseigneur et souverain Prince</hi> (<hi rend="italic">MN</hi>, 1980, p.&#160;80). Le
+                  volume&#160;VI des <hi rend="italic">Audiences générales</hi> donne quelques précisions sur les compétences du CE
+                  en matière judiciaires (fol.&#160;66v et 76v)&#160;; en 1582, le CE est qualifié de <hi rend="italic">Conseil d’Estat de Son Excelence en ce conté de Neufchastel</hi> (fol.&#160;67v)&#160;; d’après
+               le gouverneur <hi rend="italic">les srs du Conseil ... jugent de toutes causes qui se presentent tant de celles qui
+                  concernent les aucthoritez de l’excelence et grandeur de la seigneurie comme les autres particulieres ...</hi> (fol.&#160;69v). Sur les compétences du CE entre 1707 et 1848, cf.&#160;Cyrille de Montmollin, «&#160;L’exercice du droit de grâce à Neuchâtel sous l’Ancien Régime, 1707-1848&#160;», dans <hi rend="italic">MN</hi>, 1973, p.&#160;141-153.</p>
+</div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

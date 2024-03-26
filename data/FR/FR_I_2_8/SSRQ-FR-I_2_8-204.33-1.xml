@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.33-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 234 (1683), S. 202</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 234 (1683), p. 202</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Anweisung</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-04-02"><foreign xml:lang="la">2<hi rend="sup">da</hi> aprilis</foreign> 1683</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Inligende</p>
+						<p><lb/><persName ref="per027452a.05">Marie Ribotell</persName> werde nochmahlen examiniert,
+							<lb/>durch <abbr>h</abbr> statthaltern <persName>Vonderweit</persName><note>Gemeint ist möglicherweise der Kleinrat
+								<persName ref="per027559a">Simon Peter Vonderweid</persName>.</note>, <abbr>h</abbr> <persName ref="per026529a.03"><choice><abbr>P F</abbr><expan>Prosper Franz</expan></choice>
+							<lb/>Python</persName> unnd <abbr>h</abbr> <persName ref="per026330a.02">Rämi</persName> zu erfahren, ob sie
+							<lb/>wohl by sinnen, damit man nach beschaffenheit
+							<lb/>der sachen bewandtnus wider sie <term ref="lem001278.01">procedieren</term> möge.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p>Laut dieser Anweisung sollte die Angeklagte
+				von einer Delegation von Kleinräten verhört werden, die nicht im Stadtgericht, sondern im Land- oder Appellationsgericht sassen. Der <term ref="key003441">Kleine Rat</term> wollte damit eine weitere Einschätzung
+				bezüglich ihres Geisteszustands erhalten, um das weitere Vorgehen zu bestimmen. Hier dokumentiert sich eine neue Herangehensweise des Kleinen Rats:
+				Ein paar Jahrzehnte früher wären wohl Geistliche hinzugezogen worden, um die Angeklagte auf Besessenheit zu untersuchen.</p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

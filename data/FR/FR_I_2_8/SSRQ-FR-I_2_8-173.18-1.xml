@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-173.18-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 55–56</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 55–56</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Brassa-Schmidt – Verhör</head>
+					<head xml:lang="fr">Margreth Brassa-Schmidt – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1661-05-13"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="55"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1661-05-13"><sic>12</sic><hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1661</origDate><note>Der Schreiber hat sich verschrieben. Laut Anweisung des Rats fand das Verhör am 13. Mai statt.</note></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026098a">Franz Josef Wild</persName>.</note></seg>
+						<seg><lb/>Herr <persName ref="per026152a.01">Müller</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013470a.04">Manlin</persName> <term ref="lem018597.02">burgermeister</term></seg>
+						<seg><lb/><persName ref="per006528a.05">Possard</persName>, <persName ref="per026294a.01">Lentzburger</persName></seg>
+						<seg><lb/><persName ref="per026281a.01">Gadi</persName></seg></p>
+						<p><seg><lb/><persName ref="per026661a.01">Margereth Schmidt</persName> mit dem lehren <term ref="lem006591.03">seyll</term> <term ref="lem014641.01">torturiert</term>
+						<lb/> und darüber nachmahlen durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des
+						<lb/>stattgerichts examiniert, will ein mahl kheines
+						<lb/>wegs der <term ref="lem014609.03">strudleri</term> behafftet sein, welches
+						<lb/>mit <term ref="lem000335.04">schweren</term> bekräfftiget und sagt, sie wolle
+						<lb/>ihr selbs nit unrecht thun.</seg> <seg><term ref="lem011468.03">Bekhendt</term>, das sie
+						<lb/>zwar des <persName>Käpffers</persName> tochter, do sy sie abgeholt,
+						<lb/>gesagt zhaben, sie <term ref="lem014055">besorgte</term>, die <persName ref="per026640b">Schullerin</persName> hette
+						<lb/>sie angeben. Welches sie auch dem <persName>Käpffer</persName>,
+						<pb n="56"/><lb/>als zu ihm uff beruff khommen, auch <term ref="lem016814">vermeldt</term>
+						<lb/>habe, sie <term ref="lem014055">besorgte</term>, sie <persName ref="per026640b">Schullera</persName> habe sie
+						<lb/>angeben. Will in alleweg mit der selben
+						<lb/>einige gemein- noch <term ref="lem016959.03">khundtschafft</term> nicht  ge<lb break="no"/>habt,
+								will mit nichten, das ihr <persName>Käpffer</persName> ge<lb break="no"/>sagt
+								habe, sie liese sich <term ref="lem006693.02">hex</term> schelten.</seg> <seg>Der
+						<lb/><persName>Hanßen Heimu</persName>, den <term ref="lem000095.05">sigerst</term>, sagt, weill
+						<lb/>er sie mit <term ref="lem019143.01">abziehung</term> sie <unclear>geforset</unclear><note>Die Bedeutung dieses Worts bleibt unklar. Möglicherweise ist es im
+							Sinne von drängen oder forcieren zu verstehen.</note> und
+						<lb/>zu offterer gescherzet, habe sie ihne under
+						<lb/>den arm gekutzlet, schärtzwyß, und ihme
+						<lb/>under dem arm griffen. Und <del>da</del><term ref="lem011468.03">bekhendt</term>
+						<lb/>auch, das er ihr im intritt zu der <term ref="lem000240.29">kürchen</term>
+						<lb/>ein <term ref="lem003737">streich</term> geben, und will ihme nit
+						<lb/><term ref="lem004933.08">getrowet</term> haben.</seg> <seg><term ref="lem011468.03">Bekhendt</term> <add place="above">auch</add> etliche mahl
+						<lb/>ein sach, gleich aber verneinet es das selbig.
+						<lb/>Bittet hieruff gott und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice>
+						<lb/>und oberen umb <term ref="lem004684.08">verzüchung</term>.</seg> </p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

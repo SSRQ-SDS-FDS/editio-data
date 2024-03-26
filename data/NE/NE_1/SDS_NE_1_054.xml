@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-54-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN, Les Verrières, BB/1, parchemin No&#160;15</idno>
+               </msIdentifier>
+               <head>Franchises et concessions accordées aux gens des Verrières par les Ligues
+                  suisses</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="current">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="44"/>
+                              <width unit="cm" quantity="27"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1525-06-04"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_149">SDS NE 1, N<hi rend="sup">o</hi>&#160;54</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005822"></term>
+               <term ref="key000479"></term>
+               <term ref="key000298"></term>
+               <term ref="key000815"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_VERRIERES_BB1_15_r"/>
+               <div><p>
+                     <lb/>Nous les ambassadeurs des douze quanthons des Ligues, estans
+                     <lb/>assamblez a Neufchastel pour oyr noz comptes et aultres negoces, savoir
+                     faisons a tous presens et advenir que par devant nous sont comparruz aulcuns
+                     <lb/>de noz subgectz et habitans des Verrieres en nous exposans que par cy
+                     devans ilz ont acquis par engaigiere aulcungs preys et heritaiges mouvans de
+                     noz <lb/>tailliables et mainmortables du Vaultravers, lesquelz preys et
+                  heritaiges au present nostre baillif <persName>Bernard Schiesser</persName> leur a deffendu de non
+                     iceulx labourer ne <lb/>cultiver a cause qu’ils sont de nostre mainmorte, ains
+                     prétend iceulxdits preys et heritaiges reduyre et mectre en noz mains par
+                     commise a cause de ladite mainmorte, <lb/>que leur semble estre chose très
+                     rigoreuse, vehu et considéré qu’ilz sont courveables de mesdits seigneurs et
+                     qu’ilz payent grosses censes du bestial qu’ilz norrissent du <lb/>fruit desdits
+                        <term ref="lem015192.02">meix</term>, en nous priant et suppliant non leur
+                     vouloir faire perdre leur principal mais vouloir nosdits hommes de mainmorte
+                     inciter eulx rendre <lb/>leur principal chestal, lequel en leurs grosses
+                     nécessitez ilz leurs ont prestez ou vouloir souffrir qu’ilz joyssent desdits
+                     preys et heritaiges jusques ad ce que <lb/>nosdits gens de mainmorte
+                     facillement leur puissent rendre les sommes desdites engaigieres. Quoy faisant
+                     ilz prieront Dieu pour nostre prospérité et santé d’ame, <lb/>ce qu’il ne nous
+                     seroit estre prejudiciable, car a faulte de nosdits hommes de mainmorte ilz
+                     souffrent en payer la <term ref="lem026509">taille</term> d’argent et d’avene a
+                     l’equipolent <lb/>des <term ref="lem015192.02">meix</term> qu’ilz pourront,
+                     combien qu’ilz payent la cense de leursdites bestes. Sur quoy nous les
+                     dessusdits ambassadeurs après avoir entendu la supplication <lb/>dessusdite,
+                     considerant icelle estre consonante a raison, vehu que lesdites engaigieres
+                     faictes par nosdits hommes de mainmorte du Vaultravers ausdits des Verrieres en
+                     <lb/>leurs grosses et extrêmes nécessitez et l’offre qu’ilz font au deffault de
+                     noz hommes de mainmorte vouloir payer la <term ref="lem026509">taille</term> et
+                     charge a l’equipolent des <term ref="lem015192.02">meix</term> qu’ilz
+                     <lb/>tiengnent et la cense du bestial qu’ilz nouriront des fruictz, sy nous
+                     sumes consentiz et consentons par ces presentes aux engaigieres par eulx
+                     faictes, parmy que nosdictes <lb/>tailliables auront reachapt perpetuel de
+                     pouvoir iceulxdits meix rambre et reacheter, quant il leur plaira, sans
+                     contredit desdits des Verrieres, pendant lequel <lb/>temps nosdits subgects des
+                     Verrieres pourront lesdits biens et heritaiges aux conditions dessusdites joyr,
+                     eulx et leurs hoirs, sans reprehention de mainmorte, <lb/>en payant au deffault
+                     de noz tailliables, la taille a l’equipolent de ce qu’ilz tiendront desdits
+                     meix comme dit est. Promectans pour ce aux 5&#160;noms de nosdits
+                     <lb/>seigneurs suppieriers en bonne foy, toutes et chascunes les choses dessus
+                     conditionnées avoir et tenir pour aggreables, fermes et estables, sans
+                     corrompre ne jamais <lb/>aller au contraire en aucune maniere <gap
+                        reason="missing"/> que furent faictes et données <date when="1525-06-04"
+                        >le quatrième <lb/>jour du mois de jung, l’an mil cinq cens vingt et
+                        cinq</date>. </p>
+                  <signed>
+                     Baillioz <figure type="notarial sign"></figure>
+                  </signed>
+               </div>
+               <pb n="1v" facs="AEN_VERRIERES_BB1_15_v"/>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, Archives des Verrières, BB/1, parchemin, N<hi rend="sup"
+                        >o</hi>&#160;15.</p>
+               <p>Éd. Loew, Les Verrières, p.&#160;334, pièce justificative, N<hi rend="sup"
+                     >o</hi>&#160;13.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;161. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

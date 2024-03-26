@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-177-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/2, fol. 58v (Eintrag 1) </idno></msIdentifier><head>Eid der Richter der Stadt Winterthur</head><msContents><summary>Die Richter der Stadt Winterthur sollen schwören, unparteiisch nach bestem Wissen und Gewissen Recht zu sprechen und zu verschweigen, was hinter verschlossenen Türen vertraulich geredet wird und nicht für die Urteilsverkündung von Belang ist.</summary><msItem><textLang xml:lang="de"/><author role="scribe"><persName ref="per027307">Konrad Landenberg</persName></author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb type="original" n="58v" facs="STAW_B_2_2_58_v"/>
+                        <head>Richter eid</head>
+                        <p>
+                            <lb/>Item die richter soͤllen schwēren, <app><lem/><rdg wit="STAW B 3a/10, S. 6">zum gricht zegahn, so offt innen gebotten wirt, auch ein</rdg></app> glich richter ze sind, uff clag
+                            <lb/>unnd antwurt nach iren besten gewu̍ssne unnd ver<lb break="no"/>stentnuß recht ze sprēchen und nu̍tzet darinne dann
+                            <lb/>allein got unnd das recht ansaͤhen. Und was mit
+                            <lb/>beschlossner tu̍ren heimlichs geredt oder geraten wirt,
+                            <lb/>soͤlchs ze verschwigen, anders dann wie offnung der
+                            <lb/>urtail vordert, das mag er tuͦn.
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Gemäss den Angaben in dem von Stadtschreiber <persName ref="per014937">Gebhard Hegner</persName> angelegten und nur mehr abschriftlich überlieferten Kopial- und Satzungsbuch setzte sich das Richtergremium aus 12 bis 14 Personen aus dem <orgName ref="org009293">Grossen Rat</orgName> und der Gemeinde zusammen (<bibl>winbib Ms. Fol. 27, S. 496</bibl>). Die Sitzungen des Gerichts wurden von dem obersten Stadtknecht geleitet, vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-176-1">SSRQ ZH NF I/2/1 176-1</ref></bibl>. Wie aus der Gerichtsordnung von 1577 hervorgeht, begannen die Gerichtsverhandlungen im <placeName ref="loc013181">Rathaus</placeName> vom 1. September bis Ostern morgens um 8.30 Uhr und im Sommerhalbjahr um 7.30 Uhr. Richter, die sich unentschuldigt verspäteten, mussten 6 Haller in die gemeinsame Kasse zahlen. 1590 wurde diese Busse verdoppelt (<bibl>STAW B 5/1, S. 12-13</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-91.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 13, S. 465–466</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 13, p. 465–466</idno>
+					</msIdentifier>
+					<head xml:lang="de">François Bondalla – Verhör</head>
+					<head xml:lang="fr">François Bondalla – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-11-07"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="465"/><p><lb/><placeName ref="loc008105">Keller</placeName>
+							<seg><lb/><origDate when="1637-11-07">7 <foreign xml:lang="la">novembris</foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009267a.01">Brodardt</persName>, <abbr>h</abbr> <choice><abbr>burgerm</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice><note>Gemeint ist <persName ref="per011533">Tobias Gottrau</persName>.</note></seg>
+							<seg><lb/><persName ref="per011519">Techterman</persName>, <persName ref="per011531a.01">Schrötter</persName></seg>
+							<seg><lb/><persName ref="per011532a.01">Brünißholz</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><measure quantity="3" unit="lb" type="currency">3 </measure></add>.</seg> <seg><persName ref="per011819a.04">Françoys Bondola</persName> de <placeName ref="loc007620">Cheiry</placeName>, enquis
+							<lb/>pourquoy il tenoit prison, a dict que
+							<lb/><persName>Michel Dutey</persName> l’avoit <term ref="lem015356.13">accoulpé</term>, au<lb break="no"/>quel estant confronté ledict <persName>Dutey</persName>
+							<lb/>luy dict qu’il l’avoit veu avec <persName>Jacques
+							<lb/>dau Bou</persName>, es bas de <placeName ref="loc008331.02">Villarsel</placeName><note>Il existe plusieurs villages nommés Villarzel ou Villarsel dans le canton de Fribourg, mais selon les autres mentions de lieux faites dans le procès, il faut privilégier la provenance broyarde.</note>, ce que
+							<lb/>le prisonnier nie entierement <add place="above" type="sign">&amp; dict</add> qu’il
+							<lb/>ne sçait ou ce que ledict <persName>Jacques dau
+							<lb/>Bou</persName> est, qu’il y a plus de <date dur-iso="P10Y">dix ans</date> qu’il
+							<lb/>ne l’a veu, ou parlé avec luy, qu’il
+							<lb/>n’a onques ehu aucun affaire ny ran<lb break="no"/>cune contre le prenommé <persName>Michel</persName>.</seg>
+							<seg><lb/>Il dict n’avoir menacé aucun aux
+								<lb/>encheres des <term ref="lem015149.07">diesmes</term>&#160;; vray estre
+						<pb n="466"/><lb/>qu’il alla lors boirre avec <persName>Jacques
+							<lb/>Joquier</persName>, sa fiancé &amp; luy dict que
+							<lb/>jamais il ne l’oublieroit, mais non
+							<lb/>pas a mauvaise intention.</seg> <seg>Il nie
+							<lb/>d’avoir jetté des <term ref="lem015618.03">maudisons</term> &amp;
+								<lb/>qu’on l’ayt blasmé <term ref="lem019308.01">sorcier</term> ou
+							<lb/>meschant homme en sa presen<lb break="no"/>ce. Il nie aussy d’avoir esté a la
+							<lb/><placeName>Joux de l’Arrest</placeName><!-- Ort -->. Il advoue d’avoir
+								<lb/>cy devant esté accusé d’une <term ref="lem019389.02">sorcie<lb break="no"/>re</term>, qu’il avoit esté au bas de l’<placeName ref="loc008529.03">Auge</placeName>
+							<lb/>avec elle, <add place="left margin" type="sign">mais qu’elle <lb/>luy feit tort</add>. <term ref="lem019498">Crie mercy</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

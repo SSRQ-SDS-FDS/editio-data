@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.64-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 124–125</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 124–125</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Götschmann-Schorderet, Tichtli Uldry-Tunney, Tichtli Berger-Graber – Verhör</head>
+					<head xml:lang="fr">Anni Götschmann-Schorderet, Tichtli Uldry-Tunney, Tichtli Berger-Graber – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-12-03"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="124"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1644-12-03">3 <foreign xml:lang="la"><choice><abbr>decemb</abbr><expan>decembris</expan></choice></foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per013664a.01">Phillippuna</persName>, <persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName>Python</persName><note>Gemeint ist entweder <persName ref="per012381a">Hans Ulrich Python</persName> oder <persName ref="per012380a">Jost Python</persName>, die beide im Stadtgericht sassen.</note></seg>
+							<seg><lb/><persName ref="per013439a.01">Montenach</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><lb/><persName ref="per015984a">Tichtli Tunney</persName>, <persName ref="per015985a.01">Pettern Uldrys</persName>, des <term ref="lem018822.02">siechen knechts</term>,
+						<lb/>frauw uff <placeName ref="loc007920.04">Bürglen</placeName><note>In Bürglen befand sich ein Siechenhaus.</note>, die von <persName ref="per015982a">Anni Schorderet</persName> der
+						<lb/><term ref="lem014672.03">hexery</term> wegen angeben worden, hatt gesagt, es ge<lb break="no"/>schehe ihren unrecht. Dan sie jemahlen in kheinem graben
+						<lb/>unnd <term ref="lem017042.03">sect</term> gsyn, unnd der <term ref="lem014673.16">böße feind</term> sye ihren nieh
+						<lb/>erschinnen, darvor sie gott behütten wölle. Unnd
+						<lb/>glychwohlen sie sich in <term ref="lem007418.03">ehehändlen</term> bruchen lassen,
+						<lb/>habe sie doch kheine ungebürliche mittel darzu
+						<lb/>gebraucht, sonders allein bottschafften ußgerichtet,
+						<lb/>wie es ihren von den parthyen bevohlen worden.
+						<lb/>Sie wisse kheine <term ref="lem017051.02">khünsten</term>. Unnd wie man ihre
+						<lb/>schwester von <placeName ref="loc007982.03">S. Wolffgang</placeName> gerichtet<note>Gemeint ist <persName ref="per015739">Barbli Paccot-Tunney</persName>.</note>, sye sie
+						<lb/>nit gewichen, sonders wölle sie durch ihre <term ref="lem005243.17">nach<lb break="no"/>buwren</term> bewyßen, daß sie in ihrem huß gsyn
+						<lb/>sye. Mit der <persName>Gilettina</persName> habe sie weder geessen
+						<lb/>noch getruncken, unnd mit ihren nit alß <term ref="lem008937.03">etwan</term>
+						<lb/>im fürgehen geredt. Sie sye in dißen sachen gantz
+						<lb/>unschuldig, es werde sich deßwegen über sie nütt
+							<lb/><term ref="lem008354.01">erfinden</term>.</p>
+						<p><lb/><persName ref="per015988b">Tichtli Graber</persName>, <persName ref="per015987a.01">Jacoben Bergos</persName> hußfrauw von
+							<lb/><placeName ref="loc007857.05">Tidingen</placeName>, zeigt an, sie wisse kheine <term ref="lem017051.02">khünsten</term>. <subst><del>alß</del><add place="inline">Sie</add></subst> sye
+							<lb/>in ihr hußhaltung offt erzürnt gsyn, daß sie <term ref="lem003415">geflucht</term>
+							<lb/>unnd den <term ref="lem007321.02">tüffel</term> genambset hatt. Der sye ihren nieh
+							<lb/>erschinnen, daß er ihren zugeredt habe. Sie habe ihn
+							<lb/>nur <time period="byNight">nachts</time> by dem <term ref="lem003365.10">füwr</term>, wie sie ihr <term ref="lem002272">milch</term> angericht,
+							<lb/>wie ein grauwe <term ref="lem004325.03">katz</term> gesehen. Sie sye darab erschrocken,
+							<lb/>sie habe sich <term ref="lem011078.04">angendts</term> gesegnet unnd sye die <term ref="lem004325.03">katz</term> weg<lb break="no"/>khommen. Sie habe gott nit <term ref="lem016063.05">verlaugnet</term> unnd habe die
+							<lb/><term ref="lem004325.03">katz</term> zu ihren nütt geredt noch bevohlen, daß sie den <term ref="lem007347">ha<lb break="no"/>gel</term> machen noch einiches <term ref="lem000310.14">viech</term> <term ref="lem016356.03">vergifften</term> soldt. Sie wisse
+							<pb n="125"/><lb/>doch nit, ob die <term ref="lem004325.03">katz</term> der <term ref="lem007321.02">tüffel</term> gsyn sye. Es sye ihren
+							<lb/>nur also zu sinn kommen. Die <persName ref="per015739a">Paccota</persName>, so man letstlich
+							<lb/>hingericht, habe ihren einmahl, wie ihr man kranck
+							<lb/>gsyn, <term ref="lem002518.02">krießen</term> in das huß getragen, darvon sie alle
+							<lb/>geessen. <term ref="lem012597.04">Sydtert</term> ihren alzytt im hertzen gsyn, sie werde
+							<lb/>ihren etwas angethan haben. Sie sye by ihrem wissen
+							<lb/>nieh in einichen graben getragen worden.</p>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName></p>
+						<p><lb/><persName>Anni Schorderet</persName> hatt ihre vorige <term ref="lem016794.08">bekhandtnussen</term>
+							<lb/><add place="left margin">am <term ref="lem018237">zentner</term></add> gäntzlich <term ref="lem015124">erhalten</term>, so vill es sie betrifft. Aber
+							<lb/>belangend die jenigen, welche sie angeben, habe sie
+							<lb/>allen unrecht gethan. Sie habe sie in der <term ref="lem017042.03">sect</term> nieh
+							<lb/>gesehen.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

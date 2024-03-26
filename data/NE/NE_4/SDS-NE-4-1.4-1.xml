@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.4-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 17–19</idno>
+     </msIdentifier>
+     <head>Salaire des juges les jours ordinaires</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000103"/>
+     <term ref="key000212"></term>
+     <term ref="key005052"></term>
+     <term ref="key000886"></term>
+     <term ref="key003025"></term>
+     <term ref="key005808"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="17" facs="AEN_MJ_17_016_017"/>
+     <div>
+      <head type="title">
+        <lb/><choice>
+        <abbr>Chap</abbr>
+        <expan>Chapitre</expan>
+       </choice> IIII. <lb/>Du sallaire desdits <lb/><app>
+        <lem>juréz</lem>
+        <rdg wit="AVN Q41, p. 8">justiciers</rdg>
+       </app> aux jours <lb/>ordinayres.</head>
+      <p>
+        <lb/><app>
+        <lem>Lesdits justiciers pour leurs</lem>
+        <rdg wit="AVN Q41, p. 8">Pour les</rdg>
+       </app> despends, <lb/>peynes et sallaires d’<term ref="lem017626.06">ouyr</term> et juger les
+       causes <lb/>et procez qui se meuvent &amp; plaident <lb/>par devant <app>
+        <lem>eux,</lem>
+        <rdg wit="AVN Q41, p. 8">les juticiers <lb/>iceux</rdg>
+       </app> ne pourront ny ne debvront <lb/>dores en avant prendre de la demande, <term
+        ref="lem016409.04">traitte</term>, <lb/><term ref="lem015646">passement</term> ou sentence
+       diffinitivie, qu’une <lb/>cognoissance pour un <app>
+        <lem/><rdg wit="AVN Q41, p. 8">chascun</rdg></app> desdits <term ref="lem016019.02">exploits</term>, qui <lb/>sont les trois principaux en
+       toute la <lb/>cause, &amp; ne se feront payer pour la <lb/>cognoissance que <measure
+        origin="NE" type="currency" unit="bz" quantity="8">huict bats</measure>.</p>
+      <p>
+       <lb/>Et pour tous <choice>
+        <abbr>aues</abbr>
+        <expan>autres</expan>
+       </choice> incidents, soit interlocutoire, <lb/><add place="below" type="catchword"
+        >c’est</add>
+       <pb n="18" facs="AEN_MJ_17_018_019"/>
+       <lb/>c’est a dire accessoire, ou autres jugements, <lb/>qui se <term ref="lem015872.03"
+        >souloyent</term> aussy bien cy devant <lb/>demander par cognoissance ne s’en payera
+        <lb/>qu’<measure origin="NE" type="currency" unit="bz" quantity="1">un batz</measure> pour
+       un chescun.</p>
+      <p>
+        <lb/>Pour aller sur le lieu ou <term ref="lem014995.03">faire taxe</term> de <lb/>possessions
+       et heritages, les deux justiciers <lb/>qui seront a ce deputez, a chescun sera <lb/><app>
+        <lem>ordonné</lem>
+        <rdg wit="AVN Q41, p. 8">donné</rdg>
+       </app>
+       <measure origin="NE" type="currency" unit="bz" quantity="8">huict bats</measure>, hors mis
+        <placeName ref="loc005950.05">Vallangin</placeName>, <lb/><app>
+        <lem><placeName ref="loc007794.02">Vauxtravers</placeName> et <placeName ref="loc007818.02"
+          >Rocheffort</placeName></lem>
+        <rdg wit="AVN Q41, p. 8"><placeName ref="loc007818">Rochefort</placeName> <lb/>et <placeName
+          ref="loc008408.03">Vaulxtravers</placeName></rdg>
+       </app>, ausquels <lb/>quand ils passeront la montagne esdits <lb/>lieux aurront chescun
+        <measure origin="NE" type="currency" unit="bz" quantity="12">douze bats</measure>.</p>
+      <p>
+       <lb/>Pour l’investiture et <term ref="lem014968.04">delivrance <lb/>de la taxe</term> pour
+       faict de possession <lb/>qui se fera d’ores en avant en justice <lb/>se payera la valeur
+       d’une cognoissance, <lb/>et pour la delivrance des meubles <lb/>demy
+       cognoissance.</p>
+      <p>
+       <lb/>Pour faire revoir une <term ref="lem014995.02">taxe</term>, s’en <lb/>payera autant que
+       pour <term ref="lem014995.04">faire la <lb/>taxe</term>, <app>
+        <lem>selon le lieu</lem>
+        <rdg wit="AVN Q41, p. 8">et ce selon le lieu, ou elle se fera</rdg>
+       </app>
+       <lb/><add place="below" type="catchword">pour</add>.</p>
+     <pb n="19" facs="AEN_MJ_17_018_019"/>
+      <p>
+        <lb/>Pour chasque <term ref="lem015968.02">admoderation</term> les deux <lb/>justiciers auront
+       une cognoissance, <lb/>et la feront specificque sur chasque <lb/>article.</p>
+      <p>
+        <lb/>Et sy les parties repetées, n’exedent la <lb/>somme de <measure origin="NE"
+        type="currency" unit="L" quantity="15">quinze livres</measure>, l’officier en <lb/>ordonnera
+       promptement, sans les renvoyer <lb/>a autre <term ref="lem017064.03">admodereur</term>.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

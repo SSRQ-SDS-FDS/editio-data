@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 282 (1731), S. 367</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 282 (1731), p. 367</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond – Anweisung</head>
+					<head xml:lang="fr">Catherine Repond – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-06-16">16ten <foreign xml:lang="la">junii</foreign> [1731]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Procedure criminele
+						<lb/>de <placeName ref="loc008049.04">Corbiere</placeName>
+						<lb/>contre <persName ref="per028134a">Catherine Repond alias Cattillon</persName>.</p>
+						<p><lb/>Das undergricht hat dieselbe zum ½ <term ref="lem018237.07">centner</term>
+						<lb/><term ref="lem015158.02">verfelt</term>. D<subst><del>er</del><add place="overwritten">ie</add></subst> undergrichtliche <term ref="lem005963.36">erkhandtnuß</term>
+						<lb/>ist bestättiget, undt soll wegen der frauen alt
+						<lb/>vennerin <persName ref="per028145b.01">Castellaz, gebohren Alt</persName><note>Es handelt sich um die Ehefrau des <persName ref="per028143a">Nikolaus Albert Castella</persName>, der von 1727–1730 Freiburger Venner war.</note>, <term ref="lem018892.02">übell</term>, so
+						<lb/>wohl alß wegen waß sie bey <persName>Pierre Menoud</persName>
+						<lb/>seeligen, <term ref="lem007205.05">grichtsäs</term> von <placeName ref="loc007605.02">Überstein</placeName>, zur zeit
+						<lb/>des <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per028141a.01">Malliardoz</persName> gethan, <add place="above">examiniert werden</add>. Im übrigen
+						<lb/>ein <term ref="lem004618.02">befelch</term> an wohlgeehrten <abbr>h</abbr> großweibel <persName ref="per028142a.01">von
+						<lb/>Montenach</persName>, dem <term ref="lem004390.03">scharpffrichtern</term> anzu<lb break="no"/>befehlen, sich mit seinem <term ref="lem007572.05">gleidtsmann</term> nacher
+						<lb/><placeName ref="loc008048.03">Corbers</placeName> zu begeben, die <persName ref="per028134a">Cattillon</persName> zu <term ref="lem001277">visitieren</term>,
+						<lb/>ob sie <subst><del>g</del><add place="overwritten">m</add></subst>it einem <term ref="lem017060.03">zeigen</term> bezeichnet.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

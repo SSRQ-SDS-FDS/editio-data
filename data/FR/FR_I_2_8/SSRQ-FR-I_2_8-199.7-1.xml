@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-199.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 436–439</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 436–439</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Bollot – Verhör</head>
+					<head xml:lang="fr">Marguerite Bollot – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1676-12-10"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="436"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1676-12-10">10<hi rend="sup">ten</hi>  christmonatz <hi rend="underline">1676</hi></origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026529a">Franz Prosper Python</persName>.</note>, <abbr>h</abbr> <persName ref="per026616a.01"><choice><abbr>F P</abbr><expan>Frantz Peter</expan></choice> Gottraw</persName></seg>
+							<seg><lb/> LX <abbr>h</abbr> <persName ref="per026120a.05">Johan Rami</persName>, <abbr>h</abbr> <persName ref="per026531a.02">Fillistorff</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026532a.02">Werli</persName></seg>
+							<seg><lb/><persName ref="per026620a.01">Meyer</persName></seg></p>
+						<p><lb/><persName ref="per022419a.01">Marguerite Bolot la Dametta</persName> adjugée aujourd’huy par
+						<lb/>Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice> au demy <term ref="lem018232">quintal</term>, avant qu’estre examinée
+						<lb/>par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict civil et criminel, a desiré de
+						<lb/>parler en particulier à monsieur le <term ref="lem018597.02">burgermeister</term>
+							<lb/><persName ref="per026529a.01">Python</persName>, lequel ayant esté environ <time dur-iso="PT30M">demy heure</time> auprès
+							<lb/>d’elle a rapporté qu’elle estoit entrée en <term ref="lem019465.01">confession</term>
+							<lb/>et en sa presence luy a representé les <term ref="lem019465.02">confessions</term>
+						<lb/>qu’elle luy avoit faicte, qui sont de la teneur
+						<lb/>suivante.</p>
+						<p><lb/>A sçavoir qu’elle a tant esté poursuivie par le <term ref="lem018943.02">demon</term>,
+						<lb/>qui luy representoit tousjours qu’elle estoit sienne
+							<lb/>pour n’estre bien <term ref="lem019543.07">baptisée</term> et pour ce qu’elle juroit
+						<lb/>tant dans sa colere, qu’enfin y a environ <date dur-iso="P15Y">quinze
+							<lb/>ans</date> qu’elle a consenti à sa recherche de <term ref="lem019541.01">renier</term>
+						<lb/>Dieu et se donner à luy. Et qu’en mesme temps
+						<lb/>il la <term ref="lem018895.08">marqua</term> au dedans de la levre dessus, et luy
+						<lb/>donna <measure type="currency" unit="bz" quantity="4">quatre batz</measure> et certaines <term ref="lem018302.03">fueilles</term>. Que
+							<lb/>son <term ref="lem019555.05">maistre</term> s’appelloit <persName ref="per029425a.11">Gabriet</persName> et luy donna
+						<lb/>de la <term ref="lem018382.01">graisse</term> pour faire mourir gens et bestes,
+						<lb/>et que pour preuve, elle en donna à un <term ref="lem018315.01">chat</term>,
+						<lb/>qui mourut. Et qu’elle en avoit aussy touché
+						<lb/>sur l’espaule la femme de <persName>Peterman Musy</persName>,
+						<lb/>laquelle en devint malade, mais qu’elle avoit
+							<lb/>faict que son <term ref="lem019555.05">maistre</term> luy avoit osté son mal.
+							<lb/>Lesquelles <term ref="lem019465.02">confessions</term> predictes faictes en parti<lb break="no"/>culier audit seigneur le <term ref="lem018597.02">burgermeister</term>, elle a confirmé
+						<lb/>en presence des susnommés seigneurs du droict.</p>
+						<p><lb/>Et de plus a <term ref="lem015549.07">confessé</term> avoir touché de sa <term ref="lem018382">graisse</term>
+						<pb n="437"/><lb/>diabolicque deux <term ref="lem015442.07">poullins</term> de <persName>Franceisaz Monney</persName>, qui mou<lb break="no"/>rurent d’abord après.</p>
+						<p><lb/>Interrogée si elle n’a pas esté à la <term ref="lem017043.01">secte</term> diabolicques, a dict
+						<lb/>qu’ouy, et ce presque tousjours les mercredis et samedis
+						<lb/>dans le grand bois dessus de <placeName ref="loc007747">Russy</placeName>.</p>
+						<p> <lb/>Interrogée quelles personnes ont esté à la <term ref="lem017043.01">secte</term> avec
+						<lb/>elle et si elles estoyent masquées, a respondu qu’il
+						<lb/>y avoit bon nombre d’hommes et femmes non masquées,
+						<lb/>mais qu’elle n’en a point recogneu, persistant bien
+						<lb/>longtemps dans ceste negative. Mais enfin estant
+						<lb/>encor serieusement exhortée de declarer qui alloit
+							<lb/>et revenoit avec elle, et de dire si son <term ref="lem019555.05">maistre</term>
+						<lb/>ne luy a pas faict promettre de ne les pas
+						<lb/>declarer, a dict qu’ouy, et que c’estoit luy qui
+						<lb/>la conduisoit à la <term ref="lem017043.01">secte</term>. Et enfin après longues
+						<lb/>exhortations de declarer ses complices, a dict
+						<lb/>n’en cognoistre aucune, sinon la <persName ref="per027117b">Paulina</persName>, femme
+						<lb/>de <persName ref="per027119a.01">Pauli Verdun</persName>, nommée <persName ref="per027117b">Marguerite</persName><note><persName ref="per027117b">Marguerite Verdon-Guinnard</persName>
+							wird im August 1677 wegen Hexerei in Freiburg verhört. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-201.1-1">SSRQ FR I/2/8 201.1-1</ref>.</note> comme
+						<lb/>elle, avec laquelle est souvent allée et
+						<lb/>revenue de la <term ref="lem017043.01">secte</term>.</p>
+						<p><lb/>Interrogée si elle n’avoit point eu de querelle ou
+						<lb/>rancune contre ladite <persName ref="per027117b">Paulina</persName>, a dict qu’ouy, à cause
+						<lb/>qu’elle leur nioit <measure type="currency" unit="bz" quantity="5">5 batz</measure> que son pere leur avoit
+						<lb/>declaré qu’elle luy debvoit, mais qu’elle s’est bien
+						<lb/>reconciliée avec elle.</p>
+						<p><lb/>En outre a declaré qu’elle <subst><del>en a</del><add place="above">y a</add></subst> veu trois d’<placeName ref="loc007603.04">Avenche</placeName>
+						<lb/>habilliées de noir, et deux de <placeName ref="loc007649.05">Dompdidier</placeName>, qui
+						<lb/>sont de deux differentes maisons du costé
+						<lb/>d’<placeName ref="loc007603.04">Avenche</placeName>. Desquelles ne sçait le nom, mais que
+							<lb/>la <persName ref="per027117b">Paulina</persName> sçaura bien leurs noms, les cog<lb break="no"/>noissant mieux qu’elle.</p>
+						<p><lb/>Interrogée ce qu’ils faisoyent à la <term ref="lem017043.01">secte</term>, n’en a rien voullu <add place="bottom" type="catchword">declarer</add>
+						<pb n="438"/><lb/><choice><sic>declarer</sic><corr></corr></choice>, sinon que le <term ref="lem017521">diable</term> tiroit du vin d’un <term ref="lem016908.06">chesne</term>.
+							<lb/>Et a dict que son <term ref="lem019555.05">maistre</term> estoit tousjours habillié de verd.</p>
+						<p><lb/>En outre a <term ref="lem015549.07">confessé</term> d’avoir donné les <term ref="lem018555.03">malefices</term> à
+						<lb/><persName>Claude</persName>, fils de <persName>Pierre Pochon</persName> le <term ref="lem015166.01">favre</term>, dans des noix
+						<lb/>frottées de sa <term ref="lem018382.02">graise</term> diabolicque.</p>
+						<p><lb/>Plus d’avoir touché dedite <term ref="lem018382.01">graisse</term> l’enfant de <persName>Claudine
+						<lb/>Monney</persName>, qui en mourut.</p>
+						<p><lb/>Plus <term ref="lem015549.13">confesse</term> d’avoir donné les <term ref="lem018555.03">malefices</term> à la
+						<lb/>femme de <persName>Louis Forneroud</persName>, l’ayant touché
+						<lb/>à ceste intention au bras de sa main engraissée
+						<lb/>de sondit <term ref="lem018384.04">unguent</term> diabolicque.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> d’avoir <term ref="lem019478.02">infecté</term> de sa <term ref="lem018382.01">graisse</term> une
+						<lb/>tartre, qu’elle avoit donné à la fillie du
+						<lb/>commissaire <persName>Olivier</persName>, en intention de luy
+						<lb/>donner le mal qu’elle a eu, duquel est morte.
+						<lb/>Et qu’elle en donna bien deux tartres, desquelles
+						<lb/>d’autres mangearent, mais que son intention
+						<lb/>n’estoit pas qu’elles deussent nuire aux autres
+						<lb/>et qu’ils n’en ont aussy receu aucun dommage.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> qu’à son instance son <term ref="lem019555.05">maistre</term> a faict sauter
+							<lb/>les bosses du <term ref="lem015610.01">char</term> de <persName>Jean Tarapon</persName>.</p>
+						<p><lb/>De mesmes d’avoir detracqué le <term ref="lem018905.02">bourgoz</term> de
+						<lb/><persName>Claudine Monney</persName> et d’avoir frotté de sa <term ref="lem018382.01">graisse</term>
+						<lb/>d’un sien enfant qu’estoit sur le fourneau, lequel
+						<lb/>en devient malade et est mort.</p>
+						<p><lb/>Declare le <term ref="lem017521">diable</term> luy avoir souvent donné <measure type="currency" unit="bz" quantity="4">4 batz</measure>
+						<lb/>et l’avoir aussy souvent trompé avec des <term ref="lem018302.03">fueilles</term>
+						<lb/>soubs forme d’argent. En outre, qu’il luy
+							<lb/>a faict <term ref="lem019541.01">renier</term> Dieu, la Sainte Vierge et tous
+						<lb/>les saincts, mais qu’elle a tousjours eu recours à
+							<lb/>la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge mere de Dieu.</p>
+						<pb n="439"/><p><lb/>Après avoir faict lesdits maux de sa <term ref="lem018382.01">graisse</term> diabolicque,
+							<lb/>dict l’avoir jettée, et que le <term ref="lem017521.01">diable</term> son <term ref="lem019555.05">maistre</term>
+						<lb/>l’a bien battue et luy a dict bien du mal pour cela.</p>
+						<p><lb/>Lesquelles <term ref="lem019465.02">confessions</term> et accusations de complices
+							<lb/>elle a soustenu veritables en une <term ref="lem019550.04">elevation</term> à
+						<lb/>la simple <term ref="lem018231">corde</term>, sans avoir adjousté ny dimi<lb break="no"/>nué.</p>
+						<p><lb/>En outre, ayant esté <term ref="lem019509.03">visitée</term> pour la <term ref="lem018894.03">marque dia<lb break="no"/>bolicque</term>, elle a esté trouvée au milieu de
+						<lb/>la levre dessu au dedans. </p>
+						<add place="bottom" type="sign"><p><lb/><term ref="lem015549.13">Confesse</term> en outre d’avoir dict à maistre <persName>Pierre Clavel</persName>
+						<lb/>que la <persName ref="per017167a">Magnina</persName><note><persName ref="per017167">Elisabeth Morand-Favre</persName>
+							wird im August 1677 erneut der Prozess gemacht. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-174.13-1">SSRQ FR I/2/8 174.13-1</ref>.</note> avoit esté à la <term ref="lem017043.01">secte</term>, mais qu’elle
+						<lb/>ne la y a jamais veue, et que ce fust luy qui luy
+						<lb/>donna occasion d’en parler.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> aussy d’avoir dict que le bon Dieu luy avoit
+						<lb/>faict grand tort de luy oster ses enfants,
+						<lb/>demandant pardon à Dieu et à <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict
+						<lb/>de ses fautes, desquelles dict estre bien repentante
+						<lb/>et penitente.</p></add>
+						<p><lb/>N’ayant esté suivi aux <term ref="lem019550.03">elevations</term> au demy <term ref="lem018232">quintal</term>,
+							<lb/>jusques à ce que les presentes libres <term ref="lem019465.02">confessions</term>
+						<lb/>soyent representées à Leurs <choice><abbr>Exlles</abbr><expan>Excellences</expan></choice>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

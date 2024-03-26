@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2019"/>
+                <date type="print" when="2007"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS-VD-D_1-12-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier><repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;196–200/207</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre Jaquette de Clause, de Vufflens-la-Ville</head>
+                    <msContents>
+                        <summary>
+                            <p>Jaquette de Clause de Vufflens-la-Ville comparait le 10 décembre 1469 devant le vice-inquisiteur Thomas Gogat, représentant Victor Massenet, pour être interrogée. Comme le châtelain d’Ouchy Pierre Mayor figure parmi les témoins, on peut peut-être en déduire que Jaquette est détenue dans le château épiscopal d’Ouchy. Au cours de ce premier interrogatoire, Jaquette est confrontée à ses deux beaux-fils Antoine et Mermet de Clause, déjà convaincus d’hérésie, qui prétendent avoir vu leur marâtre à des sectes d’hérétiques. Malgré quatre monitions accordées entre le 11 et le 13 décembre, l’accusée n’avoue toujours rien et la sentence interlocutoire doit être prononcée le 14 décembre 1469. Mais ce jour-là, il n’y a eu ni sentence interlocutoire ni torture. Le procès-verbal suivant ne date que du 18 janvier 1470. Jaquette est d’abord interrogée par le vice-inquisiteur Thomas Gogat, puis le procureur de la foi –&#160;dont le nom n’est pas donné&#160;– requiert la torture. Elle ne passe toutefois pas aux aveux, mais demande à être relâchée jusqu’au lendemain, disant vouloir tout avouer à ce moment-là. Il n’y a pourtant pas d’autres auditions&#160;: le reste du cahier, les pages 201–206 du registre Ac 29, sont restés vierges. </p>
+                        </summary> 
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1469-12-10" to="1470-01-18"/>
+                            <origPlace ref="loc009335.01"  cert="high">[Château d’Ouchy]</origPlace>                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647403977">Utz Tremp 2007</ref>, p.&#160;226–235</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref>Kieckhefer 1976</ref>, p.&#160;136</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;27, 407</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647403977">Utz Tremp 2007</ref>, p.&#160;237–255</bibl> 
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="196" facs="ACV_AC-29_195_196"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1469">1469</date></ab></div>
+                        <head type="title" place="top"><p><seg><lb/>Sequitur processus <persName  ref="per012687a.01">Jaquete</persName> relicte
+                                                                     <lb/><persName ref="per012688a.01">Junodi de Clauso</persName>, de <term ref="lem017109.01">heretice</term>
+                                                                      <lb/>pravitatis suspecta.
+                                                       </seg></p></head>
+                        <pb n="197" facs="ACV_AC-29_197_198"/><p/>
+                        <pb n="198" facs="ACV_AC-29_197_198"/><add hand="hand20c" place="left margin" medium="pencil"><date when="1469">1469</date></add>
+                        <head type="subtitle" resp="GO">10 décembre 1469</head>
+                        <p><seg><lb/><persName ref="per000353a.22">Jhesus</persName> <persName ref="per000169a.02">Maria</persName></seg></p>
+                        <p><seg><lb/><origDate when="1469-12-10">Anno Domini millesimo quatercentesimo sexagesimo nono et
+                                        <lb/>die decima mensis decembris</origDate> presentibus honorabilibus viris
+                                        <lb/>dominis <persName ref="per012703a.01">Petro Prodon</persName> <term ref="lem017169.01">curato</term> <placeName ref="loc010256.02">Sancti Stephani</placeName> <placeName ref="loc007885.05">Lausannensis</placeName>, <persName ref="per012382a.01">Johanne Croserens</persName><note><persName ref="per012382a">Jean Croserens</persName> assiste aux séances des 19, 20 et 21 <date when="1458-04">avril 1458</date> du procès contre <persName ref="per011863a">Pierre dou Chanoz</persName> (<bibl><ref target="urn:ssrq:SDS-VD-D_1-7-1">SDS VD D 1 7-1</ref>&#160;: ACV, Ac 29, p.&#160;81, 84, 86</bibl>, voir aussi <bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Modestin 1999a</ref>, p.&#160;334</bibl>).</note>
+                                        <lb/>locumtenente domini ballivi <orgName ref="org009301.04">Lausannensis</orgName>, <persName ref="per012704a.02"><choice><abbr>G</abbr><expan>Girardo</expan></choice> Curnilliat</persName> <term ref="lem018171.01">psalterio</term> <orgName ref="org009657.02">Lausannensi</orgName>, <persName ref="per012705a.01">Gaudo
+                                        <lb/>Vicent</persName> <term ref="lem018124.01"><choice><sic>maior</sic><corr>maiore</corr></choice></term> <orgName ref="org009657.03"><choice><abbr>Laus</abbr><expan>Lausannensi</expan></choice></orgName>, presentibusque nobilibus viris <persName ref="per012405a.03"><choice><abbr>P</abbr><expan>Petro</expan></choice></persName><note><persName ref="per012405a">Pierre Mayor</persName> assiste au premier et au deuxième interrogatoire de <persName ref="per012368a">Guillaume Girod</persName> en <date when="1461-10">octobre 1461</date> et quelques jours plus tard, à deux ou trois interrogatoires de <persName ref="per011218a">Jeannette Anyo</persName> (<bibl><ref target="urn:ssrq:SDS-VD-D_1-10-1">SDS VD D 1 10-1</ref>&#160;: ACV, Ac 29, p.&#160;123, 130, 136, 146</bibl>, voir aussi <bibl><ref target="http://permalink.snl.ch/bib/chbsg000011207">Modestin 1999a</ref>, p.&#160;328</bibl>). À identifier probablement avec le donzel <persName ref="per012405a">Pierre Mayoris</persName> de <placeName ref="loc010712.01">Vufflens-la-Ville</placeName> qui prête serment en tant que sautier en <date when="1464">1464</date> (<bibl><ref>SDS VD B I</ref>, p.&#160;250–251, n.&#160;252</bibl>). </note> et <persName ref="per012689a.01">Amedeo
+                                        <lb/>Mayor</persName><note><persName ref="per012689a">Amédée Mayor</persName>, probablement parent (cousin ou neveu&#160;?) de <persName ref="per012405a">Pierre Mayor</persName>.</note> necnon <persName ref="per012706a.01">Stephano Clavelli</persName> et <persName ref="per012707a.02"><choice><abbr>H</abbr><expan>Henrico</expan></choice> Secrestant</persName>, personaliter
+                                        <lb/>constituta <persName ref="per012687a.01">Jaqueta</persName> relicta <persName ref="per012688a.02">Jenodi de Clauso</persName>, per reverendum
+                                        <lb/>patrem fratrem <persName ref="per012708a.01">Thomam Gogati</persName> <term ref="lem000013.01">vicarius</term> reverendi patris fratris <persName ref="per012535a.01">Victoris
+                                        <lb/>Maceneti</persName> sacre theologie <subst><del rend="strikethrough">professoris</del><add place="inline">professoris</add></subst>, <orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName>,
+                                        <lb/><term ref="lem017062.02">heretice pravitatis inquisitoris</term> in civitatibus et diocesibus
+                                        <lb/><placeName ref="loc005781.05">Lausannensi</placeName>, <placeName ref="loc008750.05">Gebennensi</placeName>, <placeName ref="loc008973.04">Sedunensi</placeName> ac alibi auctoritate apostolica specialiter
+                                        <lb/>deputati&#160;; 
+                            </seg>
+                            <seg>Interrogata primo si sciret casum propter quem esset
+                                        <lb/>detenta, que dixit quod quidam dominus sacerdos<note>Il s’agit probablement du curé de <placeName ref="loc010712.01">Vufflens-la-Ville</placeName>, <persName ref="per012724a">Jean Pordoliet</persName>.</note> posuit sibi manum
+                                        <lb/>supra pro fide<note>C’est-à-dire qu’il l’a dénoncée voire même peut-être arrêtée pour hérésie.</note>&#160;; quare fuit monita pro prima <term ref="lem017130.01">monicione</term> quatenus
+                                        <lb/>si sciret aliquid de dicto casu quod confiteretur, sibi presentando misericordiam
+                                        <lb/>Ecclesie&#160;; que dixit se nichil scire.
+                            </seg>
+                            <seg> Eo tunc fuit ibi adductus
+                                        <lb/><persName ref="per012709a.01">Anthonius de Clauso</persName> de heretica pravitate convictus, qui fuit
+                                        <lb/>interrogatus an cognosceret aliquid prefatam mulierem&#160;; qui <persName ref="per012709a.01">Anthonius</persName>
+                                        <lb/>dixit&#160;: <q>&#160;Ista est noverca mea quam vidi in <term ref="lem018331.01">secta</term> <term ref="lem017125.02">hereticorum</term>, videlicet
+                                        <lb/>apud <placeName ref="loc010712.02">Vufflens villam</placeName>, quare rogo ipsam quod ipsa confiteatur&#160;</q>.
+                                        <lb/>Que <persName ref="per012687a.01">Jaqueta</persName> renuit numquam fuisse cum dicto <persName ref="per012709a.01">Anthonio</persName> in dicta secta. 
+                            </seg>
+                              <seg><lb/>Paulo post fuit adductus <persName ref="per012710a.01">Mermetus de Clauso</persName> de dicto casu
+                                        <lb/>convictus, qui eciam fuit interrogatus utrum cognosceret prefatam mulierem.
+                                        <lb/>Qui dixit quod sic, dicendo&#160;: <q>&#160;Ista est noverca mea quam vidi in
+                                        <lb/>secta hereticorum&#160;</q>. Que <persName ref="per012687a.01">Jaqueta</persName> ut prius renuit fuisse. Quare fuit
+                                        <lb/>assignata ad diem crastinam pro secunda <term ref="lem017130.01">monicione</term>.
+                             </seg>
+                        </p>
+                        <head type="subtitle" resp="GO">11 décembre 1469</head>
+                        <p><seg><lb/><origDate when="1469-12-11">Die undecima mensis supradicti anno</origDate> quo supra per reverendum
+                                        <lb/>dominum vicarium supradictum in presencia domini <persName ref="per012714a.01">Benedicti Joly</persName> <term ref="lem009181.01">capellani</term>
+                                        <lb/>et <persName ref="per012715a.01">Girardi Fabri</persName> <term ref="lem009160.01">clerici</term> fuit interrogata prefata <persName ref="per012687a.01">Jaqueta</persName> an esset aliquid
+                                        <lb/>advisata, et fuit monita pro secunda monicione quatenus si sciret
+                                        <lb/>aliquid de dicto casu quod confiteretur, sibi presentando misericordiam
+                                        <lb/>Ecclesie&#160;; que <persName ref="per012687a.01">Jaqueta</persName> ut prius dixit se nichil scire.
+                        </seg>
+                            <seg>Quibus
+                                        <lb/>auditis fuit assignata <date when="1469-12-12">ad diem crastinam</date> pro tercia <term ref="lem017130.01">monicione</term>.</seg>
+                        </p>
+                        <pb n="199" facs="ACV_AC-29_199_200"/>
+                        <head type="subtitle" resp="GO">12 décembre 1469</head>
+                        <p><seg><lb/><origDate when="1469-12-12">Die xii mensis decembris anno</origDate> quo retro presentibus venerabilibus
+                                        <lb/>et circonspectis viris dominis <persName ref="per012716a.01">Suffredo de Arciis</persName><note>C’est <persName ref="per012716a">Geoffroy des Arches</persName> qui présida le plus souvent les réunions du chapitre dans la seconde moitié du XV<hi rend="sup">e</hi> siècle, le prévôt et le trésorier étant généralement absents (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001201449503977">Reymond 1912</ref>, p.&#160;258</bibl>).</note> <term ref="lem018170.01">cantore</term>
+                                        <lb/>canonico <orgName ref="org004871.02">Lausannensi</orgName>, <persName ref="per011622a.01">Johanne Andree</persName>, <persName ref="per012719a.01">Bonefacio Fabri</persName> <term ref="lem018121.01">officiali</term> <orgName ref="org001749.04">Lausannensi</orgName>,
+                                        <lb/><persName ref="per012720a.01">Johanne Assenty</persName> et <persName ref="per012721a.02"><choice><abbr>H.</abbr><expan>Henrico</expan></choice> de Escublens</persName> <term ref="lem006983.01">canonicis</term> <orgName ref="org004871.02">Lausannensibus</orgName> presentibusque
+                                        <lb/>honorabilibus viris dominis <persName ref="per012591a.01">Johanne Lucratoris</persName><note><persName ref="per012591a">Jean Lucrator</persName> assiste le <date when="1461-10-07">7 octobre 1461</date> à l’ouverture du procès contre <persName ref="per012368a">Guillaume Girod</persName> (<bibl><ref target="urn:ssrq:SDS-VD-D_1-9-1">SDS VD D 1 9-1</ref>&#160;: ACV, Ac 29, p.&#160;136</bibl>).</note> <term ref="lem017169.01">curato</term> de <placeName ref="loc010619.03">Crissier</placeName>,
+                                        <lb/>et <persName ref="per012723a.02"><choice><abbr>Ja</abbr><expan>Jacobo</expan></choice> Bugnyn</persName> <term ref="lem009181.01">capellano</term> <orgName ref="org004033.02">Lausannensi</orgName>, <persName ref="per019518a.01">Johanne Grant</persName> <term ref="lem009160.01">clerico</term>, et pluribus
+                                        <lb/>aliis personis fidedignis, per reverendum in <persName ref="per000353a.17">Christo</persName> patrem et
+                                        <lb/>dominum dominum <del rend="strikethrough">administratorem</del> <unclear>nostrum</unclear> episcopum et comitem administratorem<note><persName ref="per012730a">Barthélemy Chuet</persName>, administrateur de l’évêché de <orgName ref="org001749.01">Lausanne</orgName> <date from="1469-01-01" to="1472-12-31">de 1469–1472</date> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000150991">HS, I/4</ref>, p.&#160;143</bibl>). C’est lui qui interroge <persName ref="per012687a">Jaquette</persName> lors de la vacance épiscopale.</note>
+                                        <lb/>auctoritate apostolica tocius episcopatus <orgName ref="org001749.04">Lausannensis</orgName>, necnon per reverendum patrem
+                                        <lb/>fratrem <persName ref="per012708a.01">Thomam Gogati</persName> vicarius reverendi patris fratris <persName ref="per012535a.01">Victoris
+                                        <lb/>Maceneti</persName> <orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName>, sacre theologie professoris
+                                        <lb/>hereticeque pravitatis inquisitoris in civitatibus et diocesibus
+                                        <lb/><placeName ref="loc005781.05">Lausannensi</placeName>, <placeName ref="loc008750.05">Gebennensi</placeName>, <placeName ref="loc008973.04">Sedunensi</placeName> ac alibi auctoritate apostolica specialiter
+                                        <lb/>deputati&#160;;
+                            </seg>
+                            <seg>interrogata primo prefata <persName ref="per012687a.01">Jaqueta</persName> an
+                                        <lb/>esset aliquid advisata, et fuit monita pro tercia <term ref="lem017130.01">monicione</term>
+                                        <lb/>quatenus confiteretur casum suum, sibi ut prius presentando misericordiam
+                                        <lb/>Ecclesie. Que <persName ref="per012687a.01">Jaqueta</persName> ut prius dixit se nichil scire.</seg> 
+                            <seg>Quare
+                                        <lb/>fuit assignata <date when="1498-12-13">ad diem crastinam</date> pro quarta <term ref="lem017130.01">monicione</term>, <abbr>etc</abbr>.
+                             </seg>
+                       </p>
+                        <head type="subtitle" resp="GO">13 décembre 1469</head>
+                        <p><seg><lb/><origDate when="1469-12-13">Die xiii mensis decembris anno</origDate> quo retro presentibus venerabilibus viris
+                                        <lb/>dominis <persName ref="per012720a.02"><choice><abbr>Jo</abbr><expan>Johanne</expan></choice> Assenty</persName> canonico <orgName ref="org004871.02">Lausannensi</orgName>, <persName ref="per012724a.02"><choice><abbr>Jo</abbr><expan>Johanne</expan></choice> Pordollieti</persName>, <persName ref="per012723a.02"><choice><abbr>Ja</abbr><expan>Jacobo</expan></choice> Bugnyn</persName>
+                                        <lb/>et <persName ref="per012725a.02"><choice><abbr>Ja</abbr><expan>Jacobo</expan></choice> Baleyson</persName> capellanis <orgName ref="org004033.02">Lausannensibus</orgName>, necnon nobilibus viris
+                                        <lb/><persName ref="per012405a.01">Petro Mayor</persName> <term ref="lem017142.01">castellano</term> <orgName ref="org005462.02">Ochiaci</orgName>, <persName ref="per011770a.02"><abbr>G.</abbr> Depont</persName><note><persName ref="per011770a">Claude de Pont</persName> est un notaire lausannois aux services de l’inquisition (<date when="1449">1449</date> et <date when="1470">1470</date>) et de la ville de <placeName ref="loc007885.01">Lausanne</placeName> (à partir de <date when="1464">1464</date>).</note> et <persName ref="per012718a.01">Johanne
+                                        <lb/>Maceneti</persName><note>Il est peut-être parent de l’inquisiteur <persName ref="per012535a">Victor Massenet</persName>.</note> <term ref="lem009160.01">clerico</term>, per reverendum dominum vicarium supradictum
+                                        <lb/>interrogata prefata <persName ref="per012687a.01">Jaqueta</persName> et monita pro quarta
+                                        <lb/>monicione de gracia speciali, primo an esset aliquid
+                                        <lb/>advisata et si vellet aliqua confiteri. Que dixit
+                                        <lb/>quod de dicto casu nichil scit.
+                            </seg>
+                            <seg>Quare fuit assignata
+                                    <lb/><date when="1498-12-14">ad diem crastinam</date> ad <term ref="lem017305.05">audiendum interloqutoriam</term>.
+                            </seg>
+                        </p>
+                        <head type="subtitle" resp="GO">18 janvier 1470</head>
+                        <p><seg><lb/><origDate when="1470-01-18" type="holiday">Anno quo supra et die jovis post festum Sancti <persName ref="per000795a.06">Anthonii</persName></origDate>
+                                        <lb/>personaliter constituta prefata <persName ref="per012687a.01">Jaqueta</persName> per reverendum patrem
+                                        <lb/>fratrem <persName ref="per012708a.01">Thomam Gogati</persName> <term ref="lem018123.01">viceinquisitorem</term> supradictum interrogata
+                                        <lb/>primo an ipsa sit aliquid advisata et si cognoscat
+                                        <lb/>aliquid <persName ref="per012726a.01">Johannem de Clauso</persName><note>Peut-être parent d’<persName ref="per012709a">Antoine</persName> et de <persName ref="per012710a">Mermet de Clause</persName>, beaux-fils de <persName ref="per012687a">Jaquette de Clause</persName>.</note> et si ipsa sciat si ipse <persName ref="per012726a.01">Johannes</persName>
+                                        <lb/>fuerit umquam detentus in carcere <placeName ref="loc007885.05">Lausannensi</placeName>. Que dixit quod
+                                        <lb/>nescit nisi quod audivit dicere quod semel ipse fuit detentus.
+                            <pb n="200" facs="ACV_AC-29_199_200"/><lb/>Et aliud nescit.
+                            </seg>
+                            <seg>Quibus auditis petiit <term ref="lem017131.01">procurator fidei</term><note>Le procureur de la foi n’est pas nommé.</note> ipsam
+                                        <lb/>decerni et declarari <term ref="lem018098.01">torture</term> subiciendam fore donec
+                                        <lb/>et quousque veritas ab ore suo oriatur.
+                             </seg>
+                            <seg>Quo audito
+                                        <lb/>reverendus pater frater <persName ref="per012708a.01">Thomas Gogati</persName> viceinquisitor legit
+                                        <lb/>sentenciam in hunc modum qui sequitur&#160;: <figure type="drawing"/> † <q>&#160;<persName ref="per000353a.17">Christi</persName> nomine invocato
+                                        <lb/>a quo omne rectum procedit judicium&#160;</q>, <abbr>etc</abbr>.
+                            </seg>
+                            <seg>Qua lecta petiit
+                                        <lb/>procurator fidei exequcioni demandari.
+                            </seg>
+                            <seg>Quequidem sentencia
+                                        <lb/>incontinenti fuit executa. Posita et modicum a terra levata
+                                        <lb/>nichil tamen voluit confiteri sed rogavit quod relaxatur donec <date when="1470-01-19">ad
+                                        <lb/>diem crastinam</date><note>Les actes sont incomplets, car l’affaire a probablement été interrompue en cours de procédure.</note> et ipsa confiteretur.
+                            </seg>
+                            <seg>Que fuit relaxata et assignata
+                                        <lb/>ad diem crastinam ad se advisandum alias ad continuandum.
+                            </seg>
+                           <seg>Datum
+                                        <lb/>in presencia nobilis viri <persName ref="per012405a.01">Petri Mayor</persName> castellani <orgName ref="org005462.02">Ochiaci</orgName>, <persName ref="per012727a.01">Johannis
+                                        <lb/>Gubeti</persName> <term ref="lem017295.01">burgensis</term> <orgName ref="org004483.03">Lausannensis</orgName>, <persName ref="per012718a.01">Johannis Maceneti</persName>, <persName ref="per012715a.01">Girardi Fabri</persName> et <persName ref="per012729a.01">Johannis
+                                        <lb/>Bandeti</persName>, testibus ad premissa vocatis, die et anno quibus supra.
+                             </seg> 
+                            </p>                                              
+                        <pb n="201"/><p/>
+                        <pb n="202"/><p/>
+                        <pb n="203"/><p/>
+                        <pb n="204"/><p/>
+                        <pb n="205"/><p/>
+                        <pb n="206"/><p/>
+                        <pb n="207" facs="ACV_AC-29_207_208"/><p/>
+                        <p><add place="cover above" hand="other hand"><choice><abbr>Ex</abbr><expan>Extra</expan></choice> <placeName ref="loc007885.05"><choice><abbr>Laus</abbr><expan>Lausannam</expan></choice></placeName></add></p>
+                        <p><add place="cover middle" scribe="1">Nichil facit ad factum.</add></p>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Ce procès inachevé témoigne de tensions entre la ville de Lausanne d’une part, et l’inquisition et l’évêque d’autre part. L’inculpée est originaire de Vufflens-la-Ville, qui n’est pas une terre épiscopale&#160;; or l’évêque (en l’occurrence son administrateur Barthélemy Chuet) la fait incarcérer dans son château épiscopal d’Ouchy et tente ainsi <orig>&#160;d’étendre son bras vers un village dont la juridiction ne lui appartient pas&#160;</orig> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647403977">Utz Tremp 2007</ref>, p.&#160;247</bibl>).</p>
+                <p>Les actes du procès intenté contre Jaquette de Clause occupent les pages 196 à 207 du registre ACV, Ac 29&#160;; les pages 197 et 201 à 206 ont été laissées en blanc. Les actes sont incomplets, car l’affaire a probablement été interrompue en cours de procédure. Seuls nous sont parvenus les quatre premiers interrogatoires, ainsi qu’une cinquième séance au cours de laquelle est notamment prononcée la sentence interlocutoire condamnant l’accusée à subir la torture. Les actes sont rédigés d’une main anonyme. Au dos du cahier (p.&#160;207), on trouve les annotations <orig>&#160;Extra Lausannam&#160;</orig> (d’une autre main anonyme, plus cursive) et <orig>&#160;Nichil facit ad factum&#160;</orig>.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

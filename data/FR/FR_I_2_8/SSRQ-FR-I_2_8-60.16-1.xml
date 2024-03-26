@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-60.16-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 321</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 321</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Cordey, Louise Cordey-Jaquet – Verhör und Urteil</head>
+					<head xml:lang="fr">Jean Cordey, Louise Cordey-Jaquet – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1623-06-30" to="1623-07-01"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc007683.04">bößen thurn</placeName>
+							<seg><lb/><origDate when="1623-06-30">30 <foreign xml:lang="la">junii</foreign> 1623</origDate>, <foreign xml:lang="la">judex</foreign> <abbr>h<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009450">Peter de Gady</persName>.</note></seg>
+							<seg><lb/><choice><abbr>J</abbr><expan>Junker</expan></choice> <persName ref="per006751">Erhard</persName>,  <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009451a.01"><choice><abbr>C</abbr><expan>Christoph</expan></choice> von Ligriz</persName>, <persName ref="per009221a.01">Raze</persName></seg>
+							<seg><lb/><persName ref="per009460">Gottrouw</persName></seg>
+							<seg><lb/>Weibel</seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft den Prozess gegen <persName ref="per009500">Jean Monneron</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-62.8-1">SSRQ FR I/2/8 62.8-1</ref>.</note></p>
+						<p><lb/>In <placeName ref="loc007683.16">Zolletsthurn</placeName>
+							<seg><lb/><foreign xml:lang="la">Eadem die, praesentibus quibus supra</foreign></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg>
+							<seg><choice><abbr>Obgnt</abbr><expan>Obgenannter</expan></choice> <persName ref="per009489a.03">Johan Cordey</persName> war vor syner frauwen
+							<lb/><persName ref="per009490b.02">Lyßa</persName>, so der <term ref="lem014672.03">hexery</term> ouch angeklagt, gestelt.
+						<lb/>Der dan iro fürgehalten, wie sie mit ime
+							<lb/>2 mall in der <subst><del>seck</del> <add place="inline"><term ref="lem017042.03">sect</term></add></subst> gsyn sye, dessen
+							<lb/>sie domalen <term ref="lem015183">anred</term> worden.
+							<lb/><add place="left margin">Ermelter <persName ref="per009489a">Cordey</persName> ward <term ref="lem017266">enthouptet</term> und
+							<lb/>darnach <term ref="lem011474">verbrent</term>, <num value="1">i</num></add> <origDate when="1623-07-01"><foreign xml:lang="la">julii</foreign> 1623</origDate>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

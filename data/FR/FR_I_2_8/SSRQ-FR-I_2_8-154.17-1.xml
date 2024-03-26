@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-154.17-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 146v</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 146v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jenon de la Vigne – Supplik</head>
+					<head xml:lang="fr">Jenon de la Vigne – Supplique</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-13">13 <foreign xml:lang="la"><choice><abbr>jul</abbr><expan>julii</expan></choice></foreign> 1651</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent">Deß jungen</hi> <persName ref="per020322a">de la Vignes</persName> seligen verlaßne <term ref="lem000216.06">wittib</term><note>Gemeint ist wohl <persName ref="per020318a">Jenon de la Vigne</persName>.</note> hatt sich gantz bedaurlich er<lb break="no"/>klagt,
+							waß massen ihr tochter sich gantz <term ref="lem018557.02">maleficiert</term> befindt, undt
+							<lb/>die gefangne <persName ref="per020299a">Mathia Cosandey</persName> darumben starckh verdacht ist. Allwylen
+							<lb/>sie <term ref="lem006556.04">understanden</term>, sie zu <term ref="lem018862.02">curieren</term> mit gwüsse <term ref="lem011432.02">salb</term>, so man nit mit
+						<lb/>händen hatt anrürren dörffen. Pittet, wylen sie ihren zugesagt, diß
+							<lb/>armsellig <term ref="lem000130.11">khindt</term> zu <term ref="lem018862.02">curieren</term>, so niemand in der <term ref="lem014057.03">chur</term><note>Es ist nicht sicher, ob hier <term ref="lem014057">Kur</term> als Heilverfahren oder <term ref="lem018224">Kur</term> als Pfarrei gemeint ist.</note> nemmen will,
+							<lb/>ihren etwas zu schöpfen. Ab der <persName ref="per020299a">Mathia</persName> gelt soll man ihren
+							<lb/><measure type="currency" unit="k" quantity="20">20 </measure> geben unnd gelt <term ref="lem012956">fürstellen</term> bey ihren eyden. Es soll auch alles
+						<lb/>inventorisiert werden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

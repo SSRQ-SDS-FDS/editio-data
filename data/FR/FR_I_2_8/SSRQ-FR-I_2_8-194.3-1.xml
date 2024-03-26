@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-194.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 361–364</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 361–364</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Gindroz-Verdon – Verhör</head>
+					<head xml:lang="fr">Catherine Gindroz-Verdon – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1672-11-22"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="361"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20"><subst><del>K</del><add place="overwritten">T</add></subst>hurn</placeName></hi>, den <origDate when="1672-11-22">22 <foreign xml:lang="la">novembris</foreign> <hi rend="underline">1672</hi></origDate></p>
+						<p><seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026535a">Hans Peter Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per026537a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per026536a.02">Des Granges</persName>, <persName ref="per026538a.01">Thumbé</persName>, <persName ref="per026539a.01">Dageth</persName></seg>
+							<seg><lb/><persName ref="per026540a.01">Werro</persName>, <persName ref="per026541a.01">Keßler</persName></seg></p>
+						<p><lb/><persName ref="per026989a">Catherine Verdon</persName>, <term ref="lem014767.01">relicte</term> de <persName ref="per026996a.02">Jacques Gindro</persName> <add place="above" type="sign">de <placeName ref="loc007648.06">Dompiere</placeName></add>, interrogée si elle ne sçait
+						<lb/>le soubject pour quoy elle estoit à la prison, dict que c’est
+						<lb/>pour des offences que l’on dict avoir esté par elle comises, ne
+						<lb/>croyant portant avoir faict aulcune faulte, ny par volonté
+						<lb/>ny par les effects. Et que on luy vouloit du mal, soustenant<del>e</del>
+						<lb/>jamais avoir veu la <term ref="lem018980.02">poute beste</term>, come aussy de ne
+						<pb n="362"/><lb/>sçavoir combien elle la detenue est agée, se souvenant
+							<lb/>bien de <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le ballif <persName ref="per026997a.01">Lentzbourger</persName> lors qu’il estoit à
+							<lb/><placeName ref="loc007655.06">Montagnie</placeName><note>Gemeint ist vermutlich <persName ref="per026997">Hans Lenzburger</persName>, der von 1629 bis 1634 Vogt von Montagny war.</note>.</p>
+						<p><lb/>Aux articles de l’<term ref="lem018363">inquisition</term></p>
+						<p><lb/>Respond au premier n’avoir faict aulcun mal à l’enfant de <persName>Pierre
+						<lb/>Monney</persName>, que icelluy venant au monde avoit la gorge pleine
+						<lb/>de sa langue, à laquelle la detenue couppa le fil, et estoit
+						<lb/>si grose que l’on voyet bien que l’enfant deviendroit
+						<lb/>ignorent, soustenant n’avoir gasté personne volontaire<lb break="no"/>ment.</p>
+						<p><lb/>Au second <term ref="lem015549.13">confesse</term> avoir donné du pain d’espice à l’enfant
+						<lb/>de <persName>Claudy Monnier</persName>, mais sans luy faire aulcun mal ny des<lb break="no"/>ordre&#160;; ayant receu ledit pain à <placeName ref="loc007977.03">Belfoz</placeName> d’une certaine qui
+						<lb/>s’appelle <persName>Anteini</persName> et son pere <persName>Girimo</persName>, nyant de se com<lb break="no"/>battre chez elle touttes les bonnes festes.</p>
+						<p><lb/>Au troisiesme elle dict que <persName>Benoiste Motta</persName> estoit une femme
+						<lb/>presque tousjour malade, <term ref="lem015549.13">confesse</term> bien l’avoir gouvernée <date dur-iso="P7D">sept
+						<lb/>jours</date> durant, sans y faire aulcun mal, qu’elle <subst><del>estoit</del><add place="above">avoit</add></subst> une <subst><del>pe</del>
+						<lb/><add place="inline">courte</add></subst> veue, et jettoit le moschoir, et craschat en se
+						<lb/>fachant contre touts et non pas à la detenue seulement,
+						<lb/>car il y avoit plusieurs personnes, et que ausy au prestre
+						<lb/>qu’y vient une fois, ladite <persName>Benoiste</persName> luy dict qu’il s’en
+						<lb/>debvoit en aller, soustenant jamais avoir faict mal à ladite
+						<lb/>femme car elle estoit sa bonne voisine.</p>
+						<p><lb/>Au quatriesme la detenue repartit que jamais elle ast entendu par<lb break="no"/>lé de ces quattre <term ref="lem019233.02">menues bestes</term>, ny de ce que s’ensuit jusques
+						<lb/>à present, nyant entierement le reproche luy avoir esté
+						<lb/>faict present son fils, ny aultrement.</p>
+						<p><lb/>Au cinquiesme <term ref="lem015549.13">confesse</term> d’avoir porté du pain chaud chez <persName>Marie
+						<lb/>Pochon</persName>, lors qu’elle estoit epouse et que de ses filles cousoit
+						<lb/>pour les nopces, ayant mis le pain au coing de la table
+						<lb/>sans en donner à ladite <persName>Marie</persName>. Et quand aux <term ref="lem018981.02">tresses</term>, que c’est
+						<lb/><persName>Marie Mury</persName> la <term ref="lem019503.05">possedée</term> qui lé comandast, et fist bruler
+						<lb/>lé tressyaux, ne se souvenant d’avoir touché ladite <persName>Pochon</persName>
+						<lb/>et qu’elle <subst><del>se</del><add place="inline">aye</add></subst> esté malade.</p>
+						<p><lb/>Le sixiesme elle le nye absoluement, disant n’avoir parlé de
+						<lb/>la sorte, mais bien dict elle qu’il voudroit mieux que
+						<lb/>l’enfant mourut que la mere, et que l’on pouvoit
+						<pb n="363"/><lb/>facilement cognoistre que la mere avoit la mort aux yeux,
+						<lb/>s’estonnant que l’on aye parlé de cest affaire, d’aultant que
+						<lb/>aux <placeName ref="loc010302.02">Arbognies</placeName> present le feu fils du <term ref="lem016294">banneret</term> <persName>Rogliet</persName> et
+						<lb/>le <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> <persName>Pierre Monney</persName>, <subst><del>ou ce que</del><add place="inline">ils firent</add></subst>
+							un accord et on de<lb break="no"/>manda pardon à la detenue, après ce qu’elle avoit desja pour ce
+						<lb/>faict mangé de l’argent.</p> <!--l’expression manger son argent veut dire dépenser l’argent... faut-il taguer? PS: ja!-->
+						<p><lb/>Touchant <persName>Benoiste Motta</persName> mentionnée au septiesme article, la detenue
+						<lb/>en ast dict de mesme come au troisiesme article cy devant. Con<lb break="no"/>fesse l’avoir gouvernée quelque jours en luy fournissant le linge,
+						<lb/>des bonnes herbes qu’on luy donnoit, la coucher et decoucher,
+						<lb/>mais non pas d’avoir donné le potage, que c’estoit ou sa mere
+						<lb/>ou sa seur, qu’estoient tousjour presentes, qui faisoient le potage.</p>
+						<p><lb/>Et quand à l’<term ref="lem018982.02">aposthome</term> de <persName>Jean Motta</persName>, advoue l’avoir persée
+						<lb/>à sa priere, sans touttefois luy avoir donné ny causé aulcun
+						<lb/>mal, que ledit <persName>Motta</persName> s’estoit desja gasté avant les nopces en
+						<lb/>conduisant du vin, ne sçachant combien ledit <persName>Motta</persName> ast esté
+							<lb/>malade. <term ref="lem015549.13">Confesse</term> de demeurer au bas du village de <placeName ref="loc007648.06">Dompiere</placeName>
+							<lb/>et que l’on soubçonne personne qu’elle d’estre <term ref="lem019389.02">sorciere</term>.</p>
+						<p><lb/>De plus elle dict estre veritable que allant dans l’eglise pour re<lb break="no"/>cepvoir du pain benist, la <term ref="lem019503.05">possedée</term> luy avoir dict&#160;: <q>&#160;Va t’en
+							<lb/>pout <term ref="lem017521">diable</term><note>Voir ci-dessus l’expression «&#160;<term ref="lem018980">pute bête</term>&#160;».</note>&#160;!&#160;</q>&#160;; mais non pas <term ref="lem019389.02">sorciere</term>. Et qu’a son sçachant
+						<lb/>elle luy <add place="above" type="sign">est</add> pas donné les <term ref="lem018555.03">malefices</term>, nyant avoir dict que ladite
+						<lb/><term ref="lem018556.07">maleficiée</term> avoit du mal en elle, et qu’elle n’aye rien
+						<lb/>trouvé de bon.</p>
+						<p><lb/>Au septiesme article <term ref="lem015549.13">confesse</term> avoir dict à <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le curé et aultres
+						<lb/>qu’on luy faisoit tort, et que plust à Dieu que les femmes
+						<lb/>fusent si pleines d’<term ref="lem017091.06">ennemis</term> come l’arbre est des <term ref="lem018302.09">feullies</term>,
+						<lb/>mais non pas d’avoir dict qu’ils sortissent par les yeux,
+						<lb/>de quoy elle en ast demandé pardon à Dieu et s’en est
+						<lb/><term ref="lem019463.05">confessée</term>.</p>
+						<p><lb/>Au huictiesme nie avoir demandé le <term ref="lem015011.04">laict</term> d’une <term ref="lem019233.03">menue beste</term> noire,
+						<lb/>à celle à qui elle apertenoit, ains simplement demandé si l’on
+						<lb/>en pouroit avoir pour faire à degouster le vin à un homme,
+							<lb/>ne sçachant si la <term ref="lem019233.04">mesnue beste</term> en est <term ref="lem018017.10">mescheute</term>.</p>
+						<p><lb/>Le neufiesme elle le nie, sauf qu’elle a bien demandé du bled
+						<lb/>à des bons paisans sans leur donner aulcun mal.</p>
+						<p><lb/>Au dixiesme soustient n’avoir esté ny dedans ny par devant la
+							<lb/>maison, ou ce que la <term ref="lem019231.02">cavalle</term> estoit <term ref="lem018017.10">mescheute</term>, ny moings
+							<pb n="364"/><lb/>eu la <term ref="lem015324.03">bagette</term> comme l’article porte, ne sçachant que l’on
+						<lb/>aye faict cuyre des quattres quartiers de la beste <term ref="lem018017.10">mescheute</term>,
+						<lb/>mais bien que l’on en ast brulé les quattre fers, et que
+						<lb/><persName>Bernardine Poschon</persName> murust bientost après. Et quand au
+						<lb/><term ref="lem018921.02">cheval</term> noir, soustient ne l’avoir veu, come aussy de
+						<lb/>n’avoir donné aulcun mal à la <term ref="lem019503.05">possedée</term>, quoy que elle
+						<lb/><term ref="lem015549.13">confesse</term> luy avoir une fois versé du vin dans un
+						<lb/>goubelet, mais sans mestre aulcune chose dans ledit vin,
+						<lb/>ignorant le reste du contenu de cest article.</p>
+						<p><lb/>L’onziesme elle l’ast nié entierement, et si bien elle se tournoit
+						<lb/>en arriere que c’est sa costume. </p>
+						<p><lb/>Le douziesme de mesme.<note>Ce paragraphe est manifestement erroné, puisque le suivant est aussi qualifié
+							de «&#160;douzième article&#160;», mais révèle la réponse que la prévenue y a apportée.</note></p>
+						<p><lb/>Au douziesme <term ref="lem015549.13">confesse</term> estre souvant en colere et de jurer,
+						<lb/>mais qu’en jurant elle avoit tousjour ce bon Dieu
+							<lb/>au <term ref="lem014871.01">coeur</term>. Et environ les bonnes festes, elle exhorte
+						<lb/>ses enfants qu’ils soient tousjour de bonne paix.</p>
+						<p><lb/>Le tresiesme la detenue l’a nié, disant quand elle passa par la,
+						<lb/>la beste <term ref="lem018017.10">mescheute</term> estoit desja sortie&#160;; n’ast pas en<lb break="no"/>tendu qu’on luy ayt dict vielle <term ref="lem014908.07">vaudeisa</term>.</p>
+						<p><lb/>Au quatorziesme elle dict n’avoir aulcun petit <term ref="lem018314">chien</term> noir,
+						<lb/>mais bien <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le curé qu’en ast des petits noirs.</p>
+						<p><lb/>Finalement elle ast aussy nié les aultres articles suivants à
+						<lb/>la reserve de ce qu’elle ast declaré cy devant, deman<lb break="no"/>dant pardon à Dieu et à vos Excellences.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

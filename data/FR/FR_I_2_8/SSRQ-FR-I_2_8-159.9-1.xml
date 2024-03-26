@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-159.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 266–268</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 266–268</idno>
+					</msIdentifier>
+					<head xml:lang="de">Barbli Heiter-Martin – Verhör</head>
+					<head xml:lang="fr">Barbli Heiter-Martin – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-10-11"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="266"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-10-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8bris</abbr><expan>octobris</expan></choice></foreign> 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per018134a.01">von Affry</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><seg><lb/><persName ref="per020589a">Barbli Martin</persName> <subst><del>ha</del><add place="inline">durch</add></subst> <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts examiniert,
+							<lb/>eher sie an der <term ref="lem015170.12">zwehlen</term> geschlagen, will aber nichts
+							<lb/><term ref="lem011468.04">bekhennen</term>, biß sie gesehen, das sie angefeßlet wardt.</seg>
+							<pb n="267"/><seg><lb/>Da sie als dan ohne <term ref="lem013000.01">tortur</term> <term ref="lem011468.03">bekhendt</term>, das der <term ref="lem014673.04">böß feindt</term>
+							<lb/>zu <placeName ref="loc007937.11">Grysach</placeName> in ihr hauß <time period="byNight">nachtlicher wyll</time> <subst><del>z</del><add place="overwritten">b</add></subst>ey ihr <term ref="lem002402.02">beth</term> erschinnen
+								<lb/><add place="left margin">seye,</add> deme sie sich <term ref="lem018858">ergeben</term> habe. Da sie aber hernach an der <term ref="lem013000.01">tortur</term>
+							<lb/>angezeigt, wie der selbig ihr im waldt, <placeName ref="loc012480.02">Wittenberg</placeName> genandt,
+							<lb/>mit <subst><del rend="underline">grienem</del><add place="above">blauwem</add></subst> <term ref="lem000195.08">wamist</term> und <term ref="lem018359.03">griene</term> <term ref="lem000388.06">hossen</term> bekleit und rindts
+							<lb/>füß gantz häßlich erschünnen seye. Daselbst sie sich ihme
+								<lb/>uff sein begeren <term ref="lem018858.01">ergeben</term>, gott und d<subst><del>ie</del><add place="overwritten">er</add></subst> hochgelobten jungfrauwen
+								<lb/><persName ref="per000169a">Maria</persName> und allen heilligen abgesagt und <term ref="lem016063.05">verlaugnet</term>, dem
+								<lb/>selbigen mit einem unflättigen kuß <term ref="lem000374.01">gehuldiget</term>, der sie
+							<lb/>am lingen arm dariber <term ref="lem016598">gezeichnet</term>, welcher ihr
+							<lb/><add place="left margin">teüfflichen</add> <term ref="lem017889">staub</term> zu gestelt, <term ref="lem000310.14">viech</term> und menschen zu <term ref="lem014665">vergeben</term>. Ihr
+								<lb/>habe er domahlen versprochen, die <term ref="lem013000.01">tortur</term>, so sie <term ref="lem008937.03">etwan</term>
+							<lb/>solte außhalten, zu <term ref="lem018498.02">ringern</term> und zu <term ref="lem018760.01">übertragen</term>. Welcher
+								<lb/>sich <persName ref="per029453a">Benni</persName> genandt, als sie sich ihme vor <date dur-iso="P30Y">30 jahren</date> des
+								<lb/>erst mahls <term ref="lem018858.01">ergeben</term>.</seg> <seg>In der <term ref="lem007357.04">unholden</term> versamlung seye
+							<lb/>sie zum dritten mahl im <placeName ref="loc010844.05">Kertzer</placeName> <term ref="lem018761.01">morast</term> bey <placeName ref="loc005824.01">Murten</placeName>
+							<lb/>erschinnen, da sie woll bey <subst><del>30</del><add place="overwritten">200</add></subst> personnen sagt gesehen
+							<lb/>zuhaben, ohne das sie einiche erkhendt habe. Allein will
+							<lb/>sie daselbsten die <persName>Eva</persName>,  <persName>Audriset Bapst</persName> frauw von
+							<lb/><placeName ref="loc007923.01">Wallenbuch</placeName>, gesehen zu haben, welche <subst><del>sy</del><add place="overwritten">i</add></subst>hren <term ref="lem001076.54">kü<subst><del>r</del><add place="overwritten">e</add></subst>n</term>
+							<lb/>die <term ref="lem002272.03">mülch</term> entziehn thue.</seg> <seg>Fehrners <term ref="lem011468.03">bekhendt</term> sie, den <persName>Petter
+							<lb/>Audriset</persName> mit eingestreüwtes, in einem glaß wein teüfflisches
+							<lb/><term ref="lem011439.04">pulffer</term> todtlich <term ref="lem018557.02">maleficiert</term> zu haben, maßen er darvon
+							<lb/>todts verfahren. Mehr habe sie ihrem <term ref="lem000554.03">hundt</term> in die naßen
+							<lb/>geblaßen, dardurch seinen biß <term ref="lem004327.01">inficiert</term> <add place="above">worden</add>, <subst><del>der</del><add place="overwritten">do</add></subst> dan der
+							<lb/>selb der <persName>Trini Meüwli</persName> 4 stuk klein <term ref="lem005796.03">gutts</term> zu <placeName ref="loc007937.11">Gryssach</placeName>
+							<lb/>tödtlich gebißen, gestalten sie <term ref="lem005335">verdorben</term>.</seg> <seg>In der <term ref="lem017042.03">sect</term> habe der
+							<lb/><term ref="lem014673.04">böß feindt</term>, <subst><del>und der</del><add place="inline">Eva <add place="above">Audrisets</add></add></subst> <term ref="lem017929">meister</term>, <term ref="lem018656.02">uffgemacht</term> mit einer <add place="bottom" type="catchword"><term ref="lem012780.02">geigen</term></add>
+								<pb n="268"/><lb/><choice><sic><term ref="lem012780.03">geygen</term></sic><corr></corr></choice>. Da sie dan mit ihrem <term ref="lem017929">meister</term> <persName ref="per029453a">Benni</persName> gedantzt.
+							<lb/>Mitt dem <term ref="lem014673.13">bößen feindt</term> <term ref="lem011468.03">bekhendt</term> sie endtlich, zwenmahl
+							<lb/>die <term ref="lem000668">unzucht</term> verbracht zu haben. Umb welche unthaten
+							<lb/>sie gott und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice> umb <term ref="lem004684.08">verzüchung</term> bittet.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-174.19-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 465–466</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 465–466</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Morand-Favre – Verhör</head>
+					<head xml:lang="fr">Elisabeth Morand-Favre – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1677-08-13"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="465"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1677-08-13">13<hi rend="sup">ten</hi> augsten 1677</origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> <abbr>h</abbr> <term ref="lem018540.03">amman</term> <persName ref="per026624a.01">Landerset</persName></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026529a">Franz Prosper Python</persName>.</note>, <abbr>h</abbr> <persName ref="per026616a.01"><choice><abbr>F P</abbr><expan>Frantz Peter</expan></choice> Gottraw</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> hauptman <persName ref="per026629a.01">von Forel</persName>, <abbr>h</abbr> <persName ref="per026120a.06">Johan Ramy</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026532a.02">Werli</persName>, <abbr>h</abbr> <persName ref="per026625a.01">Haberkhorn</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne les procès menés contre <persName ref="per027117">Marguerite Verdon-Guinnard</persName> et
+							<persName ref="per022637">Laurent Ducret</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-201.7-1">SSRQ FR I/2/8 201.7-1</ref> et <ref target="urn:ssrq:SSRQ-FR-I_2_8-200.7-1">SSRQ FR I/2/8 200.7-1</ref>.</note></p>
+						<pb n="466"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, freitag den <origDate when="1677-08-13">13<hi rend="sup">ten</hi> augsten 1677</origDate>,
+						<lb/><foreign xml:lang="la">presentibus dominis retronominatis</foreign></p>
+						<p><lb/><persName ref="per017167a.06">Elsi Moran dicte la Magninna</persName>, de <placeName ref="loc007983.06">Noreyaz</placeName>, en
+						<lb/>suitte de la sentence souveraine du <origDate when="1677-08-11">11<hi rend="sup">me</hi> du present</origDate>
+						<lb/>a esté mise à la <term ref="lem015642">serviette</term>, et ayant esté
+						<lb/>recogneue assés forte pour la supporter sans
+						<lb/>danger de son ernie ou rupture, y a
+						<lb/>esté laissée <time dur-iso="PT75M">cincq quarts d’heure</time>. Pendant
+							<lb/>quel <term ref="lem019473.05">torment</term> tousjours examinée et bien
+						<lb/>questionnée sur l’<term ref="lem018363">inquisition</term> prise contre
+						<lb/>elle, icelle a constamment tout nié
+						<lb/>et soustenu que tous ceux qui l’ont accusée
+						<lb/>d’estre <term ref="lem014908.13">vaudaisa</term> luy ont faict tort, qu’elle
+						<lb/>n’a jamais faict mourir ny donné mal
+						<lb/>à gens ny bestes. Et que si bien une <term ref="lem019503.05">possedée</term>
+						<lb/>l’a dict, on ne doibt adjouster foy au <term ref="lem017521.01">diable</term>,
+						<lb/>avec lequel soustient n’avoir jamais rien eu
+						<lb/>à faire, demandant au reste pardon
+						<lb/>à Dieu et à Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.18-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 291–294</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 291–294</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Tunney-Schueller, Anni Obertoos-Raeber – Verhör</head>
+					<head xml:lang="fr">Elsi Tunney-Schueller, Anni Obertoos-Raeber – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-07-20"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="291"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-07-20">20<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006528a.03">Possardt</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013469a.03">Castilla</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016968a.04">Elßy Schuller</persName> ist nach vihlen ußschweiffungen by ihrer
+							<lb/>vorigen <term ref="lem016794.05">bekhandtnuß</term> bständig verbliben unndt noch hier<lb break="no"/>über <term ref="lem011468.03">bekhendt</term>, das der feindt<note>Gemeint ist der <term ref="lem014673">böse Feind</term>.</note>, <persName ref="per029444a">Kraüwly</persName> genant, in gestalt
+							<lb/>eines soldaten ihren zwey underschydenliche mahlen erschinnen.
+							<lb/>Das erste mahl umb verschinnen <origDate when="1645-09-29">St. <persName ref="per000390">Michels</persName> tag</origDate> by <placeName ref="loc010936.02">St.
+							<lb/>Bartholomes cappellen</placeName>, der ihren damahls gesagt, sy sol<subst><del>t</del><add place="overwritten">l</add></subst>e
+						<pb n="292"/><lb/>nit also sich bekhümmeren, er werde ihren mit gelt unndt
+							<lb/>anderen mittlen woll verhelffen, das ihren nichts abgähn
+							<lb/>wirdt. Wie sie aber ihme nit zvollem hab huldigen wollen,
+							<lb/>sonders sich mit den heilligen <term ref="lem016600.02">crütz </term> <term ref="lem018239">bezeichnet</term>, sye er ver<lb break="no"/>schwunden.</seg> <seg>Daß andre mah<subst><del>e</del><add place="overwritten">l</add></subst> aber, da sie sich am <date when="1645-06-18">mitt<lb break="no"/>wochen vor letst verschinnen heimlichen sontag</date> wegen ihres
+							<lb/><term ref="lem002465">handels</term> sampt ihrem töchterlyn <persName>Anni</persName><note>Il s’agit probablement de <persName ref="per016972">Annili Tunney</persName></note> (so ihrem <term ref="lem012182">fürgeben</term> nach
+								<lb/><measure quantity="10" type="age" unit="year">zehen jährig</measure> ist) abermahlen <subst><del>d</del><add place="overwritten">b</add></subst>y gemelter cappellen be<lb break="no"/>fandt, habe <add place="above">sy</add> sich angedütnem <persName ref="per029444a">Kraüwly</persName> sampt ihrer toch<lb break="no"/>ter gäntzlichen übergeben, zu vor aber gott <term ref="lem016063.05">verlaugnet</term>,
+							<lb/>der sy alsdan wie vorgemelt am <term ref="lem002080.02">ruckhen</term> gezeichnet unndt
+							<lb/>die tochter auch am <term ref="lem002080.02">ruckhen</term> gestreichlet unndt mit
+							<lb/>der handt getätschlet. Mit versprechung, er wolle sy beide
+							<lb/>nach <date when="--07-25"><persName ref="per000208a.01">St. Jacobs</persName> tag</date> ins <placeName ref="loc000281.16">Franckhrych</placeName> führen unndt ihnen
+							<lb/>vihl gutts geben. Sy haben aber von ihme nichts empfangen,
+							<lb/><add place="left margin">syend</add> auch niehmahlen in der <term ref="lem017042.04">seckht</term> gsyn noch jehmandt beschädiget.
+								<lb/>Der <persName ref="per029444a">Kraüwly</persName> sye ihr unndt der tochter <term ref="lem017929">meister</term>, umb
+							<lb/>welliche missenthat sy schon <term ref="lem001974.04">morndeß</term> <term ref="lem012968.04">rüw</term> unndt <del>bycht</del>
+							<lb/><add place="inline">leidt</add> gehabt, unndt selbige ordenlich <term ref="lem000645.03">gebychtet</term>.</seg> <seg><term ref="lem012597.04">Sydtert</term>
+							<lb/>habe sie ihn nieh gesehen als am frytag vor letst ver<lb break="no"/>schinnen <origDate when="1646-06-24"><persName>St. Johannis</persName> tag</origDate>, der ihren by dem <subst><del>h</del><add place="overwritten">z</add></subst>u nächst am
+							<lb/>huß gesetzten <term ref="lem002517">krießbaum</term> in gestalt eines schwartzen manß
+							<lb/>erschinnen. Ihr gemelts töchterlyn unndt die <term ref="lem016530.03">weltsch</term> <persName>Anni</persName><note>Gemeint ist möglicherweise <persName ref="per016996">Anna Obertoos-Raeber</persName>.</note>,
+							<lb/>so in den bergen herumben strycht, haben ihn auch gesehen.
+							<lb/>So baldt aber sie sich <term ref="lem018288">sammentlich</term> <term ref="lem018239">bezeichnet</term> unndt auß
+							<lb/>schröckhen hinweg geloffen, sye der selb schwartz man auch
+							<lb/>verschwunden. <subst><del>unden</del><add place="above">Den</add></subst> sy <term ref="lem012597.04">sydtert</term> nicht ferner gespürt noch ge<lb break="no"/>sehen. Sie habe auch kheine <term ref="lem011441.06">gespüllenen</term>.</seg> <seg>Welliches alles sy
+							<lb/>an der <term ref="lem015170.10">zwehellen</term>, daran sie ohngefahrlich <time dur-iso="PT3H">3 stundt</time> ge<lb break="no"/>hanget, beständig <term ref="lem015124">erhalten</term>. Bittet umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+						<p><seg><lb/><persName ref="per016996a.01">Anni Räber</persName> hatt anfangs nichts <term ref="lem011468.04">bekhennen</term>
+							<lb/>wöllen. Da man ihren aber fürgehalten, wie es mit dem
+							<lb/><persName>Ruoff Boffet</persName> von <placeName ref="loc007857.06">Didingen</placeName> ergangen unndt ob sy <del>ihne</del>
+							<lb/><add place="inline">unndt</add> durch wellche mittlen ihne gnäßen unndt <term ref="lem018862">curiert</term>
+							<pb n="293"/><lb/>habe? Hatt gesagt, er hab ihren vihl guths gethan, auch mehr<lb break="no"/>mahlen holtz geben zu bachen.</seg> <seg>Unndt als er vom <term ref="lem018258.02">mäschell</term>
+							<lb/>sehr behafftet war unndt sie gebetten unndt erfragt, ob sy
+							<lb/>kheine mittell wüßte, ihme die kranckheit zu benemmen
+							<lb/>unndt hinweg zu vertryben? Die ihme geandtworttet: <q>Ja</q>,
+							<lb/>sie habe von einer abgestorbnen <term ref="lem003505.08">häbammen</term>, <persName>Pernon</persName> genandt
+							<lb/>von <placeName ref="loc007857.06">Didingen</placeName>, ein gebeth <del>gelehrnet</del> (so zu <term ref="lem005807">hintrib</term> der
+							<lb/><term ref="lem018259">mutter</term> unndt des <term ref="lem018258">mäschels</term> guth syn soll) gelehrnet, wie
+							<lb/>hernach uff <term ref="lem018864">pattoisischer</term>, <term ref="lem016530.03">weltscher</term> spraach zu lesen:</seg>
+							<seg><lb/><hi rend="font change"><q>Nostra donna shinte <persName ref="per000169a.07">Maria</persName>, bien mattin schinde levaye,
+							<lb/>in la schinte mare Eglise schinde in dallaye, pour bien
+								<lb/>preiyé, pour Dey honora, et pour ses pehy <term ref="lem019463.03">confessa</term>.
+								<lb/>In una pierra de marbre ili se va assouppa&#160;: tant
+							<lb/>ly lei s’assouppe, qu’il ly ley se desoude la mare
+							<lb/>et lu magliet, et le point et le perté, dinschi
+							<lb/>shanti de bon tourna comme nostre Signeur est de bon
+								<lb/>nonna.</q><note>Paul Aebischer mentionne cette prière et en a jugé la fin «&#160;incompréhensible&#160;».
+								<bibl><ref>Aebischer 1932</ref>, p. 43–44</bibl>.</note> En aprés faire <add place="above">3 fois</add> la croix sur <add place="above">le</add> mal.</hi></seg> <seg>Welches
+									<lb/><term ref="lem003378.03">gebätt</term> sie über gemelten <persName>Boffet</persName>, die handt uff der
+							<lb/><term ref="lem013837.07">teckhe</term>, gesprochen unndt das <term ref="lem000698.09">krütz</term> 2 oder drymahl
+							<lb/>gemacht, darab er glych hernach gesundt worden. Sagt
+							<lb/>aber, sy habe ihme die kranckheit nit angethan, unndt es
+									<lb/><term ref="lem012597.04">sydtert</term> nieh gebrucht, dan es ihren vom <term ref="lem000646.05">bychtvatter</term> ver<lb break="no"/>botten worden.</seg> <seg>Da sy mit dem kleinen <term ref="lem018287">stein</term> <term ref="lem006574.08">gefolteret</term> wardt,
+								<lb/>hatt sy <term ref="lem001236.13">verjähen</term> unndt <term ref="lem011468.03">bekhendt</term>, das sy 2 mahl den <term ref="lem011429.13">bößen
+							<lb/>geist</term> in blauwer gestalt gesehen. Das erste <add place="above">mahl</add> sye er ihren
+							<lb/>undenhalb <placeName ref="loc007982.06">St. Wollffgang</placeName> <add place="left margin" type="sign">vor <date dur-iso="P1Y">einem jahr</date></add> erschinnen, der ihren gesagt, sy
+										<lb/>solle gott <term ref="lem016063.05">verlaugnen</term>. So sie auch unndt aber nit zvollem
+							<lb/>gethan. Unndt ihme gesagt, wan er nit ein lugner sye,
+										<lb/>so wölle sie sich ihme <term ref="lem018858.01">ergeben</term> haben. Der ihren geandtwortet:
+							<lb/><q>Nein</q>, sy solle nit sorgen, er werde ihren <term ref="lem008069.04">thrüwlich</term> halten.
+							<lb/>Die sich alßdan ihme nit zvollem ergeben, sonders das
+										<lb/><term ref="lem016600.02">crütz</term> gemacht, darab er verschwunden. Der selb sye <persName ref="per029442a">Krätzli</persName>
+							<lb/>genandt.</seg> <seg>Das ander mahl, da sy nacher <placeName ref="loc007857.06">Didingen</placeName> gueng,
+							<lb/>sye er ihren by den <placeName>dryen crützen</placeName><note>Die selbe Stelle ist im Fall <persName ref="per017120">Anni Gendre-Motta</persName> erwähnt. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-124.12-1">SSRQ FR I/2/8 124.12-1</ref> und <ref target="urn:ssrq:SSRQ-FR-I_2_8-124.14-1">SSRQ FR I/2/8 124.14-1</ref>.</note> im weg begegnet.
+								<lb/>Alda sy uß geheiß gemelts <persName ref="per029442a">Krätzlis</persName> zvollem gott <term ref="lem016063.05">ver<lb break="no"/>laugnet</term>
+							<pb n="294"/><lb/>unndt sich ihren <term ref="lem017929">meister</term> übergeben, dessen ihren sehr leydt
+							<lb/>sye. Der hatt ihren alßdan die handt, so kalt war, von
+							<lb/>unden uff am <term ref="lem002080.02">ruckhen</term> gestossen unndt griffen, weißt
+							<lb/>aber nit <add place="above" type="sign">ob er</add> sy <term ref="lem016598">gezeichnet</term>. Er habe ihren grüene <term ref="lem011432.02">salb</term> geben
+							<lb/>wöllen, so sy ihme nit hatt abnemmen, noch jehmandt
+							<lb/>weder <term ref="lem000310.12">veech</term> noch menschen beschädigen wöllen. Sagt auch,
+							<lb/>sy sye nieh in der <term ref="lem017042.04">seckht</term> gewesen. Bittet umb
+							<lb/>gnad.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

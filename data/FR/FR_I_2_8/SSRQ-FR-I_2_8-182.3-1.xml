@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-182.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 160–161</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 160–161</idno>
+					</msIdentifier>
+					<head xml:lang="de">François Jaquier – Verhör</head>
+					<head xml:lang="fr">François Jaquier – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1664-01-09"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="160"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.08">Jaquemars</placeName></hi>, den <origDate when="1664-01-09">9<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>jan</abbr><expan>januarii</expan></choice></foreign> 1664</origDate></p>
+						<p><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per018693a">Tobias Gottrau</persName>.</note>, <abbr>h</abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><persName ref="per026304a.02">Zurthannen</persName>, <persName ref="per018131a.01">Werli</persName>, <persName ref="per026329a.01">Schrötter</persName></seg></p>
+						<p><lb/><persName ref="per026801a.01">François Joucquier</persName> de <placeName ref="loc007619.03">Chapalla</placeName>, reduit aux prisons
+						<lb/>à cause qu’il s’est s<subst><del>o</del><add place="overwritten">a</add></subst>uvé des arrests de <placeName ref="loc007605">Surpierre</placeName>,
+						<lb/>auxquels les <term ref="lem015358.10">accoulpements</term> sur faits de <term ref="lem018521.01">sorcellerie</term>
+						<lb/>l’avoient fait reduire <add place="above" type="sign">et</add> estant examiné par <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>
+						<lb/>du droict, a librement <term ref="lem015549.07">confessé</term> de s’estre sauvé desdits
+						<lb/>arrests par le planché dessus de la prison, ou ce qu’il
+						<lb/>a peu faire de l’ouverture, et depuis là sortir par
+						<lb/>la porte qui estoit ouverte. Soustient que le froid,
+						<lb/>qui l<subst><del>at</del><add place="overwritten">u</add></subst>y at esté grandement sensible, est la seule
+						<pb n="161"/><lb/>cause de l’hardiesse qu’il a prise de chercher sa
+						<lb/>liberté, car s’il se <subst><del>sent</del><add place="inline">sçauroit</add></subst> coulpable de ce
+						<lb/>que l’on l’at accusé, il se fust bien sauvé hors
+						<lb/>de ce canton sans jamais penser à y retourner.
+						<lb/>Mais se voyant si estrangement malheureux, soustient
+							<lb/>avoir esté inspiré de se <term ref="lem019463.01">confesser</term> de tous ses <term ref="lem019539.03">pechés</term>,
+							<lb/>et ne se sentant coulpable, ains innocent des accu<lb break="no"/>sations susdites, avoir demandé advis à son <term ref="lem019467.01">confesseur</term>
+						<lb/>comme il se debvoit consoler et comporter.
+							<lb/>Et sur le conseil par sondit <term ref="lem019467.01">confesseur</term> ensuivy,
+						<lb/>estre venu en cette ville pour demander tres humb<lb break="no"/>lement pardon à vos Excellences de son hardiesse
+							<lb/>commise, et les supplier de l’avoir en <add place="above" type="sign"><term ref="lem019504.02">grace</term> et</add> paternelle
+						<lb/>recommandation, <subst><del>à</del><add place="inline">laquelle</add></subst> il implore avec toutte
+						<lb/>soubzmmission, pour le nom de Dieu.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

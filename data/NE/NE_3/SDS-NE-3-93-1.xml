@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-93-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.006, p. 466</idno>
+     </msIdentifier>
+     <head>Délai d’opposition à une lévation, vendition et mise en taxe</head>
+     <msContents>
+      <summary>Aucune opposition n’est possible une fois le délai de la huitaine écoulé.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1629-08-15" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005095"></term>
+     <term ref="key004367"></term>
+     <term ref="key003331"></term>
+     <term ref="key000058"></term>
+     <term ref="key005117"></term>
+     <term ref="key005189"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="465"/>
+     <div>
+      <head>
+       <lb/>Du <origDate when="1629-08-15" calendar="Julian">XV d'aoust 1629</origDate> en <orgName ref="org007660">Conseil general</orgName>
+       <lb/>presidant le <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>sieur</expan></choice> <choice><abbr>mre</abbr><expan>maitre</expan></choice> <choice><abbr>bourge</abbr><expan>bourgeois</expan></choice> <persName ref="per010434">de Montmollin</persName>
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="466" facs="AVN_B_101.01.01.006_0466"/> 
+     <div>
+      <head><lb/><choice><abbr>Dud</abbr><expan>Dudit</expan></choice> jour en <orgName ref="org003085">Conseil estroict</orgName>.</head>
+      <p>
+       <lb/><persName ref="per011645a.01">David Ustervald</persName> requiert <choice>
+        <abbr>declairaon</abbr>
+        <expan>declairation</expan>
+       </choice> de la <lb/>coustume, scavoir si apres avoir faict faire, <choice>
+         <abbr>levaon</abbr>
+        <expan><term ref="lem015545.02">levation</term></expan>
+        </choice>
+       <lb/>du gage, <term ref="lem015546">vendition</term>, et <term ref="lem014995">taxe</term>
+       des biens de quelcun <lb/>pour repitition de debt, ou aultre action, si apres <lb/><date dur-iso="P8D">huict jours</date> passés et expirés, <choice>
+        <abbr>ded</abbr>
+        <expan>dedite</expan>
+       </choice>
+       <term ref="lem014995">taxe</term>, la partie <lb/>peut par apres <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <date dur-iso="P8D">huictaine</date> expirée, estre <term ref="lem017626.02">ouys</term> et
+       <lb/>recus en <term ref="lem015005">clame</term>. </p>
+      <add place="left margin" hand="later hand" medium="pencil">Délibérations</add>
+      <add place="left margin">Coustume</add>
+      <p>
+       <lb/>Declaré la coustume estre telle, <choice>
+        <abbr>ass</abbr>
+        <expan>assavoir</expan>
+       </choice> qu’apres la <lb/><date dur-iso="P8D">huictaine</date> de <term ref="lem014995"
+        >taxe</term> expiré, personne ne peut estre <lb/><term ref="lem017626.04">ouy</term> en
+        <term ref="lem015005">clame</term> ny opposition. </p>
+      </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

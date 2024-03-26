@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-139.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 521–523</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 521–523</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Destra – Verhör</head>
+					<head xml:lang="fr">Catherine Destra – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1648-08-04"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="521"/><p><lb/>Den <origDate when="1648-08-04">4<hi rend="sup">ten</hi> augsten 1648</origDate>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> großweybel<note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per013479a.04">Johan Reynold</persName></seg>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013432a.01">Stutz</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013434a.04">de Granges</persName></seg></p>
+						<p><lb/><persName ref="per018091a.05">Catelina de Trey</persName> sustient <subst><del>estant</del><add place="inline">par avant</add></subst> que d’estre <term ref="lem019427.02">torturee</term>, que
+						<lb/>la <persName>Canteneta</persName> et la <persName>Tißota</persName> de <placeName ref="loc008127.03">Manedens</placeName> luy aviont commandé
+						<lb/>le jour de Pentecoste a <placeName ref="loc007902.05">Escuvilin</placeName>, sortant de la maison
+							<lb/>d<subst><del>o</del><add place="overwritten">e</add></subst> <persName>Gros Jean Chavalliat</persName>, vers la croix de la <term ref="lem017721.05">cherriere</term> du
+						<lb/>grand chemin, ou il aviont esté querir des michez avec
+						<lb/>lesquelles estoit un garson, le fils du <persName>Chapuis</persName> de <placeName ref="loc008127.03">Manedens</placeName>,
+						<lb/>alias <persName>Richer</persName>, de mestre le <term ref="lem014953.03">feux</term> chez <persName>Dougu</persName>, pour le
+						<lb/><sic>sugget</sic> de les avoier subsonné de luy avoier <subst><del rend="underline">dlobe</del><add place="inline"><term ref="lem015015.14">derosbé</term></add></subst>
+						<lb/>dé <term ref="lem018227.02">motetes</term>. Et que a <placeName ref="loc009824.02">Chenens</placeName> <term ref="lem015549.13">confesse</term> aussi d’avoier mis
+						<lb/>le <term ref="lem014953.01">feu</term>, dans le devant du logis, sur l’<term ref="lem018520.01">instinction</term> de
+						<lb/>la <persName ref="per018191a">Gisolande</persName> sa maistr<subst><del>e</del><add place="overwritten">a</add></subst>isse, ou elle i entra le lundi et sorti
+						<lb/>du service le jeusdi, et partant dit i avoier demouré
+						<lb/><date dur-iso="P8Y">8 jour</date>.</p>
+						<p><seg><lb/>Elle persevere aussi d’avoier mis le <term ref="lem014953.01">feu</term> a <placeName ref="loc009823.05">Lentini</placeName> a la resquete
+						<lb/><add place="left margin">et <term ref="lem018520.01">instinction</term></add> de <persName ref="per018203a.01">Margaret Alleman</persName> de <placeName ref="loc010145">Corserey</placeName>, la quelle portait une haine
+						<lb/>et rancune contre ceux de <placeName ref="loc009823.05">Lentini</placeName> au <sic>sugget</sic> de ce que
+						<lb/>estant allé aux bois, ceux de <placeName ref="loc009823.05">Lentini</placeName> luy ostirent sa
+						<lb/>hache ou <term ref="lem018210.02">jauzu</term>, la quelle ayant aussi volu induire
+						<lb/>certaine de <placeName ref="loc007891.04">Torni</placeName> <add place="above">que</add> ne le volut faire. Mais que elle feut
+						<lb/><add place="left margin">a le faire</add> induite sur la promesse qu’elle luy fit, de luy doner
+						<lb/>une <term ref="lem017507">vache</term>, 2 sac de blez, de l’avoine et des pois aprés
+							<lb/>ces moisons, la dite <persName>Margerite</persName> luy porta le <term ref="lem019529.01">feu</term> jusques
+						<lb/>aupres d’une haye de <placeName ref="loc009823.05">Lentini</placeName>.</seg> <seg>Et ayant ulterieurement
+						<lb/><add place="left margin">esté</add> examiné, ast <term ref="lem015549.07">confessé</term> que il ast environ <date dur-iso="P3Y">trois ans</date> que
+						<lb/>la <persName>Quanteneta</persName> et la <persName>Tissoteta</persName> l’ont induit a se rendre
+							<lb/><term ref="lem019389.02">sorciere</term>, l’ayant conduit a la <term ref="lem017043">secte</term>, ou la <persName>Q<subst><del>an</del><add place="above">uan</add></subst>teneta</persName>
+						<lb/>la presenta au <term ref="lem015433.06">malin</term> luy disant que c’estoit sa fillie
+					<pb n="522"/><lb/>et qu’elle la luy donoit. <subst><del>Surquoy</del><add place="above">Alors</add></subst> le <term ref="lem015433.06">malin</term> la print
+							<lb/>par le col<subst><del>l</del><add place="overwritten">e</add></subst> et la toucha sur le <term ref="lem018225">chevet</term> de
+							<lb/>sa teste et la <term ref="lem018895.07">marquat</term>. <add place="left margin" type="sign">Surquoy elle <lb/><term ref="lem019541.13">reniat</term> Dieu<del>x</del> et <lb/><subst><del>luy</del><add place="overwritten">dit</add></subst> <del rend="rubbing"><unclear>prom dit</unclear> <lb/>luy promit</del></add> qu’il ne luy laissat le
+						<lb/><add place="left margin">loisir et</add> temps de faire le signe de la croix, ainsi qu’elle
+						<lb/>avoit desirs de faire, mais l’enpecha.</seg> <seg>Surquoy
+						<lb/>luy promit de la faire riche, et ne luy
+						<lb/>laisser endurer de la faim&#160;; le lieux ou ils estiont
+						<lb/>c’estoit un lieux laide, ou il avoit divers criz et
+						<lb/>heurlement, il y mangiont diverses bones viandes, <add place="right margin"><subst><del>l</del><add place="overwritten">d</add></subst>es <del rend="underline">quels</del></add>
+							<lb/>quel<subst><del><unclear>e un</unclear></del><add place="overwritten">s</add></subst>, <add place="above">un</add> luy en dona aussi, mais il ne luy sembliont aulcu<lb break="no"/>nement bones. S’estant rendue au <term ref="lem018943.03">demons</term>, il la firent
+						<lb/><term ref="lem018101.02">desossitout</term> tourner le rotti, faire des <term ref="lem015139.04">beuniet</term> et
+							<lb/><term ref="lem015349.04">bressi</term>. Elle dit aussi que le <term ref="lem017521">diable</term> luy dit,
+							<lb/><subst><del rend="rubbing">s’estant</del><add place="above">se</add></subst> donant a luy, qu’il la <term ref="lem018228.02">corruneret</term> de sa part
+						<lb/>et qu’il luy donat une croix d’argent, la quelle
+						<lb/>elle dona a la <persName>Tissota</persName> <add place="left margin">a garder</add>.</seg> <seg>Elle assere aussi que la
+							<lb/><persName>Quanteneta</persName> et la <persName>Tissota</persName> l’ont conduit la premiere
+							<lb/>fois en la <term ref="lem017043">secte</term> ou elle se rendit au <term ref="lem017521">diable</term> nommé
+						<lb/><persName>Judas</persName> et que eux i aviont esté desja plusieurs foy
+						<lb/>aupar<del>r</del>avant, et qu’elle i fust conduite environ la
+							<lb/><time when="00:00:00">minuict</time> un jeudi, l’ayant adverti de ne se doner de crinte
+						<lb/>et espouvante, i arrivant. Item que il ast <date dur-iso="P5W">5 septmainez</date>
+							<lb/>que les susdites <persName>Quanteneta</persName> et <persName>Tissota</persName> (l’ayant conduit
+							<lb/>au bas des <placeName ref="loc011707.02">Uzes</placeName>, <subst><del rend="rubbing">lad</del><add place="inline">la</add></subst> ou elle demoura en atandant
+						<lb/>qu’il la viendront prendre de nuict pour la conduire
+						<lb/>a la <term ref="lem017043">secte</term>) la menerent avec eux au lieux de
+							<lb/>leur <term ref="lem019394.05">assamblee</term>, estant de retour avec eux en leur
+						<lb/>logis&#160;; son pere ne sçavoit ses desportement.</seg> <seg>Item
+						<lb/>que a la <term ref="lem017043">secte</term> elle recognu la feme de <persName>Petit Jean
+						<lb/>Metro</persName>, celle de <persName ref="per018188a">Gaudron</persName>, <persName>Anthau Madelina</persName><note>Il s’agit de <persName ref="per017908">Madeleine Gillet-Richod</persName>,
+							contre laquelle un procès a déjà été mené en <date when="1647-08">août</date> et <date when="1647-09">septembre 1647</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-132.0-1">SSRQ FR I/2/8 132.0-1</ref>. Madeleine est confrontée à Catherine le <date when="1648-08-06">6 août 1648</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-139.14-1">SSRQ FR I/2/8 139.14-1</ref>.</note>
+							<lb/>feme de <persName ref="per017909a.02">Jean Gilliet</persName>, et <persName ref="per018189a.02">Jenun Philipuna</persName><note>Jenon est confrontée à Catherine le <date when="1648-08-06">6 août 1648</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-139.14-1">SSRQ FR I/2/8 139.14-1</ref>.</note>,
+					<pb n="523"/><lb/>toutes 4 de <placeName ref="loc007935.13">Farvagni</placeName>, ou esta<subst><del>t</del><add place="overwritten">n</add></subst>t se trouve toutes
+							<lb/>sept, comprenant les 2 de <placeName ref="loc008127.04">Manedins</placeName>, le <term ref="lem018943.02">demon</term> leur
+						<lb/>dona a toutes dé vergetes pour aller batre le
+						<lb/>long des eaux, et lé aultres la mirent la premiere.
+						<lb/>Leur desing estoit de faire la <term ref="lem018102.06">gr<subst><del>e</del><add place="overwritten">ai</add></subst>lle</term> sur 7 parroissez.
+							<lb/>La <persName>Quanteneta</persName> travalia fort a ce faict, mais elle
+							<lb/>ne peut rien faire, le <term ref="lem018943.02">demon</term> luy dona aussi a
+							<lb/><add place="left margin">la <persName>Quanteneta</persName></add> un <term ref="lem018384.05">ungant</term>.</seg> <seg>Item que certaine de <placeName ref="loc007891.04">Torni</placeName>, nommee
+							<lb/><persName>Catri Gaudrey</persName>, <subst><del>Item</del><add place="above">et</add></subst> celle de <placeName ref="loc010145">Corserey</placeName>, l’<persName ref="per018203a">Allemanda</persName>,
+							<lb/>estiont aussi <term ref="lem019389.04">sorcieres</term>, ayans esté ensemble a la <term ref="lem017043">secte</term>
+							<lb/>ou elle faloit apporter le bois pour <term ref="lem019170.06">rostir</term>, faire
+						<lb/>quire du pain, pour faire les <term ref="lem015139.05">beuniets</term> et <term ref="lem015349.05">brechi</term>,
+						<lb/>et dit que la <persName>Centeneta</persName> apportoit lé viandes.</seg></p>
+					<p><lb/>Sur lesquels predits point, estant <term ref="lem019427.02">torturee</term> une fois
+						<lb/>avec le <term ref="lem018232">quintal</term>, ast soustenu le tout, ainsi qu’elle
+						<lb/>avoit raconté au long comme est susdit, estre vray,
+						<lb/>et qu’elle le soustiendrat constantement aux susdites
+						<lb/>d’estres <term ref="lem019389.04">sorcieres</term> a la confrontation. Demande a <subst><del>d</del><add place="overwritten">D</add></subst>ieu<del>x</del>
+						<lb/>et a <choice><abbr>meseig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

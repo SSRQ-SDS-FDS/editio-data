@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-115.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 99–102</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 99–102</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Cordey-Bovet, Susanne Michod-Ginivy – Verhör</head>
+					<head xml:lang="fr">Marguerite Cordey-Bovet, Susanne Michod-Ginivy – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-08-25"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="99"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1644-08-25">25 <foreign xml:lang="la">augusti</foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per012380"><choice><abbr>J</abbr><expan>Jost</expan></choice> Python</persName></seg>
+							<seg><lb/><persName ref="per013475a.01">Beat Jacob Python</persName>, <persName ref="per013474a.01">Alex</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016494b.01">Margueritte Bovey</persName>, femme de <persName ref="per016492a">Jean Cordey</persName> de <placeName ref="loc007934.04">Mignieres</placeName>,
+						<lb/>dict qu’elle croit d’estre prisonniere a cause d’une
+							<lb/>meschante femme <persName ref="per016901a.01">Catherine Pozun</persName>, supplicieee a
+							<lb/><placeName ref="loc007931.02">Cugie</placeName>, laquelle l’a faussement accusee et dict qu’elle
+							<lb/>estoit une de ses complices, encour qu’elle n’aye jamais
+							<lb/>esté en sa compagnie, qu’elle y a voullu mal.</seg> <seg>D’aultre
+							<lb/>part, qu’elle n’a tousché personne sus l’espaule,
+							<lb/>qu’il luy en soit arrivé du mal&#160;; n’avoir aussi
+							<lb/>jamais esté en la <term ref="lem017043">secte</term> diabolique, que la suppli<lb break="no"/>ciee l’a accusee a grand tort, qu’elle n’a rien heu
+							<lb/>a faire avec le <term ref="lem015433.10">maling</term>, qu’il ne luy est jamais apparu.</seg>
+							<seg><lb/>Interroguee pourquoy elle n’a recherché ceux que
+							<lb/>l’ont blasmee au subject de la <term ref="lem018521.01">sorcellerie</term>, <del>que</del>
+							<lb/><add place="inline">a dict que</add> personne l’a injuriee, que <persName>Claude Fontanna</persName>,
+							<lb/>le boulangier de <placeName ref="loc007934.04">Mignieres</placeName>, lequel la recherchoit
+							<lb/>a cause d’un <term ref="lem018209.02">cunieux</term> que se perdit au four, ne l’a
+								<lb/>pas appellee <term ref="lem019389.02">sorciere</term>, ny faict aulcun reproche, qu’elle
+							<lb/>ne luy a donné aulcun mal, ny dict qu’il se porteroit
+							<lb/>tantost mieux, que ledit <persName>Fontanna</persName> y veut mal.</seg> <seg>D’aultre
+							<lb/>part, n’avoir aussi point tousché de bestail en intention
+								<lb/>de le faire a mourir, qu’elle est femme de bien. <term ref="lem019498">Crie
+							<lb/>mercy</term>.</seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus, dont le procès mené contre <persName ref="per016019">Elsi Waeber-Raboud</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-111.10-1">SSRQ FR I/2/8 111.10-1</ref>.</note></p>
+						<pb n="101"/><p><lb/><placeName ref="loc008105">Keller</placeName></p>
+						<seg><lb/><persName ref="per012381a.02"><choice><abbr>D</abbr><expan>Doctor</expan></choice> Python</persName></seg>
+						<p><seg><lb/><persName ref="per016503a">Susanne Michod</persName> <subst><del>demeurante</del><add place="inline">originelle</add></subst> de <placeName ref="loc005824.03">Morat</placeName>
+							<lb/>et demeurante aupres d’une de ses filles, nommee
+							<lb/><persName>Barbille</persName>, qu’est mariee a <placeName ref="loc007934.09">Migniere</placeName>, dict qu’elle
+							<lb/>est femme d’honneur, comme les aultres gens de
+							<lb/>bien, que la meschante femme suppliciee a
+							<lb/><placeName ref="loc007931.02">Cugie</placeName><note>Il s’agit de <persName ref="per016901">Catherine Pochon</persName>.</note> l’a accusee a grand tort, ceste <term ref="lem015358.07">accoulpe</term>
+							<lb/>avoir esté faicte par malveuillance, a cause
+							<lb/>que ladite suppliciee y avoit demandé un’aulsmone,
+							<lb/>laquelle elle luy refusa, qu’elle ne l’a jamais
+							<lb/>cogneue, ny esté avec elle en aulcun lieu.</seg>
+							<seg><lb/>Qu’elle n’est pas de la race des <term ref="lem019389.04">sorcieres</term>&#160;; que
+								<lb/>ses parents ont esté des gens de bien&#160;; qu’on
+								<lb/>la prend pour un aultre&#160;; qu’elle n’a jamais
+								<lb/>esté prisonniere, hormis qu’on la mist une
+								<lb/>fois au chasteau de <placeName ref="loc010845.02">Morat</placeName> a cause d’un combat&#160;;
+								<lb/>qu’elle a esté mariee a <placeName ref="loc005824.03">Morat</placeName>, ou ce qu’on
+								<lb/>ne l’a jamais tenue pour <term ref="lem019389.02">sorciere</term>&#160;; qu’elle n’a
+								<lb/>donné aulcun pain ny paille a aulcune personne,
+								<lb/>qu’il ne se constera pas, que ce n’est pas elle&#160;;
+								<lb/>qu’elle n’a point d’aultre maistre que Dieu
+								<lb/>et n’a hanté aultres que des gens de bien&#160;; qu’elle
+								<lb/>n’a jamais esté en la <term ref="lem017043">secte</term> diabolique&#160;; que la sup<lb break="no"/>pliciee l’a bien dict, mais qu’elle y a faict tort et
+								<pb n="102"/><lb/>l’a pris pour un aultre&#160;; qu’elle n’a donné les
+								<lb/><term ref="lem017091.07">ennemys</term> a aulcune personne, ny qu’elle se
+								<lb/>soit changee en beste, que ce n’est pas elle&#160;;
+								<lb/>qu’on ne l’a jamais appellé <term ref="lem019389.02">sorciere</term> et
+								<lb/>qu’elle n’a tousché personne sus l’espaule, ny
+								<lb/>donné aulcun mal a <persName>Oberlet</persName>&#160;; qu’elle en sçait
+								<lb/>rien&#160;; et n’a rien eu affaire avec le <term ref="lem017521">diable</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

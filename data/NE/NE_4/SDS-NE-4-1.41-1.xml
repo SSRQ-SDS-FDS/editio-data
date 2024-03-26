@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.41-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 159–160</idno>
+     </msIdentifier>
+     <head>Échange et permutation</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key000237"/>
+     <term ref="key003521"></term>
+     <term ref="key000231"></term>
+     <term ref="key000817"></term>
+     <term ref="key000847"></term>
+     <term ref="key000275"></term>
+     <term ref="key004428"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>  
+     <pb n="159" facs="AEN_MJ_17_158_159"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chap.</abbr><expan>Chapitre</expan></choice> XLI.
+       <lb/>De l’eschange
+       <lb/>&amp; permutation.</head>
+      <p>
+       <lb/>Eschange est un accord faict <lb/>entre <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 58">des</rdg>
+       </app> personnes, par lequel une chose <lb/>particuliere et certaine est <app>
+        <lem>commencée</lem>
+        <rdg wit="AVN Q41, p. 58">commuée</rdg>
+       </app>
+       <lb/>et eschangée avec <app>
+        <lem>un</lem>
+        <rdg wit="AVN Q41, p. 58">une</rdg>
+       </app> autre de pareille <lb/>nature, en <term ref="lem015635.13">baillant</term> &amp;
+       prenant de part <lb/>&amp; d’autre.  <lb/><add place="below" type="catchword"
+        >L’eschange</add>
+      </p>
+     <pb n="160" facs="AEN_MJ_17_160_161"/>
+      <p>
+       <lb/>L’eschange prend aussy sa perfection <lb/>par l’escripture &amp; <term ref="lem017005"
+        >stipulation</term> du <choice>
+        <abbr>note</abbr>
+        <expan>notaire</expan>
+       </choice>
+       <lb/>comme la <term ref="lem015546">vendition</term>, &amp; s’y observent <lb/>les mesmes formalitez.</p>
+      <p>
+       <lb/>Pour la suitte et tourne d’un eschange <lb/>en argent, en est aussy payé le
+       <term ref="lem014983.02">lod</term>, <lb/>comme d’une <term ref="lem015546">vendition</term>.</p>
+      <p>
+       <lb/>Et sy quelque possession, mayson <lb/>ou heritage est eschangé et permuté, <lb/>contre
+       autres gisants et situez <lb/>hors ceste souveraineté, est reputé <lb/><term ref="lem015546"
+        >vendition</term> pure, et la piece gisante <lb/><term ref="lem017830.02">riere</term> ce
+       pays, est esvaluée par <lb/>gens de justice, le <term ref="lem014983.02">lod</term> de la
+       <lb/>valleur est payé<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 58"> à la seigneurie</rdg>
+       </app>, a peyne de <lb/>commise, &amp; le notaire reprins <lb/>de son serment.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

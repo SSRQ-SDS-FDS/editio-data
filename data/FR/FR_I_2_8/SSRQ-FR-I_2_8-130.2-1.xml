@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-130.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 437–438</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 437–438</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Mury-Favre – Verhör</head>
+					<head xml:lang="fr">Clauda Mury-Favre – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-06-17"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="437"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1647-06-17">17<hi rend="sup">ten</hi> <foreign xml:lang="la">junii</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Torny</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per009259a.02">von Ligretz</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006528a.03">Possardt</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013439a.01">von Montenach</persName></seg></p>
+						<p><seg><lb/><persName ref="per017746b">Clauda</persName>, femme de <persName ref="per017747a">Pierre Mury</persName> de <placeName ref="loc008141.04">Vuisternens devant
+							<lb/>Pont</placeName>, fille d’<persName ref="per017748a.01">Hansiman Fauvre</persName> de <placeName ref="loc008660.03">Villarsel le Gyblaux</placeName>,
+							<lb/>dit n’avoir jamais ehu enfants, estre bien estonnee de son
+							<lb/>emprisonnement, qui sans doubte provient de quelques envieux,
+							<lb/>qui peut estre l’auront accusee, mais a tort, disant estre
+							<lb/>une pauvre femme <term ref="lem019502.06">possedee</term> des <term ref="lem015433.13">malings</term>, qui se sont seulement
+							<lb/>descouvert avant <date dur-iso="P1Y">un an</date>.</seg> <seg>Enquise pourquoy elle se seroit
+								<lb/>laisser dire <term ref="lem019389.02">sorciere</term> par <persName>Pierre Marchon</persName> et d’autres, et
+							<lb/>commis actes de <term ref="lem018524.02">sortilege</term>, dit que si bien <persName>Pierre Marchon</persName>,
+							<lb/>pour ne l’avoir voullu laisser passer par son prez avec le
+							<lb/>char, ou ce qu’il n’a aucun droit de passage, s’en seroit
+							<lb/>faché, et aprés mutuelles paroles ehues par ensemble, luy
+								<lb/>auroit dit <term ref="lem019389.02">sorciere</term>&#160;; icelle luy avoir repartyt qu’il par<lb break="no"/>loit comme un faux et mechant homme, et que luy mesme
+								<lb/>estoit <term ref="lem019308.01">sorcier</term>, jusques a tant il verifiat qu’elle estoit
+							<lb/>telle&#160;; pour quelles parroles <choice><abbr>mon<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> leur baylli, <add place="above">en</add> estant advysé,
+							<lb/>les entreaccorda.</seg> <seg>Quant a la querelle ehue avec <persName ref="per017754a.01">Collard Cugniet</persName>,
+								<lb/>qui la nommoit aussy <term ref="lem019389.02">sorciere</term>, dit luy avoir reparty comme
+							<lb/>a <persName>Marchon</persName>, qui l’avoit injuriee a tort. Et des ceste <del>ceste</del>
+							<lb/>querelle, s’estre tousjours trouvee mal, ne veut pourtant
+							<lb/>dire que ledit <persName ref="per017754a">Cugniet</persName> luy ayt causé le mal&#160;; que <persName>Claude
+							<lb/>Cler</persName> le charpantier, qui, travaillant chez eux, deut estre cheu<del>té</del>
+							<lb/>en <term ref="lem019485.02">pamoison</term>, dit estre vray qu’il eust quelque exces estant
+							<lb/>assis a table, mais icelluy avoir desja esté malade cy devant,
+							<lb/>soustenant ne luy avoir causé ny maladie, ny guarison.</seg>
+							<seg><lb/>Concernant cet article, qu’elle se deut avoir voullu pendre
+							<lb/>et precipiter, dit estre passé de la sorte, sans celer la verité.
+							<lb/>Lors que son marry la malmenoit et bastoit a grand coup,
+							<lb/>affin il cessa, elle, menaçant de se precipiter, dit qu’elle se
+							<lb/>voulloit aller pendre, ce qu’elle ne parla de <subst><del>l</del><add place="overwritten">c</add></subst>oeur, ains seu<lb break="no"/>lement pour appaiser l’injuste courroux de sondit marry, sans
+							<lb/>jamais avoir semblable intention.</seg> <seg>Nye que le <term ref="lem015025.04">meusnier</term> de <placeName ref="loc008141.05">Vui<lb break="no"/>sternens</placeName> luy ayt defendu l’entree au moullin, ny qu’elle ayt dit
+							<lb/>lors qu’on bastissoit des maisons en leur village, qu’il en auroit
+						<pb n="438"/><lb/>bien tost des bruslees.</seg> <seg>Demandee si elle ne sçavoit quelques
+							<lb/>prieres pour guarir le bestail, dit en sçavoir une qu’elle en<lb break="no"/>tendit souvent dire a d’autres, comme s’ensuit&#160;:
+							<lb/><q>&#160;<term ref="lem018660.01">Vachette</term> rougette, Dieu te deliuvre des crys des morts
+							<lb/>et des vifs, au nom du Pere, du Fils et du Sainct Esprit,
+							<lb/>et que le jour de <term ref="lem016455.02">Chalande</term> en depende.&#160;</q><note>Paul Aebischer mentionne cette prière. <bibl><ref>Aebischer 1932</ref>, p. 44</bibl>.</note>&#160;;
+							<lb/>de quelle priere elle se servit une fois seulement et la prononça
+							<lb/>sur une sienne <term ref="lem017507.01">vache</term> rouge, qui estoit malade, sans touttefois
+							<lb/>songer a aucun mal.</seg> <seg>Soustenant en fin n’avoir onques commis
+							<lb/>acte de <term ref="lem018524.02">sortilege</term>, ny veu le <term ref="lem015433.10">maling</term>, ny semblables chose, Dieu
+							<lb/>l’en preserve, moings sçavoir que <term ref="lem014886">pousset</term> et semblables <term ref="lem018555.03">ma<lb break="no"/>lefices</term> vont a dire. Et encor qu’on la deschireroit piece
+							<lb/>aprés piece, et <term ref="lem019474.09">tormenteroit</term> <date dur-iso="P2000Y">2000 anns</date> si <subst><del>s</del><add place="overwritten">c</add></subst>ela pouvoit estre,
+							<lb/>si pourtant elle ne se vouldroit, aydant Dieu, faire tort,
+							<lb/>ny <term ref="lem015549.01">confesser</term> ce qu’elle <choice><sic>n’jamais</sic><corr>n’a jamais</corr></choice> commis, ny songé, disant estre
+							<lb/>femme d’honneur. <term ref="lem019498">Crie mercy</term> et demande Dieu en ayde,
+							<lb/>le priant la voulloir assister en son innocence.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

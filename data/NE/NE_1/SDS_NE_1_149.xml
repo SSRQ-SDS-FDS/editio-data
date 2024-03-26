@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-149-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN 12, p.&#160;206</idno>
+               </msIdentifier>
+               <head>Loi des Trois-États sur les dommages causés aux bois et leur réparation</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Registre des Trois-États</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.7"/>
+                              <width unit="cm" quantity="46"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1722-05-09"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_350"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;149</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000249"></term>
+               <term ref="key000065"></term>
+               <term ref="key004302"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="206" facs="AEN_EN_12_206_207"/>                   
+               <div>
+                  <p><gap reason="missing"/></p>
+                  <p><lb/>À l’avenir on observera dans tous les bois du <lb/>pais, soit blancs soit
+                     de chêne ou autres bois <lb/>noirs, une pratique égale &amp; uniforme en
+                     tout, <lb/>ensorte que le bois blanc aura la même suitte <lb/>que les autres et
+                     pourra être reconnu &amp; échan<lb break="no"/>tillonné où il sera trouvé. Et
+                     que les <choice>
+                        <abbr>comm<hi rend="sup">tés</hi></abbr>
+                        <expan>communautés</expan>
+                     </choice> <lb/>ou particuliers qui se trouveront intéressés <lb/>dans un <term
+                        ref="lem015633.02">mesus</term> ou dégât arrivé dans un bois <lb/>de quelle
+                     nature que ledit bois soit, pourront <lb/>en faire faire visite &amp; estimation
+                     et s’en procurer <lb/>la réparation &amp; le dédomagement par les
+                     voyes <lb/>convenables&#160;; mais ladite visite &amp; estimation
+                     devra <lb/>estre faite par des gens de justice, par l’ordonnance <lb/>&amp; sous
+                     l’authorité de l’officier de la juridiction <lb/>dans laquelle les bois ainsy
+                     endommagés seront <lb/>situés.</p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>AEN, Registre des Trois-États, VIII, p.&#160;206.
+            </p>
+               <p>Éd.&#160;<hi rend="italic">Recueil des pièces officielles</hi>, I, p.&#160;53.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

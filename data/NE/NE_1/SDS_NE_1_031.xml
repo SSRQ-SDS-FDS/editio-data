@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-31-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Sagne</repository>
+                  <idno xml:lang="fr">Archives de la Sagne, Parchemin No 3</idno>
+               </msIdentifier>
+               <head>Fixation par Jean d'Aarberg des droits de justice pour les habitants de la Sagne. Ils
+                  sont aux us et coutumes des bourgeois de Valangin</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="37.5"/>
+                              <width unit="cm" quantity="17"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/><!-- Masse fehlen -->
+                           </dimensions>
+                        </extent>
+                        <condition>l'encre s'est affaiblie</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="absent" ns0:attachment="sealed on a parchment tag"></seal>
+                     <seal n="2" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="absent" ns0:attachment="sealed on a parchment tag"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1430-02-14">1430 (n. St.), 14 février</origDate>
+                     <origPlace ></origPlace><!-- sans lieu -->
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_85">SDS NE 1, N<hi rend="sup">o</hi>&#160;31</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000468"></term>
+               <term ref="key000086"></term>
+               <term ref="key005128"></term>
+                                      </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="SAGNE_Parchemin_3_1r"/> 
+               <div>
+                  <p><seg><lb/>Nous, <persName ref="per036807a.02">Jeham, conte d’Arberg</persName>,
+                     seignour de Vaulengin, faisons savoir a tout ceulx quil verront et orront ces
+                     presentes lettres que come noz juriés de nostre <lb/>justice de la Saignie dou
+                     temps passés tant ou temps de monseignour mon pere, cui Dieux pardoing, come
+                     dou nostre ehussent acostumez de percepvoir et recovrez ung chascung <lb/>de
+                     lour sur toutes personnes que les desdisissent judiciairement par vy de rapport
+                     come aultrement seixante solz et nous soixante pour tout les juriés, laquel
+                     chouse estoit<lb/>et pourroit oncour estre prejudiciable a toutes personnes
+                     desdisant, pour laquel chouse noz dit jurez de nostre dite justice, tant ou non
+                     de lours come de tout aultres <lb/>tant estrainges comme privez, nous ont
+                     humblement suppliés et requeruz que lesdit desdis en tant come il toiche a ung
+                     chascung de lour il nous plaisit de les admendel <lb/>et auxi qu’il nous
+                     plaisit en tant come il toiche a nostre dite justice que il fuissens eix us et
+                     coustumes de nostre justice dou bourg de Vaulengin, pourvehuz que <lb/>noz
+                     drois aconstumés de percepvoir en nostre dite justice, tant les tenues come
+                     aultres, nous demorissiens saul. A laquel supplications et requeste, nous
+                        <persName>Jehan</persName>, conte dessus <lb/>només, dou loud, auctoritey,
+                     voluntey, conseil et consentement de nostre tres chier seignour et oncle,
+                     Jehan, conte de Fribourg et de Nuefchastel, come seignour dou fiés de nostre
+                     dite <lb/>justice, havons oultroyés et oultroyons, havons concedez et concedons
+                     pour nous, noz hoirs, cohers et sucessours par ces <choice>
+                        <sic>presentes presentes</sic>
+                        <corr>presentes</corr>
+                     </choice> a noz dit jurés de la <lb/>Saigne quil sont de present ou que pour le
+                     temps advenir il saront, pour lours et lours hoirs, tant ou non de lours come
+                     de tout aultres pleydoiant en nostre dite <lb/>justice au temps advenir, que il
+                     soient et doigent desmorez a perpetuetei eix us et constumes de nostre justice
+                     dou bourg de Vaulengin, tant de rapport come de <lb/>desdites, en retenant a
+                     nous, pour nous et les nostres, tout ban et aultres drois aconstumez de
+                     percepvoir le temps passés en nostre dite justice de la Saigne come dessus,
+                     <lb/>c’est assavoir a tout desdiz seixante solz et tout rappert seixante
+                     solz&#160;; et chascung juriés doit percepvoir et ha voir sus tout desdisant ou
+                     maul appelant <lb/> se alo<supplied>ha</supplied> plait, quatre solz et non
+                     plus.</seg> <seg>Item concedons et oultroyons pour nous et les nostres que dessus a
+                     tout noz jurés de la Saignie et ung chascung de lours, <lb/>tant a ceulx quil
+                     sont de present ou que pour le temps advenir il sarons, et ce de grace
+                     especiaul et a lours requeste, que de toutes cognoissances par lour
+                     <lb/>faictes, en quelque maniere que ce soit, que nous ne les nostre ne nulx de
+                     noz officiers ne les en puisse reprandre ne a lours rien demander ce tant
+                     n’estoit <lb/>que de lours mesme il se mesuigissient <gap reason="missing"/>. Que furent
+                     <lb/>faictes et donees <date when="1429-02-14" calendar="annunciation">le quatorzième jour dou mois de
+                        fevriel, en l’an de grace corant mil quatre cent et vint et neuf</date>.</seg>
+                  </p>
+               </div>
+               <pb n="v" facs="SAGNE_Parchemin_3_1v"/> 
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin (deux sceaux manquent), <hi rend="italic">Archives de la
+                        Sagne</hi>, parchemin, N<hi rend="sup">o</hi>&#160;3. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

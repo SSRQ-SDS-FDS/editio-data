@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-151-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN 13, fol. 127v-129r</idno>
+               </msIdentifier>
+               <head>Loi des Trois-États sur le retrait lignager, les successions, l'âge de la
+                  majorité pour contracter mariage et l'aptitude à siéger dans les tribunaux</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36"/>
+                              <width unit="cm" quantity="52.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1748-05-08"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_353"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;151</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000815"></term>
+               <term ref="key000178"></term>
+               <term ref="key005151"></term>
+               <term ref="key005032"></term>
+               <term ref="key000376"></term>
+               <term ref="key003331"></term>
+               <term ref="key005111"></term>
+               <term ref="key003288"></term>
+               <term ref="key000863"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <!-- PS: mir fehlen die Faksimile dieses Stücks -->
+               <pb n="127v" facs="AEN_EN_13_127v_128r"/>
+               <div>
+                  <p>
+                     <lb/>Article&#160;1<hi rend="sup">o</hi>.</p> <p><lb/>Il est ordonné qu’à l’avenir le retrait ligna<lb
+                        break="no"/>ger sera restraint aux enfans des cousins ger<lb break="no"
+                     />mains inclusivement, lesquels sont issus d’un <lb/>bisayeul ou bisayeule
+                     communs à qui les dits<lb/>biens appartenoyent. Bien entendu que les <lb/>pièces
+                     eschangées tiendront lieu des contr’es<lb break="no"/>changées pour les biens
+                     procédans de père, de <lb/>mère, grand père, grand mère, bisayeul
+                     ou <lb/>bisayeule, sans rien déroger, néantmoins à <lb/>l’article vingt trois des
+                     nouvelles loix de <lb/>l’année <date from="1700-01-01" to="1700-12-31">1700</date>.</p>
+                  <pb n="128r" facs="AEN_EN_13_127v_128r"/>
+                  <p><lb/>2<hi rend="sup">o</hi>.</p> <p><lb/>Quant à la distinction des biens paternels<lb/>&amp; maternels,
+                     dans les successions en ligne colla<lb break="no"/>teralle, ou les biens
+                     paternels doivent appartenir <lb/>aux parents paternels, soit que les dits bien
+                        con<lb break="no"/>sistent en fonds, ou en obligations, on la
+                     restraint<lb/>et elle n’aura plus lieu à l’avenir que jusques aux <lb/>enfans
+                     des cousins germains, soit parents au <lb/>troisième degré des deux côtés, après
+                     lesquels les <lb/>biens seront confondus et il n’y aura plus de distinc<lb
+                        break="no"/>tion des dits biens paternels &amp; maternels &amp; <lb/>toujours
+                     comme au précédent article les pièces <lb/>eschangées tiendront lieu de
+                     contr’eschangées <lb/>dans les cas où la distinction devra avoir lieu.</p>
+                  <p><lb/>3<hi rend="sup">o</hi>.</p> <p><lb/>Étant arrivé plusieurs procès &amp; desordres
+                     dans<lb/>les familles par la foiblesse des enfans de l’un &amp; de <lb/>l’autre
+                     sexe, qui se trouvants majeurs à l’âge <lb/>de dix neufs ans &amp; maîtres de
+                     leurs biens et <lb/>droits, contractent souvent des promesses de <lb/>mariage et
+                     même des mariages mal assortis. <lb/>Pour y remedier autant que faire se peut,
+                     on <lb/>remet pour l’avenir la majorité, tant pour les <lb/>filles que pour les
+                     garçons, à l’âge de vingt <lb/>deux ans accomplis par rapport au
+                     mariage <lb/>tant seulement, mais pour toutes les autres <lb/>choses, elle
+                     demeure fixée comme d’ancienneté.</p>
+                  <pb n="128v" facs="AEN_EN_13_128v_129r"/>
+                  <p><lb/>4<hi rend="sup">o</hi>.</p> <p><lb/>Que les pères, beau pères ou grand père <lb/>ne
+                     pourront sièger dans aucun tribunal lors <lb/>que leurs fils, gendre et petit
+                     fils plaideront<lb/>un procès et en seront avocats.</p>
+                  <p><lb/>5<hi rend="sup">o</hi>. <lb/>Qu’il sera fait une matricule pour les rem<lb
+                        break="no"/>placements des juges, tant du côté de la seig<lb break="no"
+                     />neurie que de la ville, laquelle on sera tenu de <lb/>suivre à l’avenir, de
+                     quoy en sera fait un État de <lb/>côté et d’autre pour estre passée en loy. </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>AEN, Registre des Trois-États, IX, 8&#160;mai&#160;1748 (sans pagination).</p>
+               <p>Éd.&#160;Recueil de pièces officielles, I, p.&#160;59-61.</p>
+               <p>Résumé&#160;: Matile, plaits, p.&#160;100.</p>
+               <p>Cité&#160;: Calame, Droit privé, p.&#160;111-112 (art.&#160;I) et p.&#160;304-305 (art.&#160;III) d’après Recueil&#160;I.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

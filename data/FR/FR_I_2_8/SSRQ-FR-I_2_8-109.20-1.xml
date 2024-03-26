@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.20-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 13–14</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 13–14</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Gauthier-Monde – Verhör</head>
+					<head xml:lang="fr">Catherine Gauthier-Monde – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1643-11-10"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="13"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1643-11-10">10<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>novemb</abbr><expan>novembris</expan></choice></foreign> 1643</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName></seg>
+							<seg><lb/><persName ref="per009378a.01">Lari</persName>, <persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName>Python</persName><note>Gemeint ist entweder <persName ref="per012381a">Hans Ulrich Python</persName> oder <persName ref="per012380a">Jost Python</persName>, die beide im Stadtgericht sassen.</note>, <persName ref="per013720a.01">Zumholtz</persName></seg>
+							<seg><lb/><persName ref="per011547a.01">Munat</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+					<p><seg><lb/><persName ref="per015663a.01">Catheline Monde</persName> confirme que le <term ref="lem015433.10">maling</term> y est apparu
+						<lb/>deux fois, ainsy qu’elle l’a <term ref="lem015549.07">confessé</term> dernierement a monsieur
+						<lb/>le <term ref="lem019323.04">bourguemeister</term>, et cela estre arrivé lors que <persName>Pierre</persName>,
+						<lb/>le fils de son mary, y avait <term ref="lem015015.03">derobbé</term> beaucoup de vin, pour<lb break="no"/>quoy en estant bien afligee, le <term ref="lem015433.10">maling</term>, qu’estoit tout
+						<lb/>noir et de la stature d’un homme, y dit qu’il y recompen<lb break="no"/>ceroit bien sa perte si elle se donnait a luy, mais qu’il
+						<lb/>ne l’a jamais peu gaigner.</seg> <seg>Qu’elle n’est point <term ref="lem019389.05">sourciere</term>
+						<lb/>et n’a jamais esté a la <term ref="lem017043">secte</term>&#160;; que le <term ref="lem016981.01">mauvais esprit</term>
+						<lb/>n’a jamais esté a l’entour de son enfant<note>Il s’agit vraisemblablement de <persName ref="per015678">Marti Margueron</persName>.</note>&#160;; qu’elle sasche
+						<lb/>que s’il <term ref="lem015549.13">confesse</term> quelque chose, qu’il ne sçait pas qu’il
+							<lb/>dit, et qu’il a aprins ce mot de <persName ref="per029441a">Pauzun</persName> de <persName>Jaque
+						<lb/>Palliard</persName>, que venoit souvent en leur maison, <subst><del>et</del><add place="above">lequel</add></subst> ayant
+							<lb/>beu, disoit tousjours <persName ref="per029441a">Pauzun</persName>.</seg> <seg>Qu’elle n’a point <add place="above" type="sign">fait</add> de mal,
+							<lb/>sinon qu’elle a quelque fois <term ref="lem015015.03">derobbé</term> du bois et beaucoup
+						<lb/>de <term ref="lem016204.03">fruictages</term>&#160;; qu’elle ne sçait dire aultre chose et pro<lb break="no"/>met la foy qu’on ne l’aura pas. Et ce qu’elle a
+						<pb n="14"/><lb/>dict, que le <term ref="lem017521">diable</term> y estoit apparu par deux fois,
+						<lb/>qu’il est pas vray, qu’elle l’a dict de malheur
+						<lb/>parce qu’elle estoit si long temps detenue en prison
+							<lb/>et qu’on la mettoit tousjours dans les baings<note>Gemeint ist möglicherweise die Folter in der <term ref="lem015731.01">Wanne</term>. Vgl. auch <ref target="urn:ssrq:SSRQ-FR-I_2_8-109.14-1">SSRQ FR I/2/8 109.14-1</ref>.</note>.</seg>
+						<seg><lb/>Ce qu’elle a dict et soustenu dans le nouveau
+							<lb/><term ref="lem019473.01">tourment</term> de la <term ref="lem018283.05">buriere</term> et a <term ref="lem019498">crié mercy</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

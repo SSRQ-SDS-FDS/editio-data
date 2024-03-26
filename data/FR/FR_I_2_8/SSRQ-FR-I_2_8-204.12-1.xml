@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-204.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 41r–42v</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 41r–42v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Duchêne-Ribotel – Verhör</head>
+					<head xml:lang="fr">Maria Duchêne-Ribotel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1683-01-19"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="41r"/><p><lb/><placeName ref="loc007890.08">Jaquemars</placeName>, den <origDate when="1683-01-19">19<hi rend="sup">ten</hi> <foreign xml:lang="la">januarii</foreign> 1683</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027537a">Franz Josef Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026314a.01">Carle von Montenach</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per026328a.05">Rudolff Fyva</persName></seg>
+							<seg><lb/>LX <persName ref="per027532a.02"><choice><abbr>Fr Pet</abbr><expan>Frantz Peter</expan></choice> Amman</persName>, <persName ref="per026289a.03"><choice><abbr>Nic</abbr><expan>Niclauß</expan></choice> Amman</persName>, <persName ref="per026070a.04">Hanß Rudolff Rämi</persName></seg>
+							<seg><lb/>Burgern <persName ref="per027535a.02">Fegeli</persName>, <persName ref="per027538a.02">Gottrauw</persName>, <persName ref="per027531a.01">Odet</persName></seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName>, den <origDate when="1683-01-19">19<hi rend="sup">ten</hi> <foreign xml:lang="la">januarii</foreign> 1683</origDate>, <foreign xml:lang="la">eodem die et presentibus
+						<lb/>ut supra</foreign></p>
+						<p><choice><sic><add place="bottom"><persName>Maria</persName></add></sic><corr></corr></choice>
+						<pb n="41v"/> <lb/><hi rend="outdent"><persName ref="per027452a">Maria Fridlin</persName></hi>
+							susdite derechef tenue en <term ref="lem018792.01">question</term>, dit dʼabord au commence<lb break="no"/>ment quʼelle nʼest pas <term ref="lem019389.02">sorciere</term> et quʼelle sʼest faicte
+							<lb/>tort dernierement à ses precedentes <term ref="lem019465.02">confessions</term>,
+						<lb/>et specialement en deux poincts. Le premier et
+						<lb/>dʼavoir dansé avec le <term ref="lem017521">diable</term> et le second dʼavoir faict
+						<lb/>mourrir la <term ref="lem017507">vache</term> à <placeName>Gorgon</placeName><!-- Ort oder Name? -->. Mais mes <choice><abbr>seigrs</abbr><expan>seigneurs</expan></choice> de la
+						<lb/>justice luy ayant representé comme elle pouvoit
+						<lb/>nyer un tell affaire quʼelle avoit si souvente fois
+						<lb/><term ref="lem015549.07">confessé</term> et reiteré par cy devant, veu que elle avoit
+						<lb/>dit quʼelle lʼavoit veuz tout noir, sur quoi elle at
+						<lb/>respondus, que lors quʼelle at veuz cette vision il luy
+						<lb/>sembloit bien que sʼestoit le <term ref="lem017521">diable</term>, mais que sʼestoit
+						<lb/>rien aultre que un gros <term ref="lem018899.03">bozeronney</term> bruslé. Mais
+						<lb/>luy avant representé les susdits <choice><abbr>ss<hi rend="sup">rs</hi></abbr><expan>seigneurs</expan></choice> examinateurs, que
+						<lb/>les arbres ne parloint pas comme cet esprit luy avoit
+							<lb/>parlé, comme se constet par ses propre <term ref="lem019465.02">confessions</term> prece<lb break="no"/>dentes. Estant icelle sur ce fortement examinée, et
+						<lb/>principalement si elle nʼat esté <term ref="lem018895.03">marquée</term> par le <term ref="lem015433.03">maling
+						<lb/>esprit</term> et si elle ne sʼestoit donnée à luy, sur la fin
+						<lb/>le demy <term ref="lem018232">quintal</term> luy ayant esté attaché au pieds,
+						<lb/>elle at dit que si le <term ref="lem017521">diable</term> lʼavoit <term ref="lem018895.03">marquée</term>, que
+						<lb/>cella se seroit faict à <placeName ref="loc009068">Onnens</placeName>, et aurroit aussy
+						<lb/>bien senti quʼil luy avoit mis la griffe et quʼelle
+						<lb/>at sur cella ressentis de la challeur.</p>
+						<p><lb/>Interrogée comme son <term ref="lem019555.05">maistre</term> avec lequel elle
+						<lb/>at faict <term ref="lem019375.01">pacte</term> et lʼat <term ref="lem018895.03">marquée</term> sʼappelle, elle
+							<lb/>at respondus quʼil sʼappelle <persName ref="per029425a.10">Gabrié</persName>.</p>
+						<p><lb/>De plus elle at bien <term ref="lem015549.07">confessé</term> de nouveaux quʼelle
+						<lb/>sʼestoit donnée au <term ref="lem017521">diable</term>, et quʼil lʼavoit induite
+							<lb/>à <term ref="lem019541.01">renier</term> <hi rend="font change">Dieu</hi> à <placeName>la Comba</placeName><note>Lʼidentification du lieu est incertaine.
+							Il pourrait sʼagir de <placeName ref="loc013724">La Comba</placeName>.
+							Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-204.23-1">SSRQ FR I/2/8 204.23-1</ref>.</note> de son maistre, ou ce
+							<lb/>quʼelle servoit. Touttes fois elle lʼavoit <term ref="lem019463.05">confessée</term>.</p>
+						<p><lb/>Item elle at <term ref="lem015549.07">confessé</term> dʼavoir esté par deux fois à la
+						<lb/><term ref="lem017043">secte</term>, ou ce que le <term ref="lem017521">diable</term> lʼavoit menée aveq
+						<lb/>la jeune <persName ref="per026681a">Magnina</persName> de <placeName ref="loc007983.02">Norea</placeName>. Interrogée
+						<lb/>si la mere<note>Gemeint ist <persName ref="per017167">Elisabeth Morand-Favre</persName>.</note> de ladite <persName ref="per026681a">Magnina</persName> nʼy estoit pas aussy,
+						<lb/>elle at dit quʼouy, quʼelles estoit une des princi<lb break="no"/>pales. Interrogée comme et en quelle figure <add place="bottom" type="catchword">et</add>
+						<pb n="42r"/><lb/><choice><sic>et</sic><corr></corr></choice> forme elle y alloint, elle at respondus quʼil y alloint
+						<lb/>viste comme dé <term ref="lem019286.04">lievres</term> et que beaucoup avoint la figure de
+						<lb/><term ref="lem019286.03">lievre</term>, mais quand à son particulier elle avoit pris la fi<lb break="no"/>gure soit forme dʼun <term ref="lem019303.02">cerf</term>&#160;; et quʼil sʼy rencontroint plusieur
+							<lb/><term ref="lem019308.02">sorciers</term> et <term ref="lem019389.04">sorcieres</term>, mais quʼon ne se recognoissoit pas,
+						<lb/>hormis ceux quʼestoint bien famigliers par ensembles.</p>
+						<p><lb/>De plus elle at dit <add place="above" type="sign">que</add> <persName>Person Durret</persName> de <placeName ref="loc007892.11">Thorny le Grand</placeName>
+						<lb/>avoit dansé avec elle à ladite <term ref="lem017043.01">secte</term>. De plus a dit
+						<lb/>quʼil y avoit pour lors beaucoup de <term ref="lem014908.08">vaudey</term> de <placeName ref="loc007655">Montagny</placeName>,
+						<lb/>et des <persName>Peythi</persName> de <placeName ref="loc007893.05">Mydes</placeName>. Item que ladite <persName>Person Duret</persName>
+						<lb/>avoit pour marry un certain de <placeName ref="loc007892.12">Thorny</placeName>, laquelle <persName>Person</persName>,
+						<lb/>lors quʼelle fut à la <term ref="lem017043.01">secte</term> avec elle ladite <persName>Person</persName>, at pris
+							<lb/>la forme dʼun <term ref="lem018315.01">chat</term>.</p>
+						<p><lb/>Interrogée ce quʼelle mangeoint à ladite <term ref="lem017043.01">secte</term> et en quel
+						<lb/>lieux il la tenoint, elle at dit quʼelle ne mangeoint
+						<lb/>que des <term ref="lem016925.02">crouyes</term> <term ref="lem019279.02">routes</term> <term ref="lem019272.03">zavonayes</term> et tenoint la
+						<lb/><term ref="lem017043.01">secte</term> quelque fois au bas de <placeName ref="loc007983.02">Norea</placeName>, et quelques fois
+						<lb/>à <placeName ref="loc008029">Courtion</placeName>, proche de <placeName ref="loc007613.03">Cormerod</placeName>, à un fond ou à une
+						<lb/>comba, au temps de <time when="20:00:00">huicts heures dans la nuict</time>. Et
+							<lb/>que leurs <term ref="lem015047.02">menestrier</term>, qui leurs jouueoit du violon, sʼap<lb break="no"/>pelloit <persName ref="per029425a.02">Grabié</persName>.</p>
+						<p><lb/>Interrogée comme il faisoint pour se changer en beste,
+						<lb/>elle respondit quand il se voulloint transformer en
+							<lb/><term ref="lem019286.03">lievre</term>, il prennoint du poil de <term ref="lem019286.03">lievre</term>, et sʼil se vou<lb break="no"/>loint faire en <term ref="lem018315.01">chat</term> ou en <term ref="lem019303.01">cerf</term>, il prennoint du poil
+							<lb/>de <term ref="lem018315.01">chat</term> ou de <term ref="lem019303.01">cerf</term>, que le <term ref="lem017521">diable</term> leurs donnoit,
+							<lb/>et se frotavan soit <term ref="lem014913.08">oignoint</term> dʼune <term ref="lem018382.02">graise</term> soit <term ref="lem018384">on<lb break="no"/>guent</term> que le <term ref="lem017521">diable</term> leur donnoit
+							et devenoint chan<lb break="no"/>gées comme et dit. Et mesmement pour aller
+							<lb/>à la <term ref="lem017043.01">secte</term> elle frottoint soit <term ref="lem014913.08">oignoint</term> una <term ref="lem019280.02">schola</term>
+						<lb/>soit <term ref="lem019281.01">selle</term> de la susdite <term ref="lem018382.02">graise</term> et le <term ref="lem017521">diable</term> les portoit
+						<lb/>hors de la cheminée. Interrogée qui luy avoit
+						<lb/>donné de cette <term ref="lem018382.02">graise</term>, elle respondit que sʼestoit
+							<lb/>la <persName ref="per017167a">Magnina</persName><note>Il sʼagit bien de la mère. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-204.16-1">SSRQ FR I/2/8 204.16-1</ref>.</note> de <placeName ref="loc007983.02">Norea</placeName>, auprès de laquelle elle
+						<lb/>avoit frequentée. <seg>Interrogée si son marry ne
+							<lb/>sçavoit pas quʼelle fut <term ref="lem019389.02">sorciere</term> et sʼil ne sʼen apar<lb break="no"/>cevoit quand elle alloit la nuict à la <term ref="lem017043.01">secte</term>, et comme
+						<lb/>elle faisoit quand elle ne vouloit que le marry
+						<lb/>le dheut sçavoir, elle at respondus que le marry <add place="bottom" type="catchword">nʼat</add>
+							<pb n="42v"/> <lb/><choice><sic>nʼat</sic><corr></corr></choice> jamais sceus quʼelle fut <term ref="lem019389.02">sorciere</term>, et quʼelle luy
+							<lb/>mettoit auprès de son costé una <term ref="lem019282.02">bouzi</term> de <term ref="lem015397.06">paillie</term>,
+						<lb/>et ledit marry si bien elle estoit absente, il croyoit
+							<lb/>quʼelle estoit tousjours la auprès de luy. Et ne sʼen
+						<lb/>pouvoit par ce moyen aulcunement apparcevoir
+						<lb/>quʼelle fut dehors.</seg></p>
+						<p><lb/>Interrogée derechef combien elle estoit agée,
+						<lb/>elle croit estre <subst><del>plus</del><add place="inline">agée plus</add></subst> de <measure type="age" quantity="40" unit="year">quarante ans</measure>.</p>
+						<p><lb/>Interrogée au sujet de la <term ref="lem017507">vache</term> de <placeName>Gorgon</placeName><!-- Name oder Ort? -->, elle
+						<lb/>at reconfirmé dʼavoir <term ref="lem019525.04">soufflé</term> a lʼencontre et lʼavoir
+						<lb/>faict mourrir.</p>
+						<p><lb/>Interrogée si elle nʼavoit veuz dʼaultres personnes
+						<lb/>à la predite <term ref="lem017043.01">secte</term>, elle at respondus en avoir veuz
+						<lb/>encore une de <placeName ref="loc010275.02">Thorny Pittet</placeName> appellée <persName>Clauda</persName>, la<lb break="no"/>quelle at deux enfants et demeure proche de la
+						<lb/>cure dudit lieux, et elle sʼestoit faicte en <term ref="lem018315.01">chat</term>.
+						<lb/>Et que <persName>Maria</persName>, la mere des executés de <placeName ref="loc007893.05">Mydes</placeName>,
+						<lb/>at aussy esté à la <term ref="lem017043.01">secte</term>. De plus elle at dit que
+						<lb/>la <persName ref="per027501a">grossa</persName> et <persName>petita Meize</persName> de <placeName ref="loc007983.02">Norea</placeName> alloint à  la
+							<lb/><term ref="lem017043.04">secta</term>, et quʼelle estoint si <term ref="lem019389.04">sorcieres</term> quʼil nʼen
+							<lb/>pouvoint plus. Item que une vefve de <placeName ref="loc007655">Mon<lb break="no"/>tagny</placeName> et aussy <term ref="lem019389.02">sorciere</term>, elle demeure à une
+						<lb/>maison au haut de <placeName ref="loc009797">Mannens</placeName>, elle sʼappelle
+						<lb/><persName ref="per027502a">Clauda Pythoud</persName>. Il sont des loyaux.</p>
+						<p><seg><lb/>Item ladite <term ref="lem019462.01">confessante</term> at dit quʼelle avoit esté à la
+						<lb/><term ref="lem017043.01">secte</term> à <placeName ref="loc007613.03">Cormerod</placeName> avec ladite <persName>Clauda</persName>. Et la der<lb break="no"/>niere fois
+							quʼelle at esté à la <term ref="lem017043.01">secte</term> fut à <placeName ref="loc008029">Courtion</placeName>.</seg>
+						<seg><lb/>Aultres nʼat voulus <term ref="lem015549.01">confesser</term> non obstant quʼelle
+							<lb/>soit esté <term ref="lem019548.06">eslevée</term> par deux fois à la <term ref="lem018231">corde</term>, le
+						<lb/>demy <term ref="lem018232">quintal</term> pendus à ses pieds. Et en at de<lb break="no"/>mandé pardon à <hi rend="font change">Dieu</hi> et à Leurs Excellences mes
+						<lb/>souverains seigneurs, auxquels rapport des
+							<lb/>susdites <term ref="lem019465.02">confessions</term> se doibt faire pour en attendre
+						<lb/>leurs ulterieurs ordres. <foreign xml:lang="la">Actum un supra</foreign>.</seg></p>
+						<p><lb/><persName ref="per026058a.03"><choice><abbr>Jus</abbr><expan>Jodocus</expan></choice> Progin</persName> <figure type="notarial sign"/></p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

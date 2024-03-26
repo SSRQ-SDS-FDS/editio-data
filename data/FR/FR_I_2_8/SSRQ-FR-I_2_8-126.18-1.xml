@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-126.18-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 104–105</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 104–105</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jeanne Michel – Verhör</head>
+					<head xml:lang="fr">Jeanne Michel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-12-13"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="104"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-12-13">13<hi rend="sup">ten</hi> <foreign xml:lang="la">decembris</foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975a">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013978a.01">Kämerling</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per011543a.01">Niclauß Falk</persName></seg>
+							<seg><lb/><subst><del><abbr>H</abbr></del><add place="overwritten">J</add></subst><hi rend="sup">r</hi><!-- wir können hier das Jr = Junker nicht auflösen: Choice/ expan kann ich nicht um subst/del einfügen --> <persName ref="per013668a.02">Reyff</persName></seg></p>
+						<p><seg><lb/><persName ref="per017128a.02">Jasne Mizi</persName> estant applicquee a la <term ref="lem018792.01">question</term>
+						<pb n="105"/><lb/>de la <term ref="lem015642.02">serviete</term> pour le tempz et espace de <time dur-iso="PT4H">quatre
+							<lb/>heures</time>, et cep<add place="above">e</add>ndant par messieurs du droict examinee,
+							<lb/>ne volut d’abort entrer en aulcune <term ref="lem019465.01">confession</term>, feigniant
+							<lb/>en partie la <term ref="lem019503.07">possedee</term>, ou si tout aprés par son discurs
+							<lb/>fist parestre de ne la point estre.</seg> <seg>Le terme de la
+							<lb/><term ref="lem015441.02">gehenne</term> des <time dur-iso="PT4H">4 heures</time> aprochant et s’allant a peu pres <subst><del>de</del><add place="overwritten">ex</add></subst><lb break="no"/>spirer,
+								certain bruict sur le plancher d’en hault s’est esmeut,
+							<lb/>resemblant a la cheute d’une piere, l’ayant la desus
+							<lb/>un sommeil saissi, du quel en estant ci tout aprés esvelliee
+							<lb/>et serieusement par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examinee.</seg> <seg>Ast
+								<lb/>finalement <term ref="lem015549.07">confessé</term> d’estre <term ref="lem019389.02">sorciere</term> <add place="left margin">dempuis <date dur-iso="P1Y">un an</date> <lb/>en ça</add>, le <term ref="lem015433.03">maling
+							<lb/>esprit</term> luy estant apparu en forme et figure humaine,
+								<lb/>habilé de noier, s’ayant donné le nom de <persName ref="per029425a.02">Grabié</persName>, en
+							<lb/>certain lieux dans les champz et fins de <placeName ref="loc007648.09">Dompieru</placeName>
+							<lb/>au lieux nommé <placeName ref="loc010989">En Nonnes</placeName>, lequel la <term ref="lem018895.07">marquat</term> sous
+							<lb/>sa mamelle gauche, ce que encor aprés la <term ref="lem019428.01">torture</term>,
+							<lb/>elle ast soustenu et confirmé estre veritable&#160;; ayant
+							<lb/>la desus demandé bien humblement a Dieux et a
+							<lb/>Leur <choice><abbr>Exell</abbr><expan>Exellences</expan></choice> <sic>de</sic> pardon.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-127.1-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 198 (1647), S. 9</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 198 (1647), p. 9</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Terreaux – Anweisung</head>
+					<head xml:lang="fr">Jacques Terreaux – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-01-11"><num value="11">xi</num> <foreign xml:lang="la"><choice><abbr>jan</abbr><expan>januarii</expan></choice></foreign> [1647]</origDate>							
+						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Proces <placeName ref="loc007882">Surpierre</placeName> ou information</p>
+						<p><lb/>Contre <persName ref="per017137a.01">Jaque Terraux</persName><note>Un personnage homonyme, également originaire de <placeName ref="loc007619">Chapelle</placeName>,
+							a été accusé de crimes de sorcellerie et de sodomie en <date when="1646-09">septembre 1646</date> à <placeName ref="loc007882">Surpierre</placeName>, et condamné au bûcher. Nous n’en avons toutefois pas retrouvé la trace dans les Thurnrodel. Voir <bibl><ref target="http://www2.fr.ch/aef_query/detail.aspx?ID=71626">StAFR, Ratsmanual 197</ref> (1646), S. 318, 333</bibl>. Voir également
+							<ref target="urn:ssrq:SSRQ-FR-I_2_8-127.24-1">SSRQ FR I/2/8 127.24-1</ref>.</note> levé en secret par le <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> ballif,
+							<lb/>par lequel est dit que tous les <term ref="lem015433.13">malings</term> l’appellent <term ref="lem019308.01">sorcier</term>.
+							<lb/>Soll <term ref="lem009330.02">ingezogen</term>, ein formklichs <term ref="lem003708">examen</term> uffgenommen, daruber
+							<lb/>examiniert und hernach härgeschickt werden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>

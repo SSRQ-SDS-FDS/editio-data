@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-130.17-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 449–450</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 449–450</idno>
+					</msIdentifier>
+					<head xml:lang="de">Louis Andrey – Verhör</head>
+					<head xml:lang="fr">Louis Andrey – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-07-05"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="449"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-07-05">5<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <abbr>hr</abbr> <persName ref="per013437">von Torny</persName></seg>
+							<seg><lb/><persName ref="per006528a.03">Possardt</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <subst><del>Des Gr</del><add place="overwritten"><choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></add></subst></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+							<seg><lb/><persName ref="per017761a.01">Louys Andrey <add place="above" type="sign">dit Bastalliard</add></persName>, originel de <placeName ref="loc007852.04">Chastel Crysoud</placeName>, demeurant a
+							<lb/>present a <placeName ref="loc008141.04">Vuisternens devant Pont</placeName>, ou ce que avant <date dur-iso="P6Y">6</date> ou <date dur-iso="P7Y">7 ans</date>
+							<lb/>il ast achepté certain petit mas de terre et vescu a la crainte
+							<lb/>de Dieu sans faire tort a personne&#160;; que ceux qui l’accusent
+							<lb/>pour cas de <term ref="lem018521.01">sorcellerie</term> luy font mechament tort, et si
+							<lb/><persName ref="per017746a.01">Clauda Fabvre</persName> va mourir sur ceste fausse accusation, estre
+							<lb/>impossible d’estre sauvee, ains damnee a tout jamais. Aussi<lb break="no"/>tost qu’il fust venu par deça et habité vers le <placeName ref="loc008144.04">Gybliaux</placeName>,
+								<lb/>que beaucoup d’envieux de son bon comportement on faict cou<lb break="no"/>rir un bruit comme s’il estoit <term ref="lem019308.01">sorcier</term>, ce que ne se conste<lb break="no"/>ra jamais par gens d’honneur, ny devant Dieu, ny devant
+							<lb/>le monde, sçachant bien estre innocent en ce faict et
+								<lb/>semblables <term ref="lem019494.02">crimes</term>, soit pour <term ref="lem018524.02">sortilege</term> ou <term ref="lem019436.04">larrecins</term>, dont
+							<lb/>il est quelquement accusé, mais a tort.</seg> <seg>Nye d’avoir
+							<lb/>dit que si on l’emprisonneroit, il seroit bien tost suivy
+							<lb/>par d’autres, mais <term ref="lem015549.13">confesse</term> bien d’avoir demandé a
+							<lb/>quelques uns de ses voisins pourquoy on disoit ça et la
+								<lb/>qu’il estoit <term ref="lem019308.01">sorcier</term>, que pourtant il estoit homme de bien,
+								<lb/>n’aiant jamais ehu telle mauvaise pensee. Si ceux qui l’in<lb break="no"/>jurioient et nommoient <term ref="lem019308.01">sorcier</term> le luy eussent dit par devant
+							<lb/>des gens d’honneur, il les <add place="above">eust</add> dhuement actioné et re<term ref="lem015009.08">cerché</term>
+							<lb/>par droit.</seg> <seg>Lors qu’on l’establit pour estre gouver<lb break="no"/>neur de l’eglyse, dit estre vray qu’il dit a quelques uns&#160;:
+							<lb/><q>&#160;Pourquoy m’ast on confié ceste charge, puis qu’on dit
+								<lb/>(mais non des gens d’honneur) que je suis <term ref="lem019308.01">sorcier</term>&#160;?&#160;</q>&#160;; ce qu’il
+							<lb/>dit aussy un autre fois a <persName>Jean Morry</persName>&#160;: <q>&#160;Hesla&#160;!&#160;</q>, le grand tort
+							<lb/>qu’on luy faisoit de l’ainsin injurier, mais patience qu’il
+						<pb n="450"/><lb/>voulloit endurer le tout a l’honneur de Dieu&#160;; dit aussy
+							<lb/>que la fille de <persName>Jaques Brayer</persName>, qui doit estre <term ref="lem019502.06">possedee</term>, luy
+							<lb/>dit une fois, <add place="left margin" type="sign"><lb/>passant par devant <lb/>luy</add>&#160;: <q>&#160;Adieu <term ref="lem014908.09">waudey</term>&#160;!&#160;</q>&#160;; surquoy <choice><sic>elle</sic><corr>il</corr></choice> respartit&#160;: <q>&#160;Va
+							<lb/>vilaine&#160;! Tu moy fais tort.&#160;</q></seg>
+							<seg><lb/>Enquis s’il n’avoit demeuré a
+							<lb/><placeName ref="loc007662">Marsens</placeName>, dit qu’ouy et que, avant de venir a <placeName ref="loc008141.05">Vuisternens</placeName>
+							<lb/><subst><del>qui</del><add place="inline">a cause</add></subst> que quelques <term ref="lem019503.03">possedés</term> crioient sur luy, il ob<lb break="no"/>tient bonnes attestations de son desportement.</seg> <seg>Soustient
+							<lb/>enfin estre homme d’honneur et aucunement attaint de
+							<lb/><term ref="lem018524.02">sortilege</term>, disant a la simple <term ref="lem018231">corde</term> n’avoir jamais commis
+							<lb/>tel acte, ains s’estre tousjours bien comporté. <term ref="lem019498">Crie mercy</term>
+							<lb/>et prie messeigneurs d’estre maintenu dans son bon droit.</seg>
+							<seg><lb/>Le <term ref="lem018790.04">maistre executeur</term> estant demandé s’il n’avoit point
+								<lb/>trouvé de <term ref="lem018894.01">marque</term> sur luy, a dit que non.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

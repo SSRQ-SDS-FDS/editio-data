@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-44.18-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 42–45</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 42–45</idno>
+					</msIdentifier>
+					<head xml:lang="de">Madeleine Meino-Jordan – Verhör</head>
+					<head xml:lang="fr">Madeleine Meino-Jordan – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1619-03-13">13 <foreign xml:lang="la">martii</foreign></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="42"/><p><lb/><origDate when="1619-03-13">13 <foreign xml:lang="la">martii</foreign></origDate>, im <placeName ref="loc007683.03">bosen turn</placeName>
+							<seg><lb/><foreign xml:lang="la"><choice><abbr>J</abbr><expan>Judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per009391">Wilhelm Reynold</persName>.</note> – 2<note>Diese Zahl diente zur Verrechnung der Sitzungsgelder. Sie signalisiert, wie oft die Mitglieder des Gerichts anwesend waren.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, 2 – <abbr>h</abbr> <persName ref="per009255">Affry</persName></seg>
+							<seg><lb/><persName ref="per009388">Reiff</persName>, <persName ref="per009579"><choice><abbr>L</abbr><expan>Ludwig</expan></choice> Gotrow</persName></seg>
+							<seg><lb/><persName ref="per009259">Ligertz</persName>, <persName ref="per009123">Werly</persName>, 2 – <persName ref="per009253">Boccard</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft eine andere Person.</note></p>
+						<pb n="43"/><p><lb/><foreign xml:lang="la">Ibidem, die, anno et presentibus
+						<lb/>ut supra</foreign></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ßt</abbr><expan>Solvit</expan></choice></foreign> <measure type="currency" unit="lb" quantity="3">3 </measure>.</add></seg>
+							<seg><persName ref="per009602b.06">Magdelaine Maynod</persName> susdite nyant au com<lb break="no"/><pb n="44"/>mencement n’avoir commis aulcun mal, <subst><del>a la</del>
+						<lb/><add place="inline">en fin</add></subst> elle a librement <term ref="lem015549.07">confessé</term> que son mary,
+						<lb/><persName ref="per009600a.02">Bastian Maynod</persName>, une fois luy vint a dire
+						<lb/>que a une femme appartient d’obeir a son
+								<lb/>mary, et que aynsy vouloit qu’elle se don<lb break="no"/>nast a son <term ref="lem019555.05">maistre</term> <term ref="lem015433.05">l’esprit malin</term>, le nom
+						<lb/>duquel elle ne sçait.</seg> <seg>Item que sondit mary
+						<lb/>s’en allast quelques fois de nuict hors de
+						<lb/>sa mayson, disant d’aller ouvrer aileurs, et
+						<lb/>ne sçait que son mary aye fait mourir ny
+						<lb/>gens ny bestes, ny l’avoir vouluz mener a la
+							<lb/><term ref="lem017043.01">secte</term>.</seg> <seg>Item elle a <term ref="lem015549.07">confessé</term> que a l’environ <date dur-iso="P6M">di<lb break="no"/>mie an</date> passé, <term ref="lem015433.05">l’esprit malin</term> la soit venuz
+						<lb/>trouver en sa mayson en forme d’une mou<lb break="no"/>che, de la grandeur d’un <term ref="lem015394">tavan</term>, et luy
+						<lb/>dit qu’estoit la <term ref="lem015393.02">charropa</term>, et que elle se
+						<lb/>debvoit donner a luy, le recognoistre pour son
+						<lb/><term ref="lem019555.05">maistre</term> et <term ref="lem019541.04">rennier</term> Dieu. Et ains se donna
+								<lb/>a luy et <term ref="lem019541.24">rennia</term> Dieu son Sauveur.</seg> <seg>Puis
+							<lb/>aprés a dit que sondit <term ref="lem019555.05">maistre</term> l’auroit <term ref="lem018895.02">mar<lb break="no"/>qué</term> a un dent de la part droite.</seg> <seg>Item que
+						<lb/>elle auroit fait mourir une <term ref="lem018922.01">jument</term> aupres
+						<lb/>de la fontaine, appartenante a <space unit="cm" quantity="2"/> <persName>Simonet</persName>
+						<lb/>de <placeName ref="loc007601">Plan</placeName>, luy jettant de l’eau avec la main,
+								<lb/>que peu aprés en mourust&#160;; a dit que son mai<lb break="no"/>stre luy avoit aprins cecy.</seg> <seg>Item elle a <term ref="lem015549.07">con<lb break="no"/>fessé</term> que sondit <term ref="lem019555.05">maistre</term> la soit venuz trouver
+						<lb/>la seconde fois, en forme que dessus, vers le
+					<pb n="45"/><lb/><term ref="lem015061">bornel</term>, et que luy dit qu’elle se debvoit en<lb break="no"/>aller a la mayson&#160;; ne l’avoir veu que ces deux
+									<lb/>fois.</seg> <seg>Ainsy <term ref="lem019541.23">renniant</term> <persName ref="per011219a">Satan</persName> <term ref="lem019498">crie mercy</term> a Dieu
+						<lb/>et a la seignorie. <add place="inline">A dit n’avoir commis aultre
+						<lb/>mal&#160;; des chouz en estre innocente.</add></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

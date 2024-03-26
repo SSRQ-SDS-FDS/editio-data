@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup"
+               >e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title> <editor>
+                  <persName>Dominique Favarger</persName>
+               </editor><editor>
+                  <persName>Maurice de Tribolet</persName>
+               </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>
+            <date type="print" when="1982"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                  >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-112.0-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <head xml:lang="fr"
+                  >Décrétale des Audiences générales sur la compétence des Trois Etats en matière de
+                  points accessoires et sur le degré de consanguinité autorisé pour contracter
+                  mariage</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin>
+                     <origDate when="1559-07-06"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_233"
+                              >SDS NE 1, N<hi rend="sup">o</hi>&#160;112</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000815"></term>
+               <term ref="key000635"></term>
+               <term ref="key000023"></term>
+               <term ref="key005403"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <div type="collection">
+                  <p><ref target="urn:ssrq:SDS-NE-1-112.1-1">SDS NE 1 112.1-1</ref></p>
+                  <p><ref target="urn:ssrq:SDS-NE-1-112.2-1">SDS NE 1 112.2-1</ref></p>
+               </div>
+            </body>
+         </text>
+      </group>
+      <back>
+         <div><p>Matile date cette décrétale du <date when="1559-07-03">3 juillet</date>.</p></div>
+               <div>
+            <p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+            <p>BPN, Coutumier Baillods, fol.&#160;200v.</p>
+            <p>AEN, Registre «Audiences générales», fol.&#160;40-40v.</p>
+            <p>Registre des Trois Etats, I, fol.&#160;46v.</p>
+            <p>Ed.&#160;Boyve, Annales, III, p.&#160;92-93. Matile, Plaits, p.&#160;16-17.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

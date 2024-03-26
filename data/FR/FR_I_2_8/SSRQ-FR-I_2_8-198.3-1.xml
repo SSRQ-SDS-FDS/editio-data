@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-198.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 426–428</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 426–428</idno>
+					</msIdentifier>
+					<head xml:lang="de">Barbli Bochud-Barbey – Verhör</head>
+					<head xml:lang="fr">Barbli Bochud-Barbey – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1676-09-01"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="426"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1676-09-01">1<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>7bris</abbr><expan>septembris</expan></choice></foreign> <hi rend="underline">1676</hi></origDate></p>
+						<p><seg><lb/><foreign xml:lang="la">Judex</foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/>Herr <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.01">Python</persName>, <abbr>h</abbr> <persName ref="per026616a.01">Frantz Peter Gottraw</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per026120a.01">Johan Rämi</persName>, <abbr>h</abbr> <persName ref="per026549a.03">Pancratz Schröter</persName>, <abbr>h</abbr> <persName ref="per026531a.02">Fillistorff</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026560a.01">Buman</persName></seg></p>
+						<p><lb/><persName ref="per021860a">Barbli Barbey</persName>, veufve de fut <persName ref="per021861a.01">Pierre Botschuz</persName> de
+						<lb/><placeName ref="loc007604.04">Courtipin</placeName>, detenue sur des soupçons de <term ref="lem018521.01">sorcellerie</term>,
+						<lb/>interrogée pourquoy estoit detenue, a respondu
+						<lb/>que c’est à cause des faux rapports et de la haine
+						<lb/>de <persName>Claude Werro</persName>, lequel elle voulloit action<lb break="no"/>ner en droict pour injures.</p>
+						<p><lb/>Interrogée sur les soupçons d’avoir attiré le <term ref="lem015011.04">laict</term>
+						<lb/>des <term ref="lem017507.02">vaches</term> des autres à la sienne, le nie entierement,
+						<lb/>disant qu’on luy faict grand tort.</p>
+						<p><lb/>Interrogée sur le <term ref="lem018315.01">chat</term> enragé, qui estoit monté
+							<lb/>sur la <term ref="lem019396.01">brebis</term> de <persName>Hanns Uldriset</persName>, respond qu’il
+						<lb/>avoit esté mordu par un <term ref="lem018314">chien</term> enragé de <persName>Hanns
+							<pb n="427"/><lb/>Wiprecht</persName>, lequel le fist <term ref="lem019460.01">tuer</term>, et son <term ref="lem018315.01">chat</term> estre aussy
+						<lb/>mort bientost après, ne voullant rien sçavoir de la
+							<lb/>mort de la <term ref="lem019396.01">brebis</term>.</p>
+						<p><lb/>Touchant les <term ref="lem019233.05">minues bestes</term> que devenoyent enragées, dict que
+						<lb/>c’est à cause qu’elles estoyent mordues de <term ref="lem018314.03">chiens</term> enragées,
+						<lb/>dequoy elle mesme a souffert la valeur de <measure type="currency" unit="k" quantity="10">dix escus</measure> de
+						<lb/>perte.</p>
+						<p><lb/>Concernant les <term ref="lem018887.02">gratigneures</term>, dict ne sçavoir qu’elles en aye
+						<lb/>eu aucunes, sinon celles qu’elle se faisoit quelquesfois
+						<lb/>elle mesme par accident.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> qu’on  luy a quelquesfois dict <term ref="lem014908.13">vaudaisa</term>, mais que
+						<lb/>c’est autant de tort qu’on luy faisoit, et qu’elle s’en
+							<lb/>plaignoit et consoloit à ses peres <term ref="lem019467.02">confesseurs</term>, qui luy
+						<lb/>recommandoyent tousjours la <subst><del>f</del><add place="overwritten">p</add></subst>atience, et qu’elle
+						<lb/>en avoit faict convenir par devant <choice><abbr>monseig</abbr><expan>monseigneur</expan></choice> l’ad<lb break="no"/>voyer, qui leur avoit levé les paroles.</p>
+						<p><lb/>Ne se veut rien souvenir d’avoir aydé à relever
+						<lb/>ny veu tomber la mere de <persName>Niclauß Tragun</persName>,
+						<lb/>ny quand elle est morte.</p>
+						<p><lb/>Touchant <persName>Anni Schröter</persName> la tisseranne, ne se
+						<lb/>veut souvenir de l’avoir touché sur l’espaule, et
+						<lb/>si bien l’auroit touchée, ne luy avoir faict ny
+							<lb/>donné aucun mal, <term ref="lem015549.03">confessant</term> l’avoir esté trou<lb break="no"/>ver et luy avoir dict qu’elle luy faisoit tort,
+						<lb/>ce qu’elle confirme.</p>
+						<p><lb/>Ne se veut souvenir d’avoir menacé <persName>Peter Juchs</persName>,
+						<lb/>bien de luy avoir dict du mal pource qu’il
+						<lb/>luy menoit une pauvre estropiée, puisqu’elle
+							<lb/>n’avoit aucun <term ref="lem018921.02">cheval</term> pour la transmener à d’autres.</p>
+						<p><lb/>Nie tout ce qui touche <persName>Stoffel Ottet</persName>, ne luy ayant
+						<lb/>jamais faict ny donné aucun mal, que s’il est
+						<lb/>mort dans ce soupçon, il a mit son <term ref="lem018939.02">ame</term> en
+						<lb/>danger et luy faict grand tort.</p>
+						<pb n="428"/><p><lb/>Dict que si on ne faict autant à <persName>Claude Werro</persName> qu’à
+							<lb/>elle, on luy faict tort, puisqu’il luy <term ref="lem015015.19">desrobe</term> son
+							<lb/>honneur. Estant preste de soustenir son innocen<lb break="no"/>ce par tous les <term ref="lem019473.02">tourments</term> qu’on luy pourroit faire
+							<lb/>souffrir, touchant la <term ref="lem018521.01">sorcellerie</term> et les <term ref="lem019519.02">charmes</term>
+							<lb/>pour attirer le <term ref="lem015011.04">laict</term> des autres <term ref="lem017507.02">vaches</term>. Se <term ref="lem015549.03">confes<lb break="no"/>sant</term> au reste pecheresse comme les autres,
+							particu<lb break="no"/>lierement d’avoir esté un peu terrible et colerique,
+						<lb/>demandant pardon à Dieu et à Leurs Exellences.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

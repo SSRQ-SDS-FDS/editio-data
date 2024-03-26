@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-139-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Ville de La Chaux-de-Fonds</repository>
+                  <idno xml:lang="fr">AVCF-ANC.10-325I.2</idno> 
+               </msIdentifier>
+               <head>Acte d'érection de la mairie de La Chaux-de-Fonds</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34.5"/>
+                              <width unit="cm" quantity="44"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="damaged" ns0:attachment="applied"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1656-12-02"/>
+                     <origPlace ref="loc016231">Rouen</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_321">SDS NE 1, N<hi rend="sup">o</hi>&#160;139</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005136"></term>
+               <term ref="key005533"></term>
+               <term ref="key000204"></term>
+                       </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="AVCF-ANC.10-325I.2"/>
+               <div>
+                  <p><seg><lb/><persName ref="per010445a.01">Henry</persName> par la grace de Dieu prince
+                     souverain de Neufchâtel et Valengin en Suisse, <abbr>etc</abbr> <gap reason="missing"
+                        quantity="2" unit="line"/> tous ceux qui ces présentes <lb/>lettres
+                     verront, salut. Nos bons subjectz les habitans et paroissiens de La Chaux de
+                     Fonds en nostre conté de Valengin nous ont faict dire et remonstrer qu’ilz
+                     croissent <lb/>tous les jours en nombres, tant par le concours des voisins qui
+                     se viennent habituer parmy eux, que par le soin qu’ils ont eu, eux et leurs
+                     predécesseurs de défricher et <lb/>cultiver plusieurs lieux qui estoient cy
+                     devant infertiles et désertz, comme sont la vieille Chaux, Sombaille, Bulles,
+                     Valanron, Dernier Moulin et Joux Perret, les Crosettes et <lb/>Bats monsieur,
+                     Fontaine Jaillet, Boinond, et Cerni Bo<hi rend="sup">r</hi>quain, en parties.
+                     Mais d’autant que la pluspart de ceux qui habitent dans les lieux susdictz sont
+                     communiers du <placeName ref="loc007795">Locle</placeName>, de <placeName
+                        ref="loc007789">La <lb/>Sagne</placeName>, ou des Brenetz, et qu’ils sont
+                     obligéz de suivre pour la justice le ressort et jurisdiction <choice>
+                        <abbr>dud</abbr>
+                        <expan>dudict</expan>
+                     </choice>
+                     <placeName ref="loc007795">Locle</placeName>, <add place="above">pour la plus
+                        part,</add> ce qu’ilz ne peuvent faire qu’à grand fraictz, et grandes et
+                     notables incommodi<add place="above">tez</add>, <lb/>à causes des neiges et de
+                     la longue distance des lieux. Ilz nous ont humblement suplié de les vouloir
+                     unir en un corps de paroisse et communauté, et de leur establir un <lb/>maire
+                     avec une justice particulière, ainsy qu’il a esté faict cy devant aux habitants
+                     de La Chaux d’Estaliere.<note>Favarger&#160;1982&#160;: Cf. <ref>SDS-NE-1-134-1</ref>.</note></seg>  <seg>Scavoir faisons que nous désirant subvenir à nos
+                     subjectz selon <lb/>l’exigence des cas, et voulant favorablement traicter
+                     lesdictz habitans de La Chaux de Fondz, pour avoir eux et leurs prédecesseurs
+                     desfriché et abony les lieux où ilz se <lb/>sont estably à nostre grand profict
+                     et utilité, et à celle du public, et voulant leur donner moyen de s’y maintenir
+                     et augmenter encore à l’advenir, veu mesme que le <lb/>ressort du Locle est
+                     assez grand, sans y comprendre lesdictes chaux, dans lesquelz il y peut avoir à
+                     présent jusques à mille ames, de nostre aucthorité et puissance <lb/>souveraine
+                     et de nostre grace spéciale. Avons aux habitans de ladictes Chaux de Fons
+                     accordé et concédé, accordons et concédons par ces présentes, le droict de
+                     <lb/>paroisse et communauté dans l’enclos des limites qui seront plantées et
+                     déclarées par nostre gouverneur et lieutenant général en nosdictz comtéz ou
+                     ceux de nostre <lb/>Conseil d’Estat, ou autres nos officiers à ce commis par
+                     nottre dict gouverneur.</seg> <seg>Octroyons de plus ausdictz habitans qu’ilz puissent
+                     tenir par chascune années une troisiesme foire <lb/>outre les deux qu’ilz ont
+                     acoutusmé de tenir. Et encore un marché par chascune sepmaine&#160;; le tout
+                     aux temps et jours qui leur seront préscritz et ordonné par <choice>
+                        <abbr>led</abbr>
+                        <expan>ledict</expan>
+                     </choice> gouverneur et <lb/>gens de nostre dict Conseil d’Estat&#160;; leur
+                     permettant de bastir et construire des halles pour loger les marchands et leur
+                     marchandises, sauf néantmoins et réservé en tout et par tout <lb/>nos droitz et
+                     à la charge qu’après l’establissement de la dicte communauté, nul estranger n’y
+                     pourra estre receu ny hébergé que par nostre congé et permission, et pour cet
+                     effect sera <lb/>faict un roole et dénombrement des habitans qui sont
+                     présentement en ladicte Chaux.</seg> <seg>Nous avons aussy concédé et concédons à nosdictz
+                     sujectz que toutes causes personnelles et réelles <lb/>dans ledict enclos et
+                     limites seront vuidées et déterminées en ladictes Chaux de Fons en prémiere
+                     instance, et en seconde, devant nous et nos Trois Estatz de nostre comté de
+                     Valengin.</seg> <seg><lb/>Ayant érigé et érigeons par cesdites présentes, ladictes Chaux a
+                     tiltre de mairie, à tel et semblable droit que celle de la Coste et autres de
+                     nostre dict conté exerçant et ayans <lb/>moyenne et basse jurisdiction.</seg> <seg>Et leur
+                     sera cy après, la justice administrée audict lieu selon les loix, constitutions
+                     souveraines et bonnes coustumes du païs par le maire que nous <lb/>choisirons
+                     et nommerons pour cét éffect à formes de nos patentes et provisions que nous
+                     ferons sur ce éxpedier.</seg> <seg>Et quand aux faictz et éxploits de haute jurisdiction
+                     seront <lb/>remis et renvoyéz en la justice de Valengin, comme pareillement les
+                     causes qui se traictent et agîtent de tout temps en la matrimonialle et dans le
+                     consistoire seigneurial.</seg> <seg><lb/>Et pour le surplus des choses qui sont à régler
+                     touchant l’establissement de ladicte mairie, paroisse et communauté, ensemble
+                     pour l’establissement de douze justiciers, nomméz selon <lb/>la coustume et
+                     ratifiez et establis de nostre part, commes ès autres justices de nosdicts
+                     souverainetez, avec un lieutenant, un gréffier et un sautier et pour leur
+                     prescrire et <lb/>régler la forme qu’ilz auront à tenir pour rendre bonne et
+                     briesve justice a nosdictz sujectz, nous avons donné tout pouvoir et commission
+                     audict gouverneur d’i donner telle <lb/>provision qu’il trouvera estre à
+                     propos, par l’advis de ceux de nostredict conseil, pour les réglements ainsy
+                     faicts nous estre envoyé et estre par nous authorisé et confirmé. Sy donnons
+                     <lb/>en mandement à nostre amé et féal gouverneur et nostre lieutenant général
+                     en nosdictz comtéz, le sieur de Mollondin et à tous autres nos officiers et
+                     justiciers <lb/>qu’il appartiendra que de cette nostre présente grace,
+                     concession et erection et de tout le contenu en ces présentes, ilz  <del
+                        rend="strikethrough">fassent</del> laissent et souffrent jouir pleinement et
+                     <lb/>paisiblement lesdictz habitans de La Chaux de Fons, sans permettre qu’il y
+                     soit apporté aucun trouble ou émpeschement, car telle est nostre intention,
+                     pour seureté et <lb/>tesmoigniage dequoy, nous avons faict mettre le seel de
+                     nos armes à cesdictes présentes et icelles signées de nostre main, faict
+                     contresigner par nostre <choice>
+                        <abbr>con<hi rend="sup">er</hi></abbr>
+                        <expan>conseiller</expan>
+                     </choice>
+                     <lb/>et <choice>
+                        <abbr>sec<hi rend="sup">re</hi></abbr>
+                        <expan>secretaire</expan>
+                     </choice>
+                     <choice><abbr>ord<hi rend="sup">re</hi></abbr><expan>ordinaire</expan></choice> de nos
+                        commandemens à <placeName>Roüen</placeName>, <date><unclear><add place="above">2<hi rend="sup"
+                           >eme</hi></add></unclear><note>Ce pourrait également être un 3</note>
+                     jour de décembre 1656</date>.</seg></p>
+                  <signed>
+                     <persName ref="per010445a.01">Henry</persName>
+                  </signed>
+                  <p><lb/>Par son Altesse </p>
+                  <signed>Boulanger</signed>
+               </div>
+               <pb n="v"/>
+               <div><p>
+                  <lb/><note>Favarger&#160;1982&#160;: Verso</note>Les présentes ayant esté exhibées et leües publiquement
+                     en Conseil ont esté enregistrées au mannual d’iceluy pour faire jouïr lesditz
+                     habitans et communiers de La Chaux de Fond du contenu en icelles, conforme aux
+                     bonnes intentions de Son Altesse, moyennant la prestation des debvoirs
+                     accoûtuméz et de satisfaire aux conditions et astrainctions y réservées. Faict
+                     en Conseil tenu au chasteau de Neufchastel, ce <date when="1657-01-12">douziesme janvier&#160;1657</date>.</p>
+                  <signed>De Stavay Mollondin</signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, avec trace de sceau plaqué, Archives de La Chaux-de-Fonds, porte feuille «&#160;Documents historiques de La Chaux-de-Fonds&#160;», N<hi rend="sup">o</hi>&#160;2.</p>
+               <p>Éd.&#160;Roulet, <hi rend="italic">Mairie</hi>..., p.&#160;195-197, qui donne à la
+                     page&#160;109, un fac-similé de l’original.</p>
+</div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-101.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 13, S. 437–438</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 13, p. 437–438</idno>
+					</msIdentifier>
+					<head xml:lang="de">Françoise Verdon-Berset – Verhör</head>
+					<head xml:lang="fr">Françoise Verdon-Berset – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-08-20"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="437"/><p><lb/>Im <placeName ref="loc007683.02">bösen thurn</placeName><note>Le procès-verbal de cette séance commence par une mention hors teneur&#160;: <orig><num value="10">x</num> rechnung</orig>.</note>
+							<seg><lb/><origDate when="1637-08-20">20 <foreign xml:lang="la">augusti</foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011527">Beat Jakob von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009267a.01">Brodardt</persName>, <abbr>h</abbr> <choice><abbr>burgerm</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice><note>Gemeint ist <persName ref="per011533">Tobias Gottrau</persName>.</note></seg>
+							<seg><lb/><persName ref="per011531a.01">Schrötter</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per012293a.04">Françoyse</persName> prenommee examinee au long sur tous
+							<lb/>les articles de l’examen, <term ref="lem015549.13">confesse</term> d’avoir <term ref="lem015635.10">baillé</term>
+							<lb/>du <term ref="lem015277.02">baccon</term> a <persName>Claude Fontane</persName>, mais en femme de
+							<lb/>bien et d’honneur.</seg> <seg>Item que son marry l’a battue,
+							<lb/>mais qu’elle ne le <term ref="lem016282.02">demaudissoit</term>&#160;; qu’elle a esté
+						<pb n="438"/><lb/>dans la grange de <persName>Benoist Monney</persName> pour <term ref="lem015009.05">cercher</term>
+								<lb/>les <term ref="lem019398.03">oeufz</term> de ses <term ref="lem019301.04">poulles</term>, qu’allors la femme
+							<lb/>dudit <persName>Monney</persName> la trouva et luy dict qu’elle voulloit
+							<lb/>embler son avoine. Surquoy des parolles aigres
+							<lb/>se passerent d’une part et d’autre, et des hommes
+							<lb/>survindrent, qui dirent qu’il failloit accorder.
+							<lb/>Et depuis, quand la prisonniere escorchoit le chanvre,
+							<lb/>on la manda pour faire l’accord, qui fust faict,
+							<lb/>et luy cousta <measure type="currency" quantity="10" unit="bz">dix batz</measure>, sans qu’elle ehust faict
+							<lb/>aucun tort a ladite femme. Nie d’avoir menacé
+							<lb/>ladite femme.</seg> <seg>Enquise si elle n’avoit esté cy de<lb break="no"/>vant prisonniere, a dict que non. De quel lieu elle
+							<lb/>estoit natifve, a respondu qu’elle avoit esté nourrie
+							<lb/>a <placeName ref="loc008132.04">Lunaure</placeName>, ou ce que son premier marry la print
+							<lb/>et la meina a <placeName ref="loc007953.02">Donatire</placeName>, auquel lieu ilz vescurent
+							<lb/>en mariage <date dur-iso="P13Y">13</date> ou <date dur-iso="P14Y">14 ans</date>, et depuis la mort
+							<lb/>dudit marry, demeura <date dur-iso="P9Y">9 ans</date> a <placeName ref="loc007648">Dompierre</placeName>. Elle advoue
+								<lb/>d’avoir mangee une sienne <term ref="lem019301.02">poulle</term> avec <persName>Susanne</persName>.
+								<lb/>Nie tous les autres articles de l’examen. <term ref="lem019498">Crie
+							<lb/>mercy</term>.</seg> <seg>Ist ler <term ref="lem016150">uffzogen</term> worden.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-240-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/8, S. 77</idno></msIdentifier><head>Aufnahme des Peter Merk in das Bürgerrecht der Stadt Winterthur</head><msContents><summary>Schultheiss und Rat von Winterthur nehmen Meister Peter Merk aus Buggensegel für zwei Jahre als Bürger auf, die Frist kann verlängert werden. Merk soll eine Aufnahmegebühr von 10 Gulden entrichten und sich in die Trinkstube seines Handwerks einkaufen. Ihm werden die gleichen Pflichten betreffend Arbeitsdienst, Wachdienst und Steuern auferlegt wie anderen Bürgern. Innerhalb dieser zwei Jahre kann er jederzeit aus der Stadt wegziehen, ohne Abzugsgebühr für sein Vermögen zu zahlen. Schultheiss und Rat behalten sich vor, ihm das Bürgerrecht aufzukündigen, wenn sein Leumundszeugnis nicht der Wahrheit entspreche oder es die Zürcher Obrigkeit verlangen würde. In einem späteren Zusatz wird vermerkt, dass Peter Merk bei einem Wegzug eine Abzugsgebühr in Höhe von 20 Gulden zahlen soll, während im Fall einer Güterteilung oder des Wegzugs seiner Frau, seines Sohns oder seiner Erben nach seinem Tod die übliche Abzugsgebühr erhoben würde.</summary><msItem><textLang xml:lang="de"/><author role="scribe"><persName ref="per014937">Gebhard Hegner</persName></author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="31.0"/><width unit="cm" quantity="22.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1525-09-15" to="1527-02-02">Der Eintrag datiert vom 15. September 1525, der Nachtrag vom 2. Februar 1527.</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000446">Abzug</term><term ref="key000134">Bürgerrecht</term><term ref="key000479">Dienstpflicht</term><term ref="key000157">Steuern</term><term ref="key005441">Stubengesellschaft</term><term ref="key000580">Wachdienst</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="77" facs="STAW_B_2_8_S.77"/>
+                        <p>
+                            <lb/>Actum <origDate when="1525-09-15">fritag nach <sic>cruce</sic>
+                                <lb/>zuͦ herbst, anno xxv<hi rend="sup">o</hi></origDate>
+                        </p>
+                        <p><seg>
+                            <lb/>Mine heren <orgName ref="org007943">schultheis und raͤte</orgName> haben
+                            <lb/><persName ref="per027964">Peter Mercken</persName> von <placeName ref="loc013120">Buggensegel<!-- Salem FN --></placeName> zuͦ burger
+                            <lb/>angenomen nach volgender meinung:</seg>
+                            <seg>Also
+                                <lb/>daß er unß glich bar für soͤlich burgrecht
+                                <lb/>soͤle geben <measure type="currency" unit="fl" quantity="10">x guldin</measure> und die stuben, so
+                                <lb/>sinem handwerch dienet, kuͦffen,<note>Jedes Handwerk war einer bestimmten Trinkstube zugeordnet. Im Jahr 1477 legte der <orgName ref="org005587">Rat von <placeName ref="loc000849">Winterthur</placeName></orgName> ein Bussgeld für jene fest, die sich einer anderen Trinkstubengesellschaft anschlossen (<bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-107-1">SSRQ ZH NF I/2/1 107-1</ref></bibl>).</note>
+                                <subst><del>und</del><add place="above">och</add></subst> sich in
+                                <lb/>all ander weg mitt stu̍ren, ungelten, tagwen,
+                                <lb/>wachen und allen anderen stucken soll ver<lb break="no"/>dienen wie ander burger. Und soͤl soͤlich
+                                <lb/>burgrecht weren <date dur-iso="P2Y">zwey jar</date>, also oͤb er in
+                                <lb/>den nechsten <date dur-iso="P2Y">zwey jaren</date> von hinen welte
+                                <lb/>scheiden und alhie nit mer bliben, so mag
+                                <lb/>er <del>soͤlichs</del> mit sinem guͦt on abzug faren,
+                                <lb/>doch den burgeren on entgeltnus. Und
+                                <lb/>ob er, so die <date dur-iso="P2Y">zwey jar</date> verschinen, willens
+                                <lb/>wer, witer alhie zuͦ beliben, so sol er das
+                                <lb/>burgrecht <del>witer</del> umb das vorgemelt gelt,<add place="left margin" type="sign"><lb/>so wit er uns witer <lb/><del>gefelt</del> zuͦ einem <lb/>burger gefelt</add>,
+                                <lb/>kuͦfft haben.</seg>
+                            <seg>Doch so habend in mine
+                                <lb/>heren gar luter harine vorbehalten, oͤb
+                                <lb/>im oͤthwas uner, anders dan er uns sins
+                                <lb/>abscheids <add place="above">halb</add> angezuͤgt,<note>Wer als Bürger aufgenommen werden wollte, musste ein Leumundszeugnis (Mannrecht) vorlegen (vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-160-1">SSRQ ZH NF I/2/1 160-1</ref></bibl>;
+                                    <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-239-1">SSRQ ZH NF I/2/1 239-1</ref></bibl>).</note> nach kem oder oͤb <add place="above">uns</add> unsser
+                                <lb/>heren von <placeName ref="loc000065">Zu̍rich</placeName> anmuͦtitin, in hin weg zuͦ
+                                <lb/>thuͦn, das <subst><del>wir</del><add place="above">sy</add></subst> dan <subst><del>vollen gewalt</del>
+                                    <add place="above">volen gewalt haben soͤlen und moͤgin</add></subst>, im soͤlich
+                                <lb/>burgrecht widerum <subst><del>abkunden moͤgin</del>
+                                    <add place="inline">abzeku̍nden</add></subst>.</seg>
+                        </p>
+                        <p><add place="bottom"><seg><lb/>Item mine heren sind mit meister <persName ref="per027964">Peter</persName> sins abzugs halb witer uberkomen
+                            <lb/>also, so er für sich saͤlbs uber kurtz oder lang zit woͤlt hin waͤge ziechen,
+                            <lb/>das als dan er inen für sin abzug
+                            <measure type="currency" unit="fl" quantity="20">xx guldin</measure> gaͤben und sy darmit zalt haben
+                            <lb/>soͤlle. Oͤb aber sy von ein ander teiltin oder das meister <persName ref="per027964">Peter</persName> toͤdlich abgieng, also
+                            <lb/>das die fruͦw, sin sun oder erben hin waͤg ziechen woͤlten, das alß dan sy das
+                            <lb/>saͤlbig guͦt, so sy von hinen ziechen woͤlten, nach unser stat raͤcht verabzugen
+                            <lb/>soͤllin.<note>Einem Ratsbeschluss des Jahres 1491 zufolge betrug die reguläre Abzugsgebühr 20 Prozent des Vermögens (<bibl>STAW B 2/5, S. 456</bibl>).</note></seg>
+                            <seg>Actum <origDate when="1527-02-02">liechtmaͤs, anno xv<hi rend="sup">c</hi> und xxvij<hi rend="sup">o</hi> jar</origDate>
+                                <abbr>etc</abbr>.</seg></add></p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Zur Aufnahme in das Bürgerrecht der Stadt <placeName ref="loc000849">Winterthur</placeName> vgl. den Kommentar zu <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-38-1">SSRQ ZH NF I/2/1 38-1</ref></bibl> sowie <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-160-1">SSRQ ZH NF I/2/1 160-1</ref></bibl> und <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-239-1">SSRQ ZH NF I/2/1 239-1</ref></bibl>. Zu den Bedingungen des sogenannten Abzugs, des Wegzugs aus der Stadt, vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-269-1">SSRQ ZH NF I/2/1 269-1</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

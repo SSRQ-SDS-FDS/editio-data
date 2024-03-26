@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.23-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 245–250</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 245–250</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Sohn / le fils, Pierre Ducli der Vater / le père – Verhör</head>
+					<head xml:lang="fr">Pierre Ducli der Sohn / le fils, Pierre Ducli der Vater / le père – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-31"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="245"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-07-31">31 july 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018141a.01">Burgki</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><seg><lb/><persName ref="per020483a.01">Piere du Cli le jeusne</persName> examiné avant la confronta<lb break="no"/>tion par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict, dit que ceux qu’il
+							<lb/>a <term ref="lem015356.05">acculpé</term>
+							<pb n="246"/><lb/>et ce qu’il a dit estre veritable, <add place="inline">mais par après
+								<lb/>voloit recoler <subst><del>de</del><add place="inline">sa</add></subst> <term ref="lem019465.01">confession</term> avec variation de s’avoier
+							<lb/>faict tord.</add></seg></p>
+						<p><seg><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</seg>
+							<seg><add place="inline"><subst><del>La desus</del><add place="inline">Serieusement</add></subst> examiné et</add>
+							<lb/>confronté la desus à <persName ref="per020299a.01">Mathia Cossandey</persName>, <!-- verweis auf Fall machen -->luy soustient
+							<lb/>fermement l’avoier veu en <placeName ref="loc011457.02">Verdilu</placeName>, à la <term ref="lem017043">secte</term>
+							<lb/>en <placeName ref="loc008500.03">Montcour</placeName> et pont de <placeName>Marze</placeName><note>L’identification du lieu est incertaine. Il pourrait s’agir d’un pont se trouvant en <placeName ref="loc011690">Les Marches</placeName>, à l’est de Matran.
+								Il existe aussi un lieu-dit <placeName ref="loc011692">Bois du Pont</placeName>, situé au sud, juste au-dessous du village de Matran. Enfin, un peu plus éloigné de Matran, au sud-ouest, il existe encore un lieu-dit
+								<placeName ref="loc011691">Pont Neuf</placeName>, juste en dessous du <placeName ref="loc011689">Marchet</placeName>.</note>, ou <persName ref="per029450a">To<del>u</del>rzi</persName> la
+								<lb/>dansoit.</seg></p>
+						<p><seg><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</seg>
+							<seg><lb/><foreign xml:lang="la">Idem</foreign> à <persName ref="per020304a.02">Ageta Corbu</persName> <!-- Verweis auf Fall machen -->
+							<lb/>confronté, nie d’abord ne l’avoier veu, mais par après
+							<lb/>luy soustient fermement l’avoier veu à la <term ref="lem017043">secte</term>
+							<lb/>au pont de <placeName>Marze</placeName> et en <placeName ref="loc011457.02">Verdilu</placeName>, et <placeName ref="loc008500.03">Montcour</placeName>,
+							<lb/>ou elle dansoit avec le <term ref="lem015433.03">maling esprit</term>.</seg></p>
+						<p><seg><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</seg>
+							<seg><lb/>Le dit <persName ref="per020483a.04">du Cli</persName> confronté à <persName ref="per020510a.01">la grande Jasnne</persName> persiste
+							<lb/>et confirme l’avoier veu deux fois à la <term ref="lem017043">secte</term>,
+							<lb/>sçavoier vers le pont de <placeName>Marze</placeName> et en <placeName ref="loc011457.03">Verdillu</placeName>,
+								<lb/>il ast <date dur-iso="P1Y">un an</date>, i dansant avec <persName ref="per029450a.01">Tortzi</persName> leur
+								<lb/><term ref="lem019555.05">maistre</term>.</seg></p>
+						<p><seg><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</seg>
+							<seg><lb/>La femme de <persName ref="per020503a.01">Mayor</persName><note>Gemeint ist <persName ref="per020499">Elisabeth Mayor-Savarioud</persName>.</note> presentée au dit <persName ref="per020483a.04">du Cli</persName> persiste
+							<lb/>l’avoier veu à la <term ref="lem017043">secte</term> sur <placeName ref="loc008500.04">Moncour</placeName>, <subst><del>et l</del><add place="overwritten">il</add></subst> a <date dur-iso="P3Y">trois
+							<lb/>ans</date>, en <placeName ref="loc011457.04">Verdelieu</placeName> et au pont de <placeName>Marze</placeName>, en
+								<lb/>quels lieux luy et leur <term ref="lem019555.05">maistre</term> <persName ref="per029450a">Torzi</persName> la dansoint.</seg></p>
+						<pb n="247"/><p><seg><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</seg>
+							<seg><lb/><persName ref="per020522a.01">Anna Spilman</persName> estant accarée et confrontée au
+							<lb/>dit <persName ref="per020483a.04">jeusne du Cli</persName> persistant luy dit l’avoier
+							<lb/>veu, il a <date dur-iso="P3Y">3</date> ou <date dur-iso="P4Y">4 ans</date>, à la <term ref="lem017043">secte</term> en <placeName ref="loc011457.02">Verdilu</placeName> et
+								<lb/>pont de <placeName>Marze</placeName>, en quel lieu elle dansoit avec <persName ref="per029450a">Torzi</persName>,
+							<lb/>i estant illec esclairé d’un <term ref="lem019529.01">feu</term> bleuf.</seg></p>
+						<p><seg><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</seg>
+							<seg><lb/>Confronté le susnommé <persName ref="per020483a.04">jeusne du Cli</persName> avec <persName ref="per020532a.01">Piccand</persName>,
+							<lb/>le vieux lieutenant <add place="above">de <placeName ref="loc007935.13">Farvagni</placeName></add>, dit ne le cognaistre, ni l’avoier
+							<lb/>veu à la <term ref="lem017043">secte</term>. Estant la desus mis à la <term ref="lem018792.01">question</term>,
+							<lb/><subst><del>d</del><add place="overwritten">a</add></subst>ssere l’avoier veu deux fois à la <term ref="lem017043">secte</term>, il a <date dur-iso="P5Y">5 ans</date>,
+							<lb/>le quel <subst><del>bevoit</del><add place="inline">à table bevoit</add></subst>, sans que luy fust
+								<lb/>participant puis qu’il n’avoit volu <term ref="lem019552.01">renoncer</term>
+							<lb/>à Notre Dame, ou le <term ref="lem015433.03">maling esprit</term> apparesoit
+							<lb/>avec des mains comme pieds de <term ref="lem018314.06">chin</term> et ses pied
+							<lb/>comme de <term ref="lem018923.04">beuf</term>, <add place="inline">resemblant un homme de moiti agé&#160;; persistant
+							<lb/>avoier faict mourir le <term ref="lem018921.01">cheval</term> de <persName>Tissot</persName>, ayant resceu
+							<lb/>qu’il estoit perri par le rapport que luy en fit <persName>Hanseman Bouvey</persName>.</add></seg></p>
+						<p><seg><lb/>Le dit <persName ref="per020483a.05">jeusne du Cl<subst><del>e</del><add place="overwritten">y</add></subst></persName> s’est pendant la confrontation
+							<lb/>diverses fois retracté et varié, mais finalement
+							<lb/>le tout à la <term ref="lem015441.06">gehne</term> reconfirmé de ces precedentes <term ref="lem019465.02">confessions</term>,
+							<lb/>en ayant demandé à Dieu et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> pardon.</seg></p>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, <foreign xml:lang="la">eadem die</foreign>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> oberster <persName ref="per013438a.01">von Perroman</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079a.04">du Pré</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018141a.01">Burgki</persName></seg></p>
+						<p><lb/><persName ref="per020477a.05">Pieru du Cli <add place="above">le vieux</add></persName> par messieurs du droict examiné
+							<pb n="248"/><lb/>et <term ref="lem019427.03">torturé</term> du <term ref="lem018232">quintal</term> par trois fois, confirme d’abord
+							<lb/>et ses accusations et <term ref="lem019465.02">confessions</term> faictes ci devant,
+							<lb/>et dit son fils estre allé avec luy à la <term ref="lem017043">secte</term>. Variant
+							<lb/>par après, dit qu’il crint de faire tord au femmes
+							<lb/><term ref="lem015356.16">acculpées</term>&#160;; si<subst><del>par</del><add place="above">tout</add></subst> après dit qu’il luy semble avoier
+							<lb/>veu <persName ref="per020299a">Mathia</persName>, <persName ref="per020304a.02">Ageta</persName> et la feme<!-- wollen wir diese als NN Curti tagen? sie wird nie mit Vornamen genannt. --> de <persName>Niclaus Courti</persName>,
+							<lb/>serviteur, il ast quelque temps, du <placeName ref="loc010681.01">Cheval blanc</placeName>, et
+							<lb/>asserant i avoier veu aussi sa fille<note>Gemeint ist <persName ref="per020487">Antoinie Ducli</persName>.</note>, ce qu’il reiterat
+							<lb/><del><add place="left margin">quelque</add></del> <del><add place="above">fois</add></del> plutout (suivant l’apparrance) par mahlvelliance
+							<lb/>diverses foy que d’assurance.</p>
+						<p><seg><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</seg>
+							<seg><lb/>Estant confronté le dit <persName ref="per020477a.07">du Cli l’aisné</persName> à <persName ref="per020304a.08">Agate
+							<lb/>Corbu</persName>, nie d’abort et mest en doubte l’avoier
+							<lb/>veu à la <term ref="lem017043">secte</term>, combien que avant la confronta<lb break="no"/>tion, il avoit asseré l’avoier veu à la <term ref="lem017043">secte</term>
+							<lb/>sur <placeName ref="loc008500.03">Montcour</placeName>, <add place="above">et</add> premierement au <placeName ref="loc011458.02">Creu Dornant</placeName>
+							<lb/>et vers le pont de <placeName>Marze</placeName>, ou luy et son fils
+								<lb/>la dansarent, se que par après, estant applicqué
+								<lb/>à la <term ref="lem015441.05">gehnne</term> du <term ref="lem018232">quintal</term>, il reiterat et con<lb break="no"/>fermat, <term ref="lem015549.03">confessant</term> son <term ref="lem019555.05">maistre</term> s’appeller
+								<lb/><persName ref="per029451a">Gryffon</persName>.</seg> <seg>Et estant ulterieurement interrogé
+								<lb/>de ses fourfaict, <subst><del>et examiné</del><add place="inline"> <term ref="lem015549.05">confessat</term></add></subst> avoier
+							<lb/>faict mourir le petit <persName>Uldri Zauvaliat</persName>
+								<lb/>d’<placeName ref="loc007902.07">Eccuvilin</placeName> et sa femme en lé <term ref="lem018556.11">maleficiant</term>
+								<lb/>avec son <term ref="lem019526.01">souffle</term>, lé quels mourrurent ce
+							<lb/>printemps passé. De mesme avoier avec
+								<lb/>le <term ref="lem019526.01">souffle</term> <term ref="lem018313.02">inficié</term> <persName>Claudu Corbu</persName> de <placeName ref="loc008073.01">Matran</placeName>,
+							<lb/>que mourut promptement. Plus la feme
+								<lb/>de <persName>Christu Corminbeuf</persName> <add place="above">d’<placeName ref="loc008116.04">Avry</placeName></add>, en <term ref="lem019525.03">souflant</term>, l’avoier
+								<lb/><term ref="lem018556.03">maleficié</term> mortelement. Plus il ast <date dur-iso="P3Y">trois anns</date>,
+						<pb n="249"/><lb/>passant proche de la femme de <persName>Claus</persName> d’<placeName ref="loc008116.04">Avry</placeName>, l’avoier <term ref="lem018313.02">inficié</term>
+								<lb/>par son <term ref="lem019526.01">souffle</term> et rendu malade, la quele mourut l’anné
+								<lb/>passé. Davantage ast il <term ref="lem015549.07">confessé</term> avoir <term ref="lem018556.03">maleficié</term> la fillie
+							<lb/><add place="left margin">de <persName>Metro</persName></add> à la mort, <add place="inline">et</add> la filie de <persName>Helbling</persName>, et <persName>German</persName> de <placeName ref="loc007977.10">Belfu</placeName>,
+								<lb/>luy ayant <term ref="lem019525.02">souflé</term> sur la maison de ville il ast <date dur-iso="P3Y">3 ans</date> encontre.
+							<lb/><add place="left margin">De mesme</add> le tallieur de <placeName ref="loc008123.05">Neiru</placeName> et un certain de <placeName ref="loc011456.03">Lussi</placeName> nommé <persName>Gyndroz</persName>,
+								<lb/>l<subst><del>’</del><add place="overwritten">uy</add></subst> ayant devant le logis de <persName>Gumin</persName>, sur <placeName ref="loc007883.07">Lé Plases</placeName>, <term ref="lem018480.02">halené</term>
+								<lb/>encontre, le quel ainsi <term ref="lem018556.03">maleficié</term> en morut citout
+								<lb/>après. Plus ast il <term ref="lem015549.07">confessé</term> qu’estant convié au noupces
+							<lb/>de son cousin <persName>Jasque Barbey</persName> à <placeName ref="loc007648.09">Dompieru</placeName>, i avoier,
+								<lb/>en <term ref="lem019525.05">soufflant</term>, <term ref="lem018556.03">maleficié</term> le curé du lieu domp <persName>Beney Motta</persName>,
+								<lb/>qui par après en mour<del>r</del>ut. De mesme aussi certain rousseau
+								<lb/>nommé <persName>Rollinet</persName>, d’illec avoier alors <term ref="lem018556.03">maleficié</term> pour
+								<lb/>s’estre mocqué de luy, le quel <date dur-iso="P6M">demi an</date> par après
+								<lb/>mourut. Finalement <del>au</del>dit avoir <term ref="lem018313.02">inficié</term> un <term ref="lem018921.01">cheval</term>
+								<lb/>de <persName>Claude Gée</persName> et deux <term ref="lem018922.03">jumment</term> à <persName>Jehan Gée</persName>
+								<lb/>avec le <term ref="lem019526.02">soffle</term> que le <term ref="lem015433.03">maling esprit</term> luy <term ref="lem019525.07">soufflait</term>
+							<lb/>tout chaud encontre, qu’en <term ref="lem018017.06">mecheurent</term>. <subst><del>Plus</del><add place="overwritten">Ainsi</add></subst> aussi, <add place="inline">il a <date dur-iso="P7Y">7</date>
+								<lb/>ou <date dur-iso="P8Y">8 an</date></add>, un <term ref="lem018921.01">cheval</term> de certain <persName>Bouginion</persName> sur <placeName ref="loc007883.06">Lé Places</placeName>, estant
+							<lb/>entré dans l’escurrie ou estable, l’avoier avec s<subst><del>on</del><add place="above">’</add></subst>
+							<lb/><term ref="lem018481.02">halene</term> <term ref="lem018313.02">inficié</term>, qui en <term ref="lem018017.07">mechut</term>.</seg> <seg>Ayant aussi dit
+							<lb/>que luy et sa mere avoint par deux fois detourné
+							<lb/>son pere qu’il ne s’estranglat, ce que <del>partant</del>
+							<lb/>n’ayant partant <add place="above">peu</add> empecher, ains qu’il fust trové
+								<lb/>au <term ref="lem019146.02">zappeti</term> en fins pendu et estranglé. Il fust de la
+							<lb/>enlevé par l’assistance de <persName>Niclo Gée</persName> et la femme
+							<lb/>de pettit <persName>Claude</persName>, lé quels on tiré bonnes pieces
+							<lb/>d’argent pour tenir le tout secret.</seg> <seg>Estant
+							<lb/>le dit <persName ref="per020477a.08">Ducli</persName> <term ref="lem019393.05">questioné</term> la troisime fois du <term ref="lem018232">quintal</term>
+							<lb/>et interrogé si ce qu’il avoit <term ref="lem015549.07">confessé</term> estoit veritable,
+							<lb/><subst><del>la desus</del><add place="inline">il ast</add></subst> confirmé le tout, ainsi aussi avoier
+								<lb/>veu <persName ref="per020299a">Mathia</persName> et <persName ref="per020304a.07">Agate</persName> à la <term ref="lem017043">secte</term>, demandant
+						<pb n="250"/><lb/>à Dieux et à Leur Exellences.<note>Le procès-verbal de l’interrogatoire s’interrompt ainsi.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

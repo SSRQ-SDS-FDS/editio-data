@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-82-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;198r</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur le rang que doivent tenir aux États les
+                  acquéreurs de fiefs selon leur condition </head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1547-05-24"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_195"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;82</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000022"></term>   
+               <term ref="key003793"></term>   
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="198r" facs="AEN_3PAST_2_197v_198r"/>
+               <div><add place="left margin"><lb/>L’ordre et rang que <lb/>doibvent tenir ceux <lb/>qui acquierent des
+                        fiedz</add>
+                  <p><lb/>Et pour ce que ceux qui ont acquis des fiedz desiroyent estre assis au
+                     rang <lb/>des seigneurs qui les ont venduz, a esté cogneu par messeigneurs des
+                     Trois Estatz, sy <lb/>ung gentilhomme né en noblesse acheptoit un fied
+                     entierement et qu’il fut <lb/>capable, que alors il pourra avoir le siege de
+                     celuy qui l’aura vendu. <lb/>Mais quant a ceux qui achetent une portion d’un
+                     fied, puis se font anoblir <lb/>pour assister ausditz estatz, iceux seront
+                     toujours assis apres les autres <lb/>gens anobliz et non preferez devant les
+                     autres.</p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;198r.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;276v.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;11.</p>
+               <p>Registre des Trois-États, I, fol.&#160;14v.</p>
+               <p>AEN, T&#160;12, N<hi rend="sup">o</hi>&#160;2, p.&#160;41.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic"><hi rend="italic">Plaits</hi></hi>,
+                     p.&#160;8-9.</p>
+              </div>
+               <div>
+                  <p>Remarque&#160;:</p>
+               <p>Le 29&#160;mai&#160;1565, lors de la session des Trois-États, <hi rend="italic"
+                        >Monsieur du Terreaux a mis en déclaration de Stäff Schwaller qu'estoit
+                        assis au nom des enfans masles de feu Froelich debvoit estre assis au
+                        dessoubs de luy veu que led. Froelich n'avoit esté nez en noblesse</hi>. Du
+                     Terreaux renvoie à la décrétale de&#160;1547 (AEN, «&#160;Audiences
+                     générales&#160;», vol.&#160;IV, fol.&#160;51). En&#160;1430 (AEN, Henri Pigaud,
+                     notaire, vol.&#160;II, fol.&#160;11), noble Jean de Colombier lors de la
+                     revendication d'un fief noble, dit la «&#160;le petit dieme eix genty
+                     home&#160;» à Dombresson, affirme que Perrod, son actuel détenteur, <hi
+                        rend="italic">n'estoit digne de tenir fiez</hi>. Dès les années&#160;1480,
+                     des litiges relatifs à des fiefs nobles sont portés en appel devant les
+                     Trois-États, cf. AEN, «&#160;Audiences générales&#160;», vol.&#160;I,
+                     fol.&#160;171, 176v.</p>
+                          </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

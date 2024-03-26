@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.56-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 281–286</idno>
+     </msIdentifier>
+     <head>Prescriptions</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key003040"/>
+     <term ref="key000874"></term>
+     <term ref="key000231"></term>
+     <term ref="key005095"></term>
+     <term ref="key004969"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body> <pb n="281" facs="AEN_MJ_17_280_281"/>
+     <div>
+      <head type="title">
+       <lb/><choice><abbr>Chapp.</abbr><expan>Chappitre</expan></choice> LVI.
+       <lb/>Des prescriptions.</head>
+      <p>
+       <lb/>Par decret observé et <lb/><app>
+        <lem>reconfirmé</lem>
+        <rdg wit="AVN Q41, p. 93">confirmé</rdg>
+       </app> en toutes les audiences <lb/>generalles, ainsy aussy qu’en tous <lb/>pays de coustume il y a une seulle <lb/>prescription, qu’est de <date dur-iso="P30Y">trente ans</date>, <lb/><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 93">lequel terme</rdg>
+       </app> est encor declarée <app>
+        <lem>la</lem>
+        <rdg wit="AVN Q41, p. 93">estre</rdg>
+       </app> prescription <lb/><add place="below" type="catchword">usitée</add>
+       <pb n="282" facs="AEN_MJ_17_282_283"/>
+       <lb/>usitée en ces comtez, moyenant lequel <lb/>tous droits &amp; actions se prescripvent <lb/>envers tous, exepté le prince &amp; <lb/>ceux qui sont en aage <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 93">de minorité, et en estat</rdg>
+       </app> de <term ref="lem018349.02">pupilarité</term>, <lb/>&amp; qui ne peuvent agir <app>
+        <lem>&amp;</lem>
+        <rdg wit="AVN Q41, p. 93">ny</rdg>
+       </app> deffendre, <lb/>comme sont fils de famille, furieux <lb/>et insensez, &amp; ceux qui sont absents <lb/>pour charges publicques<app>
+        <lem>, &amp; ce qui a <lb/>esté payé continuellement durant <lb/>ledit terme de <date dur-iso="P30Y">trente ans</date>, sert de <lb/>tiltre vaillable.</lem>
+        <rdg wit="AVN Q41, p. 93"><note>Nouveau paragraphe dans AVN Q41.</note>Et comme tous droicts, et actions, ayant laissé escouler <lb/><date dur-iso="P30Y"
+          >trente ans</date> sont prescripts&#160;: au contraire ce qui a esté continuellement <lb/>payé durant le terme de <date dur-iso="P30Y"
+         >trente ans</date>, sert de tiltre valide a <lb/>celuy auquel cela est dheu&#160;: moyennant que par bonnes quitances, <lb/>ou fideles tesmoins, il puisse monstrer et faire paroistre, cela <lb/>luy avoir esté continuellement payé durant trente ans.</rdg>
+       </app></p>
+      <p>
+       <lb/>Il y a certains <app><lem>cas</lem>
+        <rdg wit="AVN Q41, p. 94">temps</rdg>
+       </app> que la pres<lb break="no"/>cription court plustost, comme <lb/>il a esté cy devant
+       mentionné <app><lem/>
+        <rdg wit="AVN Q41, p. 94">touchant</rdg>
+       </app> un <lb/>chescun <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 94">poinct</rdg>
+       </app> en son lieu.</p>
+      <p>
+       <lb/><term ref="lem015149.06">Dixme</term> ne se peut prescripre,  <lb/><add place="below"
+        type="catchword"><choice>
+         <abbr>l’ex</abbr>
+         <expan>l’exemption</expan>
+        </choice></add>
+       <pb n="283" facs="AEN_MJ_17_282_283"/>
+       <lb/>l’exemption ne s’en pouvant prouver <lb/>que par bons tiltres &amp; <choice>
+        <abbr>confirmaons</abbr>
+        <expan>confirmations</expan>
+       </choice>.</p>
+      <p>
+       <lb/>Qui tient par ferme et <term ref="lem014978"><choice>
+         <abbr>admodiaon</abbr>
+         <expan>amodiation</expan>
+        </choice></term>, <lb/><term ref="lem018350.02">prest</term>, usufruict, <term
+        ref="lem016009.03">engagere</term>, <term ref="lem018351.02">reachept</term>
+       <lb/>perpetuel <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 94">ou</rdg>
+       </app> fief noble ne peut <lb/>prescripre.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term>
+       <term ref="lem018028.02">prelats</term>, gens d’eglise, hospitaux, <lb/>villes, communautez
+       qui par <lb/>tiltre de <term ref="lem018352.02">legat</term>, <term ref="lem014969.02"
+        >discution</term>, donnation, <lb/><term ref="lem015546">vendition</term> et quelqu’autre
+       maniere, <lb/>qui auroyent acquis quelques <lb/>heritages ou possessions ne le <lb/>peuvent
+       prescripre pour en tous<lb break="no"/>jour jouyr, <term ref="lem015643">ains</term> peuvent
+       en <lb/>tous temps estre contraints d’en  <lb/><add place="below" type="catchword"
+        >vuider</add>
+       <pb n="284" facs="AEN_MJ_17_284_285"/>
+       <lb/>vuider leurs mains, sy tant <lb/>n’estoit qu’ils en fussent en possession <lb/>qui
+       passast toute memoire d’homme, <lb/>qui fait presumer concession, ou que <lb/>le prince
+       n’eust donné son <choice>
+        <abbr>consentem<hi rend="sup">t</hi></abbr>
+        <expan>consentement</expan>
+       </choice>
+       <lb/>toutesfois le pays pretend <app>
+        <lem>estre</lem>
+        <rdg wit="AVN Q41, p. 94">estant</rdg>
+       </app>
+       <lb/>franc y pouvoir donner leur bien <lb/>comme franc.</p>
+      <p>
+       <lb/>Encores que se soit la coustume <lb/>generalle que la prescription ne <lb/>coure <app><lem>que de</lem><rdg wit="AVN Q41, p. 94">qu’en</rdg></app> <date dur-iso="P30Y">trente ans</date>, toutesfois <lb/>il ne sera permis d’ores en avant <lb/>de
+       demander plus de cinq retenues <lb/>de <term ref="lem015877.02">censes</term>
+       <app>
+        <lem/><rdg wit="AVN Q41, p. 94">tant</rdg>
+       </app> en <term ref="lem016396.05">esgallation</term>, <term ref="lem014995.02">taxe</term>, <choice>
+        <abbr>payem<hi rend="sup">t</hi></abbr>
+        <expan>payement</expan>
+       </choice>
+       <lb/>qu’autre citation et poursuitte <lb/>soit de <term ref="lem015877.02">censes</term> et
+        <term ref="lem014979.02">arrerages</term> de <lb/>rentes et prestations annuelles, <lb/>ou
+       par <term ref="lem014978.04">admodiations</term> encor qu’il y <lb/><add place="below"
+        type="catchword">eust</add>
+       <pb n="285" facs="AEN_MJ_17_284_285"/>
+       <lb/>eust desdites choses <date dur-iso="P20Y">vingt &amp; tant <lb/>d’années</date> de retenues,
+       &amp; ce sans <lb/>prejudice des sorts capitaux, s’ils <lb/>ne sont prescripts.</p>
+      <p>
+       <lb/>Le larrecin a suitte sans pres<lb break="no"/>cription et sans restitution du prix,<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 94"> ou de la chose prise,</rdg>
+       </app>
+       <lb/>sy ce n’est que le larrecin aye esté <lb/>vendu en lieu public de marché, alors
+       <lb/>restitution de prix se debvra faire.</p>
+      <p>
+       <lb/>Protestes ne peuvent servir
+       <lb/>d’interruption ny pour maintenir
+       <lb/>aucun droit sy elle n’est pousuivie
+       <lb/>dedans <date dur-iso="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>, car apres tel
+       <lb/>terme est de nul effect.
+      </p>
+      <p>
+       <lb/>Celuy qui a fait <term ref="lem017868.02">adjourner</term> sa partie <lb/>devant justice
+       &amp; luy a formé demande <lb/><add place="below" type="catchword">pour</add>
+       <pb n="286" facs="AEN_MJ_17_286_287"/>
+       <lb/>pour avoir la chose dont question est <lb/>de prescription, sans neantmoings <lb/>avoir
+       fait autre poursuitte de sadite <lb/>demande peut justement prouver <lb/>interruption, &amp;
+       que la possession <lb/>n’a esté paisible comme aussi quand <lb/>de la poursuitte de
+       l’interressé il <lb/>s’est fait quelque commandement et <lb/>execution de justice contre le
+       possesseur, <lb/>mais il faut que telle demande &amp; <lb/>poursuitte soit faicte devant juge
+       <lb/>competant, <choice>
+        <abbr>autrem<hi rend="sup">t</hi></abbr>
+        <expan>autrement</expan>
+       </choice> ne <app>
+        <lem>soit</lem>
+        <rdg wit="AVN Q41, p. 94">sert d’</rdg>
+       </app> interruption.</p>
+      <p>
+       <lb/>L’instance de quelque cause en <choice><abbr>jugem<hi rend="sup">t</hi></abbr><expan>jugement</expan></choice>
+       <lb/>delaissée a poursuivre par <date dur-iso="P1Y6W"><term ref="lem014776">an &amp;
+       <lb/>jour</term></date> est perie et prescripte.
+      </p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

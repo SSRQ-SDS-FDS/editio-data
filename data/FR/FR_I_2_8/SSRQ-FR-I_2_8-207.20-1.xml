@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.20-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 282 (1731), S. 414–415</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 282 (1731), p. 414–415</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond, Jacques Bouquet – Anweisung</head>
+					<head xml:lang="fr">Catherine Repond, Jacques Bouquet – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-07-27">27<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> [1731]</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="414"/>
+						<p><lb/><abbr>H</abbr> gerichtschryber<note>Gemeint ist <persName ref="per028157a">Franz Nikolaus Haberkorn</persName>.</note> wirdt den <term ref="lem018678.03">thurn roddel</term> durch <term ref="lem018893.02">außsuechen</term>
+						<lb/>und examinieren, umb eine sichere <subst><del><unclear>list</unclear></del><add place="inline">oder</add></subst> gedeütlichere
+						<lb/><foreign xml:lang="la">lista</foreign> aufsetzen <add place="above">laßen</add> deren nahmen, so die einligende <persName ref="per028134a">Catherine
+						<lb/>Repond</persName> alß <term ref="lem006693.06">hexen</term> angegeben hatt, insonderheit aber,
+						<lb/>ob der <persName>Margueritta Pugin</persName> nit ein ander nahmen ist
+						<lb/>gegeben worden. Soll alles den künfftigen montag
+						<lb/>vor meinen gnädigen <choice><abbr>h<hi rend="sup">n</hi></abbr><expan>herren</expan></choice> und oberen widerbracht werden.</p>
+						<pb n="415"/><p><lb/>Mandat</p>
+						<p><lb/>An <abbr>h</abbr> ambstmann von <placeName ref="loc007861.02">Boll</placeName><note>Gemeint ist <persName ref="per028150a">Franz Philippe Vonderweid</persName>.</note>, daß haus des einligenden <persName ref="per028151a.03">Jaques
+						<lb/>Bouquet</persName> <term ref="lem018893.02">außzusuechen</term>, umb zu vernehmen, ob keine instrumenten
+							<lb/>oder mineralia zu fünden seindt, in denen er alß ein <term ref="lem019388.02">falschmüntzler</term>
+						<lb/>von der einligende <persName ref="per028134a">Catherine Repond</persName> ist angegeben worden.</p>
+						<p><lb/>Weiters soll obgesagten <abbr>h</abbr> ambtsmann den <term ref="lem018678.03">thurn roddel</term> auf suechen,
+							<lb/>frage er bey denen <term ref="lem019069.03">curialen</term> <persName>Geynoz</persName> und <persName>Tenterey</persName>, ob sie ihn nit habend.
+						<lb/>Wirdt er gefunden, soll derselbe in das schlos aufbehalten werden,
+						<lb/>und <term ref="lem018902.02">estens</term> eine copy der <term ref="lem011989.03">procedur</term> des obgedachten <persName ref="per028151a.02">Bouquet</persName>, so geschehen
+							<lb/>ist in zeiten des <choice><abbr>h<hi rend="sup">n</hi></abbr><expan>herrn</expan></choice> <persName ref="per028171a">Ufflegers</persName><note>Gemeint ist <persName ref="per028171a">Hans Anton Uffleger</persName>, Vogt in Bulle von 1700–1707.</note>, ihr gnaden zu <term ref="lem005639">verschaffen</term> <del>per</del>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

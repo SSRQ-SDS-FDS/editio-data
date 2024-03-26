@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-140-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.007, fol. 258r</idno>
+     </msIdentifier>
+     <head>Déplacement de bornes après une mise en taxe</head>
+     <msContents>
+      <summary>Celui qui a fait une taxe ne peut pas déplacer lui-même les bornes, c’est une
+       prérogative officielle.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="34"/>
+          <width unit="cm" quantity="23.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1652-07-07" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005095"></term>
+     <term ref="key005052"></term>
+     <term ref="key005189"></term>
+     <term ref="key000376"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="257v"/> 
+     <div>
+      <head>
+       <lb/>Le <origDate when="1652-07-07" calendar="Julian">7<hi rend="sup">e</hi> de juillet <hi rend="underline">1652</hi></origDate> en <orgName ref="org007660">Conseil <choice><abbr>gnal</abbr><expan>général</expan></choice></orgName>,
+       <lb/>president <choice><abbr>led</abbr><expan>ledit</expan></choice> <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>sieur</expan></choice> <choice><abbr>mr<hi rend="sup">e</hi></abbr><expan>maitre</expan></choice> bourgeois <persName ref="per010435a.02">Berthoud</persName>.
+      </head>
+     </div>
+     <gap reason="irrelevant"/>
+     <pb n="258r" facs="AVN_B_101.01.01.007_0258r"/> 
+     <div><head><lb/><choice><abbr>Dud</abbr><expan>Dudit</expan></choice> jour que devant en <orgName ref="org003085">Conseil estroict</orgName>.</head></div>
+     <gap reason="irrelevant"/>
+     <div>
+      <p>
+       <lb/>Le <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>sieur</expan></choice> greffier <persName ref="per009030">Philibert Perroud</persName> ayant requis le poinct
+       <lb/>de coustume suivant.
+      </p>
+      <lb/><add place="left margin">Points de coutume</add>
+      <add place="left margin" rend="pencil" hand="later hand"><choice><abbr>Délib</abbr><expan>Délibération</expan></choice></add>
+      <p>
+       <lb/>Scavoir <term ref="lem016286">mon</term> si une personne qui a faict une <term
+        ref="lem014995.02">taxe</term> a un <lb/>autre, peut elle mesme poser et planter les bornes
+       et si elles <lb/>ne se doivent pas planter et poser par l’officier assermenté <lb/>et si
+       telle <term ref="lem014995.02">taxe</term> n’est pas selon coustume irreguliere et frivole. </p>
+      <p>
+       <lb/>Il a esté arresté que telles bornes ne se peuvent planter par <lb/><choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice> partie si ce n’est en <choice>
+        <abbr>pnce</abbr>
+        <expan>présence</expan>
+       </choice> d’un <unclear cert="medium">taxateur</unclear>.</p>
+      <p>
+       <lb/>Il a esté arresté que l’on priera <choice>
+        <abbr>monseign<hi rend="sup">r</hi></abbr>
+        <expan>monseigneur</expan>
+       </choice> le <choice>
+        <abbr>gouvern<hi rend="sup">e</hi></abbr>
+        <expan>gouverneur</expan>
+       </choice>
+       <choice>
+        <abbr>po<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> avoir <lb/>justice du jour au lendemain tant contre le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice> mayre de <placeName ref="loc005950.05">Vallangin</placeName>
+       <lb/>que contre <persName ref="per012829">Claude Baillod</persName>. </p>
+      </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"  
+    xml:lang="fr" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"> 
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XIX<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Vaud, D. Répression de la sorcellerie en Pays de Vaud (XV<hi rend="sup">e</hi>–XVII<hi rend="sup">e</hi> siècles), Tome 1&#160;: le registre Ac 29 des ACV</title><editor>
+    <persName>Pau Castell Granados</persName>
+</editor>
+<editor>
+    <persName>Gwendolin Ortega</persName>
+</editor>
+<editor>
+    <persName>Martine Ostorero</persName>
+</editor>
+                <respStmt>
+                    <persName>Pau Castell Granados</persName>
+                    <persName>Gwendolin Ortega</persName>
+                    <persName>Martine Ostorero</persName>     
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Martine Ostorero</persName>
+                    <resp key="qualitycheck"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Gwendolin Ortega</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2019"/>
+                <date type="print" when="1996"/>
+                <availability><p xml:id="facs">Archives cantonales vaudoises (ACV)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+            </publicationStmt>         
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Les sources du droit suisse</title>
+                <respStmt>
+                    <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+                    <resp/> 
+                </respStmt>
+                <idno>SDS-VD-D_1-14-1</idno>
+            </seriesStmt>      
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository xml:lang="fr">Archives cantonales vaudoises</repository>
+                        <idno source="http://www.davel.vd.ch/detail.aspx?id=244271" xml:lang="fr">ACV, Ac 29, p.&#160;254–263, 228–251</idno>
+                    </msIdentifier>
+                    <head>Procès de sorcellerie intenté contre Jaquet de Panissère, de Chardonne</head>
+                    <msContents>
+                        <summary>
+                            <p>Jaquet de Panissère alias Magnyn, de Chardonne, comparait le 26 août 1477, devant l’official Baptiste d’Aycard, au château épiscopal d’Ouchy. Le vice-inquisiteur Pierre de Pascua le rejoint le 4 septembre, lors de la deuxième monition, pour instruire avec lui la suite du procès. Au cours des trois premières monitions, l’inculpé reconnait avoir déjà été emprisonné et jugé comme hérétique par le seigneur d’Oron-le-Châtel. Ce dernier, qui l’aurait incité à dénoncer une femme, lui avait imposé une pénitence et l’avait banni de tout le diocèse, après paiement de la caution par les fils de l’inculpé. Le 10 septembre, suite à la quatrième monition, le procureur de la foi Mermet Nycod demande la sentence interlocutoire afin de soumettre Jaquet à la question, laquelle sentence sera rendue par la cour le même jour et exécutée immédiatement par le châtelain d’Ouchy&#160;; soulevé par la corde et interrogé sous torture, il refuse toujours de passer aux aveux. Le lendemain, à l’instigation de l’official, Jaquet avoue et dénonce trois hommes. Le 12 septembre il poursuit ses aveux après avoir été à nouveau torturé et dénonce huit personnes (3 hommes et 5 femmes). Il ratifie et poursuit ses aveux à trois reprises le 13, le 15 et le 16 septembre, date à laquelle il dénonce un dernier complice (au total&#160;: 7 hommes et 5 femmes). Jaquet ratifie et complète ses aveux le 17 septembre devant la cour présidée par l’inquisiteur Thomas Gogat, qui demande une dernière ratification le 19 septembre. Ce même jour, le procès est clos par l’inquisiteur, qui assigne les parties au lendemain pour la publication de la sentence [de mort par le feu].</p>
+                        </summary> 
+                        <msItem>
+                            <textLang xml:lang="la"/>
+                            <filiation type="current"></filiation>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Papier</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate from="1477-08-26" to="1477-09-19"/>
+                            <origPlace ref="loc009335.01">Château d’Ouchy</origPlace>                         </origin>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <head>Édition</head> 
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;287–331</bibl>
+                        </listBibl>
+                        <listBibl>
+                            <head>Littérature</head>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001201449603977">Reymond 1908</ref>, p.&#160;8</bibl>
+                            <bibl><ref>Kieckhefer 1976</ref>, p.&#160;138</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000080613">Blauert 1989</ref>, p.&#160;76–77</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000109340">Maier 1996</ref>, p.&#160;254–258, 287–331</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000071553">Verdan 1997</ref></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001263647203977">Utz Tremp 2005c</ref>, p.&#160;356–357, 359 </bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000048336">Ostorero et al. 2007</ref></bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000055619">Ostorero 2010</ref>, p.&#160;21, 29 n.</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001208849503977">Pittet  2010</ref>, p.&#160;216, 219</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001220742103977">Ostorero 2013a</ref>, p.&#160;314</bibl>
+                            <bibl><ref target="http://permalink.snl.ch/bib/chbsg000133657">Ostorero 2014</ref>, p.&#160;94–96</bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <textClass default="false">
+                <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+                    <term/>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="254" facs="ACV_AC-29_253_254"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1477-08-26">1477 août 26</date></ab></div>
+                        <head type="subtitle" resp="GO">26 août 1477</head>
+                        <head type="subtitle" hand="other hand" place="top">Prima <term ref="lem017130.01">monitio</term> <persName ref="per013449a.02">Jaqueti Paniceris</persName></head>
+                        <p><seg><lb/><handShift scribe="2"/><origDate when="1477-08-26">Anno Domini millesimo CCCC<hi rend="sup">o</hi> septuagesimo septimo die vero vicesima
+                                    <lb/>sexta mensis augusti</origDate>, de mandato reverendi in <persName ref="per000353a.17">Christo</persName> patris et domini
+                                    <lb/>domini <persName ref="per013042a.03"><choice><abbr>B</abbr><expan>Benedicti</expan></choice> de Monteferrando</persName> Dei et apostolice Sedis gratia <term ref="lem001847.01">episcopi</term> <orgName ref="org001749.04">Lausannensis</orgName>
+<lb/><label type="keyword" place="left margin" scribe="2">Prima monitio</label> et <choice><sic>commictis</sic><corr><term ref="lem005360.01">comitis</term></corr></choice> <delSpan spanTo="del1" rend="strikethrough"/>seu <choice><sic>ex</sic><corr/></choice> eius <term ref="lem000013.01">vicarii</term> et locumtenentis examinatus<anchor xml:id="del1"/>
+                                    <lb/><persName ref="per013449a.03">Jaquetus Panisere alias Magnin</persName> incarceratus <del rend="strikethrough">pro ab</del> <choice><sic>obcasione</sic><corr>occasione</corr></choice>
+                                    <lb/>cuiusdam pretensi bampni <add place="above">per</add> ipsum, ut dicebatur, perpetrati et in deffectu
+                                    <lb/>fidejusoris per judicem temporalem incarceratus, maxime tamen de <term ref="lem017269.01">crimine
+                                   <lb/>heresis</term> <term ref="lem018156.02">deffamatus</term>, fuit per venerabilem et egregium virum dominum <persName ref="per013043a.03"><choice><abbr>Baptam</abbr><expan>Baptistam</expan></choice> d’Aycardis</persName>
+                                    <lb/>officialem <orgName ref="org001749.04">Lausannensis</orgName>, <add place="left margin" type="sign">decretorum doctorem</add>, <subst><del rend="strikethrough">assistente in abstentia</del><add place="inline">in absentia</add></subst> venerabilis domini
+                                    <lb/><term ref="lem017062.01">inquisitoris</term> medio eius juramento ad sacra Dei euvangelia, corporaliter
+                                    <lb/>tactis Scripturis, examinatus et interrogatus&#160;; primo si sciret causam propter
+                                    <lb/>quam fuisset detentus et incarceratus, respondit quod non, nisi pro dicto
+                                    <lb/>asserto bampno.</seg>
+                         <seg>Interrogatus si numquam fuerit de crimine heresis
+                                    <lb/>deffamatus, dixit quod non.</seg>
+                        <seg>Interrogatus si numquam fuerit sibi impro<lb break="no"/>peratum quod esset hereticus, respondit quod non.</seg>
+                        <seg>Interrogatus si numquam fuerit
+                                    <lb/>captus pro causa <term ref="lem017109.01">heresis</term>, respondit quod sic, licet non sit <term ref="lem017125.01">hereticus</term>.</seg>
+                        <seg>Interrogatus per
+                                    <lb/>quem fuit captus, respondit quod per clientes domini de <orgName ref="org005513.04">Horom</orgName><note>En <date when="1477">1477</date>, la seigneurie d’<placeName ref="loc011112.03">Oron</placeName> appartient à <persName ref="per013747a">Louis de Gruyère</persName> (comte de 1475 à 1493), fils de <persName ref="per012581a">François I<hi rend="sup">er</hi></persName> (<bibl><ref target="https://hls-dhs-dss.ch/fr/articles/019516/2009-11-05/">DHS, de Gruyère</ref></bibl>).</note>.</seg>
+                        <seg>Interrogatus
+                                    <lb/>si fuerit per dictos clientes questionatus, respondit quod non, licet fuit super
+                                    <lb/>pluribus concernentibus causam heresis interrogatus.</seg>
+                       <seg>Item si aliqua confessus fuit
+                                    <lb/>in presentia illorum quod concernat heresim, respondet quod non, quia nichil sciebat
+                                    <lb/>nec scit.</seg>
+                          <seg>Interrogatus si aliquem accusaverit, respondit quod sic, videlicet <persName ref="per013739a.02"><choice><abbr>Jonetam</abbr><expan>Johannetam</expan></choice>
+                                    <lb/>Barthola</persName> eius <subst><del rend="strikethrough">proix</del><add place="inline">proximam</add></subst> vicinam.</seg>
+                        <seg>Interrogatus si sit heretica, respondit
+                                    <lb/>non, saltim quod sciat.</seg>
+                        <seg>Interrogatus quare ipsam inculpavit et accusavit,
+                                    <lb/>dixit quod dicti clientes fecerunt ipsum accusare.</seg>
+                        <seg>Interrogatus qualiter
+                                    <lb/>fuit liberatus, respondit quod eius filii redimerunt eum, nescit tamen de
+                                    <lb/><choice><sic>cauto</sic><corr>cautio</corr></choice>, et fuit etiam de toto episcopatu per dominum d’<orgName ref="org005513.02">Oron</orgName> bannitus, et fuit
+                                    <lb/>sibi data penitentia de eundo ad <placeName ref="loc009136.05">Sanctum Jacobum</placeName>, ad <placeName ref="loc011658.02">Sanctum Anthonium</placeName>
+                                    <lb/>et ad <placeName ref="loc011657.02">Sanctum Claudium</placeName>.</seg>
+                    <seg>Interrogatus si alia confessus fuerit et si sit talis
+                                    <lb/>qualis dicitur, respondet quod non, nec ulterius respondere voluit. Quibus
+                                    <lb/>auditis, prefatus dominus officialis monuit dictum <persName ref="per013449a.02">Jaquetum</persName> pro prima monitione que
+                                    <lb/>talibus ac pro tali crimine tactis fieri solet, offerendo sibi Ecclesie misericordiam
+                                    <lb/>si sponte casum suum confiteri vellet, videlicet quod si sponte delictum suum <choice><sic>confi</sic><corr>confiteret</corr></choice> 
+                                    <lb/>et sine aliqua <term ref="lem018098.02">turtura</term> et errorem suum <term ref="lem017111.01">abjurare</term> vellet, quod Ecclesia non
+                                    <lb/>clauderet sibi gremium et quod eius confessio non importaret sibi dampnum
+                                    <lb/>nec vituperium in corpore nec in bonis. Qui <persName ref="per013449a.02">Jaquetus</persName> respondit
+                                    <lb/>se non esse talem, ymo totaliter a casu heresis innocentem&#160;; quare assignatus
+                                    <lb/>fuit ad primum ipsius domini officialis <supplied reason="omitted">adventum</supplied> ad ulterius confitendum pro secunda dilatione. 
+                        <pb n="255" facs="ACV_AC-29_255_256"/><lb/>Presentibus <persName ref="per013455a.01">Roleto de Monton</persName> <term ref="lem017142.01">castellano</term> <orgName ref="org005462.03">ripe Hochiaci</orgName> et <persName ref="per013698a.01">Henrico
+                                    <lb/>d’Oron</persName> de <placeName ref="loc007618.09">Heverduno</placeName>, testibus ad hec vocatis specialiter et rogatis.
+                                    <lb/>Datum in <origPlace ref="loc009335.08">castro Hochiaci</origPlace> in magna aula, <origDate when="1477-08-26">die, anno et <choice><sic>i</sic><corr/></choice>
+                                    <lb/>mense quibus supra <add place="inline" rend="other ink">scriptis</add></origDate>.                                    
+                  </seg></p>
+                        <pb n="256" facs="ACV_AC-29_255_256"/>
+                        <head type="subtitle" resp="GO">4 septembre 1477</head>
+                        <head type="subtitle" hand="other hand" place="top">Secunda monitio</head>
+                        <p><seg><lb/><label type="keyword" place="left margin" scribe="2">2<hi rend="sup">a</hi> monitio</label><handShift scribe="3"/><origDate when="1477-09-04">Anno a nativitate Domini M<hi rend="sup">o</hi> IIII<hi rend="sup">c</hi> LXXVII, indictione decima,
+                                        <lb/>die vero jovis quarta mensis septembris</origDate>, in <origPlace ref="loc009335.04">castro
+                                         <lb/>Ochiaci</origPlace> coram venerabili et egregio viro domino <persName ref="per013043a.01">Baptista
+                                        <lb/>de Aycardis</persName> decretorum doctore vicarioque generali
+                                        <lb/>in spiritualibus reverendi in <persName ref="per000353a.01">Christo</persName> patris et domini domini <persName ref="per013042a.01">Benedicti
+                                        <lb/>de Monteferrando</persName> Dei et apostolice Sedis gratia <orgName ref="org001749.04">Lausannensis</orgName> episcopi
+                                        <lb/>et comitis, ac venerabili et religioso viro domino et
+                                        <lb/>fratre <persName ref="per011100a.03">Petro Pascua</persName> <orgName ref="org004025.06">ordinis Predicatorum conventus Beate
+                                        <lb/>Marie Lausannensis</orgName>, tamquam <term ref="lem017131.04">procuratore orthodose fidei</term> et
+                                        <lb/>vices gerente inquisitoris alme fidei catholice <del rend="strikethrough">presentia</del>
+                                        <lb/>meique <term ref="lem001992.01">notarii</term> publici subscripti <del rend="strikethrough">presentia personaliter</del>
+                                        <lb/>testiumque subscriptorum <supplied reason="omitted">presentia</supplied>, personaliter constitutus <persName ref="per013449a.03">Jaquetus
+                                        <lb/>Magnin</persName> de <placeName ref="loc008152.03">Chardona</placeName> parrochie <placeName ref="loc008151.06">Corsiaci</placeName>, qui
+                                        <lb/>ad sancta euvangelia in manibus dicti domini <persName ref="per013043a.01">Baptiste</persName>
+                                        <lb/>vicarii juravit de dicendo puram, meram et inte<lb break="no"/>gram veritatem de hiis de quibus interrogaretur.
+                                        <lb/>Et primo interrrogatus qua occasione foret carceribus
+                                        <lb/><subst><del rend="strikethrough">mancipav[it]</del><add place="inline">mancipatus</add></subst>, dixit occasione unius
+                                        <lb/>banni, ad quodam fuerat ad clamam cuiusdam per dominum
+                                        <lb/>salterium officiarium condempnatus.
+                 </seg></p>
+                        <p><seg><lb/>Interrogatus ulterius si unquam fuerit de crimine heresis
+                                        <lb/>inculpatus vel diffamatus, respondit quod
+                                        <lb/>non. 
+                 </seg></p>
+                        <p><seg><lb/>Interrogatus si unquam fuerat detentus pro dicto crimine,
+                                        <lb/>dixit et deposuit quod sic, per officiarios et
+                                        <lb/> servitores domini de <orgName ref="org005513.02">Oron</orgName>. 
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus si fuerat per eos interrogatus <del rend="strikethrough">si</del> de heresi,
+                                        <lb/>dixit quod sic. 
+             </seg></p>
+                        <p><seg><lb/>Interrogatus si aliquem accusaverit, dixit quod non, licet
+                                        <lb/>fuerit instigatus de accusando aliquos.
+                         </seg></p>
+                        <p><seg><lb/>Interrogatus si fuerit positus ad torturam, dixit quod non.</seg></p>
+                        <p><seg><lb/>Interrogatus si fuerit confessus huiusmodi crimen, dixit quod non. </seg></p>
+                        <p><seg><lb/>Interrogatus quomodo fuit liberatus, dixit filii eius
+                                        <lb/>redimerunt eum, nescit tamen de quo. 
+                            </seg></p>
+                        <p><seg><lb/>Interrogatus si injunxerit sibi dicti officiarii de faciendo
+                                        <lb/>aliquam penitentiam, dixit quod sic, de eundo ad
+                                        <lb/><placeName ref="loc009136.05">Sanctum Jacobum</placeName> et <placeName ref="loc011657.02">Sanctum Claudium</placeName>&#160;; et ulterius quod
+                                        <lb/>bannisarunt eum a patria.</seg></p>
+                        <pb n="257" facs="ACV_AC-29_257_258"/>
+                        <p><seg><lb/>Interrogatus an sciret et qua occasione fuerat <del rend="strikethrough">b[annitus]</del> captus per dominum
+                                        <lb/>de <orgName ref="org005513.02">Oron</orgName> seu eius officiarios aut servitores, dixit
+                                        <lb/>propter malivolentiam et <del rend="strikethrough">quia</del> propter invidiam et odium
+                                        <lb/>nonnullorum <del rend="strikethrough">fuerat</del> qui dicebant ipsum fore hereticum&#160;;
+                                        <lb/>numquam fuisset nec esset talis.
+                        </seg></p>
+                         <p><seg><lb/>Interrogatus quare fuerat bannitus et cruce signatus,
+                                        <lb/>dixit propter dictas malivolentias et inculpationes
+                                        <lb/>injuste de <choice><sic>ipsos</sic><corr>ipsis</corr></choice> factas. 
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus <subst><del rend="strikethrough">quare</del><add place="inline">quid</add></subst> confessus fuit, quare bannitus<note>Dans des procès d’hérésie menés par l’inquisition, la sentence pouvait ordonner le port de croix. Pour un temps précis, l’accusé devait alors porter sur ses vêtements de manière visible deux croix jaunes, l’une sur la poitrine, l’autre dans le dos.</note>
+                                        <lb/>fuit, dixit quod nescit&#160;; nec ulterius quitquam dicere voluit.
+                            </seg></p>
+                        <p><seg><lb/>Tunc prefatus dominus <persName ref="per013043a.01">Baptista</persName> vicarius cum dicto
+                                        <lb/>fratre <persName ref="per011100a.03">Petro</persName> monuit eundem pro secunda dilatione et assignavit
+                                        <lb/>ad primam, <abbr>etc</abbr>.
+                            </seg></p>
+                        <p><seg><lb/><signed><persName ref="per013571a.02"><choice><abbr>Jo</abbr><expan>Johannes</expan></choice> de Fonte</persName> <figure type="notarial sign"/></signed></seg></p>
+                        <head type="subtitle" resp="GO">9 septembre 1477</head>
+                        <head type="subtitle" hand="other hand">3<hi rend="sup">a</hi> monitio</head>
+                        <p><seg><lb/><label type="keyword" place="left margin" scribe="2">3<hi rend="sup">a</hi> monitio</label><handShift scribe="4"/><origDate when="1477-09-09" period="P3WD">Die martis nona mensis septembris</origDate>, prefatus dominus <persName ref="per013043a.01">Baptista</persName>
+                                        <lb/><term ref="lem018121.01">officialis</term> monuit <persName ref="per013449a.01">Jacobum</persName> supranominatum tertio et pro tertia
+                                        <lb/>dilatione. Qui interrogatus per eundem dominum officialem
+                                        <lb/>nichil voluit confiteri, quare assignavit eundem ad
+                                        <lb/>cras ad audiendum <choice><abbr>interloqu<hi rend="sup">m</hi> sen<hi rend="sup">m</hi></abbr><expan><term ref="lem017305.01">interloqutoriam sentenciam</term></expan></choice> super premissis
+                                        <lb/>intitullatis et interrogatis. Nichil aliud voluerit
+                                        <lb/>respondere. Presentibus <persName ref="per013466a.01">Antonio</persName> nepote dicti domini officialis,
+                                        <lb/>fratre <persName ref="per011100a.03">Petro Pascua</persName>, fratre <persName ref="per013465a.01"><subst><del rend="strikethrough">Je[rmano]</del><add place="inline">Germano</add></subst></persName> <orgName ref="org004025.05">ordinis fratrum
+                                        <lb/>Predicatorum <choice><abbr>Laus</abbr><expan>Lausannensis</expan></choice></orgName>, <abbr>etc</abbr>.
+                            </seg></p>
+                        <p><seg><lb/><signed><persName ref="per013480a.01">Delayens</persName> <figure type="notarial sign"/></signed></seg></p>
+                        <head type="subtitle" resp="GO">10 septembre 1477</head>
+                        <head type="subtitle" hand="other hand">Quarta monitio</head>
+                        <p><seg><lb/><label type="keyword" place="left margin" scribe="2">4<hi rend="sup">a</hi> monitio</label><handShift scribe="5"/><origDate when="1477-09-10" period="P4WD">Die vero mercurii decima mensis septembris anno quo supra</origDate>, in
+                                        <lb/>aula <origPlace ref="loc009335.08">castri Hochiaci</origPlace> coram prefatis dominis, officiali et <term ref="lem018123.01">vice<lb break="no"/>inquisitore</term>, constitutus dictus <persName ref="per013449a.02">Jaquetus</persName>&#160;; et per prefatos dominos
+                                        <lb/>pro quarta dilatione monitus ut supra premissis puram vellet
+                                        <lb/>recognoscere veritatem, vel alias causam dicere, quare non debe<lb break="no"/>ret contra ipsum super <term ref="lem018098.01">tortura</term> et <term ref="lem018157.01">questione</term> in eius cor<lb break="no"/>pore interloqui, <subst><del rend="strikethrough">cui</del><add place="inline">qui</add></subst> <persName ref="per013449a.02">Jaquetus</persName> dixit se alias ne<lb break="no"/>scire quam supra confessus fuit et quod torturam et tormenta
+                                        <lb/>subire paratus erat nec aliud dicere volebat. Quibus pre<lb break="no"/>missis et auditis, procurator fidei petiit per dictos dominos super dicta
+                                        <lb/>tortura interloqui&#160;; declararunt dicti domini et interlocuti sunt, ut in
+                                        <lb/><choice><sic>quadam papiro que</sic><corr>quodam papiro qui</corr></choice> sequitur&#160;: <q>&#160;Nos <persName ref="per013043a">Baptista</persName>&#160;</q>.
+                            </seg></p>
+                        <p><seg><lb/><signed><persName ref="per013445a.02">Marmetus Nycodi</persName> <figure type="notarial sign"/></signed></seg></p>
+                        <pb n="258" facs="ACV_AC-29_257_258"/>
+                          <head type="subtitle" hand ="other hand" place="top">Interloqutoria</head>
+                        <p><seg><lb/><handShift scribe="6"/><note>Par comparaison avec d’autres manuscrits, la sentence interlocutoire pourrait avoir été écrite par la main de l’official <persName ref="per013043a">Baptiste d’Aycard</persName>.</note>Nos <persName ref="per013043a.01">Baptista de Aycardis</persName> decretorum doctor, vicarius et officialis predictus
+                                        <lb/>de conscilio <choice><sic>et et</sic><corr>et</corr></choice> consensu venerabilis et religiosi viri domini fratris <persName ref="per011100a.04">Petri de
+                                        <lb/>Pascua</persName> viceinquisitoris, visis actis huiusmodi inquisitionis in casu
+                                        <lb/>fidei contra <persName ref="per013449a.04">Jacobum Panicesseres alias Magnini</persName>, visis primo eius detentione
+                                        <lb/>ac eius diffamatione, visis tribus <del rend="strikethrough">denu[ntiationibus]</del> monitionibus per nos sibi factis,
+                                        <lb/>visis responsionibus ad interrogatoria cum juramento <del rend="strikethrough">coram nobis</del> coram nobis pariter
+                                        <lb/>factis ac variationibus eius et perjurio inde secutis, visa demum
+                                        <lb/>quarta monitione ex habundanti sibi facta ac aliis, visis videndis,
+                                        <lb/>dicimus <del rend="strikethrough">et declaramus</del> dictum <persName ref="per013449a.04">Jacobum</persName>, atentis infamationibus
+                                        <lb/>contra ipsum laborantibus ac eius perseverantiam in non exprimendo confessata
+                                        <lb/>per ipsum coram officiariis domini de <orgName ref="org005513.03">Orons</orgName> ac eius liberationem et
+                                        <lb/>bannitionem a toto dominio eius, ipsum <term ref="lem018147.01">torquendum</term> <del rend="strikethrough">esse</del> et in eius personam
+                                        <lb/>querendum et inquirendum esse, citra tamen <choice><sic>sanguis</sic><corr>sanguinis</corr></choice> effusionem, mortem et membrorum
+                                        <lb/>mutilationem <choice><sic>declaran</sic><corr>declarandum</corr></choice> et <choice><sic>pronuncian</sic><corr>pronunciandum</corr></choice> esse. Et ita in hiis scriptis
+                                        <lb/>pronunciamus et declaramus, et quia parum prodesset sententias proferre
+                                        <lb/>nisi exequtioni demandaretur huiusmodi nostre interlocutorie et
+                                        <lb/>declarationis <persName  ref="per013455a.02">Roletum de Monto</persName> castellanum <orgName ref="org005462.02">Ochiaci</orgName> executionem
+                                        <lb/>decernimus, mandantes sibi quatenus eandem sententiam nostram,
+                                        <lb/>omni excusatione postposita, executioni mandare debeat et exequetur.
+                        </seg></p>
+                        <head type="subtitle" resp="GO">10 septembre 1477, plus tard</head>
+                          <head type="subtitle">Prima tortura sive inquisitio</head>
+                          <p><seg><lb/><label type="keyword" place="left margin">Prima tortura</label> <handShift scribe="5"/><origDate when="1477-09-10">Anno, die et mense quibus supra</origDate>, presentibus <gap reason="missing" unit="word" quantity="4"/>
+                                        <lb/>et <persName ref="per013466a.01">Anthonio</persName> nepote domini officialis ac <persName ref="per013699a.01">Henrico Doteni</persName> et castellano predicto,
+                                        <lb/>lecta et publicata fuit dicta interloquutoria et per dictum
+                                        <lb/><persName ref="per013455a.02">Roletum</persName> castellanum executioni in parte demandata, <add place="above">in</add> hoc modo, videlicet
+                                        <lb/>quia dictus castellanus duxit dictum <persName ref="per013449a.02">Jaquetum</persName> ad locum torture et
+                                        <lb/>ligavit ipsum ad <term ref="lem018158.01">cordam</term> et modicum <del rend="strikethrough">alte</del> a terra levavit nec supra
+                                        <lb/>multis et diversis concernentibus casum heresis interrogatus, aliqua <choice><sic>confeteri</sic><corr>confiteri</corr></choice>
+                                        <lb/>noluit, tandem ipso dimisso, fuit ad primam diem proximam assignatus ad
+                                        <lb/>se advisandum et veritatem recognoscendum.
+                        </seg></p>
+                        <p><seg><lb/><signed><persName ref="per013445a.04">Marmetus Nicod</persName> <figure type="notarial sign"/></signed></seg></p>
+                        <pb n="259" facs="ACV_AC-29_259_260"/><p/>
+                        <pb n="260" facs="ACV_AC-29_259_260"/><p/>
+                        <pb n="261" facs="ACV_AC-29_261_262"/><p/>
+                        <pb n="262" facs="ACV_AC-29_261_262"/><p/>
+                        <pb n="263" facs="ACV_AC-29_263_264"/><p/>
+                        <pb n="228" facs="ACV_AC-29_227_228"/>
+                        <div><ab type="archiving reference" hand="hand20c" place="left margin" medium="pencil"><date when="1477-09-11">1477 sept. 11</date></ab></div>
+                        <head type="subtitle" resp="GO">11 septembre 1477</head>
+                          <p><seg><lb/><handShift scribe="1"/><origDate when="1477-09-11" period="P5WD">Anno Domini millesimo quatercentesimo septuagesimo
+                                        <lb/>septimo die vero jovis post nativitatem beate
+                                        <lb/><persName ref="per000169a.02">Marie</persName> virginis, que fuit undecima mensis septembris</origDate>,
+                                        <lb/>sequitur inquisitio et processus inquisitionalis
+                                        <lb/>qui fieri proponitur ex mero officio inquisitionis
+                                        <lb/>fidei per <subst><del>venerabilis</del><add place="overwritten">venerabilem</add></subst> et circonspectum virum
+                                        <lb/>dominum <persName ref="per013043a.02"><choice><sic>Babstisstam</sic><corr>Baptistam</corr></choice> de Aycardis</persName> decretorum doctorem <gap reason="missing" unit="word" quantity="2"/>,
+                                        <lb/>officialem <orgName ref="org001749.04">Lausannensem</orgName> pro parte reverendi in <persName ref="per000353a.17">Christo</persName> patris et domini
+                                        <lb/>domini <persName ref="per013042a.01"><subst><del rend="strikethrough">Bartholomei</del><add place="above">Benedictio</add></subst> de Monteferrando</persName> miseratione divina
+                                        <lb/><orgName ref="org001749.04">Lausannensis</orgName> episcopi et comitis, necnon per venerabilem ac religiosum
+                                        <lb/>virum fratrern <persName ref="per012708a.01">Thomam Gogati</persName> <orgName ref="org004150.05">ordinis fratrum Predicatorum</orgName>
+                                        <lb/>heretice pravitatis inquisitorem a sancta Sede apostolica
+                                        <lb/>specialiter deputatum in civitatibus et diocesibus <placeName ref="loc005781.05">Lausannensi</placeName>,
+                                        <lb/><placeName ref="loc008750.05">Gebennensi</placeName>, <placeName ref="loc008973.04">Sedunensi</placeName> et in nonnullis aliis locis contra
+                                        <lb/>et adversus <persName ref="per013449a.05">Jaquetum de Panissyerez alias Magnyn</persName>
+                                        <lb/>parrochie de <placeName ref="loc008151.05">Corsier</placeName> supra <placeName ref="loc008099.07">Viviacum</placeName>, nunc in <placeName ref="loc009335.04">castro
+                                        <lb/>Ochiaci</placeName> detentum.
+                        </seg></p>
+                        <p><seg><lb/>In primis fuit dicta die <choice><sic>fuit</sic><corr/></choice> dictus <persName ref="per013449a.02">Jaquetus</persName> coram
+                                        <lb/>venerabili viro domino officiali supradicto necnon coram reverendo
+                                        <lb/>in <persName ref="per000353a.17">Christo</persName> patre et domino domino <persName ref="per012306a.01">Glaudio Rup</persName>, <persName ref="per013701a.01">Glaudio
+                                        <lb/>Ypolitano</persName> vicario in hac parte prelibati domini inquisitoris,
+                                        <lb/>per prefatum dominum officialem interrogatus an esset aliquid
+                                        <lb/>advisatus et vellet aliquid confiteri <choice><sic>cun</sic><corr>cum</corr></choice> sibi fuerint
+                                        <lb/>facte monitiones condigne, scilicet prima, secunda, tertia et quarta
+                                        <lb/>desuper habundantia <del rend="strikethrough">prout consta[t]</del>, sibi presentando misericordiam Ecclesie
+                                        <lb/>prout lacius continetur in ipsis monitionibus receptis per dominos
+                                        <lb/><persName ref="per013480a.01">Andream <subst><del rend="strikethrough">Duca</del><add place="inline">Delayens</add></subst></persName>, <persName ref="per013571a.02"><choice><abbr>Jo</abbr><expan>Johannem</expan></choice> de Fonte</persName> et <persName ref="per013445a.05"><choice><abbr>Mertum</abbr><expan>Mermeto</expan></choice> Nycodi</persName> <choice><abbr>cap</abbr><expan><term ref="lem009181.01">capellanis</term></expan></choice>
+                                        <lb/>ut mihi, notario subscripto, retulerunt&#160;; qui <persName ref="per013449a.02">Jaquetus</persName> respondit
+                                        <lb/>quod de facto heresis nichil scit.
+                       </seg></p>
+                        <pb n="229" facs="ACV_AC-29_229_230"/>
+                          <p><seg><lb/>Item interrogatus si unquam aliquis loqutus fuit sibi
+                                        <lb/>de prefato heresis crimine, dixit quod sunt <date when="1457" dur-iso="P20Y">circa viginti anni</date>
+                                        <lb/>elapsi quod quadam die <subst><del>ipsa</del><add place="overwritten">ipse</add></subst> ibat <placeName ref="loc008099.09">Vivacum</placeName>, ipse reperit
+                                        <lb/>quendam hominem qui vocabatur <persName ref="per013733a.01">Gaute</persName>, qui dixit sibi&#160;: <q>&#160;Quo
+                                        <lb/>vadis&#160;?&#160;</q> –&#160;<q>&#160;Ego vado <placeName ref="loc008099.07">Viviacum</placeName>&#160;</q>. Qui <persName ref="per013733a.01">Gaute</persName> <del rend="strikethrough">d[ixit]</del>
+                                        <lb/>dixit sibi&#160;: <q>&#160;Opportet quod tu venias mecum et ego te
+                                        <lb/>faciam divitem&#160;</q>. Qui <persName ref="per013449a.02">Jaquetus</persName> incontinenti consentiit
+                                        <lb/>et dixit&#160;: <q>&#160;Ego contemtor&#160;</q>. Et incontinenti a quodam dumo
+                                        <lb/>exivit quidam vulpes. Tunc dictus <persName ref="per013733a.01">Gaute</persName> dixit prefato
+                                        <lb/><persName ref="per013449a.02">Jaqueto</persName>&#160;: <q>&#160;Opportet quod tu facias isti <term ref="lem018116.02">omagium</term>&#160;</q>. Qui
+                                        <lb/><persName ref="per013449a.02">Jaquetus</persName> obsculatus est culum illius animalis. 
+                        </seg></p>
+                          <p><seg><lb/>Item interrogatus in quo loco hoc fuit, dixit iuxta
+                                        <lb/>quandam <placeName ref="loc011653.02">Crucem de Plani</placeName><note>Éventuellement lieu-dit au bord du <placeName ref="loc008578.01">Léman</placeName> à l’ouest de la <placeName ref="loc010220.01">Veveyse</placeName>. Ce territoire faisait anciennement partie de la paroisse de <placeName ref="loc008151.02">Corsier</placeName> (<bibl><ref target="http://www.davel.vd.ch/detail.aspx?id=326002">ACV, GC 1343</ref></bibl>).</note>.
+                            </seg></p>
+                        <p><seg><lb/>Interrogatus si aliud fecerit, dixit quod ille <persName ref="per013733a.01">Gaute</persName> interrogavit
+                                        <lb/>ipsum si portaret aliquas pecunias, qui dixit quod non.
+                                        <lb/>Tunc possuit sibi unum <subst><del rend="strikethrough">p[aculum]</del><add place="inline"><term ref="lem017132.01">baculum</term></add></subst> inter tibias, et
+                                        <lb/>incontinenti reperit se ad quendam locum vocatum <foreign xml:lang="fr"><placeName ref="loc011656.02">Molyt
+                                            <lb/>Rignaul</placeName></foreign><note>Probablement <placeName ref="loc011656.01">La Mollie</placeName>, au nord-est du <placeName ref="loc008305.01">Mont Pèlerin</placeName>, sur la commune de <placeName ref="loc008152.01">Chardonne</placeName> (<bibl><ref target="http://www.davel.vd.ch/detail.aspx?ID=326001">ACV, GC 343 D</ref></bibl>), ou <placeName ref="loc014724.01">Mollie Margault</placeName>, au nord de <placeName ref="loc014723.01">Savigny</placeName>.</note>, et etiam dictus <del rend="strikethrough">re[perit]</del> <persName ref="per013733a.01">Gaute</persName> et vulpes fuerunt
+                                        <lb/>incontinenti sicut et ipse.
+                            </seg></p>
+                          <p><seg><lb/>Item interrogatus quid ibi fecit et quid vidit, dixit
+                                        <lb/>quod ibi reperit magnam quantitatem gentium, videlicet hominum
+                                        <lb/>et mulierum&#160;; et tunc dictus <persName ref="per013733a.02">Gauthe</persName> dixit sibi iterum&#160;: 
+<lb/><label type="keyword" place="left margin">Omagium</label> <q>&#160;Opportet quod tu facias omagium isti&#160;</q>. Et tunc dictus vulpes
+                                        <lb/>presentavit se et <unclear>vero</unclear> <persName ref="per013449a.02">Jaquetus</persName> obsculatus est sibi culum.
+                                        <lb/>Tunc dictus vulpes dixit sibi&#160;: <q>&#160;Opportet quod tu neges
+                                        <lb/>Deum&#160;</q>. Qui <persName ref="per013449a.02">Jaquetus</persName> negavit Deum ore, sed non corde.
+                                        <lb/>Et in <term ref="lem018469.02">signum omagii</term> dedit sibi unam capram albam.
+                                        <lb/>Et dicit quod <choice><sic>faciebam</sic><corr>faciebant</corr></choice> ignem qui erat coloris <term ref="lem016939.06">blovoz</term>. 
+                       </seg></p>
+                        <pb n="230" facs="ACV_AC-29_229_230"/>
+                          <p><seg><lb/>Item interrogatus qui erant presentes, dixit quod non cognovit
+                              <lb/><label type="keyword" place="left margin" scribe="2">Complices</label> nisi <persName ref="per013718a.04">Johannem</persName> et <persName ref="per013719a.04">Ludovicum Dynoyrez alias Brandunyer</persName>.
+                                        <lb/>Et aliud nescit, quare fuit assignatus ad <date when="1477-09-12" period="P6WD">diem veneris
+                                        <lb/>sequentem</date> ad se advisandum et magis confitendum. Datum
+                                        <lb/>in aula <origPlace ref="loc009335.07">Ochiaci</origPlace> <origDate when="1477-09-11">die et anno quibus supra</origDate>, presentibus
+                                        <lb/>religiosis viris fratribus <persName ref="per013465a.01">Germano d’Aclini</persName>, <persName ref="per013468a.01">Ludovico
+                                        <lb/>Catibodi</persName> <orgName ref="org004150.03">ordinis Predicatorum</orgName> necnon honorabilibus viris
+                                        <lb/>dominis <persName ref="per013476a.01">Anthonio Michodi</persName> et <persName ref="per013457a.02">Nycodo Cutellier</persName> <term ref="lem009181.01">capellanis</term>,
+                                        <lb/>testibus ad premissa vocatis et rogatis.
+                        </seg></p>
+                        <head type="subtitle" resp="GO">12 septembre 1477</head>
+                          <p><seg><lb/><origDate when="1477-09-12" period="P6WD">Anno quo supra die vero veneris post nativitatem
+                                        <lb/>beate <persName ref="per000169a.02">Marie</persName> virginis</origDate>, in aula <origPlace ref="loc009335.07">Ochiaci</origPlace> personaliter constitutus
+                                        <lb/>prefatus <persName ref="per013449a.02">Jaquetus</persName>&#160;; per venerabilem et circonspectum dominum officialem
+                                        <lb/>interrogatus utrum esset aliquid advisatus, qui dixit quod sunt
+                                        <lb/>bene <date when="1452" dur-iso="P25Y">viginti quinque anni vel circa</date> quod quadam die de
+                                        <lb/>qua non recordatur, eundo <placeName ref="loc008099.07">Viviacum</placeName>, ipse reperit dictum <persName ref="per013733a.02">Gauthe</persName>,
+                                        <lb/>prout superius dixit, et obsculatus est culum illi animali.
+                        </seg></p>
+                         <p><seg><lb/>Interrogatus quod animal erat, dixit quod erat vulpes. Qui
+                                        <lb/><choice><sic>dederunt</sic><corr>dedit</corr></choice> sibi unum baculum, prout jam dixit, et <choice><sic>posuerunt</sic><corr>posuit</corr></choice>
+                                        <lb/>sibi inter tibias, dicendo sibi quod non se signaret. Et statim
+                                        <lb/>reperit se ad quendam locum vocatum <foreign xml:lang="fr"><placeName ref="loc011656.02">Molyt Rignaul</placeName></foreign>, et
+                                        <lb/>iterum obsculatus est sibi culum et negavit Deum et sanctum
+                                        <lb/><term ref="lem009197.03">bapsima</term>. </seg>
+                               <seg>Interrogatus <subst><del rend="strikethrough">si</del><add place="inline">si</add></subst> ille vulpes se postmodum
+                                        <lb/>transfiguraverit in alia, ipse dixit quod sic, in specie cuiusdam
+                                        <lb/>hominis vestiti quasi de nigro. 
+                            </seg></p> 
+                         <p><seg><lb/>Item interrogatus quomodo loquebatur, dixit quod turpiter et
+                                        <lb/>habebat quandam vocem grossam. </seg>
+                               <seg>Interrogatus quem credebat illum
+<lb/><label type="keyword" place="left margin"><term ref="lem019294.01">Nomen magistri</term></label> esse et quis vocatur, dixit quod credebat quod esset dyabolus
+                                            <lb/>et vocatur <persName ref="per013734a.05">Turtemant</persName>.
+                                </seg></p>
+                        <pb n="231" facs="ACV_AC-29_231_232"/>
+                         <p><seg><lb/>Item interrogatus qui erant <supplied reason="omitted">presentes</supplied>, dixit quod erant homines et
+                                        <lb/>mulieres, et erat unus cacabus <subst><del rend="strikethrough">in</del><add place="inline">supra</add></subst> ignem, in
+                                        <lb/>quo dequoquebantur carnes. 
+                        </seg></p>
+                         <p><seg><lb/>Item interrogatus que carnes erant, dixit quod erant
+                                        <lb/>carnes puerorum, sed ipse nichil comedit.</seg>
+                             <seg>Interrogatus que
+                                        <lb/>hora erat, dixit quod de mane.</seg>
+                             <seg>Interrogatus qui erant
+                                        <lb/>presentes et quid fecerunt post commestionem, dixit quod non
+                                 <lb/><label type="keyword" place="left margin" scribe="2">Complices</label> cognovit nisi <persName ref="per013719a.01">Ludovicum</persName> et <persName ref="per013718a.01">Johannem Dymyrrez alias
+                                        <lb/>Brandunyer</persName>, et dixit quod homines habitaverunt cum mulieribus
+                                        <lb/>per ultra naturam. Et aliud nescit. 
+                       </seg></p>
+                        <p><seg><lb/>Quibus auditis, venerabilis vir dominus <persName ref="per013445a.01">Mermetus Nycodi</persName>
+                                        <lb/>cappellanus, procurator fidei in hac parte, dixit et petiit
+                                        <lb/>quod attentis perjuriis per ipsum <persName ref="per013449a.02">Jaquetum</persName> perpetratis <del rend="strikethrough">n[ecnon]</del>
+                                        <lb/>necnon suis variationibus, ipsum torqueri et questionari,
+                                        <lb/>donec et quousque veritas ab ore suo habeatur. 
+                      </seg></p>
+                        <p><seg><lb/>Qui <persName ref="per013449a.02">Jaquetus</persName> fuit ductus ad locum torture et fuit
+                                        <lb/>ligatus et modicum a terra levatus. Qui statin rogavit
+                                        <lb/>quod removeretur a dicta tortura et ipse puram veritatem
+                                        <lb/>diceret. Qui fuit relaxatus et deligatus et ad aulam
+                                        <lb/>ductus. Qui confessus est pro quadam alia vice ipse fuit
+                                        <lb/>ad quendam <placeName ref="loc011122.03">montem supra Blonay</placeName> ubi reperit bene sex
+                                        <lb/>viginti personas utriusque sexus.</seg>
+                               <seg>Interrogatus que hora erat,
+                                         <lb/>dixit quod erat <time period="byNight">inter <choice><sic>andeciam</sic><corr>undecimam</corr></choice> et duodecimam <choice><sic>horas</sic><corr>horam</corr></choice> noctis</time>. 
+                         </seg></p>
+                         <p><seg><lb/>Interrogatus quomodo ivit, dixit quod ivit supra unum baculum
+                                        <lb/>quem dictus magister suus dederat sibi. Et dixit quod unxit
+                                        <lb/>dictum baculum de quibusdam <sic>pinguidinibus</sic> quas dictus
+                                        <lb/>dyabolus magister suus dederat sibi, ponendo dictum
+                                        <lb/>baculum inter tibias suas&#160;; et incontinenti reperit se supra dictum
+                                        <lb/>montem.
+                        </seg></p>
+                        <pb n="232" facs="ACV_AC-29_231_232"/>
+                        <p><seg><lb/>Item interrogatus quid dicebat quando ascendebat supra
+                                        <lb/>dictum baculum, dixit quod dicebat&#160;: <q>&#160;Vade in nomine dyaboli&#160;</q>,
+                                        <lb/>quia dictus <persName ref="per013734a.03">Turtegmant</persName> preceperat sibi sic fieri. 
+                        </seg></p> 
+                            <p><seg><lb/>Interrogatus de quo videbat, dixit quod erat grossus ignis
+                                        <lb/>qui habebat colorem blovaz, et etiam erant candele.
+                            </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Homicidium</label> Item dixit quod sunt <date when="1454" dur-iso="P23Y">circa viginti tres anni</date> quod fuit presens
+                                        <lb/>in occisione cuiusdam pueri in domo <persName ref="per013702a.01">Nycodi Puto</persName> de
+                                        <lb/><placeName ref="loc008151.05">Corsier</placeName>, et ipsum occiderunt iuxta matrem et ipso mortuo
+                                        <lb/>recesserunt. Qui puer fuit in crastinum sepultus, et tunc
+                                        <lb/>de nocte ipsi iverunt ad locum et desepelierunt ipsum et
+                                        <lb/>portaverunt <subst><del>ipsam</del><add place="overwritten">ipsum</add></subst> ad domum <persName ref="per013703a.01">Perrodi Mogerne</persName> iuxta <choice><sic>hospitale</sic><corr>hospitalem</corr></choice>
+                                        <lb/><placeName ref="loc008099.07">Viviaci</placeName><note>Il est difficile à déterminer s’il s’agit de l’<placeName ref="loc008830.01">Hopital Neuf du Vieux-Mazel</placeName> de <placeName ref="loc008099.01">Vevey</placeName> (<bibl><ref target="http://permalink.snl.ch/bib/chbsg000074603">Mottaz 1982</ref>, II, p.&#160;753</bibl>), donc au cœur de la ville, ou si, au contraire, il s’agit de l’hôpital <placeName ref="loc008831.04">Marie-Madeleine du Mont-Joux</placeName> qui se trouve hors de la ville (<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001190348303977">De Montet 1884</ref>, p.&#160;52–53</bibl>).</note>. Et ipsum assaverunt et postmodum commederunt. 
+                                </seg></p>
+                                <p><seg><lb/>Interrogatus si portaverint integrum, dixit quod sic, nisi quod ipsi
+                                        <lb/>deposuerunt in fronte hoc ubi ponitur <subst><del rend="strikethrough">cis[ma]</del><add place="inline">crisma</add></subst>.</seg>
+                               <seg>Interrogatus
+                                        <lb/>quem saporem habent dicte carnes, dixit quod bonum et dulcem. 
+                          </seg></p>
+                           <p><seg><lb/>Item interrogatus quia dixit quod supra dictum montem vidit grossum ignem
+                                        <lb/>et quod erant candele, interrogatus de quo fuerint candele,
+                                        <lb/>dixit quod de pinguedinibus puerorum.
+                        </seg></p>
+                        <p><seg><lb/>Item interrogatus de quo <del rend="strikethrough">fit li</del> fiunt <foreign xml:lang="fr">les lerement</foreign><note>L’expression dans le texte latin <orig>&#160;les lerement&#160;</orig> ne peut être identifiée&#160;; d’après le contexte, il doit pourtant s’agir de mèches.</note>, qui dicit
+                                        <lb/>quod de budellis puerorum. 
+                        </seg></p>  
+<p><seg><lb/><label type="keyword" place="left margin">Complices</label> Item interrogatus qui erant presentes dixit quod vidit <persName ref="per013044a.03">Thomam de
+                                        <lb/>Myvilla</persName> de <subst><del rend="strikethrough"><placeName ref="loc008023.09">Actalens</placeName></del><add place="inline"><placeName ref="loc011648.03">Corsalles</placeName></add></subst> parrochie de <placeName ref="loc008023.09">Actalens</placeName>, <persName ref="per013704a.01">Mermetum
+                                        <lb/>Berruyer</persName> de <placeName ref="loc008152.09">Chardunaz</placeName>, <persName ref="per013706a.01">Jenetam</persName> uxorem <persName ref="per013705a.01">Johannis Assugnarez</persName> de
+                                        <lb/><placeName ref="loc008152.09">Chardunaz</placeName> parrochie de <placeName ref="loc008151.05">Corsier</placeName>, <persName ref="per013742a.01">Jenetam</persName> relictam <persName ref="per013740a.01">Johannis de
+                                        <lb/>Crest</persName> dicti loci, <persName ref="per013738a.01">uxorem</persName> <persName ref="per013736a.02">Jenodi Galoz</persName> de <placeName ref="loc008024.03">Granges</placeName> parrochie
+                                        <lb/>de <placeName ref="loc008023.09">Actalens</placeName>, <persName ref="per013707a.01">Petrum Rivezoz</persName> de <placeName ref="loc008152.09">Chardunaz</placeName>, <persName ref="per013743a.01"><choice><sic>Jaquetum</sic><corr>Jaquetam</corr></choice></persName> uxorem
+                                        <lb/><persName ref="per013744a.01">Umberti de Laviner</persName> etiam vidit <persName ref="per014093a">matrem</persName> uxoris <persName ref="per013708a.01">Jaqueti Bugnyon</persName>
+                                        <lb/>de <subst><del rend="strikethrough">Chy</del><add place="inline"><foreign xml:lang="fr"><placeName ref="loc011654.02">Cheybryt</placeName></foreign></add></subst>, sed non recordatur de nomine. Et aliud
+                                        <lb/>nescit, quare fuit <subst><del rend="strikethrough">adsig[natus]</del><add place="inline">assignatus</add></subst> <date when="1477-09-13">ad diem crastinam</date>
+                        <pb n="233" facs="ACV_AC-29_233_234"/><lb/>ad se advisandum et magis confitendum. <origDate when="1477-09-12">Datum die et anno quibus
+                                        <lb/>supra</origDate>, presentibus ibidem religioso viro fratre <persName ref="per013465a.01">Germano d’Aclini</persName>
+                                        <lb/><orgName ref="org004150.03">ordinis Predicatorum</orgName> necnon venerabili viro domino <persName ref="per013445a.01">Mermeto
+                                       <lb/>Nycodi</persName> capellano et nobili viro <persName ref="per013458a.01">Johanne Gaudi</persName> ac etiam discreto
+                                        <lb/>viro <persName ref="per013709a.01">Stephano Roleti</persName>, testibus ad premissa vocatis.
+                            </seg></p>
+                        <head type="subtitle" resp="GO">13 septembre 1477</head>
+                        <p><seg><lb/><origDate when="1477-09-13" period="P7WD">Anno Domini millesimo quatercentesimo septuagesimo septimo
+                                        <lb/>die vero sabati post nativitatem beate <persName ref="per000169a.02">Marie</persName> virgini</origDate>, personaliter
+                                        <lb/>constitutus prefatus <persName ref="per013449a.02">Jaquetus</persName> in aula <origPlace ref="loc009335.07">Ochiaci</origPlace>&#160;; per venerabilem virum
+                                        <lb/>dominum officialem et per religiosum virum fratrem <persName ref="per011100a.05">Petrum Passcua</persName>
+                                        <lb/>vicarium domini inquisitoris interrogatus an ipse sit aliquid
+                                        <lb/>advisatu et si omnia per ipsum superius confessata sint vera,
+                                        <lb/>qui <persName ref="per013449a.02">Jaquetus</persName> respondit et dixit quod sunt <date when="1452" dur-iso="P25Y">circa viginti quinque anni
+                                        <lb/>vel circa</date> quod ipse ibat <placeName ref="loc008099.07">Viviacum</placeName>, et eundo iuxta <placeName ref="loc011653.02">Crucem de
+                                        <lb/>Plani</placeName>, ipse reperit quendam vocatum <persName ref="per013733a.01">Gaute</persName> qui fuit combustus
+                                        <lb/>postmodum. Qui interrogavit ipsum dicendo sibi&#160;: <q>&#160;Quo vadis&#160;?&#160;</q>.
+                                        <lb/>Tunc dictus <persName ref="per013449a.02">Jaquetus</persName> dixit sibi&#160;: <q>&#160;Ego vado <placeName ref="loc008099.07">Viviacum</placeName>&#160;</q>. Tunc
+                                        <lb/>dictus <persName ref="per013733a.01">Gaute</persName> dixit sibi&#160;: <q>&#160;Si tu velis venire mecum, ego faciam
+                                        <lb/>te divitem&#160;</q>. Qui <persName ref="per013449a.02">Jaquetus</persName> fuit contentus, et incontinenti a
+<lb/><label type="keyword" place="left margin">Forma omagii</label> quodam <subst><del rend="strikethrough">de[mo]</del><add place="inline">dumo</add></subst> exivit unus vulpes. Tunc dictus <persName ref="per013733a.01">Gaute</persName>
+                                        <lb/>dixit&#160;: <q>&#160;Opportet quod tu facias omagium isti&#160;</q>. Qui <persName ref="per013449a.02">Jaquetus</persName> obsculatus
+                                        <lb/><supplied reason="omitted">est</supplied> sibi culum. Qui <persName ref="per013733a.01">Gaute</persName> interrogavit prefatum <persName ref="per013449a.02">Jaquetum</persName> si portaret
+                                        <lb/>aliquas pecunias, qui dixit quod non. Tunc sibi <choice><sic>posuerunt</sic><corr>posuit</corr></choice> unum
+                                        <lb/>baculum inter tibias et incontinenti reperit se in quodam loco vocato
+                                        <lb/><foreign xml:lang="fr"><placeName ref="loc011656.02">Molyt Rignaul</placeName></foreign>. Et ibi reperit magnam quantitatem hominum
+                                        <lb/>et mulierum. Tunc dictus <persName ref="per013733a.01">Gaute</persName> dixit sibi&#160;: <q>&#160;Opportet quod tu
+                                        <lb/>facias sicut et nos fecimus, videlicet quod tu neges Deum et sanctum
+                                        <lb/>baptismia&#160;</q>. Qui <persName ref="per013449a.02">Jaquetus</persName> negavit Deum et sanctum
+                                        <lb/><subst><del rend="strikethrough">babst</del><add place="inline">baptismia</add></subst>. Et tunc sibi dederunt in dominum et magistrum
+                                        <lb/>quendam vocatum <persName ref="per013734a.03">Turtegmant</persName>. Qui <persName ref="per013734a.03">Turtegmant</persName> dixit prefato <persName ref="per013449a.02">Jaqueto</persName>&#160;:
+                                        <lb/><q>&#160;Opportet quod tu des mihi aliquid&#160;</q>. Tunc dictus <persName ref="per013449a.02">Jaquetus</persName> dixit
+                                        <lb/>sibi&#160;: <q>&#160;Ego do tibi unam capram&#160;</q>, que erat cum ceteris animalibus
+                                        <lb/>in pascuis. </seg>
+                            <seg>Interrogatus que capra erat, dixit quod erat
+                                        <lb/>alba, et quando venit de nocte, dicta capra non venit. Tunc
+                                        <lb/>uxor prefati <persName ref="per013449a.02">Jaqueti</persName> dixit&#160;: <q>&#160;Quid devenit capra nostra&#160;?&#160;</q>. Tunc dictus <persName ref="per013449a.02">Jaquetus</persName>
+                                        <lb/>dixit&#160;: <q>&#160;<choice><sic>Forsitam</sic><corr>Forsitan</corr></choice> lupus comedit&#160;</q>.
+                        </seg></p>
+                        <pb n="234" facs="ACV_AC-29_233_234"/>
+                        <p><seg><lb/>Item interrogatus quem credebat esse illum <persName ref="per013734a.01">Turtigmant</persName>, dixit quod
+                                        <lb/>credebat quod esset dyabolus. 
+                        </seg></p> 
+                            <p><seg><lb/>Item interrogatus quomodo loquebatur, dixit quod habebat vocem
+                                        <lb/><choice><sic>turpissiam</sic><corr>turpissimam</corr></choice> et raucam.</seg>
+                                <seg>Item dixit quod modicum post dictus
+                                        <lb/><persName ref="per013734a.02">Turtigman</persName> dedit sibi unum pissidem ad ungendum baculum
+                                        <lb/>suum.</seg>
+                                <seg>lnterrogatus ubi est <choice><sic>et</sic><corr/></choice> baculus, dixit quod fuit detentus
+                                        <lb/>per dominum de <orgName ref="org005513.03">Orons</orgName>, qui fecit sibi proicere infra lacum. 
+                           </seg></p>     
+                        <p><seg><lb/>Item interrogatus quid dictus <persName ref="per013734a.02">Turtigman</persName> dabat sibi, dixit
+                                        <lb/>quod promiserat sibi dare omni mense <measure type="currency" unit="S" quantity="5">quinque solidos</measure>, sed
+                                        <lb/>numquam dedit sibi nisi quinque vicibus. 
+                        </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Complices</label> Item interrogatus qui erant presentes, dixit quod tunc non cognovit
+                                        <lb/>nisi <persName ref="per013719a.02">Ludovicum</persName> et <persName ref="per013718a.02">Johannem Dymyerez alias Branduner</persName>.
+                          </seg></p>
+                         <p><seg><lb/>Item interrogatus que dies erat, dixit quod erat quadam <date period="P4WD">die
+                                        <lb/>mercuri</date>.</seg>
+                             <seg>Interrogatus si omni anno recipiebat <term ref="lem017061.01">corpus Christi</term>, dixit quod
+                                        <lb/>sic.
+                                        </seg></p>
+                       <p><seg><lb/>Item interrogatus quid magister suus dicebat sibi, dixit quod
+                                        <lb/>sibi precipiebat quod quando reciperet<note>Il faut comprendre ici qu’il reçoit l’hostie, objet de la question précédente.</note>, quod portaret ad <term ref="lem018331.01">sectam</term>.
+                                        <lb/>Qui <persName ref="per013449a.02">Jaquetus</persName> semel portavit et tradidit magistro suo. 
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus quid fecerunt, dixit quod nescit <del rend="strikethrough">sec[ta]</del> et
+                                        <lb/>illud fuit in secta supra <placeName ref="loc011122.02">montem de Blonay</placeName>. 
+                        </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Homicidium</label> Item interrogatus si ipse fecerit aliquod malum, dixit quod est
+                                        <lb/><date when="1476" dur-iso="P1Y">annus vel circa</date> quod ipse <persName ref="per013449a.02">Jaquetus</persName> fecit mori duas vacas,
+                                       <lb/>quarum una erat <persName ref="per013704a.01">Mermeto Berruyer</persName> que erat pili <foreign xml:lang="fr"><term ref="lem018742.02">rubey</term></foreign>&#160;;
+                                        <lb/>alia erat <persName ref="per013710a.01">Girardo Coctet</persName>, que erat pili <foreign xml:lang="fr"><term ref="lem018676.01">blanchessat</term></foreign>.
+                         </seg></p>
+                          <p><seg><lb/>Item interrogatus quomodo fecit mori <subst><del>dictus</del><add place="overwritten">dictas</add></subst> vacas, dixit
+                                        <lb/>quod tetigit ipsas de pinguedinibus sibi datis per magistrum suum.
+                          </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Homicidium</label> Item dixit <supplied reason="omitted">quod</supplied> sunt <date when="1474" dur-iso="P3Y">tres anni vel circa</date> quod fecit mori <persName ref="per013711a.01">Glaudiam
+                            <lb/>Mostyerez</persName> <subst><del rend="strikethrough">relictam</del><add place="inline">uxorem</add></subst> <persName ref="per013712a.01">Boneti Drochat</persName> de <placeName ref="loc008152.09">Chardunaz</placeName>
+                                        <lb/>et hoc tangendo ipsam de pinguedinibus supradictis. 
+                            </seg></p>
+                        <pb n="235" facs="ACV_AC-29_235_236"/>
+                        <p><seg><lb/>Item interrogatus quare hoc fecit, dixit quia <persName ref="per013711a.01">Glaudia</persName> dicebat
+                                        <lb/>sibi injurias, videlicet quod erat hereticus.
+                        </seg></p>
+                        <p><seg><lb/>Item interrogatus quid ipsi faciunt in secta, dixit quod homines
+                                        <lb/>habitant cum mulieribus per ultra naturam.</seg>
+                            <seg>Interrogatus
+                                        <lb/>que erat amasia sua, dixit quod <persName ref="per013742a.01">Jeneta</persName> relicta <persName ref="per013740a.01">Johannis
+                                        <lb/>de Crest</persName>. Et aliud nescit, quare fuit assignatus <date when="1477-09-15" period="P2WD">ad diem
+                                        <lb/>lune futuram</date> ad se advisandum et magis confitendum. <origDate when="1477-09-13">Datum
+                                        <lb/>die et anno supradictis</origDate>, presentibus <subst><del rend="strikethrough">ibi v[enerabili]</del><add place="inline">ibidem venerabili</add></subst> viro domino
+                                        <lb/><persName ref="per013445a.01">Mermeto Nycodi</persName> cappellano necnon nobilibus viris <persName ref="per013458a.02"><choice><abbr>Jo</abbr><expan>Johanne</expan></choice> 
+                                        <lb/>Gaude</persName> et castellano <orgName ref="org005462.02">Ochiaci</orgName> testibus ad premissa vocatis.
+                            </seg></p>
+                        <head type="subtitle" resp="GO">15 septembre 1477</head>
+                        <p><seg><lb/><origDate when="1477-09-15" period="P2WD">Anno quo retro, die vero lune post nativitatem beate <persName ref="per000169a.02">Marie</persName> virginis</origDate>, personaliter
+                                        <lb/>constitutus prefatus <persName ref="per013449a.01">Jaquetus</persName> in aula <origPlace ref="loc009335.07">Ochiaci</origPlace>&#160;; interrogatus
+                                        <lb/>per quos supra an ipse sit aliquid advisatus et si omnia
+                                        <lb/>superius per ipsum confessata vera sint, dixit quod sunt vera. 
+                            </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Complices</label> Item interrogatus quot vicibus bene fuit in secta, dixit quod fuit
+                                        <lb/>bene viginti quinque vicibus. Et dixit quod recordatur quod
+                                        <lb/>in dicta secta supra <placeName ref="loc011122.02">montem de Blonay</placeName> ipse vidit <persName ref="per013713a.01">Jaquetum
+                                        <lb/>Broyt</persName> de <placeName ref="loc011655.02">Chastilliens</placeName>. 
+                            </seg></p>  
+                        <p><seg><lb/>Interrogatus quare ipse non nominavit prefatum <persName ref="per013713a.01">Jaquetum Broyt</persName>
+                                        <lb/>quando nominavit alios, dixit quod bene recordabatur sed nolebat
+                                        <lb/>ipsum nominare eo quod ipse est de progenie uxoris sue. 
+                            </seg></p>
+                            <p><seg><lb/>Item interrogatus quot vicibus in ebdomada ipsi vadunt
+                                        <lb/><supplied reason="omitted">in secta</supplied> et quibus diebus, dixit quod non vadunt omni ebdomada et
+                                        <lb/>quod quando est <sic>aliquot</sic> bonum <date type="floating holiday">festum sicuti <term ref="lem018615.01">Pascha</term></date>, <date type="floating holiday"><term ref="lem006185.03"><choice><abbr>Penth</abbr><expan>Penthecoste</expan></choice></term></date>,
+                                        <lb/>Nativitas Domini et sic de aliis, quod tunc libenter vadunt&#160;;
+                                        <lb/>et libenter vadunt in <date period="P5WD">die jovis</date>. 
+                              </seg></p>
+                             <p><seg><lb/>Interrogatus qua hora, dixit quod <time period="byNight">circa mediam noctem</time>.</seg>
+                                 <seg><lb/>lnterrogatus de quo videbant, dixit quod erat ignis
+                                            <lb/>grossus coloris blovoz et candele eiusdem coloris,
+                                            <lb/>et dixit quod erant in dicta secta <placeName ref="loc011122.03">supra Blonay</placeName> bene
+                                            <lb/>sex viginti.
+                                 </seg></p>
+                        <pb n="236" facs="ACV_AC-29_235_236"/>
+                        <p><seg><lb/>Item interrogatus quid ipsi <choice><sic>faciebam</sic><corr>faciebant</corr></choice> de igne, dixit quod <subst><del rend="strikethrough">ipsi</del><add place="inline">ipse</add></subst>
+                                            <lb/>vidit unum <choice><sic>magnum magnum</sic><corr>magnum</corr></choice> cacabum in quo quoquebantur
+                                            <lb/><term ref="lem018083.01">carnes puerorum</term>. </seg>
+                            <seg>Interrogatus quid ipsi fecerunt, dixit quod
+                                            <lb/>comederunt.
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus si comederit, dixit quod sic, et quod habent saporem
+                                            <lb/>dulcem et bonum magis quam alie carnes.
+                        </seg></p>   
+<p><seg><lb/><label type="keyword" place="left margin">Homicidium</label> Interrogatus quis portaverat, dixit quod nescit&#160;; et si unquam portaverit
+                                            <lb/>aliquem puerum, dixit quod sunt <date when="1474" dur-iso="P3Y">tres anni vel circa</date> quod ivit unacum
+                                            <lb/>magistro suo ad domum <persName ref="per013714a.01">Petri Picar</persName> parrochie de <placeName ref="loc008023.09">Actalens</placeName>
+                                            <lb/><time period="byNight">circa mediam noctem</time>. Et ibi iuxta matrem ipse occidit unum
+                                            <lb/>puerum masculum <term ref="lem018468.01">stringendo</term> ipsum et tangendo de dictis
+                                            <lb/>pinguedinibus, et in crastinum fuit sepultus. Et tunc ipse
+                                            <lb/>et magister suus <persName ref="per013734a.04">Turtygmant</persName> <subst><del rend="strikethrough">dess[epelierunt]</del><add place="inline">desepelierunt</add></subst> ipsum&#160;; et portavit
+                                            <lb/>ad sectam, videlicet <placeName ref="loc011122.03">supra Blonay</placeName>.
+                          </seg></p>   
+                            <p><seg><lb/>Interrogatus que hora erat, dixit quod erat <time period="byNight">circa mediam noctem</time>. </seg>
+                                    <seg><lb/>Interrogatus si portaverint integrum, dixit quod sic.
+                           </seg></p>    
+                             <p><seg><lb/>Item interrogatus quomodo intravit domum dicti <persName ref="per013714a.01">Petri Picar</persName>, dixit
+                                            <lb/>quod magister suus <persName ref="per013734a.04">Turtygmant</persName> aperuit. 
+                                </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Complices</label> Item interrogatus quid fecerunt de dicto puero quando fuit in secta
+                                            <lb/>per ipsum portatus, dixit quod ipsi posuerunt coqui et post comederunt.
+                                            <lb/>Et erant presentes, dixit quod <persName ref="per013044a.02">Thomas de Mediavilla</persName> de <placeName ref="loc011648.04">Corsellis</placeName>
+                                            <lb/>parrochie de <placeName ref="loc008023.10">Actallens</placeName>, <persName ref="per013738a.01">uxor</persName> <persName ref="per013736a.01">Jenodi Galot</persName> de <placeName ref="loc008024.03">Granges</placeName> parrochie
+                                            <lb/>de <placeName ref="loc008023.10">Actallens</placeName>, sed nescit nomen dicte mulieris, <persName ref="per013742a.01">Jeneta</persName> uxor <persName ref="per013740a.01">Johannis
+                                                <lb/>de Crest</persName> de <placeName ref="loc008152.09">Chardunaz</placeName>, que est amasia in secta dicti <persName ref="per013449a.02">Jaqueti</persName>,
+                                            <lb/><persName ref="per013704a.01">Mermetus Berruyer</persName> de <placeName ref="loc008152.09">Chardunaz</placeName>, <persName ref="per013719a.03">Ludovicus</persName> et <persName ref="per013718a.03">Johannes
+                                             <lb/>Dymyerrez alias Branduner</persName>, <persName ref="per013706a.01">Jeneta</persName> uxor <persName ref="per013705a.01">Johannis Assugnarez</persName>
+                                            <lb/>de <placeName ref="loc008152.09">Chardunaz</placeName>, <persName ref="per013713a.01">Jaquetus Broyt</persName> de <placeName ref="loc011655.02">Chastilliens</placeName>, <persName ref="per013707a.02">Petrus
+                                             <lb/>Rivezez</persName> de <placeName ref="loc008152.09">Chardunaz</placeName>, <persName ref="per014093a">mater</persName> uxoris <persName ref="per013708a.01">Jaqueti Bugnyon</persName> de
+                                            <lb/><foreign xml:lang="fr"><placeName ref="loc011654.02">Cheybryt</placeName></foreign>. 
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus quid bibebant, dixit quod bibebant vinum album et
+                                            <lb/>rubeum.</seg>
+                                <seg>Interrogatus quid faciunt post cenam, dixit quod <subst><del rend="strikethrough">hoc</del><add place="inline">homines</add></subst>
+                                            <lb/>habitant cum mulieribus sicut bestie. </seg>
+                                <seg>Interrogatus si cognoverit aliquam,
+                                            <lb/>dixit quod sic, videlicet <persName ref="per013742a">uxorem</persName> <persName ref="per013740a.02"><choice><abbr>Jo</abbr><expan>Johannis</expan></choice> de Crest</persName> quia erat amasia sua in secta&#160;; et aliud
+                                            <lb/>nescit, quare fuit assignatus <date when="1477-09-16">ad diem crastinam</date> ad se advisandum.
+                                            <lb/><origDate when="1477-09-15">Datum die et anno quibus supra</origDate>, presentibus ibidem religioso viro fratre <persName ref="per011100a.03">Petro
+                                             <lb/>Pascua</persName> et <del rend="strikethrough">Mer[meto]</del> venerabili viro domino <persName ref="per013445a.01">Mermeto Nycodi</persName>, testibus ad premissa vocatis.
+                             </seg></p>
+                        <pb n="237" facs="ACV_AC-29_237_238"/>
+                        <head type="subtitle" resp="GO">16 septembre 1477</head>
+                        <p><seg><lb/><origDate when="1477-09-16" period="P3WD">Anno Domini millesimo quatercentesimo septuagesimo
+                                            <lb/>septimo die vero martis sequenti</origDate>, personaliter constitutus
+                                            <lb/>prefatus <persName ref="per013449a.02">Jaquetus</persName> in aula <origPlace ref="loc009335.07">Ochiaci</origPlace> coram venerabili <choice><sic>vuro</sic><corr>viro</corr></choice>
+                                            <lb/>domino officiali&#160;; interrogatus utrum ipse sit advisatus, qui
+                                            <lb/>confessus est quod sunt fere <date when="1475" dur-iso="P2Y">duo anni elapsi</date> quod iuxta quandam
+                                            <lb/>planchiam in parrochia de <placeName ref="loc008023.09">Actalens</placeName> <term ref="lem018465.01">interfecit</term> unum
+                                            <lb/><term ref="lem018166.01">equum</term> <persName ref="per013715a.01"><choice><sic>Petro</sic><corr>Petri</corr></choice> Mistralis</persName> de <placeName ref="loc011108.05">Tartro</placeName> dicte parrochie. 
+                        </seg></p>  
+                            <p><seg><lb/>Interrogatus ubi erat dictus equus, respondit quod erat
+                                            <lb/>in quadam planchia ligatus cum uno capistro. 
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus quomodo illum interfecit, respondit quod primo illum maledixit,
+                                            <lb/>deinde cepit capistrum et fecit unum nodum currentem
+                                            <lb/>–&#160;et monstravit modum faciendi dictum nodum in quodam
+                                            <lb/>fune sibi tradito&#160;– <choice><sic>posmodum</sic><corr>postmodum</corr></choice> tantum traxit capistrum
+                                            <lb/>quod dictum equum interfecit.
+                                </seg></p>
+                                <p><seg><lb/>Item interrogatus quare hoc fecit, respondit quia
+                                            <lb/>inimicabatur dicto <persName ref="per013715a.01">Petro</persName> cui erat dictus equus.
+                                </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Homicidium</label> Item confitetur se voluisse interficere omnia animalia <persName ref="per013745a.01">Petri
+                                            <lb/>Arnaudi</persName> parrochie <placeName ref="loc011647.05">Sancti Sinphoriaci</placeName> sunt <date when="1473-04-23" dur-iso="P4Y">circa quatuor anni
+                                            <lb/>elapsi circa festum Sancti <persName ref="per000270a.12">Georgii</persName></date>, quando <choice><sic>prato</sic><corr>pratum</corr></choice> incipiunt
+                                            <lb/><choice><sic>custodiri</sic><corr>custodire</corr></choice>, in quodam campo, sed non potuit interficere
+                                            <lb/>nisi tria de illis animalibus, que tetigit solum de suo digito
+                                            <lb/>uncto <del rend="strikethrough">de</del> quodam <term ref="lem017273.01">unguento</term> a dyabolo magistro suo sibi
+                                            <lb/>tradito. 
+                                </seg></p>
+                                <p><seg><lb/>Interrogatus quare hoc fecit, respondit quod dicta animalia
+                                            <lb/>transibant per quendam suum campum, propter quod ante
+                                            <lb/>habuerat debatum cum patre dicti <persName ref="per013745a.01">Arnaudi</persName>.
+                                </seg></p>
+                        <p><seg><lb/>Item dixit et confitetur quod alias fuit transportatus per <del rend="strikethrough">aera</del>
+                                            <lb/>aera supra nubes cum aliis multis suis complicibus, ubi
+                                            <lb/>grandines illis ministrabantur in calatis, et dictas
+                                            <lb/>grandines suis manibus aspergebant in terram. 
+                        </seg></p>
+                        <pb n="238" facs="ACV_AC-29_237_238"/>
+                        <p><seg><lb/>Item interrogatus quomodo sciebat horam eundi ad dictas
+                                            <lb/><term ref="lem017306.01">tempestates</term> aspergendum et quomodo ita deportabatur,
+                                            <lb/>respondit quod sibi ac ceteris suis complicibus notifficabatur
+                                            <lb/>per suos magistros qui illos deportabant ad loca
+                                            <lb/>grandinum. 
+                        </seg></p>    
+                        <p><seg><lb/>Item interrogatus ad cuius promotionem seu instantiam,
+                                            <lb/>si ab eis dicte grandines fiebant vel ab eorum magistris,
+                                            <lb/>qui <persName ref="per013449a.02">Jaquetus</persName> respondere noluit. 
+                        </seg></p>   
+                         <p><seg><lb/>Item interrogatus si inter eos in dicta secta sit equalitas
+                                            <lb/>et si omnes habeant unam et eandem auctoritatem, respondit quod
+                                            <lb/>non, sed inter eos aliqui sunt minores et aliqui maiores. 
+                         </seg></p> 
+                        <p><seg><lb/>Item interrogatus si dictas grandines faciant cadere ubi
+                                            <lb/>volunt, respondit quod non, quia sacerdotes id fieri prohibent<note>Le procès-verbal s’arrête ici brusquement&#160;; il manque les formules conclusives.</note>.
+                        </seg></p> 
+                        <head type="subtitle" resp="GO">17 septembre 1477</head>
+                        <p><seg><lb/><origDate when="1477-09-17">Anno Domini M<hi rend="sup">o</hi> CCCC LXX septimo die vero mercuri ante festum Sancti
+                                            <lb/><persName ref="per000340a.07">Mathei</persName> apostoli</origDate>, personaliter constitutus prefatus <persName ref="per013449a.02">Jaquetus</persName> in aula
+                                            <lb/><origPlace ref="loc009335.07">Ochiaci</origPlace>&#160;; et interrogatus per reverendum patrem <subst><del rend="strikethrough">d[ominum]</del><add place="inline">fratrem</add></subst> <persName ref="per012708a.01">Thomam
+                                            <lb/>Gogati</persName> heretice pravitatis inquisitorem an omnia per ipsum confessata
+                                            <lb/>vera sint, respondit quod sic.
+                        </seg></p> 
+                        <p><seg><lb/>Item interrogatus si recordetur de hiis que confessus est, dixit
+                                            <lb/><choice><sic>dixit</sic><corr/></choice> quod <choice><sic>sint</sic><corr>sunt</corr></choice> <date when="1452" dur-iso="P25Y">circa viginti quinque anni</date> quod eundo <placeName ref="loc008099.07">Viviacum</placeName>
+                                            <lb/>ipse reperit quendam hominem vocatum <persName ref="per013733a.02">Gauthe</persName>, qui dixit sibi&#160;: <q>&#160;Quo
+                                            <lb/>vadis&#160;?&#160;</q> –&#160;<q>&#160;Ego vado <placeName ref="loc008099.07">Viviacum</placeName>&#160;</q>. Tunc dictus <persName ref="per013733a.01">Gaute</persName> dixit sibi&#160;: <q>&#160;Si
+                                            <lb/>tu velis venire mecum, ego faciam te divitem&#160;</q>. Qui <persName ref="per013449a.02">Jaquetus</persName> dixit quod sic.
+                            <pb n="239" facs="ACV_AC-29_239_240"/><lb/>Tunc dictus <persName ref="per013733a.01">Gaute</persName> fecit venire incontinenti quoddam animal et
+                                            <lb/>dixit sibi&#160;: <q>&#160;Opportet quod tu facias omagium isti, videlicet quod tu
+                                            <lb/>obsculetis sibi culum&#160;</q>. Qui <persName ref="per013449a.02">Jaquetus</persName> fecit, videlicet obsculatus est culum. 
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus quod animal erat, dixit quod erat vulpes, et dixit
+                                            <lb/>quod <choice><sic>ixivit</sic><corr>exivit</corr></choice> de quodam dumo ibi prope.
+                        </seg></p>
+                        <p><seg><lb/>Item interrogatus in quo loco erat, dixit quod iuxta <placeName ref="loc011653.02">Crucem
+                                            <lb/>de Plani</placeName>&#160;; et dixit quod hoc facto, ipsi interrogaverunt
+                                            <lb/>ipsum si portaret aliquas pecunias, qui dixit quod non.
+                                            <lb/>Tunc posuerunt sibi unum baculum inter tibias.
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus quid ipse dicebat quando ascendebat supra dictum
+                                            <lb/>baculum, dixit quod dicebat&#160;: <q>&#160;Vade in nomine <term ref="lem017097.03">diaboly</term>&#160;</q>. Et
+                                            <lb/>incontinenti ipse cum dicto <persName ref="per013733a.01">Gaute</persName> fuit in quodam loco
+                                            <lb/>vocato <foreign xml:lang="fr"><placeName ref="loc011656.02">Molyt Rignaul</placeName></foreign>, et ibi erant multi homines
+                                            <lb/>et mulieres <del rend="strikethrough">i[nterrogatus]</del>. 
+                        </seg></p>
+                        <p><seg><lb/>Item interrogatus que hora erat, dixit quod erat de <time period="morning">mane
+                                            <lb/>prope prandium</time> et quod ibi erat <del rend="strikethrough">v</del> quidam grossus cacabus
+                                            <lb/>in quo quoquebantur carnes. 
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus que carnes erant, dixit quod erant carnes
+                                            <lb/>puerorum.
+                        </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Forma omagii</label> Item interrogatus si ille vulpes erat presens, dixit quod sic
+                                            <lb/>et quod dictus <del rend="strikethrough">re</del> <persName ref="per013733a.01">Gaute</persName> dixit sibi&#160;: <q>&#160;Opportet quod tu facias
+                                            <lb/>sicut et nos, videlicet quod tu neges Deum, gloriosam virginem
+                                            <lb/><persName ref="per000169a.02">Mariam</persName> et sanctum baptisma&#160;</q>. 
+                        </seg></p>
+                        <p><seg><lb/>Qui <persName ref="per013449a.02">Jaquetus</persName> iterum obsculatus est sibi culum et negavit
+                                            <lb/>Deum, gloriosam virginem <persName ref="per000169a.02">Mariam</persName> et sanctum baptisma, et
+                                            <lb/>tunc dederunt sibi in magistrum quendam vocatum <persName ref="per013734a.01">Turtigmant</persName>. 
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus quem credebat esse illum <persName ref="per013734a.01">Turtigmant</persName> et quomodo
+                                            <lb/>loquebatur, dixit quod credebat quod esset dyabolus et quod loquebatur
+                                            <lb/>turpiter et rauce.
+                        </seg></p>
+                        <pb n="240" facs="ACV_AC-29_239_240"/>
+                        <p><seg><lb/>Item dixit quod dictus <persName ref="per013734a.02">Turtigman</persName> dixit sibi&#160;: <q>&#160;Opportet quod tu
+                                            <lb/>des mihi aliquid&#160;</q>. Qui dedit sibi unam capram albam
+                                            <lb/>que erat in passcuis cum ceteris animalibus. 
+                        </seg></p>   
+                            <p><seg><lb/>Interrogatus si dictus magister suus habuerit dictam
+                                            <lb/>capram, dixit quod credit quod sic, quia de sero non <choice><sic>ven</sic><corr>venit</corr></choice>
+                                            <lb/>cum ceteris animalibus. 
+                            </seg></p>
+                            <p><seg><lb/>Item interrogatus quid dictus magister suus dabat
+                                            <lb/>sibi, dixit quod promiserat sibi dare omni mense <measure type="currency" unit="S" quantity="5">quinque 
+                                            <lb/>solidos</measure>. 
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus si unquam receperit, dixit quod sic, videlicet tribus
+                                            <lb/>vicibus.
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus quis dabat sibi, dixit quod magister suus
+                                            <lb/>dabat sibi dictas pecunias.
+                        </seg></p>
+                        <p><seg><lb/>Item interrogatus si ille pecunie erant bone, dixit quod sic,
+                                            <lb/>quia ipse implicabat sicut alias pecunias.
+                        </seg></p>
+                        <p><seg><lb/>Item interrogatus de corpore Christi. Quid magister suus
+                                            <lb/>precipiebat sibi, dixit quod precipiebat sibi quod <sic>adportaret</sic>
+                                            <lb/>ad sectam. Qui <persName ref="per013449a.02">Jaquetus</persName> hoc fecit bene sex vicibus. 
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus cui dabat, dixit quod dabat magistro suo, sed
+                                            <lb/>nescit quid faciebat. 
+                        </seg></p>
+                        <p><seg><lb/>Interrogatus in quo loco ipse portavit, dixit
+                                            <lb/>quod portavit supra quendam <placeName ref="loc011122.03">montem supra Blonay</placeName>,
+                                            <lb/>ubi tenebatur secta. 
+                        </seg></p>
+                        <p><seg><lb/>ltem interrogatus quomodo ipse ibat ad sectam, dixit
+                                        <lb/>supra quendam <subst><del rend="strikethrough">bacum q[uem]</del><add place="inline">baculum quem</add></subst> magister suus dederat sibi. 
+                        </seg></p>
+                        <pb n="241" facs="ACV_AC-29_241_242"/>
+                        <p><seg><lb/>Item interrogatus quid dicebat et quid faciebat antequam
+                                        <lb/>ascenderet supra dictum baculum, dixit quod ungebat ipsum de
+                                        <lb/>quibusdam pinguedinibus per magistrum suum sibi traditis&#160;; et
+                                        <lb/>quod dicebat&#160;: <q>&#160;Vade in nomine <term ref="lem017097.02">dyaboli</term>&#160;</q>. Et aliud nescit. 
+                        </seg></p> 
+                            <p><seg><lb/>Quare fuit assignatus <date when="1477-09-18">ad diem crastinam</date><note>Le procès reprend en fait le <date when="1477-09-19">19 septembre</date>.</note> ad se advisandum
+                                        <lb/>et magis confitendum. <origDate when="1477-09-17">Datum die et anno quibus
+                                        <lb/>supra</origDate>, presentibus ibidem religiosis fratribus <persName ref="per013716a.01">Guidone Bati</persName> et
+                                        <lb/><persName ref="per013717a.01">Humberto Nesonis</persName> <orgName ref="org004150.03">ordinis Predicatorum</orgName> necnon venerabili
+                                        <lb/>viro domino <persName ref="per013445a.01">Mermeto Nycodi</persName>, testibus ad premissa
+                                        <lb/>vocatis et rogatis.
+                            </seg></p>
+                        <head type="subtitle" resp="GO">19 septembre 1477</head>
+                            <p><seg><lb/><origDate when="1477-09-19" period="P6WD">Anno Domini millesimo quatercentesimo septuagesimo
+                                        <lb/>septimo die vero veneris ante festum Sancti <persName ref="per000340a.08">Mathey</persName>
+                                        <lb/>apostoli</origDate>, personaliter constitutus prefatus <persName ref="per013449a.02">Jaquetus</persName> in aula
+                                        <lb/><origPlace ref="loc009335.07">Ochiaci</origPlace> <del rend="strikethrough">r[everendum]</del>&#160;; per reverendum <subst><del rend="strikethrough">p[atrem]</del><add place="inline">fratrem</add></subst> <persName ref="per012708a.01">Thomam Gogati</persName> heretice
+                                        <lb/>pravitatis inguisitorem interrogatus mediante juramento super sacrosanctis
+                                        <lb/>Dei euvangeliis per ipsum prius prestito, utrum omnia in suo
+                                        <lb/>processu scripta per ipsum confessata vera sint, dixit et respondit
+                                        <lb/>quod sic. 
+                            </seg></p>
+                            <p><seg><lb/>Item interrogatus de corpore Christi, quid magister suus dicebat
+                                        <lb/>sibi, dixit quod precipiebat sibi quod <choice><sic>portare</sic><corr>portaret</corr></choice> ad sectam. 
+                              </seg></p>  
+                                <p><seg><lb/>Interrogatus si portaverit, dixit quod sic, bene sex vicibus,
+                                        <lb/>sed nescit quod faciebat magister suus, nisi semel
+                                        <lb/>quod vidit quod posuit in quodam cacabo qui erat
+                                        <lb/>supra ignem. Et dixit quod quando ipse <choice><sic>difficiebat</sic><corr>deficiebat</corr></choice> ire
+                                        <lb/>ad sectam, quod ipse erat pro uno certo aut saltim
+                                        <lb/>erat verberatus. 
+                                </seg></p>
+                        <pb n="242" facs="ACV_AC-29_241_242"/>
+                        <p><seg><lb/>Item dixit quod dictus <persName ref="per013734a.03">Turtegmant</persName>, quando fecit sibi omagium
+                                        <lb/>et quod negavit Deum, gloriosam virginem <persName ref="per000169a.02">Mariam</persName> et sanctum
+                                        <lb/>baptisma, quod ipse petebat sibi quod daret sibi unum
+                                        <lb/>puerum. Sed non dedit.
+                            </seg></p>
+<p><seg><lb/><label type="keyword" place="left margin">Quid dedit de corpore suo in signum omagii</label> Interrogatus quid dedit sibi, dixit quod dedit sibi
+                                        <lb/><choice><sic>artuculum</sic><corr>articulum</corr></choice> grossum pedis sui dextri post mortem
+                                        <lb/>suam in signum omagii.
+                            </seg></p>
+                            <p><seg><lb/>Item dixit quod in dicta secta satis bibunt et comedunt,
+                                        <lb/>sed numquam <choice><sic>saterantur</sic><corr>satiantur</corr></choice>. 
+                            </seg></p>
+                        <p><seg><lb/>Item dixit quod quando ipsi erant in secta supra <placeName ref="loc011122.03">montem supra
+                                        <lb/>Blonay</placeName>, in quodam prato, quando erba erat quasi parata
+                                        <lb/>ad falcandum, quod videbatur quod propter conculcationem
+                                        <lb/>ipsorum quod numquam falcaretur, sed statim post recessum ipsorum
+                                        <lb/>dicta erba erat ut prius. 
+                            </seg></p>
+                            <p><seg><lb/>Item interrogatus si a post quod fuit in dicta secta et
+                                        <lb/>quod negavit Deum, si fuerit intentionis confitendi,
+                                        <lb/>dixit quod sic, sed magister suus non dimictebat. 
+                            </seg></p>
+                            <p><seg><lb/>Interrogatus si vellet addi vel minui aliquid in dicto suo
+                                        <lb/>processu, qui dixit quod non.
+                            </seg></p>
+                            <p><seg><lb/>Quibus auditis, procurator fidei instans et prefatus
+                                <lb/><persName ref="per013449a.02">Jaquetus</persName> inquisitus petierunt concludi et diffiniri.
+                            </seg></p>
+                        <pb n="243" facs="ACV_AC-29_243_244"/>
+                        <p><seg><lb/>Quibus auditis, dictus inquisitor conclusit, assignando
+                                    <lb/>ipsis dietim ad audiendum jus sive <term ref="lem018088.02">sententiam diffinitivam</term>.
+                                    <lb/><origDate when="1477-09-19">Datum die et anno quibus supra</origDate>, presentibus ibidem venerabilibus
+                                    <lb/>viris dominis <persName ref="per013445a.01">Mermeto Nycodi</persName> et <persName ref="per013571a.01">Johanne de Fonte</persName> <del rend="strikethrough">te[stibus]</del>, <term ref="lem009181.01">capellanis</term>,
+                                    <lb/>testibus ad premissa vocatis et rogatis.
+                        </seg></p>
+                        <p><seg><lb/><signed><persName ref="per012576a.02"><choice><abbr>Ste</abbr><expan>Stephano</expan></choice> de Cresto</persName> <figure type="notarial sign"/></signed></seg></p>
+                        <pb n="244" facs="ACV_AC-29_243_244"/><p/>
+                        <pb n="245" facs="ACV_AC-29_245_246"/><p/>
+                        <pb n="246" facs="ACV_AC-29_245_246"/><p/>
+                        <pb n="247" facs="ACV_AC-29_247_248"/><p/>
+                        <pb n="248" facs="ACV_AC-29_247_248"/><p/>
+                        <pb n="249" facs="ACV_AC-29_249_250"/><p/>
+                        <pb n="250" facs="ACV_AC-29_249_250"/><p/>
+                        <pb n="251" facs="ACV_AC-29_251_252"/>
+                        <head type="title">Processus <persName ref="per013449a.06">Jaqueti de
+                                <lb/>Panisiere alias Magnyn</persName></head>
+                        <p><seg><lb/>Reperta sunt nomina
+                                <lb/>accusatorum
+                        </seg></p>
+                        <p><figure type="drawing"/>&#160;X</p>
+                        <p><seg><lb/>Extracta sunt nomina accusatorum</seg></p>
+                    </div>
+                </body>
+            </text>
+        </group>
+        <back>
+            <div>
+                <p>Les procès de Jaquet de Panissère (<bibl><ref target="urn:ssrq:SDS-VD-D_1-14-1">SDS VD D 1 14-1</ref>&#160;: ACV, Ac 29, p.&#160;228–258</bibl>), Jordana de Baulmes (<bibl><ref target="urn:ssrq:SDS-VD-D_1-15-1">SDS VD D 1 15-1</ref>&#160;: ACV, Ac 29, p.&#160;208–227</bibl>), Claude Bochet (<bibl><ref target="urn:ssrq:SDS-VD-D_1-16-1">SDS VD D 1 16-1</ref>&#160;: ACV, Ac 29, p. &#160;264–275</bibl>), Jean Poesiouz (<bibl><ref target="urn:ssrq:SDS-VD-D_1-17-1">SDS VD D 1 17-1</ref>&#160;: ACV, Ac 29, p.&#160;301–312</bibl>), Jeannette Barattier (<bibl><ref target="urn:ssrq:SDS-VD-D_1-18-1">SDS VD D 1 18-1</ref>&#160;: ACV, Ac 29, p.&#160;276–300</bibl>), Antoine de Vernex (<bibl><ref target="urn:ssrq:SDS-VD-D_1-19-1">SDS VD D 1 19-1</ref>&#160;: ACV, Ac 29, p.&#160;313–327</bibl>) et Jean Gallot (<bibl><ref target="urn:ssrq:SDS-VD-D_1-20-1">SDS VD D 1 20-1</ref>&#160;: ACV, Ac 29, p.&#160;333–348</bibl>) ont tous été intentés entre 1477 et 1484. Ils sont les témoins d’une nouvelle chasse aux sorciers menée sur la Riviera lémanique, après la première vague des années 1448–1449.</p>
+                <p>Le procès de Jaquet de Panissère occupe les pages 228 à 258 du registre ACV, Ac 29. Avant leur reliure, les actes de ce procès formaient deux dossiers distincts. L’un comprenait la première partie du procès, soit les protocoles des trois premières séances, le texte de la sentence interlocutoire et le résumé de la première séance de torture (p.&#160;252–263). Dans l’autre dossier se trouvait toute la seconde partie du procès (p.&#160;228–251). Dans cette perspective, l’ancien <orig>&#160;dossier Panissère I&#160;</orig> a été consigné dans un cahier qui comptait six folios, dont le premier avait été déjà utilisé des deux côtés pour rédiger la plainte de Léopard de Bosco (<bibl><ref target="urn:ssrq:SDS-VD-D_1-13-1">SDS VD D 1 13-1</ref>&#160;: ACV, Ac 29, p.&#160;252–253</bibl>). Ainsi, la première partie du procès Panissère occupe les pages 254 à 258 de ce cahier, lequel ne porte pas de notes ni d’inscriptions au dos. L’ancien <orig>&#160;dossier Panissère II&#160;</orig> a été consigné dans un dossier qui comptait douze folios. Au dos de la dernière page de ce second dossier, soit à la page 251, se trouvent trois inscriptions dorsales attribuées à trois mains différentes, dont la première pourrait relever du notaire De Cresto, qui signe également toute la deuxième partie. Dans les deux cas, des pages ont été laissées en blanc&#160;; pour l’ancien <orig>&#160;dossier Panissère I&#160;</orig>, il s’agit des pages 259 à 263, pour l’ancien <orig>&#160;dossier Panissère I&#160;</orig>, ce sont les pages 244 à 250. </p>
+                <p>Les actes du procès de Jaquet de Panissère ne sont pas rédigés par un seul notaire&#160;: pour les quatre séances contenues dans l’ancien <orig>&#160;dossier Panissère I&#160;</orig>, l’on distingue de manière sûre quatre mains différentes. Jean de Fonte signe les deux premières séances, André Delayens la troisième&#160;; pour la quatrième séance, on voit deux mains, celle de Mermet Nycod et celle d’un anonyme, qui est l’auteur de la sentence interlocutoire. De par une comparaison avec d’autres manuscrits, ce dernier peut être identifié à l’official Baptiste d’Aycard. Toute la seconde partie du procès, soit les pages 228 à 251 est rédigée par le notaire De Cresto. Les deux annotations en marge, qui se trouvent aux pages 230 et 231, ne relèvent pourtant toutefois pas de sa main. Elles ont sûrement été ajoutées lors d’une relecture plus tardive. Quant à l’ancien <orig>&#160;dossier Panissère I&#160;</orig>, il est très difficile d’évaluer l’auteur des titres et des annotations en marge&#160;: il n’est pas possible de les attribuer avec certitude ni à Baptiste d’Aycard, ni à un des notaires mentionnés. Il faut plutôt croire qu’il s’agit d’une seconde main inconnue, qui aurait annoté cette première partie lors d’une relecture plus tardive. Elle n’est en aucun cas identique à celle que l’on retrouve dans la seconde partie des actes. </p>
+            </div>
+        </back>
+    </text>
+</TEI>

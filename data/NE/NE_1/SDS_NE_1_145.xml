@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-145-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS O27.5</idno>
+               </msIdentifier>
+               <head>Articles particuliers accordés par Frédéric&#160;I<hi rend="sup">er</hi>, roi de Prusse, à la
+                  bourgeoisie de Valangin, sous forme de réponses à des requêtes des
+                  bourgeois</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="37"/>
+                              <width unit="cm" quantity="53.3"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a cord" ns0:material="wax in a capsule" ns0:shape="round"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1708-10-01"/>
+                     <origPlace ref="loc016171">Cologne sur Sprée</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_341">SDS NE 1, N<hi rend="sup">o</hi>&#160;145</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000086"></term>
+               <term ref="key000129"></term>
+               <term ref="key000983"></term>
+               <term ref="key000275"></term>
+               <term ref="key004564"></term>
+               <term ref="key005661"></term>
+               <term ref="key000157"></term>
+               <term ref="key003369"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="Ir" facs="AEN_AS_O27.5_Ir"/>
+               <pb n="1r" facs="AEN_AS_O27.5_1r"/>
+               <pb n="1v" facs="AEN_AS_O27.5_1v_2r"/>
+               <pb n="2r" facs="AEN_AS_O27.5_1v_2r"/>     
+               <div>
+                  <p><seg><lb/>Frédéric par la grâce de Dieu etc, <gap reason="missing"/> </seg> <seg>À tous
+                     presens et à venir, <lb/>salut. Ayant été informé que notre ministre <lb/>d’État
+                     et ambassadeur extraordinaire et pléni<lb break="no"/>potentiaire en Suisse, le
+                     sieur comte de Metternich <lb/>auroit en vertu des pleins pouvoirs général et
+                     spécial, <lb/>par nous à lui donnés en date du <date when="1707-06-23"
+                        >23&#160;juin&#160;1707</date> <lb/>accordé et concédé en notre nom aux
+                     maîtres <lb/>bourgeois, conseil et générale bourgeoisie de <pb n="2v"
+                        facs="AEN_AS_O27.5_2v_3r"/><lb/>Vallengin par acte signé de sa main et scellé de
+                     son <lb/>cachet en datte du <date when="1707-11-08">8<hi>me</hi> de
+                        novembre&#160;1707</date>, certains <lb/>articles particuliers pour la
+                     bourgeoisie et les <lb/>peuples de Vallengin, au nombre de quatorze, et <lb/>ce
+                     conformément aux apostilles qui sont en marge, <lb/>desquels articles et
+                     apostilles la teneur s’ensuit <lb/>mot à mot.</seg></p>
+                  <head><lb/>I.</head> 
+                  <p><add place="left margin"><lb/>Accordé.</add></p> <p><lb/>Que d’autant, que plus le commerce est libre et plus un 
+                     <lb/>État s’enrichit, qu’il y ait un commerce
+                     libre pour <lb/>ceux de Vallengin dedans et dehors de l’État pour <lb/>toutes
+                     sortes de denrées sans qu’à cet égard il se fasse <lb/>plus de nouveautez, soit
+                     pour le vin étranger soit pour <lb/>autres denrées qu’on achète ou qu’on vend
+                        conformé<lb break="no"/>ment à leurs franchises et usances.</p>
+                  <head><lb/>II. </head> <p><add place="left margin">Accordé ce 2<hi rend="sup"
+                     >ème</hi> <lb/>article.</add></p> <p><lb/>Que les renvoys si fréquents en conseil d’État par les offi<lb
+                        break="no"/>ciers préposez à la justice pour des choses de
+                     petite im<lb break="no"/>portance, dont la seigneurie est accablée et
+                     fatiguée, <lb/>ne soient plus tolérés&#160;; par ce moien on remédiera <lb/>à la
+                     chicane et à la ruine du peuple.</p>
+                  <head><lb/>III.</head> <p><lb/><add place="left margin">Accordé ce 3<hi>e</hi>&#160;<choice>
+                           <abbr>art </abbr>
+                           <expan>article</expan>
+                  </choice></add><add place="next page"><choice>
+                     <abbr>conformem<hi rend="sup">t</hi></abbr>
+                     <expan>conformément</expan>
+                  </choice> à ce qui <lb/>se pratique rière <lb/>le Comté de <choice>
+                     <abbr>Neufchtl</abbr>
+                     <expan>Neuchâtel</expan>
+                  </choice>.</add></p> <p><lb/>Que dorénavant il ne soit payé rière la mayrie de <pb n="3r"
+                     facs="AEN_AS_O27.5_2v_3r"/><lb/>Vallengin pour la rehemption des taxes que le demi
+                     lods <lb/>conformement à ce qui se pratique dans le reste de l’État, <lb/>non
+                     plus que le demi lod des engageres.</p>
+                  <head><lb/>IV.</head> <p><add place="left margin">Accordé sur ce 4<hi rend="sup">e</hi>&#160;<choice>
+                           <abbr>art</abbr>
+                           <expan>article</expan>
+                        </choice> <lb/>qu’avant que de faire <lb/>pubiler les mandemens <lb/>on
+                        avertira les maîtres <lb/>bourgeois de Vallengin <lb/>de descendre pour
+                        les <lb/>lui communiquer a<lb break="no"/>fin que l’on voye s’il <lb/>y a lieu
+                     à faire quel<lb break="no"/>ques remontrances.</add></p> <p><lb/>Que pour les mandemens
+                     qui se publieront riere Vallengin, <lb/>les maîtres bourgeois soient ouis et
+                     consultez comme <lb/>on fait a Neufchatel ce qui se faisoit lorsque le
+                     conseil <lb/>d’État se tenoit a Vallengin, les conseillers etans du
+                     lieu. <lb/>Cela évitera les remontrances et les frais, et d’ailleurs
+                     les <lb/>mandemens seront mieux observez quand le pais y aura consenti. <lb/></p>
+                  <head><lb/>V. </head> <p><add place="left margin"><lb/>Accordé ce 5<hi rend="sup">e</hi>&#160;<choice>
+                     <abbr>art</abbr>
+                     <expan>article</expan>
+                  </choice>.</add></p> <p><lb/>Qu’à l’avenir on ne soit plus d’obligation comme on le
+                        pratique <lb/>depuis quelque temps de demander à <choice>
+                        <abbr>Mgr</abbr>
+                        <expan>Monseigneur</expan>
+                     </choice> le gouverneur la <lb/> permission de mettre des biens en montes
+                     publiques mais seu<lb break="no"/>lement a l’officier du lieu selon l’ancienne
+                     pratique.</p>
+                  <head><lb/>VI.</head> <p><add place="left margin"><lb/>Accordé ce 6<hi rend="sup">e</hi>&#160;<choice>
+                           <abbr>art</abbr>
+                           <expan>article</expan>
+                  </choice> <lb/>remettant les choses <lb/>sur l’ancien pied.</add></p> <p><lb/>Pour ce qui
+                     est du serment des notaires, qu’outre ce qui est <lb/>déjà porté dans les
+                     articles généraux, on supplie que l’<choice>
+                        <abbr>art</abbr>
+                        <expan>article</expan>
+                     </choice> <lb/>touchant les mises a clos soit retranché.</p>
+                  <head><lb/>VII.</head>  <p><add place="left margin"><lb/>Accordé cet article <lb/>par rapport aux
+                        censes <lb/>de tours et moulins, <lb/>mais <choice>
+                           <abbr>nullem<hi rend="sup">t</hi></abbr>
+                           <expan>nullement</expan>
+                        </choice> par rap <lb/>port aux dixmes.</add></p> <p><lb/>Que les sieurs receveurs en
+                     recevant les graines dues au  <lb/>souverain laissent manier la racle à celui
+                     qui mesure la graine <lb/>conformement à l’ottroy qu’il plut a S.A.S&#160;Henry
+                     d’Orléans<note>Note Favarger&#160;1982&#160;: Erreur&#160;; en 1664 le souverain était l'abbé d'Orléans. Il s'agit d'un acte du 6 février 1654 (art.&#160;4) cf. BOYVE, Annales, t.&#160;IV. p.&#160;72.</note>
+                     <pb n="3v" facs="AEN_AS_O27.5_3v_4r"/> <lb/>de glorieuse memoire d'accorder aux sujets de Vallengin en 1664.</p>
+                  <head><lb/>VIII.</head> <p><add place="left margin"><lb/>Accordé pourveu que <lb/>ce soit sans
+                     abus et seu<lb break="no"/>lement en cas de néces<lb break="no"
+                     />sité.</add></p> <p><lb/>Sur la deffence faite en may&#160;1704 d’aller moudre hors
+                        d’État <lb/>ce qui incommode les villages et habitans des frontières et ce
+                     qui <lb/>même est préjudiciable aux droits de la seigneurie, on supplie <lb/>que
+                     cela soit toléré, d’autant qu’on y va ni ne prétend-on <lb/>y aller que dans la
+                     nécessité.</p>
+                  <head><lb/>IX.</head> <p><add place="left margin"><lb/>Accordé sur ce 9<hi rend="sup">e</hi>&#160;<choice>
+                           <abbr>art</abbr>
+                           <expan>article</expan>
+                        </choice> <lb/>que lors qu’il sera que<lb break="no"/>stion d’emprisonner
+                        une <lb/>personne sujette de <lb/>l’État, il faudra pour le <lb/>moins
+                        5&#160;justiciers, et pour <lb/>condamner à la torture <lb/>la moitié de la
+                        justice <lb/>pour le moins. Et à l’égard <lb/>des étrangers et gens
+                        sans <lb/>aveu, laissé à la discré<lb break="no"/>tion de l’officier.
+                        Lors <lb/>qu’il s’agira de condam<lb break="no"/>ner à la mort il
+                     faudra <lb/>toute la justice.</add></p> <p><lb/>Comme les maires n’interpellent souvent
+                     que quelques juges pour  <lb/>condamner un bourgeois de Vallangin, soit pour le
+                     condamner <lb/>à la torture, soit pour lui infliger des peines corporelles,
+                     sous <lb/>prétexte de l’épargne ou ménage pour le souverain, au lieu <lb/>que
+                     pour fait civil, où il ne s’agira que de quelques sols toute <lb/>la justice
+                     sied en jugement, on prie que l’on cite pour le moins <lb/>la moitié de la
+                     justice pour ces sortes de cas et la justice en<lb break="no"/>tière, lorsqu’il
+                     s’agira d’infliger la peine capitale.</p>
+                  <head><lb/>X.</head> <p><add place="left margin"><lb/>Accordé ce 10<hi rend="sup"
+                     >e</hi>&#160;article <lb/>à condition de se con<lb break="no"/>former à
+                     l’ancienne pra<lb break="no"/>tique, et que les che<lb break="no"/>mins
+                     seront bien main<lb break="no"/>tenus et en bon État.</add></p> <p><lb/>Le nouvel établissement des voyers fait depuis il y a 3&#160;ans
+                        acca<lb break="no"/>blant de frais
+                     inutiles <choice>
+                        <abbr>particulierem<hi rend="sup">t</hi></abbr>
+                        <expan>particulièrement</expan>
+                     </choice> les peuples du Val de Rus <lb/>et qui en outre cause une perte
+                     sensible aux particuliers <lb/>et à la seigneurie, on supplie que les choses
+                     soient laissées sur <lb/>l’ancien pied, assavoir que s’il y a quelques plaintes
+                     de chemins <lb/>gâtés, que <choice>
+                        <abbr>Mr</abbr>
+                        <expan>monsieur</expan>
+                     </choice> le procureur de Vallengin les fera reparer par les <pb n="4r"
+                        facs="AEN_AS_O27.5_3v_4r"/><lb/>communes, à peine de payer ses journées et
+                     vacations si on n’obeit pas <lb/>promtement ainsi qu’il se pratiquoit du
+                     passé.</p>
+                  <head><lb/>XI.</head> <p><add place="left margin"><lb/>Accordé ce 11<hi rend="sup">e</hi>&#160;<choice>
+                           <abbr>art</abbr>
+                           <expan>article</expan>
+                  </choice>.</add></p> <p><lb/>On supplie qu’il soit établi des juges en renfort dans les
+                        justi<lb break="no"/>ces du comté de Vallengin comme à St Blaise.</p>
+                  <head><lb/>XII. </head> <p><add place="left margin"><lb/>Ils seront maintenus <lb/>dans
+                     leurs franchises.</add></p> <p><lb/>Comme depuis quelques temps on a voulu extendre
+                        l’obligation <lb/>de ceux de Vallengin sur le fait des armes au delà de
+                     ce qu’ils <lb/>sont obligez par leurs franchises, ils prient qu’à l’avenir
+                     ils <lb/>ne soient plus inquiétez a cet égard.</p>
+                  <head><lb/>XIII.</head>  <p><add place="left margin"><lb/>Accordé quoi que ce <lb/>ne fut pas la
+                     pratique</add></p> <p><lb/>L’on requiert que le serment soit prêté le premier de la part
+                        de <lb/><choice>
+                        <abbr>S.&#160;M.</abbr>
+                        <expan>Sa Majesté</expan>
+                     </choice> aux peuples de Vallengin, de même que cela se pratique <lb/>à
+                     Neufchatel et que les peuples le prêtent immédiatement après.</p>
+                  <head><lb/>XIV.</head> <p><lb/><add place="left margin">Accordé pour le ti<lb break="no"/>tre à
+                        codition que <lb/>cela ne préjudicie<lb break="no"/>ra <del
+                           rend="strikethrough">pas </del>en rien aux <lb/>anciennes liasions <lb/>et
+                     astrictions à <lb/>l’égard du comté de <lb/>Neuchâtel.</add></p> <p><lb/><choice>
+                        <abbr>Finalem<hi rend="sup">t</hi></abbr>
+                        <expan>Finalement</expan>
+                     </choice> on supplie que le nom de comté soit donné à la terre <lb/>de
+                     Vallengin, comme cela se trouve dans plusieurs actes <lb/>tant devant qu’après
+                     la reunion de ce comté à celui de Neuf<lb break="no"/>chatel au lieu de <add
+                        place="above">celuy de</add> seigneurie qu’on lui donnoit communé<lb
+                        break="no"/>ment des quelques tems en ça.</p>
+                 <p><gap reason="missing"/></p> 
+                  <pb n="4v" facs="AEN_AS_O27.5_4v_5r"/> 
+                  <pb n="5r" facs="AEN_AS_O27.5_4v_5r"/> 
+                  <pb n="5v" facs="AEN_AS_O27.5_5v_6r"/> <p><lb/>Donné à
+                        <origPlace ref="loc016171">Cologne sur la Sprée</origPlace> ce <origDate
+                        when="1708-10-01">1 d’octobre 1708</origDate>. L’an de nôtre règne <lb/>le
+                     huitième.</p>
+                   <lb/><signed> Frédéric&#160;R. </signed>
+                  <pb n="6r" facs="AEN_AS_O27.5_5v_6r"/>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original signé et scellé, AEN, O&#160;27, N<hi rend="sup">o</hi>&#160;5.</p>
+               <p>Éd.&#160;<hi rend="italic">Recueil de pièces officielles</hi>, I, p.&#160;44-52. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

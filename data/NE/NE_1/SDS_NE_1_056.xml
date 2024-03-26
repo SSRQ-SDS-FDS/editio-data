@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>  <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+         </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+                  sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-56-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+                  <idno xml:lang="fr">AVN GA-A2.G</idno> 
+               </msIdentifier>
+               <head>Confirmation des franchises de Neuchâtel par François d'Orléans, avec des clauses
+                  nouvelles comportant divers droits concédés aux quatre ministraux, et entre autres celle
+                  fixant la nouvelle composition des états</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="27.4"/>
+                              <width unit="cm" quantity="61.5"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/> <!--PS:  fehlt! -->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1531-04-06"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_152">SDS NE 1, N<hi rend="sup">o</hi>&#160;56</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000468"></term>
+               <term ref="key000129"></term>
+               <term ref="key000086"></term>
+               <term ref="key000023"></term>
+               <term ref="key000815"></term>
+               <term ref="key003389"></term>
+               <term ref="key005297"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="AVN_A_2_g"/>
+               <div>
+                  <p><seg>
+                     <lb/><persName>Françoys d’Orléans</persName> tant en nostre nom que pour et au nom de nostre très
+                     honnorée dame et mere <persName>Jehanne</persName>, duchesse de Longueville <gap reason="missing"/>
+                     <lb/>et de nostres très cher seigneur et frere le duc de Longueville, a tous
+                     ceulx qui ces presentes lettres verront, salut.</seg> <seg>Savoir faisons que aujourduy
+                     recevant les sermens de noz très chers et bien amez bourgeoys de nostre ville
+                     de  <placeName ref="loc007786">Neufchastel</placeName>, <lb/>de la part d’iceulx nous a esté remonstré et très
+                     humblement supplié que nostre plaisir fust leur confermer, ratiffier et
+                     approuver leurs franchises, libertez ensemble leurs bonnes coustumes anciennes,
+                     escriptez et non escriptez, <lb/>ainsi et pareillement que avoyent fait noz
+                     seigneurs predécesseurs, contes is et contesses dudict Neufchastel et avec ce
+                     aucuns articles contenuz en leursdictes franchises en estre oustez et mis
+                     hors d’icelles actendu que de present n’en usent <lb/>aucunement. Pourquoy
+                     nous, tant pour et au nom de nostredicte dame et mere, de nostredict seigneur
+                     et frere que pour nous, considerans leur supplication et requeste estre
+                     aucunement consonnante a raison, voulions ensuyvre le chemyn <lb/>et bonne
+                     forme de noz seigneurs prédécesseurs a bon faict, avons pour nous et esdicts
+                     noms, noz hoirs et successeurs quelzconques, ausdicts bourgeois, pour eulx et
+                     leurs hoirs et successeurs, inové, confermé et approuvé leursdictes libertez
+                     <lb/>et franchises, ensemble leurs bonnes coustumes anciennes, escriptez et non
+                     escriptez, et par ces presentes innovons, confermons et approuvons selon qu’il
+                     est contenu es lectres de leursdictes franchises a eulx données et confermées
+                     <lb/>par feuz de haute et noble memoire <persName>Jehan</persName>, conte de Fribourg et dudict
+                     Neufchastel, et par nos très chers seigneurs, ayeul et pere, contes dudict
+                     Neufchastel, que Dieu absoille, et oultre de nostre liberallité, haultesse et
+                     grâce <lb/>especial, avons donné et octroyé, donnons et octroyons par <choice>
+                        <sic>octroy</sic>
+                        <corr/>
+                     </choice> cesdictes presentes aux quattre mynistraux et bourgeoys habitans de
+                     nostredicte ville de Neufchastel le droict de terraige que l’on nous soulloit
+                     payer sur certaines <lb/>vignes estans au dedans des limittez de la mayrie
+                     dudict Neufchastel et Champpreveres selon le contenu d’un article estant en
+                     leursdictes franchises, lequel se payoit tant en vin que en argent et lequel
+                     droict <lb/>de terraige de nostre franche volonté et liberallité avons donné et
+                     donnons a nosdicts bourgeois habitans de nostredicte ville de Neufchastel pour
+                     d’icelluy jouyr et user plainement et paisiblement a perpétuel <lb/>tout ainsi
+                     que faisoient et jouyssoient noz predesseurs contes de Neufchastel, le serment
+                     ouste tant seullement, pourveu touteffoy que nous et noz successeurs contes de
+                     Neufchastel ne seront <lb/>aucunement tenuz payer ledict terraige pour raison
+                     de heritaiges ou vignes que avens ou nous pourroient advenir soit par
+                     acquisition, donations, successions, confiscations ou autrement. Et ce de
+                     nostre grace special <lb/>et pour l’aucmentation de nostredicte ville de
+                     Neufchastel sans ce que doresnavant par nous ny nosdicts hoirs et successeurs
+                     leur puisse estre a jamais aucune chose, querelle ny demande et aussi pour les
+                     louables et <lb/>agreables services que nosdicts bourgeois nous ont faiz
+                     parcydevant et espérons que en cors feront a l’advenir, en faveur et
+                     contemplation duquel don et octroy dessusdict nous ont lesdicts bourgeois usans
+                     de <lb/>liberallité reciproque, franchement et liberallement rendu quiete et
+                     remis tout ce que les seigneurs des ligues, leurs bailly et officiers, durant
+                     le temps qu’ilz ont tenu et occuppé en leurs mains nostredict <lb/>conté de
+                     Neufchastel, leur auroit esté baillé, mis a cense ou autrement alliené, sans y
+                     riens rescover ny retenir&#160;; et pour ce que lesdicts noz bourgeois avoyent
+                     aucunement a regret l’estat de l’eglise <lb/>quant au fait de la justice, pour
+                     le bien de paix et les nourrir en amour entre eulx avons par proviseon
+                     substitué et mis l’estat de la noblesse et les vassaulx au premier lieu et
+                     estat de ladicte <lb/>justice, noz officiers au second estat et pour le tiers
+                     quactre des bourgeoys de la justice de ladicte ville de Neufchastel et avec
+                     eulx, pour l’amplification dudict estat, les quatre banderei, assavoir de
+                     <lb/>Neufchastel, du Landeron, Boudry et du Vauxtravers, lesquelz jugeront et
+                     congnoistront aux audiances generalles comme par cy devant a esté accoustumé
+                     jusque ad ce que plus amplement y soit pourveu et advisé par <lb/>nostredicte
+                     dame. Et quant aux estatz qui dores en avant se tiendront pour choses
+                     particullieres, jugeront quatre desdicts nobles et vassaulx, quattre de
+                     nosdicts officiers et quatre bourgeoys de la justice dudict <lb/>Neufchastel.
+                     Pareillement nosdietz bourgeoys de nostre dicte ville de Neufchastel
+                     demeureront quietes en tout en nostredict conté des ventes et peaiges, comme ilz
+                     estoient du passé, de la marchandise qu’ilz <lb/>meneront à leurs propres
+                     demere. Et pour ce que plusieurs abuz y ont esté par cy devant faiz, nosdicts
+                     bourgeoys, leurs hoirs et successeurs, seront tenuz quant requis en seront par
+                     noz peageurs faire le <lb/>serment aux sainetz evangilles de Dieu qu’ilz ne
+                     scavent la desducte de la marchandise qu’ilz maynent et qu’elle ne soit
+                     achectée d’autres deniers que de leurs propres sans fraulde et barat. Avons
+                     aussi <lb/>octroyé a noz bourgeoys de nostre dicte ville et permis faire une
+                     prison et caige pour mectre, pugnir et chastier les enfsans malvivans, lesquelz
+                     font plusieurs follyes et insollances, tant de nuyet que de jour, <lb/>non
+                     criminelles mesmement ceulx qui desrobent les fruietz, a la charge touttefoiz
+                     que nos officiers y seront appelez a iceulx prendre et relachez, l’auctorité de
+                     nostredicte dame toujours gardée et <lb/>expressément reservée. Semblablement
+                     nosdicts bourgeoys ne payeront doresenavant la paste deue aux fours, selon le
+                     contenu en ladicte franchise, pour le fournaige de leurs pains et ainsi
+                     payeront seullement <lb/>pour ladicte paste, les deniers a quoy elle a esté
+                     evalluée, assavoir pour chascun muys six solz petitz et pour les fournerettes
+                     troys solz petits. Et oultre leur avons promis et juré par nostre serment et en
+                     parolle <lb/>de prince, pour ce donné aux sainctes evangilles de Dieu, au lieu
+                     de nostre chapelle estant en nostre chasteau dudict Neufchastel, icelles leurs
+                     libertez et franchises ensemble toutes leurs bonnes anciennes coustumes,
+                     <lb/>escriptez et non escriptez, desquelles ilz ont jouyr et user notoirement
+                     au temps passé, tenir, garder et inviolablement observer sans les corrompre ou
+                     venir au contraire au temps advenir par la forme et <lb/>maniere que cy devant
+                     est divisé et narré.</seg>  <seg>En tesmoingt de nous avons signé ceste de nostre main et
+                     fait mectre et appandre nostre propre seel qui furent faictes et données a
+                     <placeName ref="loc007786">Neufchastel</placeName>, <date when="1531-04-06">le sixieme <lb/>jour d’avril, l’an mil
+                        cinq cens et trente ung</date>, prins a la nativité de Nostre Seigneur <gap
+                           reason="missing"/>.</seg>
+                  </p>
+                  <lb/>
+                  <signed>
+                  <persName>Françoys</persName>
+                  </signed>
+               </div>
+            </body>
+            <back><div><p> Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>AVN, A&#160;II&#160;g (copie sur papier du XVIII<hi rend="sup"
+                     >e</hi>&#160;siècle).</p>
+               <p>Cité&#160;: Matile, <hi rend="italic">Institutions judiciaires</hi>, p.&#160;147.
+                     Boyve, <hi rend="italic">Annales</hi>, II, p.&#160;316-318. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.42-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 319–320</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 319–320</idno>
+					</msIdentifier>
+					<head xml:lang="de">Caspar Kilchör – Verhör</head>
+					<head xml:lang="fr">Caspar Kilchör – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-08-22"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key003282"/>
+					<term ref="key003399"/>
+					<term ref="key004799"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="318"/><p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <origDate when="1646-08-22">22<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1646</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <abbr>hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>hr</abbr> <persName ref="per013453a.01">Gady</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/>dazu erbetten <persName ref="per014042a.01">Hannß <choice><abbr>N</abbr><expan>Niclaus</expan></choice> Wildt</persName>, <persName ref="per014043a.01">Claudi Zollett</persName></seg></p>
+						<p><seg><lb/><persName ref="per017022a">Caspar Kilchör</persName> von <placeName ref="loc010226.03">Ütschenwyll</placeName>, der ettlichen wider die
+							<lb/>oberkheit oder denselben <term ref="lem002066">rathsfründen</term> ußgegoßnen wortten
+				<lb/>gefängklich yngezogen unndt von mynen herren des statt<lb break="no"/>gerichts examiniert <subst><del>worden</del><add place="inline">unndt</add></subst> erfragt worden, ob <subst><del>er</del><add place="inline">unndt</add></subst>
+							<lb/>warumb er geredt, wan syn <add place="above"><term ref="lem018241.02">schwygerin</term><note>Gemeint ist <persName ref="per017000">Tichtli Jeckelmann-Gauch</persName>.</note></add> wölle <term ref="lem016800">ledig</term> werden, so müsse er
+							<lb/><term ref="lem018870.02">thumenschmaltz</term> finden unndt spendieren. Wölle dardurch woll
+							<lb/><term ref="lem005639">verschaffen</term>, daß man sie <term ref="lem009657">ledigen</term> werde? Hatt <term ref="lem018364.02">khnüwlingen</term>
+							<lb/>umb <term ref="lem004684.08">verzüchung</term> gebetten unndt gesagt, er khönne unndt
+				<lb/>möge sich nit erinneren, das er dergestalt geredt undt
+				<pb n="320"/><lb/>vermessen gsyn sye. Wo aber es geschechen wär, bittet myn
+				<lb/><choice><abbr> g hh</abbr><expan>gnädige herren</expan></choice> umb gnad.</seg> <seg>Vermeint, er habe des spendierens wegen
+				<lb/>nüt geredt allß allein, das er werde wegen des in der
+				<lb/>gefangenschafft uffgangnen unkhostens vihl gelts finden
+					<lb/>unndt <term ref="lem003756.03">ußrichten</term> müssen. Habe es in kheiner bößer meinung
+					<lb/>geredt; möchte auch syn, das er damahls von <term ref="lem000053.03">wyn</term> über<lb break="no"/>nommen geweßen wäre.</seg> <seg>Als myn <choice><abbr>hhren</abbr><expan>herren</expan></choice> ihne nochmahls
+				<lb/>mit allem ernst vermahnt, er soll by synem eydt unndt
+				<lb/>das ohne jehmandts ansehen anzeigen, ob er niemandt
+				<lb/>gelt gegeben, versprochen oder sonsten gwalt geben unndt
+					<lb/>befohlen habe, etwas in syn oder syner <term ref="lem018241.02">schwygerin</term> namen
+						<lb/><term ref="lem018365.02">ußzuseckhlen</term>? Hatt geandtworttet unndt weinend
+						<lb/><term ref="lem016814">vermeldt</term>, es sye unnd werde sich nit befinden, das et<lb break="no"/>was derglychen mitgeloffen sye. Zwahr wahr ist es,
+				<lb/>das er mit unndt neben syner dryen schwägeren dem
+					<lb/>herrn <persName>Carle Hirtt</persName> <measure type="currency" unit="Pistole" quantity="2">zwo pistolen</measure> gegeben habendt, der mein<lb break="no"/>nung, das er, wo man ihre gefangne <term ref="lem018241.02">schwygerin</term>
+						<lb/><term ref="lem009657">ledigen</term> wurde, dieselbige für den unkhosten <term ref="lem017322.02">lifferen</term>
+				<lb/>unndt in ihrem namen endtrichten solle. Dan sie in gröstem
+						<lb/>der <term ref="lem004153.01">erndt</term> sehr beschäfftiget unnd dißer sach nicht
+						<lb/><term ref="lem008561.03">stäth</term> nachgähn könnendt.</seg> <seg>Sagt, es werde sich nit anderst
+							<lb/><term ref="lem008354">erfinden</term>. Bittet nochmahlen umb <term ref="lem004684.08">verzüchung</term> mit <term ref="lem016814">vermelden</term>,
+				<lb/>das er mit den weyblen, do sie ihne abgeholt, nit geessen
+							<lb/>noch getrunckhen hab sonders zum herrn <term ref="lem006250">venner</term> <persName>von Monte<lb break="no"/>nach</persName> gehn <placeName ref="loc008332.02">Ballißwyll</placeName> gangen, von ihme dißes geschäffts
+				<lb/>halber raths zu pflegen. Der ihme gesagt, er solle sich
+							<lb/>gehorsamblich <term ref="lem012150.04">ynstellen</term> unndt in die gnad begeben. Be<lb break="no"/>langendt syn <term ref="lem018241.02">schwygerin</term>, die <term ref="lem014663.05">jetzundt</term> mehr dan ein monat
+							<lb/>gefangen ligt, wan sie sich jedoch wider <term ref="lem016058">verhoffen</term>
+				<lb/>schuldig und unnütz befindt, begert, das man sie der
+						<lb/>gebühr nach abstraffe.</seg> </p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

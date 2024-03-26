@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.49-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 214–223</idno>
+     </msIdentifier>
+     <head>Servitudes et mainmortes</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005821"/>
+     <term ref="key005822"></term>
+     <term ref="key000075"></term>
+     <term ref="key000086"></term>
+     <term ref="key000920"></term>
+     <term ref="key005297"></term>
+     <term ref="key000366"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="214" facs="AEN_MJ_17_214_215"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chap.</abbr>
+        <expan>Chapitre</expan>
+       </choice> XLIX. <lb/>Des servitudes et <lb/><term ref="lem017835.02">mainmortes</term>.
+      </head>
+      <p>
+       <lb/>L’on peut asservir sa <choice>
+        <abbr>maiso</abbr>
+        <expan>maison</expan>
+       </choice>
+       <lb/>en telle sorte qu’elle ne puisse estre <lb/>eslevée plus haute, <app>
+        <lem>a ce</lem>
+        <rdg wit="AVN Q41, p. 75">afin</rdg>
+       </app> qu’il ne <lb/>soit fait prejudice aux veuës &amp; <lb/>jours des maisons prochaines,
+       ou  <lb/><add place="below" type="catchword">bien</add>
+       <pb n="215" facs="AEN_MJ_17_214_215"/>
+       <lb/>bien souffrir que le voisin mette ses <lb/>poultres et <term ref="lem018093.02"
+        >trabs</term><app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 75">, et chevrons</rdg>
+       </app> ou autres pieces <lb/>de bois, fasse leviers soustenoirs de <lb/>pierre ou d’autre <app>
+        <lem>nature estoffé</lem>
+        <rdg wit="AVN Q41, p. 75">matière, ou estoffe</rdg>
+       </app>
+       <lb/>dans sa paroy et muraille. <term ref="lem017828">Item</term>
+       <lb/>qu’il reçoive les eaux et degouts <lb/>des autres maisons dans la sienne, <lb/>ou
+       permettre des couduits par <lb/>dedans sa maison et l’entrée et <lb/>l’issue.</p>
+      <p>
+       <lb/>L’on peut aussy assubjettir les<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 75"> possessions, et</rdg>
+       </app>
+       <lb/>heritages, comme <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 75">de</rdg>
+       </app> souffrir d’aller, <lb/>venir<app>
+        <lem>,</lem>
+        <rdg wit="AVN Q41, p. 75">et</rdg>
+       </app> passer ou charier par dessus <lb/>ou faire couler et dessendre des eaux <lb/>par iceux pour<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 76"> passer outre, et</rdg>
+       </app> venir a ceux de <lb/>ses voysins.</p>
+      <p>
+       <lb/>Appres partage fait <choice>
+        <abbr>etre</abbr>
+        <expan>entre</expan>
+       </choice>
+       <choice>
+        <abbr>coherit<hi rend="sup">rs</hi></abbr>
+        <expan>coheritiers</expan>
+       </choice>
+       <lb/>et partionniers de choses <choice>
+        <abbr>comunes</abbr>
+        <expan>communes</expan>
+       </choice>,  <lb/><add place="below" type="catchword">dont</add>
+       <pb n="216" facs="AEN_MJ_17_216_217"/>
+       <lb/>dont l’une partie sert a l’autre, <lb/>comme les veues, esgouts et <choice>
+        <abbr>aues</abbr>
+        <expan>autres</expan>
+       </choice>
+       <lb/>semblables servitudes, demeurent <lb/>comme elles estoyent et servoyent<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 76"> devant <lb/>et</rdg>
+       </app>
+       <lb/>lors du partage, sy par les <term ref="lem014983">lods</term>
+       <lb/>et partages il n’est <app>
+        <lem>dit et <lb/>reservé.</lem>
+        <rdg wit="AVN Q41, p. 76">re<lb break="no"/>servé, et dit autrement.</rdg>
+       </app>
+      </p>
+      <p>
+       <lb/>La paroy ou mur qui est commun <lb/>a deux voisins, se doit<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 76"> maintenir, et</rdg>
+       </app> rebastir par <lb/>tous deux tous ensemblement, et <lb/>l’un et l’autre peuvent percer
+       le mur <lb/>un chescun selon sa commodité et <lb/>utilité pour y mettre et assoir<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 76"> dans la muraille</rdg>
+       </app>
+       <lb/><term ref="lem018093.02">trabs</term> et <term ref="lem018094.02">chevrons</term> ou
+       faire <term ref="lem018095.02">archez</term>
+       <lb/>qui n’entrent<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 76">, et qu’ils ne <lb/>les mettent</rdg>
+       </app> dans <app>
+        <lem>la</lem>
+        <rdg wit="AVN Q41, p. 76">ladite</rdg>
+       </app> muraille <lb/>que jusques au tier de son <del rend="rubbing">degré</del>
+       <lb/>costé, et qu’il bouche bien les <term ref="lem018096.02">pertuis</term>, <lb/>mesme peut
+       faire un tuyau ou canal <lb/>pour une cheminée jusques a <lb/>tier <app>
+        <lem>le</lem>
+        <rdg wit="AVN Q41, p. 76">du</rdg>
+       </app> mur.  <lb/><add place="below" type="catchword">Qui</add>
+      </p>
+     <pb n="217" facs="AEN_MJ_17_216_217"/>
+      <p>
+       <lb/>Qui demande avoir ouverture, <lb/>voye ou chemin pour entrer sur <lb/>son fond, s’il se
+       trouve qu’il y aye <lb/>voye, encore qu’elle soit loingtaine <lb/>et difficile, ne luy est
+       accordée. Et <lb/>sy au contraire il n’a aucune voye <lb/><app>
+        <lem>l’un</lem>
+        <rdg wit="AVN Q41, p. 76">luy</rdg>
+       </app> est constitué chemin par le <lb/>moings dommageable, autrement son <lb/>fond<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 76">, et possession</rdg>
+       </app> luy seroit inutile, toutesfois <lb/>en payant l’interest du dommage <lb/>que telle
+       voye apporte a l’heritage <lb/>d’autruy, selon l’estimation de <lb/>gens de justice, et leur
+       cognoissance.</p>
+      <p>
+       <lb/>Personne ne peut empescher <lb/>les hauts chemins, ny bastir <lb/>sur iceux sans lisence
+       du prince <lb/>auquel ils appartiennent, ny personne <lb/>ne peut dresser et<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 76"> ne peut</rdg>
+       </app> bastir <term ref="lem018097.02">collombier</term>
+       <lb/>sans ladite <term ref="lem017832.02">lisence</term>, et de ceux qui en <lb/>sont
+       privilegez.  <lb/><add place="below" type="catchword">L’on</add>
+      </p>
+     <pb n="218" facs="AEN_MJ_17_218_219"/>
+      <p>
+       <lb/>L’on peut faire deffendre un nouveau <lb/>bastiment ou un vieux qui se redresse <lb/>et
+       rebastit, qui semble nous prejudicier <lb/>en quelque sorte, et la deffence faite <lb/>le
+       bastiment doit cesser <date dur-iso="P8D">huict jours</date>, <lb/>pendant lesquels se terminera
+       la <app>
+        <lem>diffinitive</lem>
+        <rdg wit="AVN Q41, p. 76">difficulté</rdg>
+       </app>
+       <lb/>par la police &amp; justice.</p>
+      <p>
+       <lb/>Le noyer plus proche de <measure origin="NE" type="length" unit="Fuss" quantity="30"
+        >trente pieds</measure>
+       <lb/>de la possession, vigne ou mayson d’autruy <lb/>et <app>
+        <lem>que</lem>
+        <rdg wit="AVN Q41, p. 76">qui</rdg>
+       </app> luy porte nuisance par son ombre, <lb/>le maistre auquel il appartient peut <lb/>estre
+       contraint de le coupper.</p> 
+      <p>
+       <lb/>Toutes servitudes se perdent par <lb/>faute d’avoir usé d’icelles par <date dur-iso="P10Y"
+        >dix ans</date>
+       <lb/>entre presents, <app>
+        <lem>&amp;</lem>
+        <rdg wit="AVN Q41, p. 76">ou</rdg>
+       </app>
+       <date dur-iso="P20Y">vingt <add place="above" hand="hand17c">ans</add></date> entre absents,
+       <lb/>et ne se peut tel droit prescripre, <lb/>pour l’acquerir sans tiltre &amp; <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 76">longue</rdg>
+       </app> possession <lb/>de bonne foy.  <lb/><add place="below" type="catchword"
+        >Naturellement</add>
+      </p>
+     <pb n="219" facs="AEN_MJ_17_218_219"/>
+      <p><add place="inline" hand="other hand"><lb/><app>
+         <lem>NATURELLEMENT</lem>
+         <rdg wit="AVN Q41, p. 76">naturellement</rdg>
+        </app> &amp; de coustume tout <lb/>homme doibt entretenir le chemin public <lb/>devant sa
+        maison &amp; possession, mais pour la <lb/><app>
+         <lem>refaction &amp; maintenance</lem>
+         <rdg wit="AVN Q41, p. 76">maintenance, et refaction</rdg>
+        </app> des grands chemins<app>
+         <lem/>
+         <rdg wit="AVN Q41, p. 76"> cela</rdg>
+        </app>
+        <lb/>se fera par les communes.</add><note>Ce paragraphe est écrit d’une autre main, qui
+        pourrait paraître plus récente, mais ne l’est pas forcément. Dans AVN Q41, il est de la même
+        main et intégré dans le texte.</note>
+      </p>
+      <p>
+       <lb/>Personne ne peut constituer servitudes <lb/>sur les personnes, que le prince seul&#160;:
+       <lb/>parquoy l’homme franc qui prend du <lb/>prince par convention la condition de <lb/><term
+        ref="lem017835.02">main morte</term>
+       <app>
+        <lem>&amp;</lem>
+        <rdg wit="AVN Q41, p. 77">a</rdg>
+       </app> retraict de luy, mais <lb/>ladite condition demeure incontinent <lb/>main-mortable
+       pour luy &amp; sa posterité<app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 77"> s’il n’en a point voulu prendre retraite</rdg>
+       </app>.</p>
+      <p>
+       <lb/><term ref="lem017828">Item</term> un homme franc qui va demeurer <lb/>sur un tenement de
+        <term ref="lem017835.02">main morte</term> et y <lb/>tient feu et lieu par <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 77">l’</rdg>
+       </app>espace d’<date dur-iso="P1Y6W"><term ref="lem014776">an &amp; jour</term></date>
+       <lb/>et paye en son chef les usages de ladite <lb/>condition, demeure <choice>
+        <abbr>p<hi rend="sup">r</hi></abbr>
+        <expan>pour</expan>
+       </choice> luy &amp; posterité a <lb/>naistre <choice>
+        <abbr>home</abbr>
+        <expan>homme</expan>
+       </choice> de <term ref="lem017835.02">main morte</term>.  <lb/><add place="below"
+        type="catchword"><choice>
+         <abbr>Pareillemt</abbr>
+         <expan>Pareillement</expan>
+        </choice></add>
+      </p>
+     <pb n="220" facs="AEN_MJ_17_220_221"/>
+      <p>
+       <lb/>Pareillement le franc qui se marie <lb/>sçiemment a la femme de <term ref="lem017835.02"
+        >main morte</term>, <lb/>et va resider <date dur-iso="P1Y6W"><term ref="lem014776">an et
+         jour</term></date> sur le bien <lb/>de sa femme, c’est comme de l’article <lb/>precedent.
+      </p>
+      <p>
+       <lb/>L’homme franc, affranchit sa femme <lb/>main mortable, sy elle <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 77"> estant allée demeurer sur le bien d’iceluy,</rdg>
+       </app> a enfans de <lb/>sondit mary qui luy puissent succeder, <lb/>sinon decedant sans
+       heritiers de son corps <lb/>demeurant en <app>
+        <lem>communion</lem>
+        <rdg wit="AVN Q41, p. 77">commun</rdg>
+       </app> avec elle, &amp; <lb/>sans avoir esté separé. Le prince retire <lb/>tout ce qui
+       pouvoit appartenir a icelle <lb/>femme.</p>
+      <p>
+       <lb/>L’homme de <term ref="lem017835.02">main morte</term> ne peut vendre <lb/>alliener et
+       hypothecquer l’heritage <lb/>de <term ref="lem017835.02">main morte</term>, sans le
+       consentement <lb/>du prince, et s’il en advient autrement <lb/>il y a commise, sy ce n’est a
+       gens de <lb/>sa condition.  <lb/><add place="below" type="catchword">Heritage</add>
+      </p>
+     <pb n="221" facs="AEN_MJ_17_220_221"/>
+      <p>
+       <lb/>Heritages francs acquis par gens <lb/>de <term ref="lem017835.02">main morte</term>
+       deviennent de <lb/>ladite condition.</p>
+      <p><app><lem><lb/>Gens de <term ref="lem017835.02">main morte</term> communs en <lb/>biens qui se separent
+       et divisent <lb/>de la communion ne peuvent se <lb/>mettre ensemble sans le <choice>
+        <abbr>consentem<hi rend="sup">t</hi></abbr>
+        <expan>consentement</expan>
+       </choice>
+       <lb/>du prince, &amp; ne se peuvent succeder <lb/>les uns aux autres, sinon tandis
+       <lb/>qu’ils sont demeurants en commun.</lem><rdg wit="AVN Q41, p. 77"/></app></p>
+      <p>
+       <lb/>L’homme de <term ref="lem017835.02">main morte</term> en quelque <lb/>part qu’il <app><lem><term ref="lem019336.03">voise</term></lem>
+        <rdg wit="AVN Q41, p. 77">alle</rdg>
+       </app>, demeure <app>
+        <lem>et</lem>
+        <rdg wit="AVN Q41, p. 77">,</rdg>
+       </app> est <lb/>tousjours de ladite condition, &amp; <lb/>peut estre repeté.</p>
+      <p>
+       <lb/>Le prince prend l’escheute et <lb/>succession de ses hommes de <term ref="lem017835.02"
+        >main morte</term>
+       <lb/><add place="below" type="catchword">quand</add>
+       <pb n="222" facs="AEN_MJ_17_222_223"/>
+       <lb/>quand ils trespassent sans <term ref="lem015995.02">hoirs</term> de <lb/>leurs corps ne
+       demeurants en communion. <lb/>Et n’est tenu payer les debtes qu’ils <lb/>ont créez sans son
+       consentement sur <lb/>le bien fond.</p>
+      <p>
+       <lb/>Gens de <term ref="lem017835.02">main morte</term> sont tenuz faire <lb/>assistance et
+       main forte aux executions <lb/>criminelles<app>
+        <lem>, et</lem>
+        <rdg wit="AVN Q41, p. 77">. Meme de <term ref="lem017835.02">main morte</term>, pour leur
+         condition abjete,</rdg>
+       </app><note>Nouveau paragraphe dans AVN Q41.</note> ne sont <app>
+        <lem>pour leur <lb/>condition abjecte</lem>
+        <rdg wit="AVN Q41, p. 77">point</rdg>
+       </app> excluz d’exercer charges <lb/>publicques, car ils peuvent estre justiciers,
+       <lb/>notaires, tuteurs, curateurs et avoir <lb/>autres publicques droits de communaulté
+       <lb/>et autres semblables preheminences <lb/>quand il plaist au prince <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 77"> et que par leur pieté <lb/>sagesse et vertus, ils rendent
+         dignes</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Personne ne peut <term ref="lem019252">aberger</term> estrangers, <lb/>pour residence en
+       ceste souveraineté, <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice>
+       <lb/>le prince, &amp; ses vassaux <term ref="lem017830.02">riere</term> leur juris<lb
+        break="no"/>diction, et la ville de <placeName ref="loc007904.02">Bouldry</placeName> dans <choice>
+        <abbr>lad</abbr>
+        <expan>ladite</expan>
+       </choice>
+       <lb/>ville et non ailleurs.  <lb/><add place="below" type="catchword">Nul</add>
+      </p>
+     <pb n="223" facs="AEN_MJ_17_222_223"/>
+      <p>
+       <lb/>Nul ne peut aussy estre receu de <lb/>bourgeoisie ou communauté, sans <lb/>le
+       consentement du prince.</p>
+      <p>
+       <lb/>Les bourgeois et communiers <lb/>ne peuvent faire leurs assemblées <lb/>sans le
+       consentement du prince, <lb/>et sa <term ref="lem017832.02">lisence</term> premiere requise,
+       <lb/>ou la presence de l’officier.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

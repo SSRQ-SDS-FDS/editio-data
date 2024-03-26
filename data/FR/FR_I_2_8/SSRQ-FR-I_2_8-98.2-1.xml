@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-10-14"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-98.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 13, S. 405</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 13, p. 405</idno>
+					</msIdentifier>
+					<head xml:lang="de">Georgea Legrin – Verhör und Urteil</head>
+					<head xml:lang="fr">Georgea Legrin – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1637-05-02"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><placeName ref="loc008105">Keller</placeName>
+							<seg><lb/><origDate when="1637-05-02">2 <foreign xml:lang="la">maii</foreign> 1637</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr> <expan>judex</expan></choice></foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per011517">Peter Krummenstoll</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per009267a.01">Brodardt</persName>, <abbr>h</abbr> <persName ref="per006816a.02">Gottrow</persName></seg>
+							<seg><lb/><persName ref="per009259a.01">Ligertz</persName><del rend="underline">Gart</del></seg>
+							<seg><lb/><persName ref="per011540a.02">Gartner</persName>, <persName ref="per011548">Reyff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per011938a.01">George Legrin</persName> de <placeName ref="loc007932.02">Visin</placeName> enquise pourquoy elle <add place="left margin" type="sign">tenoit prison,
+							<lb/>a respondu qu’elle</add> avoit esté
+							<lb/><term ref="lem019512.03">bannie</term> de ces terres, il y a l’environ d’<date dur-iso="P18M">un an et demy</date>&#160;; que
+							<lb/>le <term ref="lem014994">sautier</term> <persName>Pautron</persName> la meina au dela du lac&#160;; qu’il y a
+							<lb/><date dur-iso="P6M">demy an</date> qu’elle revint a <placeName ref="loc007919.05">Corsalles vers Payerne</placeName>&#160;; qu’on
+							<lb/>l’a saisie a <placeName ref="loc007648">Dompierre</placeName> chez <persName>Marguerite Monney</persName> il y a <date dur-iso="P8D">8 jours</date>&#160;;
+							<lb/>qu’a l’occasion que <persName>Person Marset</persName>, qu’a esté exequutee a mort,
+							<lb/>l’avoit accusee de <term ref="lem018521">sorcellerie</term>, elle fust <term ref="lem019512.03">bannie</term>, mais qu’elle
+							<lb/>est femme de bien. <term ref="lem019498">Crie mercy</term>.</seg> <seg>Ist an <term ref="lem004391.04">branger</term> ge<lb break="no"/>stellt worden.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

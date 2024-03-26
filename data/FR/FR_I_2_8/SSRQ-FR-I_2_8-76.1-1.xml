@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-07-23"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-76.1-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 12, S. 154</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 12, p. 154</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anna Ackermann-Renevey – Verhör</head>
+					<head xml:lang="fr">Anna Ackermann-Renevey – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1627-09-15"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Im <placeName ref="loc008105.02">Käller</placeName>
+							<seg><lb/><origDate when="1627-09-15">15 <foreign xml:lang="la"><choice><abbr>7<hi rend="sup">bris</hi></abbr><expan>septembris</expan></choice></foreign> 1627</origDate>, <foreign xml:lang="la"><choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <persName ref="per006841a.01">Farisey</persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per006501">Heinricher</persName>, <abbr>h</abbr> <persName ref="per006506">Brynißholtz</persName></seg>
+							<seg><lb/><persName ref="per006532">Buwman</persName>, <persName ref="per006509">Rämi</persName>, <persName ref="per009295">Odet</persName></seg>
+							<seg><lb/><persName ref="per006528">Boßhard</persName>, <persName ref="per009265">Gidola</persName></seg>
+						<seg><lb/>Weibel</seg></p>
+						<p><lb/><gap reason="irrelevant"/><note>Die ersten Abschnitte betreffen andere Personen.</note></p>
+						<p><lb/>Ibidem<note>Das Verhör fand im <placeName ref="loc007594">Rosey</placeName> statt.</note>, <foreign xml:lang="la">qui supra</foreign></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Non solvit</foreign>.</add></seg>
+							<seg><persName ref="per009361a">Anna <subst><del>Jehan</del> <add place="above">Renevey</add></subst></persName>, ein hußfrauw <persName ref="per009367a.02">Bernhard Akher<lb break="no"/>mans</persName> von <placeName ref="loc001060">Fryburg</placeName>, <term ref="lem011468.03">bekhendt</term>, wie sie zu
+								<lb/><placeName ref="loc007610.02">Petterlingen</placeName> vermitelst falscher anklag <term ref="lem009330.04">ynzogen</term>
+								<lb/>worden. Habe zwar wol etwas daselbst <term ref="lem011468.03">be<lb break="no"/>khendt</term>, sye aber nit by ihrem verstand gsyn.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

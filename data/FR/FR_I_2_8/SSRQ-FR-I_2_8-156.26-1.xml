@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.26-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 156v</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 156v</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Sohn / le fils, Pierre Ducli der Vater / le père – Anweisung</head>
+					<head xml:lang="fr">Pierre Ducli der Sohn / le fils, Pierre Ducli der Vater / le père – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-08-03">3<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1651</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Gefangene</p>
+						<p><lb/><persName ref="per020483a.06">Pierre Ducly, der jung</persName>, der in der keyßerlichen <term ref="lem013000.01">tortur</term> <term ref="lem001236.20">ver<lb break="no"/>jhähen</term> unnd <term ref="lem011468.02">bekendt</term>, gott dem herren unnd synem himblischen <term ref="lem014456.05">heerr</term>
+							<lb/>abgesagt unnd sich dem <term ref="lem014673.19">bösen fynd</term> namens <persName ref="per029450a.01">Tortzi</persName> <term ref="lem018858.01">ergeben</term>, von
+							<lb/>welchem auch er am <term ref="lem002080.01">rucken</term> befleckht unnd gezeichnet worden, massen
+							<lb/>das <term ref="lem017060">zeichen</term> probiert worden. Wie aber die geistlichen ihnne
+							<lb/>zum todt disponieren wollen, hatt er alles, was er <term ref="lem011468.02">bekendt</term> hatt,
+							<lb/>hartnäckig verneinet unnd darby <term ref="lem016814">vermeldt</term>, das er ihme unndt
+							<lb/>allen angegebnen gwalt unnd unrecht gethan habe. Er soll
+							<lb/>mit dem <term ref="lem015178.08">fäßlyn</term> <time dur-iso="PT3H">dry stundt</time> nach der herren <term ref="lem015190.02">discretion</term> <term ref="lem007803.05">pyn<lb break="no"/>lich</term> erfragt werden.</p>
+						<p><lb/><persName ref="per020477a.01">Pierre Ducly</persName> soll künfftigen sambstags zur <placeName>schwartzen oder
+							<lb/>schmachporten</placeName><note>Es ist unklar, welches Tor oder welche öffentliche Stelle damit gemeint ist.</note> vor dem <term ref="lem018730">blutrichter</term> geführt unnd über
+							<lb/>syn bekandtes <term ref="lem019363.01">hauptlaster</term> der <term ref="lem014672.10">häxery</term> gerichtet werden.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+        <titleStmt>
+         <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title><editor>
+            <persName>Dominique Favarger</persName>
+         </editor><editor>
+            <persName>Maurice de Tribolet</persName>
+         </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-156-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 1CE-113, p.&#160;117-118</idno>
+               </msIdentifier>
+               <head>Articles particuliers accordés par le gouverneur à la bourgeoisie de Neuchâtel
+                  concernant la radiation du rôle des bourgeois, le droit de police et les émeutes
+                  populaires</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="36.5"/>
+                              <width unit="cm" quantity="56.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1769-02-20"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_364">SDS NE 1, N<hi rend="sup">o</hi> 156</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005679"></term>
+               <term ref="key000668"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="117" facs="AEN_1CE_113_116_117" type="original"/>
+            <div>
+                  <head><lb/>Article&#160;1<hi rend="sup">er</hi></head>
+                  <p><lb/>On déclare vouloir et entendre que le dispositif de la <lb/>sentence des
+                        <origDate when="1768-01-21">21</origDate>, <origDate when="1768-01-22"
+                        >22</origDate> et <origDate when="1768-01-23"
+                        >23&#160;janvier&#160;1768</origDate> rendue par <orgName ref="org002094.04"
+                        >Leurs <lb/>Excellences de Berne</orgName> en ce qu’il peut servir de règle
+                     pour <lb/>l’avenir et spécialement en ce qui concerne les destitutions <lb/>ou
+                     radiations de bourgeois de <placeName ref="loc007786.16">Neufchâtel</placeName> soit très
+                     <lb/>exactement observé.</p>
+                  <head><lb/>Article&#160;2</head>
+               <p><lb/>On ne conteste point à la <orgName ref="org003119">ville de
+                     Neufchâtel</orgName> sa police <lb/>parce qu’elle lui
+                     apartient suivant ses constitutions, <lb/>mais si elle ne l’exerce pas comme il
+                     faut, surtout <lb/>lors que de la part du
+                  <orgName ref="org003098">Gouvernement</orgName>, on l’avertit d’y
+                     <lb/>veiller en lui mettant devant les yeux les objets. <lb/>C’est au
+                  <orgName ref="org003098">Gouvernement</orgName> à y supléer
+                     par son inspection <lb/>supérieure. Ce qui peut fort bien se faire sans que
+                     <lb/>par là ce droit soit aboli.</p>
+                  <head><lb/>Article&#160;3</head>
+                  <p><lb/>En cas d’émeute populaire, de sédition ouverte ou <pb n="118"
+                     facs="AEN_1CE_113_118_119" type="original"/><lb/>autres pareils, qui ne peuvent être
+                     dissipées ou arrêtées <lb/>par les moiens que <orgName ref="org003119">le
+                     Magistrat</orgName> met en usage même <lb/>autant
+                     que son pouvoir le lui permet. C’est alors au
+                     <lb/><orgName ref="org003098">Gouvernement</orgName>, non
+                     seulement à le seconder en ses <lb/>efforts, mais encore à faire venir dans la
+                     ville même <lb/>des Milices de l’État pour rétablir l’ordre
+                     et la seureté, <lb/>contenir et réprimer les mutins. Et si quelqu’un d'eux
+                     <lb/>vient à être saisi, il sera tenu sous garde et remis au <lb/>juge qui
+                     procedera contre lui suivant la loy. <lb/><gap reason="missing"/><note>Note
+                        de l'édition Favarger&#160;1982&#160;: Suit une clause d’acceptation desdits
+                        articles par la bourgeoisie de Neuchâtel.</note></p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>AEN, Manuel du Conseil&#160;d'État, CXIII, p.&#160;117-118.</p>
+               <p>Analyse&#160;: Borel, La Ferme des impôts, p.&#160;154.</p>         
+               <p>Note de l'édition Favarger&#160;1982&#160;: La date du 20&#160;février&#160;1769
+                     est celle de l'enregistrement par le Conseil d'État. L'article concernant les
+                     émeutes populaires est de toute évidence une allusion à l'assassinat de
+                     l'avocat général Gaudot, le 25&#160;avril&#160;1768.</p>         
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

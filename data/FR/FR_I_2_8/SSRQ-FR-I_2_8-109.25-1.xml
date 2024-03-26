@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-109.25-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 37–38</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 37–38</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Gauthier-Monde, Marti Margueron – Verhör</head>
+					<head xml:lang="fr">Catherine Gauthier-Monde, Marti Margueron – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-01-12"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="37"/><p><lb/><placeName ref="loc007690.02">Spittal</placeName>, <origDate when="1644-01-12">12 <foreign xml:lang="la">januarii</foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per009378a.01">Lari</persName></seg>
+							<seg><lb/><persName>Python</persName><note>Gemeint ist entweder <persName ref="per012381a">Hans Ulrich Python</persName> oder <persName ref="per012380a">Jost Python</persName>, die beide im Stadtgericht sassen.</note>, <persName ref="per013720a.01">Zumholtz</persName></seg>
+							<seg><lb/><persName ref="per013439a.01">Montenach</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+					<p><gap reason="irrelevant"/><note>Ce passage concerne d’autres individus.</note></p>
+						<p><lb/><persName ref="per015678a">Marti Margueron</persName> confirme touttes ses <term ref="lem019465.02">confessions</term>
+						<lb/>precedentes et dict qu’il le soustiendra bien
+						<lb/>en presence de sa mere, de laquelle il ne
+						<lb/>se soucie point.</p>
+						<p><lb/><placeName ref="loc007683.20">Thurn</placeName></p>
+						<p><lb/><persName ref="per015663a.01">Catheline Monde</persName> soustient qu’elle est femme
+							<lb/>de bien, qu’elle ne s’est jamais <term ref="lem019553.04">abandonnee</term> et
+						<lb/>rendue au <term ref="lem015433.10">maling</term>, qu’elle ne l’a jamais veu, ny
+						<lb/>parlé a luy, que ce qu’elle a <term ref="lem015549.07">confessé</term> cy devant
+						<lb/>estoit de grand malheur que le prestre y a faict
+							<lb/>en la conjurant, qu’elle n’est pas <term ref="lem018895.04">marquee</term> du
+						<lb/><term ref="lem016981.01">mauvais esprit</term>, qu’elle dict la verité aussi
+						<lb/>bien qu’un’ame puisse dire, que son enfant
+						<lb/>peut dire ce qu’il y plait s’il disoit aultrement
+						<lb/>qu’il ne diroit la verité.</p>
+					<p><seg><lb/>Etant doncques confrontee avec son fils, iceluy
+						<lb/>a soustenu constamment devant sa mere qu’elle
+						<lb/>l’avoit rendu a <persName ref="per029441a">Pauzun</persName> le <term ref="lem015433.03">maling esprit</term> en l’en<lb break="no"/>tree de la maison, en l’<placeName ref="loc008529.05">Oge</placeName>, ou ce qu’elle
+						<lb/>le fist a <term ref="lem018895.01">marquer</term> dessoubz la langue, l’ayant
+						<lb/>faict a <term ref="lem019541.01">renier</term> Dieu&#160;; auquel elle respondit qu’il
+						<lb/>parloit comme un vilain <term ref="lem017932.01">larron</term>, <term ref="lem016359.02">pendar</term>, <term ref="lem016360.02">belitre</term>,
+						<lb/>et comme un damné qu’il estoit. Sur ce il re<lb break="no"/>partit qu’il estoit ainsi comme il dict et qu’elle
+						<lb/>l’a mené a la <term ref="lem017043">secte</term>, de nuict, au <term ref="lem018559.02">grabu</term> <placeName ref="loc010283.03">en Eiglen</placeName>,
+						<pb n="38"/><lb/>et qu’elle y dict alors&#160;: <q>&#160;<persName ref="per015678a">Marti</persName>, leve, nous voullons
+						<lb/>aller quelque part.&#160;</q> Sur ce il leva de son lict et
+						<lb/>s’h<subst><del>b</del><add place="overwritten">a</add></subst>billa&#160;; cela estant fait, elle y dict qu’il se
+						<lb/>debvoit tenir a sa robbe. Sur ce ils arriverent au
+						<lb/><term ref="lem018559.02">grabu</term> <placeName ref="loc010283.03">en Eiglen</placeName>, ou ce qu’elle dançoit avec <persName ref="per029441a">Pauzun</persName>
+						<lb/>et avoit une coronne d’espines sus la teste.
+						<lb/>Ils faisoient bonne chere en table et bevoient
+						<lb/>hors des gaubelets de bois. Sur ce elle dict
+						<lb/>a son fils&#160;: <q>&#160;Larron, faux et meschant damné,
+						<lb/>a tu apprins cela aux escoles&#160;?  <term ref="lem016359.02">Pendar&#160;!</term>&#160;</q></seg> <seg>Ce
+						<lb/>nonobstant il soustient tousjours ce qu’il
+						<lb/>dict estre veritable, disant&#160;: <q>&#160;Mutter, il est vray
+							<lb/>ce que je vous dis. Vous avez demandé <persName ref="per029441a">Pauzun</persName>
+						<lb/>en l’entree de la maison.&#160;</q> Sur quoy elle dict
+							<lb/>qu’il avoit appris ce nom de <persName ref="per029441a">Pauzun</persName> de <persName>Jaque
+						<lb/>Palliard</persName> de <placeName ref="loc008034.03">Marlie</placeName>, lequel, ayant beu chez elle,
+							<lb/>disoit tousjours <persName ref="per029441a">Pauzun</persName>, qu’on voit bien
+						<lb/>que son fils n’a point d’esprit d’ainsi blasmer
+						<lb/>sa mere, qu’il parle comme un faux et
+							<lb/>meschant <term ref="lem017932.01">larron</term>, qu’il est damné devant
+						<lb/>Dieu et le monde, qu’il y fai<subst><del>soit</del><add place="overwritten">t</add></subst> tort.
+						<lb/>Ce nonobstant le fils demeura tousjours constant.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-199.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 439–440</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 439–440</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Bollot – Verhör und Urteil</head>
+					<head xml:lang="fr">Marguerite Bollot – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1676-12-11" to="1676-12-19"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="439"/><p><lb/>Den <origDate when="1676-12-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> <hi rend="underline">1676</hi></origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026529a">Franz Prosper Python</persName>.</note>, <abbr>h</abbr> <persName ref="per026616a.01"><choice><abbr>F P</abbr><expan>Frantz Peter</expan></choice> Gottraw</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per026120a.01">Johan Rämi</persName></seg>
+							<seg><lb/><persName ref="per026620a.01">Meyer</persName></seg></p>
+						<p><lb/><persName ref="per022419a.01">Marguerite Bolot dicte la Dametta</persName>, en suitte de la
+						<lb/>sentence souveraine d’aujourd’huy, laquelle contient
+						<lb/>qu’elle doibt estre examinée et questionnée sur
+						<lb/>ses complices et autres mesfaicts, et applicquer au
+						<lb/>demy <term ref="lem018232">quintal</term> pour soustenir de tout, a premierement
+							<lb/>reconfirmé toutes ses <term ref="lem019465.01">confession</term> faictes d’yer, mais
+						<pb n="440"/><lb/>lors qu’on la voullu applicquer à la <term ref="lem018231">corde</term> et au demy
+						<lb/><term ref="lem018232">quintal</term>, a prié d’estre entendue avant la torture.
+							<lb/>Et declaré qu’elle avoit faict tort à la <persName ref="per027117b">Paulina</persName>, ne
+						<lb/>l’ayant jamais veu à la <term ref="lem017043.01">secte</term>, et n’y estant jamais allée
+						<lb/>ny revenue avec elle. Que ce qu’elle en a dict est
+						<lb/>provenu de l’espouvante et menaces que luy ont
+						<lb/>faict les <term>patifoux</term><note>Le sens de ce mot demeure incertain. Il s’agit soit des jeunes garçons, en tant que bouffons de fêtes
+							villageoises, qui chantaient et criaient dans les rues, tout en étant masqués, durant la période
+						allant du 25 décembre au 6 janvier, dans le but de chasser les malins esprits qui détruisaient la nature
+						en hiver (FEW, III, 691 et GPSR, I, 373)&#160;; soit d’une sorte d’agent de police qui avait pour mission de chasser les gueux, le terme
+						étant alors équivalent à l’allemand «&#160;bettelvogt&#160;» (FEW, XV.1, 101).</note>, que ce qu’on luy avoit faict
+						<lb/>n’estoit rien, qu’on luy en feroit bien davantage si
+						<lb/>elle ne confessoit pas et n’accusoit ses complices,
+							<lb/>à raison de quelle espouvante a accusé ladite <persName ref="per027117b">Paulina</persName>,
+						<lb/>à cause aussy qu’elle est suspecte de <term ref="lem018521.01">sorcellerie</term>
+						<lb/>en leurs quartiers. Mais soustient entierement
+						<lb/>ne sçavoir aucun mal d’elle, sinon le bruit commun.
+						<lb/>Et qu’une fois la fillie de la <persName>Chambe de bois</persName>, pos<lb break="no"/>sedée, faisoit grand bruit à l’eglise, et disoit&#160;:
+						<lb/><q>&#160;C’est celle qu’est dernier la <persName>Colonda</persName>&#160;: il s’agit &#160;!&#160;</q> Et que
+							<lb/>c’estoit ladite <persName ref="per027117b">Paulina</persName> qu’estoit dernier dicte
+						<lb/><persName>Colonda</persName>, sur laquelle elle monstroit, mais qu’elle
+						<lb/>n’a pourtant rien dict d’elle qu’elle luy eust
+						<lb/>donné les <term ref="lem015433.18">malins</term>.</p>
+						<p><lb/>A aussy dict que <persName ref="per022637a">Laurent Ducret</persName><note>Sein Prozess beginnt im Juli 1677.
+							Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-200.1-1">SSRQ FR I/2/8 200.1-1</ref>.</note> avoit mauvais
+						<lb/>bruit, mais qu’elle ne le cognoissoit qu’homme
+						<lb/>de bien et d’honneur.</p>
+						<p><lb/>A aussy confirmé qu’elle ne sçavoit les noms de
+						<lb/>celles d’<placeName ref="loc007603.04">Avenche</placeName> et <placeName ref="loc007649.05">Dompdidier</placeName> qu’elle avoit
+						<lb/>veu à la <term ref="lem017043.01">secte</term>, et qu’elle ne sçait pas si elle
+						<lb/>les recognoistroit quand bien les verroit.</p>
+						<p><lb/>Suivant quoy a esté <term ref="lem019548.06">eslevée</term> avec le demy
+						<lb/><term ref="lem018232">quintal</term> sans avoir rien voullu adjouster
+							<lb/>ny diminuer en ses precedentes <term ref="lem019465.02">confessions</term>,
+						<lb/>ny complices, ains tousjours confirmé d’avoir
+							<lb/>faict tort à ladite <persName ref="per027117b">Paulina</persName>.</p>
+						<p><add place="bottom"><lb/>Sie ist den <origDate when="1676-12-19">19<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> <hi rend="underline">1676</hi></origDate> <term ref="lem017539">stranguliert</term> unnd <term ref="lem011474">verbrent</term> worden.</add></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

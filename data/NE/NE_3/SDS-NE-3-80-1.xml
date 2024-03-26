@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-80-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.006, p. 352</idno>
+     </msIdentifier>
+     <head>Poursuites pour injure</head>
+     <msContents>
+      <summary>Demande portant sur le for pour lancer des poursuites pour injure.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1627-10-19" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key003026"></term>
+     <term ref="key005189"></term>
+     <term ref="key000494"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="352" facs="AVN_B_101.01.01.006_0352"/> 
+     <div>
+      <head>
+       <lb/>Du <choice>
+        <abbr>pred<hi rend="sup">t</hi></abbr>
+        <expan>précédent</expan>
+       </choice>
+       <origDate when="1627-10-19" calendar="Julian">xix <choice>
+         <abbr>octe</abbr>
+         <expan>octobre</expan>
+       </choice></origDate> en <orgName ref="org003085">Conseil Estroict</orgName>. </head>
+      <add place="left margin">Coustume</add>
+      <add place="left margin" rend="pencil" hand="later hand"><choice>
+        <abbr>Déliér</abbr>
+        <expan>Délibérations</expan>
+       </choice></add>
+      <p>
+       <lb/><persName ref="per010725">Guillaume Petitpierre</persName> demande declairation de l’us
+       et<lb/> coustume, du lieu, scavoir <term ref="lem016286">mon</term>, si au cas de
+       debats<lb/> et contention de faict ou paroles, <del rend="blackened"><add place="above"><gap
+          reason="illegible" unit="cm" quantity="2"/></add></del> entre deux
+       persones<lb/> particulieres, l’ofencé est obligé de <choice>
+        <sic>recercher</sic>
+        <corr>rechercher</corr>
+       </choice> sa partie <lb/><term ref="lem017830">rière</term> le lieu et jurisdiction ou
+       l’osfence est commise <lb/>et ne le peut actionner ailleurs, come au lieu de <lb/>sa demeure
+       et ou il est resortisable, quand il est <lb/>estranger du lieu ou <choice>
+        <abbr>l<hi rend="sup">e</hi></abbr>
+        <expan>ladite</expan>
+       </choice> osfence est commise. Et qu’il <lb/>s’agist d’une osfence ou reparation <del
+        rend="strikethrough">partic</del> d’ofence <choice>
+        <abbr>particul<hi rend="sup">re</hi></abbr>
+        <expan>particulière</expan>
+       </choice>. <lb/>Remis a advis plus amples pour l’importance du fait.</p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

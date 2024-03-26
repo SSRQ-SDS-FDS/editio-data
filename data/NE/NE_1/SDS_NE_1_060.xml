@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-60-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;191v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales concernant un droit successoral des pères et mères
+                  sur les biens délaissés par leurs enfants prédécédés selon la règle «&#160;paterna paternis,
+                  materna maternis&#160;» sous la réserve d'un testament de l'enfant en âge de tester</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="45"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1532-04-16"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_157">SDS NE 1, N<hi rend="sup">o</hi>&#160;60</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000815"></term>
+               <term ref="key004770"></term>
+               <term ref="key003288"></term>
+               <term ref="key000244"></term>
+               <term ref="key000476"></term>
+               <term ref="key005198"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="191v" facs="AEN_3PAST_2_191v_192r"/><!-- à renseigner ex AEN_AS_B21_22_2 ou AVN_B_101.14.002_0113r-->   
+               <div>
+                  <p><lb/>Pour ce que plusieurs plaintifz et griefz sont venus par devant Messeigneurs 
+                   <lb/>des trois estatz de ce comté de Neufchastel en tenant les audiances
+                     <lb/>generales, de ce que du passé a esté de coustume que les peres et meres 
+                     <lb/>ne heritoyent leurs enfants, et que eschute ne remontoit, ains tomboit au
+                     <lb/>plus preusme en desvallant<note>Note Favarger&#160;1982&#160;: Cf. acte N<hi rend="sup">o</hi>&#160;16 (12 mai 1372)&#160;: «&#160;... devant heriter jusque a la sixyeme 
+                        joignte et toujours le preuxme de ligne demorant oudict lieu sans remontez a plus ancien.&#160;»</note>, dont plusieurs peres et meres ont estez
+                     <lb/>frustrez des biens que a grand travail ilz avoyent pourchassez, regardant 
+                     <lb/>que ladite coustume estoit trop desraisonnable et contre le droit divin 
+                     <lb/>lesditz seigneurs tous d’un accord ont decretté et ordonné que doresenavant 
+                     <lb/>icelle coustume doit estre abolye et effacée sans ce qu’il en soit plus usé 
+                     <lb/>en remectant et ordonnant que les peres et meres qui survivront leurs 
+                     <lb/>enfans les puissent heritez sans contredit quelconque, assavoir 
+                     <lb/>le pere le paternel et la mere le maternel, sy tant n’estoit que 
+                     <lb/>les enfans vinssent en eage suffisant<note>À cet endroit, Favarger&#160;1982 donnait une version condensée :  «&#160;pour disposer de leurs biens par testament ou autrement&#160;»</note> <add place="above">pour disposer de leurs</add> et qu'ils disposassent de
+                     <lb/>leursdits biens par testament ou autrement.</p> 
+                  <p><add place="left margin"><lb/>Par coppie prinse et collationée <lb/>sur le manual des decretales.</add> </p>
+                  <signed>D. Baillodz not.</signed>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;191v.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;268.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;6.</p>
+               <p>AEN, Registre des Trois Etats, I, fol.&#160;7v.</p>
+               <p>Ed.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;2-3.</p>
+               <p>Cité&#160;: Favarger, <hi rend="italic">Régime matrimonial</hi>, p.&#160;49 et sq.
+                     Poudret, «&#160;Dévolution ascendante et collatérale&#160;», dans <hi
+                        rend="italic">RHDFE</hi>, vol. 54 (1976), p.&#160;511, note&#160;9 et
+                     p.&#160;516-517, qui donne une interprétation de cette décrétale et la compare
+                     à l'article 241 de la Coutume de Normandie de 1583.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

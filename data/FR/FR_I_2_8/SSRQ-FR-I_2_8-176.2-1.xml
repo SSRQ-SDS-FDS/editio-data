@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-176.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 107–109</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 107–109</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marie Morel – Verhör</head>
+					<head xml:lang="fr">Marie Morel – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1662-03-13"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="107"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.17">Jasquemar</placeName></hi>, den <date when="1662-03-13">13<hi rend="sup">ten</hi> <foreign xml:lang="la">martii</foreign> 1662</date></p>
+						<p><seg><lb/><abbr>H</abbr> <persName ref="per006840a.01">Fleischman</persName><note>An Stelle des Grossweibels übernahm der Rathausammann <persName ref="per006840a">Andres Fleischmann</persName> den Vorsitz.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per026102a.01">Python</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013470a.02">Mänlin</persName> <choice><abbr>burg</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice></seg>
+							<seg><lb/><persName ref="per026304a.01">Zurthan</persName>, <persName ref="per026294a.01">Lentzburger</persName></seg>
+							<seg><lb/><persName ref="per026281a.01">Gadi</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<pb n="108"/><p><lb/><hi rend="outdent"><placeName ref="loc008105">Keller</placeName></hi>, <foreign xml:lang="la">eadem die presentibus predictis</foreign></p>
+						<p><seg><lb/><persName ref="per026683a.02">Maria Morri</persName>, filie de <persName ref="per026684a.01">Jean Morri</persName> de
+							<lb/>la paroisse du <placeName ref="loc008489.05">Petit Farvagni</placeName>, reduite aux
+						<lb/>prisons sur quelque propos proferu d’avoir
+						<lb/>esté à la <term ref="lem017043.01">secte</term>. Par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict
+						<lb/>la desus examinée, dit estre agée d’environ
+						<pb n="109"/><lb/><measure type="age" quantity="37" unit="year">37 ans</measure> et avoir tout jourz vesqeu selon Dieu, et ne
+						<lb/>veut avoir faict mahl, et ne veut avoir comparu
+						<lb/>en la <term ref="lem017043.01">secte</term>. Et bien qu’elle l’ast dit, partant ne l’avoir
+						<lb/><add place="left margin">dit</add> que en qauserie pour complere à ceux qui prenoint
+						<lb/>plaisir l’interroger.</seg> <seg><subst><del>par</del><add place="overwritten">En</add></subst> tempz de froid et chaud,
+						<lb/>avoir <add place="above">esté</add> mahl habilée <add place="above">et</add> couché dans dez estables, ce pen<lb break="no"/>dant Dieu l’assistoit. Et dit que Dieu luy parle
+						<lb/>souvent, sans qu’elle le pouisse voir, le quel luy
+						<lb/>dit et l’exhorte tout jour de bien faire, et de
+						<lb/>le servir. Et comme elle priet continuellement,
+						<lb/>il luy dit de ne tant prier, dont elle priat delors
+						<lb/>tout jour qu’un rosaire par jour, <add place="above" type="sign">au lieux qu’elle en prioit</add> <add place="left margin" type="sign">plusieurs</add>. Et dit que nostre
+						<lb/>Seigneur la visita dans ceste presente prison, et
+						<lb/>il luy dit qu’il avoit <date dur-iso="P20Y">20 ans</date> qu’il i avoit esté aussi
+						<lb/>dans la mesme prison, detenu <date dur-iso="P10D">dix jours</date>. Assurant
+						<lb/>en aultre que couchant dans les estables, elle se
+						<lb/>levoit au clair de la lune et alloit à <placeName ref="loc013264.02">Nostre
+						<lb/>Dame de Posha</placeName>, ou elle prioit pour les gens
+						<lb/>qui luy fesoint du bien. Dit avoir une
+						<lb/>posse de terre, son frere tenir le reste.
+						<lb/>Et que lors qu’elle esto<add place="above">it</add> affligée, nostre Seigneur luy
+						<lb/>disoit d’avoir patience.</seg> <seg><sic>Suuivant</sic> toute apparance,
+						<lb/>elle demontre n’estre de bon sen<subst><del>z</del><add place="overwritten">s</add></subst>, ains trans<lb break="no"/>porté en quelque <term ref="lem019033.02">fanson</term> d’esprit, ne pouvant
+						<lb/><choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict s’arresté à cez discurs.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

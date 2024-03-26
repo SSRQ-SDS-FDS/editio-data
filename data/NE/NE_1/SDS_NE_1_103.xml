@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-103-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 3PAST-2, fol.&#160;214r</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur un point de procédure relatif aux compétences
+                  respectives de la haute et la basse justice seigneuriales</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33"/>
+                              <width unit="cm" quantity="22.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1553-08-23"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_226">SDS NE 1, N<hi rend="sup">o</hi>&#160;103</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000468"></term>
+               <term ref="key000287"></term>
+               <term ref="key000184"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="214r" facs="AEN_3PAST_2_213v_214r"/>      
+               <div>
+                  <p>
+                     <add place="left margin"><lb/>La coustume du pays <lb/>porte que l’officier de
+                        <lb/>la basse justice peut <lb/>bailler ung congé, et le
+                           <lb/>seigneur<note>Note Favarger&#160;1982&#160;: Boyve, <hi
+                              rend="italic">Annales</hi>, III, p. 38&#160;, donne&#160;: <hi
+                              rend="italic">le seigneur gouverneur</hi>.</note> une excuse.</add></p>
+                  <p><lb/><origDate when="1553-08-23">Le XXIII<hi rend="sup">e</hi> dudict mois.</origDate></p>
+                  <p><lb/>Entre <persName>Jehan Varnod</persName> appellant contre honnorable <persName>Guillame Bourgeois</persName>, conseiller
+                     de la ville de <placeName ref="loc007786">Neufchastel</placeName>, <lb/>commis
+                     des seigneurs quatre ministraulx, conseil et communauté de ladicte ville de
+                        <placeName ref="loc007786">Neufchastel</placeName>, a esté <lb/>cogneu que
+                     parce que la coustume du pays porte que l’officier de la basse justice peut
+                     bailler un <lb/>congé et le seigneur une excuse, aussi que ledi et appellant en
+                     a heu trois excuses, il a esté cogneu <lb/>bien jugé et mal appellé, les
+                     renvoyans en ladicte basse justice pour vérifier le contenu dudict grief
+                     <lb/>et voir s’il est menteur&#160;; et s’il est trouvé tel, ils le condamnent
+                     a <measure>soixante sols</measure>, suivant la <lb/>decretale sur ce faicte.</p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>BPN, Coutumier Baillods, fol.&#160;214.</p>
+               <p>AVN, Coutumier de la Ville, fol.&#160;303v.</p>
+               <p>AEN, Registre «&#160;Audiences générales&#160;», fol.&#160;27.</p>
+               <p>Registre des Trois-États, I, fol.&#160;35v.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;15.</p>            
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

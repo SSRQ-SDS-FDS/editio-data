@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName> 
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-132-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN BV-163, parchemin No&#160;28</idno>
+               </msIdentifier>
+               <head>Déclaration d'Henri&#160;I d'Orléans-Longueville confirmant celle de Marie de
+                  Bourbon <date when="1585-01-01">du 1<hi rend="sup">er</hi>&#160;janvier&#160;1585</date> et assurant le libre
+                  exercice de la religion réformée dans la seigneurie de Valangin</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="26"/>
+                              <width unit="cm" quantity="40"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/><!-- PS: Masse nachtragen -->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:material="wax" ns0:shape="round"><persName role="sigillant">Henri&#160;I<hi rend="sup">er</hi> d’Orléans-Longueville</persName></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1618-10-03" calendar="Gregorian"/>
+                     <origPlace ref="loc010850">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_307"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;132</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000670"></term>
+               <term ref="key000658"></term>
+               <term ref="key000086"></term>
+               <term ref="key000266"></term>
+                        </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="AEN_BV_163_P28_r"/>
+               <div>
+                  <p><seg>
+                        <lb/>Henry d’Orléans par la grâce de Dieu prince souverain des comtés de
+                        Neufchastel <lb/>et Vallangin <gap quantity="4" unit="line" reason="missing"/>
+                        <lb/>nous sommes declairé et declarons <lb/>par ces presentes que nostre
+                        vollonté et intention est que pour le point de la religion a present exercée
+                        en nostre dict comté de Vallangin et celuy de la bourgeoysie telle
+                        <lb/>qu’ils ont a Berne, de ne rien alterer ny dimynuer a la promesse en
+                        forme de serment faict pour le regard desdicts deux points par très illustre
+                        princesse Marie de <lb/>Bourbon nostre ayeule d’heureuse memoyre, le <date
+                           when="1584-12-07">septiesme jour de decembre mil cinq cents quatre vingtz
+                           quatre</date> et ratification de madicte dame du <date when="1585-01-01"
+                           >premier janvier mil cinq <lb/>cens quatre vingts cinq</date>, ains les
+                        laisser paisiblement jouir du contenu en ladicte promesse. Et quant au
+                        troisiesme touchant la banniere et service qu’ils nous doibvent <lb/>rendre
+                        en faict de guerre, n’entendons les obliger pour ce regard <del
+                           rend="strikethrough">conformement</del> que conformement a leurs
+                        libertez, franchises, desquelles par nostre serment du jour d’hier <lb/>leur
+                        avons promis la maintenance. En foy de quoy nous avons signé ces presentes
+                        de nostre main, faict sceeller de nostre sceau et contresigner par nostre
+                        secretaire <lb/>d’estat de nosdict comtez de Neufchastel et Vallangin.</seg>
+                     <seg>Donné en nostre chasteau dudict <placeName ref="loc010850.07">Neufchastel</placeName> le <date when="1618-10-03"
+                           calendar="Gregorian">troisiesme jour du moys d’octobre stil nouveau l’an
+                           de grâce mille <lb/>six cents dix huit</date>.</seg></p>
+                  <pb n="plica" facs="AEN_BV_163_P28_plica"/>
+                  <signed><lb/>Par Son Altesse            
+                     <lb/>J.&#160;Horÿ
+                  </signed>
+                  <!-- <pb n="v" facs="AEN_BV_163_P28_v"/> -->
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>AEN, original sur parchemin, Archives de la Bourgeoisie de Valangin, parchemin N<hi rend="sup">o</hi>&#160;28.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, III, p.&#160;487. Kernen,
+                     «&#160;Bourgeoisie de Valangin&#160;», dans <hi rend="italic">MN</hi>, 1967,
+                     p.&#160;132 et p.&#160;136, note&#160;9. </p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

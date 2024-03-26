@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"      xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-74-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+                  <idno xml:lang="fr">AVN GA-A3.18</idno>
+               </msIdentifier>
+               <head>Charte (dite assurance) de Jehanne de Hochberg, relative à la perception et à
+                  la répartition du produit des amendes de la mairie de Neuchâtel, à l'élection du
+                  maire de Neuchâtel et à l'aliénation des biens d'Église</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="29.3"/>
+                              <width unit="cm" quantity="42.2"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="0.0"/><!-- PS: Masse nachtragen AW: Ich habe es nicht. Ich messe das nächste Mal, wenn ich ins Archiv gehe-->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"  ns0:condition="well-preserved" ns0:attachment="sealed on a parchment tag" ns0:shape="round" ns0:material="wax"></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1539-05-10"/>
+                     <origPlace ref="loc005637">Dijon</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_172"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;74</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000184"></term>
+               <term ref="key000555"></term>
+                          </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="AVN_GA_A3_18_r"/>
+                 <div>
+                  <p>
+                     <seg><lb/>Nous Jehanne de Hochberg, duchesse de Longueville, <gap
+                        reason="missing"/> a tous ceulx qui ces presentes lettres verront <lb/>et
+                     ourront scavoir faisons que noz chers et bien aymez les quatre ministraulx,
+                     conseil et communaulté de nostre ville de Neufchatel nous ayant faict fere
+                     remonstrance que du temps que les seigneurs des ligues <lb/>tenoient entre leurs
+                     mains nostre dict conté, fut par eulx advisé de fere dresser en ladicte ville
+                     et par tout le pays et conté une asseurance, saulvegarde et seurté, comme ilz
+                     ont en leurs pays et seignoryes, pour les gens noisifz et querelleurs <lb/>qui
+                     pourroient estre en nosdictes terres et seignoryes affin que le foible ne fust
+                     opprimé par le fort, le pouvre par le riche et les bons par les maulvais, ce
+                     que lesdicts de Neufchastel n’ont voulu souffrir ny permettre a <lb/>cause de
+                     leurs libertez et franchises pour ce que c’estoit cas de nouvelleté qui peult
+                     porter confiscations et grand proffit a la superiorité et haulte seignorye et a
+                     eulx grand dommaige mesmement aux deliquans, <lb/>touteffois que necessairement
+                     il seroit requis avoir ladicte asseurance et seurté en ladicte ville et conté
+                     comme ont lesdicts seigneurs des ligues en leurs dictes terres et seignoryes
+                     pour obvier a plusieurs opprobres, debatz et <lb/>dangiers qui s’en ensuyvent
+                     par faulte de ladicte asseurance et aux moquereyes et derisions qu’en font les
+                     circonvoisins, en nous pryant et suppliant les voulloir souffrir participer en
+                     la moityé de <lb/>toutes les emendes qui pourroient advenir en la ville et
+                     maierye dudict Neufchatel, tant a cause de ladicte asseurance que aultres,
+                     touteffois a reservé a nous et a noz hoirs et successeurs, toutes confiscations
+                     <lb/>et commises qui pourroient estre en nostre dicte maiorie et moyennant quoi
+                     ne se fera enqueste sur nosdicts bourgeois pour demander eschuctes de corps et
+                     de biens fors que agens homicides, larrons, infracteurs <lb/>de ladicte
+                     asseurance et de edictz, comme contenu est en la franchise de ladicte ville de
+                     Neufchastel, nous suppliant aussy doiresavant le maire de nostre dicte ville
+                     soit prins et choisy par noz successeurs <lb/>et officiers dans le nombre des
+                     vingt et quatre conseilliers du conseil de ladicte ville de Neufchastel, lequel
+                     qu’il nous plaira et ce pour obvier a plusieurs fâcheries qui s’en ensuyvent a
+                     cause de ladicte election.</seg> <seg>Et en <lb/>oultre nous ont lesdicts de Neufchastel
+                     supplyé et requis si par fortune nous ou noz hoirs voullions mectre hors de noz
+                     mains aucunes pièces des biens des eglises de nostredict conté par transport,
+                     accense ou allienacions, <lb/>fust en particulier ou en general, que eulx ou
+                     leurs successeurs fussent prefferez devant tous aultres pour le pris que
+                     ladicte piece sera transportée, sans fraude et sans barat. Et nous ladicte
+                     duchesse, marquise <lb/>et contesse desirant l’augmentement de nostredicte ville
+                     et conté, affin aussy que nosdicts bourgeois et subgectz puissent vivre comme
+                     noz bien aymez confederez et bourgeois de Berne, Lucerne et Saleurre,
+                     <lb/>leurs voisins, par l’advis de nostre conseil avons promis octroyé a
+                     nosdicts bien aymez quatre ministraulx, conseil et communaulté manans et
+                     residans en ladicte ville, pour eulx et leurs successeurs, soient participans
+                     <lb/>avec nous et noz successeurs par moictyé a toutes les emandes qui se
+                     feront en nostre dicte ville et dans la maiorye dudict Neufchatel provenans de
+                     ladicte assurance tant seullement et non d’aultres, en reservant <lb/>toutesfois
+                     a nous et a noz successeurs toutes confiscations, commises et delictz
+                     cryminelz, moyennant aussy que ladicte asseurance, seurté et saulvegarde se
+                     dressera et fera en nostre dicte ville et tout nostre conté par <lb/>l’advis et
+                     conseil de nostre lieutenant et gouverneur, ensemble de gens de noz terres,
+                     estatz, noz anciens officiers et les gens de nostre conseil par escript en
+                     forme dehue comme elle est audict pays des <lb/>ligues, au moins mal que fere se
+                     pourra, affin que noz droictz et poinctz de seignoryes en tous aultres endroit
+                     ilz soient gardez, toute fraulde et barrat exclus et riere mis&#160;; avons
+                     aussy permis <lb/>et permettons que doiresanavent nostre dict maire de
+                     Neufchatel soit et doibt estre prins et esleu par nous ou nostre gouverneur
+                     audict conté dans le nombre des vingt et quatre conseillers du conseil<lb/>de
+                     nostre dicte ville de Neufchatel et non d’aultres, lequel qu’il nous plaira
+                     moyennant qu’il sera tenu fere le serment de l’office de maire es mains de
+                     nostredict lieutenant et gouverneur comme <lb/>du passé a esté accoustumé et
+                     que ce ne nous soit prejudiciable en aultres noz droiz que pouvons avoir audict
+                     office. Promectons aussy a nosdicts bourgeois de ladicte ville si par fortune
+                     <lb/>nous ou nosdicts hoirs et successeurs allienions et transportions aulcunes
+                     pièces des biens des eglises a nous advenues a cause de la ruyne d’icelles,
+                     qu’ilz en puissent avoir la retraicte pour <lb/>le pris que lesdictes pieces
+                     seroient estées alienées, en mandant et commandant a nostre chier et bien aymé
+                     messire George de Rive, chevallier, seigneur de Prangin, nostre gouverneur de
+                     nostre dict <lb/>conté et a tous aultres noz officiers presens et advenir, de
+                     souffrir et laisser joyr perpetuellement nos dicts chiers et bien aymez
+                     bourgeois manans et residans en nostredicte ville de ce present <lb/>octroy par
+                     nous faict et de fere dresser ladicte asseurance comme par raison appertiendra.
+                     Promectant, parlant en foy et parolle de princesse, avoir et tenir
+                     perpetuellement pour agreable <lb/>toutes les choses dessus dictes sans jamais
+                     aller ne venir au contraire nous ou les nostre en maniere que ce soit, mais les
+                     entretenir de point en point.</seg>  <seg>Donné a  <origPlace ref="loc005637">Dijon</origPlace> <origDate when="1539-05-10">le dixiesme
+                        jour <lb/>moys de may, l’an mil cinq cens trante neuf</origDate>.</seg></p>
+                  <lb/>
+                  <signed>
+                   Jehanne
+                  </signed>
+                    <pb n="v" facs="AVN_GA_A3_18_v"/>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+                  <p>Original sur parchemin avec sceau pendant sur simple queue, AVN,
+                     A&#160;3-18.</p>
+                  <p>Éd.&#160;Matile, <hi rend="italic">Plaits</hi>, p.&#160;317-320. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

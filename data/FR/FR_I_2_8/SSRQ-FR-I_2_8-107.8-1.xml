@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2017"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-107.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 203 (1652), fol. 223v</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 203 (1652), fol. 223v</idno>
+					</msIdentifier>
+					<head xml:lang="de">François, Georges Rimy – Anweisung</head>
+					<head xml:lang="fr">François, Georges Rimy – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1652-10-05">5<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>octob</abbr><expan>octobris</expan></choice></foreign> 1652</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/>Proces <placeName ref="loc008049.03">Corbers</placeName></p>
+							<p><lb/><persName ref="per012337a.03">Franceois</persName> et <persName ref="per012333a.03">George Remy</persName> des <placeName ref="loc008939.02">Arches</placeName> riere <placeName ref="loc007849">Charmey</placeName>,
+							<lb/>soubçonnés de magie et quelquement de <term ref="lem018524.02">sortilege</term> pour
+								<lb/>avoir esté <term ref="lem015356.13">accoulpé</term> par une femme suppliciée.<note>Il s’agit de <persName>Antoinie Belfrare</persName>, déjà citée lors de la séance du 10 septembre (voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-107.7-1">SSRQ FR I/2/8 107.7-1</ref>), condamnée au bûcher pour sorcellerie, le 30 août 1652, et ayant obtenu la grâce
+							d’être pendue auparavant. StAFR, Ratsmanual 203 (1652), fol. 178r, 184v, 187r, 192r. Son frère <persName>François</persName> est aussi inquiété pour sorcellerie au même moment, de même que sa femme
+								<persName>Jenon</persName>, tous deux étant par ailleurs aussi condamnés à mort. StAFR, Ratsmanual 203 (1652),
+							fol. 178r, 184v, 187r, 192r, 198r, 205r, 221r, 225v. Ces procès ont été menés à <placeName ref="loc008048">Corbières</placeName> et nous n’en trouvons pas la trace dans les Thurnrodel. Un décret souverain est rendu le 5 novembre 1652,
+									précisant et rappelant l’innocence des deux frères Rimy. Voir <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001260648103977">Kuenlin 1832</ref>, vol. 1, p. 13–15</bibl>.</note> Surquoy
+							<lb/>ils ont dit que tel <term ref="lem015358.09">accoulpe</term> proviont de malveuillance,
+								<lb/>d’autant que la fille de <persName ref="per012337a.03">Franceois</persName> <term ref="lem019517.03">ensorcellée</term> par ladite
+							<lb/>accusatrice, a esté la cause de sa detention. <seg>Sie
+							<lb/>sindt zwar verdacht, ob könten sie uß dem <term ref="lem018599.01">riemen</term> den
+							<lb/><term ref="lem001076.49">khüen</term> die <term ref="lem002272">milch</term> entnemmen, welches in alleweg nit
+							<lb/>bewißen wirdt. Sind aber starkhe zwyffell, doch allein
+							<lb/>nach hören sagen, im <term ref="lem003708">examine</term> zu sehen. Entgegen aber
+							<lb/>habend vill unnd mehreren theills der verhörten zügen eydt<lb break="no"/>lich bezüget unnd sich declariert, das sie von disen ge<lb break="no"/>fangenen nichts dan alles liebs unnd gutts anzu<lb break="no"/>sagen wüssen. Ebenmässig habend alle, die ihnnen gedienet,
+							<lb/>attestiert. Dahäro will man sie mit abtrag kostens
+							<lb/><term ref="lem016800">ledig</term>, unnd aber in by syn des gerichts vermahnen lassen, sie
+								<lb/>sollen sich des <term ref="lem018599.01">riemen</term> ziechens<note>Vermutlich handelt es sich bei der Kunst des Riemens Ziehens um eine Art Peitschen. Vgl. auch <ref target="urn:ssrq:SSRQ-FR-I_2_8-107.2-1">SSRQ FR I/2/8 107.2-1</ref>.</note>, wo sie der kunst <term ref="lem011070">berichtet</term> wärn,
+							<lb/>nit <term ref="lem008387.01">underwinden</term>. Dan man sie by erster klag gebührend straffen
+							<lb/>werde.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p></p>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

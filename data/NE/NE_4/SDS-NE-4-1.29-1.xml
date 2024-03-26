@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du Canton de Neuchâtel, Tome 4&#160;: Le coutumier Hory</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Grégoire Oguey</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Grégoire Oguey</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2021-05-31"/>
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Archives de l’État de Neuchâtel</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-4-1.29-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+      <idno xml:lang="fr">AEN MJ 17, p. 102–103</idno>
+     </msIdentifier>
+     <head>Légitime des enfants</head>
+     <msContents>
+      <summary/>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32.5"/>
+          <width unit="cm" quantity="22"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+   <origDate from="1618-01-01" to="1618-12-31"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005155"/>
+     <term ref="key000920"></term>
+     <term ref="key000815"></term>
+     <term ref="key000803"></term>
+     <term ref="key000874"></term>
+     <term ref="key003521"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="102" facs="AEN_MJ_17_102_103"/>
+     <div>
+      <head type="title">
+       <lb/><choice>
+        <abbr>Chapp.</abbr>
+        <expan>Chappitre</expan>
+       </choice> XXIX. <lb/>De la <term ref="lem015074.03">ligitime</term> des <lb/>enfans.</head>
+      <p>
+       <lb/><app>
+        <lem>La <term>ligitime</term> est deuë aux <lb/>enfans sur le bien de pere &amp; de
+         <lb/>mere des quils sont venuz sur terre.</lem>
+        <rdg wit="AVN Q41, p. 40">Des que les enfans sont <lb/>venus sur terre la legitime leurs est
+         deue <lb/>sur les biens du pere et de la mere.</rdg>
+       </app>
+       <lb/>Et est selon <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 40">la</rdg>
+       </app> coustume de ceste <lb/>souveraineté <app>
+        <lem>la moitie du bien du <lb/>pere &amp; de la mere, soit qu’ils ayent <lb/>un seul ou
+         plusieur enfans.</lem>
+        <rdg>la <term ref="lem015074.02">legitime</term> des enfans est la moitié du bien du pere et <lb/>de la mere,
+         soit qu’ils ayent un seul ou plusieurs enfans.</rdg>
+       </app></p>
+      <p>
+       <lb/>L’enfant ne peut contraindre son pere <lb/>a luy donner sa <term ref="lem015074.03">ligitime</term>, sy la <choice>
+        <abbr>seig<hi rend="sup">rie</hi></abbr>
+        <expan>seigneurie</expan>
+       </choice>
+       <lb/>ou la justice ne le cognoist <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 40">ni</rdg>
+       </app> mauvaix <lb/><term ref="lem019304.02">mesnager</term>
+       <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 40">ny</rdg>
+       </app> trop exact &amp; rigoureux envers <lb/>son enfant.  <lb/><add place="below"
+        type="catchword">Le</add>
+      </p>
+     <pb n="103" facs="AEN_MJ_17_102_103"/>
+      <p>
+       <lb/>Le pere peut bien estre contraint <lb/>a donner <app>
+        <lem>alimenter</lem>
+        <rdg wit="AVN Q41, p. 40">aliment</rdg>
+       </app>, <app>
+        <lem>ou</lem>
+        <rdg wit="AVN Q41, p. 40"><choice>
+          <sic>ou <lb/>ou</sic>
+          <corr>ou</corr>
+         </choice></rdg>
+       </app> quelque chose <lb/>a jouyr et faire mariage a ses <lb/>enfans, s’il en fait refus et <choice>
+        <abbr>qß</abbr>
+        <expan>que</expan>
+       </choice> la <lb/>justice le trouve <app>
+        <lem>equitable</lem>
+        <rdg>convenable</rdg>
+       </app>.</p>
+      <p>
+       <lb/>Le pere peut bien contraindre <lb/>son enfant de prendre sa <term ref="lem015074.03"
+        >ligitime</term>
+       <lb/>s’il est de mauvaise vie et <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 40">mauvais</rdg>
+       </app>
+       <choice>
+        <abbr>deportem<hi rend="sup">t</hi></abbr>
+        <expan>deportement</expan>
+       </choice>
+       <lb/>&amp; le <term ref="lem015994.04">dejetter</term> de sa maison avec cela, <lb/>mesmes
+       l’en priver &amp; <app>
+        <lem>desheriter</lem>
+        <rdg wit="AVN Q41, p. 40">dejetter</rdg>
+       </app> du tout, <lb/>s’il se trouve convaincu des poincts <lb/>ordinairement en tels cas observez<app>
+        <lem>.</lem>
+        <rdg wit="AVN Q41, p. 40">&#160;: ainsi que le demonstrent les quinze articles
+         suivants.</rdg>
+       </app></p>
+      <p>
+       <app>
+        <lem/>
+        <rdg wit="AVN Q41, p. 40">
+         <lb/>S’ensuivent donc les quinze articles pour lesquels un pere, <lb/>ou mere peuvent
+         desheriter leurs enfans entant qu’ils <lb/>commettent l’un d’iceux.</rdg>
+       </app>
+      </p>
+      <p>
+       <lb/><add place="above" hand="hand17c">Vide au <choice>
+         <abbr>fol.</abbr>
+         <expan>folio</expan>
+        </choice> 278 <lb/>les articles</add><note>Les 15 articles sont aux pages 278ss, dans
+         <ref target="urn:ssrq:SDS-NE-4-1.55-1">SDS NE 4 1.55-1</ref>.</note>
+      </p>
+     </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

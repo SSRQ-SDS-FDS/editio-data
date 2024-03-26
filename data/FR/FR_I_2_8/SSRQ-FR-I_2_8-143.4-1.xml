@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-143.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 70–72</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 70–72</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Droz – Verhör</head>
+					<head xml:lang="fr">Elisabeth Droz – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1649-10-13"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="70"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1649-10-13">13<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>8<hi rend="sup">bris</hi></abbr><expan>octobris</expan></choice></foreign> 1649</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>burg<hi rend="sup">r</hi></abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.05">von Montenach</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per013469a.04">Cattilla</persName>, <choice><abbr>j<hi rend="sup">r</hi></abbr><expan>junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></seg></p>
+						<p><seg><lb/><persName ref="per019694a.02">Elisabeth Drau</persName> estant applicqué trois fois
+						<lb/>a la <term ref="lem018792.01">question</term> par la simple <term ref="lem018231">corde</term> et exam<lb break="no"/>inee par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict, d’abort tout points
+							<lb/>a elle proposé <term ref="lem019442.03">denege</term>, et ne voloit estre d’
+							<lb/>aulcune chose <term ref="lem015549.04">confessante</term>. Mais estant applicquee
+						<lb/>a la <term ref="lem018792.01">question</term>, <term ref="lem015549.13">confesse</term> que se trovant en un
+						<lb/>village vers <placeName ref="loc000252.03">Ensishein</placeName> ou <placeName ref="loc000252.04">Engesen</placeName>, ou il n’avoit
+					<pb n="71"/><lb/>persone, se trovant de nuict la toute <subst><del>s</del><add place="overwritten">d</add></subst>esolee <add place="inline">et comb<lb break="no"/>lee de regret</add> de la perte de son mary, qu’elle avoit faict en l’armé,
+						<lb/>d’ou elle en estoit fraichement sortie, ou esgarée&#160;; et estant
+						<lb/>il<supplied>e</supplied>c entree dans une maison, ou persone n’estoit, le
+						<lb/><term ref="lem015433.03">maling esprit</term> luy apparut <subst><del>il</del><add place="overwritten">a</add></subst>lors, il ast environ <date dur-iso="P6Y">6
+							<lb/>ans</date>, nomé <persName ref="per029448a.01">Peterli</persName>, tout noir, le quel luy offrit
+						<lb/>de doner d’argent et l’enrichir, au quel d’abord
+						<lb/><subst><del>ne fust</del><add place="overwritten">refusat</add></subst> son argent et ne volut condescendre a sa de<lb break="no"/>mande de se rendre a luy, et, ayant faict le seigne
+						<lb/>de la croy, disparut, mais ossitout se representat&#160;;
+							<lb/>au quel, a sa recherche, se rendit, qui d’abord la <term ref="lem018895.07">mar<lb break="no"/>quat</term> sur le bras gauche, ayant <term ref="lem019541.15">renié</term> Dieux.</seg> <seg>Du
+						<lb/><term ref="lem015433.10"><subst><del>d</del><add place="overwritten">m</add></subst>aling</term>, <term ref="lem015549.13">confesse</term> alors avoier receu dans un papier
+						<lb/>de la <term ref="lem018383.02">poussiere</term> pour faire mourir les bestes, le
+						<lb/>quel papier s’estant trové parmi ses <term ref="lem016278">hardes</term> dans
+						<lb/>un sien pasquet, que «&#160;<subst><del>l</del><add place="overwritten">d</add></subst>es soldas <placeName>In der hart</placeName>&#160;»<note>L’identification du lieu est incertaine, tout comme l’expression elle-même.
+							Il pourrait s’agir de <placeName>Auf der Hardt</placeName> et les soldats mentionnés, et ainsi désignés, auraient participé à la bataille de <placeName ref="loc006439.05">Fribourg-en-Brisgau</placeName> (3, 5 et 9 août 1644), dans le cadre de la <term ref="key004306">Guerre de Trente Ans</term>.</note>, dela
+						<lb/><placeName ref="loc000161.11">Bahle</placeName>, luy enlevarent, l’ayant ilec rencontree.</seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> avoier <term ref="lem018556.03">maleficié</term> la fille du patisier des <placeName ref="loc012796.03">hospital
+						<lb/>dernier</placeName>, que en morut, et l’enfant du patisier
+						<lb/>demourant au <placeName ref="loc010681.01">Cheval blanc</placeName>, lequel partant ne mour<lb break="no"/>eut pas, en luy frotant avec sa main<del>s</del> les jambes,
+						<lb/>en disant&#160;: <q>&#160;Cest enfant ast bien des jambes mennues&#160;!&#160;</q>,
+						<lb/>croiant par la, partant, le faire mourier.</seg> <seg>Dit
+							<lb/>et <term ref="lem015549.13">confesse</term> avoier par son <term ref="lem019526.01">souffle</term> <term ref="lem018313.02">inficié</term> un pot
+						<lb/>d’eaux, du quel la mere du dit enfant beut, <subst><del>du</del><add place="overwritten">ho</add></subst>rs
+						<lb/>du quel elle beut aussi et devient aussi bien
+						<lb/>malade que la dite patissiere, la quelle par
+					<pb n="72"/><lb/><choice><sic>par</sic><corr></corr></choice> un evomissement regorgat dite eaux que luy
+						<lb/>causat sa santé, ce que luy arivat de mesme,
+						<lb/>aiant jetté dite eaux beue vers le <placeName ref="loc010696.03">College</placeName> dé
+							<lb/>peres <term ref="lem018787.03">jesuuistes</term>, la quelle lui eut causé sa
+						<lb/>mort, ne feut qu’elle la rendit dehors.</seg> <seg>Plus
+						<lb/><term ref="lem015549.13">confesse</term> par l’atuchement qu’elle fit sur le
+						<lb/>braz de <add place="above">l’enfant de</add> <persName>Jean Bouche</persName>, l’avoier <term ref="lem018313.02">inficié</term> a la
+						<lb/><choice><sic>la</sic><corr></corr></choice> mort&#160;; et estant demandee le suject pour
+						<lb/>quoy elle volut <subst><del>m</del><add place="overwritten">in</add></subst>ficier par la susdite eaux
+						<lb/>la patissiere du <placeName ref="loc010681.01">Cheval blanc</placeName>, dit que p<subst><del>ar</del><add place="overwritten">our ce</add></subst>
+						<lb/>qu’elle la tanset plusieurs fois de <term ref="lem018524.02">sortilege</term>
+							<lb/>et <term ref="lem018521.02">sorcelerie</term>.</seg> <seg><term ref="lem015549.13">Confesse</term> mesmement avoier
+							<lb/><term ref="lem018556.03">maleficié</term> certaine revandeuse de <placeName ref="loc000157.07">Berne</placeName>, nommee
+						<lb/><persName>Freni</persName>, par envie, puis que persone ne pouvoit rien
+						<lb/>avoier ni achepter devant elle sur le marché,
+						<lb/>l’ayant touchee sur le braz, a l’intention de
+						<lb/>la faire mourir, que partant ne <sic>mourout</sic> la
+						<lb/>desus, luy ayant <subst><del>ell</del><add place="overwritten">enl</add></subst>evé le <term ref="lem018555.02">malefice</term> <add place="above">en partie</add> si tout apréz.</seg>
+						<seg><lb/>Finalement <term ref="lem015549.13">confesse</term> avoier esté un fois a la
+						<lb/><term ref="lem017043">secte</term>, il ast <date dur-iso="P9W">9 septmaines</date>, vers <placeName ref="loc000740.16">Biene</placeName>, ou il
+						<lb/>avoit quantité de monde&#160;; et luy estant demandé
+						<lb/>le nombre, dict environs 20 persones, tou<subst><del>t</del><add place="overwritten">s</add></subst>
+						<lb/><subst><del>l</del><add place="overwritten">d</add></subst>e braves hommes et femes, des quels mesfaicts
+						<lb/><add place="left margin">en</add> demande a Dieux et Leur Exellences bien
+						<lb/>humblement pardon.<note>Der nächste Abschnitt betrifft den Prozess gegen <persName ref="per019247">Elsi Fontana-Zosso</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-142.13-1">SSRQ FR I/2/8 142.13-1</ref>.</note></seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

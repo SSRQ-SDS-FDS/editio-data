@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-60.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 319–320</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 319–320</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Cordey – Verhör</head>
+					<head xml:lang="fr">Jean Cordey – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-06-20"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="319"/><p><lb/>A la <placeName ref="loc007683.13"><term ref="lem016925.01">croye</term> tour</placeName>
+							<seg><lb/><origDate when="1623-06-20">Le 20 juin 1623</origDate>, <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist Kleinrat <persName ref="per006751">Ulrich Erhart</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009251a.02">Känell</persName>, <persName ref="per009221a.02">Ratze</persName>, <persName ref="per009253a.03">Borkard</persName></seg>
+							<seg><lb/><persName ref="per009446a.01">Nußbaum</persName>, <persName ref="per009447a.01">Grybollet</persName>, <persName ref="per009448a.02">Zumwalt</persName><note>Gemeint sind drei Stadtweibel.</note></seg>
+							<seg><lb/><persName>Bralliard</persName> als schryber<note>Gemeint ist wohl Ratsherr <persName ref="per009463">Peter Braillard</persName>.</note></seg></p>
+						<p><gap reason="irrelevant"/><note>Der erste Abschnitt betrifft den Prozess gegen <persName ref="per009445">Jean Chevaley</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-63.7-1">SSRQ FR I/2/8 63.7-1</ref>.</note></p>
+						<pb n="320"/><p><lb/><origDate when="1623-06-20">Le jour que devant</origDate><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg>
+							<seg><persName ref="per009489a">Jean Cordey</persName> de <placeName ref="loc007934.05">Mignyres</placeName> recommande sa fillette
+						<lb/>a messeignieurs.</seg></p>
+						<p><lb/>Item a <term ref="lem015356.09">accolpé</term> <persName>Jacques Fally</persName> filz d’<persName>Aymé</persName> de
+							<lb/><placeName ref="loc007934.07">Mignires</placeName>, qu’a esté a la <term ref="lem017043.01">secte</term> vers <placeName ref="loc007932.01">Vesin</placeName> et est
+							<lb/>venu <term ref="lem019308.01">sorcier</term> pour avoir fait un faux serment.</p>
+						<p><lb/>Item il luy semble que <persName ref="per009514a.04">Jean du Four</persName> de <placeName ref="loc007934.05">Mignyres</placeName> <add place="left margin">et sa femme</add>
+							<lb/>estoit a la <term ref="lem017043.01">secte</term> vers <placeName ref="loc007932.04">Visyn</placeName>, qu’il dançoit.</p>
+						<p><lb/>Item a dit que <persName>Jacques de Trey</persName> de <placeName ref="loc007610">Payerne</placeName>
+							<lb/>est le capitaine de la <term ref="lem017043.01">secte</term>, qui donnoit l’heure
+						<lb/>et la place aux aultres, et le se disoent l’un
+						<lb/>l’aultre.</p>
+						<p><lb/>Il dit avoir bruslé sa <term ref="lem018382">graisse</term> il y a <date dur-iso="P3Y">troys ans</date>,
+							<lb/>qui faisoit le <term ref="lem019529.01">feu</term> tout <term ref="lem015364.02">per</term>, et dempuis il est
+						<lb/>allé touttes les dimenches et vendredy a la messe, dont
+							<lb/>son <choice><abbr>mre</abbr><expan><term ref="lem019555.03">maitre</term></expan></choice> n’a plus eu de puissance sur luy.</p>
+						<p><lb/>Item a dit que quant il alla a la guerre avec <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monseigneur</expan></choice>
+							<lb/>d’<persName>Affry</persName>, il laissa sa <term ref="lem018382">graisse</term> a sa femme et luy
+							<lb/>dit qu’il devoit prendre la <term ref="lem018382">graisse</term> de son <choice><abbr>mre</abbr><expan><term ref="lem019555.03">maitre</term></expan></choice> et
+						<lb/>en faire ce qu’elle vouldroit.</p>
+						<p><lb/>Et a le tout confirmé, estant par deux foys esté
+							<lb/><term ref="lem019548.03">eslevé</term> avec la petite <subst><del><term ref="lem018231">corde</term></del> <add place="inline">pierre</add></subst>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

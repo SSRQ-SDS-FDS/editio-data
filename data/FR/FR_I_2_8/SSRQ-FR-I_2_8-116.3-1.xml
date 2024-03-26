@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-116.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 104–105</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 104–105</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claudine Grandgirard – Verhör</head>
+					<head xml:lang="fr">Claudine Grandgirard – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1644-09-06"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="104"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1644-09-06">6 <foreign xml:lang="la"><choice><abbr>septemb</abbr><expan>septembris</expan></choice></foreign> 1644</origDate>, <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013470">Hans Jakob Mändly</persName>.</note>
+							<seg><lb/><abbr>H</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>h</abbr> <persName ref="per013453a.02">Gadi</persName></seg>
+							<seg><lb/><persName ref="per011519a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per012381a.01">Python</persName>, <persName ref="per012380a.01">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.04">De Granges</persName>, <persName ref="per011548a.01">Reiff</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per016907a.01">Claudine Grandgerardt</persName> croit que la raison de son empri<lb break="no"/>sonnement est que des <term ref="lem019503.08">possedees</term> l’ont bastue, mais
+							<lb/>icelles avoir esté induictes des gens de <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le lieute<lb break="no"/>nant, lesquelles luy font grand tort, et il ne se
+							<lb/>trouvera jamais aultre chose contre elle, si non
+							<lb/>qu’elle est femme de bien, dont prie Dieu qu’il
+							<lb/>mette la verité au jour, lequel elle prend en aide,
+							<lb/>qui sçait bien si elle l’a <term ref="lem019541.15">renié</term>&#160;; que ainsy qu’elle
+							<lb/>est femme de bien, <subst><del>qu’</del><add place="inline">il</add></subst> la maintienne qu’elle
+						<lb/>n’a faict aulcun acte de reprehension&#160;; et si bien
+							<lb/>les <term ref="lem019503.08">possedees</term> l’ont appellé <term ref="lem019389.02">sorciere</term>, qu’<sic>elle</sic> ne
+							<lb/>font pas a croire, qu’elles luy font tort, que personne
+						<lb/>aultre l’a ainsi appellée qu’elle puisse sçavoir&#160;; qu’elle
+							<lb/>n’a jamais donné pain a aulcune personne, qu’elle
+						<lb/>en soit venue malade&#160;; qu’on ne l’a aussi jamais trouvee
+							<lb/>devant jour par les chemins, si ce n’est une fois qu’elle
+						<lb/>allait a l’Eglise de <placeName ref="loc007977.05">Belfoz</placeName> pour prier, dont ren<lb break="no"/>contra par les chemins des <term ref="lem018560.02">mussilliers</term> devant jour.</seg>
+							<seg><pb n="105"/><lb/>Et pource qu’on a dit qu’on avait tenu la <term ref="lem017043">secte</term>
+							<lb/>en sa maison, dict estre passé comme s’ensuyt. Assavoir
+							<lb/>lors que son mary s’enrolla pour s’en aller a la
+							<lb/>guerre, elle luy dict qu’il luy avoit mangé le sien
+								<lb/>et qu’il ne luy avait point faict d’assignation&#160;;
+							<lb/>surquoy son mary l’a voullu battre tellement,
+							<lb/>que pour ce combat et a raison qu’elle pleurait
+							<lb/>en la maison de nuict, on dict qu’on a tenu la
+							<lb/><term ref="lem017043">secte</term> en sa maison, qu’on y faict grand tort,
+							<lb/>comme aussy avec ce qu’on a dict des fleurs,
+							<lb/>car elle n’avoir parlé aultrement, si non qu’elle
+							<lb/>recueillit des fleurs sus la <unclear>rue</unclear>, qu’on y prennait
+							<lb/>les <term ref="lem017091.07">ennemys</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

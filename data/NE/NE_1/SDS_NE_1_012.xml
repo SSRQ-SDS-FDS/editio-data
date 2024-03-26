@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-12-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-T5.9 (i)</idno>
+               </msIdentifier>
+               <head>Octroi par Jean d'Aarberg aux habitants de la Sagne du droit de disposer de leurs terres</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">
+                        <origDate when="1363-06-18"/>
+                     </filiation>
+                     <filiation type="current">Vidimus</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="24"/>
+                              <width unit="cm" quantity="36.8"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI" ns0:condition="absent" ns0:attachment="sealed on a parchment tag"/>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1428-06-18"/>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_58">SDS NE 1, N<hi rend="sup">o</hi>&#160;12</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000920"></term>
+               <term ref="key000468"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="1r" facs="AEN_AS_T5_9_i_r"/>     
+               <div>
+                  <p><seg>
+                     <lb/><foreign xml:lang="la">Datum per copiam</foreign></seg>
+                     <seg><lb/><gap reason="missing" quantity="3" unit="line"/><note>La transcription de Favarger&#160;1982 commence à la ligne
+                        4.</note> «&#160;Je Johan d’Arberg, sire de Vaulengin fait savoir a tous
+                     ceulx quil verront et orront ces presentes lettres <lb/>que je non decehu ne
+                     baradtez mais de ma pure science et certaine voluntey pour moy et pour mes
+                     hoirs quil sont ou quil <lb/>seront et ceulx quil hauront cause de moy ou temps
+                     advenir, ait voluz et outroyé, donné et ay donné, sens jamais rapaller <lb/>ne
+                     aler encontre, a tous les habitant de la Saignie quil sont et quil seront les
+                     libertelx et franchisses cy après escriptes <lb/>et divisées. C’est assavoir
+                     deis le ruz de la Corbetiere entre les doues montaignes jusque au rest
+                     monseigneur Loy de Nueschastel <lb/>maniere que se aucons desdit habitant
+                     doudit lieu se partoit doudit lieu pour aler demorez desoub aultre seignour
+                     <lb/>il ne doit ne puet vendre le héritaige qui tenra de moy au autres gens
+                     fuers a mes gens habitant ou dit <supplied reason="omitted">lieu</supplied> et
+                     se aucuns <lb/>en ayt edificié de novel, il celuy mesme doit vendre eix dit
+                     habitant et non a aultres per ma volontey et per mon lost.</seg> <seg>Item <lb/>se aucuns
+                     il venoit habiter et demorei ou dit lieu de novel qu’il ne hust point de
+                     heritaige, le dit habitant sont et saront <lb/>tenuz a luy recevoir et luy
+                     doner terres selon luy et panre lait ou necessîtey sera sur lour mesme et
+                     baillier audit sourvenant. <lb/>Ou se aucuns en tenoit point de heritaige entre
+                     leurs limictacions a moint de droit ne de raison, il celuy devront panre
+                     <lb/>et baillié audit sourvenant et seroit ledit sourvenant es us et custumes
+                     quil li dit habitant seront, exceptez les enffans <lb/>Mermod et Rolet de
+                     Clamesin que tiegnent aucuns heritaiges entre lesdit habitant, et auxi mes
+                     homes dou Vaulderruit liquel <lb/>ne sont point de la condiction des dessusdiz
+                     habitant. Et je Johan d’Arberg dessusdit promest ce par ma foy tenir et gardé
+                     <lb/>fermement pour mois et pour mes hoirs es dessusdis sans aler encontre ne
+                     faire venir par moy ne par aultre ne <lb/>consentir que aultre il vigny
+                     taissiblement ne en apert ne consentir que aultre il vigny taissiblement ne en
+                     apert ne consentir que aultre il vigny ou temps advenir. En tesmoigniaige de
+                     <lb/>laquel chouse j’ay mis mon seel en ces presentes lettres que fuerent
+                        faictes et   <origDate when="1363-06-18">données le demainge devant la feste de saint <lb/>Johan Baptiste,
+                     l’an de grace Nostre Seignour corant mil trois cens sezante et trois</origDate>, present
+                     Mermet Menecte de Fontenemelon <lb/>et Vudrisat Vessaul a ce apallez et requis.
+                     En tesmoigniaige de laquel chouse nous ly prevost et chappitre dessus nommez,
+                     nostre propre seel advec <lb/>le soignoit manuel de Henry Pigaud de
+                     Nuefchastel, notaire et jurez de la cour de Lausanne cy desoub subscript havons
+                     mis pendant en ces <lb/>presentes en signe de veritez des chouses dessusdictes
+                        que fuerent faictes et données <origDate when="1428-06-18">le diex huictieme jour dou mois de joing, en
+                     l’an <lb/>de grâce corant mil quatre cent et vint et huit</origDate>.&#160;»</seg></p>
+                  <lb/>
+                  <signed>
+                     <persName>Henry Pigaud</persName>
+                  <figure type="notarial sign"></figure>
+                  </signed>
+               </div>
+               <pb n="1v" facs="AEN_AS_T5_9_i_v"/>     
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original perdu.</p>
+               <p>Vidimus sur parchemin du 18&#160;juin&#160;1428, AEN, T5, N<hi rend="sup"
+                     >o</hi>&#160;9 (i).</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Monuments</hi>, II, N<hi rend="sup"
+                     >o</hi>&#160;632, p.&#160;850.</p>
+               <p>Cité&#160;: Boyve, <hi rend="italic">Annales</hi>, I, p.&#160;342. Matile, <hi
+                        rend="italic">Seigneurie de Valangin</hi>, p.&#160;53-54. Roulet, <hi
+                        rend="italic">Mairie</hi>, p.&#160;20.</p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

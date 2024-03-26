@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 141v–142r</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 141v–142r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Vater / le père – Anweisung</head>
+					<head xml:lang="fr">Pierre Ducli der Vater / le père – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-07-05">5<hi rend="sup">ten</hi> <foreign xml:lang="la">julii</foreign> 1651</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="141v"/><p><lb/><hi rend="outdent">La femme et enfans</hi> de <persName ref="per020477a.01">Pierre Ducly</persName> de <placeName ref="loc008073.01">Matran</placeName>, le pere desquels estant avant
+							<lb/><date dur-iso="P2Y">deux ans</date> devenu tout insensé et <term ref="lem018556.03">maleficié</term>, dont il fust garro<lb break="no"/>té l’espace d’<date dur-iso="P1Y">un an</date>, et dernierement mis en liberté, et en
+							<lb/>sortant de la maison, elle fust toutte <term ref="lem019531.04">embrasée</term>, ne sçachant si
+							<pb n="142r"/><lb/>telle <term ref="lem019136.02">ovaille</term> est provenante de luy. <seg>Es ist nit zu zwyfflen, dise <term ref="lem001817">brunst</term> werde
+							<lb/>von ihme entsprungen syn, aber in der <term ref="lem015251.01">hirnmütigkeit</term>. Dise arme, betrübte
+							<lb/>instanten habend gebetten, ihnnen zu ihrem <term ref="lem009608.05">uffenthalt</term> etwas <term ref="lem000310.12">veechs</term>, so von
+							<lb/><choice><abbr>hrn</abbr><expan>herrn</expan></choice> <term ref="lem006250">venneren</term> <persName ref="per006518a.01">Lanter</persName> inventorisiert worden, zu bewilligen, solches zu verkauffen.</seg>
+							<seg><lb/>Die <term ref="lem019177.02">gemeinder</term> daselbsten pitten, ihnnen zu erbauwung abgebrandter kirchen
+								<lb/>unnd 2 häußeren sampt etlichen korns <term ref="lem006699.03">spycher</term> gnädig zu verhellffen
+								<lb/>unnd des <persName ref="per020477a.02">Duclys</persName> gütter zu abtrag dißes unwiderbringlichen schadens
+								<lb/>darzu anzuwenden. <abbr>Hr</abbr> <term ref="lem001645.18">seckhellmeister</term> hatt gwalt, ihnnen die zu disem
+								<lb/>nothwendigen <term ref="lem010580.09">kirchgebüw</term> ervorderliche materialia zu kommen zu lassen. <term ref="lem006484.06">Nach<lb break="no"/>werths</term> wirdt man <term ref="lem008449.02">räthig werden</term>, wer solche wirdt bezahlen müssen.</seg>
+							<seg><lb/>Ob dißer <persName ref="per020477a.02">Ducly</persName> <term ref="lem018703.01">hirnmütig</term> sye, werden <abbr>hr</abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per009276">Franz Karl Gottrau</persName>.</note>, <abbr>hr</abbr> <term ref="lem006250">venner</term> <persName ref="per006518a.01">Lanter</persName>
+								<lb/>unnd <abbr>hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note> erfahren. <foreign xml:lang="la">Ad referendum</foreign>. Damit aber wegen des schadens, dessen
+								<lb/>die <term ref="lem019177.02">gemeinder</term> ab des <persName ref="per020477a.02">Duclys</persName> gütter vermeinend ersetzt zu werden, ein recht<lb break="no"/>mässige verordnung <term ref="lem005639">verschafft</term> werde, sind darzu deputiert <abbr>hr</abbr> <term ref="lem011246.02">generallen</term>
+								<lb/><persName ref="per011546a.01">von Montenach</persName>, <abbr>hr</abbr> <choice><abbr>b</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per009276a.02">Gottrauw</persName> unnd <abbr>hr</abbr> <term ref="lem006250">venner</term> <persName ref="per006518a.01">Lanter</persName>. Den zweyen
+								<lb/>brunsterlitnen gibt man die gewohnte <term ref="lem010587.05">stüwr</term> an <term ref="lem000049.01">korn</term> unnd gelt.
+								<lb/><abbr>Hr</abbr> <foreign xml:lang="la"><term ref="lem000013">vicarius</term></foreign> soll den <choice><abbr>D</abbr><expan>domp</expan></choice> <persName>Macheret</persName> wegen synes abwesens <term ref="lem018726.01">abzwagen</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

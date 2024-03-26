@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-198.5-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 428–430</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 428–430</idno>
+					</msIdentifier>
+					<head xml:lang="de">Barbli Bochud-Barbey – Verhör</head>
+					<head xml:lang="fr">Barbli Bochud-Barbey – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1676-09-04"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="428"/><p><lb/>Vendredi <origDate when="1676-09-04">4<hi rend="sup">me</hi> <choice><abbr>7bre</abbr><expan>septembre</expan></choice> <hi rend="underline">1676</hi></origDate></p>
+						<p><seg><lb/>Herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026528a">Joseph Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.01">Python</persName>, <abbr>h</abbr> <persName ref="per026616a.01">Frantz Peter Gottraw</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per026120a.01">Johan Rämi</persName>, <abbr>h</abbr> <persName ref="per026549a.03">Pancratz Schröter</persName></seg>
+							<seg><lb/>Weibel <persName ref="per026562a.01">Lari</persName></seg></p>
+						<p><lb/><persName ref="per021860a">Barbli Barbey dicte la Botschuda</persName> interrogée pourquoy
+							<lb/>se laissoit dire <term ref="lem019389.02">sorciere</term> par tant de personnes sans
+						<lb/>les reprendre, dict leur avoir tousjours retorqué
+						<lb/>les mesmes injures qu’ils luy disoyent, n’ayant
+						<lb/>dequoy tant plaider&#160;; d’avoir pourtant tousjours
+						<lb/>repris ceux qui le luy ont dict en presence de tesmoins,
+						<lb/>comme le <persName>Pegconney</persName>, duquel <choice><abbr>monseig</abbr><expan>monseigneur</expan></choice> l’advoyer
+						<lb/>avoit levé les paroles, et de certain <persName>Peter
+						<lb/>Meüwli</persName>, <choice><abbr>mons</abbr><expan>monsieur</expan></choice> le <term ref="lem018597.02">burgermeister</term> lequel luy
+						<lb/>adjugea mesme <measure type="currency" unit="écu" quantity="1">un escu</measure>, qu’elle n’a encor eu. Et
+						<lb/>qu’avant sa detention elle avoit <term ref="lem015381.03">insté</term> contre
+						<lb/><persName>Claude Werro</persName>, qu’elle dict luy faire grand
+						<lb/>tort, et qu’on luy faict tort si on ne luy faict
+						<lb/>autant qu’à elle.</p>
+						<p><lb/>Ne se veut aucunement souvenir d’avoir esté chez la
+						<lb/>femme de <persName>Pierre Giroud</persName> à <placeName ref="loc009728">Villaret</placeName> pendant
+						<lb/>qu’elle y a demeuré, ouy bien auparavant du
+						<lb/>temps des anciens, qu’elle y travailloit pour ouvriere.</p>
+						<pb n="429"/><p><lb/>Interrogée sur la menace faicte à <persName>Peter Juchs</persName>, l’explique
+						<lb/>disant qu’elle luy a faict prester <measure type="currency" unit="k" quantity="100">cent escus</measure> par un
+						<lb/>sien nepveu absent du pays, et qu’elle avoit intention
+						<lb/>de les luy faire payer&#160;; niant toutes choses con<lb break="no"/>tenues dans l’examen qui la pourroyent rendre suspecte
+						<lb/>de <term ref="lem018521.01">sorcellerie</term>, et d’avoir attiré le <term ref="lem015011.04">laict</term> des autres
+						<lb/><term ref="lem017507.02">vaches</term>.</p>
+						<p><lb/>Suivant quelles negatives et la sentence souveraine
+							<lb/>d’aujourd’huy ayant esté <term ref="lem019548.06">eslevée</term> une fois à la simple
+						<lb/><term ref="lem018231">corde</term>, et derechef interrogée.</p>
+						<p><lb/>Si elle n’a baisé l’enfant de <persName>Marguerite Giroud</persName>
+						<lb/>dans le berceau&#160;: le nie absolument.</p>
+						<p><lb/>Si elle n’a relevé la mere de <persName>Niclauß Tragun</persName> en
+						<lb/>la cheute qu’elle fist, revenant de l’eglise&#160;: le
+						<lb/>nie, et adjouste ne l’avoir seulement jamais veu
+						<lb/>tomber.</p>
+						<p><lb/>Si elle n’a touché la tisseranne qui luy rapporta
+						<lb/>sa toille au bras ou sur l’espaule, dequoy elle est
+						<lb/>devenue malade&#160;: ne s’en veut aucunement souvenir,
+						<lb/>aucontraire luy avoir voullu donner de son pain
+						<lb/>et l’avoir pressée pour en prendre, ne sçachant
+						<lb/>si en la pressant elle la toucha, mais ne luy avoir
+						<lb/>donné ny faict aucun mal&#160;; et ne l’estre allé voir
+						<lb/>pour luy oster le mal, ains pour luy dire qu’elle
+						<lb/>luy faisoit tort de luy imputer la cause de son
+						<lb/>mal.</p>
+						<p><lb/>Soustient n’avoir jamais eu aucunes atteintes, ny
+						<lb/>visions, ny <term ref="lem018894.04">marques diabolicques</term>, implorant l’assistance
+						<lb/>divine de sa <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Mere et de ses saincts.</p>
+						<p><lb/>Et s’estant plainte à la <term ref="lem018231">corde</term> d’une rupture, sur ce
+						<lb/>interrogée, a dict qu’il luy descendoit quelquesfois quand
+						<lb/>elle avoit un peu trop mangé au dessoubs du ventre
+							<lb/>comme la grosseur d’un <term ref="lem019398.01">oeuf</term>, qu’elle remettoit
+						<pb n="430"/><lb/>en après, peu à peu, avec la main, avec des grandes
+						<lb/>douleurs<note><persName ref="per021860">Barbli Bochud-Barbey</persName> beschrieb vermutlich das Austreten einer Bauchhernie, die sie von Hand replatzierte.</note>.</p>
+						<p><lb/>Ce que <choice><abbr>meseig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> <add place="above" type="sign">du droict</add> ayant consideré avec son haut
+						<lb/>eage, n’ont trouvé faisable de suivre aux deux
+							<lb/>autres <term ref="lem019550.03">elevations</term>, que Leurs <choice><abbr>Exclles</abbr><expan>Exellences</expan></choice> du Conseil
+							<lb/>estroit<note>Il s’agit du Petit Conseil.</note> n’en soyent adverties.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

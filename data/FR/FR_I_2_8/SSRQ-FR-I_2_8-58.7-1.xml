@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-58.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 174 (1623), S. 332, 334</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 174 (1623), p. 332, 334</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marmet Magnin, Pierre Dévaud, Françoise Dévaud-Clerc – Anweisung</head>
+					<head xml:lang="fr">Marmet Magnin, Pierre Dévaud, Françoise Dévaud-Clerc – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-05-16">16 <foreign xml:lang="la">maii</foreign> 1623</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="332"/><p><lb/><hi rend="outdent"><persName ref="per009461">Marmet Magnin</persName></hi>, <term ref="lem017410.02">mestral</term> de <placeName ref="loc007964.03">Maconens</placeName>, gebe der abwesenden
+							<lb/>party dem <persName ref="per009454a.03">Pierre de Vaud</persName> noch ein <term ref="lem003960.04">citatz</term>, mag er
+							<lb/>in nit  <term ref="lem012975.02">betretten</term>, ein <term ref="lem002485.02">schyn</term> das im die wort nüt
+							<lb/>sollend an ehren <add place="above">schaden</add>, mit der <term ref="lem015299.02">action</term> umb den costen.</p>
+						<pb n="334"/><p><lb/>Gfangne allhie</p>
+						<p><lb/><persName ref="per009453b.01">Françoisa</persName>, <persName ref="per009454a.03">Pierre de Vauds</persName> hußfrauw, die lär
+							<lb/><term ref="lem016150">uffzogen</term> nüt <term ref="lem011468.03">bekhent</term>, die soll man examinieren
+							<lb/>noch wytters undt derglychen thun, allß wann
+							<lb/>man sie mit dem kleinen <term ref="lem018287">stein</term> <term ref="lem014641.01">torturieren</term>
+							<lb/>wölte. <term ref="lem011468.03">Bekhent</term> sie nüt, habend gwalt, sie uß<lb break="no"/>zelaßen mit abtrag costens.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

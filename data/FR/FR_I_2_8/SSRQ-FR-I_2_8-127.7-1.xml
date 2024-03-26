@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-127.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 405–407</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 405–407</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Bondalla – Verhör</head>
+					<head xml:lang="fr">Jean Bondalla – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-02-04"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="405"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1647-02-04">4<hi rend="sup">ten</hi> hornungs 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Tornier</persName>, <abbr>hr</abbr> obrister <persName ref="per013438a.01">von Perroman</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380">Python</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013439a.01">von Montenach</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017140a">Jean Bondalla</persName> de <placeName ref="loc007620.08">Ceirye</placeName>, ballifvage de <placeName ref="loc007882">Surpierre</placeName>, detenu pour
+							<lb/>cas de <term ref="lem018521.01">sorcellerie</term>, demandé par messieurs de la justice, pourquoy
+							<lb/>il est ainsy persecuté d’une <term ref="lem019503.07">possedee</term> et s’il ne l’a veu a la foyre de
+							<lb/><placeName ref="loc007647.03">Romond</placeName>, ou ce qu’elle devient malade&#160;? Dit ne sçavoir la raison
+							<lb/>pourquoy ceste pauvre femme luy dit hors de l’eglyse, qu’il estoit
+							<lb/><subst><del>sorier</del><add place="inline"><term ref="lem019308.01">sorcier</term></add></subst>, et une autre fois dans l’eglyse, qu’il avoit infor<lb break="no"/>mé ses superieurs en absence de sa partie, mais qu’il ne falloit
+							<lb/>donner fois a semblables gens, qui portant luy occasionent grande
+							<pb n="406"/><lb/>amertume et tristesse en son <term ref="lem014871.01">coeur</term>&#160;; ne sçait s’il a veu ceste
+							<lb/><term ref="lem019503.07">possedee</term> a <placeName ref="loc007647.03">Romond</placeName> et veut qu’il demeure roide mort sur la place
+							<lb/>s’il luy a causé aucun mal, ny a personne que ce soit&#160;; n’a mesme<lb break="no"/>ment sceu qu’elle soit estee malade. Prie Dieu le voulloir
+							<lb/>assister par maintien de bonne justice et desployer la verité
+							<lb/>en cest endroict, sçachant bien qu’il luy arrive tort dont
+							<lb/>il est accusé, voullant neantmoings offrir le tout a Dieu,
+							<lb/>et subir ce qu’il plaira a messeigneurs. Et si bien ladite pos<lb break="no"/>sedee l’auroit <add place="above" type="sign">aucunes fois</add> malmenee et mesdit de luy, n’estre portant vraye,
+							<lb/>icelle en avoir dit tout autant des autres, et mesmement
+							<lb/>de ses domestiques.</seg> <seg>Le subject pourquoy son frere s’est re<lb break="no"/>tiré de ce pays et allé a <placeName ref="loc000014">Lyon</placeName>, ou il est encor a present, est
+							<lb/>qu’un certain de <placeName ref="loc008011">Rue</placeName> et de <placeName ref="loc007620.09">Ceiry</placeName> le debvoient avoir accusé&#160;;
+							<lb/>pour quels <term ref="lem015358.06">accoulpes</term> il fust faict prisonnier, mais par son as<lb break="no"/>sistance et comparroissance devant messeigneurs, bien tost
+							<lb/>aprés liberé. Et estant par aprés venu a estre different
+							<lb/>avec luy, touchant certain <term ref="lem017861">emboenage</term>, il luy dit et repro<lb break="no"/>cha qu’il avoit tiré de mauvais lieu, mais non pas qu’il sçache
+								<lb/>qu’il soit mechant. Et si quelqu’un a <placeName ref="loc000014">Lyon</placeName> ou ailleurs auroit mes<lb break="no"/>dit de luy, cela estre parlé plus par malveillance que par
+							<lb/>verité. Quant a son frere absent, ne sçait qu’il <add place="inline">est</add>, mais luy
+							<lb/>sçait bien qu’il est homme d’honneur.</seg> <seg>Disant n’estre point
+								<lb/>marqué par le <term ref="lem015433.10">maling</term>, n’avoir aussy jamais <term ref="lem019541.17">renyé</term> Dieu, ny
+								<lb/>comparu a la <term ref="lem017043">secte</term>, ny commis acte de <term ref="lem018521.01">sorcellerie</term>. Et si bien
+								<lb/>on veut dire qu’il est <term ref="lem018895.02">marqué</term>, n’estre portant ainsin&#160;; n’avoir
+							<lb/>autres marques sur son corps, que des blesseures et cheuttes
+								<lb/>qu’il a enduré sa vie durant&#160;; icelles n’estre aucunement dia<lb break="no"/>boliques, ains accidentales. Dit lors qu’on le <term ref="lem019509.06">visita</term>, qu’il
+							<lb/>sentit fort bien, ou ce qu’on le piquoit et poignoit.</seg> <seg>Interrogé
+							<lb/>s’il n’avoit esté aucunes fois a <placeName ref="loc008568.03">La Beauma</placeName>, ou qu’on tient
+								<lb/>la <term ref="lem017043">secte</term>&#160;? Dit n’y avoir jamais esté pour semblable faict, que
+							<lb/>Dieu l’en defende&#160;; bien y a il esté de jour, mais en honneur,
+								<lb/>y ayant mené pasturer les <term ref="lem018921.06">chevaux</term>&#160;; ne sçavoir rien de
+							<lb/>semblables choses diaboliques&#160;; n’avoir autre maistre que Dieu
+							<lb/>son Createur, qui luy faira la grace qu’il ne luy arrive aucun
+							<lb/>tort, esperant qu’il l’assistera a son bon droit&#160;; ne sçait
+							<lb/>qu’on ayt supplicié <sic>des</sic> ses parents, si non une femme de <placeName ref="loc007620.09">Ceiry</placeName>,
+							<lb/>qu’estoit desja au quatriesme desgré avec luy. Quant a ce
+							<lb/>qu’il doit avoir retiré par <term ref="lem019495.01">usure</term> <measure type="currency" quantity="1400" unit="lb">1400 </measure> au lieu de
+							<lb/><measure type="currency" quantity="800" unit="lb">800 </measure>, dit n’estre veritable. Et si ainsy est (dont il sçait
+							<lb/>le contraire), veut donner tout son bien au <placeName ref="loc007690.04">Grand Hospital</placeName> de
+							<lb/>ceste ville, disant en outre qu’il n’a homme d’honneur
+							<lb/>qui puisse dire par verité qu’il ayt receu pour <measure type="currency" quantity="10" unit="k">10 </measure>, <measure type="currency" quantity="1" unit="ducatoon">1
+							<lb/>ducaton</measure> d’honnoraire. Bien est il vray que quelques uns, pour
+						<pb n="407"/><lb/>leur avoir presté un ou deux sacs de blé, luy faisoient une
+							<lb/>journee ou deux de travaille, sans retirer d’eux autre advant<lb break="no"/>age.</seg> <seg>N’avoir faict aucun remuement entre les justiciers, ny
+							<lb/>donné autres advis aux parties contentieuses et appellantes, que
+							<lb/>ce qu’estoit de la raison, car comme il disoit aux parties&#160;:
+							<lb/><q>&#160;La sentence <subst><del>est</del><add place="inline">avoir</add></subst> estee ainsy rendue icy.&#160;</q></seg> <seg>Enquis si la
+							<lb/>fille de <abbr>mons<hi rend="sup">r</hi></abbr> le moderne balliff n’estoit devenue malade pendant
+							<lb/>qu’il la tenoit en ses bras et s’il n’avoit, touchant certaine
+							<lb/>cause disputee a <placeName ref="loc007607.03">Mouldon</placeName>, faict serement&#160;? Dit que tenant
+							<lb/>dite fille, elle devient veritablement malade, mais la mere, sça<lb break="no"/>voir madame la ballifve<note>Il s’agit de la femme du bailli.</note>, luy dit que ce n’estoit rien de nou<lb break="no"/>veau, que ce mal la saisissoit souvent.</seg> <seg>Quant a l’autre arti<lb break="no"/>cle, dit estre vray, qu’il a ehu <sic>une</sic> proces <subst><del>rie</del><add place="overwritten">audit</add></subst> <placeName ref="loc007607.03">Mouldon</placeName>,
+							<lb/>qu’il gaigna par juste voye de justice, mais nye d’y avoir
+							<lb/>faict aucun serement. Et en cas on ne <subst><del>veuille</del><add place="inline">vueille</add></subst> donner
+							<lb/>foy a son dire, prie qu’on prenne information endite ville, ou ce
+								<lb/>que dans les <term ref="lem018226.02">mannuaulx</term> de cour on pourra veoir comme ce
+							<lb/>proces fust disputé et s’il a faict serement ou non, de
+								<lb/>sorte que aprés dhue examination sur tous les points conte<lb break="no"/>nus dans l’<term ref="lem018363">inquisition</term>, il n’auroit rien voullu
+								confesser, di<lb break="no"/>sant estre innocent en cas de <term ref="lem018521.01">sorcellerie</term>. Demande pardon.<note>Le passage qui suit concerne le procès mené contre <persName ref="per017120">Anni Gendre-Motta</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-124.21-1">SSRQ FR I/2/8 124.21-1</ref>.</note></seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

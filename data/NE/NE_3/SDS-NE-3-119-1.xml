@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  
+ xml:lang="fr">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 3&#160;: Les points de coutume neuchâtelois</title><editor>
+    <persName>Adrien Wyssbrod</persName>
+</editor>
+<editor>
+    <persName>Arnaud Besson</persName>
+</editor>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="transcript"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="headerinfo"/>
+    </respStmt>
+    <respStmt>
+     <persName>Adrien Wyssbrod</persName>
+     <resp key="tagging"/>
+    </respStmt>
+    <respStmt>
+     <persName>Arnaud Besson</persName>
+     <resp key="qualitycheck"/>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+    <date type="electronic" when="2020-08-17"/>   
+    <date type="print" when="2022-06-08"/>
+    <availability><p xml:id="facs">Adrien Wyssbrod</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+   <seriesStmt xml:id="ssrq-sds-fds">
+    <title>Les sources du droit suisse</title>
+    <respStmt>
+     <orgName>Fondation des sources du droit de la Société suisse des juristes</orgName>
+     <resp/>
+    </respStmt>
+    <idno>SDS-NE-3-119-1</idno>
+   </seriesStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier><repository xml:lang="fr">Archives de la Ville de Neuchâtel</repository>
+      <idno xml:lang="fr">AVN B 101.01.01.006, p. 766</idno>
+     </msIdentifier>
+     <head>Part aux acquêts</head>
+     <msContents>
+      <summary>Une épouse reçoit la moitié des acquêts et assume aussi les dettes.</summary>
+      <msItem>
+       <textLang xml:lang="fr"/>
+       <filiation type="current"/>
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support>
+         <material>Papier</material>
+        </support>
+        <extent>
+         <dimensions type="leaves">
+          <height unit="cm" quantity="32"/>
+          <width unit="cm" quantity="22.5"/>
+         </dimensions>
+        </extent>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate when="1636-04-23" calendar="Julian"/>
+       <origPlace ref="loc007786">Neuchâtel</origPlace>      </origin>
+     </history>
+     <additional>
+      <listBibl>
+       <head/>
+       <bibl/>
+      </listBibl>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <editorialDecl>
+    <p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/></p>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <textClass default="false">
+    <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+     <term ref="key005098"></term>
+     <term ref="key005006"></term>
+     <term ref="key005001"></term>
+     <term ref="key005208"></term>
+     <term ref="key000058"></term>
+     <term ref="key000558"></term>
+     <term ref="key000138"></term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <group>
+   <text>
+    <body>
+     <pb n="766" facs="AVN_B_101.01.01.006_0766"/>
+     <div>
+<head><lb/>Du <orgName ref="org003085">Conseil estroict</orgName>, du mesme <choice><abbr>jo</abbr><expan>jour</expan></choice> <origDate when="1636-04-23">23<hi rend="sup">e</hi> avril
+<lb/><hi rend="underline">1636</hi></origDate>.</head>
+      <p>
+       <lb/>Le <choice>
+        <abbr>s<hi rend="sup">r</hi></abbr>
+        <expan>sieur</expan>
+       </choice>
+       <persName ref="per011725a.01">Jonas Rougemont</persName> a demandé declairation du point de
+       <lb/>coustume, sçavoir si une femme ne peut pas participer <lb/>à la moitié des <term
+        ref="lem015648.02">accroissances</term> faictes avec son mary constant <lb/>leur mariage. Il
+       a esté surce declairé, que la femme a <lb/>part à la moitié des <term ref="lem015648.02"
+        >accroissances</term> faictes avec son mary <lb/>pendant leur conjonction&#160;; apres
+       touteffois les debtes <lb/>levées qui se trouveront avoir esté crées constant leur
+       <lb/>mariage. <del rend="strikethrough">V</del> <choice><abbr>C<hi rend="sup">rs</hi></abbr><expan>Conseillers</expan></choice> <persName ref="per010461">Varnod</persName>, <persName ref="per010462"
+        >Grisel</persName>, <persName ref="per010465">Bonvespre</persName>, <persName
+        ref="per010464">Rolin</persName>, <persName ref="per010437"><choice>
+         <abbr>bdgeois</abbr>
+         <expan>Bourgeois</expan>
+        </choice></persName>, <persName ref="per010439">Legoux</persName>, 
+       <lb/><persName ref="per012235a.01"><abbr>D</abbr> Purry</persName>, <persName ref="per012236"><abbr>J</abbr>
+        Purry</persName>, <persName ref="per012237a.01">Meuron de Thielle</persName>, <persName
+        ref="per013884a.01">Vavre</persName>, <persName ref="per012238">Baillod</persName>,
+        <persName ref="per011726">Huguenaud</persName>.</p>
+      </div>
+    </body>
+   </text>
+  </group>
+ </text>
+</TEI>

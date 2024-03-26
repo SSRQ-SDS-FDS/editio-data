@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-121.56-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 341–342</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 341–342</idno>
+					</msIdentifier>
+					<head xml:lang="de">Maria Roggo-Conte – Verhör</head>
+					<head xml:lang="fr">Maria Roggo-Conte – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-11-19"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="341"/><p><lb/>Im <placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-11-19">19<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>9bris</abbr><expan>novembris</expan></choice></foreign> 1646</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Tornier</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013668a.02">Reyff</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017122">Jenon Joye-Débieux</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-125.12-1">SSRQ FR I/2/8 125.12-1</ref>.</note></p>
+						<pb n="342"/><p><lb/><foreign xml:lang="la">Ibidem, presentibus dominis ut supra et domino <persName ref="per012379a.01">Progin</persName></foreign></p>
+						<p><seg><lb/><persName ref="per017006b.02">Maria Compte, die Mußmaria</persName>, welche by <date dur-iso="P16W">16</date> oder <date dur-iso="P17W">17 wuchen</date>
+							<lb/>lang in <term ref="lem004405">banden</term> ligt, hatt vor der <term ref="lem005044">examination</term> gott, den allmächtigen,
+							<lb/>die allerreinste mutter <persName ref="per000169">Maria</persName>, ihren <term ref="lem018875.02">schutzengell</term> wie auch das
+							<lb/>himlisch herr mit vihl lamentation angeruffen. Mit pitt,
+							<lb/>sie wollend ihren durch das hoche fest <date when="--12-25">des heilligen wienacht<lb break="no"/>tags</date>, der diß vergangne jahr uff einem montag gefyert
+							<lb/>unnd celebriert worden, in ihrer grossen <add place="above" type="sign">nöthen</add> gnädig byspringen,
+							<lb/>sie in ihr unschuldt helffen starckh machen unndt <add place="above">by</add> der ge<lb break="no"/>rechtigkheit, so sie <term ref="lem008617.05">anrüfft</term>, handthaben.</seg> <seg>Als sie nun über
+							<lb/>ettliche, besonders die fürnembste puncten des wider sie uff<lb break="no"/>genommen <foreign xml:lang="la"><term ref="lem017826">examinis</term></foreign> befragt unndt examiniert worden, hatt ge<lb break="no"/>sagt unnd hoch <term ref="lem017472.02">bedüret</term>, sy sye von der <term ref="lem014672.03">hexery</term>, warumb sie
+							<lb/>verklagt wirdt, bym wenigsten nit befleckht. Mit <term ref="lem016814">vermelden</term>,
+							<lb/>daß die jenigen, die sie hierumb anklagen, ihren die ehr
+							<lb/>endtziechend unndt grob unrecht thüyend.</seg> <seg>Die <persName ref="per016996b">Ober<lb break="no"/>toosinna</persName>, die sie faltschlich angeben, werde, wan sie daruff
+							<lb/>hingefahren unnd gestorben, gott, dem herren, der ein richter
+							<lb/>über alle richter ist, ein <term ref="lem009743.04">thüre</term> rechnung geben müssen. Dem
+							<lb/>sie ihr seell will uffgeopfferet unndt mynen <choice><abbr>g hhr</abbr><expan>gnädigen herren</expan></choice> ihren
+							<lb/><term ref="lem004417.09">cörpell</term>, daran wenig gelegen, übergeben <subst><del>hatten</del><add place="overwritten">haben</add></subst>, darmit
+							<lb/>sie thun unndt ihren gnädigen belieben nach handlen werdend.
+							<lb/>Sy sye der unzwyffenlicher hoffnung gegen gott, er werde
+							<lb/>sie nimmer verlassen, <add place="above" type="sign">sonders</add> vihl mehr sie by ihr unschuldt helffen
+								<lb/>sterkhen. Hatt endtlich ohngeacht wyttläuffiger <term ref="lem005044">exami<lb break="no"/>nation</term> nichts <term ref="lem011468.04">bekhennen</term> wöllen; umb <term ref="lem004684.08">verzüchung</term> bittend.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

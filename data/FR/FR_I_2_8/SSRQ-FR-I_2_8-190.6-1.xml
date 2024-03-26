@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-190.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 272–278</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 272–278</idno>
+					</msIdentifier>
+					<head xml:lang="de">Alexandre Cardinaux, François Cardinaux – Verhör</head>
+					<head xml:lang="fr">Alexandre Cardinaux, François Cardinaux – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1667-08-22"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="272"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1667-08-22">22 <foreign xml:lang="la">augusti</foreign> 1667</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026314a">Karl von Montenach</persName>.</note></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026065">Joseph Reyff</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per026329a.01">Schrötter</persName></seg>
+						<seg><lb/><persName ref="per026077a.01">Küenli</persName></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<p><seg><lb/><persName ref="per022469a.01">Alexander Cardenaux</persName>, de <placeName ref="loc007851.03">Chastel
+						<lb/>S<hi rend="sup">t</hi> Denys</placeName>, examiné pour quel subject il
+						<lb/>est<del>oit</del> prisonnier, a declairé qu’estant
+						<lb/>venu en dispute avec <persName ref="per022468a.01">François Cardenaux</persName>
+						<lb/>pour <measure type="currency" unit="lb" quantity="9.5">9  et ½</measure> qu’il luy estoit redevable,
+						<lb/>et pensoit avoir payé par moyen d’une
+						<lb/>remise, il auroit racconté à monsieur le
+						<pb n="273"/><lb/>ballif deux accidens qui luy sont arrivé&#160;:
+							<lb/>l’un avec un <term ref="lem018921.02">cheval</term> que ledit <persName ref="per022468a">François</persName>
+						<lb/>avoit monté et est venu immediatement
+						<lb/>comme enragé et dangereusement malade&#160;;
+						<lb/>l’autre accident est que luy ayant ledit
+						<lb/><persName ref="per022468a">François</persName> donné à beoire du vin hors d’une
+						<lb/>peinte, il devient <term ref="lem015622">incontinent</term> incomodé,
+						<lb/>en sorte que sans dé <term>cornietan</term><note>Le sens de ce mot demeure incertain. Il pourrait s’agir
+							de <term ref="lem018907.01">carnillet</term>, dont on pensait qu’il avait
+							des propriétés stimulant le coeur.</note>, qu’il prist
+						<lb/>par après, il croist qu’il auroit fallu crever.</seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> qu’ayant apperceu que ledit <persName ref="per022468a">François</persName>
+						<lb/>le voulloit actioner par droict extraordinaire,
+						<lb/>qu’il a demandé à monsieur le ballif permission
+						<lb/>pour venir à <placeName ref="loc001060.04">Frybourg</placeName> et <term ref="lem015381.01">inster</term> qu’on prist
+						<lb/><term ref="lem018363">inquisition</term> contre ledit <persName ref="per022468a">François</persName>, de craincte
+						<lb/>qu’il ne fust ruiné en frais. Declaire que
+						<lb/>monsieur le ballif luy a respondu qu’il debvoit
+						<lb/>prendre garde à ce qu’il faisoit, et s’il pouvoit
+						<lb/>soustenir par serement ce qu’il luy avoit
+						<lb/>dit, qu’il obtiendroit bien l’<term ref="lem018363">inquisition</term>
+						<lb/><subst><del>a</del><add place="overwritten">en</add></subst> la justice de <placeName ref="loc007851.04">Chastel</placeName>,
+							sans aller à <placeName ref="loc001060.04">Frybourg</placeName>.</seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> d’avoir par sa responce par devant
+						<lb/>ladite justice demandé qu’on prist <term ref="lem018363">inquisition</term>
+						<lb/>contre tous deux, et qu’il soustenoit veritable
+						<lb/>ce qu’il avoit <subst><del>pa</del><add place="overwritten">dit</add></subst> à monsieur le ballif. Declaire
+						<lb/>qu’il en avoit parlé à <persName>François du Villard</persName>,
+						<lb/>son <term ref="lem016298.01">parlier</term> en justice, mais qu’il l’avoit adverti
+						<lb/>de prendre garde à ce qu’il faisoit.
+						<pb n="274"/><lb/>Declaire que monsieur le ballif luy a <add place="above" type="sign">puis après</add> montré
+						<lb/>un examen precedent, qui at esté pris contre
+						<lb/>ledit <persName ref="per022468a">François</persName>. Que <persName>Louys Chapperon</persName>,
+						<lb/><persName>Claude Vauthey</persName>, <persName>Claude Grimmoz</persName> et <persName>Pierre
+						<lb/>Bossaliez</persName> luy ont dit qu’il debvoit tenir
+						<lb/><subst><del>bon</del><add place="inline">coup</add></subst>, qu’ilz sçavoient beaucoup d’affaires
+						<lb/>contre ledit <persName ref="per022468a">François</persName>, ce que luy a donné tant
+						<lb/>plus de subject de demander l’<term ref="lem018363">inquisition</term>, ne
+						<lb/>croyant pas que l’affaire en viendroit
+						<lb/>si loing. Nie d’avoir respondu sur la
+						<lb/>demande s’il ne sçavoit pas ou <persName>Jaque Pillioud</persName>
+						<lb/>estoit devenu, qu’il ne le sçait pas, mais
+						<lb/>qu’il ne vouldroit pas estre ou il est.
+						<lb/>Il ne se veult pas souvenir d’aulcunes me<lb break="no"/>naces entre luy et <persName>Thomas Cardenaux</persName>.</seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> d’avoir mené de l’argent avec
+						<lb/><persName>Jean Milliard</persName>, mais ne se veult pas sou<lb break="no"/>venir des discurs ou tentations d’infidelité,
+						<lb/>si ce n’est peult estre qu’il ayt raillé.</seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> d’avoir pris deux <term ref="lem015610.06">chars</term> de boys à
+						<lb/><persName>Louys Genoud</persName>, mais par consentement de
+						<lb/>son filz <persName>Jaque</persName>, auquel il avoit payé quelques
+						<lb/>foys du vin, dit qu’il en at payé l’offence
+						<lb/>à monsieur le ballif. Plus <term ref="lem015549.13">confesse</term> d’avoir
+						<lb/>pris 2 <term ref="lem018643.05">fromages</term> à son oncle, et qu’il en at
+						<lb/>esté chastié. Nie d’avoir battu sa mere,
+						<lb/>bien de l’avoir mal traitté avec des
+						<lb/>parolles à cause qu’il la soubçonnoit
+						<pb n="275"/><lb/>de luy avoir pris de la greine, mais que le
+						<lb/>contraire at esté decouvert. <term ref="lem015549.13">Confesse</term> d’avoir
+						<lb/>beu quelques foys avec <persName>Denys Vauthey</persName>, mais
+						<lb/>ne veult pas sçavoir s’il en est venu malade.</seg>
+						<lb/><seg>Il prie tres humblement vos Excellences de pardon
+						<lb/>et soustient de n’avoir jamais commis semblable
+						<lb/><term ref="lem019494.02">crimes</term>.</seg></p>
+						<p><seg><lb/><persName ref="per022468a.01">François Cardenaux</persName>, de <placeName ref="loc007851.03">Chastel S<hi rend="sup">t</hi> Denys</placeName>,
+						<lb/>examiné sur l’ample <term ref="lem018363">inquisition</term> prise contre
+						<lb/>luy, racconte le different eu avec le prenommé
+						<lb/><persName ref="per022469a.01">Alexander</persName> tout au long comme luy, et declaire
+						<lb/>qu’il est venu aux arrests à l’instance dudit
+						<lb/><persName ref="per022469a.01">Alexander</persName>, lequel, pour responce dans la cause
+						<lb/>d’injures, a demandé que <term ref="lem018363">inquisition</term> fut prise
+							<lb/>contre tous deux.</seg> <seg><term ref="lem015549.13">Confesse</term> d’avoir beu
+						<lb/>souventefoys par ensemble, et de luy avoir
+						<lb/>donné à beoire dans sa cave, mesmement qu’il
+						<lb/>se disoit pour lors incomodé, et qu’il faisoit dif<lb break="no"/>ficulté de boire. Nie pas d’avoir monté le
+						<lb/><term ref="lem018921.02">cheval</term> de sa partie, mais ne veult pas sçavoir
+						<lb/>ce qu’il en est arrivé.</seg> <seg><term ref="lem015549.13">Confesse</term> que la <term ref="lem019503.05">possedée</term>
+						<lb/><persName>Elisabeth Chapperon</persName> s’est jettée dans une
+						<lb/>goslie et que luy, passant a costé, elle fist
+						<lb/>du bruit sans sçavoir si c’estoit contre luy.
+						<lb/><term ref="lem015549.13">Confesse</term> d’avoir pris un autre chemin pour
+						<lb/>s’en retourner et pour l’eviter.</seg> <seg>Declaire
+						<lb/>qu’il at eu dispute avec domp <persName>Claude Vauthey</persName>
+						<pb n="276"/><lb/>à cause qu’il l’a fait sortir hors de la cure
+						<lb/>par commandement de monsieur le ballif.
+						<lb/>Nie entierement de luy avoir reproché
+							<lb/>qu’il deceloit sa <term ref="lem019465.01">confession</term> ou de luy avoir
+						<lb/>fait autres reproches, moings de luy avoir
+						<lb/>demandé si <persName><subst><del>Alexander</del><add place="above">Pierre</add></subst></persName> l’avoit accusé.
+						<lb/>Soustient qu’il ne s’est jamais laissé taxer
+						<lb/><term ref="lem019308.01">sorcier</term> ou autrement.</seg> <seg><term ref="lem015549.13">Confesse</term> d’avoir achepté
+						<lb/>des <term ref="lem018925.03">veaux</term> de <persName>Jean Genod</persName> sans sçavoir si quelq’un
+						<lb/>est venu mallade. Il ne se veult pas souvenir
+							<lb/>d’avoir achepté un <term ref="lem018923.04">beuf</term> de <persName>François Villard</persName>,
+						<lb/>ny que son beaufrere luy ayt dit qu’il ne
+						<lb/>se comportoit pas bien.</seg> <seg><term ref="lem015549.13">Confesse</term> d’avoir
+						<lb/>eu quelques querelles avec sa femme et qu’il
+						<lb/>est allé couché 3 ou 4 foys dans la grange.
+						<lb/>Nie de luy avoir dit s’il n’estoit pas maistre
+						<lb/>en ce monde, qu’il le seroit dans l’autre,
+						<lb/>bien avoir parlé s’il n’estoit pas <subst><del>bon d’estre</del>
+						<lb/><add place="inline">maistre</add></subst>, au moings il seroit bon pour estre
+						<lb/>serviteur.</seg> <seg>Il ne se veult pas souvenir quelles
+						<lb/>personnes se sont battuez chez luy, ny qu’on
+							<lb/>ayt laissé tomber du <term ref="lem019279.04">rotty</term> et du pain,
+						<lb/>qu’on ne l’ayt pas peu retreuver. Declaire
+						<lb/>d’avoir servy en <placeName ref="loc005954.06">Valley</placeName> avant <date dur-iso="P30Y">30 ans</date>,
+						<lb/>et y avoir bagnié dernierement avec
+						<lb/>le granger de monsieur le ballif, estre revenu
+						<lb/>avec luy de nuit au logis.</seg> <seg>Il ne veult
+						<lb/>pas avoir fait mal à aulcune personne, ny
+						<pb n="277"/><lb/>d’avoir apperceu aulcunes plaincte contre luy,
+						<lb/>hormis celles d’<persName ref="per022469a">Alexandre</persName>, dit qu’il a des belles
+						<lb/>attestations de six communes qui sont fort bien
+						<lb/>contentes de ses comportements. Nie d’avoir
+						<lb/>dit au garçon <persName>Marrigley</persName>, touchant la difficulté
+						<lb/>d’une <term ref="lem017507">vache</term>, qu’il debvoit faire le serement
+						<lb/>et qu’il le meneroit à <placeName ref="loc008280.06">S<hi rend="sup">t</hi> Mauris</placeName> pour l’absoudre.</seg>
+							<seg><lb/><term ref="lem015549.13">Confesse</term> d’avoir eu de la <term ref="lem018382">graisse</term> faite avec de
+						<lb/>la cyre, de la <term>bygion</term><note>Le sens de ce mot demeure incertain&#160;;
+							un rapprochement avec <term ref="lem018908">bougie</term> peut être envisagé.</note> et quelques herbes, dit s’en
+						<lb/>estre servy pour ses <term ref="lem017507.02">vaches</term>.</seg> <seg>Il ne veult pas estre sorty
+						<lb/>de nuict hors du challet, si ce n’est jusques à la porte,
+						<lb/>moings d’avoir fait aulcun mal à personne, de quoy
+						<lb/>il en remet le jugement au bon Dieu si on l’en
+						<lb/>soubçonne ou accuse.</seg> <seg>Il ne veult pas estre sou<lb break="no"/>venant d’avoir dit à un garçon qui l’avoit servy,
+						<lb/>et lequel il voulloit reprendre pour son serviteur,
+						<lb/>qu’il s’en repentira. Quand ses gens ont
+						<lb/>ver<add place="inline">s</add>sé en charriant un <term ref="lem015610.01">char</term> de vin, dit l’avoir
+						<lb/>appris par des autres, et mesmement par ses gens propres,
+						<lb/>et non autrement. Touchant la chair dont
+						<lb/>on l’accuse avoir voullu manger en un mecre<lb break="no"/>dy es <term ref="lem018909.02">4 Temps</term>,
+							dit que cella luy a peu estre arrivé <add place="left margin" type="sign">es terre de <placeName ref="loc000464.08">Berne</placeName> <lb/>sans y penser</add>,
+						<lb/>mais ne s’en pouvoir bien souvenir.</seg> <seg></seg>Il ne
+						<lb/>veult pas avoir cogneu un certain <persName>Jacqoud</persName>,
+						<lb/>ny se souvenir des autres postes comprises plus
+							<lb/>particulierement dans l’<term ref="lem018363">inquisition</term>. <term ref="lem015549.13">Confesse</term>
+						<lb/>qu’on la fait prier à <placeName ref="loc007851.04">Chastel</placeName> et qu’il a fait
+						<lb/>quelques manques dans les prieres, mais qu’il
+						<lb/>estoit tellement incomodé, qu’il ne sçavoit pas
+						<pb n="278"/><lb/>parler, mais presentement, ayant recité le <term ref="lem016771.01">Pater</term>,
+						<lb/>l’<term ref="lem016772.01">Ave Maria</term>, le <term ref="lem016774.01">Credo</term>, les dix commandements
+						<lb/>de Dieu et de l’esglise, il les at bien distinc<lb break="no"/>tement prié. Nie d’avoir commis de sa vie
+							<lb/>aulcun <term ref="lem019494.01">crime</term> dont on le soubçonne, et soustient
+							<lb/>qu’il ne sçaist pas dequels <term ref="lem019494.02">crimes</term> on le pouroit
+						<lb/>soubçonner, se recommandant bien humblement
+						<lb/>au bon Dieu et son bon droit à vos Excellences.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-46-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-P8.25</idno>
+               </msIdentifier>
+               <head>Statuts du chapitre de Valangin</head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="la"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32"/>
+                              <width unit="cm" quantity="47.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1506-12-15"/>
+                     <origPlace ref="loc005950">Valangin</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_128"
+                           >SDS NE 1, N<hi rend="sup">o</hi>&#160;46</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000170"></term>
+               <term ref="key003643"></term>
+               <term ref="key000794"></term>
+               <term ref="key000341"></term>
+                           </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="6r" facs="AEN_AS_P8_25_5v_6r"/>
+               <div>
+                  <p>
+                     <lb/>In nomine sancte et individue Trinitatis, Patris et <lb/>Filii et Spiritus
+                     sancti, amen. Nos Nicolaus Ragueti <lb/>presbiter prepositus, Hugo Arboris,
+                     Ludovicus Boillieti, <lb/>Georgius Pongeti, Johannes Corderi, Anthonius Fatom,
+                     <lb/>Jacobus Bisardi, presbiteri, canonici ecclesie collegiate sancti
+                     <lb/>Petri Valengini lausannensis diocesis, notum facimus universis <lb/>quod
+                     nos per consensum et assensum Reverendissimi in Christo patris ac <lb/>domini
+                     domini Aymonis de Montefalcone miseracione divina lausannensis <lb/>episcopi et
+                     comitis, sacri imperiique principis nec non et metuendissimi <lb/>domini domini
+                     Claudii comitis de Arberg, baronis de Valengini <lb/>et Boffremontis, dicte
+                     ecclesie fondatoris, super hoc habito <lb/>consilio propter subscripta statuta
+                     facta et fienda, matura <lb/>deliberatone per nos in cappitulo nostro prehabita
+                     ac de <lb/>unanimi nostrorum consensu ad honorem sanctissime et individue
+                     <lb/>Trinitatis ac gloriosissime virginis Marie tociusque celestis <lb/>curie
+                     laudem et gloriam ut cultus divinus in nostra <lb/>eadem ecclesia diminui non
+                     queat sed augi ne pro nostris <lb/>deffectibus et negligenciis divine
+                     subiciamur ulcioni, <lb/>statuimus et ordinamus pro nobis et nostris
+                     successoribus <lb/>in perpetuum in dicta ecclesia statuta et ordinaciones
+                     <lb/>constitucionesque sequentes.</p>
+                                       <head>De officiis fiendis.</head>
+                  <p>
+                     <lb/>In primis statuimus et ordinamus quod de cetero ad minus quinque
+                     <lb/>canonici resideant personaliter in dicta ecclesia nostra qui singulis diebus 
+                     <lb/>cantent ad notam horas canonicas secundum usum lausannensem prout in aliis 
+                     <lb/>ecclesiis collegiatis fieri solet.</p> 
+                     <head>De habitu chori.</head>
+                  <pb n="6v" facs="AEN_AS_P8_25_6v_7r"/>
+                  <p>
+                     <lb/>Item constituimus <choice>
+                        <abbr>etc</abbr>
+                        <expan>et caetera</expan>
+                     </choice> quod deinceps quilibet canonicorum residencium tempore <lb/>divinorum
+                     sit indutus supperlicio in trado et exeundo chorum eisdem divinorum
+                     <lb/>temporibus sicut decet in ecclesiis collegiatis sub pena sex denariorum
+                     <lb/>qualibet hora qua neglexerint hec facere sic eciam quod nullus canonicorum
+                     <lb/>defferat in choro cappucium aut pileum sub eadem pena <choice>
+                        <abbr>etc</abbr>
+                        <expan>et caetera</expan>
+                     </choice>.</p> 
+                     <head>
+                        De residencia. </head>
+                  <p>
+                     <lb/>Item statuimus <choice><abbr>etc</abbr><expan>et caetera</expan></choice> quod quilibet canonicus volens deservire prebendam 
+                     <lb/>suam compareat personaliter in choro ejusdem  ecclesie nostre in vigilia sanctorum 
+                     <lb/>Petri et Pauli appostolorum in primis vesperis et secundis et per consequens 
+                     <lb/>per totum annum, reservatis duodecim ebdomadis quolibet anno quibus 
+                     <add place="left margin">Nota per licentiam capituli.</add>
+                     <lb/>quilibet canonicorum poterit a loco divertere et de suis agendis 
+                     <lb/>disponere juxta rerum exigenciam. Quicumque vero non residerit 
+                     <lb/>personaliter aut predictas duodecim ebdomadas excesserit fructibus 
+                     <lb/>prebende anni illius una cum singulis emolumentis personaliter qualibet 
+                     <lb/>contradictione cessante <choice><abbr>etc</abbr><expan>et caetera</expan></choice>.</p> 
+                     <head>
+                     De pena seu emenda in divinis officiis.</head> 
+                     <p>
+                        <lb/>Item statuimus <choice><abbr>etc</abbr><expan>et caetera</expan></choice> quod canonici residentes singulis horis canonicalibus intersint 
+                        <lb/>cessante infirmitate aut alio legitimo impedimento; quicumque vero canonicorum
+                        <lb/>matutinis horis non interfuerit perdet  quatuor  denarios, in  missa  
+                        <lb/>quatuor  denarios, in vesperis pariter  quatuor  denarios, in ceteris vero horis 
+                        <lb/>qui non interfuerit pro qualibet hora perdet duos denarios. Similiter 
+                        <lb/>qui defecerit in vigiliis perdet  quatuor  denarios et in missa toties, 
+                        <lb/>et has negligencias seu defectus colliget procurator capituli qui vel 
+                        <lb/>que dividentur videlicet medietas eat pro fabrica  ecclesie nostre et alia 
+                        <lb/>pars ad  voluntatem capituli.</p> 
+                        <head>
+                        De dominis canonicis ebdomadariis.</head> 
+                  <p>
+                    <lb/>Item statuimus quod quilibet canonicorum prebisterorum suam faciat ebdomadam 
+                     <lb/>secundum suum ordinem in sollempnitatibus, vero duo canonici in officio 
+                     <pb n="7r" facs="AEN_AS_P8_25_6v_7r"/>
+                     <lb/>divino subservient domino preposito adimplentes officia diaconatus 
+                     <lb/>et subdiaconatus suis septimanis ne aliquis defectus habeat in divino 
+                     <lb/>officio; et qui negligens fuerit in divinis officiis peragendis,  premaxime
+                     <lb/>in missis, emendare debet secundum fondacionem  ecclesie nostre.  Et faciens,
+                     <lb/>pro eo non valebit <add place="left margin">nisi fuerit de gremio  nostro</add> de emenda fienda quicquam remittere nec alter 
+                     <lb/>sibi denegare sub debito  prestiti  juramenti nisi idem ebdomadarius 
+                     <lb/>in aliquo negociorum  ecclesie  ordinatus fuerit aut licenciatus a preposito 
+                     <lb/>aut suo locum tenenti vel corporis  egritudine  fuerit oppressus vel 
+                     <lb/>alias extiterit in senectute constitutus aut alia corporis necessitate 
+                     <lb/>detentus quod eo tunc alii canonicii eundem supportare teneantur 
+                     <lb/>et nichillominus idem percipiat paciens prebendam suam 
+                     <lb/>integram absque contradictione quacumque ne quis duplici 
+                     <lb/>afficiatur suplicio indebito.</p> 
+                     <head>
+                        De domino canonico priore cappituli.</head>
+                  <p>
+                     <lb/>Et quia nonnulli canonici aliquosciens fructus integros prebende <lb/>sue
+                     simul et semel receperunt et postmodum recesserunt, prebenda <lb/>nondum
+                     deservita, volumus et ordinamus quod quicumque canonicus <lb/>volens percipere
+                     prebendam faciat fidem pignatoriam vel <lb/>fidem jubeat per duos fide dignos
+                     in manibus prepositi et <lb/>cappelani de restitucione prebende non deservite,
+                     restituciones <lb/>vero hujusmodi canonici, domini residentes canonici inter se
+                     dividant equaliter <lb/>cum aliis eorum censibus ac redditubus annualibus. Et
+                     qui procurator <lb/>capituli fuerit, tenebitur defalcare unicuique deffectus et
+                     negligencias <lb/>factas super prehendas eorum quiquidem deffectus convertentur
+                     ut dictum est <lb/>superius. Procurator vero capituli qui census colligit et
+                     <lb/>negligencias scribit, habebit de communi porcione pro suis laboribus
+                     <lb/>unum modium frumenti sic quod per juramentum suum reddet racionem de
+                     <lb/>perceptione et faciat satisfacionem tam pro capitulo quam pro fabrica; et
+                     <lb/>qui computis interfuerit de canonicis sex denarios habebit.</p>
+                     <head>
+                     De observandis oblacionibus.</head>
+                  <p>
+                     <lb/>Item constituimus ut canonici residentes habeant pixidem clausam 
+                     <lb/>duabus clavibus et diligenter seratam, quarum clavium unam habeat 
+                     <lb/>ebdomadarius chori, aliam vero procurator capituli, in quamquidem pixidem
+                     <pb n="7v" facs="AEN_AS_P8_25_7v_8r"/>
+                     <lb/>omnes oblaciones reponantur et debet aperiri in mense semel, et id quod 
+                     <lb/>inventum fuerit inter ipsos canonicos residentes equaliter dividere et qui in 
+                     <lb/>officiis presens non fuerit nichil percipiet in dictis oblacionibus nisi tamen 
+                     <lb/>legittimam excusacionem habuerit aut licenciatus fuerit et impeditus penes negociis  
+                     <lb/>nostre  dicte  ecclesie.</p>
+                  <head>
+                     De testamento peragendo.</head>
+                  <p>
+                     <lb/>Item constituimus et ordinamus quod quilibet canonicus testamentum suum facere 
+                     <lb/>possit et valeat secundum suam propriam voluntatem et ejus devocionem de omnibus 
+                     <lb/>et singulis bonis, cum ex jurium sanxione dicatur quemlibet de suis 
+                     <lb/>propriis disponere posse et debere, contradictione penitus qualibet 
+                     <lb/>cessante.</p>
+                  <head>
+                     De tronco ecclesie.</head> 
+                  <p>
+                     <lb/>Item ordinamus quod troncus  ecclesie nostre  cum duabus diversis 
+                     <lb/>clavibus firmetur, quarum clavium unam habeat prepositus aut ejus 
+                     <lb/>locumtenens et aliam procurator  ecclesie,  et aperietur anno quolibet semel 
+                     <lb/>in vigilia sancti  Johannis Baptiste,  et id quod inventum fuerit in 
+                     <lb/>dicto  tronco  media pars erit pro fabrica  nostre  dicte  ecclesie  et alia 
+                     <lb/>media pars erit pro dominis preposito et canonicis in dicta ecclesia 
+                     <lb/>residentibus equaliter dividendo.</p>
+                  <head>
+                     De canonicorum querimoniis.</head>
+                  <p>
+                     <lb/>Item statuimus et ordinamus quod si quis canonicus habuerit aliquam 
+                     <lb/>actionem, querelam seu dissencionis matheriam contra alium canonicum, suum fratrem, 
+                     <lb/>quod actor hujusmodi causam et actionem prosequatur contra reum coram preposito 
+                     <lb/>et cappelano pro tempore existentibus qui, auditis partibus, hinc inde rem decident 
+                     <lb/>juxta ipsorum demerita. Et quitquid per eos decretum aut decisum 
+                     <lb/>fuerit debet a partibus litem habentibus firmiter observari sub 
+                     <lb/>pena ordinacionis per  nos  fiende super hoc.  Seclusis tamen  in  hiis causis 
+                     <lb/>criminalibus  una  cum juribus  reverendissimi in  Christo patris  et 
+                     <lb/>domini domini lausannensis episcopi qua et  que  sibi expresse  reservamus.</p> 
+                     <head>
+                     De sigillo et custodia  ipsius.</head>
+                  <p>
+                     <pb n="8r" facs="AEN_AS_P8_25_7v_8r"/>
+                     <lb/>Item statuimus et ordinamus quod sigillum cappituli nostri ad thesaurum  
+                     <lb/>ecclesie nostre  in suo scrinio reponatur et quod sub duabus clavibus 
+                     <lb/>tutissime firmetur, quarum clavium unam habeat dominus prepositus 
+                     <lb/>aut suus locumtenens, aliam vero senior canonicus super hoc eligendus, 
+                     <lb/>ita tamen quod hujusmodi claves  arche  illius sigilli in suis forma et 
+                     <lb/>factura sint diverse. Quibus  duobus districtius inhibemus pro 
+                     <lb/>nobis et successoribus nostris perpetuis ne presentaciones canonicorum 
+                     <lb/>seu instituciones eorumdem vel ad ecclesias ad collationes  nostre ecclesie  
+                     <lb/>spectantes sive alienaciones qualescumque fuerint prediorum ac aliorum 
+                     <lb/>bonorum quorumcumque ad predictam ecclesiam nostram spectancium vel 
+                     <lb/>alias sigillare  présumant  absque consensu et scitu is suorum confratrum 
+                     <lb/>residencium, volentes irritum fore et inane si secus per quemquam 
+                     <lb/>actum seu acte presentium fuerit aliqualiter in futurum.</p>
+                  <head>
+                     De libro vite.</head>
+                  <p>
+                     <lb/>Item statuimus quod deinceps inscribantur omnes census, fructus ac redditus
+                     <lb/>ecclesie nostre  cum tota ejus fondacione in dicto libro vite sive in dicta
+                     <lb/>regula nostra et hoc mediante notario publico ad hoc deputando 
+                     <lb/>aut deputato, dum necesse fuerit et opportunitas quesierit quod 
+                     <lb/>de novo fiant recogniciones scilicet ad minus de vicesimo anno in 
+                     <lb/>vicesimum annum ne per defectum innovationum ecclesia ipsa aliquod 
+                     <lb/>paciatur detrimentum.</p>
+                  <head>
+                     De anniversariis dicendis.</head> 
+                  <p>
+                     <lb/>Item ordinamus  etc,  quod omnia anniversaria ad predictam ecclesiam 
+                     <lb/>nostram pie legata, publice et manifeste in dicta regula 
+                     <lb/>legantur ut populus assistens majorem habeat devocionem 
+                     <lb/>orandi pro animabus benefactorum seu antecessorum suorum.</p>
+                    <head> 
+                     De canonicis recipiendis.</head>
+                  <p>
+                     <lb/>Item constituimus et ordinamus quod de cetero nullus assumatur in 
+                     <lb/>canonicum ultra, unum jam electum et institutum nisi prius quod daret 
+                     <lb/>dominus collator de novo fondacione  prebende  sue et nisi
+                     <pb n="8v" facs="AEN_AS_P8_25_8v_9r"/>
+                     <lb/>ad hoc fuerit sufficiens et ydoneus cantando, legendo et in aliis 
+                     <lb/>scienciis sufficiens et quod per domi- num collatorem  et per nos eciam  
+                     <lb/>in  cappitulo  nostro  super hoc ut  moris  est  fuerit electus.  Et  
+                     <lb/>dum  sic  sufficiens compertus fuerit, jurabit immediate ad sancta Dei 
+                     <lb/>evuangelia servare statuta et statuenda ejusdem  ecclesie nostre  ac 
+                     <lb/>eadem rata, grata et firma habere et tenere et obedire preposito 
+                     <lb/>et cappellano  in ordinacionibus licitis factis et fiendis et fidelis fore 
+                     <lb/>dicte  nostre ecclesie  bonum et utilitatem ipsius procurare et dampnum 
+                     <lb/>ejus avertere et precavere pro posse; eciam non resignare, 
+                     <lb/>permutare vel alienare canonicatum suum quoquomodo nisi 
+                     <lb/>persone idonee cum consensu et voluntate domini collatoris 
+                     <lb/>ac prepositi et cappituli pro tempore existentium,  etc.</p> 
+                     <head>
+                     De cappis solvendis.</head>
+                  <p>
+                        <lb/>Item statuimus quod novi prepositi et canonici de cetero recipiendi 
+                     <lb/>antequam percipiant prebendam teneantur  ad  cappas  ecclesie 
+                     <lb/>nostre  quilibet ipso­rum decem libras parve monete; prepositus 
+                     <lb/>vero decem florenos videlicet viginti libras parve monete 
+                     <lb/>et unum prandium sollempne fratribus suis concanonicis 
+                     <lb/>pro suo jocundo adventu  sub pena  privacionis  prebende  anni illius.</p> 
+                     <head>
+                        De secretis capituli non revelandis.</head> 
+                     <p>
+                     <lb/>Item statuimus et ordinavimus quod si quis canonicorum revelaverit 
+                        <lb/>secreta cappituli dum celanda fuerint precepta, per prepositum et 
+                        <lb/>cappitulum mox et ilico debet privari suo habitu per 
+                        <lb/>mensem et amplius non intrabit ad secreta capituli pertractanda 
+                        <lb/>nisi per licenciam.</p>
+                  <head>
+                        De celebracione summi altaris.</head>
+                  <p>
+                        <lb/>Item statuimus et ordinamus quod a cetero nullus presumat  
+                     <lb/>celebrare missam in summo altari  ecclesie nostre  predicte 
+                     <lb/>nisi sit canonicus et de numero nostro institutus aut alias 
+                     <lb/>procedat de licenda dictorum dominorum et voluntate.</p> 
+                     <pb n="9r" facs="AEN_AS_P8_25_8v_9r"/>
+            <head>
+               De ecclesiis  nostre ecclesie annexis.</head> 
+               <p>
+                  <lb/>Item ordinamus et statuimus quod de cetero  ecclesie  parrochiales de 
+                  <lb/><placeName>Loculo</placeName>  et de  <placeName>Sagnia</placeName>  ecclesie nostre  annexe dum vaccaverint 
+                  <lb/>non debere dari et concedi nisi canonicis  ecclesie nostre  si 
+                  <lb/>extaverint et maxime  seìiioribus. In institucione, si ad 
+                  <lb/>hujusce modi ecclesias deserviandas  habilles,  sufficientes et ydonei 
+                  <lb/>reperti fuerint et erga ecclesiam nostram et cappitulum nostrum 
+                  <lb/>id promoverunt, in hoc debent promoveri ac aliis ante ferri ex 
+                  <lb/>racionabili de causa et consuetudine. Nolumus tamen in hoc de 
+                  <lb/>jure astricti fore ymo liberalitate nostra gaudere, cum ex 
+                  <lb/>jurium sanctione semper nobilitate deferenda sit et persone juxta 
+                  <lb/>rerum exhigenciam. Et qui fuerint recepti ad predictas curas 
+                  <lb/>jurabunt immediate solvere pensiones annuales nobis et successoribus 
+                  <lb/>nostris in nostro cappitulo prout consuetum est nec illas resignabunt, 
+                  <lb/>alienabunt, permutabunt nisi ad manus prepositi et cappituli nostri 
+                  <lb/>qui postmodum providere poterunt per unum vicarium perpetuum 
+                  <lb/>seu sacerdotem ydoneum et convenientem prout melius et conveniencius 
+                  <lb/>expedire videbitur.</p>
+                  <head>
+                  De senioribus canonicis preferendis.</head>
+                  <p>
+                     <lb/>Item statuimus et ordinamus cum ipso jure cautum sit quod prior tempore
+                     <lb/>pauciori gaudeat immunitate et jure quod de cetero canonici qui
+                     <lb/>seniorem datam sive institutum super canonicatu suo habuerint <lb/>aliis
+                     <gap unit="word" quantity="1" reason="illegible"/>
+                     junioris date preferantur tam in choro, cappitulo, <lb/>processione, mensa,
+                     stallo, audienciis quam alibi et quod idem <lb/>juniores ad subserviendum et
+                     ministrandum diebus feriatis et festis <lb/>sollempnibus magis sint astricti.
+                     Nolumus tamen per hoc ipsos <lb/>seniores in oneribus sibi incumbentibus
+                     aliquatenus fore <lb/>exhemptos.</p>
+                  <head>
+                     De statutis legendis.</head>
+                     <p>
+                     <lb/>Ultimo statuimus quod in antea singulis annis in festo beatorum
+                     <lb/>appostolorum Petri et Pauli infra matutinas et primam in pleno capitul <pb
+                        n="9v" facs="AEN_AS_P8_25_9v_10r"/>
+                     <lb/>nostro hujusmodi statuta legantur publice ne quis ignoranciam pro
+                     <lb/>excusacione sumat vel si necesse sit pluries legantur <lb/>in anno
+                     secundum opportunitatem temporis. Has vero constituciones, <lb/>ordinaciones et
+                     statuta nos prepositus et cappitulum predictum <lb/>et quilibet nostrorum pro
+                     nobis et successoribus nostris ad sancta <lb/>Dei evvangelia <supplied
+                        resp="Favarger" reason="omitted"
+                     >juramentum</supplied>
+                     corporaliter prestitum promittimus servare et <lb/>inviolabiliter tenere, eaque
+                     et eas rata, grata et firma, ratas, <lb/>gratas et firmas perpetuo nos
+                     habituri, omni dolo, fraude <lb/>et sinistra machinacione seclusis, salvis in
+                     hiis omnibus <lb/>et singularibus supradictis et quolibet ipsorum jurium
+                     addendi, mutandi, <lb/>movendi et corrigendi prout juxta honorem et utilitatem
+                     <lb/>necessitatemque ecclesie nostre prout oportunitas expostulaverit,
+                     <lb/>melius et utilius videbitur expedire. In quorum <lb/>omnium et singulorum
+                     fidem, robur et testimonium efficax, <lb/>nos prepositus et cappitulum
+                     prehabitum sigillum nostrum his presentibus <lb/>duximus apponendum, sub quo
+                     nos et successores nostros <lb/>perpetuos, modo et forma predictis in perpetuam
+                     Dei evidenciam <lb/>astringimus et astricti esse volumus. Datum in ecclesia
+                     <lb/>nostra predicta <date when="1506-12-15">decimaquinta die mensis decembris, anno Domini
+                        millesimo quingentesimo sexto</date>. <lb/>
+                  </p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Copie non vidimée contemporaine sur cahier en papier, AEN, P&#160;8, N<hi
+                        rend="sup">o</hi>&#160;25.</p>
+               <p>Cité&#160;: Matile, <hi rend="italic">Seigneurie de Valangin</hi>, p.&#160;223 et
+                     note&#160;2.</p>
+               <p>Analyse&#160;: Matile, <hi rend="italic">op. cit.</hi>, p.&#160;235-240.</p>
+               <p>Remarque&#160;: Sur saint Pierre de Valangin on consultera la notice d'A. Schnegg
+                     parue dans l'<hi rend="italic">Helvetia sacra</hi>, Abteilung&#160;II, Teil&#160;2,
+                     p.&#160;536-537. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

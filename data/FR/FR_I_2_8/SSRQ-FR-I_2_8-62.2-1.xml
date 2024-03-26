@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-62.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 174 (1623), S. 376–377</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 174 (1623), p. 376–377</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Monneron – Anweisung</head>
+					<head xml:lang="fr">Jean Monneron – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-06-07">7 <foreign xml:lang="la">junii</foreign> 1623</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="376"/><p><lb/><hi rend="outdent">Landvogt</hi> <persName ref="per009266a.01">Feldtner</persName> <add place="above" type="sign">berichtet</add>, wie der weibel von <placeName ref="loc008016.02">Müryt</placeName>, <persName ref="per009500a.01">Jean Monne<lb break="no"/>rod</persName>, durch <persName>Jean Baptista Pidaux</persName><note>Cet individu a déjà été inquiété en avril 1620, mais libéré. Voir StAFR, Ratsmanual 171 (1620), S. 187, 191, 206. Il est à nouveau interrogé en mai 1623, torturé et condamné. A cette occasion, il dénonce notamment <persName ref="per009500">Jean Monneron</persName>. Il bénéficie d’une mitigation de peine&#160;: il est décapité avant d’être brûlé, le 9 juin 1623. Voir StAFR, Ratsmanual 174 (1623), S. 363, 376, 380. Son cas n’est pas documenté dans les Thurnrodel car son procès semble avoir été entièrement mené à <placeName ref="loc007931">Cugy</placeName>.</note>, der zu <placeName ref="loc007931.02">Cugie</placeName>
+							<lb/>gefangen, der <term ref="lem014609.02">strudlery</term> halben angeben worden. Der
+							<lb/>dan <term ref="lem015124.02">erhalttet</term>, inn, <persName ref="per009500a.01">Monnerod</persName>, a <placeName ref="loc009193">La Belle Roche</placeName> in
+							<lb/>der <term ref="lem017042.03">sect</term> offtermalen gesechen zu haben, da sie
+						<pb n="377"/><lb/>offt mit ein andern getantzet und ein guts
+							<lb/>mütlin gehapt. Und er, <persName ref="per009500a.01">Monnerod</persName>, mit einer, <persName>Ger<lb break="no"/>manda</persName> genant, und noch einer anderer <add place="left margin" type="sign">von <placeName ref="loc008016.03">Mourit</placeName></add>, ime umbe<lb break="no"/>khant, <term ref="lem001041.02">getantzet</term>. Der landvogt soll in gfänglich
+							<lb/><term ref="lem009330.02">inziehen</term> und ein <term ref="lem003708">examen</term> darüber uffnemmen, wie
+							<lb/>ouch der amptsman von <placeName ref="loc007693.07">Stäffies</placeName>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

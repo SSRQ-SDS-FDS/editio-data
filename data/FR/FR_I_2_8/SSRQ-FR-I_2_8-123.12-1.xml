@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-123.12-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 315–317</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 315–317</idno>
+					</msIdentifier>
+					<head xml:lang="de">Anni Schueller, die Kleine, Anni Schueller, die Grosse, Elsy Schueller – Verhör</head>
+					<head xml:lang="fr">Anni Schueller, die Kleine, Anni Schueller, die Grosse, Elsy Schueller – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1646-08-17"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="315"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-08-17">17<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1646</origDate>
+							<seg><lb/><foreign xml:lang="la">Judice</foreign> <persName ref="per012378a.01">Heydt</persName></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per012379a.01">Progin</persName>, <abbr>hr</abbr> <choice><abbr>burg</abbr><expan><term ref="lem018597.02">burgermeister</term></expan></choice> <persName ref="per013479a.02">Reynoldt</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per013432a.01">Stutz</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+					<p><seg><lb/><persName ref="per017041a">Anni Schuller</persName>, der gefangnen <persName ref="per006147b">Tietrinnaß</persName> jüngste tochter, der
+						<lb/><term ref="lem014672.10">häxery</term> verdacht. Sagt, sie wisse nit, wahrumb sie gefangen sye. Sie
+						<lb/>habe sich dem <term ref="lem014673.13">bößen feindt</term> niehmahlen <term ref="lem018858.02">ergäben</term>. Ihrendtwegen sye
+						<lb/>niehmandt einich übell widerfahren. Werde sich auch nieh befinden,
+						<lb/>das sie jehmahlen waß bößes begangen. Ihre mutter hab ihren nieh
+						<lb/>derglychen sachen <term ref="lem009591.04">angemuttet</term>. Wisse auch nit, das sie ein solche seye.</seg>
+						<seg><lb/>Unndt wiewohlen sie <persName>Elsy Binnoß</persName> <term ref="lem000130.11">khindt</term>, so unlängsten gestorben,
+						<lb/>angerürt unndt gesagt, gott wölle es besseren, habe sie es
+						<lb/>darumben nit bekränckht noch einich übell angethan. Sy sye
+						<lb/>zwahr offt unndt <term ref="lem001483.06">dickh</term> zum <persName>Hannßen Äby</persName> gangen unndt
+						<lb/>von ihme ein <term ref="lem001076.33">khuo</term> gekaufft, habe aber weder ihme noch
+						<lb/>desselben <term ref="lem001076.04">khüen</term> was bößes verursachet. Wisse nit, ob ihr mut<lb break="no"/>ter mit ihren gewesen sey.</seg> <seg>Wan die mutter sie villeüchten
+						<lb/>(jedoch wider <term ref="lem016058">verhoffen</term>) <subst><del>sie</del><add place="inline">angeklagt</add></subst> hette, thüye ihren un<lb break="no"/>recht unndt erkenne sie nit für ihr mutter. Es möchte
+						<lb/>woll <add place="above">syn</add>, das ihr mutter sie <term ref="lem008937.03">etwan</term> verräterischer weyß verführt hette,
+						<lb/>wisse aber nit, das es geschehen sye. Sie sye mehrmahlen über
+						<lb/>sie erzürnt gsyn unndt <term ref="lem000722.07">geschworren</term>, das der <term ref="lem014673.13">böße feindt</term>
+						<lb/>sie hintragen solle. Daruff sie sich <term ref="lem018239">bezeichnet</term> unndt gott
+						<lb/>gebetten, das ihrer mutter wunsch nicht wahr noch volngezogen
+						<lb/>werde.</seg> <seg>Alß sie <term ref="lem006484.06">nachwerths</term> dry mahl lehr <term ref="lem016150">uffzogen</term> unndt
+							<lb/><term ref="lem006574.01">gefoltert</term> worden, darab sie sich <term ref="lem016060.02">höchlich</term> erklagt, <term ref="lem018399.02">schützlichen</term>
+						<lb/>geschruyen unndt grossen schmertzen empfunden, hatt gesagt,
+						<lb/>das sie mit ihr mutter (nit wissend wie lang) in <placeName ref="loc012659.04">Buchwaldt</placeName>
+						<lb/>gangen, daselbsten holtz abzuholen. Das sie neben derselben
+						<lb/>etwaß wüestß wie ein langen schatten gesehen, so <subst><del>ihr</del><add place="inline">mit ihr</add></subst>
+						<lb/>mutter <term ref="lem011871">radt</term>, nit wissendt was es geweßen sye. Dan sobaldt
+						<pb n="316"/><lb/>sie es gesechen, habe sie <term ref="lem018397.02">ergrußet</term> unndt sich mit dem zeichen
+						<lb/>deß heilligen <term ref="lem000698.06">crützes</term> bewahret, welches alßbaldt verschwunden.
+						<lb/>Sie aber sye nacher huß gangen unndt die mutter aldort
+						<lb/>verlaßen.</seg> <seg>Wie sie heimkhommen, hab sie sie gefragt, was
+						<lb/>dasselbe, so neben ihren gestanden unndt mit ihren geredt,
+						<lb/>gsyn sye? Die ihren gesagt: <q>Waß meinst du, waß es sye?</q>
+						<lb/>Alßdan sie die mutter über sie gantz erzürnt unndt <term ref="lem018250.02">er<lb break="no"/>grimmet</term> gsyn. <term ref="lem012597.06">Sydthert</term> habe sie nieh nüt derglychen ge<lb break="no"/>spürt noch gesehen.</seg> <seg>Bittet gott unndt myn <choice><abbr>g</abbr><expan>gnädige</expan></choice> herren
+						<lb/>umb <term ref="lem004684.08">verzüchung</term>, anzeigend, das sie weder durch rath der
+						<lb/>mutter noch deß <term ref="lem014673.13">bößen feindts</term> sich in solcher sündt niehmahlen
+						<lb/><term ref="lem015245">vergriffen</term>, sonders jederwylen woll verhalten unndt so vihl
+						<lb/>müglich gott gebetten, das er sie von allem übell gnädig
+						<lb/>bewahren wölle. Unndt solte man ihren schon alle aderen von
+						<lb/>ein andern ziechen unndt verryßen, könne unndt möge doch
+							<lb/>nit <term ref="lem011468.04">bekhennen</term>, waß <add place="above">sie</add> niehmahlen gethan noch im sinn gehabt
+						<lb/>habe. Bittet nochmahlen umb gnad.</seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne le procès mené contre <persName ref="per017006">Maria Roggo-Conte</persName>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-121.40-1">SSRQ FR I/2/8 121.40-1</ref>.</note></p>
+						<p><lb/><placeName ref="loc008105">Keller</placeName>, <foreign xml:lang="la">eadem die, presentibus dominis
+						<lb/>ut supra</foreign></p>
+						<p><lb/><persName ref="per011903a.01">Groß Anni Schuller</persName>, gemelter <persName ref="per006147b">Tietrinna</persName> tochter, die übell<lb break="no"/>redend, <term ref="lem018876.02">gehörloß</term> unndt ein wenig <term ref="lem017847">einfältig</term> ist, will nichts
+							<lb/><term ref="lem011468.04">bekhennen</term>. <add place="above">Sagt</add>, sy wisse von derglychen sachen nichts, ihr mut<lb break="no"/>ter hab ihren nüt bößes <term ref="lem009591.05">angemuthet</term> noch bevohlen.
+							<lb/>Bittet auch umb <term ref="lem004684.08">verzüchung</term>.</p>
+						<pb n="317"/><p><lb/><persName ref="per017043a.01">Elsy Schuller</persName>, die älteste tochter, laügnet glychförmig unndt
+							<lb/>sagt, sie habe in der <placeName ref="loc011051.02">Gumma</placeName> hinder <placeName ref="loc007597">Rechthalten</placeName> khein vierblät<lb break="no"/>terigs <term ref="lem018398.02">klökruth</term> gesucht noch jehmandt etwas schadens zuge<lb break="no"/>fügt. Unndt wan die mutter sie <term ref="lem008937.03">etwan</term> angeklagt hette, sie
+							<lb/>thüye ihren unrecht. Hatt endtlich <term ref="lem015124">erhalten</term>, sy sye der <term ref="lem014672.03">hexery</term>
+							<lb/>unschuldig unndt umb gnad gebetten.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

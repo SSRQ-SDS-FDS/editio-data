@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.33-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 252–253</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 252–253</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Mayor-Savarioud, Jeanne Perret, Antoine Piccand – Verhör und Urteil</head>
+					<head xml:lang="fr">Elisabeth Mayor-Savarioud, Jeanne Perret, Antoine Piccand – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<textLang xml:lang="fr"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1651-08-11" to="1651-08-22"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="252"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-08-11">11 augsten 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018079a.05">Dupré</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><lb/><persName ref="per020499a.01">Elisabet oder Jabi Schawariu</persName> von <placeName ref="loc008167.06">Cutrivi</placeName>, <persName ref="per020503a.04">Frantzen
+							<lb/>Mayors</persName> hußfrauw, welche die <term ref="lem014672.06">hexeri</term> wegen
+							<lb/>gefänglich angehalten und durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts
+							<lb/>über den inhalt des uffgenomnen <term ref="lem003708">examens</term>
+							<lb/>erfragt. Will nicht gestehn, ausert das sie <term ref="lem011898.03">bekhandt<lb break="no"/>lich</term> ist, das sie ein böße gewohnheit zum <term ref="lem010250.04">schwer<subst><del><gap reason="illegible" unit="character" quantity="1"/></del><add place="overwritten">re</add></subst>n</term>
+							<lb/>und fluchen habe. Bittet und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice>
+							<lb/>umb <term ref="lem004684.19">verzeychung</term>.</p>
+						<p><lb/><add place="left margin">Ist den <origDate when="1651-08-22">22<hi rend="sup">ten</hi> augsten
+							<lb/>1651</origDate> <subst><del>s</del><add place="overwritten">n</add></subst>ach
+							<lb/><term ref="lem019182.01">strangulation</term>
+							<lb/>in das <term ref="lem012936.07">feüwr</term> gestürtz
+							<lb/>und <term ref="lem019166.02">eingeeschert</term>
+							<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+						<pb n="253"/><p><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</p>
+						<p><lb/><persName ref="per020510a.02">Jasne Perret</persName>, natifve des <persName>Canniards</persName> de <placeName ref="loc007976.04">Purraban</placeName><note>Le greffier a écrit 1 au-dessus de «&#160;natifve&#160;» et 2 au-dessus de «&#160;de&#160;», afin
+								d’indiquer le sens de la lecture et de corriger l’erreur&#160;: c’est à Portalban, chez les Cagniards, que Jeanne est née.</note>, par
+							<lb/><choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du droict examinée sur le contenu de
+							<lb/>l’<term ref="lem018363">inquisition</term>, dit qu’il ast environ <date dur-iso="P40Y">40 ans</date> qu’elle
+							<lb/>demeure à <placeName ref="loc008123.05">Neiru</placeName>, ou elle ne veut avoier offencé
+							<lb/>persone. <term ref="lem015549.13">Confesse</term> avoier logé le cousin de son mary
+							<lb/><add place="left margin">et aultres</add> sans sçavoier qu’il feussoint soubsonné de quelque <term ref="lem019494.01">crime</term>,
+							<lb/>n’ayant sceu le <term>gonner</term><note>Le sens de ce mot demeure incertain&#160;; un rapprochement avec le verbe <term ref="lem019137.01">gonner</term> peut être envisagé.</note> d’iceux&#160;; ainsi ne veut estre
+							<lb/>aulcunement coulpable de <term ref="lem018524.02">sortilege</term>. Demande à Dieu
+							<lb/>et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> pardon.</p>
+						<p><lb/><add place="left margin">Ist <term ref="lem007301.02">ledig erkhendt</term>
+							<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+						<p><lb/><foreign xml:lang="la">Ibidem<note>Gemeint ist der <placeName ref="loc007683">Böse Turm</placeName>.</note></foreign>.</p>
+						<p><lb/><persName ref="per020532a.05">Anthoine Piccand</persName> de <placeName ref="loc007935.13">Farvagni</placeName> par <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> du
+							<lb/>droict sur l’accusation faicte de luy par l’execcu<lb break="no"/>té <persName ref="per020483a.07">jeusne Pierre du Cli</persName>, dit avoier esté environ <date dur-iso="P11Y">11
+								<lb/><add place="left margin">ans</add></date> en un bon<del>e</del> espace de tempz en <placeName ref="loc005628.08">Bourgonie</placeName>, ou ne sçavoier,
+							<lb/>que <subst><del>n</del><add place="overwritten">i</add></subst>l nye persone que ce soit plaint de luy,
+							<lb/>ou dempuis <date dur-iso="P3Y">trois <add place="above">ans</add></date> il a maryé une siene fillie,
+							<lb/>avec la quelle il a demouré dempuis son
+							<lb/>mariage. <del>avec elle</del> Proteste ne sçavoier
+							<lb/>d’aulcun <term ref="lem018524.02">sortilege</term>, demandant <add place="above">pardon</add> et se recommandant
+							<lb/>à Dieu et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

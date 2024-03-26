@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!---->
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Zweiter Teil: Rechte der Landschaft, Band 11: Die Obervogteien um die Stadt Zürich</title><editor>
+    <persName>Ariane Huber Hernández</persName>
+</editor>
+<editor>
+    <persName>Michael Nadig</persName>
+</editor>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="transcript"/>
+</respStmt>
+<respStmt>
+<persName>Ariane Huber Hernández</persName>
+<persName>Michael Nadig</persName>
+<resp key="tagging"/>
+</respStmt></titleStmt>
+<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+<date type="electronic" when="2022-06-28"/>
+<date type="print" when="2022-06-28"/>
+<availability><p xml:id="facs">Staatsarchiv Zürich (StAZH)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+<seriesStmt xml:id="ssrq-sds-fds">
+<title>Sammlung Schweizerischer Rechtsquellen</title>
+<respStmt>
+<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+<resp>Herausgeberschaft</resp>
+</respStmt>
+<idno>SSRQ-ZH-NF_II_11-33-1</idno>
+</seriesStmt>
+<sourceDesc>
+<msDesc><msIdentifier><repository xml:lang="de">Staatsarchiv Zürich</repository><idno source="https://suche.staatsarchiv.djiktzh.ch/detail.aspx?ID=1172405" xml:lang="de">StAZH G I 102, fol. 34r</idno></msIdentifier><head>Eid der Leute von Fluntern, Albisrieden, Rüschlikon, Rengg, Schwamendingen und Nöschikon</head><msContents><summary></summary><msItem><textLang xml:lang="de"/><filiation type="current">Aufzeichnung (Nachtrag)</filiation><filiation type="original"><origDate from="1479-01-01" to="1500-12-31"/></filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Pergament</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.5"/><width unit="cm" quantity="18.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Nach 1479 aufgrund des vorhergehenden Eintrags von gleicher Hand</origDate></origin></history></msDesc></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+<profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000179">Eid</term><term ref="key003346">Stift</term></keywords></textClass></profileDesc></teiHeader>
+<text>
+<group>
+<text>
+<body>
+<pb n="34r" facs="StAZH_G_I_102__fol__34_r_"/>
+<div><head><lb/>Der andern aller ge<lb break="no"/>richten eide, nam<subst><del>ch</del><add place="overwritten">l</add></subst>ich 
+<lb/><placeName ref="loc008707">Fluͦntern</placeName>, <placeName ref="loc010356">Rieden</placeName>, <placeName ref="loc008713">Ruͤschlikon</placeName>, 
+<lb/><placeName ref="loc012745">Rengk</placeName>, <placeName ref="loc009859">Swamendingen</placeName>
+<lb/>und <placeName ref="loc012142">Nǒschikon</placeName>. Soͤlich eide 
+<lb/>werdent ye zuͦ <date dur-iso="R/P10Y">zechen jaren</date>
+<lb/>gesworn und ernu̍wert.</head>
+<p><lb/>Ir sollent sweren miner herren, eins <orgName ref="org004352">bropsts <lb/>und cappittels des wirdigen gotzhus zuͦ <lb/>der bropstye
+<placeName ref="loc000065">Zu̍rich</placeName></orgName>, nutz und ere, iren <lb/>frommen zuͦ fu̍rdern und iren schaden nach
+<lb/>u̍werm vermoͤgen zuͦwenden, och dem <lb/>gerichte und den gepotten eins bropsts, <lb/>sins stathalters oder des vogtz
+gehor<lb break="no"/>sam und gewerttig zuͦ sin und den rodel <lb/>mit allen sinen begryffungen, wie denn <lb/>das von
+alterhêr komen ist, zuͦhalten <lb/>tru̍wlich und
+aneallgeverd.</p>
+</div>
+</body>
+<back>
+<div>
+<p>Dieser Aufzeichnung geht die von gleicher Hand erstellte Abschrift des Eids der Leute von <placeName ref="loc009768">Höngg</placeName> voraus, der von <date when="1479">1479</date> datiert (<bibl><ref target="urn:ssrq:SSRQ-ZH-NF_II_11-32-1">SSRQ ZH NF II/11 32-1</ref></bibl>).
+</p>
+</div>
+</back>
+</text>
+</group>
+</text>
+</TEI>

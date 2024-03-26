@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-200.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 452–454</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 452–454</idno>
+					</msIdentifier>
+					<head xml:lang="de">Laurent Ducret – Verhör</head>
+					<head xml:lang="fr">Laurent Ducret – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1677-08-06"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="452"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1677-08-06">6<hi rend="sup">ten</hi> augsten 1677</origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> herr <term ref="lem018540.03">amman</term><note>Gemeint ist <persName ref="per026624a">Hans Jakob Landerset</persName>.</note></seg>
+							<seg><lb/>Herr <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.01"> Python</persName></seg>
+							<seg><lb/> LX <abbr>h</abbr> <persName ref="per018190a.05">Frantz Daget</persName>, <abbr>h</abbr> <persName ref="per026321a.03"><choice><abbr>F P</abbr><expan>Franz Peter</expan></choice> von Montenach</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026532a.02">Werli</persName>, <abbr>h</abbr> <persName ref="per026625a.01">Haberkhorn</persName></seg></p>
+						<p><lb/><persName ref="per022637a.01">Laurent Ducri</persName>, de <placeName ref="loc007648">Dompierre</placeName>, examiné desja le
+						<lb/><origDate when="1677-08-04">4<hi rend="sup">me</hi> du present</origDate><note>Le Thurnrodel 16 n’a pas gardé la trace de ce premier interrogatoire.</note> et encor aujourd’huy appliqué
+						<lb/>à la simple <term ref="lem018231">corde</term> en suitte de la sentence
+						<lb/>souveraine du <origDate when="1677-08-02">2<hi rend="sup">d</hi> du present</origDate>, declare ne sçavoir
+						<lb/>autre subject de sa detention, sinon que le
+						<lb/><date when="1677-03-03">jour des Cendres</date> <persName>Marie</persName>, femme de <persName>Jean Gindro</persName>,
+						<lb/><term ref="lem019502.03">possedée</term> du <term ref="lem015433.06">malin</term>, le voullust mal traicter
+						<lb/>dans l’eglise et l’appelloit <term ref="lem014908.15">vauday</term>. En quoy
+						<lb/>soustient qu’elle luy faict grand tort, et
+							<lb/>qu’il n’a aucune cognoissance de ce <term ref="lem019494.01">crime</term> de
+						<lb/><term ref="lem018521.01">sorcellerie</term>, ny familiarité avec le <term ref="lem018943.02">demon</term>,
+						<lb/>et qu’on luy faict grand tort de le soupçonner
+						<lb/>de la <term ref="lem014885.03">vaudesi</term>.</p>
+						<pb n="453"/><p><lb/>En suitte luy ayant esté tous les articles de
+						<lb/>l’examen representés par monsieur le <term ref="lem018597.02">burgermeister</term>,
+						<lb/>il les a tous nié ou ignorés, ou dict ne
+						<lb/>s’en souvenir, sauf les suivantz qu’il a <choice><sic>expliqu</sic><corr>expliqués</corr></choice>
+						<lb/>à la forme suivante.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir pris du tabac avec <persName>Humbert
+						<lb/>Pochon</persName>, qu’il avoit achepté de <persName>Brenchaux</persName>
+						<lb/>de <placeName ref="loc007610">Payerne</placeName>, dans lequel y avoit de l’anis, et
+						<lb/>que ledit <persName>Pochon</persName> en ayant trop pris, notamment
+						<lb/>trois pippes, et le tout presque avallé, il le
+						<lb/>fallu regorger, et en fust incommodé, dequoy
+						<lb/>il l’avertissoit desja auparavant.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> avoir dict au <term ref="lem017410.02">mestral</term> qui la conduict icy
+						<lb/>qu’il avoit entendu dire au lieutenant <persName>Tissot</persName>,
+						<lb/>que le <term ref="lem017521">diable</term> ne surprenoit personne dans
+							<lb/>le vin, et qu’il ne marquoit les <term ref="lem019308.02">sorciers</term> que
+						<lb/>lors qu’ils estoyent à sens <term ref="lem017683">rassis</term>&#160;; qu’un certain
+						<lb/><persName>Jomigni</persName> executé à <placeName ref="loc007868.07">S<hi rend="sup">t</hi> Aubin</placeName> l’avoit ainsy declaré.</p>
+						<p><lb/>N’est <term ref="lem015549.03">confessant</term> d’avoir dict à <persName>Jacques Monney</persName>, lors
+							<lb/>qu’il tuoit ses <term ref="lem019234.02">couchons</term> ou <term ref="lem018945.02">mazelloit</term>, que sans
+						<lb/>les mauvaises gens, il auroit bien eu un beau
+						<lb/><term ref="lem018946.02">masel</term>, mais bien que si sa <subst><del>por</del><add place="inline"><term ref="lem015037.01">porche</term></add></subst>
+						<lb/>ne fust morte, il auroit faict un beau
+						<lb/><term ref="lem018946.02">masel</term>&#160;; et qu’il peut bien avoir adjousté despit
+						<lb/>des mechentes gens, sans le voulloir bien <term ref="lem015549.01">confesser</term>.</p>
+						<p><lb/>Avoit <term ref="lem015549.07">confessé</term> d’avoir entendu que le lieutenant
+							<lb/><persName>Monney</persName> avoit perdu un beau <term ref="lem018921.02">cheval</term> à <placeName ref="loc001060.04">Frybourg</placeName>,
+						<lb/>mais l’a retracté, disant n’en rien sçavoir et
+							<lb/>niant d’estre venu après sondit <term ref="lem018921.02">cheval</term>
+						<lb/>à <placeName ref="loc001060.04">Frybourg</placeName>.</p>
+						<p><lb/>Ne se veut souvenir d’avoir conseillé à <persName>Claudaz
+							<lb/>Pochon</persName>, qui avoit un <term ref="lem018921.02">cheval</term> malade, de le
+						<lb/>promener entre deux seigneuries&#160;; bien l’avoir enten<lb break="no"/>du dire de ses ancestres que ce secret estoit bon.</p>
+						<pb n="454"/><p><lb/><note>Au haut de la page est inscrite l’année 1677.</note>
+							Dict qu’il ne croist pas que le <term ref="lem017521">diable</term> puisse
+						<lb/>attacquer, ny rien faire à des gens de bien, que
+						<lb/>pour luy il n’en a jamais eu aucune attacque,
+						<lb/>ny aucune intelligence avec luy, ny
+						<lb/>aucune vision diabolicque.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> bien d’estre venu de nuict de <placeName ref="loc007649.05">Dompdidier</placeName>
+						<lb/>avec <persName>Louis Magnin</persName> et un tailleur françois,
+						<lb/>qui doibt avoir voullu espouser deux femmes,
+						<lb/>mais nie qu’un <term ref="lem018314">chien</term> se soit trouvé en leur
+						<lb/>chemin qui l’aye flatté. Ains qu’ayant eu
+						<lb/>quelques paroles avec ledit tailleur occasion
+						<lb/>desdites deux femmes, il les quitta et s’en alla
+						<lb/>droict en sa maison.</p>
+						<p><lb/>Tout le reste dudit examen l’a nié ou ignoré
+							<lb/>en trois <term ref="lem019550.03">elevations</term> à la simple <term ref="lem018231">corde</term>, deman<lb break="no"/>dant au surplus pardon à Dieu et à Leurs
+							<lb/><choice><abbr>Exlles</abbr><expan>Excellences</expan></choice>, et les priant de ne le <term ref="lem019427.01">torturer</term> davan<lb break="no"/>tage, puisqu’en après ne pourra gagner
+						<lb/>sa vie et de ses enfants en travaillant
+							<lb/>en son mestier de <term ref="lem018047.01">charron</term>, qu’il dict bien
+						<lb/>sçavoir, et se recommandoit.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

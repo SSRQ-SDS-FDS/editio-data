@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-130.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 440–442</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 440–442</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Mury-Favre – Verhör</head>
+					<head xml:lang="fr">Clauda Mury-Favre – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-06-27"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="440"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1647-06-27">27<hi rend="sup">ten</hi> <foreign xml:lang="la">junii</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Torny</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013439a.01">von Montenach</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Ce passage concerne un autre individu.</note></p>
+						<pb n="441"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <foreign xml:lang="la">eadem die</foreign>, <abbr>hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Torny</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName></seg>
+							<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per017746a.01">Clauda Fabvre</persName>, qui voulloit avant la <term ref="lem019428.01">torture</term> nyer et retracter
+							<lb/>tout ce qu’elle avoit <term ref="lem015549.07">confessé</term> cy devant, disant qu’elle s’estoit
+							<lb/>faicte tort, et pour avoir estee troublee d’esprit de ce qu’elle ne
+							<lb/>pouvoit manger, dit des choses non veritables et jamais adve<lb break="no"/>nues, mais estant exhortee a dire la verité, et pour ce faict
+							<lb/><term ref="lem019548.07">eslevee</term> une fois seulement avec la <term ref="lem018285">pierre</term> du <term ref="lem018232">quintal</term>, ast en<lb break="no"/>tierement confirmé sa precedente <term ref="lem019465.01">confession</term>, hormis qu’elle avoit
+							<lb/>faict tort a <persName ref="per017754a.01">Collard Cugniet</persName>, qu’elle avoit accusé a cause
+							<lb/>qu’icelluy la<del>y</del> nommoit souvent <term ref="lem019389.02">sorciere</term>, disant et souste<lb break="no"/>nant luy avoir faict mechament tort, ne sçachant que tout
+							<lb/>bien et honneur de luy.</seg> <seg>Plus, qu’elle n’estoit <term ref="lem019389.02">sorciere</term> que
+						<pb n="442"/><lb/>des <date dur-iso="P2Y">deux ans</date> en ça, s’estre oubliee d’avoir dit des <date dur-iso="P5Y">cincq ans</date>.</seg>
+							<seg><lb/>Plus, a dit outre precedente <term ref="lem019465.01">confession</term> qu’elle avoit estee encor
+							<lb/>une fois a la <term ref="lem017043">secte</term> vers la fontaine des <placeName ref="loc011701.07">Aschillettes</placeName>, ou <add place="above">ce</add> que son
+								<lb/><term ref="lem019555.05">maistre</term> <persName ref="per029425a.07">Grabied</persName> la porta, et y vist beaucoup des hommes et
+							<lb/>des femmes, mais comme estant tous masqués, n’en peut rien cog<lb break="no"/>noistre. Une autre fois, seulement avant <date dur-iso="P3W">trois septmaines</date>, par
+							<lb/>un mecredy, elle s’en alla aupres dedite fontaine, ou ce qu’elle
+							<lb/>trouva environ seize de ses complices, qui avoient desja faict
+							<lb/>un moyen morceau de <term ref="lem018102.02">gresle</term>, et le <term ref="lem015433.10">maling</term>, en figure d’un
+								<lb/><term ref="lem018923.01">boeuf</term>, lui <term ref="lem015635.11">bailla</term> une verge blanche, pour s’ayder a faire
+							<lb/>la <term ref="lem018102.02">gresle</term> avec les autres, et par ce moyen, en <subst><del>sur</del><add place="overwritten">pro</add></subst>vient une
+							<lb/><term ref="lem018102.02">gresle</term>, qu’elle conduisirent contre <placeName ref="loc008334">Orsonnens</placeName>, ou ce que les
+								<lb/>fruicts de terre feusrent <term ref="lem019484.03">tempestés</term>.</seg> <seg>Dit en outre que le <term ref="lem015433.10">maling</term>
+							<lb/>luy <term ref="lem015635.11">bailla</term> du <term ref="lem014886">pousset</term> et de la <term ref="lem018382">graisse</term> avec commandement qu’elle
+							<lb/>devoit faire mourir sa <term ref="lem017507.01">vache</term>, ce qu’elle ne voullut faire, ains
+							<lb/>noya ces drogues et les jetta dans un ruisseau, sans en rien
+							<lb/>employer, sinon une fois qu’elle sema du <term ref="lem014886">pousset</term> a l’entour de
+								<lb/>son fumier pour faire mourir ses <term ref="lem019301.04">poulles</term>, qui luy gastoient
+							<lb/>son jardin.</seg> <seg>Et lors qu’elle demanda au <term ref="lem015433.10">maling</term> lesquels estoient
+							<lb/>ses complices ainsy masquees, ne les luy voullut nommer, telle<lb break="no"/>ment qu’elle, ne les cognoissant, ne les sçauroit accuser de
+							<lb/>crainte de leur faire tort, soustenant en fin n’avoir <term ref="lem018556.03">maleficié</term>
+								<lb/>ny gens, ny bestail, car le <term ref="lem019375.02">pact</term> faict avec son <term ref="lem019555.05">maistre</term> portoit
+							<lb/>qu’il ne luy fairoit faire aucun mal et qu’il n’a que <date dur-iso="P2Y">deux ans</date>
+							<lb/>ceste esté qu’elle se rendit a luy soubz un cerisier dernier leur
+							<lb/>maison. Icelluy avoir esté habillé d’un pourpoint verd et <term ref="lem018526.02">haut
+							<lb/>de chausses</term> noirs, ayant des cornes sur la teste. <term ref="lem019498">Crie mercy</term>.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

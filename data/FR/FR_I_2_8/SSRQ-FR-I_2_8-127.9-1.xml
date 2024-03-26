@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-127.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 408–409</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 408–409</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jean Bondalla, Jacques Terreaux – Verhör</head>
+					<head xml:lang="fr">Jean Bondalla, Jacques Terreaux – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-02-05"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="408"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1647-02-05">5<hi rend="sup">ten</hi> <foreign xml:lang="la">februarii</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Tornier</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013438a.01">von Perroman</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006528a.03">Possardt</persName></seg>
+							<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380">Python</persName></seg>
+							<seg><lb/><persName ref="per013439a.01">Von Montenach</persName>, <persName ref="per013434a.01">Des Granges</persName></seg></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017140a">Jean Bondalla</persName> derechef <term ref="lem019509.02">visité</term> en presence de tous les
+							<lb/>messieurs du droict, aprés la relation du <term ref="lem018789.02">maistre</term> (qu’il luy
+							<lb/>a planté un’espingle dans la <term ref="lem018894.01">marque</term>, qui est au beau milieu des
+						<lb/>reins, sans aucunement l’appercevoir, mais bien a costé d’icelle),
+							<lb/>s’est trouvé estre <term ref="lem018895.02">marqué</term> de la <term ref="lem018894.02">marque diabolique</term>.</seg></p>
+						<p><lb/><placeName ref="loc007890.02">Jaquemard</placeName>, <foreign xml:lang="la">presentibus dominis ut supra, excepto</foreign>
+						<lb/><persName ref="per013434a.01">Des Granges</persName></p>
+					<p><seg><lb/><add place="left margin"><foreign xml:lang="la"><choice><abbr>ß</abbr><expan>Solvit</expan></choice></foreign>.</add></seg>
+						<seg><lb/><persName ref="per017137a.03">Jaques du Terraux</persName> de <placeName ref="loc007619.02">Chappelle</placeName>, ballifvage de <placeName ref="loc007882">Sur<lb break="no"/>pierre</placeName>, dit ne sçavoir la raison de son emprisonnement, et
+						<lb/>sur la demande faicte par messieurs du droict, a dit s’estre
+						<lb/><term ref="lem015549.07">confessé</term> a leur <choice><abbr>s<hi rend="sup">r</hi></abbr><expan>seigneur</expan></choice> curé aux <date when="1647-01-06">Rois dernier passés</date>.</seg> <seg>Enquis
+						<lb/>pourquoy il auroit ainsy poursuivy les <choice><abbr>debit<hi rend="sup">rs</hi></abbr><expan>debiteurs</expan></choice> par des
+						<lb/><term ref="lem019495.02">usures</term> et extorsions&#160;? Dit avoir vertiablement esté
+						<lb/>recepveur de <choice><abbr>mess<hi rend="sup">rs</hi></abbr><expan>messieurs</expan></choice> les <persName>Malliardoz</persName> et poursuivy en vertu
+						<lb/>de sa commission, ce qu<subst><del>’</del><add place="overwritten">e</add></subst> <subst><del>ils</del><add place="inline">leur</add></subst> estoit justement <add place="above" type="sign">dheu</add>, soit par
+						<lb/>voye amiable ou de rigeur, aussy paré des <term ref="lem017866.02">subastations</term>
+						<lb/>contre <persName>Michel Rosset</persName>, qui luy <term ref="lem015635.11">bailla</term> pour touttes pour<lb break="no"/>suittes une couppe de blé valliant pour lors <measure type="currency" quantity="5" unit="lb">5</measure> ou <measure type="currency" quantity="6" unit="lb">6 </measure>
+							<foreign xml:lang="la"><choice><abbr>pp</abbr><expan>parvi ponderis</expan></choice></foreign>,
+						<lb/>que personne pourra dire par verité qu’il ayt demandé
+						<lb/>plus que la loy porte, ny faict aucunes extorsions.</seg>
+						<seg><lb/>Demandé pourquoy <persName>Marguerithe Gillian</persName> et autres pos<lb break="no"/>sedés luy crient <term ref="lem019308.01">sorcier</term> et beaucoup d’autres semblables
+							<lb/>paroles aprés et pourquoy il s’est laissé nommer <term ref="lem019308.01">sorcier</term>
+						<lb/>par <persName>Jauqquy</persName>&#160;? Dit estre bien <add place="above" type="sign">vray</add> que ladite <persName>Marguerithe</persName>
+						<lb/>luy cria une fois des loing beaucoup de maulx et qu’il
+						<lb/>estoit un chastellain de <term ref="lem017521">diable</term>, mais en tant que pos<lb break="no"/>sedee il ne luy falloit donner foy, car elle en dit tout
+							<lb/>autant a ses enfants, et autres, leur disant <term ref="lem019308.02">sorciers</term> et
+						<lb/>mechantes gens. Quant a <persName>Jauqquy</persName>, dit avoir veritable<lb break="no"/>ment ehu dispute avec <add place="above">luy</add>, touchant le diexmes, dont il fust
+						<lb/>succumbant a l’accord faict par <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> le ballif, et a
+						<lb/>fallu payer <measure type="currency" quantity="20" unit="bz">20 bz</measure>, ce que denotte bien que <persName>Jauqquy</persName> avoit
+						<lb/>tort, mais nonobstant ceste conteste, dit et soustient
+							<pb n="409"/><lb/>que <persName>Jauqquy</persName>, ny d’autres, ne luy <add place="above" type="sign">ont</add> jamais dit <term ref="lem019308.01">sorcier</term>, car
+						<lb/>si ainsy estoit, il les eusse dehuement actionné par voye
+						<lb/>accostumee de droict pour s’y purger et justifier, et avoir
+						<lb/>reparation de son honneur. Ne se peut bonnement souvernir
+						<lb/>s’il a presenté et donné a boire a <persName>Jaques Chappuis</persName> et si
+						<lb/>bien ainsy seroit, ne l’avoir portant faict en mauvaise in<lb break="no"/>tention, ny occasioné aucun mal, que Dieu l’en preserve,
+							<lb/>disant avec grande resolution qu’il n’estoit point <term ref="lem019308.01">sorcier</term>,
+						<lb/>pour ce faire, n’avoir, grace a Dieu, jamais veu le <term ref="lem015433.10">maling</term>,
+							<lb/>ny faict complot ave<subst><del>l</del><add place="overwritten">c</add></subst> luy, n’estre point <term ref="lem018895.02">marqué</term>, et s’il y
+						<lb/>auroit contre toutte esperance quelqu’un qui vueille
+							<lb/>dire qu’il soit <term ref="lem019308.01">sorcier</term>, et qu’il ayt veu a la <term ref="lem017043">secte</term>, ou com<lb break="no"/>mettre acte de <term ref="lem018521.01">sorcellerie</term>, prie qu’on le luy mene par de<lb break="no"/>vant, affin de faire parroistre le contraire, disant qu’on
+						<lb/>ne le doit regarder pour tel, car il faict profession d’estre
+						<lb/>homme d’honneur, aussy bien que d’autres. <term ref="lem019498">Crie mercy</term>,
+						<lb/>esperant que messeigneurs le maintiendront a son bon
+						<lb/>droict.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

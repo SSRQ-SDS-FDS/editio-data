@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-163.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 347–348</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 347–348</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Favre-Piccand – Verhör</head>
+					<head xml:lang="fr">Marguerite Favre-Piccand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1652-08-28"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="347"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1652-08-28">28<hi rend="sup">ten</hi> augsten 1652</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per018672a">Johannes Castella</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per011563a.02">Meyer</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per013978a.01">Kämerling</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018095a.02">Wildt</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018131a.01">Werli</persName>, juncker <persName ref="per018134a.01">von Affry</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018126a.01">Perret</persName></seg></p>
+						<p><seg><lb/><persName ref="per020614a.01">Marguerite Piccand</persName> du balifvage de <placeName ref="loc012284.04">Farvagni</placeName> soubsonnée
+							<lb/>d<subst><del>u</del><add place="overwritten">e</add></subst> <term ref="lem018524.02">sortilege</term> par messieurs du droict, sur <term ref="lem018363">inquisition</term> <add place="bottom" type="catchword">prinse</add>
+							<pb n="348"/><lb/><choice><sic>prinse</sic><corr></corr></choice> serieusement examinée, <add place="interlinear">faict negative</add> sur<note>L’ordre des mots est ici indiqué par un chiffre suscrit&#160;: 1 au-dessus de «&#160;faict&#160;»,
+							2 au-dessus de «&#160;negative&#160;», 3 au-dessus de «&#160;sur&#160;».</note> tous les poinctz
+							<lb/>contenu en icelle <del>faict negative</del><note>Ces mots ne sont pas biffés dans le texte, mais selon les informations inscrites par le greffier, il convient de les déplacer pour lire le passage dans le
+							bon ordre. Voir note précédente.</note>, hors qu’elle <term ref="lem015549.13">confesse</term>
+							<lb/>que certaine <persName>Cateline Gobet</persName>, alias dite <persName>du Praz</persName>, la
+							<lb/>quelle de long tempz luy porte d’envie rancune
+							<lb/>au soubject du mary qu’elle a presentement,
+							<lb/>le quel elle eut heu volontier, de faict qu’elle
+							<lb/>volut disuader son pere <subst><del>de</del><add place="overwritten">à</add></subst> ne permettre qu’elle
+							<lb/>fiançasse et espousasse, ce qu’aussi fust arrivé
+							<lb/>si son pere ne feust <add place="above">esté</add> informé de son bon mesnage
+							<lb/>et conversation, la quelle dempuis qu’elle a esté
+							<lb/>mariée n’a obmis de la hayr et agasser.</seg> <seg><subst><del>elle</del>
+							<lb/><add place="interlinear">De faict</add></subst> que comme un jour <del>qu’</del> elle la tansat sor<lb break="no"/>ciere sans qu’elle peut avoier tesmoins, <add place="above">mais</add> elle luy
+							<lb/>respartit, et son mary aussi par après, qu’elle deb<lb break="no"/>voit presentz des tesmoings proferer tels pro<lb break="no"/>pos. Et <del>que</del> ne le fessant, qu’il la tennoint et
+							<lb/>disoint telle. Pour quels propos finalement à ce
+							<lb/><choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> jubilé passé, il se demandarent les uns
+								<lb/>aux aultres après la <term ref="lem019465.01">confession</term> faicte, pardon,
+							<lb/>ne laissant pourtant par après de luy conti<lb break="no"/>nuer sa mauvaise volonté.</seg> <seg>Au reste ne veut
+								<lb/>estre culpable du <term ref="lem019494.01">crime</term> de <term ref="lem018521">sorcellerie</term>, de quoy
+							<lb/>n’en avoier onques heu aulcune tentation, demandant
+							<lb/>la desus à Dieu et à <choice><abbr>messeig<hi rend="sup">rs</hi></abbr><expan>messeigneurs</expan></choice> humblement pardon.</seg></p>
+						</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-106-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/3, S. 308 (Eintrag 1)</idno></msIdentifier><head>Verpachtung des Rathauses in Winterthur an Peter Siber</head><msContents><summary>Schultheiss und Rat von Winterthur verpachten Peter Siber das Rathaus für 4 Gulden bis zum 25. Juli zu folgenden Konditionen: Er soll die Stube im Winter heizen und die im Kaufhaus abgehaltenen Märkte betreuen. Für das Abmessen des Getreides erhält er einen festgelegten Lohn. Beim Abmessen darf er niemanden bevorzugen oder benachteiligen. Er soll die ihm gestellten Hohlmasse und Gefässe pflegen. Er ist verpflichtet, besondere Vorkommnisse dem Schultheissen zu melden und alles, was er im Rahmen von Ratssitzungen hört, zu verschweigen. Er ist wie andere Bürger steuerpflichtig.</summary><msItem><textLang xml:lang="de"/><author role="scribe"><persName ref="per027325">Georg Bappus</persName></author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="34.0"/><width unit="cm" quantity="23.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate when="1476-09-30"/></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000065">Amtleute</term><term ref="key000350">Getreide</term><term ref="key000793">Markt</term><term ref="key000252">Mass und Gewicht</term><term ref="key000739">Pacht</term><term ref="key000577">Rathaus</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb n="308" facs="STAW_B_2_3_S.308"/>
+                        <div>
+                            <ab type="marginal note" place="left margin"><persName ref="per027612">Peter Siber</persName></ab>
+                        </div>
+                        <p>
+                            <seg><lb/>Min herren haben <persName ref="per027612">Peter Siber</persName> das <placeName ref="loc013181">rǎuthus</placeName> gelihen biß <date type="deadline" when="--07-25">sant
+                                <lb/><persName ref="per000208">Jacobs</persName> tag</date> um <measure type="currency" unit="fl" quantity="4">iiij gulden</measure>. Und sol das hus behalten und
+                                <lb/>stuben wermen zuͦ <date period="winter">winterzitten</date> und des hus warten zuͦ
+                                <lb/>allen mērckten. Und von <measure type="volume" unit="Viertel" quantity="1" commodity="spelt">eym viertel kernen</measure> zemessen, was er
+                                <lb/><unclear>mist</unclear>, <measure type="currency" unit="h" quantity="1">j ħ</measure> und <unclear>vo<subst><del>n</del><add place="overwritten">m</add></subst></unclear> korn viertel von <measure type="volume" unit="Mütt" quantity="1">j mu̍t</measure>
+                                <measure type="currency" unit="Angster" quantity="1">j angster</measure>
+                                <lb/>oder von <measure type="volume" unit="Mütt" quantity="0.5">ɉ mu̍tt</measure>
+                                <measure type="currency" unit="h" quantity="1">j haller</measure>
+                                <add place="above">nemen</add>.<note>Vermutlich ist diese Angabe so zu verstehen, dass für 0.25 bis 0.5 Mütt Getreide, das <persName ref="per027612">Siber</persName> selbst abmisst, eine Gebühr von 1 Haller anfällt und für 1 Mütt Getreide 1 Angster.</note> Und wo hufen korn zemessen
+                                <lb/>sind, sol er messen oder im heissen den lǒn davon geben, ob einer
+                                <lb/>das selbs hinder im maͤsse, <add place="left margin" type="sign">ungevarlich</add>. Und sol <persName ref="per027612">Peter Siber</persName> die meß,
+                                <lb/>die man im gipt, des glichen zu̍ber und anders in eren halten.
+                                <lb/>Und was ze melden sig koͧffen ald ander dingen halb, sol er eym
+                                <lb/>schultheissen sagen. Und ob er icht von eym <orgName ref="org005587">rǎut</orgName> in rǎt<lb break="no"/>wiß horti, das zeverswigen. Und die meß ufrecht ze
+                                <lb/>fu̍ren, nieman ze lieb noch ze leid noch durch keiner andrer
+                                <lb/>sachen willen. Und sol sich mit stu̍ren verdienen als ein
+                                <lb/>ander burger.</seg>
+                            <seg>Actum an <origDate when="1476-09-30">mēntag post <persName ref="per000390">Michaheli</persName>, anno <abbr>etc</abbr>
+                                <lb/>lxxvj<hi rend="sup">o</hi></origDate>.</seg>
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Getreide musste zum Verkauf in das <placeName ref="loc000849">Winterthurer</placeName> <placeName ref="loc013181">Rathaus</placeName> geliefert werden, dessen untere Etage als Kaufhaus genutzt wurde, vgl. <bibl><ref target="http://permalink.snl.ch/bib/chbsg000137768">KdS ZH VI</ref>, S. 75</bibl>. Der Zwischenhandel war untersagt (<bibl>STAW B 2/3, S. 322</bibl>; <bibl>STAW B 2/5, S. 426</bibl>; Edition: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135615">QZWG</ref>, Bd. 2, Nr. 1485</bibl>). Der Verkauf fand unter Aufsicht eines vereidigten Kornmessers statt, der die Qualität der Ware prüfte und für das korrekte Abmessen des Getreides zuständig war (<bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-191-1">SSRQ ZH NF I/2/1 191-1</ref></bibl>). 1485 verpflichteten <orgName ref="org007943">Schultheiss und Rat</orgName> namentlich die Müller und Bäcker, Getreide nur im Kaufhaus zu handeln, wobei der Verkauf kleinerer Mengen unter 5 respektive 3 Mütt in den Häusern der Bürger toleriert wurde (<bibl>STAW B 2/5, S. 143</bibl>; Edition: <bibl><ref target="http://permalink.snl.ch/bib/chbsg000135615">QZWG</ref>, Bd. 2, Nr. 1420</bibl>). 1524 wurde der Verkauf von Getreide ausserhalb des Kaufhauses weiter eingeschränkt (<bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-234-1">SSRQ ZH NF I/2/1 234-1</ref></bibl>). Gegenüber den <orgName ref="org002406">Zürchern</orgName> rechtfertigten die <orgName ref="org007943">Winterthurer</orgName> das Verbot des Getreidehandels in den Mühlen als Massnahme, einer Verknappung des Angebots vorzubeugen (<bibl>STAW B 4/2, fol. 93r</bibl>).</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

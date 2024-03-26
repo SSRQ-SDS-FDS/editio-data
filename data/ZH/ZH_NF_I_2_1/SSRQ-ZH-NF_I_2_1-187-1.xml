@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI  xmlns="http://www.tei-c.org/ns/1.0" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI"  xml:lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>I. Abteilung: Die Rechtsquellen des Kantons Zürich, Neue Folge, Erster Teil: Die Stadtrechte von Zürich und Winterthur, Zweite Reihe: Die Rechtsquellen der Stadt Winterthur, Band 1: Die Rechtsquellen der Stadt Winterthur I</title><editor>
+    <persName>Bettina Fürderer</persName>
+</editor>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="transcript"/>
+                </respStmt>
+                <respStmt>
+                    <persName>Bettina Fürderer</persName>
+                    <resp key="tagging"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+                <date type="electronic" when="2022-06-28"/>
+                <date type="print" when="2022-06-28"/>
+                <availability><p xml:id="facs">Stadtarchiv Winterthur (STAW)</p>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+            <seriesStmt xml:id="ssrq-sds-fds">
+                <title>Sammlung Schweizerischer Rechtsquellen</title>
+                <respStmt>
+                    <orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+                    <resp>Herausgeberschaft</resp>
+                </respStmt>
+                <idno>SSRQ-ZH-NF_I_2_1-187-1</idno>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc><msIdentifier><repository xml:lang="de">Stadtarchiv Winterthur</repository><idno xml:lang="de">STAW B 2/2, fol. 60r (Eintrag 1)</idno></msIdentifier><head>Eid des Siechenpflegers im Unteren Spital in Winterthur</head><msContents><summary>Der Siechenpfleger im Unteren Spital der Stadt Winterthur soll schwören, den Besitz der Insassen bestmöglich zu verwalten, ihnen bei Bedarf etwas auszuteilen und auf diese Weise ihren Nutzen zu fördern und Schaden abzuwenden.</summary><msItem><textLang xml:lang="de"/><author role="scribe"><persName ref="per027307">Konrad Landenberg</persName></author><filiation type="current">Eintrag</filiation></msItem></msContents><physDesc><objectDesc><supportDesc><support><material>Papier</material></support><extent><dimensions type="leaves"><height unit="cm" quantity="32.0"/><width unit="cm" quantity="24.0"/></dimensions></extent></supportDesc></objectDesc></physDesc><history><origin><origDate from="1500-01-01" to="1500-12-31">Undatiert, der Eintrag vor den Eidformeln datiert von 1501 (STAW B 2/2, fol. 56v).</origDate></origin></history></msDesc></sourceDesc>
+        </fileDesc>
+        <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+        <profileDesc><textClass default="false"><keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie"><term ref="key000207">Amtsführung</term><term ref="key000179">Eid</term><term ref="key003559">Spital</term></keywords></textClass></profileDesc></teiHeader>
+    <text>
+        <group>
+            <text>
+                <body>
+                    <div>
+                        <pb type="original" n="60r" facs="STAW_B_2_2_60_r"/><head><lb/><app><lem>Siechenpflegers im <orgName ref="org007937">under spital</orgName> eide</lem><rdg wit="winbib Ms. Fol. 241, fol. 3v; STAW B 3a/10, S. 8">Siechenpflegers im <orgName ref="org007937">underen spitall</orgName> und der <orgName ref="org007453">armen kinden am veld</orgName> pflegers eid</rdg></app></head>
+                        <p>
+                            <lb/><app><lem>Item der selbe pflēger sol</lem><rdg wit="winbib Ms. Fol. 241, fol. 3v; ; STAW B 3a/10, S. 8">Dieselben zwen pflëger söllen</rdg></app> schwēren, der selben armen<lb break="no"/>kinder guͦte, das inen zuͦ gehoͤrt, zum besten zuͦ versaͤhen
+                            <lb/>unnd inen das zuͦ iren noturft getru̍wlich <app><lem>mitteiln</lem><rdg wit="winbib Ms. Fol. 241, fol. 4r; STAW B 3a/10, S. 8">mitzetheillen</rdg></app>
+                            <lb/>unnd damit in allwēg iren nutz fu̍rdern unnd schaden
+                            <lb/>wenden, getru̍wlich, ōn geverde.
+                        </p>
+                    </div>
+                </body>
+                <back>
+                    <div>
+                        <p>Im <placeName ref="loc000849">Winterthurer</placeName> Ämterverzeichnis des Jahres 1408 wird erstmals <orig>der siechen im spital pfleger</orig> aufgeführt (<bibl>STAW B 2/1, fol. 24r</bibl>). Der Pfleger des <orgName ref="org007937">Unteren Spitals</orgName> war ein Mitglied des <orgName ref="org005587">Kleinen Rats</orgName>, er verwaltete die Einkünfte der Einrichtung und teilte die Almosen an die Insassen und Gäste aus (<bibl>winbib Ms. Fol. 264, S. 148</bibl>). Das <orgName ref="org007937">Untere Spital</orgName>, in welchem neben mittellosen Pflegebedürftigen auch delinquente Personen untergebracht waren, ging vermutlich als eigenständige Abteilung aus dem <orgName ref="org007851">(Oberen) Spital</orgName> hervor, vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-124-1">SSRQ ZH NF I/2/1 124-1</ref></bibl>. Mit der Leitung des <orgName ref="org007851">Oberen Spitals</orgName> waren ebenfalls zwei Mitglieder des <orgName ref="org005587">Kleinen Rats</orgName> beauftragt (Eidformel: <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-183-1">SSRQ ZH NF I/2/1 183-1</ref></bibl>).</p>
+                        <p>Pflegebedürftige Personen mit ansteckenden Krankheiten wurden im <orgName ref="org007453">Siechenhaus</orgName> vor den Toren der Stadt versorgt, vgl. <bibl><ref target="urn:ssrq:SSRQ-ZH-NF_I_2_1-6-1">SSRQ ZH NF I/2/1 6-1</ref></bibl>.</p>
+                    </div>
+                </back>
+            </text>
+        </group>
+    </text>
+</TEI>

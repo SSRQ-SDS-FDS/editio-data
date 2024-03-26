@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-199.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 432–433</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 432–433</idno>
+					</msIdentifier>
+					<head xml:lang="de">Marguerite Bollot – Verhör</head>
+					<head xml:lang="fr">Marguerite Bollot – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1676-12-07"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="432"/><p><lb/>Den <origDate when="1676-12-07">7<hi rend="sup">ten</hi> <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> 1676</origDate>
+							<seg><lb/><hi rend="outdent">Uff</hi> dem <placeName ref="loc009227.02">rathhuß</placeName>, <foreign xml:lang="la">judex</foreign> herr großweibel <persName ref="per026528a.01">Reynold</persName></seg>
+							<seg><lb/>Herr <term ref="lem018597.02">burgermeister</term> <persName ref="per026529a.01">Python</persName>, <abbr>h</abbr> <persName ref="per026616a.01"><choice><abbr>F P</abbr><expan>Frantz Peter</expan></choice> Gottraw</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per026550a.02">Peter Gottraw</persName>, <abbr>h</abbr> <persName ref="per026120a.05">Johan Rami</persName>, <abbr>h</abbr> <persName ref="per026531a.03">Jacob Fillistorff</persName></seg>
+							<seg><lb/>Burger <abbr>h</abbr> <persName ref="per026541a.04">Rudolph Kesler</persName></seg>
+							<seg><lb/><persName ref="per026620a.01">Meyer</persName></seg></p>
+						<p><lb/><persName ref="per022419a">Marguerite, femme de <persName ref="per022418a">Claude Bollot</persName>, dicte la Dametta</persName>,
+						<lb/>de <placeName ref="loc007648">Dompierre</placeName>, examinée en suitte de la sentence d’aujour<lb break="no"/>d’huy sur les examens et <term ref="lem018363.02">inquisitions</term> prises et à
+						<lb/>elle distinctement representées.</p>
+						<p><lb/>Et premierement si elle sçavoit le subject de sa detention,
+						<lb/>a dict ne rien sçavoir, sinon que les fausses langues l’ont
+						<lb/>rendue suspecte de <term ref="lem018521.01">sorcellerie</term>, à quoy ont aussy con<lb break="no"/>tribué quelques personnes <term ref="lem018556.06">maleficiées</term>, qui luy disoyent
+						<lb/>qu’elle avoit delaissé Dieu, mesme quelques unes
+						<lb/>qui l’ont battue, notammant un nommé <persName>Claude</persName>
+						<lb/>au <term ref="lem015166.01">favre</term>, qu’est fils de <persName>Pierre Pochon</persName>, lequel
+						<lb/>doibt estre <term ref="lem018556.03">maleficié</term>.</p>
+						<p><lb/>Interrogée sur ce qu’elle alloit ça et la, <add place="above" type="sign">dans la nuict</add>, et en revenoit
+						<lb/>toute descoiffée et eschevelée, a respondu n’avoir esté
+						<lb/>de <time period="byNight">nuict</time> que chez certain nommé <persName>Quiot</persName>, et qu’elle
+						<lb/>n’a point esté decoiffée et eschevelée que quand sa
+						<lb/>soeur <persName>Marie</persName> la battoit. De mesme, pour les cris,
+						<lb/>dict n’avoir jamais crié la nuict que quand sadite soeur,
+						<lb/>qui est fort cholericque, la battoit.</p>
+						<p><lb/>Nie toutes rancunes et vengeances, sinon quelques fois
+						<lb/>qu’elle avoit des grandes coleres contre ceux que la
+							<lb/>rendoyent suspecte de <term ref="lem019494.01">crime</term> de <term ref="lem018521.01">sorcellerie</term>.</p>
+						<p><lb/>Nie d’avoir dict que Dieu luy faisoit tort de luy
+						<lb/>ravir ses enfantz, mais qu’elle en estoit bien affligée,
+						<lb/>jusques à ce qu’un devin, qui luy dict sa bonne fortune
+						<lb/>comme à d’autres, luy dict qu’elle en auroit encor assés
+						<lb/>d’autres.</p>
+						<pb n="433"/><p><lb/>Interrogée pourquoy ne tiroit raison de ceux qui l’appel<lb break="no"/>loyent <term ref="lem019389.02">sorciere</term>, dict l’avoir faict par accord avec
+						<lb/>certaine femme d’<persName>Antoine Bolot</persName>, qui le luy avoit
+						<lb/>dict en colere. Et qu’elle leur retorquoit tousjours
+						<lb/>qu’ils estoyent aussy <term ref="lem014908.14">vaudaise</term> qu’elle.</p>
+						<p><lb/>A <term ref="lem015549.07">confessé</term> d’avoir donné sur l’espaule à <persName>Marie Musy</persName>,
+						<lb/>auprès d’un ruisseau, allant à <placeName ref="loc007603.04">Avenche</placeName>, luy demandant
+						<lb/>un <term ref="lem018901.01">salagnon</term> de sel, et que quelques temps après ladite
+						<lb/><persName>Marie</persName> la battit sur la teste, mais nie luy avoir
+						<lb/>donné, ny osté le mal. Et que ledit mal estoit
+						<lb/>survenu à ladite <persName>Marie Musy</persName> par une cheute qu’elle
+						<lb/>avoit faicte d’un <term ref="lem017988.04">bliessonney</term>
+							<subst><del><unclear>un</unclear></del><add place="overwritten"><unclear>ou</unclear></add></subst> <term ref="lem018899.02">bocheronney</term>.</p>
+						<p><lb/>Ayant au surplus nié toutes les autres declarations con<lb break="no"/>tenues dans les examens et <term ref="lem018363.02">inquisitions</term>.</p>
+						<p><lb/>Finallement estant serieusement exhortée de declarer la verité
+						<lb/>sans attendre la <term ref="lem018792.01">question</term>, et de considerer que tant de
+						<lb/>personnes d’honneur qui ont deposé contre elle ne
+						<lb/>l’ont faict sans subject, et des grandes raisons et
+						<lb/>indices, elle a declaré que comme sa mere grand
+						<lb/>avoit esté executée en ceste ville sur faict de <term ref="lem018521.01">sorcellerie</term>,
+						<lb/>et qu’elle a esté receue au monde par <persName>la Jacquiere</persName>,
+						<lb/>aussy executée sur mesme faict, elle craint
+						<lb/>qu’elle ne soit mal <term ref="lem019543.10">baptisee</term> et peut estre au nom
+						<lb/>de <persName ref="per011219a.05">Sathan</persName>. Et que c’est cela qui luy cause un
+						<lb/>mauvais bruit parmy le monde, asserant n’avoir
+						<lb/>pourtant jamais eu aucunes tentations, ny visions
+						<lb/>diabolicques, <term ref="lem015549.03">confessant</term> simplement des grandes coleres,
+						<lb/>particulierement contre sa soeur <persName>Marie</persName>, et des grandes
+						<lb/>jurements dans lesdites coleres. Et qu’une <term ref="lem019538.02">huguenotte</term>
+						<lb/>luy a dict que son pere l’avoit <add place="above" type="sign">donné</add> au <term ref="lem017521">diable</term>, se
+						<lb/>recommandant au sur plus tres humblement à la <term ref="lem019497.02">misericorde</term>
+						<lb/>de Leurs <choice><abbr>Exclles</abbr><expan>Excellences</expan></choice>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

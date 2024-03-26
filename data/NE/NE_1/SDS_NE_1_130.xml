@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-130-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN-4a, fol. 80v</idno>
+               </msIdentifier>
+               <head>Décrétale des Audiences générales sur le temps que chaque juge doit consacrer
+                  effectivement aux séances</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="32.5"/>
+                              <width unit="cm" quantity="43"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1618-02-04"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_303">SDS NE 1, N<hi rend="sup">o</hi>&#160;130</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000341"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="80v" facs="AEN_EN_4a_80v_81r"/>
+               <div>
+                  <p>
+                     <lb/>L’ordonnance des audiances de l’an <add place="above">1553 et de
+                        l’an</add> 1559 pour les<lb/>heures que l’on se doibt assembler a estée
+                     reconfirmée, assavoir<lb/>que celuy des assistantz de la <choice>
+                        <abbr>pnte</abbr>
+                        <expan>presente</expan>
+                     </choice> assize et audiance, qui ne se<lb/>trouvera assis <choice>
+                        <abbr>pressisem<hi rend="sup">t</hi></abbr>
+                        <expan>pressisement</expan>
+                     </choice> a huict heures du matin, pour tenir<lb/>jusques à onze heures devant
+                     midy, et qui ne se trouvera assis<lb/>entre une et deux heures après midy <choice>
+                        <abbr>por</abbr>
+                        <expan>pour</expan>
+                     </choice> tenir jusques à quatre <lb/>payera un pot de bon hyppocras qui sera a
+                     la recouvre et poursuitte<lb/>du <choice>
+                        <abbr>s<hi rend="sup">r</hi></abbr>
+                        <expan>sieur</expan>
+                     </choice> chastelain de Bouldry.</p>
+               </div>
+            </body>
+            <back><div>
+               <p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>AEN, Registre des «&#160;Audiences générales&#160;», fol.&#160;80v.</p>
+            </div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

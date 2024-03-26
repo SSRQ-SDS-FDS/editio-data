@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"   xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-158.3-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 176v–177r</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 176v–177r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Claude Bernard  – Anweisung</head>
+					<head xml:lang="fr">Claude Bernard  – Instruction</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"/>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-08-30">30 <foreign xml:lang="la"><choice><abbr>aug</abbr><expan>augusti</expan></choice></foreign> [1651]</origDate>						</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="176v"/><p><lb/>Gefangene</p>
+						<p><gap reason="irrelevant"/><note>Dieser Abschnitt betrifft <persName ref="per018054">Anni Waeber-Schueller</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-157.3-1">SSRQ FR I/2/8 157.3-1</ref>.</note></p>
+						<p><lb/><persName ref="per020582a">Claude Bernard</persName>, jeusne garçon natif de la coste, dite <placeName ref="loc011646.02">La Petite
+						<lb/>Coste</placeName>, pas loing de <placeName ref="loc011644.01"><add place="above">La</add> Cluse</placeName>, terre de <placeName ref="loc000281.08">France</placeName>, qui franchement a
+							<lb/><term ref="lem015549.07">confessé</term> d’avoir <term ref="lem019541.17">renyé</term> Dieu <persName ref="per000353a.20">Jesus Christ</persName>, Seigneur des chrestiens
+							<lb/><term ref="lem019533.02">catholiques</term>, et s’estre rendu au <term ref="lem015433.10">maling</term>, qui luy comparrust vers <placeName ref="loc011647.02">St
+							<lb/>Emphorin</placeName>, terre de <placeName ref="loc007896.03">Gaix</placeName><note>Cette mention est curieuse, compte tenu du fait que la provenance lémanique semble la bonne. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-158.2-1">SSRQ FR I/2/8 158.2-1</ref>.</note>, et luy <term ref="lem015635.11">bailla</term> de la <term ref="lem018382">graisse</term> dans une
+							<lb/><term ref="lem014919.05">boete</term>, avec la quelle il a <term ref="lem018556.03">maleficié</term> gens et bestes, mais
+							<lb/>singulierement des <term ref="lem019301.04">poulles</term> ou <term ref="lem014874.10">gelines</term>, ça et là&#160;; et beaucoup
+						<pb n="177r"/><lb/>de <subst><del>s</del><add place="overwritten">f</add></subst>ois comparru à la <term ref="lem017043">secte</term>, entre autre aux <placeName ref="loc011651.02">Rames</placeName>, bord de la <placeName ref="loc007746.02">Sarine</placeName> fluant
+						<lb/>par ceste ville, ou il vist <subst><del>l'</del><add place="inline">environ</add></subst> 12 personnes avec des chappeaux
+						<lb/>semblables à ceux que les paisans de ceste contrée portent. <seg>Diser knab
+							<lb/>ist ohngefahrlich <measure type="age" quantity="12" unit="year">12 jhärig</measure> unnd in anzeigung seiner bößwicht<note>Hier wohl im Sinne von Boshaftigkeit gemeint, vgl. <term ref="lem018664.01">böswichtig</term>.</note> hatt er gelachen.
+							<lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note> soll sich durch syne undergebne weybell gründtlich erkundigen, ob
+							<lb/>die bekante sachen in den härumb gelegnen dörfferen bekanter massen für<lb break="no"/>gangen syen. <foreign xml:lang="la">Ad referendum</foreign>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

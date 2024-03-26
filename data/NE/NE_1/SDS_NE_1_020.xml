@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-20-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives du Locle</repository>
+                  <idno xml:lang="fr">Archives du Locle, A 7</idno>
+               </msIdentifier>
+               <head>Franchises sur le modèle de celles de la Sagne concédées à des
+                  habitants du Locle par Mahaut, dame de Valangin</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="28.5"/>
+                              <width unit="cm" quantity="11.5"/>
+                           </dimensions>
+                              <dimensions type="plica">
+                                 <width unit="cm" quantity="2.5"/>
+                              </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" nontei:attachment="sealed on a parchment tag" nontei:condition="fragmentary" nontei:material="wax"><persName role="sigillant">Mahaut de Neuchâtel</persName></seal>
+                     <seal n="2" xmlns:nontei="http://ssrq-sds-fds.ch/ns/nonTEI" nontei:attachment="sealed on a parchment tag" nontei:condition="fragmentary" nontei:material="wax"><persName role="sigillant">Guillaume de Neuchâtel</persName></seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1393-09-27"/>
+                     <origPlace ref="loc005950">Valangin</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_70">SDS NE 1, N<hi rend="sup">o</hi>&#160;20</ref></bibl><!-- Bibliographie -->
+                     <bibl>Recueil historique, p. 13–14</bibl>
+                     <bibl>Matile, Monuments, III, N<hi rend="sup">o</hi>&#160;790, p.&#160;1122–1123</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005297"></term>
+               <term ref="key000468"></term>                        
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="LOCLE_A7_r"/>
+               <div>
+                  <p>
+                     <lb/>Nous, <persName>Mahal de Nuefchestel</persName>, contesse et dame de
+                        <placeName ref="loc005950.07">Vallengin</placeName> et <persName>Guillame
+                        d’Erberg</persName>, <term>escuier</term>, filz jaidiz de noble et puissant
+                     seignour, monsseignour <persName>Jeham d’Erberg</persName>, jaidiz
+                     seignour<lb/>de <placeName>Valengin</placeName> et de ma dite dame dessusdite,
+                     faiçons savoir a tout ceulx quil verront et <term>ouront</term> ces presentes
+                     lettres que en nostre presence personalment establiz et<lb/><term>ad</term> ce
+                     especialment venant <persName>Perrod Sandol</persName>, filz
+                        <persName>Tabrisset</persName>, <persName>Besencenet</persName> le
+                        <term>cler</term>, <persName>Stephe</persName> et
+                        <persName>Montandom</persName>, ensamble <term>plussours</term> autres
+                        <term>prodomes</term> habitant en nostre ville<lb/>de
+                        <placeName>Locle</placeName>, nos hommes justisables, en nom et pour tout
+                     les habitant doudit lieu, nous requerant et <term>humillemant</term> suppliant
+                     que a iceulx pour lour<lb/>et lour <term>hers</term> et tout les habitant
+                     doudit lieu nous vuillessiens donner, outroier et concedir libertés et
+                     franchises telles et semblables come<lb/>paroillemant il et lour predecessours
+                     quil premierement <term>fondirent</term> le lieu havoient accoustumez user ou
+                     temps passé, disant et asserant que de nous ne<lb/>de nos predecessours
+                     seignours de <placeName>Valengim</placeName> il n’am n’avoient nulles lettres
+                     de franchises, pour ce est y que nous considerant la supplication d’iceulx
+                     <lb/>nos justisables estre <term>consonant</term> a raison, a iceulx, pour lour
+                     et lour <term>hers</term> et tout les habitant doudit lieu pour le temps
+                     avenir, par ces presentes<lb/>outroions, <term>baillons</term>, donnons et
+                     concedons, pour nous et nos <term>hers</term> seignours de
+                        <placeName>Valengin</placeName>, telles paroilles franchises et libertés
+                     comme ont ceulx<lb/>de nostre ville de <placeName>la Saigne </placeName>et
+                     comme paroillement il ont usez depuix que li lieu fust premièrement fondez
+                     secon les bons us et ancienes coustumes<lb/>dou lieu. Et promettons par nos
+                     seremant pour ce donnés et sur la obligation de nos biens, a iceulx nos
+                     justisables et a lour <term>hers</term>, habitant ou<lb/>dit lieu de
+                        <placeName>Locle</placeName> icestes franchises maintenir et non venir a
+                     contraire acunemant a temps a venir. En tesmonage de la quelle chouse,
+                        nous<lb/><persName>Maha</persName> et <persName>Guillame</persName> dessus
+                     nommez, nos <term>seels</term> desquels nous usons en tel cas, havons fait
+                     mettre en ces presentes, faictes et donnees en nostre <term>chestel</term> de
+                     <placeName ref="loc005950">Valengim</placeName>, <lb/>le <origDate when="1393-09-27">sambadi
+                        avant la saint Michiel, l'am mil ccc iiii<hi rend="sup">xx</hi> et
+                        trezes</origDate>.</p>
+               </div>
+               <pb n="v" facs="LOCLE_A7_v"/>
+            </body>
+            <back><div><p>Références originales de l'édition Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin, autrefois muni de deux sceaux pendants sur double queue,
+                        <hi rend="italic">Archives du Locle</hi>, A&#160;N<hi rend="sup"
+                     >o</hi>&#160;7.</p>
+               <p><hi rend="italic">Éd.&#160;Recueil historique... des franchises</hi>,
+                     p.&#160;13-14.</p><p><hi rend="italic">Éd.&#160;</hi>Matile, <hi rend="italic">Monuments</hi>, III, N<hi rend="sup"
+                        >o</hi>&#160;790, p.&#160;1122-1123.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

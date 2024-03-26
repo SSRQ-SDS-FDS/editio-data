@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-168.15-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 243–244</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 243–244</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Favre, Marguerite Favre-Piccand – Verhör</head>
+					<head xml:lang="fr">Elisabeth Favre, Marguerite Favre-Piccand – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1665-12-22"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="243"/><p><lb/><hi rend="outdent"><placeName ref="loc007890.08">Jaquemars</placeName></hi>, den <origDate when="1665-12-22">22 <foreign xml:lang="la"><choice><abbr>xbris</abbr><expan>decembris</expan></choice></foreign> 1665</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per018693a.01">Gottrauw</persName>, <abbr>hr</abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><choice><abbr>J<hi rend="sup">r</hi></abbr><expan>Junker</expan></choice> <persName ref="per013668a.02">Reyff</persName>, <persName ref="per026077a.01">Küenli</persName>, <persName ref="per026078a.01">Vonderweidt</persName>, <persName ref="per026039a.01">Moßer</persName></seg>
+							<seg><lb/><persName ref="per026091a.01">Vögilli</persName>, <persName ref="per026058a.01">Progin</persName></seg></p>
+						<p><lb/><persName ref="per022648a.01">Isabeth</persName>, fille de <persName ref="per020615a.01">Jean Fabvre</persName>, faite prisonniere pour
+						<lb/>faits de <term ref="lem018521.01">sorcellerie</term>, dont sa mere et elle sont soubçonnées,
+						<lb/>estant examinée sur les articles de l’<term ref="lem018363.01">inquisition</term> prise
+						<lb/>contre elle, a dit d’estre aagée environ <measure type="age" quantity="13" unit="year">13 ans</measure>, ne veult
+						<lb/>pas sçavoir la raison ou cause de son emprisonnement.
+							<lb/><term ref="lem015549.13">Confesse</term> d’avoir demandé, <add place="above" type="sign">et eu</add> en beaucoup de lieux, l’<term ref="lem019353.01">aberge</term>&#160;;
+						<lb/>ne se veult pas souvenir d’avoir decouvert le pot a cuire.
+						<lb/>Nie d’avoir couché de toutte sa vie chez <persName>Pierre Machery</persName>&#160;;
+						<lb/>dit avoir entendu qu’il est mort. Nie d’avoir eu une <term ref="lem014919.06">boiste</term>,
+						<lb/>moings de la <term ref="lem018382.01">graisse</term> dedans, ny d’avoir voullu vendre aulcun
+						<lb/>ruban ou autre chose. Ne se veult pas souvenir d’avoir
+						<lb/>mangé de la souppe aux <term ref="lem015764.03">griettes</term>, si ce n’est avec sa
+							<lb/>soeur. <term ref="lem015549.13">Confesse</term> d’avoir veu un homme <subst><del>p</del><add place="inline">mort</add></subst> proche
+						<lb/>d’un ruisseau, qui s’appelloit <persName>Jean du Moullin</persName>, et dit
+						<pb n="244"/><lb/>que les enfants dudit defunct l’on menée pour le veoir.
+						<lb/>Nie d’avoir parlé <subst><del>q</del><add place="overwritten">d’</add></subst>une femme, qu’elle estoit plus fausse
+						<lb/>que le <term ref="lem017521.01">diable</term>. Dit qu’une fille rendue et convertie
+						<lb/>à notre foys, qui est de <placeName ref="loc007885.01">Lausanne</placeName>, l’at eu parlé et non
+						<lb/>pas elle. Elle ne veult pas estre souvenante qu’on
+						<lb/>ayt donné du <term ref="lem015011.01">lait</term> à un pauvre. <subst><del>et</del><add place="inline">Nie</add></subst> par ainsi
+						<lb/>tous les points de l’<term ref="lem018363">inquisition</term>, soustenant de ne s’en
+						<lb/>pas souvenir, et se recommande à vos paternelles
+						<lb/>bontés.</p>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>.</p>
+						<p><persName ref="per020614a.02">Marguerithe Piccand</persName> pendue à la <term ref="lem015642">serviette</term> par
+						<lb/>le bras gauche l’espace de <time dur-iso="PT195M">trois heures et un quart</time>,
+						<lb/>persiste fermement dans ses precedentes negatifves,
+						<lb/>soustenant avec beaucoup d’exclamations qu’on luy
+						<lb/>fait tord. Elle implore l’aide de Dieu et de Nostre
+						<lb/>Dame de compassion, les priant de l’avoir en recom<lb break="no"/>mendation et de luy maintenir son bon droit, et de
+						<lb/>ne pas permettre qu’elle se fasse tord. Prie vos Excel<lb break="no"/>lence d’avoir paternelle pitié d’elle, et de croire qu’elle
+						<lb/>ne peult pas donner aultre declaration sans se faire
+							<lb/>tord. Elle offre tous ses <term ref="lem019473.06">torments</term> au bon Dieu et
+							<lb/>à la <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice> Vierge, et se recommande tres humblement
+						<lb/>aux <term ref="lem019504.03">graces</term> de vos Excellences. <gap reason="irrelevant"/><note>Der nächste Abschnitt betrifft den Prozess gegen <persName ref="per026868">Christina Tornare-Welti</persName>. Vgl. <ref target="urn:ssrq:SSRQ-FR-I_2_8-188.4-1">SSRQ FR I/2/8 188.4-1</ref>.</note></p>
+			</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

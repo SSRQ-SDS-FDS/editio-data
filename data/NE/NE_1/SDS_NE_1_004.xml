@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor>
+               <persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-4-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN AS-D1.12</idno>
+               </msIdentifier>
+               <head>Paix conclue entre Rodolphe, comte de Neuchâtel, et Jean d'Aarberg, seigneur de
+                  Valangin, contenant entre autres des clauses relatives à la tenue des plaids de
+                  mai et à la condition des hommes dits
+                     <orig>royés</orig><note>Note&#160;Favarger&#160;1982&#160;: Ce traité marque la
+                     fin du conflit qui opposa, dès le milieu du XIII<hi rend="sup">e</hi> siècle,
+                     le comte de Neuchâtel au seigneur de Valangin, à cause de quelques droits en
+                     litige au Val-de-Ruz, cf.&#160;Chambrier, <hi rend="italic">Histoire</hi>,
+                     p.&#160;50-52.</note></head>
+               <msContents>
+                  <summary/>
+                  <msItem>
+                     <textLang xml:lang="la"/>
+                     <filiation type="original">Original</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Parchemin</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="37.1"/>
+                              <width unit="cm" quantity="31.8"/>
+                           </dimensions>
+                           <dimensions type="plica">
+                              <width unit="cm" quantity="8.4"/>
+                                                         </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal n="1" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:attachment="sealed on a parchment tag" ns0:material="wax"
+                        ns0:condition="fragmentary"/>
+                     <seal n="2" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:attachment="sealed on a parchment tag" ns0:condition="absent"/>
+                     <seal n="3" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:attachment="sealed on a parchment tag" ns0:material="wax"
+                        ns0:condition="chamfered" ns0:shape="round"/>
+                     <seal n="4" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:attachment="sealed on a parchment tag" ns0:material="wax"
+                        ns0:condition="chamfered" ns0:shape="round"/>
+                     <seal n="5" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:attachment="sealed on a parchment tag" ns0:material="wax"
+                        ns0:condition="well-preserved" ns0:shape="round"/>
+                     <seal n="6" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:attachment="sealed on a parchment tag" ns0:material="wax"
+                        ns0:condition="fragmentary" ns0:shape="round"/>
+                     <seal n="7" xmlns:ns0="http://ssrq-sds-fds.ch/ns/nonTEI"
+                        ns0:attachment="sealed on a parchment tag" ns0:material="wax"
+                        ns0:condition="well-preserved" ns0:shape="round"/>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate when="1303-07"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_34">SDS
+                           NE 1, N<hi rend="sup">o</hi>&#160;4</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000266"></term>
+               <term ref="key005297"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="r" facs="AEN_AS_D1_12_r"/>
+               <div> 
+                  <p><seg><lb/>In nomine domini nostri Jhesu Christi, amen. Nos <persName
+                           ref="per036894a">Rodolphus</persName>, comes et dominus
+                           <placeName>Novicastri</placeName>, <persName>Johannes</persName>,
+                        prepositus ecclesie dicti loci et <persName>Richardus</persName>, frater
+                        ejus, patrui dicti <persName>Rodulphi</persName> ex una parte et
+                           <lb/><persName>Johannes de <foreign xml:lang="fr"
+                           >Harberc</foreign></persName>, <persName>Uldricus </persName>et
+                           <persName>Thetricus</persName>, fratres domini de <placeName><foreign
+                              xml:lang="fr">Valemgins</foreign></placeName> ex parte altera notum
+                        facimus universis presentibus et futuris quod cum contemptio et discordia
+                        inter nos partes predictas <lb/>mota esset ex pluribus et diversis nostris
+                        petitionibus et querelis, pro quibus dissensiones et guerras vicissim
+                        habuimus inter nos, de quibus inter nos et nostros choadjutores et valitores
+                        <lb/>fuerunt dampna plurima irrogata, volentes et merito affectantes nostrum
+                        et nostrorum amicorum et convalitorum in hac parte futurum periculum evitare
+                        et evidentem utilitatem <lb/> nostram et comodum ordinare, quelibet pars
+                        predicta nostrorum certificata primitus hinc et inde plenarie jure suo de
+                        universis et singulis supradictis que confitemur et recogno <lb/>scimus
+                        specificata fuisse singulariter et particulariter par manus nobilium virorum
+                           <persName>Johannis</persName>, domini de <foreign xml:lang="fr"
+                           >Jour</foreign> et <persName>Petri de <foreign xml:lang="fr"
+                              >Blonay</foreign></persName>, condomini
+                        <placeName>Viviaci</placeName>, amicorum nostrorum a nobis partibus commu<lb
+                           break="no"/>niter electorum ad bonam, firman et perpetuam pacem venimus
+                        in hunc modum : videlicet ego <persName>Johannes de <foreign xml:lang="fr"
+                              >Harber</foreign></persName>, condominus de <placeName><foreign
+                              xml:lang="fr">Valengins</foreign></placeName>, sciens, prudens et
+                        spontaneus non vi, non <lb/>dolo, non metu inductus nec aliquo circonventus,
+                        sed propria et libera voluntate necnon pro mea evidenti utilitate et comodo
+                        ultra infrascripta designata et posita, habito et recep<lb break="no"/>to
+                        justo precio secundum legis meritum confiteor et recognosco me esse fidelem
+                        et hominem nobilis viri et potentis <persName>Rodulfi</persName> comitis et
+                        domini <placeName>Novicastri</placeName>, domini et karissimi consanguinei
+                        mei <lb/>et eidem homagium et fidelitatem fecisse, salva fidelitate
+                        serenissimi <orgName>principis domini regis Romanorum</orgName>, et
+                        venerandi in Christo patris domini basiliensis episcopi&#160;; confitens
+                        insuper et re<lb break="no"/>cognoscens ego dictus Johannes pro me meisque
+                        heredibus a dicto domino meo <persName>Rodulfo</persName> comite et domino
+                           <placeName>Novicastri</placeName>, datum et concessum esse in perpetuum
+                        feodum placitum generalem <lb/>quod annuatim consuevit tenere in mense maii
+                        semel apud <placeName>Novumcastrum</placeName> de hominibus regalibus qui
+                        vocantur in romana lingua <foreign xml:lang="fr">royez</foreign> de
+                           <placeName>valle Rodollii</placeName>, quod placitum <lb/>tenere possum
+                        et debeo annuatim in <placeName>valle Rodolii </placeName>modo quo supra
+                        secundum modum, usum et consuetudinem
+                        <placeName>Novicastri</placeName>.</seg>
+                     <seg>Recognosco insuper ego dictus <persName>Johannes de <foreign xml:lang="fr"
+                              >Harberc</foreign></persName>
+                        <lb/>una cum placito supradicto cunctos regales homines meos supradictos
+                        ubicumque sint et in quocumque loco inveniantur sive moram fecerint esse et
+                        fore debere de feodo dicti domini mei <lb/>
+                        <persName>Rodulfi</persName> et eos de ipsius feodo recognosco.</seg>
+                     <seg>Item homines meos alios <choice>
+                           <sic>commorates</sic>
+                           <corr>commorantes</corr>
+                        </choice> sive moram trahentes in terra sive baronia
+                           <placeName>Novicastri</placeName> predicti vel qui illuc in dicta terra
+                        <lb/>sive baronia in posterum contigerit pervenire, ex nunc de feodo dicti
+                        domini mei <persName>Rudolfi </persName>esse recognosco et volo, hoc addito
+                        in clausula presenti quod si aliquis vel aliqui <lb/>de dictis meis
+                        hominibus in vallem <persName>Rodollii </persName>supradictam moraturi
+                        venirent, tunc predicti tales absoluti et quitti esse debent de feodo
+                        supradicto et mihi et dictis fratribus meis de<lb break="no"/>bent tunc
+                        dicti homines absque dicto feodo remanere.</seg>
+                     <seg>Insuper recognosco jurisdictionem et dominium furcarum de <placeName>valle
+                           Rodollii </placeName>a dicto domino meo <persName>Rodulfo
+                        </persName>tenere in feodum sal<lb break="no"/>vo jure in predictis furchis
+                        dicti basiliensis <sic>..</sic> episcopi si quod in eisdem inveniretur
+                        evidenter habere.</seg>
+                     <seg>Volo insuper et concedo ego dictus Johannes pro me meisque heredibus dicto
+                           <lb/><persName>Rodulfo</persName> domino meo, pro se suisque heredibus in
+                        perpetuum stipulantibus quod ipse <persName>Rodulfus</persName>, si
+                        contingerit, quod absit, quod guerra seu contentus moveretur inter ipsum
+                           <persName>Rodulfum </persName>dominum <lb/>meum et serenissimum principem
+                           <sic>..</sic> regem Romanorum vel gentes suas aut predictum <sic>..</sic>
+                        episcopum basiliensem vel gentes suas, de gentibus et hominibus meis
+                        <lb/>regalibus et de aliis hominibus meis quos ab eodum
+                           <persName>Rodulfo</persName> domino meo in feodum teneo juvare se possit
+                        et ipsum dicti homines mei teneantur juvare contra <lb/>premissos bene et
+                        fideliter sicut homines de feodo juvare tenentur dominum suum quocienscumque
+                        sibi vel suis oportunum fuerit et eos duxerit requirendum. Promittens per
+                        juramentum <lb/>et per stipulationem sollempnem in predicto adjutorio
+                        impendendo predicto domino meo <persName>Rodulfo</persName> in posterum,
+                        nullum obstaculum imponere vel repulsam. Pro quibus omnibus <lb/>et singulis
+                        supradictis firmiter et inviolabiliter observandis, confiteor et recognosco
+                        pro me et meis heredibus habuisse et recepisse ultra donationem placiti
+                        supradicti, <lb/>mihi a dicto <persName>Rudolfo</persName> domino meo factam
+                        una cum regalibus hominibus et aliis supradictis, ducentas libras parvorum
+                        stephaniensium usualis monete quam quidem summam <lb/>pecunie habuisse et
+                        recepisse et in evidentem utilitatem meam conversam et versam esse
+                        confiteor.</seg>
+                     <seg>Et nos predicti <persName>Rodulfus</persName>,
+                           <persName>Johannes</persName>, prepositus et
+                           <persName>Richardus</persName>, frater ejus, volen<lb break="no"/>tes
+                        facere gratiam specialem karissimis consanguineis nostris predictis,
+                           <persName>Johanni</persName>, <persName>Uldrico </persName>et
+                           <persName>Thetrico</persName>, fratribus, omnes simul et quilibet nostrum
+                        promittimus per stipulationem sollempnem ho<lb break="no"/>mines eorum vel
+                        habitatores in terra eorumdem non recipere nec recipi facere in burgenses
+                        nostros <placeName>Novicastri</placeName>. Et si, quod absit, immemores
+                        presentis concessio<lb break="no"/>nis essemus imposterum recipiendo in
+                        burgenses nostros ut supra de hominibus vel habitatoribus eorumdem, illos
+                        tales receptos in burgenses nomine de burgensia <lb/>predicta promittimus et
+                        tenemur <gap reason="irrelevant" unit="line" quantity="12"/><note>La
+                           transcription de Favarger&#160;1982 reprend à la ligne 42.</note>.</seg>
+                     <seg><lb/>In quorum omnium premissorum testimonium, nos predicti
+                           <lb/><persName>Rodulfus</persName>, comes et dominus Novicastri,
+                           <persName>Johannes</persName>, prepositus et
+                           <persName>Richardus</persName>, frater ejus ac <persName>Johannes
+                        </persName>et <persName>Uldricus</persName>, condomini de
+                              <placeName><foreign xml:lang="fr">Valengins</foreign></placeName>, pro
+                        nobis et pro <persName>Thetrico</persName>, fratre nostro, quia proprium
+                        <lb/>sigillum non habet, sigilla nostra propria presentibus litterius
+                        duximus apponenda. Et ego dictus <persName>Thetricus</persName> sigillis
+                        dictorum fratreum meorum <persName>Johannis</persName> et
+                           <persName>Uldrici</persName>, una cum sigillis <lb/>sequentibus in hac
+                        parte sum contentus. Et insuper nos prenominati
+                           <persName>Rodulfus</persName> comes et dominus Novicastri,
+                           <persName>Johannes</persName>, prepositus, et
+                           <persName>Richardus</persName> atque <persName>Johannes de <foreign
+                              xml:lang="fr">Harberc</foreign></persName>,
+                           <lb/><persName>Uldricus</persName> et <persName>Thetricus</persName>,
+                        fratres, rogavimus venerabilem virum dominum .. officialem curie
+                        lausannensis et nobiles viros predictos, <persName>Johannem</persName>,
+                        dominum de <foreign xml:lang="fr">Jour</foreign> et <persName>Petrum de
+                              <foreign xml:lang="fr">Blo<lb break="no"/>nay</foreign></persName>,
+                        condominum <placeName>Viviaci</placeName> et sigilla sua presentibus
+                        litteris volint apponere ad majorem firmatatem. Nos autem dictus ..
+                        officialis sigillum curie lausannensis et <lb/>nos dicti Johannes, dominus
+                        de <foreign xml:lang="fr">Jour</foreign> et Petrus de <foreign xml:lang="fr"
+                           >Blonay</foreign>, sigilla nostra ad preces et instanciam omnium
+                        prenominatorum utriusque partis generaliter et specialiter <lb/>presentibus
+                        litteris duximus apponenda in testimonium veritatis omnium premissorum.
+                           <date when="1303-07">Datum et actum mense julii, anno Domini m ccc.
+                           tercio.</date></seg>
+                  </p>
+               </div>
+               <pb n="v" facs="AEN_AS_D1_12_v"/>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>Original sur parchemin avec sept sceaux sur double queue, AEN, D&#160;N<hi
+                        rend="sup">o</hi>&#160;12.</p>
+               <p>Éd.&#160;Matile, <hi rend="italic">Monuments</hi>, I, N<hi rend="sup"
+                     >o</hi>&#160;301, p.&#160;276-279.</p>
+               <p>Résumé&#160;: Boyve, <hi rend="italic">Annales</hi>, I, p.&#160;259-261.</p>
+               <p>Remarque&#160;Favarger&#160;1982&#160;: Les «&#160;hommes royés&#160;»
+                     apparaissent dès 1237 dans le Val-de-Travers, date à laquelle ils sont
+                     qualifiés de «&#160;<hi rend="italic">coloni qui vocantur reyes</hi>&#160;»
+                     (Matile, <hi rend="italic">Monuments</hi>, I, p.&#160;92)&#160;; en 1296 (<hi
+                        rend="italic">ibidem</hi>, N<hi rend="sup">o</hi>&#160;280, p.&#160;256),
+                     les «&#160;royés&#160;» ne peuvent séjourner dans les forteresses (<hi
+                        rend="italic">munitionibus</hi>) de Jean d'Ulrich et Thierry d'Aarberg, <hi
+                        rend="italic">ultra voluntatem </hi>du seigneur de Neuchâtel. Le présent
+                     texte nous apprend de plus qu'ils étaient tenus, une fois l'an, d'assister au
+                     plaid de mai, à Neuchâtel. Ces brèves indications prouvent à l'évidence que
+                     nous avons affaire à des <hi rend="italic">homines regales</hi>, qui se
+                     rencontrent surtout dans les régions de colonisation de l'Empire. Cf.&#160;sur
+                     ce sujet, Karl Bosl, «&#160;Staat, Gesellschaft, Wirtschaft im deutschen
+                     Mittelalter&#160;»  dans<hi rend="italic"> Gebhardt Handbuch der deutschen
+                        Geschichte</hi>, vol.&#160;7, éd.&#160;<hi rend="italic">dtv</hi>,
+                     p.&#160;58-59.</p>
+            </div></back>
+            </text>
+      </group>
+   </text>
+</TEI>

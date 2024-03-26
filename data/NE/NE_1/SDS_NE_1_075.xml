@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-75-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN 17JL-316, fol.&#160;16r-19r</idno>
+               </msIdentifier>
+               <head>Ordonnances ecclésiastiques consécutives à la Réforme et concernant les sacrements et
+                  les mœurs, promulguées par René de Challant pour la seigneurie de Valangin</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original">
+                        <origDate when="1539-07-16"/>
+                        <origPlace ref="loc005950">Valangin</origPlace>    
+                     </filiation>
+                     <filiation type="current">Copie</filiation>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.5"/>
+                              <width unit="cm" quantity="23.5"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate from="1501-01-01" to="1600-12-31">XVI<hi rend="sup">e</hi>&#160;siècle</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_174">SDS NE 1, N<hi rend="sup">o</hi>&#160;75</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key000106"/>
+               <term ref="key000901"/>
+               <term ref="key003006"/>
+               <term ref="key000611"/>
+               <term ref="key000658"></term>
+               <term ref="key000767"></term>
+               <term ref="key005489"></term>
+               <term ref="key000768"></term>
+               <term ref="key000482"></term>
+               <term ref="key003408"></term>
+               <term ref="key000863"></term>
+               <term ref="key000666"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="16r" facs="AEN_17JL_316_16r"/>
+               <div>
+                  <head type="title">Ordonnances et reformation crestienne en la seigneurie de <placeName>Vallangin</placeName>.
+                     1541. </head>
+                  <head type="subtitle">Pour les predicans</head>
+                  <p><lb/>Premierement que nully se doybve mesler de adnoncer <lb/>ou prescher la
+                        parolle de Dieu que premierement ne <lb/>soit admis par la
+                           <orgName>seigneurie</orgName> ou <orgName>gouverneur et principal
+                           <lb/>officier</orgName> d’icelle. Touteffoys l’ellection des ministres
+                        <lb/>se pourra faire par les predicans et iceulx presentez <lb/>a la
+                           <orgName>seigneurie</orgName> ou<orgName> gouverneur et principal
+                           officier</orgName>
+                        <lb/>que dessus pour les accepter et confirmer si semble bon a la
+                           <lb/><orgName>seigneurie</orgName> que les pourra demettre et oster quand
+                        il <lb/>luy plaira et on y mettra d’aultres suffisans.</p>
+                  <p><lb/>En oultre que iceulx ministres annuncent purement <lb/>la parolle de Dieu
+                        et la saincte escripture et ne mettent <lb/>en avant par leur doctrine ny
+                        enseignement aultre chose <lb/>que ce qu’ilz pourront prouver par la saincte
+                        escripture <lb/>du vieil et nouveau testament, admonestans tous subjectz
+                        <lb/>hommes et femmes de ouyr et ensuyvre la parolle de <lb/>Dieu en tant
+                        qu’ilz desirent eviter la male grace de ladicte <lb/>seigneurie et
+                        officiers. Et pour ce que <lb/>ung chascung la puysse myeulx ouyr, scavoir
+                        entendre et <lb/>mettre en effect, est deffendu a ung chascung homme et
+                        femme <lb/>a band de <lb/><measure type="currency" unit="sol faible"
+                           origin="NE" quantity="60">LX solz</measure> pour une chascune foys de non
+                        se tenir <lb/>allentour de l’eglise ne par les charrieres, par les places
+                        <lb/>par devant les maisons ny aux tavernes. Mais qui <lb/>ne sera en la
+                        predication qui demeure en sa maison&#160;; <lb/>deffendant aussi a tous
+                        houstes et houstesses de non <lb/>donner a boyre et menger ny ressotteler
+                        personne <lb/>devant la predication a band tel que dessus de <lb/><measure
+                           type="currency" unit="sol faible" origin="NE" quantity="60">LX
+                           solz</measure> pour une chascune foys, exceptez aux estrangers <pb
+                           n="16v" facs="AEN_17JL_316_16v_17r"/>
+                        <lb/>lesquelz soient traictez a leur contendement le mieulx <lb/>que faire
+                        se pourra. </p>
+                  <head type="subtitle">Sacremens</head>
+                     <p><lb/>Puy que en la saincte escripture ne trouvent fondez <lb/>ni instituez
+                        que deux sacremens, assavoir le baptesme<lb/> et la saincte cene de Nostre
+                        Seigneur, a esté ordonné <lb/>que les aultres cinq que sont appelez
+                        sacremens soient emendez. </p>
+                  <head type="subtitle">Baptesme </head>
+                     <p><lb/>Touchant le baptesme a esté ordonné que tous les jours <lb/>l’on puisse
+                        baptiser les enfans&#160;; touteffoys sembleroit <lb/>convenable qu’en une
+                        chascune parroisse les enfans <lb/>fussent baptizez le dimanche après le
+                        sermon. </p>
+                  <head type="subtitle">Mariaige </head>
+                     <p><lb/>L’estat de mariaige <note>Note Favarger 1982&#160;: Boyve donne
+                           «&#160;doit être&#160;».</note>observé comme Dieu l’a ordonnez <lb/>et a
+                        la forme qu’il se tient a contrahir et confermer <lb/>et a esté estably jour
+                        de la saincte cene de Nostre Seigneur<lb/> pour icelle tenir, ascavoir a
+                        Pasques, Penthecouste <lb/>et Noel, jusque aultrement en soit ordonnez. </p>
+                  <head type="subtitle">Glotonnie </head>
+                     <p><lb/>A cause que glotonnie est très grand vice, est ordonné <lb/>que tous
+                        ceulx qui mengeront ou boyront excessivement <lb/>ou plus qui ne pourront
+                        porter, doybgent payer ung <lb/>band de <measure>dix livres</measure>.
+                        Pareillement ceulx qui inciteront <lb/>les aultres a boyre d’aultant hors de
+                        mesure, que ung <lb/>chascun donne <measure>LX solz</measure>, les predicans
+                        et officiers <lb/>privez de leur ministration et offices, deffendant <lb/>a
+                        tous houstes et houstesses vendans vin et aultre <pb n="17r"
+                           facs="AEN_17JL_316_16v_17r"/>
+                        <lb/>qui n’ayent a soustenir personne en leur maison <lb/>après souppé,
+                        excepté gens estrangiers passans <lb/>par pays pour leurs affaires. </p>
+                  <head type="subtitle">Festes</head>
+                     <p><lb/> Touchant les festes est ordonné que tous les dimenches <lb/>aussi les
+                        jours de nativité, circoncision, assomption <lb/>Nostre Seigneur, et
+                        annunciacion Nostre Dame soient <lb/>observés&#160;; sus lesquelz jours et
+                        festes l’on doyt <lb/>reposer et maximement ouyr la parolle de Dieu <lb/>et
+                        que nully doibge aller ouyr messe ny aultres<lb/>offices et ceremonies
+                        ecclesiasticques, pappalles <lb/>sur peine d’estre esmendables ainsi que
+                        sera congneu <lb/>par les quattre commis. </p>
+                  <head type="subtitle">Adulteres </head>
+                     <p><lb/>Il est ordonné que tous publicques adulteres, pailliardz <lb/>et
+                        paillardes se remettent a honnesteté dellaissant <lb/>leur mauvaise et
+                        scandalleuze vie en tant qu’ilz <lb/>desirent eviter punition suyvante. </p>
+                     <p><lb/>Premierement les adulteres homme ou femme qui <lb/>auront commis
+                        adulteres qui sera manifeste ou par suytte <lb/>procreation d’enfans ou par
+                        bons tesmoingnaiges, iceulx <lb/>et icelles doybgent estre mis en prison et
+                        détenus <lb/>cinq jours et cinq nuictz en pain et en eaue ensemble <lb/>du
+                        potaige et ceulx qui seront en office en seront <lb/>privez et davantaige
+                        détenus troys jours et troys <lb/>nuictz. Aussi les predicans auront perdu
+                        leur<lb/> ministracion et seront punys comme les aultres.</p> <pb n="17v"
+                           facs="AEN_17JL_316_17v_18r"/>
+                     <p><lb/>Plus ceulx et celles qui commettront adultere <lb/>la seconde et tierce
+                        foys estre punys la seconde foys <lb/>X jours et X nuictz, la tierce foys
+                        quinze jours <lb/>et autant de nuictz en prison en pain et eaue comme
+                        <lb/>dessus est dit. Et ceux et celles qui commettront <lb/>adultere la
+                           iiii<hi rend="sup">me</hi> foys doybgent estre bannys du <lb/>pays.</p>
+                     <p><lb/>Ceus non mariez commettans paillardise doibvent <lb/>estre admonestez
+                        de soy deporter de telz vices et <lb/>icelles que après tieulx admonestemens
+                        persévéreront <lb/>en leurditz vices estre punys par bampnissement et
+                        <lb/>en aultre sorte comme bon semblera aux commis <lb/>et deputtez qui en
+                        auront la charge.</p>
+                     <p><lb/>Pourtant les putains vagantes ne doybvent <lb/>estre abbergées que une
+                        nuict et les hostes et<lb/> hostesses et aultres les doyvent faire vuider a
+                        ban <lb/>de <measure>LX solz</measure> en privation de leurs hostelleries et
+                        tavernes. <lb/>Les putains residantes en ladite
+                           <placeName>seigneurie</placeName> doyvent <lb/>estre admonestées se
+                        desister de leur mauvaise <lb/>vie et si après icelle admonition, elles ne
+                        se <lb/>deportent, doyvent estre en prison ung jour et une <lb/>nuict en
+                        pain et eaue detenues&#160;; et si elles <lb/>faillent la seconde et tierce
+                        foys etc, tant jour <lb/>accroissant d’aultant de jours et de nuictz ladite
+                        prison. </p>
+                     <p><lb/>Pareillement est entendu et ordonnez que les putiers <lb/>doybvent
+                        estre punys comme dessus est dit des putains <lb/>après qu’ilz seront
+                        admonestez.</p>
+                  <head type="subtitle">Blasphemateurs </head>
+                     <p><lb/>Touchant les blasphemateurs est ordonné que tous hommes <lb/>et femmes,
+                        jeunes et vieulx prenans en vain le nom de <lb/>Dieu en sa bouche, jurant
+                        par le sang, corps, playes <pb n="18r" facs="AEN_17JL_316_17v_18r"/>
+                        <lb/>chair ou qui le renient ou aultrement le <lb/>blasphement, que iceulx
+                        soient entenus se jecter <lb/>a terre et icelle baiser. Et tous ceulx qui
+                        <lb/>orront telz blasphemateurs seront entenus de les <lb/>admonester a
+                        cella faire. Et si telz <lb/>blasphematteurs donnent parolles injurieuses
+                        et<lb/> ne veullent baiser terre, iceulx doyvent estre mys <lb/>en prison
+                        puys après baiser terre et donner <measure>LX solz</measure>
+                        <lb/>de band. Ils pourroient aussi faire si gros blasphemes <lb/>qui seront
+                        chastiez plus rigoreusement. </p>
+                  <head type="subtitle">Dances </head>
+                     <p><lb/>Dances sont scandalleuses, a ceste cause sont deffendues <lb/>a ban de
+                           <measure>LX solz</measure> pour ung chascun mesusant tant de
+                        <lb/>tabourins et phiffers qui de ceulx et celles qui <lb/>danseront,
+                        reservez aux nopces. </p>
+                  <head type="subtitle">Jeux </head>
+                     <p><lb/>Les jeux sont deffendus, mesmement des dez, de cartes, <lb/>de vix,
+                        varot, de quilles au rapeau et tous aultres <lb/>jeux de sort a ban de
+                           <measure>LX solz</measure> pour ung chascun et une <lb/>chascune foys et
+                        perdition de l’argent ou gaige que <lb/>se mettra au jeu&#160;; et que les
+                        houstes et houstesses et <lb/>aultres ne permettent jouer en leur maisons ou
+                        granges<lb/> thieulx jeux deffendeues a ban de <measure>LX solz</measure>
+                        pour ung <lb/>chascun et une chascune foys. Permettons touteffoys <lb/>les
+                        jeux de l’harquebutte et arbealeste affin de<lb/> l’aprendre pour
+                        conservation et deffence du pays, les jeux <lb/>de paulme, de bosles, de
+                        pallet et des quilles a la <lb/>rabattue pour excercer la junesse
+                        honnestement <lb/>au vin ou a despendre pour ung repas tant seullement
+                        <lb/>sans agayt et le tout sans jurer ou blasphemer <lb/>ny injurier l’ung
+                        l’aultre a ban que dessus.</p>
+                     <p><lb/>Et pour ce que le tout ne se peult amplement declairer <lb/>le surplus
+                        est remys aux ministres et predicans <pb n="18v" facs="AEN_17JL_316_18v_19r"/>
+                        <lb/>a declairer au peuple pour l’induyre et enseigner <lb/>selon la parolle
+                        de Dieu et la saincte escripture <lb/>laquelle tous les crestiens et
+                        subjectz de quelque <lb/>condition qu’ilz soyent doyvent ensuyvre et
+                        observer a <lb/>peine d’estre emendables a la congnoissance des <lb/>quattre
+                        a ce commis et deputez. Et tous ceulx <lb/>et celles qui entendront, verront
+                        ou congnoistront <lb/>aulcungs transgresseurs et mesusans des choses <lb/>cy
+                        dessus et devant escriptes les doyvent reveller <lb/>et manifester sur leur
+                        serement dedans XXIIII heures<lb/> s’il est possible ou sinon le plut tost
+                        que fere se pourra <lb/>et pour le plus tard dedans la huictaine au
+                        mayre<lb/> s’il se peult trouver, sinon a l’ung des jurez de justice <lb/>du
+                        lieu ou se feront tels cas, pour rapporter audit <lb/>mayre, affin de les
+                        escripre et poursuyvre ainsi <lb/>que sera raisonnable pour les chastier et
+                        faire afere, <lb/>punitions et emendes selon que le cas requerra pour
+                        <lb/>ung chascun et une chascune foys.</p>
+                     <p><lb/>En oultre affin que le tout soit mieulx observé, seront <lb/>ordonnez
+                        et deputtez et commis ung ou deux plus<lb/> au moings en chascune paroisse
+                        ou chascun villaige ainsi que <lb/>sera advisé pour le mieulx et queulx viez
+                        serment <lb/>de se donner gardé secrettement sur toutes ordonnances
+                        <lb/>devant dictes et incontinent le plus tost que faire se <lb/>pourra
+                        rapporter tous deffaillans au mayre du <lb/>lieu, lequel mayre incontinent
+                        le plus tost <lb/>que faire se pourra a faire dilligence pour le punyr,
+                        <lb/>chastier et faire payer les emendes selon que le cas <lb/>requerra.</p>
+                     <p><lb/>Nous, <persName>René, conte de Challant et de Vallengin</persName> cy
+                        <lb/>avoir veu et entendu les ordonnances et reformations <lb/>cy devant
+                        escriptes et la teneur d’icelles bien <lb/>considerer pour certains bons
+                        respectz a ce <lb/>nous mouvans, voulions et entendons icelles <lb/>estre
+                        observées en toutes nos terres, mayories et <pb n="19r"
+                           facs="AEN_17JL_316_18v_19r"/>
+                        <lb/>seigneurie de Vallengin, mandant et commandant <lb/>a nostre lieutenant
+                        et a tous noz predicans, officiers et <lb/>subjectz icelles faire observer
+                        durant nostre bon <lb/>plaisir et jusques aultrement soit ordonnez <lb/>car
+                        nous entendons et reservons icelles rabiller, <lb/>corriger et adjoindre ou
+                        diminuer ainsi que sera necessaire<lb/> par bon advis et conseil, nonobstant
+                        toutes exceptions <lb/>et allégations contraires. Donné en nostre chasteau
+                        <lb/>de <origPlace ref="loc005950">Vallengin</origPlace>, le <origDate when="1539-07-16">seisiesme jour du moys de
+                           juillet en l’an quinze cens trente et neuf</origDate>.</p></div>
+            </body>
+            <back><div><p> Note de l'édition Favarger&#160;1982&#160;:</p> 
+               <p>AEN, Copie (XVI<hi rend="sup">e</hi>&#160;siècle) dans le registre du consistoire
+                     seigneurial de Valangin, N<hi rend="sup">o</hi>&#160;1, fol.&#160;16-19.</p> 
+               <p>BPN, Copie (fin du XVI<hi rend="sup">e</hi>&#160;siècle) dans lettres des
+                     Réformateurs, cahier A. N<hi rend="sup">o</hi>&#160;3.<note>Cette copie
+                        s'intitule «&#160;Constitutions et ordonnances pour la Refformation
+                        evangélique faicte et dressée par feu noble memoyre hault et puissant
+                        seigneur Mgr Regné conte de Challant souverain seigneur de Valengin et
+                        annuellement une fois publiées ou plusieurs ainsy que de besoin sera&#160;».
+                        Les deux textes présente des variantes. Le premier semble plus ancien et
+                        sans doute plus fidèle à la version primitive de 1539.</note></p>
+               <p>AEN, Copie N<hi rend="sup">o</hi>&#160;3 dans consistoire seigneurial de
+                  Valangin (1819), p.&#160;17-21.</p> 
+               <p>Éd.&#160;Boyve, Annales, II, p.&#160;401-405.</p>
+               <p>Pétremand, «&#160;Origines&#160;», MN, 1925,
+                  p.&#160;209-211.</p> 
+               <p>Cité&#160;: Piaget/Lozeron, Le consistoire, p.&#160;161. </p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

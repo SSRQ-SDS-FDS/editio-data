@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-207.22-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 20, fol. 515v–519r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 20, fol. 515v–519r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Catherine Repond, Jacques Bouquet – Verhör</head>
+					<head xml:lang="fr">Catherine Repond, Jacques Bouquet – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1731-07-31"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="515v"/>
+						<p><lb/>Raths <term ref="lem001289.08">urthell</term></p>
+						<p><lb/><hi rend="outdent">Es gesinnendt</hi> ihr gnaden des <term ref="lem019378.01">inneren
+						<lb/>raths</term> an die hoch- unndt wohlgeehrten
+						<lb/>herren eines wohlbestelten statt<lb break="no"/>grichts, die einligende <persName ref="per028134a">Catherine
+							<lb/>Repond</persName> an heüt ohne <term ref="lem013000.07">torturen</term> zu
+							<lb/>examinieren <foreign xml:lang="la">de novo</foreign> unndt über alles.
+							<lb/><term ref="lem008326.03">Sonderbahr</term> aber, ob sie nit <persName>Rizele</persName> für
+							<lb/><choice><sic>für</sic><corr></corr></choice> die so genandte <persName>Freche</persName> angegeben
+							<lb/>habe, unndt ob sie bey der angebung
+							<lb/>der <term ref="lem000783.07">mitthafften</term> verharre, wie auch
+							<lb/>bey dem, so sie verwichenen tagen
+							<lb/>dem herrn <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per028146a">Karl Simon Odet</persName>.</note> <foreign xml:lang="la"><choice><sic>in particur</sic><corr>in particular</corr></choice></foreign> ver<lb break="no"/>meldet. Zu demme, wie sie eine
+							<lb/>gewüsse <persName>Toculaz</persName> als <term ref="lem000783.03">mitthaffte</term> auch
+							<lb/>angegeben, so schon vor <date dur-iso="P12Y">12 jahren</date> mit
+							<lb/>todt abgangen; soll sie dessenwegen
+							<lb/>anfänglich nur von weitem befragt
+							<lb/>werden, umb zu erfahren, ob ihro
+							<lb/>dessen todtfahl bekandt seye.
+							<seg><lb/>Übrigens wirdt herr <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per028146a">Karl Simon Odet</persName>.</note> dem
+							<lb/><term ref="lem004390.03">scharpffrichter</term> verordnen, sie zu besichtigen,
+							<lb/>ob sie keinen <term ref="lem017060">zeichen</term> an dem schenckel
+							<pb n="516r"/> <lb/>oder anderwerts habe.</seg> <seg>Belangendt
+							<lb/>den <persName ref="per028151a.02">Bouquet</persName> werden hochgeehrte herren
+								<lb/>ihne gleichfahls ohne <term ref="lem013000.07">torturen</term> auch
+							<lb/>an heüt (wo möglich uber alles),
+							<lb/>insonderheit wegen der bewusten
+							<lb/>andtwohrth des herrn <persName>Musi de Glane</persName>
+							<lb/>examinieren, welches alles khünfftigen
+								<lb/>freytag soll <term ref="lem019161">referierdt</term> werden. <foreign xml:lang="la">Actum</foreign>
+							<lb/>den <origDate when="1731-07-31">31<hi rend="sup">ten</hi> <foreign xml:lang="la">jullii</foreign> 1731</origDate>.</seg></p>
+						<p><lb/>Cantzley <placeName ref="loc001060.06">Freyburg</placeName>.</p>
+						<p><lb/><placeName ref="loc007683.05">Mauvaise Tour</placeName>
+							<seg><lb/>Juges, Monsieur le <term ref="lem014993.01">grand sautier</term> <persName ref="per028146a.01">Odet</persName>.</seg>
+							<seg><lb/>Les conseillers, <choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> <persName ref="per028156a">de Pencier</persName>,
+								<lb/><choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> le <term ref="lem019323.02">bourguemaitre</term> <persName ref="per028155a.02">Haberkorn</persName></seg>
+							<seg><lb/>Des soixantes, Monsieur l’ancien hospitallier
+									<lb/><persName ref="per028158a.03">de Montenach</persName>,
+									<lb/><choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> l’ancien <term ref="lem016294">banneret</term> <persName ref="per028160a.03">Fegeli</persName></seg>
+							<seg><lb/>Des bourgeois, <choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> <persName ref="per028162a.02">Albert Fegeli</persName> et ancien
+								<lb/>secretaire rural <persName ref="per028161a.01">Lentzburger</persName></seg>
+							<seg><lb/><persName ref="per027701a.05">Bertschi</persName> &amp; <persName ref="per028163a.01">Gritz</persName> officiers</seg></p>
+					<p><seg><lb/>En conformité de la sentence souveraine cy dessus
+						<lb/>datée du <origDate when="1731-07-31">31<hi rend="sup">e</hi> juillet 1731</origDate>, la prenommée
+						<lb/><persName ref="per028134a">Catherine Repond</persName> fut derechef examinée et
+						<lb/>fort exactement exhortée à ne plus varier
+						<lb/>comme elle l’a eû de coustume jusqu’à present,
+						<pb n="516v"/> <lb/>que Leurs <choice><abbr>Ex<hi rend="sup">ces</hi></abbr><expan>Excellences</expan></choice> comancent à se lasser,
+						<lb/>et se trouveront obligés dorsenavant
+						<lb/>d’entreprendre de rigoureux moyens pour
+						<lb/>la mener et conduire à la verité. Qu’elle
+						<lb/>dise maintenant tout ce dont elle auroit
+						<lb/>comis et fait de mal, et de repondre
+						<lb/>cathegoriquement aux demandes qui
+						<lb/>luy seront faites dans la suitte.</seg>
+						<seg><lb/>La dessus  <choice><abbr>i</abbr><expan>interrogée</expan></choice> si elle <term ref="lem015549.13">confesse</term> d’etre toujours
+							<lb/><term ref="lem019389.01">sorcière</term> ou si elle ne l’a pas êté, avec
+							<lb/>quelles conditions elle se seroit donnée
+							<lb/>au <term ref="lem017521">diable</term>, où et en quel endroit&#160;?
+							<lb/><choice><abbr>R</abbr><expan>Répondu</expan></choice> après s’etre voulu au comancement
+							<lb/>regimbée, elle dit nonobstant que cela
+							<lb/>êtoit arrivé par pur desespoir, aussi
+							<lb/>par la raison des meschantes langues
+							<lb/>qui luy voulloyent du mal, même que
+							<lb/><choice><abbr>Mons<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> le ballif de <placeName ref="loc008049">Corbières</placeName><note>Gemeint ist <persName ref="per028184a">Joseph Protais d’Alt</persName>, der von 1716–1721 Vogt von Corbières war.</note> la menaçoit
+							<lb/>de la prison au cas qu’elle dhût retourner
+							<lb/>au chateau, c’est ce qui l’at obligée de
+							<lb/>courir çà et là comme une desesperée,
+							<lb/>et pendant qu’elle se rendit une fois
+							<lb/>au dessus de <placeName ref="loc008140">Villargiroud</placeName>, que ç’a êté
+							<lb/>son malheureux moment de s’avoir
+							<lb/>donnée au <term ref="lem017521">diable</term>, et de cela il y a <date dur-iso="P10Y">10 ans</date>.</seg>
+						<seg><lb/><choice><abbr>I</abbr><expan>Interrogée</expan></choice> en quoy consiste le <term ref="lem019375.02">pact</term> qu’elle fit
+								<lb/>avec le <term ref="lem017521">diable</term>, s’il étoit pour toujours
+								<lb/>ou seulement à terme&#160;? <choice><abbr>R</abbr><expan>Répondu</expan></choice> n’en avoir
+								<lb/>point fait, mais qu’elle se recomandoit
+								<lb/>toujours à Dieu.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> si le <term ref="lem017521">diable</term> ne l’a
+								<pb n="517r"/> <lb/>point picquée sur son corps pour avoir de son
+									<lb/>sang, et s’il ne l’a pas <term ref="lem018895.03">marquée</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice>, après l’avoir
+								<lb/>bien exhortée, qu’ouy, et pendant qu’il l’auroit
+								<lb/><term ref="lem018895.03">marquée</term> sur la cuisse droite, elle se seroit
+								<lb/>senti picquée, mais point de son sang, ni même
+								<lb/>luy avoir fait un escrit, ni luy à elle.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice>
+								<lb/>combien de foy elle s’est trouvée au <term ref="lem015765.03">sabath</term>,
+								<lb/><subst><del>comment</del><add place="inline">et en</add></subst> quel endroit, et si elle avoit
+								<lb/>eû bien du contentement. <choice><abbr>R</abbr><expan>Répondu</expan></choice> quatre fois&#160;:
+								<lb/>la 1<hi rend="sup">re</hi> contre le <term ref="lem019316.03">vanis</term> de <placeName ref="loc008342">Moléson</placeName>, la 2<hi rend="sup">e</hi>
+								<lb/>en haut de <placeName ref="loc010213.08">Tavanens</placeName>, la 3<hi rend="sup">e</hi> contre
+								<lb/><placeName ref="loc008140">Villargiroud</placeName>, et la 4<hi rend="sup">e</hi> fois près de <placeName>Sainct
+								<lb/>Theodule</placeName><note>L’identification du lieu demeure incertaine. Il pourrait s’agir de la chapelle dédiée
+									à saint <persName ref="per004319a">Théodule</persName>, située au bourg d’<placeName ref="loc007679.04">Ogoz</placeName>, devenu une île après la mise en eau du lac de la <placeName ref="loc013777">Gruyère</placeName> en 1948. Voir aussi <ref target="urn:ssrq:SSRQ-FR-I_2_8-207.11-1">SSRQ FR I/2/8 207.11-1</ref>.</note>, mais avoir eté toujours triste
+								<lb/>et desolée, en niant d’avoir êté davantage,
+								<lb/>quoy qu’elle l’ait ingenüment dit et <term ref="lem015549.07">confessé</term>
+								<lb/>dans les precedentes examinations.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> si
+								<lb/>elle s’est trouvée seule dans le <term ref="lem015765.03">sabath</term> ou
+								<lb/>avec d’autres. <choice><abbr>R</abbr><expan>Répondu</expan></choice> jamais que seule.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> comme
+								<lb/>s’appelle celle de <placeName ref="loc008087.03">S<hi rend="sup">t</hi> Sylvestre</placeName> qu’elle a
+								<lb/>accusé dernièrement. <choice><abbr>R</abbr><expan>Répondu</expan></choice> n’avoir jamais
+								<lb/>entendu autrement que <persName>Françoise Freische</persName>,
+								<lb/>son mary êtoit <term ref="lem019327.01">charbonnier</term>, qui est main<lb break="no"/>tenant mort.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> qu’elle devoit dire qu’estoit
+								<lb/>devenu une nommée <persName>Toculaz</persName>, si elle est
+								<lb/>encor vivante ou morte. <choice><abbr>R</abbr><expan>Répondu</expan></choice> l’avoir bien
+								<lb/>connüe, mais elle seroit deja morte il y a
+								<lb/>environ <date dur-iso="P12Y">12 ans</date>.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> si elle persiste toujours
+								<lb/>de dire que ceux et celles qu’elle at
+								<lb/>indiqué et accusé dans ses examinations
+								<lb/>etre bien les mêmes et veritables
+								<lb/>complices, et si elle le leurs pouvoit
+								<pb n="517v"/> <lb/>soutenir en face et en leur presence, comme
+								<lb/>aussi qui se soyent sistés et trouvés dans
+								<lb/>le <term ref="lem015765.03">sabath</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> vivement qu’elle leur
+								<lb/>fait tort en tout ce dont elle les a
+								<lb/>accusé, avoir êté hors d’esprit et mal
+								<lb/>avisée, quand elle les a nommés et
+								<lb/>persisté de dire d’etre tels, qu’elle en
+								<lb/>demandoit pardon à Dieu, pour estre
+								<lb/>presentement toute à luy, avec instance
+								<lb/>et très humbles prières de ne la plus
+								<lb/>questionner la dessus, ayant entièrement
+								<lb/>resigné au <term ref="lem017521">diable</term> et à cette mechante
+								<lb/>beste.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> pourquoy elle avoit tant
+								<lb/>critiqué sur la personne de <persName ref="per028151a.02">Bouquet</persName>
+							<lb/>et demandé qu’on le devoit faire venir
+							<lb/>par devant elle pour luy soutenir,
+							<lb/>en sa presence, qu’il at esté l’incitateur
+							<lb/>de tout ce mal, et pourquoi même
+							<lb/>elle l’at ainsi dit et affirmé derniè<lb break="no"/>rement à la confrontation. <choice><abbr>R</abbr><expan>Répondu</expan></choice> encor
+							<lb/>luy avoir fait tort en tout ce qu’elle
+							<lb/>l’at accusé, et n’estre pas un tel,
+							<lb/>quoy qu’au commancement elle soute<lb break="no"/>noit que la chose, comme elle l’auroit
+							<lb/>dit dans ses examinations, être con<lb break="no"/>formes à la verité.</seg> <seg><choice><abbr>I</abbr><expan>Interrogée</expan></choice> combien de tems
+							<lb/>il a de l’avoir vu chez elle dans sa
+							<lb/>maison. <choice><abbr>R</abbr><expan>Répondu</expan></choice> pas plus qu’<date dur-iso="P1Y">une année</date>.</seg>
+							<seg><lb/><choice><abbr>I</abbr><expan>Interrogée</expan></choice> pour quel sujet elle <del>l’</del>auroit fait
+							<pb n="518r"/> <lb/>demander Monsieur le <term ref="lem014993.01">grand sautier</term><note>Gemeint ist <persName ref="per028146a">Karl Simon Odet</persName>.</note>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> pour
+							<lb/>luy dire et luy communiquer que <persName ref="per028151a.02">Bouquet</persName>
+							<lb/>avoit fait chez elle, sur le foyer, de la fosse
+							<lb/>monnoye, nommement des <term ref="lem019328.02">cruches</term>, ayant porté
+							<lb/>à cette fin une chaudière de delà de <placeName ref="loc005708.04">Gruyères</placeName>&#160;;
+							<lb/>l’emprinte desdites <term ref="lem019328.02">cruches</term> êtoit (à ce qu’elle croit)
+							<lb/>marqué d’un côté d’une croix, ne sçachant la
+							<lb/>marque de l’autre, mais <add place="above">icelle</add> n’en avoir eu ni fait
+							<lb/>commerce dedite monnoye, et s’est du tems que
+							<lb/><persName ref="per028151a.02">Bouquet</persName> fut laché des prisons de <placeName ref="loc007861">Bulle</placeName>, mais
+							<lb/>ne sçavoir bonnement l’année. </seg> <seg>Finalement
+							<lb/><choice><abbr>i</abbr><expan>interrogée</expan></choice> si elle n’a fait du tort ou donné du mal aux
+							<lb/><add place="left margin"><choice><sic>aux</sic><corr></corr></choice></add> hommes et bestes, et comme la chose s’est passée,
+							<lb/>touchant les doigts de son pied, <subst><del><gap reason="illegible" quantity="1" unit="cm"/></del><add place="inline">quand</add></subst> elle
+							<lb/>avoit la figure d’un <term ref="lem019286.01">lièvre</term>, et de dire
+							<lb/>naivement et sincèrement, comme de tems il
+								<lb/>y a qu’elle est <term ref="lem019389.01">sorcière</term> et s’est donnée au
+							<lb/><term ref="lem017521">diable</term>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> resolüment n’avoir donné du
+							<lb/>mal à qui que ce soit, ni à bestes, ni même eu
+							<lb/>la pensée, mais bien que s’étoit donnée
+							<lb/>au <term ref="lem017521">diable</term> il y a environ <date dur-iso="P10Y">10 ans</date>, sans avoir
+							<lb/>pu venir à la connoissance, comme elle
+								<lb/>auroit fait le <term ref="lem019375.02">pact</term>, et avec quelles condi<lb break="no"/>tions&#160;; et pour ce qui regarde la figure du
+							<lb/><term ref="lem019286.01">lièvre</term>, <choice><abbr>r</abbr><expan>répondu</expan></choice> ne s’en plus souvenir.</seg> <seg>La dessus
+							<lb/>elle fut derechef conduite dans sa prison,
+							<lb/>et ainsi s’est terminée cette examination.</seg></p>
+						<p><lb/><placeName ref="loc007890.07">Jacquemars</placeName>, <foreign xml:lang="la"><choice><abbr>pntibus</abbr><expan>presentibus</expan></choice> iisdem</foreign></p>
+						<p><seg><lb/><persName ref="per028151a.05">Jaque Bouquet</persName> fut interrogé <add place="above">pourquoy il estoit icy</add>. <choice><abbr>R</abbr><expan>Répondu</expan></choice> qu’estant
+							<lb/><subst><del>de</del><add place="inline">venu</add></subst> d’<placeName ref="loc011239.02">Esvian</placeName> à <placeName ref="loc007852.09">Chattel Crusuz</placeName>, <persName>Jean François
+							<lb/>Andrey</persName> luy avoit dit qu’il etoit accusé par
+							<lb/><persName ref="per028134a">Catherine Repond</persName> de <placeName ref="loc008195.06">Villarvollard</placeName> d’estre
+							<pb n="518v"/> <lb/><term ref="lem019308.01">sorcier</term>, même que <choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> le major <persName>Musy</persName>,
+							<lb/>l’ayant joint en chemin faisant, luy avoit
+							<lb/>dit et tenu le même discour, se rapportant
+							<lb/>à sa première declaration d’icy, où est
+							<lb/>raport, mais que la detenüe luy faisoit
+							<lb/>grand tort.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> combien de tems il avoit
+								<lb/>qu’il n’auroit frequenté la maison dedite
+								<lb/>detenüe, et s’il n’est pas vray qu’il y
+								<lb/>auroit fondu et battu des <term ref="lem019328.02">cruches</term> faux
+								<lb/>chez icelle à la cuisine, même a<subst><del>l</del><add place="overwritten">v</add></subst>oir
+								<lb/>porté une chaudière de delà de <placeName ref="loc005708.07">Gruyeres</placeName>
+								<lb/>à ce sujet, et eu des instruments pour
+								<lb/>empreinter dite fausse monnoye. <choice><abbr>R</abbr><expan>Répondu</expan></choice> <choice><sic/><corr>qu’il</corr></choice>
+								<lb/>nie entièrement le tout, même avoir
+								<lb/>plus de <date dur-iso="P10Y">10 ans</date> qu’il n’y auroit mis le
+								<lb/>pied dans cette maison, en pretendant être
+								<lb/>en tout innocent de ce dont il est accusé,
+								<lb/>comme d’etre <term ref="lem019308.01">sorcier</term>, d’avoir êté dans des
+								<lb/><term ref="lem015765.04">sabaths</term>, et d’avoir debauché des autres,
+								<lb/>mais bien d’avoir êté chez le fermier
+								<lb/>de <choice><abbr>M<hi rend="sup">r</hi></abbr><expan>Monsieur</expan></choice> le barron <persName>d’Allée</persName> pour s’aider à
+								<lb/>chercher des mines, et pour sa verification
+								<lb/>qu’il en avoit icy, dans son chapeau, à la
+								<lb/>prison (comme il a fait à voir), un petit
+								<lb/>morceau de plomb.</seg> <seg><choice><abbr>I</abbr><expan>Interrogé</expan></choice> d’<placeName ref="loc011239.03">Invian</placeName>, où il s’étoit
+								<lb/>retiré, et s’il n’at pas dit à <placeName ref="loc007678.06">Avry</placeName> en
+								<lb/>entrant au cabaret&#160;: <q>&#160;Voicy le <term ref="lem019308.01">sorcier</term>&#160;!&#160;</q> <choice><abbr>R</abbr><expan>Répondu</expan></choice>
+								<lb/>qu’il êtoit venu à <placeName ref="loc007861">Bulle</placeName> et de là à <placeName ref="loc008196.03">Gumuffens</placeName>,
+								<lb/>et voulant entrer au cabaret, avoit fait
+								<lb/>rencontre des personnes, leur lachoit ces
+								<lb/>paroles&#160;: <q>&#160;Benissez vous&#160;!&#160;</q>, mais point dit&#160;: <q>&#160;Voicy
+								<lb/>le <term ref="lem019308.01">sorcier</term>&#160;!&#160;</q></seg> <seg>Au reste ne declare autrement
+								<lb/>les <term ref="lem019454.02">vols</term> du manteau et de l’obligation
+								<pb n="519r"/> <lb/>que comme il l’auroit explicqué icy sur
+								<lb/><placeName ref="loc007890.07">Jacquemars</placeName>, et à la confrontation dernièrement&#160;;
+								<lb/>et ensuitte de cela il fut derechef conduit
+								<lb/>dans son lieu de seureté.</seg></p>
+								<p><lb/>Idem<note>Gemeint ist <persName ref="per028157">Franz Nikolaus Haberkorn</persName>.</note> <figure type="notarial sign"/>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

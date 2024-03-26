@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-130.13-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 446–447</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 446–447</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Mury-Favre, Nicolas Cugniet – Verhör</head>
+					<head xml:lang="fr">Clauda Mury-Favre, Nicolas Cugniet – Interrogatoire </head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-07-01"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="446"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1647-07-01"><foreign xml:lang="la">i<hi rend="sup">a</hi> julii</foreign> 1647</origDate>
+							<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName>, <choice><abbr>jr</abbr><expan>junker</expan></choice> <persName ref="per013437">von Torny</persName></seg>
+							<seg><lb/><persName ref="per013433a.01">Techterman</persName></seg>
+							<seg><lb/><persName ref="per013434a.01">Des Granges</persName>, <persName ref="per013439a.01">von Montenach</persName></seg></p>
+						<p><seg><lb/><persName ref="per017746a.01">Clauda Fabvre</persName> confirme sa precedente <term ref="lem019465.01">confession</term>, disant
+							<lb/>ne cognoistre autres complices que les trois qui sont il
+							<lb/>n’a guere estees supplicies en ceste ville, les noms desquelles
+							<lb/>sont cy devant<note>Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-130.11-1">SSRQ FR I/2/8 130.11-1</ref>.</note>&#160;; et avoir faict tort a <persName ref="per017761a">Bastalliard</persName>,
+							<lb/><persName ref="per017754a.01">Collard Cugniet</persName> et sa femme, ne sçachant que bien et
+							<lb/>honneur d’eux&#160;; vouldroit qu’elle ehut cogneu ceux et celles
+							<lb/>qui sont estees diverses fois a la <term ref="lem017043">secte</term> avec elle et les accu<lb break="no"/>seroit franchement, affin de tant mieux faire son salut, mais
+							<lb/>ne les ayant cogneu, pour avoir estez masqués avec des masques
+							<lb/>de cuir noir que le <term ref="lem015433.10">maling</term> leur <term ref="lem015635.09">bailloit</term> avant que de venir
+							<lb/>a l’<term ref="lem019394.03">assemblee</term>, ne sçauroit nommer personne que lesdites femmes
+							<lb/>executees, qu’elle cogneut fort bien. Et elle mesme ehut aussy
+							<lb/>une masque comme les autres, laquelle il luy falloit rendre
+							<lb/>a son <term ref="lem019555.05">maistre</term> avant que partir de l’<term ref="lem019394.03">assemblee</term>&#160;; que ceux
+							<lb/>qu’y estoient parloient diverses langue, les uns bourguignon,
+							<lb/>les autres franceois.</seg> <seg>Mais estant surce <term ref="lem019548.07">eslevee</term> avec la
+							<lb/>grande <term ref="lem018285">pierre</term>, dit qu’elle veut dire la verité, et que <persName ref="per017761a">Ba<lb break="no"/>staillard</persName>, <persName ref="per017754a.01">Collard Cugniet</persName> et sa femme estoient aussy bien
+								<lb/><term ref="lem019308.01">sorcier</term> qu’elle, disant a la <term ref="lem019428.01">torture</term> les avoir veu et cogneu
+							<lb/>a la <term ref="lem017043">secte</term> et es <placeName ref="loc011701.05">Achilletes</placeName>&#160;; qu’iceux avoient aussy aydé
+							<lb/>a faire la <term ref="lem018102.02">gresle</term> touttes les fois qu’elle s’y trouva. Mais
+							<lb/>aprés la <term ref="lem019428.01">torture</term>, estant demandee si ainsy estoit que lesdits accu<lb break="no"/>sés feussent ses complices, a dit de <persName ref="per017761a">Bastalliard</persName> et <persName ref="per017754a.01">Collard Cugniet</persName>,
+							<lb/>que ainsy estoit, le leur voullant soustenir devant, mais
+							<lb/>quant a la femme de <persName ref="per017754a.01">Collard Cugniet</persName>, dit s’estre fourvoyee et
+							<lb/>l’avoir accusee a tort, ne l’ayant jamais veu a la <term ref="lem017043">secte</term>,
+							<lb/>ny commettre acte de <term ref="lem018524.02">sortilege</term>, mais bien les autres deux, qui
+							<lb/>feusrent avec elle et s’aydarent a faire la <term ref="lem018102.02">gresle</term> avec
+							<lb/>des verges blanches, ce qu’elle leur soustiendra devant touttes
+							<lb/>et quantes fois qu’on les luy <subst><del>presentera</del><add place="inline">menera</add></subst> devant.</seg>
+							<seg><lb/>Estant surce ledit <persName ref="per017754a.01">Collard Cugniet</persName> confronté avec elle,
+							<lb/>elle luy dit et soustient devant qu’il estoit l’un de ses
+								<pb n="447"/><lb/>complices et avoit esté a la <term ref="lem017043">secte</term> et <term ref="lem019394.03">assemblee</term> vers la fontaine
+							<lb/>des <placeName ref="loc011701.06">Aschilletes</placeName> au <placeName ref="loc008144.04">Gybliaux</placeName>, et y avoit s’aydé a faire la <term ref="lem018102.02">gresle</term>
+							<lb/>avec verges blanches comme les autres, et c’est desja avant
+							<lb/><date dur-iso="P6Y">6 ans</date> ou a l’environ. Et si bien elle ne l’auroit veu par
+							<lb/>le visage pour avoir esté masqué d’une masque de cuir
+							<lb/>noir, si pourtant elle le cogneut fort bien a sa parrole et
+							<lb/>a ses <term ref="lem018526.04">hault de chausses</term> blanches de toille. Surquoy ledit <persName ref="per017754a.01">Col<lb break="no"/>lard</persName> sans aucunement s’<term ref="lem017888.02">esblanler</term>, luy repartyst qu’elle estoit
+							<lb/>miserablement damnee de dire une chose, aydant Dieu,
+							<lb/>jamais advenue, et qu’elle devoit faire son salut et
+							<lb/>entrer en sa conscience, sçachant <add place="above" type="sign">bien</add> elle mesme qu’il luy ar<lb break="no"/>rivoit grand tort et qu’elle l’accusoit mechament, et par
+								<lb/>rancune, <add place="above" type="sign">a cause</add> des desbats ehuz avec elle, disant qu’elle ne le pour<lb break="no"/>ra <add place="above" type="sign">soustenir</add> devant Dieu, qui sçait et cognoit les <term ref="lem014871.04">coeurs</term> des hommes,
+							<lb/>ny devant le monde, <subst><del>soustenir</del><add place="inline">et si elle</add></subst> debvroit mourir
+							<lb/>sur ceste fausse accusation, qu’elle ne pourroit estre pardonnee
+							<lb/>du grand tort et injure qu’elle luy faict, ains seroit infal<lb break="no"/>liblement damnee et periroit a jamais. Mais elle luy <add place="above" type="sign">dit</add> que
+							<lb/>ainsy estoit, l’ayant fort bien cogneu a la parrole, ne voul<lb break="no"/>lant retracter cet <term ref="lem015358.07">accoulpe</term>, disant qu’elle ne luy faisoit
+							<lb/>point de tort, ce que <persName ref="per017754a.01">Collard</persName> nyoit constament et luy
+							<lb/>disoit&#160;: <q>&#160;Pauvre miserable que tu es, de ainsyn faire tort
+							<lb/>a ton prochain, qui n’a jamais ehu pensee a commettre tel
+								<lb/><term ref="lem019494.01">crime</term>. Entre en toy mesme, si tu veuz estre sauvee&#160;!&#160;</q>&#160;; ce que
+							<lb/>il disoit avec d’autres et semblables parroles. Mais elle
+							<lb/>demeura tousjours constante, sans aucune retraction, et
+							<lb/>dit, aprés que <persName ref="per017754a.01">Collard</persName> fust separé, qu’on ne la debvoit
+								<lb/>plus <term ref="lem019427.01">torturer</term>, que peut estre on luy fairoit dire plus que
+							<lb/>elle ne sçait.</seg> <seg>Enquise lesquels avoient le nom d’estre
+								<lb/><term ref="lem019308.02">sorciers</term> en leur contree, dit qu’il y en a plusieurs et en<lb break="no"/>tre autres le <term ref="lem015025.04">meusnier</term> de <placeName ref="loc007935.10">Farvagnye</placeName>, mais ne le sçait
+								<lb/>que par un bruit commun, ne <del>ne</del> les ayant, ny ledit <term ref="lem015025.04">meu<lb break="no"/>snier</term>, jamais veu a la <term ref="lem017043">secte</term>, ny ailleurs commettre acte
+							<lb/>de <term ref="lem018521.01">sorcellerie</term>, et si elle le diroit, qu’elle leur fairoit tort,
+							<lb/>mais quant a <persName ref="per017761a">Bastalliard</persName> et <persName ref="per017754a.01">Collard Cugniet</persName> demeure con<lb break="no"/>stante et <term ref="lem019498">crie mercy</term>.</seg></p>
+				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

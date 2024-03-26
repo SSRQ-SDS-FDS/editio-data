@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-174.11-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 294–295</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 294–295</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elisabeth Morand-Favre – Verhör</head>
+					<head xml:lang="fr">Elisabeth Morand-Favre – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1668-04-20"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="294"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1668-04-20">20 <foreign xml:lang="la">aprilis</foreign> 1668</origDate></p>
+						<p><seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026314a">Karl von Montenach</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term><note>Gemeint ist <persName ref="per026065a">Joseph Reyff</persName>.</note>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per026329a.01">Schrötter</persName></seg>
+							<seg><lb/><persName ref="per026077a.01">Küenli</persName>, <persName ref="per026078a.01">Vonderweidt</persName>, <persName ref="per013439a.02">Montenach</persName></seg>
+							<seg><lb/><persName ref="per026315a.01">Techterman</persName></seg></p>
+						<p><lb/><persName ref="per017167b.01">Elsi Fabvre</persName> <term ref="lem019427.06">torturée</term> avec le demie <term ref="lem018232">quintal</term> par
+							<lb/>trois <term ref="lem019550.03">elevations</term>, soustient de ne se pas souvenir
+							<lb/>que meister <persName>Franz</persName> le <term ref="lem019397.01">barbier</term> luy ayt deffendu
+							<lb/>de ne luy plus porter des herbes. <term ref="lem015549.13">Confesse</term>
+						<lb/>d’avoir esté chez <persName>Hausi Bergier</persName>, mais que
+						<lb/>sa femme ne taittoit pas son enfant. Nie
+						<lb/>que <persName>Jaquoz</persName> luy ayt fait defence de ne se
+							<lb/>plus treuver devant sa maison. <term ref="lem015549.13">Confesse</term>
+						<lb/>d’avoir porté des tablettes à <persName>Pierre Chardonnens</persName>,
+						<lb/>lesquelles elle avoit prinses chez <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName>Philip Zollet</persName>,
+						<lb/>puisque il l’avoit priée de luy apporter quelque
+							<lb/>chose. <term ref="lem015549.13">Confesse</term> que <persName>Claude Bergier</persName> l’at eu
+							<pb n="295"/><lb/>appellée <term ref="lem019389.02">sorciere</term>, mais estant pour ce fait cité à
+						<lb/><placeName ref="loc007655.12">Montagniez</placeName> et la cause venue à <placeName ref="loc001060.04">Frybourg</placeName>, il
+						<lb/>luy en a fallu faire reparation, avec promesses
+							<lb/>par l’atouchement du baston<note>L’article 40 de la Municipale de 1600, consacré aux «&#160;promesses au droict&#160;», précise que Fribourg
+							demeure le for pour toute action en justice intentée en cette ville, et que, dès lors, tout étranger souhaitant poursuivre un bourgeois, un habitant, un sujet ou même
+							un étranger de passage, doit promettre de respecter le «&#160;droict et congnoissance d’ici&#160;», étant exclu tout recours devant une cour d’appel extérieure. Cette promesse
+							doit être faite «&#160;par le baston judicial&#160;»
+							(<bibl><ref target="http://permalink.snl.ch/bib/chbsg991001260648403977">Schnell 1898</ref>, p.&#160;48–49</bibl>).</note>, qu’il ne le disoit
+						<lb/>plus. Dit que cella est arrivé pendant la prefecture
+							<lb/>de <choice><abbr>m<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <persName ref="per026304a.02">Zurthannen</persName><note><persName ref="per026304a">Stefan Zurthannen</persName> war Vogt von Montagny von 1652 bis 1657.</note>, de quoi elle en at un escript.
+						<lb/><term ref="lem015549.13">Confesse</term> d’avoir fait le reproche à <persName ref="per026682a.02">Magdelon
+						<lb/>Cossonez</persName> par devant son pere, touchant le discurs
+						<lb/>qu’elle doibt avoir tenu, mais nie entierement
+						<lb/>d’avoir esté de nuict avec elle, et de l’avoir veue
+						<lb/>ou luy avoir parlé en aulcun lieu, hormis à l’esglise
+						<lb/>et au village, persistant par ainsi constament
+						<lb/>dans ses precedentes negatifves, et declarant de
+						<lb/>tout souffrir pour l’amour de Dieu et de sa <choice><abbr>S<hi rend="sup">te</hi></abbr><expan>Sainte</expan></choice>
+						<lb/>Mere, auxquels comme aussi à <choice><abbr>V E</abbr><expan>vos Excellences</expan></choice> elle se recom<lb break="no"/>mande tres humblement.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

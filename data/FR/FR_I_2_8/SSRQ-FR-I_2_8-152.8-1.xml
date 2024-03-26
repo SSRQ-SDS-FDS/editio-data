@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-152.8-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 206–207</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 206–207</idno>
+					</msIdentifier>
+					<head xml:lang="de">Tichtli Balmer-Gretz – Verhör und Urteil</head>
+					<head xml:lang="fr">Tichtli Balmer-Gretz – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1651-05-26" to="1651-06-01"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="206"/><p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-05-26">26<hi rend="sup">ten</hi> <foreign xml:lang="la">maii</foreign> 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013975">Franz Peter Vonderweid</persName>.</note></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.05">von Montenach</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079a.02">Zurmatten</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018141a.01">Burgki</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><seg><lb/><persName ref="per020277a">Tichtli Gretz</persName> durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts, nach dem
+							<lb/>sie zum andermahl mit dem großen <term ref="lem018287">stein</term> <term ref="lem006574.01">gefoltert</term>
+							<lb/><add place="left margin">worden</add>, examiniert, hat <subst><del>s</del><add place="overwritten">i</add></subst>hr vorig gethane <term ref="lem016794.03">bekandtnuß</term>
+							<lb/><add place="left margin">vorauß</add> bekräfftiget und fehrners <term ref="lem011468.03">bekhendt</term>, wie sie 5 <add place="inline">oder 6
+							<lb/>mahl</add> durch den <term ref="lem014673.13">bößen feindt</term>, der sie beim arm dahin
+							<lb/>geführt, in der <term ref="lem017042.03">sect</term> erschinnen seye in der <placeName ref="loc012252.01">Stockera</placeName>
+							<lb/>zwischen <placeName ref="loc008045.05">Taspers</placeName> und <placeName ref="loc008467.03">Hermesperg</placeName><note>Die <placeName ref="loc012252">Stockera</placeName> liegt nicht auf dem Weg zwischen <placeName ref="loc008045">Tasberg</placeName> und <placeName ref="loc008467">Hermisberg</placeName>.</note>, alda ein <term ref="lem000548.02">riedt</term> ist.
+							<lb/>Da sie als dan ein große anzahl der <term ref="lem007357.04">unholden</term>
+							<lb/>vermummet befunden und khein andere erkhennen
+							<lb/>mögen als die hingerichte <persName ref="per019247a.02">Elsi Zossu</persName>. Dennen
+							<lb/>sie danzend zu gesehen, alwo auch der <term ref="lem014673.04">böß feindt</term>,
+							<lb/><add place="left margin">der</add> die kleidung einer <term ref="lem019165.01">Walliserin</term>, so sich im <term ref="lem002256.10">ehe bruch</term>
+							<lb/>deß tags (nach dem sie das hochwirdig <term ref="lem005136.01">sacrament</term>
+							<lb/>genoßen hate) <term ref="lem015245.01">vergriffen</term>, angezogen sich befunden,
+							<lb/>und sey solches uff ein festtag geschechen. Will
+							<lb/>kheines wegs sich <term ref="lem015197.05">uppiglich</term> mit dem <term ref="lem014673.04">böß feindt</term>,
+							<lb/><subst><del>e</del><add place="overwritten">o</add></subst>hngeacht sie durch ihn darzu <term ref="lem006676.02">solicitiert</term> worden,
+							<pb n="207"/><lb/><term ref="lem015245.01">vergriffen</term> haben.</seg> <seg>Mehr hat sie anzeigt, das, als sie
+							<lb/>zu <placeName ref="loc001504.09">Haßli</placeName> im <placeName ref="loc005966.03">Endlibuch</placeName> in der <term ref="lem007357.04">unholden</term> versamlung
+							<lb/>sich befunden, mit siben auß selbiger gegendt weiber
+							<lb/>sambt einem knaben, welcher von seiner mutter
+								<lb/><term ref="lem004315.11">fögili</term> zu machen gelehrnet hate, <subst><del>wol</del><add place="overwritten">habe</add></subst> <add place="above">er die</add> <term ref="lem017051">kunst</term> <del>er</del>
+							<lb/>domahlen practiciert. Die in der <term ref="lem017042.05">seckt</term>
+							<lb/>gehabte <term ref="lem000187.16">speysen</term> siendt <del>(<foreign xml:lang="la">reverender</foreign>)</del> dem äuserlichen
+							<lb/>ansehen nach zwar <term ref="lem000187.10">speißen</term> und aber innerlich
+								<lb/><term ref="lem017074.05">roß kadt</term> (<foreign xml:lang="la">reverender</foreign>) geweßen.</seg> <seg>Will von keiner
+							<lb/><term ref="lem011441.10">gespillin</term> nicht wissen, zwar nach hören sagen
+									<lb/><subst><del>d</del><add place="overwritten">u</add></subst>nd dem gemeinen <term ref="lem001980.01">geschrey</term> sey die <persName ref="per020284b">Michelina</persName>
+							<lb/>sowoll als sie der <term ref="lem014672.06">hexeri</term> verdacht, welche
+							<lb/>underschidliche personen solle <term ref="lem018557.02">maleficiert</term> haben.
+									<lb/>Bittet gott und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice> umb <term ref="lem004684.17">verzeüchung</term>.</seg></p>
+						<p><lb/><add place="left margin">Den <origDate when="1651-06-01">1<hi rend="sup">ten</hi> <foreign xml:lang="la">juni</foreign> 1651</origDate>
+							<lb/>mit <add place="above">der</add> <term ref="lem004668.02">strangen</term> hing<lb break="no"/>richtet, <term ref="lem019166.02">eingeeschert</term>
+						<lb/>worden.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire, à la p. 206.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

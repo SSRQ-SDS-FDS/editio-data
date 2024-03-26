@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-153.4-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 15, S. 210</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 15, p. 210</idno>
+					</msIdentifier>
+					<head xml:lang="de">Elsi Balmer – Verhör</head>
+					<head xml:lang="fr">Elsi Balmer – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-06-09"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.20">Thurn</placeName></hi>, den <origDate when="1651-06-09">9<hi rend="sup">ten</hi> juni 1651</origDate>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006840a.01">Fleischman</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per009276a.02">Gottrauw</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per006523a.03">Caspar von Montenach</persName>, <abbr>h<hi rend="sup">r</hi></abbr> <persName ref="per018079">Ludwig Zurmatten</persName></seg>
+							<seg><lb/><abbr>H<hi rend="sup">r</hi></abbr> <persName ref="per018085a.01">Adam</persName></seg></p>
+						<p><seg><lb/><persName ref="per020291a">Elsi Balmer</persName> ist durch <choice><abbr>m h</abbr><expan>meine herren</expan></choice> des gerichts über
+							<lb/>den inhalt des uffgenommnen <term ref="lem003708">examen</term> aber<lb break="no"/>mahlen und <add place="above">über</add> andere noch fürkommne punckten
+							<lb/>bey der <time dur-iso="PT3H">drey stundige</time> <term ref="lem015170.07">zwehelen</term> <term ref="lem013000.01">tortur</term> exa<lb break="no"/>miniert worden. Wil nichts, ob sie gleich woll <subst><del>die</del><add place="overwritten">der</add></subst>
+							<lb/>mitgeloffnen umbstenden <term ref="lem011898.03">bekhandtlich</term> ist worden,
+							<lb/><term ref="lem018558.03">maleficisch</term> begangen <choice><sic>zhaben</sic><corr>zehaben</corr></choice>.</seg> <seg> Und sagt, es möchte
+							<lb/>zwar der <persName>Barbli Kramer</persName> mit jenige <term ref="lem010372.04">schissel</term>
+							<lb/>voller <term ref="lem004519.05">eschen</term> und mit gesprochnen worten, wie sie
+							<lb/>es von der <persName>Eggera</persName> erlehrnet, da selbige
+							<lb/>ihr auch das <term ref="lem005081.02">haubt</term> <term ref="lem014889.03">wehe</term> darmit benommen, sein
+								<lb/>geholffen worden.</seg> <seg>Ihr were <add place="above">auch</add> durch <persName>Petter
+							<lb/>Lienhardt</persName> zwar der jennigen zu gesprochnen
+							<lb/>worten <add place="above">halber</add> ein <term ref="lem009510.04">verwiß</term> geschechen, welcher sie verdächtlich
+							<lb/>der <term ref="lem014672.06">hexeri</term> <term ref="lem005728">angezogen</term>. Des wegen sie ihme
+									<lb/>angezeigt: <q>Sagst du dan, ich sey ein <term ref="lem006693.02">hex</term>?</q> Und
+							<lb/>ihn erfragt, wie ihme dan seye? Da, <add place="above">als</add> er geandt<lb break="no"/>wortet, das ihme nicht woll sey, <del> hab uff</del> sie
+							<lb/>ihme zur antwort gesagt in gutter und <subst><del> in khein</del><add place="inline">nicht
+							<lb/>in</add></subst> bößer meinung: <q>Es wirdt baldt beßer
+								<lb/>werden.</q> Bittet gott und <choice><abbr>m g h</abbr><expan>meine gnädige herren</expan></choice>
+							<lb/>umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

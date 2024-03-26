@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-203.2-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 17, fol. 8r–9r</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 17, fol. 8r–9r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Clauda Emery – Verhör</head>
+					<head xml:lang="fr">Clauda Emery – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1679-05-05"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div><pb n="8r"/><p><lb/><placeName ref="loc008105">Keller</placeName>, frytag, den <origDate when="1679-05-05">5<hi rend="sup">ten</hi> meyen <hi rend="underline">1679</hi></origDate>
+							<seg><lb/><foreign xml:lang="la">Judex</foreign> <abbr>h</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per027527">Petermann Reynold</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <term ref="lem018597.02">burgermeister</term> <persName ref="per027528a.01">Fegeli</persName></seg>
+							<seg><lb/>LX <abbr>h</abbr> <persName ref="per027532a.01">Amman</persName>, <abbr>h</abbr> <persName ref="per026070a.02">Rudolph Rämi</persName></seg>
+							<seg><lb/>Burgern <abbr>h</abbr> <persName ref="per027531a.01">Odet</persName></seg></p>
+						<p><seg><lb/><persName ref="per021271a.01">Claudaz Emeri</persName>, de la parroisse dʼ<placeName ref="loc007902.02">Escuvillens</placeName>, interro<lb break="no"/>gée du subject de sa detention, a respondu que cʼest à
+						<lb/><choice><sic>à</sic><corr></corr></choice> cause des fausses langues, et particulierement de ce
+						<lb/>que dernierement certaine femme du <placeName ref="loc008489.03">Petit Farvagny</placeName>
+						<lb/>nommée <persName>Agny</persName> la vient demander par fausses en<lb break="no"/>seignes pour aller à <placeName ref="loc008345">Posat</placeName>, luy disant quʼune dame
+						<lb/>lʼattendoit la pour luy faire faire une <term>neufvies<lb break="no"/>me</term><note>Le sens de ce mot demeure incertain&#160;; un rapprochement avec <term ref="lem019297">neuvaine</term> peut être envisagé.</note>, dequoy faisoit quelque difficulté, mais luy ayant
+						<lb/><add place="left margin">dit</add> quʼon avoit remonstré à ladite dame quʼil nʼy en avoit
+						<lb/>point de plus propre quʼelle, attendu quʼelle jeus<lb break="no"/>noit et prioit bien, elle condescendit&#160;; ou estant
+						<lb/>arrivée, elle trouva la fillie de ladite <persName>Agni</persName> posse<lb break="no"/>dée des <term ref="lem015433.18">malins</term>, laquelle lʼaccusoit de les luy
+						<lb/>avoir donnés et mis dans le corps, et la mere
+						<lb/>luy en disoit le mesme, et la voulloit contraindre
+						<lb/>de les luy oster. Dequoy elle fust bien surprise
+						<lb/>et estonnée, voyant que par fausses enseignes
+						<lb/>on lʼavoit la menée, et quʼon la voulloit obliger
+						<lb/>dʼoster et lever un mal quʼelle nʼavoit pas faict
+						<lb/>ny donné. Se declarant et asseurant inno<lb break="no"/>cente du soupçon de <term ref="lem018521.01">sorcellerie</term>, quʼon avoit dʼelle,
+						<lb/>disant quʼau contraire si on la cognoissoit bien,
+						<lb/>on en tiendroit plus de compte quʼon ne faict.</seg>
+						<seg><lb/>Sur quoy on a pris occasion de luy demander la raison
+						<lb/>pour laquelle on en tiendroit du compte, asçavoir
+						<lb/>si elle avoit quelques visions particulieres. Elle nʼa
+						<lb/>rien sceu dire, sinon quʼelle prioit assiduement
+						<lb/>tous les jours son rosaire, quʼelle estoit de la
+						<lb/><orgName>confrairie du <choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Saint</expan></choice> Scapulaire</orgName><note>Apollinaire Dellion ne
+							mentionne pas de confrérie du Saint-Scapulaire à Corpataux ni, plus généralement, dans la paroisse dʼEcuvillens. <bibl><ref target="http://permalink.snl.ch/bib/chbsg991001260647903977">Dellion</ref>, vol. 5, 1886, p. 29ss</bibl>.</note>, quʼelle jeusnoit
+						<lb/>exactement et faisoit bien tous les debvoirs dʼune
+						<lb/>bonne crestienne et <term ref="lem019534.03">catholicque</term>.</seg></p>
+						<pb n="8v"/><p><lb/>Interrogée si elle nʼavoit donné du pain à ladite fillie
+						<lb/>dʼ<persName>Agny</persName>, presentement <term ref="lem019502.03">possedée</term> des <term ref="lem015433.18">malins</term>, le nioit tout
+						<lb/>a faict au commencement. Mais enfin a <term ref="lem015549.07">confessé</term> luy
+						<lb/>avoir, à lʼinstance et par commandement de sa mere,
+						<lb/>donné un morceau de pain tressé, disant quʼelle
+						<lb/>luy faict grand tort de la soupçonner de luy
+						<lb/>avoir par ce moyen donné les <term ref="lem015433.18">malins</term>.</p>
+						<p><lb/>Interrogée sur tous les articles des deux examens,
+						<lb/>les a tous niés, sauf les suivants avec leurs
+						<lb/>explications et interpretations annexées.
+						<lb/>Mesme ne voulloit respondre à la pluspart
+						<lb/>desdits articles et <term ref="lem017003.03">interrogats</term> sur iceux à elle faicts,
+						<lb/>les voullant faire passer pour bagatelles et
+						<lb/>choses qui ne meritent dʼen parler.</p>
+						<p><lb/>Dans la negative quʼelle a faicte <add place="above">de</add> <subst><del>d</del><add place="overwritten">n</add></subst>ʼavoir esté à
+						<lb/><placeName ref="loc008143">Rossens</placeName> au temps de lʼincendie survenue, elle
+						<lb/>a adjousté quʼelle estoit à <placeName ref="loc001060.04">Frybourg</placeName> chez la <persName>S<hi rend="sup">t</hi>
+						<lb/>Bernarda</persName>, et que cʼest le fils de celuy ou le
+						<lb/><term ref="lem014953.01">feu</term> se prit, qui lʼa causé, en voullant faire
+						<lb/>un <term>chaffeiruz</term><note>Le sens de ce mot demeure incertain. Il pourrait désigner un <term ref="lem019263">chauffoir</term>.</note> comme il avoit veu faire. Et
+						<lb/>luy ayant esté representé comme elle estoit con<lb break="no"/>vaincue par tesmoins dʼavoir esté trouvée
+						<lb/>entre <placeName ref="loc008143">Rossens</placeName> et <placeName ref="loc008128.03">Corpastaux</placeName>, quʼelle sʼen alloit,
+						<lb/>lʼa entierement nié, persistant dʼavoir esté à
+						<lb/><placeName ref="loc001060.04">Frybourg</placeName> audit temps.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> que par mesgard <persName>Rudolph Clerc</persName> avoit pris
+						<lb/>ses <term ref="lem014866.04">soliers</term> pour venir à <placeName ref="loc001060.04">Frybourg</placeName>, mais nie dʼavoir
+						<lb/>sceu quʼil fust esté embourbé jusques à ce quʼil
+						<lb/>fust de retour, quʼelle vid ses <term ref="lem014866.05">soulliers</term> tout chargé
+						<lb/>de <term ref="lem019257.02">paccot</term> et de boue.</p>
+						<p><lb/>Ne veut <term ref="lem015549.01">confesser</term> dʼavoir faict rencontre de
+						<lb/>lʼattelage dʼ<placeName ref="loc010298.10">Auterive</placeName> comme est contenu en
+						<lb/>lʼexamen, mais <term ref="lem015549.13">confesse</term> dʼavoir conseillé à
+						<lb/><persName>Antoine Moullet</persName>, lors grand charretier dʼ<placeName ref="loc010298.10">Au<lb break="no"/>terive</placeName>, de faire dire une messe et offrir à
+							<lb/>un trezi de <term ref="lem018992.03">chandelles</term><note>Le fait dʼallumer treize chandelles dans une chambre est un rituel superstitieux destiné à stimuler la guérison dʼun malade (<bibl>Thiers Jean-Baptiste, Traité des superstitions qui regardent les sacrements, Paris: Jean de Nully, 1704</bibl>, p. 366–367).</note>, ainsy que les clercs <add place="bottom" type="catchword">avoyent</add>
+						<pb n="9r"/><lb/><choice><sic>avoyent</sic><corr></corr></choice> eu faict, et qui sʼen estoyent bien trouvés,
+						<lb/>niant dʼavoir faict renverser des <term ref="lem015610.07">chariots</term> le
+						<lb/><term ref="lem019258.01">contremont</term>, mais que cʼest <persName>Antoine Moullet</persName> pre<lb break="no"/>nommé qui en sçait le secret, ayant mis des <term ref="lem019299.02">che<lb break="no"/>neuuille</term> soubs la  roue.</p>
+						<p><lb/>Ne veut <term ref="lem015549.01">confesser</term> dʼavoir esté quelque fois esgratignée,
+						<lb/>mais <term ref="lem015549.13">confesse</term> dʼavoir eu quelques fois de la <term ref="lem018034.01">rogne</term> ou
+						<lb/><term ref="lem019262.02">galle</term> le soir, et quʼelle estoit desja guerie le
+						<lb/>matin.</p>
+						<p><lb/><term ref="lem015549.13">Confesse</term> dʼavoir quelques fois <term ref="lem019223.04">glainé</term> les festes et diman<lb break="no"/>ches, sans croire dʼavoir mal faict, disant quʼon
+						<lb/>cueillit bien les <term ref="lem015764.03">griettes</term> ledits jours, pourquoy ne
+						<lb/>pas <term ref="lem019223.03">glainer</term> du bled en son chemin&#160;?</p>
+						<p><lb/>Et sur ce qui luy a esté proposé pourquoy elle faisoit
+						<lb/>tant de bruit la nuict, elle a respondu quʼelle avoit
+						<lb/>de coustume de prier haut, affin quʼelle sʼentendit
+						<lb/>prier, ne sçachant prier autrement la nuict,
+							<lb/>voullant estre entierement innocente du <term ref="lem019494.01">crime</term>
+						<lb/>duquel est soupçonnée. Au contraire voudroit
+						<lb/>persuader que si on la cognoissoit bien, on en feroit
+						<lb/>grand <add place="above">cas</add>, ayant au surplus tout nié.</p>
+						<p><lb/><persName ref="per027533a.02">Petrus
+						<lb/>Maretoud</persName>, <figure type="notarial sign"/> notaire</p>
+	 				</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

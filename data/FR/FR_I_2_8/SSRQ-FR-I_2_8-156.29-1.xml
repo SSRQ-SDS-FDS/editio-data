@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-11-24"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-156.29-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Ratsmanual 202 (1651), fol. 157v–158r</idno>
+						<idno xml:lang="fr">AEF, Ratsmanual 202 (1651), fol. 157v–158r</idno>
+					</msIdentifier>
+					<head xml:lang="de">Pierre Ducli der Sohn / le fils, Pierre Ducli der Vater / le père – Urteil</head>
+					<head xml:lang="fr">Pierre Ducli der Sohn / le fils, Pierre Ducli der Vater / le père – Jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate when="1651-08-05">5<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1651</origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term ref="key000956"/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="157v"/><p><lb/><term ref="lem004395">Blutgericht</term></p>
+						<p><seg><lb/><persName ref="per020483a.06">Pierre Ducly, der jung</persName>, <add place="above"><measure type="age" quantity="20" unit="year">20 jhärig</measure></add> von <placeName ref="loc008073.04">Mattran</placeName>, welcher in dem an ihnne verübten <term ref="lem002679.16">keyser<lb break="no"/>lichen rechten</term> unnd extraordinarischen <term ref="lem013000.07">torturen</term> <term ref="lem001236.13">verjähen</term> unnd <term ref="lem011468.02">bekendt</term>,
+							<lb/>das er in einer roßweyd, alwo der <term ref="lem014673">böße feind</term>, <persName ref="per029450a.01">Tortzi</persName> genant, vor <date dur-iso="P5Y">5 jharen</date>
+							<lb/>gott den allmechtigen unnd alles himlisch <term ref="lem014456">heer</term> <term ref="lem016063.05">verlaugnet</term> unnd sich disem
+							<lb/><term ref="lem011429.13">bößen geist</term> <term ref="lem018858.01">ergeben</term> unnd etwas unthaten <term ref="lem018664.02">bößwichtig</term> verbracht. Derohalben
+							<lb/>er zum <term ref="lem012936.03">füwr</term> lebendig unnd zum <term ref="lem012942.05">schleipfen</term> verdampt worden mit <term ref="lem003906.01">confis<lb break="no"/>cation</term> syner haab unnd güttern.</seg> <seg>Wan aber syn hienachgenanter
+								<lb/>vatter ihnne <subst><del>ohn</del><add place="inline">sonder</add></subst> allen zwyffell werde zu disen <term ref="lem019363.01">hauptlaster</term>
+							<lb/><subst><del>ihme</del><add place="inline">verführt</add></subst> haben, wylen er auch, wie härnach zu sehen, ein <term ref="lem014741">strudler</term>
+							<lb/>ist, hatt man uß diser <add place="above">ursach</add> unnd innsonderheit, das er noch jung unndt
+							<lb/>unerzogen, ihnne des <term ref="lem012941.03">schleipfens</term> erlassen. Unnd zumahlen dise gnad
+							<lb/>bewisen, das er solle mit dem <term ref="lem007052.03">schwerdt</term> vom leben zum todt gericht, <subst><del><gap reason="illegible" unit="character" quantity="4"/></del><add place="overwritten">bevor</add></subst>
+							<lb/>der <term ref="lem016899.03">schleipffen</term> erlassen, unnd nachmahls in das <term ref="lem012936.03">füwr</term> gestürtzt werden.
+								<lb/>Hiemit <term ref="lem012806">begnade</term> gott die seell.</seg></p>
+						<p><seg><lb/><persName ref="per020477a.03">Pierre Ducly, der alt</persName>, obgemelts <term ref="lem001472.01">maleficanten</term> vatter, der auch <term ref="lem011468.02">bekendt</term>
+							<lb/>hatt, gott den herren vor ohngefahrlich <date dur-iso="P10Y">10 jahren</date> abgesagt unnd den
+							<lb/><term ref="lem011429">bösen geist</term> namens <persName ref="per029451a">Gryffon</persName> die huld zugesagt unnd vermittlest
+							<pb n="158r"/><lb/>teüfflischer <term ref="lem011432.02">salb</term> will menschen <term ref="lem018557.02">maleficiert</term> unnd zum tod gericht, auch solliche haupt<lb break="no"/>lästerliche unthaten mehr gewürckht zu haben. Neben dem er jüngsthin syn eigen
+							<lb/>hauß fürsetzlich <term ref="lem018824">angesteckht</term>, darvon die kirchen zu <placeName ref="loc008073.04">Mattran</placeName>, alwo <add place="above">er</add> <term ref="lem018731.01">kirchspälig</term> war,
+							<lb/>unnd noch andere <term ref="lem002013.04">paurenhöff</term> eingeäscheret worden.</seg> <seg>Dodan er gericht unndt
+							<lb/>geurtheillet worden, das er namblichen solle in sechs underschydenlichen orthen
+								<lb/>synes armseligen außgespanten <term ref="lem000271.04">lybs</term> mit <term ref="lem016460.03">fürigen</term> <term ref="lem021889.03">zangen</term> <term ref="lem015195.03">gezäpft</term>, uff einer
+							<lb/><term ref="lem016899.07">schleipfen</term> gebunden, zum <placeName ref="loc008248.02">Galgenberg</placeName> also geführt, unnd alda uff einer <term ref="lem016524.08">bloch</term>-
+							<lb/>oder <term ref="lem019163.03">stoßleiteren</term> angemacht, volgends lebendig in das <term ref="lem012936.03">füwr</term> gestürtzt
+							<lb/>werden mit confiscation syner gütteren. <del>Uß gnad aber ward er des zäpfens</del>
+							<lb/><add place="inline">Ohne gnad.</add></seg> <seg>Desselben vatter hatt sich selbs im <term ref="lem014073.02">schopff</term> erhenkt, massen er selbs
+								<lb/>in jetzigen <term ref="lem004405">banden</term> <term ref="lem011468.02">bekendt</term> hatt. Ihnne aber, ob wäre <add place="above">er</add> eines ehrlichen todts verschiden,
+							<lb/>uff dem <del>dem</del> <term ref="lem001170.01">kirchhoff</term> bestatten lassen.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

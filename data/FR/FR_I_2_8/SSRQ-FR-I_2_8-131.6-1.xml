@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-131.6-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 457–458</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 457–458</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jenon Romanens – Verhör</head>
+					<head xml:lang="fr">Jenon Romanens – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1647-08-13"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="457"/><p><lb/><placeName ref="loc008105">Keller</placeName>, <origDate when="1647-08-13">13<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1647</origDate>
+						<seg><lb/><abbr>Hr</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per013436">Hans Rudolf Vonderweid</persName>.</note></seg>
+						<seg><lb/><choice><abbr>Jr</abbr><expan>Junker</expan></choice> <persName ref="per013437">von Torny</persName></seg>
+						<seg><lb/><persName ref="per006528a.03">Possardt</persName>, <persName ref="per006817a.02">Schaller</persName></seg>
+						<seg><lb/><persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><seg><lb/><persName ref="per017764a.05">Jenon Romannin</persName>, qui demeuroit au grenier pres du <placeName ref="loc008545.05">Walryß</placeName>, enquise
+							<lb/>pourquoy elle s’avoit nommee d’<persName>Obermontenach</persName><note>Jenon est ainsi nommée le <date when="1647-08-09">9</date> et le <date when="1647-08-12">12 août</date>. Voir <ref target="urn:ssrq:SSRQ-FR-I_2_8-131.3-1">SSRQ FR I/2/8 131.3-1</ref> et <ref target="urn:ssrq:SSRQ-FR-I_2_8-131.4-1">SSRQ FR I/2/8 131.4-1</ref>.</note>, que pourtant par sa
+							<lb/>propre <term ref="lem019465.01">confession</term> elle se nomme <persName>Rommannin</persName>, fille de feu <persName ref="per017767b.01">Peter<lb break="no"/>man Romannin</persName>
+							de <placeName ref="loc008196.03">Gumuffens</placeName>, qui desja avant plusieures an<lb break="no"/>nees est mort a la guerre&#160;?
+							Dit qu’elle mesme s’estonne d’avoir
+						<lb/>dit une chose pour l’autre, estre mesmement toutte troublee du
+						<lb/>malheur qu’il luy arrive pour estre ainsy accusee a tort et
+						<lb/>detenue es prisons, soustenant aprés dheue examination n’estre
+							<lb/>aucunement atteinte du <term ref="lem019539.02">peché</term> de <term ref="lem018521.01">sorcellerie</term>, ains s’estre dés
+						<lb/>son enfance jusques a present comportee en ceste ville (ou elle a tous<lb break="no"/>jours demeuré), comme appartient a une fille d’honneur, sans
+						<lb/>jamais offencer personne.</seg> <seg>Quant au petit <term ref="lem017275">Bourguignon</term>
+						<lb/>qui doit avoir veu choses supernaturelles et effroyables,
+						<lb/>dit qu’elle n’en sçait rien&#160;; bien <add place="above">luy</add> dit elle qu’il devoit aller
+					<pb n="458"/><lb/>veoir vers le jeu des quilles s’il y avoit des escolliers, parce que
+						<lb/>ayant veu passer par la le jeusne <persName>Lang</persName>, croyoit qu’il y seroit
+						<lb/>avec d’autres, et s’il y a trouvé des hommes comme il dit (que
+						<lb/>portant ne se peut facilement croire) n’en estre aucunement culpable,
+						<lb/>ny la cause. Nye aussy d’avoir oncques dit qu’un homme noir qui
+						<lb/>deut estre dernier son grenier, luy ait parlé, n’en ayant jamais rien
+							<lb/>veu, ny apperceu aucune chose au <placeName ref="loc008545.03">Walriß</placeName>.</seg> <seg>Lors que le <term ref="lem018921.01">cheval</term>
+						<lb/>de <choice><abbr>monseig<hi rend="sup">r</hi></abbr><expan>monseigneur</expan></choice> l’advoyer <persName>König</persName> devient malade, ceux de son logis
+						<lb/>l’appellarent et luy donnarent <measure type="currency" quantity="2" unit="bz">deux batz</measure> a ce qu’elle pria pour
+						<lb/>la guarison d’icelluy, ce qu’elle fist <term ref="lem015622">incontinent</term>, et, ayant achepté
+								<lb/>un <term ref="lem018921.01">cheval</term> de cyre, l’offrit a <choice><abbr>mons<hi rend="sup">r</hi></abbr><expan>monsieur</expan></choice> <choice><abbr>s<hi rend="sup">t</hi></abbr><expan>saint</expan></choice> <persName ref="per000795a.11">Anthoyne</persName>, mais <add place="above">aprés</add> qu’il
+						<lb/><term ref="lem018017.02">mecheut</term> sans sçavoir de quel mal, <term ref="lem015549.13">confesse</term> d’avoir vrayment dit
+						<lb/>que si on n’ehut appellé le marechal sur <placeName ref="loc007883.05">Les <subst><del>de d</del><add place="inline">Places</add></subst></placeName>, de
+							<lb/>le devoir, avec l’ayde de <choice><abbr>mstr</abbr><expan><term ref="lem018789.02">maistre</term></expan></choice> <persName>Jacob</persName> l’<term ref="lem018790.02">executeur</term>, penser et
+						<lb/>guarir, il ne fust peut estre pas mort, ce qu’elle veut avoir
+								<lb/>dit sans mal penser.</seg> <seg>Estant en outre interrogee surce qu’une <term ref="lem019503.07">posse<lb break="no"/>dee</term> la doit avoir battue jusques au sang sur le cimetiere de <placeName ref="loc007857.02">G<subst><del>e</del><add place="overwritten">u</add></subst>in</placeName>,
+						<lb/>a la veue du chapellain de ce lieu, qui l’exor<subst><del>z</del><add place="overwritten">s</add></subst>izoit. A dit
+						<lb/>que jamais cela se tro<add place="above" type="sign">vera</add> estre vray, ny estant onques estee, sauf avec la
+							<lb/>procession d’icy, mais jamais veu aucune <term ref="lem019503.07">possedee</term>, moings <add place="above" type="sign">avoir</add> estee
+						<lb/>aucunement battue, ny malmenee par semblables gens, que si telles
+						<lb/>affaires se parlent contre elle, on luy fait grand tort et la
+						<lb/>prend on pour un’autre. Bien est il <add place="above">vray</add> que des <date when="1647-04-21">Pasque</date> dernier passé
+						<lb/>en ça, venant un jour de <placeName ref="loc007920">Bourguillon</placeName> et trouvant sur le chemin
+						<lb/>deux femmes <term ref="lem019502.07">possedees</term> qui se battoient tout joingnant la <placeName ref="loc011695.02">Chappelle
+						<lb/><choice><abbr>S<hi rend="sup">t</hi></abbr><expan>Sainte</expan></choice> Anne</placeName> proche la <placeName ref="loc010834.02">porte de Bourguillon</placeName>, elle, ehmeue de compassion,
+						<lb/>principalement de l’une qu’estoit bastonnee et veincue par l’autre,
+						<lb/>se mit a les separer, et prenant le baston a l’une, le luy <term ref="lem015635.11">bailla</term>
+							<lb/>par les reins, parce qu’elle ne soy <add place="above" type="sign">voulloit</add> laisser moderer. Mais que au<lb break="no"/>cune <term ref="lem019503.07">possedee</term> l’ait battue, dit n’estre vray, et qu’il luy ar<lb break="no"/>rive grand tort par ceux qui l’accusent de telles choses. Nye aussy
+						<lb/>de n’avoir onques <add place="above" type="sign">servy</add> de maquerelle, ny commis chose reprehensible.
+						<lb/><term ref="lem019498">Crie mercy</term> avec les larmes aux yeux.</seg></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

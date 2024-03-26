@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2020-09-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-125.30-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 14, S. 360–361</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 14, p. 360–361</idno>
+					</msIdentifier>
+					<head xml:lang="de">Louise Monod-Blanc – Verhör und Urteil</head>
+					<head xml:lang="fr">Louise Monod-Blanc – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1646-12-11" to="1646-12-15"/>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc> 		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+					<pb n="360"/><p><lb/><placeName ref="loc007683.20">Thurn</placeName>, <origDate when="1646-12-11">11<hi rend="sup">ten</hi> <foreign xml:lang="la">decembris</foreign> 1646</origDate>
+						<seg><lb/><persName ref="per013748a.02">Mathyß Albärth</persName></seg>
+						<seg><lb/><abbr>Hr</abbr> <persName ref="per013479a.02">Reynoldt</persName></seg>
+						<seg><lb/><persName ref="per013433a.01">Techterman</persName>, <persName ref="per006528a.03">Possardt</persName></seg>
+						<seg><lb/><persName ref="per006817a.02">Schaller</persName>, <persName ref="per012380a.01">Python</persName></seg>
+						<seg><lb/><persName ref="per013439a.01">Von Montenach</persName>, <persName ref="per013434a.01">Des Granges</persName></seg></p>
+						<p><seg><persName ref="per017126a.01">Louysa Blanc</persName> de <placeName ref="loc009823.02">Lentignye</placeName> nonobstant examination requise
+						<lb/>par l’instrument qu’on luy a appliqué a la jambe, n’a rien
+							<lb/>voullu <term ref="lem015549.01">confesser</term> outre sa precedente <term ref="lem019465.01">confession</term>, a laquelle aprés
+						<lb/>quelque variation, elle est demeuree constante. Si non qu’elle
+						<lb/>a dit n’avoir d’autres complices, que un certain faiseur des
+						<lb/>panniers, qui est mort desja avant <date dur-iso="P1Y">un an</date>, icelluy avoir esté en<lb break="no"/>viron <date dur-iso="P1Y">un an</date> a la <term ref="lem017043">secte</term> avec elle, au bas des <placeName ref="loc010302">Arbognes</placeName> soubz
+						<lb/><placeName ref="loc010145">Corserey</placeName>. Lequel estoit un vieil <term ref="lem017275.02">Bourgognon</term> refugié, avec
+						<lb/>la barbe blanche, ne sçait comme il s’appelloit. Plus dit
+						<lb/>qu’une certaine femme refugiee de <placeName ref="loc005628.02">Bourgogne</placeName>, de stature moyen<lb break="no"/>nement longue et espaisse, aagee environ <measure type="age" quantity="40" unit="year">40 ans</measure>, portant
+						<lb/>un chappeau de <term ref="lem015397.03">paslie</term> et des habits de toille noire faicts a
+						<lb/>la mode bourguignotte, a esté environ <date dur-iso="P6M">demy an</date> a la <term ref="lem017043">secte</term>
+						<lb/>avec elle, comme aussy un <term ref="lem017275">Bourguignon</term>, aagé environ
+						<lb/><date dur-iso="P45Y">45 ans</date>, qui va portant un grand fardeau des <term ref="lem016278">hardes</term> et
+						<lb/>trafficquant ça et la, comme a <placeName ref="loc005708.03">Gruyere</placeName> et ailleurs, lequel
+						<lb/>est de moyenne stature, avec une petite barbe moitié noire,
+						<lb/>moitié gryse, estant habillé comme les autres refugiés&#160;; et lors
+						<lb/>qu’il fust a la <term ref="lem017043">secte</term>, dit qu’il battoit des mains sur une
+						<lb/>pierre, tantost s’appuyoit des mains sur les genoux&#160;; ne
+					<pb n="361"/><lb/>sçait comme il s’appelloit, ny ladite femme, laquelle va tousjours voya<lb break="no"/>gant ça et la, faisant des voyages a <placeName ref="loc000085.10">Nostre Dame des Hermites</placeName>
+						<lb/>et aux lieux de devotion&#160;; ne sçait ou ils pourroient estre a present
+						<lb/>et ne croit qu’ils soient au pais, car ils s’en vont a tout coup
+						<lb/>en <placeName ref="loc005628.02">Bourgogne</placeName> et reviennent&#160;; disant n’avoir ehu d’autres
+						<lb/>complices que ceux la, ny faict autre mal que ce qu’est specifié
+						<lb/>cy devant&#160;; priant Dieu, la Vierge et messeigneurs qu’ils
+							<lb/>la veuillent pardonner, voullant volonterement mourir com<lb break="no"/>me ils leur plaira pour l’effacement de ses <term ref="lem019494.02">crimes</term>. <term ref="lem019498">Crie
+						<lb/>mercy</term>.</seg></p>
+						<p><lb/><add place="left margin">Ist dem <origDate when="1646-12-15">15<hi rend="sup">ten</hi> <choice><abbr>xbris</abbr><expan>decembris</expan></choice>
+							<lb/>1646</origDate> mit dem <term ref="lem004668.01">strang</term>
+							<lb/>hingericht unndt ins
+							<lb/><term ref="lem012936.08">fühwr</term> geworffen
+							<lb/>worden. Ist auch in
+							<lb/>angebung der in der
+							<lb/>letsten <term ref="lem005044">examination</term>
+							<lb/>beklagten beständig
+							<lb/>verbliben.</add><note>Ce passage se trouve dans la marge de gauche, au début du procès-verbal de l’interrogatoire.</note></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

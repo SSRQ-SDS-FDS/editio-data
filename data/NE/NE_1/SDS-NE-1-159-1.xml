@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-159-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN 14, p.&#160;447-448</idno>
+               </msIdentifier>
+               <head>Loi des Trois Etats sur les sentiers de vignes</head>
+               <msContents>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="34"/>
+                              <width unit="cm" quantity="47.3"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1788-04-29"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_371">SDS NE 1, N<hi rend="sup">o</hi> 159</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key004056"></term>
+               <term ref="key000728"></term>
+               <term ref="key000740"></term>
+               <term ref="key003042"></term>
+               <term ref="key005821"></term>
+               <term ref="key000376"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="447" facs="AEN_EN_14_446_447"/>
+               <div>
+                        <p>
+                           <lb/>1<hi rend="sup">o</hi> Tout propriétaire de vigne pourra obliger
+                           <pb n="448" facs="AEN_EN_14_448_449"/>
+                           <lb/>le propriétaire de la vigne voisine à établir une 
+                           <lb/>ligne de séparation entre les deux vignes laquelle 
+                           <lb/>ligne aura deux pieds de largeur dont chacun des 
+                           <lb/>deux propriétaires riverains fournira la moitié 
+                           <lb/>à prendre dès le centre ou millieu des bornes.
+                           </p>
+                           <p><lb/>2<hi rend="sup">o</hi> Tout sentier public dans un vignoble
+                              <lb/>quelconque devra être mis au moins de trois pieds de 
+                              <lb/>largeur dont chaque voisin fournira la moitié,
+                              <lb/>à moins que l’un des deux n’ait des droits qui
+                             <lb/>l’en exemptent.
+                              </p>
+                  <p><lb/>3<hi rend="sup">o</hi> De même tout sentier qui sans être public 
+                     <lb/>servira de passage à un ou plusieurs proprié<lb break="no"/>taires de vignes devra être de la même largeur 
+                     <lb/>de trois pieds.
+                     </p>
+                  <lb/>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+               <p>AEN, Registre des Trois&#160;États, X, 29&#160;avril&#160;1788 (sans pagination).</p>
+               <p>Éd.&#160;Recueil de pièces officielles, I, p.&#160;138-140.</p>
+               <p>Matile, Plaits, p.&#160;114-115.</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

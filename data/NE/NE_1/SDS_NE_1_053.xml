@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:lang="fr">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXI<hi rend="sup">e</hi> partie&#160;: Les sources du droit du canton de Neuchâtel, Tome 1&#160;: Les sources directes</title>
+            <editor>
+               <persName>Dominique Favarger</persName>
+            </editor><editor><persName>Maurice de Tribolet</persName>
+            </editor>
+            <respStmt>
+               <persName>Dominique Favarger</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Maurice de Tribolet</persName>
+               <resp key="transcript"/>
+            </respStmt>
+            <respStmt>
+               <persName>Arnaud Besson</persName>
+               <resp key="qualitycheck"/>
+            </respStmt>
+            <respStmt>
+               <persName>Adrien Wyssbrod</persName>
+               <resp key="tagging"/>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+            <date type="electronic" when="2022"/>    <date type="print" when="1982"/>
+            <availability><p xml:id="facs">Archives de l'État de Neuchâtel (AEN)</p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence></availability>
+   </publicationStmt>
+         <seriesStmt xml:id="ssrq-sds-fds">
+            <title>Les sources du droit suisse</title>
+            <respStmt>
+               <orgName>Fondation des
+      sources du droit de la Société suisse des juristes</orgName>
+               <resp/>
+            </respStmt>
+            <idno>SDS-NE-1-53-1</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository xml:lang="fr">Archives de l'État de Neuchâtel</repository>
+                  <idno xml:lang="fr">AEN EN-5, fol.&#160;94v-95r</idno> 
+               </msIdentifier>
+               <head>Ordonnance des cantons sur les engagères</head>
+               <msContents>
+                  <summary></summary>
+                  <msItem>
+                     <textLang xml:lang="fr"/>
+                     <filiation type="original"/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>Papier</material>
+                        </support>
+                        <extent>
+                           <dimensions type="leaves">
+                              <height unit="cm" quantity="33.7"/>
+                              <width unit="cm" quantity="22"/>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origDate when="1525-05-07"/>
+                     <origPlace ref="loc007786">Neuchâtel</origPlace>
+                  </origin>
+               </history>
+               <additional>
+                  <listBibl>
+                     <head>Édition</head>
+                     <bibl><ref target="https://www.ssrq-sds-fds.ch/online/NE_1/index.html#p_148">SDS NE 1, N<hi rend="sup">o</hi>&#160;53</ref></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               <ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien/fr"/>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+               <term ref="key005049"></term>
+               <term ref="key003331"></term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text>
+            <body>
+               <pb n="94v" facs="AEN_EN_5_94v_95r"/>
+               <div>
+                  <p>
+                     <seg><add place="left margin">1525</add>
+                     <lb/>Le dimanche aprés invention sainte croix 1525 <gap reason="missing"/></seg> <seg><pb n="95r"
+                        facs="AEN_EN_5_94v_95r"/><note>La transcription reprend à la 10<hi rend="sup">ème</hi> ligne.</note>
+                     <lb/>Messieurs des Ligues <lb/>ont laissé les engagières lesquelles aucunes ont
+                     <lb/>acquises sur des vignes et dont ils ont lettres et sceaux <lb/>demeurer
+                     auprès de leurs acquisitions, toutesfois par telle <lb/>reserve&#160;: quant
+                     les retenues redonderont avec la moytié <lb/>de la somme principalle, qu’ils
+                     peuvent rembre la moytié&#160;; <lb/>et que nully ne doit doresenavant achepter
+                     que cinq pour <lb/>cent, et cent livres pour un muid de vin, pareillement
+                     <lb/>cent livres pour un muid de froment; et non autrement. <lb/>Et sy on se
+                     baille l’un a l’autre un an de terme pour rembre, <lb/>ledit reachept sera lors
+                     perpétuel, toutesfois mesdits seigneurs <lb/>ne veulent rien avoir ordonné pour
+                     le temps passé. </seg></p>
+               </div>
+            </body>
+            <back><div><p>Références originales de l'édition papier Favarger&#160;1982&#160;:</p>
+                         <p>Copie d'une traduction de l'allemand (XVIII<hi rend="sup">e</hi>&#160;siècle) dans AEN, Registre des Trois Etats, I, fol.&#160;94v-95.</p>
+                <p>Ed. Matile, <hi rend="italic">Plaits</hi>, p.&#160;262 (texte modernisé).</p></div></back>
+         </text>
+      </group>
+   </text>
+</TEI>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2021-02-22"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-178.7-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 16, S. 141</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 16, p. 141</idno>
+					</msIdentifier>
+					<head xml:lang="de">Margreth Freffer-Corpataux – Verhör und Urteil</head>
+					<head xml:lang="fr">Margreth Freffer-Corpataux – Interrogatoire et jugement</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate from="1663-08-04" to="1663-08-07"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head/>
+							<bibl/>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		  </fileDesc>   <encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<p><lb/><hi rend="outdent"><placeName ref="loc007683.04">Bößer thurn</placeName></hi>, den <origDate when="1663-08-04">4<hi rend="sup">ten</hi> <foreign xml:lang="la">augusti</foreign> 1663</origDate></p>
+						<p><seg><lb/><abbr>H</abbr> <choice><abbr>groß</abbr><expan>großweibel</expan></choice><note>Gemeint ist <persName ref="per026056a">Hans Jakob Buman</persName>.</note></seg>
+							<seg><lb/><abbr>H</abbr> <persName ref="per026102a.01">Python</persName>, <abbr>h</abbr> <persName ref="per018632a.01">Rämi</persName></seg>
+							<seg><lb/><persName ref="per026304a.02">Zurthannen</persName>, <persName ref="per026321a.01">Montenach</persName></seg>
+							<seg><lb/><persName ref="per026289a.01">Amman</persName></seg></p>
+						<p><seg><lb/><persName ref="per022472a.04">Margereth Corpastour</persName>, mit dem lähren <term ref="lem006591">seil</term> <term ref="lem016150.02">uffgezogen</term>
+						<lb/>und über die uffgenombne <term ref="lem016288">inquisition</term> <term ref="lem013059.03">umbständtlich</term> erfragt,
+						<lb/><term ref="lem015124">erhaltet</term> ihr vorige <term ref="lem016794.05">bekhandtnuß</term> und versprechung in
+							<lb/>allen puncten. Will ein ehrliche frauw und nit ein <term ref="lem006693.02">hex</term>
+							<lb/>sein. Pittet, daß die <term ref="lem018812.02">beseßnin</term>, welche an ihrer bößen
+						<lb/>reputation und jetz lydender <term ref="lem012962.01">pein</term> <subst><del>y</del><add place="overwritten">e</add></subst>intzige ursach ist,
+							<lb/>neben ihr in die <term ref="lem013000.01">tortur</term> geschlagen werde. <subst><del>Sie</del><add place="inline">Die</add></subst> <term ref="lem018812.02">beseßnin</term>
+							<lb/>habe 5 <term ref="lem017014.02">banckharten</term> gehabt, und sye <term ref="lem019356.01">chusa</term><note>Die Bedeutung dieses Begriffs ist nicht gänzlich gesichert.</note> geweßen
+							<lb/>der letsten, von <placeName ref="loc007982.05">St. Wolffgang</placeName> allhier verbrunnenen <term ref="lem006693.02">hex</term>.
+						<lb/>Diße wölle ihro alles übell.</seg> <seg>Wilt nit <term ref="lem016680.02">khandtlich</term>
+						<lb/>syn, geredt zu haben, daß wan man einen thurn ihren
+							<lb/>solte anhencken, sie niehe etwaß <term ref="lem011468.04">bekhennen</term> wolte.</seg>
+							<seg><lb/><term ref="lem011468.03">Bekhent</term> in dem <placeName ref="loc008105.01">Keller</placeName>, allwo sie <term ref="lem009330.04">yngezogen</term> worden, den beicht<lb break="no"/>vatter
+							begehrt zu haben, mit <term ref="lem016814">vermelden</term>, sie befinde sich übell.
+						<lb/>Und wan sie sterben würde, so möchte man sagen, sie hette
+						<lb/>sich selbs umbgebracht. Continuiert ihr <subst><del>pitt</del><add place="inline">underthänigste</add></subst>
+							<lb/><add place="left margin">pitt</add> an einer gnädigen oberkheit umb <term ref="lem004684.08">verzüchung</term>.</seg></p>
+						<p><lb/><add place="bottom">Ist den <origDate when="1663-08-07">7 <foreign xml:lang="la">augusti</foreign> 1663</origDate> uff gnadt hin <term ref="lem018848.02">vereydet</term> worden uß
+						<lb/><choice><abbr>m h</abbr><expan>meine herren</expan></choice> <term ref="lem011913.05">bottmässigkheit</term>
+							und <placeName ref="loc010883.04">Murttner gebieth</placeName>. Geschach
+							<lb/>durch den weibel <persName ref="per013985a.04">Jacob Gardtner</persName> in by syn <abbr>h</abbr> <persName ref="per026058a.02">Jost Ignatii
+							<lb/>Progins</persName>, des <term ref="lem000671.08">zollners</term> <persName>Augustyn Philiponats</persName>, <persName>Rudolff
+						<lb/>Schürmans</persName>, <persName>Hannß Jacoben Wullierets</persName>, <persName>Steffan Kellern</persName>
+						<lb/>und anderen mehr. Neben darmit geschworeren <term ref="lem001262.05">urphet</term>,
+						<lb/>sich wider niemandt zu rechen.</add></p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>

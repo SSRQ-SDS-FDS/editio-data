@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.ssrq-sds-fds.ch/tei/TEI_Schema_SSRQ.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" 
+	xml:lang="de" xmlns:ssrq="http://ssrq-sds-fds.ch/ns/nonTEI">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>IX. Abteilung: Die Rechtsquellen des Kantons Freiburg, Erster Teil: Stadtrechte, Zweite Reihe: Das Recht der Stadt Freiburg,
+					Band 8: Freiburger Hexenprozesse 15.–18. Jahrhundert</title><editor>
+    <persName>Rita Binz-Wohlhauser</persName>
+</editor>
+<editor>
+    <persName>Lionel Dorthe</persName>
+</editor>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="transcript"/>
+				</respStmt>
+				<respStmt>
+					<persName>Rita Binz-Wohlhauser</persName>
+					<persName>Lionel Dorthe</persName>
+					<resp key="tagging"/>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt><publisher>SSRQ-SDS-FDS</publisher>
+				<date type="electronic" when="2019-05-29"/>
+				<date type="print" when="2022-06-10"/>
+			<availability>
+    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+</availability></publicationStmt>
+			<seriesStmt xml:id="ssrq-sds-fds">
+				<title>Sammlung Schweizerischer Rechtsquellen</title>
+				<respStmt>
+					<orgName>Rechtsquellenstiftung des Schweizerischen Juristenvereins</orgName>
+					<resp>Herausgeberschaft</resp>
+				</respStmt>
+				<idno>SSRQ-FR-I_2_8-65.9-1</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository xml:lang="de">Staatsarchiv Freiburg</repository>
+						<repository xml:lang="fr">Archives de l’État de Fribourg</repository>
+						<idno xml:lang="de">StAFR, Thurnrodel 11, S. 334–335</idno>
+						<idno xml:lang="fr">AEF, Thurnrodel 11, p. 334–335</idno>
+					</msIdentifier>
+					<head xml:lang="de">Jacques Fallier – Verhör</head>
+					<head xml:lang="fr">Jacques Fallier – Interrogatoire</head>
+					<msContents>
+						<summary></summary>
+						<msItem>
+							<textLang xml:lang="fr"/>
+							<textLang xml:lang="de"/>
+							<filiation type="current"></filiation>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc><support><material>Papier</material></support></supportDesc>
+						</objectDesc></physDesc>
+					<history>
+						<origin>
+							<origDate when="1623-08-21"></origDate>													</origin>
+					</history>
+					<additional>
+						<listBibl>
+							<head></head>
+							<bibl></bibl>
+						</listBibl>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc><editorialDecl><p><ref target="https://www.ssrq-sds-fds.ch/wiki/Transkriptionsrichtlinien"/></p></editorialDecl></encodingDesc>
+		<profileDesc>
+			<textClass default="false">
+				<keywords scheme="http://www.ssrq-sds-fds.ch/taxonomie">
+					<term/>
+				</keywords>
+			</textClass>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<group>
+			<text>
+				<body>
+					<div>
+						<pb n="334"/><p><lb/><foreign xml:lang="la">Ibidem, <choice><abbr>jud</abbr><expan>judex</expan></choice></foreign> <abbr>h</abbr> <persName ref="per006840">Fleischman</persName><note>Gemeint ist ein Stadtweibel.</note>
+							<seg><lb/><origDate when="1623-08-21">21 <foreign xml:lang="la"><choice><abbr>aug</abbr><expan>augusti</expan></choice></foreign></origDate>, <abbr>h</abbr> <persName ref="per006751">Erhard</persName>, <abbr>h</abbr> <persName ref="per009261">Techterman</persName></seg>
+							<seg><lb/><persName ref="per009506"><choice><abbr>M</abbr><expan>Marti</expan></choice> Boccard</persName>, <persName ref="per009451a.01"><choice><abbr>C v</abbr><expan>Christoph von</expan></choice> Ligriz</persName></seg>
+						<seg><lb/><choice><abbr>W</abbr><expan>Weibel</expan></choice></seg></p>
+						<p><gap reason="irrelevant"/><note>Die ersten Abschnitte betreffen andere Personen.</note></p>
+						<pb n="335"/><p><lb/><foreign xml:lang="la">Ibidem, presentibus quibus supra</foreign><note>Das Verhör fand im <placeName ref="loc007683">Bösen Turm</placeName> statt.</note></p>
+						<p><seg><lb/><add place="left margin"><foreign xml:lang="la">Nihil solvit</foreign>.</add></seg>
+						<seg>Le susdit <persName ref="per009510a.06">Jaques Fally</persName> de <placeName ref="loc007934.04">Mignieres</placeName>
+							<lb/>estant <term ref="lem019548.03">eslevé</term> avec la simple <term ref="lem018231">corde</term> a
+						<lb/>premierement <term ref="lem015549.07">confessé</term> <persName ref="per011219a">Satan</persName> s’estre apparu
+						<lb/>vers <placeName ref="loc007934.04">Mignieres</placeName>, il y a environ <date dur-iso="P2Y">deux ans</date>,
+						<lb/>a forme d’un homme noir avec des gros
+						<lb/>pieds, <subst><del>et</del><add place="inline">lequel</add></subst> luy dit qu’il se donnat a luy,
+						<lb/>ce que toutefois il n’auroit vollu faire, mais
+						<lb/>invocant le nom de <persName ref="per000353">Jesus</persName> et <persName ref="per000169">Maria</persName>, le
+						<lb/><term ref="lem015433.06">malin</term> disparut.</seg></p>
+						<p><lb/>Mais se trovant un aultre fois au predit
+							<lb/>lieu, <persName ref="per011219a">Satan</persName> nommé <persName ref="per029437a">Piaraset</persName> luy est derechef
+						<lb/>comparu, et luy dit qu’il se donnat a luy,
+						<lb/> disant qu’il estoit desja sien pour avoir
+						<lb/>fait un faulx serment, luy promettant
+							<lb/>assés or et argent. Donc il <term ref="lem019541.20">renya</term>
+						<lb/>Dieu son Createur et la Vierge <persName ref="per000169a.05">Marie</persName>,
+							<lb/>et luy fist <term ref="lem018915.01">hommage</term> en le <term ref="lem019481.05">baisant</term> a la main,
+						<lb/>laquelle estoit grosse et froide comme
+						<lb/>glasse, et se donnat a luy.</p>
+						<p><lb/>En aprés <persName ref="per011219a">Satan</persName> luy a donné une grande
+						<lb/>somme d’argent, que puis aprés ne furent
+							<lb/>que de <term ref="lem018302.09">feullies</term> de <term ref="lem016908.04">chasnoz</term>.</p>
+						<p><lb/>Plus a <term ref="lem015549.07">confessé</term> <persName ref="per011219a">Satan</persName> luy avoir commandé
+						<lb/>de fair mourir des gens et bestes, les
+						<lb/>touchant seulement avec la main sus l’espaule
+							<lb/>ou <term ref="lem019525.05">soufflant</term> a l’encontre, ce que toutefois
+						<lb/>n’auroit vollu faire, donc le <term ref="lem015433.06">malin</term> l’a battu
+						<lb/>par deux fois.</p>
+						<p><lb/>Item a <term ref="lem015549.07">confessé</term> avoir esté par 3 ou 4 fois
+							<lb/>a la <term ref="lem017043.01">secte</term> au lieu dit au <placeName>Croux</placeName><note>L’dentification du lieu est incertaine. Il existe plusieurs lieux-dits aux alentours du ruisseau du <placeName ref="loc008562">Creux des Prés</placeName>, comme le <placeName ref="loc008564">Creux des Roches</placeName> ou le <placeName ref="loc008565">Creux du Loup</placeName>. Un peu plus éloigné, mais plus proche de la Petite Glâne, il existe un lieu-dit <placeName ref="loc008566">Le Crau Renaud</placeName>.</note> vers <placeName ref="loc007932.01">Vesin</placeName>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+		<back>
+			<div>
+				<p/>
+			</div>
+		</back>
+	</text>
+</TEI>
+<?oxy_options track_changes="on"?>
